@@ -1,0 +1,21 @@
+%h1 Listing games
+%table
+  %thead
+    %tr
+      %th ID
+      %th Moves
+      %th Victor
+      %th
+      %th
+      %th
+  %tbody
+    - @games.each do |game|
+      %tr
+        %td= game.id
+        %td= game.board_states.count - 1
+        %td= game.over? ? Game::PLAYER_MAP[game.game_outcome] : 'in progress'
+        %td= link_to 'Show', game
+        %td= link_to 'Edit', edit_game_path(game)
+        %td= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Game', new_game_path

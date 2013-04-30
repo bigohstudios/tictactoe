@@ -1,0 +1,55 @@
+%p#notice
+  - if @game.over?
+    Game ended
+    - if @game.draw?
+      as a draw
+    - else
+      = "with victory for #{Game::PLAYER_MAP[@game.game_outcome]}"
+  - else
+    = "#{Game::PLAYER_MAP[@game.current_player]}'s turn"
+
+%table.table
+  %tr
+    = square_for(:s1,@game) 
+    = square_for(:s2,@game)
+    = square_for(:s3,@game)
+  %tr
+    = square_for(:s4,@game)
+    = square_for(:s5,@game)
+    = square_for(:s6,@game)
+  %tr
+    = square_for(:s7,@game)
+    = square_for(:s8,@game)
+    = square_for(:s9,@game)
+= link_to 'Edit', edit_game_path(@game)
+|
+\#{link_to 'Back', games_path}
+
+%h3 Moves
+
+%table.table
+  %thead
+    %tr
+      %th Index
+      %th s1
+      %th s2
+      %th s3
+      %th s4
+      %th s5
+      %th s6
+      %th s7
+      %th s8
+      %th s9
+  %tbody
+    - @game.board_states.each do |bs|
+      %tr
+        %td= bs.turn_index
+        %td= bs.s1
+        %td= bs.s2
+        %td= bs.s3
+        %td= bs.s4
+        %td= bs.s5
+        %td= bs.s6
+        %td= bs.s7
+        %td= bs.s8
+        %td= bs.s9
