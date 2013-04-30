@@ -1,6 +1,9 @@
 == README
 
 Rails 4.0.0
+
 Ruby 2
+
+== Description
 
 Test Tic-Tac-Toe project for Neural Network Study
