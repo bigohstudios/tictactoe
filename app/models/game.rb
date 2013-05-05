@@ -27,6 +27,17 @@ class Game < ActiveRecord::Base
     board_states.ordered.first || nil
   end
 
+  # Processes all turns until a human's input is required
+  def process_ai_turns!
+    current_player_type = send("player_#{PLAYER_MAP[current_player].downcase}")
+    until current_player_type == 'Human' || over?
+      ai_opponent = current_player_type.classify.constantize
+      self.board_states.reload
+      take_turn(ai_opponent.get_move(self.current_state))
+      current_player_type = send("player_#{PLAYER_MAP[current_player].downcase}")
+    end
+  end
+
   # ignoring verifying valid square
   def take_turn(square)
     new_state = current_state.copy

@@ -6,6 +6,7 @@
     %li
       Player O:
       = @game.player_o.titleize
+    %li= link_to 'back to games', games_path
 
 %p#notice
   - if @game.over?

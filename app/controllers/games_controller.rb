@@ -28,7 +28,8 @@ class GamesController < ApplicationController
 
     respond_to do |format|
       if @game.save
-        format.html { redirect_to @game, notice: 'Game was successfully created. X\'s turn' }
+        @game.process_ai_turns!
+        format.html { redirect_to @game, notice: 'Wouldn\'t you prefer a nice game of chess?' }
         format.json { render action: 'show', status: :created, location: @game }
       else
         format.html { render action: 'new' }

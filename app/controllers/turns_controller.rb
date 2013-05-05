@@ -3,6 +3,7 @@ class TurnsController < ApplicationController
     @game = Game.find(params[:game_id])
 
     if @game.take_turn(params[:square])
+      @game.process_ai_turns!
       if @game.over?
         flash[:notice] = "Game Over!"
       end
