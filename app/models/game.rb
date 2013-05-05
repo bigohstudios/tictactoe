@@ -3,6 +3,13 @@ class Game < ActiveRecord::Base
 
   after_create :make_first_state
 
+  PLAYER_TYPES = [
+    'Human',
+    'RandomOpponent',
+    'ComputerOne',
+    'ComputerTwo'
+  ]
+
   PLAYER_MAP = {
     1  => 'X',
     -1 => 'O' 

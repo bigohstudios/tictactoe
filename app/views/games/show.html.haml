@@ -1,3 +1,12 @@
+- content_for :game_info do
+  %ul
+    %li
+      Player X:
+      = @game.player_x.titleize
+    %li
+      Player O:
+      = @game.player_o.titleize
+
 %p#notice
   - if @game.over?
     Game ended

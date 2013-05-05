@@ -1,0 +1,17 @@
+= form_for(@game) do |f|
+  - if @game.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@game.errors.count, "error")
+        prohibited this game from being saved:
+      %ul
+        - @game.errors.full_messages.each do |msg|
+          %li= msg
+  %p
+    = f.label :player_x
+    = f.select :player_x, Game::PLAYER_TYPES, :selected => 'Human'
+  %p
+    = f.label :player_o
+    = f.select :player_o, Game::PLAYER_TYPES, :selected => 'RandomOpponent'
+  .actions
+    = f.submit
