@@ -4,7 +4,7 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
-    @games = Game.all(:include => :board_states)
+    @games = Game.includes(:board_states).references(:board_states)
   end
 
   # GET /games/1

@@ -1,6 +1,6 @@
 # This opponent randomly picks a square that's available
 class RandomOpponent
-  def self.get_move(board_state)
+  def self.get_move(board_state,current_player)
     Rails.logger.debug "Moving with board state: #{board_state.inspect}"
     move = rand_square
 

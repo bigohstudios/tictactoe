@@ -12,8 +12,8 @@
     - @games.each do |game|
       %tr
         %td= game.id
-        %td= game.board_states.count - 1
-        %td= game.over? ? Game::PLAYER_MAP[game.game_outcome] : 'in progress'
+        %td= game.board_states.length - 1
+        %td= game.over? ? Game::PLAYER_MAP[game.game_outcome].nil? ? 'draw' : Game::PLAYER_MAP[game.game_outcome] : 'in progress'
         %td= link_to 'Show', game
         %td= link_to 'Edit', edit_game_path(game)
         %td= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' }
