@@ -4,7 +4,7 @@ class CreateEmails < ActiveRecord::Migration
       t.string   :filename
       t.float :character_count, :default => 0.0
       t.float :alpha_numeric_count, :default => 0.0
-      t.float   :alpha_numeric_ratio, :default => 0.0
+      t.float :alpha_numeric_ratio, :default => 0.0
       t.float :digit_count, :default => 0.0
       t.float :whitespace_count, :default => 0.0
 
