@@ -1,0 +1,32 @@
+Re: About USB hard drives and errorsOn Thu, 08 Apr 2010 18:44:33 -0600, Paul E Condon wrote:
+
+> I want to use the low cost high capacity hard drives that are for sale
+> in places like Best Buy and Costco. I have put ext3 on several of them
+> and started experimenting. The results so far are puzzling.
+> 
+> I do get errors. So I decided to do scans for bad blocks.  The drives
+> I'm using are all Western Digital because they have been the lowest cost
+> at the times I buy at Costco. Also all are 500GB.
+
+(...)
+
+Try passing the SMART test (by using the manufacturer's test disk or 
+"smartctl", but as they are attached to a USB port, smartmontools may 
+have problems to detect and scan the device).
+
+It won't tell you a concrete number of "bad blocks", but higher values in 
+"Reallocated Sectors Count" could give you an idea about the remapping 
+operations performed by the disk (the lower the better).
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.09.06.38.02@csmining.org
+
+

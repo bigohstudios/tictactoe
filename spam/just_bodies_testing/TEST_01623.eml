@@ -1,0 +1,16 @@
+Re: Boot / LVM best practicesFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Stan Hoeppner wrote:
+> If you're going to buy two
+> drives, you'd be stupid to not use mirroring for fault tolerance and a
+> little added read performance here and there (depends on application).
+
+I disagree. Mirroring only protects you against drive failures and not
+human error.  Using a second drive as a target for a tool which stores
+incremental backups (such as rdiff-backup, or bup (package forthcoming))
+can save you from human mistakes too.  For common home setups, I would
+recommend that over mirroring.
+
+

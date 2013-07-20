@@ -1,0 +1,15 @@
+Re: [OT] Re: Jobs: Thoughts on Java> Nothing stops anyone from using a portable code engine (e.g. C code or Java compiled to C) and then put a native Cocoa Touch GUI on it.
+
+Actually, the 4.0 SDK specifically prohibits something like "Java
+compiled to C". It states that the program must be originally written
+in one of the Apple-approved languages.
+
+-Alexei
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

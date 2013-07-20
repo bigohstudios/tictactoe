@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId12892ca1e452f73c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs10233wfo;
+        Thu, 13 May 2010 10:50:40 -0700 (PDT)
+Received: by 10.114.19.11 with SMTP id 11mr154490was.139.1273773039589;
+        Thu, 13 May 2010 10:50:39 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 13si2338545pzk.7.2010.05.13.10.50.39;
+        Thu, 13 May 2010 10:50:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 5292B1C7AFE98
+	for <mlsubscriber.tech@csmining.org>; Thu, 13 May 2010 10:50:39 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 4DFEB279EF3C7
+	for <mlsubscriber.tech@csmining.org>; Thu, 13 May 2010 10:50:39 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 5D7C4279EF152
+	for <objc-language@lists.apple.com>;
+	Thu, 13 May 2010 10:50:18 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 4D1B7D2D89A4
+	for <objc-language@lists.apple.com>;
+	Thu, 13 May 2010 10:50:18 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-b3-4bec3bd8953d
+Received: from smtp.zoner.com (smtp.zoner.com [217.198.112.165])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	C4.85.07800.9DB3CEB4; Thu, 13 May 2010 10:50:18 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp.zoner.com (Postfix) with ESMTP id 91BF8807D48;
+	Thu, 13 May 2010 19:50:15 +0200 (CEST)
+Received: from [10.0.0.7] (121.61.broadband11.iol.cz [90.178.61.121])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by smtp.zoner.com (Postfix) with ESMTPSA id EC37B8009B8;
+	Thu, 13 May 2010 19:50:14 +0200 (CEST)
+Mime-Version: 1.0 (Apple Message framework v1077)
+Content-Type: text/plain; charset=utf-8
+From: =?utf-8?Q?Ond=C5=99ej_=C4=8Cada?= <ocs@ocs.cz>
+In-Reply-To: <AANLkTimqsO_czhAdxEtuI1JqqTbn8qBwfxUnBzcf6-R6@mail.csmining.org>
+Date: Thu, 13 May 2010 19:50:14 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <3AA5A12A-443B-4E6D-8D69-E4A083776605@ocs.cz>
+References: <t2ja92022a41004111315y4f399596pdfb107eb86563859@mail.csmining.org>
+	<z2ide3c77431004111322v7e93615x6941a344be5353ea@mail.csmining.org>
+	<y2v597e7edb1004111359s8d7c36fewc473913688d153b2@mail.csmining.org>
+	<p2me958890e1004120322o6dfba713q7a122518f00e0af2@mail.csmining.org>
+	<v2m597e7edb1004120352tb11aee6wf1715c75b46eca78@mail.csmining.org>
+	<i2ma92022a41004151500i160f157jacadb68e411ff8@mail.csmining.org>
+	<l2m597e7edb1004151503r5352e445h71353491fe91ae4a@mail.csmining.org>
+	<AANLkTimqsO_czhAdxEtuI1JqqTbn8qBwfxUnBzcf6-R6@mail.csmining.org>
+To: Ariel Feinerman <arielfapple@csmining.org>
+X-Mailer: Apple Mail (2.1077)
+X-Brightmail-Tracker: AAAAARQpHrQ=
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: class variables
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Ariel,
+
+On May 13, 2010, at 5:37 PM, Ariel Feinerman wrote:
+
+> How can we hide -count itself in inherited classes to [instance count] =
+will do a warning and exception?=20
+
+That's generally a grave bug -- see the Liskov substitution principle =
+for details.
+
+If you must, there's a very dirty trick to do the former, a =
+comparatively clean way (but not intended for this) to do the latter:
+
+@interface Subclass:YourClass
+-(double)count; // would report a warning with proper declarations. If =
+you want a hard error, declare eg. NSSize. VERY dirty. Don't.
+@end
+
+@implementation Subclass
+-(int)count { // would throw when called. Somewhat dirty. Don't unless =
+really needed.
+  [self doesNotRecognizeSelector:_cmd];
+  return 0; // just to get rid of the warning
+}
+@end
+
+> Notice MyObject1 inherits from  MyObject, so the instance of MyObject1 =
+is also the instance of MyObject, whether does it means that we must use =
+counter in subclass` instances?
+
+I am not sure what the question means. You haven't to, but generally =
+rather should, depending on the design and your needs -- far as I =
+understand (which is very dubious).
+
+Best,
+---
+Ondra =C4=8Cada
+OCSoftware:     ocs@ocs.cz               http://www.ocs.cz
+private         ondra@ocs.cz             http://www.ocs.cz/oc
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

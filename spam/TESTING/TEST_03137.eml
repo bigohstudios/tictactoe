@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId12878717a5f12d14
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs509813wfb;
+        Sat, 8 May 2010 08:03:43 -0700 (PDT)
+Received: by 10.223.18.2 with SMTP id u2mr1583306faa.73.1273331022465;
+        Sat, 08 May 2010 08:03:42 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w12si4445738fah.35.2010.05.08.08.03.41;
+        Sat, 08 May 2010 08:03:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A1A5F13A56CB; Sat,  8 May 2010 15:03:38 +0000 (UTC)
+Old-Return-Path: <didi.debian@cknow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,NEEDED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AD3AE13A56BF
+	for <lists-debian-kde@liszt.debian.org>; Sat,  8 May 2010 15:03:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, NEEDED=2]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Dg6QK3dJOHQK for <lists-debian-kde@liszt.debian.org>;
+	Sat,  8 May 2010 15:03:25 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) HELO_IP_IN_CL_SUBNET=-1.2 (check from: .cknow. - helo: .homiemail-a3.g.dreamhost. - helo-domain: .dreamhost.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -6.2
+Received: from homiemail-a3.g.dreamhost.com (caiajhbdccac.dreamhost.com [208.97.132.202])
+	by liszt.debian.org (Postfix) with ESMTP id 6F05713A56B3
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 15:03:24 +0000 (UTC)
+Received: from the-shire.localnet (e243048.upc-e.chello.nl [213.93.243.48])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by homiemail-a3.g.dreamhost.com (Postfix) with ESMTP id 381EEC5DE3
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 08:03:21 -0700 (PDT)
+From: Diederik de Haas <didi.debian@cknow.org>
+Organization: Connecting Knowledge
+To: debian-kde@lists.debian.org
+Subject: Re: Best way to install kde-standard
+Date: Sat, 8 May 2010 17:03:15 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-686-bigmem; KDE/4.4.3; i686; ; )
+References: <201005081517.11177.didi.debian@cknow.org>
+In-Reply-To: <201005081517.11177.didi.debian@cknow.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005081703.16728.didi.debian@cknow.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <IAHC0p8muXH.A.-EC.K1X5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32273
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 15:03:38 +0000 (UTC)
+
+I went ahead and tried to get kde-standard in the following way:
+"aptitude install kde-plasma-desktop"
+"aptitude install --without-recommends kde-standard"
+
+Here are my findings:
+
+On 2010-05-08 Diederik de Haas wrote:
+> After rebooting and logging into KDE I noticed the following things:
+> - When plugging in a usb device, device-notifier didn't notice anything and
+> the only way to access  that usb device was to use mount it from Konsole
+> - The battery monitor didn't work at all
+> - I did not have a suspend to disk/ram option
+> - System Monitor - Harddisk didn't see any partitions
+
+Device notifier works as expected, battery monitor works, suspend to disk/ram is not only available, 
+but even working :-) system monitor - harddisk picks up my / and /home just as expected.
+ 
+> The difference in --with-recommends and --without-recommends are so big wrt
+> kde-standard that I think  kde-standard should be installed with the
+> recommended packages.
+> But leaving out network-manager-kde seems to also not install some packages
+> which may have  contributed to the problems described above. On first
+> inspection libgudev-1.0-0 and libknotificationitem-1-1 seem especially
+> relevant.
+
+Since all previous reported issues work now, network-manager-kde is not needed, nor it's 
+dependencies.
+
+> So I would like to know how other ppl are installing kde(-standard) without
+> bloating their system,  but with a properly functional one.
+> Tips/tricks/etc are also welcome.
+
+Although I fixed the issues I had, I'm still interested, especially ppls experience with recommended 
+packages.
+
+Regards,
+  Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005081703.16728.didi.debian@cknow.org
+
+

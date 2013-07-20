@@ -1,0 +1,173 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283a95b16fb298a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs90027wfj;
+        Mon, 26 Apr 2010 07:46:55 -0700 (PDT)
+Received: by 10.87.68.26 with SMTP id v26mr2009277fgk.40.1272293208233;
+        Mon, 26 Apr 2010 07:46:48 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 13si2342429fks.0.2010.04.26.07.46.47;
+        Mon, 26 Apr 2010 07:46:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 04CC013A56C7; Mon, 26 Apr 2010 14:45:23 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.3 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MAILTO_TO_SPAM_ADDR,RCVD_NUMERIC_HELO autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DE96A13A4A7D
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 14:45:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.833 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	RCVD_NUMERIC_HELO=2.067] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id soYXBMS+L9Rx for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 14:45:09 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 8CC1E13A56A0
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 14:45:09 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O6PYV-0007ao-IT
+	for debian-user@lists.debian.org; Mon, 26 Apr 2010 16:45:03 +0200
+Received: from 200.57.201.205 ([200.57.201.205])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 16:45:03 +0200
+Received: from hvw59601 by 200.57.201.205 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 16:45:03 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Hugo Vanwoerkom <hvw59601@care2.com>
+Subject: Re: VM software for personal use?
+Date: Mon, 26 Apr 2010 09:40:38 -0500
+Lines: 81
+Message-ID: <hr48l8$8fu$1@dough.gmane.org>
+References: <87y6ge166m.fsf@berkeley.edu> <4BD2B475.30804@allums.com>	 <hqvg97$bkp$3@dough.gmane.org> <p2u258ced3f1004241456lca0cc515x8112642e541bf1e3@mail.csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 200.57.201.205
+User-Agent: Thunderbird 2.0.0.19 (X11/20081209)
+In-Reply-To: <p2u258ced3f1004241456lca0cc515x8112642e541bf1e3@mail.csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <QGlKX2ycMBC.A.FME.Cca1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575128
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 14:45:23 +0000 (UTC)
+
+B. Alexander wrote:
+> Amen to that! IMHO, vmware merely pays lip service to Linux. 12 years 
+> ago, when we were using Linux on the job, we (and many, many others) 
+> were asking for a Linux client. We are now at VSphere 4, and still only 
+> windows clients.
+> 
+> VMware server is even worse. It runs on Linux, and it worked okay, but 
+> you are frozen in time -- no updates -- lest you break your install. I 
+> did that on my vmware server installation, and then I upgraded. I could 
+> not get the vmware modules to compile on a reasonably modern kernel. So 
+> I went back to an earlier kernel (2.6.30, iirc), and once I got the 
+> modules compiled, the web interface only worked about one time in 3. So 
+> I am pretty much done with vmware.
+> 
+> Now, since I only have 32 bit machines, I guess I'll be doing Xen, since 
+> as good as it is, VBox is good for desktop-type virtualization, rather 
+> than machine consolidation. Even with it's vboxheadless functionality, 
+> its still a bit too dodgy for a group of machines that need to stay up.
+> 
+> --b
+> 
+> On Sat, Apr 24, 2010 at 3:20 PM, Hugo Vanwoerkom <hvw59601@care2.com 
+> <mailto:hvw59601@care2.com>> wrote:
+> 
+>     Mark Allums wrote:
+> 
+>         On 4/23/2010 11:31 AM, Richard Lawrence wrote:
+> 
+>             Hi all,
+> 
+> 
+>             P.S.  Apologies if this question seems too far off-topic for
+>             debian-user.  If there's a better place to ask this
+>             question, I'd like
+>             to know that, too.
+> 
+> 
+>         Virtualbox meets more of your individual criteria than anything
+>         else I can think of, but the open source edition lacks USB.  I
+>         would consider the non-OSE version for now, but only if I were
+>         prepared to migrate to something else, later, depending on what
+>         Oracle may choose to to with it, now that they own Sun.
+> 
+>         Some version of QEMU with KVM will always work, but you
+>         definitely need the KVM bits, because by itself QEMU is not a
+>         speed demon.
+> 
+>         I enjoy Xen-like hypervisors from an aesthetics point-of-view,
+>         but the best ones are not free in any sense.  Microsoft's
+>         Hyper-V flat-out costs money, and VMware's ESXi comes with too
+>         much baggage.  Xen itself is still in a state of flux, and
+>         though the 2.6.32 kernel version is much more stable than
+>         previous versions, I wouldn't call it ready for prime time.
+> 
+> 
+>     And I am getting tired of always having to look around for fixes to
+>     VMware's server whenever you upgrade your kernel, it appears their
+>     Linux attention leaves something to be desired.
+> 
+
+Except... what works very nice in VMware is the NAT and Host Only 
+network setups: works out of the box. You share your home dir thru 
+samba. On XP all I had to setup was a netuse * to mount a net fs. Do the 
+others do it that easy?
+
+Hugo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hr48l8$8fu$1@dough.gmane.org
+
+

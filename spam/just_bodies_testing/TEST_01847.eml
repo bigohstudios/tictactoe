@@ -1,0 +1,24 @@
+Re: About apt, kernel updates and dist-upgradeAbout apt.conf there are these lines:
+
+--<snip>--
+RPM 
+{
+   // Leave list empty to disable
+   AllowedDupPkgs {"^kernel$"; "kernel-smp"; "kernel-enterprise"; };
+   HoldPkgs {"kernel-source"; "kernel-headers"; };
+}
+--</snip>--
+
+How do I tell apt hold all kernel packages? Can I use syntax like 
+"kernel*"; ? 
+
+And I don't quite understand what the part "^kernel$"; means?
+
+-- 
+Peter
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

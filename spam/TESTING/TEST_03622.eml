@@ -1,0 +1,164 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282c02ddd70f400
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs73414wfj;
+        Fri, 23 Apr 2010 11:51:46 -0700 (PDT)
+Received: by 10.143.153.21 with SMTP id f21mr358092wfo.91.1272048705971;
+        Fri, 23 Apr 2010 11:51:45 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 17si1928455pzk.81.2010.04.23.11.51.44;
+        Fri, 23 Apr 2010 11:51:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; domainkeys=hardfail header.From=rob@haptek.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 92CE71BF36A2A
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 11:51:44 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8E1682710666A
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 11:51:44 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 9396D27105C31
+	for <quicktime-api@lists.apple.com>;
+	Fri, 23 Apr 2010 11:50:15 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 777CED466E07
+	for <quicktime-api@lists.apple.com>;
+	Fri, 23 Apr 2010 11:50:15 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-b3-4bd1ebe76987
+Received: from outbound-w18.bluehost.com (outbound-w18.bluehost.com
+	[69.89.16.145])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	2F.55.17067.7EBE1DB4; Fri, 23 Apr 2010 11:50:15 -0700 (PDT)
+Received: (qmail 32250 invoked by uid 0); 23 Apr 2010 18:50:14 -0000
+Received: from unknown (HELO box263.bluehost.com) (69.89.31.63)
+	by mrclean.bluehost.com with SMTP; 23 Apr 2010 18:50:14 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=haptek.com;
+	h=Message-ID:In-Reply-To:References:Date:Subject:From:To:Cc:User-Agent:MIME-Version:Content-Type:Content-Transfer-Encoding:X-Priority:Importance:X-Identified-User;
+	b=r2ayZf1+/9Nr4h2oEYbG+8kahervjDVcyF1fEYjjrxslq1TpYUNvwTlTXs1Gscv2sh5IyQGhaaIXSuZBRkb2XI8GFfb4bCVjltD8F0dS7hK2myBlu38TI4thfIalwJzF;
+Received: from localhost ([127.0.0.1] helo=www.haptek.com)
+	by box263.bluehost.com with esmtpa (Exim 4.69)
+	(envelope-from <rob@haptek.com>)
+	id 1O5Nx7-0000WO-VM; Fri, 23 Apr 2010 12:50:14 -0600
+Received: from 67.164.145.92 ([67.164.145.92])
+	(SquirrelMail authenticated user rob@haptek.com)
+	by www.haptek.com with HTTP; Fri, 23 Apr 2010 12:50:14 -0600
+Message-ID: <289eca33aba4d27c8684c13e4a225b81.squirrel@www.haptek.com>
+In-Reply-To: <y2y4df1667d1004230911t5e4f60d9n69c7029058defca7@mail.csmining.org>
+References: <20100423110539.57913270C1044@lists.apple.com>
+	<420D8DC8-3323-4AF3-8792-8ECBCF71B85B@ecamm.com>
+	<y2y4df1667d1004230911t5e4f60d9n69c7029058defca7@mail.csmining.org>
+Date: Fri, 23 Apr 2010 12:50:14 -0600
+From: rob@haptek.com
+To: "Beth S" <iphonedev@hoagy.org>
+User-Agent: SquirrelMail/1.4.19
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Identified-User: {1080:box263.bluehost.com:haptekco:haptek.com}
+	{sentby:program running on server}
+X-Brightmail-Tracker: AAAAAxPYxU8T2NqXE9m4Hw==
+Cc: quicktime-api@lists.apple.com
+Subject: Re: Any luck with HD web cams?
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Interesting!
+Though I agree with Mark that the Logitech is a pretty darn good camera.
+
+For tracking people though, do you really need HD resolution?
+The Logitech for example slows way down at above 640 x 480 resolution,
+to something below 10 hz as I recall.
+
+You might be better off using a couple of PS 2 Eye cameras, which
+can run at 120 hz at 320 x 240, and treating people as low-resolution,
+but low-latency "blobs".
+
+rob
+
+> Well I actually need two of them hooked up to the same system.  I want to
+> do
+> some XYZ tracking of objects to get rid of our Wiimote tracking.
+>
+> http://rationalcraft.com/Winscape.html
+>
+> Are there really no USB webcams out there that can deliver decent video
+> greater than 640x480 in Quicktime?
+>
+> -Beth.
+>
+> On Fri, Apr 23, 2010 at 8:12 AM, Ken Aspeslagh <ken@ecamm.com> wrote:
+>
+>> Hi Beth:
+>>
+>> If you can get your hands on a Second Generation MacBook Pro (LED
+>> Backlight), one of the Aluminum iMacs, or one of the Apple Displays with
+>> a
+>> built-in cam, these all have a 1280 x 1024 capable built-in iSight. Not
+>> exactly HD but larger than 640x480.
+>>
+>> Thanks,
+>> Ken
+>>
+>> -------------------------------------
+>> "The major difference between a thing that might go wrong and a thing
+>> that
+>> cannot possibly go wrong is that when a thing that cannot possibly go
+>> wrong
+>> goes wrong it usually turns out to be impossible to get at or repair." -
+>> Douglas Adams
+>>
+>>
+>> On Apr 23, 2010, at 7:05 AM, quicktime-api-request@lists.apple.com
+>> wrote:
+>>
+>> > I need to choose a web cam with which to do some Quicktime
+>> experimental
+>> > work.  It would need to give me high quality frames larger than
+>> 640x480.
+>>  I
+>> > tried the Logitech Quickcam Vision Pro last year but wasn't
+>> particularly
+>> > pleased with the quality.  Maybe I was doing something wrong.
+>> >
+>> > What web cams are you developers having good Quicktime luck with?
+>> >
+>> > Thanks,
+>> > -Beth.
+>>
+>>
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/rob%40haptek.com
+>
+> This email sent to rob@haptek.com
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,46 @@
+Re: Mail errors or attacks?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On 25/05/10, David Baron (d_baron@012.net.il) wrote:
+| > > I get a zillion of these, every single day, about every 5 minutes or =
+so:
+| > >=20
+| > >
+| > > 2010-05-24 15:05:38 SMTP call from localhost (dovidhalevi) [127.0.0.1=
+]=20
+| > > dropped: too many syntax or protocol errors (last command was "MAIL=
+=20
+| > > FROM:<jameswellington000.org@[71.121.223.194]> SIZE=3D8814")
+| >=20
+| >         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| >=20
+| > > I am running exim4 heavy on a Sid box.
+| > >
+| > >=20
+| > >
+| > > Exim shows no stuck messages or such. How can I stop this?
+| >=20
+| > It is a spamer...
+| >=20
+| > It it is always the same IP, add it to the backlist
+|=20
+| How do I do this obvious task? In exim? I have fail2ban as well but this =
+is=20
+| not catching this one.=20
+
+Have you tried adding=20
+
+/sbin/iptables -I INPUT -s 71.121.223.194 -j DROP
+
+to /etc/init.d/iptables.rules?
+
+--=20
+JohnRChamplin@columbus.rr.com
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+GPG key 1024D/99421A63 2005-01-05
+EE51 79E9 F244 D734 A012 1CEC 7813 9FE9 9942 1A63
+gpg --keyserver subkeys.pgp.net --recv-keys 99421A63

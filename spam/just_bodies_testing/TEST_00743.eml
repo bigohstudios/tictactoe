@@ -1,0 +1,20 @@
+Re: apt and a hybrid systemOn Thu, Sep 05, 2002 at 07:11:23AM +0000,  Angles  Puglisi wrote:
+> If I can use apt, can I use it to get updates from these 3 different places:
+> 1. the (null) up2date Redhat upgrades
+> 2. the (null) files at Freshrpms.net
+> 3. the regular RH7.3 files from freshrpms.net
+
+You could build your own apt-repository. Just mirror the needed directories
+(e.g. by using a wget cron job), symlink the needed rpms and recreate the
+repository. It is already worth the trouble, if you have more than one
+installation.
+
+In any case in order to acces the mentioned places, somebody must keep such a
+repository up to date, be it yourself or someone else.
+-- 
+Axel.Thimm@physik.fu-berlin.de
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

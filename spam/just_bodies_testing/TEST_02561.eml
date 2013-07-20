@@ -1,0 +1,47 @@
+[Solved] Re: Ctrl+alt+Fn not showing consolesLe 29/04/2010 05:55, Justin The Cynical a écrit :
+>
+> rudu wrote:
+>
+>> In single user mode, I can login on the first virtual console but
+>> every other ctrl+alt+Fn I hit only gives me a black screen with a
+>> prompt flashing in the upper left corner ...
+>
+> IIRC, in single user mode, this is normal.
+>
+>
+>> Launching a graphic session with startx instead of gdm/kdm doesn't
+>> change anything except that I don't even have any flashing prompt on
+>> my black screen anymore.
+>
+>
+> This is an old, old bug (IMO) in the binary nvidia module. I've had this
+> problem since getting Linux running on my old pentium m laptop with a
+> 6000 go series chip.
+>
+> For example:
+>
+> http://www.nvnews.net/vbulletin/showthread.php?t=131639
+>
+> and possible fix (seems to be hit or miss):
+> http://www.nvnews.net/vbulletin/showthread.php?t=120492
+>
+>
+
+Bingo !!
+That was it, an old bug from nvidia drivers.
+The workaround that worked for me :
+Append the line :
+options nvidia NVreg_UseVBios=0
+to the file /etc/modprobe.d/nvidia-kernel-nkc.conf
+
+A big thank you to Justin and everyone who helped.
+
+Jean-Marc
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD95F86.5030600@free.fr
+
+

@@ -1,0 +1,51 @@
+Re: Kde 3.5 ...2010/5/6 Jorge Gon=C3=A7alves <jmg.correio@csmining.org>:
+> Hello!
+>
+> First, thank you for the great distro that is Debian, one of the best.
+>
+> I would like to suggest you some way so that the users keep on using
+> the good old KDE 3.5 when they migrate to the upcoming Lenny.
+>
+> Maybe use dummy packages, or rename the packages so that KDE 3.5 could
+> remain installed, and not be forced to upgrade to Kde4.
+>
+> I really feel sorry that KDE 3 series is no more being developed, and
+> when the day cames that I no longer will be able to use KDE 3, I will
+> switch to Apple or even Windows, but NEVER to kde4 or Gnome!
+> (and I feel many users out there think like me!!!)
+>
+> Thank you, keep the good work, Debian is one of the best.
+> Jorge.
+>
+>
+
+You might be interested in the Pearson packages, which have KDE 3.5.10
+with tons of bug fixes backported. It's not for Debian but for
+Debian-derived Ubuntu, still, it works:
+http://apt.pearsoncomputing.net/
+
+Furthermore, I file bug reports and feature requests for KDE. If you
+let me know what problems you are having with KDE 4.4, I will gladly
+file issues. KDE 4.0 and 4.1 were a mess, but KDE 4.2 and 4.3 were
+very usable. So far as I know KDE 4.4 addresses all but three or four
+KDE 3 regression issues. It's also lightweight on hardware (lighter
+that KDE 3!) so long as you are not loading Qt3 apps in addition to
+the Qt4.
+
+Just let me know what is still broken, and I will see if it can be
+taken care of. Thanks!
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2n880dece01005060000q138a67bchcf98dec5f19e7939@mail.csmining.org
+
+

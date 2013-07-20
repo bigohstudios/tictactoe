@@ -1,0 +1,44 @@
+Re: Unable to connect to my home wirelessOn Sun, 23 May 2010 23:20:45 +0300
+Andrei Popescu <andreimpopescu@csmining.org> wrote:
+
+> On Sun,23.May.10, 14:53:04, Celejar wrote:
+>  
+> > > Both are excelent examples :) But even if you disagree with the 
+> > > maintainer, in the end Debian is a do-ocracy.  That is, the one who does 
+> > > the job usually gets to decide how it's done ;)
+> > 
+> > Of course.  I was just suggesting that a more precise and consistent
+> > definition of 'recommends' would be helpful.
+> 
+> IMHO, I doubt it would help. There will always be cases where it is very 
+> difficult to draw the line between Depends: vs Recommends: (see the not 
+> very long ago flames about making xorg depend on hal) and also 
+> Recommends: vs Suggests:
+
+I agree that absolute precision is probably impossible, but we can
+strive toward it. 
+
+> An interesting proposal a while ago was to be able to add some more 
+> information to Suggests:, something like:
+> 
+> Package: acpi-support
+> Suggests: radeontool (backlight control for ATI Radeon based laptops)
+
+*That* would really be a great idea.  As it is, I'm often left
+scratching my head trying to figure out what's likely to go wrong, or
+what functionality will be missing, if I don't install some
+recommendation.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100523163949.735e3799.celejar@csmining.org
+
+

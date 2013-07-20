@@ -1,0 +1,25 @@
+Re: usb raid1 pendrive bootFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Andrew Reid <reidac@bellatlantic.net> [2010.05.07.1903 +0200]:
+> =A0 Just for the record, it actually *is* possible to boot off a partition
+> that's in RAID1, but you might have to use grub. =A0The reason it works
+> is because grub can read past the md-raid1 metadata without getting
+> confused
+
+Correction: the md metadata comes after the filesystem. That's why
+Grub1 doesn't see it.
+
+Grub2 (grub-pc) can interpret md arrays and is the preferred method.
+
+--=20
+ .''`.   martin f. krafft <madduck@d.o>      Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+"zum christentum wird man nicht geboren,
+ man mu=DF dazu nur krank genug sein."
+                                                 - friedrich nietzsche

@@ -1,0 +1,133 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288c5cd399a79d1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs50396wfb;
+        Wed, 12 May 2010 04:53:33 -0700 (PDT)
+Received: by 10.115.132.32 with SMTP id j32mr5768004wan.89.1273665212945;
+        Wed, 12 May 2010 04:53:32 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 29si48798pzk.89.2010.05.12.04.53.32;
+        Wed, 12 May 2010 04:53:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id AA5AB1C7554DF
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 04:53:32 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A6A4D27976F2C
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 04:53:32 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 9B86727976D54
+	for <quicktime-api@lists.apple.com>;
+	Wed, 12 May 2010 04:53:15 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 8A7A1D492974
+	for <quicktime-api@lists.apple.com>;
+	Wed, 12 May 2010 04:53:15 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-ed-4bea96aa74ee
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	3C.B9.07800.AA69AEB4; Wed, 12 May 2010 04:53:15 -0700 (PDT)
+Received: (qmail invoked by alias); 12 May 2010 11:53:13 -0000
+Received: from unknown (EHLO [10.0.0.111]) [212.62.255.15]
+	by mail.gmx.net (mp033) with SMTP; 12 May 2010 13:53:13 +0200
+X-Authenticated: #3660908
+X-Provags-ID: V01U2FsdGVkX18Jn/pHXMkJq3VvFFHd3w0i8oatTt4fF9C4NyT12F
+	6eVM7Gugxz86ef
+From: =?iso-8859-1?Q?Alexander_Car=F4t?= <Alexander_Carot@gmx.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 12 May 2010 13:53:12 +0200
+Message-Id: <1481AD58-B30C-415C-983F-CBECFC2551AE@gmx.net>
+To: quicktime-api list list <quicktime-api@lists.apple.com>
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Y-GMX-Trusted: 0
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: SGIdle->dataProc execution
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi all,
+
+I have a thread, which triggers the SGIdle call according to my desired =
+frame rate:
+
+void video::run(){
+  while (running){
+    sj->dFC->videoBlocker->lock();
+    sj->dFC->videoWaiter->wait(sj->dFC->videoBlocker);
+   =20
+    err =3D SGIdle(videoData->seqGrab);
+    usleep(1000000/1);   //// FRAMERATE
+=20
+    sj->dFC->videoBlocker->unlock();
+  }
+}
+
+In this example the thread waits for 1 second before executing the next =
+time, which results in a frame rate of 1 fps. However, I discovered some =
+ strange system behavior, which forced me to verify if this is really =
+the case: I applied a time measurement between each data proc function =
+call and in fact it is executed 4 more times ins between in approx. 250 =
+microsecond intervals. In the following I have plotted the measured =
+interval times in ms:
+
+1000.38
+0.026
+0.023
+0.024
+0.027
+1002.55
+0.025
+0.026
+0.022
+0.021
+1002.61
+0.026
+0.021
+0.02
+0.024
+1002.54
+0.026
+0.023
+0.024
+0.02
+1000.18
+0.026
+0.137
+0.025
+0.024
+
+etc .... and so forth. This is actually not happening when I reside =
+above a framerate of 25 fps. Can anyone tell me why this is happening =
+and how I can prevent this to happen ?=20
+
+Thanks a lot in advance, best
+
+-- A l e x
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

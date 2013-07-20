@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281cf54726341e9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs85350wfj;
+        Tue, 20 Apr 2010 13:46:10 -0700 (PDT)
+Received: by 10.223.20.135 with SMTP id f7mr55670fab.50.1271796156224;
+        Tue, 20 Apr 2010 13:42:36 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si3640707fks.35.2010.04.20.13.42.35;
+        Tue, 20 Apr 2010 13:42:36 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 574A313A48AB; Tue, 20 Apr 2010 20:42:30 +0000 (UTC)
+Old-Return-Path: <landronimirc@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.7 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MAILTO_TO_SPAM_ADDR,SARE_MSGID_LONG45 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DED6113A4892
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 20:42:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id znWTY574Yxtn for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 20:42:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 08FAD13A48B0
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 20:42:12 +0000 (UTC)
+Received: by wwb18 with SMTP id 18so3545863wwb.6
+        for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 13:42:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :from:date:received:message-id:subject:to:cc:content-type;
+        bh=um6fQAJLbWMY198zJpAKYLnACQ86di63i1t2RbkY9YA=;
+        b=J+35u+epxAVvT5IsIifRcsAV+Z1AbYmdyIdnnRFj5ZwHbEFCY3/lz/3uu+m5clG5ZG
+         ZpTWmlmdTIkmxcpHOl0hPysINJ353FwqxI3G87nBkgwRWvTZax2eST2i8E7NFugz39gK
+         CTwHkz79P97kzuLiKbfEotmYa9Sv3QCfw6y2k=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc:content-type;
+        b=dRyaKPfhPbMZM6P+jhGNHQlP+3qrG4QyQMBV7aYzySdO260DTbnH47pOYhl3Ri9OjU
+         gUua5lTrGAJTd5eoFXZZDKXRZ59dUAFFj2uGOPYQ4u1anDjcvVEfS3F+VmRuvxtWZTPe
+         6GOeMtP3W+1KGm6Vimvpizm/ggo4a4YYfUfNw=
+MIME-Version: 1.0
+Received: by 10.216.177.68 with HTTP; Tue, 20 Apr 2010 13:41:43 -0700 (PDT)
+In-Reply-To: <y2r258ced3f1004201327n175b09dfy59d200e500dcdf85@mail.csmining.org>
+References: <k2z68b1e2611004201149o7450ce70k995ff71346679026@mail.csmining.org> 
+	<y2r258ced3f1004201327n175b09dfy59d200e500dcdf85@mail.csmining.org>
+From: Liviu Andronic <landronimirc@csmining.org>
+Date: Tue, 20 Apr 2010 21:41:43 +0100
+Received: by 10.216.90.196 with SMTP id e46mr2339641wef.138.1271796123194; 
+	Tue, 20 Apr 2010 13:42:03 -0700 (PDT)
+Message-ID: <m2s68b1e2611004201341u5d3dd886ud52cb0c539a93c4d@mail.csmining.org>
+Subject: Re: backup apt tree?
+To: "B. Alexander" <storm16@csmining.org>
+Cc: Debian-user List <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <1CeT1_OW4pC.A.ItG.2GhzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574594
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 20:42:30 +0000 (UTC)
+
+On Tue, Apr 20, 2010 at 9:27 PM, B. Alexander <storm16@csmining.org> wrote:
+> If you are asking what I think you are asking, as in which files would you
+> need to restore your system in the event that you lose your apt and dpkg
+> databases, then I do the following:
+>
+> /var/backups
+> /var/cache/apt (less /var/cache/apt/archives)
+> /var/lib/apt
+> /var/lib/dpkg
+>
+> This will give you enough that apt-get update, etc works.
+>
+Nice, thanks! I've just configured a weekly backup schedule in BackInTime.
+
+
+> Now the rules have
+> probably changed if you use aptitude as I believe it creates/uses a
+> different database.
+>
+Could anyone advise on what additional files should be backed up to
+suit aptitude? Thank you
+Liviu
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/m2s68b1e2611004201341u5d3dd886ud52cb0c539a93c4d@mail.csmining.org
+
+

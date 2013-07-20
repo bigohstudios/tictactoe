@@ -1,0 +1,216 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c31960f9805da
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs47299wfo;
+        Sat, 22 May 2010 19:59:01 -0700 (PDT)
+Received: by 10.223.17.136 with SMTP id s8mr3228323faa.41.1274583540116;
+        Sat, 22 May 2010 19:59:00 -0700 (PDT)
+Return-Path: <bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w14si3837655faj.38.2010.05.22.19.58.59;
+        Sat, 22 May 2010 19:59:00 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E6A3913A579A; Sun, 23 May 2010 02:58:33 +0000 (UTC)
+Old-Return-Path: <white@debian.org>
+X-Original-To: lists-debian-security-announce@liszt.debian.org
+Delivered-To: lists-debian-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 57F2C13A534F
+	for <lists-debian-security-announce@liszt.debian.org>; Sun, 23 May 2010 02:58:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -10.58
+XLevel: 
+XStatus: No, score=-10.58 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id AWA7ZJvJm3uX
+	for <lists-debian-security-announce@liszt.debian.org>;
+	Sun, 23 May 2010 02:58:25 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_MX=-3.1 (check from: .debian. - helo: .apu.snow-crash. - helo-domain: .snow-crash.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -6.1
+Received: from apu.snow-crash.org (apu.snow-crash.org [78.47.227.179])
+	by liszt.debian.org (Postfix) with ESMTP id CA9E213A530E
+	for <debian-security-announce@lists.debian.org>; Sun, 23 May 2010 02:58:17 +0000 (UTC)
+Received: from hannah.localdomain (apu.snow-crash.org [78.47.227.179])
+	(Authenticated sender: white@apu.snow-crash.org)
+	by apu.snow-crash.org (Postfix) with ESMTPSA id 028586D410
+	for <debian-security-announce@lists.debian.org>; Sun, 23 May 2010 04:58:15 +0200 (CEST)
+Received: by hannah.localdomain (Postfix, from userid 1000)
+	id 20890849339; Sun, 23 May 2010 12:58:12 +1000 (EST)
+To: debian-security-announce@lists.debian.org
+Message-Id: <20100523025812.20890849339@hannah.localdomain>
+Date: Sun, 23 May 2010 12:58:12 +1000 (EST)
+From: white@debian.org (Steffen Joeris)
+X-Debian: PGP check passed for security officers
+Subject: [SECURITY] [DSA 2049-1] New barnowl packages fix arbitrary code execution
+Priority: urgent
+Reply-To: debian-security@lists.debian.org
+Resent-Message-ID: <J8lorUorLGC.A.DZB.ZnJ-LB@liszt>
+Resent-From: debian-security-announce@lists.debian.org
+X-Mailing-List: <debian-security-announce@lists.debian.org> archive/latest/761
+X-Loop: debian-security-announce@lists.debian.org
+List-Id: <debian-security-announce.lists.debian.org>
+List-Post: <mailto:debian-security-announce@lists.debian.org>
+List-Help: <mailto:debian-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-announce-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 02:58:33 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ------------------------------------------------------------------------
+Debian Security Advisory DSA-2049-1                  security@debian.org
+http://www.debian.org/security/                      Steffen Joeris
+May 23, 2010                          http://www.debian.org/security/faq
+- ------------------------------------------------------------------------
+
+Package        : barnowl
+Vulnerability  : buffer overflow
+Problem type   : remote
+Debian-specific: no
+CVE Id         : CVE-2010-0793
+Debian Bug     : 574418
+
+It has been discovered that barnowl, a curses-based tty Jabber, IRC, AIM
+and Zephyr client, is prone to a buffer overflow via its "CC:" handling,
+which could lead to the execution of arbitrary code.
+
+
+For the stable distribution (lenny), this problem has been fixed in
+version 1.0.1-4+lenny1.
+
+For the testing distribution (squeeze) and the unstable distribution
+(sid), this problem has been fixed in version 1.5.1-1.
+
+
+We recommend that you upgrade your barnowl packages.
+
+
+Upgrade instructions
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will install the referenced file.
+
+If you are using the apt-get package manager, use the line for
+sources.list as given below:
+
+apt-get update
+        will update the internal database
+apt-get upgrade
+        will install corrected packages
+
+You may use an automated update by adding the resources from the
+footer to the proper configuration.
+
+
+Debian GNU/Linux 5.0 alias lenny
+- --------------------------------
+
+Debian (stable)
+- ---------------
+
+Stable updates are available for alpha, amd64, arm, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390 and sparc.
+
+Source archives:
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1.orig.tar.gz
+    Size/MD5 checksum:   606923 5036fe3559becc5fa81de9a4dc028767
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1.dsc
+    Size/MD5 checksum:     1128 c005716429cc93f9aa13ecc32e9a83a8
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1.diff.gz
+    Size/MD5 checksum:     6186 431a62342081785abeac1d6f27cca56e
+
+Architecture independent packages:
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl-irc_1.0.1-4+lenny1_all.deb
+    Size/MD5 checksum:    38992 662b9a48a4daf355222980b4b77e1dfe
+
+alpha architecture (DEC Alpha)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_alpha.deb
+    Size/MD5 checksum:   521514 a50a7d27f8d679aaaf1aefbb7b0b8f00
+
+amd64 architecture (AMD x86_64 (AMD64))
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_amd64.deb
+    Size/MD5 checksum:   497828 ec2b041ebdfcd8f605760000d156a058
+
+arm architecture (ARM)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_arm.deb
+    Size/MD5 checksum:   453232 fa99d92090e14152f9d5119d3952c911
+
+hppa architecture (HP PA RISC)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_hppa.deb
+    Size/MD5 checksum:   484984 e370789dab95d297ece10836eaa11c40
+
+i386 architecture (Intel ia32)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_i386.deb
+    Size/MD5 checksum:   468636 b4d0478d392975c7c10bf1bc5a8db665
+
+ia64 architecture (Intel ia64)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_ia64.deb
+    Size/MD5 checksum:   580632 46327f82543d70285370f3b1abc770e2
+
+mips architecture (MIPS (Big Endian))
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_mips.deb
+    Size/MD5 checksum:   461968 91c665cd05e93568eda74970ea816dac
+
+powerpc architecture (PowerPC)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_powerpc.deb
+    Size/MD5 checksum:   484788 d6d20b834e74fe5eb76cb73b0fe4f8af
+
+s390 architecture (IBM S/390)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_s390.deb
+    Size/MD5 checksum:   488260 345d6df2dd4953aa4bca1aa7b0a2cb1a
+
+sparc architecture (Sun SPARC/UltraSPARC)
+
+  http://security.debian.org/pool/updates/main/b/barnowl/barnowl_1.0.1-4+lenny1_sparc.deb
+    Size/MD5 checksum:   463060 869a67d8595133ae2c6a61cd9289e0a8
+
+
+  These files will probably be moved into the stable distribution on
+  its next update.
+
+- ---------------------------------------------------------------------------------
+For apt-get: deb http://security.debian.org/ stable/updates main
+For dpkg-ftp: ftp://security.debian.org/debian-security dists/stable/updates/main
+Mailing list: debian-security-announce@lists.debian.org
+Package info: `apt-cache show <pkg>' and http://packages.debian.org/<pkg>
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkv4mVUACgkQ62zWxYk/rQeSjgCcDLOEyV2ldWmowWIM175O7ANb
+4YAAoKyssPkCqJUVTv+mNcVJk9Dlx1I6
+=gzAO
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100523025812.20890849339@hannah.localdomain
+
+

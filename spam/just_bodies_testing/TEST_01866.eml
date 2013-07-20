@@ -1,0 +1,36 @@
+Re: Increasing number of conflictsOn 4/19/2010 8:28 AM, Wolodja Wentland wrote:
+> On Mon, Apr 19, 2010 at 09:16 -0400, B. Alexander wrote:
+>> I've got an issue with a sid box that I have been maintaining for a while. This
+>> is my workstation, and I have noticed a growing number of broken packages,
+>> unmet dependencies and conflicts. I have been using safe-upgrade for months
+>> now, hoping that it would work itself out over time. However, this hasn't
+>> happened. So what can I do to fix the problems without losing functionality?
+>> Below is the result of aptitude full-upgrade (forgive the cut-and-paste):
+>
+> As a sid user you are certainly aware of the differences between
+> 'safe-upgrade' and 'full-upgrade' and I would be interested in the
+> actions proposed by aptitude if you run a full-update.
+>
+> I assume that this will allow aptitude to take actions which are more to
+> your liking as you obviously don't like the ones proposed by aptitude
+> when you run safe-upgrade.
+>
+> Thanks for testing a development branch of Debian :)
+>
+>      Wolodja
+
+
+I noticed OP's post contained g++.  My Sid is also trying to uninstall 
+g++.  Without me posting about 8k worth of useless diagnostics, would 
+you happen to know the reason why?
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCD3F9.8030102@allums.com
+
+

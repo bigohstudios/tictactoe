@@ -1,0 +1,32 @@
+Re: Migrate OS to smaller drive?On 04/11/2010 10:11 AM, Clive McBarton wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Sjoerd Hardeman wrote:
+>    
+>> mount the new device (mount -odev /dev/newdevice), and do a
+>>   rsync -ax / /media/newdevice.
+>>      
+> What exactly is the advantage of this approach over "cp -a" or "mv"?
+>    
+
+Over mv? That you keep the original files.
+
+Over cp? That you can resume from where you left off in case the 
+transfer is stopped for any reason.
+
+
+-- 
+Any sufficiently advanced bug is indistinguishable from a feature.
+		-- Rich Kulawiec
+
+Eduardo M KALINOWSKI
+eduardo@kalinowski.com.br
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC1CA98.4070100@kalinowski.com.br
+
+

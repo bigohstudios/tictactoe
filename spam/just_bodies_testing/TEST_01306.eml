@@ -1,0 +1,75 @@
+Re: Newbie needinhg a screen readerOn 20/05/10 01:52, Thierry Chatelet wrote:
+> On Thursday 20 May 2010 02:12:55 David Hoff Jr wrote:
+>    
+>> I am a current Windows XP User but want to convert to Linux.
+>>
+>> I have downloaded the Debian 5.0.4 CD and need to know which other CD's
+>> I need to download to have a working screen reader.   Since I only have
+>> a dialup connection I need the CD's to install required packages rather
+>> than trying to do them over the internet. My wife and grandchildren can
+>> help me with installation.   Any suggestions would be appreciated.  I
+>> have tried Vinux 3.0 but Ubuntu does not include modem support.
+>>      
+> You have to know what type of cpu you have: 64 or 32 bits. Then get the cd's,
+> either amd64 or i386, unless you have something else than intel or amd cpu.
+> Then you have to decide which graphic interface you want: KDE, gnome xfce or
+> an other one. Search the net to make your choice. I doubt you will need more
+> than the first  cd for gnome, or the kde or xfce+lxde cds if you choose one of
+> these graphical interface.(I am using kde). If you need more application, you
+> can always download cd2 after, it should meet all your needs. As far as modem
+> support, I have no idea, but someone else can help you......
+> Thierry
+>
+>
+>    
+David
+
+In the days that I used dial-up modem, the kppp package was always very 
+helpful for getting the modem working.  It was a small button that one 
+clicked to activate the interface and once you were connected would just 
+sit in the system tray (area near the clock) and blink red/ green for 
+package transmission.  The genius of kppp was that it would 
+automatically seek out the modem that was connected to the machine and 
+configure it.  All I needed to do was to complete the account-related 
+details, save them and then hit connect.  It is possible, and sometimes 
+desirable, to use one DE (such as Gnome or KDE) but use packages 
+associated with another DE.  For example, if you default to Gnome - 
+which is a very good DE in terms of configuration capacity and ease of 
+use - you can still use any number of KDE-related packages, one of which 
+would be kppp.
+
+I am privileged to have broadband so haven't had to think about this for 
+a while, but you might want to use the CD set from Lenny (stable) only 
+because, unlike testing, there will be very little in the way of needing 
+to download packages and security fixes, etc. which otherwise will be a 
+pain.
+
+Welcome to GNU/ Linux Debian.  You will have a reasonably steep learning 
+curve and will likely get frustrated and feel out of your depth.  This 
+is all quite normal and except for the uber-geeks, most of us have 
+probably had experiences which have caused us grief and rapid hair loss 
+from self-inflicted pulling.  But, take things slowly, familiarise 
+yourself with the command line because you can get a lot of things done 
+there and once you are familiar with it, if the you-know-what hits the 
+fan and you are back to a black screen/ white text situation you won't 
+feel intimidated and lost.  Also, do lots of reading - there are some 
+good on-line fora (e.g. http://www.linuxquestions.org ) and of course 
+this mailing list - on which to ask questions.  These days though you 
+should have a pretty easy ride and can usually accept most of the 
+default configuration options out of the box.
+
+I would certainly reiterate Thierry's comments about ensuring that your 
+CD set is compatible with your system architecture, otherwise you will 
+have a very unpleasant computing experience.
+
+Hope this helps
+
+AG
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF4F265.6010806@csmining.org
+
+

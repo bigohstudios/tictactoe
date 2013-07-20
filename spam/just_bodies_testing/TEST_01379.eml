@@ -1,0 +1,23 @@
+belocs-locales-bin brokenI put through a pile of updates on many Lenny systems this morning and
+they all errored with:
+
+  az_AZ.UTF-8... up-to-date
+  be_BY.UTF-8... up-to-date
+  be_BY.UTF-8@latin... up-to-date
+  ber_DZ.UTF-8... cannot open locale definition file `ber_DZ': No such
+file or directory
+dpkg: error processing belocs-locales-bin (--configure):
+ subprocess post-installation script returned error exit status 4
+Errors were encountered while processing:
+ belocs-locales-bin
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+Is something broken in the belocs-locales-bin package? Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272199528.4227.25.camel@Family.pacifera.com
+
+

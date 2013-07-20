@@ -1,0 +1,28 @@
+Re: [ILUG] Installing lilo on another disk.On Tue, Jul 30, 2002 at 03:47:40PM +0100, Niall O Broin wrote:
+> I'm installing warm standby disks on a number of boxes. These disks will be
+> the same size (sometimes bigger) than the main disk. The idea is that every
+> night I'll rsync the partitions on the main disk to the standby disk so that
+> in the case of disaster, the first port of call, before the tapes, is the
+> standby disk. (We did consider running Linux md RAID on the disks but RAID
+> gives you no protection against slips of the finger)
+
+actually, on a related note, has anyone tried snapfs ?
+
+> Unfortunately suck and it and see is rather tricky - the machines concerned
+> are not to hand.
+
+just keep root as hda, you can change boot all you want, that's
+where it will get written when you run lilo from the prompt.
+just have a sane lilo.conf (with root=/dev/hda) and use lilo -b
+to write to different devices.
+
+-- 
+colmmacc@redbrick.dcu.ie        PubKey: colmmacc+pgp@redbrick.dcu.ie  
+Web:                                 http://devnull.redbrick.dcu.ie/ 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

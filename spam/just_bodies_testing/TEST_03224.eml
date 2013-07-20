@@ -1,0 +1,10 @@
+[Spambayes] test sets?[Greg Ward]
+> Case of headers is definitely helpful.  SpamAssassin has a rule for it
+> -- if you have headers like "DATE" or "SUBJECT", you get a few more
+> points.
+
+Across my data, all-caps DATE, SUBJECT, TO, etc indeed appear only in the
+spam collections.  OTOH, they don't appear often -- less than 1% of spam
+messages have at least one of these all-cap header lines.  But when I'm
+fighting what are now sub-1% f-n rates, even rare clues can help!
+

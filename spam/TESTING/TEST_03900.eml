@@ -1,0 +1,144 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287d9789b9a3f00
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs554140wfb;
+        Sun, 9 May 2010 08:03:24 -0700 (PDT)
+Received: by 10.223.117.164 with SMTP id r36mr2911028faq.28.1273417402836;
+        Sun, 09 May 2010 08:03:22 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u3si6396966fan.28.2010.05.09.08.03.22;
+        Sun, 09 May 2010 08:03:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7AB8313A5954; Sun,  9 May 2010 15:03:12 +0000 (UTC)
+Old-Return-Path: <lisi.reisz@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9458A13A54D5
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 15:03:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id WITfSTemv4Tx for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 15:02:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -1.8
+Received: from smarthost03.mail.zen.net.uk (smarthost03.mail.zen.net.uk [212.23.3.142])
+	by liszt.debian.org (Postfix) with ESMTP id 050DB13A4AFC
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 15:02:53 +0000 (UTC)
+Received: from [82.69.30.110] (helo=tux)
+	by smarthost03.mail.zen.net.uk with esmtps (TLS-1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.63)
+	(envelope-from <lisi.reisz@csmining.org>)
+	id 1OB81r-0007xo-AY
+	for debian-user@lists.debian.org; Sun, 09 May 2010 15:02:51 +0000
+From: Lisi <lisi.reisz@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Date: Sun, 9 May 2010 16:02:49 +0100
+User-Agent: KMail/1.9.9
+References: <201005071123.48345.lisi.reisz@csmining.org> <201005091500.32195.lisi.reisz@csmining.org> <4BE6C70B.6000300@lorentz.leidenuniv.nl>
+In-Reply-To: <4BE6C70B.6000300@lorentz.leidenuniv.nl>
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+Message-Id: <201005091602.50128.lisi.reisz@csmining.org>
+X-Originating-Smarthost03-IP: [82.69.30.110]
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Vt_wXpUIRKM.A.DNG.w6s5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576275
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 15:03:12 +0000 (UTC)
+
+On Sunday 09 May 2010 15:30:35 Sjoerd Hardeman wrote:
+> > Perhaps you should read Dotan's last two emails to me (especially the
+> > last one) before complaining about my complaint.
+>
+> Well, that's kind of hard since they are sent to you. Unless you want me
+> to hack your mailbox ;)
+>
+> > And my crime?? =C2=A0For which you too clearly feel that I should be su=
+bjected
+> > to the unpleasant bullying in emails direct to me? =C2=A0I use KDE 3, b=
+ut do
+> > not intend to use KDE 4.
+>
+> As far as I have seen the mails of Dotan on this list (the one I'm
+> following), he is currently collecting issues with KDE4 and filing the
+> to the devs.
+
+I have already forwarded them to the list and would gladly send them on to =
+you=20
+if you were to ask me to do so.  But list policy is to stay on list unless=
+=20
+requested to do otherwise. ;-)
+
+The last one in particular was personal, rude and unpleasant.  He is not=20
+simply=20
+<quote>
+> collecting issues with KDE4 and filing the
+> to the devs.</quote>
+
+He is doing that, but in addition he is bullying people most unpleasantly i=
+f=20
+they do not do his bidding.  I do not use KDE 4 and have no wish to do so.=
+=20
+
+The only thing I could have done differently (other than not send that very=
+=20
+short and mild complaint) is bow down to Dotan and agree that I have no rig=
+ht=20
+to dislike KDE 4, because he does not find my reasons valid.  I tried to en=
+d=20
+this by simply not replying, but even that did not rescue me - he sent=20
+another email, to which I again did not reply.  What more could I do, other=
+=20
+than be very rude myself, to make him go away?
+
+I do not have to give him reasons for my dislike.  I dislike KDE 4 and do n=
+ot=20
+use it.  That is surely my right?  I dislike fennel.  No-one tries to=20
+force-feed me with it!
+
+And surely I have no duty to help Dotan in his single minded ambition to=20
+impose KDE 4 on all the world?  Many of us do not use it.  Several people=20
+have been very helpful in sending me comments (_on_ list) on other=20
+possibilities. =20
+
+If he is truly doing what he is doing from altruistic motives, then surely =
+he=20
+must only "help" (help????) those who want his help, not bully those who=20
+don't.
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005091602.50128.lisi.reisz@csmining.org
+
+

@@ -1,0 +1,17 @@
+Re: [SAdev] Have mass-check remove X-Spam-* headers?jm@jmason.org (Justin Mason) writes:
+
+> except for 1 thing: defanged MIME messages.  that's a big problem.
+> but if you didn't just *remove* the headers and instead reverted
+> back to the X-Spam-Prev versions, it'd more-or-less work.
+> 
+> (BTW fixed the downloads page ;)
+
+&check now un-defangs MIME -- it was screwing up some of my mass-check
+results (where SA-markup was present, yes).
+
+If there ever was a warning about SA-markup in mass-check, it never
+worked for me.
+
+Dan
+
+

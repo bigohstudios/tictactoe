@@ -1,0 +1,25 @@
+Re: [ILUG] SUSE 8 disks? (thread changed slightly)On Tue, Aug 13, 2002 at 12:48:18AM +0100, wintermute mentioned:
+> How unimaginably difficult is this to do?  There are as far as I know,
+> no Linux kernel hackers, nor distros that originate from this fair
+> island right?  Right.
+
+ Antefacto Embedded Linux...did.
+
+ Nice little distro that'd run on a 64MB flash card (with 12MB free), with
+a read-only root filesystem. Perfect for little embedded systems. It was a
+very cut down version of RedHat 7.2.
+
+ Must see can we release the build system & everything. That was the
+interesting bit. Distros, in general, are a waste of time. You've no idea
+how much better something like Debian or RedHat could be than something
+you did yourself, unless you picked a niche area.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

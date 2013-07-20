@@ -1,0 +1,29 @@
+Stark raving saneURL: http://diveintomark.org/archives/2002/09/24.html#stark_raving_sane
+Date: 2002-09-24T22:05:32-05:00
+
+_Sam Ruby_: Stark raving mad[1]. 
+
+    This post was entered in Radio, extracted using a batch file via some 
+    UserTalk, parsed using Perl, cleaned up by tidy and a C program of my own 
+    design, transferred to intertwingly using scp, and then ssh triggers 
+    unpacking on the destination site, where a shell script takes over: invokes 
+    indexing using Jakarta's Lucene, and then a python script pings weblogs.com 
+    and blo.gs. 
+
+Tom Stoppard (_Rosencrantz and Guildenstern are Dead_): 
+
+    Guildenstern: &#8220;A man talking sense to himself is no madder than a man 
+    talking nonsense not to himself.&#8221;
+    Rosencrantz: &#8220;Or just as mad.&#8221;
+    Guildenstern: &#8220;Or just as mad.&#8221;
+    Rosencrantz: &#8220;And he does both.&#8221;
+    Guildenstern: &#8220;So there you are.&#8221;
+    Rosencrantz: &#8220;Stark raving sane.&#8221; 
+
+
+
+
+
+[1] http://www.intertwingly.net/blog/844.html
+
+

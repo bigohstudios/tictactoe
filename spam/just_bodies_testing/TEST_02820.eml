@@ -1,0 +1,21 @@
+Re: jedit_4.3.1+dfsg-1_amd64.changes REJECTEDHi!
+
+Moritz Muehlenhoff schrieb:
+
+> bsh code copies don't strike me as a security-relevant overhead,
+> personally I don't have any objections.
+
+If it's fine with you, it's okay with us.  We don't like it (the archive 
+is already big enough without yet another code copy), but we'll accept it.
+
+
+Best regards,
+   Alexander
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBEE34A.4030208@debian.org
+
+

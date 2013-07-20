@@ -1,0 +1,39 @@
+Re: New Sequences WindowFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Thu, 22 Aug 2002 09:12:16 -0500
+>
+> > From:  "J. W. Ballantine" <jwb@homer.att.com>
+> > Date:  Wed, 21 Aug 2002 09:51:31 -0400
+> >
+> > I CVS'ed the unseen/Sequences changes and installed them, and have only one 
+> > real issue.
+> > 
+> > I use the unseen window rather than the exmh icon, and with the new code
+> > I can't seem to be able to.  How many unseen when when I have the main window open
+> > is not really necessary.
+> 
+> hmmm, I stole the code from unseenwin, but I never tested it since I don't use 
+> that functionality.  Consider it on my list of things to check.
+
+Well, unfortunately, I appear to be using a window manager that doesn't 
+support the icon window.
+
+However, I did fix some bugs in the related "Hide When Empty" functionality 
+which may solve the issue.  You may need to remove "unseen" from the "always 
+show sequences" to make this work.  If so, let me know so I can put that in 
+the help window for "Icon Window" as it already is for "Hide When Empty".
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

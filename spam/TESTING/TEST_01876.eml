@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId12898a58a0671103
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs49019wfo;
+        Fri, 14 May 2010 14:08:25 -0700 (PDT)
+Received: by 10.141.125.20 with SMTP id c20mr1126488rvn.238.1273871305237;
+        Fri, 14 May 2010 14:08:25 -0700 (PDT)
+Return-Path: <quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id b17si6502792rvf.37.2010.05.14.14.08.25;
+        Fri, 14 May 2010 14:08:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id DE9D21C136BE3
+	for <mlsubscriber.tech@csmining.org>; Fri, 14 May 2010 14:08:24 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id DA6B627A7269D
+	for <mlsubscriber.tech@csmining.org>; Fri, 14 May 2010 14:08:24 -0700 (PDT)
+X-Original-To: quicktime-users@lists.apple.com
+Delivered-To: quicktime-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 93F6B27A72053;
+	Fri, 14 May 2010 14:07:32 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 830A2D32C2EF;
+	Fri, 14 May 2010 14:07:32 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-4e-4bedbb94a2f6
+Received: from ndjsnpf01.ndc.nasa.gov (ndjsnpf01.ndc.nasa.gov [198.117.1.121])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	C7.62.15139.49BBDEB4; Fri, 14 May 2010 14:07:32 -0700 (PDT)
+Received: from ndmsppt04.ndc.nasa.gov (ndmsppt04.ndc.nasa.gov [198.117.0.103])
+	by ndjsnpf01.ndc.nasa.gov (Postfix) with ESMTP id 74D3733006E;
+	Fri, 14 May 2010 16:07:31 -0500 (CDT)
+Received: from ndmshub01.ndc.nasa.gov (ndmshub01-pub.ndc.nasa.gov
+	[198.117.0.160])
+	by ndmsppt04.ndc.nasa.gov (8.14.3/8.14.3) with ESMTP id o4EL7Vpd005884; 
+	Fri, 14 May 2010 16:07:31 -0500
+Received: from NDMSSCC05.ndc.nasa.gov ([198.117.2.174]) by
+	ndmshub01.ndc.nasa.gov ([198.117.0.160]) with mapi;
+	Fri, 14 May 2010 16:07:31 -0500
+From: "Walls, Bryan K. (MSFC-IS30)" <bryan.walls@nasa.gov>
+To: QuickTime Talk List <quicktime-users@lists.apple.com>,
+	"streaming-server-users@lists.apple.com" <streaming-server-users@lists.apple.com>
+Date: Fri, 14 May 2010 16:07:30 -0500
+Thread-Topic: QuickTime chatty on multicasts?
+Thread-Index: AcrzqXdlIiYhZyRnR7e1f9BF822LNA==
+Message-ID: <EA6C4935-63A0-498E-8D8E-F295E35DE51C@nasa.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version: vendor=fsecure engine=1.12.8161:2.4.5, 1.2.40,
+	4.0.166
+	definitions=2010-05-14_02:2010-02-06, 2010-05-14,
+	2010-05-14 signatures=0
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: 
+Subject: QuickTime chatty on multicasts?
+X-BeenThere: quicktime-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Usage of QuickTIme <quicktime-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-users@lists.apple.com>
+List-Help: <mailto:quicktime-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I'm doing Real and Windows Media multicast streams. Mac users are using Rea=
+lPlayer for the Real, and a rollover unicast from the Windows server with a=
+ QuickTime plugin using Flip4Mac.
+
+Looking at the multicast traffic, we're seeing a lot of RTCP packets coming=
+ from Mac boxes to the unicast address of the Real streams. It seems this h=
+appens when QuickTime Player is launched and they view or have viewed the R=
+eal stream?
+
+The problem is that it means there are lots of sources advertising themselv=
+es as the "source" for that multicast address.
+
+Is this an expected outcome? Anyone recognize what I'm seeing?=20
+
+I saw the packets from my own system, and they quit when I quit QTP 7, star=
+ted back when I relaunched it. I'm running snow leopard, most users aren't =
+yet.
+
+
+Bryan Walls
+bryan.walls@nasa.gov
+256-544-3311
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,48 @@
+Re: Folder computed replcomps (and replgroupcompsYes - I was going to suggest the folder change hooks as well.
+Just have them check for your custom comps file, and generate
+or update them if needed.
+ 
+>>>Hal DeVore said:
+ > 
+ > 
+ > >>>>> On Fri, 19 Jul 2002, "J" == J C Lawrence wrote:
+ > 
+ >   J> What would be great is if I could build the relevant comp
+ >   J> file dynamically at runtime.
+ > 
+ > Sure.  Use the "folder change" hooks.  Create a proc named
+ > Hook_FolderChangeSomething (where "Something" is meaningful and 
+ > likely to be unique in the universe just in case you distribute 
+ > this to others).  Put the proc in a file in your ~/.tk/exmh 
+ > directory, regenerate the tclIndex, restart exmh.
+ > 
+ > In that proc you can do anything you want, like rewrite your
+ > ~/Mail/comp file.
+ > 
+ > 
+ > --Hal
+ > 
+ > 
+ > 
+ > 
+ > _______________________________________________
+ > Exmh-users mailing list
+ > Exmh-users@redhat.com
+ > https://listman.redhat.com/mailman/listinfo/exmh-users
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

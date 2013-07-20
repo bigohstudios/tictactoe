@@ -1,0 +1,29 @@
+Re: Blank page after every page when printing PDFs with evince -
+ Debian Lenny, CUPS, HP Paintjet (pj)On Sun, 25 Apr 2010 11:00:55 -0500, John W Foster wrote:
+
+> Yes, I also saw that but mostly under windows systems using PCL 6
+> drivers. Is that setting available under CUPS printer options? :-?
+> 
+> Try using this as a link for managing your CUPS system if you do not
+> already know this.
+> 
+> http://localhost:631/
+> I made a link to this (launcher) & use it to manage CUPS. I use several
+> different printers so it makes life simpler.
+
+I know CUPS :-), what I wanted to say is that I cannot see any option 
+under printer properties to handle (enable/disable) that "page 
+separation" you said before.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.25.16.08.43@csmining.org
+
+

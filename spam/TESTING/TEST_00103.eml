@@ -1,0 +1,84 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d0e62df271edf
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs143864wfo;
+        Tue, 25 May 2010 12:17:46 -0700 (PDT)
+Received: by 10.223.99.212 with SMTP id v20mr1840657fan.44.1274815065128;
+        Tue, 25 May 2010 12:17:45 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s7si7973857faa.40.2010.05.25.12.17.44;
+        Tue, 25 May 2010 12:17:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 310CC13A62BC; Tue, 25 May 2010 19:17:35 +0000 (UTC)
+Old-Return-Path: <tchatelet@free.fr>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4684F13A62BA
+	for <lists-debian-user@liszt.debian.org>; Tue, 25 May 2010 19:17:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id yWGp-Ffpf2sX for <lists-debian-user@liszt.debian.org>;
+	Tue, 25 May 2010 19:17:22 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from smtp4-g21.free.fr (smtp4-g21.free.fr [212.27.42.4])
+	by liszt.debian.org (Postfix) with ESMTP id 7836913A62B6
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 19:17:21 +0000 (UTC)
+Received: from smtp4-g21.free.fr (localhost [127.0.0.1])
+	by smtp4-g21.free.fr (Postfix) with ESMTP id 2DD5D4C8D70
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 21:17:16 +0200 (CEST)
+Received: from pc01-ftc.localnet (sdo26-1-78-245-148-13.fbx.proxad.net [78.245.148.13])
+	by smtp4-g21.free.fr (Postfix) with ESMTP
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 21:17:15 +0200 (CEST)
+From: Thierry Chatelet <tchatelet@free.fr>
+To: debian-user@lists.debian.org
+Subject: OT-Brother DCP 130C printer
+Date: Tue, 25 May 2010 21:17:08 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-3-amd64; KDE/4.4.3; x86_64; ; )
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005252117.08630.tchatelet@free.fr>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <SI6pfbHnA9G.A.QuF.PJC_LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577632
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 19:17:35 +0000 (UTC)
+
+Hi,
+I may get my neighbor to switch to debian, if its printer works under linux, 
+but it is not mentioned in  linuxprinting.org.   Has anyone some returns on 
+such a  printer.(It is printer and scanner)
+Thierry
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005252117.08630.tchatelet@free.fr
+
+

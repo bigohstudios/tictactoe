@@ -1,0 +1,37 @@
+Re: ALSA (almost) made easyMatthias Saou (matthias@rpmforge.net) wrote*:
+>
+>You can also install the XMMS plugin
+>(seems to make my XMMS segfault on exit...
+>hmmm, but maybe it's another plugin) to listen to your good ol' mp3
+>files... that's it!
+
+I've an XMMS Alsa module I've been using for a while now at:
+http://www.dudex.net/rpms/alsa-xmms-0.9_cvs020630-aap1.i686.rpm
+http://www.dudex.net/rpms/alsa-xmms-0.9_cvs020630-aap1.src.rpm
+http://www.dudex.net/rpms/alsa-xmms-0.9_cvs020630.spec
+
+Also there is alsaplayer rpms there too:
+http://www.dudex.net/rpms/alsaplayer-0.99.71-aap1.i386.rpm
+http://www.dudex.net/rpms/alsaplayer-0.99.71-aap1.i686.rpm
+http://www.dudex.net/rpms/alsaplayer-0.99.71-aap1.src.rpm
+http://www.dudex.net/rpms/alsaplayer-0.99.71.spec
+
+Good luck. Both were build on an RH 7.3 box with errata current as of the date of
+the build. I'm running (null) RH beta now and I recall that alsa-xmms still works, I
+can not remember if alsaplayer needs a --rebuild.
+
+As an aside, alsaplayer is really maturing into a versitile app, I've been packaging
+for many releases now.
+
+I've scripted the alsa-xmms cvs build, so it's easy to spin another one if these
+rpms do not work on (null).
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

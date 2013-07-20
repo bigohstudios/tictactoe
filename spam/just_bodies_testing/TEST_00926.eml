@@ -1,0 +1,27 @@
+"requires:" and relational operatorsHalloechen!
+
+I have
+
+Requires: saxon >= 6.5.1
+Conflicts: saxon >= 7
+
+in my spec file.  But apparently rpm ignores all version numbers. So,
+
+Requires: saxon >= 6.5.1
+# Conflicts: saxon >= 7
+
+would install even with saxon-3.0.0, and
+
+# Requires: saxon >= 6.5.1
+Conflicts: saxon >= 7
+
+wouldn't install even with saxon-6.5.2.  What could be the reason
+for this?
+
+Tschoe,
+Torsten.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

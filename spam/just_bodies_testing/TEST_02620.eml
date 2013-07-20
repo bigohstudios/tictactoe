@@ -1,0 +1,32 @@
+Re: Re: Updating JRE in Lenny> >
+> > After reloading Iceweasel, about:plugins still showed the previous JRE I
+> > was using, /usr/lib/jvm/java-6-openjdk/jre/bin/java.
+> >
+> > Assuming that I can use a later version of JRE downloaded from Sun on
+> > Iceweasel 3.5, am I on the right track but did not get the newer version
+> > set up correctly, or is there a different way?
+> 
+> The browser plugin uses a different alternative, namely
+> libjavaplugin_oji.so. You will find the target of the alternative in the
+> directory /usr/lib/jvm/1.6.0_19/plugin/i386/ns7/
+
+The update-java-alternatives command should sort this out.
+This will show you the available alternatives:
+     /usr/sbin/update-java-alternatives --list
+
+Then as root run something like
+    update-java-alternatives -s java-6-sun
+
+Note there's a load of java-related items which that command sets. To
+see the list, run 
+    /usr/sbin/update-java-alternatives --verbose --list
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414114742.GA9131@rimmer.esmertec.com
+
+

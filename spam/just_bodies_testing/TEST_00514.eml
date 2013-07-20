@@ -1,0 +1,21 @@
+ssh-agent terminates before session endsHi,
+
+after upgrading to the experimental packages of KDE ssh-agent 
+seems to terminate shortly after logging in. I'm able to enter 
+my passphrase with ssh-add and I'm able to log into another 
+machine but after a few minutes the agent terminates.
+
+ssh-agent is started during kdm login via "use-ssh-agent" in 
+/etc/X11/Xsession.options. This worked before without any 
+problems. Does anyone else encounter the same problem?
+
+regards,
+Jörg
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004171920.58302.lists@naasa.net
+
+

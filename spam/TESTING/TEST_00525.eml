@@ -1,0 +1,127 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d39b6c3ff8cdd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs194122wfa;
+        Tue, 6 Apr 2010 07:52:11 -0700 (PDT)
+Received: by 10.223.50.193 with SMTP id a1mr7623165fag.34.1270565530821;
+        Tue, 06 Apr 2010 07:52:10 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si29550360fxm.2.2010.04.06.07.52.10;
+        Tue, 06 Apr 2010 07:52:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BA76A13A520D; Tue,  6 Apr 2010 14:51:59 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D48C02D0E34
+	for <lists-debian-user@liszt.debian.org>; Tue,  6 Apr 2010 14:51:53 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id sm0buYuRdLGj for <lists-debian-user@liszt.debian.org>;
+	Tue,  6 Apr 2010 14:51:46 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 9AC362D0E26
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 14:51:46 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 5C4A515D80D9
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 16:51:44 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id uCuacip2x0bY for <debian-user@lists.debian.org>;
+	Tue,  6 Apr 2010 16:51:43 +0200 (CEST)
+Received: from [132.229.227.77] (brood.lorentz.leidenuniv.nl [132.229.227.77])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id C1A5A1568565
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 16:51:43 +0200 (CEST)
+Message-ID: <4BBB4A7F.7060500@lorentz.leidenuniv.nl>
+Date: Tue, 06 Apr 2010 16:51:43 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.8.1.21) Gecko/20090318 Lightning/0.9 Thunderbird/2.0.0.21 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Umont ownership?
+References: <w2kf8d5d4f31004050911s905ac447jcaa563058fd7815d@mail.csmining.org>	 <pan.2010.04.05.18.20.45@csmining.org>	 <u2nf8d5d4f31004051955z717e21f5p493c336f7775eb25@mail.csmining.org>	 <pan.2010.04.06.14.23.13@csmining.org> <u2wf8d5d4f31004060742pedea073y8cfa2be0097494@mail.csmining.org>
+In-Reply-To: <u2wf8d5d4f31004060742pedea073y8cfa2be0097494@mail.csmining.org>
+X-Enigmail-Version: 0.95.6
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig88C6D9CB64443644A1320C41"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <vZVn0o5vGdO.A.vvF.Pq0uLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573436
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 14:51:59 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig88C6D9CB64443644A1320C41
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+jeremy jozwik schreef:
+> On Tue, Apr 6, 2010 at 7:23 AM, Camale=C3=B3n <noelamac@csmining.org> wrot=
+e:
+>> Were you running that command as "root" (or sudo) user?
+>=20
+> does not work in regular user mode. which is what i think causes the
+> issue in GNOME right click.
+>=20
+>> Uh? So it works fine for root user...
+For a regular user, you need to be in the plugdev group to mount and=20
+unmount. I believe the mounting is done via dbus, which checks for this=20
+group (or any other group you have configured it for). So, first check=20
+if your user is a member of the plugdev group.
+
+Sjoerd
+
+
+--------------enig88C6D9CB64443644A1320C41
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.7 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLu0p/HKEdNPY5OOURAnsTAJ4jzI6wtcVoSzTpWNjXQ7ZrZthe3wCfePOO
+jYx6fMYqaMYXS8G/vZ5IH2Q=
+=23XD
+-----END PGP SIGNATURE-----
+
+--------------enig88C6D9CB64443644A1320C41--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBB4A7F.7060500@lorentz.leidenuniv.nl
+
+

@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId12817fef298f511c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs42561wfj;
+        Mon, 19 Apr 2010 14:35:46 -0700 (PDT)
+Received: by 10.223.63.17 with SMTP id z17mr234792fah.66.1271712904079;
+        Mon, 19 Apr 2010 14:35:04 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y15si1625776fkd.38.2010.04.19.14.35.03;
+        Mon, 19 Apr 2010 14:35:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 71DCF13A4732; Mon, 19 Apr 2010 21:34:58 +0000 (UTC)
+Old-Return-Path: <clivemcbarton@web.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.7 required=4.0 tests=FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,
+	MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9154D13A46D1
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 21:34:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.68 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id pAr8Cxc86UB6 for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 21:34:45 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from fmmailgate02.web.de (fmmailgate02.web.de [217.72.192.227])
+	by liszt.debian.org (Postfix) with ESMTP id 37DCE13A4C2D
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 21:34:44 +0000 (UTC)
+Received: from smtp08.web.de (fmsmtp08.dlan.cinetic.de [172.20.5.216])
+	by fmmailgate02.web.de (Postfix) with ESMTP id E13BD15E38D3C
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 23:34:42 +0200 (CEST)
+Received: from [213.39.143.249] (helo=[192.168.178.29])
+	by smtp08.web.de with asmtp (TLSv1:AES256-SHA:256)
+	(WEB.DE 4.110 #4)
+	id 1O3yc6-0002G6-00
+	for debian-user@lists.debian.org; Mon, 19 Apr 2010 23:34:42 +0200
+Message-ID: <4BCCCCCC.8030500@web.de>
+Date: Mon, 19 Apr 2010 23:36:12 +0200
+From: Clive McBarton <clivemcbarton@web.de>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100329)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Timezones for Kontact seriously broken in Lenny
+References: <1271537899.31745.22.camel@Family.pacifera.com> <pan.2010.04.18.11.42.07@csmining.org>
+In-Reply-To: <pan.2010.04.18.11.42.07@csmining.org>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Sender: clivemcbarton@web.de
+X-Sender: clivemcbarton@web.de
+X-Provags-ID: V01U2FsdGVkX1/jC0uFA7sASAcnh3YYrRQSu17h59TetWLH4ads
+	EmgJq7C4zFJEhRPm238sf1b3Kr4dpt4eAuvYoPaif/5sOOR527
+	0sQnfO6vHAyD0jeeS1og==
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <FBS3UobFACL.A.xwD.CyMzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574486
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 21:34:58 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón wrote:
+> I was a KDE 3.5.x user for long time (2003-2010) but switched to GNOME as 
+> soon as the first KDE 4.0 came to scene (it was not intended for end-
+> users but *we had* to deal with it and the result was many people 
+> searched another alternatives, me included).
+
+*Had*? External decisions? That sounds like workplace, production
+environment. Where people tend to use Debian stable. But 3.5 is still
+the default in Debian stable (lenny) to this day.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvMzMwACgkQ+VSRxYk4409q2gCeJo4vuKm5HJjjSJshJl/s3goe
+EXsAnixEhntaY/zHV0SxSPl/b8k/5DkX
+=XPs2
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCCCCC.8030500@web.de
+
+

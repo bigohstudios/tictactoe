@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281868b2d3e29c6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs45164wfj;
+        Mon, 19 Apr 2010 16:31:41 -0700 (PDT)
+Received: by 10.223.6.150 with SMTP id 22mr268623faz.12.1271719834438;
+        Mon, 19 Apr 2010 16:30:34 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 28si1291780fkx.36.2010.04.19.16.30.33;
+        Mon, 19 Apr 2010 16:30:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CCFF013A4815; Mon, 19 Apr 2010 23:30:30 +0000 (UTC)
+Old-Return-Path: <bob@proulx.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6A46013A46DC
+	for <lists-debian-laptop@liszt.debian.org>; Mon, 19 Apr 2010 23:30:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id OJzGpt0j6764 for <lists-debian-laptop@liszt.debian.org>;
+	Mon, 19 Apr 2010 23:30:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from joseki.proulx.com (joseki.proulx.com [216.17.153.58])
+	by liszt.debian.org (Postfix) with ESMTP id E327513A462E
+	for <debian-laptop@lists.debian.org>; Mon, 19 Apr 2010 23:30:16 +0000 (UTC)
+Received: from dementia.proulx.com (dementia.proulx.com [192.168.230.115])
+	by joseki.proulx.com (Postfix) with ESMTP id F137C213FC
+	for <debian-laptop@lists.debian.org>; Mon, 19 Apr 2010 17:30:12 -0600 (MDT)
+Received: by dementia.proulx.com (Postfix, from userid 1000)
+	id E361C3CC2CE; Mon, 19 Apr 2010 17:30:12 -0600 (MDT)
+Date: Mon, 19 Apr 2010 17:30:12 -0600
+From: Bob Proulx <bob@proulx.com>
+To: debian-laptop@lists.debian.org
+Subject: Re: Battery monitor tools?
+Message-ID: <20100419233012.GA21588@dementia.proulx.com>
+Mail-Followup-To: debian-laptop@lists.debian.org
+References: <4BCCBC32.8090706@emenaker.com> <20100419212930.GA5574@dementia.proulx.com> <4BCCD31F.507@emenaker.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="XsQoSWH+UP9D9v3l"
+Content-Disposition: inline
+In-Reply-To: <4BCCD31F.507@emenaker.com>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <mHIXzme173F.A.wQF.WeOzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34115
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 23:30:30 +0000 (UTC)
+
+
+--XsQoSWH+UP9D9v3l
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Joe Emenaker wrote:
+> Yeah, I saw IBAM, but it looked like it just generated plain ol' .png =20
+> files or something. I was hoping for something a little more snazzy.
+
+Have you looked at the gkrellm-ibam?  It is still rather plain and I
+wouldn't argue about wanting more.  But it is at least something.
+
+  $ sudo apt-get install gkrellm gkrellm-ibam
+  $ gkrellm &
+
+(shrug)
+
+Bob
+
+--XsQoSWH+UP9D9v3l
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvM54QACgkQ0pRcO8E2ULaX9gCfTDis+o7zWmruHh6vbXulV0R9
+XWYAniNOfXld+xAmQrqjsQzigx0E+jE+
+=Qu8m
+-----END PGP SIGNATURE-----
+
+--XsQoSWH+UP9D9v3l--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100419233012.GA21588@dementia.proulx.com
+
+

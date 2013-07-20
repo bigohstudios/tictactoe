@@ -1,0 +1,21 @@
+Re: [SAtalk] UPPERCASE_* rules and foreign character setsOn Thu, Aug 29, 2002 at 11:37:02AM +0100, Clayton, Nik [IT] wrote:
+> Have the UPPERCASE_* rules been tested on messages in non-English 
+> character sets, and/or where the message is MIME encoded in some way?
+> 
+> I'm getting a lot of false positives on Japanese mail, and I think the 
+> encoding is responsible for triggering this rule.
+
+Like Justin said, this is fixed in CVS.
+
+Dan.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

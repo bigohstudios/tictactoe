@@ -1,0 +1,30 @@
+Re: RedHat 8.0 and his own freetypeOn Tue, 08 Oct 2002 13:05:53 -0700
+Ben Liblit <liblit@eecs.berkeley.edu> wrote:
+
+> > RPM build errors:
+> >     File not found by glob:
+> > /var/tmp/freetype-2.1.2-root/usr/lib/libttf.so.*
+> >     File not found: /var/tmp/freetype-2.1.2-root/usr/lib/libttf.so
+> 
+> Weird.  I had no problems at all rebuilding from the SRPM with specfile
+> modified to enable the bytecode interpreter.  The "check-files" test
+> warns that "/usr/share/aclocal/freetype2.m4" was not included in any
+> package, but other then that, it's all perfectly clean.
+Hi, Ben,
+
+it seems, the RH freetype package should be repacked,
+see for this
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=74415
+
+Please, can you atach and send your sucessfully rebuild of the RH freetype
+rpm with the bytecode enabled to me?
+
+-- 
+  Regards from Germany
+                     Matthias
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

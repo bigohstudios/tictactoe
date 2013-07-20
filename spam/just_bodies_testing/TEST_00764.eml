@@ -1,0 +1,49 @@
+Re: @synchronized scope strangenessYour problem is simple...
+
+On Fri, Apr 16, 2010 at 5:53 PM, Hamish Allan <hamish@csmining.org> wrote:
+> @implementation NSPersistentStore (OTAdditions)
+> - (NSNumber *)autoincrementingNumberForKey:(NSString *)key
+> {
+> =A0 =A0NSNumber *number;
+> =A0 =A0@synchronized(self)
+> =A0 =A0{
+> =A0 =A0 =A0 =A0NSMutableDictionary *metadata =3D [[self metadata] mutable=
+Copy];
+>
+> =A0 =A0 =A0 =A0// need to copy and autorelease the number because the ori=
+ginal
+> =A0 =A0 =A0 =A0// does not remain valid outside of the @synchronized bloc=
+k (why?!)
+> =A0 =A0 =A0 =A0number =3D [[[metadata objectForKey:key] copy] autorelease=
+];
+
+If you don't somehow retain "number" here...
+
+> =A0 =A0 =A0 =A0if (!number)
+> =A0 =A0 =A0 =A0 =A0 =A0number =3D [NSNumber numberWithUnsignedLongLong:1]=
+;
+> =A0 =A0 =A0 =A0[metadata setValue:[NSNumber
+> numberWithUnsignedLongLong:([number unsignedLongLongValue] + 1)]
+> forKey:key];
+
+... it's released by the dictionary when you replace it with a new
+value here. That's why you need the copy-autorelease. Or a retain
+would work just as well, and then you could autorelease as you return
+it (return [number autorelease]).
+
+> =A0 =A0 =A0 =A0[self setMetadata:metadata];
+
+Also, you never release the mutableCopy of metadata that you created.
+Memory leak.
+
+> =A0 =A0}
+> =A0 =A0return number;
+> }
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

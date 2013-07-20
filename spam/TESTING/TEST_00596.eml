@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId12858fb72f111f64
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs179794wfj;
+        Sun, 2 May 2010 05:26:34 -0700 (PDT)
+Received: by 10.142.56.14 with SMTP id e14mr8610251wfa.37.1272803193484;
+        Sun, 02 May 2010 05:26:33 -0700 (PDT)
+Return-Path: <bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 11si5711472pzk.97.2010.05.02.05.26.33;
+        Sun, 02 May 2010 05:26:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 371AC1C14FA69
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 05:26:33 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 31B64275164B9
+	for <mlsubscriber.tech@csmining.org>; Sun,  2 May 2010 05:26:33 -0700 (PDT)
+X-Original-To: Bluetooth-dev@lists.apple.com
+Delivered-To: Bluetooth-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 329FE27516484
+	for <Bluetooth-dev@lists.apple.com>;
+	Sun,  2 May 2010 05:26:30 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 10CCCD0EFFFD
+	for <Bluetooth-dev@lists.apple.com>;
+	Sun,  2 May 2010 05:26:30 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-d4-4bdd6f73bf8f
+Authentication-Results: mail-in11.apple.com x-tls.subject="/CN=gws01";
+	auth=fail (cipher=AES128-SHA)
+Received: from gwse.ethz.ch (gwse.ethz.ch [129.132.178.238])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client CN "gws01", Issuer "ETH Zurich D.ETHZ.CH" (not verified))
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	83.58.15139.57F6DDB4; Sun,  2 May 2010 05:26:29 -0700 (PDT)
+Received: from CAS00.d.ethz.ch (129.132.178.234) by gws01.d.ethz.ch
+	(129.132.178.238) with Microsoft SMTP Server (TLS) id 8.2.254.0;
+	Sun, 2 May 2010 14:26:27 +0200
+Received: from [192.168.3.103] (80.219.168.6) by mail.ethz.ch
+	(129.132.178.227) with Microsoft SMTP Server (TLS) id 8.2.254.0;
+	Sun, 2 May 2010 14:26:26 +0200
+Content-Transfer-Encoding: quoted-printable
+From: Matthias Ringwald <mringwal@inf.ethz.ch>
+Content-Type: text/plain; charset="us-ascii"
+Message-ID: <DB23971F-A5FF-4D96-B5A7-44F676271A4F@inf.ethz.ch>
+Date: Sun, 2 May 2010 14:26:25 +0200
+To: "dsjove.mac" <dsjove@mac.com>
+MIME-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: bluetooth-dev <Bluetooth-dev@lists.apple.com>
+Subject: Re: Bluetooth-dev Digest, Vol 7, Issue 13
+X-BeenThere: bluetooth-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "Mailing list for Bluetooth developer discussion."
+	<bluetooth-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:bluetooth-dev@lists.apple.com>
+List-Help: <mailto:bluetooth-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=subscribe>
+Sender: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi David
+
+On 29.04.2010, at 16:14, dsjove .mac wrote:
+>=20
+> I am writing for the desktop using Cocoa's BT objects. I would love to =
+get this app on the iPhone but jailbreaking appears to be the only =
+option.
+>=20
+> My model over BT is remote procedure calls. That is why I need a =
+dedicated thread for acquiring and signaling results.
+>=20
+> "Blocking" is an ambiguous term. If an event on the main thread calls =
+a function, it is blocking. The low level private implementation detail =
+of a function interacting with BT is irrelevant  to the fact that the =
+main run loop calls a getter on a model object. I have policies built in =
+for timeouts.
+>=20
+> Some of these getters are computed from the results of multiple BT =
+remote procedure calls. The main thread calls the procedural getters. In =
+one connection implementation, BT, it uses another thread to sync the =
+results.
+
+Ah. So you (want to) provide synchronous RPC over BT. We did provide =
+synchronous BT calls in BTnut (btnode.ethz.ch), but so far I don't plan =
+on adding such a feature to BTstack.
+
+>=20
+> I would recomend allowing the client of your library to select the =
+thread. Auto injection into global state is a limiting side-effect. RPC =
+becomes very difficult.
+Thanks for the suggestion. Not convinced yet, but I guess we should this =
+discuss this over at the BTstack-dev mailing list :)
+
+>=20
+> So back to CocoaTouch - can your code go into an AppStore product?
+Let's say it is not impossible. An application that uses BTstack can run =
+inside the usual Sandbox. The client library currently is a dylib but =
+there is no reason to not just link it statically. However, to work, =
+BTdaemon (which implements the Bluetooth stack) needs to be installed =
+and running, which is only possible with jailbreak. So, I in theory an =
+app in the AppStore could use BTstack, but only on a jailbroken device, =
+which might make the AppStore review a bit awkward.   ... See you on the =
+BTstack list :)
+
+Best =20
+ Matthias
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

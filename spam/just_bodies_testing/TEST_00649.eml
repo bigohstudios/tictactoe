@@ -1,0 +1,109 @@
+Re: Embed code stopped working ?
+Am 07.04.2010 um 22:27 schrieb paul zemanek:
+
+> Hi Marc,
+>  The scripts on apple.com have been corrected.  Let us know if you =
+still have issues with the scripts.
+>  - support for Firefox is also part of this script update.
+>=20
+> thanks,
+>  paul
+
+hello paul
+
+
+everything works as expected no issues ;)
+
+thanks for your quick  response
+
+greetings
+
+marc
+
+
+>=20
+>=20
+>=20
+> On Apr 7, 2010, at 9:55 AM, Marc Manthey wrote:
+>=20
+>>=20
+>> Am 07.04.2010 um 17:42 schrieb paul zemanek:
+>>=20
+>>> There is currently an issue with the scripts posted in the =
+quicktime/scripts directory on apple.com.
+>>>=20
+>>> We hope to have it resolved shortly. Once corrected - your embed =
+code and movies should load correctly.
+>>=20
+>> Oh my , thats what i thought after i posted,  sorry for the noise =
+........:)
+>>=20
+>> I will put it on my server , when its available thanks for the quick =
+response.
+>>=20
+>>=20
+>> regards
+>>=20
+>> Marc
+>>>=20
+>>> thanks,
+>>> paul zemanek
+>>> QuickTime QA
+>>>=20
+>>>=20
+>>>=20
+>>> On Apr 7, 2010, at 3:27 AM, Marc Manthey wrote:
+>>>=20
+>>>> hi list
+>>>>=20
+>>>> after installing Snow leopard and doing several updates and =
+installing Xcode
+>>>>=20
+>>>> the "embedet live stream code " that i integrated in my blog does =
+not work nomore ?
+>>>>=20
+>>>> this is what is what i use.
+>>>>=20
+>>>> <script =
+src=3D"http://www.apple.com/library/quicktime/scripts/ac_quicktime.js" =
+type=3D"text/javascript"></script>=20
+>>>> <script =
+src=3D"http://www.apple.com/library/quicktime/scripts/qtp_library.js" =
+type=3D"text/javascript"></script>
+>>>>=20
+>>>> <script type=3D"text/javascript">// <![CDATA[
+>>>> 	QT_WritePoster_XHTML('Play', 'http://ipsix.org/live.jpg', 		=
+'http://ipsix.org:554/live.sdp', 		'452', '388', '', 		=
+'controller', 'true', 		'autoplay', 'true', 		=
+'bgcolor', 'white', 		'scale', 'aspect');
+>>>> // ]]></script>
+>>>>=20
+>>>> any recommendation what i should use ?
+>>>>=20
+>>>> thanks
+>>>>=20
+>>>> marc
+
+-- =20
+Les enfants teribbles - research / deployment
+Marc Manthey- Vogelsangerstrasse 97
+50823 K=F6ln - Germany
+Tel.:0049-221-29891489
+Mobil:0049-1577-3329231
+blog: http://let.de
+project : http://opencu.org
+twitter: http://twitter.com/macbroadcast/
+facebook : http://opencu.tk
+
+
+Opinions expressed may not even be mine by the time you read them, and =
+certainly don't reflect those of any other entity (legal or otherwise).
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

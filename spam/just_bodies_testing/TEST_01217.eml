@@ -1,0 +1,27 @@
+Sylpheed with GNOME 2 (was Re: Ximian apt repos?)Once upon a time, Lance wrote :
+
+> Well, from the looks of things, I can import all my mail settings from
+> Evolution to Sylpheed.  Has anyone successfully run Sylpheed in Gnome
+> 2.0?  I noticed with 'apt-get install gnome-session' from the 'rpm
+> http://apt.sunnmore.net gnome2 73' repository, Sylpheed isn't one of the
+> packages selected for deletion.
+
+I think that's simply because Sylpheed isn't a GNOME application, but a
+"simple" gtk+ one. It needs no GNOME libs at all, so upgrading to GNOME 2
+but keeping gtk+ 1.2 will let you keep Sylpheed with no problem.
+
+Matthias
+
+PS : Expect 0.8.1 on freshrpms.net in a few minutes ;-)
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,64 @@
+Re: [ILUG] expanding a string multiple timesThanks to all for the responses,
+more comments below...
+
+Niall O Broin wrote:
+> On Fri, Aug 16, 2002 at 05:26:33PM +0100, Padraig Brady wrote:
+> 
+> 
+>>How can I repeat a string an arbitrary number
+>>of times in bash/sed/...
+>>
+>>I.E. I'm missing the repeat in the following:
+>>
+>>STRING="> "
+>>NUMBER=3
+>>PREFIX=repeat $STRING $NUMBER
+>>echo $PREFIX
+>>
+>>Pádraig.
+>>p.s. I know how to do it with loops.
+> 
+> 
+> Well, here's a solution using seq and sed - IMHO its a rather dim solution
+> and it definitely dies if STRING contains / (and probably has other ways to
+> die too) and a bash loop would certainly be faster, but you know how to do
+> it with loops :-)
+> 
+> PREFIX=seq -s "" $NUMBER|sed "s/./$STRING/g"OA
+
+clever. A bit more robust is:
+#first param is number of
+#times to repeat second param
+#
+#e.g. quote=`repeat 3 '> '`
+repeat() {
+     seq -s , $1 | sed "s¬[0-9]\{1,\}[,]*¬$2¬g"
+}
+
+btw loops in bash are shit slow! see:
+http://www.iol.ie/~padraiga/readline/
+
+> And while we're on silly bash questions, is there a way of getting the exit
+> status of a command without using $? i.e. can I do something like
+> 
+> result = some_magic_way_of_quoting(command)
+> 
+> instead of
+> 
+> command
+> result=$?
+> 
+> Note that I'm not looking for backtick or $() substitution, nor arithmetic
+> evaluation as with $[]
+
+I don't think this is possible.
+
+thanks,
+Pádraig.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId128985bc173d9047
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs45252wfo;
+        Fri, 14 May 2010 12:47:50 -0700 (PDT)
+Received: by 10.223.24.148 with SMTP id v20mr2173965fab.43.1273866469431;
+        Fri, 14 May 2010 12:47:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si6631133fah.47.2010.05.14.12.47.48;
+        Fri, 14 May 2010 12:47:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E46702D0DF7; Fri, 14 May 2010 19:47:42 +0000 (UTC)
+Old-Return-Path: <kelly.clowers@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8ACC513A55AA
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 19:47:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6pwOxImsdUeg for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 19:47:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 2AB2313A554B
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 19:47:29 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so3736974qyk.6
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 12:47:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=k/HnboDP1VmpbS0lrBsFsK767pBILD3Fpr8XEXq5ACU=;
+        b=qE7LoeJ+hoxMOi4F3rqvQPsza49IIhGj81Ay3utBlZBONT0uaRx//yTzv/hTMlAphA
+         H26AmmUsD7rcZZi2PHhUBbqzO8Q4ub8jZyVYiGOBwDPlklUHHsL42O8jcqgjhTFq58nM
+         KhpOAAmLkhHRQsTV5yXaFlxWVFWFUQ/5aFVjQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=lwkeWI89e8T375SMSYAlHiVQLreWNOkpXzweuvHpjWn+NaQPFgZQHlbOe4jtPCayam
+         vGCM7/n4SCIbVqfrExH956x4qvkNnkV2tSeIgqZbBbBI89cRstM7HJfvohKBM6RS+8w8
+         d9NvZserJonPfiekCLihSxq9rAxvwrACPwjYA=
+MIME-Version: 1.0
+Received: by 10.229.229.140 with SMTP id ji12mr450504qcb.184.1273866441374; 
+	Fri, 14 May 2010 12:47:21 -0700 (PDT)
+Received: by 10.229.218.21 with HTTP; Fri, 14 May 2010 12:47:21 -0700 (PDT)
+In-Reply-To: <jwv7hn647k7.fsf-monnier+gmane.linux.debian.user@gnu.org>
+References: <20100513193147.0466ac73.celejar@csmining.org>
+	 <4BED4493.4010708@allums.com>
+	 <jwv7hn647k7.fsf-monnier+gmane.linux.debian.user@gnu.org>
+Date: Fri, 14 May 2010 12:47:21 -0700
+Message-ID: <AANLkTilBdFtxuZ0D9Zk6L2wlm6WfublFz0mBlMESXypG@mail.csmining.org>
+Subject: Re: Flash is open?
+From: Kelly Clowers <kelly.clowers@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <c-XpMwvxg2C.A.JS.eja7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576833
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 19:47:42 +0000 (UTC)
+
+On Fri, May 14, 2010 at 12:22, Stefan Monnier <monnier@iro.umontreal.ca> wrote:
+<snip>
+>Javascript are real threats, because even if you use a Free Software
+> implementation of the language, the code run in each web-page will
+> usually be 100% proprietary.
+
+Oh come on. You might as well complain that the HTML of most
+web pages does not use the CC-BY (or similar) license.
+
+
+Cheers,
+Kelly Clowers
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilBdFtxuZ0D9Zk6L2wlm6WfublFz0mBlMESXypG@mail.csmining.org
+
+

@@ -1,0 +1,77 @@
+RE: [ILUG] When is a wav not a wav?I'm sure that The Beatles are weel happy with Microserfs for robbing them
+blind of their "intellectual Property"
+
+I'm gonna mail complaints@microsoft.com and get them to put an end to these
+windows cd's ;--)
+
+Don't suppose you have a reference for it? I've made a lot of friends in the
+MS complaints department, its amazing what you can say to them and get away
+with it --::)))
+
+CW
+
+And no sorry I don't know the solution, they must be pretty bad quality
+though if you can fit 25 albums on one CD. I would say they are Mpeg encoded
+or some buzz like that. 
+
+---------------------
+I've got some really interesting wav files here.
+
+A friend had a Windows CD with, wait for it . . .
+
+Every Beatles Record ever released in the U.K.! Including the Christmas and 
+BBC special albums! All on one, ordinary CD! Yes a 650M CD!
+
+Of course this CD also had a special Windows app for playing this
+collection!
+
+I had a look at the contents of the CD, since I don't do Windows, and the 
+albums appeared to be plain wav files? Each album in it's own wav file, 25 
+Albums, 25 wav files?!? I copied the wav files to my hard drive. 
+
+Curious thing, though, noatun crashes on some of the larger ones, seems to 
+attempt to load the entire file into memory first, and on the ones it
+doesn't 
+crash on, it plays them fast and noisily? kwave refuses to recognise them 
+completely and wavp just makes an ungodly noise!
+
+xanim can, and does play them correctly though. Unfortunately xanim does not
+
+have any position control so you just have to listen to the album from start
+
+to finish.
+
+file has this to say about them:
+
+johngay@debian:/home/jgay$ file beatles/SGT.WAV
+beatles/SGT.WAV: RIFF (little-endian) data, WAVE audio, Microsoft ADPCM, 
+stereo 22050 Hz
+johngay@debian:/home/jgay$ ls -l beatles/SGT.WAV
+-r-xr-xr-x    1 johngay  johngay  53334900 Sep 27  2001 beatles/SGT.WAV
+
+And this is SGT Pepper's lonely Hearts Club Band album. 51M is quite good, 
+considering it also has the inner track. But they certainly are NOT in
+stereo.
+
+What I would like to do is split up the tracks and convert them the mp3 for 
+xmms. I'm jsut not sure what tools would be able to handle these strange 
+compressed wav's that only xanim seems to recognise? I like the albums, but 
+would prefer to be able to sellect tracks to play rather than entire albums 
+and be able to listen to all my music with one app. I know xmms has a WAV 
+plugin, but it does not recognise these either.
+
+Any help will be greatly appreciated!
+
+Cheers,
+
+	John Gay
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

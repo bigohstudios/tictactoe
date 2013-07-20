@@ -1,0 +1,23 @@
+Re: ditching muttOn Thu, Apr 08, 2010 at 04:43:03PM -0700, Tyler MacDonald wrote:
+> After over 10 years of faithful service (essentially when I ditched pine),
+> I am considering having my mutt put down. Should I move over to gmail, or is
+> there some amazing scriptable GUI mail client that is going to knock my
+> socks off with an array of pipes and regexps and color-highlighting and
+> maybe even procmail-parsing and custom keybinding? (Ideally I'd still like
+> to use a terminal to compose/reply to most email, it's just the inbox/IMAP
+> folder management/searching/etc that is getting too unruly for a terminal).
+
+Both sup (sup.rubyforge.org) and notmuch (notmuchmail.org) are
+interesting works-in-progress that are based off the Xapian search
+engine, and have curses-based interfaces.  For people who like the gmail
+interface, this might be of interest.
+
+me
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409010822.GA21316@sigpipe.org
+
+

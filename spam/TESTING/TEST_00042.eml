@@ -1,0 +1,168 @@
+From - Mon Jun 22 06:15:46 2009
+X-Account-Key: account2
+X-UIDL: UID5628-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id D81941619A
+	for <m0620212@mail.csmining.org>; Sat, 20 Jun 2009 17:52:25 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id D445A1617C
+	for <m0620212@mail.csmining.org>; Sat, 20 Jun 2009 17:52:25 +0900 (JST)
+X-ASG-Debug-ID: 1245487945-675f005d0000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1245487945
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251])
+	by spamgw.csmining.org Firewall) with SMTP id 0FC616D3D1D
+	for <m0620212@mail.csmining.org>; Sat, 20 Jun 2009 17:52:25 +0900 (JST)
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id n5K8qORK027033
+        for <m0620212@mail.csmining.org>; Sat, 20 Jun 2009 17:52:24 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id n5K8qOSt027029
+        for <hibody@csmining.org>; Sat, 20 Jun 2009 17:52:24 +0900 (JST)
+Received: from adsl-dyn42.78-98-25.t-com.sk (adsl-dyn42.78-98-25.t-com.sk [78.98.25.42])
+	by ns2.csmining.org  with ESMTP id n5K8qMQ0004384
+	for <hibody@csmining.org>; Sat, 20 Jun 2009 17:52:23 +0900 (JST)
+Date: Sat, 20 Jun 2009 17:52:22 +0900 (JST)
+Message-Id: <CSNWH77140.03BF3DE@adsl-dyn42.78-98-25.t-com.sk>
+From: "Grass Meta" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Warning! Server down
+Subject: [SPAM]  Warning! Server down
+Content-Type: text/html; charset="UTF-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by gw2.csmining.org id n5K8qORK027033
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-ASG-Tag: RBL ([<http://www.spamhaus.org/query/bl?ip=78.98.25.42>])
+X-Barracuda-Spam-Score: 9.77
+X-Barracuda-Spam-Status: No, SCORE=9.77 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.87754
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.50 BARRACUDA_HEADER_FP3043 RBL: Blacklist sbl-xbl.spamhaus
+	                          [<http://www.spamhaus.org/query/bl?ip=78.98.25.42>]
+	1.66 HELO_DYNAMIC_DHCP      Relay HELO'd using suspicious hostname (DHCP)
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.10 RDNS_DYNAMIC           Delivered to trusted network by host with
+	                           dynamic-looking rDNS
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Barracuda-Spam-Flag: YES
+X-BitDefenderWKS-SpamStamp: v1, build 2.8.21.67767, whitelisted,
+ total: 0(725)
+X-BitDefenderWKS-Spam: No - 0
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>
+<title></title>
+</head>
+<body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"=
+0" offset=3D"0" bgcolor=3D'#CCCCCC' >
+
+<STYLE>
+ .headerTop { background-color:#cccccc; border-top:0px solid #000000; bor=
+der-bottom:1px solid #FFFFFF; text-align:center; }
+ .adminText { font-size:10px; color:#996600; line-height:200%; font-famil=
+y:verdana; text-decoration:none; }
+ .headerBar { background-color:#cccccc; border-top:0px solid #333333; bor=
+der-bottom:10px solid #FFFFFF; }
+ .title { font-size:20px; font-weight:bold; color:#CC6600; font-family:ar=
+ial; line-height:110%; }
+ .subTitle { font-size:11px; font-weight:normal; color:#666666; font-styl=
+e:italic; font-family:arial; }
+ td { font-size:12px; color:#000000;font-family:trebuchet ms; }
+ .sideColumn { background-color:#FFFFFF; border-right:1px dashed #CCCCCC;=
+ text-align:left; }
+ .sideColumnText { font-size:11px; font-weight:normal; color:#999999; fon=
+t-family:arial; }
+ .sideColumnTitle { font-size:15px; font-weight:bold; color:#333333; font=
+-family:arial; }
+ .footerRow { background-color:#FFFFCC; border-top:10px solid #FFFFFF; }
+ .footerText { font-size:10px; color:#996600; line-height:100%; font-fami=
+ly:verdana; }
+ a { color:#FF6600; color:#FF6600; color:#FF6600; }
+</STYLE>
+<table width=3D"100%" cellpadding=3D"10" cellspacing=3D"0" bgcolor=3D'#CC=
+CCCC' >
+  <tr>
+    <td width=3D"100%" align=3D"center" valign=3D"top"> <table width=3D"6=
+00" cellpadding=3D"0" cellspacing=3D"0">
+
+        <tr>
+          <td align=3D"center" style=3D"background-color:#CCCCCC;border-t=
+op:0px solid #000000;text-align:center;"><span style=3D"font-size:10px;co=
+lor:#996600;line-height:200%;font-family:verdana;text-decoration:none;"><=
+font color=3D"#333333">Email
+            not displaying correctly?
+		  <a href=3D"http://fbxh.qaymekah.cn/?ma=3D1B8D4BA03BF3DEC30E4F" style=3D=
+"font-size:10px;line-height:200%;font-family:verdana;">View
+            it in your browser.</a></font></span><font color=3D"#333333" =
+size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></=
+td>
+        </tr>
+        </table>
+      <table width=3D"600" cellpadding=3D"10" cellspacing=3D"0" bgcolor=3D=
+"#FFFFFF">
+        <tr>
+          <td width=3D"180" height=3D"40" valign=3D"top" style=3D"backgro=
+und-color:#B71A22;border-bottom:2px solid #FFCE54;text-align:left;">
+            <p align=3D"left" style=3D"width: 578px; text-align: center">=
+&nbsp;</p>
+			<p align=3D"left" style=3D"width: 578px; text-align: center">
+			<a href=3D"http://iu.qaymekah.cn/?med=3D1B8D4BA03BF3DEC30E4F">
+			<img border=3D"0" alt=3D"Click here to open" src=3D"http://iu.qaymekah=
+.cn/1.gif"></a></p>
+			<p align=3D"left" style=3D"width: 578px; text-align: center">&nbsp;</p=
+>
+          </td>
+        </tr>
+        <tr>
+          <td height=3D"30" valign=3D"top" style=3D"background-color:#FFF=
+FFF;border-top:10px solid #FFFFFF;">
+            <p align=3D"center" style=3D"margin-bottom: 0"><span style=3D=
+"font-size:10px;color:#996600;font-family:verdana;"><font color=3D"#00000=
+0">You
+                   can read past issues </font></span><span style=3D"font=
+-size:10px;color:#996600;font-family:verdana;"><font color=3D"#000000">at
+                   the
+			<a href=3D"http://nezk.qaymekah.cn/?wq=3D1B8D4BA03BF3DEC30E4F">Newslet=
+ter
+                Archive</a>.<br />
+              If you would like to receive future issues,
+              please <a href=3D"http://iu.qaymekah.cn/?yp=3D1B8D4BA03BF3D=
+EC30E4F">click
+               here</a>.<br />
+
+              To unsubscribe from this mailing list, please <a href=3D"ht=
+tp://iu.qaymekah.cn/?gjq=3D1B8D4BA03BF3DEC30E4F">click
+              here</a>.<br />
+			</font></span></p>
+            <p align=3D"center" style=3D"margin-top: 0"><font color=3D"#0=
+00000"><span style=3D"font-size:10px;font-family:verdana;">
+			Copyright =A9 2009 <em>Yteyhe</em> Computing Systems. All rights reser=
+ved.</span>
+              </font> </p></td>
+
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
+
+

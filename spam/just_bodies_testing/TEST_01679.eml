@@ -1,0 +1,28 @@
+curious gnome desktop behaviour after upgradeHello,
+
+I am using squeeze on a dell laptop, and am using Gnome, as came with
+the standard installation.
+
+Yesterday, after a big =93safe-upgrade=94 my desktop started to behave curi=
+ously.
+
+When I open a console on the GUI and minimize it, it appears to go to
+the bottom right corner, and then disappears completely.
+Then the Panel on the top panel no longer functions.
+Icons on the desktop continue to function.
+
+If I open another app, all of the buttons on the top panel disappear,
+except for the volume button.
+Then the bottom panel becomes completely bank.
+
+Any ideas what has happened?
+
+John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2r1f1816a91005050100v14e02aa3tc4ec8d64a4ec45c1@mail.csmining.org
+
+

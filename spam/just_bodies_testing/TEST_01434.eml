@@ -1,0 +1,96 @@
+Re: Trying to get a kernel patch included in SqueezeHi,
+
+On Wed, May 12, 2010 at 11:37:05AM +0300, Andrei Popescu wrote:
+> Hello Debian Users,
+> 
+> A regression introduced in kernel 2.6.30, where the beeps produced by 
+> the BIOS on power chord removal are disabled[1] was recently fixed for 
+> 2.6.33 which AFAIK will *not* be in Squeeze.
+...
+> provided for 2.6.33[2], following the "rebuild official kernel" 
+...
+> - if I try to apply it manually it failes:
+> 
+> amp@think:linux-2.6-2.6.32$ patch -p0 < debian/patches/bugfix/all/thinkpad-beep.patch 
+> patching file b/sound/pci/hda/patch_analog.c
+> Hunk #1 FAILED at 71.
+> Hunk #2 FAILED at 165.
+> Hunk #3 FAILED at 203.
+> Hunk #4 FAILED at 3482.
+> Hunk #5 FAILED at 3523.
+> Hunk #6 FAILED at 3655.
+> 6 out of 6 hunks FAILED -- saving rejects to file b/sound/pci/hda/patch_analog.c.rej
+...
+
+> but I have no ideea how difficult it would be to backport it. Comments?
+
+It does not require you to be C specialist to sync simple patches.  The
+"patch" works in very simplistic principle so it can fail easily since
+it is designed to be so.  We do not want false patch action.
+
+You need to see original 2.6.33 and 2.6.32 sources; and patched 2.6.33 source.
+
+>From patch you know you should look for /sound/pci/hda/patch_analog.c
+
+@@ -71,9 +71,10 @@ means you look for line 71 (in 2.6.33).  While
+looking in 2.6.32 line 68:
+----------------
+        /* dynamic controls, init_verbs and input_mux */
+        struct auto_pin_cfg autocfg;
+        struct snd_array kctls;
+        struct hda_input_mux private_imux;
+        hda_nid_t private_dac_nids[AUTO_CFG_MAX_OUTS];
+
+        unsigned int jack_present :1;
+        unsigned int inv_jack_detect:1;
+
+#ifdef CONFIG_SND_HDA_POWER_SAVE
+        struct hda_loopback_check loopback;
+#endif
+        /* for virtual master */
+        hda_nid_t vmaster_nid;
+        const char **slave_vols;
+        const char **slave_sws;
+
+-------------
+Patch was:
+-------------
+-       unsigned int jack_present :1;
+-       unsigned int inv_jack_detect:1; /* inverted jack-detection */
+-       unsigned int inv_eapd:1;        /* inverted EAPD implementation */
++       unsigned int jack_present: 1;
++       unsigned int inv_jack_detect: 1;/* inverted jack-detection */
++       unsigned int inv_eapd: 1;       /* inverted EAPD implementation */
++       unsigned int analog_beep: 1;    /* analog beep input present */
+-------------
+
+I see I do not have "unsigned int inv_eapd:1;" thus patch fails to find
+matching position.  ....  I see.  So there have been new EAPD support in
+2.6.33.  This patch for "analog beep" is another extra over this.
+
+
+I short, I will likely to replace this file with patched 2.6.33 one.
+The diff, if you care to report to BTS after success, is this file vs.
+original 2.6.32 file.
+
+If this does not work, drop inv_eapd related ones and try.  Good luck.
+
+Osamu
+ 
+> [1] https://sourceforge.net/mailarchive/forum.php?thread_name=4BAE0730.8020509%40csmining.org&forum_name=alsa-user
+> [2] https://sourceforge.net/mailarchive/message.php?msg_name=alpine.LNX.2.00.1003261047210.3925%40eeebox2.perex-int.cz
+> [3] http://wiki.debian.org/HowToRebuildAnOfficialDebianKernelPackage
+> 
+> Regards,
+> Andrei
+> -- 
+> http://nuvreauspam.ro/2010/05/4-neticheta-pe-mail/
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514161557.GB747@osamu.debian.net
+
+

@@ -1,0 +1,30 @@
+Re: udev & /dev/sdaX & lenny2squeezeThierry Chatelet wrote:
+>
+> So, I guess you are better to switch now to UUID, it should solve your 
+> problem, and give you a head on future changes.
+> Thierry
+>
+>
+>   
+
+
+As I said in one of my previous posts, udev will not create
+/dev/sdaX, nor their counterpart using names or uuid. So I
+can't do that.
+
+My previous post was premature, if I restore /dev/sdaX using tar,
+I can only use the console. X can't make use of the keyboard or mouse.
+/edv/eth0 also doesn't exist, althought the interface is up, etc.
+It looks like all /dev/ is screwed up!
+
+So I will install from scratch.
+
+Ionel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC30B17.2060800@tue.nl
+
+

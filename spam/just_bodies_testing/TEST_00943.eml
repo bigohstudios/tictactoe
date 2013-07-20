@@ -1,0 +1,33 @@
+Re: Umont ownership?On Tue, Apr 6, 2010 at 8:41 AM, Stephen Powell <zlinuxman@wowway.com> wrote=
+:
+> A non-root user *may* be able
+> to mount *some* file systems and *some* mount points depending on what is
+> specified in /etc/fstab. =C2=A0Here is an excerpt from the man page for m=
+ount:
+
+GNU nano 2.0.7              File: /etc/fstab
+
+# /etc/fstab: static file system information.
+#
+# <file system> <mount point>   <type>     <options>             <dump>  <p=
+ass>
+proc                 /proc                 proc          defaults
+          0           0
+/dev/sda1         /                        ext3
+errors=3Dremount-ro 0            1
+/dev/sda5         none                 swap          sw
+       0           0
+/dev/hda          /media/cdrom0    udf,iso9660 user,noauto         0
+         0
+
+
+so, none of the media that i plug in is listed here. perhaps that is
+because i always use the hotplug?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/s2kf8d5d4f31004060852pe093a738q68af1f9040c4e8da@mail.csmining.org
+
+

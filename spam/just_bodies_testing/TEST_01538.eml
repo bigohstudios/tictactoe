@@ -1,0 +1,28 @@
+Re: Launch some command and leave the console, the command still
+ being executedOn 05/17/2010 11:45 AM, Merciadri Luca wrote:
+> Hi,
+>
+> I would like to be able to launch some command in the console, and to be
+> able to close the terminal, the command being still evaluated, i.e. if I
+> launch gedit (I'm under GNOME), and that I close the console, gedit
+> closes too. (This is also the case with `gedit&', which is not
+> astonishing.)
+>
+> Is it even possible?
+>
+> Thanks folks.
+>
+>    
+You want something more like: `gedit & disown`. The "disown" will detach 
+all background jobs currently attached to the terminal session. This 
+_might_ be specific to BASH since it is a BASH builtin.
+
+Also, you may want to look into tools like GNU Screen.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF169B1.7020209@csmining.org
+
+

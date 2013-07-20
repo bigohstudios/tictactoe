@@ -1,0 +1,36 @@
+Re: Good Use for ClamAVFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 7.4.2010 10:51, Freeman wrote:
+> I'll always be slowly catching up on comp tech.=20
+>=20
+> I was using Knoppix and ClamAV to remove a virus for a friend when the
+> futility of it all hit me.  The free anti-virus hopscotch game that win=
+dows
+> users play to feel safe.  What wasted energy--over an OS I boot into ma=
+ybe
+> 7% of the time.  They screw up half the time.
+>=20
+> There isn't a big demand for ClamAV on the Debian partitions of a
+> laptop/desktop.  But I'll be scheduling scans of the XP partition from
+> Debian.  Doh!
+>=20
+> There is even a ClamAV *win32* for the unlucky.
+> =20
+
+I don't scan my disk partitions with it, but all incoming as well as
+outgoing email is scanned with ClamAV (by amavisd-new). ClamAV with some
+3rd party signatures (SaneSecurity) works quite well in that. Not
+because it detects good, but clamav_daemon is the only daemonized FREE
+anti-virus for Linux.
+
+And my Linux is a server for my Windows workstation. Without Windows, I
+would not bother scanning viruses.
+
+--=20
+http://www.iki.fi/jarif/
+
+You learn to write as if to someone else because NEXT YEAR YOU WILL BE
+"SOMEONE ELSE."
+

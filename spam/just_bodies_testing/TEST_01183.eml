@@ -1,0 +1,71 @@
+Correct way to (re)compile a kernel on Debian SidOn Thu, 8 Apr 2010 16:01:03 -0400 (EDT), Ivan Marin wrote:
+> On Thu, 8 Apr 2010 10:40:46 -0400 (EDT), Stephen Powell wrote:
+>> It sounds to me like you want to get pristine kernel sources directly
+>> from kernel.org and compile them and run them on a Debian system.
+>> I've never done that, but others tell me that they do it.  Of course,
+>> this is not supported by Debian.
+>
+> I understand "not supported" as I can't file bugs from the pristine kernel
+> on the Debian kernel package, and if there's a problem with that, I have to
+> go to the kernel.org bug list, exactly as Stephen pointed.  I'm also aware
+> about the changes that the Debian Kernel Team does to the pristine kernel.
+> But all this is about the kernel itself, and not the process of _building_ a
+> new kernel. So a good question is:  kernel-package supports the compilation
+> of other kernels than the Debian one?
+
+Yes, I believe so.  I myself have never done it, but others on
+this list have.
+
+>> 
+>> This is all explained in http://www.wowway.com/~zlinuxman/Kernel.htm
+>> In particular, review Step 10.
+> 
+> I will check that, and see if there I can get my way around it. But I still
+> miss the old make-kpkg way... ;-)
+
+The new way makes things simpler for the maintainer script.  But it requires
+that the user be more knowledgeable in customizing the kernel installation
+process.
+
+>> But why don't you just install the
+>> appropriate firmware package on Debian?  Are you saying that the bug is
+>> fixed in newer kernel images from kernel.org that Debian has not
+>> packaged yet?
+> 
+> I've installed the debian firmware-iwlwifi package, that is the appropriate
+> package for my hardware, but I'm having several problems with the
+> combination of firmware-iwlwifi 0.23 and kernel 2.6.32 that didn't happened
+> on 0.21 and kernel 2.6.31. As the linux-kbuild-2.6.33 package is not yet
+> avaliable, and I need the linux-headers to compile some modules that I need
+> (nvidia), I was planning my own kernel and test if the problem with my wifi
+> goes away. And also because I like to test new stuff ;-)
+
+So the goal is to test a 2.6.33 kernel to see if it fixes a problem?
+Debian does have 2.6.33 kernels available in "experimental".  If you install
+a binary kernel image package from experimental, that will probably require you
+to upgrade a bunch of other packages.  So in your case downloading the official
+Debian kernel source for 2.6.33 is what I would recommend.  See this link:
+
+   http://packages.debian.org/experimental/linux-source-2.6.33
+
+You obviously don't have the usenet quoting style down just yet.  Note
+the multiple repeated occurrences of the "greater than" sign to indicate
+nested quoting.  Please make sure your quotes are at the appropriate
+nesting level and with proper attribution.
+
+Cheers,
+SMP
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1687207595.1971801270759294251.JavaMail.root@md01.wow.synacor.com
+
+

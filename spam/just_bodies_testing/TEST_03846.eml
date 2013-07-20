@@ -1,0 +1,29 @@
+Re: The future of "nv" driverOn 4/24/2010 6:26 AM, Sven Joachim wrote:
+> On 2010-04-24 12:24 +0200, Mark Allums wrote:
+>>
+>> I've never understood the use of the word "taint" in this context.
+>
+> It means the same as "contaminate".  The practical consequence is that
+> nobody will accept bug reports against the kernel if the nvidia module
+> is loaded.
+>
+> http://www.kernel.org/pub/linux/docs/lkml/#s1-18
+> http://kerneltrap.org/node/5616
+
+Ah, a matter of taste, then.  (Debian tastes bad with Nvidia loaded, 
+apparently.)
+
+Sorry, I must respectfully disagree, although I do acknowledge the 
+practical problem of getting your machine running properly when no one 
+will read your reports.
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD2DC66.7080303@allums.com
+
+

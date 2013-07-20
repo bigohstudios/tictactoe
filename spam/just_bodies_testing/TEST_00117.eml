@@ -1,0 +1,62 @@
+Snow Leopard, Java 6 and NetbeansHi!
+
+I had terrible issues with Snow Leopard and NetBeans 6.7.1, particularly =
+doing Swing Apps. I had to do what you did, reinstalling Java 5 (An =
+unsupported procedure).
+
+NetBeans traced the bug in Apple JVM, and after NetBeans 6.8 came out =
+with some workarounds for the Matisse development environment, =
+everything  became usable, at least to me. So I switched completely to =
+Java 6.
+
+http://netbeans.org/bugzilla/show_bug.cgi?id=3D173912
+
+I am using Snow Leopard, Java 6, 32 bits, with 2 GiB RAM. I have not had =
+mayor issues, however, I do not like the rendering (font and graphics) =
+in Swing in Java 6, it looks fuzzier than Java 5.
+
+David
+
+On Apr 23, 2010, at 9:57 AM, java-dev-request@lists.apple.com wrote:
+
+> I imagine this topic comes up every so often but I haven't been able =
+to find
+> it in the archives. =46rom what I understand, there's some issue with =
+Snow
+> Leopard and Java 6 that makes Netbeans 6.8 near unusable. (I've had to =
+do my
+> development on a lesser-powered PC because there, things will actually =
+open
+> without pegging the CPU at 100% and becoming unresponsive.) Following =
+a tip,
+> I used Pacifist to reinstall Leopard's Java 5 back onto the system, =
+set it
+> as the default, and tried to launch Netbeans. Lo and behold, it was =
+fast,
+> responsive and showed none of the problems I'd been used to. =
+Unfortunately,
+> it made it so that I couldn't work on my Java 6-based app!
+>=20
+> So, what is the actual situation here? Is this a known issue with the =
+Apple
+> JVM that's (hopefully) going to get fixed? Is this a bug in Netbeans? =
+Am I
+> the only one seeing issues this bad, and so it could be a problem with =
+my
+> setup? Is there a workaround? Any help would be vastly appreciated -- =
+the
+> Windows box is having disk issues, and I'd love to move my primary
+> development to the Macbook Pro as soon as possible. And if push comes =
+to
+> shove, I may have to just rearchitect the project into Java 5 (which =
+would
+> not be a simple task.)
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

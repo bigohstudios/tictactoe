@@ -1,0 +1,26 @@
+Re: OpenGLOn Thu, 1 Aug 2002 17:10:48 +0100, John Hinsley <johnhinsley@blueyonder.co.uk> wrote:
+
+> No, the problem is that what plip expects is GL/glut.h (amongst other things) 
+> which were there in 7.2 but have vanished in 7.3. 
+
+    Yeah, I know what you mean.  Here's the trick:
+
+    Remove the Nvidia drivers. Yeah, I know it's a pain...
+    Load BOTH mesa, mesa-demos and basically everything that comes in the mesa rpm.   
+    THEN load NVidia; it'll know what to do.
+
+    ...but it seems like I had to do this on 7.2, too.
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

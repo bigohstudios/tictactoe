@@ -1,0 +1,161 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c6d393aa2be9e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs64281wfo;
+        Sun, 23 May 2010 13:21:15 -0700 (PDT)
+Received: by 10.223.63.17 with SMTP id z17mr3876245fah.66.1274646074144;
+        Sun, 23 May 2010 13:21:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c11si4665430faa.30.2010.05.23.13.21.13;
+        Sun, 23 May 2010 13:21:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 53C2413A4FD6; Sun, 23 May 2010 20:21:08 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 51AF913A4807
+	for <lists-debian-user@liszt.debian.org>; Sun, 23 May 2010 20:21:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id i-cGs+2NVDFn for <lists-debian-user@liszt.debian.org>;
+	Sun, 23 May 2010 20:20:55 +0000 (UTC)
+Received: from mail-bw0-f47.google.com (mail-bw0-f47.google.com [209.85.214.47])
+	by liszt.debian.org (Postfix) with ESMTP id 11EAE13A4816
+	for <debian-user@lists.debian.org>; Sun, 23 May 2010 20:20:55 +0000 (UTC)
+Received: by bwz1 with SMTP id 1so652748bwz.6
+        for <debian-user@lists.debian.org>; Sun, 23 May 2010 13:20:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=HrbAWEaWZJtcQeeo/tPCfPD9XelReuj8n0k3x8Ua3nw=;
+        b=biLIiQu0kFJqIIP/L4TIA9sMY9NWpjR5eswWuBlkskm3+2W6YncnojpYXP3wrY3TSA
+         JoPR/lZE/E92VnnD82h9N/ZIXjfikFH2dvkY0lXX5R/rwL09L8e+j6AFOlZoHZ6eizGR
+         VWuB6/HZdnAafuwTaU3fwqdOPQtedV45/zKAQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=vq85NloP7lZ544hk/Lh4HPQQuWC3QJQo2O3FdJ5ZvstmV+999+IlsnAJgIKr9g9hl3
+         wWBzH6EUwwbWjt1TUtSI2Wd5NY2u08XPpU4IfrmmW12hAeVPEY3/Tmcyvis6729gwbCT
+         B2Os/4s1VHXbDZf25/KNqgKDDU2GBngqfQOfw=
+Received: by 10.204.138.79 with SMTP id z15mr1347546bkt.59.1274646047792;
+        Sun, 23 May 2010 13:20:47 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id d13sm15667686bkd.5.2010.05.23.13.20.46
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 23 May 2010 13:20:46 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id 1C1102020; Sun, 23 May 2010 23:20:45 +0300 (EEST)
+Date: Sun, 23 May 2010 23:20:45 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: Unable to connect to my home wireless
+Message-ID: <20100523202045.GF18703@think.homelan>
+References: <201005202210.17618.tehpeh@gmx.net>
+ <AANLkTikEnVBeEJCKpm64bnac23c-tl7bH2ZS7ipeM4hv@mail.csmining.org>
+ <201005202318.33779.tehpeh@gmx.net>
+ <4A09477D575C2C4B86497161427DD94C14A6C836B9@city-exchange07>
+ <1274417163.21582.3.camel@brutus>
+ <4A09477D575C2C4B86497161427DD94C14A6C836BE@city-exchange07>
+ <4BF6C831.1080007@csmining.org>
+ <20100521144347.eaf9b2ae.celejar@csmining.org>
+ <20100521191220.GK3619@think.homelan>
+ <20100523145304.c065e793.celejar@csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="6lXr1rPCNTf1w0X8"
+Content-Disposition: inline
+In-Reply-To: <20100523145304.c065e793.celejar@csmining.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <iHmlq5EH75K.A.L4.04Y-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577466
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 20:21:08 +0000 (UTC)
+
+
+--6lXr1rPCNTf1w0X8
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun,23.May.10, 14:53:04, Celejar wrote:
+=20
+> > Both are excelent examples :) But even if you disagree with the=20
+> > maintainer, in the end Debian is a do-ocracy.  That is, the one who doe=
+s=20
+> > the job usually gets to decide how it's done ;)
+>=20
+> Of course.  I was just suggesting that a more precise and consistent
+> definition of 'recommends' would be helpful.
+
+IMHO, I doubt it would help. There will always be cases where it is very=20
+difficult to draw the line between Depends: vs Recommends: (see the not=20
+very long ago flames about making xorg depend on hal) and also=20
+Recommends: vs Suggests:
+
+An interesting proposal a while ago was to be able to add some more=20
+information to Suggests:, something like:
+
+Package: acpi-support
+Suggests: radeontool (backlight control for ATI Radeon based laptops)
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--6lXr1rPCNTf1w0X8
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL+Y4cAAoJEHNWs3jeoi3p+pYH/0vz0IsuAnGViq4Pk60izQ3H
+YfVETgdYccY+hHkmNyanQI+2zqAiI/Yp8JNLeQ4oao0rhFOhgfrSRf/Uoww3wXoj
+XVcSNzlJ/5giXeRW2fYISPlgzuZbI6RUEHYn7SecpZGBdJdPJ5+JKTXflsj8q1XK
+ltrZrVT2tDdObUU7vQYBMEgv4hv/4pTv35rzkjR42pZGgds1ISCw3Wv/ct2XyFmS
+jPqRku3ccgBfvoOMHZ+JUiOgnMETK84gahymO+MGn8Et5K5PIKYj61pZ7Fwe64lg
+b553PDulyEozVYEnhj+ba4EsUO53VIKlf1tm+0hd4d8t+p/buPGKvMYPUooEh8A=
+=38sr
+-----END PGP SIGNATURE-----
+
+--6lXr1rPCNTf1w0X8--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100523202045.GF18703@think.homelan
+
+

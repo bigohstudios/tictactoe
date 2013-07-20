@@ -1,0 +1,53 @@
+Re: NYTimes.com Article: Bigger Bar Code Inches Up on RetailersRohit forwards from the NYT:
+> Bigger Bar Code Inches Up on Retailers
+> August 12, 2002
+> By KATE MURPHY 
+
+I can't imagine why they're inching forward through 
+13- and then 14- digit extensions; seems they should
+just leap ahead to something with real headroom, say
+40-digit numbers (128 bits or more). 
+
+How hard can it be to widen the glyph area and 
+narrow the bars? The sensors have got to be tens
+or even hundreds of times more accurate/robust 
+than when barcodes first took off.
+
+One segment of the article along these lines:
+
+> But moving to 13 digits may not be enough. The Universal
+> Code Council and EAN International, which formed an
+> alliance in 1996, strongly advise manufacturers and
+> retailers to go a step further and prepare their systems to
+> accommodate a 14-digit code. That is the length of a newly
+> patented bar code that takes up less space. Its reduced
+> size means that it can be affixed to small items like loose
+> produce, and the extra digits let a retailer keep track of
+> additional data like batch and lot numbers. 
+
+A newly *patented* bar code, that merely fits 14 digits
+into less space? I sure hope there's more to this
+"invention" than "more lines, and narrower". 
+
+They might as well go 2-D to fit in lots of extra bits,
+which could also ease the transition to the capacity 
+radio-transponder tags may offer.
+
+A bunch of info on different barcode standards, including
+2-D variants, with examples is at:
+
+http://www.makebarcode.com/specs/speclist.html
+
+Something very much like a 2-D barcode is Xerox "Dataglyphs":
+
+http://www.parc.com/solutions/dataglyphs/
+
+- Gordon
+____________________   
+Gordon Mohr <gojomo@ . . . At Bitzi, people cooperate to identify, rate,
+bitzi.com> Bitzi CTO . . . describe and discover files of every kind. 
+_ http://bitzi.com _ . . . Bitzi knows bits -- because you teach it!
+
+http://xent.com/mailman/listinfo/fork
+
+

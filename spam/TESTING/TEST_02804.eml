@@ -1,0 +1,160 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f2047ab73576f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs146238wfo;
+        Mon, 12 Apr 2010 05:35:33 -0700 (PDT)
+Received: by 10.223.50.193 with SMTP id a1mr2667414fag.34.1271075732100;
+        Mon, 12 Apr 2010 05:35:32 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si8263467fkq.47.2010.04.12.05.35.31;
+        Mon, 12 Apr 2010 05:35:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D29FD13A5E72; Mon, 12 Apr 2010 12:35:26 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DAB1513A5D41
+	for <lists-debian-user@liszt.debian.org>; Mon, 12 Apr 2010 12:35:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6lZK8ylTef5u for <lists-debian-user@liszt.debian.org>;
+	Mon, 12 Apr 2010 12:35:13 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 737FD13A5DA8
+	for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 12:35:08 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 7FBDC156872A;
+	Mon, 12 Apr 2010 14:34:48 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cUWATxVlKO8c; Mon, 12 Apr 2010 14:34:47 +0200 (CEST)
+Received: from [132.229.227.77] (brood.lorentz.leidenuniv.nl [132.229.227.77])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id B8CF81568578;
+	Mon, 12 Apr 2010 14:34:47 +0200 (CEST)
+Message-ID: <4BC31367.5040104@lorentz.leidenuniv.nl>
+Date: Mon, 12 Apr 2010 14:34:47 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.8.1.21) Gecko/20090318 Lightning/0.9 Thunderbird/2.0.0.21 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: Ron Johnson <ron.l.johnson@cox.net>, 
+ "debian-user@lists.debian.org" <debian-user@lists.debian.org>
+Subject: Re: Migrate OS to smaller drive?
+References: <3cc33b52b344d44be33167a82fe301fe@192.168.0.66> <4BC0EBE5.8060807@lorentz.leidenuniv.nl> <4BC1CA69.4080601@web.de> <4BC1E301.8020105@cox.net> <4BC23713.4010307@lorentz.leidenuniv.nl> <4BC24B54.5060804@cox.net> <4BC2D65B.5030905@lorentz.leidenuniv.nl> <4BC310A1.2080100@cox.net>
+In-Reply-To: <4BC310A1.2080100@cox.net>
+X-Enigmail-Version: 0.95.6
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig9080F690EB992FD3497FFEF7"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kf66H7d-ivC.A.HBC.OOxwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573925
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 12 Apr 2010 12:35:26 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig9080F690EB992FD3497FFEF7
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson schreef:
+> On 2010-04-12 03:14, Sjoerd Hardeman wrote:
+>> Ron Johnson schreef:
+>>> On 2010-04-11 15:54, Sjoerd Hardeman wrote:
+>>>> Ron Johnson schreef:
+>>>>> On 2010-04-11 08:11, Clive McBarton wrote:
+>>>>>> Sjoerd Hardeman wrote:
+>>>>>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>>>>>  rsync -ax / /media/newdevice.
+>>>>>> What exactly is the advantage of this approach over "cp -a" or "mv=
+"?
+>>>>>>
+>>>>>> I would have suggested mv. It has the useful property that you can=
+
+>>>>>> easily spot aborted transfers by the fact that the original device=
+ is
+>>>>>> not empty afterwards.
+>>>>> One note is that I've had issues where symlinks remain pointing to =
+
+>>>>> the old drive.  (That was a long time ago, though, and maybe I did =
+
+>>>>> something
+>>>>> wrong.)
+>>>> I thought symlinks keep point via a file location memo, like "look a=
+t
+>>>> /usr/share/the/file/you/want", which is the old location just after
+>>>> copying, but the new location when you boot from your new device and=
+
+>>>> that becomes root.
+>>>>
+>>>
+>>> Note how at the bottom or this example bar/shoe still points to=20
+>>> ../snuffle/shoe/.  When you try to "cp -axv / /some/new/root" the=20
+>>> same thing will happen.   In /usr/bin all the symlinks to=20
+>>> /etc/alternatives will still point to the *current* /etc/alternatives=
+=20
+>>> not to /some/new/root/etc/alternatives.
+>> As expected, thus. So when change your fstab to let /some/new/root=20
+>> become / then all the symlinks are as they should be.
+>>
+>=20
+> There's only one way to find out...
+Well, I once migrated with these options from an almost broken hard=20
+drive to a working one, and I didn't run into problems with symlinks. SO =
+
+most likely, "it just works"
+
+Sjoerd
+
+
+
+--------------enig9080F690EB992FD3497FFEF7
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.7 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLwxNnHKEdNPY5OOURAm5bAKCYBAWZwIQXo0EPifwXy5oMjLKsXwCcD4Y8
+JPBdzBYTenlgzqTYSJaLcfc=
+=xRDd
+-----END PGP SIGNATURE-----
+
+--------------enig9080F690EB992FD3497FFEF7--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC31367.5040104@lorentz.leidenuniv.nl
+
+

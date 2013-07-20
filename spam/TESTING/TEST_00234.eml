@@ -1,0 +1,232 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bef600f56452d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs25956wfo;
+        Sat, 22 May 2010 00:41:53 -0700 (PDT)
+Received: by 10.223.117.164 with SMTP id r36mr2394139faq.28.1274514112518;
+        Sat, 22 May 2010 00:41:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si2842529fah.89.2010.05.22.00.41.51;
+        Sat, 22 May 2010 00:41:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 092DC13A5553; Sat, 22 May 2010 07:41:44 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F11C213A4FED
+	for <lists-debian-user@liszt.debian.org>; Sat, 22 May 2010 07:41:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QbUadcGsNfyK for <lists-debian-user@liszt.debian.org>;
+	Sat, 22 May 2010 07:41:30 +0000 (UTC)
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.159])
+	by liszt.debian.org (Postfix) with ESMTP id 4590213A51FE
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 07:41:30 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id 22so578332fge.12
+        for <debian-user@lists.debian.org>; Sat, 22 May 2010 00:41:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=pKilNox5bhmngO0ZX58IqId+hInJe55FuQlh7bmhNmY=;
+        b=PnPuWePN72WmU1fG9ggAZrzqzjMDgU4SGkbB5q9ctwevZgDP6IUHG57T/FZUjV8KWO
+         V30VLXuTJ8RQ8mpBoTQh9kpofqUGV+66dNj10XDKttGv1Vy71/DiVHqB4z3yUI5K/1id
+         7l4UgyPZIvyOoQbC7luamcPEf7l3Dd/4j+acY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=DgYANpXPLSUs52yjItISrPSeWCzf8UCRfMUiZXAk7CViqa91TE+KzzKtkZIHKVt4sH
+         H43C22xiNlZS404/2BZLK13QVfBpy79QbL2/1C01PUIMWpXDgOkNbYbA8lJ1phy+QQPb
+         +GNhKUXPaupYcpya6doxTv48LQv9IYMaS5S2w=
+Received: by 10.103.78.31 with SMTP id f31mr2336189mul.79.1274514083311;
+        Sat, 22 May 2010 00:41:23 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id u26sm6626758mug.55.2010.05.22.00.41.22
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 22 May 2010 00:41:22 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id B580A2020; Sat, 22 May 2010 10:41:20 +0300 (EEST)
+Date: Sat, 22 May 2010 10:41:20 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: How to keep debian current??
+Message-ID: <20100522074120.GE26997@think.homelan>
+References: <1965615763-1273929389-cardhu_decombobulator_blackberry.rim.net-1787116711-@bda030.bisx.prodap.on.blackberry>
+ <4BF2E8B0.6030006@allums.com>
+ <20100519014536.GB6644@osamu.debian.net>
+ <201005220303.42972.jesus.navarro@undominio.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="Yb+qhiCg54lqZFXW"
+Content-Disposition: inline
+In-Reply-To: <201005220303.42972.jesus.navarro@undominio.net>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LY5wfqe88dE.A.7jD.3q49LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577360
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 07:41:44 +0000 (UTC)
+
+
+--Yb+qhiCg54lqZFXW
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,22.May.10, 03:03:42, Jes=FAs M. Navarro wrote:
+=20
+> The answer is "it depends".
+>=20
+> As already stated, there are no security updates on Sid 'per se', but the=
+y=20
+> depend on upstream maintainers provinding a new version that hopefully wi=
+ll=20
+> resolve the problem *and* its ability to go into Sid.
+>=20
+> I.e.:
+> Case A) Big security problem discovered on foo 1.2.3; the upstream mainta=
+iner=20
+> produces foo 1.2.4 which resolves the problem and in a few hours (provide=
+d=20
+> the Debian maintainer is avaliable) it goes into Sid.  A week later foo 1=
+=2E2.4=20
+> gets promoted into Testing.  So in this case, Sid is a bit head of Testin=
+g.
+=20
+Usually security fixes are uploaded "priority=3Dhigh", which means faster=
+=20
+migration (3 days?). Sid is still ahead, but not by 10 days.
+
+> Case B)  Big security problem discovered on foo 1.2.3; the upstream maint=
+ainer=20
+> is more interested on his upcoming great uberversion foo 2, so he doesn't=
+ fix=20
+> by means of 1.2.4 but by  accounting for the problem on the foo 2 branch.=
+ =20
+> Since foo 2 depends on a lot of a helluva of other packages it takes two=
+=20
+> months for foo 2 to get into Sid.  Meanwhile, the Security team, aware of=
+ the=20
+> security problem, produces foo 1.2.3-patch1 backporting the security fix =
+and=20
+> it goes directly into Testing, since Sid it's waiting for the new 2 branc=
+h. =20
+> In this case Testing is the one ahead of Sid.
+
+During this cycle the security support is not there (yet). Might happen=20
+during the freeze. But also the maintainer might take the *stable* patch=20
+and adapt it for the package in sid ;)
+=20
+> In this regard, the overall ballance I think still favours Testing: it us=
+ually=20
+> will be a bit bellow Sid regarding security, but it might become ahead on=
+=20
+> really concerning security problems, but definetly it will be *always* ah=
+ead=20
+> of Sid regarding general avaliability and dependability (since most bugs =
+and=20
+> blockages will be retained at Sid and packages will only move into Testin=
+g=20
+> when most problems are already tamed down).
+
+Makes sense. And if you care about security do subscribe to=20
+debian-security-announce and debian-testing-security-announce. You don't=20
+need the later if you run pure stable, but makes sense in any other mix=20
+(including backports). The traffic of both lists combined is about one=20
+message per day.
+
+> My simple rule about Debian has always been:
+> * Stable, if you just want to use Debian.
+
+I install stable as much as I can due to:
+- security support
+- low maintenance overhead
+
+Once installed just watch debian-security-announce (and debian-announce=20
+for point releases if you don't use proposed-updates) and=20
+update/safe-upgrade as needed.
+
+> * Testing, if you want a peek over what Debian will be on next release an=
+d=20
+> want to help to hunt down the non-obvious bugs (probably because you depe=
+nd=20
+> on the quality of Debian Stable and that's what you can do to help going =
+for=20
+> it).
+
+I installed testing for people who thought Debian is just too old=20
+(usually with KDE 4, which makes a good impression to Windows users). =20
+Unless the user already has some Debian experience it's a must have that=20
+I can somehow regularly access the system (usually ssh).
+
+> * Sid, if you look for fun and have at least a mild desire to become a da=
+y a=20
+> DD.  If you don't want to open and follow a lot of bugs, provide patches =
+=66rom=20
+> time to time and follow the devel lists, you'd probably be better out of =
+the=20
+> loop and stay on Stable or Testing.
+
+I would get terribly bored if I was to run anything else but sid on my=20
+own laptop. The only other machine at home is now pure stable, but mpd=20
+won't play my favorite stream (aac unfortunately).
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--Yb+qhiCg54lqZFXW
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL94qgAAoJEHNWs3jeoi3pzlAH/0AW78sYn7DGgfxzcNR6PMi4
+5yvODE4R24WMYofMkk+6besZWRqqU9aZXJbX3envYLAOJZKImIefOU72aESaIB7N
+fnAxQAli8NzM3XoF/S+24NeyzGx96paC6zrBHsOkv9cfXqphswHurMBoXqqFAyte
+EIzgBHtfEIvQ3Nwfy8tbq4soe7rkJioE+xYTZfa46V/SGmdf0Ummwqo280VtKsoE
+P1qDtcUA0PvjMIwL3kYUDnWX7pHF5G4EP42/Cn+hMzF9zZw4J7r+iJ/KAYUDune4
+nLFoGhVtN8fiZaNAfdNLW5eh0agVN3O0HSpFwGkiGQ4yNygFLrrSx2q52HGb/o0=
+=m7Ui
+-----END PGP SIGNATURE-----
+
+--Yb+qhiCg54lqZFXW--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522074120.GE26997@think.homelan
+
+

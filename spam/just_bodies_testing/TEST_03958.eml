@@ -1,0 +1,126 @@
+C programming questionI realize that this is not a C forum, per se, but this is a Debian-specific
+C question.  I am trying to add support to the parted utility for CMS-formatted
+disks on the s390 architecture.  The source code is written in C, of course.
+But I am not a C programmer.  I can spell C, but that's about it.  It seems
+that the people who know s390 don't know C and the people who know C don't
+know s390, as a general rule.  There are very few people who know both, and
+they are busier than a one-armed wallpaper hanger in the Spring.  Perhaps this
+question belongs on a developer forum, but I'm embarrassed to ask such a
+stupid question on a developer forum.  They'd laugh me clear into next week.
+Anyway...
+
+What I need to do is to have two structures overlay each other; so that they
+occupy the same storage.  To be specific, here is a structure which describes
+the volume label for an OS-formatted disk:
+
+-----
+
+struct __attribute__ ((packed)) volume_label {
+        char volkey[4];         /* volume key = volume label                 */
+        char vollbl[4];         /* volume label                              */
+        char volid[6];          /* volume identifier                         */
+        u_int8_t security;      /* security byte                             */
+        cchhb_t vtoc;           /* VTOC address                              */
+        char res1[5];           /* reserved                                  */
+        char cisize[4];         /* CI-size for FBA,...                       */
+                                /* ...blanks for CKD                         */
+        char blkperci[4];       /* no of blocks per CI (FBA), blanks for CKD */
+        char labperci[4];       /* no of labels per CI (FBA), blanks for CKD */
+        char res2[4];           /* reserved                                  */
+        char lvtoc[14];         /* owner code for LVTOC                      */
+        char res3[29];          /* reserved                                  */
+};
+
+-----
+
+And here is a structure which describes the volume label for a CMS-formatted
+disk:
+
+-----
+
+struct __attribute__ ((packed)) cms_label {
+        char label_id[4];       /* Label identifier                          */
+        char vol_id[6];         /* Volume identifier                         */
+        char version_id[2];     /* Version identifier                        */
+        u_int32_t block_size;   /* Disk block size                           */
+        u_int32_t origin_ptr;   /* Disk origin pointer                       */
+        u_int32_t usable_count; /* Number of usable cylinders/blocks         */
+        u_int32_t formatted_count; /* Max # of formatted cylinders/blocks    */
+        u_int32_t block_count;  /* Disk size in CMS blocks                   */
+        u_int32_t used_count;   /* Number of CMS blocks in use               */
+        u_int32_t block_count;  /* Disk size in CMS blocks                   */
+        u_int32_t used_count;   /* Number of CMS blocks in use               */
+        u_int32_t fst_size;     /* File Status Table (FST) size              */
+        u_int32_t fst_count;    /* Number of FSTs per CMS block              */
+        char format_date[6];    /* Disk FORMAT date (YYMMDDhhmmss)           */
+        char reserved1[2];      /* Reserved fields.  Note: the high-order    */
+                                /* bit of the first byte is now a century    */
+                                /* flag.  0 = 1900s, 1 = 2000s.  It is used  */
+                                /* in conjunction with "format_date".        */
+        u_int32_t disk_offset;  /* Offset in blocks to the start of the      */
+                                /* reserved file when the disk is reserved   */
+        u_int32_t map_block;    /* Allocation map block with next hole       */
+        u_int32_t hblk_disp;    /* Displacement into HBLK data of next hole  */
+        u_int32_t user_disp;    /* Disp into user part of allocation map     */
+        u_int32_t open_files;   /* Count of SFS open files for this ADT.     */
+                                /* Note: open_files is not really part of    */
+                                /* the volume label.  It is not used for     */
+                                /* minidisks.                                */
+        char segment_name[8];   /* Name of the shared segment.               */
+                                /* Note: segment_name is not really part of  */
+                                /* the volume label.  It is not stored on    */
+                                /* disk.                                     */
+};
+
+-----
+
+Note that both structures have as their first member a character variable
+of length 4.  In the case of the "volume_label" structure it is "volkey"
+and in the case of the "cms_label" structure it is "label_id".  If the
+value of this variable is "VOL1" (in EBCDIC) then it is the first structure
+which maps the storage.  If the value of this variable is "CMS1" (in EBCDIC)
+then it is the second structure which maps the storage.  The volume_label
+structure is apparently a based structure, as references to the volkey
+variable look something like this:
+
+   disk_specific->anchor->vlabel->volkey
+
+How do I get these structures to overlap each other?  I eventually want to
+make a reference to the disk_offset variable in the cms_label structure,
+something like
+
+   disk_specific->anchor->vlabel->disk_offset
+
+but I get compile errors such as
+
+   dasd.c:327: error: 'volume_label_t' has no member named 'disk_offset'
+
+"volume_label_t" is defined like this:
+
+   typedef struct volume_label volume_label_t;
+
+I freely admit that I don't know what I'm doing, and I ought to have my
+head examined for trying to enhance a program written in a language that
+I don't know, but I'm the one who will benefit if I can get it to work.
+The people who know how don't care, and the people who care (in this case
+me) don't know how!
+
+I know how to do this in PL/I, but despite having spent the last two hours
+paging through a C language reference manual, I couldn't find any examples
+of overlaying two structures.  I did find reference to something called
+a union, but I don't have enough knowledge to know what to do.  Does
+anyone know how to do this?
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1202149079.3016881271196963321.JavaMail.root@md01.wow.synacor.com
+
+

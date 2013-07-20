@@ -1,0 +1,143 @@
+Re: Re (3): Re^n: Grub vs. linux-image-2.6.32 conundrumOn Tue, 11 May 2010 19:29:39 -0400 (EDT), Peter Easthope wrote:
+> Stephen Powell wrote:
+>>  ...
+>> "if it ain't broke, don't fix it"
+>>  ...
+>> I don't understand what problem you are trying to solve.
+> 
+> But it is broke!
+> In one sense, the primary problem is failure of X.
+> 
+> dalton:/home/peter# uname -rv
+> 2.6.30-2-686 #1 SMP Sat Sep 26 01:16:22 UTC 2009
+> dalton:/home/peter# startx 
+>    ...
+> (EE) open /dev/fb0: No such file or directory
+> SELinux: Disabled on system, not enabling X server
+> 
+> waiting for X server to shut down ...
+> 
+> dalton:/home/peter#
+
+This problem is totally unrelated to which boot loader you use.
+
+> 
+> A later kernel might fix the /dev/fb0 problem but 
+> currently the kernel update fails when update-initramfs 
+> invokes update-grub.  
+> 
+> So these options come to mind.
+> * Wait for grub-pc to be fixed, put it back onto the 
+>   NetVista, get the latest kernel and sooner or later 
+>   get a working /dev/fb0.
+> * Fix the update-initramfs script so that it works with lilo.
+>   That will allow kernel updating.
+> * Compile a custom kernel so that a ramfs is not required.
+>   Again the kernel can be updated.
+> * Reinstall Lenny and wait for grub-pc to be fixed 
+>   before reinstalling Squeeze.
+> 
+> The first option is quickest, provided it works.
+> 
+> Thanks to anyone with a helpful idea,     ... Peter E.
+
+Your kernel installation environment is not configured correctly for
+use with lilo.  That's why you are having trouble upgrading to
+a newer kernel.  Assuming that you are using only stock kernel images,
+here is what you should do:
+
+(1) Login as root.
+
+(2) Create a file called /usr/sbin/lilo-update.  It should look like
+this:
+
+   #!/bin/sh
+   # 
+   # This script is referenced by /etc/kernel-img.conf.
+   #
+   lilo >&2
+
+(3) Mark the file executable
+
+   chmod +x /usr/sbin/lilo-update
+
+(4) Edit the file /etc/kernel-img.conf.  When you're done editing,
+it should look like this:
+
+   # Kernel image management overrides
+   # See kernel-img.conf(5) for details
+   do_symlinks = yes
+   relative_links = yes
+   do_bootloader = yes
+   do_bootfloppy = no
+   do_initrd = yes
+   link_in_boot = yes
+   postinst_hook = lilo-update
+   postrm_hook = lilo-update
+
+(5) Check the / directory for symlinks.  If they are found, remove them
+
+   rm /vmlinuz
+   rm /initrd.img
+   rm /vmlinuz.old
+   rm /initrd.img.old
+
+(6) Check the /boot directory for symlinks.  If they are not there, add them.
+
+   cd /boot
+   ln -s vmlinuz-2.6.30-2-686 vmlinuz
+   ln -s initrd.img-2.6.30-2-686 initrd.img
+
+(I am assuming here that 2.6.30-2-686 is the only installed kernel.)
+
+(7) Edit /etc/lilo.conf.  Make sure that the /boot directory appears in all
+of the symlinks.  For example,
+
+   # /etc/lilo.conf
+   # 
+   # global options
+   #
+   append="acpi=off notsc clocksource=pit"
+   boot=/dev/hda
+   compact
+   default=Linux
+   delay=40
+   install=text
+   large-memory
+   lba32
+   root=/dev/hda1
+   read-only
+   vga=normal
+   #
+   # per-image options
+   #
+   image=/boot/vmlinuz
+        label=Linux
+        initrd=/boot/initrd.img
+   #
+   image=/boot/vmlinuz.old
+        label=LinuxOld
+        initrd=/boot/initrd.img.old
+        optional
+
+Note the "image" and "initrd" lines (total of four).  They specify a symlink
+in the /boot directory.
+
+Now install your new kernel.  It should install just fine.  I don't know if the
+new kernel will fix the X problem you are having, but that has nothing to do
+with which bootloader you use.  As long as you use only stock kernel images
+and no custom-compiled kernel images, this should work just fine.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1874972669.67550.1273676721208.JavaMail.root@md01.wow.synacor.com
+
+

@@ -1,0 +1,35 @@
+Re: recompiling the kernel with a different version nameOn Wed, 7 Apr 2010 13:48:18 -0400 (EDT)
+Stephen Powell <zlinuxman@wowway.com> wrote:
+
+...
+
+> Note: you must always issue "make-kpkg clean" after running "make menuconfig"
+> or after running "make-kpkg" with any target other than "clean".  Otherwise,
+> version and revision numbers will not work as expected.  Assuming that you
+
+Are you sure that this is currently required?  From the changelog:
+
+kernel-package (12.016) unstable; urgency=low
+
+  * [4df65e7]: Remove obsolete warnings about running make-clean
+    With the new facility to regenerate ./debian, all the old strictures
+    about running make clean after anything that might change the version
+    number have beenmade obsolete, so remove from man page.  
+    Bug fix: "Is the --append-to-version section still accurate?", thanks
+    to Frédéric Brière. Short answer: No.                  (Closes: #534743).
+
+ -- Manoj Srivastava <srivasta@debian.org>  Sun, 28 Jun 2009 15:31:12 -0500
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100407145453.41737aad.celejar@csmining.org
+
+

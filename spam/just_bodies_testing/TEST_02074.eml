@@ -1,0 +1,43 @@
+Re: cannot type power of 1 or 2, 4-9 are typeable.On Sun, 11 Apr 2010 19:43:30 -0700, jeremy jozwik wrote:
+
+> im trying to type [copy from character map] power of 2. i can read power
+> of 2 on webpages but if i were to cope > paste from that page, the power
+> displays as a normal character 2. is this a dpkg-reconfigure locales
+> issue?
+
+Web pages usually make use of CSS styles to render those types, so when 
+you copy/paste the content into a plain text document, the format gets 
+lost. That's a normal behaviour.
+ 
+> how can i gain the ability to type a power of 2?
+
+Besides the tip Cameron provided, I add another one (only for GNOME):
+
+- Press Control-R and then press Shift-R (keep those pressed at the same 
+time)
+- Now press "u" and release the three keys (it will appear an underline 
+"u" in the screen)
+- Then type "00b2" and press Enter
+
+That will render into "²" :-)
+
+There is a small list of secuences in this page:
+
+http://www.hermit.org/Linux/ComposeKeys.html
+
+And a full one:
+
+http://www.fileformat.info/info/unicode/char/a.htm
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.12.07.05.56@csmining.org
+
+

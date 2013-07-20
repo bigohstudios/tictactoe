@@ -1,0 +1,34 @@
+Re: [scoop] Scoop MS Word .doc file into something that plucker or other Palm app can display?Good Day!
+
+On Thu, Aug 29, 2002 at 05:10:47PM -0400, Larry W. Virden wrote:
+> I am wondering whether there's a way that I can use sitescooper and/or plucker
+> or some other free utility to convert word documents into something a bit
+> more palmos friendly?
+
+	You could try antiword (http://www.winfield.demon.nl/linux/).
+It's consoled based and converts word 6+ docs to text and some images to
+postscript and png.  You could also try openoffice and/or abiword if you
+have x installed.
+
+> I don't have a Windows machine, so it becomes problematic to convert them;
+> I know that if this were not the case, in Word I could save them as some
+> other more friendly format.
+
+	Great! ;)
+
+Mabuhay! barryg
+
+-- 
+Barry Dexter A. Gonzaga, bofh
+barryg@kssp.upd.edu.ph 
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Sitescooper-talk mailing list
+Sitescooper-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/sitescooper-talk
+

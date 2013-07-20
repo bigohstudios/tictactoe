@@ -1,0 +1,45 @@
+Re: How does the Finder decide that two drives are on the
+	same	partition?In the case you're describing, I believe the File Manager takes the =
+f_mntfromname string from statfs(), and then uses IOKit routines to =
+determine if they are on the same device.
+
+- Jim
+
+On Apr 13, 2010, at 8:56 PM, Jim O'Connor wrote:
+
+> When I make two "local" disks via MacFuse and I try to eject one of =
+them the Finder insists on warning me that there are two drives on the =
+same partition, and giving me the option to unmount all of them or just =
+the one I tried to. This is very inconvenient for me.
+>=20
+> The mount command shows:
+>=20
+>=20
+> MyFS@fuse0 on /Volumes/MyFS_2Gig (...)
+> MyFS@fuse1 on /Volumes/MyFS_4Gig (...)
+>=20
+> My suspicion is that the Finder just looks for the mount=46rom value =
+then calls volumes partitions on the same disk if they only vary in the =
+last number.
+>=20
+> Thoughts?
+>=20
+> Thanks,
+> Jim O'Connor _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/filesystem-dev/luther.j%40apple.com=
+
+>=20
+> This email sent to luther.j@apple.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

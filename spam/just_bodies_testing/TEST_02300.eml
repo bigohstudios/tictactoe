@@ -1,0 +1,30 @@
+Tiny DNS SwapFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+I'm using Simple DNS from JHSoft.  We support only a few web sites and =
+I'd like to swap secondary services with someone in a similar position.
+
+We have a static IP, DSL line and a 24/7 set of web, SQL, mail and now a =
+DNS server.  As I said, we are hosting about 10 web sites, web and DNS =
+traffic is almost nothing.  Everything is on lightly loaded APC battery =
+backups so we are very seldom down.
+
+I'd like to swap with someone also using Simple DNS to take advantage of =
+the trusted zone file transfer option.
+
+
+
+Bob Musser
+Database Services, Inc.
+Makers of:
+   Process Server's Toolbox
+   Courier Service Toolbox
+BobM@dbsinfo.com
+www.dbsinfo.com
+106 Longhorn Road
+Winter Park FL 32792
+(407) 679-1539
+
+

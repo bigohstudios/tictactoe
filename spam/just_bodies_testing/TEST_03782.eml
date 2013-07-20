@@ -1,0 +1,24 @@
+Re: Memory footprint of a mail server> Thomas Goirand <thomas@goirand.fr> :
+>Today, running Lenny, top shows us some crazy results:
+>clamav: 156 MB
+>amavisd-new: 80 MB per process (running 3 processes is the minimum)
+>spamd: 105 MB per process (same remark)
+>That makes the total amount of RAM needed to run these 3 up to
+>something like 700 MB, which makes it a hard fit for smaller end VPSes.
+
+We use on each openVZ VE: clamav + spamassasin. VEs are 2GB RAM.
+So yes, your observations are right.
+But I think that's the way it goes.
+
+-- 
+       Architecte Informatique chez Blueline/Gulfsat:
+    Administration Systeme, Recherche & Developpement
+                +261 34 29 155 34 / +261 33 11 207 36
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100505103722.6c42c584@pbmiha.malagasy.com
+
+

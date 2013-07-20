@@ -1,0 +1,29 @@
+Re: JButton.buttonType segmentedGradientOn May 9, 2010, at 17:31 , Alexei Svitkine wrote:
+
+> I've posted a similar question to the list in 2008:
+>
+> http://lists.apple.com/archives/java-dev/2008//May/msg00392.html
+
+Thanks, Alexei. I had missed your post.
+
+Sad though, that in two years time the situation hasn't been improved.
+Sounds like I have to paint my own lines and accept that it will not  
+look like it does in Cocoa :-(
+
+Unsatisfying.
+
+Mike - does it make sense to file another bug report for this?
+
+Thanks,
+
+-hendrik
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

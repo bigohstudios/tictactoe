@@ -1,0 +1,36 @@
+Re: [SAtalk] Some Stupid QuestionsFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, Aug 22, 2002 at 01:01:44PM -0500, Ken Scott wrote:
+> whitelist_from *@yahoogroups.com
+>=20
+> in his .spamassassin/user_prefs file, does that line not, in effect,
+> tell the program to take no action at all against any mail coming in from
+> yahoogroups.com, or is there still checking being done against it?  And if
+
+It still gets checked, but a negative score is added in.  And it doesn't
+mean "coming in from" it means "From: address is @yahoogroups.com".
+There's a Yahoo Groups compensation rule in 2.40 though. :)
+
+> the latter, what does he need to place in user_prefs to cause such mail
+> to be ignored?  I'm testing SA here with a few users who happen to be on
+
+ignored completely?  you can't do that, put in a procmail rule.
+
+> yahoogroups lists, before deploying it system-wide, and although the above
+> line has been added to their user_prefs files, much of their list mail is
+> still going to the spam folder due to all the usual things you would
+> expect to trigger SA.
+
+You'd want to either add your own compensation rule or up (negatively)
+the whitelist score.
+
+--=20
+Randomly Generated Tagline:
+There are perfectly good answers to those questions, but they'll have
+ to wait for another night.
+=20
+ 		-- Homer Simpson
+ 		   Homers Barbershop Quartet

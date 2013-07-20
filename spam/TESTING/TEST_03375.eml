@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d8daf07d5487b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs28953wfi;
+        Wed, 7 Apr 2010 08:19:40 -0700 (PDT)
+Received: by 10.223.56.216 with SMTP id z24mr545352fag.82.1270653579708;
+        Wed, 07 Apr 2010 08:19:39 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si19228712fxm.17.2010.04.07.08.19.39;
+        Wed, 07 Apr 2010 08:19:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2BB5F2E8B29; Wed,  7 Apr 2010 15:19:26 +0000 (UTC)
+Old-Return-Path: <xtreme911@msn.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.1 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	IMPRONONCABLE_2,LDO_WHITELIST,ONEWORD autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 526492E8B27
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 15:19:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.01 tagged_above=-10000 required=5.3
+	tests=[BAYES_40=-0.01, GMAIL=1, HTML_MESSAGE=1, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, ONEWORD=2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id TcTs7FnJzFDf for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 15:19:13 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.8
+Received: from bay0-omc3-s20.bay0.hotmail.com (bay0-omc3-s20.bay0.hotmail.com [65.54.190.158])
+	by liszt.debian.org (Postfix) with ESMTP id DB25F2E8B1C
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 15:19:06 +0000 (UTC)
+Received: from BAY107-W17 ([65.54.190.189]) by bay0-omc3-s20.bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.3959);
+	 Wed, 7 Apr 2010 08:19:03 -0700
+Message-ID: <BAY107-W1785C5FA9266AAB2078E4AEF170@phx.gbl>
+Content-Type: multipart/alternative;
+	boundary="_ab7883bb-2d68-4e8a-b065-0527006ab7bd_"
+X-Originating-IP: [70.26.106.48]
+From: Mike Viau <viaum@sheridanc.on.ca>
+Sender: <xtreme911@msn.com>
+To: <debian-user@lists.debian.org>
+Subject: RE: silverlight
+Date: Wed, 7 Apr 2010 11:19:03 -0400
+Importance: Normal
+In-Reply-To: <l2tf8d5d4f31004070811w1af0acefzbfde7722d1c91163@mail.csmining.org>
+References: <4BBC9620.8060003@home.nl>
+ <4BBC9B18.9010903@rkrahl.de>,<l2tf8d5d4f31004070811w1af0acefzbfde7722d1c91163@mail.csmining.org>
+MIME-Version: 1.0
+X-OriginalArrivalTime: 07 Apr 2010 15:19:03.0934 (UTC) FILETIME=[A86E91E0:01CAD665]
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-k50HSajGGC.A.lQC.-JKvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573519
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 15:19:26 +0000 (UTC)
+
+--_ab7883bb-2d68-4e8a-b065-0527006ab7bd_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Wed=2C 7 Apr 2010 08:11:21 -0700 <jerjoz.forums@csmining.org
+> On Wed=2C Apr 7=2C 2010 at 7:47 AM=2C Robin Krahl <robin@rkrahl.de> wrote=
+:
+> > On 07.04.2010 16:26=2C steef wrote:
+> >> somebody out there knows of an linux_equivalent for MS's siverlight??
+> >
+> > Moonlight [1] is a Open Source version of Silverlight=2C working on Lin=
+ux.
+>=20
+> dont bother trying to use netflix with it!
+>=20
+> I have noticed it does not load up some silverlight video-casts from othe=
+r sites as well. You have been warned. =20
+> --=20
+> To UNSUBSCRIBE=2C email to debian-user-REQUEST@lists.debian.org=20
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/l2tf8d5d4f31004070811w1af0acefzbfde7722d=
+1c91163@mail.csmining.org
+>=20
+ 		 	   		 =20
+_________________________________________________________________
+Got a phone? Get Hotmail & Messenger for mobile!
+http://go.microsoft.com/?linkid=3D9724464=
+
+--_ab7883bb-2d68-4e8a-b065-0527006ab7bd_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<style><!--
+.hmmessage P
+{
+margin:0px=3B
+padding:0px
+}
+body.hmmessage
+{
+font-size: 10pt=3B
+font-family:Verdana
+}
+--></style>
+</head>
+<body class=3D'hmmessage'>
+Wed=2C 7 Apr 2010 08:11:21 -0700 &lt=3Bjerjoz.forums@csmining.org<br>&gt=3B On=
+ Wed=2C Apr 7=2C 2010 at 7:47 AM=2C Robin Krahl &lt=3Brobin@rkrahl.de&gt=3B=
+ wrote:<br>&gt=3B &gt=3B On 07.04.2010 16:26=2C steef wrote:<br>&gt=3B &gt=
+=3B&gt=3B somebody out there knows of an linux_equivalent for MS's siverlig=
+ht??<br>&gt=3B &gt=3B<br>&gt=3B &gt=3B Moonlight [1] is a Open Source versi=
+on of Silverlight=2C working on Linux.<br>&gt=3B <br>&gt=3B dont bother try=
+ing to use netflix with it!<br>&gt=3B <br>&gt=3B I have noticed it does not=
+ load up some silverlight video-casts from other sites as well. You have be=
+en warned.&nbsp=3B <br>&gt=3B -- <br>&gt=3B To UNSUBSCRIBE=2C email to debi=
+an-user-REQUEST@lists.debian.org <br>&gt=3B with a subject of "unsubscribe"=
+. Trouble? Contact listmaster@lists.debian.org<br>&gt=3B Archive: http://li=
+sts.debian.org/l2tf8d5d4f31004070811w1af0acefzbfde7722d1c91163@mail.gmail.c=
+om<br>&gt=3B <br> 		 	   		  <br /><hr />Live connected.  <a href=3D'http:/=
+/go.microsoft.com/?linkid=3D9724459' target=3D'_new'>Get Hotmail & Messenge=
+r for mobile.</a></body>
+</html>=
+
+--_ab7883bb-2d68-4e8a-b065-0527006ab7bd_--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BAY107-W1785C5FA9266AAB2078E4AEF170@phx.gbl
+
+

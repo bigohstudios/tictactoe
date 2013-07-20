@@ -1,0 +1,27 @@
+Re: sylpheed-clawsOnce upon a time, Jesse wrote :
+
+> Have you thought of bumping up sylpheed-claws?  I see sylpheed got a
+> bump... show some claws love?  (;
+
+Well, in sylheed's "claws" branch you need to wait a bit for the developers
+to backport all the updates from the main branch before getting a release
+with the same version number.
+
+Right now, the latest "claws" release is still 0.8.2claws :
+http://sourceforge.net/project/showfiles.php?group_id=25528
+
+But as it's the primary mailer I use, you can be sure that as soon as it's
+updated to 0.8.3, I'll update my build! :-)
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10
+Load : 0.18 0.23 0.33, AC on-line, battery charging: 100% (4:47)
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

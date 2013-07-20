@@ -1,0 +1,31 @@
+Re: DaemonsFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+normally as a part during reboot/shutdown procedure, sigterm is sent
+to all processes.  This causes processes to terminate during which file
+descriptors are closed down flushing their cache.  This is written to disk
+during filesytem sync.
+So these files are preserved.  But when the system goes down because of a
+power glitch, there are chances that you lose your data from last filesystem
+sync.
+
+
+On Tue, May 4, 2010 at 15:10, <export@hope.cz> wrote:
+
+> I have several running daemons  that write some data to files
+> What happens with these open files when INIT 6 command  is issued?
+> Are these files that are used by daemons deleted? Or are they closed
+> regularly and saved ?
+> And what happens, if the  Linux box is shut down in a dirty way( out of
+> electricity)?
+> Thanks
+> L.
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BE0079D.4796.6039ABB@export.hope.cz
+>
+>

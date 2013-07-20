@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId12820ac46c393971
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs113816wfj;
+        Wed, 21 Apr 2010 07:01:27 -0700 (PDT)
+Received: by 10.223.60.206 with SMTP id q14mr864634fah.93.1271858481057;
+        Wed, 21 Apr 2010 07:01:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si1424651fks.35.2010.04.21.07.01.20;
+        Wed, 21 Apr 2010 07:01:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 20CE613A479A; Wed, 21 Apr 2010 14:01:15 +0000 (UTC)
+Old-Return-Path: <sthu.deus@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3A96313A476E
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 14:01:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 917dk45JAaXm for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 14:01:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.156])
+	by liszt.debian.org (Postfix) with ESMTP id 9460513A468A
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 14:01:01 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id e12so3034164fga.12
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 07:00:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from:to
+         :subject:in-reply-to:references:x-mailer:mime-version:content-type
+         :content-transfer-encoding;
+        bh=QQvqbQDm4n6tWGLUqpTOi8FulVMoFvcws/pvLhBnsDQ=;
+        b=V7Vgbb18Bkh+NQa8rNYSBq767YOrjtbqtaHtBJwVf74tQ03BEDtqDlYIDTzwK9zsUk
+         Gn+QMYISlHU3rSvyubtdMtv51OgwMbFcmhQacEa5doXUecSW2PqbMgXC+Y+iZJ7XysMl
+         Z3XdQ3c3i6pZIDGQgt31EMnl1peSFRNM8iDCA=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:to:subject:in-reply-to:references:x-mailer
+         :mime-version:content-type:content-transfer-encoding;
+        b=Y2kdurDjtjJJban5+UUtmupvEurHjo4qN8Ra4jrclUL0YmT7jj6HFvDvGTFKETGVA4
+         F0UKDjnjoOXa9kvyIla06D88iCOssKJJzMXpqmIW7dsBPsXU7j7i2HH055DIxInc5D3a
+         9q1vkyNPHN/toX6F78DTDlQcV+Km5CtxlUxdA=
+Received: by 10.223.72.156 with SMTP id m28mr699405faj.26.1271858345603;
+        Wed, 21 Apr 2010 06:59:05 -0700 (PDT)
+Received: from localhost (m90-139-82-121.cust.tele2.ru [90.139.82.121])
+        by mx.google.com with ESMTPS id e20sm8229197fga.26.2010.04.21.06.58.58
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 21 Apr 2010 06:59:04 -0700 (PDT)
+Message-ID: <4bcf04a8.1438560a.7f1a.ffffcd86@mx.google.com>
+Date: Wed, 21 Apr 2010 20:58:47 +0700
+From: Sthu Deus <sthu.deus@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: How to remove oowriter delay on opening document?
+In-Reply-To: <4BCCAB01.6050505@cox.net>
+References: <4bc5438f.0f1abc0a.5d99.0619@mx.google.com>
+	<4BC5C591.3000600@cox.net>
+	<4bcc9cf8.0d67f10a.33b0.4109@mx.google.com>
+	<4BCCAB01.6050505@cox.net>
+X-Mailer: Claws Mail 3.7.5 (GTK+ 2.20.0; x86_64-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jaJc6d3Q82O.A.ogF.rUwzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574674
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 14:01:15 +0000 (UTC)
+
+Thank You for Your time and answer, Ron:
+
+>For me, that version performs much better than an other than the old 
+>1.x ones.
+
+Then, something else You have that I do not (libs?) that prevent me from running the testing repo OO...
+
+>There was a feature where GNOME or KDE would pre-load OOo at DE 
+>startup.  That way, it *appears* that OOo loads much faster, even 
+>though it was really just shifted.
+
+So, do You know how I can activate it in KDE 3.5 ?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4bcf04a8.1438560a.7f1a.ffffcd86@mx.google.com
+
+

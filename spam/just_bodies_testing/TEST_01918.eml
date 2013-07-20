@@ -1,0 +1,29 @@
+Re: PATCH (was: Re: Another bug)From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Wed, 24 Jul 2002 10:23:47 -0500
+>
+> Okay, I've just patched and sourced it into my running exmh, so I'll let you 
+> know if anything breaks.
+
+oh oh...
+
+[cwg@deepeddy lib]$ grep 'Ftoc_RescanLine ' *.tcl
+editor.tcl:                         Ftoc_RescanLine $ix dash
+ftoc.tcl:#      Ftoc_RescanLine $ftoc(curLine)
+
+You missed the call to Ftoc_RescanLine in editor.tcl.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

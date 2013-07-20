@@ -1,0 +1,28 @@
+Re: How do I fsck and XFS file system in "Squeeze"On Thu, 20 May 2010, Mark Allums wrote:
+
+> If not, then a live CD will be needed, something like Knoppix, be sure it has 
+> XFS support.  Just boot the live CD or DVD, and Bob's your uncle.
+
+I was going to suggest a live cdrom too but remember that Debian has its 
+own live cdroms.  I've been using them in preference to Knoppix for 
+rescuing Debian systems due to binary compatibility problems.  I've got as 
+lot of AMD64 Debian systems and Knoppix is i386 only.
+
+Cheers,
+
+Rob
+
+
+-- 
+Email: robert@timetraveller.org		Linux counter ID #16440
+IRC: Solver (OFTC & Freenode)
+Web: http://www.practicalsysadmin.com
+Open Source: The revolution that silently changed the world
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.1.10.1005202227270.7760@castor.opentrend.net
+
+

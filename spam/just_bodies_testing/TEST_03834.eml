@@ -1,0 +1,25 @@
+Re: Gstreamer updateLance (lance_tt@bellsouth.net) wrote*:
+>
+>I really liked Ximian (back then, Helix ?) at first but, to me, Red
+>Hat's GNOME, released with 7.3 seems much more pretty and up-to-date.
+>Could this be because of inclusion of gtk2 in RH 7.3?
+
+Not many apps actually use gtk2 yet. If they do, it's obvious because it is a
+different tool kit. With gnomehide, I ported a lot of gtk1.2 themes to gtk2,
+because they are rarely compatible. Those themes are on dudex.net/rpms/ but it
+does not matter unless you have gnome2.
+
+In gnomehide, the apps that actually use gtk2 are Nautilus, gedit, some of the
+"utility" apps, like dictionary, calcultor, the settings applets, and of
+course the gnome panels and menus.
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

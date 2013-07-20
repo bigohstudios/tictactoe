@@ -1,0 +1,187 @@
+X-Account-Key: account5
+X-UIDL: GmailId128824f618a02b9e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs9819wfb;
+        Mon, 10 May 2010 06:02:40 -0700 (PDT)
+Received: by 10.223.24.148 with SMTP id v20mr4317634fab.43.1273496559682;
+        Mon, 10 May 2010 06:02:39 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s14si4313546faa.10.2010.05.10.06.02.39;
+        Mon, 10 May 2010 06:02:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CE6BF2D0DF5; Mon, 10 May 2010 13:02:36 +0000 (UTC)
+Old-Return-Path: <sharuzzaman@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9DB322D0DE4
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 13:02:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id FpEhlndXNePx for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 13:02:22 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yw0-f202.google.com (mail-yw0-f202.google.com [209.85.211.202])
+	by liszt.debian.org (Postfix) with ESMTP id 73E124C9DF3
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 13:02:07 +0000 (UTC)
+Received: by ywh40 with SMTP id 40so1684246ywh.18
+        for <debian-kde@lists.debian.org>; Mon, 10 May 2010 06:01:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:received:in-reply-to
+         :references:from:date:message-id:subject:to:cc:content-type;
+        bh=qioRPVA/gncpVD/8Mnt9n2j3rj5Dx4BegdUlccoC4Qc=;
+        b=jWLlY5KtGDkx2iPHj3AYduq7Ml/J4t7vlLHuD/RUargD39y1U3oHGLIOb2yRXnFnPf
+         mNMXL2Ep/uTZ41grhUDQbu+vmHZ+Rebcs4PTZMk0tDjlmKocSmcKqdgMHLZXDLSuPYyx
+         XLLJCveWk1SUFWpK6Xu8Ntso6T5Cl9qMMT7gE=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc:content-type;
+        b=BdAmgzwk6DTHsnO1wOwVazLYGPynzBqpo8kOPAbU5PBegta5Xae/neqq+J566BcWDw
+         pzhkPQxSqUTdOB7KrQgIRxaajfyP23akwcPkcVHsabsJOSWBxLPUUUwWSejA2B4bV8Sp
+         B0AX6TPlsqpl+WebLq2fA/vze9cVCKRnooJy0=
+Received: by 10.231.192.5 with SMTP id do5mr1525212ibb.11.1273496517375; Mon, 
+	10 May 2010 06:01:57 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.140.198 with HTTP; Mon, 10 May 2010 06:01:37 -0700 (PDT)
+In-Reply-To: <201005100538.59408.mgb-debian@yosemite.net>
+References: <201005071123.48345.lisi.reisz@csmining.org> <201005100357.19021.mgb-debian@yosemite.net> 
+	<201005101415.04864@fortytwo.ch> <201005100538.59408.mgb-debian@yosemite.net>
+From: Sharuzzaman Ahmat Raslan <sharuzzaman@csmining.org>
+Date: Mon, 10 May 2010 21:01:37 +0800
+Message-ID: <AANLkTil38aa5xEDFQcTwQCFCIKaZ53oo7Gfv9uztfdXv@mail.csmining.org>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+To: Mike Bird <mgb-debian@yosemite.net>
+Cc: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016363b8b388a7fcb04863d032b
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <QocD2lTM7cM.A.OHB.sPA6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32304
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 13:02:36 +0000 (UTC)
+
+--0016363b8b388a7fcb04863d032b
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Mon, May 10, 2010 at 8:38 PM, Mike Bird <mgb-debian@yosemite.net> wrote:
+
+> On Mon May 10 2010 05:14:57 Adrian von Bidder wrote:
+> > So far most of the "discussion" has been whining about where KDE 4 is
+> > perceived to be worse than KDE 3.5 and whining that "somebody should
+> please
+> > do something".
+>
+> KDE 4 has far more problems - both conceptually and in
+> implementation - than KDE 3.5.  I wasn't aware that KDE 4
+> had received an exemption from discussion of problems.  Every
+> other package in Debian seems able to stand the heat.
+>
+> Nevertheless the KDE 3.5 users are not trying to block KDE 4
+> in any way.  It is the KDE 4 true believers who are obstructing
+> KDE 3.5 at every opportunity.
+>
+> Now if you have nothing useful to say about KDE 3.5, please
+> stop trolling this thread.
+>
+> --Mike Bird
+>
+>
+
+Hi Mike,
+
+If you really care about KDE 3.5, I would suggest that you follow the
+footstep of Mr. Marillat of Debian-multimedia [
+http://debian-multimedia.org/ ]
+
+Feel free to host the KDE 3.5 source and build server, and provide the
+opportunity for KDE3.5 users to install it to their Debian computer by just
+adding a single configuration line on /etc/apt/sources.list
+
+If you see in the Debian-multimedia site, there are a lot of packages that
+overlaps with the official Debian repository, but it does helps users (like
+me) to use packages that are not really up to their liking in the official
+repository.
+
+Thanks.
+
+-- 
+Sharuzzaman Ahmat Raslan
+
+--0016363b8b388a7fcb04863d032b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote">On Mon, May 10, 2010 at 8:38 PM, Mike Bird <span=
+ dir=3D"ltr">&lt;<a href=3D"mailto:mgb-debian@yosemite.net">mgb-debian@yose=
+mite.net</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=
+=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; p=
+adding-left: 1ex;">
+
+<div class=3D"im">On Mon May 10 2010 05:14:57 Adrian von Bidder wrote:<br>
+&gt; So far most of the &quot;discussion&quot; has been whining about where=
+ KDE 4 is<br>
+&gt; perceived to be worse than KDE 3.5 and whining that &quot;somebody sho=
+uld please<br>
+&gt; do something&quot;.<br>
+<br>
+</div>KDE 4 has far more problems - both conceptually and in<br>
+implementation - than KDE 3.5. =A0I wasn&#39;t aware that KDE 4<br>
+had received an exemption from discussion of problems. =A0Every<br>
+other package in Debian seems able to stand the heat.<br>
+<br>
+Nevertheless the KDE 3.5 users are not trying to block KDE 4<br>
+in any way. =A0It is the KDE 4 true believers who are obstructing<br>
+KDE 3.5 at every opportunity.<br>
+<br>
+Now if you have nothing useful to say about KDE 3.5, please<br>
+stop trolling this thread.<br>
+<div class=3D"im"><br>
+--Mike Bird<br>
+<br clear=3D"all"></div></blockquote></div><br><br>Hi Mike, <br><br>If you =
+really care about KDE 3.5, I would suggest that you follow the footstep of =
+Mr. Marillat of Debian-multimedia [ <a href=3D"http://debian-multimedia.org=
+/">http://debian-multimedia.org/</a> ]<br>
+
+<br>Feel free to host the KDE 3.5 source and build server, and provide the =
+opportunity for KDE3.5 users to install it to their Debian computer by just=
+ adding a single configuration line on /etc/apt/sources.list<br><br>If you =
+see in the Debian-multimedia site, there are a lot of packages that overlap=
+s with the official Debian repository, but it does helps users (like me) to=
+ use packages that are not really up to their liking in the official reposi=
+tory.<br>
+
+<br>Thanks.<br><br>-- <br>Sharuzzaman Ahmat Raslan<br>
+
+--0016363b8b388a7fcb04863d032b--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTil38aa5xEDFQcTwQCFCIKaZ53oo7Gfv9uztfdXv@mail.csmining.org
+
+

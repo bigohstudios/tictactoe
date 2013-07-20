@@ -1,0 +1,50 @@
+Re: Recommended values for JVMVersion ?Thank you very much Mike for the detailed reply.
+
+Jean-Christophe Helary
+
+On 17 avr. 10, at 01:45, Mike Swingler wrote:
+
+> On Apr 16, 2010, at 4:50 AM, Jean-Christophe Helary wrote:
+>=20
+>> There have been a number of releases since March 2009 so I'd like to =
+know if the information on that page regarding the possible values of =
+"JVMVersion" is still relevant:
+>>=20
+>> =
+http://developer.apple.com/mac/library/documentation/Java/Reference/Java_I=
+nfoplistRef/Articles/JavaDictionaryInfo.plistKeys.html
+>>=20
+>> Especially the part where it is written that the "1.n*" values are =
+not recommended.
+>=20
+> We don't recommend the "1.n*" notation, because it means that your app =
+shouldn't run in a newer version of Java.
+>=20
+> In the case where there is only one version available on the system, =
+like in Mac OS X 10.6, we have to effectively ignore 1.4* and 1.5* =
+requests - because from an end-user's perspective, it's better to =
+attempt the launch and possibly fail than to not launch at all and not =
+even get the possibility of succeeding.
+>=20
+> Besides some corner cases, there really is no benefit to using "1.n*" =
+instead of "1.n+". We even print a warning to the console if we have to =
+ignore the "1.n*" directive.
+>=20
+> The "1.n*" notation is actually more helpful in Java Web Start =
+applications that can specify multiple resource blocks and load =
+different resources depending on the version - I think it's usefulness =
+for double-clickable applications though is limited, given the current =
+launching logic and plist structure.
+>=20
+> Regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

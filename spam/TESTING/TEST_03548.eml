@@ -1,0 +1,133 @@
+From - Mon Feb 22 09:48:40 2010
+X-Account-Key: account2
+X-UIDL: UID11187-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 873962C7E0
+	for <m0620212@mail.csmining.org>; Sun, 21 Feb 2010 00:18:17 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 835AB15FF3
+	for <m0620212@mail.csmining.org>; Sun, 21 Feb 2010 00:18:17 +0900 (JST)
+X-ASG-Debug-ID: 1266679097-761e01640001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id 2tUOtUAf8dj0gd58 for <m0620212@mail.csmining.org>; Sun, 21 Feb 2010 00:18:17 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o1KFIG2l005232
+        for <m0620212@mail.csmining.org>; Sun, 21 Feb 2010 00:18:16 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id o1KFIGIX005229
+        for <hibody@csmining.org>; Sun, 21 Feb 2010 00:18:16 +0900 (JST)
+Received: from [81.219.0.244] (81-219-91-35.adsl.inetia.pl [81.219.91.35] (may be forged))
+	by ns2.csmining.org  with ESMTP id o1KFIEvc020318
+	for <hibody@csmining.org>; Sun, 21 Feb 2010 00:18:16 +0900 (JST)
+Date: Sun, 21 Feb 2010 00:18:14 +0900 (JST)
+X-Barracuda-BWL-IP: 81.219.0.244
+X-Barracuda-BBL-IP: 81.219.0.244
+X-Barracuda-RBL-IP: 81.219.0.244
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Message-Id: <201002201518.o1KFIEvc020318@ns2.csmining.org>
+From: "Swiss Watch on-line" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Hi, hibody, unbelievable 80% off prices
+Subject:   Hi, hibody, unbelievable 80% off prices
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1266679097
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (imageboo.com)
+X-Barracuda-Spam-Score: 28.36
+X-Barracuda-Spam-Status: No, SCORE=28.36 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA290_RN, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2, BSF_SC5_MJ1963, BSF_SC7_SA015c, HTML_IMAGE_ONLY_16, HTML_IMAGE_RATIO_02, HTML_MESSAGE, HTML_SHORT_LINK_IMG_2, MIME_HTML_ONLY, NUMERIC_HTTP_ADDR, RDNS_NONE, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL, URI_HEX
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.23023
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: imageboo.com]
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.32 URI_HEX                URI: URI hostname has long hexadecimal sequence
+	0.00 NUMERIC_HTTP_ADDR      URI: Uses a numeric IP address in URL
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.63 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of words
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.24 HTML_SHORT_LINK_IMG_2  HTML is very short with a linked image
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	0.80 BSF_SC7_SA015c         Custom Rule SA015c
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2 Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL2
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Newsletter</title>
+<style type="text/css">
+<!--
+a:visited
+{ color: #A8C13C; text-decoration: underline; }
+
+cuofugiuji
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-family: Tahoma;
+ font-size: 10px;
+ color: #E0EB00;
+}
+
+a:link
+{ color: #0CAA25; }
+
+a:hover
+{ color: #2C1169; text-decoration: none; }
+
+-->
+</style>
+</head>
+<body>
+<table width="827" border="0" cellpadding="10" cellspacing="0" align="center">
+  <tr>
+    <td align="left" valign="top" colspan=3>
+      <p class="cuofugiuji">To view this email online,
+		<a href="http://fbf460ae.weightleg.ru/">click here</a>.
+      </p></td></tr>
+  </table>
+<table width="827" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" align=center>
+  <tr>
+    <td align="left" valign="top">
+	<a href="http://8528951e8c.weightleg.ru/">
+	<img alt="Re-load entire image by pressing here" src="http://imageboo.com/files/v180901hsbgoz33taasi.jpg" width="554" height="459" style="border:0px"></a>
+	<p class="cuofugiuji">&nbsp;</p>
+	<p class="cuofugiuji">Click <a href="http://7db0887.weightleg.ru/" target="_blank">here</a> to
+	unsubscribe. </p>
+      <p class="cuofugiuji">Read our <a href="http://b545fbf32176c33.weightleg.ru/">privacy policy</a>.</p>
+	<p class="cuofugiuji">(c) 2008-2010 Figiunuwa. All rights reserved.</p>
+	</td>
+  </tr>
+</table>
+</body>
+</html>
+

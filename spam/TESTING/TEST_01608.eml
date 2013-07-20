@@ -1,0 +1,184 @@
+X-Account-Key: account5
+X-UIDL: GmailId12805499b7472e26
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs11312wfj;
+        Thu, 15 Apr 2010 23:23:50 -0700 (PDT)
+Received: by 10.223.92.153 with SMTP id r25mr497638fam.76.1271399029677;
+        Thu, 15 Apr 2010 23:23:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si2869049fks.54.2010.04.15.23.23.49;
+        Thu, 15 Apr 2010 23:23:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6185D13A5AEA; Fri, 16 Apr 2010 06:23:39 +0000 (UTC)
+Old-Return-Path: <ml@well-adjusted.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.8 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_SEX_L4,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B562B13A4F12
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 06:23:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, MURPHY_SEX_L4=0.1,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id z+6KWVjpavTL for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 06:23:26 +0000 (UTC)
+Received: from well-adjusted.de (well-adjusted.de [83.246.72.228])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 4BFCE13A4F25
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 06:23:26 +0000 (UTC)
+Received: from mail.wasteland.homelinux.net (e176111245.adsl.alicedsl.de [85.176.111.245])
+	(Authenticated sender: jrschulz)
+	by well-adjusted.de (Postfix) with ESMTPSA id 25CCD13C122
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 08:23:24 +0200 (CEST)
+Received: by mail.wasteland.homelinux.net (Postfix, from userid 1000)
+	id CF8DB366D3; Fri, 16 Apr 2010 08:23:22 +0200 (CEST)
+Date: Fri, 16 Apr 2010 08:23:22 +0200
+From: Jochen Schulz <ml@well-adjusted.de>
+To: debian-user@lists.debian.org
+Subject: Re: ssd / smart question
+Message-ID: <20100416062322.GH6054@wasteland.homelinux.net>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <7F8176EA-AA0A-4EC2-BEA1-F0441DE2141F@slsware.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="HKEL+t8MFpg/ASTE"
+Content-Disposition: inline
+In-Reply-To: <7F8176EA-AA0A-4EC2-BEA1-F0441DE2141F@slsware.com>
+X-message-flag: Schoenen Gruss vom BKA
+X-GnuPG-Fingerprint: CE37 FE4D A5EE 969D 5E04  8A9B F807 D9C9 D58A DB39
+Jabber-ID: solexx@jabber.ccc.de
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WfRCOpAFWDC.A.jQG.rJAyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574240
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 06:23:39 +0000 (UTC)
+
+
+--HKEL+t8MFpg/ASTE
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Glenn English:
+>
+> SMART Attributes Data Structure revision number: 16
+> Vendor Specific SMART Attributes with Thresholds:
+> ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED=
+  WHEN_FAILED RAW_VALUE
+>   1 Raw_Read_Error_Rate     0x0000   007   000   000    Old_age   Offline=
+  In_the_past 0
+>   9 Power_On_Hours          0x0000   155   001   000    Old_age   Offline=
+      -       0
+>  12 Power_Cycle_Count       0x0000   012   000   000    Old_age   Offline=
+  In_the_past 0
+> 184 Unknown_Attribute       0x0000   001   000   000    Old_age   Offline=
+  In_the_past 0
+> 195 Hardware_ECC_Recovered  0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+> 196 Reallocated_Event_Count 0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+> 197 Current_Pending_Sector  0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+
+The question is whether these values have been like this from the start.
+I think it is a little bit unusual for the drive to have a threshold of
+zero for 195-197. And it makes me suspicious that not even attributes 9
+and 12 are counted properly.
+
+> 204 Shock_Count_Write_Opern 0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+> 206 Flying_Height           0x0000   001   000   000    Old_age   Offline=
+  In_the_past 0
+
+I think both of these values don't matter to SSDs at all. They shouldn't
+care about shocks and don't have a head which could "fly high".
+
+Conclusion: While the warnings indicate a broken disk, they look a bit
+fishy to me. It looks the manufacturer used standard firmware from a
+regular hard drive and didn't adapt it to SSDs properly. For comparison,
+here are *all* values my Intel X25m reports via SMART:
+
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  =
+WHEN_FAILED RAW_VALUE
+  3 Spin_Up_Time            0x0000   100   000   000    Old_age   Offline  =
+    -       0
+  4 Start_Stop_Count        0x0000   100   000   000    Old_age   Offline  =
+    -       0
+  5 Reallocated_Sector_Ct   0x0002   100   100   000    Old_age   Always   =
+    -       0
+  9 Power_On_Hours          0x0002   100   100   000    Old_age   Always   =
+    -       1703
+ 12 Power_Cycle_Count       0x0002   100   100   000    Old_age   Always   =
+    -       509
+192 Power-Off_Retract_Count 0x0002   100   100   000    Old_age   Always   =
+    -       445
+232 Available_Reservd_Space 0x0003   100   100   010    Pre-fail  Always   =
+    -       0
+233 Media_Wearout_Indicator 0x0002   097   097   000    Old_age   Always   =
+    -       0
+225 Load_Cycle_Count        0x0000   200   200   000    Old_age   Offline  =
+    -       45681
+226 Load-in_Time            0x0002   255   000   000    Old_age   Always   =
+    -       0
+227 Torq-amp_Count          0x0002   000   000   000    Old_age   Always   =
+    -       0
+228 Power-off_Retract_Count 0x0002   000   000   000    Old_age   Always   =
+    -       0
+
+I think I would try finding and using the manufacturer's diagnostic tool
+(which might be a pain without Windows) and see what it reports. I would
+expect it to report no problems.
+
+
+J.
+--=20
+I am no longer prepared to give you the benefit of the doubt.
+[Agree]   [Disagree]
+                 <http://www.slowlydownward.com/NODATA/data_enter2.html>
+
+--HKEL+t8MFpg/ASTE
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvIAloACgkQ+AfZydWK2zk7YwCdHb/452XxRGCYq+nN1Z1foNyr
+uq0Anijn/WRAsPukKgaYIwllZl0d/BWf
+=nWyM
+-----END PGP SIGNATURE-----
+
+--HKEL+t8MFpg/ASTE--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100416062322.GH6054@wasteland.homelinux.net
+
+

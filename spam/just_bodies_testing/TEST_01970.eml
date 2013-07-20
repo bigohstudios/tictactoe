@@ -1,0 +1,35 @@
+[SAdev] [Bug 1075] RPM build puts wrong path in the *.cf fileshttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=1075
+
+spamassassin-contrib@msquadrat.de changed:
+
+           What    |Removed                     |Added
+----------------------------------------------------------------------------
+                 CC|                            |spamassassin-
+                   |                            |devel@lists.sourceforge.net
+         AssignedTo|spamassassin-               |spamassassin-
+                   |devel@lists.sourceforge.net |contrib@msquadrat.de
+
+
+
+------- Additional Comments From spamassassin-contrib@msquadrat.de  2002-10-08 04:16 -------
+I'm gonna fix this one. I think the best solution will be to copy the modified 
+rules to blib and install them from there. Then the rules files will be 
+changed on build time and not install time, too. 
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+You are on the CC list for the bug, or are watching someone who is.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

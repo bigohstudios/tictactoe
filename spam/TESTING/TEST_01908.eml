@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b16bb77f4da9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs32364wfb;
+        Tue, 11 May 2010 22:57:23 -0700 (PDT)
+Received: by 10.223.21.17 with SMTP id h17mr7513522fab.45.1273643842248;
+        Tue, 11 May 2010 22:57:22 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y12si12991379fah.45.2010.05.11.22.57.21;
+        Tue, 11 May 2010 22:57:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D251A2D8E21; Wed, 12 May 2010 05:57:16 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 516F413A4298
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 05:57:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DTx1leHm+XoI for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 05:57:04 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id DCEBB13A4285
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 05:57:03 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so9450912qyk.6
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 22:56:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=UXWbsK3+vfQp6UNefWx0k4YQWK8NSwAjShWUrE8BaoE=;
+        b=wEd5Iwd2+J2A2tQpGjxjKmBzpWoQ+mQ6ARdUtIZOqkJPm0H865l0sgmwKz3qJ0xA0F
+         Q4WVRKblflC7Aqv0lezPgfStEfu45JOmr2jDA6GeNIR2hlq1e9rcUzTkoktUgswFI2Zd
+         nsSXQmyy7IjgQxDeGpYMfISrhe3R+aasQ9J+Y=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=Qa8kEXFVg2Qxwdgx4tNy0dE0nxtXGrF/jETDPIHIBJaCeE/kHEj/Zc9w7yaPrcx9cg
+         UBlihQL6Ao3al1viSNmYk2API2xjRaCZ3TrODoWDCYEM4dUUSmtOWyS9PjJu89iwF26R
+         ya3KZ0rGrrX0HPhmevoIU4ozSOKv95tcW11a4=
+MIME-Version: 1.0
+Received: by 10.229.250.65 with SMTP id mn1mr474904qcb.163.1273643816558; Tue, 
+	11 May 2010 22:56:56 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Tue, 11 May 2010 22:56:56 -0700 (PDT)
+In-Reply-To: <hscp3v$2lm$1@dough.gmane.org>
+References: <201005071123.48345.lisi.reisz@csmining.org>
+	 <4BE4ED6F.4050708@dobosevic.com>
+	 <g2icdeec9051005080532z810046edveb2a8ea4c51fa0d9@mail.csmining.org>
+	 <q2t880dece01005080831zae8e27a7z35e6c132e9f0c273@mail.csmining.org>
+	 <hsbc1b$hor$1@dough.gmane.org> <hsbcpr$k5v$1@dough.gmane.org>
+	 <AANLkTinoxMbiE3v2HTcNli-955BwCfwkHXlpg7PRcBAW@mail.csmining.org>
+	 <hscd3u$moe$1@dough.gmane.org>
+	 <AANLkTila_PdPJhLX_Q0nsJG3GxVDN_EyHCzmLSV8dwqV@mail.csmining.org>
+	 <hscp3v$2lm$1@dough.gmane.org>
+Date: Wed, 12 May 2010 08:56:56 +0300
+Message-ID: <AANLkTilyXgG5n2xDWcLgDV-oaTsqRc-yFzcnJwweprlP@mail.csmining.org>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: deloptes@yahoo.com
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PSWYH3IFgtG.A.72F.8Mk6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576594
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 05:57:16 +0000 (UTC)
+
+On 12 May 2010 02:26, deloptes <deloptes@yahoo.com> wrote:
+> yes, exactly that's what I mean. the latin "k" has no equivalent in other
+> languages (in terms of key code). Windows is doing this wisely since the
+> beginning by setting the switch to ALT+SHIFT, which is language
+> independent. I like the abbility to change things in kde, so I preffer to
+> set it to ALT+CTRL+(richt arrow).
+> In your case german "k" is equivalent to english "k" thus switch is working,
+> for all people using latin. I don't know if it's working for greek or
+> hebrew. If someone can report it would be interesting to know.
+>
+
+In Hebrew it's also problematic, that's why I switch to Capslock.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilyXgG5n2xDWcLgDV-oaTsqRc-yFzcnJwweprlP@mail.csmining.org
+
+

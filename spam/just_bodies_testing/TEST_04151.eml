@@ -1,0 +1,35 @@
+Re: About USB hard drives and errorsOn 2010-04-08 19:44, Paul E Condon wrote:
+> I want to use the low cost high capacity hard drives that are
+> for sale in places like Best Buy and Costco. I have put ext3 on
+> several of them and started experimenting. The results so far
+> are puzzling. 
+> 
+> I do get errors. So I decided to do scans for bad blocks.  The drives
+> I'm using are all Western Digital because they have been the lowest
+> cost at the times I buy at Costco. Also all are 500GB.
+>  
+> e2fsck -c <device> is supposed to scan for bad blocks and allocate them
+> to a special inode so that they cannot be used. It runs for 3 to 4
+> hours and then says its finished with no indication of how many bad
+> blocks it found.
+> 
+[snip]
+> 
+> Has anyone ever used these programs? Have you ever seen useful output?
+> What SHOULD they do (with a little more specificity and believability)?
+> 
+
+Not a direct answer to your question, but: I never leave home 
+without -vfFC0.  (The Unix Way is to "say something" only upon 
+failure, but I like continuous feedback.)
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBE827D.2000301@cox.net
+
+

@@ -1,0 +1,61 @@
+Re: Tiny terminal text after kernel updateFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, May 24, 2010 at 05:03:42PM +0100, Roger Leigh wrote:
+> On Sun, May 23, 2010 at 04:28:55PM -0700, Todd A. Jacobs wrote:
+> > After a recent kernel update, my linux terminal is now displaying
+> > teeny-tiny text. How do I set the default terminal back to 80x25?
+>=20
+> Rather than disabling the high resolution display, as others
+> suggested, I would advise a rather simpler solution, which is
+> to use a larger console font than 8=D716 which will solve the
+> problem and give you a nicer display.
+
+Note you need to install kdb in place of console-tools to
+use large fonts.
+
+[/etc/default/console-setup]
+VERBOSE_OUTPUT=3D"yes"
+ACTIVE_CONSOLES=3D"/dev/tty[1-6]"
+CHARMAP=3D"UTF-8"
+CODESET=3D"Uni3"
+#FONTFACE=3DVGA
+FONTFACE=3D"TerminusBold"
+FONTSIZE=3D"32x16"
+if [ -f /etc/default/keyboard ]; then
+    . /etc/default/keyboard
+fi
+
+This gives a fairly nice large font on the console.  The VGA
+font is blockier but replicates the 8x16 VGA font faithfully.
+It would be nice if one could automatically create a
+console font automatically from a TTF/OTF font such as
+DejaVu Sans Mono, which would really look the part.
+
+Other potential fonts.  Note, you only get some in
+particular encodings.  Lat15 and Uni1/3 are OK for
+most Latin usage.  I'm using Uni3 because it has some
+useful symbols in addition to the main alphabetical
+chars.
+% ls /usr/share/consolefonts | grep 32 | egrep 'Lat15|Uni'
+Lat15-Terminus32x16.psf.gz
+Lat15-TerminusBold32x16.psf.gz
+Lat15-VGA32x16.psf.gz
+Uni1-VGA32x16.psf.gz
+Uni2-Terminus32x16.psf.gz
+Uni2-TerminusBold32x16.psf.gz
+Uni2-VGA32x16.psf.gz
+Uni3-Terminus32x16.psf.gz
+Uni3-TerminusBold32x16.psf.gz
+
+
+Regards,
+Roger
+
+--=20
+  .''`.  Roger Leigh
+ : :' :  Debian GNU/Linux             http://people.debian.org/~rleigh/
+ `. `'   Printing on GNU/Linux?       http://gutenprint.sourceforge.net/
+   `-    GPG Public Key: 0x25BFB848   Please GPG sign your mail.

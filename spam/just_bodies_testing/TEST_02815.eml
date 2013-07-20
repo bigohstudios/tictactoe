@@ -1,0 +1,59 @@
+Re: Protocol implementation in categoryDave,
+
+Just include the protocol in the category interface e.g.
+
+@interface MyObject(FooDelegate) <MyFooProtocol>
+....
+@end
+
+And make sure this is visible to the compiler when you set an instance
+as a delegate.
+
+John
+------------------------
+Dr. John Buckley
+
+Olive Toast Software Ltd
+www.olivetoast.com
+
+www.1010uk.org
+------------------------
+
+
+
+On 25 April 2010 08:51, Dave Keck <davekeck@csmining.org> wrote:
+> Hey list,
+>
+> I've got a class MyObject that spans several thousand lines, so I
+> broke it into categories. I originally intended for one of them,
+> MyObject+Delegate.m, to provide the delegate method implementations
+> for several formal protocols. I've since discovered that the compiler
+> (GCC, Clang) warns that MyObject doesn't implement the delegate
+> protocols, presumably because the compiler didn't look in categories.
+> I filed a bug against Clang, but it came back "works as intended."
+>
+> One rationale behind categories is the ability to break a class'
+> implementation into pieces, but the mentioned warning inhibits that.
+> Is this warning justified?
+>
+> Thanks,
+>
+> David
+> =C2=A0_______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Objc-language mailing list =C2=A0 =C2=A0 =C2=A0(Objc-language@lists.apple=
+.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/objc-language/nhoj.buckley%40googl=
+email.com
+>
+> This email sent to nhoj.buckley@googlemail.com
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

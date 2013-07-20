@@ -1,0 +1,32 @@
+gtk-recordMyDesktopHi, 
+
+I have an problem while using gtk-recordMyDesktop Version: 0.3.8-3 with
+my desktop environment, Xfce 4.6.1. Both these applications are from an
+up-to-date Sid laptop.
+
+What happens is when I go to record a session; the recordMyDesktop
+application disappears as it's supposed to so the screen isn't
+cluttered; but there isn't any icon showing the stop button when in
+record mode. From what I've read on various searches for this problem
+it seems that in other desktop environments the record button/stop button
+appears in the menu bar when one is recording, so when finished one
+can stop the recording and have the video saved.
+
+That's my problem. So I don't know if the bug resides with
+gtk-recordMyDesktop or Xfce. I trust this all makes sense ...
+
+Can anyone confirm if this behaviour is shown while running Gnome in
+Sid with the recordMyDesktop version from Sid?
+
+Or else advise me as to whether I should file a bug and against which
+application?
+
+Thanks.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100513231714.GA15499@google.com
+
+

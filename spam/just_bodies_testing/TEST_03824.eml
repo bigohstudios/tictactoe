@@ -1,0 +1,28 @@
+ldconfig: /usr/lib/libwins.so is not an ELF file - it has the wrong
+ magic bytes at the startFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+When upgrading with apt-get, I sometimes encounter
+
+=3D=3D
+ldconfig: /usr/lib/libwins.so is not an ELF file - it has the wrong
+magic bytes at the start
+=3D=3D
+
+How can I solve this problem?
+
+Thanks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Live as if you were to die tomorrow; learn as if you were to live
+forever. (Mahatma Gandhi)
+

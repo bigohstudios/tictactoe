@@ -1,0 +1,59 @@
+Re: glXCreateContext failed in SqueezeFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+> Hello,=0A=0A> =0A> I recently switched back to the GNOME desktop environm=
+ent from KDE and I'm interested in running Compiz Fusion,=0A> which I remem=
+ber playing with when I was using the Ubuntu distribution. First thing I di=
+d was follow > the instructions=0A> outlined here:=0A> =0A> http://wiki.deb=
+ian.org/Compiz=0A> =0A> And everything was going smoothly up until the comp=
+iz --replace command, which outputs:=0A> =0A> jason@debian:~$ compiz --repl=
+ace=0A> compiz (core) - Fatal: glXCreateContext failed=0A> compiz (core) - =
+Error: Failed to manage screen: 0=0A> compiz (core) - Fatal: No manageable =
+screens found on display :0.0=0A> =0A> Launching fallback window manager=0A=
+> =0A> Which is obviously metacity. I googled a bit but almost all forum po=
+sts I found regarded the Fedora > distribution. Here's one that didn't:=0A>=
+ =0A> http://www.nvnews.net/vbulletin/showthread.php?t=3D116895=0A> =0A> Ho=
+wever, I'm not sure what I'm supposed to do to uninstall the NVIDIA driver =
+(which I've installed > with the NVIDIA installer),=0A> since that guy says=
+ to do so in the sentence:=0A> =0A> "I uninstall NVIDIA driver have install=
+ed Nvidia way - not Debian way."=0A> =0A> So I'm still stuck. I ran the "co=
+mpiz check" script hosted on "Forlon's blog" (http://forlong.blogage.de/ent=
+ries/pages/Compiz-Check)=0A> and here's the output:=0A> =0A> jason@debian:~=
+$ ./compiz-check =0A> =0A> Gathering information about your system...=0A> =
+=0A>  Distribution:          Debian GNU/Linux (squeeze/sid)=0A>  Desktop en=
+vironment:   GNOME=0A>  Graphics chip:         nVidia Corporation GT216 [Ge=
+Force GT 220] (rev a2)=0A>  Driver in use:         nvidia=0A>  Rendering me=
+thod:      Nvidia=0A> =0A> Checking if it's possible to run Compiz on your =
+system...=0A> =0A>  Checking for texture_from_pixmap...               [FAIL=
+]=0A>  Checking for non power of two support...          [FAIL]=0A>  =0AChe=
+cking for composite extension...               [ OK ]=0A>  Checking for FBC=
+onfig...                          [ OK ]=0A>  Checking for hardware/setup p=
+roblems...           [SKIP]=0A> =0A> At least one check had to be skipped:=
+=0A> Error: Unable to detect maximum 3D texture size =0A> =0A> jason@debian=
+:~$ =0A> =0A> This is an obvious problem, because after reading a little ab=
+out compiz-fusion I understood that it's practically based on the=0A> openG=
+L extension "texture_from_pixmap" which I, for some reason, lack.=0A> =0A> =
+Before going ahead and doing something that might eliminate my ability to l=
+aunch an X session, I thought I might resort to this list=0A> for the most =
+up-to-date information as to what I should do. I am attaching my /etc/X11/x=
+org.conf, /var/log/Xorg.0.log as well as the full output of =0A> "glxinfo" =
+so as to not clutter this message any further with their data. In xorg.conf=
+ you will notice that I have added dummy =0A> "Identifier" strings to all t=
+he xorg.conf sections that the wiki.debian article I linked to suggests tha=
+t I add. This was done because my =0A> xorg.conf would not be parsed otherw=
+ise and I would be stuck with a terminal interface. The "startx" command co=
+mplained about xorg.conf sections lacking =0A> "Identifier" strings.=0A> =
+=0A> Thank you very much for your time and interest,=0A> Jason=0A> =0A=0ATh=
+is happened to me many times and I fixed it reinstalling the driver.=0ASeem=
+s that you are using official nvidia driver.=0AIf it is you have a .run ins=
+tall file. What I usually make is to go to a shell, stop grphic session,=0A=
+uninstall the driver, reinstall the driver and everything go smoothly.=0ASo=
+:=0A=0Actrl+alt+f1    // for a shell=0Alog in using root=0Ago to the place =
+where you have the .run file (for me is /usr/src)=0A=0Acd /usr/src=0A/etc/i=
+nit.d/gdm stop=0A./name_of_driver.run --uninstall    //uninstall driver=0A.=
+/name_of_driver.run -N        //reinstal driver=0A/etc/init.d/gdm start=0A=
+=0AIf the installation complain about the gcc compiler version used to comp=
+ile your kernel=0Aabort installation and:=0A=0Aexport CC=3D/usr/bin/gcc-4.3=
+=0A=0Ausing the correct number version. If you are using Squueze up-to-date=
+ I think gcc-4.3=0Ashould be fine.=0A=0AAndrea=0A=0A=0A      

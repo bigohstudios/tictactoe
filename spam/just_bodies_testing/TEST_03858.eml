@@ -1,0 +1,30 @@
+Re: how to activate canberyOn Sat, 17 Apr 2010 21:48:02 +0100, abdelkader belahcene wrote:
+
+> hi,
+> I want to hear  the login sound when I log in debian, it is done with
+> ubuntu, I tried to do the same, it failed with the error
+> 
+> 
+> bela@belaptop:~$ canberra-gtk-play -f
+> /usr/share/sounds/gnome/default/desktop-login.ogg Failed to play sound:
+> Sound disabled
+> 
+> the sound is enabled since i can play music !!!!,  and play the same
+> file with kaffeine for example.
+> 
+> please how to enabled it
+
+Do you have "system sounds" enabled?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.18.11.58.52@csmining.org
+
+

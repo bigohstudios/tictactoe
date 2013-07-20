@@ -1,0 +1,43 @@
+Re: Nil messaging statement in "Cocoa Fundimentals
+	Guide"	misleading?On 24 May 2010, at 21:11, Quincey Morris wrote:
+
+> There remain 2 minor points of unclarity:
+>=20
+> 1. In the documentation we've been talking about:
+>=20
+> 	=
+http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/Obje=
+ctiveC/Articles/ocObjectsClasses.html#//apple_ref/doc/uid/TP30001163-CH11-=
+SW7
+>=20
+> there's no mention of the iPhone. I assume that the iPhone follows the =
+main set of rules, but even there it's a bit ambiguous. There's a =
+reference to the Mac OS ABI Function Call Guide for struct returns, but =
+no reference that would give an answer for the iPhone.
+>=20
+> 2. I can't find any Apple documentation that says whether the iPhone =
+data size model is LP64, ILP32 or something else. Am I just not looking =
+in the right places?
+
+The iPhone is ILP32---the ARM CPU core on which it depends is a 32-bit =
+architecture.  As for the ABI, it would be nice to have some =
+documentation for that, though given section 3.3.1 of the developer =
+agreement I don't hold out much hope.
+
+Kind regards,
+
+Alastair.
+
+--
+http://alastairs-place.net
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

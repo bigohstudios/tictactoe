@@ -1,0 +1,44 @@
+Re: Possible to access Y'CbCr frame data in 64-bit QTKit?
+Le 17 mai 2010 =E0 19:13, Pauli Ojala a =E9crit :
+
+> I'm trying to port a QuickTime-based application to 64-bit. Because =
+visual contexts don't exist anymore, I've switched to using -[QTMovie =
+frameImageAtTime:withAttributes:error] to pull CVPixelBuffers from the =
+movie.
+>=20
+> The problem is that I can't figure out a way to specify the pixel =
+format for the created pixel buffers. QTMovie seems to always default to =
+ARGB (8 bits per channel). This is not really acceptable because the =
+application is oriented towards accessing the raw Y'CbCr data when =
+possible.
+>=20
+> This discussion from Nov 2008 has someone asking the same thing, with =
+the unfortunate answer that the capability didn't exist at that time:
+>  http://lists.apple.com/archives/quicktime-api/2008/Nov/msg00020.html
+>=20
+>=20
+> I'd like to know whether this situation has improved in Snow Leopard =
+or subsequent QT upgrades... Or are we stuck with plain old ARGB in =
+64-bit apps?
+
+Actually, I know only two way to workaround the issue:
+
+- Don't use 64 bit.
+- Write your own 32 bit  decoder background app that decodes the frames =
+in CVPixelBuffer backed by an IOSurface and send them to the main 64 bit =
+application for processing and display.
+
+
+-- Jean-Daniel
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

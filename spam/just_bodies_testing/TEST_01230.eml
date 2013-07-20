@@ -1,0 +1,21 @@
+Re: acroread not seeing printersOn 2010-04-15 22:09, John A. Sullivan III wrote:
+[snip]
+> still doesn't work.  Setting the command line debugging variable, I
+> found that it cannot find the PPD file.  Does it only work if the CUPS
+> server is running locally? In our case, we use a central CUPS server
+> running on a non-standard port.  This is reflected
+> in /etc/cups/client.conf.  How do we tell acroread where the printer
+> server and PPD files are? Thanks - John
+
+Ah, that's interesting.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC7EEFE.7030808@cox.net
+
+

@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b6d12b548339
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs36746wfb;
+        Wed, 12 May 2010 00:31:42 -0700 (PDT)
+Received: by 10.223.26.206 with SMTP id f14mr7556298fac.96.1273649501006;
+        Wed, 12 May 2010 00:31:41 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d4si13189443fac.94.2010.05.12.00.31.40;
+        Wed, 12 May 2010 00:31:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8D5A213A55BA; Wed, 12 May 2010 07:31:38 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.6 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MAILTO_TO_SPAM_ADDR autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2D32813A55B1
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 07:31:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id O02SVHShpADi for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 07:31:25 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id A39B413A55B9
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 07:31:25 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so9534947qyk.6
+        for <debian-kde@lists.debian.org>; Wed, 12 May 2010 00:31:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=9bZDjpeo/hmOLbnIMrpelqXhGtDH8WfMhj3mjPco+Ew=;
+        b=QtXzvanzIecksEWpS2PbIMvC2BsyvF/HF9ZTfieFar0OkK7kT+ece2Pkkrb6NW9QmV
+         GBf7MMQE2jO0TNP0KW5nCrB0BC080QnPd/NLmuwyTQqQXXdmZU4psd9LDhF7glZ0oUyG
+         ANLDe9MYCoHLvF0Z5qnefyp0JoTke958fDn6E=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=dGgcgJR3ygThxBi2p6IJ/lYVV4MZRM1qjOTaFSKX6izJ/IkSbP4B8tr5oAlV9S206j
+         rNi2/9kQY29BguA14Z9AOKmarEfdpjwBruFQwKA6E9p5tl1S8ZK4sIyq215V9z2ilZFP
+         F4slHe5m8tijOc9f6gH+2n9C7k1ZyBFe2gpqk=
+MIME-Version: 1.0
+Received: by 10.224.27.1 with SMTP id g1mr4681610qac.212.1273649477786; Wed, 
+	12 May 2010 00:31:17 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Wed, 12 May 2010 00:31:17 -0700 (PDT)
+In-Reply-To: <AANLkTinvsjKE5j4hLyA2CljNhHWscIjuVd9ZHkDJuiHI@mail.csmining.org>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+	 <AANLkTinvsjKE5j4hLyA2CljNhHWscIjuVd9ZHkDJuiHI@mail.csmining.org>
+Date: Wed, 12 May 2010 10:31:17 +0300
+Message-ID: <AANLkTiko6ec2Al5kzC2nE5s-5Ujl4JxVN01qdYPs5iqn@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-kde <debian-kde@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <qKQhaxGTGnH.A.jhH.all6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32404
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 07:31:38 +0000 (UTC)
+
+On 12 May 2010 01:56, B. Alexander <storm16@csmining.org> wrote:
+> I just upgraded my workstation to 4.4.3, and I ran into a problem where
+> right clicking on the desktop and clicking Desktop Activity Settings causes
+> my to disappear.
+
+It seems to not only have disappeared, but to have actually been
+removed from history!
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTiko6ec2Al5kzC2nE5s-5Ujl4JxVN01qdYPs5iqn@mail.csmining.org
+
+

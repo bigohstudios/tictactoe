@@ -1,0 +1,56 @@
+Re: Programming questionOn Fri, 2010-05-14 at 20:32 -0700, Kelly Clowers wrote: 
+> On Fri, May 14, 2010 at 18:34, Alexander Samad <alex@samad.com.au> wrote:
+> > Hi
+> >
+> > I was wondering if it is possible to decode this javascript from the
+> > command line
+> >
+> >
+> > var serializer = new Serializer()
+> > serializer.deserialize('B64ENCe30=')
+> >
+> > can't find any reference on how serialize works and can't find any
+> > cmdline tools to help
+> 
+> A Javascript (or at least a general programming) mailing list/forum
+> might be a better place to ask.
+true
+
+> 
+> Also some context might be nice. I am not a JS programmer, but
+> I think serializer could theoretically be anything. That said, JSON
+> is a common data format in JS, so you might look into that (although
+> I would expect something more like JSON.serialize() if it was).
+> Otherwise it might be XML of some sort.
+it comes from a web stock trading site, it is used to display the daily
+ticker move as a graph.  I was hoping to write a script to extract the
+data.  But as Dave pointed out in the other reply, there are probably
+encoding and decoding functions used as well :(
+
+> 
+> I am really not sure what to make of the argument being passed
+> in, it looks like a it's talking about Base 64 encoding (B64ENC),
+> but why that's in the name I don't know
+
+I was actually hoping there was some standard way to (de)serialize in
+javascript.
+
+I guess I am going to have to do some more digging :)
+
+Thanks
+
+> 
+> 
+> Cheers,
+> Kelly Clowers
+> 
+> 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273903175.21672.4.camel@alex-mini.samad.com.au
+
+

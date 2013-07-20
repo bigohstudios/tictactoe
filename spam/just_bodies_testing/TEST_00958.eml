@@ -1,0 +1,30 @@
+2.40 release procedure (why not give it a read)I hope you all don't mind me creating a new thread and adding a Cc: to
+spamassassin-devel.  I want to make sure everyone reads Craig's email.
+(I don't really have any comments other than to endorse it and suggest
+creating a branch ASAP.)
+
+Craig R.Hughes <craig@deersoft.com> writes:
+
+> Ok folks...  I think there's been some confusion, so I recommend 
+> the following:
+> 
+> 1. Use the CVS tag spamassassin_pre_2_4_0 which I just created 
+> to generate your mass-checks
+> 2. Submit the results via rsync in the usual way ASAP
+> 3. Justin and I will cooperate on running the GA sometime around 
+> midnight PST (GMT-0800) on thursday/friday
+> 
+> Any good data that's in the rsync corpus by that time will be 
+> used to feed the GA.  That will give everyone about 48 hours 
+> from now to generate the logs and submit them, plus it'll give 
+> Justin and me about 48 hours to tinker with the GA (and 
+> hopefully get it compiling again on my machine grumble 
+> grumble).  That should then yield a 2.40 release sometime on 
+> friday, possibly saturday if we need to do multiple GA runs to 
+> tweak things properly.
+> 
+> C
+> 
+> PS Volunteering Justin here, since I suspect he's probably fast 
+> asleep right now.
+

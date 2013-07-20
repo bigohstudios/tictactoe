@@ -1,0 +1,97 @@
+X-Account-Key: account5
+X-UIDL: GmailId12844851e7308f68
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs181680wfj;
+        Wed, 28 Apr 2010 06:04:56 -0700 (PDT)
+Received: by 10.87.67.13 with SMTP id u13mr7830337fgk.66.1272459894581;
+        Wed, 28 Apr 2010 06:04:54 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si4880475fks.50.2010.04.28.06.04.53;
+        Wed, 28 Apr 2010 06:04:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2FD2F13A4ECD; Wed, 28 Apr 2010 13:04:42 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4402F13A4D80
+	for <lists-debian-user@liszt.debian.org>; Wed, 28 Apr 2010 13:04:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ukPR0hlhwL-5 for <lists-debian-user@liszt.debian.org>;
+	Wed, 28 Apr 2010 13:04:24 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id 5283913A49F5
+	for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 13:04:24 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=qhkFTjdWoSEA:10 a=FKkrIqjQGGEA:10 a=IkcTkHD0fZMA:10 a=MveGoZfkPaAUHFh90AEA:9 a=qq1cNJ8wfCSwXMnRJrtytZ85-YsA:4 a=QEXdDO2ut3YA:10 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:51932] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 84/E9-21309-55238DB4; Wed, 28 Apr 2010 09:04:21 -0400
+Date: Wed, 28 Apr 2010 09:04:08 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <1635129312.49804.1272459848732.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <4BD7AC66.7020105@allums.com>
+Subject: Re: Technical questions
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [66.145.136.6]
+X-Mailer: Zimbra 6.0.5_GA_2213.RHEL4_64 (zclient/6.0.5_GA_2213.RHEL4_64)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jKEhcHWYR2L.A.uWC.qJD2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575354
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 28 Apr 2010 13:04:42 +0000 (UTC)
+
+On Tue, 27 Apr 2010 23:32:54 -0400 (EDT), Mark Allums wrote:
+> On 4/27/2010 3:56 AM, Thomas Pomber wrote:
+>> I can see that some people here are boring, and lack a sense of fun.
+>> So, technical questions only from here on in. :)
+> 
+> In case it hasn't been mentioned, there now exists an off-topic user 
+> list for Debian.
+
+It was mentioned.  Please don't feed the troll.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1635129312.49804.1272459848732.JavaMail.root@md01.wow.synacor.com
+
+

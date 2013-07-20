@@ -1,0 +1,99 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288e0f61910bc1e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs14004wfo;
+        Wed, 12 May 2010 12:48:12 -0700 (PDT)
+Received: by 10.115.65.12 with SMTP id s12mr6279136wak.76.1273693692180;
+        Wed, 12 May 2010 12:48:12 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 3si849930pzk.61.2010.05.12.12.48.12;
+        Wed, 12 May 2010 12:48:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id EE1A41C773B14
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 12:48:11 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E98552799D370
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 12:48:11 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id C8B6B2799D173
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 12:47:54 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id B7F2DD8C0B65
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 12:47:54 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-bc-4beb05e9b1db
+Received: from smtp175.iad.emailsrvr.com (smtp175.iad.emailsrvr.com
+	[207.97.245.175])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	A6.73.07800.AE50BEB4; Wed, 12 May 2010 12:47:54 -0700 (PDT)
+Received: from relay7.relay.iad.mlsrvr.com (localhost [127.0.0.1])
+	by relay7.relay.iad.mlsrvr.com (SMTP Server) with ESMTP id 34EF41DD2E7
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 15:47:53 -0400 (EDT)
+Received: by relay7.relay.iad.mlsrvr.com (Authenticated sender:
+	brlandy-AT-landy.cx) with ESMTPSA id 2ABF21DBFA0
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 15:47:53 -0400 (EDT)
+Received: from [192.168.20.41] (207-207-41-20.fwd.datafoundry.com
+	[207.207.41.20])
+	by serenity.landy.cx (Postfix) with ESMTPSA id 13A56145565FF
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 15:47:52 -0400 (EDT)
+Date: Wed, 12 May 2010 14:47:50 -0500 (CDT)
+From: "Brian R. Landy" <brian@landy.cx>
+X-X-Sender: blandy@192.168.25.15
+To: x11-users@lists.apple.com
+Message-ID: <alpine.OSX.2.00.1005121439370.757@192.168.25.15>
+User-Agent: Alpine 2.00 (OSX 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+X-Brightmail-Tracker: AAAAAA==
+Subject: launchd, DISPLAY, & ssh
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi, I have a somewhat unusual setup at work, where I connect to an OS X 
+server from a Windows PC without an X11 server installed.  I use ssh 
+sessions to do the bulk of my work, and view any graphical programs 
+(Aqua and X11) via vnc (so I also login to the console).  I'm the sole 
+user.
+
+I was wondering if there is a way to determine, in my ssh sessions, the 
+DISPLAY environment variable that launchd provides to the console user 
+(it's fine if it only works if I am the logged in user).  Without that, 
+as long as I've already launched X11 from the console, I can usually set 
+DISPLAY=:0.  Very rarely I've had the vnc session go "black" with the 
+only recover to kill the loginwindow process (killing the vnc server 
+does not help in this situation).  I don't have root so cannot reboot. 
+When this happens, I can login as normal, but X11 begins to use display 
+:1 even though there is no longer an X11 process running on :0.  So I 
+was hoping a cleaner approach might be possible.
+
+This is a 10.5.8 system, running X11 2.5.0.
+
+Thanks,
+Brian
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

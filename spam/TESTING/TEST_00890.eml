@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c2abc1bfcbca1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs45796wfo;
+        Sat, 22 May 2010 17:59:17 -0700 (PDT)
+Received: by 10.223.24.148 with SMTP id v20mr3149477fab.43.1274576356624;
+        Sat, 22 May 2010 17:59:16 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g5si3784748fai.85.2010.05.22.17.59.15;
+        Sat, 22 May 2010 17:59:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; domainkeys=hardfail header.From=goran@dobosevic.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AC07513A573B; Sun, 23 May 2010 00:59:08 +0000 (UTC)
+Old-Return-Path: <goran@dobosevic.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 408B413A4E9D
+	for <lists-debian-kde@liszt.debian.org>; Sun, 23 May 2010 00:59:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id a9KsPPU-Ll2U for <lists-debian-kde@liszt.debian.org>;
+	Sun, 23 May 2010 00:58:55 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from outbound-mail-313.bluehost.com (cpoproxy3-pub.bluehost.com [67.222.54.6])
+	by liszt.debian.org (Postfix) with SMTP id 2CB1213A546B
+	for <debian-kde@lists.debian.org>; Sun, 23 May 2010 00:58:54 +0000 (UTC)
+Received: (qmail 18918 invoked by uid 0); 23 May 2010 00:58:51 -0000
+Received: from unknown (HELO host307.hostmonster.com) (74.220.215.107)
+  by cpoproxy3.bluehost.com with SMTP; 23 May 2010 00:58:51 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=dobosevic.com;
+	h=Received:Message-ID:Date:From:User-Agent:MIME-Version:To:Subject:References:In-Reply-To:Content-Type:Content-Transfer-Encoding:X-Identified-User;
+	b=KGIwBn+QkUUt1zgLimZVjKFhAPlVST6ejrlQ/c8tSrrItJxrTGkwtf1Futwepif1PECUA0YrHaPqBwdJBbwgj+tF5Hko9b2cno9Ik9hrxcF3EyhbMMB0Z8zpW2XHCRXF;
+Received: from 93-139-90-174.adsl.net.t-com.hr ([93.139.90.174] helo=[192.168.1.241])
+	by host307.hostmonster.com with esmtpa (Exim 4.69)
+	(envelope-from <goran@dobosevic.com>)
+	id 1OFzWl-0004MD-GM
+	for debian-kde@lists.debian.org; Sat, 22 May 2010 18:58:51 -0600
+Message-ID: <4BF87CD5.3040001@dobosevic.com>
+Date: Sun, 23 May 2010 02:54:45 +0200
+From: godo <goran@dobosevic.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-kde@lists.debian.org
+Subject: Re: problem to put the soho plasmoid
+References: <201005222229.06030.basaburu@basatu.org> <4BF84A48.5060302@dobosevic.com> <201005230005.47992.basaburu@basatu.org>
+In-Reply-To: <201005230005.47992.basaburu@basatu.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Identified-User: {818:host307.hostmonster.com:paukicco:dobosevic.com} {sentby:smtp auth 93.139.90.174 authed with goran@dobosevic.com}
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <O86RBGg0a3J.A.PRE.c3H-LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32500
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 00:59:08 +0000 (UTC)
+
+On 05/23/2010 12:05 AM, BasaBuru wrote:
+> On Sábado 22 Mayo 2010 23:19:04 godo escribió:
+>> On 05/22/2010 10:29 PM, BasaBuru wrote:
+>>> helo
+>>>
+>>> I can't put in the desktop the soho and solar system.
+>>>
+>>> See me the initializacion script is fail.
+>>>
+>>> I think i need few packets but i don't now how.
+>>>
+
+Which Debian (Lenny, Squeeze, Sid) you have?
+	$ cat /etc/debian_version
+Which DE (KDE, Gnome, something else) you have?
+
+Did you install soho and solar system manually (download and compile) or 
+automated thru "Add Widget"?
+
+-- 
+Bye,
+Goran Dobosevic
+Hrvatski: www.dobosevic.com
+  English: www.dobosevic.com/en/
+Registered Linux User #503414
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF87CD5.3040001@dobosevic.com
+
+

@@ -1,0 +1,127 @@
+RE: [Razor-users] FW: intigration with qmailThank you for your response I will verify that I have taken these steps
+that you have metioned but as well I would like to stop mail from
+entering my mail boxes and need the info about how to integrate with
+qmail in newbie terms if that is possible.  Thank you again for your
+help
+
+Michael Humphries
+Alphacomm.net
+Network Administrator
+906-639-3500
+877-450-3500
+adminmjh@alphacomm.net
+www.alphacomm.net 
+
+
+-----Original Message-----
+From: razor-users-admin@example.sourceforge.net
+[mailto:razor-users-admin@lists.sourceforge.net] On Behalf Of Daniel
+Higgins
+Sent: Tuesday, August 13, 2002 10:15 AM
+To: razor-users@example.sourceforge.net
+Subject: Re: [Razor-users] FW: intigration with qmail
+
+i don't think you get exactly what razor does. razor is used to stop
+spam
+from entering a mail box, not to leave a mail server. altough you could
+probably use it that way i doubt it would do much good (if the mail is
+leaving the server, it most likely is a new spam and wouldn`t get caught
+by
+razor)
+
+you might want to look into dealing with those troublesome users
+directly.
+and (as you`ve probably been screamed at a lot of times) close your open
+relay if you have one, there are plenty of sites that tells you how
+(most
+RBL sites)
+--
+Daniel Higgins
+Netcommunications Inc.
+Administrateur Système / Network Administrator
+Tel: 450-346-3401
+Fax: 450-346-3587
+dhiggins@netc.net
+http://www.netc.net
+----- Original Message -----
+From: "Michael J Humphries" <adminmjh@alphacomm.net>
+To: <razor-users@example.sourceforge.net>
+Sent: Tuesday, August 13, 2002 10:44 AM
+Subject: [Razor-users] FW: intigration with qmail
+
+
+> I sent this message already and I am sorry if I am asking the wrong
+> question or if I have been asking stupid questions but I am in an
+urgent
+> time when people are using my service to spam others and I NEED to
+stop
+> them quickly. I hope that some one can help if not please just let me
+> know that I have been asking the bad questions or I need to be in a
+> different list serv.  Thank you all so much for your time
+>
+> Michael Humphries
+> Alphacomm.net
+> Network Administrator
+> 906-639-3500
+> 877-450-3500
+> adminmjh@alphacomm.net
+> www.alphacomm.net
+>
+>
+> -----Original Message-----
+> From: Michael J Humphries [mailto:adminmjh@alphacomm.net]
+> Sent: Friday, August 09, 2002 2:25 PM
+> To: 'razor-users@example.sourceforge.net'
+> Subject: intigration with qmail
+>
+> i have Redhat 7.2 and qmail 1.0.2 and vpopmail 5.3.8 I am tring to
+> intigrate the -revoke -check etc.. and can not find where to do so I
+> only found the procmail example. Is there a place I can find this
+> information or has someone already run into this and found the way to
+> get this done
+>
+> Michael Humphries
+> Alphacomm.net
+> Network Administrator
+> 906-639-3500
+> 877-450-3500
+> adminmjh@alphacomm.net
+> www.alphacomm.net
+>
+>
+>
+>
+>
+> -------------------------------------------------------
+> This sf.net email is sponsored by: Dice - The leading online job board
+> for high-tech professionals. Search and apply for tech jobs today!
+> http://seeker.dice.com/seeker.epl?rel_code=31
+> _______________________________________________
+> Razor-users mailing list
+> Razor-users@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/razor-users
+>
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code1
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code1
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

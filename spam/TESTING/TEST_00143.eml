@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287159cc84ad105
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs431923wfb;
+        Thu, 6 May 2010 23:00:31 -0700 (PDT)
+Received: by 10.223.5.89 with SMTP id 25mr7681384fau.87.1273212030299;
+        Thu, 06 May 2010 23:00:30 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id a25si1256450faa.16.2010.05.06.23.00.29;
+        Thu, 06 May 2010 23:00:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 45D9E13A5A7A; Fri,  7 May 2010 06:00:26 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 02F0913A5A76
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 06:00:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nGaogK5C6u02 for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 06:00:13 +0000 (UTC)
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 5302913A5A6D
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 06:00:13 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so1365223qyk.3
+        for <debian-kde@lists.debian.org>; Thu, 06 May 2010 23:00:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type;
+        bh=NymPfWnz3eH8aAoGNVkyI5y2nTuCrz8uRXG1Wd7yAiU=;
+        b=k2IPjMFvMcwsq7AGEem2uJNmcTFEx/u0/2P0+x9BSy5wWI1I1yRAd6uaw/RZ/R/SiJ
+         GmXG08AhNjSYI3DvpS8YrztPELw0F0nemRmLj6YansqNurljd0gDv99MVkRWLjNFpgs2
+         PuRTWotxPHKkkENNIpaAXBD3tTW5XcK91pOa4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=tJnUT7fVd/ekQ3opR6Ww4hAVUG0pW3+Rl9lJWWeq6Kw+BHt58LMkbD3mdlhrnnZYsH
+         7r9E6XkkIL4/ue4dD/Q6KIFmkLHiJ0Tg3a4afJ2+RR6z2xYIXvpJNqHCHCuYaI8tigJ8
+         dS8sjmqDFK2NF6Ace6lHENM3Mm9p6J3064Ce0=
+MIME-Version: 1.0
+Received: by 10.229.187.6 with SMTP id cu6mr3555020qcb.64.1273212005677; Thu, 
+	06 May 2010 23:00:05 -0700 (PDT)
+Received: by 10.229.221.13 with HTTP; Thu, 6 May 2010 23:00:05 -0700 (PDT)
+Date: Fri, 7 May 2010 09:00:05 +0300
+Message-ID: <y2v880dece01005062300ma4f992b2zaa5515660c3484ff@mail.csmining.org>
+Subject: Dataloss bugs in Korganizer
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-kde <debian-kde@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Wh0LkBY_bbF.A._VG.6x64LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32207
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 06:00:26 +0000 (UTC)
+
+Can other KDE users please triage these dataloss bugs in Korganizer in KDE 4.4:
+
+ https://bugs.kde.org/show_bug.cgi?id=172464
+ https://bugs.kde.org/show_bug.cgi?id=226394
+ https://bugs.kde.org/show_bug.cgi?id=228674
+ https://bugs.kde.org/show_bug.cgi?id=236563
+ https://bugs.kde.org/show_bug.cgi?id=236658
+
+Each one should take less than a minute to triage.
+
+Dataloss is a huge issue and I fear that it is not getting the
+attention that it deserves. Hopefully if some other users confirm the
+issues then the bugs will get priority. Thanks.
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2v880dece01005062300ma4f992b2zaa5515660c3484ff@mail.csmining.org
+
+

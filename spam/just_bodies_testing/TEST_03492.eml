@@ -1,0 +1,29 @@
+Re: Migrate OS to smaller drive?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson schreef:
+> On 2010-04-11 08:11, Clive McBarton wrote:
+>>
+>> Sjoerd Hardeman wrote:
+>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>  rsync -ax / /media/newdevice.
+>>
+>> What exactly is the advantage of this approach over "cp -a" or "mv"?
+>>
+>> I would have suggested mv. It has the useful property that you can
+>> easily spot aborted transfers by the fact that the original device is
+>> not empty afterwards.
+>=20
+> One note is that I've had issues where symlinks remain pointing to the =
+
+> old drive.  (That was a long time ago, though, and maybe I did somethin=
+g
+> wrong.)
+I thought symlinks keep point via a file location memo, like "look at
+/usr/share/the/file/you/want", which is the old location just after
+copying, but the new location when you boot from your new device and
+that becomes root.
+
+Sjoerd
+

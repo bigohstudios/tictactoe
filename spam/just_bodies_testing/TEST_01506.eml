@@ -1,0 +1,24 @@
+Re: Bindings problem with current CVS code
+
+>>>>> On Wed, 2 Oct 2002, "Chris" == Chris Garrigues wrote:
+
+  Chris> Flist_FindUnseen has changed to Flist_FindSeqs.
+
+I guess I was sleepier than I thought.  I managed to cut and
+paste the _right_ stuff from the app-defaults file into the
+Bindings definition dialog without ever noticing that it was
+different from what was in my exmhbindings file.
+
+--Hal
+
+P.S., can I get a pointer to a freeware Tcl/Tk debugger?
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

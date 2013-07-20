@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d8174e9abe7f5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs18255wfi;
+        Wed, 7 Apr 2010 04:45:59 -0700 (PDT)
+Received: by 10.87.61.22 with SMTP id o22mr13714433fgk.50.1270640758368;
+        Wed, 07 Apr 2010 04:45:58 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 7si3665740fxm.19.2010.04.07.04.45.57;
+        Wed, 07 Apr 2010 04:45:58 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3AA1913A6587; Wed,  7 Apr 2010 11:45:48 +0000 (UTC)
+Old-Return-Path: <lubosrendek@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.1 required=4.0 tests=LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 52E2513A626E
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 11:45:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id U4HM0seXsrkM for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 11:45:34 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-pz0-f198.google.com (mail-pz0-f198.google.com [209.85.222.198])
+	by liszt.debian.org (Postfix) with ESMTP id 8A88213A6586
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 11:45:34 +0000 (UTC)
+Received: by pzk36 with SMTP id 36so747516pzk.24
+        for <debian-user@lists.debian.org>; Wed, 07 Apr 2010 04:45:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:sender:reply-to:received
+         :in-reply-to:references:date:x-google-sender-auth:received
+         :message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=LGOtKGg+1HLoXZuC5b82p9vizstB/LC+YEsBwnn4Wrs=;
+        b=uPF8e0tld9uayKWk02wvQoyAKdq2cSZECuF1nGCFNLIOcj0Cn8APVudpf5cM7N5pp4
+         fYxUJhOR6MZ0fKayJm0QlN4g10qS05BcNYZXQV595sUVlBrL5EwP8MfnaxBS011Y4bY+
+         nwsoLilLuHOpFbJjB5oXPU3gU8g3zGNtiyJp4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:sender:reply-to:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        b=aVjLhilYs6f/aqi45acLRSZcB7pZqkWG2XnmMcVaK3Nk3RlEeXmpIM62AB7u0/IEx3
+         +CkDDeKOTd9Ii+oO6F0ag0Dv2klIAu3tuNBPowEFKvZV+zN++A1ML0Aav4bpxO8KkUjK
+         s4Sm08ae/pEyFFpfWgmfrJ26oWDl0FtWCVAu4=
+MIME-Version: 1.0
+Sender: lubosrendek@csmining.org
+Reply-To: lubos@linuxconfig.org
+Received: by 10.143.10.11 with HTTP; Wed, 7 Apr 2010 04:45:25 -0700 (PDT)
+In-Reply-To: <1212216035.1060481270421606408.JavaMail.root@md01.wow.synacor.com>
+References: <p2v7d2c465d1004041436m5d004878x796d72b4c16a45b6@mail.csmining.org>
+	 <1212216035.1060481270421606408.JavaMail.root@md01.wow.synacor.com>
+Date: Wed, 7 Apr 2010 21:45:25 +1000
+X-Google-Sender-Auth: d354767920de3b70
+Received: by 10.142.8.22 with SMTP id 22mr3388755wfh.194.1270640726246; Wed, 
+	07 Apr 2010 04:45:26 -0700 (PDT)
+Message-ID: <u2h7d2c465d1004070445m105a0633v9632329622e6746@mail.csmining.org>
+Subject: Re: Retrieve hardware and modules info..
+From: Lubos Rendek <lubos@linuxconfig.org>
+To: Stephen Powell <zlinuxman@wowway.com>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <fbAC-kiOS9H.A.7vF.sBHvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573499
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 11:45:48 +0000 (UTC)
+
+thanks Stephen this is exactly what I was looking for. :-)
+
+On Mon, Apr 5, 2010 at 8:53 AM, Stephen Powell <zlinuxman@wowway.com> wrote=
+:
+> On Sun, 4 Apr 2010 17:36:03 -0400 (EDT), Lubos Rendek wrote:
+>>
+>> thanks guys for this.. Now what is the best way to link modules to a
+>> specific hardware. for example my lsmod shows that I use 'ecb' module.
+>> For someone like me this name does not say much. Is there a way to
+>> find which module belongs to which piece of hardware?
+>
+> =A0 /sbin/modinfo ecb
+>
+> The "description" line is helpful of course. =A0And the "alias" lines
+> identify which pieces of hardware will cause the module to be loaded,
+> for most device drivers. =A0(Some older device drivers don't have any
+> internal aliases and require help from external aliases to load
+> automatically when the corresponding hardware device is detected.
+>
+> --
+> =A0.''`. =A0 =A0 Stephen Powell =A0 =A0<zlinuxman@wowway.com>
+> =A0: :' =A0:
+> =A0`. `'`
+> =A0 `-
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1212216035.1060481270421606408.JavaMail.=
+root@md01.wow.synacor.com
+>
+>
+
+
+
+--=20
+http://www.linuxconfig.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2h7d2c465d1004070445m105a0633v9632329622e6746@mail.csmining.org
+
+

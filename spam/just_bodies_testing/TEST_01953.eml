@@ -1,0 +1,18 @@
+Re: Lite SMTP server/daemono export@hope.cz:
+
+> Does anyone know about a tiny  / liteweight  SMTP server for Linux( Debian)? I need the 
+> server that can accept several connections at the same time .
+
+dunno if it fits for you, but on my boxes i use masqmail.
+-- 
+Florian "eix" Rehnisch <eixman@gmx.de> +49-1520-9573489
+GPG 1CF2467F ICQ 99773910 eix_@{freenode,ircnet,debian}
+http://tinyurl.com/xxxterm-eix -- Webbrowser a la Vi(m)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2010-04-27$15.14.25@x.vimhelp.de.vu
+
+

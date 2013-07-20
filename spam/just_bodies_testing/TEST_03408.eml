@@ -1,0 +1,26 @@
+hald start problemFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=UTF-8
+
+Hello,
+
+On my Debian system hald fails to start randomly. Logs do not show any
+errors.
+
+When I restart it and it does start, the output looks like this:
+
+root@LAPTOP:~# /etc/init.d/hal restart
+Restarting Hardware abstraction layer: hald.
+root@LAPTOP:~#
+
+When I restart it and it does NOT start, the output looks like this:
+
+root@LAPTOP:~# /etc/init.d/hal restart
+Restarting Hardware abstraction layer: haldroot@LAPTOP:~#
+
+As you can see in the latter case some expected output (".\n") is missing.
+Also, the return code is 1 instead of 0 which clearly indicates a failure.
+
+I tried the same quite a few times and it's completely random. What could be
+the problem?
+
+Rytis

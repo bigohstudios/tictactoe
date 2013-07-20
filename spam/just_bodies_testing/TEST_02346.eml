@@ -1,0 +1,31 @@
+apt-get http failsFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+
+I installed apt-get yesterday and liked it, for a couple hours anyway.=20
+Late last night I started to get errors like:
+
+
+--( root@theshadows )-- apt-get update
+E: Method http has died unexpectedly!
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+E: Tried to dequeue a fetching object
+(...)
+
+i get the same errors (two like the first line instead of one) with
+apt-get update.
+
+I was wondering why this would happen.
+
+I would appreciate any help you all can give me.
+
+Thanks.
+
+--=20
+					-Govind Salinas
+ICQ:32026672					AIM:DyErthScum

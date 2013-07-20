@@ -1,0 +1,26 @@
+Re: Compositing two moviesOn 4/11/2010 4:24 PM, Raphaël Dingé wrote:
+
+> Yes, sure, but my point was only about having two movies perfectly in sync,
+> and this sample code is just a way to achieve it !
+
+I tried adding the bit about GetMovieTimeBase and 
+SetTimeBaseMasterTimeBase to my project, and it didn't seem to help 
+synchronization.
+
+I also tried making a movie with references to the two video tracks, so 
+that the video tracks would be playing in the same movie, and they still 
+don't stay synchronized when playing.
+
+It looks like I may have to require that the two movies be somehow 
+preprocessed to be side by side in a single video track.
+-- 
+   James W. Walker, Innoventive Software LLC
+   <http://www.frameforge3d.com/>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286a59e237bfff4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs355900wfb;
+        Wed, 5 May 2010 14:23:16 -0700 (PDT)
+Received: by 10.223.24.5 with SMTP id t5mr5918663fab.72.1273094595362;
+        Wed, 05 May 2010 14:23:15 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si642245fks.5.2010.05.05.14.23.14;
+        Wed, 05 May 2010 14:23:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 80BB42E8AF0; Wed,  5 May 2010 21:23:09 +0000 (UTC)
+Old-Return-Path: <panayk@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 80A582D0C9D
+	for <lists-debian-user@liszt.debian.org>; Wed,  5 May 2010 21:23:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id tuMEUplb7thL for <lists-debian-user@liszt.debian.org>;
+	Wed,  5 May 2010 21:22:56 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 430552E8AF1
+	for <debian-user@lists.debian.org>; Wed,  5 May 2010 21:22:56 +0000 (UTC)
+Received: by wyf22 with SMTP id 22so3522186wyf.6
+        for <debian-user@lists.debian.org>; Wed, 05 May 2010 14:22:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:references:in-reply-to
+         :content-type:content-transfer-encoding;
+        bh=V0dOEu/Gltg38DMnP+6suREi69QnmLTrsyGTpi0JGCA=;
+        b=idOCRKDMjJeEUGCI2yo5Cm8mseUmekfS6R92i1fBgDFg+OvpI8rAuV0Ov+u0O8GTw+
+         yOvJKi5uQqB6cP1nFKnuEmk6FDkF7fJlYklN1IyB9BrJrya+69fDUP3tvybqhJZdUYEf
+         ObPiOoinzXTSLPIEwd3iNZiVcRgSz/WAybr2o=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type:content-transfer-encoding;
+        b=wDDyeilzKVALsljTyHaniOYHdLIJODGuxU9/kOnC4ZXG0RVj2i+gBaKk6hXzf7N3c7
+         HjH8Dhxk0DvsXjsycHtMDdKco38e34OUMO3FVDmJaQVvUSMD3cObam2VKDmmbgm60q8M
+         ObS92SV1MZJWbyU127/YCuCUk/mZrZhTdVsyw=
+Received: by 10.227.137.84 with SMTP id v20mr3320592wbt.74.1273094571507;
+        Wed, 05 May 2010 14:22:51 -0700 (PDT)
+Received: from [192.168.1.11] (178.128.54.55.dsl.dyn.forthnet.gr [178.128.54.55])
+        by mx.google.com with ESMTPS id x14sm1654814wbs.12.2010.05.05.14.22.50
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 05 May 2010 14:22:50 -0700 (PDT)
+Message-ID: <4BE1E1A9.3030306@csmining.org>
+Date: Thu, 06 May 2010 00:22:49 +0300
+From: Panayiotis Karabassis <panayk@csmining.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: How to get Xen working on the latest Debian testing (squeeze)
+References: <y2r9b249e7f1005051020n85530bb8m1809d03d2a804cd@mail.csmining.org>
+In-Reply-To: <y2r9b249e7f1005051020n85530bb8m1809d03d2a804cd@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dqROW6fbeGG.A.XDG.9Ge4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575939
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 21:23:09 +0000 (UTC)
+
+On 05/05/2010 08:20 PM, Drew Paschal wrote:
+> I have three machines with Squeeze installed and I would like to know 
+> a step by step method for installing Xen.  I tried installing it on 
+> the stable version, but for some reason, Xen was having trouble with 
+> my controller (serveraid-7k).  Could someone post the steps?
+If there is a way I would like to know it as well. I think for some 
+reason xen has been postoponed and there are a few packages still 
+missing from squeeze (xen-linux-system-*). I noticed they are in sid though.
+
+Regards,
+     Panayiotis
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE1E1A9.3030306@csmining.org
+
+

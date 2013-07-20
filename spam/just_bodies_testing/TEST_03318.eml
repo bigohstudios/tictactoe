@@ -1,0 +1,46 @@
+Re: KDE 4.4.3 in unstable[Boyd Stephen Smith Jr. - Donnerstag 06 Mai 2010 00:54:06] 
+> On Wednesday 05 May 2010 16:58:35 you wrote:
+> > On Wed, May 05, 2010 at 04:21:15PM -0500, Boyd Stephen Smith Jr. wrote:
+> > > On Wednesday 05 May 2010 15:24:49 Ana Guerrero wrote:
+> > > > Following Qt 4.6.2, uploaded a couple of weeks ago, KDE 4.4.3, has
+> > > > finally found its way to unstable in the last 48 hours.
+> > > > Given KDE 4.5.0 is not expected until August, it is likely the next
+> > > > point release, 4.4.4, will be the KDE version included in next Debian
+> > > > stable, Squeeze.
+> > >
+> > > Please don't force an "Akonadi-enabled" PIM suite on stable users before
+> > > they are provided with an Akonadi that can use something other than
+> > > MySQL.
+> > 
+> > KDE 4.4 is the current stable release, there is not much more options here
+> > with the freeze happening around the summer *before* 4.5 is out.
+> > Good news is you have at least a couple of months to develop a patch for
+> >  this.
+> 
+> Would Debian accept such a patch?  Upstream will not apply it to the 4.4.x 
+> line.
+> 
+> Upstream is already in the process of getting this done for the 4.5 release.
+> 
+> What about shipping KDEPIM 4.3.x?  It works fine with KDEBASE 4.4.x.
+> 
+> Also, what happened to freezing when appropriate ("when it's done")?  Stable 
+> users don't want a half-baked OS.
+> 
+> Okay, ending this email here, because thinking about a stable Debian that 
+> includes KDEPIM 4.4 angers and saddens me.
+
+How does having a kdepim that depends on mysql declare kde as "broken"?
+Sure, many oppose to that dependency, but it works, doesn't it?
+
+(at least here it does; better than the version from 4.3)
+
+Regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005060053.06246.schwarzerf@csmining.org
+
+

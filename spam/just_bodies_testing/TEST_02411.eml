@@ -1,0 +1,17 @@
+Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?Alan Ianson writes:
+> All the stuff at debian-multimedia can't be included in debian for
+> various reasons, mostly freedom I think, so you won't find it in
+> debian at all. It's made for debian but it isn't debian.
+
+Most of it is Free Software but encumbered by actively-enforced
+patents.  d-mm.o has a non-free section for non-free stuff.
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/871veagb57.fsf@thumper.dhh.gt.org
+
+

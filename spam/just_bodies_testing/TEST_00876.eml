@@ -1,0 +1,29 @@
+Re: KDE in Debian, a personal POVOn Fri May 7 2010 12:32:29 Ana Guerrero wrote:
+> Suggestions if you still want to use KDE 3.5
+> --------------------------------------------
+(snip)
+> - learn how to build it, install it e.g. in /opt/kde and learn how to
+> update it every time there is a new non-compatible library in your system
+
+Users could rebuild KDE from SVN but if we were so
+inclined we wouldn't be Debian users.
+
+Debian already has done all the work and maintains all
+the infrastructure.  It's vastly less work for Debian
+to rebuild KDE 3.5 when a library changes rather than
+force users to try to create a new build infrastructure.
+
+Debian ships all sorts of software, including even
+non-free software.  Would it be possible to continue
+rebuilding and shipping KDE 3.5, perhaps in "contrib",
+perhaps with a huge "no security updates" disclaimer?
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071252.09581.mgb-debian@yosemite.net
+
+

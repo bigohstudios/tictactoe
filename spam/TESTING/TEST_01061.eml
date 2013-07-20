@@ -1,0 +1,142 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e29c3669bcd35
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs25251wfi;
+        Fri, 9 Apr 2010 05:47:24 -0700 (PDT)
+Received: by 10.100.56.19 with SMTP id e19mr2737237ana.151.1270817240795;
+        Fri, 09 Apr 2010 05:47:20 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 11si703629ywh.38.2010.04.09.05.47.20;
+        Fri, 09 Apr 2010 05:47:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 209281BBCB588
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 05:47:20 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 1C3C326A75B4E
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 05:47:20 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 29D8E26A7596B
+	for <quicktime-api@lists.apple.com>;
+	Fri,  9 Apr 2010 05:47:02 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 189AFC8C9FFE
+	for <quicktime-api@lists.apple.com>;
+	Fri,  9 Apr 2010 05:47:02 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7b77ae000001b08-2a-4bbf21c2958a
+Received: from smtp6-g21.free.fr (smtp6-g21.free.fr [212.27.42.6])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	02.09.06920.4C12FBB4; Fri,  9 Apr 2010 05:47:01 -0700 (PDT)
+Received: from smtp6-g21.free.fr (localhost [127.0.0.1])
+	by smtp6-g21.free.fr (Postfix) with ESMTP id F2BACE0813C
+	for <quicktime-api@lists.apple.com>;
+	Fri,  9 Apr 2010 14:46:56 +0200 (CEST)
+Received: from mac-pro.ohmforce.paris (hq.ohmforce.com [82.238.202.205])
+	by smtp6-g21.free.fr (Postfix) with ESMTP id 045FCE080F4
+	for <quicktime-api@lists.apple.com>;
+	Fri,  9 Apr 2010 14:46:53 +0200 (CEST)
+Message-Id: <4A5146CA-B876-41DA-A790-6DACA4F07A0F@csmining.org>
+From: Dinge Raphael <raphael.dinge@csmining.org>
+To: quicktime-api@lists.apple.com
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Fri, 9 Apr 2010 14:46:53 +0200
+X-Mailer: Apple Mail (2.936)
+X-Brightmail-Tracker: AAAAAhOeHy4Tnqpd
+Subject: Newbie question : am I going in the right direction ?
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi,
+
+I'm trying to do the following from the application point of view :
+I would have a sequence. The sequence contains tracks. Tracks
+contains movie clips. A movie clip would be a part of an original
+movie.
+The output of tracks would be fetched in a display link call,
+from which an opengl texture would be fetched from the track,
+with which I would do some transformations before it would be
+composited on screen.
+
+Since I'm a complete newbie in the quicktime world, I know I have
+to do my home work, I just want to have some feedback to know if
+I'm going somehow in the right direction from an architectural
+point of view.
+
+Please find below assertions, are they right or wrong ? Comments ?
+
+- I need to use Quicktime C api to have it to work on MacOS and Windows
+- I need to use Quicktime C api because of the low level calls that
+   might not be available in the Cocoa equivalent
+- Quicktime C api might be future proof (64 bits problems and the like)
+
+- The only way for me to get a texture from a movie clip is to fetch
+   it from a visual context attached to a movie (in particular, if the
+   Quicktime Movie has multiple tracks, it will be hard or not thread
+   safe to deactivate/activate tracks to have a particular track to
+   render into the visual context)
+- Quicktime editing operations are light on the main thread
+- Internally Quicktime acts like a sequencer, to be able to schedule
+   tasks (reading/decompressing/etc.) in a *predictable* manner
+
+ From now it seems to me as for the needs of my application I should
+have (almost) as many Quicktime Movie as I have video tracks in
+my application. But since I need to play all those tracks in sync :
+
+- The quicktime playback controller is transaction based. it will wait
+   to return to the carbon run loop before sending all movie messages
+   as one big time-stamped transaction to the sequencer. This permit
+   to have synchronisation between movies at sample accuracy precision
+
+As of building the movie clips sequence on a track (if I'm still in
+the right direction)
+
+- building the track is just a matter of selecting a part in the
+   original movie, and then insert this part in the Quicktime movie
+   representing the track
+- making this selection/insert operation is light enough to have it
+   on the main thread
+- since I'll have "hole" in a track (that is a range of time where
+   there would be no movie), and to be able to consider that those
+   "holes" are fully transparent in a compositing point of view, I
+   need to manage manually by getting the frame accurate time in the  
+display
+   link call to know if I'm in a "hole" (ie. "is new image available"
+   scheme is not enough for my problem)
+
+And on a practical point of view :
+
+- one good advice for this project would be to start with "hacking
+   around" methodology on the QTCoreVideo101 sample code, ie. given
+   my low experience in QuickTime, an architecture from scratch would
+   not survive the first design.
+
+Thanks in advance for any informations on that matter,
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

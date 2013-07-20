@@ -1,0 +1,33 @@
+freshrpms.net resources (was Re: use new apt to do null to RH8
+    upgrade?)Once upon a time, Brian wrote :
+
+>    Yeah, but I try to 'take it easy' on your server.  The golden rule of
+>    the internet: when you find a free resource, don't piss'em off!  :)  I
+>    really appreciate your work; you get done the things I wish I could,
+>    and I respect that.
+
+Don't worry too much : The day the server gets too busy, I'll cleanup and
+publish the addresses of some mirrors, as many ftp mirrors exist (I'm aware
+of at least 15), and even an apt one :-)
+For now, the limit is far enough : When I unlocked the Psyche ISO images on
+Monday, the bandwidth usage on the current (ftp|http|rsync) freshrpms.net
+server went up to 90Mbps sustained, which is not bad as the server has a
+100Mbps physical NIC! Of course, I'd get in trouble if it was always like
+that, but the average used when no new Red Hat release is there is between
+2 and 4Mbps, which my company tolerates, as I've convinced them it's a
+useful return to the community providing us the great operating system all
+our servers are running ;-)
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

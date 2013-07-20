@@ -1,0 +1,159 @@
+From - Thu Jun 25 00:30:10 2009
+X-Account-Key: account2
+X-UIDL: UID5717-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 2D5CB163FE
+	for <m0620212@mail.csmining.org>; Thu, 25 Jun 2009 00:28:46 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 29A84163BF
+	for <m0620212@mail.csmining.org>; Thu, 25 Jun 2009 00:28:46 +0900 (JST)
+X-ASG-Debug-ID: 1245857324-278a00c40000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1245857324
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251])
+	by spamgw.csmining.org Firewall) with SMTP id F0E566FF473
+	for <m0620212@mail.csmining.org>; Thu, 25 Jun 2009 00:28:44 +0900 (JST)
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id n5OFSisW009155
+        for <m0620212@mail.csmining.org>; Thu, 25 Jun 2009 00:28:44 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id n5OFSicM009152
+        for <hibody@csmining.org>; Thu, 25 Jun 2009 00:28:44 +0900 (JST)
+Received: from [190.254.164.153] ([190.254.164.153])
+	by ns2.csmining.org  with ESMTP id n5OFSgpU012324
+	for <hibody@csmining.org>; Thu, 25 Jun 2009 00:28:43 +0900 (JST)
+Date: Thu, 25 Jun 2009 00:28:42 +0900 (JST)
+From: "Londre Sudie" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Order placed
+Subject: Order placed
+Content-Type: text/html; charset="ISO-8859-1"
+MIME-Version: 1.0
+Message-Id: <LHEOWGP62392.F39B304@[190.254.164.153]>
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-Barracuda-Spam-Score: 3.10
+X-Barracuda-Spam-Status: No, SCORE=3.10 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL, HTML_MESSAGE, MIME_HTML_ONLY, RDNS_NONE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.88164
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL
+X-BitDefenderWKS-SpamStamp: v1, build 2.8.21.67767, whitelisted,
+ total: 0(725)
+X-BitDefenderWKS-Spam: No - 0
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<style type="text/css">
+
+      body {
+         background-color: #eeeeee;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.footer {
+         padding: 0 20px;
+         background-repeat: no-repeat;
+         background-position: center top;
+         background-color: #333333;
+         height: 61px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #ffffff;
+         line-height: 16px;
+         margin: 0;
+         padding: 0;
+      }
+
+td.footer a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #e3c211;
+         line-height: 16px;
+         margin: 0;
+         padding: 0;
+	text-decoration: none;
+}
+
+            .mainbar img.inline { padding-top: 4px; padding-bottom: 4px; }
+mainbar img.inlinebord { padding: 4px; border: solid 1px #dedede; }
+
+</style>
+	<META NAME="ROBOTS" CONTENT="NOFOLLOW">
+</head>
+<body style="background-color:#eeeeee;" >
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bg1" style="background-color:#eeeeee;" >
+   <tr>
+
+      <td align="center">
+
+         <table width="700" border="0" cellspacing="0" cellpadding="0" class="bg2" style="background-color:#ffffff;" >
+            <tr>
+               <td class="permission" align="left" style="background-color:#eeeeee;padding-top:10px;padding-bottom:10px;padding-right:20px;padding-left:20px;" >
+								<p style="font-family:Arial;font-size:11px;font-weight:normal;color:#333333;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><a href='http://cxqf.sezpuqus.cn/?uv=7428D3995F39B304C1EA32AE' style="font-family:Arial;font-size:11px;font-weight:normal;color:#333333;" >Unsubscribe</a>. Having trouble viewing this email? <a href="http://ink.sezpuqus.cn/?fa=7428D3995F39B304C1EA32AE" style="font-family:Arial;font-size:11px;font-weight:normal;color:#333333;" >View it in your browser</a>.</p>
+							</td>
+            </tr>
+
+            <tr>
+               <td valign="top" class="body" style="padding-top:0;padding-bottom:20px;padding-right:20px;padding-left:20px;background-color:#ffffff;" >
+                  <table border="0" cellspacing="0" cellpadding="0" style="width: 103%">
+                     <tr>
+                        <td valign="top" class="mainbar" align="left" width="435">&nbsp;<a href="http://ink.sezpuqus.cn/?gil=7428D3995F39B304C1EA32AE"><img alt="Find out!" src="http://ink.sezpuqus.cn/blank.gif"></a><br /></td>
+
+                     </tr>
+                  </table>
+
+               </td>
+            </tr>
+            <tr>
+               <td valign="middle" align="left" class="footer" style="padding-top:0;padding-bottom:0;padding-right:20px;padding-left:20px;background-repeat:no-repeat;background-position:center top;background-color:#333333;height:61px;vertical-align:middle;" >
+								<p style="font-family:Arial;font-size:11px;font-weight:normal;color:#ffffff;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >Copyright
+								2009 Uretqvjdorag Inc.<br />
+									<br>
+									<a href="http://lheo.sezpuqus.cn/?xak=7428D3995F39B304C1EA32AE" style="font-family:Arial;font-size:11px;font-weight:normal;color:#e3c211;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;text-decoration:none;" >
+								Unsubscribe</a> |
+								<a href="http://ink.sezpuqus.cn/?yzi=7428D3995F39B304C1EA32AE" style="font-family:Arial;font-size:11px;font-weight:normal;color:#e3c211;line-height:16px;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;text-decoration:none;" >
+								Privacy</a></td>
+            </tr>
+         </table>
+
+      </td>
+   </tr>
+</table>
+
+</body>
+</html>
+
+

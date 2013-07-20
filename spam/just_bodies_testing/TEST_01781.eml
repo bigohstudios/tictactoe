@@ -1,0 +1,41 @@
+Re: 8-bit color in Tiger X11 and Snow Leopard X11On 20100507 16:02, Jeremy Huddleston wrote:
+>
+> On May 6, 2010, at 12:27, Philip Dennison wrote:
+>
+>> If X11 is not set to output 256 colors,
+>
+> Pseudocolor is not very well supported by the X11 community as it is a very outdated and costly way to handle colors.  We have limited support in XQuartz, but you must select the 8bit mode.
+>
+> Most of these applications probably won't even work on modern Xorg DDXs either.  You really should update your applications or ask the developers to support TrueColor... They've had well over a decade to do it...
+>
+> --Jeremy
+>
+>
+
+Thanks Jeremy.
+
+Unfortunately neither the software or operating system is supported 
+anymore. I prefer the old software to the current alternative (and 
+already have the licenses), and the SGI platform is so reliable. The 
+computers are at least 12 years old and the Bruker XwinNMR program, was 
+replaced about 5-6 years ago!
+
+It is also unfortunate that this was handled so nicely by the old X11. I 
+haven't yet tried installing the Tiger X11 on a Snow Leopard machine - 
+would the instructions for doing this under Leopard still work?
+
+Phil.
+-- 
+Dr Phil Dennison
+NMR Facility Director           (949)824-6010 (office)
+Department of Chemistry         (949)824-5649 (lab)
+University of California        (949)824-8571 (fax)
+Irvine, CA 92697-2025           dennison@uci.edu
+USA
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

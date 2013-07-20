@@ -1,0 +1,33 @@
+32000 directories (was Re: overcoming the 32k objects limit ...)On 04/25/2010 10:04 AM, Siju George wrote:
+[snip]
+>
+> The folder limit was reached some time back.
+>
+> As a temporary solution some directories were removed .
+> They will be fitting new drives tomorrow so I guess i will format them
+> to XFS and use that.
+>
+> since ext4 also has a limit ans jfs also has a limit of 64000 I guess
+> I will use XFS which allows 2^32 directories under a directory.
+>
+
+Flat directory structures became obsolete 30 years ago.
+
+So, before migrating to xfs *just because it supports 64000 
+folders*, ask yourself and the users, "Why the heck do we have 32000 
+sub-directories in the first place???"
+
+You all should (with some research and planning) be able to 
+reorganize that sprawling flat structure into a significantly nested 
+structure.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD45EED.20907@cox.net
+
+

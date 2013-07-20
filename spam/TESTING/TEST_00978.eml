@@ -1,0 +1,193 @@
+X-Account-Key: account5
+X-UIDL: GmailId12856ea3926251c3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs166281wfj;
+        Sat, 1 May 2010 19:48:30 -0700 (PDT)
+Received: by 10.142.122.6 with SMTP id u6mr1252904wfc.183.1272768510385;
+        Sat, 01 May 2010 19:48:30 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 12si5330462pzk.134.2010.05.01.19.48.30;
+        Sat, 01 May 2010 19:48:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 1B5201BE2DB78
+	for <mlsubscriber.tech@csmining.org>; Sat,  1 May 2010 19:48:30 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 158B5274FB418
+	for <mlsubscriber.tech@csmining.org>; Sat,  1 May 2010 19:48:30 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 561C3274FB404
+	for <augd@lists.apple.com>; Sat,  1 May 2010 19:48:27 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 442B9D7A3962
+	for <augd@lists.apple.com>; Sat,  1 May 2010 19:48:27 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-c4-4bdce7fa03c0
+Received: from smtprelay.hostedemail.com (smtprelay0152.hostedemail.com
+	[216.40.44.152])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	E3.39.05834.AF7ECDB4; Sat,  1 May 2010 19:48:27 -0700 (PDT)
+Received: from filter.hostedemail.com (ff-bigip1 [10.5.19.254])
+	by smtprelay03.hostedemail.com (Postfix) with SMTP id C4BC31868FB6
+	for <augd@lists.apple.com>; Sun,  2 May 2010 02:48:25 +0000 (UTC)
+X-Panda: scanned!
+X-Session-Marker: 636875636B406A6F696E65722E6E6574
+X-Filterd-Recvd-Size: 5015
+Received: from [192.168.0.101] (c-174-54-90-115.hsd1.pa.comcast.net
+	[174.54.90.115]) (Authenticated sender: chuck@joiner.net)
+	by omf06.hostedemail.com (Postfix) with ESMTP
+	for <augd@lists.apple.com>; Sun,  2 May 2010 02:48:25 +0000 (UTC)
+From: "Chuck Joiner" <chuck@joiner.net>
+To: "Apple Discussion List" <augd@lists.apple.com>
+Subject: Re(6): AUGD: Free Ride for Board Members?
+Date: Sat, 1 May 2010 22:46:26 -0400
+Message-Id: <20100502024626.2058755404@sendmail.Joiner.net>
+In-Reply-To: <C802045A.74EE6%michaelh@lafcpug.org>
+References: <y2taae88f271005011513y9872f3f6jc1bbef2a0dd63515@mail.csmining.org>
+	<C802045A.74EE6%michaelh@lafcpug.org>
+X-Mailer: CTM PowerMail version 6.0.3 build 4609 English (intel)
+	<http://www.ctmdev.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAARPvtBw=
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+>
+>> There mere fact we use MUG shows a lack of acceptance of the
+>> situation.  Macintosh is but one product Apple offers.
+
+In a literal sense, absolutely correct. There has been a move afoot to
+change the nomenclature to "Apple User Groups." I confess that I tend to
+use MUG as (1) a convenience convention and (2) because I have a web
+site called "The MUG Center." 
+
+:)
+
+
+>> 
+>> A for profit enterprise has a clear goal.  To make a profit!
+>
+>Well yeah, sort of. A bit simplistic, but sure.
+
+The non-profit model is one model; there are others, and I seriously
+doubt that there is one "best" for everyone.
+
+>> 
+>> A User Group is neither a for profit enterprise or a cause.  It's a
+>> non-profit group of people with a similar shared interest: a fan club.
+>>  Nothing more and nothing less.  I suspect more people are in the
+>> Hannah Montana fan clubs than are in User Groups.
+>
+>Nonsense. Most people join User Groups not as fans, but to gain knowledge
+>and learn from those smarter than them. They just happened to buy a
+>particular product and want to learn more about it. Others join because =
+they
+>just happen to know a lot about the product, enjoy it and want to help.  =
+I'd
+>wager few join as fans. Especially now.
+
+
+I think there are two different views of user groups in this
+conversation: the raison d'etre of the group, and the mechanics of how
+the group functions. Dave described the former and Mike the later...and
+both are pretty much correct.
+>
+>>Once we accept that Apple isn't obligated to us or owe us anything, we
+>can move
+>to a
+>> better place for discussion.  Hannah Montana fans don't expect every
+>> time she comes into town that she visit their club or give free
+>> tickets.  Not picking on that singer- I just know the niece thinks
+>> she's the bomb).  Putting into perspective reduces the emotion and the
+>> attachment to the ways of the past.
+
+AMEN, but did you *have* to pick Hannah Montana as your example=3F  ;-)
+>
+>I agree that any discussion where you feel Apple owes you something for the
+>hours you put into your UG is silly, but its human nature to feel that way
+>sometimes. You just need the occasional reminder that no one put a gun to
+>your head to run your group. You did it because you wanted too. Stop doing
+>it if you don't want to do it any longer. But don't expect thanks from
+>Apple. 
+>> 
+>> Nobody wants to hear they need to adapt and many are afraid.  They've
+>> always known a certain way of doing things and are unwilling to
+>> change.  Number one phrase I hear is "I've been involved in User
+>> Groups   xxx number of years.  We've done it this way and it works."
+>> Even better  "Our members want it this way."
+
+Another AMEN to both comments.
+
+
+>> I must comment on the irony that while many User Groups want fully
+>> elected democratic process each year in their leadership, the User
+>> Group Regional Liasons and the User Group Advisory Board, as I
+>> understand are not.
+>> 
+>> I hope this leads to an interesting and much needed discussion that is
+>> long overdue.
+>
+>Don't know how that part of the UG program works but would like to know.
+
+Interesting comments, guys, but do you really feel it matters=3F Both are
+**Apple** teams, exist at Apple's pleasure, and are structured as it
+sees fit. They hold no authority over your groups. Apple doesn't license
+user groups. They do "recognize* groups who meet certain qualifications,
+which get those groups a listing on the locator.
+
+In short, there is no reason those teams should be democratically
+assembled, any more than contributors to The MUG Center should be
+elected. Different models for different goals, just like Mike's group
+vs. Dave's group.
+
+Don't know about you, but I'm enjoying this thread. Great exchange of ideas.
+
+---Chuck
+---Chuck
+=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F
+Chuck Joiner
+Producer, Host
+
+MacVoices
+<http://www.macvoices.com>
+
+MacVoicesTV
+<http://www.macvoices.tv>
+
+MacNotables
+<http://www.macnotables.com>
+
+The MacJury
+<http://www.macjury.com>
+
+On Twitter at:
+<http://www.twitter.com/chuckjoiner>
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

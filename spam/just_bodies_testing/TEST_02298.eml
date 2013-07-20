@@ -1,0 +1,59 @@
+RE: [SAtalk] user_perfsHi....
+
+If you havent already, spamd has to be restarted. 
+
+Cheers
+
+
+-----Original Message-----
+From:	James D. Stallings [SMTP:jdstallings@ureach.com]
+Sent:	Monday, July 22, 2002 10:52 AM
+To:	spamassassin-talk@lists.sourceforge.net
+Subject:	[SAtalk] user_perfs
+
+
+I am having troubles setting up the User_Perfs file and I know it is reading them, 
+cause if I change the score value it works based on the changes.  My questions has 
+to do with allowing certain domains not to be scanned for spam for a certain mbox.  I 
+can not get to the spamassassin.org site to check.
+
+Question:
+
+Is this the correct way to code it?
+
+# Whitelist and blacklist addresses are now file-glob-style patterns, so
+# "friend@somewhere.com", "*@isp.com", or "*.domain.net" will all work.
+whitelist_from  *@freelotto.com
+whitelist_from  *@luckysurf.com
+
+Thanks!!
+Jim 
+
+
+________________________________________________
+Get your own "800" number
+Voicemail, fax, email, and a lot more
+http://www.ureach.com/reg/tag
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

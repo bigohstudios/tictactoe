@@ -1,0 +1,17 @@
+Re: What needs to improve in KDE 4?On Tuesday May 11 2010, Marc Haber <mh+debian-kde@zugschlus.de> wrote:
+> Is it guaranteed that KDE doesn't store anything outside of ~/.kde so
+> that a user doesn't risk things getting desynched if one exchanges one
+> ~/.kde with a different one?
+
+Well, akonadi stuff is not inside .kde, but .local/share
+The reasoning is that the akonadi is independent of kde. But, since kde uses 
+akonadi you have kde related data in the akonadi database. 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005111858.52166.taberalf@unican.es
+
+

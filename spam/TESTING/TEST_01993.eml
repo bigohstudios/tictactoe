@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f08246ecebe74
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs133361wfo;
+        Sun, 11 Apr 2010 22:33:42 -0700 (PDT)
+Received: by 10.223.8.67 with SMTP id g3mr2285498fag.107.1271050421963;
+        Sun, 11 Apr 2010 22:33:41 -0700 (PDT)
+Return-Path: <bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si7572797fkt.41.2010.04.11.22.33.41;
+        Sun, 11 Apr 2010 22:33:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2492C13A5B8C; Mon, 12 Apr 2010 05:33:12 +0000 (UTC)
+Old-Return-Path: <meike@melusine.alphascorpii.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-0.5 required=4.0 tests=ALL_TRUSTED,HEADER_SPAM,
+	LDO_WHITELIST,LONGLINEURL,SARE_HEAD_HDR_APPROV autolearn=no version=3.2.5
+X-Original-To: lists-debian-announce@liszt.debian.org
+Delivered-To: lists-debian-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C052913A5E99
+	for <lists-debian-announce@liszt.debian.org>; Mon, 12 Apr 2010 05:17:04 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+X-AmavisStatus: No, score=-0.587 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, HEADER_SPAM=3.396, LDO_WHITELIST=-5,
+	LONGLINEURL=2, SARE_HEAD_HDR_APPROV=0.817] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id UeECOLt5HH7R
+	for <lists-debian-announce@liszt.debian.org>;
+	Mon, 12 Apr 2010 05:16:57 +0000 (UTC)
+X-Greylist: delayed 541 seconds by postgrey-1.31 at liszt; Mon, 12 Apr 2010 05:16:57 UTC
+Received: from melusine.alphascorpii.net (cl-961.dus-01.de.sixxs.net [IPv6:2a01:198:200:3c0::2])
+	by liszt.debian.org (Postfix) with ESMTP id 2054E13A5E89
+	for <debian-announce@lists.debian.org>; Mon, 12 Apr 2010 05:16:57 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by melusine.alphascorpii.net (Postfix) with ESMTP id 30FF9876CF6
+	for <debian-announce@lists.debian.org>; Mon, 12 Apr 2010 07:07:54 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at melusine.alphascorpii.net
+Received: from melusine.alphascorpii.net ([127.0.0.1])
+	by localhost (melusine.alphascorpii.net [127.0.0.1]) (amavisd-new, port 10026)
+	with LMTP id NjV3CMDKfczK for <debian-announce@lists.debian.org>;
+	Mon, 12 Apr 2010 07:07:52 +0200 (CEST)
+Received: by melusine.alphascorpii.net (Postfix, from userid 1000)
+	id 61CA2876CE9; Mon, 12 Apr 2010 07:07:52 +0200 (CEST)
+Date: Mon, 12 Apr 2010 07:07:52 +0200
+From: Meike Reichle <meike@debian.org>
+To: debian-announce@lists.debian.org
+Subject: New archive snapshot service available
+Message-ID: <20100412050752.GA27740@melusine.alphascorpii.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-15
+Content-Disposition: inline
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <1r9Ry5Z438C.A.P4F.YCrwLB@liszt>
+Resent-From: debian-announce@lists.debian.org
+X-Mailing-List: <debian-announce@lists.debian.org> archive/latest/125
+X-Loop: debian-announce@lists.debian.org
+List-Id: <debian-announce.lists.debian.org>
+List-Post: <mailto:debian-announce@lists.debian.org>
+List-Help: <mailto:debian-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-announce-request@lists.debian.org
+Resent-Date: Mon, 12 Apr 2010 05:33:12 +0000 (UTC)
+
+------------------------------------------------------------------------
+The Debian Project                                http://www.debian.org/
+New archive snapshot service available                  press@debian.org
+April 12th, 2010                http://www.debian.org/News/2010/20100412
+------------------------------------------------------------------------
+
+New archive snapshot service available
+
+The Debian project is proud to announce a new service, available at
+http://snapshot.debian.org/, a wayback machine that allows access to
+old packages based on dates and version numbers.
+
+The ability to install packages and view source code from any given
+date can be very helpful to developers and users alike. It provides a
+valuable resource for tracking down when regressions were introduced,
+or for providing a specific environment that a particular application
+may require to run. The snapshot archive is accessible like any normal
+apt repository, allowing it to be easily used by all.
+
+The snapshot service also enables administrators to install a
+predictable, tested set of packages by using a view of the archive on a
+given date.  This feature allows administrators to test an upgrade path
+in a staging environment and then repeat the procedure in their
+production environment with assurance that they are performing exactly
+the tested upgrade. As the snapshot covers the entire archive and all
+suites this can be applied to environments that wish to track testing
+in a controlled manner as well as those with more stringent change
+control who wish to fully audit all stable updates before rolling them
+out.
+
+The archive currently holds almost all[1] packages from the main and
+security archives since March 2005, as well as selected additional
+archives like debian-volatile, debian-ports and backports.org. This new
+service currently holds about 6.5 terabytes of data and will grow
+constantly.
+
+Hosting of the snapshot service is provided by the Electrical and
+Computer Engineering department of the University of British
+Columbia[2] and the Wellcome Trust Sanger Institute[3].  Additional
+needed hardware was provided by Nordic Gaming[4]. Initial data was
+provided by the Debian ftp-master team as well as Fumitoshi Ukai.
+
+
+About Debian
+------------
+
+Debian GNU/Linux is a free operating system, developed by more than a
+thousand volunteers from all over the world who collaborate via the
+Internet. Debian's dedication to Free Software, its non-profit nature,
+and its open development model make it unique among GNU/Linux
+distributions.
+
+The Debian project's key strengths are its volunteer base, its
+dedication to the Debian Social Contract, and its commitment to provide
+the best operating system possible.
+
+Contact Information: For further information, please visit the Debian
+web pages at http://www.debian.org/ or send mail to <press@debian.org>.
+
+  [1]: Some packages have been removed due to license issues since they
+       were first shipped.
+  [2]: http://www.ece.ubc.ca/
+  [3]: http://www.sanger.ac.uk/
+  [4]: http://www.nordicgaming.com/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412050752.GA27740@melusine.alphascorpii.net
+
+

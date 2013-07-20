@@ -1,0 +1,49 @@
+Re: New Sequences Window    Date:        Wed, 28 Aug 2002 09:22:34 -0500
+    From:        Chris Garrigues <cwg-dated-1030976555.34ad5b@DeepEddy.Com>
+    Message-ID:  <1030544555.28815.TMDA@deepeddy.vircio.com>
+
+
+  | so I'll probably poke around at the sequences performance issues,
+
+Well, there's this wonderful piece of code in MhSeqExpand ...
+
+    # Hack to weed out sequence numbers for messages that don't exist
+    foreach m $rseq {
+        if ![file exists $mhProfile(path)/$folder/$m] {
+            Exmh_Debug $mhProfile(path)/$folder/$m not found
+            set ix [lsearch $seq $m]
+            set seq [lreplace $seq $ix $ix]
+        } else {
+            # Real hack
+            break
+        }
+    }
+
+which is going to run slow if a sequence happens to start with a bunch
+of messages that don't exist.   I'm not sure why it is important that the
+first message in the sequence returned exists, but not necessarily any
+of the others, but I'm sure glad it is, as MhSeqExpand gets called lots,
+and I don't know if I could cope if it were checking every file in the
+sequences it is looking at, all the time...
+
+It may help to keep a list of the valid message numbers for the current
+folder (though that would then need to be verified against changes to the
+directory).   Does tcl have a directory read function?   I assume so...
+
+Mh_Sequence also goes and rereads the files (.mh_sequences and the
+context file) but I'm not sure how frequently that one is called.
+
+  | I'll email anything I figure out since I'm leaving town in less 
+  | than 48 hours.
+
+Have a good vacation.
+
+kre
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

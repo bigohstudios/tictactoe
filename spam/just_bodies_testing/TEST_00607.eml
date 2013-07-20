@@ -1,0 +1,41 @@
+Re: executable won't executeOn Sat, May 15, 2010 at 4:15 PM, Sven Joachim <svenjoac@gmx.de> wrote:
+> On 2010-05-15 11:04 +0200, Jan C. Nordholz wrote:
+>
+>>> [readelf output]
+>>>
+>>> ELF Header:
+>>> [...]
+>>
+>>> =C2=A0INTERP =C2=A0 =C2=A0 =C2=A0 =C2=A0 0x000114 0x08048114 0x08048114=
+ 0x00011 0x00011 R =C2=A0 0x1
+>>> =C2=A0 =C2=A0 =C2=A0[Requesting program interpreter: /lib/ld-lsb.so.3]
+>>
+>> That dynamic linker doesn't look right. A little googling shows that
+>> Redhat and Suse seem to be using that one now. A missing linker is,
+>> by the way, the only other reason for execve() to return ENOENT ("file
+>> not found") I know of - missing dependencies produce a different error.
+>>
+>> Anyway, Debian still has /lib/ld-linux.so.2 - you could try symlinking
+>> them, but I doubt it will work.
+>
+> Why not? =C2=A0Do you think that Redhat and Suse do something else? =C2=
+=A0Anyway,
+> this symlink should be in the lsb-core package; it was added in 3.0.6
+> (see #326609=C5=A1) but seems to have gone AWOL since then.
+>
+> Sven
+>
+>
+> =C5=A1 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D326609
+
+So, it's a bug in lsb-core package?
+
+Alexey
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikipjZpNoT5TLovlA0y6bgxInL4djUTrznkkDVy@mail.csmining.org
+
+

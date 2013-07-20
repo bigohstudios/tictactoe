@@ -1,0 +1,35 @@
+[ILUG] Cobalt question Try this little problem on for size:
+
+ I've installed Redhat 7.3 on a raq3's disk. But fscked if I can get the
+kernel in /boot/vmlinuz-2.4.18-3 to boot. It's insisting pulling the
+kernel from ... somewhere else. The old cobalt kernel.
+
+ I've booted the disk with a redhat rescue CD, and installed grub on the
+MBR and hda1 & hda2 (just in case). No luck. The cobalt BIOS says "Booting
+default method - From disk".
+
+ Any ideas how I can get this thing to boot *my* kernel ? Anyone care to
+guess how the cobalt boot process ? Google seems very quiet on the
+subject of the cobalt boot process, and what is there doesn't seem to
+work. Simple stuff like:
+
+ (how to boot a different kernel)
+ http://list.cobalt.com/pipermail/cobalt-developers/1999-December/022014.html
+
+ And, on boot:
+
+Cobalt:Main Menu> bfd /boot/vmlinuz-2.4.18-3
+First stage kernel: Decompressing - done
+Second stage kernel: Decompressing - done
+Linux version 2.2.16C28 (konkers@unicron.cobalt.com)
+
+ Note the descrepancy between what I want to boot, and actually booted.
+
+Kate
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

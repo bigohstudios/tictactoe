@@ -1,0 +1,18 @@
+Re: Compositing two movies> That sample won't compile for me.  There is an error on line 645 of  
+> LiveVideoMixerController.m, the symbol  
+> QTCaptureDeviceAvailableStreamFormatsAttribute is not defined.
+
+just replace the line with
+NSNumber*			availableFormat = 0;
+
+Hope this will help,
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

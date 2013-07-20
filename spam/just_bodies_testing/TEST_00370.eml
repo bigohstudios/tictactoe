@@ -1,0 +1,19 @@
+Re: GNOME crashes when .xsession file is present.From nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Freeman wrote:
+> An empty .xsession file will crash Gnome too. (I remember that debacle.=
+) I
+> can't offer a technical explanation.  Maybe it can be viewed as similar=
+ to
+> initiating two desktops environments simultaneously.
+
+I'm not convinced GNOME is actually involved here. Are you (or the OP)
+logging in via GDM? And if so, what session is specified? if "run
+Xclient script" or similar, then (as others have said) .xsession is
+being invoked as a shell script and GNOME is not being invoked at all.
+Default behaviour for some DMs might be to run .xsession if it exists
+and pick a default if it doesn't.
+
+

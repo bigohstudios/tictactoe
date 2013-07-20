@@ -1,0 +1,25 @@
+Exmh && speed
+lately I've got the feeling that exmh is getting slower and slower. I 
+just decided to check that vs. reality, and yes, speed has left the 
+scene somewhere between the release of 2.5 and now.
+
+I checked on a number of small messages in a big folder (~10000 
+msgs). The delay of the Next button has increased considerably:
+
+2.5-release: 350-450 msec
+latest cvs: 1000-12000 msec
+
+Frankly I think this is getting close to non-acceptable since the 
+user settings hasn't changed.
+
+Anybody have any ideas where performance disappeared?
+
+/Anders
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

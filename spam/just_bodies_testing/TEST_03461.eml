@@ -1,0 +1,33 @@
+Re: Installer partitioner project, dif Debian Ubuntu, lvm, UUID,
+ GPartEd, GRUB, HALOn Tue, 27 Apr 2010 16:10:04 -0500, Boyd Stephen Smith Jr. wrote:
+
+> On Tuesday 27 April 2010 15:32:28 giovanni_re wrote:
+
+(...)
+
+>> Did ubuntu do something unwise with making use of UUIDs, & now they are
+>> backtracking?  Did Debian do any of that?
+> 
+> The Lenny installer defaults to populating /etc/fstab with UUIDs, IIRC. 
+> The Etch installer still just used device names.  UUIDs aren't directly
+> related to HAL, although HAL can make use of them.
+
+Just a side note. 
+
+My Lenny installation defaulted to "/dev/sdax" nomenclature in both, "/
+boot/grub/menu.lst" and "/etc/fstab". 
+
+BTW, I installed GRUB legacy.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.28.11.40.33@csmining.org
+
+

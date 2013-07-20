@@ -1,0 +1,26 @@
+Re: OO.writer can't its file.From nobody Sat Jul 20 14:17:31 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 14 May 2010 03:20:47 Sthu Deus wrote:
+> Good day.
+>=20
+>=20
+> I can not open a file in 'oowriter' by 'edit' user, the program says,
+>  "Write error. The file could not be written." Running from console gives
+>  no additional info. The version is 3.2.0-4.
+>=20
+> ls -l 1.odt
+> returns:
+> -rw-r--r-- 1 edit we 64145 2010-03-29 10:39 1.odt
+>=20
+> Therefore I see that the problem does not lay in permissions.
+
+Whoa, there.  What are the permissions on the directory containing that fil=
+e?
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

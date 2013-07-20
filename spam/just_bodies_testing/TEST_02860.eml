@@ -1,0 +1,45 @@
+Re: [SAtalk] Highest-scoring false positiveAt 3:59 PM +0100 8/22/02, Justin Mason wrote:
+>Justin Shore said:
+>
+>>  I just ran across a false positive that scored 8.6.  The message was
+>>  a solicited ad from Apple.com on educator deals.  I can send a copy
+>>  if anyone wants it.
+>
+>Yes, please do send it on, and I'll add it to the non-spam corpus.
+
+To any particular address?  I checked the lists page but didn't see 
+an address to see a FP to.
+
+>To date, the scores evolved by SpamAssassin are very biased towards
+>non-HTML, non-newsletter-ish mail.  This release should be different, as
+>I've been spending the last month signing up a "nonspamtrap" to every
+>legit newsletter I can find ;)
+
+That's understandable.  HTML mail is the worst thing since female 
+shoe sales at the mall. ;-)  Signup for the cruisercustomizing.com 
+newsletter.  Great place to find and review motorcycle parts. :)
+
+>This should mean that tests which match common-enough newsletter practices
+>will no longer get such high scores once we re-run the GA.
+
+Sound pretty slick.  If I come across any more legit newsletters, 
+I'll send them your way.
+
+Thanks for the info
+  Justin
+-- 
+
+--
+Justin Shore, ES-SS ES-SSR                Pittsburg State University
+Network & Systems Manager                 http://www.pittstate.edu/ois/
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

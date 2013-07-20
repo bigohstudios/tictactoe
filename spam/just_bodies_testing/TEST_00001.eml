@@ -1,0 +1,38 @@
+Re: Linux Zimbra front ends - was Re: Kde 3.5 ... (Maybe OT)On Fri, 2010-05-07 at 06:46 +0300, Andrei Popescu wrote:
+> On Thu,06.May.10, 22:36:43, John A. Sullivan III wrote:
+>  
+> > For a web client, it is outstanding, but it still has serious
+> > limitations to be an Outlook replacement and we are looking to replace
+> > many thousands of Outlook installations with this project.  We need to
+> > offer them a near replacement.  A web client is too slow and awkward for
+> > the heavy use we are seeing.  Thanks, though - John
+> > 
+> > PS - I hope you don't mind the change of subject but I didn't want to
+> > hijack the thread - John
+> 
+> Hello,
+> 
+> If at all possible it would be very nice to have at least a blog post 
+> about this migration as I'm guessing Outlook + Exchange is still a show 
+> stopper for many corporates to switching to FLOSS.
+> 
+> Regards,
+> Andrei
+Yes, as someone who has promoted casual use of Linux desktops for a
+decade, it has been a major disappointment to see the mail struggles in
+our first major foray into business desktop replacement.  Replacing
+Exchange has not been a problem but replacing Outlook has been.
+Honestly, the blame does not lie all in one place.  It is the
+interaction between the client solutions (Kontact/Evolution) and the
+Exchange replacement (Zimbra in our case).  I'm hoping we do not need to
+replace Zimbra with something else that interacts better as we really do
+like Zimbra and think the recent VMWare acquisition will make it even
+better.  Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273243821.17252.4.camel@Family.pacifera.com
+
+

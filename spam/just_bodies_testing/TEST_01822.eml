@@ -1,0 +1,34 @@
+Re: sylpheed-clawsOn Mon, 23 Sep 2002 17:41:20 +0200
+Matthias Saou <matthias@egwn.net> wrote:
+
+# So did my build if the original source is what you were mentioning
+# ;-) One drawback : They changed from pspell to aspell apparently,
+# and it requires aspell >= 0.50 which isn't even in Rawhide, so spell
+# checking is disabled for now until I take a decision about it :-/
+
+OOps, I didn't see the webpage get updated.  I saw the new claws, and
+checked your site, forgot about it for half a day and then posted
+here.  You beat me once again! 
+
+# If I build recent aspell packages, they may not be upgraded when
+# ungrating to the next Red Hat Linux release (the final version of
+# the limbos and(null) betas), which is maybe not really desired. I'll
+# probably test and see...
+
+Oh yeah, I was following this thread in the sylpheed-claws list.  Very
+interesting stuff.  I might have to stick w/ 0.8.2 until aspell gets
+updated in Red Hat.
+
+-- 
+Jesse Keating
+j2Solutions.net
+Mondo DevTeam (www.mondorescue.org)
+
+Was I helpful?  Let others know:
+ http://svcs.affero.net/rm.php?r=jkeating
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

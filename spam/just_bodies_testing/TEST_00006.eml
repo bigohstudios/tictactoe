@@ -1,0 +1,24 @@
+Re: [ILUG] RH7.3 on Cobalt - the saga continuesOn Tue, Aug 13, 2002 at 09:53:55AM +0100, Damian O' Sullivan mentioned:
+> >  Curiously, when I go into the boot prom, an use
+> >  "set_params" I can tell it to mount /dev/hda2 as root. But 
+> > then it uses the PROM copy of the kernel (dodgy 2.2.16 
+> > kernel), which doesn't know ext3, so wants to fsck up my disk.
+> Boot prom on a cobalt? Is this an old mips based one? How did you get to it?
+
+ This is actually a raq3. Though, I do have an old raq2 that Liam was
+helping me get netbsd on (about all you'll get on a 16MB machine these
+days).
+
+ Anyway, I wussed out, and copied hda1:/ to hda2:/boot and set the bootfs
+to be hda2. It worked, though it's mounting an ext3fs as ext2. But I'm
+getting there.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

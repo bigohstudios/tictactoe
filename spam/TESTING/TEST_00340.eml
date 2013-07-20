@@ -1,0 +1,91 @@
+X-Account-Key: account5
+X-UIDL: GmailId128812fc43ea53da
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs590082wfb;
+        Mon, 10 May 2010 00:48:32 -0700 (PDT)
+Received: by 10.223.24.85 with SMTP id u21mr3932536fab.8.1273477711321;
+        Mon, 10 May 2010 00:48:31 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si7753115fah.47.2010.05.10.00.48.30;
+        Mon, 10 May 2010 00:48:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@yahoo.es
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 494162D0C8E; Mon, 10 May 2010 07:48:21 +0000 (UTC)
+Old-Return-Path: <adiazsanchez@yahoo.es>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D497B2D0C9F
+	for <lists-debian-user@liszt.debian.org>; Mon, 10 May 2010 07:48:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.01 tagged_above=-10000 required=5.3
+	tests=[BAYES_40=-0.01, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id KN5+QAWnjgf9 for <lists-debian-user@liszt.debian.org>;
+	Mon, 10 May 2010 07:48:08 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .yahoo. - helo: .web28413.mail.ukl.yahoo. - helo-domain: .yahoo.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_ABUSE_RFCI=0.1; rate: -6.9
+Received: from web28413.mail.ukl.yahoo.com (web28413.mail.ukl.yahoo.com [87.248.110.162])
+	by liszt.debian.org (Postfix) with SMTP id A30472D0C8E
+	for <debian-user@lists.debian.org>; Mon, 10 May 2010 07:48:02 +0000 (UTC)
+Received: (qmail 29423 invoked by uid 60001); 10 May 2010 07:47:54 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.es; s=s1024; t=1273477674; bh=1T/l+t2Z/v1THQjh6OkFgIXyKQOfZFVK5xZG8Y0tVe0=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type:Content-Transfer-Encoding; b=Nq+SgZvI3wnKCyRUK6KuuJv91GdNOa69kpk2C9IpNvSUg3fVyYqmpyOw8y+wk0aSTP9Uc8Pol1Jk0C3r+SSoBsM+YiXpc3pjhAc28MmbeN28UmgucZvkgeJycgLtrmuzajOau3/kYqquCj5GBmP1wSliVSlHsDqT0qKAkc1pGpQ=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.es;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type:Content-Transfer-Encoding;
+  b=kn/tQWvAgP7v+8EwELk8MZQdpLw8S6YhOTWFMDpjEIMhC+0dvepXZ9iYRJ+PyQlB1pvVQbpo08RLxXpdYnRxr8rWVKznZ1/7lksImUt/ZxDblsbkNKOn/0/9f4dqYEgww3R/HCnWxiwQqyDFkHASA93ZHFpA8vtWQwUud4H8LOI=;
+Message-ID: <742952.29317.qm@web28413.mail.ukl.yahoo.com>
+X-YMail-OSG: mBh8x2UVM1lHiwzXP3uz0pCo9qJd._sCGvOStTsoPRN7rw1
+ 5B7r4HfVWiMjwWQ2sNJeuK23csEIR.n.cg.zuDtFWBiKT3n_Y7dbo9UCaF7X
+ ilcKuLsSDu3wQKOWb7wDUW35B5EvPgY6lRSvOhbNJeaXQeDT332jNzfmZwpD
+ 0l0q.X4tJlA2XyjMBbEyevWpgmmsuWcBi83Zp
+Received: from [62.174.94.133] by web28413.mail.ukl.yahoo.com via HTTP; Mon, 10 May 2010 07:47:54 GMT
+X-Mailer: YahooMailClassic/11.0.8 YahooMailWebService/0.8.103.269680
+Date: Mon, 10 May 2010 07:47:54 +0000 (GMT)
+From: Antonio Diaz Sanchez <adiazsanchez@yahoo.es>
+Subject: kde4: crash after login
+To: debian-user@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <AXTjN-iy5cP.A.mnE.Fp75LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576360
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 07:48:21 +0000 (UTC)
+
+=0A Hi,=0A=0A I am using Debian Sid. After doing the login (by using either=
+ KDM or GDM) KDE seems to crash, and the only thing I can see is the mouse =
+pointer over a black screen.=0A=0A I have looked for some information in th=
+e logs but I have not found anything significant. In the syslog is written =
+down the following line but I am not sure whether this is important:=0A=0A"=
+Cannot load /usr/share/apps/kdm/faces/.default.face: No such file or direct=
+ory"=0A=0A What can I do to find out what is happening? (this is frustratin=
+g)=0A=0A Regards,=0A=0A=0A      
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/742952.29317.qm@web28413.mail.ukl.yahoo.com
+
+

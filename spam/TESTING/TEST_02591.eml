@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e49342d299963
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs56175wfi;
+        Fri, 9 Apr 2010 14:56:49 -0700 (PDT)
+Received: by 10.223.56.212 with SMTP id z20mr601726fag.56.1270850208480;
+        Fri, 09 Apr 2010 14:56:48 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 27si4258764fxm.54.2010.04.09.14.56.47;
+        Fri, 09 Apr 2010 14:56:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D322713A6759; Fri,  9 Apr 2010 21:56:42 +0000 (UTC)
+Old-Return-Path: <nunomagalhaes@eu.ipp.pt>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8343313A6752
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 21:56:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id qp7dA0LjGo3M for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 21:56:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from mail-bw0-f210.google.com (mail-bw0-f210.google.com [209.85.218.210])
+	by liszt.debian.org (Postfix) with ESMTP id 5F55B13A615A
+	for <Debian-User@lists.debian.org>; Fri,  9 Apr 2010 21:56:23 +0000 (UTC)
+Received: by bwz2 with SMTP id 2so2808773bwz.30
+        for <Debian-User@lists.debian.org>; Fri, 09 Apr 2010 14:56:16 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.204.32.197 with HTTP; Fri, 9 Apr 2010 14:55:56 -0700 (PDT)
+In-Reply-To: <4BBF9F3F.1040303@hardwarefreak.com>
+References: <1280705063.2050161270780727932.JavaMail.root@md01.wow.synacor.com> 
+	<4BBF9F3F.1040303@hardwarefreak.com>
+From: =?UTF-8?Q?Nuno_Magalh=C3=A3es?= <nunomagalhaes@eu.ipp.pt>
+Date: Fri, 9 Apr 2010 22:55:56 +0100
+Received: by 10.204.6.210 with SMTP id a18mr700455bka.136.1270850176204; Fri, 
+	09 Apr 2010 14:56:16 -0700 (PDT)
+Message-ID: <p2g6b1504c41004091455h89a1613ai496ca9219c6064e0@mail.csmining.org>
+Subject: Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with a 
+	different version name)
+To: debian-user <Debian-User@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <JjVFlAtwQyP.A.5PD.aK6vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573748
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 21:56:42 +0000 (UTC)
+
+On Fri, Apr 9, 2010 at 22:42, Stan Hoeppner <stan@hardwarefreak.com> wrote:
+
+> This is exactly the reason I chose Debian 10 years ago when I was looking
+> for my first Linux distro. =C2=A0I told a friend I wanted a server distro=
+ that
+> wasn't going to spoon feed me, but make me learn something about Linux.
+
+Slackware is usually recommended for this. Or you you wanna learn the
+very basics, LFS and derivates.
+
+--=20
+()  ascii-rubanda kampajno - kontra=C5=AD html-a retpo=C5=9Dto
+/\  ascii ribbon campaign - against html e-mail
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/p2g6b1504c41004091455h89a1613ai496ca9219c6064e0@mail.csmining.org
+
+

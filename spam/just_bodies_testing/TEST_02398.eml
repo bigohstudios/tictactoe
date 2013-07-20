@@ -1,0 +1,33 @@
+Re: Umont ownership?On Tue, 06 Apr 2010 11:41:52 -0400, Stephen Powell wrote:
+
+> On Tue, 6 Apr 2010 10:23:16 -0400 (EDT), Camaleón wrote:
+ 
+>> Seems to be working here for my plain user.
+> 
+
+(...)
+
+> But here's what I *do* know.  The root user can issue mount or umount
+> commands for any file system or mount point.  A non-root user *may* be
+> able to mount *some* file systems and *some* mount points depending on
+> what is specified in /etc/fstab.  Here is an excerpt from the man page
+> for mount:
+
+The fact is that in my "/etc/fstab" there is no entry for "udev" devices 
+(i.e., USB flash drives) unless I manually add them. 
+
+So I think these kind of devices are dynamically detected and mounted as 
+soon as they get detected.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.06.16.30.28@csmining.org
+
+

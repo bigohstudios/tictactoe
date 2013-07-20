@@ -1,0 +1,23 @@
+Re: How do I get the mbr package to do its job quietly?On Thursday 08 April 2010 10:38:11 pm Stephen Powell wrote:
+> On Wed, 7 Apr 2010 14:10:49 -0400 (EDT), Gerald wrote:
+> > Stephen, How about MBRWORK.
+> > This little program runs from a floppy or pehaps fron a CD.
+> > I have found it very useful
+> 
+> Gerald, you replied to me personally instead of the list.
+> Please reply to the list.
+> 
+> There is no Debian package that I could find called mbrwork.
+> I even did an "apt-cache search mbrwork" and got no hits.
+Sorry for that,
+MBRWORK is a stand alone package.
+A Google search should find it.
+Gerald
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004090646.49565.gcsgcatling@bigpond.com
+
+

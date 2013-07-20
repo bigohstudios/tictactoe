@@ -1,0 +1,20 @@
+Re: alsa-driver.spec tweak for homemade kernelsFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+On Wed, Oct 02, 2002 at 10:09:19AM +0200, Matthias Saou wrote:
+> Well, I don't really find it consistent at all to use an rpm package built
+> against something that wasn't installed through rpm :-/
+
+Following that reasoning, I've been installing all my custom-built
+kernels through rpm recently. I find it annoying, though, that 
+alsa-kernel, and similar packages, will only build for the currently 
+running kernel.
+
+So I've attached a patch to specify an alternate kernel by setting the
+"TARGET_KERNEL" environment variable before running rpmbuild. You
+still need to have the rpm for the specified kernel installed, but at
+least it doesn't have to be currently running. It's kinda hackish, so
+if someone has a better way to do this, let me know.
+
+gary

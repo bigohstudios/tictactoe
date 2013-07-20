@@ -1,0 +1,108 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289b3573c95028a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs72589wfo;
+        Sat, 15 May 2010 02:04:52 -0700 (PDT)
+Received: by 10.223.35.12 with SMTP id n12mr2880261fad.35.1273914291089;
+        Sat, 15 May 2010 02:04:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si7571575fah.37.2010.05.15.02.04.50;
+        Sat, 15 May 2010 02:04:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E1D0913A5A4F; Sat, 15 May 2010 09:04:42 +0000 (UTC)
+Old-Return-Path: <jckn@gmx.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EB83013A43A3
+	for <lists-debian-user@liszt.debian.org>; Sat, 15 May 2010 09:04:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id HBuPSHCxTXz0 for <lists-debian-user@liszt.debian.org>;
+	Sat, 15 May 2010 09:04:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by liszt.debian.org (Postfix) with SMTP id BB72913A583D
+	for <debian-user@lists.debian.org>; Sat, 15 May 2010 09:04:29 +0000 (UTC)
+Received: (qmail invoked by alias); 15 May 2010 09:04:27 -0000
+Received: from g231218116.adsl.alicedsl.de (EHLO apocatequil) [92.231.218.116]
+  by mail.gmx.net (mp007) with SMTP; 15 May 2010 11:04:27 +0200
+X-Authenticated: #6819316
+X-Provags-ID: V01U2FsdGVkX19lkro7dmhliirNfvQxAfxCJ35CD9KDyxdcdLzCsH
+	2bMCMkVMCDA4fw
+Received: from jcn by apocatequil with local (Exim 4.71)
+	(envelope-from <jckn@gmx.net>)
+	id 1ODDIH-0000wD-Qv
+	for debian-user@lists.debian.org; Sat, 15 May 2010 11:04:25 +0200
+Date: Sat, 15 May 2010 11:04:25 +0200
+From: "Jan C. Nordholz" <jckn@gmx.net>
+To: debian-user@lists.debian.org
+Subject: Re: executable won't execute
+Message-ID: <20100515090425.GA3589@apocatequil>
+References: <4BEC9B19.5060001@acu.edu>
+ <4BEDADA7.8090908@acu.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BEDADA7.8090908@acu.edu>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Y-GMX-Trusted: 0
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <l_Ut2tDazuC.A.DVC.qOm7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576895
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 15 May 2010 09:04:42 +0000 (UTC)
+
+Hi,
+
+> [readelf output]
+> 
+> ELF Header:
+> [...]
+
+>  INTERP         0x000114 0x08048114 0x08048114 0x00011 0x00011 R   0x1
+>      [Requesting program interpreter: /lib/ld-lsb.so.3]
+
+That dynamic linker doesn't look right. A little googling shows that
+Redhat and Suse seem to be using that one now. A missing linker is,
+by the way, the only other reason for execve() to return ENOENT ("file
+not found") I know of - missing dependencies produce a different error.
+
+Anyway, Debian still has /lib/ld-linux.so.2 - you could try symlinking
+them, but I doubt it will work.
+
+
+Regards,
+
+Jan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100515090425.GA3589@apocatequil
+
+

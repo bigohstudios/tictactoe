@@ -1,0 +1,24 @@
+Re: Google repositoriesOn Mon, Apr 12, 2010 at 1:34 PM, Christopher Judd <judd@wadsworth.org> wrot=
+e:
+> Hi,
+>
+> =A0 =A0 I was trying to install Google-earth, but was not successful. =A0=
+Have the
+> Google repositories moved, or been discontinued?
+>
+> -Chris
+>
+
+The package googleearth-package appears to be in contrib. Have you
+enabled contrib in your sources?
+
+--=20
+Jordan Metzmeier
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2h50e5edd51004121041y52be1f81zb3dc15911ec32854@mail.csmining.org
+
+

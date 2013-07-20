@@ -1,0 +1,158 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283a3c931168959
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs85071wfj;
+        Mon, 26 Apr 2010 06:09:29 -0700 (PDT)
+Received: by 10.87.67.13 with SMTP id u13mr2061997fgk.66.1272287367866;
+        Mon, 26 Apr 2010 06:09:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si3827141fks.12.2010.04.26.06.09.27;
+        Mon, 26 Apr 2010 06:09:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0C6E813A53A2; Mon, 26 Apr 2010 13:09:08 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_WRONG_WORD2 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 06A0413A4DC0
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 13:09:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD2=0.2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id uAbQmiupDblY for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 13:08:54 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id E15DA13A4B20
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 13:08:54 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O6O3O-0001lN-HR
+	for debian-user@lists.debian.org; Mon, 26 Apr 2010 15:08:50 +0200
+Received: from p5dceb14f.dip.t-dialin.net ([93.206.177.79])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 15:08:50 +0200
+Received: from felix.natter by p5dceb14f.dip.t-dialin.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 15:08:50 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Felix Natter <felix.natter@smail.inf.fh-brs.de>
+Subject: Re: Suspend to Disk + blacklisted module = still trouble
+Date: Mon, 26 Apr 2010 15:09:36 +0200
+Lines: 64
+Message-ID: <8739yitl67.fsf@smail.inf.fh-brs.de>
+References: <87d3xrd8hu.fsf@smail.inf.fh-brs.de>
+	<pan.2010.04.23.14.54.02@csmining.org> <87och81yzs.fsf@smail.inf.fh-brs.de>
+	<pan.2010.04.24.19.10.17@csmining.org> <87aassvbtc.fsf@smail.inf.fh-brs.de>
+	<87zl0rwjga.fsf@smail.inf.fh-brs.de> <pan.2010.04.25.17.55.01@csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: p5dceb14f.dip.t-dialin.net
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.1 (gnu/linux)
+Cancel-Lock: sha1:EMjSWk6nQOz3wIAm+Uv6lojDezY=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <I4ikkTUOe4D.A.90E.0BZ1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575113
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 13:09:08 +0000 (UTC)
+
+Camaleón <noelamac@csmining.org> writes:
+
+> On Sun, 25 Apr 2010 19:06:13 +0200, Felix Natter wrote:
+>
+>> Felix Natter writes:
+>> 
+>>> so verbosity 1 should output something, but I will try 4.
+>> 
+>> Changing verbosity didn't help, I still have no hibernate.log anywhere
+>> in /var.
+
+hello Camaleon,
+
+> So you changed "Verbosity 4" and "LogVerbosity 4" but still nothing in "/
+> var/log/hibernate.log"? Strange... as soon as the system is called to 
+> hibernate, it should start filling that file.
+>
+> BTW, how do you call the hibernation state? You should type "hibernation" 
+> in a text console (gnome-terminal, xterm, konsole...).
+
+That was it: I used the GNOME shutdown dialog: I thought it would call
+hibernate?
+
+When I use hibernate, I get this log:
+
+Starting suspend at Mo 26. Apr 09:00:05 CEST 2010
+hibernate: [01] Executing CheckLastResume ... 
+hibernate: [01] Executing CheckRunlevel ... 
+hibernate: [01] Executing LockFileGet ... 
+hibernate: [01] Executing NewKernelFileCheck ... 
+hibernate: [10] Executing EnsureSysfsPowerStateCapable ... 
+hibernate: [11] Executing XHacksSuspendHook1 ... 
+hibernate: [59] Executing RemountXFSBootRO ... 
+hibernate: [89] Executing SaveKernelModprobe ... 
+hibernate: [91] Executing ModulesUnloadBlacklist ... 
+Unloading blacklisted modules listed /etc/hibernate/blacklisted-modules
+Unloading blacklisted module uvcvideo (and dependencies)
+hibernate: [91] Executing ModulesUnloadBlacklist ... 
+Unloading blacklisted modules listed /etc/hibernate/blacklisted-modules
+hibernate: [95] Executing XHacksSuspendHook2 ... 
+hibernate: [98] Executing CheckRunlevel ... 
+hibernate: [99] Executing DoSysfsPowerStateSuspend ... 
+hibernate: Activating sysfs power state disk ...
+hibernate: [90] Executing ModulesLoad ... 
+Loading module uvcvideo (from auto)...
+Loading module uvcvideo (from auto)...
+hibernate: [89] Executing RestoreKernelModprobe ... 
+hibernate: [85] Executing XHacksResumeHook2 ... 
+hibernate: [70] Executing ClockRestore ... 
+hibernate: [70] Executing ClockRestore ... 
+hibernate: [59] Executing RemountXFSBootRW ... 
+hibernate: [11] Executing XHacksResumeHook1 ... 
+hibernate: [01] Executing NoteLastResume ... 
+hibernate: [01] Executing LockFilePut ... 
+Resumed at Mo 26. Apr 14:54:00 CEST 2010
+
+=> so it seems to work. Still I got an error message and hangup
+concerning uvcvideo on resume a few days ago, but unfortunately I don't
+have the error message around.
+
+Thank you for your help! Maybe the problem is fixed by using
+/usr/sbin/hibernate.
+-- 
+Felix Natter
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8739yitl67.fsf@smail.inf.fh-brs.de
+
+

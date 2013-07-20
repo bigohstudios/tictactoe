@@ -1,0 +1,41 @@
+Re: Which remote help solution?On 04/29/2010 11:44 AM, Benedict Verheyen wrote:
+> On 28/04/2010 16:56, Anand Sivaram wrote:
+>> You could do the following.
+>> 1. install ssh server on your friends machine.  Create port forwarding
+>> in their router
+>> Login to their machine as usual using ssh.  To reduce ssh brute force
+>> attack, change the ssh port from 22 to some larger number and use the
+>> corresponding port for router port forwarding.
+>> 2. Install openvpn server on your machine, client on your friends
+>> machine. access your friends machine just a like a local machine.
+>>
+>> First option is the simplest to setup, it gives only ssh access to you.
+>> Second option takes a bit more configuration, but gives you better
+>> security and ease of use after that.
+>>
+>
+> ssh + tightvncserver is also a good possibility.
+> It's easy to setup and tightvnc will be run over the ssh tunnel
+> so it should be safe. They will be able to see what you do.
+>
+> Regards,
+> Benedict
+>
+>
+>
+if you want graphical basically the same kind of solution would be to 
+use FreeNX (free speech) or the Free NX server (free beer)
+
+i've setup FreeNX 2 years ago for a friend and its still up and running, 
+its faster then any other remote desktop kind of connection, never had 
+any stability issues and it works over SSH port 22 with the option to 
+use certificates for security.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD95949.7080000@songshu.org
+
+

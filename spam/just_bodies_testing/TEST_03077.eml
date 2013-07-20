@@ -1,0 +1,44 @@
+Linux Zimbra front ends - was Re: Kde 3.5 ... (Maybe OT)On Fri, 2010-05-07 at 07:43 +0530, Mihira Fernando wrote:
+> On Thu, 06 May 2010 22:08:05 -0400
+> "John A. Sullivan III" <jsullivan@opensourcedevel.com> wrote:
+> 
+> > I even hesitate with testing but we are so desperate to
+> > make Kontact work with Zimbra that we would take a chance - John
+> 
+> Er.. why not use Zimbra's own client ? it available for Linux as well
+> and it works best with Zimbra server.
+> 
+> http://www.zimbra.com/products/desktop_features.html
+> 
+> 
+That was the original plan but we have found it too impacting on
+production for heavy email users.  The inability to email from within an
+application or file browser, the problem of attaching multiple files at
+once (the dragdrop sidebar is neat but still is not the same as
+Outlook/KMail/Evolution), the inability to send a contact as an
+attachment (the email contact zimlet has no ability to select the email
+addresses of the addressees - users were literally writing down the
+destinations on paper, using the zimlet, and then typing the addresses
+to try and use it), and the fact that the dialogs sometimes extend off
+the screen for users with very low resolutions (and in some cases no
+ability to alt-drag) are all showstoppers.  The lack of alarm popups
+outside the browser, email notifications outside the browser, and an
+awkward phone number ordering in contacts (FAX numbers are listed before
+regular phone numbers) add to the dissatisfaction.
+
+For a web client, it is outstanding, but it still has serious
+limitations to be an Outlook replacement and we are looking to replace
+many thousands of Outlook installations with this project.  We need to
+offer them a near replacement.  A web client is too slow and awkward for
+the heavy use we are seeing.  Thanks, though - John
+
+PS - I hope you don't mind the change of subject but I didn't want to
+hijack the thread - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273199803.21138.40.camel@Family.pacifera.com
+
+

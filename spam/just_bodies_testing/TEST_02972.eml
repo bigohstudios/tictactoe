@@ -1,0 +1,20 @@
+alsaplayer for (null)I spun another AlsaPlayer build, this time on my (null) box. I do not know what this
+means but the Curl stuff compiled in this time.
+
+It's sounding damn cool with the new alsa drivers. Thanks to Matthias for the Alsa
+RPMS. Great job bring sound to the masses.
+
+http://www.dudex.net/rpms/alsaplayer-0.99.71-aap2.i386.rpm
+http://www.dudex.net/rpms/alsaplayer-0.99.71-aap2.i686.rpm
+http://www.dudex.net/rpms/alsaplayer-0.99.71-aap2.src.rpm
+http://www.dudex.net/rpms/alsaplayer-0.99.71.spec
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

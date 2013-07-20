@@ -1,0 +1,50 @@
+Re: bad focus/click behavioursOn Fri Sep 13 2002 at 02:03, Robert Elz wrote:
+
+>     Date:        Wed, 11 Sep 2002 20:15:00 -0700
+>     From:        Brent Welch <welch@panasas.com>
+
+>   | exmh has a funky cut/paste model that is essentially all my fault.
+>   | The middle click sets the insert point.  If you hate that, go to the
+>   | Bindings... Simple Edit preferences window and de-select
+>   | "Paste Sets Insert".
+> 
+> Unfortunately, the side effect of that solution is that it is no longer
+> possible to cut/paste within one sedit window, some intermediate client
+> always must be used (except in the rare case where you want to select
+> some text, and then paste it at the same place).
+
+> So, the vast majority of people probably want that "Paste Sets Insert"
+> enabled - that one you can learn to live with, the other is much more
+> painful.
+
+For a long time I have used an external editor with exmh (gvim).
+
+I can cut'n'paste from exmh's message display window into spawned
+gvim processes, but not into anything else.
+
+This is VERY annoying.
+
+  (I have to look at the message with cat or less or whatever in a
+  terminal window if I want to do this - which is quite often.  And
+  if the message is q-p encoded or a non-text/plain mime type, I end
+  up with all that raw garbage too).
+
+Anyway to fix this?
+
+(BTW: standard i386 redhat7.3)
+
+Thanks.
+
+> kre
+
+Cheers
+Tony
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

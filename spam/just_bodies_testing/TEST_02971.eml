@@ -1,0 +1,25 @@
+Re: Google repositoriesOn Mon, 12 Apr 2010 13:34:30 -0400, Christopher Judd wrote:
+
+>      I was trying to install Google-earth, but was not successful.  Have
+>      the
+> Google repositories moved, or been discontinued?
+
+IIRC, I installed GoogleEarth on 64-bits lenny by downloading from 
+Google's site (.bin file) and having installed some "32lib-compat" 
+packages.
+
+But on that time (6 months ago) I didn't know there were pre-built 
+packages available in Debian repositories :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.12.19.13.06@csmining.org
+
+

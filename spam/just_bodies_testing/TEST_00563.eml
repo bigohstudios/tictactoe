@@ -1,0 +1,24 @@
+PKI smartcard/CA/profile/email/software interoperability, (real) standards, patentsHas anyone had much positive experience with PKI based smartcards, email 
+(S/Mime interoperability), programming to smart cards, etc.?
+
+One area in particular that seems surprising is that a number of 
+projects are using cards like the Datakey 330 which seems to store data 
+in a way that is proprietary to particular card/reader driver versions.
+
+I've been told, on the other hand, that Java PKI smart cards are very 
+interchangable and upward compatible.  The only reasons I've been able 
+to find so far for using the more 'proprietary' cards is that they may 
+be cheaper and further along in FIPS validation.
+
+sdw
+
+-- 
+sdw@lig.net http://sdw.st
+Stephen D. Williams 43392 Wayside Cir,Ashburn,VA 20147-4622
+703-724-0118W 703-995-0407Fax Dec2001
+
+
+
+http://xent.com/mailman/listinfo/fork
+
+

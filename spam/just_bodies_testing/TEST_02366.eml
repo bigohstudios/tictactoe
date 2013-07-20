@@ -1,0 +1,282 @@
+Re: Bluetooth-dev Digest, Vol 7, Issue 13Hello,
+
+Thank you everybody for your input so far. Digging into this code has given me a chance to clean up some ugliness :-) But I keep hitting roadblocks where I really need to interact with the hardware in a nice procedural way. The synchronous behavior of bluetooth requires two-thread synchronization to achieve this. That code works great assuming I have a dedicated bluetooth thread!
+
+Apple stating that two core services, UI and Bluetooth, should exist in and share the runloop in main is terrible.
+
+I am reluctant to offload BT communications to an auxiliary process because of the non-modal user interactions with the IOBluetoothDeviceInquiry, IOBluetoothDevice, and IOBluetoothRFCOMMChannel. 
+
+If anybody knows of sample code out there for creating an aux process that can manage those objects and expose the functions over some kind of IAC, I would love to see it.
+
+And not knowing the internals of the bluetooth framework, I am thinking there has to be a thread-safe way to install and manage the bluetooth runloop input mechanism in a non-main thread. If anybody has any hints on that, that would be the simplest solution.
+
+Cheers,
+Dave
+
+
+On Apr 28, 2010, at 2:01 PM, bluetooth-dev-request@lists.apple.com wrote:
+
+> Send Bluetooth-dev mailing list submissions to
+> 	bluetooth-dev@lists.apple.com
+> 
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	http://lists.apple.com/mailman/listinfo/bluetooth-dev
+> or, via email, send a message with subject or body 'help' to
+> 	bluetooth-dev-request@lists.apple.com
+> 
+> You can reach the person managing the list at
+> 	bluetooth-dev-owner@lists.apple.com
+> 
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Bluetooth-dev digest..."
+> 
+> 
+> Today's Topics:
+> 
+>   1. Re: Bluetooth and runloops in a dedicated thread.
+>      (David Giovannini)
+>   2. Re: Bluetooth and runloops in a dedicated thread. (Dave Keck)
+>   3. Re: Bluetooth and runloops in a dedicated thread. (Zach Rosen)
+>   4. Re: Bluetooth and runloops in a dedicated thread.
+>      (David Giovannini)
+>   5. Re: Bluetooth and runloops in a dedicated thread. (Peter Sichel)
+> 
+> 
+> ----------------------------------------------------------------------
+> 
+> Message: 1
+> Date: Tue, 27 Apr 2010 23:11:33 -0500
+> From: David Giovannini <dsjove@mac.com>
+> Subject: Re: Bluetooth and runloops in a dedicated thread.
+> To: Dave Keck <davekeck@csmining.org>
+> Cc: bluetooth-dev@lists.apple.com
+> Message-ID: <3DABC44C-9128-4F71-80F2-63D24F4E53EC@mac.com>
+> Content-Type: text/plain; charset=us-ascii
+> 
+> Hello,
+> 
+> I knocked all the code down to the single UI thread and I rediscovered why I need multiple threads. My Obj-C objects give KVC semantics to the bluetooth device. A getter is waiting on a thread signal for the arrival of requested data. The requested data will never arrive since the single thread is in a blocked state. I also now have to turn the bluetooth scanner off to open a connection to a discovered device!
+> 
+> I don't see how to do the bluetooth communications in another process be non-trivial. Is there a simple approach to that?
+> 
+> My next factoring will be to but the UI thread into a secondary thread, and let bluetooth own the main. Hopefully that will work.
+> 
+> Dave
+> 
+> 
+> On Apr 27, 2010, at 2:41 AM, Dave Keck wrote:
+> 
+>>> I can easily share a single thread between all bluetooth devices. That will solve any multi-threading issues in the bluetooth services. Bluetooth installs itself as an NSRunLoop source, somehow. IOBluetoothValidateHardware used to do that, and the NSRunLoop had kept on running.
+>> 
+>> I recommend against using the Bluetooth APIs anywhere but the main
+>> thread. There's been some past discussion on this list regarding
+>> thread-safety and IOBluetooth, and it seems the Apple guys suggest
+>> confining Bluetooth calls to the main thread, too. See:
+>> 
+>>   http://lists.apple.com/archives/bluetooth-dev/2007/Sep/msg00003.html
+>>   http://lists.apple.com/archives/bluetooth-dev/2009/Sep/msg00003.html
+>> 
+>> With that said, much of the IOBluetooth APIs are asynchronous,
+>> allowing you to specify a delegate to be notified when a particular
+>> operation is complete. Are you sure you need the Bluetooth calls to
+>> exist in their own thread? If so, spawn a helper process and put the
+>> Bluetooth calls there. This is what I do in my own projects - it works
+>> fine.
+>> 
+>>> I cannot have the BlueTooth library pick a runloop at random. Depending on configuration, this application may have a UI and/or may have a web-service. Bluetooth communications needs to be sandboxed into a designated RunLoop.
+>> 
+>> I'm not sure how a UI/web service/Bluetooth combination makes it
+>> necessary that the Bluetooth calls exist in their own thread; as
+>> mentioned, many of the Bluetooth APIs are non-blocking. If I were
+>> writing this sort of combination program, I would either:
+>> 
+>>   1. put the UI/Bluetooth stuff in the main thread, and the web
+>> service stuff in a separate thread, or
+>>   2. put the UI stuff in the main thread, Bluetooth stuff in a
+>> separate helper process, and the web service stuff in a separate
+>> thread.
+>> 
+>>> How do I tell the Bluetooth library to install itself as a source on a specific runloop of a specific thread? If I need to start that thread in main, I'll do it!
+>> 
+>> Based on the links above, "make sure you do ALL Bluetooth related
+>> activities on the first thread from which you call anything in the
+>> Bluetooth stack." I think Jason would agree though, that that advice
+>> is error-prone and should only be considered a last resort. That
+>> advice was also given 2.5 years ago.
+> 
+> 
+> 
+> ------------------------------
+> 
+> Message: 2
+> Date: Tue, 27 Apr 2010 18:53:08 -1000
+> From: Dave Keck <davekeck@csmining.org>
+> Subject: Re: Bluetooth and runloops in a dedicated thread.
+> To: David Giovannini <dsjove@mac.com>
+> Cc: bluetooth-dev@lists.apple.com
+> Message-ID:
+> 	<n2h360bd19f1004272153w780a6186x7b90d4e66e0ec4be@mail.csmining.org>
+> Content-Type: text/plain; charset=ISO-8859-1
+> 
+>> I knocked all the code down to the single UI thread and I rediscovered why I need multiple threads. My Obj-C objects give KVC semantics to the bluetooth device. A getter is waiting on a thread signal for the arrival of requested data. The requested data will never arrive since the single thread is in a blocked state. I also now have to turn the bluetooth scanner off to open a connection to a discovered device!
+> 
+> I see. Note that if your getter method blocks until the Bluetooth
+> operation is complete, your UI will also be blocked. So if the
+> Bluetooth operation takes too long, you'll get the beachball.
+> 
+> Perhaps your getter could initiate the Bluetooth operation, and in the
+> meantime return a cached object? If a cached object isn't available or
+> you want to update the property's value, return a default value for
+> the property, and initiate a "Loading..." spinner in the UI. Once the
+> current state of the property is available, it updates the property
+> which in turn updates the UI, and hides the loading spinner. For a
+> snappy user experience, I'd try to avoid blocking in a getter method.
+> 
+>> I don't see how to do the bluetooth communications in another process be non-trivial. Is there a simple approach to that?
+> 
+> I implemented a simple custom protocol over Unix pipes, allowing the
+> parent to direct the child in performing some simple Bluetooth
+> operations. It certainly wasn't fun to implement, but from what you've
+> said so far, I think handling the Bluetooth operations in the same
+> process will work fine in your case if you structure it right.
+> 
+>> My next factoring will be to but the UI thread into a secondary thread, and let bluetooth own the main. Hopefully that will work.
+> 
+> I hate the be the bearer of bad news, but UI code generally needs to
+> remain on the main thread, too. See:
+> 
+>    http://developer.apple.com/mac/library/documentation/cocoa/Conceptual/Multithreading/ThreadSafetySummary/ThreadSafetySummary.html
+> 
+> 
+> ------------------------------
+> 
+> Message: 3
+> Date: Tue, 27 Apr 2010 22:42:53 -0700
+> From: Zach Rosen <zrosen@mirasoftware.com>
+> Subject: Re: Bluetooth and runloops in a dedicated thread.
+> To: bluetooth-dev@lists.apple.com
+> Message-ID: <4EA351E2-1C29-4855-BBE1-5B2B9F9BAFD7@mirasoftware.com>
+> Content-Type: text/plain; charset=us-ascii
+> 
+>>> 
+>>> I don't see how to do the bluetooth communications in another process be non-trivial. Is there a simple approach to that?
+>> 
+>> I implemented a simple custom protocol over Unix pipes, allowing the
+>> parent to direct the child in performing some simple Bluetooth
+>> operations. It certainly wasn't fun to implement, but from what you've
+>> said so far, I think handling the Bluetooth operations in the same
+>> process will work fine in your case if you structure it right.
+> 
+> Instead of pipes, you could use an NSDistributedObject to communicate with your Bluetooth process.
+> In fact, I think this may be how the Bluetooth framework communicates with "blued".
+> 
+> 
+> 
+> 
+> ------------------------------
+> 
+> Message: 4
+> Date: Wed, 28 Apr 2010 07:28:09 -0500
+> From: David Giovannini <dsjove@mac.com>
+> Subject: Re: Bluetooth and runloops in a dedicated thread.
+> To: Dave Keck <davekeck@csmining.org>
+> Cc: bluetooth-dev@lists.apple.com
+> Message-ID: <77C8095D-FE94-4075-BAA9-0842674FE98E@mac.com>
+> Content-Type: text/plain; charset=us-ascii
+> 
+> 
+> On Apr 27, 2010, at 11:53 PM, Dave Keck wrote:
+> 
+>>> I knocked all the code down to the single UI thread and I rediscovered why I need multiple threads. My Obj-C objects give KVC semantics to the bluetooth device. A getter is waiting on a thread signal for the arrival of requested data. The requested data will never arrive since the single thread is in a blocked state. I also now have to turn the bluetooth scanner off to open a connection to a discovered device!
+>> 
+>> I see. Note that if your getter method blocks until the Bluetooth
+>> operation is complete, your UI will also be blocked. So if the
+>> Bluetooth operation takes too long, you'll get the beachball.
+> 
+> The beach always happens because the thread to receive the bluetooth data can never receive the data under the single thread model. That is why I went multi-thread.
+> 
+>> 
+>> Perhaps your getter could initiate the Bluetooth operation, and in the
+>> meantime return a cached object? If a cached object isn't available or
+>> you want to update the property's value, return a default value for
+>> the property, and initiate a "Loading..." spinner in the UI. Once the
+>> current state of the property is available, it updates the property
+>> which in turn updates the UI, and hides the loading spinner. For a
+>> snappy user experience, I'd try to avoid blocking in a getter method.
+> 
+> I cannot block at all. But sending a redundant KVC property broadcast on incoming data may work. I already have logic to not broadcast the change if there really was none.
+> 
+> So then all calls become synchronous. A property setter or getter becomes a request (cached value is returned in the current stack) and the real property change happens sometime in the future.
+> 
+>> 
+>>> I don't see how to do the bluetooth communications in another process be non-trivial. Is there a simple approach to that?
+>> 
+>> I implemented a simple custom protocol over Unix pipes, allowing the
+>> parent to direct the child in performing some simple Bluetooth
+>> operations. It certainly wasn't fun to implement, but from what you've
+>> said so far, I think handling the Bluetooth operations in the same
+>> process will work fine in your case if you structure it right.
+> 
+> Reading Apple's docs you linked pretty much says, "all our services only work in the main thread." That is a bit of a let down. The change in structure will be how you suggested - real results are not returned in the same call call stack.
+> 
+> There doesn't seem to be a way for the bluetooth scan and a bluetooth connection to work simultaneously. That is not a big deal, just forces the user into more of a modal workflow.
+> 
+>> 
+>>> My next factoring will be to but the UI thread into a secondary thread, and let bluetooth own the main. Hopefully that will work.
+>> 
+>> I hate the be the bearer of bad news, but UI code generally needs to
+>> remain on the main thread, too. See:
+>> 
+>>   http://developer.apple.com/mac/library/documentation/cocoa/Conceptual/Multithreading/ThreadSafetySummary/ThreadSafetySummary.html
+> 
+> Time to restructure the response mechanism...
+> 
+> Thank you,
+> Dave
+> 
+> 
+> 
+> ------------------------------
+> 
+> Message: 5
+> Date: Wed, 28 Apr 2010 08:49:58 -0400
+> From: Peter Sichel <psichel@sustworks.com>
+> Subject: Re: Bluetooth and runloops in a dedicated thread.
+> To: bluetooth-dev@lists.apple.com
+> Message-ID: <AF063AE9-7AAE-4619-B260-09B8B55A24E2@sustworks.com>
+> Content-Type: text/plain; charset=us-ascii
+> 
+> On Apr 28, 2010, at 12:11 AM, David Giovannini wrote:
+> 
+>> I knocked all the code down to the single UI thread and I rediscovered why I need multiple threads. My Obj-C objects give KVC semantics to the bluetooth device.
+> 
+> Is this absolutely necessary?  
+> 
+>> A getter is waiting on a thread signal for the arrival of requested data. 
+> 
+> The Cocoa Bluetooth API was designed to be asynchronous after years of experience and problems with using synchronous APIs for networking.  Trying to translate it back into a synchronous multi-threaded API might be counter productive.
+> 
+> If you really need a synchronous API, the previous Bluetooth APIs might still be available.
+> 
+> - Peter
+> 
+> 
+> 
+> ------------------------------
+> 
+> _______________________________________________
+> Bluetooth-dev mailing list
+> Bluetooth-dev@lists.apple.com
+> http://lists.apple.com/mailman/listinfo/bluetooth-dev
+> 
+> End of Bluetooth-dev Digest, Vol 7, Issue 13
+> ********************************************
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

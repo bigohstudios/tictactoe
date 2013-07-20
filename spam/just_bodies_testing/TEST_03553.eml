@@ -1,0 +1,26 @@
+Aargh! I hate the fglrx driver!From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+I upgraded my machine at work today, and among other things that were
+installed, aptitude upgraded the kernel (linux-image-2.6.32-5-amd64) as well
+as the fglrx packages. I had the 9-11 held, but aptitude upgraded it anyway.
+And with the combination of packages, I was no longer able to roll back to
+9-11...
+
+The reason I had it held in the first place was that any with any of the
+later drivers I was not able to get compiz working again. With the newer
+drivers (including 10-4), my kde panel and terminal windows are solid white,
+sort of a mini-white screen of death.
+
+I have been fiddling with it (this time) for about the last 3 hours, and
+can't get it to work. I looked online, but didn't see the level of uproar
+that I would have thought  if it were a common problem. Therefore, I am
+thinking that it is a configuration issue on this machine.
+
+I did an m-a a-i fglrx, and the driver built, but as I said, compiz white
+screens. KDE 4.4.3's compositing seems to work fine, but it doesn't have all
+the features I need. (Group and tab comes to mind).
+
+Anyone have any idea why  compiz won't work with newer fglrx drivers?
+
+--b

@@ -1,0 +1,81 @@
+Re: ssd / smart questionFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Glenn English:
+>
+> SMART Attributes Data Structure revision number: 16
+> Vendor Specific SMART Attributes with Thresholds:
+> ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED=
+  WHEN_FAILED RAW_VALUE
+>   1 Raw_Read_Error_Rate     0x0000   007   000   000    Old_age   Offline=
+  In_the_past 0
+>   9 Power_On_Hours          0x0000   155   001   000    Old_age   Offline=
+      -       0
+>  12 Power_Cycle_Count       0x0000   012   000   000    Old_age   Offline=
+  In_the_past 0
+> 184 Unknown_Attribute       0x0000   001   000   000    Old_age   Offline=
+  In_the_past 0
+> 195 Hardware_ECC_Recovered  0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+> 196 Reallocated_Event_Count 0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+> 197 Current_Pending_Sector  0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+
+The question is whether these values have been like this from the start.
+I think it is a little bit unusual for the drive to have a threshold of
+zero for 195-197. And it makes me suspicious that not even attributes 9
+and 12 are counted properly.
+
+> 204 Shock_Count_Write_Opern 0x0000   000   000   000    Old_age   Offline=
+  FAILING_NOW 0
+> 206 Flying_Height           0x0000   001   000   000    Old_age   Offline=
+  In_the_past 0
+
+I think both of these values don't matter to SSDs at all. They shouldn't
+care about shocks and don't have a head which could "fly high".
+
+Conclusion: While the warnings indicate a broken disk, they look a bit
+fishy to me. It looks the manufacturer used standard firmware from a
+regular hard drive and didn't adapt it to SSDs properly. For comparison,
+here are *all* values my Intel X25m reports via SMART:
+
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  =
+WHEN_FAILED RAW_VALUE
+  3 Spin_Up_Time            0x0000   100   000   000    Old_age   Offline  =
+    -       0
+  4 Start_Stop_Count        0x0000   100   000   000    Old_age   Offline  =
+    -       0
+  5 Reallocated_Sector_Ct   0x0002   100   100   000    Old_age   Always   =
+    -       0
+  9 Power_On_Hours          0x0002   100   100   000    Old_age   Always   =
+    -       1703
+ 12 Power_Cycle_Count       0x0002   100   100   000    Old_age   Always   =
+    -       509
+192 Power-Off_Retract_Count 0x0002   100   100   000    Old_age   Always   =
+    -       445
+232 Available_Reservd_Space 0x0003   100   100   010    Pre-fail  Always   =
+    -       0
+233 Media_Wearout_Indicator 0x0002   097   097   000    Old_age   Always   =
+    -       0
+225 Load_Cycle_Count        0x0000   200   200   000    Old_age   Offline  =
+    -       45681
+226 Load-in_Time            0x0002   255   000   000    Old_age   Always   =
+    -       0
+227 Torq-amp_Count          0x0002   000   000   000    Old_age   Always   =
+    -       0
+228 Power-off_Retract_Count 0x0002   000   000   000    Old_age   Always   =
+    -       0
+
+I think I would try finding and using the manufacturer's diagnostic tool
+(which might be a pain without Windows) and see what it reports. I would
+expect it to report no problems.
+
+
+J.
+--=20
+I am no longer prepared to give you the benefit of the doubt.
+[Agree]   [Disagree]
+                 <http://www.slowlydownward.com/NODATA/data_enter2.html>

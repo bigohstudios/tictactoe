@@ -1,0 +1,40 @@
+Re: Safely delete (35-pass) file with a Java application-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+On May 6, 2010, at 4:56 PM, Doug Zwick wrote:
+
+> Any space between the logical EOF and physical EOF will contain  
+> arbitrary information (e.g. leftover fragments from even older  
+> deleted files), and should also be erased.
+
+
+I might question whether you really need to be concerned about  
+erasing this as it really isn't part of the data you want to make  
+safe, it is residue of someone else's file that they had to worry about.
+
+Mike Hall        hallmike at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforge.net/projects/macnative
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.14 (Darwin)
+
+iJwEAQECAAYFAkvjR/QACgkQUvk/ZSaThTLF7wQAlmwRVi+VEJrheUJnDp9SaIVL
+GxD1oYqYHf3R9tovgScLftnbL/Cn9m8He2P12CTH3jgl2dzGluZ81nCgVdSEyRJn
++6ciyiK+EW3VpSzwIh7KADvqtZ6nDzn4CBa6EtfvU+2wf8pUMyHt+vf3MRBan1f2
+ppoqu8N9IOrcscdJ+0s=
+=vV4x
+-----END PGP SIGNATURE-----
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

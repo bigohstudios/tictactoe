@@ -1,0 +1,28 @@
+Re: New Sequences WindowFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  "J. W. Ballantine" <jwb@homer.att.com>
+> Date:  Wed, 21 Aug 2002 09:51:31 -0400
+>
+> I CVS'ed the unseen/Sequences changes and installed them, and have only one 
+> real issue.
+> 
+> I use the unseen window rather than the exmh icon, and with the new code
+> I can't seem to be able to.  How many unseen when when I have the main window open
+> is not really necessary.
+
+hmmm, I stole the code from unseenwin, but I never tested it since I don't use 
+that functionality.  Consider it on my list of things to check.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

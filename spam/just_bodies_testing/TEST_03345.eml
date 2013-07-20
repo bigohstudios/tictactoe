@@ -1,0 +1,51 @@
+Re: Cannot stop XDM serviceOn Wed, Apr 28, 2010 at 08:27:57PM -0600, Tom Schlodder wrote:
+> First of all, I am very new to Linux but am well aware of the need to
+> learn.  After considerable googling with my issue, I gave up and thought I'd
+> try a mailing list instead :)
+> 
+> In attempting to install the cvm package (apt-get install cvm), I recieve a
+> warning indicating that the XDM service cannot be automatically
+> stopped/started and that I should do so manually.
+> 
+> I then use rcconf to remove the little dot-selector-thingy beside XDM,
+> which, as far as I understand, should stop the service immediately, but
+> errors ensue in the rest of the installation and when I continue the
+> installation again (apt-get -f install) I recieve the same warning that XDM
+> is running and needs to be stopped manually.  Checking in rcconf, the
+> service is already unselected.  Taking a hint from my background with MS
+> Windows, I restarted the computer and tried the installation again; same
+> warning and rcconf still shows the service as unselected.
+> 
+At the command line, you can start/stop service like this:
+
+(as root):
+
+/etc/init.d/someservice stop
+/etc/init.d/someservice start
+
+There is also the invoke-rc.d command, which works similarly, but I
+don't use that so I'm not really qualified to recommend it.
+
+Note that there are other parameters besides stop and start.  Two that
+come to mind are "restart" and "reload".
+
+Tab completion can be handy when stopping/starting services.  Type:
+
+/etc/init.d/x   -- and then hit tab.  
+
+You may have to hit tab twice.
+Hitting tab will either complete the command that starts with "x", or if
+multiple commands start with "x", hitting tab twice will show you a list
+of those commands.  
+
+Good luck in your quest for learning.
+
+-Rob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429030539.GA8914@aurora.owens.net
+
+

@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId12874b59f9cda7e9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs476407wfb;
+        Fri, 7 May 2010 14:39:40 -0700 (PDT)
+Received: by 10.223.53.91 with SMTP id l27mr782210fag.0.1273268379150;
+        Fri, 07 May 2010 14:39:39 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y20si3097168fah.102.2010.05.07.14.39.38;
+        Fri, 07 May 2010 14:39:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9050113A54AA; Fri,  7 May 2010 21:39:33 +0000 (UTC)
+Old-Return-Path: <madduck@fishbowl.rw.madduck.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.4 required=4.0 tests=ALL_TRUSTED,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C103413A548F
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 21:39:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12.001 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, NO_RELAYS=-0.001,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id qU+EUh-rGRSn for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 21:39:22 +0000 (UTC)
+Received: from clegg.madduck.net (clegg.madduck.net [IPv6:2001:1620:f08::1])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 81BA913A5440
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 21:39:22 +0000 (UTC)
+Received: from fishbowl.rw.madduck.net (fishbowl-wlan.gauting.madduck.net [IPv6:2001:a60:f069:0:224:d7ff:fe04:c82c])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "fishbowl.rw.madduck.net", Issuer "CAcert Class 3 Root" (verified OK))
+	by clegg.madduck.net (postfix) with ESMTPS id B548C1D409C;
+	Fri,  7 May 2010 23:39:13 +0200 (CEST)
+Received: by fishbowl.rw.madduck.net (Postfix, from userid 1000)
+	id 9E0B120480; Fri,  7 May 2010 23:39:12 +0200 (CEST)
+Date: Fri, 7 May 2010 23:39:12 +0200
+From: martin f krafft <madduck@debian.org>
+To: Andrew Reid <reidac@bellatlantic.net>
+Cc: debian-user@lists.debian.org
+Subject: Re: usb raid1 pendrive boot
+Message-ID: <20100507213912.GC20714@fishbowl.rw.madduck.net>
+Mail-Followup-To: Andrew Reid <reidac@bellatlantic.net>,
+	debian-user@lists.debian.org
+References: <1273231268.5627.27.camel@localhost>
+ <hs10l8$t06$3@dough.gmane.org>
+ <201005071303.20994.reidac@bellatlantic.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-ripemd160;
+	protocol="application/pgp-signature"; boundary="adJ1OR3c6QgCpb/j"
+Content-Disposition: inline
+In-Reply-To: <201005071303.20994.reidac@bellatlantic.net>
+X-Motto: Keep the good times rollin'
+X-OS: Debian GNU/Linux squeeze/sid kernel 2.6.33-2-amd64 x86_64
+Organization: The Debian project
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Virus-Scanned: clamav-milter 0.96 at clegg
+X-Virus-Status: Clean
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <G2VgQzYVDqL.A.hqB.ViI5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576185
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 21:39:33 +0000 (UTC)
+
+
+--adJ1OR3c6QgCpb/j
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Andrew Reid <reidac@bellatlantic.net> [2010.05.07.1903 +0200]:
+> =A0 Just for the record, it actually *is* possible to boot off a partition
+> that's in RAID1, but you might have to use grub. =A0The reason it works
+> is because grub can read past the md-raid1 metadata without getting
+> confused
+
+Correction: the md metadata comes after the filesystem. That's why
+Grub1 doesn't see it.
+
+Grub2 (grub-pc) can interpret md arrays and is the preferred method.
+
+--=20
+ .''`.   martin f. krafft <madduck@d.o>      Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+"zum christentum wird man nicht geboren,
+ man mu=DF dazu nur krank genug sein."
+                                                 - friedrich nietzsche
+
+--adJ1OR3c6QgCpb/j
+Content-Type: application/pgp-signature; name="digital_signature_gpg.asc"
+Content-Description: Digital signature (see http://martin-krafft.net/gpg/)
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEAREDAAYFAkvkiIAACgkQIgvIgzMMSnWNxgCg2/J+32X1yD7OVLyyc8IrhMeG
+DEcAnRlv/IuuYDG1HQguethLrYWERx2i
+=qmue
+-----END PGP SIGNATURE-----
+
+--adJ1OR3c6QgCpb/j--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507213912.GC20714@fishbowl.rw.madduck.net
+
+

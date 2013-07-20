@@ -1,0 +1,33 @@
+Re: Questions about RAID 6On Mon, Apr 26, 2010 at 04:44:32PM -0500, Boyd Stephen Smith Jr. wrote:
+> On Monday 26 April 2010 09:29:28 Tim Clewlow wrote:
+> > I'm getting ready to build a RAID 6 with 4 x 2TB drives to start,
+> > but the intention is to add more drives as storage requirements
+> > increase.
+> 
+> Since you seem fine with RAID 6, I'll assume you are also fine with RAID 5.
+> 
+> I don't know what your requirements / levels of paranoia are, but RAID 5 is 
+> probably better than RAID 6 until you are up to 6 or 7 drives; the chance of a 
+> double failure in a 5 (or less) drive array is minuscule.
+
+
+It's not minuscule; it happens all the time. The key is that the
+double failure won't be simultaneous: first one drive goes, and
+then the extra stress involved in rebuilding it makes another
+drive go. Then it's time to replace disks and restore from
+backup.
+
+-dsr-
+
+
+-- 
+http://tao.merseine.nu/~dsr/eula.html is hereby incorporated by reference.
+You can't defend freedom by getting rid of it.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429163442.GH23434 hibody merseine.nu
+
+

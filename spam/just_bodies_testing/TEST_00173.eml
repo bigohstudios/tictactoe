@@ -1,0 +1,38 @@
+Re: Deleting some regexp/simple expression from lots of files in
+ a secure wayFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Karl Vogel wrote:
+>>> On Fri, 14 May 2010 19:04:42 +0200,=20
+>>> Merciadri Luca <Luca.Merciadri@student.ulg.ac.be> said:
+>>>      =20
+>
+> M> I have many text files (actually .tex files) which contain some sequ=
+ence
+> M> or regexp (it depends on the files) that I would like to remove. Is
+> M> there a commandline/GUI for doing this massive edit?
+>
+>    If you have perl and the Tie::File module installed, the script belo=
+w
+>    should do the trick.  I have a shell version that creates and runs a=
+n
+>    "ex" command if you're interested.
+>  =20
+Nice.
+> M> http://www.student.montefiore.ulg.ac.be/~merciadri/
+>
+>    Sure hope this isn't some homework thing... :)
+>  =20
+Not at all, it's just for my personal culture. I would not have dared
+asking for this if it had been some homework!
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

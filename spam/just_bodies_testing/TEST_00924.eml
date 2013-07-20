@@ -1,0 +1,117 @@
+Re: How to keep debian current??From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat, May 15, 2010 at 10:12 +0000, RyanJB wrote:
+> After much considering, I think I'll stick to lenny but I will install
+> some package from sid..
+
+That is probbaly the worst way to deal with your "need" for newer
+software, as it is quite hard to keep a mixed stable/sid system that
+could be considered "stable" as defined by Debian.
+
+Given that you claim to be inexperienced with Debian and/or .deb based
+distributions in general I would suggest one of the following ways to
+cure your "shiny new shit syndrome" ;)
+
+1. Stable + backports
+
+This is probably the easiest way to get newer versions for packages
+given that they have been backported. You can find instructions on how
+to use backports on:
+
+http://backports.org/dokuwiki/doku.php?id=3Dinstructions
+
+2. Stable + backports + simple sid backports
+
+If you "need" packages from sid that have not yet been backported, you
+can try to backport them yourself given that their dependencies can be
+satisfied in stable. The basic way to deal with this is:
+
+a. Add ONLY a "deb-src ..." line for sid to your sources.list. =20
+b. apt-get update / aptitude update=20
+c. aptitude install build-essential=20
+   apt-get build-dep packagename
+   apt-get -b source packagename=20
+d. Install the resultant debs.
+
+This last two approaches work well if you just need the newer version
+for a couple of packages, for example if the version of apache2 shipped
+with lenny does not support a feature you need.=20
+
+I am not sure if that is enough for you, but you might want to ask
+yourself first what you are trying to achieve eventually. *Why* do you
+need newer versions? What are you doing with your computer? What are
+your usage patterns? What features are missing from lenny that you
+*really* need?
+
+If you need them, just because you *always* want the newest upstream
+release, you can consider one of the following approaches:
+
+3. Run testing or sid
+
+I think that running testing or sid is what you *might* actually want,
+but you have to prepare yourself for the occasional problem you have to
+fix yourself and you might need a sound understanding of Linux and
+Debian packaging in order to fix *some* of the  problems that you might
+run into.
+
+That being said, I want to point out that I have been tracking testing
+for some time now and rarely faced an issue I could not fix. Moreover
+testing (and sid?) is actually quite stable (in the sense of "not
+breaking your system") and might be the best choice for your.
+
+In particular I have made good experiences with the following scheme:
+
+1. Track stable for 6-12 months after the release
+2. Track testing until it is released as stable
+3. Goto 1
+
+4. Use a different distribution
+
+Why don't you use one of the Debian-based distribution until you are
+more comfortable with Linux and Debian administration and therefore able
+to fix the occasional problem you might run into yourself?
+
+Don't get me wrong here - I don't want to argue against Debian, but
+there might actually be distributions that are developed with users like
+you in mind and you might actually be happier using one of those.
+
+Having said all that, I would suggest the following:
+
+Run stable and familiarise yourself with Debian and Linux, by reading
+the following manuals: (excerpts from the dpkg bot on #debian)
+
+1. Debian Reference
+
+The Debian Reference will answer most of your questions about Debian.  The
+latest version (v2) is at http://www.debian.org/doc/manuals/debian-referenc=
+e/ .
+Read it after installing Debian and before asking for support, as it is the
+closest thing Debian has to a manual.  You can install this too, the package
+name is debian-reference: 'aptitude install debian-reference'
+
+2. Rute User's Tutorial and Exposition.
+
+A fantastic book that is available at http://rute.2038bug.com/, can be
+purchased at Borders, or install the rutebook package from non-free.  It co=
+vers
+Linux in a very non-distribution specific method.  The start of the book is
+"Binary and Octal" and ends with "Security Auditing".
+
+3. Newbiedoc
+
+http://newbiedoc.berlios.de/wiki/Debian_newbie_help_documentation
+
+Once you are familiar with Linux and Debian upgrade to testing and enjoy
+the pleasures of a rolling release.
+
+Have fun
+
+    Wolodja
+--
+=2E''`.     Wolodja Wentland    <wentland@cl.uni-heidelberg.de>=20
+ : :'  :   =20
+ `. `'`     4096R/CAF14EFC=20
+   `-       081C B7CD FF04 2BA9 94EA  36B2 8B7F 7D30 CAF1 4EFC

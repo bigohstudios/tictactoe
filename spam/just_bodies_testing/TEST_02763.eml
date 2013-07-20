@@ -1,0 +1,21 @@
+ftp en Debian LennyFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+ftp en Debian Lenny
+
+Hola tengo un ftp p=FAblico en Debian Lenny con PROFTPD como puedo hacer =
+para que todos los archivos que los usuarios ponen en el mismo asuman =
+los permisos del mismo o sea que pueden ejecutar, ver, escribir, etc. =
+todo.
+
+Me refiero a carpetas, archivos de todo tipo.
+
+Las estaciones de trabajo todos son windows.
+
+Alguna recomendacion u otra cosa???
+
+Salu2
+
+Cosme=20

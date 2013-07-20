@@ -1,0 +1,46 @@
+Re: New Sequences WindowFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Wed, 21 Aug 2002 10:40:39 -0500
+>
+> > From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> > Date:  Wed, 21 Aug 2002 10:17:45 -0500
+> >
+> > Ouch...I'll get right on it.
+> > 
+> > > From:  Robert Elz <kre@munnari.OZ.AU>
+> > > Date:  Wed, 21 Aug 2002 19:30:01 +0700
+> > >
+> > > Any chance of having that lengthen instead?   I like all my exmh stuff
+> > > in nice columns (fits the display better).   That is, I use the detache
+> d
+> > > folder list, one column.   The main exmh window takes up full screen,
+> > > top to bottom, but less than half the width, etc...
+> 
+> I thought about that.  The first order approximation would be to just add 
+> using pack .... -side top instead of pack ... -side left, however, since their 
+> each a different width, it would look funny.
+
+I've done this.  It's not as pretty as I think it should be, but it works.  
+I'm going to leave the cosmetic issues to others.  When I update the 
+documentation, I'll add this to the exmh.TODO file.
+
+I'm leaving for a 2 1/2 week vacation in a week, so this is the last new 
+functionality I'm going to add for a while.  Also, I now have pretty much 
+everything in there that I want for my own use, so I'm probably pretty much 
+done.  I'll work on bug fixes and documentation before my vacation, and 
+hopefully do nothing more afterwards.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

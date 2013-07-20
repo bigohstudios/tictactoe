@@ -1,0 +1,25 @@
+Re: Video Streaming SoftwareOn Tue, May 04, 2010 at 05:06:24PM -0500, Austin Brkich wrote:
+> I have been searching and searching for a specific type of software,
+> however I can't find anything that is 100% free and doesn't have any
+> hitches to it.
+> 
+> What I am looking for is some software that will allow me to take a
+> live video stream from my computer and stream it to multiple clients.
+> Kind of like how NullSoft does Audio Streaming, yes I know NullSoft
+> does Video also but at the moment to do a live video there is only
+> really one program that hasn't been updated in years.
+> 
+VLC can be used to stream video.  I've used it to send a Family Guy
+episode to every computer in my office (at lunch time, of course).  I
+think it can handle streaming a capture device, such as a webcam, as
+well.
+
+-Rob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100505000626.GA15077@aurora.owens.net
+
+

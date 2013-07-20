@@ -1,0 +1,14 @@
+Installing RPMFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+I would like to install RPM itself. I have tried to get the information by
+visiting www.rpm.org <http://www.rpm.org>  and the related links they give
+but they all seems to assume that RPM already is installed.
+I have a firewall based on linux-2.2.20 (Smoothwall) for private use.
+I would like to install the RPM package/program but there is no information
+how to do this from scratch.
+Found this site and hopefully some have the knowledge.
+Best regards Manfred Grobosch
+

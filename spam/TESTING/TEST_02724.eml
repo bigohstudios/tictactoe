@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId127eecdb6fcc2b49
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs123156wfo;
+        Sun, 11 Apr 2010 14:36:51 -0700 (PDT)
+Received: by 10.115.38.23 with SMTP id q23mr2409328waj.212.1271021811326;
+        Sun, 11 Apr 2010 14:36:51 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 8si27251817pzk.48.2010.04.11.14.36.51;
+        Sun, 11 Apr 2010 14:36:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 147D11BC421D2
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 14:36:51 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 1005426B598D9
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 14:36:51 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 6EF8E26B59656
+	for <objc-language@lists.apple.com>;
+	Sun, 11 Apr 2010 14:36:27 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 5EA41C951120
+	for <objc-language@lists.apple.com>;
+	Sun, 11 Apr 2010 14:36:27 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7cccae000002a80-13-4bc240daea27
+Received: from mail-gw0-f51.google.com (mail-gw0-f51.google.com [74.125.83.51])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	8C.28.10880.BD042CB4; Sun, 11 Apr 2010 14:36:27 -0700 (PDT)
+Received: by gwj17 with SMTP id 17so372971gwj.24
+	for <objc-language@lists.apple.com>;
+	Sun, 11 Apr 2010 14:36:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:received:message-id:subject:from:to:cc:content-type;
+	bh=TOCAHLupp9/KDyVZwmv5T6DA6vz5YdeB2lrNtXNvzFM=;
+	b=AOcMi7f7wcLZc3+ZvIAC5EXQIMJ+IU2D0t8xV9jZ2x+lhvhfjDPNYIAi4MCPG/TqUU
+	P79A+6X59K4saEOaGMA7wt1bedeDfZ/cijZoiKqlNI+ulBaa1Zyti2kGOUueEJVOLrPg
+	VhB8ysAmG7z2I/6YJY0C4BejQpEghfGUTwSME=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type;
+	b=NobjCF/4CAYq+pVWcsAlPyt+ntx4TVWCJOsZVDVsbwNcBgMZQeTrLwDFvrSskcelDZ
+	oPFPswbNW46KXqrS6niyFThkH7+VRoZ9xZqIqo9U+Ov9ENsgjvxWW5k3+6Vnl7gW55Tj
+	Mjr4SN6MMO8oCIX3FiscHr78BSnJ6JVx+kSCA=
+MIME-Version: 1.0
+Received: by 10.90.75.14 with HTTP; Sun, 11 Apr 2010 14:36:26 -0700 (PDT)
+In-Reply-To: <w2ja92022a41004111426tf6fe14a6u7f30eb60fe31df26@mail.csmining.org>
+References: <t2ja92022a41004111315y4f399596pdfb107eb86563859@mail.csmining.org>
+	<z2ide3c77431004111322v7e93615x6941a344be5353ea@mail.csmining.org>
+	<y2v597e7edb1004111359s8d7c36fewc473913688d153b2@mail.csmining.org>
+	<w2ja92022a41004111426tf6fe14a6u7f30eb60fe31df26@mail.csmining.org>
+Date: Sun, 11 Apr 2010 22:36:26 +0100
+Received: by 10.91.112.13 with SMTP id p13mr1495773agm.29.1271021786434; Sun, 
+	11 Apr 2010 14:36:26 -0700 (PDT)
+Message-ID: <r2w597e7edb1004111436s2bc182a6qb98d2a98320220b1@mail.csmining.org>
+From: Hamish Allan <hamish@csmining.org>
+To: Ariel Feinerman <arielfapple@csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAxOdnAMTnnpAE56A7w==
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: class variables
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Sun, Apr 11, 2010 at 10:26 PM, Ariel Feinerman <arielfapple@csmining.org> wrote:
+
+> I mean static variables that are declared in interface, can we use them, is
+> there meaning in them, and whether can they exist?
+> @interface MyObject : NSObject {
+> static int i;
+> }
+> @end;
+
+No. The keyword "static" in Objective-C means the same as it does in
+C, rather than the somewhat perverse C++ definition.
+
+H
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,36 @@
+Re: debian on routerstation prosolution:
+
+debootstrap --foreign --arch mips lenny something
+
+
+> on a lenny/amd64bit pc, i give out the:
+> 
+> # debootstrap lenny --arch=mips something/
+> I: Retrieving Release
+> E: unknown location something/dists/lenny/Release
+> # 
+> 
+> command. "something" is a mounted partition of an usb drive.
+> 
+> why can't i create a debian to the usb pendrive, with mips arch? i can
+> create one, when not using "--arch=mips", but then it will make an amd64
+> debian..
+> 
+> Is it a bug, or feature?
+> 
+> I just want to boot a Debian from an usb stick on a routerstation pro:
+> 
+> https://forum.openwrt.org/viewtopic.php?id=24378
+> 
+> can anyone help me regarding it? :(
+> 
+> Thank you.
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272812455.12040.7.camel@localhost
+
+

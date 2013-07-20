@@ -1,0 +1,155 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f7c6d17cbb081
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs26047wfa;
+        Tue, 13 Apr 2010 08:25:55 -0700 (PDT)
+Received: by 10.204.33.149 with SMTP id h21mr1231589bkd.203.1271172354243;
+        Tue, 13 Apr 2010 08:25:54 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u9si6378762bkz.97.2010.04.13.08.25.53;
+        Tue, 13 Apr 2010 08:25:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AF81213A5663; Tue, 13 Apr 2010 15:25:41 +0000 (UTC)
+Old-Return-Path: <lupuss@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.0 required=4.0 tests=CAPINIT,GMAIL,HTML_MESSAGE,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 64CD413A5537
+	for <lists-debian-user@liszt.debian.org>; Tue, 13 Apr 2010 15:25:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, GMAIL=1, HTML_MESSAGE=1,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id aAbXN956edWZ for <lists-debian-user@liszt.debian.org>;
+	Tue, 13 Apr 2010 15:25:28 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ew0-f214.google.com (mail-ew0-f214.google.com [209.85.219.214])
+	by liszt.debian.org (Postfix) with ESMTP id 28D6F13A548E
+	for <debian-user@lists.debian.org>; Tue, 13 Apr 2010 15:25:28 +0000 (UTC)
+Received: by ewy6 with SMTP id 6so411347ewy.32
+        for <debian-user@lists.debian.org>; Tue, 13 Apr 2010 08:25:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=qLxJDzpBzHWIenxzSINBxx1jl8LzVy6HfQIzXoRNn30=;
+        b=bGZpvvDnS2KEoxJGx6lza2ZVO0y+3w631wIvYAE2iujs/cMdJwBYKis9/xIcsIVwfK
+         qkaQ9OJ6u9uVxaK8X2Yhw8p+nFbcbng0kUshfk9uMTZnwb7mwGotLZ04j5Ht6zmUWmIt
+         eNeZhfq21GPrtdKnt3YzRT4ZoaXbLBfOrVtzk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=Pw9lA4ybaWCXxCPFpgyJ+ZxIxyus34OSOy9+bFMsH83V05C4E+CwX8DOjsThhr+SxI
+         vraq6kioKemcE1Tz/W1v6DBX4kgzivLOXlZoddlleLPr/5YDXIV9FMnM8VJT1wU7I7Zw
+         INlYf1NX2OUys3GsKvJOkHNzvOSVI9Zi7VRQo=
+MIME-Version: 1.0
+Received: by 10.213.19.198 with HTTP; Tue, 13 Apr 2010 08:25:19 -0700 (PDT)
+In-Reply-To: <l2od80f793f1004130716v81953591ie5ae38693a07b6c6@mail.csmining.org>
+References: <l2od80f793f1004130716v81953591ie5ae38693a07b6c6@mail.csmining.org>
+Date: Tue, 13 Apr 2010 17:25:19 +0200
+Received: by 10.213.40.5 with SMTP id i5mr3372585ebe.8.1271172319122; Tue, 13 
+	Apr 2010 08:25:19 -0700 (PDT)
+Message-ID: <n2o1e7b9c9f1004130825r25f27418o9f885abc0cfa814f@mail.csmining.org>
+Subject: Re: Trunk Kernel
+From: Monsieur Louk <lupuss@csmining.org>
+To: Debian <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=001485e9a61387965504841fde1f
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8zIHofLONjP.A.dIH.1zIxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573974
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 15:25:41 +0000 (UTC)
+
+--001485e9a61387965504841fde1f
+Content-Type: text/plain; charset=ISO-8859-1
+
+2010/4/13 Carlos Mennens <carloswill@csmining.org>
+
+> Is the 'Trunk' kernel needed for Debian? I installed Squeeze and it
+> defaulted to the 'Trunk' kernel. I was told the Trunk kernel is no
+> longer supported or available. Is this true? I am confused because it
+> still installed and Virtualbox doesn't like it. I have to switch to
+> the default "2.6.32-3-amd64" kernel.
+>
+> Anyone know?
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/l2od80f793f1004130716v81953591ie5ae38693a07b6c6@mail.csmining.org
+>
+> I bet you did a netinstall, hence the 'trunk' kernel which is an older
+version than the 2.6.32-3 kernel. Once you've installed the latest version
+you can just remove the older. Sometimes virtualbox won't boot on the 32-3
+version either :'(
+
+--001485e9a61387965504841fde1f
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote">2010/4/13 Carlos Mennens <span dir=3D"ltr">&lt;<=
+a href=3D"mailto:carloswill@csmining.org">carloswill@csmining.org</a>&gt;</span><=
+br><blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; bo=
+rder-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+Is the &#39;Trunk&#39; kernel needed for Debian? I installed Squeeze and it=
+<br>
+defaulted to the &#39;Trunk&#39; kernel. I was told the Trunk kernel is no<=
+br>
+longer supported or available. Is this true? I am confused because it<br>
+still installed and Virtualbox doesn&#39;t like it. I have to switch to<br>
+the default &quot;2.6.32-3-amd64&quot; kernel.<br>
+<br>
+Anyone know?<br>
+<font color=3D"#888888"><br>
+<br>
+--<br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-user-REQUEST@lists.debian=
+.org">debian-user-REQUEST@lists.debian.org</a><br>
+with a subject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mail=
+to:listmaster@lists.debian.org">listmaster@lists.debian.org</a><br>
+Archive: <a href=3D"http://lists.debian.org/l2od80f793f1004130716v81953591i=
+e5ae38693a07b6c6@mail.csmining.org" target=3D"_blank">http://lists.debian.org/=
+l2od80f793f1004130716v81953591ie5ae38693a07b6c6@mail.csmining.org</a><br>
+<br>
+</font></blockquote></div>I bet you did a netinstall, hence the &#39;trunk&=
+#39; kernel which is an older version than the 2.6.32-3 kernel. Once you&#3=
+9;ve installed the latest version you can just remove the older. Sometimes =
+virtualbox won&#39;t boot on the 32-3 version either :&#39;(<br>
+
+--001485e9a61387965504841fde1f--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2o1e7b9c9f1004130825r25f27418o9f885abc0cfa814f@mail.csmining.org
+
+

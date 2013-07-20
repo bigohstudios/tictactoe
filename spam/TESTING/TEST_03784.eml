@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283cc94c771382e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs110279wfj;
+        Mon, 26 Apr 2010 18:02:25 -0700 (PDT)
+Received: by 10.142.201.17 with SMTP id y17mr2570255wff.283.1272330144928;
+        Mon, 26 Apr 2010 18:02:24 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 9si6781162pzk.4.2010.04.26.18.02.24;
+        Mon, 26 Apr 2010 18:02:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 9FDF21BFE1B41
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 18:02:24 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 99EB427251372
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 18:02:24 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 1F29227250C68
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 18:01:20 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 0CDD0D6375B9
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 18:01:20 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-26-4bd6375f4588
+Received: from mail-qy0-f184.google.com (mail-qy0-f184.google.com
+	[209.85.221.184])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	2A.6A.26228.F5736DB4; Mon, 26 Apr 2010 18:01:19 -0700 (PDT)
+Received: by qyk14 with SMTP id 14so3961333qyk.6
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 18:01:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:from:to:subject:date
+	:user-agent:references:in-reply-to:mime-version:content-type
+	:content-transfer-encoding:message-id;
+	bh=wnX3NICZaXWDZ6452jpq0mexxLodxBGW8PdjNdhoMsc=;
+	b=ik9wDpDAIG4ogdy7DhuCX9K4TWhI/VLdOzqusnJuRtP/c5w9Zqwb1cymC8vqCUmvrw
+	zgFpQCkjxuw+W710AjwOC+p4dKogVNTTNCiFSkgk1suIPVSMXk3nnsgbek5LxgeGUzPw
+	OHyMbY+SvNLnnsQ+3pWQ81W5uVcnIm8GjtvIc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+	:content-type:content-transfer-encoding:message-id;
+	b=B24vCjt86LYfe1c8IQNcJz3NObj4d8iVk/y8oxgVFFTRMG2fJ8oyZrUYjM/CYHiMrj
+	/9fVeBljbGy3GdnYJaBwv6K6zD60KjMhtarhhcFVZ/rAwDGfqrQxBMoRLth5RAdOIhXW
+	McjW1Ik5NYJLgD7YdQm1Hpm436+cl01Ch5mv8=
+Received: by 10.224.27.19 with SMTP id g19mr1500413qac.275.1272330078833;
+	Mon, 26 Apr 2010 18:01:18 -0700 (PDT)
+Received: from localhost.localdomain (142-73-252-216.dsl.colba.net
+	[216.252.73.142])
+	by mx.google.com with ESMTPS id 23sm2600469qyk.3.2010.04.26.18.01.17
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Mon, 26 Apr 2010 18:01:18 -0700 (PDT)
+From: Raymond Martin <laseray@csmining.org>
+To: java-dev@lists.apple.com
+Date: Mon, 26 Apr 2010 21:01:15 -0400
+User-Agent: KMail/1.13.2 (Linux/2.6.33.1-desktop-2mnb; KDE/4.4.2; i686; ; )
+References: <o2q761024c21004222306rcca146bck4f41f431e1cd55ec@mail.csmining.org>
+	<201004262031.22080.laseray@csmining.org>
+	<7675F8F1-B321-47D3-88DA-2D07946FADE5@minnigerode.org>
+In-Reply-To: <7675F8F1-B321-47D3-88DA-2D07946FADE5@minnigerode.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004262101.15908.laseray@csmining.org>
+X-Brightmail-Tracker: AAAABBNs8AgT2MYLE9loqRPZlsg=
+Subject: Re: Snow Leopard, Java 6 and Netbeans
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On April 26, 2010 08:47:38 pm Dave Minnigerode wrote:
+> I've seen eclipse and Intellij work just find on the same macs.  Almost all
+> our devs use macs and those two IDEs.    It's only us NB users having
+> issues.
+> 
+> One data point.  I installed the Scan On Demand plugin while on my old
+> machine and that helped a LOT.  Was super annoying waiting for the
+> constant scans.  Note that this was a 10.5 machine.
+> 
+> Second datapoint.  On a new machine with an SSD drive all the slowdowns go
+> away.  Still have memory usage issues.  But at least it's fast.  This is a
+> 10.6 machine.
+> 
+> Seems to me it is something in the filesystem code in NB.
+
+Ah, a clue perhaps.
+
+I do see one little problem with using JFileChooser, where it seems to stall 
+temporarily when first opened before allowing selection. I think I see this in 
+NeoOffice also, which uses some Java for its front end.
+
+Raymond
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

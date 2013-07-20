@@ -1,0 +1,31 @@
+Re: KDE 4.4.3 in unstable* On 2010 06 May 02:13 -0500, Diederik de Haas wrote:
+> I don't get what you're trying to accomplish.
+> 
+> On 2010-05-05 Boyd Stephen Smith Jr. wrote:
+> > In 4.4, kmail depends on mysql-server in order to send mail. (kmail ->
+> > Akonadi  -> mysql-server).
+> 
+> So you don't like the dependency to Akonadi? Too bad.
+
+Regardless the rationale, this seems to be an attitude that has become
+very pervasive among KDE developers with the advent of KDE4 and it has
+me looking seriously at the alternatives.  I no longer recommend KDE to
+other users due to the "my way or the highway" attitude I've encountered
+since running KDE 4.2 over a year ago and encountering various issues.
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506112823.GS28964@n0nb.us
+
+

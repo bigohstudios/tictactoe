@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId128591529a815c2b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs180733wfj;
+        Sun, 2 May 2010 05:54:39 -0700 (PDT)
+Received: by 10.223.65.18 with SMTP id g18mr2665987fai.32.1272804878378;
+        Sun, 02 May 2010 05:54:38 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 28si6716437fkx.36.2010.05.02.05.54.37;
+        Sun, 02 May 2010 05:54:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1E0BB13A4ECA; Sun,  2 May 2010 12:54:36 +0000 (UTC)
+Old-Return-Path: <daniel@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-13.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A95DF13A49EE
+	for <lists-debian-kde@liszt.debian.org>; Sun,  2 May 2010 12:54:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_IN_DNSWL_MED=-4]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id K8ortsAf4yxN for <lists-debian-kde@liszt.debian.org>;
+	Sun,  2 May 2010 12:54:22 +0000 (UTC)
+Received: from mailhub-lb3.unibe.ch (mailhub-lb3.unibe.ch [130.92.0.84])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "mailhub-lb3.unibe.ch", Issuer "QuoVadis Global SSL ICA" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id A106E13A4EBF;
+	Sun,  2 May 2010 12:54:22 +0000 (UTC)
+Received: from localhost (scanhub-lb2.unibe.ch [130.92.5.66])
+	by mailhub-lb3.unibe.ch (Postfix) with ESMTP id 8E5D8C422F;
+	Sun,  2 May 2010 14:54:20 +0200 (CEST)
+X-Virus-Scanned: by University of Bern - Mailgateway
+Received: from mailhub-lb3.unibe.ch ([130.92.0.84])
+	by localhost (scanhub-lb2.unibe.ch [130.92.5.66]) (amavisd-new, port 10024)
+	with LMTP id DI3Wcj0IXPla; Sun,  2 May 2010 14:54:18 +0200 (CEST)
+Received: from lenny.unibe.ch (lenny.unibe.ch [130.92.4.150])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mailhub-lb3.unibe.ch (Postfix) with ESMTP id CF23CC40E6;
+	Sun,  2 May 2010 14:54:18 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by lenny.unibe.ch (Postfix) with ESMTP id 98A1878C071;
+	Sun,  2 May 2010 14:54:18 +0200 (CEST)
+X-Virus-checked: by University of Bern - smtp out
+Received: from lenny.unibe.ch ([127.0.0.1])
+	by localhost (lenny.unibe.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id rS4BbTBSXuVO; Sun,  2 May 2010 14:54:18 +0200 (CEST)
+Received: from [10.0.0.34] (164-61-239-77-pool.cable.fcom.ch [77.239.61.164])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by lenny.unibe.ch (Postfix) with ESMTPSA id DFA6A78C05F;
+	Sun,  2 May 2010 14:54:17 +0200 (CEST)
+Message-ID: <4BDD75F7.9000907@debian.org>
+Date: Sun, 02 May 2010 14:54:15 +0200
+From: Daniel Baumann <daniel@debian.org>
+Reply-To: Debian Live <debian-live@lists.debian.org>
+Organization: Debian GNU/Linux - The Universal Operating System
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-live@lists.debian.org
+CC: debian-kde@lists.debian.org
+Subject: Re: kde-core list should be updated (live-helper)
+References: <201005021238.43613.didi.debian@cknow.org>
+In-Reply-To: <201005021238.43613.didi.debian@cknow.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <9seygoj6iEI.A.uzB.MYX3LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32059
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 12:54:36 +0000 (UTC)
+
+On 05/02/2010 12:38 PM, Diederik de Haas wrote:
+> With that, the meta package kde-minimal does no longer exist, so /usr/share/live-helper/lists/kde-
+> core should be updated and possibly again when 5:59 gets into testing/squeeze.
+
+updated in git, thanks.
+
+-- 
+Address:        Daniel Baumann, Burgunderstrasse 3, CH-4562 Biberist
+Email:          daniel.baumann@panthera-systems.net
+Internet:       http://people.panthera-systems.net/~daniel-baumann/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDD75F7.9000907@debian.org
+
+

@@ -1,0 +1,88 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a4a16be147266
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs433wfo;
+        Sun, 16 May 2010 21:59:23 -0700 (PDT)
+Received: by 10.223.45.200 with SMTP id g8mr5574023faf.67.1274072361945;
+        Sun, 16 May 2010 21:59:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e8si11752851fah.84.2010.05.16.21.59.21;
+        Sun, 16 May 2010 21:59:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2265913A5B3C; Mon, 17 May 2010 04:59:12 +0000 (UTC)
+Old-Return-Path: <lists@xdna.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D034613A5AF4
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 04:59:05 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id OvgH16F1fQso for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 04:58:58 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 508 seconds by postgrey-1.31 at liszt; Mon, 17 May 2010 04:58:58 UTC
+Received: from getafix.xdna.net (121.140.233.220.static.exetel.com.au [220.233.140.121])
+	by liszt.debian.org (Postfix) with ESMTP id 007C113A5AF3
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 04:58:57 +0000 (UTC)
+Received: by getafix.xdna.net (Postfix, from userid 9)
+	id 0588036304; Mon, 17 May 2010 14:50:23 +1000 (EST)
+To: debian-user@lists.debian.org
+From: Cameron Hutchison <lists@xdna.net>
+Subject: Re: How to run a script when pppoe connection comes up?
+References: <hsqcl9$ejc$1@dough.gmane.org>
+User-Agent: nn/6.7.3
+Message-ID: <1b84.4bf0cb0f.d321a@getafix.xdna.net>
+Date: Mon, 17 May 2010 04:50:23 -0000
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <pMNtRlcQ-cC.A._HC.g0M8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577004
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 04:59:12 +0000 (UTC)
+
+Hendrik Boom <hendrik@topoi.pooq.com> writes:
+
+>I have a script that runs at boot time.  It should really be rerun every 
+>time my pppoe connection has come up and has created device ppp0 for me.  
+>Evidently I have to invoke this script from someplace different from what 
+>I'm doing now.  Where?
+
+After a ppp connection is established, pppd(8) runs the scripts in 
+/etc/ppp/ip-up.d . Check the man page for pppd(8) under the section
+SCRIPTS. This describes which scripts are run when and what environment
+variables are available.
+
+The standard ppp runs the script /etc/ppp/ip-up when the link comes up.
+Debian implements this script to run all the scripts in /etc/ppp/ip-up.d
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1b84.4bf0cb0f.d321a@getafix.xdna.net
+
+

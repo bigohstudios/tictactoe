@@ -1,0 +1,26 @@
+Re: recompiling the kernel with a different version nameFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Lorenzo Bettini:
+>=20
+> sorry I pasted the wrong name: --revision actually took effect since the =
+=20
+> generated .deb is now (note the 'lore01')
+>=20
+> linux-image-2.6.32.10+drm33.1-recompiled_lore01_i386.deb
+>=20
+> but what I need to do is to get rid of '+drm33.1' which seems to be =20
+> automatically added...
+
+Take a look at the first few lines of the Makefile in the top-level
+directory of your kernel sources. It might be defined in there (for a
+reason).
+
+J.
+--=20
+If I am asked 'How are you' more than a million times in my life I
+promise to explode.
+[Agree]   [Disagree]
+                 <http://www.slowlydownward.com/NODATA/data_enter2.html>

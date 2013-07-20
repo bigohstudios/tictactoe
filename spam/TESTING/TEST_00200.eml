@@ -1,0 +1,151 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286d013f7aa11be
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs385040wfb;
+        Thu, 6 May 2010 02:45:18 -0700 (PDT)
+Received: by 10.223.22.145 with SMTP id n17mr6373687fab.23.1273139117636;
+        Thu, 06 May 2010 02:45:17 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si1570782fkr.9.2010.05.06.02.45.17;
+        Thu, 06 May 2010 02:45:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7FB214C9DE9; Thu,  6 May 2010 09:45:14 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1E2D413A4B6B
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 09:45:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id GJWbqCpjdh+h for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 09:45:01 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id 6C2BB2E8AFA
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 09:45:01 +0000 (UTC)
+Received: from shambhala.localnet (ppp-93-104-129-158.dynamic.mnet-online.de [93.104.129.158])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id 07D6F5AE6B
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 11:44:59 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 11:44:56 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.2-tp42-toi-3.1-lowmem-free-991-992-04964-gf00c7ec-dirty; KDE/4.4.3; i686; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005060053.06246.schwarzerf@csmining.org> <201005051713.19979.mgb-debian@yosemite.net> (sfid-20100506_102639_986282_E2FA1694)
+In-Reply-To: <201005051713.19979.mgb-debian@yosemite.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2349297.euYyxlybPj";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061144.57183.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <b28zpD3zXGH.A.IyF.q-o4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32093
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 09:45:14 +0000 (UTC)
+
+--nextPart2349297.euYyxlybPj
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 06 Mai 2010 schrieb Mike Bird:
+> On Wed May 5 2010 15:53:05 Frederik Schwarzer wrote:
+> > How does having a kdepim that depends on mysql declare kde as
+> > "broken"? Sure, many oppose to that dependency, but it works,
+> > doesn't it?
+>=20
+> (1) It reportedly breaks home directories stored on NFS servers.
+> (2) It's such a bad idea that KDE is rushing to remove it.
+> (3) Does Debian really want to implement robust migration both
+> to MySQL (for Squeeze) and then out of MySQL (for Squeeze+1)?
+
+Whether Akonadi works or not appears to be a game of roulette to me.=20
+=46reshly since upgrading from KDE 4.4.3:
+
+Bug 236535 -  sometimes can't open and log timezone and privilege tables
+https://bugs.kde.org/236535
+
+Bug 236538 -  often does not find resource agents on first start of Kontact
+https://bugs.kde.org/236538
+
+Bug 236539 -  dbus session bus not available on first start of Kontact -=20
+race condition?
+https://bugs.kde.org/236539
+
+I already grepped in ~/.local/share/contacts for contact information as=20
+Akonadi was not available and I didn't now it would be there when I start=20
+kontact again.
+
+My address book as to be accessible *all of the time* without bombarding=20
+me with more and less cryptic error messages. There are about 15 self=20
+tests that might fail. I think Akonadi from KDE 4.4 depends on too many=20
+external factors that it just can't control fully.
+
+But nonetheless: I think these issues should be fixed upstream. And I also=
+=20
+don't what else Debian developers could do then to use KDEPIM from KDE 4.4=
+=20
+if the freeze will really happen this summer. Shipping KDEPIM 4.3 with KDE=
+=20
+4.4 might not be an option for Debian KDE developers, cause it abandoned=20
+by upstream already and all security fixes needs to be backported. Sure=20
+when KDE 4.5 is out the same happens to KDE 4.4, but at least it will=20
+contain the security and other fixes upto then.=20
+
+So either KDE project decides to fix any Akonadi related issues for KDE 4.4=
+=20
+series or Debian extends freeze. Other options would be: Shipping a KDE=20
+4.5 backport or even Squeeze + 1 shortly afterwards.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart2349297.euYyxlybPj
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvij5kACgkQmRvqrKWZhMdJ8ACfeKncSZ0Uc5QVtLsI3OUL1veh
+Z7AAn1HdwnzxG+HulVSgRN0GoonZhrPB
+=ntN2
+-----END PGP SIGNATURE-----
+
+--nextPart2349297.euYyxlybPj--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061144.57183.Martin@lichtvoll.de
+
+

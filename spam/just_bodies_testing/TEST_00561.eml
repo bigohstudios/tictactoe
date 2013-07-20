@@ -1,0 +1,69 @@
+Re: python-twisted-core not getting updated on i386, but is updated 
+ on amd64 [was Re: Increasing number of conflicts]
+On Apr 21, 2010, at 11:41 AM, Tristan Seligmann wrote:
+
+> On Wed, Apr 21, 2010 at 7:41 AM, Rick Thomas <rbthomas@pobox.com>  
+> wrote:
+>> The reason seems to be that python-twisted-core version 10.0.0-3 is
+>> available on amd64 Sid, but on i386 Sid it's only available at  
+>> version
+>> 10.0.0-2 .
+>>
+>> Maybe it needs to be rebuilt for i386 ?
+>
+> python-twisted-core is an Arch: all package, so the same package is
+> used on all arches. According to pdo[1], sid has 10.0.0-3 while
+> squeeze (testing) only has 10.0.0-2.
+>
+> [1] http://packages.debian.org/search?keywords=python-twisted-core
+> -- 
+> mithrandi, i Ainil en-Balandor, a faer Ambar
+>
+
+
+Well...  I have two identically configured VMWare guest machines.  One  
+is x86-32bit the other is amd64-64bit.  Both run Sid.
+
+rbthomas@sid:~$ aptitude -vv show python-twisted-core | egrep  
+'^(Version|Archive): '
+Version: 10.0.0-3
+Archive: unstable
+Version: 10.0.0-3
+Archive: unstable
+Version: 10.0.0-3
+Archive: now
+Version: 10.0.0-2
+Archive: testing
+Version: 10.0.0-2
+Archive: testing
+rbthomas@sid:~$ uname -a
+Linux sid 2.6.32-3-amd64 #1 SMP Wed Feb 24 18:07:42 UTC 2010 x86_64  
+GNU/Linux
+
+rbthomas@tryit:~$ aptitude -vv show python-twisted-core | egrep  
+'^(Version|Archive): '
+Version: 10.0.0-2
+Archive: testing
+Version: 10.0.0-2
+Archive: unstable
+Version: 10.0.0-2
+Archive: now
+rbthomas@tryit:~$ uname -a
+Linux tryit 2.6.32-3-686 #1 SMP Thu Feb 25 06:14:20 UTC 2010 i686 GNU/ 
+Linux
+
+
+
+
+I don't know how this can happen, but it definitely did happen.
+Enjoy!
+
+Rick
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/357400FF-3B09-41CC-8813-236CCB17F955@pobox.com
+
+

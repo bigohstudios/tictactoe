@@ -1,0 +1,14 @@
+Rendering the Great Outdoors: Fast Occlusion Culling for Outdoor
+    EnvironmentsURL: http://www.newsisfree.com/click/-0,8613679,159/
+Date: 2002-10-06T18:12:41+01:00
+
+Rendering engines used in today’s game titles utilize various techniques for 
+hidden surface removal (HSR), different techniques being suitable for different 
+game genres. For example, action games played in closed-in locations need an 
+engine allowing fast rendering of a few hundred polygons, a high frame rate, 
+and a high level of details to impress players. Conversely, a game that is 
+taking place outdoors requires quite a different approach. This features 
+present one one technique for hidden surface removal usable in 3D engines using 
+tilizing object occlusion.
+
+

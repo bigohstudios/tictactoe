@@ -1,0 +1,78 @@
+Pre-installation thoughtsHi,
+
+So, I want to completely reinstall the OS:es on my main computer and I
+would like you to review and comment on the idea outlined below.
+
+(I've used Ubuntu before but I find that it moves too quickly and is not
+as stable as I remember debian from before, plus I like the debian
+philosophy more)
+
+I have a pretty clear picture of what I want to accomplish, but I know
+almost nothing of these things and the information I've found[1] is
+written like I already know some things.
+
+What I am asking for is both critique on the idea itself and information
+on how to accomplish it.
+
+My plan:
+- Partitions (160GB disk):
+  - (10-20GB?)  bare minimum for OSX (firmware upgrades, efi)
+  - (30-40GB)   base debian system incl. /home/*
+  - (100GB)     public media files
+  - (10GB)      encrypted partition for my home.
+- Users:
+  - me, with sudo and the encrypted home with extra password to
+unencrypt.
+  - others, with the following capabilities:
+    - passwordless login (with 3 possible locales)
+    - connect to internet (wifi/lan)
+    - run iceweasel
+    - play music and movies from the public media library 
+    - play a selection of games
+    - run a terminal with ssh (for my cli-enabled-friends)
+    - run OO and use the printer
+    - no ability whatsoever to tamper with the rest
+    - auto-logout after 30 min inactivity
+    - cleaning up on logout - browser, document history, high-scores...
+- Other stuff:
+  - I want the ability to easily switch 'modes'
+  (I am not very organized and I tend to mess things up so I want these
+to be clearly separated but also easily switchable, therefor I've
+thought of using virtualization - but I'm not sure if it is the right
+way to go. It is important for me to have a 'clean' base install but
+still being able to install lots of random stuff when I want that can
+easily be purged)
+    - day to day desktop (mail, browser, text, calendar, etc)
+    - LAMP-hacking
+    - other web-hacking (with other instance of apache)
+    - general hacking (python, ruby, gtk
+
+Slightly specific questions:
+- guest user
+  - how do I set-up the guest user?
+  - umask 027, and the chmodding the neccessary? but how do I access
+everything?
+- 'modes'
+  - is virtualization for me or are there other/simpler ways of
+achieving what I want? (with regards to my 'modes')
+  - if virtualization is the way, where do I make space for the images
+(is that even the correct term)?
+
+Hopefully,
+tsr
+
+ps. I'm not a member on the list but I will check out the archives, so
+no need to cc me.
+
+------------------------------
+[1] I'm thinking of things like:
+- http://wiki.debian.org/VirtualBox
+- http://www.debian-administration.org/articles/577
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274433472.3602.144.camel@bella
+
+

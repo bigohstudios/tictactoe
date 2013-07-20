@@ -1,0 +1,28 @@
+Changed location of incoming mail. exmh not working!!I use exmh 2.5 with procmail for presorting incoming mail and move it to
+the relevant folder using rcvstore.
+
+Recently, my incoming mail (or spool) location moved to another disk.
+I'm not quite clear how to reconfigure procmail/rcvstore/exmh to accept
+mail from the new location.
+
+There seems to be a variable in exmh-defaults (bgspool). It says at the
+top of the file not to edit these lines. So, I went ahead and edited it :-)
+That does not make a difference.
+
+It seems like procmail is the one that is actually reading the mail from
+my spool/incoming mail area and piping it to rcvstore. So, I need to
+configure that probably.
+
+Any idea how I would do this?
+
+Thanks
+Siva
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286aaf8d2677a6d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs359371wfb;
+        Wed, 5 May 2010 15:56:50 -0700 (PDT)
+Received: by 10.223.101.4 with SMTP id a4mr6023238fao.71.1273100209251;
+        Wed, 05 May 2010 15:56:49 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 9si761326fks.26.2010.05.05.15.56.48;
+        Wed, 05 May 2010 15:56:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 223EF2E8AFC; Wed,  5 May 2010 22:56:47 +0000 (UTC)
+Old-Return-Path: <schwarzerf@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 57B902E8AFA
+	for <lists-debian-kde@liszt.debian.org>; Wed,  5 May 2010 22:56:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id R1pFWbgb0B-F for <lists-debian-kde@liszt.debian.org>;
+	Wed,  5 May 2010 22:56:33 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.156])
+	by liszt.debian.org (Postfix) with ESMTP id E88CC13A4473
+	for <debian-kde@lists.debian.org>; Wed,  5 May 2010 22:56:33 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id e12so204041fga.12
+        for <debian-kde@lists.debian.org>; Wed, 05 May 2010 15:56:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=+sayMmsSopT7d2SDeNDXrMkkvMw5bvtrzj+5i+kDK70=;
+        b=WSV8eKQloxWJuzl0H0UF4tGirq2auAWR7+HjPOyxkCSUNrtnl3Hbrw1upuuQHpv0nv
+         59CAOQj+/39dZY7qtLLv74xPU26PEM1hspE7PJtiBPd2TGA89vWF+bW1yS5ZHi/f06cU
+         N3sFnXqtMoC8dHukhiZbLV2XzOiNmZo/U+Gr0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+         :content-type:content-transfer-encoding:message-id;
+        b=H6ZZkt1ZzsX4rge4pDVIPFhoFgz4qCfAr2e5GYmT3obiq9oZL8yWcH8Qhi8rxCvQkh
+         g1gncpDyBCEZEmonXMvvC0INruVz+wrLWqhF6wUk316WN5KIs6N5GfSDTX1lWbYurhN6
+         f6J71JAiyX7tzToweCYu28VhPBDmJmQCKWy40=
+Received: by 10.87.63.21 with SMTP id q21mr488727fgk.52.1273100189340;
+        Wed, 05 May 2010 15:56:29 -0700 (PDT)
+Received: from tamaki.localnet (g225202030.adsl.alicedsl.de [92.225.202.30])
+        by mx.google.com with ESMTPS id e11sm14869418fga.3.2010.05.05.15.56.28
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 05 May 2010 15:56:28 -0700 (PDT)
+From: Frederik Schwarzer <schwarzerf@csmining.org>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 00:53:05 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-fs; KDE/4.4.3; i686; ; )
+References: <20100505202449.GA26153@ana.debian.net> <20100505215835.GA28472@ana.debian.net> <201005051754.11314.bss@iguanasuicide.net>
+In-Reply-To: <201005051754.11314.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005060053.06246.schwarzerf@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <e_GqeHCiFf.A.zGC.vef4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32074
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 22:56:47 +0000 (UTC)
+
+[Boyd Stephen Smith Jr. - Donnerstag 06 Mai 2010 00:54:06] 
+> On Wednesday 05 May 2010 16:58:35 you wrote:
+> > On Wed, May 05, 2010 at 04:21:15PM -0500, Boyd Stephen Smith Jr. wrote:
+> > > On Wednesday 05 May 2010 15:24:49 Ana Guerrero wrote:
+> > > > Following Qt 4.6.2, uploaded a couple of weeks ago, KDE 4.4.3, has
+> > > > finally found its way to unstable in the last 48 hours.
+> > > > Given KDE 4.5.0 is not expected until August, it is likely the next
+> > > > point release, 4.4.4, will be the KDE version included in next Debian
+> > > > stable, Squeeze.
+> > >
+> > > Please don't force an "Akonadi-enabled" PIM suite on stable users before
+> > > they are provided with an Akonadi that can use something other than
+> > > MySQL.
+> > 
+> > KDE 4.4 is the current stable release, there is not much more options here
+> > with the freeze happening around the summer *before* 4.5 is out.
+> > Good news is you have at least a couple of months to develop a patch for
+> >  this.
+> 
+> Would Debian accept such a patch?  Upstream will not apply it to the 4.4.x 
+> line.
+> 
+> Upstream is already in the process of getting this done for the 4.5 release.
+> 
+> What about shipping KDEPIM 4.3.x?  It works fine with KDEBASE 4.4.x.
+> 
+> Also, what happened to freezing when appropriate ("when it's done")?  Stable 
+> users don't want a half-baked OS.
+> 
+> Okay, ending this email here, because thinking about a stable Debian that 
+> includes KDEPIM 4.4 angers and saddens me.
+
+How does having a kdepim that depends on mysql declare kde as "broken"?
+Sure, many oppose to that dependency, but it works, doesn't it?
+
+(at least here it does; better than the version from 4.3)
+
+Regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005060053.06246.schwarzerf@csmining.org
+
+

@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287e4193927f80e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs559995wfb;
+        Sun, 9 May 2010 11:09:07 -0700 (PDT)
+Received: by 10.223.21.23 with SMTP id h23mr3179345fab.21.1273428546472;
+        Sun, 09 May 2010 11:09:06 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si6769376fay.31.2010.05.09.11.09.05;
+        Sun, 09 May 2010 11:09:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6A47313A56DA; Sun,  9 May 2010 18:09:00 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0052213A5569
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 18:08:55 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id pVQRKfqYqc58 for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 18:08:47 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 9C07413A5430
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 18:08:47 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OBAvg-0008WV-57
+	for debian-user@lists.debian.org; Sun, 09 May 2010 20:08:40 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 20:08:40 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 20:08:40 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: Iceweasel/FF makes the embedded videos going 4 times faster  
+ when it bugs!
+Date: Sun, 9 May 2010 18:08:29 +0000 (UTC)
+Lines: 44
+Message-ID: <pan.2010.05.09.18.08.28@csmining.org>
+References: <87y6ftcbuv.fsf@merciadriluca-station.MERCIADRILUCA>
+	<pan.2010.05.09.16.04.21@csmining.org>
+	<87632xc9p4.fsf@merciadriluca-station.MERCIADRILUCA>
+	<pan.2010.05.09.17.04.53@csmining.org>
+	<87y6ftvv37.fsf@merciadriluca-station.MERCIADRILUCA>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LDDCI8WdoRK.A.kxB.8ov5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576300
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 18:09:00 +0000 (UTC)
+
+On Sun, 09 May 2010 19:33:16 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>>>> Check if you already have the Adobe flash player version installed in
+>>>> your system.
+>>> Sure, and even the non-free one, that I installed manually. Adobe
+>>> (http://www.adobe.com/software/flash/about/) confirms it:
+>>> 
+>>> ==
+>>> You have version 10,0,22,87 installed ==
+
+Side note: I've got "10.0.45.2" :-P
+
+>> Can you send a concrete URI where you are getting problems so we can
+>> check?
+> Whatever video you could ever get on youtube. Let's take for example
+> http://www.youtube.com/watch?v=7GxLNNu74DE&feature=related if you want a
+> concrete URI. I could play it many times (without actually watching it
+> because I am currently not interested in it, I just took it as randomly
+> as possible), and it would always work, but, after some hours of use,
+> the video would double/triple/quadruple speed.
+> 
+> It happens more often with some websites, but videos need to be
+> `sufficiently long.' Such a website (which causes more often problems
+> with the player) is rtlinfo.be. Take for example the video
+> 
+> http://www.rtlinfo.be/info/economie/monde/521282/zone-euro-les-pays-a-
+la-rescousse-de-la-monnaie-unique
+> The player could here stall, or go quite faster than expected. Not
+> normal, definitively.
+
+No, definitely not normal. And it's even weirder the behaviour you are 
+describing here because once the video has been fully buffered, it should 
+reproduce smoothly, with no glitches nor pauses and no at double-triple 
+speed, of course :-)
+
+Have you try to clean Icewasel's cache? History, temporary and cookie 
+files... they tend to increase their size very easily.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.09.18.08.28@csmining.org
+
+

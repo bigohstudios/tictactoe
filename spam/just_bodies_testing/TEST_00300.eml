@@ -1,0 +1,39 @@
+Re: fglrx driver in debian squeeze in limbo - any ideas?On Mon, 03 May 2010 01:48:02 -0400, Zachary Uram wrote:
+
+> This sucks. Stupid closed source drivers cause such problems. Any
+> workaround I can do?
+> 
+> I need to build the fglrx driver for debian squeeze (ati radeon hd 4550
+> card), but I just saw this bug
+> saying the packages have been removed from testing due to a conflict
+> with the x.org transition.
+> 
+> The packages referred to here: http://wiki.debian.org/ATIProprietary
+> such as "fglrx-control" and "fglrx-driver" are no longer available so
+> what should I do?
+
+You mean these? :-?
+
+http://packages.debian.org/squeeze/fglrx-control
+http://packages.debian.org/squeeze/fglrx-driver
+
+> I don't know when the x.org transition will be finished and I really
+> want 3D acceleration so I can play my games :(
+> 
+> So for now I must use the open source radeon driver which cannot do 3D
+> :(
+
+You can always download the driver from ATI site and compile yourself.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.03.09.43.31@csmining.org
+
+

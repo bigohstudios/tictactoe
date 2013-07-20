@@ -1,0 +1,46 @@
+Re: libc6 upgrade lenny to squeeze failed, now dpkg is brokenOn 5/12/2010 4:24 PM, Chris Austin wrote:
+
+> I've learned today that when there are circular conflicts while upgrading, e.g.
+> libcairo2 has to be upgraded to install xulrunner-1.9.1, but upgrading
+> libcairo2 breaks xulrunner-1.9, it helps to use the dpkg --auto-deconfigure
+> option before the -i action-parameter, e.g.
+>
+> dpkg --auto-deconfigure -i libcairo2_1.8.10-4_i386.deb
+>
+> Then dpkg gives a nice message about considering deconfiguration of
+> xulrunner-1.9, then decides to do it, and it works, or at least, it has done,
+> the two or three times I have tried it today.
+
+
+This may be a better way than I have been forced to do it.  Circular 
+depencies crop up in Sid a lot.  The solution then is usually to be 
+patient and wait for the Debians to straighten it out.
+
+However, sometimes, one can't wait, and at such times, I have downloaded 
+each package directly, using a web browser (or wget) and then used dpkg 
+with options like --ignore-depends= or --force-overwrite.  Not 
+recommended.  Not for newbies.  Not for the faint-of-heart.
+
+But if we wanted to play it safe, we would stick to stable, and only 
+upgrade to major releases.  And we would be content.  (And never learn 
+anything.)
+
+dpkg --auto-deconfigure is a gentler way, but you might want to see if 
+aptitude can make some suggestions before jumping off the deep end.
+
+And don't neglect the -s option of apt-get (and corresponding option of 
+other package managers) to do dry runs.
+
+
+MAA
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEB7E03.2080102@allums.com
+
+

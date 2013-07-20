@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ce576bbd1bf56
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs122395wfo;
+        Tue, 25 May 2010 00:22:36 -0700 (PDT)
+Received: by 10.223.26.206 with SMTP id f14mr5626326fac.96.1274772155249;
+        Tue, 25 May 2010 00:22:35 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k9si6547964fad.29.2010.05.25.00.22.34;
+        Tue, 25 May 2010 00:22:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A4B3113A5EA1; Tue, 25 May 2010 07:22:29 +0000 (UTC)
+Old-Return-Path: <florian@reitmeir.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1B4D513A5E93
+	for <lists-debian-laptop@liszt.debian.org>; Tue, 25 May 2010 07:22:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id AHetMXnASKid for <lists-debian-laptop@liszt.debian.org>;
+	Tue, 25 May 2010 07:22:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+X-Greylist: delayed 491 seconds by postgrey-1.31 at liszt; Tue, 25 May 2010 07:22:15 UTC
+Received: from asa.multi24.com (asa.multi24.com [78.47.247.194])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "mail.multi24.com", Issuer "ca.multi24.com" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id C094313A5E83
+	for <debian-laptop@lists.debian.org>; Tue, 25 May 2010 07:22:15 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by asa.multi24.com (Postfix) with ESMTP id 8D626109B353
+	for <debian-laptop@lists.debian.org>; Tue, 25 May 2010 09:14:02 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at rescue
+Received: from asa.multi24.com ([127.0.0.1])
+	by localhost (asa.multi24.com [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id XtwGxb7MrQWp for <debian-laptop@lists.debian.org>;
+	Tue, 25 May 2010 09:13:59 +0200 (CEST)
+Received: from schrank.ibk.reitmeir.org (d91-128-22-46.cust.tele2.at [91.128.22.46])
+	(Authenticated sender: mail.squat.florian)
+	by asa.multi24.com (Postfix) with ESMTPA id 6B36A109B345
+	for <debian-laptop@lists.debian.org>; Tue, 25 May 2010 09:13:59 +0200 (CEST)
+Date: Tue, 25 May 2010 09:12:25 +0200
+From: Florian Reitmeir <florian@reitmeir.org>
+To: debian-laptop@lists.debian.org
+Subject: Re: Not resuming from hibernation; doing normal reboot instead
+Message-ID: <20100525091225.387359e1@schrank.ibk.reitmeir.org>
+In-Reply-To: <4BF917C2.1080000@csmining.org>
+References: <4BF917C2.1080000@csmining.org>
+Organization: Florian Reitmeir
+X-Mailer: Claws Mail 3.7.5 (GTK+ 2.20.0; x86_64-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BfA1PoQvJ4O.A.WBD.1q3-LB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34152
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 07:22:29 +0000 (UTC)
+
+On Sun, 23 May 2010 16:25:46 +0430
+Nima Azarbayjany <i.adore.debian@csmining.org> wrote:
+
+> I have a recent install of Squeeze on my HP Pavilion dv5 laptop and 
+> hibernate is not working for me.
+
+> Let me add that I chose LVM when I was setting up partitions.  Is
+> this possible that the resume image is not seen because the swap
+> partition might be unavailable?
+
+yes that is possible the problem. The resume partition is not an swap
+paritition.. it just uses the same space.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100525091225.387359e1@schrank.ibk.reitmeir.org
+
+

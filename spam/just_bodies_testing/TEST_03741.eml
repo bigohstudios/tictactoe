@@ -1,0 +1,49 @@
+Re: gforce 9400On Fri, 09 Apr 2010 10:02:06 +0200, steef wrote:
+
+> got myself a asusrock standard atx mobo with a gforce 9400 (nvidia) in a
+> pci-express slot. i have to use the 195 4driver from *their* site. the
+> standard lenny driver for nvidia does not support this hardware. (or am
+> i wrong??)
+
+Mmmm... is that "9400 GT"? If yes, maybe the stock nvidia kernel module 
+available in Lenny may work.
+
+I've got installed "173.14" from debian repos and AFAIK, nvidia driver 
+(173.08) at least supported that card (9400 GT).
+
+> well: everything works fine except for ane thing: sometimes, quite
+> unexspected, my screen freezes completely; a nuisance.
+> 
+> somebody with maybe the same experience and a solution for this driver
+> problem?
+
+That's annoying :-(
+
+I would first try with "nv" driver (no 3D accel) to discard the freeze 
+coming from another source. If using "nv" driver and you get no more 
+freezes, then you can safely blame the nvidia driver and try by searching 
+your same issue in the usual way:
+
+http://www.google.com/webhp?hl=en#hl=en&q=nvidia+debian+freezes&fp=b50e415e8c6b0d49
+
+http://www.nvnews.net/vbulletin/forumdisplay.php?s&forumid=14
+
+Another option could be trying with an older nvidia driver (from their 
+website) as newer nvidia drivers may have glitches with older xorg 
+relases.
+
+P.S. I am not seeing any relevant error (EE) or warning (WW) message in 
+the provided Xorg log file.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.09.13.44.09@csmining.org
+
+

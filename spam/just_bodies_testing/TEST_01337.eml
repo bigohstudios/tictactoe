@@ -1,0 +1,29 @@
+Re: backup apt tree?From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Liviu Andronic schreef:
+> On Wed, Apr 21, 2010 at 12:18 AM, T o n g <mlist4suntong@yahoo.com> wro=
+te:
+>> On Tue, 20 Apr 2010 17:52:33 -0500, Ron Johnson wrote:
+>>> so anything catastrophic as to trash var/ will best be solved by a
+>>> complete reinstall.
+>> 2nd to that. package downgrading would never be "quickly and painlessl=
+y".
+>> Do a complete system restore, that'd be more quickly and painlessly th=
+an
+>> downgrading.
+>>
+> I am sorry but I don't quite follow. What could go wrong when trying
+> to downgrade a couple of packages (one of which misbehaves following
+> an upgrade)?
+Downgrading is not supported. Changing the apt-config just means that=20
+the apt-files don't reflect the state of your system (as mentioned=20
+elsewhere in this thread). It will *not* fix your problem.
+You can of course uninstall the package and reinstall a previous version =
+
+directly from its deb. To get that deb, you can use snapshot.debian.org=20
+or get it from the testing or stable repos.
+
+Sjoerd
+

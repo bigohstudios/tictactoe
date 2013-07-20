@@ -1,0 +1,51 @@
+Re: Filesystem recommendationsOn Thu, Apr 29 at  9:50, Stephen Powell penned:
+> 
+> I agree with John.  Stan must hobnob with an elite crowd.  I don't
+> have a UPS at home either, and I don't know anyone that does.  I do
+> have one at work, but even there most desktop systems aren't on it.
+> The only reason that my desktop system uses the UPS is that my
+> cubicle is on raised floor inside the computer room and I connected
+> it myself.  Most desktop users, even at the office, are not so
+> privileged.  And my employer is a very big entity, financially.
+> It's not a small business.
+
+I don't have one on my home workstation - I do on the server, and I keep
+anything important on it.  I've also found that UPSes can fail
+eventually, and you might not know until the brown-out from which it
+doesn't protect you.  I use ext3 on the server, which has fine
+erformance for my needs.  I use the OS Which Must Not Be Named on my
+workstation.
+
+(I don't have a good reason not to have a UPS on my workstation -
+basically laziness.)
+
+As far as I know, no one at my mid-sized company has a UPS on his or
+her workstation.  The expectation, again, is that important data goes
+on the fileserver, although for various reasons that expectation is
+not always correct.  We do have the option of requesting backups for
+particular directories on our workstations, but I think they're
+nightly at best.  I've actually asked about getting a UPS here and
+there, but given that no one else has one and that we rarely get
+brownouts, let alone blackouts, I haven't pushed the question.
+
+I do see a lot of non-techie people using laptops as their only
+computer; none of those people run linux or would recognize the term
+"filesystem."  Among the techie people I know (in the US, so relatively
+privileged), very few use a laptop as their primary computer; it's
+usually a supplement to a beefier desktop machine.
+
+But regardless, this is back to one of those eternal tradeoffs -
+performance vs. data integrity.  I see no reason I shouldn't use a UPS
+*and* a journalling filesystem when the performance of that filesystem
+is adequate for my needs.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429161607.GG25336@mail.bounceswoosh.org
+
+

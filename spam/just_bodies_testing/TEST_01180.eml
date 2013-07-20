@@ -1,0 +1,28 @@
+Re: [ILUG] hwclockOn 0020 +0100 %{!Mon, Aug 19, 2002 at 11:30:12PM +0100}, Anthony wrote:
+> to the net. However, I didn't realise that Windows altered the hw clock
+> as there was no mention of it in any of the docs I read. 
+> I still dual-boot on a regular basis and if Windows is sneakily messing
+> with the clock, I'd be interested to know in what way it is and how it
+> couild be stopped from doing so.
+In my experience Windows will change the hardware clock the first time
+you boot into it after the clocks have gone forward/back an hour.  This
+will only happen twice a year. How to stop it, I have not checked (I
+just switch the clock back an hour from within windows after such a
+reboot).  Is there a GMT windows timezone?
+
+With ntp, it is a big no-no (afaik) to have other programs messing with
+the clock as it will put ntp's calculations of drift etc., out. (maybe
+this only applies to chrony, which is what I use).  If the windows
+change only moves forward an hour, and you shift back an hour, maybe ntp
+will be (relatively) ok (depends if all the remaining digits of time
+precision are left unchanged, probably they aren't exactly).
+m
+-- 
+Michael Conry   Ph.:+353-1-7161987, Web: http://www.acronymchile.com
+Key fingerprint = 5508 B563 6791 5C84 A947  CB01 997B 3598 09DE 502C
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

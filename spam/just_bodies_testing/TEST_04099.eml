@@ -1,0 +1,23 @@
+RE: [ILUG] slashdot EW Dijkstra humorOn Mon, 2002-08-12 at 19:56, Kenn Humborg wrote:
+> Well, you should consider 'break' inside a 'select' statement
+> to be part of the syntax, rather than a control flow modifier.
+
+Why? When it comes down to the assembly level, it gets turned
+into some kind of jump instruction. Should I pretend I don't know
+this when I'm programming?
+
+> A _mandatory_ part of the syntax, at that.
+
+It's not mandatory. You can leave out the break, and the flow
+of control will continue to the next case. Which can be useful
+in certain circumstances.
+
+Nick
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

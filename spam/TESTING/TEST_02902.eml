@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286e4988bf68f75
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs400756wfb;
+        Thu, 6 May 2010 08:43:53 -0700 (PDT)
+Received: by 10.87.70.7 with SMTP id x7mr1718308fgk.77.1273160632430;
+        Thu, 06 May 2010 08:43:52 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si2312629fkt.7.2010.05.06.08.43.51;
+        Thu, 06 May 2010 08:43:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 00FF113A560E; Thu,  6 May 2010 15:43:47 +0000 (UTC)
+Old-Return-Path: <richih.mailinglist@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A650413A55A5
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 15:43:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dlb9offy2Ysn for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 15:43:34 +0000 (UTC)
+Received: from mail-bw0-f210.google.com (mail-bw0-f210.google.com [209.85.218.210])
+	by liszt.debian.org (Postfix) with ESMTP id AED7D13A4A5B;
+	Thu,  6 May 2010 15:43:34 +0000 (UTC)
+Received: by bwz2 with SMTP id 2so57910bwz.30
+        for <multiple recipients>; Thu, 06 May 2010 08:43:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=v1RbH6lYWMKoG5nB9NremJ4RtUvxwo0HYZHM8xs2WM8=;
+        b=sDbDKECNNRYZq4pzyHrQTBsRwVYrDXtfCQEAjy6d+dd/4Ft6ClV48fydlqSESjLm91
+         q4D3EyL6gLiMXX08j2fev0TjgNybIhOOxaWVl4NHeS1TobXecAEDxktxy/R+NAqdQIED
+         gOHgpwOuBh7uphvYb5XFP5RltdEttRYMFgsEc=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=eRSIHkkHwAU4re8xn5lCh96infXaahhDcCgV1pT6j5bxlxbz83IgYzk8AJom8B+tTU
+         AeWXW6C250EbBIi0puGyVbw+5P8VerIa+cSJd2ySWiReAldwhSNSMdLWQ5hnOALOVPvS
+         HH08RhR2faeXZjqZ5Lx6yx+BIsKjzS86mxcz4=
+MIME-Version: 1.0
+Received: by 10.204.142.207 with SMTP id r15mr8502712bku.134.1273160609354; 
+	Thu, 06 May 2010 08:43:29 -0700 (PDT)
+Received: by 10.204.112.65 with HTTP; Thu, 6 May 2010 08:43:29 -0700 (PDT)
+In-Reply-To: <u2j880dece01005060559i8d269387ue479fb65b3fe4596@mail.csmining.org>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+	 <20100506120356.GT28964@n0nb.us>
+	 <u2j880dece01005060559i8d269387ue479fb65b3fe4596@mail.csmining.org>
+Date: Thu, 6 May 2010 17:43:29 +0200
+Message-ID: <h2n2d460de71005060843z7357e25avf427c3af53a92201@mail.csmining.org>
+Subject: Re: Kde 3.5 ...
+From: Richard Hartmann <richih.mailinglist@csmining.org>
+To: Dotan Cohen <dotancohen@csmining.org>
+Cc: debian-kde@lists.debian.org, debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PVfVuBZ8c8F.A.gzH.zOu4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32140
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 15:43:47 +0000 (UTC)
+
+On Thu, May 6, 2010 at 14:59, Dotan Cohen <dotancohen@csmining.org> wrote:
+
+> Please, let me know what KDE 4 is missing for you. KDE 4.4 has only a
+> handful of regressions from KDE 3.5.10, and they are not dealbreakers.
+> Some of those are addressed in KDE 4.5.
+
+Not missing as such, but there is one thing which annoys me to no end:
+
+On a Phenom X2 with 4 GiB RAM and a pretty new GFX card whose name
+I don't remember, I get random hangs while doing nothing more than light
+surfing with some minimal background activity.
+KDE 3.5.10 (almost) never has this issue. I know because I still use KDE
+3.5.10 at work and even though the hardware is _years_ older, it's a _lot_
+faster.
+And yes, I have Nepomuk off, no fancy effects, no nothing.
+Unfortunately, this is nothing you can file a bug against.
+
+Of course, computers become faster all the time and so the issue will
+somewhat solve itself over time, but still.
+
+
+The rest which annoys me can be found in the bug tracker.
+
+
+Richard
+
+PS: With 4.4, I migrated my gf to KDE 4. With 4.5, I might even start
+using unstable, and not lenny, at work again.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/h2n2d460de71005060843z7357e25avf427c3af53a92201@mail.csmining.org
+
+

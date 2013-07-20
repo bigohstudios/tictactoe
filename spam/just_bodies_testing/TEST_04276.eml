@@ -1,0 +1,40 @@
+Re: Heads UP icedove 3.0.4-2Joe wrote:
+> On 21/04/10 18:37, Wayne Topa wrote:
+>> just upgraded icedove on 686 & AND64 Squeeze.
+>>
+>> It runs on 686 but segfaults on AND64, my main system.
+>>
+>> Wayne
+>>
+>>
+>>
+> We've had it in Sid since at least 12/04. I'm using mail and news, LDAP 
+> addresses, I think I'm exercising most of it. No trouble here.
+> 
+> GA-MA74GM-S2H board, Athlon 7750.
+> 
+
+Well I have tried it multiple times and it keeps coming up with
+
+
+[VT/dev/pts/0 wtopa@dj-SQUEEZE]
+~$ /usr/lib/icedove/run-mozilla.sh: line 131:  8812 Segmentation fault 
+     "$prog" ${1+"$@"}
+
+
+When looking at that line # it does not jive with the error shown though.
+
+Maybe something missing in Squeeze that was not included in
+the depends?
+
+Good thing I still had the old version in the archives.  :-)
+
+Wayne
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF546D.1090200@csmining.org
+
+

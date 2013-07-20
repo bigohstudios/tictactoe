@@ -1,0 +1,27 @@
+Re: [SAtalk] Two rule suggestionsOn Fri, 19 Jul 2002, Justin Mason mused:
+> Shane Williams said:
+>> Also, if a single line of yelling scores -0.036, why not just round
+>> it off to 0 and not have the test run at all?
+> 
+> good question ;)
+
+It seems reasonable to have a configurable minimum below which
+spamassassin flattens the test to zero (turning it off): by default set
+to zero; but if you set it to say 0.01, spamassassin would ignore tests
+with scores -0.01<0<0.01 (trading accuracy for time).
+
+The overkill variant of this feature would have scores scored by (score
+* relative-time-taken) with relative-time-taken computed over a large
+corpus (probably Craig's ;} ). Then you could specify a minimum value of
+*that* parameter to flatten at, giving assurances that you're killing
+only tests that are expensive for their utility.
+
+Unfortunately I can't think of a good name for that parameter.
+
+I can whip up a patch if anyone thinks this is any use.
+
+-- 
+`There's something satisfying about killing JWZ over and over again.'
+                                        -- 1i, personal communication
+
+

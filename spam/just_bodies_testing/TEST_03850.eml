@@ -1,0 +1,29 @@
+Re: 64-bit netbooks with Debian linuxOn 05/03/2010 11:01 PM, Stan Hoeppner wrote:
+> Mark Allums put forth on 5/3/2010 5:01 PM:
+>
+>> With 64 bits, you will need more memory, so I suggest you look for a
+>> machine that can use 4 GB of memory.
+>
+> A user's application usage patterns dictate how much memory the machine
+> needs, not the width of the CPU registers.  The comment above belongs in the
+> winders user world, not here on the debian-user list, where we are assumed
+> to be competent OPs.  The reasoning behind your suggestion is totally flawed.
+>
+
+While Mark's comment is only superficially true, your response is 
+*really* uncalled for.
+
+For one thing, your first sentence is a /non sequiter/, irrelevant 
+as to whether a 64-bit system uses more memory than does a 32-bit 
+system.  (Which it does, since the pointers are larger.)
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDFA0A3.8090008@cox.net
+
+

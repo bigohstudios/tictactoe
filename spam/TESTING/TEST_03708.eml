@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888ca365283caf
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs4275wfb;
+        Tue, 11 May 2010 12:14:34 -0700 (PDT)
+Received: by 10.223.132.210 with SMTP id c18mr6828255fat.48.1273605273249;
+        Tue, 11 May 2010 12:14:33 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n24si12106367faa.34.2010.05.11.12.14.32;
+        Tue, 11 May 2010 12:14:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 54FF82E8B5A; Tue, 11 May 2010 19:14:30 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 06BC02E8B67
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 19:14:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id XIB9SqkDWkPT for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 19:14:17 +0000 (UTC)
+Received: from mail-gx0-f218.google.com (mail-gx0-f218.google.com [209.85.217.218])
+	by liszt.debian.org (Postfix) with ESMTP id 6EDF82E8B5A
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 19:14:17 +0000 (UTC)
+Received: by gxk10 with SMTP id 10so2894929gxk.10
+        for <debian-kde@lists.debian.org>; Tue, 11 May 2010 12:14:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=Uhcf73qi8XMSKEnGQRJ/Khr0OZyWRdwPU4zV8mUbfas=;
+        b=mLHsaPtmYMmJ+MNUnm9sPKkP6Hw+bIMq0NyFO1SWnlymweSClTIplCQctszoC1pOM7
+         +bnixal0mcVFaPf065e3xwTo+cbVg0y2eDYJHblo4iKdOYrTi5TE3DpvH01UNqn9zAo1
+         RWTwFYiKJuKrGrRE81ouv91lEvfdHtFu5F6WU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=WTdzJHE/LtmQYboTjm0jqemQ6BirTwM1FoCg5Bd99uXZwKY8+SImRTmxRWm7mqISs9
+         +XzAzjR9A4oA/O3XJKL7nQjKA47/I9FWvRCrbN91lvMPPpuJAkw9b01ZOfnWa8/Yg7XE
+         zZKauFVdwnXUdScwnY10SAqa5cUSJy2DE4Axw=
+MIME-Version: 1.0
+Received: by 10.229.187.71 with SMTP id cv7mr4689091qcb.81.1273605179931; Tue, 
+	11 May 2010 12:12:59 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Tue, 11 May 2010 12:12:59 -0700 (PDT)
+In-Reply-To: <hsb79h$103$1@dough.gmane.org>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+	 <201005102243.18541.d_baron@012.net.il>
+	 <AANLkTikKXtlNtFxxzL0KBryfAd4dhOYQFHkaAhqlG6gv@mail.csmining.org>
+	 <hsb79h$103$1@dough.gmane.org>
+Date: Tue, 11 May 2010 22:12:59 +0300
+Message-ID: <AANLkTikDtE74jeUnCtcYFVVId7vaBbpYlhWs_gVaNQK_@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Marcus Better <marcus@better.se>
+Cc: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <oBR-hTKKN_C.A.BNC.Wya6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32387
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 19:14:30 +0000 (UTC)
+
+On 11 May 2010 12:16, Marcus Better <marcus@better.se> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Dotan Cohen wrote:
+>> I though that all the serious Kmail crashers were fixed!
+>
+> How about this little gem that I reported in 2008 (Crash when deleting
+> messages):
+> =C2=A0https://bugs.kde.org/show_bug.cgi?id=3D163071
+>
+> I'm proud to report that this has now reached 100 duplicates and is the
+> third most often reported open bug in KDE. :-)
+>
+
+Marcus, I think that Kmail 2, with the Akonadi cache, will likely not
+suffer from this. In fact, I think that bug was one of the motivating
+factors into creating Akonadi! I don't promise anything, though you
+can already test Kmail 2.
+
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikDtE74jeUnCtcYFVVId7vaBbpYlhWs_gVaNQK_@mail.csmining.org
+
+

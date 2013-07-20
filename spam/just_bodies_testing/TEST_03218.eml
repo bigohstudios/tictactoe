@@ -1,0 +1,48 @@
+Re: Attach gdb to program?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 08 April 2010 16.04:39 Carsten Pfeiffer wrote:
+> Am Donnerstag, 8. April 2010 schrieb Adrian von Bidder:
+> > Given a Debian package (kmail, in this case, with installed kdepim-dbg
+> > package) and an extracted source package: how do I properly start gdb
+> > (or ddd or ...) so that it finds both the debugging symbols and the
+> > source code?
+> >=20
+> > Just gdb -p <pid> /usr/bin/kmail doesn't work :-(
+> >=20
+> > (I've only ever used gdb on locally compiled simple projects, I've
+> > never worked with the separate symbol files as delivered in -dbg
+> > packages.)
+>=20
+> Not sure if this is the same as your example, but I usually used
+>=20
+> gdb kmail
+> attach <pid>
+>=20
+> But check the output of ps aux | grep kmail -- if kmail is launched via
+> kdeinit or kdeinit4, you need to run "gdb kdeinit" or kdeinit4.
+
+Ok, I wasn't specific enough.  Sorry about that.
+
+What I meant with "doesn't work" is: it doesn't load the symbols.
+
+I have now tried "gdb /usr/lib/debug/usr/bin/kmail <pid>", and this gives m=
+e=20
+the symbols for the main binary (and if pwd is ok or I add "-d <path>" to=20
+the cmdline, it even shows the source code, so that's fine, too), but for=20
+all the shared libraries, I'm still stuck.
+
+add-symbol-file wants an address (where would I get this?); plain "symbol-
+file" crashes gdb (and in any case: wouldn't this *replace* the symbol tabl=
+e=20
+instead of add to it?)
+
+
+cheers
+=2D- vbi
+
+=2D-=20
+Anyone can invent a security system that he himself cannot break.
+        -- Schneier's Law

@@ -1,0 +1,48 @@
+Re: Chromium in SidFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Saturday 22 May 2010 12:08:39 Steve Fishpaste wrote:
+> On Fri, May 21, 2010 at 11:41:38AM -0500, John Hasler uttered:
+> > JohnRChamplin writes:
+> > > ...which used to be available from unstable, but which I have heard is
+> > > now in sid.
+> >=20
+> > Unstable _is_ Sid.
+> >=20
+> > In any case, a few weeks is not old.
+>=20
+> It is on a fast moving target, and especially in the case of a major
+> release. Many improvements are rolled into the recent 6.x release.
+>=20
+> For those of use that also use Debian on a desktop/Laptop BESIDES a
+> server; using old versions isn't usually desireable on the
+> workstations where stability isn't as necessary as that of a
+> production server.
+
+I used Etch on my desktop and Laptop for quite a while with little to no lo=
+ss=20
+of functionality.  I don't really understand why you think you need the lat=
+est=20
+release.  I want well-tested software so I can use it instead of fix it or=
+=20
+wait until it gets fixed.  I also want stable software so I'm not having to=
+=20
+relearn a UI every week or so.
+
+Now, I currently run a mixed system on both my desktop and laptop.  It=20
+includes packages from Lenny, testing, and Sid.  I originally did this to b=
+e=20
+able to use KDE SC 4.2.  I am hoping that I can switch back to using stable=
+=20
+Debian for both the desktop and laptop once Squeeze is released.
+
+I also use Debian on a number of servers.  I enable a mixed system there as=
+=20
+well, but I have yet to need to pull any packages from testing or Sid.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

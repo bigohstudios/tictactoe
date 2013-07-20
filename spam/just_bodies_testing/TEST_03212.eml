@@ -1,0 +1,22 @@
+Re: Lite SMTP server/daemonFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat, Apr 24, 2010 at 04:57:10AM -0500, Stan Hoeppner wrote:
+> You must have missed this in the OP's post.  It's omitted in your reply
+> quote as well:  "Users will send emails to a program running..."
+>=20
+> I take this to mean _remote_ network users.  msmtp-mta is an smtp _CLIENT_
+> only.  It will not fit the OP's need.  The OP's comment implies an smtp
+> listener is needed.
+
+Hello,
+
+I overlooked that.=20
+My apologies.
+
+Regards.
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB

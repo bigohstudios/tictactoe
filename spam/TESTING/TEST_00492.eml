@@ -1,0 +1,174 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e3515ac1b747e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs35683wfi;
+        Fri, 9 Apr 2010 09:05:13 -0700 (PDT)
+Received: by 10.223.45.83 with SMTP id d19mr248198faf.65.1270829112340;
+        Fri, 09 Apr 2010 09:05:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 23si3747567fxm.21.2010.04.09.09.05.11;
+        Fri, 09 Apr 2010 09:05:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AE61F13A64D8; Fri,  9 Apr 2010 16:05:05 +0000 (UTC)
+Old-Return-Path: <pecondon@mesanetworks.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3614313A633C
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 16:04:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gDvPykltXSTm for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 16:04:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from omta0110.mta.everyone.net (imta-38.everyone.net [216.200.145.38])
+	by liszt.debian.org (Postfix) with ESMTP id 8197F13A6260
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 16:04:45 +0000 (UTC)
+Received: from dm0226.mta.everyone.net (sj1-slb03-gw2 [172.16.1.96])
+	by omta0110.mta.everyone.net (Postfix) with ESMTP id 10EAE63B493
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 09:04:42 -0700 (PDT)
+X-Eon-Dm: dm0226
+Received: by dm0226.mta.everyone.net (EON-AUTHRELAY2 - 4813b144) id dm0226.4bbbd58b.ab157
+	for <debian-user@lists.debian.org>; Fri, 9 Apr 2010 09:04:41 -0700
+X-Eon-Sig: AQMnnbRLv1AZ+mnWIwIAAAAB,7c5061d49256600aef730fff40690666
+Received: from pec by big.lan.gnu with local (Exim 4.71)
+	(envelope-from <pecondon@mesanetworks.net>)
+	id 1O0Ggx-0001bp-Pu
+	for debian-user@lists.debian.org; Fri, 09 Apr 2010 10:04:23 -0600
+Date: Fri, 9 Apr 2010 10:04:23 -0600
+From: Paul E Condon <pecondon@mesanetworks.net>
+To: debian-user@lists.debian.org
+Subject: Re: About USB hard drives and errors
+Message-ID: <20100409160423.GB5664@big.lan.gnu>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100409004433.GA2823@big.lan.gnu>
+ <4BBE827D.2000301@cox.net>
+ <4BBF46BA.1060709@cox.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BBF46BA.1060709@cox.net>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Wx6o7PA89ZO.A.zmB.xA1vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573724
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 16:05:05 +0000 (UTC)
+
+On 20100409_102442, Ron Johnson wrote:
+> On 2010-04-08 20:27, Ron Johnson wrote:
+> >On 2010-04-08 19:44, Paul E Condon wrote:
+> >>I want to use the low cost high capacity hard drives that are
+> >>for sale in places like Best Buy and Costco. I have put ext3 on
+> >>several of them and started experimenting. The results so far
+> >>are puzzling.
+> >>I do get errors. So I decided to do scans for bad blocks.  The drives
+> >>I'm using are all Western Digital because they have been the lowest
+> >>cost at the times I buy at Costco. Also all are 500GB.
+> >>e2fsck -c <device> is supposed to scan for bad blocks and allocate them
+> >>to a special inode so that they cannot be used. It runs for 3 to 4
+> >>hours and then says its finished with no indication of how many bad
+> >>blocks it found.
+> >>
+> >[snip]
+> >>
+> >>Has anyone ever used these programs? Have you ever seen useful output?
+> >>What SHOULD they do (with a little more specificity and believability)?
+> >>
+> >
+> >Not a direct answer to your question, but: I never leave home
+> >without -vfFC0.  (The Unix Way is to "say something" only upon
+> >failure, but I like continuous feedback.)
+> >
+> 
+> (The "dumpe2fs -b" command should show you all your bad blocks.)
+> 
+> Here's the result of me checking for bad blocks:
+> 
+> # e2fsck -c -vfFC0 /dev/mapper/main_huge_vg-main_huge_lv
+> e2fsck 1.41.10 (10-Feb-2009)
+> Checking for bad blocks (read-only test): done
+> 
+> BIG_LV: Updating bad block inode.               <<<<<<<<<<  Note!!
+> Pass 1: Checking inodes, blocks, and sizes
+> Pass 2: Checking directory structure
+> 
+> Pass 3: Checking directory connectivity
+> 
+> Pass 4: Checking reference counts
+> 
+> Pass 5: Checking group summary information
+> 
+> 
+> 
+> BIG_LV: ***** FILE SYSTEM WAS MODIFIED *****
+> 
+>   301084 inodes used (0.12%)
+>    14172 non-contiguous files (4.7%)
+>      121 non-contiguous directories (0.0%)
+>          # of inodes with ind/dind/tind blocks: 0/0/0
+>          Extent depth histogram: 294700/6219
+> 560591687 blocks used (58.03%)
+>        0 bad blocks
+>      128 large files
+> 
+>   292926 regular files
+>     7972 directories
+>        0 character device files
+>        0 block device files
+>        0 fifos
+>        0 links
+>      177 symbolic links (155 fast symbolic links)
+>        0 sockets
+> --------
+>   301075 files
+> 
+
+Thanks Ron.
+
+Your option strings will do wonders for future e2fsck runs.  
+
+But ... Why does the output say that the disk was modified
+during the run? There were no badblocks found. What needed
+modification?
+
+Do you have similar magic for dumpe2fs?
+
+Of course your output presented here indicates that
+you HD is not one on which you can verify badblock
+printing, since your disk has no badblocks.
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409160423.GB5664@big.lan.gnu
+
+

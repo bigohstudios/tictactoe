@@ -1,0 +1,36 @@
+Re: belocs-locales-bin brokenOn Mon, 2010-04-26 at 13:48 -0500, Boyd Stephen Smith Jr. wrote:
+> On Sunday 25 April 2010 07:45:28 John A. Sullivan III wrote:
+> > I put through a pile of updates on many Lenny systems this morning and
+> > they all errored with:
+> > 
+> >   az_AZ.UTF-8... up-to-date
+> >   be_BY.UTF-8... up-to-date
+> >   be_BY.UTF-8@latin... up-to-date
+> >   ber_DZ.UTF-8... cannot open locale definition file `ber_DZ': No such
+> > file or directory
+> 
+> This locale may not be supported by belocs-locales-bin; check 
+> /usr/share/i18n/SUPPORTED.
+> 
+> > dpkg: error processing belocs-locales-bin (--configure):
+> >  subprocess post-installation script returned error exit status 4
+> > Errors were encountered while processing:
+> >  belocs-locales-bin
+> > E: Sub-process /usr/bin/dpkg returned an error code (1)
+> > 
+> > Is something broken in the belocs-locales-bin package? Thanks - John
+> 
+> I think it is not needed anymore.  ISTR upstream for it being quite dead 
+> because the main reason it was created is now a feature of the normal locales 
+> package.  I migrated away from it when I moved from Etch to Lenny.
+Strange.  I was using locales.  This was a forced change when I
+installed Evolution from Squeeze.  It insisted on removing loales and
+replacing it with belocs - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272381324.1084.1.camel@Family.pacifera.com
+
+

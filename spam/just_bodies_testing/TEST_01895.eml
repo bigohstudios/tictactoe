@@ -1,0 +1,21 @@
+Re: New Clamav-daemon ErrorFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Apr 13, 2010 at 07:24:29PM +0300, David Baron wrote:
+> ~$ sudo /etc/init.d/clamav-daemon start
+> Starting ClamAV daemon: clamd ERROR: Unknown group 20 Incorrect number of=
+=20
+> arguments
+>  failed!
+>=20
+> After latest upgrade. Anyone have a quick fix?
+
+Yes :
+Change the 2 lines in /etc/clamav/clamd.conf :
+
+LocalSocketGroup amavis
+LocalSocketMode 770
+
+Bug #577499

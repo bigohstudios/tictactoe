@@ -1,0 +1,35 @@
+Re: X starting but nothing shows on the screenOn 2010-05-11 09:25 +0200, Anthony Campbell wrote:
+
+> On 10 May 2010, Sven Joachim wrote:
+>> On 2010-05-10 09:47 +0200, Anthony Campbell wrote:
+>> 
+>> > Which kernel? With 2.6.32-5-685, X always locks up here? The mouse
+>> > freezes and all the keys are inactive so I have to do a hard reset. This
+>> > happens with both the nv and vesa drivers.
+>> 
+>> You should try nouveau or fbdev with that kernel.  The 2.6.32-5-$ARCH
+>> kernel autoloads nouveau.ko which provides kernel modesetting, and both
+>> nv and vesa are not compatible with that.
+>> 
+>
+> I have nouveau and it works with 2.6.32-4-686. It doesn't work with
+> 2.6.32-5-686; no screens are found.
+
+You said that the freeze happens with nv and vesa, no mention of nouveau…
+Anyway, please file a bug report.  If the nouveau X driver works with
+2.6.32-4-686 but not 2.6.32-5-686, linux-2.6 is the right package.
+
+> This is on my desktop. On my laptop, with radeon, nouveau works.
+
+It surely does not because it's only for Nvidia hardware.  Whatever
+works with your Radeon card must be something else.
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/871vdivq44.fsf@turtle.gmx.de
+
+

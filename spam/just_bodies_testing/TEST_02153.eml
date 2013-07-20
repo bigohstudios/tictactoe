@@ -1,0 +1,51 @@
+Re: lilo removal in squeeze (or, "please test grub2")Hi,
+
+On Sat, May 22, 2010 at 10:39:52PM -0500, William Pitcock wrote:
+> (4) Users need to test grub2 now.
+
+I've been using grub2 for quite some time now on several different
+systems with mixed success.
+
+On simple standard system -- one disk, one kernel in /boot, no fancy
+stuff -- it works quite well.
+
+On other systems it often breaks miserably. Updates leave my system
+unbootable every other time. One major problem are incompatible
+versions of the boot loader installed in the MBR and grub.cfg.
+
+Currently, automatic installation of grub in the MBR is a no-go for me,
+because of #554790 but I can't prevent grub from automatically
+updating grub.cfg which leads to incompatible versions, hence an
+unbootable system. 
+
+On some systems the generated grub.cfg is useless for me. On each
+update I have to check for changes and incorporate them in my own
+hand-edited version.
+
+It is my belief, that the whole automagic configuration system as it
+is now is far to complex and convoluted. It is too inflexible to
+support any requirements by the user the developers haven't thought
+about and in this case you have to work actively against the system to
+get what you want. See #578576. I'm not sure if this can be fixed or
+if the whole system has to be rethought. Currently I'd tend to the
+latter.
+
+And because of the tight dependency between the loader and grub.cfg
+and zero-tolerance of the loader to unknown parameters in grub.cfg, it
+is far too fragile and very easily leads to an unbootable system.
+
+Because of this, coupled with the many open bugs and the lack of
+documentation, I'm not sure if grub2 is ready to be released to the
+unsuspecting public.
+
+Cheers,
+harry
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100525090027.GA30023@sbs288.lan
+
+

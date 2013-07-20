@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286f8b7a73077d7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs418752wfb;
+        Thu, 6 May 2010 14:35:32 -0700 (PDT)
+Received: by 10.223.35.12 with SMTP id n12mr7259687fad.35.1273181731695;
+        Thu, 06 May 2010 14:35:31 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si815876fas.51.2010.05.06.14.35.31;
+        Thu, 06 May 2010 14:35:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5C49F2D0D2D; Thu,  6 May 2010 21:35:27 +0000 (UTC)
+Old-Return-Path: <n0nb@n0nb.us>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9301B2D0D4C
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 21:35:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6wpcoVJiRGYe for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 21:35:14 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from p3plsmtpa01-07.prod.phx3.secureserver.net (p3plsmtpa01-07.prod.phx3.secureserver.net [72.167.82.87])
+	by liszt.debian.org (Postfix) with SMTP id E80E42D0D3C
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 21:35:06 +0000 (UTC)
+Received: (qmail 6911 invoked from network); 6 May 2010 21:35:02 -0000
+Received: from unknown (12.187.50.57)
+  by p3plsmtpa01-07.prod.phx3.secureserver.net (72.167.82.87) with ESMTP; 06 May 2010 21:35:02 -0000
+Date: Thu, 6 May 2010 16:35:00 -0500
+From: Nate Bargmann <n0nb@n0nb.us>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Message-ID: <20100506213500.GU28964@n0nb.us>
+Mail-Followup-To: debian-kde@lists.debian.org
+References: <20100505202449.GA26153@ana.debian.net>
+ <201005060913.06917.didi.debian@cknow.org>
+ <20100506112823.GS28964@n0nb.us>
+ <201005061422.51375.schwarzerf@csmining.org>
+ <20100506130552.GA18442@n0nb.us>
+ <hruge0$8km$1@dough.gmane.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <hruge0$8km$1@dough.gmane.org>
+X-Operating-System: Linux 2.6.32-3-686 i686
+Organization: Amateur Radio!
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bBAoZgC38kD.A.PIC.fYz4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32195
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 21:35:27 +0000 (UTC)
+
+* On 2010 06 May 08:33 -0500, Didier 'OdyX' Raboud wrote:
+> Nate Bargmann wrote:
+> 
+> > Now that my system is poised to update to KDE 4.4, I think this
+> > is where I'll get off the train and let KDE go where it wants and I
+> > shall go elsewhere.
+> > 
+> > Thanks for the fish.
+> > 
+> > - Nate >>
+> 
+> Free software is all about freedom:
+> 
+>  - developers are free to assign their time to whatever they see fit
+>  - other developers are free to fork code and use a given codebase
+>  - users are free to use the code
+>  - … or not.
+
+Please don't pander.  I am well aware of the above as I also develop a
+bit of Free Software that is in Debian.
+
+> You are free to choose whatever software fits you best. Your problem seems 
+> that Debian won't ship KDE 3.5 because nobody (so far) is interesting in 
+> doing the work. No ranting will change that (rather the opposite even).
+
+"Problem"?  Sorry, no problem with Debian here from me.  How you have 
+inferred such is interesting as I've made no comment regarding the
+Debian KDE package team and their decisions (noting well that the team
+has almost no choice but to package what upstream makes available as
+current code).  I'm making comments about one version of KDE versus 
+another which is the same regardless of the distribution.
+
+> I see two paths you can take :
+> 
+>   * change DE and stop ranting
+
+Sorry, bub, but you have me confused with someone else.  I am not
+engaging in a rant of any sort but have merely stated my observations
+from using various versions of KDE and how it works or doesn't *for me*
+(I've noted that several times in this thread, in fact).  The fact that 
+you obviously dislike reading my opinion doesn't mean I have to listen 
+to you telling me to shut up about it.
+
+>   * contribute and change the situation
+
+As a small time dev myself I can tell from that statement that you are
+not one as that is the fastest way to discourage contribution from the
+users of your software.  Any dev that does believe that is on the fast
+track to irrelevancy,
+
+> That's just IMHO.
+
+Funny, my comments have been strictly about the software.  Your comments
+have been strictly about *me*.  Interesting...
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506213500.GU28964@n0nb.us
+
+

@@ -1,0 +1,49 @@
+Re: Can't play 24bit/96kHz flac filesOn Sat, May 1, 2010 at 22:03, James Stuckey <jhstuckey@csmining.org> wrote:
+>
+>> * Native capability of sound card can be found from
+>> cat /proc/asound/card0/pcm0p/sub0/hw_params
+>>
+>> * Decoding is done by the player itself, most probably the decoder
+>> output format in your case would be 96khz, 24 bit little endian. =A0If
+>> the native rate of your card is only 44100Hz/48000Hz, it can not
+>> support this.
+>>
+>> * In order to play this format this has to be downsampled. =A0The
+>> downsamping could be done either by 1) the player itself, but it
+>> completely depends upon the features and capabilities of the player or
+>> 2)by the (alsa) driver.
+>>
+>> So these are your options.
+>> * Try out different players as Camale=F3n suggested.
+>>
+>> * Many players allow you to specify the output audio device.
+>> Try "plughw:0,0" instead of the default one. =A0This is a special device
+>> given by alsa to do audio processing.
+>>
+>
+> Another possibility would be to down-sample the file and then play it wit=
+h
+> mocp. How does one down-sample a .WAV file?
+>
+> I tried "mplayer -ao plughw:0,0 file.mp3" but I got:
+> No such audio driver 'plughw'
+> No such audio driver '0'
+> Could not open/initialize audio device -> no sound.
+> Audio: no sound
+>
+>
+>
+
+You have that option always.  Decode it user flac decoder to wave
+file, then downsample it.  You could encode it back to mp3/ogg etc.
+There are many programs to do downsampling.  I think even the
+lame/oggenc support downsampling.
+Otherwise install the package "samplerate-programs" and sndfile-resample
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2jd0bf7b0b1005011916nda76a074i251e553955140e12@mail.csmining.org
+
+

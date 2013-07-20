@@ -1,0 +1,42 @@
+Re: Some questions about @property and @synthesizeOn 18 May 2010, at 11:48, Jason T. Slack-Moehrle wrote:
+
+> I don't understand these, I know they are new to objective-c 2.
+> 
+> How does one use these properly?
+> 
+> So with @synthesize I would not create getters and setters? What ones does it infer?
+
+I think these ones 11111111!
+> 
+> If I create a class how do I instantiate it? In C++ I would do something like FileListView f = new FileListView and have code that runs in that method.
+
+What method?
+
+> Do i just give me class I created a main() function and does that get auto executed?
+
+
+?
+
+Getters and setters are a bad idea, just verbosity of language. Retrieving a value from an object should be as simple as:
+
+a := b.c
+
+where c could be a variable or a function. You should not be able to tell. That way you can always change the implementation.
+
+However,
+
+b.c := <expression>
+
+you do want the object b to check that it is valid to set c to the value of the expression. If you are not using garbage collection, you want the common idiom of reference counting statements generated for you.
+
+Objective-C 2.0 is a great improvement in terms of you don't have to write so much junk (well, repetitive code). However, @property and @synthesize aren't exactly ideal, but just look at what you have to write without them.
+
+Ian
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

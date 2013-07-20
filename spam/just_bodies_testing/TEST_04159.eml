@@ -1,0 +1,34 @@
+Re: Kde 3.5 ...From nobody Sat Jul 20 14:17:34 2013
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+On 05/06/2010 06:10 AM, Marc Haber wrote:
+> Hi,
+>
+> On Thu, May 06, 2010 at 11:39:04AM +0200, Frederik Schwarzer wrote:
+>    
+>> Why is KDE 4 for you no option? Does it not work for you? Or do you just
+>> not like the concepts? The KDE developers are open for suggestions, as
+>> long as these are not "give me kicker back" or alike.
+>>      
+> Konsole 4's Profile handling is utterly broken. There are multiple
+> bugs open upstream about this, none of which has been commented on by
+> the developers. I don't see any interest of upstream in fixing these
+> issues.
+>
+> I still hope that 4.4.3 will fix the krunner instabilities that were
+> introduced in 4.4.
+>
+> These two issues make me wish to have kde3 back every single day. Eye
+> candy is important, which kde4 has more than kde3, but breaking my
+> bread-and-butter application that badly is a real turn-off.
+>
+> Greetings
+> Marc
+>
+>    
+Im using kde 4.4.3 and I rather like it. However there is a fork of KDE 
+3.5.x http://trinity.pearsoncomputing.net/
+You could compile the packages yourself. Yes before i get flamed for it 
+i know its ubuntu but however the code it freely accessible from the kde 
+trunk so it would not be all that hard to compile it.

@@ -1,0 +1,31 @@
+Re: Temporary deconnection from the Internet when too much pages
+ are loadedFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+thib wrote:
+> If it happens even after the pages have all finished loading, then you
+> have a problem (probably with your browser).
+This is not the case. I click to load many pages, and everything
+suddenly freezes, just as if I had no Internet connection.
+> If not, well..  you either have to give your connection a rest
+> (streaming video is heavy stuff) or ask network gurus to narrow down
+> the problem.
+Wouldn't it be due to Debian, here?
+>
+> Is it happening only with your browser?  What about other things
+> requiring many parallel connections (try a P2P application)?
+Nothing. It only happens with the browser.
+> PS  Greetings from Li=E8ge.
+:-) Nice.
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

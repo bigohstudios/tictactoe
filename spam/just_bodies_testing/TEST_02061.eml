@@ -1,0 +1,35 @@
+Re: BadAtom X11 Error with fpGUI
+On Apr 17, 2010, at 06:26, Schindler Karl-Michael wrote:
+
+> Hi
+>=20
+> Am 17.04.2010 um 01:19 schrieb Jeremy Huddleston:
+>=20
+>> Please try starting X11.app first.  =46rom the console:
+>>=20
+>> open -a X11
+>> (wait a few seconds for it to appear in the dock as launched)
+>> ./helloworld
+>>=20
+>> Does that work as expected?
+>=20
+> yes.
+>=20
+> "open -a X11" starts X11.app including an xterm.
+
+I need to know if it's something that is a strict timing issue or =
+something that is fixed by the started xterm.  You need to start X11.app =
+without launching the initial xterm.  Do this first, then rerun the =
+expiriment above:
+
+defaults write org.x.X11 app_to_run /bin/true
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,41 @@
+(solved)Re: how to save sound volume setting?Thank Andrei Popescu !
+I will try your solution later on.
+
+On Sat, May 22, 2010 at 6:35 AM, Andrei Popescu
+<andreimpopescu@csmining.org> wrote:
+> On Sat,22.May.10, 05:42:17, Long Wind wrote:
+>> I use etch
+>> Everytime I boot debian and start xawtv, I have to set volume in xmixer
+>> how to save volume setting?
+>> I use snd_pcm_oss module
+>> Thanks!
+>
+> 'alsactl store' (as root) from package alsa-utils.
+>
+> Regards,
+> Andrei
+> --
+> Offtopic discussions among Debian users and developers:
+> http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.10 (GNU/Linux)
+>
+> iQEcBAEBCAAGBQJL97NrAAoJEHNWs3jeoi3pBg4H/RZrTw2prSvQXOUBCbqYIRmy
+> f85tKJgFirTEWN2qn3soMV8RGKOIUXu1fva5t8+ADzV6U5L2HQkvzS2SCVxF1h0C
+> 5gMXtLXtHlIl7EFGAYEeAYGNMdiOSxIozPuWVDVQLm6vIVXcri29awYYnLxgnlot
+> 16NdaS1GQdzaxYtZBSUyA0+DIIy5kHWrMciI7NKouhEV9pyFlvHpQIEQl9mrovXn
+> eabvW/KGEVOEZT2SHXcRM7Bw9ZhRTgQ4J2Vnjw82l+cpyFqC8cxMETXrLxTeNy8Y
+> TEl6f59AlVuZex4vtIbFnnjcofePhfUeTs9OpltK8ACI15RFzMLJW8yYDq1SEKc=
+> =1OVX
+> -----END PGP SIGNATURE-----
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikICpiPpOT00nl82y9scbsdTowaE3r7TZszFMhu@mail.csmining.org
+
+

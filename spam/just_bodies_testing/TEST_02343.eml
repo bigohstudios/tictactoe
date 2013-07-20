@@ -1,0 +1,25 @@
+Re: How to get kdict or aequivalent in KDE4 / Squeeze?On Monday 17 May 2010 18:20:53 Dirk Salva wrote:
+> a few days ago I've upgraded my Debian from Lenny to Squeeze. My
+> problem: the beloved kdict with the small input-field in the kicker are
+> not there anymore. I am missing it:-(
+
+ Hi Dirk,
+
+ If you find the plasmoid a bit cumbersome (I'm so used to typing
+ alt-f2, kdict ... rather than showing desktop, mouse-clicking into
+ something, then .. etc etc) I can advise that the 3.5.10 version
+ of kdict works just fine in my unstable / experimental KDE.  It
+ doesn't even have cause any complaints with apt, which is nice.
+
+ Just download the kdict package for your platform from your local
+ repository and install it with dpkg.
+
+ Jedd.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005191943.26247.jedd@progsoc.org
+
+

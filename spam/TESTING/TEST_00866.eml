@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281ae4960aaf8fe
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs64438wfj;
+        Tue, 20 Apr 2010 04:05:08 -0700 (PDT)
+Received: by 10.140.55.4 with SMTP id d4mr5384280rva.243.1271761508156;
+        Tue, 20 Apr 2010 04:05:08 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 8si461720iwn.121.2010.04.20.04.05.07;
+        Tue, 20 Apr 2010 04:05:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 8A6461BB3AB17
+	for <mlsubscriber.tech@csmining.org>; Tue, 20 Apr 2010 04:05:07 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 84F8826F4F1F8
+	for <mlsubscriber.tech@csmining.org>; Tue, 20 Apr 2010 04:05:07 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id CEE4626F4F144
+	for <augd@lists.apple.com>; Tue, 20 Apr 2010 04:04:59 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id BECA3D3474AF
+	for <augd@lists.apple.com>; Tue, 20 Apr 2010 04:04:59 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-ea-4bcd8a5a0bbb
+Authentication-Results: mail-in11.apple.com x-tls.subject="/C=US/ST=UT/L=Salt
+	Lake City/O=The USERTRUST
+	Network/OU=http://www.usertrust.com/CN=UTN-USERFirst-Network
+	Applications"; auth=fail (cipher=RC4-SHA)
+Received: from c60.cesmail.net (c60.cesmail.net [216.154.195.49])
+	(using TLS with cipher RC4-SHA (RC4-SHA/128 bits))
+	(Client CN "UTN-USERFirst-Network Applications",
+	Issuer "UTN-USERFirst-Network Applications" (not verified))
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	04.C0.26228.B5A8DCB4; Tue, 20 Apr 2010 04:04:59 -0700 (PDT)
+Received: from unknown (HELO delta2) ([192.168.1.50])
+	by c60.cesmail.net with ESMTP; 20 Apr 2010 07:04:57 -0400
+Received: from pool-72-66-235-184.ronkva.east.verizon.net
+	(pool-72-66-235-184.ronkva.east.verizon.net [72.66.235.184]) by
+	webmail.spamcop.net (Horde MIME library) with HTTP; Tue, 20 Apr 2010
+	07:04:58 -0400
+Message-ID: <20100420070458.zecf4nzhgcg04sc8-fubjxre@webmail.spamcop.net>
+Date: Tue, 20 Apr 2010 07:04:58 -0400
+From: showker@spamcop.net
+To: augd@lists.apple.com
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.4)
+X-Brightmail-Tracker: AAAAAA==
+Subject: AUGD: RE: PR Mailing Lists
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+greets...
+
+I would be happen to subscribe to ANY of
+the MUG's PR lists -- and pass along info that
+might be of value to the larger audience.
+
+The complexion of the InfoManager subscriber and
+RSS base has changed substantially to a non-ug
+readership.
+
+Groups who send out press releases and info about
+events, etc., need to be conscience of the greater
+audience.
+
+For instance -- recently we got one that would have
+been good to distribute -- about an event that Mac
+users would probably travel 150 miles to attend.
+
+But the content was written as if to members
+of the local group who already knew everything about
+the venue.
+
+Another came out and looked GREAT ... and I would
+have included it -- but it was all one big graphic.
+No text what so ever. So it was impossible to deal
+with as a press release.
+
+Always remember the essential information assuming
+the reader knows nothing about it.
+
+:-)
+
+Fred
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

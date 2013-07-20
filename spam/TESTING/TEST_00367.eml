@@ -1,0 +1,171 @@
+X-Account-Key: account5
+X-UIDL: GmailId12883807361c54a6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs25869wfb;
+        Mon, 10 May 2010 11:35:54 -0700 (PDT)
+Received: by 10.223.20.216 with SMTP id g24mr4833451fab.63.1273516553136;
+        Mon, 10 May 2010 11:35:53 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s7si9230530faa.40.2010.05.10.11.35.52;
+        Mon, 10 May 2010 11:35:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2BB832D0C41; Mon, 10 May 2010 18:35:50 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C709813A5125
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 18:35:44 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5JjctYPkZcOM for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 18:35:37 +0000 (UTC)
+Received: from mail-yw0-f202.google.com (mail-yw0-f202.google.com [209.85.211.202])
+	by liszt.debian.org (Postfix) with ESMTP id CEA5A13A4A93
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 18:35:36 +0000 (UTC)
+Received: by ywh40 with SMTP id 40so1929696ywh.18
+        for <debian-kde@lists.debian.org>; Mon, 10 May 2010 11:35:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=1xcmbzty/2+c5SRhsRQLOXeQnDbLreFngtE+QmFnH4k=;
+        b=Qp6iURS09NjRG6tQ2ea51AUU070XfNMnehHJYn9EEdRTDOq2IhGg9k1zzBGq2bjwin
+         92riaGMVPqaUvs7l8vte08B+TTl9DgjsTKuj97gPbYG/JBiJbPSqDU0MhgNguzLNopan
+         niyEwSoKEsM9oNxgoCbTHDPdivDaf9taypnFw=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=fkcMuaHzCihJeK1ErG9gGOwdb25eDm2o24yl52bkfnspGHZrjRdJLV6LxChdTBBpZC
+         UdTlx4ui7v/YkRqklyk9BkthBxHlcDE5D4+a/P/yd2ZbZfwaANDRMUCDff6xqK2/iGmV
+         G8psPKJ7+WyZ3HupnLylDapQQUaIXYKQ7i9yk=
+MIME-Version: 1.0
+Received: by 10.229.104.194 with SMTP id q2mr3720136qco.69.1273516526411; Mon, 
+	10 May 2010 11:35:26 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Mon, 10 May 2010 11:35:26 -0700 (PDT)
+In-Reply-To: <AANLkTimd9l_WF2Cwd1RnAtROYev3x0ZTTWtxMQRIl2wa@mail.csmining.org>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+	 <20100510163320.GA31628@n0nb.us>
+	 <AANLkTilPWcL43hjUdKGIzpPtZOW7fDg5vIiRJeTG5tq9@mail.csmining.org>
+	 <20100510170348.GG24935@n0nb.us>
+	 <AANLkTimd9l_WF2Cwd1RnAtROYev3x0ZTTWtxMQRIl2wa@mail.csmining.org>
+Date: Mon, 10 May 2010 21:35:26 +0300
+Message-ID: <AANLkTinht4rYDMnlQDyxDyyOWNCsh-JrZzJuEMLiZnOO@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: =?UTF-8?B?SWtlciBTYWxtw7NuIFNhbiBNaWxsw6Fu?= <shaola@esdebian.org>
+Cc: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <naCwSClrnGN.A.ukG.GIF6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32327
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 18:35:50 +0000 (UTC)
+
+2010/5/10 Iker Salm=C3=B3n San Mill=C3=A1n <shaola@esdebian.org>:
+> I was thinking about opening a new thread to talk about the device notifi=
+er,
+> but i found this message so i will do it here.
+>
+> I think there is something wrong with this plasmoid, there is a bug repor=
+t
+> talking about it but it's being ignored for now.
+> https://bugs.kde.org/show_bug.cgi?id=3D226710
+>
+>
+> As you see in this picture:
+> http://www.esdebian.org/files/esdebian.org/u26290/notificadorescritorio.j=
+peg
+> the text stands out together with the button to unmount the device, but w=
+hen
+> it is on the panel this does not happen, making it imposible to unmount t=
+he
+> device as you see in this other picture:
+> http://www.esdebian.org/files/esdebian.org/u26290/notificadorbarra.jpeg
+>
+> At the beginning, i thougth that the problem was only related with
+> localication languages, but after some tests, now i have another conclusi=
+on.
+>
+> I think that the position of the button, depends not only on the size of =
+the
+> plasmoid, because when the plasmoid is smaller than the lengh of the text=
+ of
+> the mainlabel, the button is alligned right and bellow=C2=A0 the last let=
+ter of
+> the text
+>
+> This also happens even when it's in english=C2=A0 with=C2=A0 low resoluti=
+ons and/or
+> too big font sizes.=C2=A0 I've been reading the code of the plasmoid tryi=
+ng to
+> underestand it in order to learn how to make some changes to make the but=
+ton
+> appear always inside the plasmoid=C2=A0 no matter how long the length of =
+the text
+> in the "m_mainlabel" is, however=C2=A0 i am a newbie in this matters.=C2=
+=A0 The only
+> thing i found is this:
+>
+> "category->setAlignment(Qt::AlignRight);"
+>
+> =C2=A0by the way why AlignRight? if you see the first picture=C2=A0 i thi=
+nk that the
+> label=C2=A0 with the description of the device "Volumen de almacenamiento=
+"
+> aligned right is not the best option.
+>
+> By now, i have solved "my" problem by changing the spanish translation bu=
+t i
+> don't think that's an elegant solution:
+> http://www.esdebian.org/files/esdebian.org/u26290/notificadormodificad.jp=
+eg
+>
+> as you see, when the text is short enough this problem does not appear.
+>
+> cheers!
+>
+
+Thanks, please mention that info on the bug. And you might want to
+vote for this Device Notifier feature request:
+http://forum.kde.org/brainstorm.php#idea87620_page1
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinht4rYDMnlQDyxDyyOWNCsh-JrZzJuEMLiZnOO@mail.csmining.org
+
+

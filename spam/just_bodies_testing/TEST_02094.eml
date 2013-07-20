@@ -1,0 +1,23 @@
+Re: Spamassassin version 3.3.0From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+This one time, at band camp, Jim Popovitch said:
+> For instance in lenny (STABLE), the latest clamav is in volatile but
+> the latest spamassassin is in backports.
+>=20
+> What drives this?
+
+backports.org is an unofficial service, and is more free to break working
+configurations on upgrade or othewise introduce incompatibilities.  It's
+down to the maintainers judgement which repo suits a given upload better.
+
+Cheers,
+--=20
+ -----------------------------------------------------------------
+|   ,''`.                                            Stephen Gran |
+|  : :' :                                        sgran@debian.org |
+|  `. `'                        Debian user, admin, and developer |
+|    `-                                     http://www.debian.org |
+ -----------------------------------------------------------------

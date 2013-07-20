@@ -1,0 +1,64 @@
+Re: How to keep debian current??On Wed, 2010-05-19 at 00:34 +0900, Osamu Aoki wrote:
+> On Mon, May 17, 2010 at 11:07:10AM -0500, Mark Allums wrote:
+> > On 5/17/2010 10:43 AM, Andrei Popescu wrote:
+> > >On Mon,17.May.10, 10:29:57, Mark Allums wrote:
+> > >
+> > >>Backwards.  Sid gets no security, AT ALL.  Testing get some.
+> > >
+> > >If some issue is fixed for stable the fix is also applied for unstable=
+,
+> > >unless the maintainer is unresponsive or so. In practice this means th=
+at
+> > >unstable can be in better shape then testing at times.
+> > >
+> > >Regards,
+> > >Andrei
+> > =20
+> > Thank you.  This is contrary to what the main Debian site says in
+> > multiple places, but it is plausible.  Good to know.
+>=20
+> Could you be more specific where you saw them or where you got this
+> impression?  So we can make corrective action to reduce confusion.
+>=20
+> (Sid gets no corresponding "security" repository like
+> stable/updates nor testing/updates because we can upload directly to it
+> any time.)
+>=20
+> I am thinking to add text to Debian reference to reduce such confusion.
+>=20
+> Now:
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =E2=80=A6" line for security updates in the
+> "/etc/apt/sources.list" is not required. Security updates are only
+> available for stable and testing (i.e., lenny and squeeze).
+>=20
+> (I should have explained better.)
+>=20
+> New:
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =E2=80=A6" line for security updates in the
+> "/etc/apt/sources.list" is not required. This is because "sid"
+> (unstable) is always updated whenever security issues are fixed.  There
+> is no need to have a separate security update archive for "sid".
+<snip>
+Hmm . . . to someone not more familiar with Debian practices, the new
+version seems more confusing. I would read that and think that Sid is
+very secure because it always has the latest security fixes.  If that's
+not what we mean, then perhaps the current version needs only slight
+revision for clarity, e.g.,
+
+Now:
+If "sid" is used in the above example instead of "lenny", the "deb:
+http://security.debian.org/ =E2=80=A6" line for security updates in the
+"/etc/apt/sources.list" is not required because Sid does not receive
+security updates. Security updates are only
+available for stable and testing (i.e., lenny and squeeze).
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274199080.20211.6.camel@Family.pacifera.com
+
+

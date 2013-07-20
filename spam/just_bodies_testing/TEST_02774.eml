@@ -1,0 +1,22 @@
+Re: making rpms from already-compiled source treesOn Thu, 2002-08-15 at 10:53, Erik Williamson wrote:
+> > 
+> > That's not the same problem. Making a RPM from given binaries is simple.
+> > 
+> 
+> Sweet - do you know where can I find out more info on this?  
+
+Officially no. But also on my ftp://people.redhat.com/ckloiber page is
+rpms for the rar-3.00 file archiving/unarchiving program. This is
+distributed as a binary tarball only, and I repackaged it based
+originally on an earlier version of rar I found on the net, just for
+practice. It also makes use of subpackages, and I was both proud of
+myself for getting it to work, and sickened that I repackaged
+binary-only crap. Enjoy.
+
+-- 
+Chris Kloiber
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

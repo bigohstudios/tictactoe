@@ -1,0 +1,220 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280263f6c3e2bb0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs67540wfa;
+        Thu, 15 Apr 2010 09:53:46 -0700 (PDT)
+Received: by 10.102.7.12 with SMTP id 12mr251553mug.104.1271350425380;
+        Thu, 15 Apr 2010 09:53:45 -0700 (PDT)
+Return-Path: <bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u9si9177028muf.36.2010.04.15.09.53.44;
+        Thu, 15 Apr 2010 09:53:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9D44413A5410; Thu, 15 Apr 2010 16:53:06 +0000 (UTC)
+Old-Return-Path: <seb@debian.org>
+X-Original-To: lists-debian-security-announce@liszt.debian.org
+Delivered-To: lists-debian-security-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1577F13A5346
+	for <lists-debian-security-announce@liszt.debian.org>; Thu, 15 Apr 2010 16:53:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+XFlag: NO
+XScore: -10.58
+XLevel: 
+XStatus: No, score=-10.58 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, MURPHY_WRONG_WORD1=0.1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id u+x0m+ydT8Uc
+	for <lists-debian-security-announce@liszt.debian.org>;
+	Thu, 15 Apr 2010 16:52:58 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from fandango.binarybase.org (fandango.binarybase.org [188.40.99.241])
+	by liszt.debian.org (Postfix) with ESMTP id 61A2013A5321
+	for <debian-security-announce@lists.debian.org>; Thu, 15 Apr 2010 16:52:58 +0000 (UTC)
+Received: from coredump.binarybase.org (e178225254.adsl.alicedsl.de [85.178.225.254])
+	by fandango.binarybase.org (Postfix) with ESMTPSA id 24DD5118EE4
+	for <debian-security-announce@lists.debian.org>; Thu, 15 Apr 2010 18:52:56 +0200 (CEST)
+Received: by coredump.binarybase.org (Postfix, from userid 1000)
+	id 0A5EB1BD61; Thu, 15 Apr 2010 18:53:11 +0200 (CEST)
+Date: Thu, 15 Apr 2010 18:53:11 +0200
+From: =?iso-8859-1?Q?S=E9bastien?= Delafond <seb@debian.org>
+Sender: Nico Golde <nion@debian.org>
+To: debian-security-announce@lists.debian.org
+Message-ID: <20100415165310.GA7478@ngolde.de>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; x-action=pgp-signed
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Debian: PGP check passed for security officers
+Subject: [SECURITY] [DSA 2033-1] New ejabberd packages fix denial of service
+Priority: urgent
+Reply-To: debian-security@lists.debian.org
+Resent-Message-ID: <yUMRcR2LBVC.A.DRF.yR0xLB@liszt>
+Resent-From: debian-security-announce@lists.debian.org
+X-Mailing-List: <debian-security-announce@lists.debian.org> archive/latest/744
+X-Loop: debian-security-announce@lists.debian.org
+List-Id: <debian-security-announce.lists.debian.org>
+List-Post: <mailto:debian-security-announce@lists.debian.org>
+List-Help: <mailto:debian-security-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-announce-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 16:53:06 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- ------------------------------------------------------------------------
+Debian Security Advisory DSA-2033-1                  security@debian.org
+http://www.debian.org/security/                       Sébastien Delafond
+April 15th, 2010                      http://www.debian.org/security/faq
+- ------------------------------------------------------------------------
+
+Package        : ejabberd
+Vulnerability  : heap overflow
+Problem type   : remote
+Debian-specific: no
+CVE Id         : CVE-2010-0305
+Debian Bug     : 568383
+
+It was discovered that in ejabberd, a distributed XMPP/Jabber server
+written in Erlang, a problem in ejabberd_c2s.erl allows remote
+authenticated users to cause a denial of service by sending a large
+number of c2s (client2server) messages; that triggers an overload of the
+queue, which in turn causes a crash of the ejabberd daemon.
+
+
+For the stable distribution (lenny), this problem has been fixed in
+version 2.0.1-6+lenny2.
+
+For the testing distribution (squeeze), this problem has been fixed in
+version 2.1.2-2.
+
+For the testing distribution (sid), this problem has been fixed in
+version 2.1.2-2.
+
+
+We recommend that you upgrade your ejabberd packages.
+
+Upgrade instructions
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will install the referenced file.
+
+If you are using the apt-get package manager, use the line for
+sources.list as given below:
+
+apt-get update
+        will update the internal database
+apt-get upgrade
+        will install corrected packages
+
+You may use an automated update by adding the resources from the
+footer to the proper configuration.
+
+
+Debian GNU/Linux 5.0 alias lenny
+- --------------------------------
+
+Debian (stable)
+- ---------------
+
+Stable updates are available for alpha, amd64, arm, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390 and sparc.
+
+Source archives:
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2.diff.gz
+    Size/MD5 checksum:    61649 98dbff6de8d5fd1a613bf2fa2b1b7cbc
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2.dsc
+    Size/MD5 checksum:     1388 94c7c65d3a0074a80f7023d3a5bb050b
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1.orig.tar.gz
+    Size/MD5 checksum:  1054739 9c9417ab8dc334094ec7a611016c726e
+
+alpha architecture (DEC Alpha)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_alpha.deb
+    Size/MD5 checksum:  1185762 0d357d6fcd7a8ee3e0897d36d7991cff
+
+amd64 architecture (AMD x86_64 (AMD64))
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_amd64.deb
+    Size/MD5 checksum:  1196276 f5c029b837ce386c0eb3b4b4704b6e4e
+
+arm architecture (ARM)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_arm.deb
+    Size/MD5 checksum:  1185558 4eb9bf5003262058c6b6d4b190a3f958
+
+armel architecture (ARM EABI)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_armel.deb
+    Size/MD5 checksum:  1189252 b18b78168564941d3f5df1da8f23e731
+
+i386 architecture (Intel ia32)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_i386.deb
+    Size/MD5 checksum:  1167064 d44c82658e3e4059287f698925912e34
+
+ia64 architecture (Intel ia64)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_ia64.deb
+    Size/MD5 checksum:  1208584 7474a055763f796bca37dc0847764e74
+
+mipsel architecture (MIPS (Little Endian))
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_mipsel.deb
+    Size/MD5 checksum:  1171612 26cc7ff8e3e2f891f5b2c5f9e7d69034
+
+powerpc architecture (PowerPC)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_powerpc.deb
+    Size/MD5 checksum:  1201544 a5ec73915a372183bb8876649ed1d66b
+
+s390 architecture (IBM S/390)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_s390.deb
+    Size/MD5 checksum:  1199092 3ca94443785ca5c60bf7617a4b30e8ab
+
+sparc architecture (Sun SPARC/UltraSPARC)
+
+  http://security.debian.org/pool/updates/main/e/ejabberd/ejabberd_2.0.1-6+lenny2_sparc.deb
+    Size/MD5 checksum:  1188116 a2dc6279a2690ce802c4d4b6bd8370aa
+
+
+  These files will probably be moved into the stable distribution on
+  its next update.
+
+- ---------------------------------------------------------------------------------
+For apt-get: deb http://security.debian.org/ stable/updates main
+For dpkg-ftp: ftp://security.debian.org/debian-security dists/stable/updates/main
+Mailing list: debian-security-announce@lists.debian.org
+Package info: `apt-cache show <pkg>' and http://packages.debian.org/<pkg>
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvHRHYACgkQHYflSXNkfP/4FQCfe2JzdmVDUB2YBbPcQgfV8ac1
+mXwAnirPrrADFmPLMP8cwuK0RFNM92pb
+=SpLe
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415165310.GA7478@ngolde.de
+
+

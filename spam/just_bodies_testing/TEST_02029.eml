@@ -1,0 +1,30 @@
+Re: What to choose for Core i5 64 bits?On 05/13/2010 12:31 AM, Aaron Toponce wrote:
+> On 5/12/2010 2:53 PM, Stefan Monnier wrote:
+>    
+>> I'd go with an i386 install unless you have more than 3GB of RAM, in
+>> which case I'd go with an amd64 install (or an i386 with a 686-bigmem
+>> kernel).
+>>      
+> The 64-bit vs 32-bit argument is multi-faceted. It gets much deeper than
+> just addressing more than 3GB of RAM:
+>
+> * twice the transfer width on the bus
+> * no memory split issues
+> * increased virtual address space
+> * more breathing room for mmap()'d files
+> * deeper nested system calls with increased stability
+> * certain applications and operations will execute faster
+>
+> If you have the hardware, you should definitely be running a 64-bit
+> operating system, even if you don't have 4GB+ of RAM.
+>
+>    
++1
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEB2B0A.2070608@csmining.org
+
+

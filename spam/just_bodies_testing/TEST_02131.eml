@@ -1,0 +1,33 @@
+Re: [ILUG] Sparc Solaris (was: Dell GX260 V Redhat 7.3)On Tue, Aug 06, 2002 at 12:56:17PM +0100, kevin lyda mentioned:
+> sorry, i missed this.  redhat supplies something similar called kickstart
+> (guess who inspired them?).  pc hardware is dumb, so you'll need to use
+> a floppy.  otoh, every jumpstart config i've seen required rarp plus
+> plugging the new box's ethernet+ip into a file.  a kickstart boot can
+> just use a dhcp server.
+
+ I've just been re-aquainted with the Jumpstart stuff after a long
+absence.
+
+ There is a nice need 'add_install_client' script that you feed the
+archtecture, ethernet address & ip to, and it'll setup everything from
+RARP to Bootparams for you. Very simple.
+
+ This script takes a -d option, to boot via DHCP also. On the negative
+side, Sun's terminal handling leaves a lot to be desired - it won't work
+properly on a Wyse 120+ for instance, no matter what emulation mode the
+Wyse is trying to do.
+
+ To do PC netbooting properly, you need an motherbard with a PXE BIOS.
+Then you are flying.
+
+ Heh, how hard would it be to get a PC with an OpenBoot prom ?
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

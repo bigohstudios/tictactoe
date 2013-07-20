@@ -1,0 +1,23 @@
+Re: Volatile binary-armel clamav package versions do not matchFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, May 07, 2010 at 11:12:20AM +0100, Stephen Gran wrote:
+> clamav hasn't been built for armel yet.  The packages that are updated
+> to 0.96 are the ones that don't contain architecture-dependant code.
+>=20
+> As I don't have anything to do with the building, I can't tell you why
+> it hasn't been built yet, just that that is the current situation.
+
+I suppose we don't have armel autobuilders for volatile yet.  ):
+
+(armel@ bcc'ed)
+
+Kind regards,
+Philipp Kern
+--=20
+ .''`.  Philipp Kern                        Debian Developer
+: :' :  http://philkern.de                         Stable Release Manager
+`. `'   xmpp:phil@0x539.de                         Wanna-Build Admin
+  `-    finger pkern/key@db.debian.org

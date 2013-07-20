@@ -1,0 +1,40 @@
+Re: [Razor-users] Fire.cloudmark.com is having issuesFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Error 230 occurs when you report a signature, but the server doesn't
+know about the signature, so it wants the full content.  It's
+basically an optimization. =20
+
+Beyond that, I'm not sure how to interpret that output.. what version?
+Vipul?
+
+--jordan
+
+On Wed, Oct 02, 2002 at 11:59:01PM -0400, Rose, Bobby wrote:
+# What does this mean?  I set up procmailrc for a spamtrap but I'm getting
+# an error.  I also am reporting to pyzor and dcc and they aren't
+# registering an error.  What's weird is that it works sometimes.
+#=20
+# .
+# Oct 02 23:46:11.470523 report[14051]: [ 4] honor.cloudmark.com >> 20
+# Oct 02 23:46:11.470805 report[14051]: [ 6] response to sent.3
+# -res=3D1
+# err=3D230
+# .
+# Oct 02 23:46:11.471825 report[14051]: [ 5] mail 1, orig_email, special
+# case eng 1: Server accept
+# ed report.
+# Oct 02 23:46:11.472228 report[14051]: [ 8] mail 1.0, eng 4: err 230 -
+# server wants mail
+#=20
+#=20
+# -------------------------------------------------------
+# This sf.net email is sponsored by:ThinkGeek
+# Welcome to geek heaven.
+# http://thinkgeek.com/sf
+# _______________________________________________
+# Razor-users mailing list
+# Razor-users@lists.sourceforge.net
+# https://lists.sourceforge.net/lists/listinfo/razor-users

@@ -1,0 +1,1694 @@
+X-Account-Key: account5
+X-UIDL: GmailId12859bac5c38f902
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs186287wfj;
+        Sun, 2 May 2010 08:55:33 -0700 (PDT)
+Received: by 10.86.6.37 with SMTP id 37mr8098451fgf.7.1272815731956;
+        Sun, 02 May 2010 08:55:31 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si6938456fkg.58.2010.05.02.08.55.31;
+        Sun, 02 May 2010 08:55:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CB20E13A5214; Sun,  2 May 2010 15:55:18 +0000 (UTC)
+Old-Return-Path: <aspnair@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.9 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9961C13A51F0
+	for <lists-debian-user@liszt.debian.org>; Sun,  2 May 2010 15:55:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id lKsssjE07YrP for <lists-debian-user@liszt.debian.org>;
+	Sun,  2 May 2010 15:55:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id 86BDF13A5091
+	for <debian-user@lists.debian.org>; Sun,  2 May 2010 15:54:54 +0000 (UTC)
+Received: by gya1 with SMTP id 1so736002gya.6
+        for <debian-user@lists.debian.org>; Sun, 02 May 2010 08:54:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=FTMmIB7zIXFMiUd/judNTgdjktXlWitUMFlaXukpEHI=;
+        b=Bps9xHL2DR0abZWgteDjR32G8uShJt/4nheYhVIkeUK1yZULUr1BV2CgE/GEvRW+/2
+         H9HJtFWwTxxy2Lyb04HhA26iF8nHi/4i1Jp1+IN7kx48i9pRG3UlnHhBJFTTfQN5rXrJ
+         JxzT2M4+nMmGDRkdSBlBHfd230MO8HzlEJ/I8=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=ZxoS1XPwYZx4w3b1+ahWNq+UI0Zq0T/I0sgNsNiG0sFE6YSOUp4GIKlSDw2K420qWs
+         sDDjDiW4qC1+MlHh9V2weevEl4+7uDZEHfW3Mb6lNx88XjPi5MSTDY3dtUeDdcS9tEGz
+         K2vIYfi04NAB6HbKCdcbYYC+ZgRpkodnIN75E=
+MIME-Version: 1.0
+Received: by 10.150.63.17 with SMTP id l17mr7262721yba.115.1272815686435; Sun, 
+	02 May 2010 08:54:46 -0700 (PDT)
+Received: by 10.150.227.3 with HTTP; Sun, 2 May 2010 08:54:46 -0700 (PDT)
+In-Reply-To: <1272811347.3525.8.camel@debian>
+References: <1272712434.16598.7.camel@debian>
+	 <pan.2010.05.01.11.36.09@csmining.org> <1272721966.6312.5.camel@debian>
+	 <pan.2010.05.01.14.08.44@csmining.org> <1272727535.20670.1.camel@debian>
+	 <v2wd0bf7b0b1005010910s737eaa0dnf75809624ea3d653@mail.csmining.org>
+	 <1272734343.3578.1.camel@debian>
+	 <w2pd0bf7b0b1005012056lc9d09d6dw7fe805aed7a8d703@mail.csmining.org>
+	 <1272811347.3525.8.camel@debian>
+Date: Sun, 2 May 2010 21:24:46 +0530
+Message-ID: <z2yd0bf7b0b1005020854n8218e549o2e1ea4392e773a2e@mail.csmining.org>
+Subject: Re: [SOLVED] Re: NVidia MCP61, no sound...
+From: Anand Sivaram <aspnair@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=000e0cd56cc6dac50304859e7ee5
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <zRQQmqne1xH.A.-KH.mBa3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575691
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 15:55:18 +0000 (UTC)
+
+--000e0cd56cc6dac50304859e7ee5
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Andrea,
+
+Nice to know that your sound issue is fixed.  Even I found a similar proble=
+m
+with this laptop too, I installed the stock debian 2.6.32 kernel and there
+was no sound.
+Then I hand compiled, the latest 2.6.34-rc5 kernel and things started
+working.
+
+Now you are having problems with nvidia drivers, I have a couple of
+suggestions for you.  Try whatever suits you better.
+
+* avoid the nvidia binary driver, binary drivers always give a lot of
+problems.  You could  reconfgure your xorg with 2d "nv" driver.  But if you
+are a gamer or using compiz 3d desktop, then you have problems with this
+approach
+* install squeeze (i think you you could upgrade from lenny, not sure) so
+that you get most of the new software.  I am using unstable(sid) on my
+desktop and squeeze on my laptop, never tried lenny at all......
+* There is a new "nouveau" re-engineered free/open 3d nvidia driver from
+2.6.33, kernel for that you need a new kernel
+* build a new kernel with nvidia driver
+If you are planning either the last two options, you could take a new kerne=
+l
+from official kernel.org.  It takes around 15 minutes of your time and
+maximum around 2 hours of your computers time :), there are a lot of
+resources to do that and you could get a lot of help too.
+Anyway, best of luck with your kernel endeavor.
+
+Thanks and Regards
+
+Anand
+
+
+
+
+* compile a new kernel completely based on newer k
+
+On Sun, May 2, 2010 at 20:12, Andrea Giuliano <sarkiaponius@alice.it> wrote=
+:
+
+> Dear Anand,
+>
+> I tried your configuration file, but nothing changed.
+>
+> For all of you who were so kind to try to help me, here are some good
+> news: I tried to install kernel 2.6.32 from lenny backports and the
+> sound seems to work now. At least I could here the "login.wav" that most
+> Lenny users know.
+>
+> The bad part is that now I cannot make the graphics card to work,
+> because I should recompile the NVidia driver, but to accomplish this
+> task I need linux-headers-$(uname -r), and this package depend on  the
+> corresponding linux-kbuild, which won't install, according to apt-get
+> message.
+>
+> This is a pity, but at least now I'm sure the sound card is working. My
+> PC is brand new, so I'm happy it's not a hardware problem, even though
+> it's still a problem.
+>
+> So I would say the issue is solved, from my point of view. I won't ask
+> some help to force the installation of linux-headers in this thread,
+> maybe I'll start another one.
+>
+> Many many thanks to everyone!
+>
+> On Sun, 2010-05-02 at 09:26 +0530, Anand Sivaram wrote:
+> > On Sat, May 1, 2010 at 22:49, Andrea Giuliano <sarkiaponius@alice.it>
+> wrote:
+> > > Here is /usr/share/alsa/alsa.conf (that's a lot of lines!)
+> > >
+> > > Best regards.
+> > >
+> > > #
+> > > #  ALSA library configuration file
+> > > #
+> > >
+> > > # pre-load the configuration files
+> > >
+> > > @hooks [
+> > >        {
+> > >                func load
+> > >                files [
+> > >                        "/etc/asound.conf"
+> > >                        "~/.asoundrc"
+> > >                ]
+> > >                errors false
+> > >        }
+> > > ]
+> > >
+> > > # load card-specific configuration files (on request)
+> > >
+> > > cards.@hooks [
+> > >        {
+> > >                func load
+> > >                files [
+> > >                        {
+> > >                                @func concat
+> > >                                strings [
+> > >                                        { @func datadir }
+> > >                                        "/cards/aliases.conf"
+> > >                                ]
+> > >                        }
+> > >                ]
+> > >        }
+> > >        {
+> > >                func load_for_all_cards
+> > >                files [
+> > >                        {
+> > >                                @func concat
+> > >                                strings [
+> > >                                        { @func datadir }
+> > >                                        "/cards/"
+> > >                                        { @func private_string }
+> > >                                        ".conf"
+> > >                                ]
+> > >                        }
+> > >                ]
+> > >                errors false
+> > >        }
+> > > ]
+> > >
+> > > #
+> > > # defaults
+> > > #
+> > >
+> > > # show all name hints also for definitions without hint {} section
+> > > defaults.namehint.showall off
+> > > # show just basic name hints
+> > > defaults.namehint.basic on
+> > > # show extended name hints
+> > > defaults.namehint.extended off
+> > > #
+> > > defaults.ctl.card 0
+> > > defaults.pcm.card 0
+> > > defaults.pcm.device 0
+> > > defaults.pcm.subdevice -1
+> > > defaults.pcm.nonblock 1
+> > > defaults.pcm.ipc_key 5678293
+> > > defaults.pcm.ipc_gid audio
+> > > defaults.pcm.ipc_perm 0660
+> > > defaults.pcm.dmix.max_periods 0
+> > > defaults.pcm.dmix.rate 48000
+> > > defaults.pcm.dmix.format "unchanged"
+> > > defaults.pcm.dmix.card defaults.pcm.card
+> > > defaults.pcm.dmix.device defaults.pcm.device
+> > > defaults.pcm.dsnoop.card defaults.pcm.card
+> > > defaults.pcm.dsnoop.device defaults.pcm.device
+> > > defaults.pcm.front.card defaults.pcm.card
+> > > defaults.pcm.front.device defaults.pcm.device
+> > > defaults.pcm.rear.card defaults.pcm.card
+> > > defaults.pcm.rear.device defaults.pcm.device
+> > > defaults.pcm.center_lfe.card defaults.pcm.card
+> > > defaults.pcm.center_lfe.device defaults.pcm.device
+> > > defaults.pcm.side.card defaults.pcm.card
+> > > defaults.pcm.side.device defaults.pcm.device
+> > > defaults.pcm.surround40.card defaults.pcm.card
+> > > defaults.pcm.surround40.device defaults.pcm.device
+> > > defaults.pcm.surround41.card defaults.pcm.card
+> > > defaults.pcm.surround41.device defaults.pcm.device
+> > > defaults.pcm.surround50.card defaults.pcm.card
+> > > defaults.pcm.surround50.device defaults.pcm.device
+> > > defaults.pcm.surround51.card defaults.pcm.card
+> > > defaults.pcm.surround51.device defaults.pcm.device
+> > > defaults.pcm.surround71.card defaults.pcm.card
+> > > defaults.pcm.surround71.device defaults.pcm.device
+> > > defaults.pcm.iec958.card defaults.pcm.card
+> > > defaults.pcm.iec958.device defaults.pcm.device
+> > > defaults.pcm.modem.card defaults.pcm.card
+> > > defaults.pcm.modem.device defaults.pcm.device
+> > > defaults.rawmidi.card 0
+> > > defaults.rawmidi.device 0
+> > > defaults.rawmidi.subdevice -1
+> > > defaults.hwdep.card 0
+> > > defaults.hwdep.device 0
+> > > defaults.timer.class 2
+> > > defaults.timer.sclass 0
+> > > defaults.timer.card 0
+> > > defaults.timer.device 0
+> > > defaults.timer.subdevice 0
+> > >
+> > > #
+> > > #  PCM interface
+> > > #
+> > >
+> > > # redirect to load-on-demand extended pcm definitions
+> > > pcm.cards cards.pcm
+> > >
+> > > pcm.default cards.pcm.default
+> > > pcm.front cards.pcm.front
+> > > pcm.rear cards.pcm.rear
+> > > pcm.center_lfe cards.pcm.center_lfe
+> > > pcm.side cards.pcm.side
+> > > pcm.surround40 cards.pcm.surround40
+> > > pcm.surround41 cards.pcm.surround41
+> > > pcm.surround50 cards.pcm.surround50
+> > > pcm.surround51 cards.pcm.surround51
+> > > pcm.surround71 cards.pcm.surround71
+> > > pcm.iec958 cards.pcm.iec958
+> > > pcm.spdif iec958
+> > > pcm.dmix cards.pcm.dmix
+> > > pcm.dsnoop cards.pcm.dsnoop
+> > > pcm.modem cards.pcm.modem
+> > > pcm.phoneline cards.pcm.phoneline
+> > >
+> > > pcm.hw {
+> > >        @args [ CARD DEV SUBDEV ]
+> > >        @args.CARD {
+> > >                type string
+> > >                default {
+> > >                        @func getenv
+> > >                        vars [
+> > >                                ALSA_PCM_CARD
+> > >                                ALSA_CARD
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.pcm.card
+> > >                        }
+> > >                }
+> > >        }
+> > >        @args.DEV {
+> > >                type integer
+> > >                default {
+> > >                        @func igetenv
+> > >                        vars [
+> > >                                ALSA_PCM_DEVICE
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.pcm.device
+> > >                        }
+> > >                }
+> > >        }
+> > >        @args.SUBDEV {
+> > >                type integer
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.pcm.subdevice
+> > >                }
+> > >        }
+> > >        type hw
+> > >        card $CARD
+> > >        device $DEV
+> > >        subdevice $SUBDEV
+> > >        hint {
+> > >                show {
+> > >                        @func refer
+> > >                        name defaults.namehint.extended
+> > >                }
+> > >                description "Direct hardware device without any
+> conversions"
+> > >        }
+> > > }
+> > >
+> > > pcm.plughw {
+> > >        @args [ CARD DEV SUBDEV ]
+> > >        @args.CARD {
+> > >                type string
+> > >                default {
+> > >                        @func getenv
+> > >                        vars [
+> > >                                ALSA_PCM_CARD
+> > >                                ALSA_CARD
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.pcm.card
+> > >                        }
+> > >                }
+> > >        }
+> > >        @args.DEV {
+> > >                type integer
+> > >                default {
+> > >                        @func igetenv
+> > >                        vars [
+> > >                                ALSA_PCM_DEVICE
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.pcm.device
+> > >                        }
+> > >                }
+> > >        }
+> > >        @args.SUBDEV {
+> > >                type integer
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.pcm.subdevice
+> > >                }
+> > >        }
+> > >        type plug
+> > >        slave.pcm {
+> > >                type hw
+> > >                card $CARD
+> > >                device $DEV
+> > >                subdevice $SUBDEV
+> > >        }
+> > >        hint {
+> > >                show {
+> > >                        @func refer
+> > >                        name defaults.namehint.extended
+> > >                }
+> > >                description "Hardware device with all software
+> conversions"
+> > >        }
+> > > }
+> > >
+> > > pcm.plug {
+> > >        @args [ SLAVE ]
+> > >        @args.SLAVE {
+> > >                type string
+> > >        }
+> > >        type plug
+> > >        slave.pcm $SLAVE
+> > > }
+> > >
+> > > pcm.shm {
+> > >        @args [ SOCKET PCM ]
+> > >        @args.SOCKET {
+> > >                type string
+> > >        }
+> > >        @args.PCM {
+> > >                type string
+> > >        }
+> > >        type shm
+> > >        server $SOCKET
+> > >        pcm $PCM
+> > > }
+> > >
+> > > pcm.tee {
+> > >        @args [ SLAVE FILE FORMAT ]
+> > >        @args.SLAVE {
+> > >                type string
+> > >        }
+> > >        @args.FILE {
+> > >                type string
+> > >        }
+> > >        @args.FORMAT {
+> > >                type string
+> > >                default raw
+> > >        }
+> > >        type file
+> > >        slave.pcm $SLAVE
+> > >        file $FILE
+> > >        format $FORMAT
+> > > }
+> > >
+> > > pcm.file {
+> > >        @args [ FILE FORMAT ]
+> > >        @args.FILE {
+> > >                type string
+> > >        }
+> > >        @args.FORMAT {
+> > >                type string
+> > >                default raw
+> > >        }
+> > >        type file
+> > >        slave.pcm null
+> > >        file $FILE
+> > >        format $FORMAT
+> > > }
+> > >
+> > > pcm.null {
+> > >        type null
+> > >        hint {
+> > >                show {
+> > >                        @func refer
+> > >                        name defaults.namehint.basic
+> > >                }
+> > >                description "Discard all samples (playback) or generat=
+e
+> zero samples
+> > > (capture)"
+> > >        }
+> > > }
+> > >
+> > > #
+> > > #  Control interface
+> > > #
+> > >
+> > > ctl.default {
+> > >        type hw
+> > >        card {
+> > >                @func getenv
+> > >                vars [
+> > >                        ALSA_CTL_CARD
+> > >                        ALSA_CARD
+> > >                ]
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.ctl.card
+> > >                }
+> > >        }
+> > > }
+> > >
+> > > ctl.hw {
+> > >        @args [ CARD ]
+> > >        @args.CARD {
+> > >                type string
+> > >                default {
+> > >                        @func getenv
+> > >                        vars [
+> > >                                ALSA_CTL_CARD
+> > >                                ALSA_CARD
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.ctl.card
+> > >                        }
+> > >                }
+> > >        }
+> > >        type hw
+> > >        card $CARD
+> > > }
+> > >
+> > > ctl.shm {
+> > >        @args [ SOCKET CTL ]
+> > >        @args.SOCKET {
+> > >                type string
+> > >        }
+> > >        @args.CTL {
+> > >                type string
+> > >        }
+> > >        type shm
+> > >        server $SOCKET
+> > >        ctl $CTL
+> > > }
+> > >
+> > > #
+> > > #  RawMidi interface
+> > > #
+> > >
+> > > rawmidi.default {
+> > >        type hw
+> > >        card {
+> > >                @func getenv
+> > >                vars [
+> > >                        ALSA_RAWMIDI_CARD
+> > >                        ALSA_CARD
+> > >                ]
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.rawmidi.card
+> > >                }
+> > >        }
+> > >        device {
+> > >                @func igetenv
+> > >                vars [
+> > >                        ALSA_RAWMIDI_DEVICE
+> > >                ]
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.rawmidi.device
+> > >                }
+> > >        }
+> > > }
+> > >
+> > > rawmidi.hw {
+> > >        @args [ CARD DEV SUBDEV ]
+> > >        @args.CARD {
+> > >                type string
+> > >                default {
+> > >                        @func getenv
+> > >                        vars [
+> > >                                ALSA_RAWMIDI_CARD
+> > >                                ALSA_CARD
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.rawmidi.card
+> > >                        }
+> > >                }
+> > >        }
+> > >        @args.DEV {
+> > >                type integer
+> > >                default {
+> > >                        @func igetenv
+> > >                        vars [
+> > >                                ALSA_RAWMIDI_DEVICE
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.rawmidi.device
+> > >                        }
+> > >                }
+> > >        }
+> > >        @args.SUBDEV {
+> > >                type integer
+> > >                default -1
+> > >        }
+> > >        type hw
+> > >        card $CARD
+> > >        device $DEV
+> > >        subdevice $SUBDEV
+> > >        hint {
+> > >                description "Direct rawmidi driver device"
+> > >                device $DEV
+> > >        }
+> > > }
+> > >
+> > > rawmidi.virtual {
+> > >        @args [ MERGE ]
+> > >        @args.MERGE {
+> > >                type string
+> > >                default 1
+> > >        }
+> > >        type virtual
+> > >        merge $MERGE
+> > > }
+> > >
+> > > #
+> > > #  Sequencer interface
+> > > #
+> > >
+> > > seq.default {
+> > >        type hw
+> > > }
+> > >
+> > > seq.hw {
+> > >        type hw
+> > > }
+> > >
+> > > #
+> > > #  HwDep interface
+> > > #
+> > >
+> > > hwdep.default {
+> > >        type hw
+> > >        card {
+> > >                @func getenv
+> > >                vars [
+> > >                        ALSA_HWDEP_CARD
+> > >                        ALSA_CARD
+> > >                ]
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.hwdep.card
+> > >                }
+> > >        }
+> > >        device {
+> > >                @func igetenv
+> > >                vars [
+> > >                        ALSA_HWDEP_DEVICE
+> > >                ]
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.hwdep.device
+> > >                }
+> > >        }
+> > > }
+> > >
+> > > hwdep.hw {
+> > >        @args [ CARD DEV ]
+> > >        @args.CARD {
+> > >                type string
+> > >                default {
+> > >                        @func getenv
+> > >                        vars [
+> > >                                ALSA_HWDEP_CARD
+> > >                                ALSA_CARD
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.hwdep.card
+> > >                        }
+> > >                }
+> > >        }
+> > >        @args.DEV {
+> > >                type integer
+> > >                default {
+> > >                        @func igetenv
+> > >                        vars [
+> > >                                ALSA_HWDEP_DEVICE
+> > >                        ]
+> > >                        default {
+> > >                                @func refer
+> > >                                name defaults.hwdep.device
+> > >                        }
+> > >                }
+> > >        }
+> > >        type hw
+> > >        card $CARD
+> > >        device $DEV
+> > > }
+> > >
+> > > #
+> > > #  Timer interface
+> > > #
+> > >
+> > > timer_query.default {
+> > >        type hw
+> > > }
+> > >
+> > > timer_query.hw {
+> > >        type hw
+> > > }
+> > >
+> > > timer.default {
+> > >        type hw
+> > >        class {
+> > >                @func refer
+> > >                name defaults.timer.class
+> > >        }
+> > >        sclass {
+> > >                @func refer
+> > >                name defaults.timer.sclass
+> > >        }
+> > >        card {
+> > >                @func refer
+> > >                name defaults.timer.card
+> > >        }
+> > >        device {
+> > >                @func refer
+> > >                name defaults.timer.device
+> > >        }
+> > >        subdevice {
+> > >                @func refer
+> > >                name defaults.timer.subdevice
+> > >        }
+> > >        hint.description "Default direct hardware timer device"
+> > > }
+> > >
+> > > timer.hw {
+> > >        @args [ CLASS SCLASS CARD DEV SUBDEV ]
+> > >        @args.CLASS {
+> > >                type integer
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.timer.class
+> > >                }
+> > >        }
+> > >        @args.SCLASS {
+> > >                type integer
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.timer.sclass
+> > >                }
+> > >        }
+> > >        @args.CARD {
+> > >                type string
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.timer.card
+> > >                }
+> > >        }
+> > >        @args.DEV {
+> > >                type integer
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.timer.device
+> > >                }
+> > >        }
+> > >        @args.SUBDEV {
+> > >                type integer
+> > >                default {
+> > >                        @func refer
+> > >                        name defaults.timer.subdevice
+> > >                }
+> > >        }
+> > >        type hw
+> > >        class $CLASS
+> > >        sclass $SCLASS
+> > >        card $CARD
+> > >        device $DEV
+> > >        subdevice $SUBDEV
+> > > }
+> > >
+> > >
+> > > On Sat, 2010-05-01 at 21:40 +0530, Anand Sivaram wrote:
+> > >> On Sat, May 1, 2010 at 20:55, Andrea Giuliano <sarkiaponius@alice.it=
+>
+> wrote:
+> > >> > Here aplay -l:
+> > >> >
+> > >> > card 0: NVidia [HDA NVidia], device 0: HDA Generic [HDA Generic]
+> > >> >  Subdevices: 1/1
+> > >> >  Subdevice #0: subdevice #0
+> > >> >
+> > >> > Here is amixer info, too:
+> > >> >
+> > >> > Card default 'NVidia'/'HDA NVidia at 0xf9ef8000 irq 22'
+> > >> >  Mixer name    : 'VIA ID 397'
+> > >> >  Components    : 'HDA:11060397'
+> > >> >  Controls      : 4
+> > >> >  Simple ctrls  : 3
+> > >> >
+> > >> > Actually, you are right, it's rather strange I see just a few
+> controls,
+> > >> > they should be many more (my card is a 7.1 points one).
+> > >> >
+> > >> > On Sat, 2010-05-01 at 14:08 +0000, Camale=F3n wrote:
+> > >> >> On Sat, 01 May 2010 15:52:46 +0200, Andrea Giuliano wrote:
+> > >> >>
+> > >> >> > Alsamixer doesn'i show muted input. Not does
+> gnome-volume-settings. I
+> > >> >> > also checked out gnome-sound-properties, and it gives no errors
+> at all,
+> > >> >> > as if it thinks everything is working fine.
+> > >> >> >
+> > >> >> > Here is the output from amixer:
+> > >> >>
+> > >> >> Only "master", "PCM" and "capture"?
+> > >> >>
+> > >> >> No "mic" and no additional "aux" or "surround" outputs? :-?
+> > >> >>
+> > >> >> > and here is /proc/asound/cards
+> > >> >> >
+> > >> >> >  0 [NVidia         ]: HDA-Intel - HDA NVidia
+> > >> >> >                       HDA NVidia at 0xf9ef8000 irq 22
+> > >> >> >
+> > >> >> > I'm going to try a LiveCD or such, but I'm not very optimistic.
+> > >> >>
+> > >> >> Modern motherboards use to include 5.1 or 7.1 audio channel
+> chipset, it's
+> > >> >> a bit weird your amixer output only shows 3 devices...
+> > >> >>
+> > >> >> This may sound silly, but have you tried to plug the speakers jac=
+k
+> in all
+> > >> >> the outlets available?
+> > >> >>
+> > >> >> What does "aplay -l" say?
+> > >> >>
+> > >> >> Greetings,
+> > >> >>
+> > >> >> --
+> > >> >> Camale=F3n
+> > >> >>
+> > >> >>
+> > >> >
+> > >> >
+> > >> > --
+> > >> > To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> > >> > with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> > >> > Archive: http://lists.debian.org/1272727535.20670.1.camel@debian
+> > >> >
+> > >> >
+> > >>
+> > >> What is the output of /usr/share/alsa/alsa.conf
+> > >>
+> > >>
+> > >
+> >
+> > This is the working alsa.conf of my athlon mcp61 machine.
+> > Could you try the following.
+> > cd /usr/share/alsa
+> > mv alsa.conf alsa.conf.original (_do_ _not_ delete it, just move it so
+> > that you could copy  it back in case required)
+> > gunzip /path/to/download/alsa.conf.gz
+> > mv /path/to/download/alsa.conf ./
+> > restart machine.
+>
+
+--000e0cd56cc6dac50304859e7ee5
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Andrea,<div><br></div><div>Nice to know that your sound issue is fixed. =A0=
+Even I found a similar problem with this laptop too, I installed the stock =
+debian 2.6.32 kernel and there was no sound.</div><div>Then I hand compiled=
+, the latest 2.6.34-rc5 kernel and things started working.</div>
+<div><br></div><div>Now you are having problems with nvidia drivers, I have=
+ a couple of suggestions for you. =A0Try whatever suits you better.</div><d=
+iv><br></div><div>* avoid the nvidia binary driver, binary drivers always g=
+ive a lot of problems. =A0You could =A0reconfgure your xorg with 2d &quot;n=
+v&quot; driver. =A0But if you are a gamer or using compiz 3d desktop, then =
+you have problems with this approach</div>
+<div><div>* install squeeze (i think you you could upgrade from lenny, not =
+sure) so that you get most of the new software. =A0I am using unstable(sid)=
+ on my desktop and squeeze on my laptop, never tried lenny at all......</di=
+v>
+</div><div>* There is a new &quot;nouveau&quot; re-engineered free/open 3d =
+nvidia driver from 2.6.33, kernel for that you need a new kernel</div><div>=
+* build a new kernel with nvidia driver</div><div>If you are planning eithe=
+r the last two options, you could take a new kernel from official <a href=
+=3D"http://kernel.org">kernel.org</a>. =A0It takes around 15 minutes of you=
+r time and maximum around 2 hours of your computers time :), there are a lo=
+t of resources to do that and you could get a lot of help too.</div>
+<div>Anyway, best of luck with your kernel endeavor.</div><div><br></div><d=
+iv>Thanks and Regards</div><div><br></div><div>Anand</div><div><br></div><d=
+iv><br></div><div><br></div><div><br></div><div>* compile a new kernel comp=
+letely based on newer k<br>
+<br><div class=3D"gmail_quote">On Sun, May 2, 2010 at 20:12, Andrea Giulian=
+o <span dir=3D"ltr">&lt;<a href=3D"mailto:sarkiaponius@alice.it">sarkiaponi=
+us@alice.it</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" styl=
+e=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex;">
+Dear Anand,<br>
+<br>
+I tried your configuration file, but nothing changed.<br>
+<br>
+For all of you who were so kind to try to help me, here are some good<br>
+news: I tried to install kernel 2.6.32 from lenny backports and the<br>
+sound seems to work now. At least I could here the &quot;login.wav&quot; th=
+at most<br>
+Lenny users know.<br>
+<br>
+The bad part is that now I cannot make the graphics card to work,<br>
+because I should recompile the NVidia driver, but to accomplish this<br>
+task I need linux-headers-$(uname -r), and this package depend on =A0the<br=
+>
+corresponding linux-kbuild, which won&#39;t install, according to apt-get<b=
+r>
+message.<br>
+<br>
+This is a pity, but at least now I&#39;m sure the sound card is working. My=
+<br>
+PC is brand new, so I&#39;m happy it&#39;s not a hardware problem, even tho=
+ugh<br>
+it&#39;s still a problem.<br>
+<br>
+So I would say the issue is solved, from my point of view. I won&#39;t ask<=
+br>
+some help to force the installation of linux-headers in this thread,<br>
+maybe I&#39;ll start another one.<br>
+<br>
+Many many thanks to everyone!<br>
+<div><div></div><div class=3D"h5"><br>
+On Sun, 2010-05-02 at 09:26 +0530, Anand Sivaram wrote:<br>
+&gt; On Sat, May 1, 2010 at 22:49, Andrea Giuliano &lt;<a href=3D"mailto:sa=
+rkiaponius@alice.it">sarkiaponius@alice.it</a>&gt; wrote:<br>
+&gt; &gt; Here is /usr/share/alsa/alsa.conf (that&#39;s a lot of lines!)<br=
+>
+&gt; &gt;<br>
+&gt; &gt; Best regards.<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # =A0ALSA library configuration file<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; # pre-load the configuration files<br>
+&gt; &gt;<br>
+&gt; &gt; @hooks [<br>
+&gt; &gt; =A0 =A0 =A0 =A0{<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0func load<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0files [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0&quot;/etc/asound.=
+conf&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0&quot;~/.asoundrc&=
+quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0errors false<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; ]<br>
+&gt; &gt;<br>
+&gt; &gt; # load card-specific configuration files (on request)<br>
+&gt; &gt;<br>
+&gt; &gt; cards.@hooks [<br>
+&gt; &gt; =A0 =A0 =A0 =A0{<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0func load<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0files [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0{<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc concat<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0st=
+rings [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0{ @func datadir }<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0&quot;/cards/aliases.conf&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<=
+br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0{<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0func load_for_all_cards<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0files [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0{<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc concat<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0st=
+rings [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0{ @func datadir }<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0&quot;/cards/&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0{ @func private_string }<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0&quot;.conf&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<=
+br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0errors false<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; ]<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # defaults<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; # show all name hints also for definitions without hint {} sectio=
+n<br>
+&gt; &gt; defaults.namehint.showall off<br>
+&gt; &gt; # show just basic name hints<br>
+&gt; &gt; defaults.namehint.basic on<br>
+&gt; &gt; # show extended name hints<br>
+&gt; &gt; defaults.namehint.extended off<br>
+&gt; &gt; #<br>
+&gt; &gt; defaults.ctl.card 0<br>
+&gt; &gt; defaults.pcm.card 0<br>
+&gt; &gt; defaults.pcm.device 0<br>
+&gt; &gt; defaults.pcm.subdevice -1<br>
+&gt; &gt; defaults.pcm.nonblock 1<br>
+&gt; &gt; defaults.pcm.ipc_key 5678293<br>
+&gt; &gt; defaults.pcm.ipc_gid audio<br>
+&gt; &gt; defaults.pcm.ipc_perm 0660<br>
+&gt; &gt; defaults.pcm.dmix.max_periods 0<br>
+&gt; &gt; defaults.pcm.dmix.rate 48000<br>
+&gt; &gt; defaults.pcm.dmix.format &quot;unchanged&quot;<br>
+&gt; &gt; defaults.pcm.dmix.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.dmix.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.dsnoop.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.dsnoop.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.front.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.front.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.rear.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.rear.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.center_lfe.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.center_lfe.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.side.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.side.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.surround40.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.surround40.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.surround41.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.surround41.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.surround50.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.surround50.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.surround51.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.surround51.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.surround71.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.surround71.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.iec958.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.iec958.device defaults.pcm.device<br>
+&gt; &gt; defaults.pcm.modem.card defaults.pcm.card<br>
+&gt; &gt; defaults.pcm.modem.device defaults.pcm.device<br>
+&gt; &gt; defaults.rawmidi.card 0<br>
+&gt; &gt; defaults.rawmidi.device 0<br>
+&gt; &gt; defaults.rawmidi.subdevice -1<br>
+&gt; &gt; defaults.hwdep.card 0<br>
+&gt; &gt; defaults.hwdep.device 0<br>
+&gt; &gt; defaults.timer.class 2<br>
+&gt; &gt; defaults.timer.sclass 0<br>
+&gt; &gt; defaults.timer.card 0<br>
+&gt; &gt; defaults.timer.device 0<br>
+&gt; &gt; defaults.timer.subdevice 0<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # =A0PCM interface<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; # redirect to load-on-demand extended pcm definitions<br>
+&gt; &gt; pcm.cards cards.pcm<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.default cards.pcm.default<br>
+&gt; &gt; pcm.front cards.pcm.front<br>
+&gt; &gt; pcm.rear cards.pcm.rear<br>
+&gt; &gt; pcm.center_lfe cards.pcm.center_lfe<br>
+&gt; &gt; pcm.side cards.pcm.side<br>
+&gt; &gt; pcm.surround40 cards.pcm.surround40<br>
+&gt; &gt; pcm.surround41 cards.pcm.surround41<br>
+&gt; &gt; pcm.surround50 cards.pcm.surround50<br>
+&gt; &gt; pcm.surround51 cards.pcm.surround51<br>
+&gt; &gt; pcm.surround71 cards.pcm.surround71<br>
+&gt; &gt; pcm.iec958 cards.pcm.iec958<br>
+&gt; &gt; pcm.spdif iec958<br>
+&gt; &gt; pcm.dmix cards.pcm.dmix<br>
+&gt; &gt; pcm.dsnoop cards.pcm.dsnoop<br>
+&gt; &gt; pcm.modem cards.pcm.modem<br>
+&gt; &gt; pcm.phoneline cards.pcm.phoneline<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.hw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ CARD DEV SUBDEV ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CARD {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_PCM_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.pcm.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.DEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func igetenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_PCM_DEVICE<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.pcm.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SUBDEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.pcm.=
+subdevice<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0card $CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0device $DEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0subdevice $SUBDEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0hint {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0show {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.name=
+hint.extended<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0description &quot;Direct hardware =
+device without any conversions&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.plughw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ CARD DEV SUBDEV ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CARD {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_PCM_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.pcm.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.DEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func igetenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_PCM_DEVICE<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.pcm.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SUBDEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.pcm.=
+subdevice<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type plug<br>
+&gt; &gt; =A0 =A0 =A0 =A0slave.pcm {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0card $CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0device $DEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0subdevice $SUBDEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0hint {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0show {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.name=
+hint.extended<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0description &quot;Hardware device =
+with all software conversions&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.plug {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ SLAVE ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SLAVE {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type plug<br>
+&gt; &gt; =A0 =A0 =A0 =A0slave.pcm $SLAVE<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.shm {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ SOCKET PCM ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SOCKET {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.PCM {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type shm<br>
+&gt; &gt; =A0 =A0 =A0 =A0server $SOCKET<br>
+&gt; &gt; =A0 =A0 =A0 =A0pcm $PCM<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.tee {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ SLAVE FILE FORMAT ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SLAVE {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.FILE {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.FORMAT {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default raw<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type file<br>
+&gt; &gt; =A0 =A0 =A0 =A0slave.pcm $SLAVE<br>
+&gt; &gt; =A0 =A0 =A0 =A0file $FILE<br>
+&gt; &gt; =A0 =A0 =A0 =A0format $FORMAT<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.file {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ FILE FORMAT ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.FILE {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.FORMAT {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default raw<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type file<br>
+&gt; &gt; =A0 =A0 =A0 =A0slave.pcm null<br>
+&gt; &gt; =A0 =A0 =A0 =A0file $FILE<br>
+&gt; &gt; =A0 =A0 =A0 =A0format $FORMAT<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; pcm.null {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type null<br>
+&gt; &gt; =A0 =A0 =A0 =A0hint {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0show {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.name=
+hint.basic<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0description &quot;Discard all samp=
+les (playback) or generate zero samples<br>
+&gt; &gt; (capture)&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # =A0Control interface<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; ctl.default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0card {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_CTL_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.ctl.=
+card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; ctl.hw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ CARD ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CARD {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_CTL_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.ctl.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0card $CARD<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; ctl.shm {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ SOCKET CTL ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SOCKET {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CTL {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type shm<br>
+&gt; &gt; =A0 =A0 =A0 =A0server $SOCKET<br>
+&gt; &gt; =A0 =A0 =A0 =A0ctl $CTL<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # =A0RawMidi interface<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; rawmidi.default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0card {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_RAWMIDI_CARD<=
+br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.rawm=
+idi.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0device {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func igetenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_RAWMIDI_DEVIC=
+E<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.rawm=
+idi.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; rawmidi.hw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ CARD DEV SUBDEV ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CARD {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_RAWMIDI_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.rawmidi.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.DEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func igetenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_RAWMIDI_DEVICE<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.rawmidi.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SUBDEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default -1<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0card $CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0device $DEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0subdevice $SUBDEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0hint {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0description &quot;Direct rawmidi d=
+river device&quot;<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0device $DEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; rawmidi.virtual {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ MERGE ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.MERGE {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default 1<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type virtual<br>
+&gt; &gt; =A0 =A0 =A0 =A0merge $MERGE<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # =A0Sequencer interface<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; seq.default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; seq.hw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # =A0HwDep interface<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; hwdep.default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0card {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_HWDEP_CARD<br=
+>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.hwde=
+p.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0device {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func igetenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALSA_HWDEP_DEVICE<=
+br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.hwde=
+p.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; hwdep.hw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ CARD DEV ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CARD {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func getenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_HWDEP_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.hwdep.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.DEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func igetenv<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vars [<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0AL=
+SA_HWDEP_DEVICE<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0]<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@f=
+unc refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0na=
+me defaults.hwdep.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0card $CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0device $DEV<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; #<br>
+&gt; &gt; # =A0Timer interface<br>
+&gt; &gt; #<br>
+&gt; &gt;<br>
+&gt; &gt; timer_query.default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; timer_query.hw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; timer.default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0class {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.timer.class<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0sclass {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.timer.sclass<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0card {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.timer.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0device {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.timer.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0subdevice {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.timer.subdevice<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0hint.description &quot;Default direct hardware tim=
+er device&quot;<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt; timer.hw {<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args [ CLASS SCLASS CARD DEV SUBDEV ]<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CLASS {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.time=
+r.class<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SCLASS {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.time=
+r.sclass<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.CARD {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type string<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.time=
+r.card<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.DEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.time=
+r.device<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0@args.SUBDEV {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0type integer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0default {<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0@func refer<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0name defaults.time=
+r.subdevice<br>
+&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0}<br>
+&gt; &gt; =A0 =A0 =A0 =A0type hw<br>
+&gt; &gt; =A0 =A0 =A0 =A0class $CLASS<br>
+&gt; &gt; =A0 =A0 =A0 =A0sclass $SCLASS<br>
+&gt; &gt; =A0 =A0 =A0 =A0card $CARD<br>
+&gt; &gt; =A0 =A0 =A0 =A0device $DEV<br>
+&gt; &gt; =A0 =A0 =A0 =A0subdevice $SUBDEV<br>
+&gt; &gt; }<br>
+&gt; &gt;<br>
+&gt; &gt;<br>
+&gt; &gt; On Sat, 2010-05-01 at 21:40 +0530, Anand Sivaram wrote:<br>
+&gt; &gt;&gt; On Sat, May 1, 2010 at 20:55, Andrea Giuliano &lt;<a href=3D"=
+mailto:sarkiaponius@alice.it">sarkiaponius@alice.it</a>&gt; wrote:<br>
+&gt; &gt;&gt; &gt; Here aplay -l:<br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt; card 0: NVidia [HDA NVidia], device 0: HDA Generic [HDA =
+Generic]<br>
+&gt; &gt;&gt; &gt; =A0Subdevices: 1/1<br>
+&gt; &gt;&gt; &gt; =A0Subdevice #0: subdevice #0<br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt; Here is amixer info, too:<br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt; Card default &#39;NVidia&#39;/&#39;HDA NVidia at 0xf9ef8=
+000 irq 22&#39;<br>
+&gt; &gt;&gt; &gt; =A0Mixer name =A0 =A0: &#39;VIA ID 397&#39;<br>
+&gt; &gt;&gt; &gt; =A0Components =A0 =A0: &#39;HDA:11060397&#39;<br>
+&gt; &gt;&gt; &gt; =A0Controls =A0 =A0 =A0: 4<br>
+&gt; &gt;&gt; &gt; =A0Simple ctrls =A0: 3<br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt; Actually, you are right, it&#39;s rather strange I see j=
+ust a few controls,<br>
+&gt; &gt;&gt; &gt; they should be many more (my card is a 7.1 points one).<=
+br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt; On Sat, 2010-05-01 at 14:08 +0000, Camale=F3n wrote:<br>
+&gt; &gt;&gt; &gt;&gt; On Sat, 01 May 2010 15:52:46 +0200, Andrea Giuliano =
+wrote:<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; &gt; Alsamixer doesn&#39;i show muted input. Not doe=
+s gnome-volume-settings. I<br>
+&gt; &gt;&gt; &gt;&gt; &gt; also checked out gnome-sound-properties, and it=
+ gives no errors at all,<br>
+&gt; &gt;&gt; &gt;&gt; &gt; as if it thinks everything is working fine.<br>
+&gt; &gt;&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt;&gt; &gt; Here is the output from amixer:<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; Only &quot;master&quot;, &quot;PCM&quot; and &quot;c=
+apture&quot;?<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; No &quot;mic&quot; and no additional &quot;aux&quot;=
+ or &quot;surround&quot; outputs? :-?<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; &gt; and here is /proc/asound/cards<br>
+&gt; &gt;&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt;&gt; &gt; =A00 [NVidia =A0 =A0 =A0 =A0 ]: HDA-Intel - HDA=
+ NVidia<br>
+&gt; &gt;&gt; &gt;&gt; &gt; =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 HDA=
+ NVidia at 0xf9ef8000 irq 22<br>
+&gt; &gt;&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt;&gt; &gt; I&#39;m going to try a LiveCD or such, but I&#3=
+9;m not very optimistic.<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; Modern motherboards use to include 5.1 or 7.1 audio =
+channel chipset, it&#39;s<br>
+&gt; &gt;&gt; &gt;&gt; a bit weird your amixer output only shows 3 devices.=
+..<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; This may sound silly, but have you tried to plug the=
+ speakers jack in all<br>
+&gt; &gt;&gt; &gt;&gt; the outlets available?<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; What does &quot;aplay -l&quot; say?<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; Greetings,<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt; --<br>
+&gt; &gt;&gt; &gt;&gt; Camale=F3n<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;&gt;<br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt; --<br>
+&gt; &gt;&gt; &gt; To UNSUBSCRIBE, email to <a href=3D"mailto:debian-user-R=
+EQUEST@lists.debian.org">debian-user-REQUEST@lists.debian.org</a><br>
+&gt; &gt;&gt; &gt; with a subject of &quot;unsubscribe&quot;. Trouble? Cont=
+act <a href=3D"mailto:listmaster@lists.debian.org">listmaster@lists.debian.=
+org</a><br>
+&gt; &gt;&gt; &gt; Archive: <a href=3D"http://lists.debian.org/1272727535.2=
+0670.1.camel@debian" target=3D"_blank">http://lists.debian.org/1272727535.2=
+0670.1.camel@debian</a><br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt; &gt;<br>
+&gt; &gt;&gt;<br>
+&gt; &gt;&gt; What is the output of /usr/share/alsa/alsa.conf<br>
+&gt; &gt;&gt;<br>
+&gt; &gt;&gt;<br>
+&gt; &gt;<br>
+&gt;<br>
+&gt; This is the working alsa.conf of my athlon mcp61 machine.<br>
+&gt; Could you try the following.<br>
+&gt; cd /usr/share/alsa<br>
+&gt; mv alsa.conf alsa.conf.original (_do_ _not_ delete it, just move it so=
+<br>
+&gt; that you could copy =A0it back in case required)<br>
+&gt; gunzip /path/to/download/alsa.conf.gz<br>
+&gt; mv /path/to/download/alsa.conf ./<br>
+&gt; restart machine.<br>
+</div></div></blockquote></div><br></div>
+
+--000e0cd56cc6dac50304859e7ee5--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/z2yd0bf7b0b1005020854n8218e549o2e1ea4392e773a2e@mail.csmining.org
+
+

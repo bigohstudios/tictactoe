@@ -1,0 +1,36 @@
+Re: [SAdev] Re: [Razor-users] Mutating spamJustin Mason wrote:
+
+>> Interestingly, some of these seem (apparently) to be encrypted versions of
+>> the recipient email address.  To see this, ROT13 yr address and grep your
+>> spam archive.  There'll be at least 1 hit.
+
+Theo Van Dinter <felicity@kluge.net> writes:
+
+> Hmmm.  I'm surprised at these results, especially since I should be
+> seeing some false positives...  Not a lot of matches though. :(
+
+Still worthwhile -- 1.257% is not that bad.  :-)
+
+My results:
+
+  OVERALL%   SPAM% NONSPAM%     S/O    RANK   SCORE  NAME
+    11774     4079     7695    0.35    0.00    0.00  (all messages)
+  100.000   34.644   65.356    0.35    0.00    0.00  (all messages as %)
+    0.195    0.564    0.000    1.00    0.75    1.00  T_ROT13_EMAIL_3
+    0.161    0.466    0.000    1.00    0.73    1.00  T_ROT13_EMAIL_2
+    0.161    0.466    0.000    1.00    0.73    1.00  T_ROT13_EMAIL
+
+The interesting thing is that these hits all seem to be rot13 versions
+of the To: address.  If we ever start getting FPs (or if anyone is
+worried), we could make it an eval test for rot13 of the To: address
+(turning non-word characters into "." characters in the regular
+expression).
+
+At the same time, it might be worth testing for username in HTML
+comments.  I found some <!--quinlan--> types in HTML comments, but I
+haven't seen enough hits so far to bother (however, I did add a really
+good test for email addresses in comments).
+
+Dan
+
+

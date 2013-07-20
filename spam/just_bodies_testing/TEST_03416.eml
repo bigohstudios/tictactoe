@@ -1,0 +1,63 @@
+Re: Cyrus 2.2 imapd in AMD64On Mon, 26 Apr 2010, Carlos Bergero wrote:
+> ./tls_sessions.db: Berkeley DB (Btree, version 8, native byte-order)
+> ./deliver.db: Berkeley DB (Btree, version 8, native byte-order)
+> and there a a couple of cyrus DB files which readme upgrade ask to
+> migrate with a cyrus tool which is not working atm,
+> ./mailboxes.db: Cyrus skiplist DB  (which it has a different name
+> simply mailboxes, without the .db extension)
+> ./annotations.db: Cyrus skiplist DB  (which is not mentioned in the
+> tutorial)
+> So far im focused in trying to get this DB to the proper format
+> version 9 in the standard Lenny install, and see what happens,
+> without much success.
+
+db*_upgrade will upgrade (NOT DOWNGRADE) a berkeley database. Run it from
+the main environment directory.  It is in the db*-util packages.  Use the
+correct target version (for cyrus, see the package dependency list to know
+which libdb it uses).
+
+Just delete tls_sessions.db.  It is the TLS session cache.
+
+You can consider deleting deliver.db.  It is the cache used for duplicate
+suppression and to avoid sending vacation messages to the same recipient
+twice.  There will be very little harm done (if any) should you delete it.
+
+Consider reading the documentation for berkeley DB, especially the stuff
+prepared by OpenLDAP and samba (look in their web pages).  Screw that up,
+and your performance goes downhill.
+
+Consider reading the archives of the cyrus users ML, hunt down from any
+posts from @fastmail.fm and read them.  They _REALLY_ know their stuff.
+
+All skiplist DBs are auto-upgraded by cyrus on access.  If one wasn't,
+chances are it is corrupt and you have a big problem.
+
+After you manage to start cyrus, run cyrquota and cyrreconstruct over *ALL*
+mailboxes.  I mean *ALL* of them.  And this _will_ take time.  You could do
+it with the system in use, but since it is a safety measure to insure there
+is no inconsistent data, well, it is best done before any read or write
+access is done to the mailboxes.
+
+And do remember cyrus has databases stored in the user dirs as well. Debian
+packages should have them skiplist or plaintext, which don't require manual
+intervention, but check it (seen database).
+
+Sieve requires conversion of _all_ scripts on all spools.  Look for the
+massievec script and run it on every sieve script.
+
+This is _all_ in the cyrus documentation, although probably not organized
+like that...
+
+-- 
+  "One disk to rule them all, One disk to find them. One disk to bring
+  them all and in the darkness grind them. In the Land of Redmond
+  where the shadows lie." -- The Silicon Valley Tarot
+  Henrique Holschuh
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100501155315.GA24313@khazad-dum.debian.net
+
+

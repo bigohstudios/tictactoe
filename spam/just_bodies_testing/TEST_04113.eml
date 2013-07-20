@@ -1,0 +1,32 @@
+Kiosk mode in .qtl not working properly in Quicktime X PlayerHi.
+
+I have Quicktime Link files (.qtl)  on a server that refer to another  
+movie on the server.
+
+If I open the .qtl file with Quicktime Player 7 it works properly,  
+the user can't save the movie or cut and copy the movie.
+
+If I open the .qtl file in Quicktime Player X the menu choices for   
+'save as...' ,  'save for web...' and the 'Share' menu choices  
+'iTunes...' 'MobileMe Gallery...' and YouTube...' are enabled.
+However  If I chose them the movie starts to save but then will get  
+an error.
+
+Save as... and Share>Itunes . generate OSStatus error-38
+save for web generates OSStatus error-108
+
+It does not result in the movie being saved but the interface  
+indicates it can be done.  Can Quicktime player X save movies which  
+have Kiosk mode set as true?
+
+Martin
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

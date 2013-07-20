@@ -1,0 +1,129 @@
+X-Account-Key: account5
+X-UIDL: GmailId128991ccffe9dcfb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs52644wfo;
+        Fri, 14 May 2010 16:18:42 -0700 (PDT)
+Received: by 10.223.161.204 with SMTP id s12mr2326550fax.103.1273879121656;
+        Fri, 14 May 2010 16:18:41 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w14si6929749faj.38.2010.05.14.16.18.41;
+        Fri, 14 May 2010 16:18:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C4F9D13A5994; Fri, 14 May 2010 23:18:36 +0000 (UTC)
+Old-Return-Path: <reidac@bellatlantic.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=IMPRONONCABLE_1,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1F88D13A5977
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 23:18:31 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_1=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1mj5R0G0y3bX for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 23:18:24 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .bellatlantic. - helo: .vms173003pub.verizon. - helo-domain: .verizon.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1 IN_ABUSE_RFCI=0.1; rate: -6.8
+Received: from vms173003pub.verizon.net (vms173003pub.verizon.net [206.46.173.3])
+	by liszt.debian.org (Postfix) with ESMTP id CDEDE13A5985
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 23:18:22 +0000 (UTC)
+Received: from nightingale.gblocal ([unknown] [71.191.0.34])
+ by vms173003.mailsrvcs.net
+ (Sun Java(tm) System Messaging Server 7u2-7.02 32bit (built Apr 16 2009))
+ with ESMTPA id <0L2F00HD4NDZ7WZ2@vms173003.mailsrvcs.net> for
+ debian-user@lists.debian.org; Fri, 14 May 2010 18:18:00 -0500 (CDT)
+From: Andrew Reid <reidac@bellatlantic.net>
+To: debian-user@lists.debian.org
+Subject: Re: executable won't execute
+Date: Fri, 14 May 2010 19:17:57 -0400
+User-Agent: KMail/1.9.9
+References: <4BEC9B19.5060001@acu.edu>
+In-reply-to: <4BEC9B19.5060001@acu.edu>
+MIME-version: 1.0
+Content-type: text/plain; charset=iso-8859-1
+Content-transfer-encoding: 7bit
+Content-disposition: inline
+Message-id: <201005141917.57156.reidac@bellatlantic.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <MPqk2utd93P.A.RnE.Mpd7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576865
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 23:18:36 +0000 (UTC)
+
+On Thursday 13 May 2010 20:36:41 Kent West wrote:
+> I'm trying to start a daemon for Maple v 14, but when I try to run it,
+> the system complains that the file doesn't exist. What's up?
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:> ls -lh
+> total 2.8M
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmcksum -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmdiag -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmdown -> lmutil
+> -rwxr-xr-x 1 root staff 854K 2010-05-13 16:04 lmgrd
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmhostid -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lminstall -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmremove -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmreread -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmstat -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmswitchr -> lmutil
+> -rwxr-xr-x 1 root staff 979K 2010-05-13 16:04 lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmver -> lmutil
+> -rwxr-xr-x 1 root staff 962K 2010-05-13 16:04 maplelmg
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:>
+> sudo ./lmgrd
+> sudo: unable to execute ./lmgrd: No such file or directory
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:> ldd
+> lmgrd
+> /usr/bin/ldd: line 117: ./lmgrd: No such file or directory
+
+  That ldd can't see it is just weird.
+
+  Is the directory NFS-mounted?  I have sometimes seen NFS mounts get
+confused and do stuff like this, with files showing up in some
+queries but not others.  Changing the NFS export or mount options
+to more careful settings can help (e.g. use "sync", turn off caching, etc.)
+
+  Alternatively, I recall that if a file-system is mounted "noexec", it
+can give confusing messages when you try to run things from it -- I think
+it's usually "permission denied", but maybe my recollection is faulty?
+
+  Other than that, given the evidence in the rest of the thread, I'm 
+going to guess that it's some kind of file-system error.  Check the 
+logs (especially /var/log/kern.log) for errors, maybe fsck the 
+filesystem, and try again...
+
+					-- A.
+-- 
+Andrew Reid / reidac@bellatlantic.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005141917.57156.reidac@bellatlantic.net
+
+

@@ -1,0 +1,38 @@
+Re: Quick php advice needed :-)Once upon a time, Brian wrote :
+
+> On Thu, 1 Aug 2002 10:51:56 +0200, Matthias Saou <matthias@egwn.net>
+> wrote:
+> 
+> > Sorry, this hasn't got much to do with rpm packages directly ;-)
+> > 
+> > My "builds" page is getting bigger and bigger, and quite messy as
+> > directories are listed in no particular order :
+> > http://freshrpms.net/builds...
+> 
+>     Yep.  Make sure there's a field in the database called (for example)
+>     "Updated" and when it comes time to generate the list, add "order by
+>     updated".  This'll put it in that particular order for ya.  You can
+>     also chose to order it by name, etc by changing this field.
+> 
+>     This should be the same for both MySql and Postgressql (any modern
+>     SQL, really).  Which are you using?
+
+None for that "builds" part : It's just an export of the CVS tree in which
+I keep my spec files and patches! ;-)
+I think the filemtime() php function that Ville uses in his sript is what
+I'm looking for, then I guess I just need to fill an array with the names
+and mtimes, sort it, then display what I want :-)
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

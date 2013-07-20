@@ -1,0 +1,132 @@
+X-Account-Key: account5
+X-UIDL: GmailId12847823edd70904
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs210396wfj;
+        Wed, 28 Apr 2010 20:00:39 -0700 (PDT)
+Received: by 10.86.239.33 with SMTP id m33mr187430fgh.31.1272510037930;
+        Wed, 28 Apr 2010 20:00:37 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id l12si6295928fgb.27.2010.04.28.20.00.37;
+        Wed, 28 Apr 2010 20:00:37 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6B8E213A5395; Thu, 29 Apr 2010 03:00:28 +0000 (UTC)
+Old-Return-Path: <rowens@ptd.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6E71213A5361
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 03:00:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wSS5ZxD4e7Df for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 03:00:15 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .ptd. - helo: .pm13.mailnet.ptd. - helo-domain: .ptd.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+Received: from pm13.mailnet.ptd.net (pm13.mailnet.ptd.net [204.186.204.93])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id A789B13A4D27
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 03:00:14 +0000 (UTC)
+Received: (qmail 24279 invoked by uid 50005); 29 Apr 2010 03:00:10 -0000
+Received: from 75.97.115.123.res-cmts.senj.ptd.net by pm13.mailnet.ptd.net (envelope-from <rowens@ptd.net>, uid 50002) with qmail-scanner-2.02 
+ (clamdscan: 0.96/10824.  
+ Clear:RC:1(75.97.115.123):. 
+ Processed in 0.02303 secs); 29 Apr 2010 03:00:10 -0000
+Received: from 75.97.115.123.res-cmts.senj.ptd.net (HELO aurora.owens.net) (authenticated:rowens@[75.97.115.123])
+          (envelope-sender <rowens@ptd.net>)
+          by pm13.mailnet.ptd.net (qmail-ldap-1.03) with AES256-SHA encrypted SMTP
+          for <debian-user@lists.debian.org>; 29 Apr 2010 03:00:10 -0000
+Received: from rob by aurora.owens.net with local (Exim 4.69)
+	(envelope-from <rowens@ptd.net>)
+	id 1O7K4J-0002Ks-HX
+	for debian-user@lists.debian.org; Wed, 28 Apr 2010 23:05:39 -0400
+Date: Wed, 28 Apr 2010 23:05:39 -0400
+From: Rob Owens <rowens@ptd.net>
+To: debian-user@lists.debian.org
+Subject: Re: Cannot stop XDM service
+Message-ID: <20100429030539.GA8914@aurora.owens.net>
+References: <t2gb143749d1004281241s325d9f63kda28e7e3fd8b4186@mail.csmining.org> <z2wb143749d1004281927we39ede1g9e09aac500ca3c7f@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <z2wb143749d1004281927we39ede1g9e09aac500ca3c7f@mail.csmining.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Lb-INWxhL5D.A.vxC.MZP2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575410
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 03:00:28 +0000 (UTC)
+
+On Wed, Apr 28, 2010 at 08:27:57PM -0600, Tom Schlodder wrote:
+> First of all, I am very new to Linux but am well aware of the need to
+> learn.  After considerable googling with my issue, I gave up and thought I'd
+> try a mailing list instead :)
+> 
+> In attempting to install the cvm package (apt-get install cvm), I recieve a
+> warning indicating that the XDM service cannot be automatically
+> stopped/started and that I should do so manually.
+> 
+> I then use rcconf to remove the little dot-selector-thingy beside XDM,
+> which, as far as I understand, should stop the service immediately, but
+> errors ensue in the rest of the installation and when I continue the
+> installation again (apt-get -f install) I recieve the same warning that XDM
+> is running and needs to be stopped manually.  Checking in rcconf, the
+> service is already unselected.  Taking a hint from my background with MS
+> Windows, I restarted the computer and tried the installation again; same
+> warning and rcconf still shows the service as unselected.
+> 
+At the command line, you can start/stop service like this:
+
+(as root):
+
+/etc/init.d/someservice stop
+/etc/init.d/someservice start
+
+There is also the invoke-rc.d command, which works similarly, but I
+don't use that so I'm not really qualified to recommend it.
+
+Note that there are other parameters besides stop and start.  Two that
+come to mind are "restart" and "reload".
+
+Tab completion can be handy when stopping/starting services.  Type:
+
+/etc/init.d/x   -- and then hit tab.  
+
+You may have to hit tab twice.
+Hitting tab will either complete the command that starts with "x", or if
+multiple commands start with "x", hitting tab twice will show you a list
+of those commands.  
+
+Good luck in your quest for learning.
+
+-Rob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429030539.GA8914@aurora.owens.net
+
+

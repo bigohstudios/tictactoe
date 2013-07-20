@@ -1,0 +1,41 @@
+Re: X freezes with 2.6.32-5; okay with 2.6.26-2On 2010-05-13 08:42:09 -0500, Kent West wrote:
+> I've got an older 600MHz PIII running Sid; if I boot into the
+> installed 2.6.26-2-68 kernel, everything's fine, but if I boot into
+> the installed 2.6.32-5-68 kernel, everything's fine until X is
+> started (either manually or with a session manager or even when
+
+Hi, I don't know if this will fix your problem or not. But when
+somebody says "my system worked fine with 2.6.26, now it won't work
+with 2.6.32" there is one alarm bell that goes off in my head.
+
+Sometime between 2.6.26 and 2.6.30 the Debian team removed proprietary
+firmware blobs from the kernel. Several of these blobs are related
+to ATI video drivers, including one for r128.
+
+I had a similar issue to you when I moved from 2.6.26 to 2.6.30. I
+don't think X stopped working for me, but performance went way
+down. While troubleshooting the problem (for a long time), I found a
+mention in the README.Debian that said this important firmware had
+been removed. I think it was removed at 2.6.29
+
+Do "aptitude show firmware-linux-nonfree" to see what I mean.
+
+  * Rage 128 CCE microcode (r128/r128_cce.bin) 
+
+I installed the firmware on my systems, but I'm not convinced it worked,
+because my video performance doesn't seem as good as it was before.
+
+Make sure to read the READMEs for your video card driver. I think it
+will be in /usr/share/doc/r128.
+
+Hope this helps,
+
+Phil
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100523055708.GA2059@kasploosh.net
+
+

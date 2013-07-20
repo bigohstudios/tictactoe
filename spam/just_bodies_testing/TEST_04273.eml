@@ -1,0 +1,21 @@
+Re: Redirect stdout without clobbering?On Thu, May 06, 2010 at 07:26:30PM +0300, Dotan Cohen wrote:
+> Is there a way to redirect stdout to a file without clobbering its
+> possibly-existing contents? Rather, the output should be appended to
+> the end of the file. Thanks.
+
+The double > (>>) operator?
+
+I'd also recommend that you check out tee and tee -a.
+
+Kumar
+-- 
+Steal my cash, car and TV - but leave the computer!
+		-- Soenke Lange <soenke@escher.north.de>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506163020.GG27257@146653177.ece.utexas.edu
+
+

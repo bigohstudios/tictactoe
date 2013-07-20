@@ -1,0 +1,29 @@
+Re: Questions about RAID 6On 04/30/2010 07:10 PM, Mark Allums wrote:
+[snip]
+>
+> Someone pointed out what I have come to regard as the best solution, and
+> that is to make /boot and / (root) and the usual suspects ext3 for
+> safety, and use ext4 or XFS or even btrfs for the data directories.
+
+That's what I do.  / & /home are ext3 and /data is ext4.
+
+> (Unless OP were talking strictly about the data drives to begin with, a
+> possibility I admit I may have overlooked.)
+>
+>
+> Have I summarized adequately?
+>
+
+:)
+
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDB8E16.8030408@cox.net
+
+

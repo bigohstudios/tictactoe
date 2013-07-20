@@ -1,0 +1,25 @@
+Re: CVS report
+> > Just cvs up'ed and nowadays Catch-up Unseen is __extremely__ slow on 
+> > large (>100 msgs) unseen sequences. Anybody else having this problem?
+> 
+> I'll take the blame.
+> 
+> The reason, I suspect, is that we're needlessly reading the .sequences file 
+> multiple times because of other sequences.  I need to make the code much 
+> smarter about handling that file, but first I have a few other fish to fry in 
+> my rather large patch that's on it's way.
+> 
+
+No panic,
+
+I'm all for cleaning things up before getting it optimized.
+
+A
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

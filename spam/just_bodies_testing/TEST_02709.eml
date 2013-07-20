@@ -1,0 +1,25 @@
+Re: Trunk KernelFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+2010/4/13 Carlos Mennens <carloswill@csmining.org>
+
+> Is the 'Trunk' kernel needed for Debian? I installed Squeeze and it
+> defaulted to the 'Trunk' kernel. I was told the Trunk kernel is no
+> longer supported or available. Is this true? I am confused because it
+> still installed and Virtualbox doesn't like it. I have to switch to
+> the default "2.6.32-3-amd64" kernel.
+>
+> Anyone know?
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/l2od80f793f1004130716v81953591ie5ae38693a07b6c6@mail.csmining.org
+>
+> I bet you did a netinstall, hence the 'trunk' kernel which is an older
+version than the 2.6.32-3 kernel. Once you've installed the latest version
+you can just remove the older. Sometimes virtualbox won't boot on the 32-3
+version either :'(

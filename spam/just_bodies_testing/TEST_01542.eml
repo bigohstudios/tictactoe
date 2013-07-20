@@ -1,0 +1,46 @@
+Re: Increasing number of conflictsOn Tue, Apr 20 at  7:31, B. Alexander penned:
+> 
+>    In my case, it appears the root of the problems are caused by
+>    bitrot. I probably need to come up with some method of rebuilding
+>    my sid boxes every so often. Prior to this, my rebuilds were done
+>    in 2000 and 2007...Maybe if I am going to run sid, I need to plan
+>    for an annual rebuild of the system...At least the
+>    workstations...
+
+I've been running sid on a headless box since 2002 or thereabouts,
+with config files copied from an even older RedHat box.  No wipes /
+rebuilds / etc.  There may have been a few panicked moments along the
+way, but I think almost all of them were hardware related.  I may be
+extraordinarily lucky, and I do think that the GUI packages add a lot
+more complexity, or maybe simply a lot more packages and thus
+opportunities for dependency problems.
+
+If by "bitrot" you mean that files are corrupted, I'd take a look at
+my storage devices and filesystem settings.
+
+If by "bitrot" you mean that config files and such are becoming
+increasingly dated ... I do fight that all the time, or rather I keep
+telling aptitude to keep my modified files, promise myself that I'll
+eventually take a look at the differences, and almost never do.
+
+I don't know if it matters that I almost always use the curses
+interface to aptitude; I usually get the updates, then let them sit
+for a few days to give the bug reports a chance to roll in.  Anything
+that shows up in apt-listbugs gets put on "hold", or when time allows,
+investigated and permitted.  Anything that seems like an unnecessary
+removal or generally "smells wrong" gets put on "hold" as well.
+Periodically I check out what's on "hold" to see if the dependencies
+are fixed yet.
+
+It's worked for me so far ... YMMV etc.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100420145739.GB30298@mail.bounceswoosh.org
+
+

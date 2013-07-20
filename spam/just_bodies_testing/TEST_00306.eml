@@ -1,0 +1,65 @@
+Re: auto mounting a partition with nobrowse
+On May 10, 2010, at 12:38 PM, Daniel Markarian wrote:
+
+> Hey Dale,
+>
+> DADiskMountApprovalCallback() can head off the mount.  =20
+> DADiskMountWithArguments() can accept "nobrowse" as an argument.
+
+Do you have any sample code that uses these?
+
+> Dan
+>
+> PS:  fstab(5) can accept "nobrowse" as an alternative.  You do not =20
+> need to head off the mount in this case.
+>
+> Le 2010-05-10 =E0 02:27, websrvr a =E9crit :
+>
+>> I've trying to solve a problem which requires 2 components, the =20
+>> first which has been solved by the code from the =20
+>> SampleFilterScheme project which makes my partition mountable.
+>>
+>> Currently the partition mounts and is viewable in the finder and =20
+>> on the Desktop, manually I use diskutil to unmount the partition =20
+>> (diskutil unmount /dev/disk0s3s1) and use hdiutil to mount it =20
+>> (hdiutil mount /dev/disk0s3s1 -nobrowse) to hide it and this is OK =20=
+
+>> for me since I know how to do this but expecting users to perform =20
+>> this task.
+>>
+>> I'm told that I need to use the DA framework to achieve this task =20
+>> however I am unable to find any sample code that shows me how to =20
+>> mount a partition with flags.
+>>
+>> I realize everyone will ask why I need to do this and to make it =20
+>> short I want it hidden from view to prevent people from any =20
+>> accidental wrong-doings.
+>>
+>> I've read the list archives and what I have concluded is that this =20=
+
+>> is a complicated matter that is well beyond my capabilities so =20
+>> finding sample code I can adopt for this use would make my life =20
+>> significantly easier and allow me to keep what little hair I have =20
+>> left.
+>>
+>> The partition in question wli always be /dev/diskXs3s1 so finding =20
+>> them is easy, unmounting and remounting with the nobrowse flag is =20
+>> my problem and I'm probably looking at it wrong, maybe the initial =20=
+
+>> mount request can be interrupted and the option set.
+>>
+>> Sample code that shows how to do either would be greatly appreciated.
+>>
+>> -- Dale
+>
+>
+
+-- Dale=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

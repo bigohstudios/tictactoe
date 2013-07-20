@@ -1,0 +1,45 @@
+Re: Which remote help solution?You could do the following.
+1. install ssh server on your friends machine.  Create port forwarding
+in their router
+Login to their machine as usual using ssh.  To reduce ssh brute force
+attack, change the ssh port from 22 to some larger number and use the
+corresponding port for router port forwarding.
+2. Install openvpn server on your machine, client on your friends
+machine. access your friends machine just a like a local machine.
+
+First option is the simplest to setup, it gives only ssh access to you.
+Second option takes a bit more configuration, but gives you better
+security and ease of use after that.
+
+On Wed, Apr 28, 2010 at 20:09, Mitja Podreka <liste@kitaj.net> wrote:
+> Hello.
+>
+> I've migrated three friends to Linux. To make their (and mine) experience
+> more pleasant I would like to be able to remotely access their computer and
+> if possible enable them to see what I'm doing. The problem is that they are
+> all behind router and I cannot expect from them to start some complicate
+> procedure to enable me to connect remotely to their computer.
+> Googling around I couldn't find any apparent (easy) solution. I don't mind
+> setting up and learning, just I would not like to waste my time for wrong
+> bad.
+> Could you please suggest me some approach or just tell me what you're using
+> for remote help.
+>
+> Thanks,
+> Mitja
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a subject
+> of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BD84895.2020205@kitaj.net
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2yd0bf7b0b1004280756kcafdd623nb08ab84f1d0a3eed@mail.csmining.org
+
+

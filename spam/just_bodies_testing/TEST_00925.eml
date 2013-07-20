@@ -1,0 +1,48 @@
+[SAdev] [Bug 1012] negate directive additionhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=1012
+
+
+
+
+
+------- Additional Comments From easmith@beatrice.rutgers.edu  2002-09-21 16:41 -------
+I like this idea, but from my reading - part of my dissertation research -
+on GAs (or, in this case, more precisely "Evolutionary Programming", since
+the parameters are non-binary and the major operator is mutation, not
+crossover), you do need to keep in mind that the more interactions there are
+between different variables, the better-tweaked the GA/EA will need to be,
+especially to avoid local optima (which may have been the problem with the
+suspiciously-high "anti-ratware" USER_AGENT scores). From past results,
+what's needed are one or more of the below:
+        A. Determine mutational parameters by adapted-scores themselves,
+           with variation on a per-original score basis; ideally, allow
+           for having "correlated" mutations - in other words, have a
+           mechanism in place for trying out changes to a bunch of scores at
+           once, with them all moving about the same amount (albeit possibly
+           in different directions) - one means to do this is found in the
+           "Evolutionary Strategies" of Schwefel;
+        B. Adapt the probability of a mutation taking place depending on how
+           well previous mutation tries have done - if more than about a
+           fifth of the new "individuals" are doing about as well as, or
+           better than, the parental generation, then mutate more
+           parameters; if less than a fifth of them are doing about as well
+           as, or better than, the parental generation, then mutate less
+           parameters.
+
+        -Allen
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

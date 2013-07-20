@@ -1,0 +1,24 @@
+Re: EOL of KDE SC 4.4.2 in qt-kde.debian.netFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On =A8e=A8tadienis 10 Balandis 2010 16:38:38 Michael Schuerig wrote:
+> However, doing the same with -t experimental updates the entire system
+> to experimental, which is presumably not what most people want. Is there
+> a way to only upgrade KDE-related packages from experimental?
+
+Bump priority of experimental to 101 (/etc/apt/preferences):
+
+Package: *
+Pin: release a=3Dexperimental
+Pin-Priority: 101
+
+and do a normal dist-upgrade:
+
+# aptitude dist-upgrade
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>

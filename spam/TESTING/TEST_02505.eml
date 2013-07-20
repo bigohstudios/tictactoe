@@ -1,0 +1,91 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286eaf70defc8f2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs407429wfb;
+        Thu, 6 May 2010 10:35:11 -0700 (PDT)
+Received: by 10.223.23.67 with SMTP id q3mr6862179fab.59.1273167311151;
+        Thu, 06 May 2010 10:35:11 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si2540944fka.16.2010.05.06.10.35.10;
+        Thu, 06 May 2010 10:35:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8A96213A5624; Thu,  6 May 2010 17:35:06 +0000 (UTC)
+Old-Return-Path: <didi.debian@cknow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0D7B013A55C1
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 17:35:01 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QT4DaSlU+3Bq for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 17:34:53 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.2
+Received: from homiemail-a14.g.dreamhost.com (caiajhbdcbef.dreamhost.com [208.97.132.145])
+	by liszt.debian.org (Postfix) with ESMTP id BE09F13A54B9
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 17:34:47 +0000 (UTC)
+Received: from the-shire.localnet (e243048.upc-e.chello.nl [213.93.243.48])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: didi.debian@cknow.org)
+	by homiemail-a14.g.dreamhost.com (Postfix) with ESMTPSA id 0DC578C07D
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 10:34:38 -0700 (PDT)
+From: Diederik de Haas <didi.debian@cknow.org>
+Organization: Connecting Knowledge
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 19:34:31 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-686-bigmem; KDE/4.4.3; i686; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005061149.08979.Martin@lichtvoll.de> <201005061231.44545.bss@iguanasuicide.net>
+In-Reply-To: <201005061231.44545.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061934.32824.didi.debian@cknow.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <yfjZ-ysdkNC.A.ODD.K3v4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32164
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 17:35:06 +0000 (UTC)
+
+On 2010-05-06 Boyd Stephen Smith Jr. wrote:
+> Not true.  I installed KMail from Sid earlier this week.  It refused to
+> send  mail by entering an infinite loop trying to connect to an Akonadi
+> server that I was not running.
+> 
+> KAddressBook and KOrganizer depend on Akonadi in KDE 4.3 and I believe
+> they  also did so in KDE 4.2.
+
+Does 3.11 of http://userbase.kde.org/Akonadi_4.4/Troubleshooting apply to you then?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061934.32824.didi.debian@cknow.org
+
+

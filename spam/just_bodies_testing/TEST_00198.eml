@@ -1,0 +1,39 @@
+Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Florian Kulzer wrote:
+> On Tue, Apr 20, 2010 at 07:08:23 -0500, John Hasler wrote:
+>> Clive McBarton writes:
+>>> The debian-multimedia-keyring is not restricted by patents or any
+>>> other licence issues. I understand why the other d-m packages are not
+>>> in debian, but the keyring (and just the keyring) should be in debian.
+>> Debian-multimedia is not part of Debian,
+> 
+> The archive signing key of debian-multimedia is nevertheless in Debian
+> already: Christian Marillat uses his developer key to sign his Release
+> files, so anyone who cares about security can take this key from the
+> (authenticated) debian-keyring package and feed it to apt-key before
+> installing any packages from debian-multimedia.
+> 
+
+Great! Thanks! Just what I was looking for.
+
+What would be the simplest command to achieve this key extraction and
+insertion? In my case, his key is already on my keyring, so I have some
+difficulty testing any command that I'd think up myself.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvPguwACgkQ+VSRxYk440+SywCePFUniAjFfsV4NhZc2p38ydhH
+cSsAoJSMiIM5r+KgkI4HgGinCPnzU1/m
+=C+Mx
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF82ED.3010008@web.de
+
+

@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e98f6e9c8f80e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs93667wfo;
+        Sat, 10 Apr 2010 14:10:44 -0700 (PDT)
+Received: by 10.223.92.152 with SMTP id r24mr1650927fam.74.1270933843707;
+        Sat, 10 Apr 2010 14:10:43 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si5726209fkr.39.2010.04.10.14.10.43;
+        Sat, 10 Apr 2010 14:10:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 34E3113A6785; Sat, 10 Apr 2010 21:10:35 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AC02E13A6361
+	for <lists-debian-user@liszt.debian.org>; Sat, 10 Apr 2010 21:10:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Q8X2eeQhf3vT for <lists-debian-user@liszt.debian.org>;
+	Sat, 10 Apr 2010 21:10:22 +0000 (UTC)
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 637BD13A61A9
+	for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 21:10:22 +0000 (UTC)
+Received: by wyf23 with SMTP id 23so795235wyf.6
+        for <debian-user@lists.debian.org>; Sat, 10 Apr 2010 14:10:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=tUaNn/L6VdC/W5uKCo6oqxf78QkgjlSa29Q7mNJCWvQ=;
+        b=rEmBzOxMYug/Lqp5Fr1VuhMb6hm8OI+ipINcyrV9zMEaOTfwlS8SxiN849WQIbJUbA
+         NTOuf8tXTBXnEvAsa3GFOJZnsCmMGtTCDlI3iVDYii9e7Jf7I/y3+4yuIb718lzBPcg4
+         g2VlE9inZmtuhdYEvnkTqOTyKWGjEP+VRo20A=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=aCS7SCBQUBPf2iEoUro9ByD0wztUQcFfVV6gXmj6UMxuSPXnGA0tsgyjls3NkRyktc
+         68J6NOAdHWy8ca/bgNEy1bho1OutowI0MYotAOpcuBUj3HWyy64JTiIFiVFyQK3BeHJM
+         XrF8HfGIfsSv3y2OvT484iY9T9JcckRS8+phQ=
+MIME-Version: 1.0
+Received: by 10.216.70.207 with HTTP; Sat, 10 Apr 2010 14:10:17 -0700 (PDT)
+In-Reply-To: <t2u631fe46c1004090846zfe51ae78se520339a2b77e353@mail.csmining.org>
+References: <20100408065717.697f2861@windy.deldotd.com>
+	 <184589566.1868501270736222616.JavaMail.root@md01.wow.synacor.com>
+	 <q2g880dece01004081837w316faaebs535b0ae430a03a5b@mail.csmining.org>
+	 <v2g631fe46c1004081901if53ecdd6s817678e81117b9f9@mail.csmining.org>
+	 <t2i880dece01004081926gb691d9eeo688737211f952bd1@mail.csmining.org>
+	 <t2u631fe46c1004090846zfe51ae78se520339a2b77e353@mail.csmining.org>
+Date: Sun, 11 Apr 2010 00:10:17 +0300
+Received: by 10.216.86.208 with SMTP id w58mr1053744wee.45.1270933817497; Sat, 
+	10 Apr 2010 14:10:17 -0700 (PDT)
+Message-ID: <z2u880dece01004101410sccfd8e02p3cfc94466023a8c2@mail.csmining.org>
+Subject: Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with a 
+	different version name)
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Mark <mamarcac@csmining.org>
+Cc: Debian List <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <9WBpTQxrKj.A.MEF.LlOwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573820
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 21:10:35 +0000 (UTC)
+
+>> Stability issues and updates are the reasons that I switched _to_
+>> Ubuntu! Before that it was the early Fedoras. I still think that my
+>> favourite two Linux OSes were Fedora Core 3 and Ubuntu Feisty.
+>>
+>> Maybe I will give Squeeze a round before my next install. I've last
+>> tested only Lenny.
+>
+> While I've enjoyed all the "fish" exchanges from this thread, how on eart=
+h
+> have you found Ubuntu more stable than Lenny?=C2=A0 You cite "stability i=
+ssues"
+> and "updates" as reasons for using Ubuntu and then state you last tested
+> Lenny, leading one to believe an Ubuntu->Lenny comparison is being made
+> here.
+>
+> Maybe I'm totally off my gourd but that doesn't make sense at all.
+>
+
+No, for stability I pitted Ubuntu vs. Fedora. Yeah, no match here.
+
+I pit Ubuntu vs. Lenny for features and time-to-working-system. Ubuntu
+(generally) needs less manual configuration and has more up-to-date
+software.
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/z2u880dece01004101410sccfd8e02p3cfc94466023a8c2@mail.csmining.org
+
+

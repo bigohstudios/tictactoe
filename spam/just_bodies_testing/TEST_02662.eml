@@ -1,0 +1,66 @@
+Re: Asynchronous load fail with i386 build in a cmd line toolOn Wed, April 21, 2010 7:11 am, Christophe Ducommun wrote:
+
+> Hi QuickTime developers.
+>
+> I have written a simple command line tool which load asynchronously a
+> QuickTime movie.
+> It's just an example to show my problem, I need to load asynchronously
+> because I want to process
+> the file before all is completely loaded.
+>
+> If I compile my tool with x86_64 architecture, the tool work as expected,
+> if I build the tool
+> with i386 the movie doesn't load completely.
+>
+> int main (int argc, const char * argv[])
+> {
+>     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+>
+> 	NSString* inputPath = [NSString stringWithFormat:@"/myfile.mov"];
+>
+> 	QTMovieLoader* loader = [[QTMovieLoader alloc] initWithFile:inputPath];
+> 	if ([loader LoadAsyncMovie] == NO)
+> 	{
+> 		NSLog(@"QuickTime can't read this file ! (Exit)");
+> 		return NO;
+> 	}
+>
+> 	NSLog(@"Before WaitForLoaded");
+> 	[loader WaitForLoaded];
+>
+> 	NSLog(@"Movie Loaded successfully !");
+>
+>     [pool drain];
+>     return 0;
+> }
+>
+
+So, you ask for a movie to be loaded asynchronously and then call
+-WaitForLoaded, which essentially just suspends the calling thread except
+for a periodic call to retrieve the movie's load state. I think your
+result are expected. If you suspend the main thread, then QTKit (and
+QuickTime underneath) is not going to be being given any time to load the
+movie asynchronously.
+
+I guess I don't understand why you feel you need to call -WaitForLoaded.
+It seems to be an attempt to get synchronous behavior even while you load
+the movie asynchronously. If you want simply to monitor the load state,
+your -movieLoadStateChanged: method is a better place to do that.
+
+
+Tim Monroe
+QuickTime Engineering
+
+
+P.S. Your code works in 64-bits because your call to -WaitForLoaded does
+not block the thread that is loading the movie, which happens in a 32-bit
+helper process.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

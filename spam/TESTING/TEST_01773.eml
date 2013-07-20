@@ -1,0 +1,125 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289668622b9d03f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs23093wfo;
+        Fri, 14 May 2010 03:42:24 -0700 (PDT)
+Received: by 10.223.53.91 with SMTP id l27mr1428131fag.0.1273833743095;
+        Fri, 14 May 2010 03:42:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si5472299fay.31.2010.05.14.03.42.22;
+        Fri, 14 May 2010 03:42:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8620613A5695; Fri, 14 May 2010 10:42:16 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 98C602D0D57
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 10:42:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id VxDzlDWIPsjq for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 10:42:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 32AD213A508C
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 10:42:02 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 8DE881598615
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 12:41:57 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id H+07s6UotYpM for <debian-user@lists.debian.org>;
+	Fri, 14 May 2010 12:41:57 +0200 (CEST)
+Received: from [192.168.1.101] (212-123-164-6.ip.telfort.nl [212.123.164.6])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id F34C71598613
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 12:41:56 +0200 (CEST)
+Message-ID: <4BED28B8.4010402@lorentz.leidenuniv.nl>
+Date: Fri, 14 May 2010 12:40:56 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Iceowl/1.0b1 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Is acroread blind, or ps2pdf dangerous?
+References: <4BEC1506.4090508@student.ulg.ac.be> <87ocgj8s2y.fsf@turtle.gmx.de> <4BEC71E3.7090200@student.ulg.ac.be>
+In-Reply-To: <4BEC71E3.7090200@student.ulg.ac.be>
+X-Enigmail-Version: 1.0.1
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig5D3F70F1F9C98FC71593DBC1"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5DF-GStY37D.A.EuH.IkS7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576750
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 10:42:16 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig5D3F70F1F9C98FC71593DBC1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Op 13-05-10 23:40, Merciadri Luca schreef:
+> Sven Joachim wrote:
+> Thanks for this answer. There are *many* reasons not to use pdfLaTeX.
+> They do not enter in the scope of this mailing list, but I am pretty
+> sure you will find them directly on the Internet. For example, pdfLaTeX=
+
+> encourages one to use directly JPG, etc., for the inclusion in the
+> document, which is pretty bad. There are also many incompatibilities
+> with different packages.
+Or png or pdf which basically is eps or even real eps via the epstopdf
+package.
+Sorry, pdflatex offers more choice. That's not a bad thing.
+
+Sjoerd
+
+
+--------------enig5D3F70F1F9C98FC71593DBC1
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAkvtKL4ACgkQHKEdNPY5OOWysACfXnfcDPluCdejAWBFmvyRp1Cr
+YX8AoLwvw4/8bf4T6g1Rgwtsm2m9tsvf
+=0LEr
+-----END PGP SIGNATURE-----
+
+--------------enig5D3F70F1F9C98FC71593DBC1--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED28B8.4010402@lorentz.leidenuniv.nl
+
+

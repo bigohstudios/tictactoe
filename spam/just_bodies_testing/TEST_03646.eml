@@ -1,0 +1,106 @@
+Re: Fwd: Re: Kde 3.5 ...Dotan Cohen wrote:
+
+Hi, Dotan.
+I'm not sure what makes you work for KDE but I hope that you can bring our
+word to them. I have really a problem talking to programmers and software
+people (in most of the cases), because they already think in routines ...
+so the logic behind there thinking is not a human rationality but a 0 || 1
+
+> On 8 May 2010 15:32, consul tores <consultores1@csmining.org> wrote:
+>> the windows are absolutely useless, i can not
+>> use many, they have all kind of useless information;
+> 
+> What useless information? I'd like to fix that if you will be more
+> specific.
+
+Useless is all the bullsh*t that makes kde4 nice but useless.
+Why one would develop eyecandies or tons of absolutely stupid games, but
+don't focus on improving basic functionality and also debian people ...
+
+I want to ask you how I can let my notebook configure and mount network
+shares (nfs) before I login ... I've tried to discuss this but all I was
+preached was networkmanager is good. It's not as it works user-level
+
+> 
+> 
+>> the menu, needs 3
+>> times more clicks than 3.5;
+> 
+> Can you be more specific? Are you referring to Kmenu?
+
+i.e. konsole-kde3.5 you click down left on the icon and you have a context
+menu to open a new session.
+
+What do I need akonadi or nepomuk or whatever else.
+All the crap _must_ be disabled and let the people enable it themselves.
+
+> 
+> 
+>> the time to be ready to use is 5
+>> times than 3.5;
+> 
+> Do you mean the load time of the desktop? I do agree that it takes a
+> long time (and the starting Akonaki takes even longer!), but I do not
+> remember KDE 3 starting so fast either. The new Gnome starts in
+> seconds!
+
+It's not the freedom anymore from kde3.5. Why kde team does not work on
+compatibility with 3.5 at least in the functional perspective ... no they
+program any kind of stupid and useless sh*t.
+
+I really like kde but I'm very disappointed from the mentalilty they show in
+kde4 and how they've pushed it and also that people agreed and accepted
+this.
+
+> 
+> 
+>> In my case, kde 4.x indicate me when is time to change Desktop, i am
+>> going to stay with 3.5 still support finish, and then to test others
+>> desktops which follow the kiss principle. Jo, Jo, Jo.
+>>
+> 
+> When you do that, please mail me (privately or on list with CC to me
+> privately) to let me know what features other desktops have that you
+> like. I'd like to incorporate them into KDE. Thanks. I highly
+> recommend testing Gnome Shell, which will be Gnome 3. A lot of people
+> are very happy with it. Ion and Enlightenment are popular too, each
+> for their own reasons. XFCE and the boxen might be a little lacking if
+> you are used to KDE 3.
+> 
+
+Dotan, please, be nice. KDE should stay simple to use and to look at.
+Possible solution is to enable default profiles somewhere and to focus on
+really important things.
+
+I'll get a list of things that I have problem with by the end of the week.
+
+I've installed it using debootstrap sid yesterday. I then pulled the kde4 by
+doing kde-all and deselecting all the things I don't want to have. I could
+send you a package list if you like.
+It hung few times while installing with dselect (specifically when
+installing policy-kit and bluez/kdebluetooth) so I removed them to complete
+installation
+
+1) after logging in it complains about some ConsoleKit missing.
+2) I started organizer and went in 20 minutes to bed. In the morning it was
+already running .... wow if I knew I would run it with time  to see how
+long it takes to start
+3) I've installed kweather ... but no applet available. where is it. Why
+should kde do this ugly thing with the widgets from the panel .... I'm
+sending you a screenshot of my toolbar and I'm not moving to anything else
+until I have those apps in the new version.
+
+Many other questions to follow - I hope you have patience and talk to kde
+guys, because I couldn't stand their young undeveloped developers brains
+
+regards
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsbc1b$hor$1@dough.gmane.org
+
+

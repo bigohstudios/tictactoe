@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283ba6ce55af383
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs102261wfj;
+        Mon, 26 Apr 2010 12:45:08 -0700 (PDT)
+Received: by 10.87.35.20 with SMTP id n20mr4063fgj.0.1272311107113;
+        Mon, 26 Apr 2010 12:45:07 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si424517fks.24.2010.04.26.12.45.06;
+        Mon, 26 Apr 2010 12:45:07 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CDE9313A594F; Mon, 26 Apr 2010 19:44:58 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 266DB2D0CE6
+	for <lists-debian-kde@liszt.debian.org>; Mon, 26 Apr 2010 19:44:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wr-p0XSN9lBO for <lists-debian-kde@liszt.debian.org>;
+	Mon, 26 Apr 2010 19:44:44 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id B2E1713A58B9
+	for <debian-kde@lists.debian.org>; Mon, 26 Apr 2010 19:44:44 +0000 (UTC)
+Received: from shambhala.localnet (ppp-88-217-102-11.dynamic.mnet-online.de [88.217.102.11])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id 9B4A05AE2B
+	for <debian-kde@lists.debian.org>; Mon, 26 Apr 2010 21:44:42 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: debian-kde@lists.debian.org
+Subject: plasma desktop changes positions of widgets after I moved them
+Date: Mon, 26 Apr 2010 21:44:33 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33.2-tp42-toi-3.1-lowmem-free-991-992-04964-gf00c7ec-dirty; KDE/4.4.2; i686; ; )
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart4743431.jmZ67yWlDs";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004262144.40817.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <rm_XAun0wWG.A.DCC.60e1LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32050
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 19:44:58 +0000 (UTC)
+
+--nextPart4743431.jmZ67yWlDs
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi!
+
+Did someone else notice this?
+
+https://bugs.kde.org/232171
+
+I wonder if this could be partly debian / ubuntu specific as Bojan=20
+commented that he couldn't find it on other distros. But then to what I=20
+know Debian and Ubuntu package KDE seperately.=20
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart4743431.jmZ67yWlDs
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvV7SIACgkQmRvqrKWZhMdVFwCdGrxLhAl9WzmK2bLMWPyfXJSy
+RCMAoJ4Yx9e8FxGbQqt+D8bOJBdgEdx8
+=0SoJ
+-----END PGP SIGNATURE-----
+
+--nextPart4743431.jmZ67yWlDs--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004262144.40817.Martin@lichtvoll.de
+
+

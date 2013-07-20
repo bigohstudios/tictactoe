@@ -1,0 +1,53 @@
+Re: How to keep debian current??Hi,
+
+On Sat, May 22, 2010 at 03:03:42AM +0200, Jes=FAs M. Navarro wrote:
+> Hi, Osamu:
+>=20
+> On Wednesday 19 May 2010 03:45:36 Osamu Aoki wrote:
+> > Hi,
+> >
+> > There are 2 different topics.
+> >
+> >  * Which is better shape "testing" or "unstable" for security issues?
+> >    (original question)
+>=20
+> The answer is "it depends".
+
+We all know this .... and I am OK with what you are talking except one
+point.
+=20
+> As already stated, there are no security updates on Sid 'per se', but the=
+y=20
+> depend on upstream maintainers provinding a new version that hopefully wi=
+ll=20
+> resolve the problem *and* its ability to go into Sid.
+=2E..
+> Meanwhile, the Security team, aware of the=20
+> security problem, produces foo 1.2.3-patch1 backporting the security fix =
+and=20
+> it goes directly into Testing, since Sid it's waiting for the new 2 branc=
+h. =20
+> In this case Testing is the one ahead of Sid.
+
+Wrong assumption.  Security updates to testing is not so often as we
+wish to be. (Already pointed out in the thread.)  Le me remind you.
+
+ http://lists.debian.org/debian-testing-security-announce/2010/01/msg00000.=
+html
+  This say:
+  >  Most of the security work done for the testing distribution during
+  >  the last months has been through unstable and a few occasional DTSAs,
+  >  because of to the team being understaffed.
+
+The reality is we are under staffed to do many things as much as we
+wish.  Your contribution is most appreciated.
+
+Osamu
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522070444.GA2680@osamu.debian.net
+
+

@@ -1,0 +1,21 @@
+Re: Migrate OS to smaller drive?On 2010-04-11 15:53, Clive McBarton wrote:
+> 
+> Ron Johnson wrote:
+>> Hah.  Speeding up transfers is more likely, since the wire is always the
+>> bottleneck, and compression means it will be carrying "more bits per bit".
+> 
+> There's no mention of wire transfer anywhere in this thread, and in fact
+
+Yes, "wire" is slang for network cables, but SATA cables are actual 
+wires too and orders of magnitude slower than CPU/RAM transfer.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC24655.80001@cox.net
+
+

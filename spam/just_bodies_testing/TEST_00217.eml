@@ -1,0 +1,21 @@
+Re: No CORE DUMP.From nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sun, May 23, 2010 at 3:21 PM, Avinash H.M. <avinashhm@csmining.org> wrote:
+
+> Thanks !!! this worked.
+> I did
+>  ulimit -c unlimited.
+>
+> I tried tracking ulimit.  If i do
+> which ulimit, i am not getting anything. [ I expect the path of this binary
+> ]
+>
+> Is it a built in bash command or something like that ????
+>
+Yes, and it is documented in:
+
+$ man bash # /ulimit
+$ help ulimit
+
+Regards,

@@ -1,0 +1,144 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284eacadfbb9ef4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs90973wfj;
+        Fri, 30 Apr 2010 05:24:20 -0700 (PDT)
+Received: by 10.87.1.2 with SMTP id d2mr3876614fgi.34.1272630259038;
+        Fri, 30 Apr 2010 05:24:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si2829699fka.43.2010.04.30.05.24.18;
+        Fri, 30 Apr 2010 05:24:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 321B913A50DF; Fri, 30 Apr 2010 12:24:11 +0000 (UTC)
+Old-Return-Path: <juha.tuuna@iki.fi>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.5 required=4.0 tests=FOURLA,RATWARE_GECKO_BUILD,
+	RCVD_IN_DNSWL_LOW autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 77CF613A4887
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 12:07:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, RCVD_IN_DNSWL_LOW=-1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id zbC-qJrQAUhy for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 12:07:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 1775 seconds by postgrey-1.31 at liszt; Fri, 30 Apr 2010 12:07:29 UTC
+Received: from suomicom.fi (mail.suomicom.fi [217.119.36.25])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 45B8513A4382
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 12:07:29 +0000 (UTC)
+Received: from 79-134-127-178.cust.suomicom.fi ([79.134.127.178] helo=[192.168.32.104])
+	by suomicom.fi with esmtp (Exim 4.69)
+	(envelope-from <juha.tuuna@iki.fi>)
+	id 1O7oXP-0005ue-8G
+	for debian-user@lists.debian.org; Fri, 30 Apr 2010 14:37:43 +0300
+Message-ID: <4BDAC10A.1010404@iki.fi>
+Date: Fri, 30 Apr 2010 14:37:46 +0300
+From: Juha Tuuna <juha.tuuna@iki.fi>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.9) Gecko/20100317 Lightning/1.0b1 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: invisible console
+References: <4BDAB531.4060901@my.home>
+In-Reply-To: <4BDAB531.4060901@my.home>
+X-Enigmail-Version: 1.0.1
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <OVidtptZ-CB.A.3PB.rvs2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575547
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 12:24:11 +0000 (UTC)
+
+On 30.4.2010 13:47, Jan Willem Stumpel wrote:
+> I like an old-fashioned VGA text look on the console; in
+> /etc/default/console-setup I have
+> 
+> FONTFACE="VGA"
+> FONTSIZE="16"
+> 
+> This used to work.
+> ...
+
+I'm running Debian Stable (kernel 2.6.26-2-amd64) with a framebuffer console
+working ok with the following settings:
+
+/etc/default/console-setup does not exist
+
+in /etc/console-tools/config I have:
+BLANK_TIME=30
+BLANK_DPMS=off
+POWERDOWN_TIME=30
+SCREEN_FONT=lat0-sun16
+SCREEN_FONT_vc2=lat0-sun16
+SCREEN_FONT_vc3=lat0-sun16
+SCREEN_FONT_vc4=lat0-sun16
+SCREEN_FONT_vc5=lat0-sun16
+SCREEN_FONT_vc6=lat0-sun16
+
+and in /boot/grub/menu.lst I have:
+title           Debian GNU/Linux, kernel 2.6.26-2-amd64
+root            (hd0,0)
+kernel          /boot/vmlinuz-2.6.26-2-amd64 root=/dev/sda1 ro vga=XXX
+initrd          /boot/initrd.img-2.6.26-2-amd64
+
+where XXX is something from:
+(0x0312 would give me 640x480 with 24 bits per pixel)
+
+% sudo hwinfo --framebuffer
+02: None 00.0: 11001 VESA Framebuffer
+  <snip>
+  Mode 0x0300: 640x400 (+640), 8 bits
+  Mode 0x0301: 640x480 (+640), 8 bits
+  Mode 0x0303: 800x600 (+800), 8 bits
+  Mode 0x0305: 1024x768 (+1024), 8 bits
+  Mode 0x0307: 1280x1024 (+1280), 8 bits
+  Mode 0x030e: 320x200 (+640), 16 bits
+  Mode 0x030f: 320x200 (+1280), 24 bits
+  Mode 0x0311: 640x480 (+1280), 16 bits
+  Mode 0x0312: 640x480 (+2560), 24 bits
+  <snip>
+  Mode 0x0348: 1400x1050 (+2800), 16 bits
+  Mode 0x0352: 2048x1536 (+8192), 24 bits
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+
+This configuration has been working for me for years with practically any
+2.6.x kernel in Debian and Ubuntu.
+
+For more fonts see /usr/share/consolefonts
+
+-- 
+Juha Tuuna
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDAC10A.1010404@iki.fi
+
+

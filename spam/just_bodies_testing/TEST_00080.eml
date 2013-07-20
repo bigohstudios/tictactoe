@@ -1,0 +1,34 @@
+Re: Wifi query802.11b - 11Mbps per channel over three channels in the 2.4GHz range 
+(also shared with microwaves and cordless phones) at rages up to ~300 ft.
+802.11a runs on 12 channels in the 5GHz range and up to around five 
+times more bandwidth (~54Mbps or so) but has less range (60-100 ft). 
+8021.11a also adds Forward Error Correction into the scheme to allow for 
+more reliable data transmission.
+Which to use really depends on what you're doing with it. Streaming 
+video almost necessitates 802.11a, while streaming just audio can be 
+comfortably done with 802.11b provided that there isn't much 
+interference or too many clients.
+Prices? Don't know... Haven't done the research. For covering a large 
+area 802.11a will be more expensive due to the need for more APs. If you 
+want to reach the local coffee shop, however, you will need a 
+directional antenna either way.
+
+Check out http://www.80211-planet.com, they've got some good articles on 
+802.11... Also, some of the best info on 802.11 security I've seen can 
+be found at http://www.drizzle.com/~aboba/IEEE/.
+
+
+Give me bandwidth or give me death,
+Elias
+
+
+Tom wrote:
+
+>... I have one very pressing question.... Wifi ranges.. ...
+>
+>Do I got for 802.11b stuff or do I gold out for 802.11a ? Is the price
+>point break goign to warrant the differnce?
+>
+
+
+

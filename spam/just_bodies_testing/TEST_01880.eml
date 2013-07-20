@@ -1,0 +1,59 @@
+Re: Debian on a Super Lean Laptop Part I - Making it WorkTzafrir Cohen wrote:
+
+> On Fri, Apr 23, 2010 at 03:24:31PM +0200, deloptes wrote:
+>> Joey Hess wrote:
+>> 
+>> > Scarletdown wrote:
+>> >> initrd /boot/initrd.img-2.6.32-3-486
+>> >> [Linux-initrd @ 0x10b3000, 0x76cdf9 bytes]
+>> >> 
+>> >> After that, she's locked up tight, and all I can do is power off.
+>> >> 
+>> >> This is obviously a problem with initrd.  Set too large for such a low
+>> >> memory system perhaps?
+>> > 
+>> > I doubt it, since your initrd is only 7 mb.
+>> > 
+>> > This seems more likely to be a problem with your bootloader. Quite
+>> > possibly grub is not configured to read the initrd from the correct
+>> > disk device. It can be hard to get that right when preparing an disk
+>> > image on another machine.
+>> > 
+>> > Or possibly, given the age of the hardware, the initrd is not located
+>> > near enough to the front of the drive for grub to be able to access it.
+>> > (Which is why having a separate /boot partition first used to be a good
+>> > idea.)
+>> > 
+>> 
+>> I would take a live-cd or usb disk (there are images available). Avoid
+>> using gnome or kde - your system wont make it.
+> 
+> A Live CD puts some files in a ramdisk, and thus wastes some more RAM.
+> 
+
+I mean to install from it ;-) ... cause it will use the kernel that it is
+booting with (AFAIK)
+If you are able to boot from the live cd or usb then you can use those
+kernels for your new system (or for a fallback to debug further)
+
+Did you try reinstalling grubinto your MBR or debugging the initrd?
+
+In your situation I would just put this old disk in my new pc and install
+using debootstrap. then configure the system and put the drive back in the
+target pc. it will take about 1h. 
+
+regards
+
+
+
+good luck
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqubh0$u6h$1@dough.gmane.org
+
+

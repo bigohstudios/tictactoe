@@ -1,0 +1,59 @@
+Re: New Sequences Window    Date:        Wed, 21 Aug 2002 10:40:39 -0500
+    From:        Chris Garrigues <cwg-dated-1030376441.95dd45@DeepEddy.Com>
+    Message-ID:  <1029944441.398.TMDA@deepeddy.vircio.com>
+
+  | The background color in this window is the same as the background 
+  | color in the ftoc.
+
+That's what I'd like to vary - particularly as the ftoc background isn't
+constant - messages in the unseen sequence have a different background
+than others.
+
+In the ftoc that's fine, but in the sequences window, it isn't needed.
+unseen already has a different foreground there (no problem with that),
+it doesn't need a different background as well.
+
+I'll play about a bit with this, and with making it vertical instead of
+horizontal, and see what turns up.
+
+  | The only sequences that are defined there are sequences which are defined
+  | in app-defaults-color or ~/exmh/exmh-defaults-color.
+
+OK.
+
+  | I've been thinking about how to dynamically generate highlighting for
+  | other sequences, but haven't got that figured out yet.
+
+In this case, highlighting wasn't what I was most concerned about.
+A method to get messages in & out of sequences comes first, how it
+displays is a secondary consideration.   But as a suggestion, have an
+"all unknown" sequence highlight, any message in a sequence which has
+no defined highlighting (where defined includes defined to not be treated
+specially) gets highlighted the same way (maybe something as boring as
+a dark brown text colour - almost indistinguishable from the normal black)
+
+
+  | > > Any chance of making the current message a little brighter background?
+  | 
+  | I don't see any reason why not.  Experiment and let me know what works for you.
+
+Done some of that.   First, the most significant change came from changing
+relief from raised to sunken.   I don't know why, but it just looks better
+(for me anyway).   But even with that, cur and unseen are still just a
+bit too similar.   I ended up using
+
+*sequence_cur:  -background {PaleGoldenrod} -relief sunken -borderwidth 2
+
+The unnecessary braces are just because some of the colours I was using
+had spaces in their names.   PaleGoldenrod translates as #eee8aa which
+is probably safer for generic use.
+
+kre
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

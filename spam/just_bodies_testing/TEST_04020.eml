@@ -1,0 +1,30 @@
+Re: [SAtalk] Re: fully-public corpus of mail available
+Craig Hughes said:
+
+> >   - All headers are reproduced in full.  Some address obfuscation has
+> >   taken place; hostnames in some cases have been replaced with
+> >   "spamassassin.taint.org", which should have a valid MX record (if I recall
+> >   correctly).  In > most cases though, the headers appear as they were
+> >   received.
+> 
+> Nope:
+> 
+> [craig@balam craig]$ dig spamassassin.taint.org mx
+
+I knew there was something about spamassassin.taint.org ;)
+
+Ah well, that's probably just as good anyway...
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

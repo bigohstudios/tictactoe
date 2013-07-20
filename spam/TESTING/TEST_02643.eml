@@ -1,0 +1,142 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c5daec8e0ad0e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs60352wfo;
+        Sun, 23 May 2010 08:49:38 -0700 (PDT)
+Received: by 10.114.187.40 with SMTP id k40mr3821059waf.30.1274629778538;
+        Sun, 23 May 2010 08:49:38 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id x12si8329827wan.144.2010.05.23.08.49.38;
+        Sun, 23 May 2010 08:49:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 4C6C01C63867C
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 08:49:38 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 475A727DCC394
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 08:49:38 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 28E0B27DCC388
+	for <augd@lists.apple.com>; Sun, 23 May 2010 08:49:36 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 18718D51D197
+	for <augd@lists.apple.com>; Sun, 23 May 2010 08:49:36 -0700 (PDT)
+X-AuditID: 11fe0d07-b7b3aae000004253-6f-4bf94e8f8392
+Received: from cdptpa-omtalb.mail.rr.com (cdptpa-omtalb.mail.rr.com
+	[75.180.132.121])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	C3.B1.16979.F8E49FB4; Sun, 23 May 2010 08:49:36 -0700 (PDT)
+X-Authority-Analysis: v=1.1 cv=zumEJI4u4hcIJ7bW+2gKihjeYkKVorwZMM/QMKtPDvU=
+	c=1 sm=0 a=zNANCjgXmV0A:10 a=kj9zAlcOel0A:10
+	a=Lhhr47+QOOSOyG9InVkxIw==:17 a=0kj2GOGNAAAA:8 a=JqEG_dyiAAAA:8
+	a=3j4BkbkPAAAA:8 a=t-IPkPogAAAA:8 a=o1OHuDzbAAAA:8
+	a=n-kJSqksAAAA:8 a=33naW_RTBGA7om9F-nAA:9
+	a=xzCmj8zzABgoUiM-k8QA:7 a=2tNWf7IWv6pnnNMatpQLv8hN0mQA:4
+	a=CjuIK1q_8ugA:10 a=8M-kus6igEoA:10 a=8LEdy8V2ENoA:10
+	a=ibzYfnWqIXwA:10 a=3J7HqZNYCSgA:10 a=ZG1Q_t4pfDMA:10
+	a=9ir22WaJMwsA:10 a=ILCZio5HsAgA:10 a=capAXYWsSBQA:10
+	a=98jSFH7WqmUA:10 a=Lhhr47+QOOSOyG9InVkxIw==:117
+X-Cloudmark-Score: 0
+X-Originating-IP: 76.188.37.68
+Received: from [76.188.37.68] ([76.188.37.68:36560] helo=[10.0.1.2])
+	by cdptpa-oedge01.mail.rr.com (envelope-from <kwarrene@mac.com>)
+	(ecelerity 2.2.2.39 r()) with ESMTP
+	id 47/BA-18491-F8E49FB4; Sun, 23 May 2010 15:49:35 +0000
+User-Agent: Microsoft-Entourage/10.1.4.030702.0
+Date: Sun, 23 May 2010 11:49:17 -0400
+Subject: Re: AUGD: Social Media
+From: Kevin Warrene <kwarrene@mac.com>
+To: ARMUG <allegheny.macusers1@verizon.net>, <augd@lists.apple.com>
+Message-ID: <C81EC6BD.1C89B%kwarrene@mac.com>
+In-Reply-To: <D105006E-40F6-4A4D-B117-BB78EB6D478C@verizon.net>
+Mime-version: 1.0
+Content-type: text/plain; charset="US-ASCII"
+Content-transfer-encoding: 7bit
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+At TCMUG we have a Facebook group that anyone may join and we have a Twitter
+presence as well that also provides a feed to our web site.
+
+Kevin
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Tuscarawas County Mac Users Group - Apple Ambassador
+Visit us on the web at http://www.tcmug.org
+
+Follow us on Twitter
+http://twitter.com/tuscmacgroup
+
+Follow us on Facebook
+http://www.facebook.com/groups.php?ref=sb#/group.php?gid=101787971171
+----------
+
+Apple Computer - http://www.apple.com
+
+Find A User Group in Your Area!
+http://www.apple.com/usergroups/
+
+
+on 5/22/10 4:02 PM, ARMUG at allegheny.macusers1@verizon.net wrote:
+
+> Lately, our local MUG been receiving questions about "social media".
+> Everything from "what is it?" to "I've been looking at jobs in the
+> Classifieds, and they want experience in social media, like: 'Don't apply if
+> you don't know what a hashtag is'."
+> 
+> Maybe it's time for our group to host a presentation on the subject. The
+> problem is, how do you get your arms around this virgin timber? It's like
+> trying to summarize the internet. I know I've personally set up a YouTube
+> account for a historical reunion group (not a MUG), but is there any formal
+> place to learn about this phenomenon? Or is it constantly changing so fast
+> that you can't expect books to be current?
+> 
+> How do MUGs use social media?
+> 
+> 
+> Walt Atwood, moderator and Apple Ambassador
+> Allegheny Region Macintosh Users Group
+> Warren, PA and Jamestown, NY
+> allegheny.macusers1@verizon.net
+> cell:         (814) 730 - 1815
+> landline:  (814)  726 - 2774
+> 
+> 
+> 
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Augd mailing list      (Augd@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/augd/kwarrene%40mac.com
+> 
+> This email sent to kwarrene@mac.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

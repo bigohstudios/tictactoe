@@ -1,0 +1,33 @@
+Re: GNOME crashes when .xsession file is present.On Wed, 14 Apr 2010 10:05:45 -0600, Javier Vasquez wrote:
+
+> On 4/14/10, Camaleón wrote:
+
+(...)
+
+>> Anyway, what is the full content of your "~/.xsession" file and what is
+>> your final purpose, I mean, what do you want to achieve with that file?
+
+> ~/.xsession is recognized by the Xsession usually located at
+> /etc/X11/xdm/Xsession or /etc/X11/xinit/Xsession.  gdm, usually comes
+> with a link to it, and it is called by default.  Xsession will look for
+> several files, one of them being ~/.xsession.
+
+(...)
+
+Nice explanation!
+
+Yep, I already knew that so I asked the OP what is the content of the 
+file and what were his goals ;-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.14.17.08.32@csmining.org
+
+

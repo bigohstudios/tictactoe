@@ -1,0 +1,50 @@
+only output the nth lineI have a file:
+
+cat file.txt
+daemon
+1):
+596
+0
+0
+1
+0
+0
+bin
+2):
+12
+0
+0
+1
+0
+0
+sys
+3):
+0
+0
+0
+0
+0
+0
+
+
+
+And i want to only output the first, second, and fourth line to another
+file.
+
+The:
+
+sed -n '1,2p;4p' file.txt
+
+doesn't work.
+
+What magic do i need for it? :D
+
+Thanks..:\
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273683537.12667.32.camel@localhost
+
+

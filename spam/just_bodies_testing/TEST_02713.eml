@@ -1,0 +1,64 @@
+Re: gnome panel tray icons transparancyOn Sun, 2010-05-02 at 14:17 +0000, Camaleón wrote:
+> On Sun, 02 May 2010 15:40:28 +0200, Steven wrote:
+> 
+> > I have Squeeze installed on both a laptop and a desktop, this only
+> > occurs on the desktop.
+> 
+> Are both computers using the same GNOME GTK theme?
+It would seem so, both look the same apart from this issue, and both are
+using 'Clearlooks'.
+I noticed however that the option for Clearlooks in 'System -
+Preferences - Appearance' are slightly different (tab 'Theme'), on the
+laptop I see the debian icon on some themes, whereas on the desktop I
+see a folder icon instead.
+Changing the theme doesn't help.
+
+> 
+> Are both computers running the same version of the applications involved 
+> in this issue?
+Yes, as I said, both are running Squeeze, and using the same download
+mirror for apt, both are up to date. I take Rhythmbox for example, both
+are at 0.12.8, but the icon that appears when playing is only
+transparent on the laptop.
+
+> 
+> > In gnome, the tray icons on the panel (network manager, rhythmbox
+> > playing, empathy status etc..) are not transparent, the date/time, menu
+> > and application shortcuts are.
+> > 
+> > Any ideas?
+> > Both installations are up to date.
+> 
+> Two easy tests:
+> 
+> 1/ Create a new panel and drop there the "faulty" icons. Are they still 
+> showed with a solid background?
+Creating a new panel with notification area keeps showing the issue on
+this new panel.
+
+> 
+> 2/ Create a new user, login and check if the same behaviour continues.
+A new user has the same issue.
+
+> 
+> That would give us a tip about the origin of the problem (borked 
+> settings).
+> 
+> Greetings,
+> 
+> -- 
+> Camaleón
+> 
+> 
+
+Regards,
+Steven
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272814439.3554.11.camel@pc-steven.LAN
+
+

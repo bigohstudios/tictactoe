@@ -1,0 +1,3 @@
+NoneProblem with spamtrap
+Could not lock /home/yyyy/lib/spamtrap/spam.mbox: File exists at lib/Mail/SpamAssassin/NoMailAudit.pm line 484, <STDIN> line 207.
+

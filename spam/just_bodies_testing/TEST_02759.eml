@@ -1,0 +1,70 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 06 Mai 2010 schrieb Modestas Vainius:
+> Hello,
+>=20
+> On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 23:48:43 Boyd Stephen Smith Jr=
+=2E wrote:
+[...]
+> > >  YOU assume that your truth is an ultimate one.
+> >=20
+> > Not really.  I made objective statement about KMail based on
+> > observable facts. I also voiced an opinion that I based on that
+> > statement.
+>=20
+> What facts? That kdepim/kmail needs akonadi? That's hardly news.
+> Akonadi integration is not stable enough? There is still time to
+> improve it. That's what Ana's blog was about.
+>=20
+> > >  If YOU have so
+> > >  many problems with particular piece of software, look for better
+> > >  options or read the first part of this mail again.
+> >=20
+> > I have problems with a very narrow selection of selection of the
+> > software. Specifically, I don't want to need MySQL installed in
+> > order to use KMail effectively in Debian stable.
+>=20
+> It is not like every mail client on the market suddenly needs MySQL.
+> Actually, kmail is probably unique in this area.
+
+Again. AFAIK KMail doesn't use Akonadi at all. Its the new KAddressBook=20
+that based on Akonadi. And since KMail uses it for address completion...
+
+=46or the user it looks as if KMail uses Akonadi, but to the best of my=20
+knowledge it doesn't - at least not directly. Otherwise there wouldn't be=20
+much point in the akonadi- / nepomuk-based rewrite of KMail as KMail 2.
+
+> > There are a number of solutions to this.  Newer Akonadi should run on
+> > non- MySQL data stores.  Older KMail doesn't talk to Akonadi.=20
+> > Patches could be applied to either.  Stable could include software
+> > from multiple KDE releases, as has been done before.
+>=20
+> What I tried to say to you all this time, if Akonadi renders Kmail
+> unusable to you, switch the client! Akonadi by itself is not a bug, it
+> is not going away! Take it or switch to something else, simple as
+> that.
+
+And I want to add: It does not render it unusable for everyone.
+
+Even when Akonadi does not start up cleanly, which happens on first start=20
+of Kontact for example as I reported already, I still *can* use KMail. Its=
+=20
+just that the address book function do not work properly then. Although I=20
+didn't even verify this. Cause even when I get the Akonadi startup errors,=
+=20
+KAddressBook shows the list of the people in my address book, its just=20
+ghosted out and not clickable. So maybe address completion would still=20
+work. But even if it doesn't, KMail as a whole actually does still work=20
+then.
+
+Anyway, most important is to file and an all bugs with Akonadi in KDEPIM=20
+upstream ASAP. And that is where I suggest that people - including you=20
+Boyd - put their energy now.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

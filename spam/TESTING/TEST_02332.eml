@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284bff57a5d49d0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs55684wfj;
+        Thu, 29 Apr 2010 16:55:45 -0700 (PDT)
+Received: by 10.87.62.17 with SMTP id p17mr1898996fgk.30.1272585344552;
+        Thu, 29 Apr 2010 16:55:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si1949562fkb.3.2010.04.29.16.55.44;
+        Thu, 29 Apr 2010 16:55:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 223D513A51AD; Thu, 29 Apr 2010 23:55:39 +0000 (UTC)
+Old-Return-Path: <lists04@fastmail.fm>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AD58013A43CD
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 23:55:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id EwlK3IuuEDpd for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 23:55:24 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -4.2
+X-Greylist: delayed 76 seconds by postgrey-1.31 at liszt; Thu, 29 Apr 2010 23:55:24 UTC
+Received: from ironport2-out.pppoe.ca (ironport2-out.teksavvy.com [206.248.154.183])
+	by liszt.debian.org (Postfix) with ESMTP id 617D413A4F55
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 23:55:12 +0000 (UTC)
+X-IronPort-AntiFiltered: true
+X-IronPort-AntiResult: ApIBAPa42UtLd/M9/2dsb2JhbAAHgw/IU5ESgSaCfW0EjBs
+X-IronPort-AV: E=Sophos;i="4.52,298,1270440000"; 
+   d="scan'208";a="62898371"
+Received: from 75-119-243-61.dsl.teksavvy.com (HELO [192.168.0.11]) ([75.119.243.61])
+  by ironport2-out.pppoe.ca with ESMTP/TLS/DHE-RSA-AES256-SHA; 29 Apr 2010 19:53:58 -0400
+Message-ID: <4BDA1C16.8000607@fastmail.fm>
+Date: Thu, 29 Apr 2010 19:53:58 -0400
+From: KS <lists04@fastmail.fm>
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20091109)
+MIME-Version: 1.0
+To: debian-user <debian-user@lists.debian.org>
+Subject: Multiple Graphics cards and HDMI: How to?
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <FaAnnzu9O2N.A.5rG.7xh2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575512
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 23:55:39 +0000 (UTC)
+
+Hi all,
+
+I have setup a system with Gigabyte MA-790GPT-UD3H motherboard and use a
+Nvidia GeForce 8600GTS PCI-E video card. It also has an onboard ATI
+Radeon HD 3300 graphics chipset. The PCI-E card is being used at the
+moment for the monitor (nvidia driver). I was thinking of using the HDMI
+port(onboard) to play movies directly on the TV rather than using a
+DVD-RW (current method).
+
+I did configure the onboard chipset to be detected after the PCI-E card
+as D-SUB+HDMI output in the BIOS. This is on a Debian Unstable box.
+
+The question is: would it be possible to use two graphics cards from
+different manufacturers?
+
+I also noticed that the onboard chipset does not come up with lspci.
+
+Any suggestions on how to proceed with this?
+/KS
+------------
+$> lspci
+00:00.0 Host bridge: Advanced Micro Devices [AMD] RS780 Host Bridge
+00:02.0 PCI bridge: Advanced Micro Devices [AMD] RS780 PCI to PCI bridge
+(ext gfx port 0)
+00:0a.0 PCI bridge: Advanced Micro Devices [AMD] RS780 PCI to PCI bridge
+(PCIE port 5)
+00:11.0 SATA controller: ATI Technologies Inc SB700/SB800 SATA
+Controller [IDE mode]
+00:12.0 USB Controller: ATI Technologies Inc SB700/SB800 USB OHCI0
+Controller
+00:12.1 USB Controller: ATI Technologies Inc SB700 USB OHCI1 Controller
+00:12.2 USB Controller: ATI Technologies Inc SB700/SB800 USB EHCI Controller
+00:13.0 USB Controller: ATI Technologies Inc SB700/SB800 USB OHCI0
+Controller
+00:13.1 USB Controller: ATI Technologies Inc SB700 USB OHCI1 Controller
+00:13.2 USB Controller: ATI Technologies Inc SB700/SB800 USB EHCI Controller
+00:14.0 SMBus: ATI Technologies Inc SBx00 SMBus Controller (rev 3c)
+00:14.1 IDE interface: ATI Technologies Inc SB700/SB800 IDE Controller
+00:14.2 Audio device: ATI Technologies Inc SBx00 Azalia (Intel HDA)
+00:14.3 ISA bridge: ATI Technologies Inc SB700/SB800 LPC host controller
+00:14.4 PCI bridge: ATI Technologies Inc SBx00 PCI to PCI Bridge
+00:14.5 USB Controller: ATI Technologies Inc SB700/SB800 USB OHCI2
+Controller
+00:18.0 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] HyperTransport Configuration
+00:18.1 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] Address Map
+00:18.2 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] DRAM Controller
+00:18.3 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] Miscellaneous Control
+00:18.4 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] Link Control
+01:00.0 VGA compatible controller: nVidia Corporation G84 [GeForce 8600
+GTS] (rev a1)
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd.
+RTL8111/8168B PCI Express Gigabit Ethernet controller (rev 02)
+03:0e.0 FireWire (IEEE 1394): Texas Instruments TSB43AB23
+IEEE-1394a-2000 Controller (PHY/Link)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDA1C16.8000607@fastmail.fm
+
+

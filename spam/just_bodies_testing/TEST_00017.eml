@@ -1,0 +1,83 @@
+Re: What needs to improve in KDE 4?On 10 May 2010 22:43, David Baron <d_baron@012.net.il> wrote:
+> I am generally happy with KDE4. A few issues, though:
+>
+> 1. Desktop startup speed. A user with few if any widgets around will be
+> satisfied. Those of us who want to use a lot of these tools will sit and wait.
+> ALL widgets and panel-applets must be asynchronous and background any lengthy
+> process such a searches, indexing, testing network and ports and such. ALL
+> those daemons and "resources" of akonadi and nepomuk must be nicely niced and
+> ioniced out of the way. If recoll's indexing can run nicely and stall nothing,
+> so can kde4's stuff.
+>
+
+Even Gnome starts in seconds now. I agree, startup time is absurd,
+especially with Akonadi.
+
+
+> 2. Activity <--> desktop? Still confused? Think of use cases rather than
+> concepts which though elegant may lay on the virtual shelf. Dotan's post is a
+> welcome step off the ivory tower!
+>
+
+It should improve for KDE 4.5. Aaron (the head Plasma dev) recently
+discussed some changes to the Activities, and the possibility of
+hiding the feature in 4.5 until it is mature in 4.6.
+
+
+> 3. Kmail threading. Much much improved, will still crash out occasionally when
+> deleting, moving messages.
+>
+
+Really? Please file those crashes! I though that all the serious Kmail
+crashers were fixed!
+
+
+> 4. Untoward pauses in the UI when typing this post.
+>
+
+Can you file a bug on that? I cannot reproduce, but I am not a Kmail
+user, only occasionally test it.
+
+
+> 5. Kaddressbook/Akonadi has too many duplicated "resources." Kaddressbook is
+> too slow to be of much use if it has a lot of data. Needs some say of handling
+> contact duplication (which I got by accident and am stuck with).
+>
+
+With Akonadi (4.4)? I don't find it slow at all, and I'm pushing 500 contacts.
+
+
+> 6. Very old issue: KDE should respect the "system administrator"s settings of
+> file permissions. If I mess up, that's my fault.
+>
+
+Please elaborate.
+
+
+> To be continued ...
+>
+
+Yes, please!
+
+
+> BTW, distasteful expressions such as "sucks" have gotten much too common on
+> these lists, are offensive and not professional!
+>
+
+Agreed. As a non-native English speaker who knows where the term came
+from, it does make me sick.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikKXtlNtFxxzL0KBryfAd4dhOYQFHkaAhqlG6gv@mail.csmining.org
+
+

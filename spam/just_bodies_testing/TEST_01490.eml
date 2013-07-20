@@ -1,0 +1,11 @@
+SCSI tape library & ISCSIFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi all,
+it's possible to manage a SCSI tape library (IBM 3581) with ISCSI?
+I need to use that library attached to a server into another server...
+
+Thanks
+Regards
+M
+**

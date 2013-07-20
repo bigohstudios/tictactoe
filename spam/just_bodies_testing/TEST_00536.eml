@@ -1,0 +1,16 @@
+[Razor-users] What's wrong with the Razor servers now?I noticed a low count of razor'd spam messages. So after digging, if I
+razor-report a message the diags say that it was accepted but if I turn
+around and run a check on the exact same message that was reported, then
+it doesn't find the sig and as such isn't spam.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

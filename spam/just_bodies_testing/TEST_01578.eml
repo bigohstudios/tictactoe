@@ -1,0 +1,27 @@
+Re: Temporary deconnection from the Internet when too much pages
+ are loadedOn 2010-04-15 07:49, Merciadri Luca wrote:
+> Ron Johnson wrote:
+[snip]
+>>
+>> For example, if I "kill -15" the Iceweasel pid then exit the GUI to
+>> apt-get upgrade and then restart xfce and Iceweasel, all the (4 or 5)
+>> windows and (total of 20-50) tabs restore.  It takes 3-4 minutes for
+>> all of them to complete loading.
+> That is a good example of a massive tab load. If I have so many tabs
+> opened, and that I kill the resp. pid, I can restore the tabs, just as
+> you do, and then the whole connection stalls. Nothing loads, and each
+> URL keeps its name, not the page's title.
+> 
+
+At all, ever?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC70EA6.3030201@cox.net
+
+

@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283b7a87020d22d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs100946wfj;
+        Mon, 26 Apr 2010 11:56:47 -0700 (PDT)
+Received: by 10.87.62.17 with SMTP id p17mr2880645fgk.30.1272308205689;
+        Mon, 26 Apr 2010 11:56:45 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si7307249fkb.3.2010.04.26.11.56.44;
+        Mon, 26 Apr 2010 11:56:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C1BB313A57FB; Mon, 26 Apr 2010 18:56:28 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RCVD_NUMERIC_HELO autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CF6AE13A5525
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 18:56:22 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.833 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	RCVD_NUMERIC_HELO=2.067] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id rmSrW0-puEWY for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 18:56:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id EC56513A5550
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 18:56:09 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O6TTQ-0000zR-1J
+	for debian-user@lists.debian.org; Mon, 26 Apr 2010 20:56:04 +0200
+Received: from 200.57.201.205 ([200.57.201.205])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 20:56:04 +0200
+Received: from hvw59601 by 200.57.201.205 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 20:56:04 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Hugo Vanwoerkom <hvw59601@care2.com>
+Subject: Re: Ctrl+alt+Fn not showing consoles
+Date: Mon, 26 Apr 2010 13:55:53 -0500
+Lines: 30
+Message-ID: <hr4njr$7kq$1@dough.gmane.org>
+References: <4BD5CD44.4040807@cegetel.net> <hr4jcs$lid$2@dough.gmane.org> <4BD5DC01.3070308@cegetel.net>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 200.57.201.205
+User-Agent: Thunderbird 2.0.0.19 (X11/20081209)
+In-Reply-To: <4BD5DC01.3070308@cegetel.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <pnikxgT8n4G.A.47C.cHe1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575164
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 18:56:28 +0000 (UTC)
+
+rudu wrote:
+> Le 26/04/2010 19:43, Hugo Vanwoerkom a écrit :
+>>
+>> rudu wrote:
+>>> Hi,
+>>> Running squeeze on AMD64 arch, my system recently stopped to let me
+>>> get my consoles after I hit the ctrl+alt+Fn keys (n = 1 to 6).
+>>
+>>
+>> When did it stop?
+> 
+> I can't be sure but that may coincide with that kernel*-trunk thing, 
+> when I had to go back to the nv driver as I couldn't get the proprietary 
+> Nvidia driver to compile with my new kernel.
+> FWIW, a few more details :
+> $ uname -a
+> Linux birdynam 2.6.32-3-amd64 #1 SMP Wed Feb 24 18:07:42 UTC 2010 x86_64 
+> GNU/Linux
+> $ lspci | grep VGA
+> 01:00.0 VGA compatible controller: nVidia Corporation G96 [GeForce 9400 
+> GT] (rev a1)
+> 
+
+So are you still running nv? and what was the driver that wouldn't compile?
+I run x86-195.36.15 on the latest Sid kernel and it compiles just fine, 
+but I don't (yet) have a AMD64 system.
+With nv I run into a lot of trouble on my system, the reason I use the 
+proprietary driver. Works good.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hr4njr$7kq$1@dough.gmane.org
+
+

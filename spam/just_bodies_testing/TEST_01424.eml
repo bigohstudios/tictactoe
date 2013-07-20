@@ -1,0 +1,30 @@
+[SAdev] [Bug 779] rule broken: CORRUPT_MSGIDhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=779
+
+spamassassin-contrib@msquadrat.de changed:
+
+           What    |Removed                     |Added
+----------------------------------------------------------------------------
+             Status|NEW                         |RESOLVED
+         Resolution|                            |FIXED
+
+
+
+------- Additional Comments From spamassassin-contrib@msquadrat.de  2002-10-03 14:21 -------
+I think INVALID_MSGID does what this rule was supposed to do 
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

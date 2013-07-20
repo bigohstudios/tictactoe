@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288e5a89bf1dde5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs20235wfo;
+        Wed, 12 May 2010 14:10:18 -0700 (PDT)
+Received: by 10.223.50.68 with SMTP id y4mr8973986faf.51.1273698617650;
+        Wed, 12 May 2010 14:10:17 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 24si1513726fav.7.2010.05.12.14.10.17;
+        Wed, 12 May 2010 14:10:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6092413A4AC0; Wed, 12 May 2010 21:10:11 +0000 (UTC)
+Old-Return-Path: <n.douma@nekoconeko.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=PGPSIGNATURE autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 776DC13A44C7
+	for <lists-debian-user@liszt.debian.org>; Wed, 12 May 2010 21:10:05 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DaLGv6U7Tkpo for <lists-debian-user@liszt.debian.org>;
+	Wed, 12 May 2010 21:09:57 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from beastmaster.douma.cyso.net (nekoconeko.nl [85.158.202.16])
+	by liszt.debian.org (Postfix) with ESMTP id E967013A4A42
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 21:09:51 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by beastmaster.douma.cyso.net (Postfix) with ESMTP id C58CB23D49
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 23:09:49 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at beastmaster.douma.cyso.net
+Received: from beastmaster.douma.cyso.net ([127.0.0.1])
+	by localhost (beastmaster.douma.cyso.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id YXGtE5OgR1lY for <debian-user@lists.debian.org>;
+	Wed, 12 May 2010 23:09:49 +0200 (CEST)
+Received: from deathfog (d594efb6.static.dsl.concepts.nl [213.148.239.182])
+	by beastmaster.douma.cyso.net (Postfix) with ESMTPA id 3513A172A
+	for <debian-user@lists.debian.org>; Wed, 12 May 2010 23:09:49 +0200 (CEST)
+Date: Wed, 12 May 2010 23:09:49 +0200
+From: Nick Douma <n.douma@nekoconeko.nl>
+To: debian-user@lists.debian.org
+Subject: Re: Lenny to Squeeze upgrade problems
+Message-ID: <20100512210949.GB4617@deathfog>
+References: <20100512203248.GA4617@deathfog> <AANLkTindN0FAslJH7EJKGfStAqwCZVHbkqUbG-pZvxyK@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="rJwd6BRFiFCcLxzm"
+Content-Disposition: inline
+In-Reply-To: <AANLkTindN0FAslJH7EJKGfStAqwCZVHbkqUbG-pZvxyK@mail.csmining.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8SDZxhOCYlK.A.gXE.zkx6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576635
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 21:10:11 +0000 (UTC)
+
+
+--rJwd6BRFiFCcLxzm
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+On Wed, May 12, 2010 at 05:04:07PM -0400, Jordan Metzmeier wrote:
+> This issue is because the new udev requires a > .31 kernel with
+> sysrq_deprecated=n (I am going off memory here so don't quote me). This
+> means you need to first upgrade to the squeeze kernel, reboot, then upgrade
+> udev and proceed with the "updgrade".
+
+I do remember seeing something shoot by with that message, but I didnt think anything of it at the time. I will try this, and see what happens.
+
+--rJwd6BRFiFCcLxzm
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvrGR0ACgkQkPq5zKsAFihZNwCcCbTrnC41kRE8/cQBkK9S/zto
+ATAAoIO9kpIUFQhxclz2rUMCnnYBC7xH
+=z+VS
+-----END PGP SIGNATURE-----
+
+--rJwd6BRFiFCcLxzm--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100512210949.GB4617@deathfog
+
+

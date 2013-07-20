@@ -1,0 +1,146 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286393f736eafc6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs285187wfj;
+        Tue, 4 May 2010 06:49:21 -0700 (PDT)
+Received: by 10.114.251.5 with SMTP id y5mr9659036wah.94.1272980961309;
+        Tue, 04 May 2010 06:49:21 -0700 (PDT)
+Return-Path: <quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 42si2569537pzk.110.2010.05.04.06.49.21;
+        Tue, 04 May 2010 06:49:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id D32DB1BEAC4FE
+	for <mlsubscriber.tech@csmining.org>; Tue,  4 May 2010 06:49:20 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id CE90F275EF358
+	for <mlsubscriber.tech@csmining.org>; Tue,  4 May 2010 06:49:20 -0700 (PDT)
+X-Original-To: quicktime-users@lists.apple.com
+Delivered-To: quicktime-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 7B86B275EF1DE
+	for <quicktime-users@lists.apple.com>;
+	Tue,  4 May 2010 06:49:05 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 6C04AD122380
+	for <quicktime-users@lists.apple.com>;
+	Tue,  4 May 2010 06:49:05 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-41-4be025d00de2
+Authentication-Results: mail-in11.apple.com x-tls.subject="/C=US/ST=Ct/L=New
+	London/O=Connecticut College/OU=Information
+	Services/CN=keykeeper.conncoll.edu";
+	auth=fail (cipher=AES256-SHA)
+Received: from keykeeper.conncoll.edu (keykeeper.conncoll.edu [136.244.1.161])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client CN "keykeeper.conncoll.edu",
+	Issuer "keykeeper.conncoll.edu" (not verified))
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	9C.05.15139.0D520EB4; Tue,  4 May 2010 06:49:05 -0700 (PDT)
+X-ASG-Debug-ID: 1272980943-5fb1005a0000-TiysXq
+X-Barracuda-URL: http://136.244.1.161:8000/cgi-bin/mark.cgi
+Received: from cypress.conncoll.edu (cypress.conncoll.edu [136.244.1.20])
+	by keykeeper.conncoll.edu & Virus Firewall) with ESMTP id
+	7177B2000FA8 for <quicktime-users@lists.apple.com>;
+	Tue,  4 May 2010 09:49:03 -0400 (EDT)
+Received: from cypress.conncoll.edu (cypress.conncoll.edu [136.244.1.20]) by
+	keykeeper.conncoll.edu with ESMTP id 08a6FqyZGB1iRKq7 for
+	<quicktime-users@lists.apple.com>;
+	Tue, 04 May 2010 09:49:03 -0400 (EDT)
+Received: from [136.244.13.169] ([136.244.13.169]) by cypress.conncoll.edu
+	over TLS secured channel with Microsoft SMTPSVC(6.0.3790.3959); 
+	Tue, 4 May 2010 09:49:03 -0400
+Message-Id: <6FF8FB8A-55CD-417E-8BC0-ADAF14F62579@conncoll.edu>
+From: Frank Fulchiero <fful@conncoll.edu>
+To: quicktime-users@lists.apple.com
+In-Reply-To: <A968B561-B1B3-4297-8A7C-FCC37F90D696@conncoll.edu>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+X-ASG-Orig-Subj: Re: How to set high-quality flag on DV movies in QTX?
+Date: Tue, 4 May 2010 09:48:55 -0400
+References: <20100428190953.A32052736F75A@lists.apple.com>
+	<A968B561-B1B3-4297-8A7C-FCC37F90D696@conncoll.edu>
+X-Mailer: Apple Mail (2.936)
+X-OriginalArrivalTime: 04 May 2010 13:49:03.0638 (UTC)
+	FILETIME=[8EC20B60:01CAEB90]
+X-Barracuda-Connect: cypress.conncoll.edu[136.244.1.20]
+X-Barracuda-Start-Time: 1272980943
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at conncoll.edu
+X-Barracuda-Spam-Score: 0.12
+X-Barracuda-Spam-Status: No, SCORE=0.12 using global scores of TAG_LEVEL=1000.0
+	QUARANTINE_LEVEL=1000.0 KILL_LEVEL=6.2 tests=CN_BODY_332
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.29050
+	Rule breakdown below
+	pts rule name              description
+	---- ----------------------
+	--------------------------------------------------
+	0.12 CN_BODY_332            BODY: CN_BODY_332
+X-Brightmail-Tracker: AAAAARPvsds=
+Subject: Re: How to set high-quality flag on DV movies in QTX?
+X-BeenThere: quicktime-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Usage of QuickTIme <quicktime-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-users@lists.apple.com>
+List-Help: <mailto:quicktime-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+btw, after some testing, I also notice that if I set the high quality  
+flag in QT Player Pro 7, and compare the movie to the same movie  
+viewed in QT Player 10 (now with the high quality flag set), the movie  
+is still considerably sharper in QT Player 7. Kind of disappointing,  
+unless I'm missing something.
+
+The reason we need the high-quality flag is that students edit in FCP  
+or FCE and want to show rough cuts, easy by going to  
+File>Export>QuickTime movie, without worrying about all the codec  
+settings. But then the movie looks fuzzy on playback, with only half  
+the vertical resolution.
+Lots of our movies are still captured and edited using the DV codec,  
+by students on their own Mac laptops now.
+
+Frank
+
+On May 4, 2010, at 9:37 AM, Frank Fulchiero wrote:
+
+> DV compressed movies often play fuzzy, as every other line is thrown  
+> out.
+> On QT Player Pro, you could set the High Quality flag to eliminate  
+> this, in Window>Show Movie Properties, Video Track, Visual Settings,  
+> check High Quality.
+> Then it was possible to also do it if you did not have QT Player  
+> Pro, by setting Preferences> Use high-quality  video setting when  
+> available.
+> It seems that in QuickTime Player 10 there does not seem to be any  
+> way to do this.
+> There was a free utility, HiQual
+> http://www.synthetic-ap.com/products/hiq/index.html
+> that could set the high quality flag, but it does not work in OSX 10.6
+> Anyone have any ideas how to set the high quality flag in Snow  
+> Leopard, for free, or to get DV encoded movies to play in high  
+> quality in QT 10?
+> (Assuming you don't have QT 7 Player Pro to set it)
+>
+> Thanks,
+> Frank Fulchiero
+> Digital Media Specialist
+> Connecticut College
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

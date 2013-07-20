@@ -1,0 +1,60 @@
+Re: Automounting problems.> From: Chris Bannister <mockingbird@earthlight.co.nz>
+
+> To: debian-user@lists.debian.org
+> 
+Sent: Wed, May 12, 2010 2:55:18 AM
+> Subject: Re: Automounting 
+problems.
+> 
+> On Tue, May 11, 2010 at 10:54:47PM -0700, 
+Marc Shapiro wrote:
+> I am now 
+> slapping myself on the 
+head for being so STUPID!  Automount is 
+> 
+> working just 
+fine, and has been all along.  Automount does its thing as 
+> 
+> soon as a device is ACCESSED, not plugged in.
+> 
+> I think 
+I'll 
+> slap myself on the head, again.
+
+Not so fast! :) How are you supposed to 
+> access them if you don't know
+what they will be labelled as?
+
+What does 
+> "ls 
+/mnt/<TAB><TAB>" do?
+
+Are you supposed to carry round a 
+> scrap of paper with the mount labels
+written down?
+
+-----------
+
+The map files specify what the mount point names will be.  If you added the lines to the map files then you should know what the mount points are.  Additionally, if you set it up so that all the mount points are under 
+/mnt then you could put soft links in, say, /media pointing to where the actual mount points will be.  Then you can access the link in /media 
+and the device will be automatically mounted and accessed.  This also 
+has the advantage of allowing the link to be visible to GUI file 
+managers to allow access that way.  Scratch that last sentence.  I had 
+seen that as a suggestion, but had not tried it myself.  I just did try 
+it, using PCManFM and it did not work.  PCManFM sees the link, but does 
+not know what to do with it.  The soft link would still help with 
+command line access, however.
+
+(Sorry about the extra post, Chris.  I hate Yahoo! web mail.
+
+-- 
+Marc Shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/975051.69158.qm@web55503.mail.re4.yahoo.com
+
+

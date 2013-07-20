@@ -1,0 +1,35 @@
+Re: What needs to improve in KDE 4?* On 2010 11 May 15:50 -0500, Marc Haber wrote:
+> On Tue, May 11, 2010 at 10:22:35PM +0300, Dotan Cohen wrote:
+> > > Is it guaranteed that KDE doesn't store anything outside of ~/.kde so
+> > > that a user doesn't risk things getting desynched if one exchanges one
+> > > ~/.kde with a different one?
+> > 
+> > No, Akonadi stores some stuff in ~/.config/
+> 
+> So one is better off by using a completely new accout (and ditching it
+> afterwards).
+
+That will prove rather quickly if the trouble is local or system wide.
+
+My regret by moving ~/.local out of the way is that all the Wine menu
+items disappeared.  It would be nice if the menu editor allowed the 
+importing of the individual .desktop files.  I see that moving them back
+into ~/.local/share/Applications caused them all to pop into the Lost
+and Found section which is better than nothing.
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100511222757.GK24935@n0nb.us
+
+

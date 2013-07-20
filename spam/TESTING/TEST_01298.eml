@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e799659352907
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.163.11 with SMTP id q11cs13425wfo;
+        Sat, 10 Apr 2010 05:02:23 -0700 (PDT)
+Received: by 10.87.69.29 with SMTP id w29mr2105918fgk.35.1270900942245;
+        Sat, 10 Apr 2010 05:02:22 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si5394400fxm.18.2010.04.10.05.02.21;
+        Sat, 10 Apr 2010 05:02:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1C88213A65A6; Sat, 10 Apr 2010 12:02:15 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D9D7713A6326
+	for <lists-debian-kde@liszt.debian.org>; Sat, 10 Apr 2010 12:02:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id SiO8RXRnF3ak for <lists-debian-kde@liszt.debian.org>;
+	Sat, 10 Apr 2010 12:02:02 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id 5563A13A6223
+	for <debian-kde@lists.debian.org>; Sat, 10 Apr 2010 12:02:02 +0000 (UTC)
+Received: from shambhala.localnet (ppp-88-217-113-206.dynamic.mnet-online.de [88.217.113.206])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id C4CB55AE11
+	for <debian-kde@lists.debian.org>; Sat, 10 Apr 2010 14:01:59 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: debian-kde@lists.debian.org
+Subject: X.org crashes reproducably when mouse hovers over last opened file menu entry in KWrite
+Date: Sat, 10 Apr 2010 14:01:48 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33.1-tp42-toi-3.1-04962-g60dd176; KDE/4.4.2; i686; ; )
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1678477.DLhQVpRMiI";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004101401.57690.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Zy0kQ0ynJpB.A.rwH.HjGwLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32006
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 12:02:15 +0000 (UTC)
+
+--nextPart1678477.DLhQVpRMiI
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi!
+
+Just as a warning cause I lost a mail I took over one hour to write. I=20
+copied it to kwrite to preserve the mail text without the hard linefeeds=20
+that KMail usually added when sending the mail. On trying to hover on save=
+=20
+menu entry I also hovered on recent files =3D> kaboom and mail lost.
+
+https://bugs.freedesktop.org/show_bug.cgi?id=3D27416
+
+While I think its a DRI issue I also reported it with Debian and KDE, as I=
+=20
+think Debian should block on it and KDE project should be aware of the=20
+issue as well
+
+https://bugs.kde.org/show_bug.cgi?id=3D233940
+
+No bug number for Debian yet known to me.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart1678477.DLhQVpRMiI
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvAaK0ACgkQmRvqrKWZhMfnjACZAYcX/rRSXojiSEPDXWLzJB4s
+0SkAnAxZ4jDQbutn+iIDQ9N3ShQwjqR1
+=tLOf
+-----END PGP SIGNATURE-----
+
+--nextPart1678477.DLhQVpRMiI--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004101401.57690.Martin@lichtvoll.de
+
+

@@ -1,0 +1,35 @@
+Re: recent mobo recommendationRon Johnson wrote:
+> On 2010-04-15 13:55, Hugo Vanwoerkom wrote:
+>> Ron Johnson wrote:
+> [snip]
+>>>
+>>> ATX means you'll get lots of built-in features.  I like my Gigabyte 
+>>> GA-MA780G-UD3H mobo with AM2+/AM2 socket.
+>>>
+>>> 8GM RAM, 6 SATA, 1 (or 2, I forget) rear eSATA, lots of USB, a front 
+>>> and rear Firewire and decent on-board audio.  On-board ATI video with 
+>>> separate video RAM, but I installed a fanless NVIDIA card because the 
+>>> driver situation is *simple*, and it's fast.
+>>>
+>>
+>> Too bad it's a NewEgg outofstock item:
+>> http://www.newegg.com/Product/Product.aspx?Item=N82E16813128382
+>>
+> 
+> This looks like the successor.
+> 
+> http://www.newegg.com/Product/Product.aspx?Item=N82E16813128411
+> 
+
+But then there is the Realtek 8111C chip issue again. I prefer not to 
+have to revert to compiling my own kernel again.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqadgb$agb$2@dough.gmane.org
+
+

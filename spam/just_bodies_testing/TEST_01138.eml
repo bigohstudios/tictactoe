@@ -1,0 +1,47 @@
+Apple Sauced...again
+Over on Arstechnica (www.arstechnica.com) I saw mention of a Wired article
+that goes into the many wonderfull ways Apple is showing its love and
+respect for its users.
+
+http://www.wired.com/news/mac/0,2125,55395,00.html
+
+There is a good rundown of all the whys and whatfores over at
+http://arstechnica.com/reviews/02q3/macosx-10.2/macosx-10.2-5.html
+
+"True to form, industrious third party developers saw that they could gain
+a competitive advantage by supporting this more capable user interface in
+their applications. Apple's private menu extras APIs were reverse
+engineered and leveraged to great effect. The architecture was so popular
+that an application for managing predefined sets of menu extras (third
+party or otherwise) was in development.
+
+All of that changed with the release of Jaguar--but not because the
+private APIs had changed. If they had, third party developers would have
+updated their applications to work with the new APIs, as they have
+resigned themselves to doing by choosing to use private APIs in the first
+place.
+
+But what actually happened in Jaguar was that Apple added code to forcibly
+exclude all non-Apple menu extras. Other parts of the API did not change.
+But when a menu extra is loaded, it is compared to a hard-coded list of
+"known" menu extras from Apple. If the menu extra is not on that list, it
+is not allowed to load.
+
+It's easy to laugh at Steve Ballmer's sweat-soaked gyrations as he chants
+"developers, developers, developers!", but Microsoft clearly understands
+something that Apple is still struggling with. It is in a platform
+vendor's best interest to encourage development for its platform. In
+Apple's case, this doesn't mean that they have to bend over backwards to
+make every single system service and UI element "pluggable" via public
+APIs. That's clearly a lot of work, and not something that needs to be the
+number one priority for an OS in its infancy. And in the meantime, if
+third party developers want to sell into a market that requires the
+desired functionality to be added in "unsupported" ways, then they must be
+prepared for the maintenance consequences of their decisions.
+
+But for Apple to go out of its way--to actually expend developer
+effort--to stop these third party developers, while still failing to
+provide a supported alternative, is incredibly foolish. "
+
+
+

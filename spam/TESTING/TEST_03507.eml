@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281b5e72fdc41e7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs69465wfj;
+        Tue, 20 Apr 2010 06:18:14 -0700 (PDT)
+Received: by 10.141.107.5 with SMTP id j5mr5618667rvm.105.1271769494398;
+        Tue, 20 Apr 2010 06:18:14 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 36si12956600iwn.28.2010.04.20.06.18.14;
+        Tue, 20 Apr 2010 06:18:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 08A011BE5A293
+	for <mlsubscriber.tech@csmining.org>; Tue, 20 Apr 2010 06:18:14 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 0374D26F575EA
+	for <mlsubscriber.tech@csmining.org>; Tue, 20 Apr 2010 06:18:14 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay14.apple.com (relay14.apple.com [17.128.113.52])
+	by lists.apple.com (Postfix) with ESMTP id 50ECC26F56F5F
+	for <java-dev@lists.apple.com>; Tue, 20 Apr 2010 06:17:19 -0700 (PDT)
+X-AuditID: 11807134-b7b22ae000005450-0f-4bcda95f5b00
+Received: from [17.151.91.116] (Unknown_Domain [17.151.91.116])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay14.apple.com (Apple SCV relay) with SMTP id
+	10.0B.21584.F59ADCB4; Tue, 20 Apr 2010 06:17:19 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <C7F366C9.F102%kustaa.nyholm@planmeca.com>
+Date: Tue, 20 Apr 2010 06:17:18 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <859CBDE4-D24F-4240-A9D5-9BEEE2C4242C@apple.com>
+References: <C7F366C9.F102%kustaa.nyholm@planmeca.com>
+To: Kustaa Nyholm <Kustaa.Nyholm@planmeca.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: "java-dev@lists.apple.com" <java-dev@lists.apple.com>
+Subject: Re: Where to store preferences, Log files, Caches
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 20, 2010, at 4:12 AM, Kustaa Nyholm wrote:
+
+> Hi list,
+>=20
+> sorry for the noise I know this has been discussed numerous times here =
+and
+> I'm sure there must be a guideline TN or something about this from =
+Apple,
+> but for the life of me I can't google it.
+>=20
+> Where should  preference files, log files, caches files, database =
+files,
+> go on Mac OS X and how to get those locations from Java?
+>=20
+> I've read it on this list recently but I can't find the info...
+> there has to a document that defines these...
+
+Preferences is explained here:
+<http://developer.apple.com/mac/library/qa/qa2001/qa1170.html>
+
+Logs should probably go into System.getProperty("user.home") + =
+"/Library/Logs/" + "your.app.identifier".
+
+Caches should either go in the directory returned from =
+System.getProperty("java.io.tmpdir"), or System.getProperty("user.home") =
++ "/Library/Caches/" + "your.app.identifier".
+
+Database files, autosave information, and other things that represent =
+user data that could be lost if deleted should go into =
+System.getProperty("user.home") + "/Library/Application Support/" + =
+"Your App Name".
+
+To request a new tech note, or update the existing QA1170 with this =
+information, please file a request at <http://bugreporter.apple.com>.
+
+Thanks,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

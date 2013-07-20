@@ -1,0 +1,33 @@
+Re: [Razor-users] Using Razor with non-mbox files> ----- Original Message -----
+> Date: Thu, 08 Aug 2002 11:58:36 -0400
+> From: wertzscott@cs.com
+> To: razor-users@example.sourceforge.net
+> Subject: [Razor-users] Using Razor with non-mbox files
+>
+> Greetings!  I'm new to this list, and new to Razor.  Trying to get it to
+compile now (perhaps more on that later), but I'm wondering if it can really
+do what I need anyway.  In short my question is whether Razor can process
+files directly from sendmail's queues.  Here's the situation.
+>
+
+You can use a milter with sendmail that will add an X-header labeling the
+mail as spam for procmail processing later (see smrazor:
+http://www.sapros.com/smrazor/ ). You can modify the .c file to reject the
+email instead. I have been using this with sendmail 8.12.5 and Solaris 9
+with razor-agents 2.14 quite successfully (barring network/catalogue server
+issues) ...
+
+Sven
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

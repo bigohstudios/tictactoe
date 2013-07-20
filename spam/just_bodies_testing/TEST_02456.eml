@@ -1,0 +1,43 @@
+Re: gforce 9400Hugo Vanwoerkom wrote:
+> steef wrote:
+>> hi folk,
+>>
+>> got myself a asusrock standard atx mobo with a gforce 9400 (nvidia) in 
+>> a pci-express slot. i have to use the 195 4driver from *their* site. 
+>> the standard lenny driver for nvidia does not support this hardware. 
+>> (or am i wrong??)
+>>
+>> well: everything works fine except for ane thing: sometimes, quite 
+>> unexspected, my screen freezes completely; a nuisance.
+>>
+>> somebody with maybe the same experience and a solution for this driver 
+>> problem?
+>>
+> 
+> Hi Steef,
+> 
+> I just got through with a frozen screen, etc. problem.
+> 
+> The solution was upgrading X to the latest level and installing Nvidia's 
+> latest upstream driver:
+> ftp://download.nvidia.com/XFree86/Linux-x86/195.36.15/
+> 
+> You have a link for your mobo?
+> 
+> PS I always use Nvidia's upstream drivers.
+> 
+> Hugo
+> 
+> 
+
+I bet you mean 'asrock' instead of 'asusrock'
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hq2ki7$4mu$1@dough.gmane.org
+
+

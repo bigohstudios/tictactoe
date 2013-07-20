@@ -1,0 +1,63 @@
+Re: Proposal for category in plugin environmentHow are you doing, Uli Kusterer.
+I visit your blog from time to time. I didn't know that you were on this 
+mailing list.
+
+By the way, yes, you are right. My intention is something like that, but 
+it is also for making the environment safer.
+
+For example, let's assume we are trying to design C++ for the private, 
+protect, public. ( or @private, @protect, @public if it is Obj-C )
+Because we realize that it is good to protect parent class' member 
+variables and member functions, we started to think about those 
+keywords, i.e. private, protect and public. Let's also assume that for 
+some cases it is thought to be safer not to access parent class' 
+members. ( semantically "private" )
+
+However, some people will still say, "Don't access parent classes' 
+member directly. You can control what you want to do. It is your 
+responsibility to access parent classes' member and makes trouble."
+
+However, I am suggesting, "Even though you are right, it is better to 
+provide some facility which can control how you want to access the 
+parent classes' members."
+
+I'm sorry, Jonathan Schleifer. I should mention your comment,
+
+"Again, C allows you to do bad things if you use it the wrong way. But 
+it does not consider a way right or wrong, so you have the freedom to do 
+what you want. If it breaks, it’s entirely your fault. The same is true 
+for ObjC. C and ObjC come from the Unix world, not the Windows world. 
+Keep that in mind."
+
+Well, I have been a long time Unix programmer also. However, I know Unix 
+philosophy. But there is no philosophy which can be applied without 
+exception. For example, let's pick one example, "ping".
+Unix society amended "ping" to protect "ping flooding" and "buffer 
+overrun". If they followed the "Unix philosophy" very strictly, they 
+should have not fix the problem, saying "You have the freedom to do what 
+you want. if it breaks, it's entirely your fault."
+
+I'm sorry, I doesn't mean to offend you, Jonathan Schleifer.
+I'm sorry.
+
+Sincerely,
+JongAm Park
+
+--
+子曰 不而不改 是謂過矣니라
+공자께서 말씀하시길, 잘못을 하고도 고치지 않는 것, 그것을 잘못이라 한다.
+                                                   - 論語<  衛 靈 公>편
+
+JongAm Park
+jongampark@sbcglobal.net
+Visit my personal blog at http://jongampark.blogspot.com
+Visit my technical blog at http://jongampark.wordpress.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

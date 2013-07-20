@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a503f2e72f308
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs3875wfo;
+        Sun, 16 May 2010 23:47:00 -0700 (PDT)
+Received: by 10.223.50.193 with SMTP id a1mr5724097fag.34.1274078818851;
+        Sun, 16 May 2010 23:46:58 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h14si11935082fai.49.2010.05.16.23.46.58;
+        Sun, 16 May 2010 23:46:58 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 433AB13A5CF3; Mon, 17 May 2010 06:46:52 +0000 (UTC)
+Old-Return-Path: <alexey.salmin@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DF66C13A5CC5
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 06:46:45 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2flL5L4DRQkd for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 06:46:38 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 5A75B13A59FD
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 06:46:38 +0000 (UTC)
+Received: by fxm15 with SMTP id 15so223383fxm.6
+        for <debian-user@lists.debian.org>; Sun, 16 May 2010 23:46:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:mime-version:received:in-reply-to
+         :references:from:date:message-id:subject:to:content-type
+         :content-transfer-encoding;
+        bh=4TdTzkgO3Zsgm+QxUGncgxtocD9PgR1sm0M+VtcW73U=;
+        b=A79NthuPu3GhFpWfRM3OmI0nsm16zcaw1qy5bja2DZz+tR6IdS+jbsAuXiPrpzqUzK
+         iN7pH/Rwpa87LIqVq32ngIAEK4CRDXhDE1L6qKperfLdusN5FeB+HWon1nKb3flUqt0M
+         rS776f7b80jgIPuter8LM8vrtW66GD/za1R/0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type:content-transfer-encoding;
+        b=KjBRgSX26xem0tShUZ9TFXQN1w9jm9rGMePnbUyeS1QrcFzAOAxqTUdF5wX9Qep5oX
+         kPU6cX3paMDtgrJoj+K4EAW8T2Vghx9f4+OcgDRn7VphCG7PmyRBO3f6fAlzOOrKUS8u
+         6RU0THWoFsogLtc6ICQC5sWh41oC437Bhf+Hc=
+Received: by 10.239.150.204 with SMTP id o12mr451315hbb.171.1274078792148; 
+	Sun, 16 May 2010 23:46:32 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.239.164.140 with HTTP; Sun, 16 May 2010 23:46:12 -0700 (PDT)
+In-Reply-To: <87aas1r0fc.fsf@turtle.gmx.de>
+References: <4BEC9B19.5060001@acu.edu> <4BEDADA7.8090908@acu.edu> 
+	<20100515090425.GA3589@apocatequil> <87aas1r0fc.fsf@turtle.gmx.de>
+From: Alexey Salmin <alexey.salmin@csmining.org>
+Date: Mon, 17 May 2010 13:46:12 +0700
+Message-ID: <AANLkTikipjZpNoT5TLovlA0y6bgxInL4djUTrznkkDVy@mail.csmining.org>
+Subject: Re: executable won't execute
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gDVuIDGXHlK.A.4SB.cZO8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577011
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 06:46:52 +0000 (UTC)
+
+On Sat, May 15, 2010 at 4:15 PM, Sven Joachim <svenjoac@gmx.de> wrote:
+> On 2010-05-15 11:04 +0200, Jan C. Nordholz wrote:
+>
+>>> [readelf output]
+>>>
+>>> ELF Header:
+>>> [...]
+>>
+>>> =C2=A0INTERP =C2=A0 =C2=A0 =C2=A0 =C2=A0 0x000114 0x08048114 0x08048114=
+ 0x00011 0x00011 R =C2=A0 0x1
+>>> =C2=A0 =C2=A0 =C2=A0[Requesting program interpreter: /lib/ld-lsb.so.3]
+>>
+>> That dynamic linker doesn't look right. A little googling shows that
+>> Redhat and Suse seem to be using that one now. A missing linker is,
+>> by the way, the only other reason for execve() to return ENOENT ("file
+>> not found") I know of - missing dependencies produce a different error.
+>>
+>> Anyway, Debian still has /lib/ld-linux.so.2 - you could try symlinking
+>> them, but I doubt it will work.
+>
+> Why not? =C2=A0Do you think that Redhat and Suse do something else? =C2=
+=A0Anyway,
+> this symlink should be in the lsb-core package; it was added in 3.0.6
+> (see #326609=C5=A1) but seems to have gone AWOL since then.
+>
+> Sven
+>
+>
+> =C5=A1 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D326609
+
+So, it's a bug in lsb-core package?
+
+Alexey
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikipjZpNoT5TLovlA0y6bgxInL4djUTrznkkDVy@mail.csmining.org
+
+

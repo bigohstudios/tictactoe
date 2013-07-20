@@ -1,0 +1,106 @@
+Re: [SAtalk] need to restart mass-checks (was: Re: 2.40 release procedure)
+Bart Schaefer said:
+
+> Just FYI, spamassassin_pre_2_4_0b appears to be the head revision, and is 
+> not the same as the tip of the b2_4_0 branch.
+
+oops.  OK, now fixed; I've updated b2_4_0 to match what I wanted,
+accordingly.  As a result, mass-checks do *NOT* need to be restarted as
+the code and rules are the same as they were on HEAD.
+
+cvs tag spamassassin_pre_2_4_0b
+
+So, in full, here's the changes that are in spamassassin_pre_2_4_0b that
+were not there before the branch:
+
+  - rules fixed: HTTP_ESCAPED_HOST, HTTP_CTRL_CHARS_HOST.  they were too
+    lax and caused FPs
+
+  - Matt's faster HTML parser
+
+  - commented rules un-commented again
+
+  - a doco fix for spamd
+
+
+and, for completeness, the relevant changes since Saturday:
+
+  - the INSTALL file ;)
+
+  - CALL_NOW now starts on a word boundary
+
+  - Added examples to -R docs
+  
+  - Added Habeas HIL lookup
+
+  - bug 385: spamcheck.py should handle 4xx errors -- full mailboxes etc.
+    -- with EX_TEMPFAIL. patch from ckd-spamassassin@ckdhr.com
+    (Christopher Davis) applied.
+
+  -  made spamcheck.py use exit code 75 if it cannot connect to spamd,
+     fixes bug 655
+
+  - spamd/spamd.raw: fixed bug 704: spamd was not able to unlink pid file
+    with -u arg
+
+  - Makefile.PL: installing to random dirs now works fine
+
+  - move MAILER_DAEMON into 70_cvs_rules_under_test.cf since it has been
+    improved remove extraneous mass-check line for DATE_YEAR_ZERO_FIRST
+
+  - spamassassin.raw: merged -Z with -D
+
+  - removed eff.org from whitelists, as per Marc's request
+
+  - mass-check: added versioning and date to mass-check output
+
+  - bug 658: ok_locales set to 'en' by default. changed to 'all', users
+    will have to customise for themselves.   Made many tests which trigger
+    FPs on mail in ISO-2022-JP charsets, meta rules depending on
+    __ISO_2022_JP_DELIM.
+
+  - fixed phrase-freq code for vastly better performance
+
+  - rules/50_scores.cf: changed LISTBUILDER score back to -5.0
+
+  - lib/Mail/SpamAssassin/HTML.pm: catch background images in uri code
+    catch additional types of web bugs
+
+  - rules/20_body_tests.cf: change CASHCASHCASH to meta rule to avoid
+    Japanese false matches, revise spam phrases descriptions to be clearer
+    (since a few are now basically compensation tests (please don't move
+    them to the compensation file))
+
+  - fixed bug in MIME_SUSPECT_NAME: text/plan attachments called foo.html
+    were triggering.
+
+  - revise HTML comment tests to use HTML parser
+
+  - revise MAILER_DAEMON rule (get rid of some spam matches without losing
+    any nonspam matches)
+
+  - raise some negative scores that are way too low
+
+  - remove "Friend" from DEAR_SOMETHING since it overlaps with DEAR_FRIEND
+    and can match "dear friend" in middle of sentence too much
+
+  - require "Dear Friend" to start the paragraph
+
+  - add new HTML tests for font colors and faces, reduce number of
+    different eval functions needed for HTML tests
+
+--j.
+
+-- 
+'Justin Mason' => { url => http://jmason.org/ , blog => http://taint.org/ }
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

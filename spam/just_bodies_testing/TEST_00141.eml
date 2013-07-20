@@ -1,0 +1,34 @@
+Re: How to Find a Printer Driver?From nobody Sat Jul 20 14:17:27 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 10 May 2010 16:50:47 Kent West wrote:
+> Kent West wrote:
+> > So you mentioned backports. Reckon I'll go research how to configure
+> > my sources.list file to do that, and how to use it.
+>=20
+> Wait! I've gotta digest all this in 15 minutes?!
+>=20
+> http://debian.ethz.ch/pub/debian-backports/utils/Backport-HOWTO.html
+
+Nope.  That's for doing it yourself.
+
+There's a lot of backports already maintained by existing DDs and DMs.  Che=
+ck=20
+out <http://backports.org/dokuwiki/doku.php?id=3Dinstructions>.  Just add o=
+ne=20
+line to your sources.list and then (aptitude install hplip/lenny-backports)=
+=20
+should do it.
+
+It's currently an unofficial service, but I think Debian wants to do someth=
+ing=20
+like it as an official service during the lifetime of Squeeze or Squeeze+1 =
+and=20
+future releases.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

@@ -1,0 +1,39 @@
+Run clamav lenny packages on etch?Hello,
+
+is it possible to run the clamav-packages for lenny from the volatile
+repository on Debian etch?
+Some machines still run etch here and the latest version installed is
+0.95.3... :-/
+
+I was curious an changed my sources.list from
+
+# ClamAV Update
+deb http://volatile.debian.org/debian-volatile etch/volatile main
+contrib non-free
+
+into
+
+# ClamAV Update
+deb http://volatile.debian.org/debian-volatile lenny/volatile main
+contrib non-free
+
+and did
+
+apt-get update
+apt-get -s dist-update
+
+The system shows me clamav-base and clamav-testfiles to be updated
+without any complain about missing dependencies...
+
+Thanks!
+
+Regards,
+Ivan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDC82B5.1050405@asta.tu-darmstadt.de
+
+

@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286e69356dfa876
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs402461wfb;
+        Thu, 6 May 2010 09:18:29 -0700 (PDT)
+Received: by 10.223.65.18 with SMTP id g18mr6966853fai.32.1273162708037;
+        Thu, 06 May 2010 09:18:28 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si2375736fks.23.2010.05.06.09.18.27;
+        Thu, 06 May 2010 09:18:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 083EE13A5459; Thu,  6 May 2010 16:18:25 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 55A2F13A5445
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 16:18:19 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id k0yrMYOkG9x1 for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 16:18:12 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id F3E4713A5440
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 16:18:11 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so178682qyk.6
+        for <debian-kde@lists.debian.org>; Thu, 06 May 2010 09:18:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=cm5U4RgTWcvLxYH0IrBbLHQKboyiBM1G3QtEhlfAjLM=;
+        b=Unh7KFHHmPTCuUs5GhE3gUS/A/DG/TVaGR1BvizLIm9RKqNHsZ4cOXKpL8Mj0J/S+/
+         m4rTcuNlmdeuAXDkAMxH+NuaWP3C1oou4Awdqfu0a0MZKhU/wgTn3VodeCqsAIcBQaT1
+         TZnWpjv0+/wXEMiuACT2dAZEmsL+74HjvCN58=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=o1+4con4UuJrQI1FhDGf8bBPHZzoznKezwMD1DxcYHpnePE+nC0R6vohbjPeUU4jZJ
+         jbkgPuGEN/RU7WLhjk7XaajeKKsYbGUGDcxZ5twFm6JVGpyIwLzdmQHZNFWtYIM1Uuzc
+         1UsLlpSUjD9A0aXObZDp/k4gMSfq15S+NgyOg=
+MIME-Version: 1.0
+Received: by 10.224.99.193 with SMTP id v1mr6912903qan.303.1273162682240; Thu, 
+	06 May 2010 09:18:02 -0700 (PDT)
+Received: by 10.229.221.13 with HTTP; Thu, 6 May 2010 09:18:01 -0700 (PDT)
+In-Reply-To: <i2l2d460de71005060909u9615296aj6a704e18759c402e@mail.csmining.org>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+	 <201005061543.12340.d_baron@012.net.il>
+	 <u2i880dece01005060603y3b094cacw9810f35e44d40c7f@mail.csmining.org>
+	 <201005061649.13677.Martin@lichtvoll.de>
+	 <t2k880dece01005060833m28d2878cj50e94205c9cb0112@mail.csmining.org>
+	 <i2l2d460de71005060909u9615296aj6a704e18759c402e@mail.csmining.org>
+Date: Thu, 6 May 2010 19:18:01 +0300
+Message-ID: <y2z880dece01005060918ka5e64b76lc1e23cd6d8f4ba75@mail.csmining.org>
+Subject: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Richard Hartmann <richih.mailinglist@csmining.org>
+Cc: Martin Steigerwald <Martin@lichtvoll.de>, debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LX9A4iBE11K.A.lQF.Rvu4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32150
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 16:18:25 +0000 (UTC)
+
+On 6 May 2010 19:09, Richard Hartmann <richih.mailinglist@csmining.org> wrote:
+> On Thu, May 6, 2010 at 17:33, Dotan Cohen <dotancohen@csmining.org> wrote:
+>
+>> Actually, I personally have not. However, this was actually the design
+>> goal of Qt4 and many users have tested and reported lower memory usage
+>> in KDE 4 compared to KDE 3. I don't know about CPU, though.
+>
+> For KDE 2 -> 3, this was true. I had 128 or 256 MiB of RAM back then
+> and when they announced that KDE 3 would use _less_ RAM, I laughed.
+> Well, they proved me wrong and KDE 3 gave new life to an old machine.
+>
+> With KDE 4.1, I was forced to upgrade from 512 MiB RAM to 1.2 GiB
+> to get from "pretty static pictures" to "slow".
+>
+
+Maybe you were / are still using Qt3 applications? There is nothing
+wrong with that, but it will be memory-heavy.
+
+
+>> Also, the last time I ran KDE 3.5.10 it felt was noticeably lagging
+>> compared to my then-current KDE 4.3 setup on the same hardware. Note
+>> that the KDE 4.3 even had quite a few other apps installed, and the
+>> KDE 3.5.10 was a new install that I did to triage a possible
+>> regression.
+>
+> As said earlier, I have KDE 4 on a pretty new machine and KDE 3 on an
+> ancient one. If anything, a _lot_ more in installed & running on the KDE 3
+> machine.
+> The KDE 3 machine is noticably faster in pretty much every regard.
+>
+
+So we agree: the more software on the system, the faster it runs! I'm
+installing Gimp now...
+
+
+>> Like I said, though, if you need Qt3 libraries in addition to Qt4 (for
+>> Quanta, for instance) then you will be using the memory of _both_,
+>> naturally, and that is a lot!
+>
+> Nope, pure Qt/KDE 4.
+>
+
+Then I don't know where the problem is / was. How does it run in KDE
+4.4? What does top say?
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2z880dece01005060918ka5e64b76lc1e23cd6d8f4ba75@mail.csmining.org
+
+

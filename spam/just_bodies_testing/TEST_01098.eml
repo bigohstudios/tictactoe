@@ -1,0 +1,59 @@
+Re: What needs to improve in KDE 4?On 11 May 2010 22:41, Martin Steigerwald <Martin@lichtvoll.de> wrote:
+> I ccd you since you ccd me. Please do not cc me in the future. I read the
+> list and that new thread grouping features of KMail are really handy ;).
+>
+
+Oops, sorry, I'll try to pay attention to that more in the future. I apologize.
+
+
+>> > IMHO when a config setting is not handled properly on upgrade of KDE
+>> > its a bug.
+>>
+>> Agreed, but it's not one that is likely to be fixed. There seems to be
+>> no backwards-compatibility in KDE anymore. It's a problem, I know.
+>
+> Well I got no reply to my detailed bug report yet.
+>
+
+Can you post a link? I'd like to comment on that!
+
+
+>> > Only one I triaged and filed: The separator "58" for colon for web
+>> > shortcuts in kuriikwsrc or something like that it was is not
+>> > recognized by KRunner, only by Konqueror. ":" instead works with
+>> > both. Unfortunately Konqueror saved it as "58" not as ":".
+>>
+>> It _should_ be escaped.
+>
+> It doesn't work in krunner when it is. See here:
+>
+> [Bug 218272] New: webshortcuts broken after upgrading KDE 3 to 4 due to
+> decimal in keyword delimiter which krunner doesnt support
+>
+> https://bugs.kde.org/218272
+>
+
+I see two reasons why that bug was ignored:
+1) It's an upgrade issue, and apparently the dev who works on Krunner
+(yes, I know who that is) does not consider upgrades a common use
+case. KDE 3 never existed?!? This attitude is seen throughout Plasma,
+even in minor-version upgrades.
+2) It's wordy. Don't mention Linux-Magazine or other irrelevant
+things. Just the bug, as concise as possible. Wordy bugs are almost
+always ignored. I'm not blaming you, just giving you a hint as to how
+to get the devs' attention.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTink1iKQSXmyt3DhT8FfDq2x495j1aC6NoCI72Rq@mail.csmining.org
+
+

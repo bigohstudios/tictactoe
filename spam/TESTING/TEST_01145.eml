@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d060cce4aca07
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs139190wfo;
+        Tue, 25 May 2010 09:52:04 -0700 (PDT)
+Received: by 10.143.21.9 with SMTP id y9mr4840415wfi.153.1274806324230;
+        Tue, 25 May 2010 09:52:04 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 11si6063752pzk.29.2010.05.25.09.52.04;
+        Tue, 25 May 2010 09:52:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id DCBF51CACD716
+	for <mlsubscriber.tech@csmining.org>; Tue, 25 May 2010 09:52:03 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D65F427E70C05
+	for <mlsubscriber.tech@csmining.org>; Tue, 25 May 2010 09:52:03 -0700 (PDT)
+X-Original-To: Java-dev@lists.apple.com
+Delivered-To: Java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 55F5627E6FD8D
+	for <Java-dev@lists.apple.com>; Tue, 25 May 2010 09:50:03 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 465C4D59CA64
+	for <Java-dev@lists.apple.com>; Tue, 25 May 2010 09:50:03 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b9fae0000068da-81-4bfbffba27a5
+Received: from mail-pv0-f179.google.com (mail-pv0-f179.google.com
+	[74.125.83.179])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	EE.A7.26842.BBFFBFB4; Tue, 25 May 2010 09:50:03 -0700 (PDT)
+Received: by pvc22 with SMTP id 22so2598673pvc.24
+	for <Java-dev@lists.apple.com>; Tue, 25 May 2010 09:50:02 -0700 (PDT)
+Received: by 10.115.67.11 with SMTP id u11mr6394583wak.196.1274806202386;
+	Tue, 25 May 2010 09:50:02 -0700 (PDT)
+Received: from [10.6.4.84] ([68.170.18.124])
+	by mx.google.com with ESMTPS id d16sm49121000wam.12.2010.05.25.09.50.00
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Tue, 25 May 2010 09:50:01 -0700 (PDT)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Jay Colson <jay@karma.net>
+In-Reply-To: <AANLkTimJ6-TsXhlzb5uhJ_2gPOOH2uodtlqvO0Zgdfjy@mail.csmining.org>
+Date: Tue, 25 May 2010 12:49:59 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <DDF25D05-D4A5-4D10-8B81-4159B32E7E1C@karma.net>
+References: <FD7E2B3E-F1FD-4100-9B37-BA18E0C2B8D5@smershnet.com>
+	<C9AB2888-90E9-4DB0-B3BB-2584D1C8FBE9@apple.com>
+	<F703592C-F97E-4C4C-A059-0A7828AF64BE@smershnet.com>
+	<AANLkTimJ6-TsXhlzb5uhJ_2gPOOH2uodtlqvO0Zgdfjy@mail.csmining.org>
+To: Apple Java list <Java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAxRHo+sUR6+fFEfYuw==
+Cc: 
+Subject: Re: 10.6 Update 2 crashing IDEA on pasting code
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+My entire development staff uses IntelliJ - so, as a company this update =
+is not being applied.  Any chance it will be fixed soon?
+
+
+On May 25, 2010, at 11:29 AM, Guy Gascoigne-Piggford wrote:
+
+> Is there any update on this?  I use Idea all day and every day so this
+> is a complete blocker to me upgrading.
+>=20
+> Is there any way for anyone other than the bug reporter to see the
+> status of a specific bug?  Apple's bug parade doesn't appear to be as
+> open as say Sun's was.
+>=20
+> Guy
+>=20
+> On Wed, May 19, 2010 at 11:06 PM, Phillip Ashworth =
+<phill@smershnet.com> wrote:
+>> Thanks - I've filed bug report ID: 8002471
+>> I've discovered that the crash occurs when the pasted code includes =
+class name that are not already imported in the current document, IDEA =
+then pops-up a window to select the class to import and crashes =
+instantly and every time.
+>> I've not got any screen reader or accessibility software running but =
+I do have LaunchBar and TextExpander.. not sure if these count.
+>> -Phill
+>>=20
+>>=20
+>> On 20/mag/2010, at 07.07, Bino George wrote:
+>>=20
+>>> Hi Phillip,
+>>>                    Can you please file a bug at =
+http://bugreporter.apple.com with the crash log attached to it ? I tried =
+to reproduce this myself but could not, can you also include the exact =
+steps to reproduce. Please mention any screen readers or other =
+Accessibility tools you may have running.
+>>>=20
+>>> Thanks,
+>>> Bino George,
+>>> Java Runtime Engineer,
+>>> Apple Inc.
+>>>=20
+>>> On May 19, 2010, at 9:15 PM, Phillip Ashworth wrote:
+>>>=20
+>>>> Since updating to 10.6 Update 2 Intellij IDEA crashes when I paste =
+code from one class into another in the main editor - see exception =
+below.
+>>>> JetBrains support say this is an Apple problem, anything I can do =
+about it or is it a bug in this java version?
+>>>>=20
+>>>> Regards
+>>>> Phill
+>>  _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> Java-dev mailing list      (Java-dev@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/java-dev/guy%40wyrdrune.com
+>>=20
+>> This email sent to guy@wyrdrune.com
+>>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/jay%40karma.net
+>=20
+> This email sent to jay@karma.net
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

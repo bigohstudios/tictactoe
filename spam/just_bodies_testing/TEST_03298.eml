@@ -1,0 +1,20 @@
+asignar hora a PCasignar hora a PC
+Hola como crear un script para poner en netlogon de samba para que las 
+estaciones Windows cojan la hora del server en windows sería por jemplo 
+netime.bat
+
+@echo off
+net time \\debian-pdc /set /yes
+
+al traducirlo a Debian sería un netime.sh
+
+y como quedaría dentro???? 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/7BF3CE156E0A4BB89846E9BA4CCA3147@esid.gecgr.co.cu
+
+

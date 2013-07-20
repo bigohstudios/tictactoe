@@ -1,0 +1,150 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fd22cc082dabd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs21622wfa;
+        Wed, 14 Apr 2010 09:24:29 -0700 (PDT)
+Received: by 10.103.77.15 with SMTP id e15mr4337316mul.38.1271262268481;
+        Wed, 14 Apr 2010 09:24:28 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u9si2983466muf.6.2010.04.14.09.24.14;
+        Wed, 14 Apr 2010 09:24:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 48F782D0C2C; Wed, 14 Apr 2010 16:24:08 +0000 (UTC)
+Old-Return-Path: <j.e.vasquez.v@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: *
+XStatus: No, score=1.9 required=4.0 tests=GMAIL,SARE_MSGID_LONG45
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9008413A5270
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 16:06:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5CqJRN98RfoM for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 16:06:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yw0-f202.google.com (mail-yw0-f202.google.com [209.85.211.202])
+	by liszt.debian.org (Postfix) with ESMTP id A130A13A5261
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 16:05:52 +0000 (UTC)
+Received: by ywh40 with SMTP id 40so131944ywh.18
+        for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 09:05:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=nwihVqadT68JsUDmTYIv7ujpiTfu4C2xQ+2PjQquth0=;
+        b=ecvtcw3AM/hHVZDltmbSNVfFujQ9FyN8Ox5Cv0VHdJifeCRMkfQqPwLMSxEEhbsEEf
+         U7U50lUBJM/vdNnAmf9YsrZE6Ls+mZs+ipNLPFuH2i8SB3rjqoJrcaBz3K+cLTlVFMdt
+         h9EDHls7rmMApdxrif40DSjtedDBtG3G3Rok0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=h3ci/8Zp/GkopvJZ7xa7gy3nSkS93C94FU9JyM2Jy6IePPZiIoLqrGECXLhomwZz1I
+         sMZjzwIlVIHvM1cjDjM3g/uVo/Xj5BAT9WTGgmtuKVuaEP8RZp4qx0Yz72gOIxivyvbh
+         mXflP5IEeG1XvwLJgPCupnc6Ha1HrnaK5fpFI=
+MIME-Version: 1.0
+Received: by 10.151.100.18 with HTTP; Wed, 14 Apr 2010 09:05:45 -0700 (PDT)
+In-Reply-To: <pan.2010.04.14.15.31.29@csmining.org>
+References: <k2q308d4701004140621ibf159f8dycc2bb534b1aeb7bd@mail.csmining.org>
+	 <pan.2010.04.14.14.49.58@csmining.org>
+	 <i2m308d4701004140825md3393aa6ya7f452d356bd4ebb@mail.csmining.org>
+	 <pan.2010.04.14.15.31.29@csmining.org>
+Date: Wed, 14 Apr 2010 10:05:45 -0600
+Received: by 10.150.48.34 with SMTP id v34mr7530862ybv.137.1271261145516; Wed, 
+	14 Apr 2010 09:05:45 -0700 (PDT)
+Message-ID: <y2q2645c3ed1004140905q8d46501egec8b761a63ba2ab1@mail.csmining.org>
+Subject: Re: GNOME crashes when .xsession file is present.
+From: Javier Vasquez <j.e.vasquez.v@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5cmbSqHxXf.A.oMH.owexLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574060
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 16:24:08 +0000 (UTC)
+
+On 4/14/10, Camale=C3=B3n <noelamac@csmining.org> wrote:
+> On Wed, 14 Apr 2010 20:55:18 +0530, Disc Magnet wrote:
+>
+>> So, how do I prevent it from crashing and successfully log in?
+>
+> Curious is that I don't have such file in my home (running Lenny and
+> GNOME here) :-?
+>
+> Anyway, what is the full content of your "~/.xsession" file and what is
+> your final purpose, I mean, what do you want to achieve with that file?
+>
+> Greetings,
+>
+> --
+> Camale=C3=B3n
+
+~/.xsession is recognized by the Xsession usually located at
+/etc/X11/xdm/Xsession or /etc/X11/xinit/Xsession.  gdm, usually comes
+with a link to it, and it is called by default.  Xsession will look
+for several files, one of them being ~/.xsession.
+
+If ~/.xsession is not present, then gdm will pick one of the desktops
+found under /etc/X11/sessions or /usr/share/xsessions, etc., being
+gnome the default, but gdm allows selecting which one...
+
+If ~/.xsession is found, you can indicate what things to do at first
+prior to call the window manager (such as xrdb, autocutsel, xmodmap,
+xsetbg, xsetroot, etc...).  The final thing it does is calling the
+window manager.  If you want to go with the approach of ~/.xsession,
+and still use gnome, then the last thing you should include is "exec
+gnome-session", or "exec startkde", or "exec startfluxbox", etc.  This
+is pretty useful for those not using desktop environment, so they
+instead call something lik "exec startfluxbox" or "exec fvwm2", or the
+call for whatever window manager of their preference.
+
+For those not using gdm neither kdm, then they're more familiar with
+it, perhaps because of using xdm, slim, or plain startx.  startx uses
+~/.xinitrc instead, so usually what one creates is ~/.xinitrc, and
+~/.xsession is just a symlink to it, but one then needs to provide
+executing access to ~/.xinitrc.  This approach will simplify things
+when one wants to enable both startx and a login session manager such
+as xdm or slim, etc.
+
+So to me the most standard way to setup the X session is through
+default scripts, Xinit and Xsession.  I'm not sure why the desktop
+environments had to provide their own ways, :-)  Any ways, that's what
+gdm uses, and kdm has similar way also (though I'm not sure if kdm
+also allows a default which also looks for Xsession)...
+
+
+--=20
+Javier.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2q2645c3ed1004140905q8d46501egec8b761a63ba2ab1@mail.csmining.org
+
+

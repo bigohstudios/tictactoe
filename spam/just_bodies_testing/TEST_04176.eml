@@ -1,0 +1,53 @@
+Re: Increasing number of conflictsOn 19/04/10 15:34, B. Alexander wrote:
+> On Mon, Apr 19, 2010 at 9:28 AM, Wolodja Wentland<
+>
+>> I assume that this will allow aptitude to take actions which are more to
+>> your liking as you obviously don't like the ones proposed by aptitude
+>> when you run safe-upgrade.
+>>
+>
+> safe-upgrade just does the upgrades that don't cause a ruckus. dist-upgrade
+> is the one that displays the conflicts and wants to remove packages.
+>
+> Thanks for testing a development branch of Debian :)
+>>
+>
+> No problem. Most of my Debian installs at home run sid, with the rest
+> running testing...Except my firewall, which runs stable for the first 6
+> months or so (until critical packages start getting long in the tooth), then
+> I upgrade it to testing and run until the next stable release.
+>
+
+We all have different experiences, depending on what is loaded, and 
+certainly sid has been fairly active in the last couple of months. I 
+usually wait a week or so when a problem arises, during which time most 
+of them disappear. When they don't it's usually because of a change of 
+the structure of a package, and some old components must be removed to 
+allow new components with different names to be installed.
+
+Occasionally, it is even necessary to remove a vital package, and 
+reinstate it either immediately after the now-successful upgrade, or do 
+a bit more research into how to retain it. Sometimes, an upgrade really 
+does conflict with a long-established package, and you have to decide 
+which to keep. I have a feeling that recently happened with two 
+different Flash viewers.
+
+Do keep track of what you do, as I have just severely embarrassed myself 
+by clearing such a logjam and then assuming that as nothing complained 
+about dependencies, all was well. Some time later (weeks, I'm sure, and 
+I had actually forgotten the conflict until seeing it on your list), a 
+further upgrade to the package (mysql) stopped the daemon from starting, 
+and I reported a bug, only to find a vital part of the system missing...
+
+You don't run sid unless you have a sense of humour.
+
+-- 
+Joe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCAED0.3090804@jretrading.com
+
+

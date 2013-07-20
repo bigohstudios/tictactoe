@@ -1,0 +1,82 @@
+How to migrate my localhost php site to my ISP - Was: willing to
+ learn php basicsHi Avi, Hi to Everyone,
+
+Avi Greenbury wrote:
+> Bernard wrote:
+>   
+>> Have I got to install one or more Debian packages for PHP ?
+>> '$apt-cache search PHP' gives too many results for a choice. 
+>>     
+>
+> You want to do
+> # apt-get install php5 php-mysql apache2
+>
+> Which will also pull in the php5 apache module.
+> By default, the web pages live under /var/www, the php config file
+> is /etc/php5/apache2/php.ini and the apache config is all
+> under /etc/apache2/, with apache2.conf being the 'main' config file.
+>
+> There're several howtos on the net to talk you through it, howtoforge
+> is a bit of a goldmine for them.
+>   
+I have now got to a point that I have a working MySQL database system on 
+my localhost machine. I thought that I would not have any problem 
+migrating this to my ISP appropriate MySQL space, but so far I have 
+failed to do so. Local doc is very scarce, and I did not find any 
+relevant FAQ. I did find the relevant paths though, and succeeded 
+installing a short php script which displays the current date, using 
+strftime(), but there is no way I can access databases. From the online 
+doc, I learnt that I can't create databases, and that I can just create 
+tables under the database that already exists. If I import a table, only 
+its structure gets imported, not its content, and then an error message 
+says that I don't have privileges for this... so I am surely missing 
+something as far as setting up is concerned, or initialization. In my 
+efforts to fetch info, I got a few hints, but they were negative ones, 
+for instance someone kind of said that most ISP did not allow their 
+customers to more than one authenticated user. This would mean that I 
+could not expect to install a database that would be available to the 
+members of a club, each of them having a login and password.
+
+Could someone tell me where I could find relevant information and docs ? 
+And maybe mention one or more ISP that would provide suitable mysql 
+facilities ?
+
+>
+>   
+>> If the MySQL server and databases end up to the webspace that my Internet
+>> Provider allows to me, I suppose that the PHP interpreter and/or
+>> compiler will have to be there, not on my system ?
+>>     
+>
+> Interpreter, and yes.
+> If you want to serve the pages to the outside world, you can do so from
+> your PC by opening the relevant ports on your firewall.
+>
+>   
+>> Still, I suppose that I must install something locally so as to be
+>> able to send meaningfull commands using appropriate scripts ? 
+>>     
+>
+> If you want to test locally and then upload to your ISP-provided
+> webspace, you can do that by ftping the .php files. You'll want to know
+> how their php/mysql environment is configured, though, and configure
+> yours likewise. Also check database names.
+> You can transfer database data by 'exporting' it through mysqldump,
+> uploading the resulting file, and then 'importing' it - the dump is
+> just a list of the SQL commands required to populate the database.
+>
+> --
+> Avi Greenbury
+> http://aviswebsite.co.uk ;)
+> http://aviswebsite.co.uk/asking-questions
+>
+>
+>   
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC78879.6@teaser.fr
+
+

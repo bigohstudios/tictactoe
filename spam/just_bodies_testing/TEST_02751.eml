@@ -1,0 +1,33 @@
+The future of "nv" driverOn Sat, 24 Apr 2010 10:07:02 -0400 (EDT), James P. Wallen wrote:
+> 
+> One of the primary reasons I started using GNU/Linux was that I was 
+> really tired of being stonewalled when looking for explanations for 
+> system functions and malfunctions. Trying to figure out a problem by 
+> looking through data that is limited to what the associated proprietary 
+> interests think you ought to know is no fun.
+> 
+> I'd say that it's not a matter of taste so much as a matter of 
+> practicality. I wanted control of the systems that hold my data. This is 
+> where I found that control.
+> 
+> And, yeah, I'm tired of vendors who think that they own me. I deal with 
+> enough of that crap at work.
+
+I agree.  I do not willingly use non-free software.  I only use it if it's
+the only thing that will work.  I might change my mind if the Nouveau
+driver gets picked up by X.Org and there's a standard Debian package
+for it, and it works reliably.  But for now, no more Nvidia.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/577293747.288317.1272132897330.JavaMail.root@md01.wow.synacor.com
+
+

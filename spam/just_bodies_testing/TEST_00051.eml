@@ -1,0 +1,32 @@
+Re: Kde 3.5 ...> However, while I agree KDE4 has taken a newer direction and is slower, one can
+> configure it to work more like the old favorite. Your desktop and be the
+> desktop folder "containment" and then work from there.
+>
+
+KDE 4.4 is lighter than KDE 3.5 was, even with desktop effects
+enabled. The only time you will see it appear that KDE 4 is "heavy" is
+if you are loading the Qt3 libraries in addition to the Qt4 libraries,
+for instance by using KDE3 applications. I understand that some people
+still need Quanta or the old Kdevelop, but if you are not using KDE 3
+applications (and therefore loading Qt3 libraries) then Qt4 is lighter
+than Qt3 was.
+
+> Or try one of the lighter-weight alternatives.
+>
+
+The issue applies to the alternatives as well, unless you can find a
+Qt3 alternative. Gnome and XFCE are both GTK.
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2i880dece01005060603y3b094cacw9810f35e44d40c7f@mail.csmining.org
+
+

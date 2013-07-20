@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280e5add28679a1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs31110wfj;
+        Sat, 17 Apr 2010 17:39:16 -0700 (PDT)
+Received: by 10.223.45.200 with SMTP id g8mr1654032faf.67.1271551155407;
+        Sat, 17 Apr 2010 17:39:15 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si7312343fka.13.2010.04.17.17.39.14;
+        Sat, 17 Apr 2010 17:39:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id F059E13A50D2; Sun, 18 Apr 2010 00:39:06 +0000 (UTC)
+Old-Return-Path: <201004180020394ce21e36a17d47ab82beb8c455101574@bounces.amazon.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.4 required=4.0 tests=FORGED_YAHOO_RCVD,
+	IMPRONONCABLE_2,MAILTO_TO_SPAM_ADDR,RCVD_IN_DNSWL_MED,SARE_TOWRITE
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7499213A4924
+	for <lists-debian-laptop@liszt.debian.org>; Sun, 18 Apr 2010 00:21:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=0.347 tagged_above=-10000 required=5.3
+	tests=[FORGED_YAHOO_RCVD=2.297, IMPRONONCABLE_2=1,
+	RCVD_IN_DNSWL_MED=-4, SARE_TOWRITE=1.05] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ioHs-zcr9K0a for <lists-debian-laptop@liszt.debian.org>;
+	Sun, 18 Apr 2010 00:21:14 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -8.1
+Received: from mm-retail-out-2103.amazon.com (mm-retail-out-2103.amazon.com [207.171.161.24])
+	by liszt.debian.org (Postfix) with ESMTP id 3DC1A13A4A8E
+	for <debian-laptop@lists.debian.org>; Sun, 18 Apr 2010 00:20:59 +0000 (UTC)
+Date: Sun, 18 Apr 2010 00:20:39 +0000 (UTC)
+From: rosethomas <rosethomas144@yahoo.com>
+Reply-To: rosethomas <rosethomas144@yahoo.com>
+To: "debian-laptop@lists.debian.org" <debian-laptop@lists.debian.org>
+Message-ID: <17320548.8737531271550039602.JavaMail.correios@na-mm-relay.amazon.com>
+Subject: A question has been shared with you by rosethomas
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Bounces-to: 201004180020394ce21e36a17d47ab82beb8c455101574@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: merchandizing
+X-AMAZON-RTE-VERSION: 2.0
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BlLQ7ZnjHQG.A.YgD.qSlyLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34106
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Sun, 18 Apr 2010 00:39:06 +0000 (UTC)
+
+This message is not from Askville.com or Amazon.com.
+
+Check out this question:
+
+http://askville.amazon.com/AnswerViewer.do?requestId=67282303&avctx=ftf&avctxObj=4035926c-1e13-41ae-b872-4248f6b35e7a
+
+Hello
+How are you doing over there in your Country? I hope you are doing very good over there in your Country. My Name is rose, I looked through your email on the internet and decided to write you a message to inform you that i am intersted in knowing more about you. I'm sure that you are very friendly and nice person. It would be great to learn more about you! I'm sure we can find something in common and begin a long and beautiful story. I'm looking only for serious friendship, I'm tired of been heart broken and dishonesty of people. Please if you are also interested in developing a friendship or a relationship with me, Write me back so that i can send you some of my photos at least for you to see what i look like, though i am not photogenic. I expect to read your mail soon. this my email rosethomas144@yahoo.com
+Your new friend
+Miss rose
+
+- rosethomas
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/17320548.8737531271550039602.JavaMail.correios@na-mm-relay.amazon.com
+
+

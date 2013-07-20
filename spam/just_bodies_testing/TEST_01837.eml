@@ -1,0 +1,18 @@
+Re: Battery monitor tools?From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Joe Emenaker wrote:
+> Yeah, I saw IBAM, but it looked like it just generated plain ol' .png =20
+> files or something. I was hoping for something a little more snazzy.
+
+Have you looked at the gkrellm-ibam?  It is still rather plain and I
+wouldn't argue about wanting more.  But it is at least something.
+
+  $ sudo apt-get install gkrellm gkrellm-ibam
+  $ gkrellm &
+
+(shrug)
+
+Bob

@@ -1,0 +1,229 @@
+X-Account-Key: account5
+X-UIDL: GmailId128544004100e027
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs149400wfj;
+        Sat, 1 May 2010 07:23:22 -0700 (PDT)
+Received: by 10.223.60.3 with SMTP id n3mr2093604fah.83.1272723801113;
+        Sat, 01 May 2010 07:23:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 26si5065946fks.52.2010.05.01.07.23.20;
+        Sat, 01 May 2010 07:23:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@yahoo.it
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E3D6A13A4800; Sat,  1 May 2010 14:23:11 +0000 (UTC)
+Old-Return-Path: <hellnote01-debian@yahoo.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.8 required=4.0 tests=FOURLA,HTML_MESSAGE,HTML_NBSP,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7693D13A47F1
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 14:23:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, HTML_NBSP=2,
+	LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id vmyJC+VfDISb for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 14:22:59 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .yahoo. - helo: .web27302.mail.ukl.yahoo. - helo-domain: .yahoo.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1 IN_ABUSE_RFCI=0.1; rate: -6.8
+Received: from web27302.mail.ukl.yahoo.com (web27302.mail.ukl.yahoo.com [217.146.177.163])
+	by liszt.debian.org (Postfix) with SMTP id CFA4513A479E
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 14:22:57 +0000 (UTC)
+Received: (qmail 71186 invoked by uid 60001); 1 May 2010 14:22:50 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.it; s=s1024; t=1272723770; bh=pOYKeSTDZlnTcnhqQFMdOD3LhluK1AkBn+w/gZIGkj0=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=juPSLhYlWSm4vtc1wEw2YrYTb0Qy2F0kUsaLDFyFJEalzxHd6qFTMgvGk2DJNOsejiYs38OYg+bMefOgmz5+49Ln0umdEAcT9PzfrCEyiDNrk0oPJdB9CwTk4fy3T0dd8axM7fIbAySpc0d21G/g9xqkqyXyvO7vttJgAOb684k=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.it;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+  b=6PFj319rrUGnVu29304FRHS8LUNJIRxomuvrxAti2v+FMYw+/lzW9XH3Oj+ZL36MNE70YAQ1VT1AGcSnlKvH0uVx8ABZrwJ8eNGMbzTP5zMSWun9viuOT+kT7qnh4jIXK+NvAkAXUqDe92XcIyDWXrjpJJ1T4D+j7onreHmZ+XY=;
+Message-ID: <845205.71183.qm@web27302.mail.ukl.yahoo.com>
+X-YMail-OSG: JWWiCYsVM1nUC19tsBxeJodO2Yw4TrgAHl1rOU2gtkFQmaU
+ AKwyP4q5NQhXbCQZBtoZqR.cvEMNXP3SyDgKkGpeLKdiUChETUmn2icrtfmv
+ z3pdzMUl.SkxiCyCsSl5yYSDxu9a3r2b6z_Gy7uYi8YCb8sqCNFDp1kIvx6j
+ _ftj2mEwYHKZmgTGykqprPT8Bnz0n8QjCW5z_gtFYBSMn9QMk61Pcvwdeoyt
+ 1_X1dWAJqB.gdLDDIAYOldmWu3dXKVRsXapgB5zOkC_4v3b6kNDXD0ag1RB.
+ neXPT
+Received: from [87.16.13.20] by web27302.mail.ukl.yahoo.com via HTTP; Sat, 01 May 2010 14:22:50 GMT
+X-Mailer: YahooMailRC/348.5 YahooMailWebService/0.8.103.269680
+References: <y2o886fa7aa1005010632gc2a1fa71y86dd862d7eef4cfb@mail.csmining.org>
+Date: Sat, 1 May 2010 14:22:50 +0000 (GMT)
+From: Andrea Neroni <hellnote01-debian@yahoo.it>
+Subject: Re: glXCreateContext failed in Squeeze
+To: Jason Filippou <jason.filippou@csmining.org>, debian-user@lists.debian.org
+In-Reply-To: <y2o886fa7aa1005010632gc2a1fa71y86dd862d7eef4cfb@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="0-1015617426-1272723770=:71183"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <zz25ifWy4dO.A.PuG.PlD3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575623
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 14:23:11 +0000 (UTC)
+
+--0-1015617426-1272723770=:71183
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+> Hello,=0A=0A> =0A> I recently switched back to the GNOME desktop environm=
+ent from KDE and I'm interested in running Compiz Fusion,=0A> which I remem=
+ber playing with when I was using the Ubuntu distribution. First thing I di=
+d was follow > the instructions=0A> outlined here:=0A> =0A> http://wiki.deb=
+ian.org/Compiz=0A> =0A> And everything was going smoothly up until the comp=
+iz --replace command, which outputs:=0A> =0A> jason@debian:~$ compiz --repl=
+ace=0A> compiz (core) - Fatal: glXCreateContext failed=0A> compiz (core) - =
+Error: Failed to manage screen: 0=0A> compiz (core) - Fatal: No manageable =
+screens found on display :0.0=0A> =0A> Launching fallback window manager=0A=
+> =0A> Which is obviously metacity. I googled a bit but almost all forum po=
+sts I found regarded the Fedora > distribution. Here's one that didn't:=0A>=
+ =0A> http://www.nvnews.net/vbulletin/showthread.php?t=3D116895=0A> =0A> Ho=
+wever, I'm not sure what I'm supposed to do to uninstall the NVIDIA driver =
+(which I've installed > with the NVIDIA installer),=0A> since that guy says=
+ to do so in the sentence:=0A> =0A> "I uninstall NVIDIA driver have install=
+ed Nvidia way - not Debian way."=0A> =0A> So I'm still stuck. I ran the "co=
+mpiz check" script hosted on "Forlon's blog" (http://forlong.blogage.de/ent=
+ries/pages/Compiz-Check)=0A> and here's the output:=0A> =0A> jason@debian:~=
+$ ./compiz-check =0A> =0A> Gathering information about your system...=0A> =
+=0A>  Distribution:          Debian GNU/Linux (squeeze/sid)=0A>  Desktop en=
+vironment:   GNOME=0A>  Graphics chip:         nVidia Corporation GT216 [Ge=
+Force GT 220] (rev a2)=0A>  Driver in use:         nvidia=0A>  Rendering me=
+thod:      Nvidia=0A> =0A> Checking if it's possible to run Compiz on your =
+system...=0A> =0A>  Checking for texture_from_pixmap...               [FAIL=
+]=0A>  Checking for non power of two support...          [FAIL]=0A>  =0AChe=
+cking for composite extension...               [ OK ]=0A>  Checking for FBC=
+onfig...                          [ OK ]=0A>  Checking for hardware/setup p=
+roblems...           [SKIP]=0A> =0A> At least one check had to be skipped:=
+=0A> Error: Unable to detect maximum 3D texture size =0A> =0A> jason@debian=
+:~$ =0A> =0A> This is an obvious problem, because after reading a little ab=
+out compiz-fusion I understood that it's practically based on the=0A> openG=
+L extension "texture_from_pixmap" which I, for some reason, lack.=0A> =0A> =
+Before going ahead and doing something that might eliminate my ability to l=
+aunch an X session, I thought I might resort to this list=0A> for the most =
+up-to-date information as to what I should do. I am attaching my /etc/X11/x=
+org.conf, /var/log/Xorg.0.log as well as the full output of =0A> "glxinfo" =
+so as to not clutter this message any further with their data. In xorg.conf=
+ you will notice that I have added dummy =0A> "Identifier" strings to all t=
+he xorg.conf sections that the wiki.debian article I linked to suggests tha=
+t I add. This was done because my =0A> xorg.conf would not be parsed otherw=
+ise and I would be stuck with a terminal interface. The "startx" command co=
+mplained about xorg.conf sections lacking =0A> "Identifier" strings.=0A> =
+=0A> Thank you very much for your time and interest,=0A> Jason=0A> =0A=0ATh=
+is happened to me many times and I fixed it reinstalling the driver.=0ASeem=
+s that you are using official nvidia driver.=0AIf it is you have a .run ins=
+tall file. What I usually make is to go to a shell, stop grphic session,=0A=
+uninstall the driver, reinstall the driver and everything go smoothly.=0ASo=
+:=0A=0Actrl+alt+f1    // for a shell=0Alog in using root=0Ago to the place =
+where you have the .run file (for me is /usr/src)=0A=0Acd /usr/src=0A/etc/i=
+nit.d/gdm stop=0A./name_of_driver.run --uninstall    //uninstall driver=0A.=
+/name_of_driver.run -N        //reinstal driver=0A/etc/init.d/gdm start=0A=
+=0AIf the installation complain about the gcc compiler version used to comp=
+ile your kernel=0Aabort installation and:=0A=0Aexport CC=3D/usr/bin/gcc-4.3=
+=0A=0Ausing the correct number version. If you are using Squueze up-to-date=
+ I think gcc-4.3=0Ashould be fine.=0A=0AAndrea=0A=0A=0A      
+--0-1015617426-1272723770=:71183
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D"text/css"><!-- DIV {margin:0px;} --></style></he=
+ad><body><div style=3D"font-family:arial,helvetica,sans-serif;font-size:10p=
+t"><div style=3D"font-family: arial,helvetica,sans-serif; font-size: 10pt;"=
+>&gt; Hello,<br><div style=3D"font-family: times new roman,new york,times,s=
+erif; font-size: 12pt;"><div dir=3D"ltr">&gt; <br>&gt; I recently switched =
+back to the GNOME desktop environment from KDE and I'm interested in runnin=
+g Compiz Fusion,<br>&gt; which I remember playing with when I was using the=
+ Ubuntu distribution. First thing I did was follow &gt; the instructions<br=
+>=0A&gt; outlined here:<br>&gt; <br><a rel=3D"nofollow" target=3D"_blank" h=
+ref=3D"http://wiki.debian.org/Compiz">&gt; http://wiki.debian.org/Compiz</a=
+><br>&gt; <br>&gt; And everything was going smoothly up until the compiz --=
+replace command, which outputs:<br>&gt; <br>&gt; jason@debian:~$ compiz --r=
+eplace<br>=0A&gt; compiz (core) - Fatal: glXCreateContext failed<br>&gt; co=
+mpiz (core) - Error: Failed to manage screen: 0<br>&gt; compiz (core) - Fat=
+al: No manageable screens found on display :0.0<br>&gt; <br>&gt; Launching =
+fallback window manager<br>&gt; <br>&gt; Which is obviously metacity. I goo=
+gled a bit but almost all forum posts I found regarded the Fedora &gt; dist=
+ribution. Here's one that didn't:<br>=0A&gt; <br><a rel=3D"nofollow" target=
+=3D"_blank" href=3D"http://www.nvnews.net/vbulletin/showthread.php?t=3D1168=
+95">&gt; http://www.nvnews.net/vbulletin/showthread.php?t=3D116895</a><br>&=
+gt; <br>&gt; However, I'm not sure what I'm supposed to do to uninstall the=
+ NVIDIA driver (which I've installed &gt; with the NVIDIA installer),<br>=
+=0A&gt; since that guy says to do so in the sentence:<br>&gt; <br>&gt; "I u=
+ninstall NVIDIA driver have installed Nvidia way - not Debian way."<br>&gt;=
+ <br>&gt; So I'm still stuck. I ran the "compiz check" script hosted on "Fo=
+rlon's blog" (<a rel=3D"nofollow" target=3D"_blank" href=3D"http://forlong.=
+blogage.de/entries/pages/Compiz-Check">http://forlong.blogage.de/entries/pa=
+ges/Compiz-Check</a>)<br>=0A&gt; and here's the output:<br>&gt; <br>&gt; ja=
+son@debian:~$ ./compiz-check <br>&gt; <br>&gt; Gathering information about =
+your system...<br>&gt; <br>&gt;&nbsp; Distribution:&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Debian GNU/Linux (squeeze/sid)<br>&gt;&nbsp;=
+ Desktop environment:&nbsp;&nbsp; GNOME<br>&gt;&nbsp; Graphics chip:&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nVidia Corporation GT216 [GeForce=
+ GT 220] (rev a2)<br>=0A&gt;&nbsp; Driver in use:&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; nvidia<br>&gt;&nbsp; Rendering method:&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; Nvidia<br>&gt; <br>&gt; Checking if it's possible to run C=
+ompiz on your system...<br>&gt; <br>&gt;&nbsp; Checking for texture_from_pi=
+xmap...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; [FAIL]<br>&gt;&nbsp; Checking for non power of two support=
+...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [FAIL]<br>&gt;&nb=
+sp; =0AChecking for composite extension...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ OK ]<br>&gt;&nbsp; Ch=
+ecking for FBConfig...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; [ OK ]<br>&gt;&nbsp; Checking for hardware/setup pro=
+blems...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [SKIP]=
+<br>&gt; <br>&gt; At least one check had to be skipped:<br>&gt; Error: Unab=
+le to detect maximum 3D texture size <br>&gt; <br>&gt; jason@debian:~$ <br>=
+&gt; <br>&gt; This is an obvious problem, because after reading a little ab=
+out compiz-fusion I understood that it's practically based on the<br>&gt; o=
+penGL extension "texture_from_pixmap" which I, for some reason, lack.<br>=
+=0A&gt; <br>&gt; Before going ahead and doing something that might eliminat=
+e my ability to launch an X session, I thought I might resort to this list<=
+br>&gt; for the most up-to-date information as to what I should do. I am at=
+taching my /etc/X11/xorg.conf, /var/log/Xorg.0.log as well as the full outp=
+ut of <br>=0A&gt; "glxinfo" so as to not clutter this message any further w=
+ith their data. In xorg.conf you will notice that I have added dummy <br>&g=
+t; "Identifier" strings to all the xorg.conf sections that the wiki.debian =
+article I linked to suggests that I add. This was done because my <br>=0A&g=
+t; xorg.conf would not be parsed otherwise and I would be stuck with a term=
+inal interface. The "startx" command complained about xorg.conf sections la=
+cking <br>&gt; "Identifier" strings.<br>&gt; <br>&gt; Thank you very much f=
+or your time and interest,<br>=0A&gt; Jason<br>&gt; <br><br>This happened t=
+o me many times and I fixed it reinstalling the driver.<br>Seems that you a=
+re using official nvidia driver.<br>=0AIf it is you have a .run install fil=
+e. What I usually make is to go to a shell, stop grphic session,<br>uninsta=
+ll the driver, reinstall the driver and everything go smoothly.<br>So:<br><=
+br>ctrl+alt+f1&nbsp;&nbsp;&nbsp; // for a shell<br>log in using root<br>go =
+to the place where you have the .run file (for me is /usr/src)<br><br>cd /u=
+sr/src<br>/etc/init.d/gdm stop<br>./name_of_driver.run --uninstall&nbsp;&nb=
+sp;&nbsp; //uninstall driver<br>./name_of_driver.run -N&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; //reinstal driver<br>/etc/init.d/gdm start<br><br>If=
+ the installation complain about the gcc compiler version used to compile y=
+our kernel<br>abort installation and:<br><br>export CC=3D/usr/bin/gcc-4.3<b=
+r><br>using the correct number version. If you are using Squueze up-to-date=
+ I think gcc-4.3<br>should be fine.<br><br>Andrea<br><br><br><br>=0A<br>=0A=
+<div><br></div><br></div>=0A</div></div>=0A</div><br>=0A=0A=0A=0A      </bo=
+dy></html>
+--0-1015617426-1272723770=:71183--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/845205.71183.qm@web27302.mail.ukl.yahoo.com
+
+

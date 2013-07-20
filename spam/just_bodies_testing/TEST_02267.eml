@@ -1,0 +1,24 @@
+Re: USB key accepts data only as rootOn 04/25/2010 02:16 PM, Merciadri Luca wrote:
+> Hi,
+>
+> To put data on my USB key, I need to be root. This does not sound
+> normal. How can I tweak this?
+>
+
+Not enough information.
+
+Automounted from a DE, or manually from the CLI?
+
+What are the ownership and privs on the mount point?  And the raw 
+device?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD499B5.8040704@cox.net
+
+

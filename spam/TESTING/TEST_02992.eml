@@ -1,0 +1,158 @@
+X-Account-Key: account5
+X-UIDL: GmailId128baaccf0154504
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs69wfo;
+        Fri, 21 May 2010 04:43:27 -0700 (PDT)
+Received: by 10.141.90.11 with SMTP id s11mr1100917rvl.152.1274442206993;
+        Fri, 21 May 2010 04:43:26 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id b12si1785435rvn.7.2010.05.21.04.43.26;
+        Fri, 21 May 2010 04:43:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 366811C2BC0F9
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 04:43:26 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 3120527D0AAAA
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 04:43:26 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id DBEA227D0A3F5
+	for <java-dev@lists.apple.com>; Fri, 21 May 2010 04:42:32 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id BA26BDA3337D
+	for <java-dev@lists.apple.com>; Fri, 21 May 2010 04:42:32 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c82ae00000112c-f8-4bf671a7c05e
+Received: from mail-ww0-f51.google.com (mail-ww0-f51.google.com [74.125.82.51])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	3C.66.04396.8A176FB4; Fri, 21 May 2010 04:42:32 -0700 (PDT)
+Received: by wwe15 with SMTP id 15so636166wwe.24
+	for <java-dev@lists.apple.com>; Fri, 21 May 2010 04:42:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	bh=kGq9uJR68pWxr9ncaII1uzMeg4F0ldK/zv+kqSwF43k=;
+	b=JfcColy5eten5aNnes72E2r1eBkf5qRlcZJNBfhEBTWUu/pzqVor8XrzVP1OKpzImi
+	u72ZctInWrQ772zguujweN8MnBoSEDfQzdt3iP21o78TR2I4SdHMDvBktRAb7XRRMOnp
+	uLwYN6xXLX5NKf0jSJn9WF5DaYErcQbum47Lg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type:content-transfer-encoding;
+	b=b7VXWoSsy+NF8xfAGBWIo5CMz5vuOzTl96SUAvvmi0WKB5Hg4mrytQj4KwV0O1lOkk
+	h0nA7ptN8z39Mxp29l8vzz0UDTAJ5fxhhZBmTP/gC9GwBnLpx1J4WMibJxVmezbYVNfj
+	3y0rWS8rFP/VUubbjq5p8dlhskVc4D1jLDSAY=
+MIME-Version: 1.0
+Received: by 10.216.170.9 with SMTP id o9mr722843wel.45.1274442149511; Fri, 21 
+	May 2010 04:42:29 -0700 (PDT)
+Received: by 10.216.37.212 with HTTP; Fri, 21 May 2010 04:42:29 -0700 (PDT)
+In-Reply-To: <AANLkTim7KhEx83w86LUhFsU3QqLAttszY15i4j_ndhc8@mail.csmining.org>
+References: <AANLkTimOqWs--2UKzTx_nXxIVa-7roeLzGyR2Y7kpicW@mail.csmining.org>
+	<AANLkTim7KhEx83w86LUhFsU3QqLAttszY15i4j_ndhc8@mail.csmining.org>
+Date: Fri, 21 May 2010 12:42:29 +0100
+Message-ID: <AANLkTil_TAevRry0WrpU4BhRBX7B7-Dbc3YiV-9RpANB@mail.csmining.org>
+From: Rob Dickens <robcdickens@csmining.org>
+To: java-dev <java-dev@lists.apple.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAhRHr58UR9i7
+Subject: Re: applets on 32-bit 1.6.0_20
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Have just tested my applet on a 64-bit Mac, and it seems,
+
+* you have to select the 'In their own process' preference, in order
+to stop the flicker-on-resize
+
+* unticking the 64-bit Java checkbox greys out the radio buttons that
+let you make the above change.
+
+Ergo, the non-flickering applet container is only available on 64-bit Macs.
+
+If anyone from Apple could clarify the situation, I'd be much obliged.
+
+On Wed, May 19, 2010 at 10:41 AM, Chung-Kai Chen <ckchen@realtek.com> wrote=
+:
+> It's really frustrating to see something on Mac so bad compared to Window=
+s.
+> I use this page (http://www.javafx.com/samples/TableInsights/index.html) =
+to test
+> the newly arrived JVM and it still flickers like a hell when scrolling th=
+e page.
+> The same applet run on Windows hosted in VirtualBox on my Mac shows almos=
+t
+> no flickering.
+>
+>
+> 2010/5/19 Rob Dickens <robcdickens@csmining.org>:
+>> Dear Mac-Java Devs,
+>>
+>> Have just installed the new version of Java, hoping that my applets[1]
+>> (in Safari) would stop flickering when I resized the browser
+>> window--something which the release notes suggest[2] might be the
+>> case--, but I find that they do still flicker.
+>>
+>> One thing I note is that the Java Preferences app won't let me change
+>> the way applets are run (from 'Within the browser process' to 'In
+>> their own process'), since the radio buttons are greyed out.
+>>
+>> I'm on a 32-bit MacBook, btw.
+>>
+>> Please could somebody help.
+>>
+>> Best regards,
+>>
+>> Rob
+>>
+>> 1 http://lafros.com/gui
+>> 2 Plugin2 Graphics Rendering
+>> <http://developer.apple.com/mac/library/releasenotes/CrossPlatform/JavaS=
+nowLeopardUpdate2LeopardUpdate7RN/NewandNoteworthy/NewandNoteworthy.html#//=
+apple_ref/doc/uid/TP40009967-CH4-SW1>
+>> =A0_______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> Java-dev mailing list =A0 =A0 =A0(Java-dev@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/java-dev/ckchen%40realtek.com
+>>
+>> This email sent to ckchen@realtek.com
+>>
+>>
+>> ------Please consider the environment before printing this e-mail.
+>>
+>>
+>>
+> =A0_______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list =A0 =A0 =A0(Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/robcdickens%40csmining.org
+>
+> This email sent to robcdickens@csmining.org
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

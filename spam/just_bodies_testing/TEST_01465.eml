@@ -1,0 +1,51 @@
+Re: Exmh && speed
+
+cwg-dated-1030817858.a49b7e@DeepEddy.Com said:
+> From:  Anders Eriksson <aeriksson@fastmail.fm>
+> Date:  Mon, 26 Aug 2002 20:00:36 +0200 >
+> 
+> lately I've got the feeling that exmh is getting slower and slower. I 
+> just decided to check that vs. reality, and yes, speed has left the 
+> scene somewhere between the release of 2.5 and now.
+> 
+> I checked on a number of small messages in a big folder (~10000 
+> msgs). The delay of the Next button has increased considerably:
+> 
+> 2.5-release: 350-450 msec
+> latest cvs: 1000-12000 msec
+> 
+> Frankly I think this is getting close to non-acceptable since the 
+> user settings hasn't changed.
+> 
+> Anybody have any ideas where performance disappeared?
+> Most likely in the added overhead of managing more sequences.
+> I'm sure it can be tuned a bunch, but as I'm leaving for a vacation on
+> Friday,  and have plenty of "real work" to do, I won't be able to do
+> much until I get  back.
+
+> I *will* look at all this when I get back, but if you want to check
+> into  what's slow and fix things while I'm gone, my feelings won't be
+> hurt.
+
+> Chris 
+
+Just one more info. I measured the time spent wrapping the stuff in 
+Ftoc_Next with time {} so the data is for real. One difference 
+between mine and Valdis' setup (judging from his trace) is that I use 
+the address book. I've been doing that for ages so that can't be the 
+problem.
+
+Is there a way to get the log to print time with higher granularity?
+
+/A
+
+
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

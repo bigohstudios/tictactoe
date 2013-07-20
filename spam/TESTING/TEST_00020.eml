@@ -1,0 +1,100 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c1baae189b7a5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs41987wfo;
+        Sat, 22 May 2010 13:35:57 -0700 (PDT)
+Received: by 10.223.92.153 with SMTP id r25mr3103617fam.76.1274560556731;
+        Sat, 22 May 2010 13:35:56 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n24si3661232faa.34.2010.05.22.13.35.56;
+        Sat, 22 May 2010 13:35:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1328513A57F2; Sat, 22 May 2010 20:35:54 +0000 (UTC)
+Old-Return-Path: <basaburu@basatu.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 60D1813A52AE
+	for <lists-debian-kde@liszt.debian.org>; Sat, 22 May 2010 20:35:48 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_IN_DNSWL_MED=-4]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id C18ZruusGotU for <lists-debian-kde@liszt.debian.org>;
+	Sat, 22 May 2010 20:35:41 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 374 seconds by postgrey-1.31 at liszt; Sat, 22 May 2010 20:35:41 UTC
+Received: from relay4-v.mail.gandi.net (relay4-v.mail.gandi.net [217.70.178.78])
+	by liszt.debian.org (Postfix) with ESMTP id 582E613A52A7
+	for <debian-kde@lists.debian.org>; Sat, 22 May 2010 20:35:29 +0000 (UTC)
+X-Originating-IP: 217.70.178.40
+Received: from mfilter6-d.gandi.net (mfilter6-d.gandi.net [217.70.178.40])
+	by relay4-v.mail.gandi.net (Postfix) with ESMTP id 5963CBA2B
+	for <debian-kde@lists.debian.org>; Sat, 22 May 2010 22:29:25 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter6-v
+Received: from relay4-v.mail.gandi.net ([217.70.178.78])
+	by mfilter6-d.gandi.net (mfilter6-d.gandi.net [217.70.178.40]) (amavisd-new, port 10024)
+	with ESMTP id LbU19Zr8WZGr for <debian-kde@lists.debian.org>;
+	Sat, 22 May 2010 22:29:22 +0200 (CEST)
+X-Originating-IP: 83.42.151.237
+Received: from basatu.localnet (unknown [83.42.151.237])
+	(Authenticated sender: basaburu@basatu.org)
+	by relay4-v.mail.gandi.net (Postfix) with ESMTPSA id F2111BA2F
+	for <debian-kde@lists.debian.org>; Sat, 22 May 2010 22:29:21 +0200 (CEST)
+From: BasaBuru <basaburu@basatu.org>
+To: debian-kde@lists.debian.org
+Subject: problem to put the soho plasmoid
+Date: Sat, 22 May 2010 22:29:05 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.34-basatu; KDE/4.4.3; x86_64; ; )
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005222229.06030.basaburu@basatu.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ctd0v8aq6yN.A.szD.qAE-LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32497
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 20:35:54 +0000 (UTC)
+
+helo
+
+I can't put in the desktop the soho and solar system.
+
+See me the initializacion script is fail.
+
+I think i need few packets but i don't now how.
+
+thanks
+
+BasaBuru
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005222229.06030.basaburu@basatu.org
+
+

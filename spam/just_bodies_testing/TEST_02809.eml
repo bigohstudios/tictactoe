@@ -1,0 +1,37 @@
+Re: [ILUG] eircoms adsl modemsIt will function as a router if that is what you wish.
+
+It even looks like the modem's embedded OS is some kind of linux, being that
+it has interesting interfaces like eth0.
+
+I don't use it as a router though.... I just have it do the absolute minimum
+DSL stuff and do all the really fun stuff like pppoe on my linux box........
+
+Also the manual tells you what the default password is.
+
+Don't forget to run pppoe over the alcatel speedtouch 350i as in my case you
+'HAVE TO' have a bridge configured in the router/modem's software........
+This lists your VCI values etc.
+
+
+> Also, does anyone know if the high-end SpeedTouch, with
+> 4 ethernet ports, can act as a full router or do I still
+> need to run a pppoe stack on the linux box?
+>
+> Regards,
+>
+> Vin
+>
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+information.
+> List maintainer: listmaster@linux.ie
+>
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

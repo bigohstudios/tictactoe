@@ -1,0 +1,34 @@
+Re: DataPower announces XML-in-silicon> Now, to do this, we all know they have to be cracking the strong crypto used
+> on all transaction in order to process them... So this has some preaty heavy
+> implications, unless it's just BS.
+
+Anybody buying a box like this is undoubtledly going to integrate it into their
+crypto infrastructure.  What's the point of putting in a box like this if it's
+not an active participant in your security framework?
+
+> Or.... you could just not bloat it 20x to begin with. Nah! (that was the
+> whole point of XML afterall, to sell more CPUs - much like Oracle's use of
+> Java allows them to sell 3x more CPU licenses due to the performance hit)
+
+Blah, blah, blah.  The marketing FUD gets compounded by the Beberg FUD, talk
+about 20x bloat.
+
+> Again, see above... they _are_ claiming to decode the crypto...
+
+What gives you the impression that's what they're doing?  That's not what the
+text says.  It's largely fluff anyway.
+
+> > "Our XG3 execution core converts XML to machine code," said Kelly,
+> Mmmmmmmmmmm, machine code, never a good idea ;)
+
+Uhhh, fundamentally it's all machine code.  Kelly's comment seems more like
+drivel from a clueless marketroid than anything of technical concern.
+
+Having what appears to be a silicon XML router would be a cool thing.  Having
+one integrated with your crypto environment would kick ass.  Let it
+deserialize/decrypt/repackage the XML before handing it off to the app servers.
+The question, of course, is does it work with actual applications in the field
+without tremendously reworking them.  Somehow I doubt it...
+
+-Bill Kearney
+

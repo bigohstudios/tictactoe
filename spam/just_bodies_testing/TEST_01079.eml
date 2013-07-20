@@ -1,0 +1,41 @@
+RE: Gasp!On Sun, 1 Sep 2002, Bill Stoddard wrote:
+
+> >
+> > "Red Hat Linux Advanced Server provides many high end features such as:
+> > Support for Asynchronous I/O. Now read I/O no longer needs to stall your
+> > application while waiting for completion."
+>
+> Can you provide a reference?  I could find it myself but I'm too lazy.
+
+Well, i saw it on the Compaq Testdrive site, then had to seriously dig on
+the redhat site... It's in one of their whitepapers...
+http://www.redhat.com/pdf/as/as_rasm.pdf
+
+
+> > Could it be? After 20 years without this feature UNIX finally
+> > catches up to
+> > Windows and has I/O that doesnt totally suck for nontrivial apps? No way!
+>
+> Do /dev/poll and FreeBSD's KQ event driven APIs count? IMHO, true async
+> io as implemented by Windows 4.0 and beyond is pretty slick, but the
+> programming model is substantially more complex than programming to an
+> event API like /dev/poll. And true async does not buy much if the
+> system call overhead is low (as it is with Linux).
+
+I havent used the FBSD poll, as it's not portable, select and poll(still not
+100%) are all that exist in the UNIX world. Redhat of course doesnt count as
+portable either, but it's nice they are trying. The Windows I/O model does
+definately blow the doors off the UNIX one, but then they had select to
+point at in it's suckiness and anything would have been an improvement. UNIX
+is just now looking at it's I/O model and adapting to a multiprocess
+multithreaded world so it's gonna be years yet before a posix API comes out
+of it. Bottom line is the "do stuff when something happens" model turned out
+to be right, and the UNIX "look for something to do and keep looking till
+you find it no matter how many times you have to look" is not really working
+so great anymore.
+
+- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

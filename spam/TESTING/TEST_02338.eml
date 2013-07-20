@@ -1,0 +1,98 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282afdbb0218fea
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs63513wfj;
+        Fri, 23 Apr 2010 07:06:31 -0700 (PDT)
+Received: by 10.115.132.40 with SMTP id j40mr132042wan.21.1272031590925;
+        Fri, 23 Apr 2010 07:06:30 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 28si1589498pzk.20.2010.04.23.07.06.30;
+        Fri, 23 Apr 2010 07:06:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id B751C1BC03521
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 07:06:30 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id B1113270CB3F0
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 07:06:30 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay13.apple.com (relay13.apple.com [17.128.113.29])
+	by lists.apple.com (Postfix) with ESMTP id DDC7B270CAD76
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 07:05:41 -0700 (PDT)
+X-AuditID: 1180711d-b7b5fae00000255f-92-4bd1a935af15
+Received: from [17.151.78.102] (Unknown_Domain [17.151.78.102])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay13.apple.com (Apple SCV relay) with SMTP id
+	67.95.09567.539A1DB4; Fri, 23 Apr 2010 07:05:41 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <20100423020912.O98752@p3c0.erirefr.arg>
+Date: Fri, 23 Apr 2010 07:05:41 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <AD5FC21A-D313-4696-991A-552F94574E14@apple.com>
+References: <20100423020912.O98752@p3c0.erirefr.arg>
+To: Michael Allman <msa@allman.ms>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: java-dev@lists.apple.com
+Subject: Re: NPAPI Java plugin issues
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 23, 2010, at 2:15 AM, Michael Allman wrote:
+
+> Hello,
+>=20
+> I'm not sure, but I think Apple wrote Java Plug-In 2 for NPAPI.  I'm =
+seeing some serious display issues viewing some applets in Firefox using =
+this plugin.  For a single example, if I go to
+>=20
+> http://pivot.apache.org/demos/
+>=20
+> and left-click on the "Kitchen Sink" demo, wait for the applet to =
+load, and then switch back to the Demos tab, the bottom 85% or so of the =
+browser window still shows the applet.  Can the Apple Java engineers =
+comment on this issue?
+>=20
+> I'm running Firefox 3.6.3 on Mac OS 10.6.3.
+
+Are you running the NPAPI Plugin2 using the 10M3050 developer preview? =
+Visually, it looks pretty good to me in FF 3.6.3 on 10.6.3 (there are =
+some event issues like scrolling and right click - but I'm not seeing a =
+clipping issue).
+
+What version of Java does your browser think it's running (you can =
+search for "what version of java do I have")?
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

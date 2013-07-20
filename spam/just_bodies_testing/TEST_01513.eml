@@ -1,0 +1,37 @@
+Re: [ILUG] tcpdOn Sat, 27 Jul 2002, kevin lyda wrote:
+
+> On Sat, Jul 27, 2002 at 11:58:10AM -0700, Paul O'Neil wrote:
+> > If I want to use tcpd for ftp and only one user will ever ftp but I dont
+> > know what IP that user is because its dialup DHCP how do I setup tcpd for
+> > that user?
+>
+
+
+You could at the very least setup tcp wrappers and limit it to the dialup
+domain name.
+
+/etc/hosts.allow
+
+in.ftpd: .domain.name
+
+-kirk
+
+
+> please don't reply to messages to send a new topic to ilug.  those of
+> us using threaded mail clients find that really annoying.
+>
+> tcpd is host based filtering/auth.  so if the ip is dynamic, you can't
+> really use it.  however ftp supports user based auth - actually it kind
+> of requires a user, so just set up an account for that person.
+>
+> kevin
+>
+>
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

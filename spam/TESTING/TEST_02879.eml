@@ -1,0 +1,160 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282f3d0e64902b1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs8666wfj;
+        Sat, 24 Apr 2010 02:54:11 -0700 (PDT)
+Received: by 10.86.126.20 with SMTP id y20mr2217039fgc.10.1272102850131;
+        Sat, 24 Apr 2010 02:54:10 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si3748528fke.57.2010.04.24.02.54.09;
+        Sat, 24 Apr 2010 02:54:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 82D7813A5094; Sat, 24 Apr 2010 09:53:57 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8F7A113A4FAC
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 09:53:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LUeg7Jd-nh6X for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 09:53:43 +0000 (UTC)
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.155])
+	by liszt.debian.org (Postfix) with ESMTP id 725C313A4FAF
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 09:53:43 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id e21so682764fga.12
+        for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 02:53:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=o1M9FQMiE9LbYk+lHNheJyUKjSVKFKq9mgCPXkf28QU=;
+        b=fZiIEJ5IQ0eF9O3cPKRu7wb9NZucZoIWyOM8xVyecL64488EaSsV3sGjmWd4lwRu+h
+         lWf4bVvqCJmeboRtCrgRJQMgBXzr2RUAtvb7DeAvTA0FFgUkeXP2jcenCbCc0dfOEQjx
+         I2FJ/d4dAG4FUPlCRocuRoxwQ/7uaivPgd+KY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=SGRPDMPvPCbGFnXLKpuaLeKUmlk8zBt3iiD15sXhAwOAn4k+4nsu7XpKhY0pRra0Oy
+         dZEj6n1DYRKgRBghE3T1Zf9ktn2ObRJXzxoDGtz/xq1qdm9w/kololYEZCs4ff6vquur
+         Eay8968hE908f9dblzSM3CodUDDYZpmyIsXjM=
+Received: by 10.102.16.14 with SMTP id 14mr612504mup.136.1272102818789;
+        Sat, 24 Apr 2010 02:53:38 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id e10sm7824152muf.38.2010.04.24.02.53.37
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 24 Apr 2010 02:53:38 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id 08352206A; Sat, 24 Apr 2010 12:53:11 +0300 (EEST)
+Date: Sat, 24 Apr 2010 12:53:10 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: how to setup my environment variable for vim ?
+Message-ID: <20100424095310.GD6685@think.homelan>
+References: <4BD2B9AD.6050507@teaser.fr>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="LTeJQqWS0MN7I/qa"
+Content-Disposition: inline
+In-Reply-To: <4BD2B9AD.6050507@teaser.fr>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <HwYdyDyFvdN.A.akH.1-r0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574891
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 09:53:57 +0000 (UTC)
+
+
+--LTeJQqWS0MN7I/qa
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,24.Apr.10, 11:28:13, Bernard wrote:
+> Hi to Everyone,
+>=20
+> I use ncftp' fairly often, and I wish to be able to edit files on
+> my remote accesses. The ncftp command 'edit' does not operate here,
+> it says:
+>=20
+> "
+> Setup your Editor environment variable prior to running ncftp
+> example for /bin/sh:
+> EDITOR=3D"/usr/bin/vi";export EDITOR
+> "
+>=20
+> But, on my Lenny, I don't have anything relevant at /bin/sh. For
+> once, /bin/sh is a directory, not a file, and I don't see anything
+
+I really doubt that! /bin/sh should be a symbolic link (symlink) to=20
+either /bin/bash or /bin/dash (depending on the release you are using).
+
+> relevant in it. As for /usr/bin/sh, I don't have such a file or
+> directory
+
+Of course, /bin/sh is needed for the basic operation of your OS, it=20
+couldn't reside on /usr (which is often a separate partition mounted=20
+later on).
+
+Try putting this in ~/.bashrc:
+
+export EDITOR=3D/usr/bin/vim
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--LTeJQqWS0MN7I/qa
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL0r+GAAoJEHNWs3jeoi3pDGMH/2CANa86Z+/nIjsG8ReV1omL
+Op0+vgiKv+fPq/xKN31OMZtWxFpmoomNh6TYiopNgF7vGCX/Np/zWBarPiJNKvgL
+Ciz4jEgQuhipsQxzr1/4U+BT9CF/sA41poB8OlkFtlreQDMH8WsYS9gubTwoVTvS
+Sk4AzVh5f39mXByHkDGk9FfgggAqyCjmVmXdRin2xXBd/I85ZLBQuKOtLzb5RncN
+d6zCAAQKXUpgpHs+g4JY/hsQG0gp7LsJmLrXMXlJDoX7gDXzZ6zu7VCcretepQvN
+NRmWajByqSFl6qUp1QwQDKWCWt9d/ddZhmYjN7/Q7QfIdFzVYAUVAX9b3SddVwQ=
+=Cr71
+-----END PGP SIGNATURE-----
+
+--LTeJQqWS0MN7I/qa--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100424095310.GD6685@think.homelan
+
+

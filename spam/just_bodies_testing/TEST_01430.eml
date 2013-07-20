@@ -1,0 +1,20 @@
+Re: [Razor-users] False Positives on EFF MessagesFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+cmeclax po'u le cmevi'u ke'umri <cmeclax@gmx.co.uk> [2002-08-02 19:19:55 -0=
+400]:
+> I added code to my procmailrc (on the other account) so that anything tha=
+t=20
+> comes on Bugtraq and is in Razor is revoked. Bugtraq is moderated, so spa=
+m=20
+> doesn't get through it. The recipe revoked a message about an hour after =
+I=20
+> added it.
+
+The problem with automatic revoke is the same as with automatic
+report.  If spammers spoof a From: Bugtraq address then their spam is
+automatically revoked by you.
+
+Bob

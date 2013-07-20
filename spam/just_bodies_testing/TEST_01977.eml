@@ -1,0 +1,21 @@
+Re: Aliases with `-'On 6 May 2010 20:31, Merciadri Luca wrote:
+> It simply does not work. Why? I tried without `'' but emacs then stops
+> highlighting the word, which is no good sign. Thanks.
+
+Don't mind about highlighting =E2=80=94 alias defined in away like that:
+
+$ alias hello-world=3D"echo 'hello world'"
+
+will work. Tested on bash 4.1.5(1)-release (i486-pc-linux-gnu).
+
+
+Regards,
+Alexander Batischev
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/m2q28c1d5ea1005061050h58958c33v58a8b61cd5e59d5@mail.csmining.org
+
+

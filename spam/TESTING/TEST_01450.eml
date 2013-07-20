@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ba12019b233c1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs45716wfo;
+        Fri, 21 May 2010 01:54:22 -0700 (PDT)
+Received: by 10.223.24.5 with SMTP id t5mr1125662fab.72.1274432061665;
+        Fri, 21 May 2010 01:54:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si1205635fak.44.2010.05.21.01.54.20;
+        Fri, 21 May 2010 01:54:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 23F7513A56AD; Fri, 21 May 2010 08:54:16 +0000 (UTC)
+Old-Return-Path: <tehpeh@gmx.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6547513A53D9
+	for <lists-debian-user@liszt.debian.org>; Fri, 21 May 2010 08:54:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JwgcrQf4tbQm for <lists-debian-user@liszt.debian.org>;
+	Fri, 21 May 2010 08:54:01 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from www.tty1.net (www.tty1.net [70.85.16.194])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 6C16E13A53A4
+	for <debian-user@lists.debian.org>; Fri, 21 May 2010 08:54:01 +0000 (UTC)
+Received: from www-data by www.tty1.net with local (Exim 4.69)
+	(envelope-from <tehpeh@gmx.net>)
+	id 1OFNzR-00040Y-QP
+	for debian-user@lists.debian.org; Fri, 21 May 2010 04:53:57 -0400
+Received: from 81.105.217.34
+        (SquirrelMail authenticated user thomas)
+        by www.tty1.net with HTTP;
+        Fri, 21 May 2010 09:53:57 +0100 (BST)
+Message-ID: <34fc541415163b94a68a0e2fc782eda9.squirrel@www.tty1.net>
+In-Reply-To: <20100521082140.GI9028@think.homelan>
+References: <201005202210.17618.tehpeh@gmx.net>
+    <AANLkTikEnVBeEJCKpm64bnac23c-tl7bH2ZS7ipeM4hv@mail.csmining.org>
+    <201005202318.33779.tehpeh@gmx.net>
+    <4A09477D575C2C4B86497161427DD94C14A6C836B9@city-exchange07>
+    <20100521082140.GI9028@think.homelan>
+Date: Fri, 21 May 2010 09:53:57 +0100 (BST)
+Subject: Re: Unable to connect to my home wireless
+From: "Thomas Pircher" <tehpeh@gmx.net>
+To: debian-user@lists.debian.org
+User-Agent: SquirrelMail/1.4.15
+MIME-Version: 1.0
+Content-Type: text/plain;charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <xbcDnGpCDxG.A.EPG.4ok9LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577271
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 21 May 2010 08:54:16 +0000 (UTC)
+
+
+Andrei Popescu wrote:
+> I agree with you, but in this particular case it is not a 'Depends' it
+> is a 'Recommends', and testing/unstable users should know how to
+> override those.
+
+Andrei,
+
+I do not mind installing some extra packages if they are recommended, and
+I will leave the setting as it is; sometimes I discover useful software
+with it and from time to time I go through the list of installed packages
+in aptitude and purge unused ones. This has served me well for 9+ years
+using Debian.
+
+What I got really angry about is that network-manager (or some other
+packet; I will investigate tonight and file a bug) reconfigured my network
+on-the-fly
+
+a) without asking me,
+b) without telling me and
+c) without being told to do so.
+
+I do not use wicd or any other configuration helper (I'm not sure if I
+made it clear enough in my first mail that I'm not a friend of XXX-helper
+and YYY-manager packets...) I have configured my wireless network in
+/etc/network/interfaces, as described in
+/usr/share/doc/wireless-tools/README.Debian.
+
+When I tried out to set up the wireless connection manually with
+ifconfig+iwconfig+wpasupplicant, I found that wpasupplicant associated
+continuously with the AP, only to be kicked off by again by someone else
+(supposedly network-manager).
+
+While my first mail may have been written in a very angry state of mind, I
+still think that it is annoying at best to fiddle with people's network
+settings on a desktop machine, but on any other machine it may be fatal.
+
+Thomas
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/34fc541415163b94a68a0e2fc782eda9.squirrel@www.tty1.net
+
+

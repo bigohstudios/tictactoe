@@ -1,0 +1,20 @@
+Re: Not resuming from hibernation; doing normal reboot insteadOn Sun, 23 May 2010 16:25:46 +0430
+Nima Azarbayjany <i.adore.debian@csmining.org> wrote:
+
+> I have a recent install of Squeeze on my HP Pavilion dv5 laptop and 
+> hibernate is not working for me.
+
+> Let me add that I chose LVM when I was setting up partitions.  Is
+> this possible that the resume image is not seen because the swap
+> partition might be unavailable?
+
+yes that is possible the problem. The resume partition is not an swap
+paritition.. it just uses the same space.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100525091225.387359e1@schrank.ibk.reitmeir.org
+
+

@@ -1,0 +1,69 @@
+Re: EOL of KDE SC 4.4.2 in qt-kde.debian.netFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On =C5=A1e=C5=A1tadienis 10 Balandis 2010 21:25:04 Diederik de Haas wrote:
+> I would also like to know if it's possible to only pin the kde packages
+> from experimental.
+
+No unless you want to list all KDE SC 4.4 binary packages in=20
+/etc/apt/preferences (one entry for each package, 400+ in total).
+
+> I'm trying to create a KDE 4.4.2 LiveCD with live-helper. During the
+> creation process a chroot environment is created where all the packages
+> are installed. In that chroot I have the testing, sid and experimental
+> sources configured. But with the above preferences file the kde packages
+> from testing are installed, since testing/sid have a priority of 500 and
+> experimental 101. Changing the Pin-Priority to 501 makes the chroot fail,
+> since aptitude removes aptitude at some point due to dependency issues.
+
+Never pin whole experimental higher than unstable.
+
+> (like Michael Schuerig mentioned, it tries to upgrade the whole system to
+> experimental) Probably important to note is that during that stage when
+> issues arrive, the 1st proposed solution is always used, since it's not an
+> interactive stage.
+
+Therefore you should tweak aptitude in such a way that the first solution=20
+would be the one you want.
+
+> Live-helper also supports an interactive stage, which creates the chroot,
+> installs the packages and then you're given a command line at which you
+> can do things interactively. Doing a full-upgrade in interactive mode, I
+> get a whole bunch of solutions, each of them include removing kde-minimal,
+> thus removing all kde related packages.
+
+In order to upgrade existing KDE 4.3.4 installation, something like this=20
+should work (untested):
+
+# aptitude -t experimental install '?maintainer(Debian Qt/KDE=20
+Maintainers)~Aexperimental~i'
+
+or (a safer version):
+
+# aptitude -o 'Aptitude::ProblemResolver::Hints::experimental=3Dapprove=20
+~Aexperimental' install '?maintainer(Debian Qt/KDE=20
+Maintainers)~Aexperimental~i'/experimental
+
+=46or new installations:
+
+# aptitude -t experimental install kde-standard
+
+or (safer version):
+
+# aptitude -o 'Aptitude::ProblemResolver::Hints::experimental=3Dapprove=20
+~Aexperimental' install kde-standard/experimental
+
+You should not run into much troube unless there are packages with=20
+unresolvable dependencies installed.
+
+> Conclusion: I'm not able create a KDE 4.4.2 LiveCD at this point :-/
+
+It has never been easy to deal with experimental because it is a dumping=20
+ground for lots stuff and typically only want a couple of packages.
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>

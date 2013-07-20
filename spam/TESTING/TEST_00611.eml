@@ -1,0 +1,87 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e37aba31a407c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs37709wfi;
+        Fri, 9 Apr 2010 09:50:23 -0700 (PDT)
+Received: by 10.141.124.3 with SMTP id b3mr542171rvn.123.1270831823583;
+        Fri, 09 Apr 2010 09:50:23 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 41si3004751iwn.127.2010.04.09.09.50.23;
+        Fri, 09 Apr 2010 09:50:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 34EFC1B8B479D
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 09:50:23 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 2B6B226A87C29
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 09:50:23 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay14.apple.com (relay14.apple.com [17.128.113.52])
+	by lists.apple.com (Postfix) with ESMTP id 4086D26A875BD
+	for <java-dev@lists.apple.com>; Fri,  9 Apr 2010 09:49:33 -0700 (PDT)
+X-AuditID: 11807134-b7c5fae00000103e-18-4bbf5a9db103
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay14.apple.com (Apple SCV relay) with SMTP id
+	C1.57.04158.D9A5FBB4; Fri,  9 Apr 2010 09:49:33 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <E76A8716-29AC-4C0D-AC1C-32F1FABF0C1E@lucasmail.org>
+Date: Fri, 9 Apr 2010 09:49:32 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <BCD6C4EB-A972-45DA-9D13-4CA1FA7E7470@apple.com>
+References: <4BBE39FF.9040901@pixelture.com>
+	<D0391EF1-ABBD-41D8-B50C-A2BC2E61E168@apple.com>
+	<E76A8716-29AC-4C0D-AC1C-32F1FABF0C1E@lucasmail.org>
+To: Paul J.Lucas <paul@lucasmail.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: Java Mac List <java-dev@lists.apple.com>
+Subject: Re: JNF_COCOA_ENTER/EXIT macros don't autorelease?
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 9, 2010, at 8:55 AM, Paul J. Lucas wrote:
+
+> On Apr 8, 2010, at 2:10 PM, Mike Swingler wrote:
+>=20
+>> To get the new headers, you must install the "Java Documentation =
+Package" for Java for Mac OS X 10.6 Update 1 from =
+<http://connect.apple.com> under the "Java" section ...
+>=20
+> Has this update been subsumed by Xcode 3.2.2?
+
+No, the SDKs that ship with Xcode are snapshots of the GM versions of =
+the OS.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

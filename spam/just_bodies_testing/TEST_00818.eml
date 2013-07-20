@@ -1,0 +1,22 @@
+Re: Spamassassin version 3.3.0On Sun, Apr 18, 2010 at 14:33, Stephen Gran <sgran@debian.org> wrote:
+> backports.org is an unofficial service, and is more free to break working
+> configurations on upgrade or othewise introduce incompatibilities. =A0It'=
+s
+> down to the maintainers judgement which repo suits a given upload better.
+
+Well, there seems to be no consistency in the thoughts behind the
+maintainers decisions.   Perhaps Debian should provide some guidance?
+  Another example, look at mod-security, it's got current stable
+(etch) pkgs in backports, and unstable packages in main.   Maybe I'm
+not following the logic behind these decisions, if someone can point
+me to an FAQ I would appreciate it much.
+
+-Jim P.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2mf971bab41004181348p501626c9qb240b9352c4f4dfc@mail.csmining.org
+
+

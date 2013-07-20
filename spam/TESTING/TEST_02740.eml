@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ed1584b60be5a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs111479wfo;
+        Sun, 11 Apr 2010 06:36:03 -0700 (PDT)
+Received: by 10.223.143.88 with SMTP id t24mr2002776fau.77.1270992962566;
+        Sun, 11 Apr 2010 06:36:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si6661389fkr.39.2010.04.11.06.36.02;
+        Sun, 11 Apr 2010 06:36:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 442852D0F5B; Sun, 11 Apr 2010 13:35:57 +0000 (UTC)
+Old-Return-Path: <tomh0665@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=IMPRONONCABLE_2,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CF6CF13A5B04
+	for <lists-debian-user@liszt.debian.org>; Sun, 11 Apr 2010 13:35:50 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_2=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id lqgrkwFZwA3Y for <lists-debian-user@liszt.debian.org>;
+	Sun, 11 Apr 2010 13:35:43 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.157])
+	by liszt.debian.org (Postfix) with ESMTP id 9D46D13A5AE9
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 13:35:43 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id l26so268178fgb.12
+        for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 06:35:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=o9QfIUFtCNuR3hAbBtt3zM993p2amb2ZitLH5qHiUjc=;
+        b=JJchjaB8LfUYp8PohR0UFaQnWMDY2GJYPRLOeCo4YGbBbSu8IbaG6j0Z5Fn2cK86iN
+         /jmNsAAIhx+1te/XreW56VxWR5IXDWLNSuZZcL5Sf6bwcSD1mdqy28VyWMr1ogv1YomW
+         AmfOzCo37/4e1SJusO3HUz+upUEnPky+jIjl4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=to/LYUkzOOwTeDOgdL1tq6YD7+wtoINlMI7HmL/DqNzrKVhSLRQEvMTXVSJjCYsBmU
+         FB+2i8q04E/IXSDPW/u/xpGtn/0RvEJx3m9Gvdak5h3kstiHDWdIapXRFemI9Ijh/YtF
+         CETalMeDPmrvy7LY57LZU9nLzsWjFEUAJJdiI=
+MIME-Version: 1.0
+Received: by 10.239.133.194 with HTTP; Sun, 11 Apr 2010 06:35:36 -0700 (PDT)
+In-Reply-To: <20100411070120.GA6472@kasploosh.net>
+References: <20100411070120.GA6472@kasploosh.net>
+Date: Sun, 11 Apr 2010 09:35:36 -0400
+Received: by 10.239.190.79 with SMTP id w15mr215426hbh.123.1270992936775; Sun, 
+	11 Apr 2010 06:35:36 -0700 (PDT)
+Message-ID: <j2q6d4219cc1004110635o40c8d5baxc3a4003b3ddf2661@mail.csmining.org>
+Subject: Re: Console font turned cyan
+From: Tom H <tomh0665@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <a8wX_SKrNuM.A.NAB.9AdwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573868
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 13:35:57 +0000 (UTC)
+
+On Sun, Apr 11, 2010 at 3:01 AM, Phil Requirements
+<simultaneous@comcast.net> wrote:
+>> I don't know when it happened but it must have been during some
+>> "aptitude upgrade" run lately: My console font turned from white to
+>> cyan. At first I thought that the red VGA signal had a bad contact,
+>
+> I was recently experimenting with framebuffer settings, and when I tried certain
+> settings, I got something very similar to what you are describing. Specifically,
+> I got the pale green text when I chose a framebuffer setting of a certain bit
+> depth, and it had the multi-color smeary looking distortion.
+>
+> I wanted my framebuffer to be nice because I use some console apps and I
+> don't always like to run X. I was experimenting with lots of settings. When I
+> tried 1024x768x24, it looks nice. 1024x768x32 is also nice.
+>
+> But when I tried 1024x768x16 or 1024x768x8, the colors were all wrong, and the
+> main console font was a sickly green color. Not quite cyan, but similar.
+>
+> Your framebuffer could have gone on the fritz with your recent update if you
+> changed from grub-legacy to grub-pc (the new grub). The new grub has a different
+> way of setting up framebuffers, you can't use vga=795 any more.
+>
+> If you want to try to chase down a new-grub framebuffer problem, try looking
+> at these:
+>
+> /etc/grub/default
+> GRUB_GFXMODE=1024x768x32 (or whatever you choose)
+> GRUB_TERMINAL
+> update-grub
+> gfxpayload
+
+Just in case you are running grub2, the /etc/grub/default variables
+for framebuffer are
+GRUB_TERMINAL=gfxterm
+GRUB_GFXMODE=<resolution>
+GRUB_GFXPAYLOAD_LINUX=[<resolution|keep>]
+
+There used to be a warning about using "vga=<resolution>" as a
+GRUB_CMDLINE_LINUX_DEFAULT or GRUB_CMDLINE_LINUX option (it seems to
+have been removed or my eyes are too slow to see it) and advice to use
+GRUB_GFXPAYLOAD, but the latter has now been superceded by the above
+payload variable.
+
+Do you still have this font-color problem if you comment out
+GRUB_GFXMODE and GRUB_GFXPAYLOAD_LINUX and set "GRUB_TERMINAL=console"
+(and reboot after running "update-grub")?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2q6d4219cc1004110635o40c8d5baxc3a4003b3ddf2661@mail.csmining.org
+
+

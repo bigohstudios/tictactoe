@@ -1,0 +1,23 @@
+Re: pinentry window?Hi Boris,
+Am Donnerstag, 8. April 2010 11:44:41 schrieb Boris Bobrov:
+> Hm. I have another problem - I can't sign any email, I get "Bad
+> Passphrase" every time I try to sign it. Pinentry window doesn't
+> appear.
+> 
+> The solution of your problem is to make a rule for this window.
+> System settings - Window behavior - Window-Specific - New.
+I had the same problem some days ago. Just have a look in your 
+~/.gnupg/gpg-agent.conf which pinentry will be called and have a look on 
+your system, which pinentry is installed.
+
+Greetings
+
+Frank
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004081202.26801.frank.stoerzer@web.de
+
+

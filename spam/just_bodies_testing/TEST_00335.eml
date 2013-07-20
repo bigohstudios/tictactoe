@@ -1,0 +1,29 @@
+DudaSaludos cordiales:
+Llevo unos días intentando configurar un servidor de correo con
+Postfix+Mysql+Courier+Quota+mailman. Lo estoy haciendo por un tutorial,
+pero en un determinado momento de los pasos a seguir, cuando tengo que
+correr el comando ehlo, no hay respuesta alguna. El cursor se queda
+parpadeando y no sale nada. Ya lo he intentado alrededor de 8 veces y
+siempre me da el mismo error. Todo lo demás funciona bien. Les agradecería
+mucho si me ayudaran en esto. Estoy atorado y es el servidor de correo de
+mi trabajo el que estoy encargado de configurar. No tengo cerca a nadie a
+quien pudiera preguntarle.
+En espera de su acostumbrada respuesta les saluda
+Edier Quintana Pérez
+
+
+
+
+
+-- 
+Este mensaje ha sido analizado en la Asamblea 
+Provincial del Poder Popular de Sancti Spiritus 
+por MailScanner y ClamAV.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2158.192.168.110.1.1271952870.squirrel@mail.fmto.ssp.co.cu
+
+

@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c9bbf6e34b2dd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs81654wfo;
+        Mon, 24 May 2010 02:54:19 -0700 (PDT)
+Received: by 10.223.53.91 with SMTP id l27mr4490606fag.0.1274694858474;
+        Mon, 24 May 2010 02:54:18 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n26si5182117faa.18.2010.05.24.02.54.17;
+        Mon, 24 May 2010 02:54:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 10B2013A508A; Mon, 24 May 2010 09:54:12 +0000 (UTC)
+Old-Return-Path: <wferi@tac.ki.iif.hu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.4 required=4.0 tests=ALL_TRUSTED,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CC1E413A5202
+	for <lists-debian-user@liszt.debian.org>; Mon, 24 May 2010 09:36:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7.001 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, NO_RELAYS=-0.001]
+	autolearn=unavailable
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id WANr2cNqnj1Q for <lists-debian-user@liszt.debian.org>;
+	Mon, 24 May 2010 09:36:34 +0000 (UTC)
+X-Greylist: delayed 396 seconds by postgrey-1.31 at liszt; Mon, 24 May 2010 09:36:34 UTC
+Received: from tac.ki.iif.hu (tac.ki.iif.hu [IPv6:2001:738:0:401:20c:6eff:fe71:b2db])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 9382A13A498E;
+	Mon, 24 May 2010 09:36:34 +0000 (UTC)
+Received: from wferi by tac.ki.iif.hu with local (Exim 4.69)
+	(envelope-from <wferi@tac.ki.iif.hu>)
+	id 1OGU5I-0003ok-7g; Mon, 24 May 2010 11:36:32 +0200
+From: Ferenc Wagner <wferi@niif.hu>
+To: debian-devel@lists.debian.org,  debian-user@lists.debian.org,  debian-boot@lists.debian.org
+Subject: Re: lilo removal in squeeze (or, "please test grub2")
+References: <1274585992.7848.18.camel@petrie>
+	<20100523111148.GG4089@debian.org> <20100523114251.GA3623@roeckx.be>
+Date: Mon, 24 May 2010 11:36:32 +0200
+In-Reply-To: <20100523114251.GA3623@roeckx.be> (Kurt Roeckx's message of "Sun,
+	23 May 2010 13:42:51 +0200")
+Message-ID: <878w791w0v.fsf@tac.ki.iif.hu>
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.1 (gnu/linux)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <HbIfxz55GCL.A.qaG.Dzk-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577500
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 24 May 2010 09:54:12 +0000 (UTC)
+
+Kurt Roeckx <kurt@roeckx.be> writes:
+
+> On Sun, May 23, 2010 at 01:11:48PM +0200, Cyril Brulebois wrote:
+>> William Pitcock <nenolod@dereferenced.org> (22/05/2010):
+>>> This means that users should *test grub2 extensively* before Squeeze
+>>> is released so that any issues can be resolved now.
+>> 
+>> There should also be some folks fixing the discovered issues.
+>
+> grub2 currently seems to be having 18 RC bugs, plus a whole bunch
+> of merged bugs, while lilo only has 1 RC bug.  
+
+I chatted about this with the grub upstream a couple of days ago.
+According to Vladimir, most of those bugs are already fixed, but there's
+nobody around to do a new upload.  Both grub maintainers (Felix Zielke
+and Robert Millan) unexpectedly disappeared some time ago.
+-- 
+Regards,
+Feri.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/878w791w0v.fsf@tac.ki.iif.hu
+
+

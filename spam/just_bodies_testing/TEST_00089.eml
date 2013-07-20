@@ -1,0 +1,122 @@
+Increasing number of conflictsFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+I've got an issue with a sid box that I have been maintaining for a while.
+This is my workstation, and I have noticed a growing number of broken
+packages, unmet dependencies and conflicts. I have been using safe-upgrade
+for months now, hoping that it would work itself out over time. However,
+this hasn't happened. So what can I do to fix the problems without losing
+functionality? Below is the result of aptitude full-upgrade (forgive the
+cut-and-paste):
+
+The following packages have unmet dependencies:
+  xulrunner-1.9.1: Conflicts: xulrunner-1.9.1-gnome-support but 1.9.1.6-1 is
+in.
+  texlive-base: Conflicts: dvipdfmx but 1:20090708-1+b1 is installed.
+                Conflicts: texlive-base-bin (< 2008) but 2007.dfsg.2-8 is
+insta.
+  python-zope.interface: Conflicts: python-zopeinterface but 3.4.0-1 is
+install.
+  g++-4.1: Depends: gcc-4.1-base (= 4.1.2-27) but 4.1.2-29 is to be
+installed.
+           Depends: gcc-4.1 (= 4.1.2-27) but 4.1.2-29 is to be installed.
+  texlive-common: Conflicts: texlive-base-bin (< 2008) but 2007.dfsg.2-8 is
+ins.
+  libcdt4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  luatex: Conflicts: texlive-base-bin (< 2008) but 2007.dfsg.2-8 is
+installed.
+  libcgraph5: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libstdc++6-4.1-dev: Depends: gcc-4.1-base (= 4.1.2-27) but 4.1.2-29 is to
+be .
+  ruby1.8: Conflicts: irb1.8 but 1.8.7.249-2 is installed.
+  mysql-server-core-5.1: Conflicts: mysql-server-5.0 (< 5.1.45-2) but
+5.0.84-1 .
+  gcj-jre-headless: Conflicts: java-gcj-compat-headless (< 1.0.80-6) but
+1.0.80.
+  libsensors4-dev: Conflicts: libsensors-dev but 1:2.10.8-2 is installed.
+  odbcinst1debian2: Conflicts: odbcinst1debian1 but 2.2.11-21 is installed.
+  libxml-libxml-perl: Conflicts: libxml-libxml-common-perl but 0.13-6+b1 is
+ins.
+  texlive-binaries: Conflicts: texlive-base-bin but 2007.dfsg.2-8 is
+installed.
+  python-twisted-conch: Depends: python-twisted-core (>= 10.0.0-3) but
+10.0.0-2.
+  josm-plugins: Conflicts: josm (>= 0.0.svn2256) but 0.0.svn3094-1 is to be
+ins.
+  libgvc5: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libmudflap0-dev: Depends: gcc-4.1-base (= 4.1.2-27) but 4.1.2-29 is to be
+ins.
+  libxdot4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libgvpr1: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  kmymoney-common: Conflicts: kmymoney2-common (< 3.96.0-1) but
+3.95.0+svn10693.
+  libgraph4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libruby1.8: Conflicts: libreadline-ruby1.8 but 1.8.7.249-2 is installed.
+  kivio: Depends: koffice-libs (< 1:1.6.4) but 1:2.1.1-1 is to be installed.
+  libpathplan4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  kmymoney: Conflicts: kmymoney2-plugin-aqbanking (<= 1.0-1) but 1.0-1 is
+insta.
+  python-kde4: Depends: python-qt4 (< 4.7-2+~) but 4.7.3-1 is to be
+installed.
+               Depends: python-sip4 (>= <none>) but 4.10.2-1 is to be
+installed.
+open: 916; closed: 1439; defer: 0; conflict:
+77                                :
+
+      Remove the following packages:
+1)      ardour
+2)      dvipdfmx
+3)      g++-4.1
+4)      graphviz
+5)      iceweasel-gnome-support
+6)      irb1.8
+7)      java-gcj-compat
+8)      java-gcj-compat-headless
+9)      josm-plugins
+10)     kivio
+11)     kmymoney2
+12)     kmymoney2-plugin-aqbanking
+13)     libmudflap0-dev
+14)     libreadline-ruby1.8
+15)     libsnmp-dev
+16)     libstdc++6-4.1-dev
+17)     libxml-libxml-common-perl
+18)     mysql-server-5.0
+19)     odbcinst1debian1
+20)     plasma-scriptengine-python
+21)     plasma-scriptengines
+22)     python-axiom
+23)     python-coherence
+24)     python-kde4
+25)     python-twisted
+26)     python-twisted-conch
+27)     python-zopeinterface
+28)     system-config-printer-kde
+29)     texlive-base-bin
+30)     totem-coherence
+31)     xulrunner-1.9.1-gnome-support
+
+      Keep the following packages at their current version:
+32)     kmymoney [Not Installed]
+33)     kmymoney-common [Not Installed]
+34)     libcdt4 [Not Installed]
+35)     libcgraph5 [Not Installed]
+36)     libgraph4 [Not Installed]
+37)     libgvc5 [Not Installed]
+38)     libgvpr1 [Not Installed]
+39)     libpathplan4 [Not Installed]
+40)     libsensors4-dev [Not Installed]
+41)     libxdot4 [Not Installed]
+
+      Leave the following dependencies unresolved:
+42)     josm recommends josm-plugins
+43)     kdeadmin recommends system-config-printer-kde (>= 4:4.3.4-1)
+44)     kdebase-workspace-bin recommends plasma-scriptengines
+45)     kcachegrind recommends graphviz
+46)     lokalize recommends python-kde4
+47)     kmymoney2-common recommends kmymoney2
+48)     totem-plugins recommends totem-coherence
+      Tier: Safe actions, Remove packages (10000)
+
+Thanks,
+--b

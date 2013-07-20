@@ -1,0 +1,20 @@
+Re: use new apt to do null to RH8 upgrade?I remember apt-get dist-upgrading from 7.2 to 7.3 fine, so it -should- 
+work, maybe :)
+
+--On Tuesday, October 01, 2002 10:27:47 +0200 Thomas Vander Stichele 
+<thomas@urgent.rug.ac.be> wrote:
+
+> It might be, don't think anyone tried it yet.
+
+
+
+                                    -- \m/ --
+  "...if I seem super human I have been misunderstood." (c) Dream Theater
+         mark@talios.com - ICQ: 1934853 JID: talios@myjabber.net
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

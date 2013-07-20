@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284e69535c01a23
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs87268wfj;
+        Fri, 30 Apr 2010 04:10:45 -0700 (PDT)
+Received: by 10.87.68.26 with SMTP id v26mr3676004fgk.40.1272625844906;
+        Fri, 30 Apr 2010 04:10:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si2684891fkr.39.2010.04.30.04.10.44;
+        Fri, 30 Apr 2010 04:10:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 080A713A4ABD; Fri, 30 Apr 2010 11:10:39 +0000 (UTC)
+Old-Return-Path: <aspnair@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.1 required=4.0 tests=CAPINIT,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9B8DA13A42CE
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 11:10:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id rpQkyeG6B2K6 for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 11:10:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id 5D39B13A4F96
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 11:10:25 +0000 (UTC)
+Received: by gya1 with SMTP id 1so31656gya.6
+        for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 04:10:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=oDml3c/8KBdrtYyyPR/V+WFbnBoQY9v2JjcgjkeQsiA=;
+        b=hjlJ2sfTpzRgAaR7drBWj54XQgcplJ5/9XCGwHRAKzJPB8f6eeNVP9w+yPxLzcaiCx
+         /Qq9Jxb+OKl3Bb1a2KnO67gFgWCHDB2BIToEz4MuyLIIJOJMmilKWH9km+dluiBz3w8s
+         s9LUXB9P7adTJ4k2wveMI5VwZV2337T8Pjh14=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=B6VFi5VCqqpx7j1pvRf5zKv5/c49bSB3V2e4QLMtkq5sXKbYjUyqcLH8dPxAem208Q
+         ICM1naT7PdtSONFCB7tWjS+7r0rYKdcjG858PTxqvg0HF7L9CyYb8kftkHqmN9N0UQLd
+         N2Muz/HTT7s+QYhtfFuYpqD3OXususlliHUek=
+MIME-Version: 1.0
+Received: by 10.150.210.16 with SMTP id i16mr3818546ybg.70.1272625817194; Fri, 
+	30 Apr 2010 04:10:17 -0700 (PDT)
+Received: by 10.150.227.3 with HTTP; Fri, 30 Apr 2010 04:10:17 -0700 (PDT)
+In-Reply-To: <x2ob36d43c31004300351g42fe5d58w99779be3e796f2a6@mail.csmining.org>
+References: <y2xb36d43c31004300328m9fe16e64ldeddc780a0dbb397@mail.csmining.org>
+	 <z2sd0bf7b0b1004300333z1a5921f7o5f878986973d05f8@mail.csmining.org>
+	 <i2zb36d43c31004300337jb7f297c5x88a99ada8fd5602c@mail.csmining.org>
+	 <u2xbe2e83e31004300339w60c33217k878fccef19b9aca3@mail.csmining.org>
+	 <x2ob36d43c31004300351g42fe5d58w99779be3e796f2a6@mail.csmining.org>
+Date: Fri, 30 Apr 2010 16:40:17 +0530
+Message-ID: <t2pd0bf7b0b1004300410wd5816763m7a1cfa7d1a82cf07@mail.csmining.org>
+Subject: Re: Aptitude Error
+From: Anand Sivaram <aspnair@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bLnhhFmfSbF.A.w3F.vqr2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575543
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 11:10:39 +0000 (UTC)
+
+That looks like a problem.  You have unstable version of gcc-4.4-base
+(4.4.3-9) installed, but now your unstable/sid is commented out.  So
+when you try to install g++ which has dependency on gcc-4.4-base, it
+is trying to revert the gcc-4.4-base to that of squeeze (4.4.2-9).
+Install the package "apt-show-versions", that could show your what is
+installed and from which version.
+So either revert gcc-4.4-base to that of squeeze or uncomment the sid
+line, do an update and install "aptitude -t unstable install g++" to
+get sid version.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2pd0bf7b0b1004300410wd5816763m7a1cfa7d1a82cf07@mail.csmining.org
+
+

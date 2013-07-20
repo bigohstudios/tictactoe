@@ -1,0 +1,40 @@
+[SAtalk] Re: [SAdev] 2.40 RELEASE PROCESS: mass-check status, folks?I think with the confusion and all, we should give these folks 
+until the end of the day to get fixed logs uploaded :)
+
+Justin, on a related note -- I didn't include the spamtrap stuff 
+from the corpus directory on your server in my logs, but that 
+should definitely be in there -- don't know if you'd included it 
+in yours or not.  I think it's from Kelsey's mailtraps...
+
+C
+
+On Thursday, August 22, 2002, at 09:49  AM, Justin Mason wrote:
+
+> Files that are out of date (as far as I can tell -- they have no date
+> comment), and will be ignored:
+>
+>         nonspam-danielp.log
+>         nonspam-danielr.log
+>         nonspam-duncan.log
+>         nonspam-james.log
+>         nonspam-laager.log
+>         nonspam-messagelabs.log
+>         nonspam-msquadrat.log
+>         nonspam-olivier.log
+>         nonspam-oliviern.log
+>         nonspam-quinlan.log
+>         nonspam-rodbegbie.log
+>         nonspam-sean.log
+>         nonspam-theo.log
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

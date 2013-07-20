@@ -1,0 +1,97 @@
+X-Account-Key: account5
+X-UIDL: GmailId12896860d6977c74
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs23808wfo;
+        Fri, 14 May 2010 04:14:48 -0700 (PDT)
+Received: by 10.223.20.218 with SMTP id g26mr1467252fab.18.1273835687269;
+        Fri, 14 May 2010 04:14:47 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t2si5528037faa.78.2010.05.14.04.14.46;
+        Fri, 14 May 2010 04:14:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 52E3613A5689; Fri, 14 May 2010 11:14:38 +0000 (UTC)
+Old-Return-Path: <jsullivan@opensourcedevel.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5057513A5525
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 11:14:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JVNMFvaTbdWf for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 11:14:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.194])
+	by liszt.debian.org (Postfix) with ESMTP id E267D13A5033
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 11:14:24 +0000 (UTC)
+Received: from [192.168.223.101] (cpe-74-75-231-235.maine.res.rr.com [74.75.231.235])
+	by mrelay.perfora.net (node=mrus0) with ESMTP (Nemesis)
+	id 0LkNmt-1NbuSm1hBz-00cJPW; Fri, 14 May 2010 07:14:21 -0400
+Subject: PDF grief - was Re: Flash is open?
+From: "John A. Sullivan III" <jsullivan@opensourcedevel.com>
+To: =?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>
+Cc: debian-user@lists.debian.org
+In-Reply-To: <pan.2010.05.14.06.52.05@csmining.org>
+References: <20100513193147.0466ac73.celejar@csmining.org>
+	 <pan.2010.05.14.06.52.05@csmining.org>
+Content-Type: text/plain; charset="UTF-8"
+Date: Fri, 14 May 2010 07:14:18 -0400
+Message-ID: <1273835658.16485.8.camel@localhost>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.28.3 
+Content-Transfer-Encoding: quoted-printable
+X-Provags-ID: V01U2FsdGVkX1+sRN3EjwNoPIMYDwXrrKlCvMCt3rsP8UuGWqo
+ T0GN1amzZ9Ry4AFxXImFTkSu1qXJemiwfh/UzASZfOth8nj5Pk
+ v4kOt/KLZBmOrOJoVpNjEyqt1mKYbGOIFkM0Htt1tg=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <_5fnSUyo96K.A.QkE.eCT7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576752
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 11:14:38 +0000 (UTC)
+
+On Fri, 2010-05-14 at 06:52 +0000, Camale=C3=B3n wrote:
+<snip>
+> Look at PDF. PDF became a ISO/IEC standard but we (at linux) still lack=20
+> for a PDF editor that can compete with Acrobat Professional.
+<snip>
+That comment really strikes home.  We are working on a potential major
+Windows desktop replacement project.  The two things that are absolutely
+killing us are email and a viable substitute for Acrobat Standard.  We
+can roughly mimic everything Acrobat does but only with create
+complexity, taking ten times longer to get it done, using several
+applications in the process, having less than comparable results, and
+making the process detestable to the end users who wonder why would
+anyone give up Windows for this.  There are couple of admirable efforts
+out there but they have a very, very long way to go - John
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273835658.16485.8.camel@localhost
+
+

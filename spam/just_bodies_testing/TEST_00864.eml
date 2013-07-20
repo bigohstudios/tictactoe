@@ -1,0 +1,28 @@
+RE: adding 192.x with static IPFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+> Mon=2C 3 May 2010 22:11:59 -0400 <netrek@csmining.org> wrote:
+>=20
+> I have a static IP setup=2C I wish to add a router and it has a web
+> interface=2C I can get to it if I start a DHCP server and then
+> 192.168.1.1 is setup=2C but I'd really prefer to not do this.
+
+Why might DHCP be unacceptable in your setup?
+
+> Is there a way I can setup devices such as this without needing to run
+> DHCP?=20
+
+Absolutely=2C did you put you clients in the same network as you LAN interf=
+ace on your router and set the default route on clients to be your router?
+
+> Also I was generally curious if there is any program which will
+> search my LAN and report the address of any network enabled devices it
+> finds (firewalls=2C DSL modems=2C routers=2C etc.)? Thanks!
+>=20
+
+ 		 	   		 =20
+_________________________________________________________________
+Hotmail & Messenger are available on your phone. Try now.
+http://go.microsoft.com/?linkid=3D9724461=

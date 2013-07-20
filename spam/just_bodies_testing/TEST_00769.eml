@@ -1,0 +1,68 @@
+Re: invisible consoleOn 30.4.2010 13:47, Jan Willem Stumpel wrote:
+> I like an old-fashioned VGA text look on the console; in
+> /etc/default/console-setup I have
+> 
+> FONTFACE="VGA"
+> FONTSIZE="16"
+> 
+> This used to work.
+> ...
+
+I'm running Debian Stable (kernel 2.6.26-2-amd64) with a framebuffer console
+working ok with the following settings:
+
+/etc/default/console-setup does not exist
+
+in /etc/console-tools/config I have:
+BLANK_TIME=30
+BLANK_DPMS=off
+POWERDOWN_TIME=30
+SCREEN_FONT=lat0-sun16
+SCREEN_FONT_vc2=lat0-sun16
+SCREEN_FONT_vc3=lat0-sun16
+SCREEN_FONT_vc4=lat0-sun16
+SCREEN_FONT_vc5=lat0-sun16
+SCREEN_FONT_vc6=lat0-sun16
+
+and in /boot/grub/menu.lst I have:
+title           Debian GNU/Linux, kernel 2.6.26-2-amd64
+root            (hd0,0)
+kernel          /boot/vmlinuz-2.6.26-2-amd64 root=/dev/sda1 ro vga=XXX
+initrd          /boot/initrd.img-2.6.26-2-amd64
+
+where XXX is something from:
+(0x0312 would give me 640x480 with 24 bits per pixel)
+
+% sudo hwinfo --framebuffer
+02: None 00.0: 11001 VESA Framebuffer
+  <snip>
+  Mode 0x0300: 640x400 (+640), 8 bits
+  Mode 0x0301: 640x480 (+640), 8 bits
+  Mode 0x0303: 800x600 (+800), 8 bits
+  Mode 0x0305: 1024x768 (+1024), 8 bits
+  Mode 0x0307: 1280x1024 (+1280), 8 bits
+  Mode 0x030e: 320x200 (+640), 16 bits
+  Mode 0x030f: 320x200 (+1280), 24 bits
+  Mode 0x0311: 640x480 (+1280), 16 bits
+  Mode 0x0312: 640x480 (+2560), 24 bits
+  <snip>
+  Mode 0x0348: 1400x1050 (+2800), 16 bits
+  Mode 0x0352: 2048x1536 (+8192), 24 bits
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+
+This configuration has been working for me for years with practically any
+2.6.x kernel in Debian and Ubuntu.
+
+For more fonts see /usr/share/consolefonts
+
+-- 
+Juha Tuuna
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDAC10A.1010404@iki.fi
+
+

@@ -1,0 +1,22 @@
+Re: Kde 3.5 ...From nobody Sat Jul 20 14:17:31 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday, 2010-05-06, Alejandro Exojo wrote:
+> El Jueves, 6 de Mayo de 2010, Dotan Cohen escribi=C3=B3:
+> > No. Do you customarily read the complete email headers of those whom
+> > with which you correspond?
+>=20
+> There is a hidden config variable that can make KMail display the
+>  User-Agent, X-Mailer, etc.
+>=20
+> kwriteconfig --file /path/to/kmailrc --group Reader --key ShowUserAgent
+>  true
+
+You don't have to specify the path. If there is just a filename, it will be=
+=20
+looked up in the config directory, just like KMail itself would do.
+
+Cheers,
+Kevin

@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dfced9d60770d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs2806wfi;
+        Thu, 8 Apr 2010 16:43:48 -0700 (PDT)
+Received: by 10.86.6.16 with SMTP id 16mr1282918fgf.55.1270770227457;
+        Thu, 08 Apr 2010 16:43:47 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 25si1494666fxm.49.2010.04.08.16.43.46;
+        Thu, 08 Apr 2010 16:43:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 74FDB13A66CB; Thu,  8 Apr 2010 23:43:42 +0000 (UTC)
+Old-Return-Path: <tyler@macdonald.name>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8601413A66C5
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 23:43:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 0SNeTP1xvSMo for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 23:43:29 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .macdonald. - helo: .idcmail-mo2no.shaw. - helo-domain: .shaw.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from idcmail-mo2no.shaw.ca (idcmail-mo2no.shaw.ca [64.59.134.9])
+	by liszt.debian.org (Postfix) with ESMTP id 0F07913A66B2
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 23:43:22 +0000 (UTC)
+Received: from pd5ml3no-ssvc.prod.shaw.ca ([10.0.153.148])
+  by pd6mo1no-svcs.prod.shaw.ca with ESMTP; 08 Apr 2010 17:43:03 -0600
+X-Cloudmark-SP-Filtered: true
+X-Cloudmark-SP-Result: v=1.0 c=1 a=VphdPIyG4kEA:10 a=OOkbaXHonM0A:10 a=kj9zAlcOel0A:10
+ a=zuC+xB8bDH4qReR4u5ZRGg==:17 a=uTzgiHpzq70E9YXSPogA:9
+ a=-tkSNHHF07ELzjKPLdg-KhuCy94A:4 a=CjuIK1q_8ugA:10
+Received: from unknown (HELO domus.crackerjack.net) ([96.50.8.248])
+  by pd5ml3no-dmz.prod.shaw.ca with ESMTP; 08 Apr 2010 17:43:03 -0600
+Received: from faraway by domus.crackerjack.net with local (Exim 4.71)
+	(envelope-from <tyler@macdonald.name>)
+	id 1O01NH-0004KL-9O
+	for debian-user@lists.debian.org; Thu, 08 Apr 2010 16:43:03 -0700
+Date: Thu, 8 Apr 2010 16:43:03 -0700
+From: Tyler MacDonald <tyler@macdonald.name>
+To: debian-user@lists.debian.org
+Subject: ditching mutt
+Message-ID: <20100408234302.GD14755@yi.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nWgOPQ7k09G.A.UCE.uomvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573645
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 23:43:42 +0000 (UTC)
+
+After over 10 years of faithful service (essentially when I ditched pine),
+I am considering having my mutt put down. Should I move over to gmail, or is
+there some amazing scriptable GUI mail client that is going to knock my
+socks off with an array of pipes and regexps and color-highlighting and
+maybe even procmail-parsing and custom keybinding? (Ideally I'd still like
+to use a terminal to compose/reply to most email, it's just the inbox/IMAP
+folder management/searching/etc that is getting too unruly for a terminal).
+
+  Thanks,
+    Tyler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100408234302.GD14755@yi.org
+
+

@@ -1,0 +1,222 @@
+Re: auto mounting a partition with nobrowseHey Dale,
+
+> In 10.6 it does show the nobrowse but in the left side of the finder =
+window I can see the partition (it's grayed out) but only seems to do =
+this if there are existing finder windows open, if all windows are =
+closed then the partitions are not visible at all.
+
+This is a "problem" that is above Disk Arbitration.  You have to take =
+this up with the Finder by filing a bug.  It seems to me that it was =
+intentional.  I do not see this as a problem in practice, since a user =
+will never have a chance to open the partition if you always mount it =
+nobrowse.
+
+With regards to the interpretation of nobrowse on 10.5, if it differs =
+from 10.6, you may wish to consider other avenues.  You can use noauto =
+in /etc/fstab to prevent the mount altogether, and only the mount the =
+partition in question on demand.
+
+> Depending on the existence of the fstab file to do the hiding is a =
+poor solution since I cannot guarantee the user will plug the drive only =
+into systems that have it.
+
+How does a daemon that talks to Disk Arbitration solve that problem on =
+such systems?
+
+You have to understand that Disk Arbitration is what handles /etc/fstab. =
+ You can think of /etc/fstab as prerecorded instructions to save you =
+from writing a daemon to talk to Disk Arbitration.  This also solves the =
+problem of internal volumes that mount before your daemon is even loaded =
+at boot.  It is in fact a more robust solution, but you have not come to =
+realize the disadvantages of a daemon yet.
+
+I doubt that a daemon will solve this problem.  You will achieve the =
+very same thing, which is to mount it nobrowse.  Finder is welcome to =
+interpret that as it likes, even if it does not meet your expectations.  =
+You can certainly try to see if it makes a difference, but I doubt it =
+will be fruitful.
+
+> /* guessing due to lack of sample code */
+
+
+We have no sample code using Disk Arbitration 2, unfortunately.  We do =
+with Disk Arbitration 1, but you will want to avoid it like the plague.  =
+Disk Arbitration 2 does have HeaderDoc by contrast.  Note that the =
+fundamentals of Core Foundation are covered elsewhere.
+
+Dan
+
+Le 2010-05-13 =E0 02:29, websrvr a =E9crit :
+
+>=20
+> On May 12, 2010, at 21:20 PM, Daniel Markarian wrote:
+>=20
+>> Hey Dale,
+>>=20
+>> Does /sbin/mount show "nobrowse" on 10.6?
+>>=20
+>> Dan
+>>=20
+>> PS: You can run the 10.6 version of /sbin/mount on 10.5 to check the =
+state of "nobrowse" on 10.5 as well.
+>=20
+> Hey Dan,
+>=20
+> The 10.6.2 version of mount  doesn't run in 10.5.6.
+>=20
+> In 10.6 it does show the nobrowse but in the left side of the finder =
+window I can see the partition (it's grayed out) but only seems to do =
+this if there are existing finder windows open, if all windows are =
+closed then the partitions are not visible at all.
+>=20
+> Depending on the existence of the fstab file to do the hiding is a =
+poor solution since I cannot guarantee the user will plug the drive only =
+into systems that have it.
+>=20
+> Using DiskArbitration seems to offer the results I need so I started =
+coding a little test app but due to the lack of sample code I'm not sure =
+I'm doing any of it properly since it segfaults when I use =
+DADiskMountWithArguments().
+>=20
+> Here's the code:
+>=20
+> // test_mount.m
+> // gcc -Wall -o test_mount test_mount.m -framework DiskArbitration =
+-framework Foundation
+>=20
+> #import <Foundation/Foundation.h>
+> #import <DiskArbitration/DiskArbitration.h>
+>=20
+> #define _NO_ARGS_		1
+>=20
+> /* guessing due to lack of sample code */
+> DADissenterRef
+> MountDiskHidden(DADiskRef disk, void *context)
+> {
+> 	char const *CdiskName =3D DADiskGetBSDName(disk);
+> 	NSString *diskName =3D [NSString =
+stringWithUTF8String:CdiskName];
+> 	NSRange s1s1NumberRange =3D NSMakeRange([diskName length] - 4, =
+4);
+> 	DADissenterRef dissenter;
+> 	char *type;
+>=20
+> 	if([[diskName substringWithRange:s1s1NumberRange] =
+isEqualToString:@"s1s1"]) /* it's our magic partition */
+> 	{
+>=20
+> #if _NO_ARGS_
+> 		DADiskMount(disk,
+> 					NULL,
+> 					kDADiskMountOptionDefault,
+> 					NULL,
+> 					NULL);
+> #else
+> 		CFStringRef arguments =3D =
+CFStringCreateWithCString(kCFAllocatorDefault, "nobrowse", =
+kCFStringEncodingUTF8);
+>=20
+> 		/* using this causes a segfault */
+> 		DADiskMountWithArguments(disk,
+> 								NULL,
+> 								=
+kDADiskMountOptionDefault,
+> 								NULL,
+> 								NULL,
+> 								=
+&arguments);
+> #endif
+>=20
+> 		dissenter =3D DADissenterCreate(kCFAllocatorDefault,
+> 									=
+kDAReturnSuccess,
+> 									=
+CFSTR("mounted hidden"));
+>=20
+> 		type =3D "mounted hidden";
+> 	}
+> 	else
+> 	{
+> 		DADiskMount(disk,
+> 					NULL,
+> 					kDADiskMountOptionDefault,
+> 					NULL,
+> 					NULL);
+>=20
+> 		dissenter =3D DADissenterCreate(kCFAllocatorDefault,
+> 									=
+kDAReturnSuccess,
+> 									=
+CFSTR("mount not permitted"));
+>=20
+> 		type =3D "mounted normal";
+> 	}
+>=20
+> 	printf("%s: %s\n", CdiskName, type);
+>=20
+> 	return dissenter;
+> }
+>=20
+> /* This should really be daemonized but should suffice for test =
+purposes */
+> int
+> main (int argc, const char * argv[])
+> {
+> 	NSAutoreleasePool *pool =3D [NSAutoreleasePool new];
+> 	DAApprovalSessionRef session =3D =
+DAApprovalSessionCreate(kCFAllocatorDefault);
+>=20
+> 	if (!session)
+> 	{
+> 		fprintf(stderr, "failed to create Disk Arbitration =
+session");
+> 		goto out;
+> 	}
+>=20
+> 	DARegisterDiskMountApprovalCallback(session,
+> 										=
+NULL,  // matches all disk objects
+> 										=
+MountDiskHidden,
+> 										=
+NULL); // context
+>=20
+> 	DAApprovalSessionScheduleWithRunLoop(session,
+> 										=
+ CFRunLoopGetCurrent(),
+> 										=
+ kCFRunLoopDefaultMode);
+>=20
+> 	CFRunLoopRunInMode(kCFRunLoopDefaultMode,
+> 						45 /* seconds */,
+> 						false);
+>=20
+> 	DAApprovalSessionUnscheduleFromRunLoop(session,
+> 										=
+ CFRunLoopGetCurrent(),
+> 										=
+ kCFRunLoopDefaultMode);
+>=20
+> 	DAUnregisterApprovalCallback(session,
+> 								=
+MountDiskHidden,
+> 								NULL);
+>=20
+> out:
+>   if (session)
+> 		CFRelease(session);
+>=20
+>    [pool release];
+>=20
+> 	exit(0);
+> }
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

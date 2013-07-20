@@ -1,0 +1,29 @@
+Re: funky kernel message from syslogdOn Thu, 22 Apr 2010 19:24:38 -0400, Nick Lidakis wrote:
+
+> This popped up in one of my xterms after my Thinkpad came out of
+> hibernation today. The machine has beeped a few times as this message
+> was repeated. Does not sound good. Call Trace? That's, like, bad? Right?
+> 
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.069917] Oops: 0000 [#1] SMP
+
+(...)
+
+That is a kernel "Oops", not a good sign :-(
+
+I would report it (including full log information about the "oops") into 
+Debian bug tracking system.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.23.16.24.53@csmining.org
+
+

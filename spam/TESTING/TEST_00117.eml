@@ -1,0 +1,145 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282b1ebd49a47f5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs65169wfj;
+        Fri, 23 Apr 2010 07:42:34 -0700 (PDT)
+Received: by 10.141.14.19 with SMTP id r19mr117046rvi.255.1272033754129;
+        Fri, 23 Apr 2010 07:42:34 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id c16si2520743rvn.72.2010.04.23.07.42.33;
+        Fri, 23 Apr 2010 07:42:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id BACCD1BC05B2A
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 07:42:33 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id B1E34270D0B81
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 07:42:33 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 9F461270D04ED
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 07:41:30 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 8F720CDEB510
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 07:41:30 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-e4-4bd1b199e83f
+Received: from mail-vw0-f51.google.com (mail-vw0-f51.google.com
+	[209.85.212.51])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	7C.E9.17067.A91B1DB4; Fri, 23 Apr 2010 07:41:30 -0700 (PDT)
+Received: by vws9 with SMTP id 9so897348vws.24
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 07:41:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:references:in-reply-to
+	:mime-version:content-type:message-id:content-transfer-encoding:from
+	:subject:date:to:x-mailer;
+	bh=WwCaPX3CENFMpxvoftZCAjRH/0sojPH3QRuTZM+smjU=;
+	b=D+VWt9/CQJmJPm0iaTpt7DQRWHJTbi7npaT6QfFleqoUm178m2NK50LhgCMb+DxDwx
+	imLV1HRxDJ9DFVxH3xrl+dmm7atwe5PMa1RPZO4morCXBsC1qO5YKVmmjGTDW3uRM2UT
+	7jVpOEoBUwwU7i6Sut/tW842NQlGs7QpHxSRI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=references:in-reply-to:mime-version:content-type:message-id
+	:content-transfer-encoding:from:subject:date:to:x-mailer;
+	b=j+zlB/VuC/O0QZWgLwhoNThFPaDaL4WKpn2+xBmfj826/0vnLDUWB9AgKp4wafalN7
+	PhUFk23xKYMCE5GbtGejiTUrGucYMLcI12DYAQblfTVjhI7uw82miJGkGlWmIReyy6Yu
+	+la/R3vDHe7c6n/rYfz+Nd1e+vcKqus70NzWI=
+Received: by 10.220.61.137 with SMTP id t9mr31514vch.171.1272033689278;
+	Fri, 23 Apr 2010 07:41:29 -0700 (PDT)
+Received: from [10.0.1.2] ([190.79.121.136])
+	by mx.google.com with ESMTPS id i29sm5280772vcr.0.2010.04.23.07.41.23
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Fri, 23 Apr 2010 07:41:28 -0700 (PDT)
+References: <20100423142718.A6CA9270CFCEB@lists.apple.com>
+In-Reply-To: <20100423142718.A6CA9270CFCEB@lists.apple.com>
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+Message-Id: <EA729AB5-7ECA-44ED-954E-969650B0C540@csmining.org>
+Content-Transfer-Encoding: quoted-printable
+From: David Sanchez <davidenrique@csmining.org>
+Date: Fri, 23 Apr 2010 10:11:05 -0430
+To: java-dev@lists.apple.com
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAABAAAAUoT2MYLE9lopBPZlsg=
+Subject: Snow Leopard, Java 6 and Netbeans
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi!
+
+I had terrible issues with Snow Leopard and NetBeans 6.7.1, particularly =
+doing Swing Apps. I had to do what you did, reinstalling Java 5 (An =
+unsupported procedure).
+
+NetBeans traced the bug in Apple JVM, and after NetBeans 6.8 came out =
+with some workarounds for the Matisse development environment, =
+everything  became usable, at least to me. So I switched completely to =
+Java 6.
+
+http://netbeans.org/bugzilla/show_bug.cgi?id=3D173912
+
+I am using Snow Leopard, Java 6, 32 bits, with 2 GiB RAM. I have not had =
+mayor issues, however, I do not like the rendering (font and graphics) =
+in Swing in Java 6, it looks fuzzier than Java 5.
+
+David
+
+On Apr 23, 2010, at 9:57 AM, java-dev-request@lists.apple.com wrote:
+
+> I imagine this topic comes up every so often but I haven't been able =
+to find
+> it in the archives. =46rom what I understand, there's some issue with =
+Snow
+> Leopard and Java 6 that makes Netbeans 6.8 near unusable. (I've had to =
+do my
+> development on a lesser-powered PC because there, things will actually =
+open
+> without pegging the CPU at 100% and becoming unresponsive.) Following =
+a tip,
+> I used Pacifist to reinstall Leopard's Java 5 back onto the system, =
+set it
+> as the default, and tried to launch Netbeans. Lo and behold, it was =
+fast,
+> responsive and showed none of the problems I'd been used to. =
+Unfortunately,
+> it made it so that I couldn't work on my Java 6-based app!
+>=20
+> So, what is the actual situation here? Is this a known issue with the =
+Apple
+> JVM that's (hopefully) going to get fixed? Is this a bug in Netbeans? =
+Am I
+> the only one seeing issues this bad, and so it could be a problem with =
+my
+> setup? Is there a workaround? Any help would be vastly appreciated -- =
+the
+> Windows box is having disk issues, and I'd love to move my primary
+> development to the Macbook Pro as soon as possible. And if push comes =
+to
+> shove, I may have to just rearchitect the project into Java 5 (which =
+would
+> not be a simple task.)
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,16 @@
+Re: [ILUG] slashdot EW Dijkstra humorOn Thu, 2002-08-08 at 12:18, Dave Wilson wrote:
+> Despite being one of Dijkstra's brain-damaged children who learned BASIC 
+> at an early age :) I never use GOTO anymore (or any of its bastard 
+> offspring like break, continue, fudged function calls with sleight of 
+> hand in the variables). My code is longer than it might be if I had used 
+
+You don't use break? What about case statement blocks, or leaving a for
+or while loop when you know you're finished?
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

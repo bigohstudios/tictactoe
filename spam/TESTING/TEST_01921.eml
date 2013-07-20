@@ -1,0 +1,127 @@
+X-Account-Key: account5
+X-UIDL: GmailId128981e2172b4317
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs41783wfo;
+        Fri, 14 May 2010 11:40:31 -0700 (PDT)
+Received: by 10.223.92.136 with SMTP id r8mr2093319fam.40.1273862430753;
+        Fri, 14 May 2010 11:40:30 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si6468962fak.96.2010.05.14.11.40.30;
+        Fri, 14 May 2010 11:40:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 25C1113A567D; Fri, 14 May 2010 18:40:23 +0000 (UTC)
+Old-Return-Path: <artifexor@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7393C13A560A
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 18:40:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 8lynLDmVSh8H for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 18:40:09 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.159])
+	by liszt.debian.org (Postfix) with ESMTP id 5AF6013A55FA
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 18:40:02 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id e12so1449372fga.12
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 11:39:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=EwRcFMFGMR0SVhPa8N0vmhXy9lJcjRukA771bcvFd2E=;
+        b=JCuiSfYH3kIXmfMpruZWd3msTyYhsi3xHqvDdLp5VAUXJdZXkQXAMDpbStdq9oDwBN
+         SaVnewRBacgh9IPBNGxSaXOn3WDDFwPWM+X5qiDruXi6CALWmQsNfh3EvPHHnSffucFI
+         Erj/vCHNgS0mQRbVu5oZMZe528k8LitQfq6CE=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=hOpcSgUqB4X1NhgGZ5yMWMyQ9NY+FTtqeiL5u0GvsWWPmzswXlzX8a9bt0QLNCaoPp
+         0PWc39gbHREEaKO4D7PK5+QDn4EqDmIuSXovuAHJXhkwDVWpvX+CA5s+biIzY+qdmQ75
+         q9YoIYiibDFNWrTnq/bqBs6iMKLMSbHctS/d4=
+MIME-Version: 1.0
+Received: by 10.204.83.26 with SMTP id d26mr65734bkl.157.1273862398277; Fri, 
+	14 May 2010 11:39:58 -0700 (PDT)
+Received: by 10.204.70.69 with HTTP; Fri, 14 May 2010 11:39:58 -0700 (PDT)
+In-Reply-To: <pan.2010.05.14.14.58.51@csmining.org>
+References: <20100513193147.0466ac73.celejar@csmining.org>
+	 <pan.2010.05.14.09.32.06@csmining.org> <4BED1F53.6070202@cox.net>
+	 <pan.2010.05.14.10.38.00@csmining.org>
+	 <AANLkTinexhMKIN_mHG2efRrLX7nSo_0UyyffBhG2j6XN@mail.csmining.org>
+	 <pan.2010.05.14.12.04.42@csmining.org> <4BED42CA.2060406@cox.net>
+	 <pan.2010.05.14.13.28.47@csmining.org>
+	 <AANLkTil7Z7jGyva3EAZ5wkE1yTufs0eWhTFNDwOFlL_H@mail.csmining.org>
+	 <pan.2010.05.14.14.58.51@csmining.org>
+Date: Fri, 14 May 2010 20:39:58 +0200
+Message-ID: <AANLkTimF25QHZzpZ6gLvCm-Q5RpI9QV0VcKWRRde8ebV@mail.csmining.org>
+Subject: Re: Flash is open?
+From: Artifex Maximus <artifexor@csmining.org>
+To: =?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <B3ytQeJmCTJ.A.aFG.WkZ7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576811
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 18:40:23 +0000 (UTC)
+
+On Fri, May 14, 2010 at 4:58 PM, Camale=F3n <noelamac@csmining.org> wrote:
+> On Fri, 14 May 2010 15:45:36 +0200, Artifex Maximus wrote:
+>
+>> On Fri, May 14, 2010 at 3:28 PM, Camale=F3n wrote:
+>
+>>> Oh, no, but... If W3C does not trust "Flash" technology to be included
+>>> as one of their recommended standards, why should I? That is the point.
+>>
+>> Linux, FreeBSD, OSX and other OSs included in that W3C standards? I
+>> think the answer is no... Do you have trust in them?
+>
+> "Linux, FreeBSD, OSX and other OSs" all of them include their own
+> licencing model, whatever it is (closed or open sourced), so I can use
+> the software knowing beforehand what I can (or can't) do with it.
+
+You've talked about W3C recommended standards and not about licenses.
+
+> Do not get me wrong, I'm only saying that if I were a developer, I would
+> have many doubts in choosing a flash format for any of my works.
+
+Developers never forced to use Flash/SWF or any other standards. If
+you have any doubts in SWF just use other format.
+
+Bye,
+a
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTimF25QHZzpZ6gLvCm-Q5RpI9QV0VcKWRRde8ebV@mail.csmining.org
+
+

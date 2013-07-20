@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId128178b441f423b3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs39226wfj;
+        Mon, 19 Apr 2010 12:35:29 -0700 (PDT)
+Received: by 10.223.21.17 with SMTP id h17mr571789fab.45.1271705322918;
+        Mon, 19 Apr 2010 12:28:42 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si819058fks.53.2010.04.19.12.28.42;
+        Mon, 19 Apr 2010 12:28:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A126513A4FF3; Mon, 19 Apr 2010 19:28:32 +0000 (UTC)
+Old-Return-Path: <joe@jretrading.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 30F1313A4F84
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 19:28:26 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id lZVXnOuv3x1b for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 19:28:18 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.jretrading.com (jretradingltd.demon.co.uk [80.177.211.93])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id A273213A4F95
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 19:28:18 +0000 (UTC)
+Received: from jresid.jretrading.com ([192.168.99.101])
+	by mail.jretrading.com with esmtp (Exim 4.69)
+	(envelope-from <joe@jretrading.com>)
+	id 1O3wdj-0002qj-Ue
+	for debian-user@lists.debian.org; Mon, 19 Apr 2010 20:28:15 +0100
+Message-ID: <4BCCAED0.3090804@jretrading.com>
+Date: Mon, 19 Apr 2010 20:28:16 +0100
+From: Joe <joe@jretrading.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Increasing number of conflicts
+References: <y2j258ced3f1004190616w857c5c27ya8616bf0a36bfea8@mail.csmining.org>	 <20100419132831.GC2380@kinakuta.local> <x2q258ced3f1004190734hab4b1e53u5f15ec7e5c000829@mail.csmining.org>
+In-Reply-To: <x2q258ced3f1004190734hab4b1e53u5f15ec7e5c000829@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WCWN04HRAPP.A.RvH.g7KzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574475
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 19:28:32 +0000 (UTC)
+
+On 19/04/10 15:34, B. Alexander wrote:
+> On Mon, Apr 19, 2010 at 9:28 AM, Wolodja Wentland<
+>
+>> I assume that this will allow aptitude to take actions which are more to
+>> your liking as you obviously don't like the ones proposed by aptitude
+>> when you run safe-upgrade.
+>>
+>
+> safe-upgrade just does the upgrades that don't cause a ruckus. dist-upgrade
+> is the one that displays the conflicts and wants to remove packages.
+>
+> Thanks for testing a development branch of Debian :)
+>>
+>
+> No problem. Most of my Debian installs at home run sid, with the rest
+> running testing...Except my firewall, which runs stable for the first 6
+> months or so (until critical packages start getting long in the tooth), then
+> I upgrade it to testing and run until the next stable release.
+>
+
+We all have different experiences, depending on what is loaded, and 
+certainly sid has been fairly active in the last couple of months. I 
+usually wait a week or so when a problem arises, during which time most 
+of them disappear. When they don't it's usually because of a change of 
+the structure of a package, and some old components must be removed to 
+allow new components with different names to be installed.
+
+Occasionally, it is even necessary to remove a vital package, and 
+reinstate it either immediately after the now-successful upgrade, or do 
+a bit more research into how to retain it. Sometimes, an upgrade really 
+does conflict with a long-established package, and you have to decide 
+which to keep. I have a feeling that recently happened with two 
+different Flash viewers.
+
+Do keep track of what you do, as I have just severely embarrassed myself 
+by clearing such a logjam and then assuming that as nothing complained 
+about dependencies, all was well. Some time later (weeks, I'm sure, and 
+I had actually forgotten the conflict until seeing it on your list), a 
+further upgrade to the package (mysql) stopped the daemon from starting, 
+and I reported a bug, only to find a vital part of the system missing...
+
+You don't run sid unless you have a sense of humour.
+
+-- 
+Joe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCAED0.3090804@jretrading.com
+
+

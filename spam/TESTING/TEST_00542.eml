@@ -1,0 +1,151 @@
+X-Account-Key: account5
+X-UIDL: GmailId12874b65135ffe9d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs476447wfb;
+        Fri, 7 May 2010 14:40:25 -0700 (PDT)
+Received: by 10.223.19.87 with SMTP id z23mr768946faa.7.1273268424820;
+        Fri, 07 May 2010 14:40:24 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si3099475fah.99.2010.05.07.14.40.24;
+        Fri, 07 May 2010 14:40:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 95A6B13A5497; Fri,  7 May 2010 21:40:16 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.3 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FVGT_m_MULTI_ODD,GMAIL,MURPHY_WRONG_WORD2,PGPSIGNATURE
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AE5CB13A53E6
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 21:40:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7.58 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FVGT_m_MULTI_ODD=0.02, GMAIL=1,
+	MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DUcXUiTQ6aLh for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 21:40:05 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id 87C2013A53DA
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 21:40:05 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id 62ED73A6511
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 23:40:03 +0200 (CEST)
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Subject: Re: Hptalx is buggy once calculator is plugged and linked
+Date: Fri, 07 May 2010 23:29:10 +0200
+Message-ID: <87vdazwgd5.fsf@merciadriluca-station.MERCIADRILUCA>
+References: <4BE4428E.40301@student.ulg.ac.be> <pan.2010.05.07.16.51.41@csmining.org> <87k4rfmx5n.fsf@merciadriluca-station.MERCIADRILUCA> <pan.2010.05.07.18.12.32@csmining.org>
+To: debian-user@lists.debian.org
+Organization: ULg
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+Cancel-Lock: sha1:MQXC9Y5VAaGUIBFqtY5ejg7N2u4=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+NNTP-Posting-Host: 62.197.101.67
+X-Trace: news.sunsite.dk DXC=YmS=@l\=4o2@:6iQ9Q>ag7YSB=nbEKnk;MBng8mk3]L8B`G2cTG;Mn1LGVLjEY^2Y8[=LHD=0P^Y49g\V1BeNHO95Z@8`56Df90`AEV7WNC4h0=e6@Yo:g?[=
+X-Complaints-To: staff@sunsite.dk
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eHyUq-5fb-11@gated-at.bofh.it> <eHz46-5sF-3@gated-at.bofh.it> <eHzQv-6CS-25@gated-at.bofh.it> <eHAjw-7rU-29@gated-at.bofh.it>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ZCYAYjU0es.A.PzB.AjI5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576186
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 21:40:16 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón <noelamac@csmining.org> writes:
+
+> On Fri, 07 May 2010 19:36:36 +0200, Merciadri Luca wrote:
+>
+>> Camaleón writes:
+>> 
+>>> Just a wild guess, but try to launch the application as "root" user.
+>>> Maybe it's a device permissions issue :-?
+>
+>> I had thought about it. I had not tried it, and, to my deception,
+>> exactly the same facts happen. When I use hptalx for the first time as
+>> root, I configure the calculator, I `Save' but when I click `Connect'
+>> bug buddy pops. :-(
+>
+> Wow...
+As you say. Special!
+>
+> How about...?
+>
+> 1/ Pressing "O.K", instead "save", it will keep your settings only for the
+> current session but it just to test if it works :-?
+Impossible without modifying .hptalx, as the application directly bugs when I type
+`hptalx'. This is instantaneous.
+
+I just renamed .hptalx in .hptalx2, and the program starts normally,
+without bugging.
+
+Pressing `O.K.' does not make the app bugging, but once I click on
+`Connect', bug buddy directly arises! (And, without the connection
+capability, the program is totally unuseful, as it is its goal.)
+
+
+> 2/ Look at "~/.hptalx" file and check if the previously saved settings 
+> seem right (port connection pointing to /dev/ttyUSB0, and so on...).
+==
+~$ cat .hptalx 
+<?xml version="1.0"?>
+<hptalx>
+ <port>100</port>
+ <speed>9600</speed>
+ <deleteconfirm>1</deleteconfirm>
+ <startconnected>1</startconnected>
+ <waitconnect>15</waitconnect>
+ <editor>gedit</editor>
+</hptalx>
+==
+
+Strange, really. I compiled it the other day, and the whole process
+went through without any issue.
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+What doesn't kill you will make you stronger. (Friedrich Nietzsche)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 <http://mailcrypt.sourceforge.net/>
+
+iEYEARECAAYFAkvkhiUACgkQM0LLzLt8MhwOTQCePMN9v5VHO7yr96tibEMtxNNR
+NWoAn1Nsnlo4AvBo2sdb/nZZbVQ7er3R
+=6Vpi
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87vdazwgd5.fsf@merciadriluca-station.MERCIADRILUCA
+
+

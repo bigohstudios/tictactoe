@@ -1,0 +1,48 @@
+Re: microphonedeloptes on 25/05/10 21:09, wrote:
+> Adam Hardy wrote:
+> 
+>>  arecord -Dplughw:0,1 |aplay
+>>
+> I just also see that you are not using the command as suggested by me
+> 
+>  -f cd -vv /dev/null
+> 
+> regards
+
+er yes. sorry, figured i could either look up what that did or just leave it 
+out, so I chose to leave it out :O
+
+adam@isengard:~$ arecord -Dplughw:0,0 -c1 -f cd -vv /dev/null
+Recording WAVE '/dev/null' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+Plug PCM: Hardware PCM card 0 'HDA Intel' device 0 subdevice 0
+Its setup is:
+   stream       : CAPTURE
+   access       : RW_INTERLEAVED
+   format       : S16_LE
+   subformat    : STD
+   channels     : 2
+   rate         : 44100
+   exact rate   : 44100 (44100/1)
+   msbits       : 16
+   buffer_size  : 16384
+   period_size  : 4096
+   period_time  : 92879
+   tstamp_mode  : NONE
+   period_step  : 1
+   avail_min    : 4096
+   start_threshold  : 1
+   stop_threshold   : 16384
+   silence_threshold: 0
+   silence_size : 0
+   boundary     : 1073741824
+#+                                                 | 00%^C
+
+Still not a whisper.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFC3D11.1040305@cyberspaceroad.com
+
+

@@ -1,0 +1,30 @@
+Re: AMD M780G with ATI Radeon HD 3200 graphicsOn Sunday 02 May 2010 04:03:32 Jack Malmostoso wrote:
+> On Sat, 01 May 2010 17:10:02 +0200, Matthew Dawson wrote:
+> 
+> > I have a HP laptop with the Radeon HD3200 graphics card.  3d is
+> > supported by the radeon driver, along with KMS (kernel modesetting).
+> 
+> Hello Matthew,
+> 
+> thank you very much for your quick reply.
+> This is just the info I needed.
+> The power management in general of the x100 seems a bit worse than Atom 
+> based netbooks, but I suppose it's a real hardware issue.
+> 
+> Have a nice day!
+> 
+> 
+ 
+Hello Jack,
+
+No problem.  ATI's binary driver, fglrx, does support power management on this chipset, and using fglrx my laptop was able to stay on using battery power for far longer.  The radeon driver does not yet support power management because its hard todo and is very complex.
+
+Matthew
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005021130.16299.matthewjd@csmining.org
+
+

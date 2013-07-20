@@ -1,0 +1,80 @@
+[Razor-users] FW: [EVENT NOTIFICATION] UUnet North American
+    Backbone Problems 2 0021003@06:00 PDT [TIX106448]From nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+For everyone's benefit/edification, regardless of Razor usage.
+
+--jordan
+
+-----Original Message-----
+From: InterNAP Backbone Status Reports [mailto:noc@internap.com]
+Sent: Thursday, October 03, 2002 11:30 AM
+To: InterNAP Backbone Status Reports
+Subject: [EVENT NOTIFICATION] UUnet North American Backbone Problems
+20021003@06:00 PDT [TIX106448] (fwd)
+
+
+Hello,
+
+I have just spoken with an UUnet technician at 11:23 PDT and he was unable
+to provide me with any new information regarding the outage.  He did
+confirm that problems had spread beyond the east coast and are now seen
+nationwide through out their network.  They are currently working with
+their hardware vendor to try and isolate the issue.
+
+A large number of Internap's connections to UUnet remain shutdown and
+traffic is being routed over alternate providers.  The scale of this
+outage is causing a large number of peering points with UUnet and other
+providers to be flooded due to the large traffic shifts.
+
+If you have problems reaching specific sites please send an email to
+noc@internap.com containing a traceroute and source/destination IP
+addresses and we will investigate.  If it is possible will will attempt to
+move specific prefixes onto an alternate provider leaving an Internap PNAP
+if that will provide better performance.
+
+Regards,
+Andrew
+
+--------------------------------------------------------------------
+Andrew Dul                                 Network Operations Center
+InterNAP Network Services                   E-Mail: noc@internap.com
+andrew@internap.com                    206.256.9500 - 1.877.THE.INOC
+
+The contents of this email message are confidential and proprietary.
+
+---------- Forwarded message ----------
+Date: Thu, 3 Oct 2002 08:51:26 -0700 (PDT)
+From: Andrew Dul <andrew@internap.com>
+Subject: [EVENT NOTIFICATION] UUnet North American Backbone Problems
+    [TIX106448]
+
+
+UUnet is currently experiencing a large number of problems in their North
+American backbone.  Internap has been aware of these problems since approx
+06:00 PST.  Most of the problems appear to be concentrated on the East
+Coast but we have reports of problems from other geographic regions.
+
+This is being tracked under Internap ticket 106448 and UUnet master ticket
+651751.
+
+UUnet currently does not have any ETA for a fix for this event.
+
+If you have issues reaching a specific site please send an email to
+noc@internap.com with a traceroute showing the path which has a problem.
+
+Internap has shutdown peerings to UUnet is various cities to help reduce
+the number of problems that customers will experience.
+
+Regards,
+Andrew
+
+--------------------------------------------------------------------
+Andrew Dul                                 Network Operations Center
+InterNAP Network Services                   E-Mail: noc@internap.com
+andrew@internap.com                    206.256.9500 - 1.877.THE.INOC
+
+The contents of this email message are confidential and proprietary.
+

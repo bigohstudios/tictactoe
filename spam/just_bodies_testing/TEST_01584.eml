@@ -1,0 +1,21 @@
+help resizing a partition on GPT diskHi
+
+I have built a 5T partition with my raid card and just expanded it out
+to 9G, now I want to resize the partition I had to use parted so that
+I can use gpt partitions. Every time I go to resize partd tells me it
+doesn't know what fs ison the partition - its a pv.  so I am sort of
+stuck ...
+
+
+Never really used gpt before.
+
+Thanks
+Alex
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2n836a6dcf1004242349of39999f5ic803a5a91f9f4574@mail.csmining.org
+
+

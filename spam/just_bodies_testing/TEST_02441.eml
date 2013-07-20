@@ -1,0 +1,56 @@
+[SAtalk] German spam corpus / foreign language spamI've been lurking the SA lists since I installed SA on a production
+machine a while back. While SA did a surprisingly accurate job on
+detecting English language spam, it did not succeed very well on German
+language spam, which I keep getting increasing amounts of lately. I've
+got a lousy results with out of the box scores, very few spam is acually
+cought.
+
+What is the strategy with respect to foreign language spam recognition
+in SA? I've seen extremely few non-english rules. Is there foreign
+language rule development going on? Has anybody done work on German
+spam?
+
+In any case, I've started spam/nonspam corpi consisting of only German
+(and Swiss-German, respectively) messages, to be able to help with
+German rules. Anybody willing to contribute to the corpus feel free to
+resend/bounce German spam in a sane way to spam@roe.ch . I cannot be
+bothered to subscribe to SAsightings just for the odd German spam every
+hundred++ messages.. how about a list for foreign language spam
+sightings?
+
+Has anybody done this before or am I on the edge of duplicating effort
+here?
+
+I've been thinking on this a bit. I think it would be best if there
+would be general provisions for foreign language rules. In the spirit of
+the ok_languages option; let users easily enable or disable rules in
+certain languages. Like a foreign_rules option which could be used to
+control which foreign rulesets are active. Usually people would want to
+use checks in all languages which are in the ok_languages list.
+
+Is there any development or are there plans along those lines? Are there
+other people willing to contribute to effective spam filtering rules in
+German language?
+
+Any kind of feedback is welcome, even flames ;)
+
+Cheers,
+Dan
+
+
+-- 
+   Daniel Roethlisberger <daniel@roe.ch>
+   OpenPGP key id 0x804A06B1 (1024/4096 DSA/ElGamal)
+   144D 6A5E 0C88 E5D7 0775 FCFD 3974 0E98 804A 06B1
+   >> privacy through technology, not legislation <<
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

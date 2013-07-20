@@ -1,0 +1,16 @@
+Re: debian lenny support timeFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, Apr 28, 2010 at 15:38 +0200, Israel Garcia wrote:
+> Do you know the support time for debian lenny?
+
+Security support for stable releases is typically terminated one year
+after the next stable release has been made.
+
+--=20
+  .''`.     Wolodja Wentland    <wentland@cl.uni-heidelberg.de>=20
+ : :'  :   =20
+ `. `'`     4096R/CAF14EFC=20
+   `-       081C B7CD FF04 2BA9 94EA  36B2 8B7F 7D30 CAF1 4EFC

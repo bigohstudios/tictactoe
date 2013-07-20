@@ -1,0 +1,124 @@
+From - Mon Feb 15 10:27:05 2010
+X-Account-Key: account2
+X-UIDL: UID11016-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id D7C812C311
+	for <m0620212@mail.csmining.org>; Sat, 13 Feb 2010 19:31:41 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id D3E092C287
+	for <m0620212@mail.csmining.org>; Sat, 13 Feb 2010 19:31:41 +0900 (JST)
+X-ASG-Debug-ID: 1266057101-761ddcce0001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id wchNyQo7KXLUzR4k for <m0620212@mail.csmining.org>; Sat, 13 Feb 2010 19:31:41 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o1DAVfa1020953
+        for <m0620212@mail.csmining.org>; Sat, 13 Feb 2010 19:31:41 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id o1DAVfPW020948
+        for <hibody@csmining.org>; Sat, 13 Feb 2010 19:31:41 +0900 (JST)
+Received: from 078088119026.dzierzoniow.vectranet.pl (078088119026.dzierzoniow.vectranet.pl [78.88.119.26])
+      by ns1.csmining.org  with ESMTP id o1DAVc7k017988
+      for <hibody@csmining.org>; Sat, 13 Feb 2010 19:31:39 +0900 (JST)
+Date: Sat, 13 Feb 2010 19:31:38 +0900 (JST)
+X-Barracuda-BWL-IP: 78.88.119.26
+X-Barracuda-BBL-IP: 78.88.119.26
+X-Barracuda-RBL-IP: 78.88.119.26
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Message-Id: <201002131031.o1DAVc7k017988@ns1.csmining.org>
+From: "VIAGRA from Pfizer" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: hibody Winter -80% Deals
+Subject:   hibody Winter -80% Deals
+Content-Type: text/html; charset="ISO-8859-1"
+MIME-Version: 1.0
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1266057101
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (*seedchoice.ru)
+X-Barracuda-Spam-Score: 21.65
+X-Barracuda-Spam-Status: No, SCORE=21.65 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC2_SA154d, BSF_SC5_MJ3761, BSF_SC5_MJ3762, HTML_IMAGE_ONLY_24, HTML_IMAGE_ONLY_24_2, HTML_IMAGE_RATIO_02, HTML_MESSAGE, MIME_HTML_ONLY, SH_BIG5_05413_BODY_104, URIBL_WS_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.22421
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.00 HTML_IMAGE_ONLY_24     BODY: HTML: images with 2000-2400 bytes of words
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: seedchoice.ru]
+	0.50 BSF_SC5_MJ3761         Custom Rule MJ3761
+	1.28 HTML_IMAGE_ONLY_24_2   HTML: images with 2000-2400 bytes of words
+	1.00 BSF_SC5_MJ3762         Custom Rule MJ3762
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	2.50 BSF_SC2_SA154d         Custom Rule SA154d
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	Realtime IP - 222.241.12.32
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>December 2009</title>
+</head>
+
+<body>
+
+<table width="655" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; background-color:#ffffff;">
+        <tr>
+                <td align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; padding-left:19px; background-color:#ffffff;">If you cannot see this email,&nbsp;
+                <a href="http://45a98.seedchoice.ru/" target="_blank" style="color:#0099ff; font-weight:bold; text-decoration:underline;">click here</a>.</td>
+
+        </tr>
+    <tr>
+                <td align="center">
+                <br />
+        <br />
+        <a href="http://d3b2.seedchoice.ru/" target="_blank">
+        <img alt="Missing pictures? Press this link!" src="http://i074.radikal.ru/1002/0c/6a6331adcd5c.jpg" height="509" width="499" border="0" /></a><br />
+        <br />
+        </td>
+    </tr>
+
+    <tr>
+                <td align="center" style="text-align: left">
+                        <a href="http://d9c66.seedchoice.ru/" target="_blank" style="color:#000000; text-decoration:underline;">
+        Sign up</a> for other emails.<br /><br />
+                        You are subscribed to this email as hibody@csmining.org,
+        hibody<br />
+                        You can unsubscribe from this email by <a href="http://734f.seedchoice.ru/" target="_blank" style="color:#000000; text-decoration:underline;">
+        updating your preferences</a>.<br />
+                        <br />
+
+                        View our <a href="http://bd9e.seedchoice.ru/" target="_blank" style="color:#000000; text-decoration:underline;">
+        privacy policy</a>.<br />
+                        <br />
+
+
+                        Copyright c 2009 ODEVEF. All rights
+        reserved.</td>
+    </tr>
+
+
+</table>
+</body>
+</html>
+

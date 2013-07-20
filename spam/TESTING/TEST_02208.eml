@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId128393e22f308d9d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs76508wfj;
+        Mon, 26 Apr 2010 01:31:35 -0700 (PDT)
+Received: by 10.87.49.36 with SMTP id b36mr1254072fgk.57.1272270693619;
+        Mon, 26 Apr 2010 01:31:33 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h2si7871306fkh.55.2010.04.26.01.31.32;
+        Mon, 26 Apr 2010 01:31:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6731613A5419; Mon, 26 Apr 2010 08:31:22 +0000 (UTC)
+Old-Return-Path: <alex@samad.com.au>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0DBB913A5412
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 08:31:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Z0lnH98gui+G for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 08:31:08 +0000 (UTC)
+Received: from mail-pz0-f198.google.com (mail-pz0-f198.google.com [209.85.222.198])
+	by liszt.debian.org (Postfix) with ESMTP id 1655713A52AC
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 08:31:07 +0000 (UTC)
+Received: by pzk36 with SMTP id 36so4343124pzk.24
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 01:30:57 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.141.188.5 with SMTP id q5mr3145020rvp.82.1272270657297; Mon, 
+	26 Apr 2010 01:30:57 -0700 (PDT)
+Received: by 10.231.143.198 with HTTP; Mon, 26 Apr 2010 01:30:57 -0700 (PDT)
+In-Reply-To: <g2pc364d9921004260100pa2672f76vc4b7e23a2740053d@mail.csmining.org>
+References: <l2jc364d9921004230806uaa459490t6e9af463a9845786@mail.csmining.org>
+	 <t2l52d26d931004230811n9fb0a513zf98ad3432ede9f98@mail.csmining.org>
+	 <20100424191139.GH2824@fever.havannah.local>
+	 <x2g9b3004971004241956kdd1e6ab5j6bc962f52f9ddc6f@mail.csmining.org>
+	 <g2pc364d9921004260100pa2672f76vc4b7e23a2740053d@mail.csmining.org>
+Date: Mon, 26 Apr 2010 18:30:57 +1000
+Message-ID: <x2m836a6dcf1004260130h264b2078u1ef0ee45f560e7ce@mail.csmining.org>
+Subject: Re: Problem with me Modem Huawei on Debian Lenny
+From: Alexander Samad <alex@samad.com.au>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8F5Vb99LgwP.A.Pn.a9U1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575090
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 08:31:22 +0000 (UTC)
+
+Hi
+I have a different 3g usb modem, and I have found after .31 there is a
+problem loading the firmware into the device. maybe you are running
+into the same problem.
+
+There was a change to the qcserial - there is a regression bug again
+32+ which make the firmware fail.
+
+Alex
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2m836a6dcf1004260130h264b2078u1ef0ee45f560e7ce@mail.csmining.org
+
+

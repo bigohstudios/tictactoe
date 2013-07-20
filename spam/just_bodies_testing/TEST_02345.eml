@@ -1,0 +1,31 @@
+[Razor-users] spamassassin+razor2From nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+I am wondering if anybody has successfully install a site-wide =
+spamassassin+razor2 installation. I am having so much trouble and the =
+following is the extract of my procmail.log.
+
+razor2 check skipped: Bad file descriptor Insecure dependency in open =
+while runn
+ing setuid at =
+/usr/local/lib/perl5/site_perl/5.6.1/Razor2/Client/Config.pm line
+410, <GEN23> line 1.
+>>From info@znion.com  Thu Sep  5 11:55:15 2002
+ Subject: *****SPAM***** Computer Maintenance
+  Folder: /home/eugene/caughtspam                                        =
+  8343
+
+
+In razor-agent.log, I simply get the bootup message and that's it...
+
+Sep 05 11:55:15.668648 check[8478]: [ 1] [bootup] Logging initiated =
+LogDebugLeve
+l=3D14 to file:/var/log/razor-agent.log
+
+Please help. Thanks.
+
+Eugene

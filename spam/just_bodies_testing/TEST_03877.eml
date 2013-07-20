@@ -1,0 +1,33 @@
+Re: Amarok's IssuesOn Mon, Apr 12, 2010 at 14:01, Diederik de Haas <didi.debian@cknow.org> wrote:
+> On 2010-04-12 Edson Marquezani Filho wrote:
+>> 3) Pause just dont't work. Instead of it, the music is started over
+>> again, from the beginning.
+> I've had this problem some time ago, but it went away, probably due to an upgrade or sth.
+> I'm running sid/experimental (=KDE 4.4.2 and amarok 2.3.0).
+>
+
+I switched to phonon-backend-xine, as recommended by Debian page[1]
+and pause function started to work. (What means that problem 3 seems
+to be gone.)
+
+The others problems are still there, altough the first (about skiping
+second tracks on the list) sometimes happens and sometimes don't. I'm
+not sure about what it is related to.
+
+I'm using SQLite as database backend, but I'll try MySQL. I just
+didn't want to have such a dependency of a external program, I would
+like that Amarok could be able to work all by itself, but, I know that
+a MySQL database would be much better when it comes to data managment,
+and switching to it would be not so bothering at all.
+
+I'll keep my eyes open and consider to fill some bugs on upstream. =)
+
+[1] http://amarok.kde.org/wiki/Download:Debian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2m2fc5f091004130426x84c82c1cs375f612af5ace784@mail.csmining.org
+
+

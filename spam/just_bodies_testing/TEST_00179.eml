@@ -1,0 +1,16 @@
+how to control tty to external monitor or local lcdFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi
+
+I have a hp mini, which has a 0:02.0 VGA compatible controller: Intel
+Corporation Mobile 945GME Express Integrated Graphics Controller (rev 03)
+
+I would like to know how I can force ttyX to go to the external monitor and
+then back to the local lcd.
+
+Also have a problem that if I have my X going to an external monitor and
+then suspend and re awaken with the laptop not connected to an external
+monitor I can't get my X session back I have to restart gdm.
+
+alex

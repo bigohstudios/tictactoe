@@ -1,0 +1,27 @@
+Re: X server starts on the wrong console (was: New monitor, how to
+ change screen resolution?)On Thu, 2010-04-29 at 17:35 -0400, Stephen Powell wrote:
+
+> and it will work.  Then, in theory, restarting the X server again
+> (such as with /etc/init.d/gdm restart) should cause the X server
+> to restart on vt 7.  This used to work, but the last time I tried
+> it I ended up with two X servers, one on VT 7 and one on VT 8!
+> I had to reboot to clean things up.  This situation is a mess and
+> seems to be getting worse.  As long as you login to GNOME only once
+> per boot and shutdown the system from GNOME you won't have this
+> problem.  The initial allocation of VT 7 after a reboot works fine.
+> But if you logout of GNOME after logging in, you're likely to have
+> this problem.  It doesn't seem to fail all the time, though.  Perhaps
+> it is a timing-related problem.
+
+I've noticed this too lately, although i use the nvidia driver created
+by module assistant.
+
+I wonder if anyone not using the nv or nvidia driver also see this?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272577438.12886.2.camel@debian.ok.shawcable.net
+
+

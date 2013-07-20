@@ -1,0 +1,45 @@
+Re: Best way to install kde-standardI went ahead and tried to get kde-standard in the following way:
+"aptitude install kde-plasma-desktop"
+"aptitude install --without-recommends kde-standard"
+
+Here are my findings:
+
+On 2010-05-08 Diederik de Haas wrote:
+> After rebooting and logging into KDE I noticed the following things:
+> - When plugging in a usb device, device-notifier didn't notice anything and
+> the only way to access  that usb device was to use mount it from Konsole
+> - The battery monitor didn't work at all
+> - I did not have a suspend to disk/ram option
+> - System Monitor - Harddisk didn't see any partitions
+
+Device notifier works as expected, battery monitor works, suspend to disk/ram is not only available, 
+but even working :-) system monitor - harddisk picks up my / and /home just as expected.
+ 
+> The difference in --with-recommends and --without-recommends are so big wrt
+> kde-standard that I think  kde-standard should be installed with the
+> recommended packages.
+> But leaving out network-manager-kde seems to also not install some packages
+> which may have  contributed to the problems described above. On first
+> inspection libgudev-1.0-0 and libknotificationitem-1-1 seem especially
+> relevant.
+
+Since all previous reported issues work now, network-manager-kde is not needed, nor it's 
+dependencies.
+
+> So I would like to know how other ppl are installing kde(-standard) without
+> bloating their system,  but with a properly functional one.
+> Tips/tricks/etc are also welcome.
+
+Although I fixed the issues I had, I'm still interested, especially ppls experience with recommended 
+packages.
+
+Regards,
+  Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005081703.16728.didi.debian@cknow.org
+
+

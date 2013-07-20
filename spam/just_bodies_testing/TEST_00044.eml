@@ -1,0 +1,39 @@
+Re: using samba with unix aclsFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 14:00:51 andy baxter wrote:
+> I am setting up a file server for a small company. The people who will
+> be using it want to be able to control who accesses particular
+> directories on a user/group basis.
+> [T]hey are
+> keen to have a system which allows them to make some parts of the
+> filesystem available to more than one group.
+>=20
+> I think that to achieve this I will need to set up samba with unix ACLs,
+> but I'm not sure what's the best way of doing this - the two options
+> seem to be using a patched kernel with an ext3 filesystem, or else using
+> the XFS filesystem which has built in ACL support. Which of these would
+> you recommend?
+
+The Lenny kernel is configured with POSIX ACL support for ext2/3/4dev and=20
+generic ACL support.  I don't think you'll need to patch the kernel, but I=
+=20
+could be wrong.
+
+> The XFS option seems a lot simpler to maintain (no need to patch the
+> kernel every time an update is released), but I'm worried that because
+> this filesystem is not used so much, it may not be as reliable as ext3.
+
+XFS is mature, fast, and well-supported by the kernel team.  If your system=
+ is=20
+subject to unclean shutdowns (e.g. power failure w/o a UPS), you might want=
+ to=20
+tune your system to flush the XFS cache to disk a bit more often than the=20
+defaults.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

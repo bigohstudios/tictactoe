@@ -1,0 +1,31 @@
+Re: using wodimOn 2010-04-07 14:21, Germana Oliveira wrote:
+> Hi!
+> Recently i start to use wodim by console to writte a CD-RW, my CD-ROM 
+> (internal, writter) persented problems so im using an externar 
+> cd-writter (hp cd.writer 2800 series), but still im having problemas.
+> 
+> i try this:
+> 
+> (root user) wodim -v -eject   hibody speed=0 dev=/dev/scd0 -data 
+> /home/user/image.iso
+> 
+> and im getting this error
+> 
+> wodim: trying to use a high speed medium on low writter
+> 
+> ¿? What can i do ¿?
+> 
+
+Maybe try speed=2 or (dreadfully) speed=1.
+
+-- 
+"History does not long entrust the care of freedom to the weak
+or the timid."  Dwight Eisenhower
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBCDD01.6040809@cox.net
+
+

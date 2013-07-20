@@ -1,0 +1,93 @@
+Re: How to migrate my localhost php site to my ISP - Was: willing
+ to learn php basicsJoe wrote:
+> On 15/04/10 22:43, Bernard wrote:
+>> Hi Avi, Hi to Everyone,
+>>
+>> Avi Greenbury wrote:
+>>> Bernard wrote:
+>>>> Have I got to install one or more Debian packages for PHP ?
+>>>> '$apt-cache search PHP' gives too many results for a choice.
+>>>
+>>> You want to do
+>>> # apt-get install php5 php-mysql apache2
+>>>
+>>> Which will also pull in the php5 apache module.
+>>> By default, the web pages live under /var/www, the php config file
+>>> is /etc/php5/apache2/php.ini and the apache config is all
+>>> under /etc/apache2/, with apache2.conf being the 'main' config file.
+>>>
+>>> There're several howtos on the net to talk you through it, howtoforge
+>>> is a bit of a goldmine for them.
+>> I have now got to a point that I have a working MySQL database system on
+>> my localhost machine. I thought that I would not have any problem
+>> migrating this to my ISP appropriate MySQL space, but so far I have
+>> failed to do so. Local doc is very scarce, and I did not find any
+>> relevant FAQ. I did find the relevant paths though, and succeeded
+>> installing a short php script which displays the current date, using
+>> strftime(), but there is no way I can access databases. From the online
+>> doc, I learnt that I can't create databases, and that I can just create
+>> tables under the database that already exists. If I import a table, only
+>> its structure gets imported, not its content, and then an error message
+>> says that I don't have privileges for this... so I am surely missing
+>> something as far as setting up is concerned, or initialization. In my
+>> efforts to fetch info, I got a few hints, but they were negative ones,
+>> for instance someone kind of said that most ISP did not allow their
+>> customers to more than one authenticated user. This would mean that I
+>> could not expect to install a database that would be available to the
+>> members of a club, each of them having a login and password.
+>>
+>> Could someone tell me where I could find relevant information and docs ?
+>> And maybe mention one or more ISP that would provide suitable mysql
+>> facilities ?
+>>
+> For another perspective:
+>
+> I use 1&1 (http://1and1.com) for a web database. They have several 
+> level of package, the one I use has MySQL facilities, ftp and also ssh 
+> access to the virtual server that runs apache.
+>
+> As Monique said, you can use MySQL to store passwords and write your 
+> own login script, but you should also be able to use basic 
+> authentication (with .htpass files) in the web server to require a 
+> user name and password for access to web pages, which may well be 
+> enough for your purposes. The advantage is that it's simple to set up, 
+> the disadvantage is that you have to set the passwords and communicate 
+> them to the users, they cannot change them. Neither of these 
+> techniques count as authentication to the operating system or MySQL 
+> itself, so the single user isn't a problem.
+>
+> The MySQL installation at 1&1 is accessible by a public IP address 
+> from the virtual server, but this is not guaranteed to be available 
+> from outside their own network. They advise that the database be 
+> accessed only from the virtual server, either through ssh or the web 
+> server.They recommend installing phpmyadmin, which is a script which 
+> runs on the web server.
+>
+> Monique and Avi mentioned mysqldump, and phpmyadmin offers similar 
+> features remotely through a web page, including uploading of .sql 
+> files, by which you can create and populate entire databases if 
+> necessary. It can also backup the database to a file on the client 
+> computer. You can access phpmyadmin from anywhere, and you need to 
+> login to it using the MySQL credentials. The phpmyadmin information 
+> page can also tell you quite a lot about how the apache and MySQL 
+> installations are configured.
+>
+> One last point: even if you don't advertise the website outside your 
+> club membership, it will be found by others, and you need to 
+> understand at least SQL injection and cross-site scripting attacks on 
+> web servers, and the facilities that PHP offers to help defend against 
+> them. You should also regularly check your web server directory 
+> structure and files for signs of tampering. And a whole load of other 
+> things, but web server security is a career in itself...
+>
+Thanks for your advice. I do have 'mysqladmin' installed on both ISP, 
+but I lack super user privileges, and most functions are therefore 
+unavailable to me, as explained in my previous post.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC97DC1.4090806@teaser.fr
+
+

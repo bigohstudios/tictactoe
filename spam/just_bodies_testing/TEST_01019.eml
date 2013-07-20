@@ -1,0 +1,46 @@
+RE: Unable to connect to my home wireless
+> So while Thomas could file a bug, I don't think it's not=20
+> germane to complain about DDs putting everything under the=20
+> sun into a dependency list.  Here's the place for the=20
+> community to decide whether we really need to force an=20
+> install of network-manager (or avahi) when they're not really=20
+> needed, or decide that because some cases might require it=20
+> everyone should have it.
+>=20
+> Anyway, just my 2c
+>=20
+> James ------------------------------------=20
+>=20
+> Only time I have incurred this is when I have preferences set to
+> include "recommended" files as "dependencies" thereby passing control
+> of the upgrade to the system. Not a good idea BTW!! I use=20
+> synaptic most
+> of the time & I suspect aptitude has a similar setting. command line
+> updates do not have this issue.:-)
+>=20
+>=20
+
+Please correct me if I'm wrong, but I believe you don't actually set prefer=
+ences to install recommends.  This is now the Debian default.  You have to =
+explicitly turn them off if you don't want them.
+
+To avoid this, you should place these lines in /etc/apt/apt.conf:
+
+APT::Install-Recommends "0";
+APT::Install-Suggests "0";
+
+I agree -- recommends are not depends, and they should not be automatic.  A=
+nd yet they are.
+
+(Also note that I have the above lines in my apt.conf and I *still* got net=
+work-manger.)
+
+James
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4A09477D575C2C4B86497161427DD94C14A6C836BE@city-exchange07
+
+

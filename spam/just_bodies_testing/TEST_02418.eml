@@ -1,0 +1,67 @@
+Re: What are my locale settings, for non-terminal apps?On 5/3/2010 4:39 PM, Dotan Cohen wrote:
+> I need to have separate locale settings for my terminal apps, so I
+> configure that in .bash_profile. I assume that my desktop environment
+> is using my locale settings from .profile but I'd like to confirm what
+> those settings are. How can I get the output of locale _not_ from a
+> terminal (which will source .bash_profile and thus be incorrect)?
+>
+> Thanks.
+>
+
+I think locale is the same for terminal and non-terminal apps, except 
+you can set locale separately for each separate environment.
+
+
+echo $LC
+echo $LC_MESSAGES
+echo $LC_CTYPE
+echo $LC_COLLATE
+echo $LC_TIME
+echo $LC_MONETARY
+echo $LC_NUMERIC
+echo $LC_PAPER
+echo $LC_NAME
+echo $LC_ADDRESS
+echo $LC_TELEPHONE
+echo $LC_MEASUREMENT
+echo $LC_ALL
+
+(unset LC_ALL if you need different locales for different things)
+
+echo $LOCALE
+echo $LANG
+echo $GDM_LANG
+
+
+
+
+In C:
+
+
+#include <locale.h>
+#include <stdio.h>
+//
+// not tested
+//
+
+char *some_locale="C";
+if setlocale(LC_MESSAGES,some_locale)
+    printf ("messages locale set to %s\n", some_locale);
+else
+    prinf ("setlocale failed\n");
+// .
+// .
+// .
+
+
+Off the top of my head...
+
+MAA
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDF4C48.6070907@allums.com
+
+

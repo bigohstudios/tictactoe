@@ -1,0 +1,48 @@
+Re: [Razor-users] razor-cache ?Good day, zenn,
+
+On Fri, 2 Aug 2002, zenn wrote:
+
+> as I see it, there is a valid need for a "razor-cache" server that is
+> available to the local smtp host...
+> recursiveness would also be a nice feature, giving us the option to link
+> caches to offload the burden on the razor servers...
+> it could also allow us to setup local razor caches for private networks that
+> can bypass the razor servers all together...
+> any commensts ?
+
+	http://www.stearns.org/razor-caching-proxy/ is what you're looking 
+for for the razor1 protocol.  The equivalent for razor2 is on hold pending 
+documentation of the razor2 protocol.
+	Jordan, is that still in the "finishing touches" stage?  *smile*  
+I'm betting that the infinite demands of getting a startup going put it on 
+the back burner.  Please let me know if I can help; if you need someone to 
+check it over, I'd be glad to do that.
+	Cheers,
+	- Bill
+
+---------------------------------------------------------------------------
+	"Power concedes nothing without a demand. It never did, and it
+never will.  Find out just what people will submit to, and you have
+found out the exact amount of injustice and wrong which will be imposed
+upon them; and these will continue until they are resisted with either
+words or blows, or with both.  The limits of tyrants are prescribed by
+the endurance of those whom they oppress."
+	-- Frederick Douglass, August 4, 1857
+(Courtesy of Eric S. Raymond)
+--------------------------------------------------------------------------
+William Stearns (wstearns@pobox.com).  Mason, Buildkernel, named2hosts, 
+and ipfwadm2ipchains are at:                        http://www.stearns.org
+--------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

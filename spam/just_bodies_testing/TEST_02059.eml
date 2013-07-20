@@ -1,0 +1,38 @@
+Re: Trying to get a kernel patch included in SqueezeFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu,13.May.10, 11:19:09, deloptes wrote:
+>=20
+> I don't understand. you are compiling the kernel anyway. why not compile =
+the
+> latest stable?
+
+I guess it was not very obvious from my first message. My goal is to fix=20
+this issue for Squeeze, not for me, but for other users potentially=20
+affected by this bug. It won't affect me as I only use unstable on this=20
+machine. But in order to help fix it I need to:
+
+1. backport the patch for 2.6.32
+2. recompile a standard Debian kernel with the patch included (for=20
+testing purposes)
+3. report a bug with the backported patch included asking for inclusion=20
+in the default squeeze kernel
+
+Unfortunately I lack the skills for 1. and I was asking for comments on=20
+whether it is too complicated to pursue:
+
+- if it's trivial I could just go to 3., offer my help for 2. and hope=20
+  the kernel team has enough time to do 1.
+- if it's doable I could ask on alsa-user or alsa-devel, hoping to find=20
+  a kind soul to help
+- if it's too complicated I can just drop it since the issue would be=20
+  solvable in squeeze by installing a newer kernel from backports (not=20
+  ideal)
+
+Hope this explains,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

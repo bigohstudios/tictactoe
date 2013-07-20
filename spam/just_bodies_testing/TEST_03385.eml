@@ -1,0 +1,40 @@
+auto mounting a partition with nobrowseI've trying to solve a problem which requires 2 components, the first  
+which has been solved by the code from the SampleFilterScheme project  
+which makes my partition mountable.
+
+Currently the partition mounts and is viewable in the finder and on  
+the Desktop, manually I use diskutil to unmount the partition  
+(diskutil unmount /dev/disk0s3s1) and use hdiutil to mount it  
+(hdiutil mount /dev/disk0s3s1 -nobrowse) to hide it and this is OK  
+for me since I know how to do this but expecting users to perform  
+this task.
+
+I'm told that I need to use the DA framework to achieve this task  
+however I am unable to find any sample code that shows me how to  
+mount a partition with flags.
+
+I realize everyone will ask why I need to do this and to make it  
+short I want it hidden from view to prevent people from any  
+accidental wrong-doings.
+
+I've read the list archives and what I have concluded is that this is  
+a complicated matter that is well beyond my capabilities so finding  
+sample code I can adopt for this use would make my life significantly  
+easier and allow me to keep what little hair I have left.
+
+The partition in question wli always be /dev/diskXs3s1 so finding  
+them is easy, unmounting and remounting with the nobrowse flag is my  
+problem and I'm probably looking at it wrong, maybe the initial mount  
+request can be interrupted and the option set.
+
+Sample code that shows how to do either would be greatly appreciated.
+
+-- Dale
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

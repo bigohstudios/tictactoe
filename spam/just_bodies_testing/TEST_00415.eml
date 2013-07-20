@@ -1,0 +1,30 @@
+Re: executable won't executeHi,
+
+> [readelf output]
+> 
+> ELF Header:
+> [...]
+
+>  INTERP         0x000114 0x08048114 0x08048114 0x00011 0x00011 R   0x1
+>      [Requesting program interpreter: /lib/ld-lsb.so.3]
+
+That dynamic linker doesn't look right. A little googling shows that
+Redhat and Suse seem to be using that one now. A missing linker is,
+by the way, the only other reason for execve() to return ENOENT ("file
+not found") I know of - missing dependencies produce a different error.
+
+Anyway, Debian still has /lib/ld-linux.so.2 - you could try symlinking
+them, but I doubt it will work.
+
+
+Regards,
+
+Jan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100515090425.GA3589@apocatequil
+
+

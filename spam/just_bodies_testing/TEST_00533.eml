@@ -1,0 +1,53 @@
+Re: new bugsFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Thu, 18 Jul 2002 18:21:28 -0500
+>
+> > From:  Anders Eriksson <aeriksson@fastmail.fm>
+> > Date:  Thu, 18 Jul 2002 11:57:06 +0200
+> >
+> > 
+> > I just installed from cvs as of today and compared to cvs as of ~2 
+> > months ago:
+> > 
+> > +Snapper behaviour when 'n'ing through mails! Nice!
+> > 
+> > -my bgprocessing runs flist each minute. What happens is that the 
+> > flist goes blank for about 0.5 seconds and then redisplays from the 
+> > top of the list. This, while I was reading messages somewhere in the 
+> > middle of the list.
+> > 
+> > -new messgaes tends to be colored in black (as if read) although the 
+> > are not. It is especially obvious since my scan format slaps in a 'U' 
+> > after the msg id for those messages.
+> > 
+> > -the current mgs marker '+' seems to disappear after the bg flist. 
+> > Don't really know if that matters though. They are still there on 
+> > disk according to nmh.
+> 
+> I fixed the last and least important one.
+> 
+> After making flist run once a minute, I've seen the first two, but they don't 
+> always occur.  I'll keep looking.
+
+I think I found the bug that caused this.  However, since I couldn't make it 
+happen every single time, I may have just been lucky since I made my change.  
+At any rate, the change I just made is clearly more correct than what was 
+there before.
+
+Let me know if I'm mistaken.
+
+Chris
+
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

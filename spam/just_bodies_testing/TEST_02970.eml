@@ -1,0 +1,28 @@
+Re: Setting -Xmx dynamically at launch time under 64bitOn 21/05/2010, at 16:49, Willis Morse wrote:
+
+> 1) Create a native launcher that queries RAM status and launches the =
+Java executable with an appropriate -Xmx parameter. There are several =
+open-source launcher projects  (such as Launch4J) that will do this, but =
+these only support Windows launchers and they will only run under =
+Windows. Has anyone heard of a Mac equivalent?
+
+Here's some code that can help you handling the situation where the =
+launcher is running in 64-bit but no 64-bit JavaVM is available on the =
+system:
+http://glimmerblocker.org/browser/trunk/PrefsPane/proxyApp/proxy.c
+
+The code hasn't been updated to use the /usr/libexec/java_home =
+executable provided in the latest java update.
+
+----
+   - Peter Speck
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

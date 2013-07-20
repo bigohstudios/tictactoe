@@ -1,0 +1,26 @@
+Re: [ILUG] vanquishing the daemons of shell scriptingOn Sat, Jul 20, 2002 at 10:47:36AM +0100, Stephen Shirley wrote:
+...
+> 	It's very easy to get one program to act on the output of a second
+> program: cmd1 | cmd2. But, what if you want cmd1 to act on the output of
+> cmd2 as well? Hmm. Eventually, I came up with this solution:
+> 
+> 	mkfifo io
+> 	cmd1 <io | cmd2 > io
+...
+> mine, and i is happy person once again. In case you were wondering, the
+> aim of all of this was to write a shell script that could check for new
+> mail on an imap server.
+
+Doesn't answer your question, but perhaps a combination of expect and
+(netcat or telnet) might have made for an easier solution?
+
+Later
+Kenn
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

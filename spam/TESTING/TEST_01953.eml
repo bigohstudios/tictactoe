@@ -1,0 +1,98 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283ff2111cf8c59
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs139491wfj;
+        Tue, 27 Apr 2010 08:45:50 -0700 (PDT)
+Received: by 10.87.70.7 with SMTP id x7mr8089045fgk.77.1272383148259;
+        Tue, 27 Apr 2010 08:45:48 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si11048601fkq.34.2010.04.27.08.45.47;
+        Tue, 27 Apr 2010 08:45:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 760E913A56F0; Tue, 27 Apr 2010 15:45:24 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.5 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FOURLA,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E476E13A56C4
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 15:30:13 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-8.7 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id cP7iQgy7AIjE for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 15:30:06 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id 22F0A13A4989
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 15:30:06 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id F02983A60B0
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 17:30:03 +0200 (CEST)
+From: eixman@gmx.de (Florian Rehnisch)
+Subject: Re: Lite SMTP server/daemon
+Date: Tue, 27 Apr 2010 15:26:06 +0000 (UTC)
+Message-ID: <2010-04-27$15.14.25@x.vimhelp.de.vu>
+References: <4BD1E3C5.23069.11D86AA@export.hope.cz>
+To: debian-user@lists.debian.org
+Organization: albasani.net
+X-Trace: news.albasani.net dwAv0hoTVSLLhiT4FfPL7991v5zXJoMiNFIB0GsE6TPuW95AhjvaaXZYTt4txY4MQKzi85pYHdxnCaKjYvDPEBJzM80nGfAplmnQzcYJGjmM2ni5FCe2grGyaj9i7WNY
+X-Complaints-To: abuse@albasani.net
+X-User-ID: uprslCTvn0anyf/tfrO11JkFyumfYO08qzYY7XMvLkw=
+X-Debian: squeeze/sid
+X-Face: #=0D6>,S]I3Gx`2mT34QDf]m,X.DVA_|,1de'B!<KBvK:G^(`O)Zh2wJto=M3]`}wYj
+ 2e|]sI!+=#L#n9@:x*](YSEe)94Wr0Re2O0"kEY8b_"53P=wI3stMOBT$E#3nRuGAilWP_Y!Lx
+ z?beBY!(K\oZ!74q8v|2lt7fm"n0B.#E5N"T"n];jutK;F"./a!0T(v3>@!=7O%/^?)(00JV8h
+ \n~kqPp-
+Cancel-Lock: sha1:yxXRR7RcgsBXg2yobwozwI95vNk=
+User-Agent: tin
+X-NNTP-Posting-Host: QC2oDNiEC5frn0qCpCXjoWtyetbOWMpNMiMR0LpSdGQ=
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eCu54-86T-15@gated-at.bofh.it>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Xu-dnXFoGhM.A.4RC.Uaw1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575276
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 15:45:24 +0000 (UTC)
+
+o export@hope.cz:
+
+> Does anyone know about a tiny  / liteweight  SMTP server for Linux( Debian)? I need the 
+> server that can accept several connections at the same time .
+
+dunno if it fits for you, but on my boxes i use masqmail.
+-- 
+Florian "eix" Rehnisch <eixman@gmx.de> +49-1520-9573489
+GPG 1CF2467F ICQ 99773910 eix_@{freenode,ircnet,debian}
+http://tinyurl.com/xxxterm-eix -- Webbrowser a la Vi(m)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2010-04-27$15.14.25@x.vimhelp.de.vu
+
+

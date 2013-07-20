@@ -1,0 +1,88 @@
+Re: Filesystem recommendationsFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 16:05:31 B. Alexander wrote:
+> On Mon, Apr 26, 2010 at 2:22 PM, Boyd Stephen Smith Jr. <
+> bss@iguanasuicide.net> wrote:
+> > I'm also a current reiser3 user.  I find the ability to shrink the
+> > filesystem
+> > to be something I am not willing to do without.
+>=20
+> You know, I said the same thing, but then as the kernel and GRUB and the
+> like advanced, I noticed that my reiserfs partitions would have to replay
+> the journal every time I rebooted, even after a clean shutdown. I started
+> calculating how many times I shrunk any of my partitions in the last 8
+> years, and I can only recall twice. And since I have several terabytes
+> around the house, I figure I can migrate data and delete/recreate
+>  partitions if I really need to reduce it.
+
+That doesn't seem right.  I have been using reiser3 since 2005, and my syst=
+em=20
+does not require a journal replay if I do a clean shutdown/reboot.  A force=
+d=20
+reboot through Alt+SysRq+B does trigger a journal replay (as it should).
+
+I also have 4+ tebibytes but most of them are allocated to filesystems.  I'=
+ve=20
+had to shrink filesystems dozens of times since 2005, during or after a dat=
+a=20
+move.
+
+I don't use partitions (much), having been using LVM happily for everything=
+=20
+except /boot.  I'm hoping to be able to move that onto LVM once I move to=20
+GRUB2 and GPT.
+
+> > I have not read the rest of the thread, but my off-the-cuff
+> > recommendation would be to start migration to btrfs.  Now that the
+> > on-disk format has stabilized, I am going to start testing it for
+> > filesystems other than /usr/local, /var, and /home.  Assuming I can keep
+> > those running well for 6-12
+> > months, I will migrate /usr/local, /var, and then /home, in that order,
+> > with a
+> > 1-3 month gap in between migrations.
+>=20
+> I might play with it for some non-critical partitions, or ones that I can
+> mirror on an established filesystem, even if it is only to use in an
+> "Archive Island" scenario, where I have a LV that I can mount, sync and
+> umount. However, btrfs is not included in the kernel, is it? As I recall,
+> nilfs2 has kernel support, but that was the only one of the new
+>  filesystems, at the time when I started looking at this.
+
+btrfs is included in 2.6.31.12-0.2-default in openSUSE 11.2.  It is also=20
+included in linux-image-2.6-686 and linux-image-2.6-amd64 for lenny-backpor=
+ts,=20
+testing, and sid.  I don't normally deal with other=20
+architectures/distributions, so it might also be available there.
+
+> > I've already encountered an issue related to btrfs in my very isolated
+> > deployments.  The initramfs created by update-initramfs does not appear
+> > to mount it properly.  Instead I am given an '(initramfs)' prompt and I
+> > have to
+> > mount the filesystem manually (a simple two-argument mount command
+> > suffices)
+> > and continue the boot process.  This is fine for my laptop, but servers
+> > (and
+> > even my desktop) need to be able to boot unattended; I am still
+> > investigating
+> > the issue, which may just be due to my configuration.
+>=20
+> That is enough to give me pause...
+
+It doesn't appear to be a file system issue, but rather a problem with the=
+=20
+initramfs scripts.  It could also be rooted in my configuration.  I know th=
+at=20
+my "root=3D" kernel parameter has to differ from the device name in my=20
+/etc/fstab in order to get the initramfs to correctly initialize LVM.
+
+I don't mind being a first adopter for this in particular; I hope to be abl=
+e=20
+to report good things about btrfs by this time next year.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

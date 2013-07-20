@@ -1,0 +1,18 @@
+Re: kde-core list should be updated (live-helper)From nobody Sat Jul 20 14:17:31 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On sekmadienis 02 Gegu=C5=BE=C4=97 2010 13:38:43 Diederik de Haas wrote:
+> and when 5:59 gets into testing it should become:
+> #if DISTRIBUTION squeeze sid
+> kde-plasma-desktop
+> #endif
+
+Why not just use kde-standard instead?
+
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>

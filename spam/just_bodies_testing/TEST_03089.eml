@@ -1,0 +1,27 @@
+Re: The Big JumpOn Mon, Sep 09, 2002 at 11:01:22AM -0700, John Hall wrote:
+> Why so fast?  Normal terminal velocity is much slower.
+
+Terminal velocity can be calculated by $v_{T} = \sqrt{\frac{2mg}{CpA}}$
+where C is an experimentally determined coefficient, p is the density of the
+air, and A is the area of the object. These calculations only work if the
+object is blunt and the airflow is turbulent, blah blah blah. Terminal velocity
+for a skydiver actually varies with how the diver holds themselves -- you go
+faster if you pull yourself into a cannonball. That is the "A", for the
+most part. 
+
+All else being equal, the terminal velocity is inversely proportional to the
+square root of air density. Air density drops off pretty quickly, and I 
+really should be doing something other than digging up the math for that. I
+think it involves calculus to integrate the amount of mass as the column of
+the atmosphere trails off. I grabbed the other stuff directly out of a book :).
+
+In '87 a guy named Gregory Robertson noticed a fellow parachutist Debbie 
+Williams had been knocked unconscious. He shifted so that he was head down,
+hit about 200 mi/h, and caught up with her and pulled her chute with 10 seconds
+to spare.
+
+-- 
+njl
+
+
+

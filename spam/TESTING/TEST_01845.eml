@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c078fcc8e3f4b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs34510wfo;
+        Sat, 22 May 2010 07:44:35 -0700 (PDT)
+Received: by 10.223.62.202 with SMTP id y10mr2677484fah.100.1274539474308;
+        Sat, 22 May 2010 07:44:34 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g9si3344584fai.2.2010.05.22.07.44.33;
+        Sat, 22 May 2010 07:44:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6EBE313A5442; Sat, 22 May 2010 14:44:29 +0000 (UTC)
+Old-Return-Path: <adam@adam-barratt.org.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7E7BE13A53F9
+	for <lists-debian-security@liszt.debian.org>; Sat, 22 May 2010 14:44:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id icAm5seWhDRY
+	for <lists-debian-security@liszt.debian.org>;
+	Sat, 22 May 2010 14:44:16 +0000 (UTC)
+Received: from bytemark.funky-badger.org (bytemark.funky-badger.org [80.68.90.48])
+	by liszt.debian.org (Postfix) with ESMTP id 5550E13A51D5
+	for <debian-security@lists.debian.org>; Sat, 22 May 2010 14:44:16 +0000 (UTC)
+Received: from adsl.funky-badger.org ([213.208.101.238])
+	by bytemark.funky-badger.org with esmtp (Exim 4.69 #1 (Debian))
+	id 1OFpvy-0003hd-4v
+	for <debian-security@lists.debian.org>; Sat, 22 May 2010 15:44:14 +0100
+Received: from kaa.jungle.funky-badger.org
+	([192.168.0.10] helo=kaa.jungle.aubergine.my-net-space.net ident=Debian-exim)
+	by adsl.funky-badger.org with esmtp (Exim 4.71)
+	(envelope-from <adam@adam-barratt.org.uk>)
+	id 1OFpvx-0006Jb-S7
+	for debian-security@lists.debian.org; Sat, 22 May 2010 15:44:13 +0100
+Received: from adam by kaa.jungle.aubergine.my-net-space.net with local (Exim 4.71)
+	(envelope-from <adam@adam-barratt.org.uk>)
+	id 1OFpvv-0003YK-Fy
+	for debian-security@lists.debian.org; Sat, 22 May 2010 15:44:11 +0100
+Subject: Re: Upcoming etch point release
+From: "Adam D. Barratt" <adam@adam-barratt.org.uk>
+To: debian-security@lists.debian.org
+In-Reply-To: <1273775215.6385.453.camel@kaa.jungle.aubergine.my-net-space.net>
+References:
+	 <1273775215.6385.453.camel@kaa.jungle.aubergine.my-net-space.net>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 22 May 2010 15:44:06 +0100
+Message-ID: <1274539447.13459.108.camel@kaa.jungle.aubergine.my-net-space.net>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.28.3 
+X-BMFB-Scan-Signature: 01191a5d7f49a28571b6981b779cbf87
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nHVvNRifS2M.A.xaG.N3-9LB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23814
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 14:44:29 +0000 (UTC)
+
+On Thu, 2010-05-13 at 19:26 +0100, Adam D. Barratt wrote:
+> The next point release for the "etch" oldstable distribution, 4.0r9, is
+> scheduled for Saturday, 22nd May.
+
+The archive side of the point release has now finished.  A slightly
+later than usual scheduled archive update is now running, after which
+the updates will start appearing on mirrors.
+
+Regards,
+
+Adam
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274539447.13459.108.camel@kaa.jungle.aubergine.my-net-space.net
+
+

@@ -1,0 +1,34 @@
+Re: Linux compatible mainboards -another thoughtCamaleón wrote:
+> On Wed, 21 Apr 2010 13:14:09 -0400, Ken Heard wrote:
+> 
+>> Further to my original post, it was and is my intention to use replace
+>> the internal graphics card with Nvidia GeForce 7600 GS card, which I
+>> have already but have yet to install.  It will of course will use a
+>> different driver.  In that case, does it really matter whether I have a
+>> driver for the Intel integrated graphics chipset, since it will be
+>> disabled when the new card is installed?
+> 
+> No, it doesn't matter *unless* you want to use the Intel VGA.
+> 
+> For GeForce 7600GS you have the following options:
+> 
+> 1/ "nv" driver (only 2-D)
+> 2/ "nvidia" driver from Debian "contrib" and "non-free" sources
+> 3/ "nvidia" driver from nvidia website
+> 4/ VESA driver (not recommended)
+> 
+> I am currently using option #2 for my GeForce 7600GS in Debian lenny and 
+> works pretty well.
+> 
+
+I use 3/ and 195.36.15 to drive 2 seats on 2 GeForce 6200 cards
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqnkk8$mio$1@dough.gmane.org
+
+

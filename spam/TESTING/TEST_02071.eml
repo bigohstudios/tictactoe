@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId12872b1b4ed256b2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs448663wfb;
+        Fri, 7 May 2010 05:16:09 -0700 (PDT)
+Received: by 10.223.25.208 with SMTP id a16mr1119307fac.79.1273234568475;
+        Fri, 07 May 2010 05:16:08 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c9si1878895fac.12.2010.05.07.05.16.07;
+        Fri, 07 May 2010 05:16:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1F43B13A56EB; Fri,  7 May 2010 12:16:06 +0000 (UTC)
+Old-Return-Path: <cobaco@linux.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D0F6E13A567A
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 12:15:59 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Gtdks7G2VW7D for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 12:15:52 +0000 (UTC)
+Received: from mail.unilogicnetworks.net (mail-out123.unilogicnetworks.net [62.133.206.123])
+	by liszt.debian.org (Postfix) with ESMTP id 3D85013A5643
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 12:15:52 +0000 (UTC)
+Received: from router (router.unilogic.nl [62.133.193.82])
+	by mail.unilogicnetworks.net (Postfix) with ESMTP id 5A43D4A1B0
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 14:11:33 +0200 (CEST)
+Received: from mail.unilogic.local (mail.unilogic.nl [10.0.11.245])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by router (Postfix) with ESMTP id 6105C6E786
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 14:15:49 +0200 (CEST)
+Received: from localhost ([127.0.0.1])
+	by mail.unilogic.local
+	(using TLSv1/SSLv3 with cipher AES256-SHA (256 bits))
+	for debian-kde@lists.debian.org;
+	Fri, 7 May 2010 14:15:47 +0200
+From: cobaco <cobaco@linux.be>
+Reply-To: cobaco@linux.be
+To: debian-kde@lists.debian.org
+Subject: Re: kde SC 4.4
+Date: Fri, 7 May 2010 14:15:41 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-trunk-686; KDE/4.4.3; i686; ; )
+References: <201005070936.04140.lftabera@yahoo.es> <20100507113803.GA2655@n0nb.us>
+In-Reply-To: <20100507113803.GA2655@n0nb.us>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2330374.hql0VAWTXk";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005071415.46393.cobaco@linux.be>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-OfM3f-K8TK.A.aWF.GSA5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32231
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 12:16:06 +0000 (UTC)
+
+--nextPart2330374.hql0VAWTXk
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 07 May 2010, Nate Bargmann wrote:
+> Device Notifier, while much improved, still lacks a way to simply mount
+> removable media without having to run Dolphin=20
+
+click device notifier plasmoid, ups pops the list with devices present,=20
+mouseover device you want to mount, click the icon on the right to mount th=
+e=20
+device?
+
+Am I misunderstanding what you're asking for? Because that feature seems to=
+=20
+be working just fine here, used it to update the map on the mini-sd card=20
+from my gps just last week
+=2D-=20
+Cheers, Cobaco (aka Bart Cornelis)
+
+--nextPart2330374.hql0VAWTXk
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvkBG0ACgkQ5ihPJ4ZiSruTPACcDcMsyFtSaWRal+98Kan0P8Z/
+ZqcAn1n3lvNXja7EVx4jljmFtLwWWt06
+=+NLI
+-----END PGP SIGNATURE-----
+
+--nextPart2330374.hql0VAWTXk--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071415.46393.cobaco@linux.be
+
+

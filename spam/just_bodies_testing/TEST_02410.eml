@@ -1,0 +1,20 @@
+stupid question
+hi list,
+
+how do i get rid of the message of a new (of course much valued) 
+maintainer Christian about MTA'S and cron when updating squeeze on the 
+commandline before using startx? apt-get upgrade hangs on this message 
+and i do not know the protocol to go on in this situation (if there is 
+any). so i cannot upgrade.
+
+thank you in advance!
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEB9E2B.9030304@home.nl
+
+

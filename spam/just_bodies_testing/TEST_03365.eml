@@ -1,0 +1,16 @@
+XQuartz upgrade broke my DISPLAYFor some reason, after upgrading via the automagic upgrade thingy, =
+DISPLAY is set to "org.macosforge.xquartz:0.0" and I can't run X =
+programs.
+The xterm that starts by default works fine, and I can start more xterms =
+with shortcut keys, but that's it.
+I didn't set this anywhere. Anyone have an idea where this is coming =
+from?
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

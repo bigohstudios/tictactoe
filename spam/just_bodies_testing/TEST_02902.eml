@@ -1,0 +1,36 @@
+Re: Kde 3.5 ...On Thu, May 6, 2010 at 14:59, Dotan Cohen <dotancohen@csmining.org> wrote:
+
+> Please, let me know what KDE 4 is missing for you. KDE 4.4 has only a
+> handful of regressions from KDE 3.5.10, and they are not dealbreakers.
+> Some of those are addressed in KDE 4.5.
+
+Not missing as such, but there is one thing which annoys me to no end:
+
+On a Phenom X2 with 4 GiB RAM and a pretty new GFX card whose name
+I don't remember, I get random hangs while doing nothing more than light
+surfing with some minimal background activity.
+KDE 3.5.10 (almost) never has this issue. I know because I still use KDE
+3.5.10 at work and even though the hardware is _years_ older, it's a _lot_
+faster.
+And yes, I have Nepomuk off, no fancy effects, no nothing.
+Unfortunately, this is nothing you can file a bug against.
+
+Of course, computers become faster all the time and so the issue will
+somewhat solve itself over time, but still.
+
+
+The rest which annoys me can be found in the bug tracker.
+
+
+Richard
+
+PS: With 4.4, I migrated my gf to KDE 4. With 4.5, I might even start
+using unstable, and not lenny, at work again.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/h2n2d460de71005060843z7357e25avf427c3af53a92201@mail.csmining.org
+
+

@@ -1,0 +1,93 @@
+Re: gforce 9400Camaleón wrote:
+> On Sat, 10 Apr 2010 12:25:32 +0200, steef wrote:
+>
+>    
+>> Camaleón wrote:
+>>      
+> (...)
+>
+>    
+>>> I would first try with "nv" driver (no 3D accel) to discard the freeze
+>>> coming from another source. If using "nv" driver and you get no more
+>>> freezes, then you can safely blame the nvidia driver and try by
+>>> searching your same issue in the usual way:
+>>>
+>>>        
+> (...)
+>
+>    
+>> thanks for your answers.  i tried to install xserver-xorg-video-nv on my
+>> (simple) machine asusrock g41m-s with the bios adapted. i could of
+>> course install the nv-driver but this driver did not appesr in /etc/X11.
+>> maybe a hardware problem: a bad card or something like that???
+>>      
+> As Andrei already posted, you need to define what driver to use. So,
+> after installing "nv" package you have to add the following lines in /etc/
+> X11/xorg.conf
+>
+> ***
+> Section "Device"
+> 	Identifier	"Configured Video Device"
+> 	Driver		"nv"
+> EndSection
+> ***
+>
+> And the restart.
+>
+> Once you login, look at "/var/log/Xorg.0.log" file to check the NV driver
+> is being loaded correctly.
+>
+>    
+>> before that i tried (after having used the newest nvidia-driver) it with
+>> several older nvidia-drivers, startting with the 185&&  grom their site.
+>> no good results: my machine-screens keep freezing with a moving mouse
+>> and anything else stuck completely. again: a hardware problem???
+>>      
+> Hard to tell.
+>
+> Nvidia drivers were having some problems with KDE4 (2/3 years ago) when
+> compositing was enabled but nowadays these erros should have gone.
+>
+>    
+>> yut i am not stuck myself. i hung my hanss-g cable on the onboard
+>> intel-x4500 chip, loaded up xserver-xorg-video-intel and now everything
+>> is working ok, but somewhat less sophisticated): i can go on keeping the
+>> books of our business.
+>>
+>> please! some further suggestions??
+>>      
+> Try to load "nv" driver and see what happens.
+>
+> Greetings,
+>
+>    
+thank you, camaleón.
+
+i replaced already the  "nvidia"-driver with "nv" and the 
+freezing-problem disappeared complaetely (so: no hardware problem)  but 
+kaffeine behaves funny on .avi and or .mpeg4 files &&. that is, i think, 
+because of the fact that i use (just to try out) the upstart-file that 
+the sgfxi script made in my X11 file (the last time i installed the 
+latest nvidia-driver out of /usr/local/bin with the sgfxi-script. very 
+convenient!
+
+now i gonna follow your advice and put back my native debian xorg.conf 
+into X11 and put your 'section-advice' in it and see what hasppens, 
+especially with kaffeine (and gmplayer, svn variant)
+
+thank you very much and also thanks for everybody who took time to 
+answer to my problem;
+
+i'll let you know what happens
+
+many regards,
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBFE860.7000006@home.nl
+
+

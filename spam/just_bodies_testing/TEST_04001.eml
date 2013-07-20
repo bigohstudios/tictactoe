@@ -1,0 +1,15 @@
+Re: Console: Laptop vs backlight-off problemCamaleón wrote:
+> Have your checked "/etc/console-tools/config" file?
+Yeah, seems to behave identically as setterm does - works for changing 
+screen_blank timeout but I had no success with setting anything that 
+would cause the backlight to extinguish  : (
+
+Thx tho!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF58F6F.5000506@reason.dyndns.org
+
+

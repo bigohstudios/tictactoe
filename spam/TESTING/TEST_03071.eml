@@ -1,0 +1,165 @@
+X-Account-Key: account5
+X-UIDL: GmailId128405a5b93e7df7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs144329wfj;
+        Tue, 27 Apr 2010 10:39:42 -0700 (PDT)
+Received: by 10.142.202.5 with SMTP id z5mr3231109wff.296.1272389982742;
+        Tue, 27 Apr 2010 10:39:42 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 31si7959228pzk.26.2010.04.27.10.39.42;
+        Tue, 27 Apr 2010 10:39:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 5BA941C30F90D
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 10:39:42 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 57290272A628F
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 10:39:42 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 7928A272A625F
+	for <augd@lists.apple.com>; Tue, 27 Apr 2010 10:39:39 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 69358D27EA90
+	for <augd@lists.apple.com>; Tue, 27 Apr 2010 10:39:39 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-b2-4bd7215ac8ee
+Received: from eastrmmtao102.cox.net (eastrmmtao102.cox.net [68.230.240.8])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	24.63.25880.A5127DB4; Tue, 27 Apr 2010 10:39:39 -0700 (PDT)
+Received: from eastrmimpo01.cox.net ([68.1.16.119]) by eastrmmtao102.cox.net
+	(InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+	id <20100427173937.QHYD7060.eastrmmtao102.cox.net@eastrmimpo01.cox.net>
+	for <augd@lists.apple.com>; Tue, 27 Apr 2010 13:39:37 -0400
+Received: from [192.168.0.10] ([68.14.130.236])
+	by eastrmimpo01.cox.net with bizsmtp
+	id Ahfe1e00256A7JU02hfeTX; Tue, 27 Apr 2010 13:39:38 -0400
+X-VR-Score: -100.00
+X-Authority-Analysis: v=1.1 cv=u9aaE4Pfr0xy9UvPxuh9qFR1i2SV5RyaXjJQawTgqeY=
+	c=1 sm=1 a=kj9zAlcOel0A:10 a=JEONxbbMy1ReJCDTteGcUA==:17
+	a=HHGDD-5mAAAA:8
+	a=rJorhUPZxcCTd5RlR9kA:9 a=B_OzA0myF8F4qCNVvD8A:7
+	a=hV6Kh85585AFOAzoANB2mLoHnEoA:4 a=CjuIK1q_8ugA:10 a=i1zE5R4R5dEA:10
+	a=JEONxbbMy1ReJCDTteGcUA==:117
+X-CM-Score: 0.00
+User-Agent: Microsoft-Entourage/12.24.0.100205
+Date: Tue, 27 Apr 2010 13:39:37 -0400
+Subject: Re: AUGD: Re: PR Mailing Lists
+From: Chris Hart <augd@chrishart.net>
+To: <Augd@lists.apple.com>
+Message-ID: <C7FC9999.5192A%augd@chrishart.net>
+Thread-Topic: AUGD: Re: PR Mailing Lists
+Thread-Index: AcrmMJsxlPmO3XePGUqKwH9MRtbdHQ==
+In-Reply-To: <716F6AB7-4E72-4E84-B9E6-8FF2220CF7BB@me.com>
+Mime-version: 1.0
+Content-type: text/plain;
+	charset="US-ASCII"
+Content-transfer-encoding: 7bit
+X-Brightmail-Tracker: AAAAAQAAAUo=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+
+___ John Feltham at <wantok@me.com> wrote: ___
+
+> G'day Chris,
+> 
+> On 21/04/2010, at 1:02 PM, Chris Hart wrote:
+> 
+>> See, that's downright disgusting that Apple won't even acknowledge
+>> our existence.
+>  
+> While I agree that their position is not good, I think that you have to think
+> that their business is the manufacture and sale of their products.
+
+I'm not asking them to promote our groups prominently.  I just want them to
+publicly acknowledge our existence in a proud fashion and not hesitate to
+mention us to their customers when appropriate.
+
+ 
+> << Years ago, the local store did allow us to meet there twice.  Once in the
+> first year of their existence, once in the second.  The attitude towards us
+> during the second visit was not as good as the first.  Despite the fact that
+> our group was the ideal audience and perfectly behaved during both visits
+> (not that that's ever an issue with our group, but I wanted to make it clear
+> that I saw no reason for the attitude). >.
+> 
+> finding a place to hold your meetings is just a function of that task. They
+> are your meetings, no one elses.
+
+The store had indicated that they would provide the
+program/presentation/presenter.  Are we supposed to come up with a backup
+presentation and presenter for every meeting we plan, in case the meeting
+falls through?  Not really gonna happen and I doubt any user groups do that
+(except for occasions where they have reason to believe an out-of-town
+presenter's appearance could fall through).
+
+
+> 
+> That really annoyed we board members, because we were made to look like
+> idiots and our general membership was highly disappointed.  We swore that we
+> would never do anything involving that store ever again. >>
+> 
+> So far everything that you have written about has ha a negative approach
+> slant.
+
+Everything about the situation was negative.  I don't see any point in
+putting a smiley face on it.
+
+The only positive that came about was for the board to swear we will never
+rely on that store again.  We now have the freedom of not relying on such
+careless individuals for the focus of one of our meetings.
+
+
+> << With regard to User Groups, there is no excuse.  Everything about our
+> groups
+> is centered around furthering the usefulness of Apple products.  We provide
+> a positive, family-friendly, intelligent resource to Mac users.  How is that
+> not something to let the world know about? >>
+> 
+> I agree. But then I say, get out and bang the drum, do we really need Apple?
+
+Yes, we really do.
+
+Increasingly, the average owner/user of Apple products thinks that the local
+Apple Store is the one and only place for to further the Apple experience.
+The message of user groups is lost in the scale of the Apple media presence.
+
+Let me make an analogy...  At music fairs like Lollapalooza and Lilith Fair,
+there are secondary stages where lots of great musicians and groups get
+major exposure.  They're not getting the limelight, but they sure get in
+front of lots of people they wouldn't otherwise.
+
+Not only do we not get secondary stage placement, but we can't even hang out
+at the gate to the event and have a banner or people handing out flyers
+about our groups.
+
+Chris
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

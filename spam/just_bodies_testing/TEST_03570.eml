@@ -1,0 +1,32 @@
+Re: [ILUG] bind + lex + yacc...On Mon, Jul 22, 2002 at 03:48:54PM +0100, Justin MacCarthy mentioned:
+> Never having to support a large network myself, I know very little about
+> this..  but what do lex & yacc have to do with anything ?
+> These are language parsers, used to build complilers / interptreters  and
+> the like???!!!
+
+ Bind configs are one sort of file.
+
+ I think the person asking Kevin the question would like to have a nice
+config language like:
+
+ domain: "bing.com"
+ hosts:  www mail arse smeg twitter
+ ttl:    20000
+
+ and then using lex & yacc, they could write a program that converts
+between that config file, and the tedious bind configs, and maybe even
+auto-generate a reverse DNS config file while they are at it.
+
+ Personally, I think they are demented. It's much more a job for something
+simple like Sed or Awk. People using lex & yacc just because they can make
+baby jesus cry.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,53 @@
+Re: Strange behavior with Mac OS X 10.6 and minimized dialogs in
+	the	DockOn Apr 6, 2010, at 8:00 AM, Patrick Malka wrote:
+
+> In testing interoperability of one of our products with 10.6, we =
+noticed some strange behavior.
+>=20
+> Our application is a desktop client that is always running in the =
+background thanks to LaunchServices (plist in the LaunchServices =
+directory).
+>=20
+> This all works great, but now, starting with 10.6, any time we =
+minimize a dialog that is shown by our Java application (executed via =
+LaunchServices - "java -jar ..." command line), the dialog minimizes, =
+but the thumbnail in the dock for that dialog is blank. It appears that =
+there is a gap between the trash can and the next minimized item. When =
+you hover the mouse over the gap, the dialog name shows up correctly.
+>=20
+> I have ensured that all GUI functionality is done in the EDT. It =
+states that creation of the dialog can be done on the main thread until =
+setVisible() is called and then all GUI updating must be on the EDT, so =
+I don't think that is the problem.
+>=20
+> I will create a dummy app to see if it happens with a hello world type =
+application, but I wonder if it is a bug.
+>=20
+> Has anyone seen this behavior before? I could not find any matches in =
+the archives for something like this.
+
+Are you setting an icon on the window? We previously had a bug in Java 6 =
+where we were inadvertently ignoring the icon that was set on the =
+heavyweight window components, and when we fixed it we got a bunch of =
+angry bugs about how "my window's Dock icon looks like crap!", because =
+they were setting some low-res art as the window's icon for other =
+platforms.
+
+Just a thought...I haven't tested this scenario yet. Even if you don't =
+have a simple example that reproduces the problem, if you can send us a =
+copy of your app via <http://bugreporter.apple.com> and some steps to =
+reproduce, we should be able to quickly determine what the issue is.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

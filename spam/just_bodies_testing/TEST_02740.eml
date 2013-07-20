@@ -1,0 +1,54 @@
+Re: Console font turned cyanOn Sun, Apr 11, 2010 at 3:01 AM, Phil Requirements
+<simultaneous@comcast.net> wrote:
+>> I don't know when it happened but it must have been during some
+>> "aptitude upgrade" run lately: My console font turned from white to
+>> cyan. At first I thought that the red VGA signal had a bad contact,
+>
+> I was recently experimenting with framebuffer settings, and when I tried certain
+> settings, I got something very similar to what you are describing. Specifically,
+> I got the pale green text when I chose a framebuffer setting of a certain bit
+> depth, and it had the multi-color smeary looking distortion.
+>
+> I wanted my framebuffer to be nice because I use some console apps and I
+> don't always like to run X. I was experimenting with lots of settings. When I
+> tried 1024x768x24, it looks nice. 1024x768x32 is also nice.
+>
+> But when I tried 1024x768x16 or 1024x768x8, the colors were all wrong, and the
+> main console font was a sickly green color. Not quite cyan, but similar.
+>
+> Your framebuffer could have gone on the fritz with your recent update if you
+> changed from grub-legacy to grub-pc (the new grub). The new grub has a different
+> way of setting up framebuffers, you can't use vga=795 any more.
+>
+> If you want to try to chase down a new-grub framebuffer problem, try looking
+> at these:
+>
+> /etc/grub/default
+> GRUB_GFXMODE=1024x768x32 (or whatever you choose)
+> GRUB_TERMINAL
+> update-grub
+> gfxpayload
+
+Just in case you are running grub2, the /etc/grub/default variables
+for framebuffer are
+GRUB_TERMINAL=gfxterm
+GRUB_GFXMODE=<resolution>
+GRUB_GFXPAYLOAD_LINUX=[<resolution|keep>]
+
+There used to be a warning about using "vga=<resolution>" as a
+GRUB_CMDLINE_LINUX_DEFAULT or GRUB_CMDLINE_LINUX option (it seems to
+have been removed or my eyes are too slow to see it) and advice to use
+GRUB_GFXPAYLOAD, but the latter has now been superceded by the above
+payload variable.
+
+Do you still have this font-color problem if you comment out
+GRUB_GFXMODE and GRUB_GFXPAYLOAD_LINUX and set "GRUB_TERMINAL=console"
+(and reboot after running "update-grub")?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2q6d4219cc1004110635o40c8d5baxc3a4003b3ddf2661@mail.csmining.org
+
+

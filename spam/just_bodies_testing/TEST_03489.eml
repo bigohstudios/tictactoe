@@ -1,0 +1,29 @@
+Re: "stret" ObjC 2.0 runtime functionsOn Mon, May 24, 2010 at 5:41 PM, Ken Ferry <kenferry@csmining.org> wrote:
+> I don't think that's correct in this case, though it's certainly true tha=
+t
+> you have to cast objc_msgSend. =C2=A0The _stret versions take a pointer t=
+o a
+> struct for the return as an implicit first parameter, like self and _cmd.
+> See=C2=A0http://www.sealiesoftware.com/blog/archive/2008/10/30/objc_expla=
+in_objc_msgSend_stret.html
+> for an explanation. =C2=A0The ObjC runtime reference may also document th=
+e stret
+> stuff, not sure.
+
+Isn't that part of the C ABI for the platform, though? Structs larger
+than a certain size (I think larger than a long long, though this is
+obviously architecture-dependent) get passed via reference as an
+implicit first argument instead?
+
+--=20
+Kevin Ballard
+http://kevin.sb.org
+kballard@csmining.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

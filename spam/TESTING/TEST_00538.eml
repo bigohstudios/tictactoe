@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f17e14e4d9467
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs141582wfo;
+        Mon, 12 Apr 2010 03:08:45 -0700 (PDT)
+Received: by 10.223.24.133 with SMTP id v5mr2488629fab.46.1271066924346;
+        Mon, 12 Apr 2010 03:08:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si7978756fkq.34.2010.04.12.03.08.43;
+        Mon, 12 Apr 2010 03:08:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0127D13A5DF7; Mon, 12 Apr 2010 10:08:37 +0000 (UTC)
+Old-Return-Path: <jamesaallsopp@googlemail.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5902813A5DEF
+	for <lists-debian-user@liszt.debian.org>; Mon, 12 Apr 2010 10:08:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id qtovIUE5DChz for <lists-debian-user@liszt.debian.org>;
+	Mon, 12 Apr 2010 10:08:23 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id DC66513A5DBD
+	for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 10:08:15 +0000 (UTC)
+Received: by wyf23 with SMTP id 23so1134187wyf.6
+        for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 03:08:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=gamma;
+        h=domainkey-signature:mime-version:received:date:received:message-id
+         :subject:from:to:content-type;
+        bh=GOJhDwvihni7VK1kS6Bl9VKp40M9HivawZh7TNa4EUY=;
+        b=G9jZ5ziFDeJ9LSBMA6dkqw3/+hjnXtKTEqskTQDcqiNYIXio9h3S/weVfRlf7XIegu
+         TGoHCbm+aNySU/BUUsBsRDxIBP4QaZ3/b8CqXKENiG5s1c94gSN02vDpQYgIeJcRwF+l
+         OmU7Dm9WNI8HCLzli/xZ97PUcFZYOD/4wvOuo=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=googlemail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=XVVH8xBIYAzf1hOeHZtYtaz3+hcOOhKKK6uDq5BIyWjntiYv4lrPO/qiFINOtyLoCG
+         NhqmsKfik0qcKt3LWBNlU6aKPdgGKVZgtWgTgfya4BckvAX3gLlk1rzkAJyara9/1Hp1
+         wEM/GMo0cP7pnF/WslbMFxMHomiQPlXidtoWY=
+MIME-Version: 1.0
+Received: by 10.216.167.146 with HTTP; Mon, 12 Apr 2010 03:08:08 -0700 (PDT)
+Date: Mon, 12 Apr 2010 11:08:08 +0100
+Received: by 10.216.88.203 with SMTP id a53mr2227245wef.177.1271066888618; 
+	Mon, 12 Apr 2010 03:08:08 -0700 (PDT)
+Message-ID: <t2hd7feae031004120308m22956879o3cb3f73d9eed72fa@mail.csmining.org>
+Subject: Debian in Debian via Virtual box
+From: James Allsopp <jamesaallsopp@googlemail.com>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016e6d77f1161c22a0484075295
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <hUnm15CitMK.A.-6.lEvwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573917
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 12 Apr 2010 10:08:37 +0000 (UTC)
+
+--0016e6d77f1161c22a0484075295
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi,
+How have people managed to get debian in virtual box to display with a
+resolution higher than 800x600. I've tried reinstalling with a higher video
+memory setting  and installing the guest additions. Was finding it difficult
+to find out if the additions actually installed correctly, so if anyone can
+help me with that I'd be grateful.
+
+Best regards
+Jim
+
+--0016e6d77f1161c22a0484075295
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,<br>How have people managed to get debian in virtual box to display with=
+ a resolution higher than 800x600. I&#39;ve tried reinstalling with a highe=
+r video memory setting=A0 and installing the guest additions. Was finding i=
+t difficult to find out if the additions actually installed correctly, so i=
+f anyone can help me with that I&#39;d be grateful.<br>
+<br>Best regards<br>Jim<br>
+
+--0016e6d77f1161c22a0484075295--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2hd7feae031004120308m22956879o3cb3f73d9eed72fa@mail.csmining.org
+
+

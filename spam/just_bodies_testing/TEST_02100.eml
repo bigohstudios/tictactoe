@@ -1,0 +1,30 @@
+Re: can't determine affected packageFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+tadziu wrote:
+> it's a simple reproduction of this bug:
+>
+> https://bugs.launchpad.net/ubuntu/+source/linux/+bug/329645
+>
+> i've got the same problem either on lenny/squeeze/sid and all possible
+> kernels up to 2.6.34 (not tested yet). can someone tell mi how to
+> send a bug report in that case? launchpad service seems little
+> easier since it doesn't reqiure exact package ;)
+>
+> thanks in advance and all the best
+> t.
+>
+>
+>  =20
+Are you using `exactly' (in some sense) the same config?
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

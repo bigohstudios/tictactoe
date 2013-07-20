@@ -1,0 +1,23 @@
+Re: colorized lsFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun, May 09, 2010 at 04:26:36PM -0400, Rick Pasotto wrote:
+> What did I update recently that caused me to lose ls coloring with this
+> error message:
+>=20
+> ls: unrecognized prefix: hl
+> ls: unparsable value for LS_COLORS environment variable
+>=20
+> How should I fix it?
+
+If you are using system-wide definitions, edit /etc/dir_colors and
+comment the offending line. There should be one.
+Also, check the manpage `man dircolors'. You might want to rebuild the
+definitions. Backup /etc/dir_colors before. Better yet, does
+`dircolors -b' contain the offending line causing the error?
+I'm guessing you use bash.
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB

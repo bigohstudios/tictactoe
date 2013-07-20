@@ -1,0 +1,486 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284b0aa1b2f7dde
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs45840wfj;
+        Thu, 29 Apr 2010 12:28:28 -0700 (PDT)
+Received: by 10.223.92.144 with SMTP id r16mr912317fam.62.1272569307374;
+        Thu, 29 Apr 2010 12:28:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si1533228fkx.10.2010.04.29.12.28.26;
+        Thu, 29 Apr 2010 12:28:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 78F7313A4EBF; Thu, 29 Apr 2010 19:28:16 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-13.9 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45,XORGBUGREPORTS autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6D07413A4401
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 19:28:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893, XORGBUGREPORTS=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id CVzEcEVOZdih for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 19:28:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 1C99313A4D24
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 19:28:02 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1283196fxm.6
+        for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 12:28:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:cc:content-type;
+        bh=XhAJxvuNeV+egPtuRkK/6OX9VyldbfQbl4wWBeUZ9E4=;
+        b=lP8fPq6u+RT1bOjdGuyTRGdk27SfIaTFoaiFEKYx/nY2/tzlZvkWbPWvbZO+ZByY1C
+         kAR9WVKWcJXg5dfRAQEoum92ig6zgcv2c2ESkZeFZzf86i4CNihmHxWLcLtGvB+Zu23h
+         ++OFlTLg3+/3R9D0WItKAWztptvETkZMnTc3k=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:cc:content-type;
+        b=s9tLaUH9lBqBSEtViFO+h7vCNUkkEfpiop1sWVXBw8q5ZM92lu9eDyypOLqVsfAjAh
+         OsvLEKhCoKPe3OrdIaXkmAnVKyl+9ZsAL52m7M6CZmIUicfZkx+v5SvQk9FRjQP1Oj3x
+         9QPrMOO8ZVBzkFUNGkRroa2VxEACeWyPRvbbk=
+MIME-Version: 1.0
+Received: by 10.223.98.5 with SMTP id o5mr517963fan.64.1272569279926; Thu, 29 
+	Apr 2010 12:27:59 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Thu, 29 Apr 2010 12:27:59 -0700 (PDT)
+Date: Thu, 29 Apr 2010 21:27:59 +0200
+Message-ID: <o2ib36d43c31004291227o21734bfenee035d037cec4a2e@mail.csmining.org>
+Subject: Making onscreen fonts read-able[was:New monitor, how to change screen 
+	resolution?]
+From: James Stuckey <jhstuckey@csmining.org>
+To: debian-user@lists.debian.org
+Cc: Stephen Powell <zlinuxman@wowway.com>
+Content-Type: multipart/alternative; boundary=0015174bebc4e1d1a60485651f97
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <mjywqYOCb8E.A.yBE.Q3d2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575483
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 19:28:16 +0000 (UTC)
+
+--0015174bebc4e1d1a60485651f97
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Thu, Apr 29, 2010 at 9:20 PM, Stephen Powell <zlinuxman@wowway.com>wrote:
+
+> On Thu, 29 Apr 2010 14:30:40 -0400 (EDT), James Stuckey wrote:
+> > Stephen Powell wrote:
+> >> You didn't provide much information, James.  I'm afraid that there's no
+> >> "one size fits all" answer to that question.  It depends on a lot of
+> >> things.
+> >> Please provide the following information:
+> >>
+> >> (1) The make and model of your computer
+> >> (2) The make and model of your video card
+> >> (3) The make and model of your monitor
+> >> (4) The type of monitor (CRT, LCD, etc.)
+> >> (5) The type of video connection used (digital, analog, etc.)
+> >> (6) The contents of /etc/X11/xorg.conf, if it exists
+> >> (7) The contents of /var/log/Xorg.0.log
+> >> (8) Which release of Debian you are running (Lenny, Squeeze, Sid, etc)
+> >
+> > (1) I'm on AMD64/Asus motherboard P5Q
+> > (2) NVIDIA 9800GT
+> > (3) ASUS VH242H
+> > (4) LCD
+> > (5) Digital connection, not DVI
+>
+> Digital connection, but not DVI?  Hmm.  This may be out of my league.  I
+> don't
+> have any experience with that.
+>
+> > (6)
+> > Section "ServerLayout"
+> >     Identifier     "X.org Configured"
+> >     Screen      0  "Screen0" 0 0
+> >     InputDevice    "Mouse0" "CorePointer"
+> >     InputDevice    "Keyboard0" "CoreKeyboard"
+> > EndSection
+> >
+> > Section "Files"
+> >     ModulePath   "/usr/lib/xorg/modules"
+> >     FontPath     "/usr/share/fonts/X11/misc"
+> >     FontPath     "/usr/share/fonts/X11/cyrillic"
+> >     FontPath     "/usr/share/fonts/X11/100dpi/:unscaled"
+> >     FontPath     "/usr/share/fonts/X11/75dpi/:unscaled"
+> >     FontPath     "/usr/share/fonts/X11/Type1"
+> >     FontPath     "/usr/share/fonts/X11/100dpi"
+> >     FontPath     "/usr/share/fonts/X11/75dpi"
+> >     FontPath     "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
+> >     FontPath     "built-ins"
+> > EndSection
+> >
+> > Section "Module"
+> >     Load  "record"
+> >     Load  "extmod"
+> >     Load  "glx"
+> >     Load  "dri"
+> >     Load  "dbe"
+> >     Load  "dri2"
+> > EndSection
+> >
+> > Section "InputDevice"
+> >     Identifier  "Keyboard0"
+> >     Driver      "kbd"
+> > EndSection
+> >
+> > Section "InputDevice"
+> >     Identifier  "Mouse0"
+> >     Driver      "mouse"
+> >     Option        "Protocol" "auto"
+> >     Option        "Device" "/dev/input/mice"
+> >     Option        "ZAxisMapping" "4 5 6 7"
+> > EndSection
+> >
+> > Section "Monitor"
+> >     Identifier   "Monitor0"
+> >     VendorName   "Monitor Vendor"
+> >     ModelName    "Monitor Model"
+> > EndSection
+> >
+> > Section "Device"
+> >         ### Available Driver options are:-
+> >         ### Values: <i>: integer, <f>: float, <bool>: "True"/"False",
+> >         ### <string>: "String", <freq>: "<f> Hz/kHz/MHz"
+> >         ### [arg]: arg optional
+> >         #Option     "SWcursor"               # [<bool>]
+> >         #Option     "HWcursor"               # [<bool>]
+> >         #Option     "NoAccel"                # [<bool>]
+> >         #Option     "ShadowFB"               # [<bool>]
+> >         #Option     "UseFBDev"               # [<bool>]
+> >         #Option     "Rotate"                 # [<str>]
+> >         #Option     "VideoKey"               # <i>
+> >         #Option     "FlatPanel"              # [<bool>]
+> >         #Option     "FPDither"               # [<bool>]
+> >         #Option     "CrtcNumber"             # <i>
+> >         #Option     "FPScale"                # [<bool>]
+> >         #Option     "FPTweak"                # <i>
+> >         #Option     "DualHead"               # [<bool>]
+> >     Identifier  "Card0"
+> >     Driver      "nvidia"
+> >     VendorName  "nVidia Corporation"
+> >     BoardName   "G92 [GeForce 9800 GT]"
+> >     BusID       "PCI:1:0:0"
+> > EndSection
+> >
+> > Section "Screen"
+> >     Identifier "Screen0"
+> >     Device     "Card0"
+> >     Monitor    "Monitor0"
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     1
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     4
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     8
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     15
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     16
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     24
+> >     EndSubSection
+> > EndSection
+>
+> It's the proprietary nvidia driver!  Oh no!  ;-)
+>
+> My first question is, how did you come up with this config file?
+> Did you create it yourself by hand?  Did you run a script to create it?
+> Did the proprietary nvidia driver installation program create it for you?
+> It seems way over-specified to me.
+> >
+> > (7)
+> > ...
+> > (++) using VT number 8
+>
+> This is off topic, but did you notice that the X server initialized itself
+> on VT number 8 instead of VT number 7?  That means, for example, that if
+> you are on virtual console number 1 (text mode) and wish to switch to
+> the X server, you will need to use Ctrl+Alt+F8 instead of the usual
+> Ctrl+Alt+F7.  I've noticed this bug too lately.  In fact, it's
+> possible that you have have two copies of the X server running.
+> One on VT 7 and one on VT 8.  Wouldn't that be a hoot?
+> >
+> > ...
+> > (II) Apr 29 19:58:59 NVIDIA(0): Virtual screen size determined to be 1920
+> x
+> > 1080
+>
+> Is that the resolution you are trying to obtain: 1920x1080?  It's not a
+> standard 4:3 aspect ratio, so it's most likely probed from the monitor.
+> >
+> > ...
+> > (8) Squeeze with Sid nvidia drivers
+>
+> --
+>  .''`.     Stephen Powell
+>  : :'  :
+>  `. `'`
+>   `-
+>
+>
+I don't recall how the config file was made. The resolution I want is
+1920x1080. Restarting X gave me this resolution. Now my fonts on screen
+(like on the menu bar in iceweasel/icedove, for example) aren't too easy to
+read. They just don't look right. How do I fix that?
+
+--0015174bebc4e1d1a60485651f97
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Thu, Apr 29, 2010 at 9:20 PM, Stephen=
+ Powell <span dir=3D"ltr">&lt;<a href=3D"mailto:zlinuxman@wowway.com">zlinu=
+xman@wowway.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" =
+style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8=
+ex; padding-left: 1ex;">
+<div class=3D"im">On Thu, 29 Apr 2010 14:30:40 -0400 (EDT), James Stuckey w=
+rote:<br>
+&gt; Stephen Powell wrote:<br>
+&gt;&gt; You didn&#39;t provide much information, James. =A0I&#39;m afraid =
+that there&#39;s no<br>
+&gt;&gt; &quot;one size fits all&quot; answer to that question. =A0It depen=
+ds on a lot of<br>
+&gt;&gt; things.<br>
+&gt;&gt; Please provide the following information:<br>
+&gt;&gt;<br>
+&gt;&gt; (1) The make and model of your computer<br>
+&gt;&gt; (2) The make and model of your video card<br>
+&gt;&gt; (3) The make and model of your monitor<br>
+&gt;&gt; (4) The type of monitor (CRT, LCD, etc.)<br>
+&gt;&gt; (5) The type of video connection used (digital, analog, etc.)<br>
+&gt;&gt; (6) The contents of /etc/X11/xorg.conf, if it exists<br>
+&gt;&gt; (7) The contents of /var/log/Xorg.0.log<br>
+&gt;&gt; (8) Which release of Debian you are running (Lenny, Squeeze, Sid, =
+etc)<br>
+&gt;<br>
+</div><div class=3D"im">&gt; (1) I&#39;m on AMD64/Asus motherboard P5Q<br>
+&gt; (2) NVIDIA 9800GT<br>
+&gt; (3) ASUS VH242H<br>
+&gt; (4) LCD<br>
+&gt; (5) Digital connection, not DVI<br>
+<br>
+</div>Digital connection, but not DVI? =A0Hmm. =A0This may be out of my lea=
+gue. =A0I don&#39;t<br>
+have any experience with that.<br>
+<div><div></div><div class=3D"h5"><br>
+&gt; (6)<br>
+&gt; Section &quot;ServerLayout&quot;<br>
+&gt; =A0 =A0 Identifier =A0 =A0 &quot;X.org Configured&quot;<br>
+&gt; =A0 =A0 Screen =A0 =A0 =A00 =A0&quot;Screen0&quot; 0 0<br>
+&gt; =A0 =A0 InputDevice =A0 =A0&quot;Mouse0&quot; &quot;CorePointer&quot;<=
+br>
+&gt; =A0 =A0 InputDevice =A0 =A0&quot;Keyboard0&quot; &quot;CoreKeyboard&qu=
+ot;<br>
+&gt; EndSection<br>
+&gt;<br>
+&gt; Section &quot;Files&quot;<br>
+&gt; =A0 =A0 ModulePath =A0 &quot;/usr/lib/xorg/modules&quot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/usr/share/fonts/X11/misc&quot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/usr/share/fonts/X11/cyrillic&quot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/usr/share/fonts/X11/100dpi/:unscaled&q=
+uot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/usr/share/fonts/X11/75dpi/:unscaled&qu=
+ot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/usr/share/fonts/X11/Type1&quot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/usr/share/fonts/X11/100dpi&quot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/usr/share/fonts/X11/75dpi&quot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;/var/lib/defoma/x-ttcidfont-conf.d/dirs=
+/TrueType&quot;<br>
+&gt; =A0 =A0 FontPath =A0 =A0 &quot;built-ins&quot;<br>
+&gt; EndSection<br>
+&gt;<br>
+&gt; Section &quot;Module&quot;<br>
+&gt; =A0 =A0 Load =A0&quot;record&quot;<br>
+&gt; =A0 =A0 Load =A0&quot;extmod&quot;<br>
+&gt; =A0 =A0 Load =A0&quot;glx&quot;<br>
+&gt; =A0 =A0 Load =A0&quot;dri&quot;<br>
+&gt; =A0 =A0 Load =A0&quot;dbe&quot;<br>
+&gt; =A0 =A0 Load =A0&quot;dri2&quot;<br>
+&gt; EndSection<br>
+&gt;<br>
+&gt; Section &quot;InputDevice&quot;<br>
+&gt; =A0 =A0 Identifier =A0&quot;Keyboard0&quot;<br>
+&gt; =A0 =A0 Driver =A0 =A0 =A0&quot;kbd&quot;<br>
+&gt; EndSection<br>
+&gt;<br>
+&gt; Section &quot;InputDevice&quot;<br>
+&gt; =A0 =A0 Identifier =A0&quot;Mouse0&quot;<br>
+&gt; =A0 =A0 Driver =A0 =A0 =A0&quot;mouse&quot;<br>
+&gt; =A0 =A0 Option =A0 =A0 =A0 =A0&quot;Protocol&quot; &quot;auto&quot;<br=
+>
+&gt; =A0 =A0 Option =A0 =A0 =A0 =A0&quot;Device&quot; &quot;/dev/input/mice=
+&quot;<br>
+&gt; =A0 =A0 Option =A0 =A0 =A0 =A0&quot;ZAxisMapping&quot; &quot;4 5 6 7&q=
+uot;<br>
+&gt; EndSection<br>
+&gt;<br>
+&gt; Section &quot;Monitor&quot;<br>
+&gt; =A0 =A0 Identifier =A0 &quot;Monitor0&quot;<br>
+&gt; =A0 =A0 VendorName =A0 &quot;Monitor Vendor&quot;<br>
+&gt; =A0 =A0 ModelName =A0 =A0&quot;Monitor Model&quot;<br>
+&gt; EndSection<br>
+&gt;<br>
+&gt; Section &quot;Device&quot;<br>
+&gt; =A0 =A0 =A0 =A0 ### Available Driver options are:-<br>
+&gt; =A0 =A0 =A0 =A0 ### Values: &lt;i&gt;: integer, &lt;f&gt;: float, &lt;=
+bool&gt;: &quot;True&quot;/&quot;False&quot;,<br>
+&gt; =A0 =A0 =A0 =A0 ### &lt;string&gt;: &quot;String&quot;, &lt;freq&gt;: =
+&quot;&lt;f&gt; Hz/kHz/MHz&quot;<br>
+&gt; =A0 =A0 =A0 =A0 ### [arg]: arg optional<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;SWcursor&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 # [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;HWcursor&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 # [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;NoAccel&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0# [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;ShadowFB&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 # [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;UseFBDev&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 # [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;Rotate&quot; =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 # [&lt;str&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;VideoKey&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 # &lt;i&gt;<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;FlatPanel&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0# [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;FPDither&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 # [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;CrtcNumber&quot; =A0 =A0 =A0 =A0=
+ =A0 =A0 # &lt;i&gt;<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;FPScale&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0# [&lt;bool&gt;]<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;FPTweak&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0# &lt;i&gt;<br>
+&gt; =A0 =A0 =A0 =A0 #Option =A0 =A0 &quot;DualHead&quot; =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 # [&lt;bool&gt;]<br>
+&gt; =A0 =A0 Identifier =A0&quot;Card0&quot;<br>
+&gt; =A0 =A0 Driver =A0 =A0 =A0&quot;nvidia&quot;<br>
+&gt; =A0 =A0 VendorName =A0&quot;nVidia Corporation&quot;<br>
+&gt; =A0 =A0 BoardName =A0 &quot;G92 [GeForce 9800 GT]&quot;<br>
+&gt; =A0 =A0 BusID =A0 =A0 =A0 &quot;PCI:1:0:0&quot;<br>
+&gt; EndSection<br>
+&gt;<br>
+&gt; Section &quot;Screen&quot;<br>
+&gt; =A0 =A0 Identifier &quot;Screen0&quot;<br>
+&gt; =A0 =A0 Device =A0 =A0 &quot;Card0&quot;<br>
+&gt; =A0 =A0 Monitor =A0 =A0&quot;Monitor0&quot;<br>
+&gt; =A0 =A0 SubSection &quot;Display&quot;<br>
+&gt; =A0 =A0 =A0 =A0 Viewport =A0 0 0<br>
+&gt; =A0 =A0 =A0 =A0 Depth =A0 =A0 1<br>
+&gt; =A0 =A0 EndSubSection<br>
+&gt; =A0 =A0 SubSection &quot;Display&quot;<br>
+&gt; =A0 =A0 =A0 =A0 Viewport =A0 0 0<br>
+&gt; =A0 =A0 =A0 =A0 Depth =A0 =A0 4<br>
+&gt; =A0 =A0 EndSubSection<br>
+&gt; =A0 =A0 SubSection &quot;Display&quot;<br>
+&gt; =A0 =A0 =A0 =A0 Viewport =A0 0 0<br>
+&gt; =A0 =A0 =A0 =A0 Depth =A0 =A0 8<br>
+&gt; =A0 =A0 EndSubSection<br>
+&gt; =A0 =A0 SubSection &quot;Display&quot;<br>
+&gt; =A0 =A0 =A0 =A0 Viewport =A0 0 0<br>
+&gt; =A0 =A0 =A0 =A0 Depth =A0 =A0 15<br>
+&gt; =A0 =A0 EndSubSection<br>
+&gt; =A0 =A0 SubSection &quot;Display&quot;<br>
+&gt; =A0 =A0 =A0 =A0 Viewport =A0 0 0<br>
+&gt; =A0 =A0 =A0 =A0 Depth =A0 =A0 16<br>
+&gt; =A0 =A0 EndSubSection<br>
+&gt; =A0 =A0 SubSection &quot;Display&quot;<br>
+&gt; =A0 =A0 =A0 =A0 Viewport =A0 0 0<br>
+&gt; =A0 =A0 =A0 =A0 Depth =A0 =A0 24<br>
+&gt; =A0 =A0 EndSubSection<br>
+&gt; EndSection<br>
+<br>
+</div></div>It&#39;s the proprietary nvidia driver! =A0Oh no! =A0;-)<br>
+<br>
+My first question is, how did you come up with this config file?<br>
+Did you create it yourself by hand? =A0Did you run a script to create it?<b=
+r>
+Did the proprietary nvidia driver installation program create it for you?<b=
+r>
+It seems way over-specified to me.<br>
+&gt;<br>
+&gt; (7)<br>
+&gt; ...<br>
+&gt; (++) using VT number 8<br>
+<br>
+This is off topic, but did you notice that the X server initialized itself<=
+br>
+on VT number 8 instead of VT number 7? =A0That means, for example, that if<=
+br>
+you are on virtual console number 1 (text mode) and wish to switch to<br>
+the X server, you will need to use Ctrl+Alt+F8 instead of the usual<br>
+Ctrl+Alt+F7. =A0I&#39;ve noticed this bug too lately. =A0In fact, it&#39;s<=
+br>
+possible that you have have two copies of the X server running.<br>
+One on VT 7 and one on VT 8. =A0Wouldn&#39;t that be a hoot?<br>
+&gt;<br>
+&gt; ...<br>
+<div class=3D"im">&gt; (II) Apr 29 19:58:59 NVIDIA(0): Virtual screen size =
+determined to be 1920 x<br>
+&gt; 1080<br>
+<br>
+</div>Is that the resolution you are trying to obtain: 1920x1080? =A0It&#39=
+;s not a<br>
+standard 4:3 aspect ratio, so it&#39;s most likely probed from the monitor.=
+<br>
+&gt;<br>
+&gt; ...<br>
+<div class=3D"im">&gt; (8) Squeeze with Sid nvidia drivers<br>
+<br>
+</div><div class=3D"im">--<br>
+ =A0.&#39;&#39;`. =A0 =A0 Stephen Powell<br>
+=A0: :&#39; =A0:<br>
+=A0`. `&#39;`<br>
+ =A0 `-<br>
+<br></div></blockquote><div><br>I don&#39;t recall how the config file was =
+made. The resolution I want is 1920x1080. Restarting X gave me this resolut=
+ion. Now my fonts on screen (like on the menu bar in iceweasel/icedove, for=
+ example) aren&#39;t too easy to read. They just don&#39;t look right. How =
+do I fix that? <br>
+</div></div>
+
+--0015174bebc4e1d1a60485651f97--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2ib36d43c31004291227o21734bfenee035d037cec4a2e@mail.csmining.org
+
+

@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b8c8567d8f50c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs35358wfo;
+        Thu, 20 May 2010 19:54:17 -0700 (PDT)
+Received: by 10.223.20.216 with SMTP id g24mr818012fab.63.1274410456804;
+        Thu, 20 May 2010 19:54:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e19si784249fai.48.2010.05.20.19.54.16;
+        Thu, 20 May 2010 19:54:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5E5AA13A5152; Fri, 21 May 2010 02:54:07 +0000 (UTC)
+Old-Return-Path: <robert@timetraveller.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.9 required=4.0 tests=FOURLA,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8F46A13A5519
+	for <lists-debian-user@liszt.debian.org>; Fri, 21 May 2010 02:36:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id CpA673x5D7iA for <lists-debian-user@liszt.debian.org>;
+	Fri, 21 May 2010 02:35:56 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+X-Greylist: delayed 427 seconds by postgrey-1.31 at liszt; Fri, 21 May 2010 02:35:56 UTC
+Received: from procyon.opentrend.net (li144-209.members.linode.com [109.74.197.209])
+	by liszt.debian.org (Postfix) with ESMTP id 53C1513A5433
+	for <debian-user@lists.debian.org>; Fri, 21 May 2010 02:35:56 +0000 (UTC)
+Received: by procyon.opentrend.net (Postfix, from userid 1004)
+	id 34BEACE6D; Thu, 20 May 2010 22:28:38 -0400 (EDT)
+Received: from castor.opentrend.net (unknown [192.168.120.16])
+	by procyon.opentrend.net (Postfix) with ESMTP id BB518CD43
+	for <debian-user@lists.debian.org>; Thu, 20 May 2010 22:28:37 -0400 (EDT)
+Received: by castor.opentrend.net (Postfix, from userid 1000)
+	id A6C6043D980FF; Fri, 21 May 2010 02:32:40 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by castor.opentrend.net (Postfix) with ESMTP id A65B340086066
+	for <debian-user@lists.debian.org>; Thu, 20 May 2010 22:32:40 -0400 (EDT)
+Date: Thu, 20 May 2010 22:32:40 -0400 (EDT)
+From: Robert Brockway <robert@timetraveller.org>
+X-X-Sender: robert@castor.opentrend.net
+To: debian-user@lists.debian.org
+Subject: Re: How do I fsck and XFS file system in "Squeeze"
+In-Reply-To: <4BF5DAE7.9060002@allums.com>
+Message-ID: <alpine.DEB.1.10.1005202227270.7760@castor.opentrend.net>
+References: <FLSdnVftgaepXGjWnZ2dnUVZ_oGdnZ2d@giganews.com> <4BF5DAE7.9060002@allums.com>
+User-Agent: Alpine 1.10 (DEB 962 2008-03-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5XT_VtqTeuG.A.2WD.PXf9LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577264
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 21 May 2010 02:54:07 +0000 (UTC)
+
+On Thu, 20 May 2010, Mark Allums wrote:
+
+> If not, then a live CD will be needed, something like Knoppix, be sure it has 
+> XFS support.  Just boot the live CD or DVD, and Bob's your uncle.
+
+I was going to suggest a live cdrom too but remember that Debian has its 
+own live cdroms.  I've been using them in preference to Knoppix for 
+rescuing Debian systems due to binary compatibility problems.  I've got as 
+lot of AMD64 Debian systems and Knoppix is i386 only.
+
+Cheers,
+
+Rob
+
+
+-- 
+Email: robert@timetraveller.org		Linux counter ID #16440
+IRC: Solver (OFTC & Freenode)
+Web: http://www.practicalsysadmin.com
+Open Source: The revolution that silently changed the world
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.1.10.1005202227270.7760@castor.opentrend.net
+
+

@@ -1,0 +1,28 @@
+Re: About apt, kernel updates and dist-upgradeOn Mon, Feb 04, 2002 at 05:04:08PM +0200, Peter Peltonen wrote:
+> I started wondering how does apt react when it finds a newer kernel in the 
+> bunch of "to be updated" files?
+
+Look at /etc/apt/apt.conf. I think ^kernel$ matches the kernel packages
+(apart from those matched by the rest, smp, enterprise).
+I think it won't do anything about the kernels. Come to think of it, the
+abovementioned might have nothing to do with it.
+
+I explicitly use apt-get install kernel and then from the list pick a
+version and then install kernel#2.4.foo-bar.
+
+> And has anyone ever tried to do a dist-upgrade, say from 7.1 to 7.2? 
+> Should it work? If not, why?
+
+Should. Haven't tried with dist-upgrade but I have put 7.2 netboot
+mirror (ie, 7.2) into sources.list and run install step-by-step for IIRC
+everything. Worked ok. I think there'll be a few .rpmnew files worth
+checking such as, especially, passwd and group.
+I think there was a group change. "lock" ?
+
+-- 
+It feels great to wake up and not know what day it is, doesn't it?
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,23 @@
+Re: How to run a script when pppoe connection comes up?Hendrik Boom <hendrik@topoi.pooq.com> writes:
+
+>I have a script that runs at boot time.  It should really be rerun every 
+>time my pppoe connection has come up and has created device ppp0 for me.  
+>Evidently I have to invoke this script from someplace different from what 
+>I'm doing now.  Where?
+
+After a ppp connection is established, pppd(8) runs the scripts in 
+/etc/ppp/ip-up.d . Check the man page for pppd(8) under the section
+SCRIPTS. This describes which scripts are run when and what environment
+variables are available.
+
+The standard ppp runs the script /etc/ppp/ip-up when the link comes up.
+Debian implements this script to run all the scripts in /etc/ppp/ip-up.d
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1b84.4bf0cb0f.d321a@getafix.xdna.net
+
+

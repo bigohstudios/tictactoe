@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dedad25ed5a80
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs94394wfi;
+        Thu, 8 Apr 2010 12:17:15 -0700 (PDT)
+Received: by 10.141.131.15 with SMTP id i15mr947268rvn.18.1270754234948;
+        Thu, 08 Apr 2010 12:17:14 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 17si1030385pzk.115.2010.04.08.12.17.14;
+        Thu, 08 Apr 2010 12:17:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id A74C71BDC8A81
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 12:17:14 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9982226A2A9BD
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 12:17:14 -0700 (PDT)
+X-Original-To: QuickTime-API@lists.apple.com
+Delivered-To: QuickTime-API@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 286DB26A27079
+	for <QuickTime-API@lists.apple.com>;
+	Thu,  8 Apr 2010 12:09:03 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 146F5C8995B9
+	for <QuickTime-API@lists.apple.com>;
+	Thu,  8 Apr 2010 12:09:03 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c7dae000001ba1-50-4bbe29cef880
+Received: from relay03.pair.com (relay03.pair.com [209.68.5.17])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	E9.59.07073.EC92EBB4; Thu,  8 Apr 2010 12:09:02 -0700 (PDT)
+Received: (qmail 32242 invoked from network); 8 Apr 2010 19:09:00 -0000
+Received: from 208.57.85.201 (HELO James-Walkers-Mac-Pro.local) (208.57.85.201)
+	by relay03.pair.com with SMTP; 8 Apr 2010 19:09:00 -0000
+X-pair-Authenticated: 208.57.85.201
+Message-ID: <4BBE29CB.106@frameforge3d.com>
+Date: Thu, 08 Apr 2010 12:08:59 -0700
+From: James Walker <jamesw@frameforge3d.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Matt Long <matt.long@matthew-long.com>
+References: <4BBE23D7.40901@frameforge3d.com>
+	<751294ED-A56D-40FB-BC51-31EDC59C75A6@matthew-long.com>
+In-Reply-To: <751294ED-A56D-40FB-BC51-31EDC59C75A6@matthew-long.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAROdpHE=
+Cc: QuickTime-API@lists.apple.com
+Subject: Re: Compositing two movies
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 4/8/2010 11:57 AM, Matt Long wrote:
+> Performance degrades pretty significantly with multiple
+> QTMovieLayers.
+> While you can do it that way, you will likely need to use a
+> CAOpenGLLayer and composite two movies into it. CoreImage filters work
+> with it as well.
+>
+> I wrote a blog post on compositing video into a CAOpenGLLayer a while back:
+> http://www.cimgf.com/2008/09/10/core-animation-tutorial-rendering-quicktime-movies-in-a-caopengllayer/
+
+
+As a matter of fact, I saw your blog post, and I posted a comment there 
+saying that I couldn't get your demo to work...
+
+
+> On Apr 8, 2010, at 12:43 PM, James Walker<jamesw@frameforge3d.com>  wrote:
+>
+>> I need to play two movies in sync, compositing them in a custom
+>> way.
+>> One approach I came up with is to put the movies in QTMovieLayers (Core
+>> Animation), and then I can use a Core Image filter for the compositing.
+>> Does that sound reasonable, or is there another approach that is likely
+>> to perform significantly better?
+
+-- 
+   James W. Walker, Innoventive Software LLC
+   <http://www.frameforge3d.com/>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

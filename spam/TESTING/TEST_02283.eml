@@ -1,0 +1,142 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bfabfcab72d51
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs30215wfo;
+        Sat, 22 May 2010 04:00:40 -0700 (PDT)
+Received: by 10.223.144.77 with SMTP id y13mr2560173fau.86.1274526039160;
+        Sat, 22 May 2010 04:00:39 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id a11si3105721fai.11.2010.05.22.04.00.38;
+        Sat, 22 May 2010 04:00:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4F0ED13A528A; Sat, 22 May 2010 11:00:29 +0000 (UTC)
+Old-Return-Path: <quotations@aliceadsl.fr>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.9 required=4.0 tests=CAPINIT,FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E864F13A4FED
+	for <lists-debian-user@liszt.debian.org>; Sat, 22 May 2010 11:00:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, FOURLA=0.1, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5AcgN1rWTznf for <lists-debian-user@liszt.debian.org>;
+	Sat, 22 May 2010 11:00:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 409 seconds by postgrey-1.31 at liszt; Sat, 22 May 2010 11:00:16 UTC
+Received: from out-2.mail.amis.net (out-2.mail.amis.net [212.18.32.14])
+	by liszt.debian.org (Postfix) with ESMTP id B04A313A518F
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 11:00:16 +0000 (UTC)
+Received: from in-5.mail.amis.net (in-5.mail.amis.net [212.18.32.26])
+	by out-2.mail.amis.net (Postfix) with ESMTP id 9EDCF598C2
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 12:53:19 +0200 (CEST)
+Received: from in-5.mail.amis.net (localhost [127.0.0.1])
+	by in-5.mail.amis.net (Postfix) with ESMTP id 9899A2E05A
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 12:53:19 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at amis.net
+X-Amavis-OS-Fingerprint: MYNETWORKS, [212.18.32.41:57008]
+Received: from in-5.mail.amis.net ([127.0.0.1])
+	by in-5.mail.amis.net (in-5.mail.amis.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Kw-jHlU8kL3X for <debian-user@lists.debian.org>;
+	Sat, 22 May 2010 12:53:15 +0200 (CEST)
+Received: from smtp.amis.net (smtp.amis.net [212.18.32.41])
+	by in-5.mail.amis.net (Postfix) with ESMTP id B55852E04F
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 12:53:15 +0200 (CEST)
+Received: from compax (cpe-90-157-185-183.dynamic.amis.net [90.157.185.183])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtp.amis.net (Postfix) with ESMTPSA id 7173A37B54C
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 12:53:15 +0200 (CEST)
+Date: Sat, 22 May 2010 12:55:13 +0200
+From: Klistvud <quotations@aliceadsl.fr>
+Subject: Re: Non Working Keyboard
+To: debian-user@lists.debian.org
+In-Reply-To: <20100520175613.0375.3BF3CFEE@att.net> (from dhoffjr@att.net on
+	Fri May 21 02:56:32 2010)
+X-Mailer: Balsa 2.3.25
+Message-Id: <1274525713.3111.0@compax>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii; DelSp=Yes; Format=Flowed
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <t0WsGIrc1CB.A.vRC.Nl79LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577373
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 11:00:29 +0000 (UTC)
+
+Dne, 21. 05. 2010 02:56:32 je David Hoff Jr napisal(a):
+> I have an older computer which use to have Windows XP on it.  It =20
+> currently has Vinux 3.0 on it.  I downloaded the Debian I386 =20
+> installation version of 5.0.4 ISO and burned it to CD.  When I try to =20
+> install it, I get an opening screen with an installation menu which =20
+> then freezes.   I have no apparent keyboard input, and of course no =20
+> mouse.
+>=20
+> I tried the same CD on a newer computer and it first brings up an =20
+> option to choose my language and then brings up the installation menu =20
+> which is accessible from my keyboard.  It then brings up a license =20
+> screen.  At that point I abort the install.
+>=20
+> What do I need to do to install this to the older computer which has =20
+> an AMD 1500+ mz processor.
+>=20
+> David Hoff Jr
+>=20
+>=20
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact =20
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/20100520175613.0375.3BF3CFEE@att.net
+>=20
+>=20
+>=20
+>=20
+
+ From the symptoms you describe, and ruling out bad RAM (you HAVE of =20
+course checked for bad RAM, haven't you?), my first guess would be "an =20
+aging optical drive, combined with a flakily burnt CD". Such =20
+combinations can prove hard to overcome. Suggestions: temporarily =20
+installing a newer optical drive into the box; or burning another CD, =20
+preferably on a different drive/machine, and on different brand of =20
+media, and at the slowest burning rate available; or perhaps, for the =20
+adventurous at heart, even asking uncle Google about "installing Debian =20
+directly from an ISO file on the hard drive, without burning a CD".
+
+--=20
+Regards, and luck,
+
+Klistvud
+Certifiable Loonix User #481801
+http://bufferoverflow.tiddlyspot.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274525713.3111.0@compax
+
+

@@ -1,0 +1,24 @@
+RE: [ILUG] [OT] Dell machine giving me hassle.
+
+> > Ok, Iknow this is blatantly OT but I'm beginning to go insane.
+> > Had an old Dell Dimension XPS sitting in the corner and decided to
+> > put it to use, I know it was working pre being stuck in the
+> > corner, but when I plugged it in, hit the power nothing happened.
+> > I opened her up and had a look and say nothing much. A little orange
+> > LED comes on when I plug her in but that's it, after some googling
+> > I found some reference to re-seating all the parts, but no change.
+> > The problem I'm having is that since the power supply is some Dell
+> > specific one, ATX block with what looks like one of the old AT
+> > power connectors, I cant figure out weather this is a Mobo prob
+> > or a PSU prob. Just to futily try and drag this back OT, I want
+> > to install Linux on it when I get it working. If anyone knows
+> > what the problem might be give me a shout.
+
+Ie if you are getting a little orange LED when you plug it in then your PSU
+is probably working.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

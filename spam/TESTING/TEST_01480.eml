@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId12816f9ac4d1dcce
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs33290wfj;
+        Mon, 19 Apr 2010 09:49:41 -0700 (PDT)
+Received: by 10.140.247.16 with SMTP id u16mr4372308rvh.215.1271695781300;
+        Mon, 19 Apr 2010 09:49:41 -0700 (PDT)
+Return-Path: <augb-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 8si7006762ywh.7.2010.04.19.09.49.40;
+        Mon, 19 Apr 2010 09:49:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augb-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augb-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augb-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 7A40F1BB0B8C3
+	for <mlsubscriber.tech@csmining.org>; Mon, 19 Apr 2010 09:49:40 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 742AE26F09034
+	for <mlsubscriber.tech@csmining.org>; Mon, 19 Apr 2010 09:49:40 -0700 (PDT)
+X-Original-To: augb@lists.apple.com
+Delivered-To: augb@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id EFBCD26DF8DAC
+	for <augb@lists.apple.com>; Fri, 16 Apr 2010 16:44:24 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id DEEE3CF570F4
+	for <augb@lists.apple.com>; Fri, 16 Apr 2010 16:44:24 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-fe-4bc8f6583fe1
+Received: from asmtpout019.mac.com (asmtpout019.mac.com [17.148.16.94])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	99.00.17067.856F8CB4; Fri, 16 Apr 2010 16:44:24 -0700 (PDT)
+MIME-version: 1.0
+Content-type: text/plain; charset=windows-1252
+Received: from spool002.mac.com ([10.150.69.52])
+	by asmtp019.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTP id <0L0Z00AXKTY0TE70@asmtp019.mac.com> for
+	augb@lists.apple.com; Fri, 16 Apr 2010 16:44:24 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=100 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004160287
+Received: from webmail009 ([10.13.128.9])
+	by spool002.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTP id <0L0Z005M3TXZWV60@spool002.mac.com> for
+	augb@lists.apple.com; Fri, 16 Apr 2010 16:44:24 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=100 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004160287
+Date: Fri, 16 Apr 2010 16:44:23 -0700
+From: AUG Bulletin <augbulletin@me.com>
+To: augb@lists.apple.com
+Message-id: <81070981769595264378414637470430772538-Webmail@me.com>
+Content-transfer-encoding: quoted-printable
+Received: from [208.38.107.59] from webmail.me.com with HTTP; Fri,
+	16 Apr 2010 16:44:23 -0700
+Received: from [ 96.7.46.149] from webmail.me.com with HTTP; Fri,
+	16 Apr 2010 16:44:23 -0700
+X-Originating-IP: 208.38.107.59, 96.7.46.149
+X-Brightmail-Tracker: AAAAAhO2WE4TtoXf
+X-Mailman-Approved-At: Mon, 19 Apr 2010 09:47:58 -0700
+Subject: Apple User Group Bulletin - April 16, 2010
+X-BeenThere: augb@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "An email newsletter for Apple user group leaders and volunteers."
+	<augb.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augb>,
+	<mailto:augb-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augb@lists.apple.com>
+List-Help: <mailto:augb-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augb>,
+	<mailto:augb-request@lists.apple.com?subject=subscribe>
+Sender: augb-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augb-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Apple User Group Bulletin - April 15, 2010
+......................................................................
+
+Recent Highlights from the Apple User Group Resources website:
+http://appleusergroupresources.com
+
+- Circuit Bending =96 SoFlaFCPUG Shows the Way
+- MacCamp Returns with MacCamp 50 on April 16-18
+- Hervey Bay Celebrates Two Years
+- Maker Faire Events Return
+- FCPUG Network SuperMeet at NAB =96 Something New
+- Offers for User Group Leaders and Members including:
+
+=09=95 Special Offer: 28% Discount on iPhone Life magazine with bonuses
+=09=95 Special Offer: 25% Off Mac Help Tutorials
+
+Newsletter Editors: Be sure to visit the special offers link to find
+offers and codes on one page.
+
+http://appleusergroupresources.com/?page_id=3D653
+
+password: special
+
+Visit the Bulletin's new website today!
+http://appleusergroupresources.com/
+
+(Leader offers are limited to one per group.)
+__________
+
+Saundra Foderick, Editor=20
+Tom Piper, Vendor Relations=20
+Elsa Travisano, Webmaster
+Trish Huffman, Offers Editor=20
+
+Questions? Comments? Events you'd like us to cover?
+ugbeditor@me.com
+
+......................................................................
+
+Information about third-party offers and promotions was provided to the
+Apple User Group Advisory Board by the third party and is provided as a
+courtesy. The Apple User Group Advisory Board makes no representations
+and disclaims any liability regarding offers and promotions. Please
+direct questions about an offer or promotion directly to the appropriate
+third party.
+
+Copyright 2010 The Apple User Group Advisory Board. All rights reserved.
+The Apple User Group Advisory Board permits reproduction of the contents
+of the Apple User Group Bulletin for publicity and promotional purposes.
+Please include a link to http://appleusergroupresources.com if you use
+any of this information for publicity or promotional purposes.
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augb mailing list      (Augb@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augb/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

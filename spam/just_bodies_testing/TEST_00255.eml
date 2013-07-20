@@ -1,0 +1,31 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected! Why?On 2010-04-20 06:58, Merciadri Luca wrote:
+[snip]
+>> So, you need to ask yourself:
+>> (a) Does this "colleague" run Linux?
+> Nice question. He does not.
+
+In that case, he should be using Acroread, which means you have 
+little to fear.
+
+>> (b) If so, will he read it with Acroread?
+> /
+>> (c) Will he be be motivated enough and clever[0] enough to
+>>     Google "break pdf encryption"?
+ >
+> Motivated enough, sure. He would have better put all this motivation
+> into the work we had to do in group. Clever, not sure.
+> 
+
+Seems pretty typical to me...
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCDAF12.9010600@cox.net
+
+

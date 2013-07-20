@@ -1,0 +1,20 @@
+Re: Apt-get questionOnce upon a time, Stephen wrote :
+
+> # apt-get install 
+> /mnt/cdrom/Linux/CDBurner/cdrtools-cdrecord-1.11a23-1.i386.rpm
+
+This is not how apt is meant to be used, see Gordon's answer to your post
+on the Valhalla list for details.
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,214 @@
+X-Account-Key: account5
+X-UIDL: GmailId128082fe1d906ef3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs38796wfj;
+        Fri, 16 Apr 2010 12:54:35 -0700 (PDT)
+Received: by 10.141.214.28 with SMTP id r28mr2455891rvq.168.1271447675114;
+        Fri, 16 Apr 2010 12:54:35 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 15si15580708iwn.40.2010.04.16.12.54.34;
+        Fri, 16 Apr 2010 12:54:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 6CDFB1BA6B3FF
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 12:54:34 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6733426DD905E
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 12:54:34 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 48E6526DD89E6
+	for <java-dev@lists.apple.com>; Fri, 16 Apr 2010 12:53:36 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 37F60CAA01C6
+	for <java-dev@lists.apple.com>; Fri, 16 Apr 2010 12:53:36 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-58-4bc8c03f2b14
+Received: from outbound.vnet-inc.com (outbound.vnet-inc.com [216.146.104.103])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	2C.98.26228.F30C8CB4; Fri, 16 Apr 2010 12:53:36 -0700 (PDT)
+Received: from bj39.montanavision.com (bj39.montanavision.com [216.146.121.39])
+	by outbound.vnet-inc.com (Postfix) with ESMTP id 03F3F5A2B;
+	Fri, 16 Apr 2010 13:53:36 -0600 (MDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=utf-8
+From: Nick Howes <nick@ghostwood.org>
+In-Reply-To: <w2z1f5d398f1004161244k8fdd8a7fs9d2284fc22075fd2@mail.csmining.org>
+Date: Fri, 16 Apr 2010 13:53:33 -0600
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <B6CEBC01-36F3-43E3-A7A8-7B1BE3F1AE40@ghostwood.org>
+References: <D51E87D1-3EF3-43C7-AE49-014E9590677D@ghostwood.org>
+	<k2k1f5d398f1004161018jea996373ma215d2e9438387c4@mail.csmining.org>
+	<6E57C8B3-F272-4E38-94DD-26F5F0A05F48@ghostwood.org>
+	<k2z1f5d398f1004161147jfef203d9ve2f15978693be3db@mail.csmining.org>
+	<5494A64E-F424-4791-B5F0-F1CECD419D51@ghostwood.org>
+	<g2w1f5d398f1004161226p16c33391o95d86428902a6cb0@mail.csmining.org>
+	<0FFE9720-69FA-468A-AE32-A55387C6FC5D@ghostwood.org>
+	<i2s1f5d398f1004161241sa375c2bawe760827f8535e0bf@mail.csmining.org>
+	<w2z1f5d398f1004161244k8fdd8a7fs9d2284fc22075fd2@mail.csmining.org>
+To: Gabriele Kahlout <gabriele@mysimpatico.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: java-dev <java-dev@lists.apple.com>
+Subject: Re: Java Web Start Offline Problems
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I am running the same version (developer preview) that you are (I'm =
+running on Mac OS X Server 10.6, but I don't think that makes any =
+difference).
+
+If I disconnect both the internet and the LAN, your app and mine launch =
+OK.  Makes no sense to me.
+
+On Apr 16, 2010, at 1:44 PM, Gabriele Kahlout wrote:
+
+> BTW: I had attached a screnshoot that showed my java -version, no
+> network connection, and MemorizEasy application window (launched after
+> I disconnected to any network).
+> However it may not be posted to the list.
+>=20
+> Maybe you should try disconnecting completely too?
+>=20
+> 2010/4/16, Gabriele Kahlout <gabriele@mysimpatico.com>:
+>> At this point, I don't know what else to say. I hope volks from the
+>> community could re-do the tests we did and report back.
+>>=20
+>> 2010/4/16, Nick Howes <nick@ghostwood.org>:
+>>> I launched via the JNLP (online) and created a "shortcut" app.  I =
+then
+>>> quit
+>>> the app and shut down my internet connection (still with a local =
+LAN).  I
+>>> double-clicked the "shortcut" app - I waited at least 2 minutes and =
+it
+>>> did
+>>> not launch (the app name appears in the menu bar, but nothing else). =
+ As
+>>> soon as I reconnected my internet connection, it launched.
+>>>=20
+>>>=20
+>>> On Apr 16, 2010, at 1:26 PM, Gabriele Kahlout wrote:
+>>>=20
+>>>> It works on my end. I think I own of users that use it offline too.
+>>>> What steps did you follow?
+>>>>=20
+>>>> 2010/4/16, Nick Howes <nick@ghostwood.org>:
+>>>>> Thanks Gabriele.  I was able to launch your app online without a
+>>>>> problem,
+>>>>> but I could not launch it offline.  I do have the latest Developer
+>>>>> Preview
+>>>>> installed and I suspect that might be the problem: I believe the =
+bug
+>>>>> may
+>>>>> have been introduced with Java 1.6.0_18.
+>>>>>=20
+>>>>>=20
+>>>>> On Apr 16, 2010, at 12:47 PM, Gabriele Kahlout wrote:
+>>>>>=20
+>>>>>> http://memorizeasy.mysimpatico.com
+>>>>>>=20
+>>>>>> It's actually 2 jnlps, one setup and one launch.
+>>>>>>=20
+>>>>>> Should it not work offline with you, pls let me know. I'm aware =
+that
+>>>>>> it does work (I've tested that some time ago, and just now,  but =
+...).
+>>>>>>=20
+>>>>>> I also verified that yours doesn't launch offline.
+>>>>>>=20
+>>>>>>=20
+>>>>>> 2010/4/16, Nick Howes <nick@ghostwood.org>:
+>>>>>>> On Apr 16, 2010, at 11:18 AM, Gabriele Kahlout wrote:
+>>>>>>>=20
+>>>>>>>>> Launching without an internet connection causes the =
+application to
+>>>>>>>>> "hang".
+>>>>>>>>=20
+>>>>>>>> In the case of my application this doesn't happen. Must be =
+specific
+>>>>>>>> to
+>>>>>>>> some cases.
+>>>>>>>=20
+>>>>>>> Thanks for that information.
+>>>>>>>=20
+>>>>>>> Maybe it's something about our JNLP file
+>>>>>>> <http://driveweb.com/tech/ap/v3/dw.jnlp>.  Could you maybe share =
+the
+>>>>>>> JNLP
+>>>>>>> file for the case that doesn't hang?
+>>>=20
+>>>=20
+>>=20
+>>=20
+>> --
+>> Regards,
+>> K. Gabriele
+>>=20
+>> --- unchanged since 25/1/10 ---
+>> P.S. Unless a notification (LON), please reply either with an answer
+>> OR with " ACK" appended to this subject within 48 hours. Otherwise, I
+>> might resend.
+>> In(LON, this) =E2=88=A8 In(48h, TimeNow) =E2=88=A8 =E2=88=83x. In(x, =
+MyInbox) =E2=88=A7 IsAnswerTo(x,
+>> this) =E2=88=A8 (In(subject(this), subject(x)) =E2=88=A7 In(ACK, =
+subject(x)) =E2=88=A7
+>> =C2=ACIsAnswerTo(x,this)) =E2=87=92 =C2=ACIResend(this).
+>>=20
+>> Also note that correspondence may be received only from specified a
+>> priori senders, or if the subject of this email ends with a code, eg.
+>> -LICHT01X, then also from senders whose reply contains it.
+>> =E2=88=80x. In(x, MyInbox) =E2=87=92 In(senderAddress(x), =
+MySafeSenderList) =E2=88=A8 (=E2=88=83y.
+>> In(y, subject(this) ) =E2=88=A7 In(y,x) =E2=88=A7 isCodeLike(y, =
+-LICHT01X) ).
+>>=20
+>=20
+>=20
+> --=20
+> Regards,
+> K. Gabriele
+>=20
+> --- unchanged since 25/1/10 ---
+> P.S. Unless a notification (LON), please reply either with an answer
+> OR with " ACK" appended to this subject within 48 hours. Otherwise, I
+> might resend.
+> In(LON, this) =E2=88=A8 In(48h, TimeNow) =E2=88=A8 =E2=88=83x. In(x, =
+MyInbox) =E2=88=A7 IsAnswerTo(x,
+> this) =E2=88=A8 (In(subject(this), subject(x)) =E2=88=A7 In(ACK, =
+subject(x)) =E2=88=A7
+> =C2=ACIsAnswerTo(x,this)) =E2=87=92 =C2=ACIResend(this).
+>=20
+> Also note that correspondence may be received only from specified a
+> priori senders, or if the subject of this email ends with a code, eg.
+> -LICHT01X, then also from senders whose reply contains it.
+> =E2=88=80x. In(x, MyInbox) =E2=87=92 In(senderAddress(x), =
+MySafeSenderList) =E2=88=A8 (=E2=88=83y.
+> In(y, subject(this) ) =E2=88=A7 In(y,x) =E2=88=A7 isCodeLike(y, =
+-LICHT01X) ).
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

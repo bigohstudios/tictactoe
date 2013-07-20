@@ -1,0 +1,34 @@
+Re: Sorting
+
+>> I run exmh on my desktops at home and at work with the resulting exmh
+>> windows being displayed on both my work and home desktops (gratis SSH
+>> X11 forwarding).  In fact, your message was read and replied to (this
+>> message) while at work, using an exmh instance running on my home
+>> machine.
+
+Just to throw in another approach to solving the same problem. 
+
+I run two copies of exmh, one at work, one at home.  They both
+display on a "virtual X server" created by vncserver on the home
+box.  I connect to that virtual X server using vncviewer wherever
+I happen to be.  The VNC connection is tunneled over ssh and is
+carried over the Internet via an IPSEC appliance.
+
+That gives me access to both home and work email from either 
+place without the complications involved in having two copies of 
+exmh working on the same set of folders.
+
+It's a tad slow viewing work email when I'm at work ... but not 
+so bad that I can't stand it.
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId12892ba82312506f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs9451wfo;
+        Thu, 13 May 2010 10:33:37 -0700 (PDT)
+Received: by 10.223.5.89 with SMTP id 25mr176265fau.87.1273772016450;
+        Thu, 13 May 2010 10:33:36 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g5si3801877fai.85.2010.05.13.10.33.35;
+        Thu, 13 May 2010 10:33:36 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 804EC13A5456; Thu, 13 May 2010 17:33:30 +0000 (UTC)
+Old-Return-Path: <judd@wadsworth.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1A1FC13A542A
+	for <lists-debian-user@liszt.debian.org>; Thu, 13 May 2010 17:33:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id dBsYVDgJoyvq for <lists-debian-user@liszt.debian.org>;
+	Thu, 13 May 2010 17:33:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 252 seconds by postgrey-1.31 at liszt; Thu, 13 May 2010 17:33:15 UTC
+Received: from mailserv.wadsworth.org (mailserv.wadsworth.org [199.184.30.43])
+	by liszt.debian.org (Postfix) with ESMTP id E847C13A542C
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 17:33:09 +0000 (UTC)
+X-Wadsworth-MailScanner-Watermark: 1274376531.39139@UdOsWn3SZQTZPqmMnG02pg
+Received: from gibbs.localnet (sirius-0114.wadsworth.org [172.16.13.114])
+	by mailserv.wadsworth.org (8.13.8+Sun/8.13.8) with ESMTP id o4DHSpNE008036
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 13:28:51 -0400 (EDT)
+From: Christopher Judd <judd@wadsworth.org>
+Organization: NYS Dept. of Health
+To: debian-user@lists.debian.org
+Subject: Re: just fetch .debs without installing
+Date: Thu, 13 May 2010 13:28:50 -0400
+User-Agent: KMail/1.12.4 (Linux/2.6.32-3-amd64; KDE/4.3.4; x86_64; ; )
+References: <20100513111014.03805640@pbmiha.malagasy.com> <20100513092400.GA24069@kinakuta.local> <20100513200734.64f413c9@pbmiha.malagasy.com>
+In-Reply-To: <20100513200734.64f413c9@pbmiha.malagasy.com>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005131328.50808.judd@wadsworth.org>
+X-Wadsworth-MailScanner-Information: Please contact CSS for more information
+X-MailScanner-ID: o4DHSpNE008036
+X-Wadsworth-MailScanner: Found to be clean
+X-Wadsworth-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.661, required 5, ALL_TRUSTED -1.80, AWL -0.99,
+	DNS_FROM_OPENWHOIS 1.13)
+X-MailScanner-From: judd@wadsworth.org
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <4UG6h0HW_D.A.fyF.qfD7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576700
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 17:33:30 +0000 (UTC)
+
+On Thursday 13 May 2010 13:07:34 Mihamina Rakotomandimby wrote:
+> > Wolodja Wentland <wentland@cl.uni-heidelberg.de> :
+> >> What is the optoin to pass to apt-get in order to make it just fetch
+> >> the .debs without installing them?
+> >
+> >It has already been pointed out that -d/--download-only is the correct
+> >option to pass to apt-get in order to keep apt-get from installing
+> >retrieved Debian packages.
+> >You have not explained why you want to do this,
+> 
+> I have more bandwidth (1Mbps) at nitgh than during the day (256kbps).
+> I would like to launch a dist-upgrade, but I want it to happen face to
+> me. I'd rather pre-download the .debs and launch real dist-upgrade face
+> to face.
+> ...
+
+I've used a cron job doing "aptitude -dy full-upgrade" at night to do this in 
+similar circumstances.
+
+-Chris
+
+------------------------------------------------------------------------
+|   Christopher Judd, Ph. D.                                           |
+|   Research Scientist III                                             |
+|   NYS Dept. of Health                           judd@wadsworth.org   | 
+|   Wadsworth Center - ESP                                             |
+|   P. O. Box 509                                    518 486-7829      |
+|   Albany, NY 12201-0509                                              |
+------------------------------------------------------------------------
+
+
+IMPORTANT NOTICE: This e-mail and any attachments may contain
+confidential or sensitive information which is, or may be, legally
+privileged or otherwise protected by law from further disclosure.  It
+is intended only for the addressee.  If you received this in error or
+from someone who was not authorized to send it to you, please do not
+distribute, copy or use it or any attachments.  Please notify the
+sender immediately by reply e-mail and delete this from your
+system. Thank you for your cooperation.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005131328.50808.judd@wadsworth.org
+
+

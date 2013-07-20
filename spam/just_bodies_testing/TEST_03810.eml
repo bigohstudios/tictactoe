@@ -1,0 +1,49 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is	protected! Why?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Gunnar Wolf wrote:
+> Russ Allbery dijo [Mon, Apr 19, 2010 at 02:14:21PM -0700]:
+>  =20
+>
+> The reasons not to want a document printed are quite easy to
+> understand, but the mechanism is flawed.
+/
+> Given the setting you
+> mention, you can just slap a red banner stating "Confidential, do not
+> print". If it is on a corporate setting, just state it as a policy -
+> and if somebody fails to comply with the policy, there should be
+> sanctions.
+>  =20
+That is not for an enterprise stuff (at least if you do not consider the
+universities as enterprises), but I slapped such a banner (here, this is
+only a simple watermark). But there are also different ways to remove a
+watermark...
+> Of course, somebody interested in printing the file will do it. Either
+> by his own means or, like my users, by mailing the "techie" the
+> document asking him to unprotect it. Or by sticking it on a USB key
+> and taking it off-site to a location they can freely tinker with.
+>  =20
+Sure. But one hopes the measures to be deterrent! That is one of the
+only thing we can rely on with a given amount of certitude.
+> As I said on my previous mail: If you don't want it to be printed,
+> distribute in a way that makes it hard to be useful when
+> printed.
+Sure, but how? (For the next time, if any.) They need(ed) to read it,
+and it must be sufficiently `high-res.'
+>  Don't you trust somebody with social security numbers and
+> salary information? Don't give it to them.
+>  =20
+No choice. I am not the supervisor of the course.
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f1b44bf7ed914
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs143586wfo;
+        Mon, 12 Apr 2010 04:07:57 -0700 (PDT)
+Received: by 10.115.84.8 with SMTP id m8mr3042976wal.9.1271070476936;
+        Mon, 12 Apr 2010 04:07:56 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 1si4816516iwn.63.2010.04.12.04.07.56;
+        Mon, 12 Apr 2010 04:07:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 74BD91BC59842
+	for <mlsubscriber.tech@csmining.org>; Mon, 12 Apr 2010 04:07:56 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 701BF26B7F446
+	for <mlsubscriber.tech@csmining.org>; Mon, 12 Apr 2010 04:07:56 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 44F3126B7F1B9
+	for <objc-language@lists.apple.com>;
+	Mon, 12 Apr 2010 04:07:32 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 30708C971792
+	for <objc-language@lists.apple.com>;
+	Mon, 12 Apr 2010 04:07:32 -0700 (PDT)
+X-AuditID: 11fe0d07-b7b9eae000002b10-8c-4bc2fef4d91e
+Received: from asmtpout024.mac.com (asmtpout024.mac.com [17.148.16.99])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	95.96.11024.4FEF2CB4; Mon, 12 Apr 2010 04:07:32 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [10.0.1.3] ([66.108.7.188])
+	by asmtp024.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPSA id <0L0R009Q9G8I0U60@asmtp024.mac.com> for
+	objc-language@lists.apple.com; Mon, 12 Apr 2010 04:07:31 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004120063
+From: Andy Lee <aglee@mac.com>
+In-reply-to: <v2m597e7edb1004120352tb11aee6wf1715c75b46eca78@mail.csmining.org>
+Date: Mon, 12 Apr 2010 07:07:29 -0400
+Message-id: <E43C5CA1-12C3-4B09-93D6-6AFEF0FB6B8F@mac.com>
+References: <t2ja92022a41004111315y4f399596pdfb107eb86563859@mail.csmining.org>
+	<z2ide3c77431004111322v7e93615x6941a344be5353ea@mail.csmining.org>
+	<y2v597e7edb1004111359s8d7c36fewc473913688d153b2@mail.csmining.org>
+	<p2me958890e1004120322o6dfba713q7a122518f00e0af2@mail.csmining.org>
+	<v2m597e7edb1004120352tb11aee6wf1715c75b46eca78@mail.csmining.org>
+To: Hamish Allan <hamish@csmining.org>
+X-Mailer: Apple Mail (2.1077)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: class variables
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 12, 2010, at 6:52 AM, Hamish Allan wrote:
+> Sorry, should have been more explicit. What I meant was the following...
+> 
+> @implementation MYClass
+> static int theInstanceCounter = 0;
+> - (id)init
+> {
+>    self = [super init];
+>    if (self)
+>        ++theInstanceCounter;
+>    return self;
+> }
+> @end
+> 
+> ...would share the instance counter with subclasses, whereas...
+> 
+> @implementation MYClass
+> - (id)
+> {
+>    self = [super init]
+>    if (self)
+>    {
+>        NSNumber *counter = objc_getAssociatedObject([self class],
+> TheInstanceCounterKey);
+>        objc_setAssociatedObject([self class], TheInstanceCounterKey,
+> [NSNumber numberWithInt:[counter intValue]+1],
+> OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+>    }
+>    return self;
+> }
+> @end
+> 
+> would not.
+
+To tie this back to the original question, I believe the first approach is like a Smalltalk class variable and the second approach is like a Smalltalk class instance variable.
+
+--Andy
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

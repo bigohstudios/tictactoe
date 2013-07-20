@@ -1,0 +1,27 @@
+Re: alsa-driver rebuild fails with undeclared USB symbolOn Sat, 2002-08-31 at 08:28, Ben Liblit wrote:
+
+> Well, I've figured out the problem.  I guess you could say it's an ALSA 
+> bug.  When one configures using "--with-cards=all", ALSA blindly turns 
+> on the various CONFIG_SND_USB_* macros even if CONFIG_USB is not 
+> actually set.
+[...]
+> Matthias, would you please consider hooking up this patch in your 
+> alsa-driver.spec?  It can be added in the obvious manner:
+> 
+> I suppose I should send this along to the ALSA developers as well.  For 
+> them I'll produce a "proper" patch that makes the fix in "acinclude.m4". 
+>   Or is someone else on this list already part of the ALSA developer 
+> community, and willing to shepherd this through for me?
+
+Not me, but IMHO it's kind of offtopic to put it in freshrpms.net RPMs. 
+Upstream is the way to go...
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId12821e7a636807e7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs127615wfj;
+        Wed, 21 Apr 2010 12:47:05 -0700 (PDT)
+Received: by 10.223.20.216 with SMTP id g24mr7908fab.63.1271879149184;
+        Wed, 21 Apr 2010 12:45:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si2099895fke.57.2010.04.21.12.45.48;
+        Wed, 21 Apr 2010 12:45:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3F6F913A4ABB; Wed, 21 Apr 2010 19:45:43 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RCVD_NUMERIC_HELO autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4020113A4A51
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 19:45:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.833 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	RCVD_NUMERIC_HELO=2.067] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 7FkrW-PIljyl for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 19:45:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 4906513A4A7B
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 19:45:30 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O4frO-0002i4-Qn
+	for debian-user@lists.debian.org; Wed, 21 Apr 2010 21:45:22 +0200
+Received: from 200.57.201.152 ([200.57.201.152])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 21:45:22 +0200
+Received: from hvw59601 by 200.57.201.152 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 21:45:22 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Hugo Vanwoerkom <hvw59601@care2.com>
+Subject: Re: Linux compatible mainboards -another thought
+Date: Wed, 21 Apr 2010 14:45:10 -0500
+Lines: 26
+Message-ID: <hqnkk8$mio$1@dough.gmane.org>
+References: <4BCF2855.5050901@heard.name> <4BCF3261.7080105@heard.name> <pan.2010.04.21.17.22.13@csmining.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 200.57.201.152
+User-Agent: Thunderbird 2.0.0.19 (X11/20081209)
+In-Reply-To: <pan.2010.04.21.17.22.13@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Fc0x9wjaQGM.A.FaE.nX1zLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574716
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 19:45:43 +0000 (UTC)
+
+Camaleón wrote:
+> On Wed, 21 Apr 2010 13:14:09 -0400, Ken Heard wrote:
+> 
+>> Further to my original post, it was and is my intention to use replace
+>> the internal graphics card with Nvidia GeForce 7600 GS card, which I
+>> have already but have yet to install.  It will of course will use a
+>> different driver.  In that case, does it really matter whether I have a
+>> driver for the Intel integrated graphics chipset, since it will be
+>> disabled when the new card is installed?
+> 
+> No, it doesn't matter *unless* you want to use the Intel VGA.
+> 
+> For GeForce 7600GS you have the following options:
+> 
+> 1/ "nv" driver (only 2-D)
+> 2/ "nvidia" driver from Debian "contrib" and "non-free" sources
+> 3/ "nvidia" driver from nvidia website
+> 4/ VESA driver (not recommended)
+> 
+> I am currently using option #2 for my GeForce 7600GS in Debian lenny and 
+> works pretty well.
+> 
+
+I use 3/ and 195.36.15 to drive 2 seats on 2 GeForce 6200 cards
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqnkk8$mio$1@dough.gmane.org
+
+

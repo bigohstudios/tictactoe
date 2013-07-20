@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dd2216953628c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs74264wfi;
+        Thu, 8 Apr 2010 04:15:52 -0700 (PDT)
+Received: by 10.223.101.81 with SMTP id b17mr7898fao.17.1270725351383;
+        Thu, 08 Apr 2010 04:15:51 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si21268501fxm.17.2010.04.08.04.15.50;
+        Thu, 08 Apr 2010 04:15:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6FECA13A673E; Thu,  8 Apr 2010 11:15:46 +0000 (UTC)
+Old-Return-Path: <frank.stoerzer@web.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BB89E13A6735
+	for <lists-debian-kde@liszt.debian.org>; Thu,  8 Apr 2010 11:15:39 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gR36has1FuDj for <lists-debian-kde@liszt.debian.org>;
+	Thu,  8 Apr 2010 11:15:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from fmmailgate01.web.de (fmmailgate01.web.de [217.72.192.221])
+	by liszt.debian.org (Postfix) with ESMTP id 8EA0113A5DA5
+	for <debian-kde@lists.debian.org>; Thu,  8 Apr 2010 11:15:31 +0000 (UTC)
+Received: from smtp08.web.de (fmsmtp08.dlan.cinetic.de [172.20.5.216])
+	by fmmailgate01.web.de (Postfix) with ESMTP id 3576A155C2FA0
+	for <debian-kde@lists.debian.org>; Thu,  8 Apr 2010 12:02:28 +0200 (CEST)
+Received: from [217.224.149.117] (helo=neptun.localnet)
+	by smtp08.web.de with asmtp (TLSv1:AES256-SHA:256)
+	(WEB.DE 4.110 #4)
+	id 1NzoZ9-0000UJ-00
+	for debian-kde@lists.debian.org; Thu, 08 Apr 2010 12:02:28 +0200
+From: Frank =?utf-8?q?St=C3=B6rzer?= <frank.stoerzer@web.de>
+To: debian-kde@lists.debian.org
+Subject: Re: pinentry window?
+Date: Thu, 8 Apr 2010 12:02:26 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.32-2-amd64; KDE/4.4.2; x86_64; ; )
+References: <201004080726.05819@fortytwo.ch> <201004081444.41726.breton.linux@csmining.org>
+In-Reply-To: <201004081444.41726.breton.linux@csmining.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004081202.26801.frank.stoerzer@web.de>
+Sender: frank.stoerzer@web.de
+X-Sender: frank.stoerzer@web.de
+X-Provags-ID: V01U2FsdGVkX18T+O3jikvxrZp3CSN/KygGxukSLanWXRp9CZjH
+	eQWt/RUA8S2yPrbLcTgRQ7xh7+kbZ3qTULOF0ZZin0VCwb15oX
+	YwMyjweDvf0rPcQ3+jjw==
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <XtMJRQgW2GG.A.c2H.irbvLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31992
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 11:15:46 +0000 (UTC)
+
+Hi Boris,
+Am Donnerstag, 8. April 2010 11:44:41 schrieb Boris Bobrov:
+> Hm. I have another problem - I can't sign any email, I get "Bad
+> Passphrase" every time I try to sign it. Pinentry window doesn't
+> appear.
+> 
+> The solution of your problem is to make a rule for this window.
+> System settings - Window behavior - Window-Specific - New.
+I had the same problem some days ago. Just have a look in your 
+~/.gnupg/gpg-agent.conf which pinentry will be called and have a look on 
+your system, which pinentry is installed.
+
+Greetings
+
+Frank
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004081202.26801.frank.stoerzer@web.de
+
+

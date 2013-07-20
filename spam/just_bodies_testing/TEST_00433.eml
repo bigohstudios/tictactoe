@@ -1,0 +1,24 @@
+Re: question about avoid duplicated ip addressIsrael Garcia wrote:
+
+> 
+> I could be possible for me to configure this on every dom0 and setup
+> an DHCP server for all hosts. But, it's a little complicated. I'd
+> prefer to look for other solution to see how can I protect my IP
+> servers if a newone gets an used IP. I was taking a look at this
+> http://sourceforge.net/projects/ipwatchd/, but I've to make my own
+> test.
+> 
+
+we are using a global dhcp server. don't allow static ips in the virtual
+envs - they should get it over the master dhcp server.
+
+regards
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hs8lt4$54m$3@dough.gmane.org
+
+

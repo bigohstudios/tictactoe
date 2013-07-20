@@ -1,0 +1,56 @@
+Re: iceweasel crashing when closing tabsOn Thu, 20 May 2010 04:19:22 +0000
+"RyanJB" <ryanjonathanb@csmining.org> wrote:
+
+> Hi there,
+> 
+> That's odd. Mine is 3.5.9 too but I didn't notice any crashes. Does
+> all your tab crash or just on specific websites? If you suspect
+> javascript is the problem, try disabling it and see what happens.
+> 
+
+It just started so I'm still trying to sort out whether it's specific
+sites, javascript, etc..
+
+javascript is turned off and that definitely seems to help.
+
+I'm trying to figure out if it's certain sites.
+
+of course none of this is useful until it's repeatable, hence the
+reason I'm asking if their is anyone else seeing this.
+
+Brian
+
+> Regards
+> RJB
+> -----Original Message-----
+> From: <briand@aracnet.com>
+> Date: Wed, 19 May 2010 20:22:48 
+> To: <debian-user@lists.debian.org>
+> Subject: iceweasel crashing when closing tabs
+> 
+> Hi,
+> 
+> I'm running sid..
+> 
+> Just started happening after the latest upgrade.  Looks like the
+> current version of iceweasel is 3.5.9.
+> 
+> I think it's related to javascript, but then again I think all browser
+> problems are related to javascript, I mean when they're not related to
+> flash.
+> 
+> I was wondering if anyone else is seeing this behavior.
+> 
+> 
+> 
+> Brian
+> 
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519215708.68ce2a42@windy.deldotd.com
+
+

@@ -1,0 +1,31 @@
+[SAdev] [Bug 960] COMMENT low-performing rule prunedhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=960
+
+spamassassin-contrib@msquadrat.de changed:
+
+           What    |Removed                     |Added
+----------------------------------------------------------------------------
+             Status|NEW                         |RESOLVED
+         Resolution|                            |WONTFIX
+
+
+
+------- Additional Comments From spamassassin-contrib@msquadrat.de  2002-10-03 14:16 -------
+I think it's ok to close this one? Comment is a valid, albeit seldom used RFC 
+2822 header... 
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

@@ -1,0 +1,50 @@
+Re: lilo removal in squeeze (or, "please test grub2")Ferenc Wagner wrote:
+> Stephen Powell <zlinuxman@wowway.com> writes:
+>>
+>> Both grub-legacy and grub-pc use sectors on the hard disk outside of
+>> the master boot record and outside of a partition ...
+>
+> You may want to try extlinux, it works much like LILO in this respect.
+
+Well, I tried extlinux last night, and I am hopeful that this is going
+to be a solution, at least for me.  extlinux seems to combine the best
+parts of grub-pc and lilo.  Like grub-pc, extlinux understands the file
+system, and can read the configuration file, kernel, and the initial
+RAM file system image from the file system without needing a list of
+specific blocks to read.  Thus, the boot loader does not need to be re-run
+every time a kernel is installed or updated or an initial RAM file system
+image is installed or updated.  The number of file systems it supports
+is limited, but that's OK.  A separate /boot partition of the file system
+type supported by the boot loader is acceptable.
+
+But like lilo it stays out of unallocated (and therefore not backed up)
+sectors.  The boot block of extlinux is installed in the boot sector
+of a partition, and the second stage loader occupies a file within the
+partition.  It does not use the master boot record.  It relies on a
+master boot record program to chain load it from the partition boot
+sector.  (I use the mbr package for that.)  It *does* support the
+specification of an initial text video mode (vga option), though this
+is not specifically documented.
+
+Speaking of documentation, that seems to be its main weakness.
+Documentation is sketchy and spread out over a number of different files.
+I would have had a hard time configuring it if it weren't for
+correct guesses based on my knowledge of how lilo is configured, which
+newer users won't have.  It installs hook scripts that I don't want
+(and that have bugs).  But after manual configuration and tweaking,
+it works just fine.  Now, if it passes the backup / low-level-format /
+restore test, I'll be good to go.  Stay tuned ...
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1078928757.35141.1274793733671.JavaMail.root@md01.wow.synacor.com
+
+

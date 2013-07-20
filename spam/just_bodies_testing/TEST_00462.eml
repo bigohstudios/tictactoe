@@ -1,0 +1,15 @@
+gkrellm 2 plugins?Hi Matthias,
+
+I think I could do help you out with new plugins package for gkrellm 2. 
+Would you prefer to keep it as it is now, or package every plugin
+separately?  The latter would be probably easier to maintain.
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,74 @@
+(OT) alpine stopped authenticating SSL/TLS certificate
+Hi,
+
+Two weeks ago my mail client (alpine) stopped authenticating my email 
+provider's certificate.  (Provider is FastMail.fm.)
+
+I tried several things (details below) without success.
+I can't even tell if the problem is on my or server's end.
+I tried to get help at the provider's forum's to no avail.
+
+** Please help in anaylzing this situation **
+
+Here are the details.
+
++ The failure message
+   "There was a failure validating the \
+    SSL/TLS certificate for the server
+        mail.messagingengine.com
+    The reason for the failure was
+        unable to get local issuer certificate"
+
++ I use alpine both at home and work.  Failure occurs only at work.
+   But work machine was OK until 2 weeks ago.
+
++ Both machines run gnu-linux debian stable (lenny), using the
+   latest version of alpine (1.10+dfsg-3).
+
++ After the problems started at work I noted that there is a
+   mismatch between the versions of libkrb53 on home and work
+   machines.  (Alpine depends on libkrb53.)  Specifically, work
+   machine was fully updated, while home machine had a pending
+   security update.
+   (At the moment I refrain from doing the update on home machine
+   -- don't want to lose working setup without further advice.)
+
++ running
+       'strace alpine ... | grep cert'
+   on home machine reveals that alpine uses
+       /usr/lib/ssl/certs/ed524cf5.0,
+   which is symlinked to
+       Entrust.net_Secure_Server_CA.pem.
+
++ On work machine (again using strace) alpine looks for
+       /usr/lib/ssl/certs/9e233d61.0
+   which does not exist on my system.
+   (On the other hand, the file accessed on home machine
+       /usr/lib/ssl/certs/ed524cf5.0
+   does exist on work machine, too.)
+
++ I thought that symlinking the file that works on home machine
+       /usr/lib/ssl/certs/ed524cf5.0
+   to what alpine is looking for
+       /usr/lib/ssl/certs/9e233d61.0
+   would help.
+   But it didn't :-((
+
++ I tried to extract the certificate directly from the
+   client/server exchange, and use it as a symlink to what work
+   machine is looking for.  Without success :-((
+   The recipe I used was here:
+       http://www.madboa.com/geek/pine-ssl/#summary
+
++ Accessing the mail via web browser is OK (both work & home).
+
+Thank you in advance,
+Itay
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.1.10.1005031608420.10688@frodo1.weizmann.ac.il
+
+

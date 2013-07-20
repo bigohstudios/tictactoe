@@ -1,0 +1,23 @@
+Re: colorized lsOn 05/09/2010 03:26 PM, Rick Pasotto wrote:
+> What did I update recently that caused me to lose ls coloring with this
+> error message:
+
+What exactly (Stable, Testing, Sid) did you update, and what command 
+did you use to update it?
+
+> ls: unrecognized prefix: hl
+> ls: unparsable value for LS_COLORS environment variable
+>
+> How should I fix it?
+>
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE72CA8.2070508@cox.net
+
+

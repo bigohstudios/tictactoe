@@ -1,0 +1,24 @@
+Re: How to remove oowriter delay on opening document?Kevin Ross wrote:
+>> From: Sthu Deus [mailto:sthu.deus@csmining.org]
+>> Sent: Thursday, April 22, 2010 10:31 AM
+>>
+>>      
+> In the case of KDE, since no programs are using GTK, OOo would have to load
+> the GTK libraries fresh, which slows things down.
+> <.......>
+>
+>
+>    
+AFAIK: that 's fairly to the point (since staroffice?).
+
+reg.,
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD2899A.40505@home.nl
+
+

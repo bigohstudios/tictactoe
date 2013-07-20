@@ -1,0 +1,37 @@
+[Razor-users] can't find Razor/Client.pmApologies if this has been answered before on this list.  I can't
+find a way to search the archives.  I did my best to scan through
+the archive messages, but can't find my answer.  Please advise if
+there is a search engine somewhere, Thanks. 
+
+I'm trying to set up a smtp relay mail server using postfix,
+Spamassassin, and amavisd-new.  (no local delivery, just an
+anti-spam filter box)  I have installed razor-agents-sdk-2.02 and
+razor-agents-2.125 (in that order) on a RH 7.3 box for this.  But
+when I try to load amavisd from the command line (as root), I get
+errors with:  
+
+Can't locate Razor/Client.pm in @INC.  But the machine does have
+a Client.pm on it, in fact, several, at:
+
+/usr/lib/perl5/5.6.1/Client.pm
+/usr/lib/perl5/site_perl/5.6.1/WAIT/Client.pm
+/usr/lib/perl5/site_perl/5.6.1/Client.pm
+/usr/lib/perl5/vendor_perl/5.6.1/Frontier/Client.pm.rawcall
+/usr/lib/perl5/vendor_perl/5.6.1/Frontier/Client.pm
+
+What am I missing?  Thanks!
+
+Scott
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

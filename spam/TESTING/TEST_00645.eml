@@ -1,0 +1,146 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ff7619faa6b51
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs40871wfa;
+        Wed, 14 Apr 2010 20:14:43 -0700 (PDT)
+Received: by 10.103.84.1 with SMTP id m1mr4854412mul.26.1271301282028;
+        Wed, 14 Apr 2010 20:14:42 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s10si5469105muh.5.2010.04.14.20.14.41;
+        Wed, 14 Apr 2010 20:14:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 058592D0CE8; Thu, 15 Apr 2010 03:14:35 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST,MDO_CABLE_TV3 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 318102D0CA5
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 03:14:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MDO_CABLE_TV3=0.5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ipGo7kJyT-AS for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 03:14:21 +0000 (UTC)
+Received: from eastrmmtao103.cox.net (eastrmmtao103.cox.net [68.230.240.9])
+	by liszt.debian.org (Postfix) with ESMTP id 5720C2D0C9F
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 03:14:21 +0000 (UTC)
+Received: from eastrmimpo03.cox.net ([68.1.16.126])
+          by eastrmmtao103.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100415031419.SKCL27114.eastrmmtao103.cox.net@eastrmimpo03.cox.net>
+          for <debian-user@lists.debian.org>;
+          Wed, 14 Apr 2010 23:14:19 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo03.cox.net with bizsmtp
+	id 5fEH1e00K4dcMZy02fEJCV; Wed, 14 Apr 2010 23:14:18 -0400
+X-VR-Score: -150.00
+X-Authority-Analysis: v=1.1 cv=garkv6WxUlWCZxlYffz6yNGlDVHTZyAXTUdcTJEJ4sc=
+ c=1 sm=1 a=40uC56DEay8A:10 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=VwQbUJbxAAAA:8 a=01k-9KGAeFdgRo4eaAgA:9 a=55rf72UhmbrMwXBZmgcA:7
+ a=3SG_4SMtkLGqQmhds3uxfr5RK2QA:4 a=wPNLvfGTeEIA:10 a=U62fhAwekXMA:10
+ a=gnskh3u8nq5G1ciW:21 a=eXPKSBG2J0u0mk23:21 a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BC68489.5010307@cox.net>
+Date: Wed, 14 Apr 2010 22:14:17 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Realtek ethernet (was Re: recent mobo recommendation)
+References: <hq2ljp$8o3$1@dough.gmane.org> <4BC53B68.90407@hardwarefreak.com> <4BC5C2F0.7060801@cox.net> <4BC680EB.9020704@hardwarefreak.com>
+In-Reply-To: <4BC680EB.9020704@hardwarefreak.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nAAxipe_cGB.A.aVH.aSoxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574112
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 03:14:35 +0000 (UTC)
+
+On 2010-04-14 21:58, Stan Hoeppner wrote:
+> Ron Johnson put forth on 4/14/2010 8:28 AM:
+>> On 2010-04-13 22:50, Stan Hoeppner wrote:
+>>> Hugo Vanwoerkom put forth on 4/13/2010 3:53 PM:
+>> [snip]
+>>> Either way, avoid onboard RealTek ethernet as it's not currently
+>>> supported
+>>> well by Debian.  One might be able to make it work, but the process
+>>> requires
+>>> some serious hoop jumping.
+>>>
+>> Really?   RealTek chips are as common as flies on horse poop, and works
+>> perfectly for me.
+> 
+> Check the list archives.  Not long ago (couple months maybe) Debian released
+> a 2.6.3x.x (not sure if it was Stable or Testing) kernel that omitted the
+> RealTek firmware blob due to "non free" status of the code, thus bricking
+> ethernet for quite a few users who upgraded to the new kernel via regular
+> aptitude upgrades.  Is this situation fixed with newer Debian kernels or are
+> you manually telling the driver where to grab the firmware file on the root
+> filesystem?  Was this situation limited to just that one kernel release?
+
+Nothing I've seen in dmesg has ever led me to think that the r8169 
+driver in my Sid linux-source-2.6.31 kernel (yes, it's old; .32 and 
+33 fail to build) loads a blob.
+
+> At least a couple of people on this list went out and bought non-RealTek PCI
+> NICs to fix the problem instead of reverting to the older kernel.
+
+I sort of remember that.
+
+[snip]
+> 
+> Additionally I've seen a number of people state their GigE RTL chips only
+> achieve about 1/3rd of wire speed whereas Intel chips get over 80% of wire
+> speed without jumbo frames.  TTBOMK there has never been a "free" code issue
+> with Intel drivers or firmware.  They have a very long term rock solid track
+> record.
+
+I'm not surprised.  Since I'm only connected to a small 100Mbps LAN 
+which then connects to a 12Mbps cable modem, it doesn't really 
+affect me.
+
+> Thus, I recommend users to stay away from RealTek chips and go with Intel
+> when they can.  Yeah, RTL is "everywhere" because they're cheap as horse
+> dung, but there are plenty of alternatives, if one just looks around a bit.
+> 
+> AFAIK, for those who roll their own kernels from kernel.org source, there's
+> no problem with RTL chips if you compile all blobs into the kernel.  For
+> those using stock Debian kernels, RTL chips have been a problem, and may yet
+> be again.
+> 
+
+Maybe if I ever get .32 or .33 I'll squeal in anger.  Until then...
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC68489.5010307@cox.net
+
+

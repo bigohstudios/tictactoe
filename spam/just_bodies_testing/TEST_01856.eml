@@ -1,0 +1,70 @@
+Re: Java is for kiddies>>>>> "R" == Robert Harley <harley@argote.ch> writes:
+
+    R> GLM wrote:
+    >> And a Java program, due to the extensive class libraries, will
+    >> weigh in at 10% the number of lines of the equivalent C
+    >> program.  QED.
+
+    R> There are massive amounts of libraries for C, Fortran and so
+    R> on.  To pick an obvious example., if you want to do linear
+    R> algebra, then Java isn't a serious candidate at all.
+
+If you want to do http, C gets pretty muddy (curl is about the best
+choice I've found) but I grant you that: No language is the be-all and
+end-all.
+
+I envy some of those posting to this list.  I've been in business for
+24 years and I haven't yet had the luxury of writing every line of
+code for any project. We are always coerced by budgets and time to
+maximize the amount of work done elsewhere.  
+
+As much as I hate dealing with someone else's blackbox, as much as
+I've spent sleepless nights second-guessing external libs, I've never
+ever had the luxury to do otherwise. It must be wonderful to be
+responsible for something you are actually responsible for, and I am
+so sick of being blamed for other people's design mistakes.
+
+Maybe there's an archive somewhere I need to know about, but I've been
+using C since DrDobbs first published SmallC and yet I've never found
+any decent LGPL libs cataloged in such a way that I can just type in
+the task and get back an API.  Because of Javadoc, which is by no
+means perfect, Java provides me the second best catalog of 3rd-party
+libs, second only to Perl's CPAN -- Perl is one language I also really
+hate with a passion, yet end up using the most for exactly this reason.
+
+For example, take the recent CBC Olympics site: I needed to roll
+together a telnet client with a tokenizer, perl-regex preprocessing a
+stream to produce parseable XML, project that XML into relational
+databases using only the DTD to generate the rdbms schema, and open an
+XMLRPC interface to read and post items into the news stream.  Where
+can I find C libs for those components?  
+
+On the webserver, we then needed a multithreaded read-only http socket
+which can spawn persistent data-caching servlets that periodically
+refresh themselves over socket connections to the relational database,
+presenting the retreived values through XSLT-defined transforms, and
+again, where can I find such stuff for C ... or for any other langauge
+but Java?  Wombat (servlet spec for Perl) was inviting, but it's not
+ready for prime-time, and re-inventing that entire shopping list in C
+is just not feasible for one programmer to do inside of 8 weeks.
+
+When you need C libs, or even C++ libs, where's the best place to shop?
+Where do you find standards-based portable RDBMS API? (ODBC?) How do
+you evaluate these things without actually fetching every one and
+trying it out?
+
+In a perfect universe, I'd use Ocaml or even Ruby, but I don't see the
+social infrastructure for either happening during my professional
+lifetime.
+
+    R> Why do so many people outside of Sun's marketing department
+    R> consider Java to be "Write Once, Debug Everywhere" ?
+
+A collegue at Cognos (Henk?) called C "the nearly-portable assembler"
+
+-- 
+Gary Lawrence Murphy <garym@teledyn.com> TeleDynamics Communications Inc
+ Business Advantage through Community Software : http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+

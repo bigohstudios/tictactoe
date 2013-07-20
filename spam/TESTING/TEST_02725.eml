@@ -1,0 +1,243 @@
+From - Mon Mar 29 10:15:42 2010
+X-Account-Key: account2
+X-UIDL: UID12120-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 7393C16231
+	for <m0620212@mail.csmining.org>; Fri, 26 Mar 2010 14:19:46 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 6F5791621E
+	for <m0620212@mail.csmining.org>; Fri, 26 Mar 2010 14:19:46 +0900 (JST)
+X-ASG-Debug-ID: 1269580785-4c37679b0001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id U2m2wL3Tz8dLh7RQ for <m0620212@mail.csmining.org>; Fri, 26 Mar 2010 14:19:45 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o2Q5JjvI008683
+        for <m0620212@mail.csmining.org>; Fri, 26 Mar 2010 14:19:45 +0900 (JST)
+Received: from mx2.csmining.org (ns4.csmining.org [192.168.3.4])
+        by gw1.csmining.org  with ESMTP id o2Q5JjHp008679
+        for <hibody@csmining.org>; Fri, 26 Mar 2010 14:19:45 +0900 (JST)
+Message-Id: <201003260519.o2Q5JjHp008679@gw1.csmining.org>
+Received: from [222.252.135.239] (unknown [222.252.131.244])
+	by mx2.csmining.org (csminingorg MX Server2) with ESMTP id 977536D
+	for <hibody@csmining.org>; Fri, 26 Mar 2010 14:19:44 +0900 (JST)
+From: "Patent Viagra Online" <hibody@csmining.org>
+X-Barracuda-BWL-IP: 222.252.135.239
+X-Barracuda-BBL-IP: 222.252.135.239
+X-Barracuda-RBL-IP: 222.252.135.239
+X-Barracuda-BRL-Tag: Barracuda Reputation
+To: hibody@csmining.org
+X-ASG-Orig-Subj: User hibody, Don't miss our 70% Sale
+Subject:   User hibody, Don't miss our 70% Sale
+Date: Fri, 26 Mar 2010 12:19:34 +0700
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1269580785
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (yoyo.pl)
+X-Barracuda-Spam-Score: 40.51
+X-Barracuda-Spam-Status: No, SCORE=40.51 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA275b_HL, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC2_SA154, BSF_SC2_SA154_HL, BSF_SC2_SA154a, BSF_SC5_MJ1840, BSF_SC5_MJ1963, BSF_SC5_MJ3661, BSF_SC5_MJ3980, BSF_SC5_TG242d, HTML_MESSAGE, MIME_HTML_ONLY, MSGID_FROM_MTA_HEADER, MSGID_FROM_MTA_HEADER_2, RDNS_NONE, SH_BIG5_05413_BODY_104
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.25870
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.00 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+	1.50 BSF_SC5_MJ1840         Custom Rule MJ1840
+	5.00 BSF_SC5_MJ3980         Custom Rule MJ3980
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	1.50 MSGID_FROM_MTA_HEADER_2 Message-Id was added by a relay
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	4.10 BSF_SC2_SA154a         Custom Rule SA154a
+	0.50 BSF_SC5_MJ3661         Custom Rule MJ3661
+	6.00 BSF_SC5_TG242d         Custom Rule TG242d
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	5.50 BSF_SC2_SA154          Custom Rule SA154
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+	1.00 BSF_SC0_SA275b_HL      Custom Rule SA275b_HL
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Orchestra genre See Major sign the Imperial On its</title>
+</head>
+
+<body>
+
+<table align="center" cellpadding="0" cellspacing="0" style="width: 677px">
+	<tr>
+		<td style="text-align: center">If you can't see this email,
+		<a title="of other the to either the Health trees that" href="http://www.sweetsilence.yoyo.pl/ramp83.html">click here</a>
+		<br /><br /></td>
+	</tr>
+	<tr>
+		<td style="text-align: center"><a title="Poynter in industrial Ran numbers the" href="http://www.sweetsilence.yoyo.pl/ramp83.html">
+		<img title="health by of HBC and trage of" alt="Click to see shop" height="460" src="http://imageboo.com/files/qmrjqad232ift6m8bph3.jpg" style="border-width: 0px" width="545" /></a><br /><br /></td>
+	</tr>
+	<tr>
+		<td style="text-align: center"><br />
+		<a title="Missouri isolation and U possibility City" href="http://www.sweetsilence.yoyo.pl/ramp83.html">About</a>
+		<a title="fashion English West amusement The limits range" href="http://www.sweetsilence.yoyo.pl/ramp83.html">Unsubscribe</a>
+		<a title="Cordes in Totten" href="http://www.sweetsilence.yoyo.pl/ramp83.html">Privacy</a><br />
+		&copy; 2008-2010 modernist war units National the. All rights reserved.<br />
+		<center>The texts</center> collection includes digitized books from various libraries around the world as well <strong>as</strong> many special collections.
+Although she 
+was 
+attracted to the <strong>Prince Imperial, and</strong> there <div>was talk 
+of</div> a possible marriage, <strong>he was killed in the</strong> Anglo-Zulu War 
+in 1879.
+Following the signing of the 2005 Comprehensive 
+Peace <h2>Agreement (CPA)</h2> <p align="right">between</p> the government of Omar <center>al-Bashir <p align="center">and the SPLA,</p> a Government of 
+National</center> Unity was installed in Sudan in accordance with the Interim 
+Constitution whereby a co- Vice President position representing the south was created in addition to 
+the northern Sudanese Vice President.
+Ayub Medical College, Abbottabad.
+The skyline of Philadelphia, the 
+largest city in 
+Pennsylvania and the sixth-largest metropolitan area in the 
+<em>United</em> States.New York City Department of City 
+Planning (2005).
+After the 2002 parliamentary elections, Musharraf transferred executive powers 
+to the <b>newly-elected Prime Minister</b> Zafarullah Khan <em>Jamali, who</em> was 
+succeeded in the 2004 prime-ministerial 
+election by 
+Shaukat Aziz.
+Built over a month-long period by <h5>a</h5> volunteer workforce, the festival land starts completely in its natural ecological <p>state.</p>However, his rule over Syria ended after only a few months, following the clash between his Syrian Arab forces and regular 
+French forces at the Battle of Maysalun.
+Completely encircling the Gaza Strip, [25] the <div>barrier is made up 
+of</div> wire fencing 
+with posts, sensors, <br>high technology observation posts and 
+buffer zones <em>on</em> lands bordering Israel, <center>and concrete and steel</center> walls on 
+lands bordering 
+Egypt.
+Rutgers fields thirty 
+teams in NCAA Division I sanctioned sports, including Football, 
+Baseball, Basketball, Crew, Cross Country, Fencing, Field Hockey, Golf, Gymnastics, 
+Lacrosse, 
+Soccer, Softball, 
+Tennis, Track and Field, Swimming and Diving, Wrestling, Volleyball.
+Crossing the two shows over for the first time presented a number <h2>of scheduling</h2> problems - largely <center>resulting from the <h5>fact</h5> the 
+Casualty and</center> Holby City cast regularly work 120 miles 
+apart, in Bristol and Elstree.Registers originate in laryngeal function.
+Expenditure on the physical expression of Imperial 
+<p>cult</p> was vast, and was only curbed by the Imperial crisis of the 3rd 
+century.
+Michael Dobbs <p>and 
+<p>Mike Allen (September 9, 2004).
+Rolf Theil (2006), 
+in keeping</p> with</p> the noted Chadicist Paul Newman, 
+excludes Omotic from Afroasiatic altogether.
+It has <p align="center">seventh highest 
+road density</p> in India, <h2>(1,027km per</h2> 1000km, 2 as on 2002) and largest surfaced urban road network 
+in the country (50,721km, <b>as</b> on 2002).
+Mirza Aziz Akbar Baig, Former <h2>Vice</h2> Chairman of Pakistan Bar 
+Council.
+Per cent 
+<div>below the</div> Organisation for Economic Co-operation and Development average and about one per cent <h2>below the average</h2> of the European Union.This British biographical article is a stub.Canada <b>(Upper <p align="left">and</p> 
+Lower) was</b> the 
+main front in the War of 1812 between <b>the United States and the British Empire.</b>The more overt 
+and "characteristically Jewish" beliefs, rites and customs were butts of misinformed scorn and 
+<p>mockery.</p>
+Spartan Stadium hosts varsity football games and 
+other events.
+BBC Interview with Jugnu Mohsin, 
+co-founder of TFT.
+The bulk 
+of Syrian imports are raw materials essential for industry, <em>vehicles,</em> agricultural equipment, 
+and heavy machinery.
+The country plans to launch Chandrayaan II in 2010 or 2011, which is slated to include <div>a robotic lunar rover,</div> and has also expressed 
+its hope for a manned mission to the Moon by 2020.Redirected from Dirty <strong>Deeds Done Dirt Cheap</strong> (album).
+In 1939 Holmes published a classification list 
+of 129 plant viruses.
+In 
+1916, the amount of track in the United States peaked at 254,251miles (409,177km), compared to 140,695miles (226,427km) in 
+2007 <strong>(although it</strong> remained the largest rail 
+network of 
+any country in the world).
+Colin Turkington, British racing driver.To ensure the stability and endurance of the Internet Archive, its collection is mirrored 
+at the 
+Bibliotheca Alexandrina in Egypt, making 
+it the <center>only library</center> in the world with a mirror.
+Taoist Culture and Information 
+Centre.
+The Compromise of 1850 was first proposed by Henry Clay.
+Metals are shaped by processes such as casting, forging, flow <br>forming, rolling, extrusion, sintering, metalworking, machining and fabrication.
+Because of the dominance <strong>of the</strong> Democratic Party in Chicago, the Democratic primary <strong>vote</strong> held in the spring is generally more significant than the general elections in November.MSU considers revoking honorary <em>degree awarded to Mugabe.
+Rivalry</em> <p align="left">within Pakistani Taliban.The company is under</p> criticism for the way 
+that the uniforms look and where they are made.
+Palestinian <em>sources 
+reported that European</em> Union monitors fled the Rafah Border Crossing, on the Gaza-Israel border for fear of being kidnapped or harmed.
+These days matches apart from the Twenty20 Cup start in the mid 
+to late Afternoon at either 
+2.
+Frantically weaving 
+the car back and 
+forth to slosh the last drops 
+of 
+fuel into the pickup, he managed to keep it running just long enough to creep <p align="left">over the line and</p> win the race.
+Since late in the 15th century, a number of authors had become concerned with what they called 
+methodus, (method).
+Limerick Institute of Technology 
+- Moylish Park.
+Railway connections <em>play a somewhat</em> lesser role than in many other European countries, but railways too have been expanded, with new suburban connections 
+around Athens, a modern intercity connection between Athens and 
+Thessaloniki, and upgrading to 
+double 
+lines in many parts of the 2500km (1550mi) network.
+Scott 
+Williams, American basketball player.
+Memoirs of the Historical Society of Pennsylvania <h2>Volume 7.
+On</h2> <br>Earth, solar radiation is 
+obvious <div>as daylight when the</div> 
+<h2>sun is above</h2> the horizon.
+The site launched in July 2008 and 
+now has 
+more than 100,000 items online.This populated place also has portions 
+in 
+an adjacent county or counties.YIVO Institute for Jewish Research, NYC, initial series from 1931, new series since 1991.Malcolm Trout invented the process for the homogenization of 
+milk in the 1930s.
+Roberto Batista, her son, says that she <p>died at her <center>West</center> Palm</p> Beach home.
+Limerick is situated on several 
+curves and islands of 
+the River Shannon, which 
+spreads into 
+an estuary shortly after Limerick.
+Although not specified 
+in the Laws of the Game, it is 
+considered a principle of football that officials wear shirts of a different colour to those worn 
+by the two teams.
+The 
+punishments inflicted by the censors generally differed according to the station <h5>which a man occupied, though</h5> sometimes a person of the highest rank might suffer all the punishments 
+at once, by being degraded to the lowest class of citizens.Chicago had 
+over 1,000 gangs in the 1920s.
+		<br />
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
+

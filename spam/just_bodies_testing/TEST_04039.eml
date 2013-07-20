@@ -1,0 +1,41 @@
+Re: automate updates in LennyFrom nobody Sat Jul 20 14:17:34 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Thanks.
+
+thib wrote:
+> Was.
+>
+> The only thing to keep in mind is that aptitude keeps an internal
+> state;  a sort of staging state that you work on while using the
+> ncurses UI.  It only "clears" it on demand or when you "commit" your
+> changes, thus you can close and re-open a session without losing your
+> work (yeah, sometimes package management is still work).
+>
+> People simply wonder when they modify some package status with apt-get
+> in the middle of an aptitude session - but everything seems taken care
+> of the best it can;  I'm pretty sure there's no (known) bug, the user
+> is almost always the problem.
+>
+> Note that using aptitude CLI only isn't messing with people's head.
+>
+> I also think the fuzz comes from #411123, which is fixed.  I've never
+> heard of anything else.
+>
+> Disclaimer -- just my understanding (I'm sometimes surprised.)
+>
+> -thib
+>
+>
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

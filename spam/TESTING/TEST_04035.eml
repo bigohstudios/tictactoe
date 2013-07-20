@@ -1,0 +1,122 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286d3a7147d177f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs387550wfb;
+        Thu, 6 May 2010 03:47:47 -0700 (PDT)
+Received: by 10.223.29.156 with SMTP id q28mr6518359fac.77.1273142866105;
+        Thu, 06 May 2010 03:47:46 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si1674091fks.54.2010.05.06.03.47.45;
+        Thu, 06 May 2010 03:47:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E00354C9DF2; Thu,  6 May 2010 10:47:41 +0000 (UTC)
+Old-Return-Path: <lkml@ds.gauner.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-17.4 required=4.0 tests=ALL_TRUSTED,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 81E304C9DF1
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 10:47:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-13.8 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JRul9ci2A4Wd for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 10:47:27 +0000 (UTC)
+Received: from mail.id-schulz.info (mail.id-schulz.info [IPv6:2001:470:1f0b:14ee::251])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 893554C9DEF
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 10:47:27 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.id-schulz.info (Postfix) with ESMTP id F0FD72E014D
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 12:39:21 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mail.id-schulz.info
+Received: from mail.id-schulz.info ([127.0.0.1])
+	by localhost (mail.id-schulz.info [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NRIdzKX1ELdw for <debian-kde@lists.debian.org>;
+	Thu,  6 May 2010 12:39:19 +0200 (CEST)
+Received: from iowa.localnet (unknown [192.168.23.11])
+	by mail.id-schulz.info (Postfix) with ESMTPSA
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 12:39:19 +0200 (CEST)
+From: Dominik Schulz <lkml@ds.gauner.org>
+To: debian-kde@lists.debian.org
+Subject: Re: akonadi first time start bugs with KDE 4.4.3
+Date: Thu, 6 May 2010 12:39:07 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.1tex; KDE/4.4.3; x86_64; ; )
+References: <201005061135.07080.Martin@lichtvoll.de> <201005061157.58112.didi.debian@cknow.org> <201005061214.41884.Martin@lichtvoll.de>
+In-Reply-To: <201005061214.41884.Martin@lichtvoll.de>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1406717.RueqP5ojKM";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061239.17732.lkml@ds.gauner.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <a7AL0XJGbSM.A.WiD.N5p4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32106
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 10:47:41 +0000 (UTC)
+
+--nextPart1406717.RueqP5ojKM
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag, 6. Mai 2010, 12:14:41 schrieb Martin Steigerwald:
+> My current work-around is just to close Kontact completely again and start
+> it another time. This will work for now.
+
+The same here. The same problems, the same "work-around" and the same "I do=
+n't=20
+wan't workarounds but bug fixes".
+
+Hopefully this'll get fixed soon.
+
+=2D-=20
+Mit freundlichen Gr=FC=DFen / Best Regards
+Dominik
+
+--nextPart1406717.RueqP5ojKM
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvinEsACgkQ0x+gVMha76zl7wCeM9/5QAtirOeOQn946ymNChY/
+iHYAoLSIORGs/iXq3rFwGKVBouazqO42
+=s2w8
+-----END PGP SIGNATURE-----
+
+--nextPart1406717.RueqP5ojKM--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061239.17732.lkml@ds.gauner.org
+
+

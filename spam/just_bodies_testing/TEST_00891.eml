@@ -1,0 +1,30 @@
+Xine dependenciesOn a RH 8 box, I'm trying to install your package
+xine-0.9.13-fr5.i386.rpm, I keep running into dependency problems.  I've
+tried to install the dev and lib rpm's as well and they error out with
+dependency problems on each other (they each want something from the
+other's package).
+
+I've tried the --without options, but still end up with (similar for the
+regular package),
+
+	glut is needed by xine-libs-0.9.13-fr5
+        aalib is needed by xine-libs-0.9.13-fr5
+        lirc is needed by xine-libs-0.9.13-fr5
+        libaa.so.1 is needed by xine-libs-0.9.13-fr5
+        libglut.so.3 is needed by xine-libs-0.9.13-fr5
+
+What am I missing here?
+
+Thanks for your efforts.
+QuaffAPint
+
+
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

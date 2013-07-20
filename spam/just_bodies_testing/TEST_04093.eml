@@ -1,0 +1,39 @@
+Re: lilo removal in squeeze (or, "please test grub2")On Tue, 25 May 2010 07:08:20 -0400 (EDT), Mihamina Rakotomandimby wrote:
+> William Pitcock <nenolod@dereferenced.org> wrote:
+>> This bug *can* be fixed, but not without a significant rewrite of the
+>> way that lilo's stage2 loader code works.  Given that there is no
+>> active upstream and that the Debian lilo package carries many patches
+>> for bug fixes that are alleviated by standardizing on grub2, this
+>> seems like the best option for Debian.
+> 
+> Agreed: dead (and buggy) softwares must be out of the distribution.
+> Whatever happens. If LILO regains upstream coders, its return to the
+> distribution is quite easy.
+
+By that standard, grub-pc should be removed from the distribution.
+It may have upstream support, but based on other posts I've seen, it
+effectively has no maintainer.  Which is worse, a package with
+effectively no upstream support or a package with effectively no
+maintainer?  And grub-pc is buggier than lilo.
+
+I understand the need to remove packages with no upstream support.
+But asking users to test a package with umpteen known release-critical
+bugs, most of which have apparently been fixed upstream, but have
+not been fixed in Debian because there is no maintainer to download
+a new upstream version, is not a reasonable request in my humble
+opinion.  Get a maintainer for it, fix the known bugs, and *then*
+ask the users to test it.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1927842586.35924.1274795074336.JavaMail.root@md01.wow.synacor.com
+
+

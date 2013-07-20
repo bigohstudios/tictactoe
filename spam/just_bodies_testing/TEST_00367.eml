@@ -1,0 +1,81 @@
+Re: What needs to improve in KDE 4?2010/5/10 Iker Salm=C3=B3n San Mill=C3=A1n <shaola@esdebian.org>:
+> I was thinking about opening a new thread to talk about the device notifi=
+er,
+> but i found this message so i will do it here.
+>
+> I think there is something wrong with this plasmoid, there is a bug repor=
+t
+> talking about it but it's being ignored for now.
+> https://bugs.kde.org/show_bug.cgi?id=3D226710
+>
+>
+> As you see in this picture:
+> http://www.esdebian.org/files/esdebian.org/u26290/notificadorescritorio.j=
+peg
+> the text stands out together with the button to unmount the device, but w=
+hen
+> it is on the panel this does not happen, making it imposible to unmount t=
+he
+> device as you see in this other picture:
+> http://www.esdebian.org/files/esdebian.org/u26290/notificadorbarra.jpeg
+>
+> At the beginning, i thougth that the problem was only related with
+> localication languages, but after some tests, now i have another conclusi=
+on.
+>
+> I think that the position of the button, depends not only on the size of =
+the
+> plasmoid, because when the plasmoid is smaller than the lengh of the text=
+ of
+> the mainlabel, the button is alligned right and bellow=C2=A0 the last let=
+ter of
+> the text
+>
+> This also happens even when it's in english=C2=A0 with=C2=A0 low resoluti=
+ons and/or
+> too big font sizes.=C2=A0 I've been reading the code of the plasmoid tryi=
+ng to
+> underestand it in order to learn how to make some changes to make the but=
+ton
+> appear always inside the plasmoid=C2=A0 no matter how long the length of =
+the text
+> in the "m_mainlabel" is, however=C2=A0 i am a newbie in this matters.=C2=
+=A0 The only
+> thing i found is this:
+>
+> "category->setAlignment(Qt::AlignRight);"
+>
+> =C2=A0by the way why AlignRight? if you see the first picture=C2=A0 i thi=
+nk that the
+> label=C2=A0 with the description of the device "Volumen de almacenamiento=
+"
+> aligned right is not the best option.
+>
+> By now, i have solved "my" problem by changing the spanish translation bu=
+t i
+> don't think that's an elegant solution:
+> http://www.esdebian.org/files/esdebian.org/u26290/notificadormodificad.jp=
+eg
+>
+> as you see, when the text is short enough this problem does not appear.
+>
+> cheers!
+>
+
+Thanks, please mention that info on the bug. And you might want to
+vote for this Device Notifier feature request:
+http://forum.kde.org/brainstorm.php#idea87620_page1
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinht4rYDMnlQDyxDyyOWNCsh-JrZzJuEMLiZnOO@mail.csmining.org
+
+

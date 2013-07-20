@@ -1,0 +1,37 @@
+Re: What needs to improve in KDE 4?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Am Montag 10 Mai 2010 schrieb Nate Bargmann:
+> * On 2010 10 May 11:50 -0500, Dotan Cohen wrote:
+> > Yes, 4.2 and now 4.4 seem to behave badly without a clean ~/.kde. I
+> > find that very disturbing and unstable.
+>=20
+> For the record, I had a clean ~/.kde for 4.2 when it hit Sid about a
+> year ago and upgraded the offered KDE packages through 4.3.4, IIRC, and
+> then started with a clean ~/.kde for Sid's new 4.4.3.
+>=20
+> - Nate >>
+
+IMHO when a config setting is not handled properly on upgrade of KDE its a=
+=20
+bug.
+
+I migrated configuration from KDE 3.5.10 and just pressed on "Reset to=20
+defaults" for quite some appearance related settings in order to switch=20
+them to Oxygen. There have been issues, but I mostly didn't file them as=20
+bugs.
+
+Only one I triaged and filed: The separator "58" for colon for web=20
+shortcuts in kuriikwsrc or something like that it was is not recognized by=
+=20
+KRunner, only by Konqueror. ":" instead works with both. Unfortunately=20
+Konqueror saved it as "58" not as ":".
+
+Anyway I suggest to file those issues as concrete as possible as bugs as=20
+you manage to take time for it.
+
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

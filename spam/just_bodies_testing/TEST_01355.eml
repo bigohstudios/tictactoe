@@ -1,0 +1,41 @@
+Re: 'looking up xxxx' foreverStephen Powell wrote:
+> On Mon, 5 Apr 2010 15:33:20 -0400 (EDT), Hugo Vanwoerkom wrote:
+>> Stephen Powell wrote:
+>>> You might want to try a Linux sniffer and see what you can come up
+>>> with.  I've heard about a product called wireshark, but I've never
+>>> used it.  You can also ask your ISP how long the lease is for the
+>>> IP address.  First level support might not know what you're talking
+>>> about.  And if you do get someone who knows what you are asking,
+>>> he might not know the answer.  And if he does know the answer,
+>>> he might lie to you.  But you can ask.  And you can install a
+>>> sniffer and figure out how to use it.  Even if you decide not to
+>>> tell the ISP what you know, at least you will have the personal
+>>> satisfaction of knowing what their lease time *really* is.
+>>> And if the lease time turns out to be long, you will have
+>>> eliminated a possibility. 
+>> Wireshark is a package on Debian Sid that I am running on.
+> 
+> Yes, it has been packaged for Debian, and is available in the
+> Debian archive.  It is free software.
+> 
+
+But what would I be looking for?
+
+BTW today:
+
+Tue Apr 6 10:26:16 2010 id= ppp0.
+
+and it's now 13:18 = almost 3 hours without a hitch,
+at
+chat:  Apr 06 10:26:06 CONNECT 50666/ARQ/V92/LAPM/V42BIS
+as fast as possible.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hpfu0t$6v1$1@dough.gmane.org
+
+

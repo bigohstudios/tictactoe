@@ -1,0 +1,39 @@
+Re: Issues launching Glassfish in debug mode with Java for Mac OS X
+	10.6 Update 2.On May 20, 2010, at 8:15 PM, Greg Beams wrote:
+
+> Hi.
+>=20
+> After installing the most recent Java update I'm having issues =
+launching Glassfish v2.1 in debug mode from IntelliJ IDEA.
+>=20
+> The error that is appearing in the Glassfish logs/Java crashreports is =
+'FATAL ERROR in native method: JDWP No transports initialized, =
+jvmtiError=3DAGENT_ERROR_TRANSPORT_INIT(197)'.
+>=20
+> Thinking that this was because I'd installed the update but not =
+rebooted my Mac in around a month, I rebooted my Mac but the problem =
+persisted after the reboot.
+>=20
+> I'm able to successfully start Glassfish in debug mode if I manually =
+kill the java process started by asadmin and try again.
+>=20
+> I'm curious if anyone else is seeing the issue.
+
+Please file a bug at <http://bugreporter.apple.com> with steps to =
+reproduce, including URLs to download the versions of Glassfish and =
+NetBeans you are using (most of us are not server-side developers!), and =
+perhaps a sample app to debug.
+
+Thanks,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

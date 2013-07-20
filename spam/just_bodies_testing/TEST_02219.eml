@@ -1,0 +1,35 @@
+Re: Exmh && speedFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson <aeriksson@fastmail.fm>
+> Date:  Tue, 27 Aug 2002 00:34:43 +0200
+>
+> Just one more info. I measured the time spent wrapping the stuff in 
+> Ftoc_Next with time {} so the data is for real. One difference 
+> between mine and Valdis' setup (judging from his trace) is that I use 
+> the address book. I've been doing that for ages so that can't be the 
+> problem.
+
+Assuming it's my fault (which it probably is since nobody else has really been 
+in there), it's most likely related to the number of sequences in a folder.  
+I'd guess that something is either being called that shouldn't be or is being 
+called more times than it should be.
+
+> Is there a way to get the log to print time with higher granularity?
+
+Not that I'm aware of.  If you look in the code, there are various places 
+where the time function is called in order to see how long it took to do 
+things.  You'll probably want to borrow that technique.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

@@ -1,0 +1,57 @@
+Re: Unable to connect to my home wirelessFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On 01/05/10, Marc Shapiro (mshapiro_42@yahoo.com) wrote:
+
+| Date: Sat, 1 May 2010 23:24:56 -0700 (PDT)
+| From: Marc Shapiro <mshapiro_42@yahoo.com>
+| To: debian-user@lists.debian.org
+| Subject: Unable to connect to my home wireless
+| XStatus: No, score=3D-9.5 required=3D4.0
+|  tests=3DDNS_FROM_RFC_WHOIS,FOURLA,
+| 	LDOSUBSCRIBER,LDO_WHITELIST,MDO_CABLE_TV3 autolearn=3Dfailed
+|  version=3D3.2.5
+|=20
+|...=20
+| When I try to connect, wicd says that it is 'Putting interface up...', 'V=
+alidating authentication...', 'Obtaining IP address...' then it times out a=
+nd says 'Connection failed: Unable to Get IP Address.'
+|=20
+| Does anyone have any idea what is wrong, or what config file, or error lo=
+g I should look at to get more information?
+|=20
+
+I have exactly the same problem on a 600X ThinkPad, using an IBM High
+Rate Wireless LAN PC Card, but not on a T42pThinkPad, both running up
+to date sid.=20
+
+I have no clue what causes the problem, but I have found a clumsy
+workaround by trial and error: when I reset the router (Linksys
+WRT54GL) either to WPA from WPA2, or back the other way, wic manages
+to connect the next try. It doesn't seem to matter whether wic is
+looking for a password or a pre-shared key, so long as the the
+protocol is TKIP.  Next time, I have to reset the router back the
+other way. No further change required -- until the next time, when the
+router needs to be reset _again_!.
+
+It's a nuisance and a puzzlement. The only clue I get from
+/var/log/daemon.log is
+
+dhclient: send_packet: Network is unreachable
+dhclient: send_packet: please consult README file regarding broadcast addre=
+ss
+(I find nothing helpful in any README (in /usr/share/doc/dhcp-client or
+dhcp-common.)
+After that, ifplugd finds the network, and dhclient fails to secure a
+connection. Until I reset the router and try again.
+
+Good luck figuring out a better solution.
+
+-- JohnRChamplin@columbus.rr.com
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D GPG key
+1024D/99421A63 2005-01-05 EE51 79E9 F244 D734 A012 1CEC 7813 9FE9 9942
+1A63 gpg --keyserver subkeys.pgp.net --recv-keys 99421A63

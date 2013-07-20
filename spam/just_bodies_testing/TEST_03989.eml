@@ -1,0 +1,31 @@
+Re: [ILUG] find the biggest fileInn Share wrote:
+> Hi,all:
+> 
+> Does anyone know how to list the biggest file in my
+> root directory?or the second biggest ..etc...
+> 
+> Because I want to find out what is the reason cause my
+> root all most full.
+> 
+> The system is Solaris 8 Sparc.
+> 
+> Thanks !!!
+
+I think everybody has their own version of this,
+but in case it's useful.. (only tested on Linux):
+
+find $* \( -type f -o -type l \) -maxdepth 1 -mindepth 1 -print0 |
+xargs -r0 du -b --max-depth 0 |
+sort -k1n |
+grep -v "^0"
+
+Pádraig.
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

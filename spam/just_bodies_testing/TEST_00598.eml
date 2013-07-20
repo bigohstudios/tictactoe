@@ -1,0 +1,17 @@
+Re: before reaching conclusion that I faced bug no 502849 what more should I check read messageTapas Mishra wrote:
+
+> 
+> reading the mailing list archives it appears using sid is the only
+> solution they mentioned.I am not clear with now.
+> If what I have found which I most probably seem to be correct but is
+> there any thing else I need to check before I reach this conclusion?
+
+making own xen kernel is noop?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hs8lm8$54m$2@dough.gmane.org
+
+

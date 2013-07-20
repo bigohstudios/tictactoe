@@ -1,0 +1,67 @@
+Re: [ILUG] Formatting a windows partition from LinuxDublin said:
+> If you copy the files from your disk to the c: partition and mark it as
+> active it should work ...
+
+Yeah, I figured that, but it doesn't seem to ... well, if that's the case
+I'll give it another go tonight, maybe come back with some error messages.
+
+Just to clarify for those who didn't understand me initially - I have a
+floppy drive installed, but it doesn't physically work. There's nowhere
+handy to pick one up where I am, and I don't fancy waiting a few days for
+one to arrive from Peats.
+
+Thanks for the answers,
+Ciaran.
+
+
+>
+> You especially need io.sys, command.com and msdos.sys
+>
+> your cd driver .sys and read the autoexec.bat and config.sys files for
+> hints on what you did with your boot floppy <g>
+>
+> P
+>
+> On Wed, 2002-08-21 at 14:07, Ciaran Johnston wrote:
+>> Hi folks,
+>> The situation is this: at home, I have a PC with 2 10Gig HDDs, and no
+>> (working) floppy drive. I have been running Linux solely for the last
+>> year, but recently got the urge to, among other things, play some of
+>> my Windoze games. I normally install the windows partition using a
+>> boot floppy which I have conveniently zipped up, but I haven't any way
+>> of writing or reading a floppy.
+>> So, how do I go about:
+>> 1. formatting a C: drive with system files (normally I would use
+>> format /s c: from the floppy).
+>> 2. Installing the CDROM drivers (my bootdisk (I wrote it many years
+>> ago) does this normally).
+>> 3. Booting from the partition?
+>>
+>> I wiped all my linux partitions from the first drive and created
+>> partitions for Windows (HDA1) Slackware and RedHat. I used cfdisk for
+>> this. I made the first drive (hda) bootable. I then installed the
+>> windows partition in LILO and reran lilo (installed in MBR). I copied
+>> the contents of boot.zip to my new windows partition and tried to boot
+>> it - all I get is a garbled line of squiggles.
+>>
+>> Anyone any ideas? I can't think of anywhere in Athlone to get a new
+>> floppy drive this evening...
+>>
+>> Thanks,
+>> Ciaran.
+>>
+>>
+>>
+>> --
+>> Irish Linux Users' Group: ilug@linux.ie
+>> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+>> information. List maintainer: listmaster@linux.ie
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

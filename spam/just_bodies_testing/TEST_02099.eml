@@ -1,0 +1,87 @@
+Re: Unable to connect to my home wirelessFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu,20.May.10, 15:13:35, James Zuelow wrote:
+=20
+> In Thomas' defense, I noticed the same thing and had much the same reacti=
+on. =20
+>=20
+> The Squeeze KDE 4.4 update this week pulled down network-manager as a=20
+> dependency.  In my case I much prefer wicd to handle my wireless. =20
+
+$ aptitude search '?depends(network-manager-kde)'
+p   plasma-widget-networkmanagement-dbg                                - de=
+bugging symbols for KDE Network Management                                 =
+=20
+
+Do you have this package installed?
+
+> The update had them both running simultaneously, which I didn't like=20
+> at all.  I was plugged into my wired network, which wicd had set up as=20
+> default, and network-manger connected to one of the wireless networks=20
+> I had configured.  Both interfaces up, even two default routes.  Yuk.
+>=20
+> I didn't like the fact that the KDE update ignored my current install=20
+> of wicd to install network-manager, and when I purged network-manager=20
+> KDE worked (and continues to work) just fine.
+=20
+wicd used to conflict with network-manager, but not anymore:
+
+wicd (1.6.2.2-2) unstable; urgency=3Dlow
+
+  [...]
+  * debian/control:
+    - remove Conflict on network-manager, since both can be used at
+      the same time, provided they don't try to control the same
+      interface (Closes: #548978)
+
+There may be valid use cases for this.
+
+> So the "dependency" on network-manager seems to be merely a preference=20
+> of the KDE team.  To me that means I should not have seen=20
+> network-manager if I already had wicd installed.  This is very similar=20
+> to the various packages that insist they need avahi-daemon to work,=20
+> and yet purging avahi-daemon doesn't break anything not using mDNS.
+=20
+You could file a whishlist bug on these:
+
+$ aptitude search '?recommends(network-manager-kde)'
+p   education-standalone                                               - De=
+bian Edu standalone workstation packages                                  =
+=20
+p   kde-standard                                                       - th=
+e KDE Plasma Desktop and standard set of applications                     =
+=20
+p   knm-runtime                                                        - KD=
+E NetworkManagement infrastructure runtime files                          =
+=20
+p   network-manager                                                    - ne=
+twork management framework daemon                                         =
+=20
+
+so they
+
+Recommend: network-manager-kde | wicd-gtk
+
+Unfortunately there is no wicd-qt package and I doubt the KDE=20
+maintainers will want to 'Recommend' a GTK package, especially since it=20
+isn't that hard to override.
+
+> So while Thomas could file a bug, I don't think it's not germane to=20
+> complain about DDs putting everything under the sun into a dependency=20
+> list.  Here's the place for the community to decide whether we really=20
+> need to force an install of network-manager (or avahi) when they're=20
+> not really needed, or decide that because some cases might require it=20
+> everyone should have it.
+
+I agree with you, but in this particular case it is not a 'Depends' it=20
+is a 'Recommends', and testing/unstable users should know how to=20
+override those.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

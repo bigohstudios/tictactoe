@@ -1,0 +1,184 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d0caae2e40b00
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs143013wfo;
+        Tue, 25 May 2010 11:47:44 -0700 (PDT)
+Received: by 10.223.65.18 with SMTP id g18mr6586410fai.32.1274813263861;
+        Tue, 25 May 2010 11:47:43 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si7918673fah.47.2010.05.25.11.47.43;
+        Tue, 25 May 2010 11:47:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1FD1413A626D; Tue, 25 May 2010 18:47:36 +0000 (UTC)
+Old-Return-Path: <pete@nrth.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6988813A6154
+	for <lists-debian-user@liszt.debian.org>; Tue, 25 May 2010 18:47:26 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id sXJbq574H3eS for <lists-debian-user@liszt.debian.org>;
+	Tue, 25 May 2010 18:47:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 1030 seconds by postgrey-1.31 at liszt; Tue, 25 May 2010 18:45:42 UTC
+Received: from mho-01-ewr.mailhop.org (mho-01-ewr.mailhop.org [204.13.248.71])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id A379F2D0DC8
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 18:45:35 +0000 (UTC)
+Received: from cpc6-nrte22-2-0-cust209.know.cable.virginmedia.com ([82.5.29.210] helo=redcloud.nrth.org)
+	by mho-01-ewr.mailhop.org with esmtpsa (TLSv1:AES256-SHA:256)
+	(Exim 4.68)
+	(envelope-from <pete@nrth.org>)
+	id 1OGyrc-000IH7-Sa
+	for debian-user@lists.debian.org; Tue, 25 May 2010 18:28:29 +0000
+Received: from [192.168.40.5] (pathfinder.nrth.org [192.168.40.5])
+	(authenticated bits=0)
+	by redcloud.nrth.org (8.13.8/8.13.8) with ESMTP id o4PISOQp018716
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 19:28:24 +0100
+X-Mail-Handler: MailHop Outbound by DynDNS
+X-Originating-IP: 82.5.29.210
+X-Report-Abuse-To: abuse@dyndns.com (see http://www.dyndns.com/services/mailhop/outbound_abuse.html for abuse reporting information)
+X-MHO-User: U2FsdGVkX18ASy/TTLIhmpNihvYITzrkanmNGsso7RQ=
+Message-ID: <4BFC16A3.6030709@nrth.org>
+Date: Tue, 25 May 2010 19:27:47 +0100
+From: Pete <pete@nrth.org>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.1.8) Gecko/20100216 Thunderbird/3.0.2
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Mail errors or attacks?
+References: <20100524195712.216D02D0D78@liszt.debian.org> <201005251858.06957.d_baron@012.net.il>
+In-Reply-To: <201005251858.06957.d_baron@012.net.il>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.96.1 at redcloud
+X-Virus-Status: Clean
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <XTG91Apf81L.A.zXF.HtB_LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577628
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 18:47:36 +0000 (UTC)
+
+On 25/05/2010 16:58, David Baron wrote:
+> On Monday 24 May 2010 22:57:12 debian-user-digest-request@lists.debian.org
+> wrote:
+>>> I get a zillion of these, every single day, about every 5 minutes or so:
+>>>
+>>>
+>>> 2010-05-24 15:05:38 SMTP call from localhost (dovidhalevi) [127.0.0.1]
+>>> dropped: too many syntax or protocol errors (last command was "MAIL
+>>> FROM:<jameswellington000.org@[71.121.223.194]>  SIZE=8814")
+>>
+>>          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>
+>>> I am running exim4 heavy on a Sid box.
+>>>
+>>>
+>>>
+>>> Exim shows no stuck messages or such. How can I stop this?
+>>
+>> It is a spamer...
+>>
+>> It it is always the same IP, add it to the backlist
+>
+> How do I do this obvious task? In exim? I have fail2ban as well but this is
+> not catching this one.
+
+Hello,
+
+You could try this as root :
+
+# cd /etc/exim4
+
+# touch local_host_blacklist
+
+# touch local_host_whitelist
+
+# touch local_sender_blacklist
+
+# touch local_sender_whitelist
+
+# chown root:Debian-exim local_*
+
+# chmod 640 local_*
+
+I've created these files on my Debian Lenny box and they work very well. 
+For the 'local_host_blacklist' file I add entries such as :
+
+*.spammer.host
+xxx.xxx.xxx.x/24
+xxx.xxx.xxx.xxx
+
+For the 'local_sender_blacklist' I add entries such as :
+
+*@spammer.example
+*@spamoverload.invalid
+!crisisofconscience@spamoverload.invalid
+
+In the above example the last entry would be an exception and would not 
+be blocked. Alternatively I could add that entry to 
+'local_sender_whitelist' for the same effect.
+
+
+Also check out this web page for some really in-depth examples of spam 
+filtering with Exim :
+
+http://www.sput.nl/software/exim.html
+
+
+When trying out new filters you can use 'warn' instead of 'deny' which 
+will just add a header to the email message rather than reject it at 
+SMTP time. The header inserted is the contents of the 'message' line :
+
+warn
+   message = XHeader1: This mail failed on spam test 1.
+
+.. rest of acl ...
+
+
+Hope this helps.
+
+Regards,
+
+Pete.
+
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFC16A3.6030709@nrth.org
+
+

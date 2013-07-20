@@ -1,0 +1,29 @@
+Re: automate updates in Lenny-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+John Hasler wrote:
+> Clive writes:
+>> It does help the OP since he uses apt-get, but what about the people
+>> who normally use aptitude?
+> 
+> If you are only using it for downloads (usual) it doesn't matter.
+
+Certainly so. What I meant to ask is what to do if you (like the OP)
+want automatic upgrades (downloaded and installed without the admin
+present) but (unlike the OP) only use aptitude and never apt-get.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvAH+QACgkQ+VSRxYk440/QbACgrL9aJaRWGQhmJ30aDYGTDnQF
+G5YAn3Rj1JHGPCZ3pZcPs5cpAQOvlRfx
+=TE7p
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC01FE4.8040501@web.de
+
+

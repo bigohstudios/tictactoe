@@ -1,0 +1,31 @@
+[Spambayes] Deployment> > What's an auto-ham?
+> 
+> Automatically marking something as ham after a given
+> timeout.. regardless of how long that timeout is, someone is going
+> to forget to submit the message back as spam.
+
+OK, here's a refinement.  Assuming very little spam comes through, we
+only need to pick a small percentage of ham received as new training
+ham to match the new training spam.  The program could randomly select
+a sufficient number of saved non-spam msgs and ask the user to
+validate this selection.  You could do this once a day or week (config
+parameter).
+
+> How many spams-as-hams can be accepted before the f-n rate gets
+> unacceptable?
+
+Config parameter.
+
+> I view IMAP as a stop-gap measure until tighter integration with
+> various email clients can be achieved.
+> 
+> I still feel it's better to require classification feedback from the
+> recipient, rather than make any assumptions after some period of
+> time passes. But this is an end-user issue and we're still at the
+> algorithm stage.. ;-)
+
+I'm trying to think about the end-user issues because I have nothing
+to contribute to the algorithm at this point.  For deployment we need
+both!
+
+--Guido van Rossum (home page: http://www.python.org/~guido/)

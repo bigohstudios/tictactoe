@@ -1,0 +1,21 @@
+Re: STAT of  Processexport@hope.cz put forth on 4/16/2010 5:23 AM:
+> I have a daemon running on my Debian ( Lenny) box.When it is  started ,
+> I check the process state ( by ps -ax command) and I can see in STAT column S 
+> letter and the daemon works as it should.After some time, the STAT is changed to 
+> R but the daemon still works OK.But after few hours the STAT is changed to D 
+> letter and the daemon does not work properly.It seems as if it is stopped 
+> running eventhough it is among the list of processes.
+> Can anyone explain that please?
+
+Which daemon?
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC84165.60605@hardwarefreak.com
+
+

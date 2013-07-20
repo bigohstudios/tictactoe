@@ -1,0 +1,184 @@
+X-Account-Key: account5
+X-UIDL: GmailId12811146cc498579
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs44291wfj;
+        Sun, 18 Apr 2010 06:21:11 -0700 (PDT)
+Received: by 10.150.55.33 with SMTP id d33mr4415770yba.58.1271596871279;
+        Sun, 18 Apr 2010 06:21:11 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 37si1316166iwn.48.2010.04.18.06.21.10;
+        Sun, 18 Apr 2010 06:21:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@yahoo.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 224191C079726
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 06:21:10 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 1376D26E88CF9
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 06:21:10 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 4ABA526E88AF3
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 06:20:50 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 3A1D2D1EEA3F
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 06:20:50 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-25-4bcb07319fdb
+Received: from web55608.mail.re4.yahoo.com (web55608.mail.re4.yahoo.com
+	[206.190.58.232])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	8F.90.25880.1370BCB4; Sun, 18 Apr 2010 06:20:50 -0700 (PDT)
+Received: (qmail 63556 invoked by uid 60001); 18 Apr 2010 13:20:48 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024;
+	t=1271596848; bh=ao1wcz3FZZOcYQezqkdF+mmLEEEqExZwSEOQnyz/PRQ=;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type;
+	b=gpkqmMqbR7zvvBDfHJ3DdNBjRz6ZqOqEkjzNnwuo2tSPy3wfi3UXWM2cFvl15E9ferHSiV3HtVaTJCI0r+hhPHPTeVRhWq7JzCJqVPt3W5qN1WteVpuGmInda801QLdNLXh7KZEAlEP5z8oAkh5iI81+uyQVdhkX9f0xCZnnfXk=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type;
+	b=0Br3CjvRRQJMcQnI394+ijReO6J8HXDusvzmman3RvaSfYiT/t34pNWIQ/VcIg9jwRU3nLcj3Z6J87ZNSw2tbw5/bc+nvjsYqFlCmQpT0Xz7zW68Ha8KMMqwjTbom/7YbnnHaRFdoANQ4gGacqEwFXTQh7tFwzJgxED6i3gs2r8=;
+Message-ID: <460333.63537.qm@web55608.mail.re4.yahoo.com>
+X-YMail-OSG: UJIKtkkVM1lE.yMvCR3No63oeKGPq9tdIFYdyikNb_ssBN3
+	pST7xXdEpXkeOYU6ePZwYBuwYeOYgPmQ1FyHZYz0X.ujdplM3SuKsu8tlTYn
+	9GUfCo2FxTjZxapHreVV3A2_DC9o_a2vTErZlK1XIu8C3Eo.SwVKElUSg1kx
+	Odz996MgbOOUdkYl2x3.YSiFCezdK23ycmyfFM.edl7auvt8LHrzvMh_f3re
+	ytyIrYO16TH2r6txNKZk3baOdGHae8U6CHukHfd6zLlllNj9EzcyMHN.DkxX
+	12M.25v9SK3CYTfmlko7T_B4rIaqpotTZ2jLYqhJWm0zCNFWp2LbPwA--
+Received: from [213.189.170.189] by web55608.mail.re4.yahoo.com via HTTP;
+	Sun, 18 Apr 2010 06:20:48 PDT
+X-Mailer: YahooMailRC/348.5 YahooMailWebService/0.8.100.260964
+References: <20100417.114055.362175913.hanche@math.ntnu.no>
+	<470592.99987.qm@web55602.mail.re4.yahoo.com>
+	<B941E3A2-60B0-4E72-9CF4-1496F7954F9B@apple.com>
+	<20100417.220307.82490045.hanche@math.ntnu.no>
+	<543587.87903.qm@web55604.mail.re4.yahoo.com>
+	<FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+Date: Sun, 18 Apr 2010 06:20:48 -0700 (PDT)
+From: Pierre Baguis <pbaguis@yahoo.com>
+To: Jeremy Huddleston <jeremyhu@apple.com>
+In-Reply-To: <FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Brightmail-Tracker: AAAAAwzExQITtlpdE7ZwhA==
+Cc: X11-users@lists.apple.com,
+	Harald Hanche-Olsen <hanche@math.ntnu.no>
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+No, it is a cheap generic USB mouse with no drivers whatsoever. It is very strange. I also tried another one, also without drivers, and it behaves in the same way (that is the middle click is interpreted as a LeaveNotify event). Of course before the update everything worked fine.
+
+In another machine (running X11 under WindowMaker) the update was smooth without such problems. I am wondering if Gnome is to blame (but then Harald had not issues).
+
+The ctrl-c and ctrl-v are obviously on the applications to handle, but they worked fine in Nedit before the update. Now they are also broken (I touched nothing else in the X11 installation, I only ran the XQuartz installer).
+
+Pierre
+
+
+
+
+
+----- Original Message ----
+From: Jeremy Huddleston <jeremyhu@apple.com>
+To: Pierre Baguis <pbaguis@yahoo.com>
+Cc: Harald Hanche-Olsen <hanche@math.ntnu.no>; X11-users@lists.apple.com
+Sent: Sun, April 18, 2010 1:22:11 PM
+Subject: Re: Middle button click broken
+
+erm...  do you have some kind of 3rd party drivers installed for your mouse?  My guess is you have "middle click" mapped to something like "cycle through apps"
+
+ctrl-c and ctrl-v are entirely on the applications to handle.  We just pass along those keypresses to whatever application you're running...
+
+
+On Apr 18, 2010, at 01:30, Pierre Baguis wrote:
+
+> Indeed, I followed your instructions and I clicked in the small white window. I was mistaken however about the kind of output you need. The middle click in my case produces precisely this:
+> 
+> ---------------------------------------------------------------------------------------------
+> LeaveNotify event, serial 29, synthetic NO, window 0x1c00001,
+>    root 0x381, subw 0x0, time 268261578, (-57,257), root:(0,899),
+>    mode NotifyNormal, detail NotifyNonlinear, same_screen YES,
+>    focus NO, state 512
+> ---------------------------------------------------------------------------------------------
+> 
+> 
+> And this is the LeaveNotify event I take when I move the mouse pointer outside the white box:
+> 
+> ---------------------------------------------------------------------------------------------
+> LeaveNotify event, serial 29, synthetic NO, window 0x1c00001,
+>    root 0x381, subw 0x0, time 268570589, (7,183), root:(1013,234),
+>    mode NotifyNormal, detail NotifyNonlinear, same_screen YES,
+>    focus YES, state 0
+> ---------------------------------------------------------------------------------------------
+> 
+> Probably this explains why the middle click switches the focus to another active window. But is it also related to the copy-paste (ctrl-c --- ctrl-v) not working?
+> 
+> Pierre
+> 
+> 
+> 
+> 
+> ----- Original Message ----
+> From: Harald Hanche-Olsen <hanche@math.ntnu.no>
+> To: jeremyhu@apple.com
+> Cc: pbaguis@yahoo.com; X11-users@lists.apple.com
+> Sent: Sun, April 18, 2010 4:03:07 AM
+> Subject: Re: Middle button click broken
+> 
+> + Jeremy Huddleston <jeremyhu@apple.com>:
+> 
+>> 
+>> On Apr 17, 2010, at 12:20, Pierre Baguis wrote:
+>> 
+>>> The middle click caused the terminal to come forth.
+>> 
+>> You need to middle click inside the white box that was brought up.
+> 
+> I assumed he had done that (it's what I asked him to do), in which
+> case the reported behaviour indicates something odd going on. Of
+> course, the xev output he posted came from the mouse leaving the xev
+> window, so maybe you're right and he misunderstood the instructions.
+> 
+> So, to make it even clearer: Move the xev window if necessary so it
+> doesn't cover the terminal window. Middle click in it, preferably
+> without moving the mouse, even a little. You should now see the mouse
+> click event in the terminal window. The moment you move the mouse,
+> tons of movement events will roll in and scroll the click events right
+> out of the terminal window.
+> 
+> - Harald
+> 
+> 
+> 
+> 
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.org
+> 
+> This email sent to jeremyhu@freedesktop.org
+
+
+      
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

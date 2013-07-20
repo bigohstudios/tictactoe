@@ -1,0 +1,52 @@
+[SACVS] CVS: spamassassin/lib/Mail/SpamAssassin Conf.pm,1.91.2.7,1.91.2.8Update of /cvsroot/spamassassin/spamassassin/lib/Mail/SpamAssassin
+In directory usw-pr-cvs1:/tmp/cvs-serv17809/lib/Mail/SpamAssassin
+
+Modified Files:
+      Tag: b2_4_0
+	Conf.pm 
+Log Message:
+added deprecation regarding starting line with space; reserved for future use; also changed sample version_tag
+
+Index: Conf.pm
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/lib/Mail/SpamAssassin/Conf.pm,v
+retrieving revision 1.91.2.7
+retrieving revision 1.91.2.8
+diff -b -w -u -d -r1.91.2.7 -r1.91.2.8
+--- Conf.pm	29 Aug 2002 14:52:43 -0000	1.91.2.7
++++ Conf.pm	4 Sep 2002 15:22:39 -0000	1.91.2.8
+@@ -24,8 +24,11 @@
+ files, loaded from the /usr/share/spamassassin and /etc/mail/spamassassin
+ directories.
+ 
+-The C<#> character starts a comment, which continues until end of line,
+-and whitespace in the files is not significant.
++The C<#> character starts a comment, which continues until end of line.
++
++Whitespace in the files is not significant, but please note that starting a
++line with whitespace is deprecated, as we reserve its use for multi-line rule
++definitions, at some point in the future.
+ 
+ Paths can use C<~> to refer to the user's home directory.
+ 
+@@ -257,7 +260,7 @@
+ 
+ eg.
+ 
+-  version_tag perkel2    # version=2.40-perkel2
++  version_tag myrules1    # version=2.41-myrules1
+ 
+ =cut
+ 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

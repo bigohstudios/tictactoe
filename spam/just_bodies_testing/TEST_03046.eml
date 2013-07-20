@@ -1,0 +1,26 @@
+Re: apt.conf suggestionOnce upon a time, Ville wrote :
+
+> how about applying this to the default apt.conf shipped with the
+> freshrpms.net apt package?  I found it a bit weird when the behaviour
+> changed between the old 0.3.x and the new 0.5.x versions so that when
+> doing a "apt-get upgrade", it wouldn't tell me *which* packages were to
+> be upgraded, just that it was about to upgrade something...
+
+Indeed, I found that strange too, then I noticed the "-u" switch and used
+that... but your solution is much better :-) The next apt build will
+incorporate this change (not worth a rebuild for this, and as some
+relatively important cnc7 bugs are currently being fixed, I'd say cnc8
+isn't far off!).
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.02 0.06 0.10
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

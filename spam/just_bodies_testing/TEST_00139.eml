@@ -1,0 +1,20 @@
+Re: Updrading or reinstalling?B. Alexander put forth on 5/14/2010 10:12 PM:
+> IMHO, Debian seems to have the best record of successful upgrades.
+
+I've in-place upgraded one of my production servers from Woody through Lenny
+with only relatively minor issues.  I've been thoroughly impressed by
+Debian's dist upgrade reliability since I starting using the distro in 2000.
+
+Always read the release notes and other related docs before performing your
+dist upgrade.  Failing to do so may cause unnecessary problems.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEE6C88.1020008@hardwarefreak.com
+
+

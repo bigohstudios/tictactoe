@@ -1,0 +1,27 @@
+Can't switch to DASHIf  this is a repeat I apologize for the noise.
+
+
+With this mornings upgrade to testing there was a new
+version of DASH.
+I've been using BASH..and tried to switch.
+
+
+frank@squeeze:~$ sudo dpkg-reconfigure dash
+dpkg-divert: mismatch on package
+  when removing `diversion of /bin/sh by dash'
+  found `diversion of /bin/sh to /bin/sh.distrib by bash'
+
+Is this a bug or am I missing something?
+
+Thanks
+
+-- 
+-- Frank --
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100525130606.982188ec.debianlist@videotron.ca
+
+

@@ -1,0 +1,73 @@
+From - Fri Aug 21 02:59:34 2009
+X-Account-Key: account2
+X-UIDL: UID7060-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <afcutter@ruediger-rossig.de>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 6331E1DF5
+	for <m0620212@mail.csmining.org>; Fri, 21 Aug 2009 02:50:32 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 5FF371CDE
+	for <m0620212@mail.csmining.org>; Fri, 21 Aug 2009 02:50:32 +0900 (JST)
+X-ASG-Debug-ID: 1250790631-039000340000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1250790631
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250])
+	by spamgw.csmining.org Firewall) with SMTP id E78E179B36E
+	for <m0620212@mail.csmining.org>; Fri, 21 Aug 2009 02:50:31 +0900 (JST)
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id n7KHoVaB014626
+        for <m0620212@mail.csmining.org>; Fri, 21 Aug 2009 02:50:31 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id n7KHoVJY014623
+        for <hibody@csmining.org>; Fri, 21 Aug 2009 02:50:31 +0900 (JST)
+Received: from [125.131.128.75] ([125.131.128.75])
+      by ns1.csmining.org  with ESMTP id n7KHoSnZ003308
+      for <hibody@csmining.org>; Fri, 21 Aug 2009 02:50:30 +0900 (JST)
+Date: Fri, 21 Aug 2009 02:50:28 +0900 (JST)
+Message-Id: <200908201750.n7KHoSnZ003308@ns1.csmining.org>
+From: afcutter@ruediger-rossig.de
+To: hibody@csmining.org
+X-ASG-Orig-Subj: For hibody
+Subject: [SPAM]  For hibody
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-ASG-Tag: BRL ([<http://www.barracuda.com/reputation?ip=125.131.128.75>])
+X-Barracuda-Spam-Score: 3.46
+X-Barracuda-Spam-Status: No, SCORE=3.46 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.93645
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.50 BARRACUDA_HEADER_FP20  RBL: Barracuda Reputation
+	                    [<http://www.barracuda.com/reputation?ip=125.131.128.75>]
+	0.55 NO_REAL_NAME           From: does not include a real name
+	0.70 MSGID_FROM_MTA_ID      Message-Id for external message added locally
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	2.10 HTML_SHORT_CENTER      HTML is very short with CENTER tag
+	0.00 BSF_SC5_SA210e         Custom Rule SA210e
+X-Barracuda-Spam-Flag: YES
+X-BitDefenderWKS-SpamStamp: v1, build 2.8.21.75316, dwl listed, bayes
+ score: 0(0), pbayes score: 227(7), neunet score: 0(0), flags:
+ [NN_LEGIT_SQARE_BRACKETS_SUBJ; HTML_WITHOUT_PLAIN_TEXT;
+ B_LINK_ENDS_WITH_NUMBER_NMD], total: 7(725)
+X-BitDefenderWKS-Spam: No - 7
+
+<html>
+<head>
+<title>ciljp djfuj</title>
+</head>
+<center><a href="http://www.acinor.com.br/1.html" target="_blank">22 Things You Can Do To Satisfy Your Gf</a>
+</center>
+</html>
+
+

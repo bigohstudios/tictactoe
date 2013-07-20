@@ -1,0 +1,37 @@
+Re: Moving to Debian: updated softwareOn 22 April 2010 12:25, Liam O'Toole <liam.p.otoole@csmining.org> wrote:
+> On 2010-04-22, Dotan Cohen <dotancohen@csmining.org> wrote:
+>> I am looking for KDE 4.4.2 and Open Office 3.2 packages for Lenny. I
+>> have found qt-kde.debian, Debian Experimental, Testing, Unstable, and
+>> Backports. It looks to me that Backports is the best for an everyday
+>> user who values stability, and prefers to use released software
+>> version. Please let me know where I am mistaken. Thanks.
+>>
+>
+> I recommend debian-backports for users of stable who like to cherry-pick
+> later versions of software without too much hassle. OOo 3.2 is available
+> in debian-backports, but not KDE4. The debian KDE maintainers used to
+> offer KDE4 backports for lenny, but they were discontinued early on in
+> the KDE4 series.
+>
+
+Thank you, Liam. That is why I was unable to find the KDE packages. I
+thought that I may have been searching on the wrong terms, i.e. the
+package is not called "kde" or "kde-desktop".
+
+>From where to acquire KDE 4.4.2 in a reasonably safe manner?
+
+Thanks!
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/q2z880dece01004220251ue268208fmebc004c5e1867800@mail.csmining.org
+
+

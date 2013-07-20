@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286e8ce0a5bf955
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs404975wfb;
+        Thu, 6 May 2010 09:57:26 -0700 (PDT)
+Received: by 10.223.24.5 with SMTP id t5mr6966113fab.72.1273165045815;
+        Thu, 06 May 2010 09:57:25 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si2453968fkt.37.2010.05.06.09.57.25;
+        Thu, 06 May 2010 09:57:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9A54A13A5640; Thu,  6 May 2010 16:57:17 +0000 (UTC)
+Old-Return-Path: <tomh0665@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2B47E13A5630
+	for <lists-debian-user@liszt.debian.org>; Thu,  6 May 2010 16:57:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id j96id2fuWWzT for <lists-debian-user@liszt.debian.org>;
+	Thu,  6 May 2010 16:57:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id E81E213A4F33
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 16:57:03 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so159805fxm.6
+        for <debian-user@lists.debian.org>; Thu, 06 May 2010 09:56:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=lz861kEOKwYmMn/luJ7Y0m9Lhj1UFec84ZUMHfJeuBQ=;
+        b=czdjQ1p66mVmCzzpSDMC7q+j2wIHCxWv3ITHX2xlRUMIZToemHUlpjCAJ+7UX0IxiK
+         sgxZrUcmPO4afjbAGuzce9cNYv13/5whOntwj/vdX1xkF9GavWIZ0K+6ccRg20+Cy1cq
+         qSalGsM0CkAMpASTwcugd/BmtJopdfBnz8Eo0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=e7FjHOwj1Z1wxjkQNA70SLm0xDr2K/fRHGdxdbAW5EaZErqH+HBbxn5Dz5N+jG9N9M
+         SY+0azgYkUNrWkpEx4UqD12OKagx5qgwI0KzhL4yqvQbuChRnJh9pUxbJjODPKc+DZxT
+         H5smUiuNcToHIH4/3Ick+SOrfSggeIFohC/bM=
+MIME-Version: 1.0
+Received: by 10.239.188.130 with SMTP id p2mr1930238hbh.205.1273165016780; 
+	Thu, 06 May 2010 09:56:56 -0700 (PDT)
+Received: by 10.239.133.194 with HTTP; Thu, 6 May 2010 09:56:56 -0700 (PDT)
+In-Reply-To: <4BE2E2DF.7070307@mgssub.com>
+References: <4BE2E2DF.7070307@mgssub.com>
+Date: Thu, 6 May 2010 12:56:56 -0400
+Message-ID: <u2i6d4219cc1005060956n5425e3bfm35424cb5c0ba735c@mail.csmining.org>
+Subject: Re: How to stop Firefox from displaying large favicon?
+From: Tom H <tomh0665@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <UgtTs2hvvC.A.kCE.tTv4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576044
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 16:57:17 +0000 (UTC)
+
+On Thu, May 6, 2010 at 11:40 AM, Dennis Wicks <wix@mgssub.com> wrote:
+>
+> I have looked for ways to fix this problem several times in the passed few
+> months and have had no success.
+>
+> Recently several companies have started displaying a large favicon in the
+> address bar when you go to their site. In several cases it takes up over
+> half of the space in the address bar and makes it extremely difficult to
+> read the URL.
+>
+> One site even claimed that this is a "security feature" as it would enable
+> the users to tell they were really on the bank's site and not some scammer
+> of phisher site. Sure! Like nobody else could figure out how to do that!
+>
+> Anyway, can anyone tell me how to get rid of these eyesores?
+> I have already set browser.chrome.favicons and browser.chrome.site_icons to
+> false and browser.chrome.image_icons.max_size to 0, but no difference!
+
+about:config
+browser.identity.ssl_domain_display
+is probably what you are looking for (and it is a security feature)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2i6d4219cc1005060956n5425e3bfm35424cb5c0ba735c@mail.csmining.org
+
+

@@ -1,0 +1,28 @@
+Re: [SAdev] phew! 
+"Michael Moncur" said:
+
+> My corpus is about 50% spamtrap spam at any given time. Let me know if I
+> should leave that out next time, I do keep it separate. My spamtraps are
+> pretty clean of viruses and bounce messages most of the time.
+
+IMO spamtrap data that's well-cleaned and monitored is fine.
+
+To my mind there's 3 types of spamtraps:
+
+  1. old user addresses, recycled into spamtraps when the user closes
+    the account
+
+  2. old user addresses, recycled into spamtraps several months after the
+    user closes the account, scanned for newsletters, unsubscribed
+    from them etc.
+
+  3. real spamtrap addresses to trap website crawlers.
+
+The latter 2 are the most effective, but #1 is a real PITA; it takes lots
+of maintainance to avoid ham getting in there.  Some of my spamtrap data
+had a few 1's contributed by ISPs, and I hadn't spent enough time sifting
+for legit mail that was slipping through.  So I felt better leaving
+them out for this run, apart from what I'd hand-cleaned.
+
+--j.
+

@@ -1,0 +1,54 @@
+Re: How to keep debian current??From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Tue,18.May.10, 13:49:11, John A. Sullivan III wrote:
+> >=20
+> > May I suggest:
+> > ---
+> > If "sid" is used in the above example instead of "lenny", the "deb:
+> > http://security.debian.org/ =E2=80=A6" line for security updates in the
+> > "/etc/apt/sources.list" is not required as there is no need to have a=
+=20
+> > separate security update archive for "sid". This is because "sid"
+> > (unstable) is *usually* updated whenever security issues are fixed for=
+=20
+> > stable.
+> >=20
+> > However, it can happen that the fixes are not applied immediately (e.g.=
+ =20
+> > the maintainer is waiting for a new version from upstream which fixes=
+=20
+> > the issue) or issues exist which do not affect the version in stable or=
+=20
+> > testing, in which case Debian will not even issue a DSA.
+> > ---
+> > (DSA might need expanding/explaining if not already done in some other=
+=20
+> > paragraph)
+> I thought John Hasler's response was very good. It explained why I was
+> confused - there are security updates but they are not the same type of
+> updates as testing and stable receive.  Perhaps John's wording should be
+> included; it clarified a very murky issue for me - John
+
+How about this instead of the last paragraph:
+
+---
+Please note that the Security Team does not monitor unstable. It is up=20
+to the individual maintainer to fix the issue. This may under=20
+circumstances take longer, e.g. if the maintainer is waiting for a new=20
+version from upstream. There are also no Debian Security Advisories=20
+(DSA) for issues that are present in the unstable version of a software,=20
+but not the versions in stable and/or testing.
+---
+
+Aoki-san, what do you think, is this getting too long? I also thought=20
+about mentioning alternate sources to get security informations (CVEs=20
+and such).
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

@@ -1,0 +1,20 @@
+Lenny - GNOME FTP Connect To ServerFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+
+Dear All,
+
+I mounted an FTP site using GNOME Connect To Server.
+But I cannot PUT any files over FTP to host.
+It says: Error "Bad File Handle" while copying.
+However I can GET files over FTP from host alright.
+
+On Etch it works both ways, GET and PUT, only on Lenny I have got these
+errors.
+
+Would anyone see why?
+Many thanks.
+
+-- 
+Tomas Kral <thomas.kral@centrum.cz>
+

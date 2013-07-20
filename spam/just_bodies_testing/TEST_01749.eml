@@ -1,0 +1,48 @@
+Re: just fetch .debs without installingOn Thursday 13 May 2010 13:07:34 Mihamina Rakotomandimby wrote:
+> > Wolodja Wentland <wentland@cl.uni-heidelberg.de> :
+> >> What is the optoin to pass to apt-get in order to make it just fetch
+> >> the .debs without installing them?
+> >
+> >It has already been pointed out that -d/--download-only is the correct
+> >option to pass to apt-get in order to keep apt-get from installing
+> >retrieved Debian packages.
+> >You have not explained why you want to do this,
+> 
+> I have more bandwidth (1Mbps) at nitgh than during the day (256kbps).
+> I would like to launch a dist-upgrade, but I want it to happen face to
+> me. I'd rather pre-download the .debs and launch real dist-upgrade face
+> to face.
+> ...
+
+I've used a cron job doing "aptitude -dy full-upgrade" at night to do this in 
+similar circumstances.
+
+-Chris
+
+------------------------------------------------------------------------
+|   Christopher Judd, Ph. D.                                           |
+|   Research Scientist III                                             |
+|   NYS Dept. of Health                           judd@wadsworth.org   | 
+|   Wadsworth Center - ESP                                             |
+|   P. O. Box 509                                    518 486-7829      |
+|   Albany, NY 12201-0509                                              |
+------------------------------------------------------------------------
+
+
+IMPORTANT NOTICE: This e-mail and any attachments may contain
+confidential or sensitive information which is, or may be, legally
+privileged or otherwise protected by law from further disclosure.  It
+is intended only for the addressee.  If you received this in error or
+from someone who was not authorized to send it to you, please do not
+distribute, copy or use it or any attachments.  Please notify the
+sender immediately by reply e-mail and delete this from your
+system. Thank you for your cooperation.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005131328.50808.judd@wadsworth.org
+
+

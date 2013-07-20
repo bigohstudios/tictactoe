@@ -1,0 +1,30 @@
+Re: Ximian apt repos?[branching the thread, here]
+
+    I found another Ximian repository- I don't know if it works yet...
+
+rpm     http://gstreamer.net/releases/redhat/ redhat-73-i386 deps
+rpm-src http://gstreamer.net/releases/redhat/ redhat-73-i386 deps
+
+rpm     http://gstreamer.net/releases/redhat/ redhat-73-i386 deps ximian
+rpm-src http://gstreamer.net/releases/redhat/ redhat-73-i386 deps ximian
+
+rpm     http://gstreamer.net/releases/redhat/ redhat-73-i386 deps gnomehide
+rpm-src http://gstreamer.net/releases/redhat/ redhat-73-i386 deps gnomehide
+
+    These guys are EXTREMELY apt-friendly.  Unlike most multimedia projects, they seem to prefer RPM/Apt over the older methods.  Isn't that cool?
+
+    Hey- how would I have known to "apt-get install gnome-session" to kick all this off?
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

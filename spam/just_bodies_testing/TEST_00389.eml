@@ -1,0 +1,83 @@
+Installer partitioner project, dif Debian Ubuntu, lvm, UUID, GPartEd,
+ GRUB, HALI'd appreciate an answer on these questions from any knowledgeable
+person, & especially would really like to hear from the maintainer of
+the partioner on the alternate installer - please tell me if that is
+you, thanks. :)
+
+==
+I'm seeing what I think are GRUB & partitioner issues in Ubuntu 10.04
+(probably starting around 9.10), where Ubuntu, IIRC, introduced UUIDs &
+GRUB2(?).  With a Ub9.10 install on a laptop (adding on to a 9.04, with
+additional partitions, & having a windows first partition), I can't
+create a partition in the 10GB free space.  When I did the 9.10 install,
+it did something strange, hard to explain, something like causing my
+boot into 9.04 to use the proper kernel, but be using the data
+space/partition from 9.10. Also, IIRC, I had 2 partitions that gparted
+showed had the same uuid.
+
+I ran Debian from about 1998-2005, & Ubuntu from 2005-2010.  I only use
+the "alternate" installer, so that I can custom set my partitions.  I've
+never had problems like this before Ub 9.10.
+ 
+==
+My questions are largely about the difference between what Debian has/is
+been/doing, & what Ubuntu began doing in the past release or two, wrt
+the partitioner, GRUB, LVM, & UUIDs, HAL, etc.
+
+IIRC, Ubuntu began doing stuff differently than Debian, like with UUIDs,
+& now, from the release notes on Ub 10.4, they say they are now removing
+their addition of HAL (UUIDs?) in order to enable faster bootup.
+"This release fully removes HAL from the boot process, making Ubuntu
+faster to boot and faster to resume from suspend."
+http://www.ubuntu.com/getubuntu/releasenotes/1004overview
+
+Did ubuntu do something unwise with making use of UUIDs, & now they are
+backtracking?  Did Debian do any of that?
+
+Here's my post & thread from yesterday with more info:
+10.4 Partition Disks Error Unable satisfy constraints, overlapping
+partitions
+https://lists.ubuntu.com/archives/ubuntu-users/2010-April/216652.html
+With this error message from the alternate installer partitioner:
+"Partition Disks > Error: Unable to satisfy all constraints on the
+partition
+ : Can't have overlapping partitions."
+(Note: it failed to give any useful numerics, ex partition overlap
+positions, that would enable progress if seeing what was wrong, or
+determining if there was a bug in the partitioner sw.)
+
+What sw is the partitioner in the alternate installer? parted? fdisk?
+other????
+
+GPartEd (0.4.3) from 9.04, fully apt updated, (& the "help" doesn't
+exist), on an install on a different machine, where I put a data
+partition in the extended partition, for info about the "lvm2"
+"filesystem" there, says "Warning: Logical Volume Management is not yet
+supported".  Has that been fixed yet?  What's the state of LVM in
+current Debian & Ubuntu?
+
+==
+What new things Ubuntu is doing, wrt these issues, is being put into
+Debian?  Is debian usin HAL, UUIDs, LVM, GFUB2, etc??
+
+==
+Well, there are so many questions here, cause there seem to be several
+deficiencies in various parts of the sw Ubuntu is/has beenusing/used
+(partitioner in installer, GRUB2, LVM, HAL), I'm looking for any
+knowledgeable info regarding the current state & cautions & future
+likely status of all this.  Any & all knowledgeable insight
+greatly/advice appreciated.
+
+Thanks.  :)
+
+==
+(I'm asking this exact same post/questions on both the Debian & Ubuntu
+lists, in case you wish to look to the other list for their replies.)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272400348.29035.1372220521@webmail.messagingengine.com
+
+

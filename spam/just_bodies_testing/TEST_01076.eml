@@ -1,0 +1,28 @@
+Re: horrible mc colorschemeHi Hugo!
+
+On 2010-04-06, Hugo Vanwoerkom <hvw59601@care2.com> wrote:
+> Hugo Vanwoerkom wrote:
+> OK. What about this. Can anybody explain the following:
+>
+> hugo@debian:~$ which mc
+> /usr/local/bin/mc
+> hugo@debian:~$ mc -V
+> GNU Midnight Commander 4.7.0.1
+[...]
+> hugo@debian:~$ /usr/local/bin/mc -V
+> GNU Midnight Commander 4.6.1
+[...]
+
+Maybe an alias?
+
+What says 'alias mc'?
+
+Thomas
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hpg284$7pn$1@speranza.aioe.org
+
+

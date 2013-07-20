@@ -1,0 +1,95 @@
+RE: [SAtalk] user_prefs ignoredThis is just an semi-educated guess - if I'm wrong, someone please correct
+me!
+
+Spamd setuid's to the user running spamc. Since you're calling spamc from a
+global procmailrc file, it's being run as root (most likely). If called as
+root, spamd won't open user_prefs files.
+
+>>From the spamc man page:
+
+       -u username
+           This argument has been semi-obsoleted.  To have spamd use
+           per-user-config files, run spamc as the user whose config
+           files spamd should load.  If you're running spamc as some
+           other user though (eg. root, mail, nobody, cyrus, etc.)
+           then you can still use this flag.
+
+
+The solution is to set DROPPRIVS=yes in /etc/procmailrc, just before running
+spamc. From the procmailrc man page:
+
+       DROPPRIVS   If set to `yes' procmail will drop all privileges
+                   it might have had (suid or sgid).  This  is  only
+                   useful  if  you  want  to guarantee that the bottom
+                   half of the /etc/procmailrc file is executed on
+                   behalf of the recipient.
+
+
+I hope that helps, and I also hope it's right!
+
+St-
+
+
+| -----Original Message-----
+| From: spamassassin-talk-admin@example.sourceforge.net
+| [mailto:spamassassin-talk-admin@lists.sourceforge.net]On Behalf Of
+| Cheryl L. Southard
+| Sent: Tuesday, September 24, 2002 2:28 PM
+| To: spamassassin-talk@example.sourceforge.net
+| Subject: [SAtalk] user_prefs ignored
+|
+|
+| Hi All,
+|
+| I am running SpamAssassin 2.41 with procmail as my local delivery agent
+| with sendmail.  I use spamc/spamd so that it runs site-wide from
+| /etc/procmailrc.
+|
+| spamd is run as root with the flags "-d -a -c", and spamc isn't run with
+| any flags.
+|
+| When I was testing the program, I deployed spamc from my personal
+| ~/.procmailrc file, my ~/.spamassassin/user_prefs file was read each time.
+| I can see this because I have a non-default "required_hits" value which
+| gets reported in every e-mail on the "X-Spam-Status" line.
+|
+| Now that I run spamc from the global /etc/procmailrc file, my
+| ~/.spamassassin/user_prefs file is no longer being read or processed from
+| e-mails from outside computers.  The "required_hits" value gets set back
+| to the one in /etc/mail/spamassassin/local.cf.  However, if I send local
+| e-mail, my user_prefs file is read and processed correctly.
+|
+| Does anyone know how to fix this problem?  if this is a spamassassin or
+| procmail bug?
+|
+| Thanks,
+|
+| Cheryl
+|
+| --
+| Cheryl Southard
+| cld@astro.caltech.edu
+|
+|
+| -------------------------------------------------------
+| This sf.net email is sponsored by:ThinkGeek
+| Welcome to geek heaven.
+| http://thinkgeek.com/sf
+| _______________________________________________
+| Spamassassin-talk mailing list
+| Spamassassin-talk@lists.sourceforge.net
+| https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+|
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

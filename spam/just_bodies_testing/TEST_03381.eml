@@ -1,0 +1,18 @@
+Re: aptitude and held packagesFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon,26.Apr.10, 10:29:06, Rick Pasotto wrote:
+> I just upgraded apt and aptitude to the latest testing version. Although
+> 'aptitude -s safe-upgrade' tells me that '172 not upgraded' it no longer
+> lists them. Is this a bug or an intentional change?
+
+It probably depends on whether you consider the full list of 172=20
+packages useful or not ;)
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

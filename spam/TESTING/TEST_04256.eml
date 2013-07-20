@@ -1,0 +1,76 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f4df1455a54b4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs3974wfa;
+        Mon, 12 Apr 2010 18:53:34 -0700 (PDT)
+Received: by 10.224.59.92 with SMTP id k28mr547460qah.268.1271123613307;
+        Mon, 12 Apr 2010 18:53:33 -0700 (PDT)
+Return-Path: <majordomo-owner+TC1B3-EEB1-B4CB@lists.tcpdump.org>
+Received: from cod.sandelman.ca (cod.sandelman.ca [209.87.252.181])
+        by mx.google.com with ESMTP id 32si8044061qyk.114.2010.04.12.18.53.32;
+        Mon, 12 Apr 2010 18:53:33 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.87.252.181 is neither permitted nor denied by best guess record for domain of majordomo-owner+TC1B3-EEB1-B4CB@lists.tcpdump.org) client-ip=209.87.252.181;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 209.87.252.181 is neither permitted nor denied by best guess record for domain of majordomo-owner+TC1B3-EEB1-B4CB@lists.tcpdump.org) smtp.mail=majordomo-owner+TC1B3-EEB1-B4CB@lists.tcpdump.org
+Received: from lists.tcpdump.org (localhost [127.0.0.1])
+	by cod.sandelman.ca (Postfix) with SMTP id 4C57A1253A
+	for <mlsubscriber.tech@csmining.org>; Sat, 10 Apr 2010 00:24:34 -0400 (EDT)
+Content-Type: text/plain; charset="us-ascii"
+Content-Disposition: inline
+Content-Transfer-Encoding: binary
+MIME-Version: 1.0
+X-Mailer: MIME-tools 5.420 (Entity 5.420)
+To: hibody <mlsubscriber.tech@csmining.org>
+From: tcpdump-workers-owner@lists.tcpdump.org
+Subject: C1B3-EEB1-B4CB : CONFIRM from tcpdump-workers (subscribe)
+Content-Language: en
+Reply-To: majordomo@lists.tcpdump.org
+X-Loop: majordomo
+Precedence: bulk
+Date: Sat, 10 Apr 2010 00:24:34 -0400
+Message-ID: <b4d41f048a2f1be9a75969103f8285acbbdd51a2@lists.tcpdump.org>
+
+__ 
+The following request
+
+  "subscribe tcpdump-workers hibody <mlsubscriber.tech@csmining.org>"
+
+was sent to Support lists for tcpdump, libpcap and tcpsplice 
+by hibody <mlsubscriber.tech@csmining.org>.
+
+To accept or reject this request, please do one of the following:
+
+1. If you have web browsing capability, visit
+   <https://cod.sandelman.ca/cgi-bin/mj_confirm/domain=lists.tcpdump.org?t=C1B3-EEB1-B4CB>
+   and follow the instructions there.
+
+2. Reply to majordomo@lists.tcpdump.org 
+   with one of the following two commands in the body of the message:
+
+    accept
+    reject
+
+   (The number C1B3-EEB1-B4CB must be in the Subject header)
+
+3. Reply to majordomo@lists.tcpdump.org 
+   with one of the following two commands in the body of the message:
+   
+    accept C1B3-EEB1-B4CB
+    reject C1B3-EEB1-B4CB
+
+Your confirmation is required for the following reason(s):
+
+  The subscribe_policy rule says that the "subscribe" command 
+  must be confirmed by the person affected by the command.
+  
+
+If you do not respond within 4 days, a reminder will be sent.
+
+If you do not respond within 7 days, this token will expire,
+and the request will not be completed.
+
+If you would like to communicate with a person, 
+send mail to tcpdump-workers-owner@lists.tcpdump.org.
+

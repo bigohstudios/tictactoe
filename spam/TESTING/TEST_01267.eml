@@ -1,0 +1,127 @@
+X-Account-Key: account5
+X-UIDL: GmailId12871fdab0c34ab3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs439400wfb;
+        Fri, 7 May 2010 01:59:30 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr3318111fai.98.1273222769501;
+        Fri, 07 May 2010 01:59:29 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t2si1516875faa.78.2010.05.07.01.59.28;
+        Fri, 07 May 2010 01:59:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 33EFB13A5998; Fri,  7 May 2010 08:59:27 +0000 (UTC)
+Old-Return-Path: <msp@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4D17E13A5988
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 08:59:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id TKrNzD2h6Dyx for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 08:59:14 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .debian. - helo: .outbound.icp-qv1-irony-out4.iinet. - helo-domain: .iinet.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from outbound.icp-qv1-irony-out4.iinet.net.au (outbound.icp-qv1-irony-out4.iinet.net.au [203.59.1.104])
+	by liszt.debian.org (Postfix) with ESMTP id 452E113A591E
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 08:59:05 +0000 (UTC)
+X-IronPort-AntiFiltered: true
+X-IronPort-AntiResult: AvsEAPZy40t8qMmG/2dsb2JhbACeDnG7M4UVBA
+X-IronPort-AV: E=Sophos;i="4.52,347,1270396800"; 
+   d="asc'?scan'208";a="551834264"
+Received: from unknown (HELO bristol.purcell.id.au) ([124.168.201.134])
+  by outbound.icp-qv1-irony-out4.iinet.net.au with ESMTP; 07 May 2010 16:58:55 +0800
+Received: from [192.168.1.101] (helo=hp.purcell.id.au)
+	by bristol.purcell.id.au with esmtp (Exim 4.69)
+	(envelope-from <msp@debian.org>)
+	id 1OAJOO-00034U-7V; Fri, 07 May 2010 18:58:49 +1000
+Received: from mark by hp.purcell.id.au with local (Exim 4.71)
+	(envelope-from <msp@debian.org>)
+	id 1OAJNM-0001Uk-E8; Fri, 07 May 2010 18:57:40 +1000
+From: Mark Purcell <msp@debian.org>
+Organization: Debian GNU/Linux
+To: Sven Joachim <svenjoac@gmx.de>
+Date: Fri, 7 May 2010 18:57:39 +1000
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-amd64; KDE/4.4.3; x86_64; ; )
+References: <87zl0ccger.fsf@turtle.gmx.de>
+In-Reply-To: <87zl0ccger.fsf@turtle.gmx.de>
+Cc: debian-kde@lists.debian.org
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart3034336.WTWtua8uQs";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005071857.40391.msp@debian.org>
+X-SA-Exim-Connect-IP: 192.168.1.101
+X-SA-Exim-Rcpt-To: svenjoac@gmx.de, debian-kde@lists.debian.org
+X-SA-Exim-Mail-From: msp@debian.org
+Subject: Re: Kaffeine is a mere shadow of itself
+X-SA-Exim-Version: 4.2.1 (built Wed, 25 Jun 2008 17:14:11 +0000)
+X-SA-Exim-Scanned: Yes (on bristol.purcell.id.au)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <zKr8g3kdK8I.A.vNF.vZ94LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32213
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 08:59:27 +0000 (UTC)
+
+--nextPart3034336.WTWtua8uQs
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+On Friday 07 May 2010 17:36:12 Sven Joachim wrote:
+> Given that kaffeine
+> 0.8 was a quite mature program with lots of features, I find this very
+> sad.
+
+Sven,
+
+Please ensure you forward this upstream.
+
+Thanks,
+Mark
+
+--nextPart3034336.WTWtua8uQs
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvj1gQACgkQoCzanz0IthLz5QCfUpNIznuYBFBUU60wszSMDuto
+KKQAnjqNjCpvNDfL+uj4q8BoaJpp6LG2
+=WlPm
+-----END PGP SIGNATURE-----
+
+--nextPart3034336.WTWtua8uQs--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071857.40391.msp@debian.org
+
+

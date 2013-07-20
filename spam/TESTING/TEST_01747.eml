@@ -1,0 +1,134 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283bc0c34264842
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs103104wfj;
+        Mon, 26 Apr 2010 13:13:32 -0700 (PDT)
+Received: by 10.86.239.14 with SMTP id m14mr2878367fgh.78.1272312808078;
+        Mon, 26 Apr 2010 13:13:28 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si5548234fkr.59.2010.04.26.13.13.26;
+        Mon, 26 Apr 2010 13:13:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C7F3013A4E77; Mon, 26 Apr 2010 20:13:18 +0000 (UTC)
+Old-Return-Path: <sjt@star.sr.bham.ac.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 659F913A4C7B
+	for <lists-debian-kde@liszt.debian.org>; Mon, 26 Apr 2010 20:13:13 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ZhXD-E0OKWEy for <lists-debian-kde@liszt.debian.org>;
+	Mon, 26 Apr 2010 20:13:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 1120 seconds by postgrey-1.31 at liszt; Mon, 26 Apr 2010 20:13:05 UTC
+Received: from sun60.bham.ac.uk (sun60.bham.ac.uk [147.188.128.137])
+	by liszt.debian.org (Postfix) with ESMTP id A3ED213A4A6B
+	for <debian-kde@lists.debian.org>; Mon, 26 Apr 2010 20:13:05 +0000 (UTC)
+Received: from [147.188.128.54] (helo=bham.ac.uk)
+	by sun60.bham.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <sjt@star.sr.bham.ac.uk>)
+	id 1O6UNk-0005ds-Ny
+	for debian-kde@lists.debian.org; Mon, 26 Apr 2010 20:54:16 +0100
+Received: from bham-mx3.bham.ac.uk ([147.188.128.221])
+	by bham.ac.uk with esmtp (Exim 4.43)
+	id 1O6UNk-0004L6-HK
+	for debian-kde@lists.debian.org; Mon, 26 Apr 2010 20:54:16 +0100
+Received: from xun0.sr.bham.ac.uk ([147.188.32.128])
+	by bham-mx3.bham.ac.uk (envelope-from
+	<sjt@star.sr.bham.ac.uk>)
+	with esmtp (Exim 4.67)
+	id 1O6UNf-0003Lg-CH
+	for debian-kde@lists.debian.org; Mon, 26 Apr 2010 20:54:14 +0100
+Received: from localhost.localdomain (lnxn [147.188.32.222])
+	by xun0.sr.bham.ac.uk (Postfix) with SMTP id 3DCDB4C74
+	for <debian-kde@lists.debian.org>; Mon, 26 Apr 2010 20:54:11 +0100 (BST)
+Date: Mon, 26 Apr 2010 20:54:10 +0100
+From: James Tappin <sjt@star.sr.bham.ac.uk>
+To: debian-kde@lists.debian.org
+Subject: Re: plasma desktop changes positions of widgets after I moved them
+Message-Id: <20100426205410.61fb25d4.sjt@star.sr.bham.ac.uk>
+In-Reply-To: <201004262144.40817.Martin@lichtvoll.de>
+References: <201004262144.40817.Martin@lichtvoll.de>
+X-Mailer: Sylpheed version 1.0.4 (GTK+ 1.2.10; i386-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-BHAM-CUBE-wlist: LOCAL xun0.sr.bham.ac.uk
+X-BHAM-CUBE-processed: yes
+X-BHAM-STAMP-class: neutral
+X-BHAM-STAMP-score: -16
+X-BHAM-STAMP-bar:  
+X-BHAM-STAMP-bar2: 
+X-BHAM-STAMP-report: Assessment score: -1.7   Assessment server: sun66.bham.ac.uk
+	-1.4 ALL_TRUSTED            Passed through trusted hosts only via SMTP
+	-0.2 LOCAL_BHAM_1_1         BODY: Birmingham University: local rule 1.1
+X-BHAM-id2: 4b3c881352d2f94943da44d066f3d8d4
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <e9ThLZOstYK.A.eaB.ePf1LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32051
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 20:13:18 +0000 (UTC)
+
+On Mon, 26 Apr 2010 21:44:33 +0200
+Martin Steigerwald <Martin@lichtvoll.de> wrote:
+
+MS> 
+MS> Hi!
+MS> 
+MS> Did someone else notice this?
+MS> 
+MS> https://bugs.kde.org/232171
+MS> 
+MS> I wonder if this could be partly debian / ubuntu specific as Bojan 
+MS> commented that he couldn't find it on other distros. But then to
+MS> what I  know Debian and Ubuntu package KDE seperately. 
+MS> 
+MS> Ciao,
+
+I think I've seen something similar with Pardus, but not recently (i.e.
+not since they went from 4.2.4 to 4.3.4). As I recall what was happening
+was that if I put a widget on the bottom or right of the screen it
+jumped towards the middle, almost as if it couldn't cope with
+coordinates beyond a 1024x768 (or thereabouts) screen. I also saw the
+same behaviour on Ubuntu with similar vintage. In both cases it didn't
+always happen. Not quite sure if this is the same behaviour that you are
+describing.
+
+-- 
++------------------------+-------------------------------+---------+
+| James Tappin           | School of Physics & Astronomy |  O__    |
+| sjt@star.sr.bham.ac.uk | University of Birmingham      | --  \/` |
+| Ph: 0121-414-6462. Fax: 0121-414-3722                  |         |
++--------------------------------------------------------+---------+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426205410.61fb25d4.sjt@star.sr.bham.ac.uk
+
+

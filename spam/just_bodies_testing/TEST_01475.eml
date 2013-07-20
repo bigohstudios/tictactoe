@@ -1,0 +1,36 @@
+Re: vkatalov@elcomsoft.com: Security warning draws DMCA threatJon O. wrote:
+> Looks like HP is using the DMCA to prevent full disclosure of
+> security vulnerablities. This is not a good precedent...
+> [...]
+> > WASHINGTON--Hewlett Packard has found a new club to use to pound
+> > researchers who unearth flaws in the company's software: the Digital
+> > Millennium Copyright Act.
+> >
+> > Invoking both the controversial 1998 DMCA and computer crime laws, HP
+> > has threatened to sue a team of researchers who publicized a
+> > vulnerability in the company's Tru64 Unix operating system.
+> > [...]
+
+Well that exploit requires an executable stack so it won't happen on a
+properly admin-ed system.  But anyway grab it if you want from any of
+a million places, such as:
+
+  http://www.securiteam.com/exploits/5YP0S2035O.html
+
+  http://packetstormsecurity.nl/0101-exploits/tru-64.su.c
+
+  http://spisa.act.uji.es/spi/progs/codigo/www.hack.co.za/exploits/os/dg-ux/alpha/5a/su.c
+
+
+Bye,
+  Rob.
+     .-.                                                               .-.
+    /   \           .-.                                 .-.           /   \
+   /     \         /   \       .-.     _     .-.       /   \         /     \
+  /       \       /     \     /   \   / \   /   \     /     \       /       \
+ /         \     /       \   /     `-'   `-'     \   /       \     /         \
+            \   /         `-'                     `-'         \   /
+             `-'                                               `-'
+http://xent.com/mailman/listinfo/fork
+
+

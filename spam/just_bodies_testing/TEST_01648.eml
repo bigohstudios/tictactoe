@@ -1,0 +1,38 @@
+Re: [Razor-users] early experiences with Razor2 (and SA)From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Gary Funck <gary@intrepid.com> [2002-09-18 13:57:00 -0700]:
+> In my experience, there are spam messages that sneak past Spam Assassin,
+> that Razor will pick up. Those are the ones that I'm calling "marginal".
+> Basically, I'm hoping that "the collective" of Razor users make a better
+> judge of spam than any single program like SA can, and therefore I can
+> benefit from their judgement and get more extensive spam filtering. I've
+> seen examples of this already, where SA doesn't score the spam high enough
+> to bounce it, but Razor does.
+
+I think perhaps you missed the fact that SA scores are adjustable.  If
+you want SA to tag all messages listed in Razor then you can put this
+in your ~/.spamassassin/user_prefs file.
+
+  score RAZOR_CHECK 10
+
+The default score is 3 and the default threshold needed is 5.
+Therefore if you wish to have any razor listed messages tagged by SA
+then setting a score for any razor listed messages to anything above 5
+would be sufficient.
+
+If you are already using SA then the above would be more efficient.
+Otherwise you are running all of the mail through razor twice, once
+for SA and once again afterward.  If you really want to run Razor
+individually then you should set the 'score RAZOR_CHECK 0' so that SA
+won't do it and avoid the double network hit.
+
+However, one of the benefits of using SA in combination with Razor has
+been the history of false positive reports in the razor database.  The
+current score of 3 is hefty, but not enough by itself to tag as spam.
+But for any real spam is usually enough to push it over the threshold.
+Razor2 addresses the false positive problem but is not yet in as wide
+of use as Razor1.
+
+Bob

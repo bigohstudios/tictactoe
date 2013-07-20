@@ -1,0 +1,19 @@
+Re: Is acroread blind, or ps2pdf dangerous?From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Op 13-05-10 23:40, Merciadri Luca schreef:
+> Sven Joachim wrote:
+> Thanks for this answer. There are *many* reasons not to use pdfLaTeX.
+> They do not enter in the scope of this mailing list, but I am pretty
+> sure you will find them directly on the Internet. For example, pdfLaTeX=
+
+> encourages one to use directly JPG, etc., for the inclusion in the
+> document, which is pretty bad. There are also many incompatibilities
+> with different packages.
+Or png or pdf which basically is eps or even real eps via the epstopdf
+package.
+Sorry, pdflatex offers more choice. That's not a bad thing.
+
+Sjoerd
+

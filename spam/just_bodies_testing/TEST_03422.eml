@@ -1,0 +1,21 @@
+Re: Not able to change password with passwdFlorian Pressler <airflow.2010 <at> csmining.org> writes:
+ 
+> Solution: Boot single user. Comment out the line in /etc/pam.d/common-password
+> which loads pam_winbind.so. Run passwd again to set your root password, or to
+> set the password of any user. Reboot, shell logins and the passwd command will
+> work again. 
+
+Just another addition to this topic: A good way of solving the issue is using
+the tool pam-auth-update. Just call pam-auth-update and deselect winbind as
+root. This is how I did it.
+
+Regards,
+Florian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/loom.20100423T111146-566@post.gmane.org
+
+

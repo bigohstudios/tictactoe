@@ -1,0 +1,20 @@
+Re: How to play 3gp audio files?On 2010-04-18 11:41, John Magolske wrote:
+[snip]
+> 
+> Now the 3gp audio files play fine. They do seem to take up a bit more
+> CPU than mp3 or flac, but maybe that's just inherent to how they are
+> compressed.
+> 
+
+Or the quality of the ffmpeg decompressor.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCB501D.9060505@cox.net
+
+

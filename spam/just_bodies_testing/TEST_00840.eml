@@ -1,0 +1,48 @@
+Re: 64 bit-flash failing sites (was: What to choose for Core i5 64 
+	bits?)On Tue, 11 May 2010 11:27:14 -0400, Jordan Metzmeier wrote:
+
+> On Tue, May 11, 2010 at 11:05 AM, Camaleón wrote:
+
+>> Any other failing site that can be tested by the mere non-US mortals?
+>> :-)
+>>
+>>
+>>
+> Not that I know of. Doing a google search, it looks like hulu may be the
+> only issue. I had problems southparkstudios.com using chrome + flash on
+> amd64, but the issue is not present in iceweasel so it is likely the
+> fault of chrome. You could probably try hulu using a U.S. based proxy
+> server.
+
+Curious is that there are some packages for linux, also for 64-bits 
+systems:
+
+http://www.hulu.com/labs/hulu-desktop-linux
+
+But, what's that (Hulu Desktop), a special program to watch movies and tv 
+series inside a dedicated application instead using the browser? :-?
+
+> It is good that this is limited to a single site only accessible by one
+> country. It limits the number of affected people. Unfortunately for me,
+> I do not subscribe to t.v. services so this is my ideal solution for
+> watching the few shows I do. i386 with -bigmem suits my needs just fine
+> though.
+
+Yes, that is an option.
+
+Users having problems with flash plugin on their 64 bits OS can install a 
+32 bits browser and run the 32 bits plugin, which is annoying but it 
+should work.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.11.15.44.05@csmining.org
+
+

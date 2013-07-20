@@ -1,0 +1,33 @@
+Re: isn't sed s,x,x, one big no-op?From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, May 07, 2010 at 05:39:52PM +0800, jidanni@jidanni.org wrote:
+> >>>>> "SJ" =3D=3D Sven Joachim <svenjoac@gmx.de> writes:
+>=20
+> SJ> Yes, actually you can do it at build time by using the configure opti=
+on
+> SJ> --program-transform-name.  Say you want grub to be named grub2 to
+> SJ> distinguish it from grub-legacy, then you can run
+>=20
+> SJ> $ ./configure --program-transform-name=3Ds/grub/grub2/
+>=20
+> SJ> and 00_header will have the transform line look like this
+>=20
+> SJ> transform=3D"s/grub/grub2/"
+>=20
+> SJ> This somewhat obscure feature is not used in the Debian package,
+> SJ> hence the no-ops.
+>=20
+> Hmmm, then there is a bug in whatever preprocessor package they are
+> using, that leaves such confusing no-ops when in fact nothing should be
+> left at all perhaps...
+
+ISTM that is much easier and more reliable to change one variable at
+the beginning of the file than to change all the sed expressions
+throughout the file...
+
+=2E02
+
+A

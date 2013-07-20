@@ -1,0 +1,32 @@
+Re: How to stop Firefox from displaying large favicon?On Thu, May 06, 2010 at 11:15:30AM -0500, Dennis Wicks wrote:
+> >It works fine here (icewasel and lenny).
+> >
+> >browser.chrome.favicons â†’ false
+> >browser.chrome.site_icons â†’ false
+> >
+> >And after restarting the browser, no more favicons.
+> >
+> 
+> Well, thanks for the reply, but that doesn't help in my case. Try
+> the following URL and see what you get.
+> 
+>       https://www.busey.com/home/home
+
+I think that's the SSL certificate there. It's done by Firefox /
+Iceweasel, not the website.
+
+A quick search didn't reveal details on how to hide this; maybe
+somebody else can do a better job.
+
+Kumar
+-- 
+How do I type "for i in *.dvi do xdvi $i done" in a GUI?
+		-- Discussion in comp.os.linux.misc on the intuitiveness of interfaces
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506162907.GF27257@146653177.ece.utexas.edu
+
+

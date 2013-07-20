@@ -1,0 +1,31 @@
+Re: [SAdev] 2.40: ready for release?> It's this section of spamassassin.raw:
+>
+> <<<<<<< spamassassin.raw
+[...snip]       }
+> =3D=3D=3D=3D=3D=3D=3D
+[... snip ...]
+> >>>>>>> 1.68.2.10
+[...snip...]
+
+This is what cvs puts in when you modify the copy of the file on your disk
+and someone checks in a change and then you pull an update and cvs can't
+figure out how to merge your changes and the checked in changes. The lines
+between the <<<<<< and the ===== are in your file and the ones in the next
+section are what have been checked in. You must have not noticed the warning
+messages about conflicts that cvs gave you when you did the update, and the
+"C" flag next to that file when cvs listed the files being pulled.
+
+ -- sidney
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

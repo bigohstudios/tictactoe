@@ -1,0 +1,26 @@
+Re: Gnome not working anymore?On 05/19/2010 04:56 PM, RyanJB wrote:
+> Not really well versed in this, but:
+>
+> What kernel do you use before the upgrade, is it the 2.6.33-2-amd64?? Obviously the upgrade broke the system somehow. Maybe broken dependencies? Try 'apt-get -f install'.
+>
+> And also, a testing + sid system is never free of bugs.
+>
+> Regards,
+> RJB
+>
+>
+>    
+Thanks for the reply, but first of all, I do not think it's the kernel 
+at fault, it's some library upgrade (imho); second, no broken deps;
+third, it was 2.6.34 vanilla; finally, fourth, I know what to expect 
+from a sid/testing system; I just wanted to inform so I can help
+getting rid of this bug. And, btw, XFCE works ok, although being also 
+GTK-based.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF3EF8B.2040302@csmining.org
+
+

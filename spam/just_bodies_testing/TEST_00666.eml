@@ -1,0 +1,35 @@
+Re: [TexLive] This math formula work a few month a go, but nowadays
+ it didn't work anymore2010-04-29 19:40, Norbert Zeh skrev:
+>
+> You are missing the font file
+> fmex8.pfb.  If I search for it using apt-file, apt-file claims that this
+> file is part of texlive-base.  I have this package installed, but the
+> whole directory where this file is supposed to live does not exist.
+> Something wrong with the texlive-base package?
+>
+
+Perhaps it exists in lenny but not in squeeze? My apt-file search also 
+says that it exists, but I do not even have the directory in which the 
+file is supposed to reside.
+
+According to the debian site, however, the file is not available in squeeze:
+
+<http://packages.debian.org/search?searchon=contents&keywords=fmex8.pfb&mode=exactfilename&suite=stable&arch=amd64>
+<http://packages.debian.org/search?searchon=contents&keywords=fmex8.pfb&mode=exactfilename&suite=testing&arch=amd64>
+
+
+It seems to come from a cmex package. Can that package have changed and 
+dropped the fmex* files? It now seems to contain cmex*-files instead, 
+but I do not know if that is the correct interpretation.
+
+Regards
+
+Johan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrchu0$5ke$1@dough.gmane.org
+
+

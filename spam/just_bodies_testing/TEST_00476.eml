@@ -1,0 +1,41 @@
+Re: Resources for learning Linux-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Monday 26 April 2010, James Stuckey <jhstuckey@csmining.org> was heard 
+to say:
+> I would like to do a little
+> reading/studying of linux to get a better understanding of some of
+> the more advanced topics, or to see if I have learned a lot of the
+> things that might be taught in a university-linux/UNIX course.
+
+Install Sid (Debian Unstable) and maintain it over the course of a few 
+years.
+
+Debian administration, one random problem at a time. :^)
+
+That's how I did it.
+
+Curt-
+
+- -- 
+Those who torment us for our own good will torment us without end,
+for they do so with the approval of their consciences.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iQEVAwUBS9X/IS9Y35yItIgBAQLZ1gf/Q8YB7lzsry2PEZJmuY2et46IKoaGXvFR
+uKltDMC2fJbDDtZ6Kvo8LCOXU+jz+i8aadZN5LrTGcWu02OdumtoR3e+2Cd6yu2C
+yvj9H1HcZuJ0K1q2rBP7fp/ATwMsPE2/oyFvlyVW4K2Fi3yqzermbZnZQPTVoQp8
+Q6uNm9a568Ivd72VI6RQt7Xqfv72iP24Dhj7xW2PpCA7LtpdCsAtDbiAPRrHrMHb
+8FpT9rTHaCCNN4s0vMLhPcQ7piUFhmhORp3PfqGhnHaMt4Pr2/LQu8yx4GvH/mP3
+mDfb776gvnKjK/mRymrjeHTWV8d2WFh9GeCCNw7hQn2QsoYlg+Kc4g==
+=SfRf
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004261701.26411.Howland@priss.com
+
+

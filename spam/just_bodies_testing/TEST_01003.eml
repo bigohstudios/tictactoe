@@ -1,0 +1,26 @@
+Re: [SAtalk] Apple, Kmail, Adaptive Rules>How would forgeries (e.g. viruses) be detected?  Would there be an
+>"oops-I-didn't-mean-to-submit-that" option somehow?
+
+Real viruses are filtered before they reach any mailbox for delivery.
+
+Tose two addresses could be accessible only for internal mail.
+
+And as a user is using this mechanism to build his own database of
+spam/non-spam, that's his problem is he sumbit something wrong.
+
+BTW, same forgery or wrong submission problems would exist if each
+user had his own set of 2 addresses.
+
+Olivier
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

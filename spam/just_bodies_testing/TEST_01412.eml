@@ -1,0 +1,265 @@
+Re: passwordless ssh root logins stopped working after testing dist-upgrade
+On 4/6/2010 4:37 PM, Russell L. Carter wrote:
+> First, I'm new to this list and how do you all want me to handle
+> replies?  Rather than the two individuals that show up with
+> reply-all, I've just replied directly to the list.  If that's not
+> what you want, please let me know.
+>
+> Ryan Manikowski wrote:
+>> Run this command as the user you would like to login with via ssh and
+>> send back the results:
+>>
+>> ssh -vvvv <hostname>
+>
+> Thanks Ryan... In this session I've ssh-added my regular key (rsa),
+> and then
+> ssh-copy-id'ed it as follows.  I've tried both rsa and dsa keys,
+> appended is
+> the debug output with an rsa key.  I also just verified that I can ssh
+> without
+> a password into a new ordinary user account (after ssh-copy-id).
+>
+> rcarter@feyerabend> ssh-copy-id root@localhost
+> root@localhost's password:
+> Now try logging into the machine, with "ssh 'root@localhost'", and
+> check in:
+>
+>   .ssh/authorized_keys
+>
+> to make sure we haven't added extra keys that you weren't expecting.
+>
+> rcarter@feyerabend> ssh root@localhost
+> root@localhost's password:
+>
+> rcarter@feyerabend> ssh -vvvv root@localhost
+> OpenSSH_5.3p1 Debian-3, OpenSSL 0.9.8n 24 Mar 2010
+> debug1: Reading configuration data /home/rcarter/.ssh/config
+> debug1: Reading configuration data /etc/ssh/ssh_config
+> debug1: Applying options for *
+> debug2: ssh_connect: needpriv 0
+> debug1: Connecting to localhost [::1] port 22.
+> debug1: Connection established.
+> debug1: identity file /home/rcarter/.ssh/identity type -1
+> debug3: Not a RSA1 key file /home/rcarter/.ssh/id_rsa.
+> debug2: key_type_from_name: unknown key type '-----BEGIN'
+> debug3: key_read: missing keytype
+> debug2: key_type_from_name: unknown key type 'Proc-Type:'
+> debug3: key_read: missing keytype
+> debug2: key_type_from_name: unknown key type 'DEK-Info:'
+> debug3: key_read: missing keytype
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug3: key_read: missing whitespace
+> debug2: key_type_from_name: unknown key type '-----END'
+> debug3: key_read: missing keytype
+> debug1: identity file /home/rcarter/.ssh/id_rsa type 1
+> debug1: Checking blacklist file /usr/share/ssh/blacklist.RSA-2048
+> debug1: Checking blacklist file /etc/ssh/blacklist.RSA-2048
+> debug1: identity file /home/rcarter/.ssh/id_dsa type -1
+> debug1: Remote protocol version 2.0, remote software version
+> OpenSSH_5.3p1 Debian-3
+> debug1: match: OpenSSH_5.3p1 Debian-3 pat OpenSSH*
+> debug1: Enabling compatibility mode for protocol 2.0
+> debug1: Local version string SSH-2.0-OpenSSH_5.3p1 Debian-3
+> debug2: fd 3 setting O_NONBLOCK
+> debug1: SSH2_MSG_KEXINIT sent
+> debug3: Wrote 792 bytes for a total of 824
+> debug1: SSH2_MSG_KEXINIT received
+> debug2: kex_parse_kexinit:
+> diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+>
+> debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+> debug2: kex_parse_kexinit:
+> aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+>
+> debug2: kex_parse_kexinit:
+> aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+>
+> debug2: kex_parse_kexinit:
+> hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+>
+> debug2: kex_parse_kexinit:
+> hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+>
+> debug2: kex_parse_kexinit: none,zlib@openssh.com,zlib
+> debug2: kex_parse_kexinit: none,zlib@openssh.com,zlib
+> debug2: kex_parse_kexinit:
+> debug2: kex_parse_kexinit:
+> debug2: kex_parse_kexinit: first_kex_follows 0
+> debug2: kex_parse_kexinit: reserved 0
+> debug2: kex_parse_kexinit:
+> diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+>
+> debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+> debug2: kex_parse_kexinit:
+> aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+>
+> debug2: kex_parse_kexinit:
+> aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+>
+> debug2: kex_parse_kexinit:
+> hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+>
+> debug2: kex_parse_kexinit:
+> hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+>
+> debug2: kex_parse_kexinit: none,zlib@openssh.com
+> debug2: kex_parse_kexinit: none,zlib@openssh.com
+> debug2: kex_parse_kexinit:
+> debug2: kex_parse_kexinit:
+> debug2: kex_parse_kexinit: first_kex_follows 0
+> debug2: kex_parse_kexinit: reserved 0
+> debug2: mac_setup: found hmac-md5
+> debug1: kex: server->client aes128-ctr hmac-md5 none
+> debug2: mac_setup: found hmac-md5
+> debug1: kex: client->server aes128-ctr hmac-md5 none
+> debug1: SSH2_MSG_KEX_DH_GEX_REQUEST(1024<1024<8192) sent
+> debug1: expecting SSH2_MSG_KEX_DH_GEX_GROUP
+> debug3: Wrote 24 bytes for a total of 848
+> debug2: dh_gen_key: priv key bits set: 138/256
+> debug2: bits set: 498/1024
+> debug1: SSH2_MSG_KEX_DH_GEX_INIT sent
+> debug1: expecting SSH2_MSG_KEX_DH_GEX_REPLY
+> debug3: Wrote 144 bytes for a total of 992
+> debug3: check_host_in_hostfile: filename /home/rcarter/.ssh/known_hosts
+> debug3: check_host_in_hostfile: match line 1
+> debug1: Host 'localhost' is known and matches the RSA host key.
+> debug1: Found key in /home/rcarter/.ssh/known_hosts:1
+> debug2: bits set: 533/1024
+> debug1: ssh_rsa_verify: signature correct
+> debug2: kex_derive_keys
+> debug2: set_newkeys: mode 1
+> debug1: SSH2_MSG_NEWKEYS sent
+> debug1: expecting SSH2_MSG_NEWKEYS
+> debug3: Wrote 16 bytes for a total of 1008
+> debug2: set_newkeys: mode 0
+> debug1: SSH2_MSG_NEWKEYS received
+> debug1: SSH2_MSG_SERVICE_REQUEST sent
+> debug3: Wrote 48 bytes for a total of 1056
+> debug2: service_accept: ssh-userauth
+> debug1: SSH2_MSG_SERVICE_ACCEPT received
+> debug2: key: /home/rcarter/.ssh/id_rsa (0x7f58126f2ba0)
+> debug2: key: /home/rcarter/.ssh/identity ((nil))
+> debug2: key: /home/rcarter/.ssh/id_dsa ((nil))
+> debug3: Wrote 64 bytes for a total of 1120
+> debug1: Authentications that can continue: publickey,password
+> debug3: start over, passed a different list publickey,password
+> debug3: preferred
+> gssapi-keyex,gssapi-with-mic,gssapi,publickey,keyboard-interactive,password
+>
+> debug3: authmethod_lookup publickey
+> debug3: remaining preferred: keyboard-interactive,password
+> debug3: authmethod_is_enabled publickey
+> debug1: Next authentication method: publickey
+> debug1: Offering public key: /home/rcarter/.ssh/id_rsa
+> debug3: send_pubkey_test
+> debug2: we sent a publickey packet, wait for reply
+> debug3: Wrote 368 bytes for a total of 1488
+> debug1: Authentications that can continue: publickey,password
+> debug1: Trying private key: /home/rcarter/.ssh/identity
+> debug3: no such identity: /home/rcarter/.ssh/identity
+> debug1: Trying private key: /home/rcarter/.ssh/id_dsa
+> debug3: no such identity: /home/rcarter/.ssh/id_dsa
+> debug2: we did not send a packet, disable method
+> debug3: authmethod_lookup password
+> debug3: remaining preferred: ,password
+> debug3: authmethod_is_enabled password
+> debug1: Next authentication method: password
+> root@localhost's password:
+>
+
+What you're trying to do here is login to the 'root' account using your
+non-root account to initiate the ssh connection. It is reading the
+'id_rsa.pub' pubkey file from /home/<user>/.ssh/ and this is why it is
+failing. The non-root account on the remote side (in this case, your
+localhost) does not have access to ANY files in /root/ so it will never
+work.
+
+
+
+	 Ryan Manikowski
+
+
+]] Devision Media Services LLC [[
+	 www.devision.us
+ ryan@devision.us | 716.771.2282
+
+
+>
+>
+>>
+>>      Ryan Manikowski
+>>
+>>
+>> ]] Devision Media Services LLC [[
+>>      www.devision.us
+>>  ryan@devision.us | 716.771.2282
+>>
+>>
+>> On 4/6/2010 4:06 PM, d.sastre.medina@csmining.org wrote:
+>>> On Tue, Apr 06, 2010 at 03:24:04PM -0400, Tony Nelson wrote:
+>>>  
+>>>> On 10-04-06 14:12:19, Russell L. Carter wrote:
+>>>>    
+>>>>> root@feyerabend> diff -u ssh_config ssh_config.dpkg-dist
+>>>>> --- ssh_config  2010-04-05 21:14:26.172871668 -0700
+>>>>> +++ ssh_config.dpkg-dist        2010-01-04 09:05:12.000000000 -0700
+>>>>> @@ -17,8 +17,8 @@
+>>>>>   # ssh_config(5) man page.
+>>>>>
+>>>>>   Host *
+>>>>> -ForwardAgent yes
+>>>>> -ForwardX11 yes
+>>>>> +#   ForwardAgent no
+>>>>> +#   ForwardX11 no
+>>>>>   #   ForwardX11Trusted yes
+>>>>>   #   RhostsRSAAuthentication no
+>>>>>   #   RSAAuthentication yes
+>>>>>       
+>>>> I don't see any "PermitRootLogin without-password" line in your diff.
+>>>>     
+>>> Hello,
+>>>
+>>> That would disable password login for root, but does not enable per-se
+>>> pubkey auth (AFAIK).
+>>>
+>>> man sshd_config explain this: PermitRootLogin, PubkeyAuthentication
+>>> and AuthorizedKeysFile entries.
+>>>
+>>> Regards.
+>>>
+>>>   
+>>
+>>
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBBAC3D.7060804@devision.us
+
+

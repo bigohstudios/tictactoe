@@ -1,0 +1,44 @@
+Re: Is acroread blind, or ps2pdf dangerous?From nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Yes, but the problem with evince is that it is a basic PDF reader.
+Acrobat reader includes many completely unimportant functionalities, but
+an important functionality as the automatic refresh is not implemented
+in it, when it is implemented in very simple PDF readers, such as evince.=
+
+
+Andrei Popescu wrote:
+> On Fri,14.May.10, 15:32:13, Merciadri Luca wrote:
+>  =20
+>>> I find it interesting that Acroread's behavior is different in Linux.=
+
+>>> The programmers of the Linux version seem to be aware of *nix standar=
+d
+>>> practice.  This is a good thing, I think.
+>>>      =20
+>> I totally agree with you. I was so suprised that acroread shown no err=
+or
+>> under Linux that I thought there was a bug. It often happens to modify=
+ a
+>> PDF and compile the source files, having forgotten the fact that the P=
+DF
+>> viewer is still open with the PDF.=20
+>>    =20
+>
+> At least evince (but I think other pdf viewers as well) will even notic=
+e=20
+> the file has changed and refresh automatically. Acroread is lacking=20
+> here.
+>  =20
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+All flowers are not in one garden.
+

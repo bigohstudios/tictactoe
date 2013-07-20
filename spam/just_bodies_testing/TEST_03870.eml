@@ -1,0 +1,121 @@
+Re: How to keep debian current??On Sat, 2010-05-15 at 13:55 +0200, Wolodja Wentland wrote:
+> On Sat, May 15, 2010 at 10:12 +0000, RyanJB wrote:
+> > After much considering, I think I'll stick to lenny but I will install
+> > some package from sid..
+> 
+> That is probbaly the worst way to deal with your "need" for newer
+> software, as it is quite hard to keep a mixed stable/sid system that
+> could be considered "stable" as defined by Debian.
+> 
+> Given that you claim to be inexperienced with Debian and/or .deb based
+> distributions in general I would suggest one of the following ways to
+> cure your "shiny new shit syndrome" ;)
+> 
+> 1. Stable + backports
+> 
+> This is probably the easiest way to get newer versions for packages
+> given that they have been backported. You can find instructions on how
+> to use backports on:
+> 
+> http://backports.org/dokuwiki/doku.php?id=instructions
+> 
+> 2. Stable + backports + simple sid backports
+> 
+> If you "need" packages from sid that have not yet been backported, you
+> can try to backport them yourself given that their dependencies can be
+> satisfied in stable. The basic way to deal with this is:
+> 
+> a. Add ONLY a "deb-src ..." line for sid to your sources.list.  
+> b. apt-get update / aptitude update 
+> c. aptitude install build-essential 
+>    apt-get build-dep packagename
+>    apt-get -b source packagename 
+> d. Install the resultant debs.
+> 
+> This last two approaches work well if you just need the newer version
+> for a couple of packages, for example if the version of apache2 shipped
+> with lenny does not support a feature you need. 
+> 
+> I am not sure if that is enough for you, but you might want to ask
+> yourself first what you are trying to achieve eventually. *Why* do you
+> need newer versions? What are you doing with your computer? What are
+> your usage patterns? What features are missing from lenny that you
+> *really* need?
+> 
+> If you need them, just because you *always* want the newest upstream
+> release, you can consider one of the following approaches:
+> 
+> 3. Run testing or sid
+> 
+> I think that running testing or sid is what you *might* actually want,
+> but you have to prepare yourself for the occasional problem you have to
+> fix yourself and you might need a sound understanding of Linux and
+> Debian packaging in order to fix *some* of the  problems that you might
+> run into.
+> 
+> That being said, I want to point out that I have been tracking testing
+> for some time now and rarely faced an issue I could not fix. Moreover
+> testing (and sid?) is actually quite stable (in the sense of "not
+> breaking your system") and might be the best choice for your.
+> 
+> In particular I have made good experiences with the following scheme:
+> 
+> 1. Track stable for 6-12 months after the release
+> 2. Track testing until it is released as stable
+> 3. Goto 1
+> 
+> 4. Use a different distribution
+> 
+> Why don't you use one of the Debian-based distribution until you are
+> more comfortable with Linux and Debian administration and therefore able
+> to fix the occasional problem you might run into yourself?
+> 
+> Don't get me wrong here - I don't want to argue against Debian, but
+> there might actually be distributions that are developed with users like
+> you in mind and you might actually be happier using one of those.
+> 
+> Having said all that, I would suggest the following:
+> 
+> Run stable and familiarise yourself with Debian and Linux, by reading
+> the following manuals: (excerpts from the dpkg bot on #debian)
+> 
+> 1. Debian Reference
+> 
+> The Debian Reference will answer most of your questions about Debian.  The
+> latest version (v2) is at http://www.debian.org/doc/manuals/debian-reference/ .
+> Read it after installing Debian and before asking for support, as it is the
+> closest thing Debian has to a manual.  You can install this too, the package
+> name is debian-reference: 'aptitude install debian-reference'
+> 
+> 2. Rute User's Tutorial and Exposition.
+> 
+> A fantastic book that is available at http://rute.2038bug.com/, can be
+> purchased at Borders, or install the rutebook package from non-free.  It covers
+> Linux in a very non-distribution specific method.  The start of the book is
+> "Binary and Octal" and ends with "Security Auditing".
+> 
+> 3. Newbiedoc
+> 
+> http://newbiedoc.berlios.de/wiki/Debian_newbie_help_documentation
+> 
+> Once you are familiar with Linux and Debian upgrade to testing and enjoy
+> the pleasures of a rolling release.
+Thank you for such an excellent response.  I was going to comment that
+Squeeze and Sid are more stable than many distributions but they still
+have their issues.  We had very much wanted to use Squeeze for a
+potentially large but enterprise class deployment.  After considerable
+testing, we opted for Lenny + backports + the occasional adaptation from
+Squeeze where absolutely necessary.
+
+Most of our postponement of Squeeze was due to KDE 4.x which seemed an
+excellent idea but not yet ready for enterprise use and we even tested
+using Gnome but found there were other issues.  Again, thanks for an
+excellent response which I'm sure took some time to craft - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273928392.3747.16.camel@localhost
+
+

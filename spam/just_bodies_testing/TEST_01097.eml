@@ -1,0 +1,40 @@
+Console font turned cyan> I don't know when it happened but it must have been during some
+> "aptitude upgrade" run lately: My console font turned from white to
+> cyan. At first I thought that the red VGA signal had a bad contact,
+
+I was recently experimenting with framebuffer settings, and when I tried certain
+settings, I got something very similar to what you are describing. Specifically,
+I got the pale green text when I chose a framebuffer setting of a certain bit
+depth, and it had the multi-color smeary looking distortion.
+
+I wanted my framebuffer to be nice because I use some console apps and I
+don't always like to run X. I was experimenting with lots of settings. When I
+tried 1024x768x24, it looks nice. 1024x768x32 is also nice.
+
+But when I tried 1024x768x16 or 1024x768x8, the colors were all wrong, and the
+main console font was a sickly green color. Not quite cyan, but similar.
+
+Your framebuffer could have gone on the fritz with your recent update if you
+changed from grub-legacy to grub-pc (the new grub). The new grub has a different
+way of setting up framebuffers, you can't use vga=795 any more.
+
+If you want to try to chase down a new-grub framebuffer problem, try looking
+at these:
+
+/etc/grub/default
+GRUB_GFXMODE=1024x768x32 (or whatever you choose)
+GRUB_TERMINAL
+update-grub
+gfxpayload
+
+These are just some ideas that I thought might be helpful.
+
+Phil
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100411070120.GA6472@kasploosh.net
+
+

@@ -1,0 +1,44 @@
+Re: xterm colorI had this problem after the last security update, reloading the X11 dmg, either 2.4 or 2.5 solved the problem.
+
+Vic Ryan
+
+ 
+On Monday, May 03, 2010, at 01:02PM, "Jeremy Huddleston" <jeremyhu@apple.com> wrote:
+>
+>On May 3, 2010, at 09:24, Carlos Roman wrote:
+>
+>> echo $DISPLAY on terminal
+>> I get
+>> /tmp/launch-FAqsQ6/org.macosforge.xquartz:0
+>
+>That is correct.
+>
+>> and if I try to export $DISPLAY=":0.0"
+>
+>Don't try to manually set DISPLAY.
+>
+>> then, I tried running an xterm and got the following error message
+>> 
+>> Warning: locale not supported by Xlib, locale set to C
+>> X connection to /tmp/launch-FAqsQ6/org.macosforge.xquartz:0 broken (explicit
+>> kill or server shutdown).
+>
+>Your logs from the previous message do not show what is happening with this on the server's side.  Do you have any crash logs?
+>
+>Did you do anything "special" with your configuration?
+>
+> _______________________________________________
+>Do not post admin requests to the list. They will be ignored.
+>X11-users mailing list      (X11-users@lists.apple.com)
+>Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/vicryan%40mac.com
+>
+>This email sent to vicryan@mac.com
+>
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

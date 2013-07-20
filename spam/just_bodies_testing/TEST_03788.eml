@@ -1,0 +1,20 @@
+Re: Deleting some regexp/simple expression from lots of files in a secure wayOn Fri, May 14, 2010 at 07:04:42PM +0200, Merciadri Luca wrote:
+> I have many text files (actually .tex files) which contain some
+> sequence or regexp (it depends on the files) that I would like to
+> remove. Is there a commandline/GUI for doing this massive edit?
+> 
+Look at sed's -i switch or Perl.
+Back everything up first.
+Mike
+
+-- 
+Satisfied user of Linux since 1997.
+O< ascii ribbon campaign - stop html mail - www.asciiribbon.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514174800.GA5380@playground.mcclains.net
+
+

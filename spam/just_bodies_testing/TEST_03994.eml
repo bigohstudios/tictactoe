@@ -1,0 +1,38 @@
+Re: What needs to improve in KDE 4?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 11 May 2010, Marc Haber wrote:
+> Hi,
+>=20
+> On Tue, May 11, 2010 at 08:58:17AM +0200, cobaco wrote:
+> > On Tuesday 11 May 2010, Adrian von Bidder wrote:
+> > > On Monday 10 May 2010 18.12:46 Dotan Cohen wrote:
+> > > > I started 4.4 on a new ~/.kde
+> > > > folder, can you try in a new user profile and report back?
+> > >=20
+> > > I hate it when this shows up.  Yes, it's probably easier to debug,
+> > > but often bugs *do* show up that don't happen anymore when I remove
+> > > my ~/.kde directory, but this doesn't really help the user who has
+> > > the bug. Unfortunately, the end result is very often that removing
+> > > ~/.kde and starting from scratch becomes the only solution that is
+> > > "officially" recommended.
+> >=20
+> > read remove as 'move temporarily out of the way', this is just the
+> > first step in localizing the problem: if it doesn't get rid of the
+> > problem then we've established conclusively that the bug is not
+> > triggered by something in your personal settings.
+>=20
+> Is it guaranteed that KDE doesn't store anything outside of ~/.kde=20
+
+not entirely some of the cross-desktop standarized stuff is stored in=20
+$XDG_CONFIG_HOME (which defaults to $HOME/.config) as specified in the=20
+freedesktop basedir spec
+
+> so that a user doesn't risk things getting desynched if one exchanges one
+> ~/.kde with a different one?
+
+shouldn't be a problem AFAIK
+=2D-=20
+Cheers, Cobaco (aka Bart Cornelis)

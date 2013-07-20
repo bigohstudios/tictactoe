@@ -1,0 +1,25 @@
+Re: SCIM, anthy, and FrenchLe Fri, 14 May 2010 02:31:58 +0000 (UTC),
+Hendrik Boom <hendrik@topoi.pooq.com> a =C3=A9crit :
+
+> I'm using scim, anthy=20
+[...]
+> I'd like also the be able to switch in a French input method=20
+[...]
+> But I can't figure out how to set that up.  (currently running Debian=20
+> squeeze on an Asus 1000HE.)
+
+Hi,
+
+You probably need to reconfigure scim (by GUI configuration tool
+provided) and if not sufficient, maybe install (if not already
+installed) one or more of these packages: scim-m17n,
+scim-tables-additional, scim-uim and reconfigure scim.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514085600.32751d6c@csmining.org
+
+

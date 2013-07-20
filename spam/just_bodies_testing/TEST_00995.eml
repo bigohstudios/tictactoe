@@ -1,0 +1,30 @@
+Re: Simple tool to extract sound from video?On 2010-05-07 18:19:44 +0200, Merciadri Luca wrote:
+>Rob Owens wrote:
+>> Avidemux can do it also.  It's a GUI, but I think it's more
+>> straightforward to do it with ffmpeg, as suggested above
+>
+>Thanks. ffmpeg does actually, exactly what I want. Thanks. (For such
+>things, people habitually ask for a mere commandline use, at least me.)
+>
+
+I wanted to add a different command line solution. I use mplayer a lot
+to watch videos, so I have an mplayer recipe to do this same job.  It
+goes like this:
+
+    mplayer myvideo.avi -vc null -vo null -ao pcm:file=myvideo.wav
+
+This is just another option. I think mplayer makes some things easier
+because it chooses codecs for you. If mplayer can play your file, it
+can also write it to disk.
+
+Hope this helps,
+
+Phil
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100508024845.GA1683@kasploosh.net
+
+

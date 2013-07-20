@@ -1,0 +1,145 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ae26a4a466e73
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs33474wfo;
+        Tue, 18 May 2010 18:21:28 -0700 (PDT)
+Received: by 10.141.100.19 with SMTP id c19mr5626993rvm.16.1274232088053;
+        Tue, 18 May 2010 18:21:28 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id b4si1149994rvn.80.2010.05.18.18.21.27;
+        Tue, 18 May 2010 18:21:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id D6D6D1C531781
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 18:21:27 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D242A27C0C15F
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 18:21:27 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay15.apple.com (relay15.apple.com [17.128.113.54])
+	by lists.apple.com (Postfix) with ESMTP id 0A5DF27C0BB00
+	for <java-dev@lists.apple.com>; Tue, 18 May 2010 18:20:37 -0700 (PDT)
+X-AuditID: 11807136-b7c2eae00000113b-c4-4bf33ce5cf6f
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay15.apple.com (Apple SCV relay) with SMTP id
+	C1.C8.04411.5EC33FB4; Tue, 18 May 2010 18:20:37 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <AF0DC38A-BDFC-445F-8CB5-B771D4DB201C@twistedprotein.com>
+Date: Tue, 18 May 2010 18:20:37 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <853E1004-2CBD-4248-989B-79BAEBFB9866@apple.com>
+References: <9EB9B867-DE57-4D60-A308-D3F28A59971D@apple.com>
+	<AF0DC38A-BDFC-445F-8CB5-B771D4DB201C@twistedprotein.com>
+To: list Java-dev <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: 
+Subject: Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are live
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Thanks Brendon - silly copy/paste flip.
+
+Several documents corresponding to this update have now gone live as =
+well:
+
+Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 Release Notes
+=
+<http://developer.apple.com/mac/library/releasenotes/CrossPlatform/JavaSno=
+wLeopardUpdate2LeopardUpdate7RN>
+
+Java SE 6 Apple Extensions Reference
+=
+<http://developer.apple.com/mac/library/documentation/Java/Reference/JavaS=
+E6_AppleExtensionsRef>
+
+AppleJavaExtensions stub jar file
+<http://developer.apple.com/mac/library/samplecode/AppleJavaExtensions>
+
+Identifying Java on Mac OS X
+<http://developer.apple.com/mac/library/technotes/tn2002/tn2110.html>
+
+
+On May 18, 2010, at 1:46 PM, Brendon McLean wrote:
+
+> To all,
+>=20
+> The manual download links are the wrong way around.  Should be:
+>=20
+> 10.6 - http://support.apple.com/kb/DL972
+> 10.5 - http://support.apple.com/kb/DL971
+>=20
+> Thanks Mike and the team for continued great work.
+>=20
+> Regards,
+> Brendon.
+>=20
+> On 18 May 2010, at 22:35 , Mike Swingler wrote:
+>=20
+>> Java developers,
+>>=20
+>> The latest Java software updates for both Mac OS X 10.6 and 10.5 are =
+now live and available to all Mac OS X customers via Software Update. If =
+you installed any of the developer previews, running Software Update =
+will automatically bring you up to date with the final GM version.
+>>=20
+>> Manual download links:
+>> Java for Mac OS X 10.6 Update 2: <http://support.apple.com/kb/DL971>
+>> Java for Mac OS X 10.5 Update 7: <http://support.apple.com/kb/DL972>
+>>=20
+>>=20
+>> Like the last pair of releases, all of the JavaDoc API jars, source =
+jars, native frameworks headers, and tools documentation is in a =
+separate docs package. Be sure to install this package to keep your IDE =
+in sync with the Java platform sources. We've made a number of additions =
+to the eAWT, so you may also want to check out the appledocs.jar if you =
+haven't looked at it in a while.
+>>=20
+>> Java for Mac OS X 10.6 Update 2 Developer Documentation:
+>> =
+<https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftwar=
+e?bundleID=3D20620>
+>>=20
+>> Java for Mac OS X 10.5 Update 7 Developer Documentation:
+>> =
+<https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftwar=
+e?bundleID=3D20621>
+>>=20
+>>=20
+>> The team sends their thanks to everyone who installed the developer =
+previews and helped to make this a great release.
+
+Happy reading,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,50 @@
+Re: Increasing number of conflictsOn Tue, Apr 20 at 16:19, B. Alexander penned:
+>    It's more of a packaging issue. For instance, there have been
+>    several ABI changes, the most recent of which was the transition
+>    from kde3 to kde4.  Packages getting left along the way.
+> 
+>    Another thing is packages whcih seem to have gotten confused by
+>    versions:
+> 
+>    luatex: Conflicts: texlive-base-bin (< 2008) but 2007.dfsg.2-8 is
+>    installed.  
+>    python-kde4: Depends: python-sip4 (>= <none>) but
+>    4.10.2-1 is to be installed.
+
+This might be a little painful for the KDE package, but I wonder what
+would happen if you uninstalled them and then reinstalled them.
+
+I'll admit, I've sometimes left packages on "hold" for months or even
+a year before trying to figure it out.  Unless I specifically need a
+feature available in the latest version of a package, I just let
+things "work themselves out."  This may not be an acceptable approach
+for everyone ...  personally I find it better than the alternatives,
+which are 
+
+1) Run stable and have uniformly old packages (although I have a vague
+notion that stable versions are being released more often now than
+they used to be)
+
+2) Run testing, which is really more an integration environment than a
+distribution - although I've just checked the rules, and again they
+seem to be much more friendly than I remember them.  I remembered
+something like two weeks of clean living before a new version could
+make it to testing, but either I remember wrong or things have
+changed:
+
+http://www.debian.org/devel/testing
+
+Hrm.  Thanks for starting this discussion.  It seems that my
+understanding of the distributions is (not|no longer) valid, and I need
+to do some reading.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100420231829.GI30298@mail.bounceswoosh.org
+
+

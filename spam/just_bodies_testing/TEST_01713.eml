@@ -1,0 +1,20 @@
+Re: Dual channel memory questionOn Thu, Apr 15, 2010 at 1:09 PM, Hugo Vanwoerkom <hvw59601@care2.com> wrote:
+> Does that mean that placing 2 1GB modules, each into a different colored
+> slot, is faster than putting 1 2GB module into one slot and leaving the
+> other 3 slots empty?
+
+
+on my server board the machine will not even boot up if memory is not
+installed in matching pairs. so only 3 memory sticks installed will
+not work.
+2 / 4 / 6 or 8 only.
+
+...on my machine.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2uf8d5d4f31004151311u6d9010e7y730696a566cd0641@mail.csmining.org
+
+

@@ -1,0 +1,188 @@
+From - Wed Apr 21 10:22:45 2010
+X-Account-Key: account2
+X-UIDL: UID12838-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id E8A8F15EBF
+	for <m0620212@mail.csmining.org>; Wed, 21 Apr 2010 08:01:00 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id E485215EB4
+	for <m0620212@mail.csmining.org>; Wed, 21 Apr 2010 08:01:00 +0900 (JST)
+X-ASG-Debug-ID: 1271804460-78f75b9a0001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id ODTKnAzEjHympiLH for <m0620212@mail.csmining.org>; Wed, 21 Apr 2010 08:01:00 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o3KN0xGC023726
+        for <m0620212@mail.csmining.org>; Wed, 21 Apr 2010 08:00:59 +0900 (JST)
+Received: from mx2.csmining.org (ns4.csmining.org [192.168.3.4])
+        by gw1.csmining.org  with ESMTP id o3KN0xwD023723
+        for <hibody@csmining.org>; Wed, 21 Apr 2010 08:00:59 +0900 (JST)
+Message-Id: <201004202300.o3KN0xwD023723@gw1.csmining.org>
+Received: from [186.112.189.210] (unknown [186.112.189.210])
+	by mx2.csmining.org (csminingorg MX Server2) with ESMTP id 01D7270
+	for <hibody@csmining.org>; Wed, 21 Apr 2010 08:00:58 +0900 (JST)
+Date: Tue, 20 Apr 2010 20:00:58 -0300
+X-Barracuda-BWL-IP: 186.112.189.210
+X-Barracuda-BBL-IP: 186.112.189.210
+X-Barracuda-RBL-IP: 186.112.189.210
+X-Barracuda-BRL-Tag: Barracuda Reputation
+To: hibody@csmining.org
+From: Sales time <hibody@csmining.org>
+X-ASG-Orig-Subj: G'day hibody! Come in
+Subject:   G'day hibody! Come in
+MIME-Version: 1.0
+Status: U
+X-TRACKID: c02B9428
+X-RETURNITYID: 5e8c6A56-945336
+X-campID: D0757858-051586
+Content-Type: multipart/alternative;
+	boundary="SHT_7eD4eFed-487281_0.23867940555108093"
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1271804460
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (picamatic.com)
+X-Barracuda-Spam-Score: 24.71
+X-Barracuda-Spam-Status: No, SCORE=24.71 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA220b, BSF_SC0_SA290_RN, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC5_MJ1963, CN_BODY_332, HTML_IMAGE_ONLY_28, HTML_IMAGE_RATIO_02, HTML_MESSAGE, MPART_ALT_DIFF_COUNT, MSGID_FROM_MTA_HEADER, MSGID_FROM_MTA_HEADER_2, RDNS_NONE, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.27980
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: picamatic.com]
+	0.50 BSF_SC0_SA220b         BODY: Custom Rule SA220b
+	0.12 CN_BODY_332            BODY: CN_BODY_332
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.73 HTML_IMAGE_ONLY_28     BODY: HTML: images with 2400-2800 bytes of words
+	0.88 MPART_ALT_DIFF_COUNT   BODY: HTML and text parts are different
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.00 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	1.50 MSGID_FROM_MTA_HEADER_2 Message-Id was added by a relay
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+--SHT_7eD4eFed-487281_0.23867940555108093
+Content-type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Educational institutions in Kyrgyzstan include.
+This estimate was given by Prince Sihanouk after the conclusion of the conflict.
+http://udo.coldhear.ru/?aeac4e4a12b0-76b1ecae2a-ea34554122a6
+This is a similar problem for the accessibility of the web where images may lack alternative tags.
+Special right triangles are right triangles with additional properties that make calculations involving them easier.
+http://p.coldhear.ru/?c19ce7a282f-bcb298521f53-43288ddcc3c
+Hamilton got the treasury to weigh a sample of Spanish dollars and the average weight came out to be 371 grains.
+Boston College Coat of Arms from a stained glass window in the Gasson honors library.
+The taxis are usually minibuses that can seat at least twelve people.
+Electron backstreaming occurs if the potential within the grid is not sufficiently negative, this can mark the end-of-life of the ion thruster.
+http://gms.coldhear.ru/?c4654d7e6fc2-3c925b2def9-ef55cbe2ea
+He is also part decoy, as his unpredictable role forces defenses to keep an eye on him, thereby opening up other opportunities for the offense.
+For other ships of the same name, see USS Kanawha.
+A joint staff was also formed, responsible for inter-service co-ordination and staff management within HCHQ.
+Both MuggleCast and PotterCast [78] have reached the top spot of iTunes podcast rankings and have been polled one of the top 50 favourite podcasts.
+Boat and island tours are offered from May to October.
+http://u.coldhear.ru/?e82928d9717d-4dc440d22360-8362642e36b3
+
+
+Click the Muskegon Chronicle on Mlive.
+University of Washington-Seattle.
+Cyanide salts are used for killing ants, and have in some places been used as rat poison (the less toxic poison arsenic is more common [citation needed]).
+http://k.coldhear.ru/?3bd5943276-fb650050e985-f73f6371fc9d
+That accomplished, the priestess reveals a "leather dildo," and the women apply various irritants to him, which they use to prepare Encolpius for anal penetration (138).
+The small mining towns of this area, among them Pomona, Elizabeth Bay and Kolmanskop, were exempt from this hibody  but the denial of new claims soon rendered all of them ghost towns.
+http://fo.ivavurieuroat.com/?f21194159e-cf81b2fb2d32-129b2c79526
+
+http://j.yxaih.com/?1b9e6eb28e7-9b2853bf43a-649d4725330
+
+>From the River Subarnarekha in the north to the River Rushikulya in the south.
+On March 23, 2004, a news conference was held announcing "major discoveries" of evidence of past liquid water on the Martian surface.
+CBS Chellozone television networks.
+Of these, the five broad ones are Tribal Music, Folk Music, Light Music, Light-Classical Music and Classical Music.
+http://ep.oheti.com/?3d75bd726a15-0c882d718db-c8665e310b1
+http://q.rarozarusy.com/?6e0f580f5b8-ca3d71e0a317-309a4da8c3
+
+
+Alonso took pole position for the Monaco Grand Prix after Schumacher was penalised by the stewards for "deliberately [stopping] his car on the circuit in the last few minutes of qualifying", denying his rivals, Alonso included, the opportunity of recording fastest qualifying lap.
+In the post-Bologna Dutch educational system, the title mr.
+Upon the onset of the Korean War, U.
+The online versions, like the originals on which they are based, often incorporate spurious supplements which are not part of the real Satyricon.
+International Encyclopedia of Civil Society, Springer.
+During this time, Rahal attempted to hire championship-winning aerodynamicist Adrian Newey, briefly believing that the deal had been completed.
+http://cjs.eadicia.com/?e2dab93672-18e93c5324d-01d6ccd320ce
+http://ffr.myuzay.com/?03155230f4-4dc0087c40-72120da3c89
+
+
+
+List of Birds in Mont-Tremblant National Park.
+The two largest colonial powers were France and the United Kingdom.
+
+
+--SHT_7eD4eFed-487281_0.23867940555108093
+Content-type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>had by of in that Festival pouring</title>
+</head>
+
+<body><table width="727" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Tahoma, Verdana, Geneva, sans-serif; font-size:11px;">
+  <tr>
+    <td align="center" style="padding:5px;">If you can't see this email, <a href="http://isj.coldhear.ru/?96d6493db9-b3ede1052f-aa5c9150ce" target="_blank" style="color:#5f800d;">click here to view it online</a>.</td>
+  </tr>
+  <tr>
+    <td><table width="727" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a style="text-decoration:underline;" href="http://c.coldhear.ru/?87e59dd46a1-6dc7bb121994-222865f9bc24" target="_blank">
+		<img src="http://www.picamatic.com/show/2010/04/17/06/41/6717337_548x356.jpg" width="524" height="344" alt="Click here to open eStore" style="border-width: 0px" /></a></td>
+      </tr>
+      <tr>
+        <td><table width="727" border="0" cellspacing="0" cellpadding="0" align="left" style="font-family:Tahoma, Verdana, Geneva, sans-serif; font-size:9px; color:#d4d4d4; line-height:13px;">
+          <tr>
+            <td style="color:#b2b2b2;"><br />
+			<a style="color: #b2b2b2; text-decoration: underline;" href="http://zgu.coldhear.ru/?ccd5b2e86ee5-90be7b0da69-7cc6c23425c7" target="_blank">About us</a> &raquo; &#124;
+                <a style="color: #b2b2b2; text-decoration: underline;" href="http://dvg.coldhear.ru/?433ce0f8e0b-adf2ea902a7-d96a404bf2c0" target="_blank">Guide</a> &raquo; &#124;
+				<a style="color: #b2b2b2; text-decoration: underline;" href="http://pru.coldhear.ru/?6aa7926307-82f8e84a028-cfb045915789" target="_blank">Hot deals</a> &raquo; &#124;
+				<a style="color: #b2b2b2; text-decoration: underline;" href="http://mz.coldhear.ru/?ab431960970d-cd8af759bf3a-292b5d5c2ee7" target="_blank">Unsubscribe</a> &raquo; </td>
+            </tr>
+          <tr>
+            <td>&nbsp;</td>
+            </tr>
+          <tr>
+            <td style="color:#747474;">&nbsp;&copy; fantasy world In, 2005 - 2010 </td>
+            </tr>
+          <tr>
+            <td><img src="http://eivaoikeoki.com/ubynypu/zelayveceois.jpg" width="542" height="244" alt="" /></td>
+            </tr>
+        </table></td>
+      </tr>
+      </table></td>
+  </tr>
+</table>
+
+
+<img src="http://ikymymofuvuc.com/cgi-bin/oiniripir?gogafoe=27810125fb&campaign=c72&linkid=11b4">
+</BODY>
+</HTML>
+
+--SHT_7eD4eFed-487281_0.23867940555108093--
+

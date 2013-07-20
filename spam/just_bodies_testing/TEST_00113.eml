@@ -1,0 +1,25 @@
+Re: OT: Script to add line to file if it doesn't existOn 09.04.2010 16:50, Jasper wrote:
+> 
+> 
+>> if I only execute one command on true/false conditions, I prefer:
+>> command && react_true || react_false
+>>
+> 
+> Although this generally works it is not correct:
+> 
+> If 'react_true' fails for some reason then 'react_false' is also executed.
+> 
+> --Jasper.
+> 
+> 
+> 
+
+oops, yes my bad :/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBF76D8.3060204@chello.at
+
+

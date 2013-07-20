@@ -1,0 +1,21 @@
+[SAdev] 2.40: ready for release?OK guys -- I reckon it's now Good Enough, modulo some minor score
+tweaking, or commenting of some more broken/high-FP-ing rules.
+
+What do you all think?  are we ready to go?  anyone run into any trouble
+with the new autoconf code, or found a bug from the merge of that spamc
+BSMTP-support patch?
+
+I expect there *will* be a 2.41 BTW.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

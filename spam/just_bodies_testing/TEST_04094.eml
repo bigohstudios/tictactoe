@@ -1,0 +1,34 @@
+Debian on a Super Lean Laptop Part I - Making it WorkFrom nobody Sat Jul 20 14:17:34 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+This may, at first glance, appear to be an exercise into insanity, but it is
+a rather important little project to me.
+
+I have this old Toshiba Satellite laptop (P-120, 6GB had drive, and a
+whoppong 24MB RAM) that is currently running 98SE Lite.  It runs adequately
+on Windows, but now I would like to make it dual boot with Debian.
+Specifically, I want to mostly use it as a thin client to connect to a more
+heavy duty Debian box so I can use apps like Firefox, OpenOffice, VLC, etc
+from anywhere within range of my wireless router.
+
+To prep the drive, I put it in one of my build boxes and fired up gparted
+(to make the ext3 and swap partitions) and then ran partimage to put a saved
+bare bones network capable base install on the new partition.
+
+The build box boots the bare bones build beautifully.  However, the laptop
+hangs when I try to boot into Linux.  Specifically, the last thing shown on
+the screen before nothing else happens is:
+
+initrd /boot/initrd.img-2.6.32-3-486
+  [Linux-initrd @ 0x10b3000, 0x76cdf9 bytes]
+
+After that, she's locked up tight, and all I can do is power off.
+
+This is obviously a problem with initrd.  Set too large for such a low
+memory system perhaps?  If so, what can be done to fix this?
+
+I know that there are distros specifically geared toward bare bones systems
+(like Vectorlinux for example), but really, as far as I can tell, this build
+is already stripped down to almost nothing (Midnight Commander, elinks,
+sudo, and samba).  Vector looks appealing, but it is Slackware based, and I
+would really really really prefer to keep all my systems Debian oriented.

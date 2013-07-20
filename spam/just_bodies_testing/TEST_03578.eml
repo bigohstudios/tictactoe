@@ -1,0 +1,40 @@
+Re: [volatile] Updated clamav-related packages available fortestingHello,
+
+On Sunday 18 April 2010 22:52:41 Jan L=FChr wrote:
+> Hello,
+>
+> On Friday 16 April 2010 10:01:46 you wrote:
+> > Hi,
+> >
+> > Jason Self wrote/schrieb @ 15.04.2010 21:52:
+> > > Kurt Roeckx <kurt@roeckx.be> wrote ..
+> > >
+> > >> What does this mean exactly?
+> >
+> > deb http://volatile.debian.org/debian-volatile \
+> > lenny-proposed-updates/volatile main contrib non-free
+>
+> The imho more interesting point is: What does it mean in the long term?
+> The current situation is:
+> Volatile has clamav 0.95, while upstream has 0.96.  There are security
+> related issues in 0.95 (DoS etc.?) [1] that might affect(?) volatile -
+
+> [1]
+> http://git.clamav.net/gitweb?p=3Dclamav-devel.git;a=3Dblob_plain;f=3DChan=
+geLog;hb
+>=3Dclamav-0.95.3 [2] http://www.clamav.net/lang/en/2009/10/05/eol-clamav-0=
+94/
+
+sorry, [1] was meant to be=20
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D577462
+
+Keep smiling
+yanosz
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004182305.36598.debian-security@stephan.homeunix.net
+
+

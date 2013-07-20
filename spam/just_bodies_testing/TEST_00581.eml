@@ -1,0 +1,34 @@
+[ILUG] Gentoo Linux
+
+Has anybody on the list installed/used this distro? If so wouldn't mind a bit 
+of help.
+
+ Burnt the ISO's from the latest Linux Format magazine. Took a couple of 
+attempts to install but got there. My problem - I have a standard dial-up 
+modem and the installation gives you the network card setup so internet 
+download is out of the question, but, I installed the Stage3 tarball which 
+puts the .tgz files on your harddrive. 
+
+ So methinks, I have the software there and all I need to do is install so as 
+1) get the necessary programmes to connect to the net and 2) install any 
+other programmes I might need.
+
+ What actually happens is that if, for example, I attempt to install the KDE 
+package, the system goes looking for any dependencies on the net despite the 
+fact that the dependencies reside on my hard drive. Obviously I can't install 
+anything.
+
+ Have checked all docs on the web page and nothing deals with a standard 
+dial-up modem or how to tell the package manager to look for the dependencies 
+on the hard drive.
+
+ Anybody able to help me here?
+
+ Thanks in anticipation.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

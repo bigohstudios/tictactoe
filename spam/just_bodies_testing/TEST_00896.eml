@@ -1,0 +1,78 @@
+Re: Issue between KDE 4.xFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+I just created a new bug report in Kde for all this, Let's see what the
+plasma guys are saying
+
+On Sat, Apr 10, 2010 at 12:09 PM, Christophe Prud'homme <prudhomm@debian.org
+> wrote:
+
+> Dear Debian KDE Maintainers,
+>
+> First, thank you for your job, I know that maintaining huge packages is
+> very much time consuming and not easy.
+>
+> * Kde experience
+>
+> Before reporting a bug in KDE I would like  to have your opinion on how
+> best it should be done.
+> I have been using Kde for many years now, basically from its creation until
+> 4.3.x. I have also installed
+> 4.4.x.  Because I maintain and use paraview (a big package also) I add to
+> get rid of 4.4 and go back to 4.3 (due to Qt dependency).
+>
+> For the record, I have a Lenovo T61p  with an Nvidia Quadro FX 570M card
+> with 8Go of RAM and Debian unstable
+> I have enabled some of the fancy effects
+>
+> ** suspend
+>
+> With Kde 4.x I always had problems with suspend, either it just didn't work
+> (laptop froze) or
+> after 2 successfull suspends I had to shutdown/reboot the laptop
+> I always thought that it was due to bad Nvidia drivers(I am using the ones
+> shipped by  Debian ).
+>
+> ** Very slow desktop
+>
+> With 4.3.x and 4.4.1 (and possibly earlier versions of Kde 4 I cannot
+> remember ) I
+> had also plasma or the desktop that would become incredibly slow to
+> the  point of being unusable then sometimes
+> after a little while it would be back.
+>
+> ** Desktop/Plasma does not resize properly
+>
+> I teach courses at the university and I use quite often  twinview of nvidia
+> through nvidia-settings in order to show
+> some slides or make demos. When I disable the video projector and get back
+> to laptop screen only, the plasma desktop
+> keeps the preview large screen dimension  and the plasma panels are far too
+> large and don't show the almond, systray and parts
+> of the taskbar. I usually "fix" that by adding some spacer (still no almond
+> though). This is just painful.
+>
+> *Gnome Experience
+>
+> Basically it was becoming hard to use Kde on a daily basis and I decided to
+> have a little experiment: install gnome 2.28 (I have some
+> gnome 2.30 packages installed too). I have also installed compiz and
+> enabled all kind of effects.
+>
+> Now for two weeks,
+>  - the desktop never became slow, it is very responsive and is quite fancy
+>  - suspend just works, it is a bliss.
+>  - no issues with desktop resizing
+>
+> In my opinion, there is something wrong KDE/Plasma and its use of OpenGL.
+> Before this experience, I blamed nvidia and was looking
+> for changing my laptop and use ATI but now I definitely blame KDE/Plasma
+>
+> Any suggestions how to report this ? the resize problem is definitely a
+> plasma bug but what about suspend and the slow desktop ? plasma too ?
+>
+> any suggestions ? thoughts ?
+>
+> Best regards
+> C.
+>

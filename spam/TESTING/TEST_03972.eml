@@ -1,0 +1,203 @@
+X-Account-Key: account5
+X-UIDL: GmailId12897e84d44db775
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs39298wfo;
+        Fri, 14 May 2010 10:41:44 -0700 (PDT)
+Received: by 10.223.101.81 with SMTP id b17mr2029951fao.17.1273858903412;
+        Fri, 14 May 2010 10:41:43 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t12si6364712fah.66.2010.05.14.10.41.42;
+        Fri, 14 May 2010 10:41:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A7FA613A580A; Fri, 14 May 2010 17:41:37 +0000 (UTC)
+Old-Return-Path: <xtreme911@msn.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-2.8 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	LDO_WHITELIST autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9F7BB13A5384
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 17:41:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2.9 tagged_above=-10000 required=5.3
+	tests=[FOURLA=0.1, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id SVsu54ghiIl1 for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 17:41:23 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .msn. - helo: .bay0-omc3-s17.bay0.hotmail. - helo-domain: .hotmail.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1 IN_ABUSE_RFCI=0.1; rate: -6.8
+Received: from bay0-omc3-s17.bay0.hotmail.com (bay0-omc3-s17.bay0.hotmail.com [65.54.190.155])
+	by liszt.debian.org (Postfix) with ESMTP id 1C12513A427D
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 17:41:22 +0000 (UTC)
+Received: from BAY148-W13 ([65.54.190.189]) by bay0-omc3-s17.bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Fri, 14 May 2010 10:41:19 -0700
+Message-ID: <BAY148-w13A1649A6152B4DAD2DA80EFFD0@phx.gbl>
+Content-Type: multipart/alternative;
+	boundary="_bffb7a8a-3c43-402b-94cd-86e651f1cb6c_"
+X-Originating-IP: [174.93.121.112]
+From: Mike Viau <viaum@sheridanc.on.ca>
+Sender: <xtreme911@msn.com>
+To: <debian-user@lists.debian.org>
+Subject: RE: Any file details on an executable binary file?
+Date: Fri, 14 May 2010 13:41:19 -0400
+Importance: Normal
+In-Reply-To: <AANLkTimJ3goHtqQ3I0b7J2pgolhmqskgGSQFshdWCnYM@mail.csmining.org>
+References:
+ <BAY148-w546D4B05D2B1273C7B625DEFFD0@phx.gbl>,<AANLkTimJ3goHtqQ3I0b7J2pgolhmqskgGSQFshdWCnYM@mail.csmining.org>
+MIME-Version: 1.0
+X-OriginalArrivalTime: 14 May 2010 17:41:19.0931 (UTC) FILETIME=[A99118B0:01CAF38C]
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <QLaO4gqrqLE.A.RJF.RtY7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576798
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 17:41:37 +0000 (UTC)
+
+--_bffb7a8a-3c43-402b-94cd-86e651f1cb6c_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+> On Fri=2C 14 May 2010 22:22:01 +0530 < aspnair@csmining.org > wrote:
+>=20
+> Also you could try and analyze the output of the following > readelf -a <=
+executable>> ldd <executable>> strings <executable>> For example most of th=
+e files compiled with g++ has a dependability on libstdc++.so.6
+
+>=20
+
+Wow the output of readelf -a <executable> was really helpful=2C which conta=
+ined information like:
+
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement=2C little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Advanced Micro Devices X86-64
+  Version:                           0x1
+  Entry point address:               0x401210
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          15296 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         8
+  Size of section headers:           64 (bytes)
+  Number of section headers:         37
+  Section header string table index: 34
+
+ 		 	   		 =20
+_________________________________________________________________
+30 days of prizes to be won with Hotmail.  Enter Here.
+http://go.microsoft.com/?linkid=3D9729709=
+
+--_bffb7a8a-3c43-402b-94cd-86e651f1cb6c_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<style><!--
+.hmmessage P
+{
+margin:0px=3B
+padding:0px
+}
+body.hmmessage
+{
+font-size: 10pt=3B
+font-family:Verdana
+}
+--></style>
+</head>
+<body class=3D'hmmessage'>
+&gt=3B On Fri=2C 14 May 2010 22:22:01 +0530 &lt=3B aspnair@csmining.org &gt=3B=
+ wrote:<br>&gt=3B <br><div>&gt=3B Also you could try and analyze the output=
+ of the following&nbsp=3B</div><div>&gt=3B readelf -a &lt=3Bexecutable&gt=
+=3B</div><div>&gt=3B ldd &lt=3Bexecutable&gt=3B</div><div>&gt=3B strings &l=
+t=3Bexecutable&gt=3B</div><div>&gt=3B For example most of the files compile=
+d with g++ has a dependability on libstdc++.so.6</div>
+
+<div>&gt=3B <br><br>Wow the output of readelf -a &lt=3Bexecutable&gt=3B was=
+ really helpful=2C which contained information like:<br><br>ELF Header:<br>=
+&nbsp=3B Magic:&nbsp=3B&nbsp=3B 7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 0=
+0 00<br>&nbsp=3B Class:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbs=
+p=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B=
+&nbsp=3B&nbsp=3B&nbsp=3B ELF64<br>&nbsp=3B Data:&nbsp=3B&nbsp=3B&nbsp=3B&nb=
+sp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B=
+&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 2's complement=2C =
+little endian<br>&nbsp=3B Version:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&=
+nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbs=
+p=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B 1 (current)<br>&nbsp=3B OS/ABI:&nbsp=3B&nbsp=3B&nbsp=3B=
+&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nb=
+sp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B UNIX - System V<br>&nbsp=3B ABI=
+ Version:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&n=
+bsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 0<br>&nbsp=3B Type:&nbsp=3B&nbsp=3B&nbs=
+p=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B=
+&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B EXEC (Exec=
+utable file)<br>&nbsp=3B Machine:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&n=
+bsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B=
+&nbsp=3B&nbsp=3B Advanced Micro Devices X86-64<br>&nbsp=3B Version:&nbsp=3B=
+&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nb=
+sp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 0x1<br>&nbsp=3B Entry p=
+oint address:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 0x401210<br>&nbsp=3B St=
+art of program headers:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbs=
+p=3B&nbsp=3B&nbsp=3B 64 (bytes into file)<br>&nbsp=3B Start of section head=
+ers:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B 15296 (bytes into file)<br>&nbsp=3B Flags:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=
+=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B=
+&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nb=
+sp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 0x0<br>&nbsp=3B Size of this =
+header:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbs=
+p=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 64 (bytes)<br>&nbsp=3B Size of=
+ program headers:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&n=
+bsp=3B&nbsp=3B&nbsp=3B 56 (bytes)<br>&nbsp=3B Number of program headers:&nb=
+sp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 8<br>&nbsp=3B=
+ Size of section headers:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&n=
+bsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 64 (bytes)<br>&nbsp=3B Number of section hea=
+ders:&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B&nbsp=3B 37<br=
+>&nbsp=3B Section header string table index: 34<br><br></div> 		 	   		  <b=
+r /><hr />30 days of prizes: Hotmail makes your day easier! <a href=3D'http=
+://go.microsoft.com/?linkid=3D9729704' target=3D'_new'>Enter now</a></body>
+</html>=
+
+--_bffb7a8a-3c43-402b-94cd-86e651f1cb6c_--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BAY148-w13A1649A6152B4DAD2DA80EFFD0@phx.gbl
+
+

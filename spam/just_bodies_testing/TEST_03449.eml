@@ -1,0 +1,31 @@
+Re: Unable to connect to my home wirelessFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun,23.May.10, 14:53:04, Celejar wrote:
+=20
+> > Both are excelent examples :) But even if you disagree with the=20
+> > maintainer, in the end Debian is a do-ocracy.  That is, the one who doe=
+s=20
+> > the job usually gets to decide how it's done ;)
+>=20
+> Of course.  I was just suggesting that a more precise and consistent
+> definition of 'recommends' would be helpful.
+
+IMHO, I doubt it would help. There will always be cases where it is very=20
+difficult to draw the line between Depends: vs Recommends: (see the not=20
+very long ago flames about making xorg depend on hal) and also=20
+Recommends: vs Suggests:
+
+An interesting proposal a while ago was to be able to add some more=20
+information to Suggests:, something like:
+
+Package: acpi-support
+Suggests: radeontool (backlight control for ATI Radeon based laptops)
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

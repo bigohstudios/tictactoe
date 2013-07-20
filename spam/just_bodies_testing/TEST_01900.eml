@@ -1,0 +1,33 @@
+Re: Re: Xcode 3.2 fails to highlight errors in Java sourceThe current version of Xcode (version 3.2.2) addresses this issue of displa=
+ying Java errors in the source code. The workaround that I had posted is no=
+ longer necessary.
+-tom
+
+
+Hi Michael and Greg,
+
+Following Greg's good advice, I have generated an awk script that eliminate=
+s the need to have a separate file such as the sed script. The entire scrip=
+t is self contained in the xant script. I have pasted the lines below which=
+ includes documentation on the script.
+
+Also, this script is more accurate than the sed script since it tests that =
+the line number is preceded by a java source path.
+
+This is just a workaround for a bug. I really hope Apple fixes this bug!
+
+Thanks to Michael for raising this issue and to Greg for his good advice an=
+d patch to my previous script.
+
+thanks,
+tom
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

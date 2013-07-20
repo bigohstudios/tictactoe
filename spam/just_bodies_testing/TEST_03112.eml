@@ -1,0 +1,44 @@
+Re: Making make-kpkg quieterOn 08.04.2010 12:12, Cameron Hutchison wrote:
+> Mart Frauenlob <mart.frauenlob@chello.at> writes:
+> 
+>> On 08.04.2010 01:59, Cameron Hutchison wrote:
+>>> Is there any way to make make-kpkg (kernel-package 12.033) quieter? When
+>>> I run a "make-kpkg clean" it spits out lots of lines about unlinking
+>>> files in debian/... On a slow link, this is very annoying (if I forget
+>>> to run screen)
+>>>
+
+>> ok, there's no parameter available, but how about:
+>> make-kpkg clean 1>/dev/null
+> 
+>> Does one really need an option for that?
+> 
+> The problem is when I build a new kernel, make-kpkg starts with a clean,
+> followed by the build. I definately want to see the output of the build.
+
+You were only talking about running 'make-kpkg clean'.
+
+Does v.12.033 always run a 'clean' first? Mine with lenny v.11.015 does
+not. If not, I suggest: make-kpkg clean &>/dev/null && make-kpkg
+--your-build-options
+You want to see the output of the build, but the clean process is too
+much? The build output will be multiple times greater anyways. This is
+not a problem over the slow link?
+> 
+> It just seemed like needless verbosity (debug output really) that I
+> figured there might be a way to turn it off. 
+> 
+> 
+Yep, we figure - thus try to work-around ...
+
+Best regards
+
+Mart
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBDD017.7080007@chello.at
+
+

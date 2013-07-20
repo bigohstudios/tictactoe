@@ -1,0 +1,46 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected! Why?From nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Stefan's suggestion is interesting, but I know pretty much nothing about
+the Law: I am doing (CS) engineering studies!
+
+Monique Y. Mudama wrote:
+> On Wed, Apr 21 at 15:04, Stefan Monnier penned:
+>  =20
+>
+> Except that most technical people would probably rather hammer a nail
+> through their forehead than go through the pain of suing someone and
+> dealing with the legal system, the paper work, the time involved ...
+>  =20
+And the financial (and social) cost of such paper work and investigations=
+=2E
+> So looking for a technical solution, even one that requires an
+> enormous amount of development time, makes sense.  Maybe the
+> development time is actually a bonus, if you're interested in that
+> sort of tinkering already.
+>  =20
+True.
+> All of that being said - this entire thread is really a question of
+> security, and security is a process and an approach, not an end result.=
+
+> There is no such thing as a 100% secure system that is also useful, in
+> the same way that there is no such thing as a 100% secure PDF that is
+> also useful.  So the real goal is to make the document "secure enough"
+> for one's purposes, while also making the document "usable enough" for
+> those purposes.  I think there have been a lot of good ideas on this
+> thread for managing that trade-off.
+>  =20
+Yes. Your relevant remark should conclude the thread.
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Procrastination is the thief of time.
+

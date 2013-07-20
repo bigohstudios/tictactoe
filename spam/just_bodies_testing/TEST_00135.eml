@@ -1,0 +1,49 @@
+Re: Reportbug-ng Cannot Retrieve InfoOn Wed, 14 Apr 2010 16:37:55 +0300
+David Baron <d_baron@012.net.il> wrote:
+
+> On my Debian Sid box, get:
+> Traceback (most recent call last):
+>   File "/usr/share/reportbug-ng/rnggui.py", line 205, in 
+> lineedit_return_pressed
+>     buglist = bts.get_bugs(query)
+>   File "/usr/lib/pymodules/python2.5/debianbts.py", line 184, in get_bugs
+>     reply = server.get_bugs(*key_value)
+>   File "/usr/lib/pymodules/python2.5/SOAPpy/Client.py", line 470, in __call__
+>     return self.__r_call(*args, **kw)
+>   File "/usr/lib/pymodules/python2.5/SOAPpy/Client.py", line 492, in __r_call
+>     self.__hd, self.__ma)
+>   File "/usr/lib/pymodules/python2.5/SOAPpy/Client.py", line 363, in __call
+>     config = self.config)
+>   File "/usr/lib/pymodules/python2.5/SOAPpy/Client.py", line 187, in call
+>     r.endheaders()
+>   File "/usr/lib/python2.5/httplib.py", line 860, in endheaders
+>     self._send_output()
+>   File "/usr/lib/python2.5/httplib.py", line 732, in _send_output
+>     self.send(msg)
+>   File "/usr/lib/python2.5/httplib.py", line 699, in send
+>     self.connect()
+>   File "/usr/lib/python2.5/httplib.py", line 683, in connect
+>     raise socket.error, msg
+> socket.error: (111, 'Connection refused')
+> 
+> and cannot retrieve any information with this program. Problem began yesterday 
+> but I know of know upgrades effecting this.
+
+What do you get with regular reportbug?  It looks like there may be
+some sort of connection problem on your system.  In any event, I'd file
+a bug, since the program really ought to inform the user of the problem
+and terminate gracefully, rather than dump an ugly Python trackback.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414101114.7d7993ec.celejar@csmining.org
+
+

@@ -1,0 +1,67 @@
+NIS: /etc/nsswitch seems (a bit) ignored from /usr/bin/passwdFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+hi,
+
+I have a real strange problem. We have a NIS system with Debian Lenny
+clients and LDAP as second system, but LDAP is not the problem here. I
+want, that the user have to use the passwd command (cause of cracklib
+support via pam). Here some facts on one client:
+
+/etc/nsswitch.conf
+
+passwd: file nis
+shadow: files
+group: files nis
+
+/etc/passwd
+
+[...]
+testck:x:6290:4000:test test:/home/testck:/bin/bash
++:::::::::
+[...]
+
+Shadow passes are disabled.
+
+/etc/pam.d/common-password
+
+password   required  pam_unix.so nullok md5 nis debug
+
+I can do:
+
+getent passwd | grep testck
+
+testck:x:6290:4000:test test:/home/testck:/bin/bash
+testck:[md5 hash]:6290:4000:test test:/home/testck:/bin/bash
+
+You see, user testck is listed twice. One of /etc/passwd, one from
+another location, nis.
+
+So, the main problem is, if the user wants to change the password,
+passwd breaks immediately, after asking the Old Password, however, NIS
+isn't involved ...=20
+
+If I remove the testck from the local /etc/passwd, getent list only the
+nis one (cool), but, "su - testck" doesn't work anymore. the user is
+unknown.
+
+I' don't know, why the users are listed in the local /etc/passwd file,
+I'm new to the system, but it looks a bit strange to me.
+
+( i tested everything without reboot)
+
+So, the main problem is, that passwd breaks cause of the missing
+password in /etc/passwd and passwd doesn't look in the the NIS map,
+where the password resides.
+
+any suggestions?
+
+cu denny
+
+
+
+
+
+
+

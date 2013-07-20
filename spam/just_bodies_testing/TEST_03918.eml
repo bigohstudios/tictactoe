@@ -1,0 +1,52 @@
+Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are liveMike, there is apparently this neat little device.  Its new:
+
+http://www.wacom.com/bamboo/bamboo_pen_touch.php
+
+C
+
+
+On May 20, 2010, at 12:34 PM, Mike Swingler wrote:
+
+> On May 20, 2010, at 11:34 AM, Bill Janssen wrote:
+>=20
+>> Mike Swingler <swingler@apple.com> wrote:
+>>=20
+>>> On May 20, 2010, at 9:23 AM, Bill Janssen wrote:
+>>>=20
+>>>> So, do I need to connect a tablet to my Mac and enable Inkwell, to =
+try
+>>>> out the new gesture methods in EAWT?  Anyone tried this yet?  Can I
+>>>> finally get rid of JPen?
+>>>=20
+>>> You need a Mac with a trackpad that supports the native Cocoa scale,
+>>> rotate, and swipe events
+>>=20
+>> If I pull my Wacom tablet out of storage and attach it to my Mac Pro,
+>> will that do it?  Or is this only useful for MacBooks?
+>=20
+> I am not aware of any Wacom tablet which generates multi-touch gesture =
+events.
+>=20
+> Regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/java-dev/chris_j_collins%40yahoo.co=
+m
+>=20
+> This email sent to chris_j_collins@yahoo.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

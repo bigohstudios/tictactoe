@@ -1,0 +1,37 @@
+Re: [SAtalk] O.T. Habeus -- Why?
+    DanQ> I think it would make more sense to start Habeas with a less
+    DanQ> aggressive score (one which will not give spammers a quick path
+    DanQ> into everyone's inbox) and after we've seen evidence that the
+    DanQ> system works, then we can increase the magnitude of the score.
+
+Better yet, let the GA figure out the correct score. ;-) That will obviously
+take awhile since you'll have to acquire enough messages with it, but it
+should give you a good idea if the presence of Habeus headers are good spam
+indicators or not.  If they are, my guess is that Habeus will probably not
+succeed.
+
+Taking things further off-topic: Does Habeus charge a license fee to
+organizations who want to use their copyrighted material or is their sole
+revenue stream to come from legal judgements?  On the one hand, if they
+charge license fees, I'd worry that when times got tough they'd be somewhat
+less critical of organizations we'd call spammers today in order to generate
+license fees.  If not, I'd worry the pendulum would swing the other way and
+they'd go after legitimate businesses in an attempt to generate more
+revenues from judgements and/or out of court settlements.  Either way, it
+seems like they have an interesting tightrope to walk.
+
+-- 
+Skip Montanaro
+skip@pobox.com
+consulting: http://manatee.mojam.com/~skip/resume.html
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

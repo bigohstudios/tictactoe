@@ -1,0 +1,20 @@
+Turning on/off webcam IR ledsHello all!
+
+I'm planing to buy a webcam with infrared LEDs. I wonder if turning
+on/off IR leds can be controlled on debian? Which webcams are
+supported to do that?
+
+I'm looking forward to buy Genius iSlim 321R (details:
+http://www.genius-europe.com/en/produktdetail.php?ID2=82&ID=31&ID3=490
+), but I will be glad if somebody recommend me another similar model
+with IR leds which is known to work on linux.
+
+(if it matter, I use debian testing release)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/q2pd779a5f41004221358z76df5702h63721416920ce611@mail.csmining.org
+
+

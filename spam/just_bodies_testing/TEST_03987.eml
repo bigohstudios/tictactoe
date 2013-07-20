@@ -1,0 +1,17 @@
+Re: [SAdev] SpamAssassin v2.40 released (finally)!From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, Sep 02, 2002 at 06:53:24PM +0100, Justin Mason wrote:
+>   - Razor v2 now supported fully
+
+<grrr>  Who changed my code?    Dns.pm and Reporter.pm WRT Razor
+have pointers to $Mail::SpamAssassin::DEBUG, whereas it should be
+$Mail::SpamAssassin::DEBUG->{enabled}...
+
+I'll be submitting a bug/patch for this shortly.
+
+--=20
+Randomly Generated Tagline:
+MA Driving #2: Everything is under construction.

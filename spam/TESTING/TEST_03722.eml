@@ -1,0 +1,152 @@
+X-Account-Key: account5
+X-UIDL: GmailId128886cca7408193
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs81871wfb;
+        Tue, 11 May 2010 10:32:31 -0700 (PDT)
+Received: by 10.223.16.84 with SMTP id n20mr6656813faa.94.1273599150680;
+        Tue, 11 May 2010 10:32:30 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z14si11864286fah.69.2010.05.11.10.32.30;
+        Tue, 11 May 2010 10:32:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 92D302D0DCC; Tue, 11 May 2010 17:32:23 +0000 (UTC)
+Old-Return-Path: <aaron.toponce@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 944E313A5949
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 17:32:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id xRKTN+xx7QB1 for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 17:32:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-pw0-f47.google.com (mail-pw0-f47.google.com [209.85.160.47])
+	by liszt.debian.org (Postfix) with ESMTP id A95E313A5947
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 17:32:09 +0000 (UTC)
+Received: by pwj5 with SMTP id 5so2181487pwj.6
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 10:32:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:references:in-reply-to
+         :x-enigmail-version:content-type;
+        bh=0XcDJQ4AmyFsRnlrxfin0sURkGwDFt+KIEu1iUTyYyc=;
+        b=egoy7Q6uPFnIO9QhBfuR/LKMB6D3yb7AS5SAd1RbTnSYPAmwb2cnRXsaKBb+wPb6lA
+         Vdq4ZaObS1MD3vnN2r9aelCnxRNCOzFuKRhF1UxmybEs918t9nlj/IgjAeY9n4vi0HSY
+         TdWtDFFPQ/MOgf6bRsQRcmwVGPQEewSkCX+aI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:x-enigmail-version:content-type;
+        b=esxYHLvptE4Bx5PVpIP9ghDGX6IY+LN2ze6+Yo2lntt4e/egWf1qcBZ3ZDRLDBTxWX
+         /E1Y27fM+ZFZKP9NJK8fY5Zii20Esd/GCGCyc/u6qdI7wqaiaFwpy5p62Z1Fpj/BxQs6
+         4yUK3WDYnEMoLXTAnVBbwMpr99Cl8ynUN3ukQ=
+Received: by 10.142.119.33 with SMTP id r33mr4032377wfc.213.1273599121834;
+        Tue, 11 May 2010 10:32:01 -0700 (PDT)
+Received: from [0.0.0.0] (c-24-10-200-153.hsd1.ut.comcast.net [24.10.200.153])
+        by mx.google.com with ESMTPS id y27sm895690wfi.17.2010.05.11.10.31.58
+        (version=SSLv3 cipher=RC4-MD5);
+        Tue, 11 May 2010 10:32:00 -0700 (PDT)
+Message-ID: <4BE99488.9040905@csmining.org>
+Date: Tue, 11 May 2010 11:31:52 -0600
+From: Aaron Toponce <aaron.toponce@csmining.org>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.9) Gecko/20100317 Lightning/1.0b1 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: 64 bit-flash failing sites
+References: <COL122-W552C2CBA6682ADBE143AB487FA0@phx.gbl>	<AANLkTil3IyBhKeJ2xkvAooM-q9w_LCP_0phW8zY2xm8L@mail.csmining.org>	<pan.2010.05.11.14.02.19@csmining.org>	<AANLkTin9u3Dmww3x0eT8I9cRPFwP-hP7lefE9LtopTLj@mail.csmining.org> <pan.2010.05.11.15.05.28@csmining.org> <4BE97CD2.1010703@csmining.org> <4A09477D575C2C4B86497161427DD94C14A6C83675@city-exchange07>
+In-Reply-To: <4A09477D575C2C4B86497161427DD94C14A6C83675@city-exchange07>
+X-Enigmail-Version: 1.0.1
+Content-Type: multipart/signed; micalg=pgp-sha512;
+ protocol="application/pgp-signature";
+ boundary="------------enig4F809EE135125D83EF46E2DB"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <iqBdY4G5zYH.A.GdD.nSZ6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576538
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 17:32:23 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig4F809EE135125D83EF46E2DB
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 5/11/2010 10:19 AM, James Zuelow wrote:
+> Huh.  I'm jealous.  I've been running 64 bit Lenny and Squeeze for the =
+past three years or so.  When I moved to the 64 bit flash plugin, it woul=
+d crash Iceweasel on a regular basis.  No watching videos required -- jus=
+t a flash advertisement on a page.  I could restart Iceweasel and go back=
+, maybe get a different flash advertisement from the rotation which would=
+n't crash Iceweasel and read the page.  I'd say 5% of pages would crash I=
+ceweasel.
+>=20
+> But it got to the point where I just moved the plugin out of the way, a=
+nd live without flash for Iceweasel on amd64.  I move it back when my dau=
+ghter wants to hang out at Club Penguin, which plays nice with my browser=
+=2E
+
+Interesting. I've had the browser crash, but not upon loading any and
+every flash site with the 64-bit plugin. I am running Chromium dev as
+well as Sid, but other than that, I couldn't tell you. Flash does crash
+my browser (actually, I've had Chromium itself reboot my system), but it
+has been no more frequent or infrequent that when I was using the 32-bit
+plugin.
+
+--=20
+=2E O .   O . O   . . O   O . .   . O .
+=2E . O   . O O   O . O   . O O   . . O
+O O O   . O .   . O O   O O .   O O O
+
+
+--------------enig4F809EE135125D83EF46E2DB
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iQEcBAEBCgAGBQJL6ZSMAAoJEM55Ebf8BAiPDyEIAI1PtB9aKc/L/DyuOksV1a+R
+zLGQQtfLiepwbdwwBJeuJ2LLoNnFXjVoBVYIXzqOUjDmdb6wRpeAKQvA3U7Eqej7
+saP9CNLDbl9WY43Mjdmz1HE9f5xoP+L0MxDH4GHoHGA672Dvu9gTggnapk9ak6gr
+bc5C6VWq0QPlgTMRUG8yBmsD9TiSnOw7Ra6R64HEFzkmqqlLbs1miWBdbE4RS26L
+zcZHZeMv69v48qc8mEthSnWS/iUH4YIbvKGD5KAwFGecPGnIwL8C8QP38KY6PpCA
+chiNmtgrfRnQalY/jfMWN8xIJEI7S0nYWtNCaB7w4qK8P88gCGNmQDO27bnz+90=
+=VQET
+-----END PGP SIGNATURE-----
+
+--------------enig4F809EE135125D83EF46E2DB--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE99488.9040905@csmining.org
+
+

@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287be0e265ebde0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs539338wfb;
+        Sun, 9 May 2010 00:04:16 -0700 (PDT)
+Received: by 10.223.63.76 with SMTP id a12mr2477249fai.10.1273388655275;
+        Sun, 09 May 2010 00:04:15 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z13si5605048fah.24.2010.05.09.00.04.14;
+        Sun, 09 May 2010 00:04:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 19CAF13A5855; Sun,  9 May 2010 07:04:07 +0000 (UTC)
+Old-Return-Path: <celejar@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 249F413A5845
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 07:04:01 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id h34aouwR9tIn for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 07:03:54 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-vw0-f47.google.com (mail-vw0-f47.google.com [209.85.212.47])
+	by liszt.debian.org (Postfix) with ESMTP id DDEAE13A5077
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 07:03:53 +0000 (UTC)
+Received: by vws17 with SMTP id 17so534986vws.6
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 00:03:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:in-reply-to:references:x-mailer:mime-version
+         :content-type:content-transfer-encoding;
+        bh=GXR/bOxNzrvQiBCTWX2Wj1iLpTAEapSdUIx1NZH0PRU=;
+        b=gCjjyFaWwivYaB0EmJGQMIdaaijsPmwkCHERgP1HxF++s/271JDazNDNpNB17UGIyM
+         5AjBbVuPsvm1xpz4KC0hUng9h2vRCayRqpnXiJKEUemsCFtEMVweR59a5fC6gkaz550w
+         R7Bcaz4IsMSr856eQpvu1Eid+6lC+46f/F4v8=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:in-reply-to:references:x-mailer
+         :mime-version:content-type:content-transfer-encoding;
+        b=ol2o/wmqmsbVyJ/wfGzaCsxeW2KvxQ1Z0hITKZTOJ9InBT2b2X8ey/ZLiY1+VrOWMR
+         /qMs1AEJhm7+Qph3g1kEkmvV0Py+8vOmUH1hoHihCva5vyMcz89OkY6gq3GhIXTu21l2
+         pj49zFplxVnCaAQn7w8ttJtENcAhfSzKME+aQ=
+Received: by 10.220.122.24 with SMTP id j24mr1913895vcr.17.1273388625511;
+        Sun, 09 May 2010 00:03:45 -0700 (PDT)
+Received: from localhost.localdomain (ool-43524048.dyn.optonline.net [67.82.64.72])
+        by mx.google.com with ESMTPS id v12sm29722881vch.9.2010.05.09.00.03.43
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 09 May 2010 00:03:44 -0700 (PDT)
+Date: Sun, 9 May 2010 03:03:42 -0400
+From: Celejar <celejar@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: bandwidth measurement by process
+Message-Id: <20100509030342.8f65db26.celejar@csmining.org>
+In-Reply-To: <AANLkTiktpUjLW3jAV8ZHak6np-sgbi7fW8ak9u9rHoZy@mail.csmining.org>
+References: <20100509020815.653242ea.celejar@csmining.org>
+	<AANLkTiktpUjLW3jAV8ZHak6np-sgbi7fW8ak9u9rHoZy@mail.csmining.org>
+X-Mailer: Sylpheed 3.0.2 (GTK+ 2.20.0; i486-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <pgJoGQHuplP.A.LfH.n5l5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576258
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 07:04:07 +0000 (UTC)
+
+On Sun, 9 May 2010 12:15:49 +0530
+Anand Sivaram <aspnair@csmining.org> wrote:
+
+> On Sun, May 9, 2010 at 11:38, Celejar <celejar@csmining.org> wrote:
+> 
+> > Hi,
+> >
+> > I'm looking for a tool that will measure bandwidth used by a specific
+> > process. I'd like some sort of utility or wrapper that will answer
+> > questions like "How much data did my network backup job push over the
+> > wire?"
+
+...
+
+>  nethogs is unique in that manner, as per their website itself.
+> http://nethogs.sourceforge.net/
+> see section "Links" in their website
+> 
+> Most of the other tools give rate per tcp/udp sessions based on port numbers
+> and remote address information.
+> So you may not find any other program to take care of this.  I think it is
+> doable with a few hundred lines of code.
+> This is what is required to be done.
+> * /proc/<pid>/fd look for the socket inode numbers
+> * correlate those inode numbers in /proc/net/tcp and /proc/net/udp to find
+> the
+>    source and destination ip and port details
+> * use libpcap to open the interface and capture the packet, from this you
+> could get the packet length, rate etc of each tcp, udp session
+> Combining the above, it is possible to get what you need.
+
+Yeah, that's pretty much what I thought.  Well, I think that I'm going
+to code something like this, unless someone else will point out that
+it's already been done.
+
+I'm actually surprised that such a tool doesn't exist.  Isn't this
+something quite useful?  Aren't the sorts of questions that I want
+answered pretty universal and important?
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100509030342.8f65db26.celejar@csmining.org
+
+

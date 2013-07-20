@@ -1,0 +1,37 @@
+[SACVS] CVS: spamassassin/masses parse-rules-for-masses,1.1.2.2,1.1.2.3Update of /cvsroot/spamassassin/spamassassin/masses
+In directory usw-pr-cvs1:/tmp/cvs-serv24879
+
+Modified Files:
+      Tag: b2_4_0
+	parse-rules-for-masses 
+Log Message:
+fix for bug 784
+
+Index: parse-rules-for-masses
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/masses/parse-rules-for-masses,v
+retrieving revision 1.1.2.2
+retrieving revision 1.1.2.3
+diff -b -w -u -d -r1.1.2.2 -r1.1.2.3
+--- parse-rules-for-masses	28 Aug 2002 13:49:51 -0000	1.1.2.2
++++ parse-rules-for-masses	28 Aug 2002 22:08:35 -0000	1.1.2.3
+@@ -28,6 +28,7 @@
+ 
+ if (!defined $outputfile) {
+   $outputfile = "./tmp/rules.pl";
++  mkdir ("tmp", 0755);
+ }
+ 
+ my $rules = { };
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

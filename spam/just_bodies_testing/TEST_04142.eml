@@ -1,0 +1,46 @@
+Re: [Razor-users] What's wrong with the Razor servers now?On Fri, Aug 09, 2002 at 10:05:29AM +1000,
+Adam Goryachev <mailinglists@websitemanagers.com.au> is thought to have said:
+
+> > Now I get some opt-in mail which looks to me like
+> > spam.  I hit "this is spam".  My trust rating plummets --
+> 
+> Good! Your opinion of what is spam is unreliable, and therefore, I don't
+> *want* to trust you. IMHO, that is exactly the case that the trust system is
+> supposed to sort out. People who incorrectly submit non-spam bulk mail to
+> razor.
+
+Let's take a look at an example here. Someone on this list signed
+razor-users@fsckit.net up to a ZDNet mailing list that doesn't confirm
+subscriptions in a piss-poor attempt to mailbomb me. I report all of these
+mailings to Razor because, guess what, for me this is spam. This and a
+hundred more traditional spam emails to automated spamtrap addresses get 
+reported by me daily. I probably have a decent TES value because of all of
+this.
+
+Now lets say someone else who is also reporting a fair amount of your
+typical proxy/relayed spam has been reporting these and has built up a
+decent TES rating because of it. However they subscribed to that same ZDNet
+list and enjoy getting the mail from it except that they don't like seeing 
+it tagged as spam by Razor. So they razor-revoke it. 
+
+Who loses in this case? Why? Neither party is inaccurate in their actions
+IMO. But someone's standing is going to get hurt because of it.
+
+Tabor
+
+-- 
+--------------------------------------------------------------------
+Tabor J. Wells                                razor-users@fsckit.net
+Fsck It!                 Just another victim of the ambient morality
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

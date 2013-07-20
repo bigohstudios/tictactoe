@@ -1,0 +1,56 @@
+Re: [Razor-users] Problem with Razor 2.14 and Spamassassin 2.41From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+
+I found a nice little Perl script for this purpose called rotate, which 
+makes the process of rotating log files very simple.  If there's an 
+official source for this script, I couldn't find it.  (My hosting 
+provider, pair.com, has it installed, and that's where I found it.) 
+ However, redistribution appears to be allowed, so I've attached it.
+
+Good luck...
+
+L
+
+David Rees wrote:
+
+>On Thu, Sep 05, 2002 at 08:53:16PM -0400, Theo Van Dinter wrote:
+>  
+>
+>>On Thu, Sep 05, 2002 at 06:16:57PM -0500, Mike Burger wrote:
+>>    
+>>
+>>>You might be better asking this on the spamassassin-talk list.  The folks 
+>>>there will almost definitely have an answer for this.
+>>>      
+>>>
+>>I posted a fairly lengthy complete answer to this problem and how to
+>>get around it in SA 2.41 on the spamassassin-talk list. :)
+>>    
+>>
+>
+>Thanks for the post there, it answered all my questions about
+>spamassassin/razor interaction.
+>
+>Now for a razor question:
+>
+>I'm worried about having a server full of razor-agent.log files which keep
+>on growing.  Is it possible to configure razor log via SYSLOG to make it
+>easy to rotate logs?  Searching through the man pages didn't turn anything
+>up...  Otherwise I'll have to write a script to go through each user's home
+>directory looking for razor-agent.log files to rotate periodically.
+>
+>Thanks,
+>Dave
+>
+>
+>-------------------------------------------------------
+>This sf.net email is sponsored by: OSDN - Tired of that same old
+>cell phone?  Get a new here for FREE!
+>https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+>_______________________________________________
+>Razor-users mailing list
+>Razor-users@lists.sourceforge.net
+>https://lists.sourceforge.net/lists/listinfo/razor-users
+>  
+>

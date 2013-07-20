@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281627e06080103
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs23645wfj;
+        Mon, 19 Apr 2010 06:00:32 -0700 (PDT)
+Received: by 10.141.14.3 with SMTP id r3mr3983164rvi.28.1271682031899;
+        Mon, 19 Apr 2010 06:00:31 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 12si14084528iwn.9.2010.04.19.06.00.31;
+        Mon, 19 Apr 2010 06:00:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 733E31BE1C36E
+	for <mlsubscriber.tech@csmining.org>; Mon, 19 Apr 2010 06:00:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6B41D26EEB004
+	for <mlsubscriber.tech@csmining.org>; Mon, 19 Apr 2010 06:00:31 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id B339126EEADC0
+	for <quicktime-api@lists.apple.com>;
+	Mon, 19 Apr 2010 06:00:12 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id A325ACC6FD41
+	for <quicktime-api@lists.apple.com>;
+	Mon, 19 Apr 2010 06:00:12 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-4a-4bcc53dcbc67
+Received: from mail-pz0-f187.google.com (mail-pz0-f187.google.com
+	[209.85.222.187])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	89.F0.26228.CD35CCB4; Mon, 19 Apr 2010 06:00:12 -0700 (PDT)
+Received: by pzk17 with SMTP id 17so3019686pzk.5
+	for <quicktime-api@lists.apple.com>;
+	Mon, 19 Apr 2010 06:00:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:date:received:message-id
+	:subject:from:to:content-type;
+	bh=d4cEypF7v6BJZqhi+1rbAoaUPN1TLJXr0/BcVyuUy/k=;
+	b=n42L96/MjCW0YjVmYOAUTZscI4P2pP8jsrcXCEZLwtgFjeOLkEVaNYZXqjlG5FixcK
+	Fb2rpJX0k2WBT+Ok0aOtY+HI8CqzRlRXvjGni5RAFu5ywKluMcMtywi2xq93zhDc3y0B
+	AmzrNoZKwtVo/sM/kH+iEo6FOgDOQPgDhUFzE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=MkCIzREdegQxgsmejdQVgWCDzmW1tzp8mHW/6yTB/H5IXkpmA2rB97zytdDAqMSTCs
+	/QIbBpsSsMnwMWD1+DqM2haZ48ASBPZCoKN9ZlLfXyrJY+23VvBMPbgmP4USpe71acWN
+	KOSK7hdZKYK+0olA76ED1ojOZxBhED15v8r3Q=
+MIME-Version: 1.0
+Received: by 10.140.252.1 with HTTP; Mon, 19 Apr 2010 06:00:11 -0700 (PDT)
+Date: Mon, 19 Apr 2010 18:30:11 +0530
+Received: by 10.141.214.32 with SMTP id r32mr1267189rvq.27.1271682011811; Mon, 
+	19 Apr 2010 06:00:11 -0700 (PDT)
+Message-ID: <z2xc4870d881004190600x3e099125y613de1dee6223ed9@mail.csmining.org>
+From: aruna nagaraj <nagaraj.aruna@csmining.org>
+To: quicktime-api@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAABBO1VpgTtWEZE7YdlBO2WEw=
+Subject: ICMDecompressionSessionDecodeFrame - decoding packets arriving out
+	of order
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I am stuck up with the issue mentioned below.please help me to sort this out.
+
+OSStatus ICMDecompressionSessionDecodeFrame (
+ICMDecompressionSessionRef session,
+const UInt8 *data,
+ByteCount dataSize,
+ICMDecompressionFrameOptionsRef frameOptions,
+const ICMFrameTimeRecord *frameTime,
+void *sourceFrameRefCon
+);
+
+This API is invoked as
+
+OSStatus ICMDecompressionSessionDecodeFrame (
+ICMDecompressionSessionRef session,
+const UInt8 *data,
+ByteCount dataSize,
+NULL,
+NULL,
+void *sourceFrameRefCon
+);
+
+sometimes the  decoder is not capturing error for packets arriving out
+of order therby giving grey,green images at display.For packets
+arriving in order the decoding is fine.Is there anything to be done to
+get the video right for packets arriving out of order.
+
+
+1) How do I populate frameOptions input to the decoder api ?WiIl using
+this help in any way to solve the above problem of green,gray video?
+
+
+2) Should the struct ICMFrameTimeRecord  be populated to overcome this
+issue?If so what are the essential fields to be filled in the struct
+ICMFrameTimeRecord.
+
+
+Thanks,
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

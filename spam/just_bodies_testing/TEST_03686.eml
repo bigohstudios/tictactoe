@@ -1,0 +1,29 @@
+Re: [ILUG] mirroring on a running systemOn Wed 14 Aug 2002 08:42, John P. Looney wrote:
+
+> It likely means that I was just lucky I put the failed-disk
+> directive after the raid-disk one :)
+
+Extremely lucky.  The other way around would have toasted your
+existing volume.
+
+
+> Anyway. It's doesn't quite boot right, with /=/dev/md0 in fstab. On
+> boot, I see:
+
+In order to autodetect soft RAID volumes at boot, you need to set the
+partition type on all the relevant raw disk partitions to 0xFD.  I'm
+not sure about the initrd stuff; as I don't use it myself.
+
+           Colm
+
+-- 
+Colm Buckley | colm@tuatha.org | +353 87 2469146 | www.colm.buckley.name
+Office closed on Mondays.  If you want anything on Monday, come on Tuesday.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

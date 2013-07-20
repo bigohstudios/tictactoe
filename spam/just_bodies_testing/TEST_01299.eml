@@ -1,0 +1,51 @@
+Re: Questions about RAID 6From nobody Sat Jul 20 14:17:29 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Sunday 02 May 2010 06:00:38 Stan Hoeppner wrote:
+> Good hardware RAID cards are really nice and give you some features you
+> can't really get with md raid such as true "just yank the drive tray out"
+> hot swap capability.  I've not tried it, but I've read that md raid doesn=
+'t
+> like it when you just yank an active drive.  Fault LED drive, audible
+> warnings, are also nice with HW RAID solutions.  The other main advantage
+>  is performance.  Decent HW RAID is almost always faster than md raid,
+>  sometimes by a factor of 5 or more depending on the disk count and RAID
+>  level. Typically good HW RAID really trounces md raid performance at
+>  levels such as 5, 6, 50, 60, basically anything requiring parity
+>  calculations.
+
+Speeds on my md-RAID devices were comparable to speeds with my Areca HW RAI=
+D=20
+controller (16-port, PCI-X/SATA, battery powered 128MB cache).  Number of=20
+drives varied from 5 to 10.  RAID levels 5 and 6 were both tested.
+
+Read throughput for both were the expected (# drives - # parity drives) *=20
+single drive throughput.  Write throughput less than expected in both cases=
+,=20
+but I can't recall the exact figures.
+
+Both support "just yank the drive out" if the (rest of) the hardware suppor=
+ts=20
+hot plugging.  Alerting about failure is probably a bit better with a HW RA=
+ID=20
+controller, since it comes with visual and audible alarms.
+
+It might be different when the system is under load, since the md-RAID depe=
+nds=20
+on the host CPU and the HW RAID does not.  However, adding an additional=20
+generic CPU (to reduce load) is both more useful and often less expensive t=
+han=20
+buying a HW RAID controller that is only used for RAID operations.
+=20
+> Sounds like you're more of a casual user who needs lots of protected disk
+> space but not necessarily absolute blazing speed.  Linux RAID should be
+>  fine.
+
+I know I am.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

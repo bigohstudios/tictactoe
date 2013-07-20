@@ -1,0 +1,43 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves as expected), but KPDF allows me to print it, even if it is protected! Why?> My reason is quite complicated, and is really justified. Briefly, one
+> person that I know needs to have some report I wrote, but this person
+> should not be able neither to print it nor to extract content from it,
+> for a simple reason: this person could transmit a part (or the whole)
+> [of the] document to a third party, and this third party should not
+> receive the report from the person who could send it to him (the third
+> party), but the third party wants the other fellow (actually not a
+> fellow to me) to receive the report.
+
+Doing it via technical means requires that you be able to formally
+define and control all the cases you want to rule out (and hopefully
+leave the remaining cases possible).
+
+Can you technically prevent him from passing the whole PDF to someone
+else?  Can you prevent her from taking a photo of her screen?
+Can you prevent her from printing his screen?  ...
+
+Once you've solved the above technical problems, you'll have to solve
+the remaining one: can she still read the document?
+
+And to make it more interesting: assuming you can't prevent all of those
+things from happening: what happens if she does one of them?
+Assuming she hasn't actively tried to workaround the DRM (e.g. she
+simply took a photo of the screen or transmitted the whole PDF
+document), her act were perfectly legal so ... what would happen?
+
+Now think about the other route: the one based on the law instead of
+technology: the legal document can simply describe what she's allowed to
+do, and that will automatically cover all imaginable ways to
+circumvent any technological means you could imagine.  And if she does
+break the contract, you can sue her.
+Don't know about you, but to me, it sounds a lot more useful.
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwv633k3a7b.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

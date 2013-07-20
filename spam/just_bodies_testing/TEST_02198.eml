@@ -1,0 +1,43 @@
+Question regarding MuttFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hello dear list,
+
+I have a question regarding encrypting and signing an email in mutt
+with an (yet) unsigned public key.
+
+A colleague of mine has a new pgp-key which is only self-signed yet. I
+downloaded it from a key-server an tried to write an encrypted email to
+him. As expected mutt warned me about using an unknown key an asked me
+explicitly to continue. After I entered my passphrase for signing gpg
+refused to encrypt the mail saying "unusable public key".
+
+Now trying to encrypt (and signing) something from command line with
+the key seemed to work, at least no error messages were reported.
+
+This is what I was expecting from mutt too, since in both cases I was
+asked explicitly to proceed (which is what I want). So I figured it
+may be some option in my mutt config which causes this difference. But
+I am using plain gpg.rc file from debians mutt package, sourced by my
+mutt config.
+Calling gpg with the same options set by gpg.rc in variable
+pgp_encrypt_sign_command also worked. The only thing I didn't
+completely reproduced is the %?a?... magic after the --sign option.
+
+Since I do not want to add an --always-trust option in my gpg.rc and
+think that encrypting to an (yet) unsigned key should be possible, I
+wonder where the problem might be.
+Maybe I just misunderstood something so any hints are welcome.=20
+
+An google search brought up some hints about key-server mangling
+subkeys may causing this error, but using another key-server didn't help.
+I had to (temporally) sign the key for encryption in mutt to work.
+
+Kind regards,
+
+Dominik Pluemacher
+
+
+PS: please CC me since I am not subscribed to this list (yet).

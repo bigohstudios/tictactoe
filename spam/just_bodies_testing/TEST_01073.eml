@@ -1,0 +1,29 @@
+Re: acroread not seeing printersFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+John A. Sullivan III wrote:
+> Hello, all.  We've installed acroread 8.1.7-0.1 from debian-multimedia.=
+
+> It is not seeing any of the printers on our cups print server.  It just=
+
+> shows the custom lpr printer.  How do we get it to see our printers lik=
+e
+> all the other applications in our KDE setup do? We are running Lenny +
+> backports.  Thanks - John
+>
+>
+>  =20
+Hi,
+
+Can you see them in your Printers folder? And in CUPS too?
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Love is like war, Easy to start, Hard to end, Impossible to forget.
+

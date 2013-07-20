@@ -1,0 +1,129 @@
+X-Account-Key: account5
+X-UIDL: GmailId12896981b2827e0a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs24283wfo;
+        Fri, 14 May 2010 04:34:32 -0700 (PDT)
+Received: by 10.223.97.149 with SMTP id l21mr1347756fan.91.1273836870605;
+        Fri, 14 May 2010 04:34:30 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n15si5599982fam.5.2010.05.14.04.34.30;
+        Fri, 14 May 2010 04:34:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E52FD13A54AE; Fri, 14 May 2010 11:34:24 +0000 (UTC)
+Old-Return-Path: <marathon.durandal@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,ONEWORD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E3DC713A5453
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 11:34:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, ONEWORD=2]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id RsGi4c860Kq0 for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 11:34:12 +0000 (UTC)
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id B528613A52BF
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 11:34:11 +0000 (UTC)
+Received: by gya1 with SMTP id 1so1080190gya.6
+        for <debian-user@lists.debian.org>; Fri, 14 May 2010 04:34:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :content-transfer-encoding:in-reply-to:user-agent;
+        bh=+nlWJcexUxRNhl52wv91yNBjIGbhA74oL+nznQicZ4k=;
+        b=DkmBxWtXm5gtTfs63YicYO6aplxAi/2C8XvnsFD/BSmV/gBDXgZZpHRufpFc9vcsq2
+         T+eLxcpnWCBZyyatR1Wra//bqPHfPKDsyfClNG71xYmIVVPQEkEMuNa02xiOv6aAwMLj
+         ajvmAJhg65TZjVeVjZ9pStM4pibA7vS67F9NQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:content-transfer-encoding
+         :in-reply-to:user-agent;
+        b=I1AAwkXFxMJCx5OEYFwJ4fydcBXCdYI4DcvBdSDDcT45VawwXHiULdu0K1azmZRjlo
+         snuA5ewnsPywepvTn++vAQGR8Fa9N3+BpPnjoHQXkn8oUtuWlgThcB61Al7RjzfwTsF6
+         QUVD3nvk+eq2vjJxB8Fac0bakCpC2aBZezCYM=
+Received: by 10.101.131.12 with SMTP id i12mr1088496ann.37.1273836844042;
+        Fri, 14 May 2010 04:34:04 -0700 (PDT)
+Received: from google.com (bas3-toronto02-1279425820.dsl.bell.ca [76.66.125.28])
+        by mx.google.com with ESMTPS id f7sm2163789anb.17.2010.05.14.04.34.01
+        (version=SSLv3 cipher=RC4-MD5);
+        Fri, 14 May 2010 04:34:02 -0700 (PDT)
+Date: Fri, 14 May 2010 07:33:49 -0400
+From: Steve Fishpaste <marathon.durandal@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: gtk-recordMyDesktop
+Message-ID: <20100514113348.GA21487@google.com>
+References: <20100513231714.GA15499@google.com>
+ <pan.2010.05.14.07.01.48@csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <pan.2010.05.14.07.01.48@csmining.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <I-g_Da8S2vC.A.CiH.AVT7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576755
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 11:34:24 +0000 (UTC)
+
+On Fri, May 14, 2010 at 07:01:48AM +0000, Camaleón uttered:
+> On Thu, 13 May 2010 19:17:14 -0400, Steve Fishpaste wrote:
+> 
+> > I have an problem while using gtk-recordMyDesktop Version: 0.3.8-3 with
+> > my desktop environment, Xfce 4.6.1. Both these applications are from an
+> > up-to-date Sid laptop.
+> > 
+> > What happens is when I go to record a session; the recordMyDesktop
+> > application disappears as it's supposed to so the screen isn't
+> > cluttered; but there isn't any icon showing the stop button when in
+> > record mode. From what I've read on various searches for this problem it
+> > seems that in other desktop environments the record button/stop button
+> > appears in the menu bar when one is recording, so when finished one can
+> > stop the recording and have the video saved.
+> 
+> Mmmm... the "record/stop" icon should fall under "notification area", 
+> inside panel. 
+> 
+> Can you add a "notification area" in XFCE? :-?
+
+Hi, Yup I added a second one; just in case the first one not working
+was an anomaly and it still doesn't show up in what Xfce calls a tray.
+
+I used the 'recordMyDesktop' back end from my term and it ran
+successfully and converted the video when finished. The picture was
+screwed up; but that's a different problem. So it appears to be a
+problem only with the gtk front end, and possibly only with Xfce ...
+Not sure yet.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514113348.GA21487@google.com
+
+

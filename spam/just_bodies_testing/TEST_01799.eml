@@ -1,0 +1,36 @@
+RE: [ILUG] Redhat 8.0I just saw the ISOs on an internal server here and was tempted....
+
+	D.
+
+-----Original Message-----
+From: John P. Looney [mailto:valen@tuatha.org] 
+Sent: Monday, September 02, 2002 3:45 PM
+To: HAMILTON,DAVID (HP-Ireland,ex2)
+Cc: 'ilug@linux.ie'
+Subject: Re: [ILUG] Redhat 8.0
+
+
+On Mon, Sep 02, 2002 at 03:22:54PM +0100, HAMILTON,DAVID (HP-Ireland,ex2)
+mentioned:
+> Does anyone know when Redhat 8.0 is going to be released?
+> I have seen some ISO images of it around and I am trying to work out 
+> if it's near release.
+
+ Null, the third beta was out last week.
+
+ It'll be an interesting release. Gnome 2.0, and GCC 3.2 - both very new,
+large projects.
+
+ I'd not be putting it on any production machines for a while...
+
+ Though many say "RedHat X.0 releases are rubbish" - it's worth baring in
+mind that they jump a release when the underlying archtechture changes, not
+just the installer, so they are .0 for a reason.
+
+Kate
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

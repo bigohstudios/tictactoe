@@ -1,0 +1,59 @@
+Re: The risks of client systems writing to server registryOn 5 Sep 2002, Richard Bartlett wrote:
+
+Richard,
+
+> I have a customer who is developing some printer driver code to allow 
+> custom driver settings (n-up, booklet, duplex etc.) to be saved up to the 
+> server to be retrieved by other users.   The data is being written, by a 
+> printer driver (using the logged on users authentication, to a registry 
+> key) HKLM\SYSTEM\CurrentControlSet\Control\Print\Environments\Windows NT 
+> x86\Drivers\Version-3\{Driver Name}\{Custom Key}\Subkey).
+
+Let me get this straight; a registry key is loaded from the server onto 
+the client workstations who can modify it, then write it back onto the 
+server's own registry - which is not going to use it?
+
+> The question is, what are the security risks of allowing users to write 
+> to this key?  The data is string data, in the form of delimited numeric 
+> values.  This data is then retrieved by capable printer drivers and 
+> interpreted.
+> 
+> The risks as I see it are twofold;
+> (1) The risks of a compromise to the server using this registry key.  I 
+> think this is unlikeley as the server itself does not use this data, only 
+> client PC's do.  Unless someone knows a way to travel out of a hive up 
+> the registry bypassing the permissions set using regedt32.
+
+What is the reason to write a registry key to a server if the server 
+itself is not using it?
+I don't think you should worry too much about someone travelling out of 
+the hive, but again, I'm curious as to how the driver actually modifies 
+the keys on the server.
+
+> (2) The risks of a compromise to the client (far more likely).  This 
+> would probably be by a malformed or extremely long string in the key 
+> value, which would presumably lead to either DOS or system compromise by 
+> buffer overflow on the client system.
+
+And if the client writes the key back onto the server, yes, there's wide 
+open for something nasty here.
+Two other things spring to mind; 
+1) If anyone can modify the key, how do you make sure that two users are 
+not overwriting the same key, thereby causing undesirable effects.
+2) If anyone have permissions to write to the key (and below), anyone can 
+create thousands of extra keys under this key, thereby filling up the 
+registry. The result of such a thing is obvious.
+
+If I got this all wrong, I'd be happy that you clarify a bit more and tell 
+me where I might have misunderstood.
+
+
+Med venlig hilsen / Best regards,
+-Allan Jensen
+
+Si hoc signum legere potes, operis boni in rebus Latinus alacribus et 
+fructuosis potiri potes!
+
+
+
+

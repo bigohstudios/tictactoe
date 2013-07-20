@@ -1,0 +1,91 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280640a316da71c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs18841wfj;
+        Fri, 16 Apr 2010 03:53:39 -0700 (PDT)
+Received: by 10.223.144.79 with SMTP id y15mr678957fau.22.1271415219110;
+        Fri, 16 Apr 2010 03:53:39 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si3378040fkr.29.2010.04.16.03.53.38;
+        Fri, 16 Apr 2010 03:53:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7F6F02D0C89; Fri, 16 Apr 2010 10:53:28 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.4 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD,RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CB9C213A5D95
+	for <lists-debian-user@liszt.debian.org>; Fri, 16 Apr 2010 10:53:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, RDNS_DYNAMIC=0.1]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id s7luUG5L9NWV for <lists-debian-user@liszt.debian.org>;
+	Fri, 16 Apr 2010 10:53:14 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id 61ECC2D0C89
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 10:52:26 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id 19ED66C310
+	for <debian-user@lists.debian.org>; Fri, 16 Apr 2010 05:52:22 -0500 (CDT)
+Message-ID: <4BC84165.60605@hardwarefreak.com>
+Date: Fri, 16 Apr 2010 05:52:21 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: STAT of  Process
+References: <4BC856B6.17625.E08635@export.hope.cz>
+In-Reply-To: <4BC856B6.17625.E08635@export.hope.cz>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <XPShPuPIv0M.A.AF.oGEyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574249
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 16 Apr 2010 10:53:28 +0000 (UTC)
+
+export@hope.cz put forth on 4/16/2010 5:23 AM:
+> I have a daemon running on my Debian ( Lenny) box.When it is  started ,
+> I check the process state ( by ps -ax command) and I can see in STAT column S 
+> letter and the daemon works as it should.After some time, the STAT is changed to 
+> R but the daemon still works OK.But after few hours the STAT is changed to D 
+> letter and the daemon does not work properly.It seems as if it is stopped 
+> running eventhough it is among the list of processes.
+> Can anyone explain that please?
+
+Which daemon?
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC84165.60605@hardwarefreak.com
+
+

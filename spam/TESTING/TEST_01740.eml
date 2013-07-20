@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fe3cc0f4f97d9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs33471wfa;
+        Wed, 14 Apr 2010 14:32:27 -0700 (PDT)
+Received: by 10.87.68.36 with SMTP id v36mr6377021fgk.43.1271280746817;
+        Wed, 14 Apr 2010 14:32:26 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si1562029fka.44.2010.04.14.14.32.26;
+        Wed, 14 Apr 2010 14:32:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 85CAE2D0CAD; Wed, 14 Apr 2010 21:32:20 +0000 (UTC)
+Old-Return-Path: <celejar@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8D4C52D0CA4
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 21:32:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id pf8hG3CwxXPS for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 21:32:07 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-qy0-f177.google.com (mail-qy0-f177.google.com [209.85.221.177])
+	by liszt.debian.org (Postfix) with ESMTP id 373D72D0CF2
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 21:32:07 +0000 (UTC)
+Received: by qyk7 with SMTP id 7so708331qyk.6
+        for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 14:32:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:in-reply-to:references:x-mailer:mime-version
+         :content-type:content-transfer-encoding;
+        bh=pnsMNoMBRzmLXs6fQOFtHmuirATOOOKqRzjqxfbmPlw=;
+        b=idReOVhR8p7VbiXSgltQuwEW2QnULbHlRvulvQZM1/mYmTNweSjTsP/kuH4X9AN/Qf
+         GGnmXf43NzQbL3/j0KI4zClU3r4P/2oneq0vEZhvvMShzDmiqzQREoKAb0C1B+wMS+//
+         9nCQNnEhy87crHz0hGhwQfbShXP/xl8Cx7s3s=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:in-reply-to:references:x-mailer
+         :mime-version:content-type:content-transfer-encoding;
+        b=u+iD1GvmldYDxxS/YBrqkSs8L+xhaDk6/rjt6Y0h0uVHFMcIWk38eOvBrqe8Bc0/Km
+         hWKxDDzoyXcynIO7G1xpUovrRHfQrYhHhdUXKmq1650fD5yX5QcFYQKwGLojx0ePdgwJ
+         x0fL26Xv6bTEVCIBTZKcx28lgUECaTk9eIAR0=
+Received: by 10.224.118.135 with SMTP id v7mr2831464qaq.187.1271280721940;
+        Wed, 14 Apr 2010 14:32:01 -0700 (PDT)
+Received: from localhost.localdomain (pool-98-116-32-214.nycmny.east.verizon.net [98.116.32.214])
+        by mx.google.com with ESMTPS id 6sm140844qwd.53.2010.04.14.14.31.58
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Wed, 14 Apr 2010 14:32:00 -0700 (PDT)
+Date: Wed, 14 Apr 2010 17:31:54 -0400
+From: Celejar <celejar@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: Alternative to dhcp?
+Message-Id: <20100414173154.43939d21.celejar@csmining.org>
+In-Reply-To: <201004141717.48733.edjabr@csmining.org>
+References: <201004141717.48733.edjabr@csmining.org>
+X-Mailer: Sylpheed 3.0.1 (GTK+ 2.20.0; i486-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LaGPyIOtq8H.A.4SC.kRjxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574095
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 21:32:20 +0000 (UTC)
+
+On Wed, 14 Apr 2010 17:17:48 -0400
+Ed Jabbour <edjabr@csmining.org> wrote:
+
+> I edited /etc/resolv.conf to add a nameserver, edited /etc/dhcp3/dhclient.conf 
+> to do the same and added the dns to wicd.  However, I keep getting the same 
+> old dns from the router, i.e., resolv.conf keeps changing to the router's 192 
+> ip.  The router does not allow editing dns.  I think this is due to using 
+> dhcp.  Is there an alternative which wouldn't cause a default to the router's 
+> dns?  Any pointers appreciated.
+
+Do 'man dhclient.conf' and look at the prepend and supersede options.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414173154.43939d21.celejar@csmining.org
+
+

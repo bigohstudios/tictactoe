@@ -1,0 +1,174 @@
+Re: Fwd: Re: Kde 3.5 ...Dotan Cohen wrote:
+
+I'm going to write a list and post it here. ATM I can not start korganizer.
+I have some time, so I would like to test 4.4. 
+Thanks for pointing me to known bugs. I really don't have the patience to
+search.
+
+> 
+> p   kteatime                                                       -
+> KDE 4 utility for making a fine cup of tea
+
+yes, I can not live without a good cup of tea :-)
+
+> 
+>> - weather
+> 
+>
+http://kde-look.org/content/show.php/yaWP+%28Yet+Another+Weather+Plasmoid%29?content=94106
+
+This was not working in 4.3 and I couldn't start it in 4.4.
+
+> 
+> 
+>> - moon
+> 
+> Check!
+
+agreed
+
+> 
+> 
+>> - clock/calendar
+> 
+> Check!
+
+agreed
+
+> 
+> 
+>> - wireless manager
+> 
+> Knetworkmanager works, but I prefer wicd, which has integration in
+> KDE's System Settings. It's in the system tray, not on the panel. You
+> can configure it to always show, though.
+
+I think I've seen this already, I'll test. thanks.
+
+> 
+> 
+>> - skype
+> 
+> Integrated into Kopete!
+> 
+> 
+>> - korganizer
+> 
+> Check!
+
+it took at least 10min to start
+
+> 
+> 
+>> - kwallet
+> 
+> Check!
+> 
+> 
+>> - cpu monitor
+> 
+> Check, but you might want to comment here:
+> https://bugs.kde.org/show_bug.cgi?id=172312
+> https://bugs.kde.org/show_bug.cgi?id=191341
+> https://bugs.kde.org/show_bug.cgi?id=191342
+> 
+
+I'll check, thanks
+
+> 
+>> - infrared control
+> 
+> How did you do this in KDE 3?
+
+with klirc and lircd and modifying the kernel key map for my cinergy xxs
+dvbt card ;-)
+
+a big challenge was to setup the kde keys ... it's not very developed, but
+the basic functionality works
+
+> 
+> 
+>> - powermanagement
+> 
+> Check!
+> 
+> 
+>> - keyboard
+> 
+> i   plasma-widget-kbstate                                          - A
+> plasma widget that shows the state of the modifier keys
+
+In kde3 the "idiots" didn't think of us poor people not using latin and
+associated per default ALT+K to switch the keymap. Now if you switch from
+english to rushian/bulgarian or whatever ALT+K gives a completely different
+keycode ... So I had to always change this.
+
+Now in kde4 it's even better. You have to click ... and no reasonable
+language switching combination is working. In this point Windows wins, as
+it's per default configured to switch languages when typing (left)ALT+SHIFT
+
+> 
+> 
+>> - screen management (xrandr interface)
+> 
+> Yes, built into System Settings.
+
+yes but not working for me and everybody running i915 vga card. this is also
+related to X-Server and the a**holes from intel. (don't judge me the
+notebook was given to me from the company I'm working for :-( )
+
+> 
+> 
+>> - krypt
+>>
+> 
+> http://kde-apps.org/content/show.php/Krypt?content=80641
+
+the question is if it is compiling in kde4? and also if it is working well
+
+> 
+> 
+>> I forgot to mention that the keyboard froze after pressing ALT+F2 and
+>> switching language settings
+>>
+> 
+> Please, please comment on this bug:
+> https://bugs.kde.org/show_bug.cgi?id=205369
+
+The problem is that it was not iresponsive for just 10secs but forever.
+
+> 
+> 
+>> A HUGE trouble I see is with the keyboard layout for my mother
+>> language "bulgarian"
+>> Who the hell have change the default keyboard layout for the phonetic
+>> setup? I've been using this for years now hen I press "W" I get seomthing
+>> different ..
+>> _THIS_ _IS_ _REALLY_ _ODD_ - _STUPID_ _MONKEYS_!
+>>
+> 
+> I don't speak Bulgarian, so I cannot reproduce. Please file a bug!
+> 
+
+I'll look to get a complete list. We'll have to discuss also the stuff we
+don't need too.
+
+this was my first impression. the conclusion is that it will stay unusable
+for quite a long time yet.
+
+your commitment is motivating me to do some testing ... may be it's time to
+have some closer look at upcoming testing debian.
+
+I'm still not that motivated as I would love to be, as I'm primary focused
+on debian stable.
+
+regards
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hscd3u$moe$1@dough.gmane.org
+
+

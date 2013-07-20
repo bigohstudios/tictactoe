@@ -1,0 +1,19 @@
+Please help a newbie compile mplayer :-)    
+ Hello,
+   
+         I just installed redhat 7.2 and I think I have everything 
+working properly.  Anyway I want to install mplayer because I heard it 
+can play quicktime movs.  I apt-get source mplayer and dl'd it to 
+/usr/src. 
+
+         I tried to just rpm --rebuild mplayer-20020106-fr1.src.rpm, 
+then I get ; mplayer-20020106-fr1.src.rpm: No such file or directory.
+
+         Any help or a link to some document would be appreciated, Thanks
+-rob
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

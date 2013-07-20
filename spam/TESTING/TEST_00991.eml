@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b731d8802697a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs26324wfo;
+        Thu, 20 May 2010 12:30:17 -0700 (PDT)
+Received: by 10.141.108.9 with SMTP id k9mr397390rvm.59.1274383817126;
+        Thu, 20 May 2010 12:30:17 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id b2si337107rvn.150.2010.05.20.12.30.16;
+        Thu, 20 May 2010 12:30:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id D3D081C2991D6
+	for <mlsubscriber.tech@csmining.org>; Thu, 20 May 2010 12:30:16 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id CF37127CD51D5
+	for <mlsubscriber.tech@csmining.org>; Thu, 20 May 2010 12:30:16 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 33B3627CD453C
+	for <objc-language@lists.apple.com>;
+	Thu, 20 May 2010 12:28:24 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 232D5D5E3DBD
+	for <objc-language@lists.apple.com>;
+	Thu, 20 May 2010 12:28:24 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c82ae00000112c-d9-4bf58d5702cc
+Received: from mail.rogue-research.com (PTR [76.65.240.2])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	66.76.04396.75D85FB4; Thu, 20 May 2010 12:28:24 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.rogue-research.com (Postfix) with ESMTP id D045B3DA512;
+	Thu, 20 May 2010 15:28:22 -0400 (EDT)
+X-Virus-Scanned: amavisd-new at rogue-research.com
+Received: from mail.rogue-research.com ([127.0.0.1])
+	by localhost (kingu.rogue-research.com [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with ESMTP id 6dFfoqxXgGOE; Thu, 20 May 2010 15:28:22 -0400 (EDT)
+Received: from [192.168.1.14] (unknown [192.168.1.14])
+	by mail.rogue-research.com (Postfix) with ESMTPSA id 047963DA50B;
+	Thu, 20 May 2010 15:28:21 -0400 (EDT)
+From: "Sean McBride" <sean@rogue-research.com>
+To: "Quincey Morris" <quinceymorris@earthlink.net>,
+	<objc-language@lists.apple.com>
+Date: Thu, 20 May 2010 15:28:21 -0400
+Message-Id: <20100520192821.1756499361@mail.rogue-research.com>
+In-Reply-To: <6D2572D9-FD76-4188-8235-3DF9FD537457@earthlink.net>
+References: <20100519021456.6E05C27C124F1@lists.apple.com>
+	<4BF487F7.2040007@mac.com>
+	<8DAB639D-3AFA-4ABE-AAAF-04D1F8566FD5@apple.com>
+	<6D2572D9-FD76-4188-8235-3DF9FD537457@earthlink.net>
+X-Mailer: CTM PowerMail version 6.0.4 build 4613 English (intel)
+	<http://www.ctmdev.com>
+Organization: Rogue Research Inc.
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAARRG4q8=
+Cc: 
+Subject: Re: Nil messaging statement in "Cocoa Fundimentals Guide"
+ misleading?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Thu, 20 May 2010 12:23:27 -0700, Quincey Morris said:
+
+>> "If the method returns any pointer type, any integer scalar of size
+>less than or equal to sizeof(void*), a float, a double, a long double,
+>or a long long, then a message sent to nil returns 0."
+>
+>This makes me wonder what the answer is for an integer scalar of size
+>*greater* than sizeof(void*) that isn't a long long.
+>
+>For example, if the architecture has sizeof(long) > sizeof(void*), the
+>above definition would rule out long, but rule in long long. Odd.
+
+Not so odd.  Obj-C is not a language with a formal spec, standards
+committee, etc.  The docs assume Apple ABI.
+
+-- 
+=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=
+=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F=
+=5F=5F=5F=5F=5F=5F=5F=5F=5F=5F
+Sean McBride, B. Eng                 sean@rogue-research.com
+Rogue Research                        www.rogue-research.com 
+Mac Software Developer              Montr=E9al, Qu=E9bec, Canada
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

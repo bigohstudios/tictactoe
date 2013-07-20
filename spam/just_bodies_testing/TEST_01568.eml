@@ -1,0 +1,28 @@
+Re: Strange behaviour: Scanner and NetbeansHi Dave
+
+On 15 May 2010, at 18:07, Dave Minnigerode wrote:
+
+> Try using a bufferedreader to read in the lines and save the scanner =
+for any parsing.  Wouldn't seem to be a big difference but then the =
+whole issue is kinda weird.
+
+Good idea!  That's a work around I may consider if we can't get to the =
+root of this problem!
+
+Actually, it might lead to a better program anyway but I'll have to =
+leave it on the back burner for now.
+
+Cheers
+
+Bob
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

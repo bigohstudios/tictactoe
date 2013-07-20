@@ -1,0 +1,49 @@
+Rebuild of kdepim-3.5.9 fails - no libkode.so.1.0.0Hello, all. We are attempting to rebuild kdepim on Lenny using patches
+supplied by the Trinity project (http://trinity.pearsoncomputing.net/)
+to fix some of the critical Kontact issues. When we try to do so, we
+fail with:
+
+g++ -DHAVE_BOOST -DNDEBUG -DNO_DEBUG -g -O2 -g -Wall -O2
+-DQT_CLEAN_NAMESPACE -DQT_NO_ASCII_CAST -DQT_NO_STL -DQT_NO_COMPAT
+-DQT_NO_TRANSLATION -o .libs/kode kodemain.o
+-L/usr/share/qt3/lib ./.libs/libkode.so /usr/lib/libkabc.so
+g++: ./.libs/libkode.so: No such file or directory
+make[4]: *** [kode] Error 1
+make[4]: Leaving directory
+`/data/download/kdepim/kdepim-3.5.9/obj-x86_64-linux-gnu/kode'
+make[3]: *** [all-recursive] Error 1
+
+Sure enough, if I look in obj-x86_64-linux-gnu/kode/.libs, I see:
+
+jasiii@jasiii:/data/download/kdepim/kdepim-3.5.9/obj-x86_64-linux-gnu/kode/.libs$ ls -l
+total 2468
+-rw-r--r-- 1 jasiii jasiii 252856 2010-05-15 14:42 automakefile.o
+-rw-r--r-- 1 jasiii jasiii 486968 2010-05-15 14:42 class.o
+-rw-r--r-- 1 jasiii jasiii 132432 2010-05-15 14:42 code.o
+-rw-r--r-- 1 jasiii jasiii 96256 2010-05-15 14:42 enum.o
+-rw-r--r-- 1 jasiii jasiii 406624 2010-05-15 14:42 file.o
+-rw-r--r-- 1 jasiii jasiii 137808 2010-05-15 14:42 function.o
+lrwxrwxrwx 1 jasiii jasiii 13 2010-05-15 14:42 libkode.la
+-> ../libkode.la
+-rw-r--r-- 1 jasiii jasiii 1123 2010-05-15 14:42 libkode.lai
+lrwxrwxrwx 1 jasiii jasiii 16 2010-05-15 14:42 libkode.so ->
+libkode.so.1.0.0
+lrwxrwxrwx 1 jasiii jasiii 16 2010-05-15 14:42 libkode.so.1 ->
+libkode.so.1.0.0
+-rw-r--r-- 1 jasiii jasiii 48720 2010-05-15 14:42 license.o
+-rw-r--r-- 1 jasiii jasiii 68104 2010-05-15 14:42 membervariable.o
+-rw-r--r-- 1 jasiii jasiii 517368 2010-05-15 14:42 printer.o
+-rw-r--r-- 1 jasiii jasiii 162320 2010-05-15 14:42 statemachine.o
+-rw-r--r-- 1 jasiii jasiii 68808 2010-05-15 14:42 style.o
+-rw-r--r-- 1 jasiii jasiii 59560 2010-05-15 14:42 typedef.o
+-rw-r--r-- 1 jasiii jasiii 64696 2010-05-15 14:42 variable.o
+
+What would cause this and how do we fix it? Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273962463.17789.13.camel@Family.pacifera.com
+
+

@@ -1,0 +1,211 @@
+X-Account-Key: account5
+X-UIDL: GmailId127edb4e0fe64afb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs116721wfo;
+        Sun, 11 Apr 2010 09:30:07 -0700 (PDT)
+Received: by 10.223.67.144 with SMTP id r16mr2009792fai.102.1271003406772;
+        Sun, 11 Apr 2010 09:30:06 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f31si6817596fkf.48.2010.04.11.09.30.06;
+        Sun, 11 Apr 2010 09:30:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D3E3D13A5E20; Sun, 11 Apr 2010 16:29:56 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MDO_CABLE_TV3,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4E20913A5E1A
+	for <lists-debian-user@liszt.debian.org>; Sun, 11 Apr 2010 16:29:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.607 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MDO_CABLE_TV3=0.5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5KLc49M9mi1A for <lists-debian-user@liszt.debian.org>;
+	Sun, 11 Apr 2010 16:29:44 +0000 (UTC)
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 0600713A5E0F
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 16:29:44 +0000 (UTC)
+Received: by wwb13 with SMTP id 13so1701461wwb.6
+        for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 09:29:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=hzfE/zHrmz/aQzlL5rNYUsp/QvbMjDfuWxIL0OT9mKE=;
+        b=jnk6uAB/O6wAwBi87IHrqFJx4EFVykrF4hYqwQU9Bl6xfrRCgE8NXYIhhQ3myq0XwR
+         SRshjp7qiWOjTd0Vw9c4cylXVFgOXitfGq8ZfOEVBDP+dc3KgaoqGMslCPM3haNpRCeo
+         olombAC8KallFJ3Vzrxfw4EStTTbQwJoRTed4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=rKwb3G8iwktMvrcpVt+CcOY7cNn1DNuNtQnRVvGF6MB0DNUL2Ohh6rB5Mjsf0VUvkL
+         Wz2XzjNYSzv2n/B5hKJzxm/D52zMC05ZqVVX/HmJqpcSBMjk7EabDI9ADPM4e7Xb3yfb
+         kwgRQcJb685rIcA9sx5ESP4IF741SqUBWrP6c=
+MIME-Version: 1.0
+Received: by 10.216.70.207 with HTTP; Sun, 11 Apr 2010 09:29:34 -0700 (PDT)
+In-Reply-To: <120720411.2434831270993605552.JavaMail.root@md01.wow.synacor.com>
+References: <p2g880dece01004110349x335b1dcdx88bdf3472c07fb1c@mail.csmining.org>
+	 <120720411.2434831270993605552.JavaMail.root@md01.wow.synacor.com>
+Date: Sun, 11 Apr 2010 19:29:34 +0300
+Received: by 10.216.86.208 with SMTP id w58mr1576236wee.45.1271003374566; Sun, 
+	11 Apr 2010 09:29:34 -0700 (PDT)
+Message-ID: <l2u880dece01004110929zb9c4d307hd42bf2d35355bcd1@mail.csmining.org>
+Subject: Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with a 
+	different version name)
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Stephen Powell <zlinuxman@wowway.com>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <lFNZ0ZKuwL.A.gmC.EkfwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573878
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 16:29:56 +0000 (UTC)
+
+>> I use a Debian derivative as it
+>> has slightly better hardware support out of the box and more
+>> up-to-date packages than straight Debian. That is exactly what this
+>> thread is about.
+>
+> No, that is not what this thread is about. =C2=A0I am the OP of this
+> derivative of the thread
+> "[OT] Ubuntu vs Debian forums (was recompiling the kernel with a
+> different version name" and *I* decide what this thread is about.
+> Please don't hijack my thread.
+> If you want to start a thread that says Ubuntu is better than Debian,
+> then go over to the *Ubuntu* forum and start one. =C2=A0This is *my* thre=
+ad,
+> and I clearly stated the topic in my original post.
+>
+
+Sorry for stepping on your toes there, buddy. You can have your thread
+back, I did not intend to misinterpret, hijack, or declare Foo better
+than Bar.
+
+
+> I acknowledge that there are people in this world who don't want to
+> know the details of how to administer a computer OS. =C2=A0In fact, that
+> probably describes the majority of desktop users. =C2=A0I'm not condemnin=
+g
+> them. =C2=A0If they have problems, they can ask a personal friend who is
+> willing to help them, or they can get a paid support contract. =C2=A0But
+> this forum is not for them. =C2=A0This forum is for *Debian* users who
+> *do* want to know how their system works and are *willing* to work at
+> it *and* help others. =C2=A0It is not for Ubuntu users who don't know eno=
+ugh
+> about their system to administer it, can't get adequate help from their
+> fellow Ubuntu users on their own forum, and are too cheap to get a paid
+> Ubuntu support contract.
+>
+> If you want to run Ubuntu, then run Ubuntu. =C2=A0The choice is yours. =
+=C2=A0But
+> don't come over here if you have problems. =C2=A0Get help on the Ubuntu
+> forum, ask a friend who also runs Ubuntu, or buy an Ubuntu support contra=
+ct.
+> *That's* what this thread is about! =C2=A0This forum is, to paraphrase Ab=
+raham
+> Lincoln,
+>
+
+I'm a Debian user, helping other users. I ask on the Ubuntu list when
+appropriate and I ask on the Debian list when appropriate. Other than
+this pointless thread, I do not post such off topic nonsense and
+everything I ask here is applicable to Debian. I do not ask about the
+Ubuntu installer or wallpaper.
+
+
+> =C2=A0... A forum *of* the Debian users *by* the Debian users *for*
+> =C2=A0the Debian users.
+>
+
+Thank you, that's me.
+
+
+> You're welcome to search our archives.
+
+Thanks for being so generous. I thoroughly abuse those archives, don't
+worry. I post only when my question is not answered there.
+
+
+>=C2=A0But don't post here unless you
+> run Debian, want to know how your system works, and are willing to help
+> others as well as yourself.
+
+If you haven't noticed, exactly what I am doing is learning how Debian
+systems work in order to help others.
+
+
+>=C2=A0I'm not trying to be unkind. =C2=A0I have nothing
+> against you personally.
+
+I know, you did not attack me personally. I'm not sensitive, don't
+worry! Some idiot on the kde-usability list did attack me personally
+just yesterday, and I simply asked "why the personal attack" but in
+this case I understand that your frustration is aimed at Ubuntards
+dragging down the Debian list, not Dotan Cohen.
+
+
+>=C2=A0But it is not fair for you to run another OS and
+> then come over here asking for free help.
+
+I disagree that I am:
+1) running another OS
+-or-
+2) coming over here asking for free help
+
+I ask Debian-related questions, and make an effort to learn. I then
+apply that knowledge to help users of a Debian-based distro. I'm not
+the one ruining your list, I promise.
+
+
+>=C2=A0This is not a forum for users
+> of all 250+ Debian-derived distributions. =C2=A0This is a *Debian* forum.
+> Period.
+>
+
+I therefore ask only Debian-related questions, and even then only
+after extensively searching tfa and stfw. Where I apply that knowledge
+is irrelevant.
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+Please CC me if you want to be sure that I read your message. I do not
+read all list mail.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/l2u880dece01004110929zb9c4d307hd42bf2d35355bcd1@mail.csmining.org
+
+

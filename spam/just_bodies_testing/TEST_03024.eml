@@ -1,0 +1,45 @@
+[ILUG] Optimizing for Pentium Pt.2A while ago I asked what other packages I should optomize for Pentium. One 
+person answered GlibC. This got me thinking about GCC itself, so I asked on 
+another list and got a few answers, most were "don't even think about it" but 
+a few suggested GCC and one pointed me to Linux From Scratch.
+
+After having a good search around the lfs site, I've decided I'm going to 
+give it a whirl. I've got a spare box and loads of free time, so why not ;-)
+
+The lfs site, however warns NOT to use optimizations when compiling GCC or 
+GlibC? A quick google found PGCC, a Pentium optimizing patch for GCC, but the 
+site does not seem to have been updated in quite some time?
+
+So, my general plan, and I'm taking my time with this:
+
+Partition the hard drive for the lfs set-up with 4 partitions, /, /usr, /var 
+and /home.
+Install a base Debian system into the /home  partition so I can build the 
+rest of the system into the other partitions.
+Using Debian, build the initial packages into the / and /usr partitions. I'll 
+try to optimize GCC and GlibC in this first stage.
+chroot to the / partition and re-build the base packages for shared libs.
+strip de-bugging from the binaries and change the boot so the system boot 
+from / rather than /home, then move /home to it's proper partition.
+
+All going well, I should now have a full base Linux system running that is 
+fully optimized for my PentiumMMX including GCC and GlibC.
+
+Now I can build zlib and then X, again optimizing. And I can follow this with 
+the various graphics libs, qt lib and finally KDE.
+
+If all goes well, I will probably repeate this for my Dual system, once I can 
+find a match for the slot1 550Mhz PIII Iv'e got.
+
+I might even be tempted to write this up for the site.
+
+Cheers,
+
+	John Gay
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

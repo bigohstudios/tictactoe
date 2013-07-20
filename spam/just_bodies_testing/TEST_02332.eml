@@ -1,0 +1,67 @@
+Multiple Graphics cards and HDMI: How to?Hi all,
+
+I have setup a system with Gigabyte MA-790GPT-UD3H motherboard and use a
+Nvidia GeForce 8600GTS PCI-E video card. It also has an onboard ATI
+Radeon HD 3300 graphics chipset. The PCI-E card is being used at the
+moment for the monitor (nvidia driver). I was thinking of using the HDMI
+port(onboard) to play movies directly on the TV rather than using a
+DVD-RW (current method).
+
+I did configure the onboard chipset to be detected after the PCI-E card
+as D-SUB+HDMI output in the BIOS. This is on a Debian Unstable box.
+
+The question is: would it be possible to use two graphics cards from
+different manufacturers?
+
+I also noticed that the onboard chipset does not come up with lspci.
+
+Any suggestions on how to proceed with this?
+/KS
+------------
+$> lspci
+00:00.0 Host bridge: Advanced Micro Devices [AMD] RS780 Host Bridge
+00:02.0 PCI bridge: Advanced Micro Devices [AMD] RS780 PCI to PCI bridge
+(ext gfx port 0)
+00:0a.0 PCI bridge: Advanced Micro Devices [AMD] RS780 PCI to PCI bridge
+(PCIE port 5)
+00:11.0 SATA controller: ATI Technologies Inc SB700/SB800 SATA
+Controller [IDE mode]
+00:12.0 USB Controller: ATI Technologies Inc SB700/SB800 USB OHCI0
+Controller
+00:12.1 USB Controller: ATI Technologies Inc SB700 USB OHCI1 Controller
+00:12.2 USB Controller: ATI Technologies Inc SB700/SB800 USB EHCI Controller
+00:13.0 USB Controller: ATI Technologies Inc SB700/SB800 USB OHCI0
+Controller
+00:13.1 USB Controller: ATI Technologies Inc SB700 USB OHCI1 Controller
+00:13.2 USB Controller: ATI Technologies Inc SB700/SB800 USB EHCI Controller
+00:14.0 SMBus: ATI Technologies Inc SBx00 SMBus Controller (rev 3c)
+00:14.1 IDE interface: ATI Technologies Inc SB700/SB800 IDE Controller
+00:14.2 Audio device: ATI Technologies Inc SBx00 Azalia (Intel HDA)
+00:14.3 ISA bridge: ATI Technologies Inc SB700/SB800 LPC host controller
+00:14.4 PCI bridge: ATI Technologies Inc SBx00 PCI to PCI Bridge
+00:14.5 USB Controller: ATI Technologies Inc SB700/SB800 USB OHCI2
+Controller
+00:18.0 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] HyperTransport Configuration
+00:18.1 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] Address Map
+00:18.2 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] DRAM Controller
+00:18.3 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] Miscellaneous Control
+00:18.4 Host bridge: Advanced Micro Devices [AMD] K10 [Opteron,
+Athlon64, Sempron] Link Control
+01:00.0 VGA compatible controller: nVidia Corporation G84 [GeForce 8600
+GTS] (rev a1)
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd.
+RTL8111/8168B PCI Express Gigabit Ethernet controller (rev 02)
+03:0e.0 FireWire (IEEE 1394): Texas Instruments TSB43AB23
+IEEE-1394a-2000 Controller (PHY/Link)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDA1C16.8000607@fastmail.fm
+
+

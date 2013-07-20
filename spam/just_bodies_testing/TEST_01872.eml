@@ -1,0 +1,35 @@
+[SAtalk] Re: Reporting....From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Jul 23, 2002 at 09:37:33AM -0500, Joel Epstein wrote:
+| I currently have spam being filtered for about 50 users via spamd.=20
+| Works perfectly!  However, is there anyone out there providing reports=20
+| to their users about what was filetered?  Maybe just something like=20
+| date/time, From, and subject?
+
+I have such a system.  It works like this :
+    1)  sa-exim scans the message during the SMTP interaction
+    2)  if it scores high enough it is rejected
+        2.1)    if it is rejected, exim mentions that in the reject log
+        2.2)    if it isn't rejected it is delivered
+            2.2.1)  it is up to the user to deal with (filter as
+                    desired) the lower-scoring spam
+    3)  I have a script run as a daily cron job to run through the
+        reject log and deposit a report in the user's home directory
+        indicating what was rejected and way (SA isn't the only cause
+        for rejection)
+
+Obviously my setup is rather tied to exim and sa-exim, but if you want
+the reporting script I can send it to you.
+
+-D
+
+--=20
+Micros~1 :
+ For when quality, reliability
+  and security just aren't
+   that important!
+=20
+http://dman.ddts.net/~dman/

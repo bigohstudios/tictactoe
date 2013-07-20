@@ -1,0 +1,26 @@
+Re: Aptitude status output meaningOn Fri, Apr 30 at 16:06, Lisi penned:
+> 
+> One, however, continues to elude me.  What does the A mean in <i  A>
+> at the beginning of a line in the results from an aptitude
+> search?
+> 
+> Thanks!  Lisi
+
+installed automatically.
+
+The "i" means installed.
+
+The "A" means that it was installed automatically due to a dependency,
+so if all packages depending on it are uninstalled, it will
+automatically be removed as well.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430154451.GI25336@mail.bounceswoosh.org
+
+

@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId12890623f77bd98a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs44608wfo;
+        Wed, 12 May 2010 23:37:58 -0700 (PDT)
+Received: by 10.223.99.212 with SMTP id v20mr9515895fan.44.1273732677626;
+        Wed, 12 May 2010 23:37:57 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d4si2209437fac.94.2010.05.12.23.37.57;
+        Wed, 12 May 2010 23:37:57 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D306913A5384; Thu, 13 May 2010 06:37:50 +0000 (UTC)
+Old-Return-Path: <debian.linux@home.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2C2F313A52BF
+	for <lists-debian-user@liszt.debian.org>; Thu, 13 May 2010 06:37:45 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QdRTgJs7O+da for <lists-debian-user@liszt.debian.org>;
+	Thu, 13 May 2010 06:37:37 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -1.8
+Received: from smtpq1.tb.mail.iss.as9143.net (smtpq1.tb.mail.iss.as9143.net [212.54.42.164])
+	by liszt.debian.org (Postfix) with ESMTP id E2CB713A526B
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 06:37:37 +0000 (UTC)
+Received: from [212.54.42.140] (helo=smtp9.tb.mail.iss.as9143.net)
+	by smtpq1.tb.mail.iss.as9143.net with esmtp (Exim 4.69)
+	(envelope-from <debian.linux@home.nl>)
+	id 1OCS35-0007zu-Kj
+	for debian-user@lists.debian.org; Thu, 13 May 2010 08:37:35 +0200
+Received: from 5ed409dc.cable.ziggo.nl ([94.212.9.220] helo=[192.168.0.3])
+	by smtp9.tb.mail.iss.as9143.net with esmtp (Exim 4.69)
+	(envelope-from <debian.linux@home.nl>)
+	id 1OCS35-0005LS-6C
+	for debian-user@lists.debian.org; Thu, 13 May 2010 08:37:35 +0200
+Message-ID: <4BEB9E2B.9030304@home.nl>
+Date: Thu, 13 May 2010 08:37:31 +0200
+From: steef <debian.linux@home.nl>
+Reply-To: debian.linux@home.nl
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; nl; rv:1.9.1.9) Gecko/20100317 SeaMonkey/2.0.4
+MIME-Version: 1.0
+To: debian <debian-user@lists.debian.org>
+Subject: stupid question
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-ZiggoSMTP-MailScanner-Information: Please contact the ISP for more information
+X-ZiggoSMTP-MailScanner-ID: 1OCS35-0005LS-6C
+X-ZiggoSMTP-MailScanner: Found to be clean
+X-ZiggoSMTP-MailScanner-SpamCheck: geen spam, SpamAssassin (niet cached,
+	score=-1.499, vereist 5, ALL_TRUSTED -1.80, BAYES_50 0.00,
+	CM_REPLY_NOARROW 0.30)
+X-ZiggoSMTP-MailScanner-From: debian.linux@home.nl
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tK7x1lr8xAF.A.xMD.-456LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576659
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 06:37:50 +0000 (UTC)
+
+
+hi list,
+
+how do i get rid of the message of a new (of course much valued) 
+maintainer Christian about MTA'S and cron when updating squeeze on the 
+commandline before using startx? apt-get upgrade hangs on this message 
+and i do not know the protocol to go on in this situation (if there is 
+any). so i cannot upgrade.
+
+thank you in advance!
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEB9E2B.9030304@home.nl
+
+

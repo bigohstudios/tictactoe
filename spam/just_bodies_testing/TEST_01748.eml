@@ -1,0 +1,49 @@
+Re: Nil messaging statement in "Cocoa Fundimentals Guide"
+	misleading?Bill,
+
+On May 20, 2010, at 7:17 AM, Bill Bumgarner wrote:
+
+>> In Objective-C, you can often send a message to nil with no ill =
+effects. Return values from messages sent to nil are guaranteed to work =
+as long as what is returned is typed as an object.
+>=20
+> In the context of that one paragraph in that one bit of documentation, =
+the above statement is absolutely correct. It is --as you say -- more =
+precise than absolutely necessary.
+
+Well, whilst myself I do not consider this really important, I would =
+definitely not use this wording. IMHO the statement is, quite =
+contrariwise, considerably less precise than desirable for good =
+documentation.
+
+The former sentence seems to me quite seriously misleading, for it =
+strongly hints there are some cases when sending to nil might bring ill =
+effects. That's patently wrong. Do please correct me if I am overlooking =
+something, but I believe in ObjC you can _always_ send a message to nil =
+with no ill effects altogether -- far as I know, this does work in =
+absolutely all cases without one sole exception (and always did). Thus, =
+"often" should definitely be cut out (or even replaced by "always").
+
+Now, using the return value is of course a different kettle of fish. The =
+latter sentence is not that bad by far, but it still slightly hints that =
+non-object return values won't work. IMHO, something like "Return values =
+from messages sent to nil are guaranteed to work in some cases, one of =
+which is whenever what is returned is typed as an object" or similar =
+would help newbies better to understand the thing.
+
+Best,
+---
+Ondra =C4=8Cada
+OCSoftware:     ocs@ocs.cz               http://www.ocs.cz
+private         ondra@ocs.cz             http://www.ocs.cz/oc
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

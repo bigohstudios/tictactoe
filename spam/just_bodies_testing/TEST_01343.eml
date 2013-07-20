@@ -1,0 +1,20 @@
+mips machines down for maintenanceFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+i just shut down gabrielli.debian.org (mips porter box) and will do so
+with corelli and lucatelli (both buildd) as well, as we do some hardware
+maintenance on them.
+
+They should be back in a few hours.
+
+Cheers
+Martin
+--=20
+ Martin Zobel-Helas <zobel@debian.org>  | Debian System Administrator
+ Debian & GNU/Linux Developer           |           Debian Listmaster
+ Public key http://zobel.ftbfs.de/5d64f870.asc   -   KeyID: 5D64 F870
+ GPG Fingerprint:  5DB3 1301 375A A50F 07E7  302F 493E FB8E 5D64 F870

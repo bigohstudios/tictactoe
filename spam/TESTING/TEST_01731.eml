@@ -1,0 +1,96 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284f789834017e3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs103441wfj;
+        Fri, 30 Apr 2010 09:07:03 -0700 (PDT)
+Received: by 10.142.122.7 with SMTP id u7mr6690573wfc.212.1272643623365;
+        Fri, 30 Apr 2010 09:07:03 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 16si3071758pzk.52.2010.04.30.09.07.03;
+        Fri, 30 Apr 2010 09:07:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 1A18A1C0E7D96
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 09:07:03 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 13F8C2745A386
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 09:07:03 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id F30DB27459D1C
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 09:06:09 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id E2C1ED771E70
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 09:06:09 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-71-4bdafff1cd26
+Received: from mail-wy0-f179.google.com (mail-wy0-f179.google.com
+	[74.125.82.179])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	BB.18.25880.1FFFADB4; Fri, 30 Apr 2010 09:06:09 -0700 (PDT)
+Received: by wyb40 with SMTP id 40so402838wyb.24
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 09:06:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:mime-version:received:in-reply-to
+	:references:from:date:message-id:subject:to:cc:content-type;
+	bh=j9qPNhXZ9vFYu3jjvjv4NuKwEaFoYDE1C40+Aep2MGM=;
+	b=Qpy/MqP4KsSVBwnCDGjJL9VuZKMkDHoOJrKSWDWim+kamkTlwipd6bvOJrVZffGn2y
+	bInLw4pC/lTUl6xjcFckic9fuRUgavyBvKLP0FevcpoHRK1zb5iMSpdQFWSN00vLLKyJ
+	cL9tXnPI0+CuXZxsE6HIMfWs4Yp3YNR1kjkWs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+	:cc:content-type;
+	b=scrR6nqTzaizx/TifasJOP56R9MUCf8SRTwYgjEg5NVvD+Go6isvAu53jF2vderh7p
+	tNZDKYBVv2/igFQqMfBAocBbUJvwIMN/g6uaIwuNvK8//DqfSEl7rpK+VEwKdVf0I5ZD
+	IVqoiXYhNaTXGGdal/dEy+J9wCPRgPiXCMiUw=
+Received: by 10.216.85.79 with SMTP id t57mr3244481wee.132.1272643567456; Fri, 
+	30 Apr 2010 09:06:07 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.216.13.12 with HTTP; Fri, 30 Apr 2010 09:05:47 -0700 (PDT)
+In-Reply-To: <9E111BBA-00A4-4328-BF3F-ED5110024070@cubiculum.com>
+References: <C8007901.FA9A%kustaa.nyholm@planmeca.com>
+	<6F546F63-CCF9-4040-9C0B-E2C4B08F8ADA@csmining.org> 
+	<938126.30135.qm@web62505.mail.re1.yahoo.com>
+	<9E111BBA-00A4-4328-BF3F-ED5110024070@cubiculum.com>
+From: Alexei Svitkine <alexei.svitkine@csmining.org>
+Date: Fri, 30 Apr 2010 12:05:47 -0400
+Message-ID: <h2r62d9ffc01004300905g7e115412l56123adbbc2bec83@mail.csmining.org>
+To: "Ronald C.F. Antony" <rcfa@cubiculum.com>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAARPwcVg=
+Cc: list Java-dev <java-dev@lists.apple.com>
+Subject: Re: [OT] Re: Jobs: Thoughts on Java
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> Nothing stops anyone from using a portable code engine (e.g. C code or Java compiled to C) and then put a native Cocoa Touch GUI on it.
+
+Actually, the 4.0 SDK specifically prohibits something like "Java
+compiled to C". It states that the program must be originally written
+in one of the Apple-approved languages.
+
+-Alexei
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

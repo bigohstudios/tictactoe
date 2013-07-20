@@ -1,0 +1,134 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285f5f7c3a0d9d5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs237026wfj;
+        Mon, 3 May 2010 11:13:33 -0700 (PDT)
+Received: by 10.150.7.9 with SMTP id 9mr9721037ybg.285.1272910412864;
+        Mon, 03 May 2010 11:13:32 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 10si3947596gxk.37.2010.05.03.11.13.32;
+        Mon, 03 May 2010 11:13:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 4150B1C1923E2
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 11:13:32 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 376CD27597A2F
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 11:13:32 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 0F67B275973B6
+	for <java-dev@lists.apple.com>; Mon,  3 May 2010 11:12:37 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id F3125D7CF7BA
+	for <java-dev@lists.apple.com>; Mon,  3 May 2010 11:12:36 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7b87ae000003afb-52-4bdf121454c7
+Received: from mail-ww0-f51.google.com (mail-ww0-f51.google.com [74.125.82.51])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	65.CB.15099.4121FDB4; Mon,  3 May 2010 11:12:36 -0700 (PDT)
+Received: by wwb24 with SMTP id 24so3147050wwb.24
+	for <java-dev@lists.apple.com>; Mon, 03 May 2010 11:12:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	bh=JfyUyyxTigepTZ+bRL2EALhlze7vPUPZFX/WxyqkGHg=;
+	b=b52qutnB1gzZ3uz6Wa6DwewLCkcGDs+pGw03WYqseoYO5al+1v/HO/4jQVa6buczQr
+	pIo5e68DjqQwoFka2CzaHDorb1ixYhWogU8eR+y2WduZW9veNyzvY7fBOfcQ7nuUtHdY
+	Xxa8+n0jtITdbLW4j7wE2M1k2Ti/ZNSN1myuo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type:content-transfer-encoding;
+	b=HSFy/7eFcoNA/zA5kIVZG+z9/nSYs+KH5zlzJAgC0NFqgPeuJVpenN0G4SXQcSKFEK
+	3zAWDzi4yCS4Aun36tMcx9whbsrwZEDOmbepjeQ6MKYeG3KtPMv+ulIYIK2bUUX400Wf
+	Y4cRw/gUutcN+lr/t6TOFgP06f2W3tIZYh4aA=
+MIME-Version: 1.0
+Received: by 10.216.86.3 with SMTP id v3mr4310358wee.190.1272910354092; Mon, 
+	03 May 2010 11:12:34 -0700 (PDT)
+Received: by 10.216.23.142 with HTTP; Mon, 3 May 2010 11:12:33 -0700 (PDT)
+In-Reply-To: <F2021AE9-91BF-40F2-8349-73D66C4D8720@csmining.org>
+References: <m2z9dd38a4a1005030536o6ddbb75cp21c1dbb132735263@mail.csmining.org>
+	<F2021AE9-91BF-40F2-8349-73D66C4D8720@csmining.org>
+Date: Mon, 3 May 2010 20:12:33 +0200
+Message-ID: <w2p9dd38a4a1005031112w184fa9d2p712cb71de553e5b7@mail.csmining.org>
+From: =?UTF-8?B?TWF0ZXbFviBNYXJrb3ZpxI0=?= <ivwcorporation.matevz@csmining.org>
+To: Harald Kuhr <harald.kuhr@csmining.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAARPwcVg=
+Cc: java-dev@lists.apple.com
+Subject: Re: Safely delete (35-pass) file with a Java application
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Thank you for your suggestion of using RandomAccessFile and not to use
+35-pass rewrite.
+
+As I wrote, I might just use srm terminal application to safely delete
+files (which is included in MacOS X).
+And as well, I might do the 3-pass rewrite (in case of normal hard
+drives) and 1-pass rewrite in case of SSD drives.
+
+Is there possibly any chance of figuring out, whether the user has SSD
+or normal HDD? I mean, out of java?
+
+Thank you for your answers.
+
+2010/5/3, Harald Kuhr <harald.kuhr@csmining.org>:
+>
+> On 3. mai 2010, at 14.36, Matev=C5=BE Markovi=C4=8D wrote:
+>
+>> Since I am still an amateur in the Java language, I want to practice
+>> as much as possible. Not long ago I came along with an idea, that I
+>> want to write a application (Swing application), from which one will
+>> be able to choose a file and safely delete it (e.g. rename,delete,
+>> overwrite 35-times, possibly less).
+>
+> I'm not really sure if this is guarateed to work on all Java
+> implementations, but you could try to open the file for random access
+> (http://java.sun.com/j2se/1.5.0/docs/api/java/io/RandomAccessFile.html),
+> then write random data to the entire contents of the file before you dele=
+te.
+> It might even work if you first open, then delete, before writing random
+> data if you prefer that.
+>
+> But it might be that you are better off finding a command-line tool that
+> handles the secure deletion for you, and create a Swing app that delegate=
+s
+> the heavy lifting to the command-line tool. Low-level file system access
+> isn't really one of Java's strong points, as its foucs has always been be=
+ing
+> cross-platform (Java 7's NIO.2 functionality might fix some of these issu=
+es
+> though) .
+>
+>
+> Best regards,
+>
+> --
+> Harald K
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

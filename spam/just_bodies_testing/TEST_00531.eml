@@ -1,0 +1,43 @@
+Re: xorg synaptics driver no longer working with udev?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Florian Kulzer schreef:
+> On Thu, Apr 15, 2010 at 23:27:41 +0200, Sjoerd Hardeman wrote:
+>=20
+> [...]
+>=20
+>> Hal is certainly no longer working, see #567389. Yet, udev now also
+>> stopped working...
+>=20
+> OK, I think I understand a little bit better how this is supposed to be=
+
+> working now. Try to add your touchpad options to the InputClass section=
+
+> of the file /usr/lib/X11/xorg.conf.d/10-synaptics.conf as a first test.=
+
+I don't have a directory /usr/lib/X11/xorg.conf.d/. Maybe these changes
+are still to be migrated to testing?
+>=20
+> There seems to be a new mechanism that allows for multiple such
+> InputClass sections matching the same device, so that its configuration=
+
+> can be spread over several files, with each file being able to add
+> options and to override settings made in previous files. If this works
+> as advertised then it should be possible to add your customizations in =
+a
+> separate InputClass section in, say, 99-local.conf and thus make sure
+> that they are not overwritten when the synaptics driver is upgraded.
+> That seems to have all the modularity advantages of the earlier hal/ude=
+v
+> methods with the added bonus of the simpler xorg.conf syntax.
+Seems nice. The problem of the xorg.conf stanza is that it indeed not so
+modular.
+>=20
+> I am curious to hear if this actually works because I cannot try it
+> myself. (My up-to-date Sid desktop does not have a touchpad.)
+I will either wait until the update migrates to testing or get it by
+hand from sid. I'll keep you informed.
+
+Sjoerd
+

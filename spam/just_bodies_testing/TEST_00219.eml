@@ -1,0 +1,34 @@
+[ILUG] Samba login questionI have a situation with a small network as follows:
+
+A number of client workstations which are running VMware, each of which will
+run a local copy of Samba (not the VMware autoinstalled version) to let
+VMware access local linux disks.
+
+An NIS/NFS server which will also run Samba to allow the VMware clients
+access to its filesystems.
+
+How can I set things up so that all the VMware clients (all running 'doze
+98, possibly being upgraded in future to W2K) authenticate against the NIS
+server's Samba ? I have read the Samab documentation in  large quantities
+down through the years but as I've never wanted to do anything like this, I
+never paid much attention to all the stuff about domain controllers etc.
+which I presume is what I will need to have running here.
+
+I would also like, if at all possible, to have synchronisation of passwords
+between the NIS domain and the NIS server's Samba with minimal manual
+intervention.
+
+Ideas, accompanied by annotated Samba configration files :-) , gratefully
+received.
+
+
+
+
+Niall
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,11 @@
+[Spambayes] Current histograms 
+    Anthony> They weren't partitioned in any particular scheme - I think
+    Anthony> I'll write a reshuffler and move them all around, ...
+
+Hmmm.   How about you create empty Data/Ham/Set[12345], stuff all your
+files into a Data/Ham/reservoir folder, then run the rebal.py script to
+randomly parcel messages out to the various real directories?
+
+I suspect you can pull the same stunt for your Data/Spam stuff.
+
+Skip

@@ -1,0 +1,38 @@
+Re: NPAPI Java plugin issuesOn Apr 23, 2010, at 2:15 AM, Michael Allman wrote:
+
+> Hello,
+>=20
+> I'm not sure, but I think Apple wrote Java Plug-In 2 for NPAPI.  I'm =
+seeing some serious display issues viewing some applets in Firefox using =
+this plugin.  For a single example, if I go to
+>=20
+> http://pivot.apache.org/demos/
+>=20
+> and left-click on the "Kitchen Sink" demo, wait for the applet to =
+load, and then switch back to the Demos tab, the bottom 85% or so of the =
+browser window still shows the applet.  Can the Apple Java engineers =
+comment on this issue?
+>=20
+> I'm running Firefox 3.6.3 on Mac OS 10.6.3.
+
+Are you running the NPAPI Plugin2 using the 10M3050 developer preview? =
+Visually, it looks pretty good to me in FF 3.6.3 on 10.6.3 (there are =
+some event issues like scrolling and right click - but I'm not seeing a =
+clipping issue).
+
+What version of Java does your browser think it's running (you can =
+search for "what version of java do I have")?
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

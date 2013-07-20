@@ -1,0 +1,16 @@
+kde4: crash after login=0A Hi,=0A=0A I am using Debian Sid. After doing the login (by using either=
+ KDM or GDM) KDE seems to crash, and the only thing I can see is the mouse =
+pointer over a black screen.=0A=0A I have looked for some information in th=
+e logs but I have not found anything significant. In the syslog is written =
+down the following line but I am not sure whether this is important:=0A=0A"=
+Cannot load /usr/share/apps/kdm/faces/.default.face: No such file or direct=
+ory"=0A=0A What can I do to find out what is happening? (this is frustratin=
+g)=0A=0A Regards,=0A=0A=0A      
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/742952.29317.qm@web28413.mail.ukl.yahoo.com
+
+

@@ -1,0 +1,22 @@
+regexp a package with apt?Is there a regexp for the:
+
+gstreamer0.10-plugins-bad
+
+package?
+
+I mean like:
+
+apt-get install gstreamer*-plugins-bad
+
+so that later, when it will get a new version number, it would still be
+downloadable by a "script" written e.g.: now.
+
+Thank you!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1270704433.6395.15.camel@localhost
+
+

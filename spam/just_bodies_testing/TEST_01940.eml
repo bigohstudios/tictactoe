@@ -1,0 +1,67 @@
+Re: GNOME crashes when .xsession file is present.On Wed, Apr 14, 2010 at 11:25 AM, Disc Magnet <discmagnet@csmining.org> wrote:
+> So, how do I prevent it from crashing and successfully log in?
+
+Delete the .xsession  file.  I'm running GNOME, and don't have one.
+
+Patrick
+
+> On Wed, Apr 14, 2010 at 8:19 PM, Camale=F3n <noelamac@csmining.org> wrote:
+>> On Wed, 14 Apr 2010 18:51:00 +0530, Disc Magnet wrote:
+>>
+>>> If I create an empty (0 length) .xsession or an .xsession file
+>>> containing one line, say, echo hello, world, I get this error when I tr=
+y
+>>> to log into GNOME.
+
+As the doctor said to the guy who said, "It hurts when I do this,"
+"Don't do that."
+
+>>>
+>>> Your session lasted less than 10 seconds. If you have not logged out
+>>> yourself this could mean there is some installation problem or that you
+>>> may be out of disk space. Try logging in with one of the failsafe
+>>> sessions to see if you can fix the problem.
+>>>
+>>> There aren't any errors in .xsession-errors when I try to log in with
+>>> the 0 length .xsession file. In case of the .xsession file with echo
+>>> hello, world, I see just 'hello, world' in the .xsession-errors file.
+>>>
+>>> Why does this happen?
+>>
+>> I'll make an "educated guess" O:-) and say ".xsession" file runs the
+>> commands you specify and then "exits" (if none, then does nothing).
+>>
+>> So the message you are getting just warns you about a session expiration=
+.
+>>
+>> Gretings,
+>>
+>> --
+>> Camale=F3n
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+>> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debia=
+n.org
+>> Archive: http://lists.debian.org/pan.2010.04.14.14.49.58@csmining.org
+>>
+>>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/i2m308d4701004140825md3393aa6ya7f452d356=
+bd4ebb@mail.csmining.org
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2oa94352371004140831h5dd27b0bx68ee192852d57290@mail.csmining.org
+
+

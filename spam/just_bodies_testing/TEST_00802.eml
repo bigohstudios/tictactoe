@@ -1,0 +1,41 @@
+[SAtalk] Spamassassin with PyzorFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+I installed Spamassassin 2.41 with Razor V2 the other day and it has =
+been working great. I decided to add Pyzor last night and I got that =
+installed successfully (I think, no errors). I am using spamd and I see =
+where it periodically spawns off a pyzor process; however nothing has =
+been detected as spam by Pyzor under Spamassassin. It has been running =
+for almost half a day now on a 5,000 user mail server - so to me the =
+odds of something being caught by it should be high. I run spamd as =
+follows:
+
+spamd -d -H
+
+and all my users home directories have a .pyzor directory with the =
+server listed under it.
+
+I setup a test procmail recipe that just invokes pyzor check and not =
+spamc to see if in fact pyzor alone catches any spam -  I just set this =
+up so no results yet. Here is what I get when I check connectivity to =
+the pyzor server:
+
+ pyzor -d ping
+sending: 'User: anonymous\nTime: 1031921041\nSig: =
+161c547ac6248589910f97b1b5cd37e6dffc8eaf\n\nOp: ping\nThread: 14733\nPV: =
+2.0\n\n'
+received: 'Thread: 14733\nCode: 200\nDiag: OK\nPV: 2.0\n\n'
+167.206.208.233:24442   (200, 'OK')
+
+Any help/examples would be appreciated. Thanks! BTW, keep up the great =
+work Spamassassin team!
+
+Nick
+
+
+---
+Outgoing mail is certified Virus Free.
+Checked by AVG anti-virus system (http://www.grisoft.com).
+Version: 6.0.386 / Virus Database: 218 - Release Date: 9/9/2002

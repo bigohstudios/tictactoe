@@ -1,0 +1,195 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e445ab349dbbe
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs51543wfi;
+        Fri, 9 Apr 2010 13:32:04 -0700 (PDT)
+Received: by 10.87.42.2 with SMTP id u2mr1027593fgj.79.1270845123441;
+        Fri, 09 Apr 2010 13:32:03 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si4358968fxm.42.2010.04.09.13.32.02;
+        Fri, 09 Apr 2010 13:32:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4163013A6113; Fri,  9 Apr 2010 20:31:58 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4B97513A60CB
+	for <lists-debian-user@liszt.debian.org>; Fri,  9 Apr 2010 20:31:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id svqJThdonv9H for <lists-debian-user@liszt.debian.org>;
+	Fri,  9 Apr 2010 20:31:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id 4BDB113A6074
+	for <debian-user@lists.debian.org>; Fri,  9 Apr 2010 20:31:44 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=qhkFTjdWoSEA:10 a=FKkrIqjQGGEA:10 a=IkcTkHD0fZMA:10 a=QP5IY3kgAAAA:8 a=Q1Gcd4EmX0V3oQh-91MA:9 a=K640gIGrGpoTlg6dfvIA:7 a=oX8XfLjGyDtGD4PyGVDug2tfkfQA:4 a=QEXdDO2ut3YA:10 a=zEoJXyrrGmEA:10 a=_UZTmppSROotLent:21 a=XDbjiHYA6Dpdzht2:21 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:60591] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 7C/5F-21309-DAE8FBB4; Fri, 09 Apr 2010 16:31:41 -0400
+Date: Fri, 9 Apr 2010 16:31:41 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <1972509979.2211501270845101316.JavaMail.root@md01.wow.synacor.com>
+In-Reply-To: <371933597.2114181270821502137.JavaMail.root@md01.wow.synacor.com>
+Subject: Re: udev & /dev/sdaX & lenny2squeeze
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Originating-IP: [66.145.136.6]
+X-Mailer: Zimbra 5.0.11_GA_2696.RHEL4 (zclient/5.0.11_GA_2696.RHEL4)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <M4dM4Q75yKG.A.AKF.-64vLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573741
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 20:31:58 +0000 (UTC)
+
+On Fri, 9 Apr 2010 10:43:12 -0400 (EDT), Ionel Mugurel Ciob=C3=AEc=C4=83 wr=
+ote:
+> On Fri, 9 Apr 2010 09:58:22 -0400 (EDT), Stephen Powell wrote:
+>>
+>> Migrating from Lenny to Squeeze (or any migration, really) is tricky.
+>>
+> =20
+> I know. I manage fine from bo 2 hamm, from hamm 2 potato, from
+> potato 2 woody, from woody 2 sarge and from sarge 2 lenny.
+=20
+If you've been around that long, then why is it that you didn't know to
+reply to the list instead of to me personally?  Please post *and* reply
+*only* to the list.  You can CC someone if they ask for a CC, but always
+include the list as one of your recipients.
+
+>> You can't just change your /etc/apt/sources.list file to point to the
+>> squeeze repositories and then do "aptitude update;aptitude full-upgrade"=
+.
+>> The problem you are describing above is only the first of your problems
+>> if you have done that.  You need to follow the upgrade outline mentioned
+>> in the Release Notes.  You didn't say how you did it, and it's too late
+>> in any case, but I just wanted to mention that while we're on the subjec=
+t.
+> =20
+> I did this:
+> - edit /etc/apt/sources.list (changed lenny/stable to squeeze/testing)
+> - aptitude update
+> - aptitude install apt dpkg aptitude
+> - aptitude full-upgrade (few times)
+
+That is not the proper procedure.  Read the release notes.
+The most important step you missed is to issue "aptitude dist-upgrade"
+*before* the "aptitude full-upgrade", but there are other steps you left
+out as well.  I speak from experience.  I tried to upgrade a system from
+Etch to Lenny by "winging it" and not following the upgrade procedure
+listed in the release notes, and my system was almost unusable.  Fortunatel=
+y
+I had another system on which I had installed Lenny directly, and by compar=
+ing
+installed packages between the install-Lenny-from-scratch system and the
+upgrade-from-Etch-to-Lenny system I was eventually able to recover my syste=
+m.
+But it took many days.  Following the upgrade procedure in the release note=
+s
+is very important.  Take it from one who learned that the hard way.
+
+>> Assuming that you did the migration properly, this may be a device name
+>> issue.  There's been some problems with device names recently, particula=
+rly
+>> with IDE hard disks.  It hasn't happened to me, but others have reported
+>> device names going from /dev/hdx to /dev/sdx and back again with
+>> subsequent maintenance.  You may have to boot from a rescue disk,
+>> edit your /etc/fstab to change device names, according to what they
+>> are now, and rebuild your initial RAM file system.
+> =20
+> That is not the issues.  The booting process manage to use /dev/sda5 as r=
+oot
+> but then it can't find the other /dev/sdaX. Indeed, ls /dev/sd* /dev/hd*
+> shows no /dev/hd* files and onlu /dev/sdY, with Y=3Dc,d,e,f,f1, not even
+> /dev/sda5 which
+> is already mounted as root.
+>>
+>> If that is the issue, an alternative to traditional device names is
+>> to use UUIDs.
+> =20
+> In /dev/.udev/ are some entry with uuid, but they are for the external hd=
+d
+> (also sata) which is there as /dev/sdf.
+>
+> I don't understand why /dev/sda5 is mounted as root, then all /dev/sdaX a=
+re
+> no longer available. dmesg | grep sda shows all partitions.
+>
+> This is not a kernel issue. I manually install a kernel (via the memory
+> stick)
+> from debian site (linux-image-2.6.32.1-3_i686.deb) and it is doing the sa=
+me.
+>
+> I can boot fine with the rescue CD and chroot into the installed
+> squeeze, but
+> I don't know any more how to fix it.
+
+Neither do I.  Maybe someone else has some ideas, but I'm out.  I don't kno=
+w
+about you, but I know what I would do if it were me.  I'd reinstall from
+scratch.  (I always keep /home in a separate partition for just such
+occasions as this.)  I'd reinstall from scratch and reformat the / partitio=
+n.
+If you don't have /home as a separate partition then back up the /home dire=
+ctory
+somewhere first so you won't lose your personal files.  I strongly recommen=
+d
+that you make /home a separate partition in your new install, if it isn't n=
+ow.
+
+I also recommend that you use the latest "daily build" development version
+of the Debian installer if you want to install Squeeze directly.
+That's the only version of the D-I that I trust to install Squeeze at this
+point.  Good luck.
+
+If I had known in advace how much work it was going to be to recover my dam=
+aged
+system from a bad upgrade attempt, I wouldn't have even tried.  I would hav=
+e
+reinstalled from scratch.  You've got your system hosed up much worse than
+mine was.  I recommend that you reinstall from scratch.  And next time,
+read (and carefully follow) the release notes when you do an upgrade.
+
+--=20
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1972509979.2211501270845101316.JavaMail.root@md01.wow.synacor.com
+
+

@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fd8b2e3de3056
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs26815wfa;
+        Wed, 14 Apr 2010 11:18:29 -0700 (PDT)
+Received: by 10.115.65.19 with SMTP id s19mr391977wak.203.1271269109392;
+        Wed, 14 Apr 2010 11:18:29 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 40si1761150iwn.128.2010.04.14.11.18.29;
+        Wed, 14 Apr 2010 11:18:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id DD0431BF5EE13
+	for <mlsubscriber.tech@csmining.org>; Wed, 14 Apr 2010 11:18:28 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D83A026CA7470
+	for <mlsubscriber.tech@csmining.org>; Wed, 14 Apr 2010 11:18:28 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay11.apple.com (relay11.apple.com [17.128.113.48])
+	by lists.apple.com (Postfix) with ESMTP id C96CF26CA6E11
+	for <java-dev@lists.apple.com>; Wed, 14 Apr 2010 11:17:33 -0700 (PDT)
+X-AuditID: 11807130-b7c34ae000005b0f-7c-4bc606bd11b6
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay11.apple.com (Apple SCV relay) with SMTP id
+	B6.B3.23311.DB606CB4; Wed, 14 Apr 2010 11:17:33 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <25665.1271191752@parc.com>
+Date: Wed, 14 Apr 2010 11:17:33 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <54F3F68C-2DF1-42BD-B588-4A8B3E7009AB@apple.com>
+References: <4BC4D284.5080800@unavco.org> <25665.1271191752@parc.com>
+To: Bill Janssen <janssen@parc.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: java-dev@lists.apple.com, Stuart Wier <wier@unavco.org>
+Subject: Re: Java graphicsgeneration on Mac servers without graphics hardware
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 13, 2010, at 1:49 PM, Bill Janssen wrote:
+
+> Stuart Wier <wier@unavco.org> wrote:
+>=20
+>> It seems that Java on Mac OS X doesn't use X11 (or Xvfb) at all. Is =
+it
+>> attempting to interact with the quartz/Cocoa/Aqua window framework?
+>=20
+> Yes.  The X server is completely secondary, and I don't think Apple =
+Java
+> interacts with it at all.
+>=20
+>> It seems not particularly interested in whether or not an X server is
+>> available or the DISPLAY variable is set or whether you've tunneled X
+>> through SSH.
+>=20
+> Right.
+>=20
+>> Is there is a way to run Java graphics generation on the Mac 10.6
+>> server without a graphics display?  I need to know so I can move
+>> forward in some other way.  Rewriting the program is not an option.
+>> "headless=3Dtrue" is not a help since the program needs to run just =
+as
+>> if it had graphics.
+>=20
+> If you are using AWT, you need to give your program access to the
+> console.  Apple uses a Mach-involved security model of namespaces to
+> control access to various things; you can find more information on it =
+at
+> http://developer.apple.com/mac/library/technotes/tn2005/tn2083.html.
+> Worth reading.  Several times.
+>=20
+> But the pertinent bit is ``A process can only use the global window
+> server service if its EUID is 0 (it's running as root) or matches the
+> UID of the console user. All other users are barred from using it.''
+>=20
+> I don't see an update of this document for 10.6, either.
+>=20
+>> How can I set up things so that graphics generation proceeds and =
+makes
+>> image files as if graphics hardware were available?   The program is
+>> designed to do this using X, either with X11 with graphics hardware,
+>> or with Xvfb.
+>=20
+> You could try installing another Java that includes a client Xlib
+> implementation, and go from there.  Or, of course, run your program on
+> Linux or FreeBSD or OpenSolaris instead.
+
+No version of Java for Mac OS X provided by Apple has X11 support. Third =
+party JVMs like SoyLatte and OpenJDK do however (it's their only AWT =
+support).
+
+We do have feature requests to add X11 support, however it's a very =
+large change that would need careful thought put into how to integrate =
+side-by-side support and how to switch between the two toolkits. If such =
+a change were to be integrated, it would likely only happen in a major =
+Java version bring-up.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

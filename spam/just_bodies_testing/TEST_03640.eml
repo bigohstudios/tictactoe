@@ -1,0 +1,15 @@
+[Spambayes] Re: [Python-Dev] Getting started with GBayes testingOn 06 September 2002, Anthony Baxter said:
+> A snippet, hopefully not enough to trigger the spam-filters.
+
+As an aside: one of the best ways to dodge SpamAssassin is by having an
+In-Reply-To header.  Most list traffic should meet this criterion.
+
+Alternately, I can whitelist mail to spambayes@python.org -- that'll
+work until spammers get ahold of the list address, which usually seems
+to take a few months.
+
+        Greg
+-- 
+Greg Ward <gward@python.net>                         http://www.gerg.ca/
+Gee, I feel kind of LIGHT in the head now, knowing I can't make my
+satellite dish PAYMENTS!

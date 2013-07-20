@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c4d3f075504b0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs55500wfo;
+        Sun, 23 May 2010 04:02:24 -0700 (PDT)
+Received: by 10.223.19.87 with SMTP id z23mr3536952faa.7.1274612543503;
+        Sun, 23 May 2010 04:02:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e15si4136473fai.75.2010.05.23.04.02.22;
+        Sun, 23 May 2010 04:02:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id DAE5613A57B9; Sun, 23 May 2010 11:02:17 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=FORGED_YAHOO_RCVD,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E943213A576D
+	for <lists-debian-user@liszt.debian.org>; Sun, 23 May 2010 11:02:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.703 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FORGED_YAHOO_RCVD=2.297, LDO_WHITELIST=-5]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4SFKr6tfqgki for <lists-debian-user@liszt.debian.org>;
+	Sun, 23 May 2010 11:02:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id BBE9413A56EB
+	for <debian-user@lists.debian.org>; Sun, 23 May 2010 11:02:03 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OG8wO-0002fa-QM
+	for debian-user@lists.debian.org; Sun, 23 May 2010 13:01:56 +0200
+Received: from chello062178025100.9.11.vie.surfer.at ([62.178.25.100])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sun, 23 May 2010 13:01:56 +0200
+Received: from deloptes by chello062178025100.9.11.vie.surfer.at with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Sun, 23 May 2010 13:01:56 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: deloptes <deloptes@yahoo.com>
+Subject: upgrade from lenny to sid with kde installed (second attempt)
+Date: Sun, 23 May 2010 13:01:42 +0200
+Lines: 40
+Message-ID: <htb1un$8o8$1@dough.gmane.org>
+Reply-To: deloptes@yahoo.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7Bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: chello062178025100.9.11.vie.surfer.at
+User-Agent: KNode/0.10.9
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <wUv43GxudMF.A.6KC.5sQ-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577431
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 11:02:17 +0000 (UTC)
+
+Hi,
+I've just finished one test upgrade from lenny to sid. Here is what I did:
+
+I. upgrade to squeeze
+
+remove all the kde3 related applications
+
+1. copy the system to an external usb harddrive (and make it bootable)
+2. mount the usb drive and 
+3. chroot to the mounted dir
+4. modify /etc/apt/source.list to be squeeze
+5. apt-get update; apt-get dist-upgrade
+
+Note: not all packages have been installed correctly
+
+6. reboot into the usb drive
+7. apt-get -f install; apt-get autoremove ; apt-get clean
+
+II. upgrade to sid
+(back in my working environment)
+
+1. mount the usb drive and 
+2. chroot to the mounted dir
+3. modify /etc/apt/source.list to be sid
+4. apt-get update; apt-get dist-upgrade
+5. reboot into the usb drive
+6. apt-get -f install; apt-get autoremove ; apt-get clean
+7. using dselect or aptitude or whatever install the kde4 desktop
+
+The problem is that there are still many packages that do not "see" that I'm
+in chroot and try to restart services while upgrading.
+Do you know any solution to this?
+
+Keeping kde3 and upgrading resulted in broken system (because of
+dependencies few crucial packages were removed or prepared for installation
+when apt-get died)
+
+I short discussion would be appreciated
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/htb1un$8o8$1@dough.gmane.org
+
+

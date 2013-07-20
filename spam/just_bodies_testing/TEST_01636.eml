@@ -1,0 +1,34 @@
+Re: Making onscreen fonts read-able[was:New monitor, how to change
+ screen resolution?]On 2010-04-30 10:05:42 +0200, James Stuckey wrote:
+>
+>http://www.jhstuckey.com/1080.jpeg
+>
+>Does that look right to you?
+
+I think the problem you are having is "un-themed GTK". You don't have
+a desktop suite, so maybe you're like me and you like to keep your
+system lean and mean. If so, it could be that you don't have any GTK
+themes installed. A simple, lightweight GTK theme will drastically
+improve the appearance of Iceweasel. The default GTK theme is called
+Raleigh and it's not very good, the fonts are too big, and so on.
+
+I lived without a theme for a while until I got so sick of how ugly
+my GTK apps were. Then I went searching for themes and everything's
+better. You can even get themes that are light and have good
+performance.
+
+If you are interested in getting some simple GTK themes:
+
+    aptitude install gtk2-engines
+
+Hope this helps,
+
+Phil
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100505073523.GA5674@kasploosh.net
+
+

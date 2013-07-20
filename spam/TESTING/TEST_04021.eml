@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bc7332495c522
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs14585wfo;
+        Fri, 21 May 2010 12:59:47 -0700 (PDT)
+Received: by 10.223.5.89 with SMTP id 25mr1873088fau.87.1274471985699;
+        Fri, 21 May 2010 12:59:45 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s7si2298822faa.92.2010.05.21.12.59.45;
+        Fri, 21 May 2010 12:59:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4198313A5663; Fri, 21 May 2010 19:59:40 +0000 (UTC)
+Old-Return-Path: <michael@kjorling.se>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B5B8813A559C
+	for <lists-debian-user@liszt.debian.org>; Fri, 21 May 2010 19:59:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id D2tu2VHdRnzu for <lists-debian-user@liszt.debian.org>;
+	Fri, 21 May 2010 19:59:27 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from loup.kjorling.se (loup.kjorling.se [87.237.208.114])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 7194A13A5396
+	for <debian-user@lists.debian.org>; Fri, 21 May 2010 19:59:15 +0000 (UTC)
+Received: by loup.kjorling.se (Postfix, from userid 201)
+	id C0AFD10A5C0AE; Fri, 21 May 2010 19:59:12 +0000 (UTC)
+Received: from yeono (1-1-3-28a.sde.skv.bostream.se [82.183.192.131])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "yeono.kjorling.se", Issuer "yeono.kjorling.se" (not verified))
+	by loup.kjorling.se (Postfix) with ESMTPS id A878210A5C0AA
+	for <debian-user@lists.debian.org>; Fri, 21 May 2010 19:59:09 +0000 (UTC)
+Received: from yeono.kjorling.se (localhost [127.0.0.1])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(Client did not present a certificate)
+	by yeono (Postfix) with ESMTPS id 486262E005A
+	for <debian-user@lists.debian.org>; Fri, 21 May 2010 21:59:09 +0200 (CEST)
+Date: Fri, 21 May 2010 19:59:08 +0000
+From: Michael Kjorling <michael@kjorling.se>
+To: debian-user@lists.debian.org
+Subject: Re: RAW photo images
+Message-ID: <20100521195908.GB2804@yeono.kjorling.se>
+References: <20100521150347.760fb9e5@Mondo>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="8GpibOaaTibBMecb"
+Content-Disposition: inline
+In-Reply-To: <20100521150347.760fb9e5@Mondo>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0PZEEZMuy5G.A.25.sYu9LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577328
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 21 May 2010 19:59:40 +0000 (UTC)
+
+
+--8GpibOaaTibBMecb
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On May 21 2010 15:03 -0400, from ckrogrr@frankensteinface.com (Charles Kroe=
+ger):
+> Does anyone running Debian, (not Umbuto) use 'raw-therapee' or know
+> of a good raw image processor that does well with 'our' distro?
+
+I use F-Spot for photo management and UFRaw for raw conversion; these
+work well for me with my Canon EOS 50D.
+
+--=20
+Michael Kj=C3=B6rling .. michael@kjorling.se .. http://michael.kjorling.se
+* ..... No bird soars too high if he soars with his own wings ..... *
+* ENCRYPTED email preferred -- OpenPGP keys: 0x32D6B8C6, 0xBDE9ADA6 *
+* ASCII Ribbon Campaign: Against HTML mail, proprietary attachments *
+
+
+--8GpibOaaTibBMecb
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iD8DBQFL9uYLdY+HSb3praYRAp/+AJ9BPzH+U0iHGl5CMQsD3fzxqUkCKgCfdH02
+Gyg43RP0IEOSr2x++06xsw0=
+=MYsS
+-----END PGP SIGNATURE-----
+
+--8GpibOaaTibBMecb--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100521195908.GB2804@yeono.kjorling.se
+
+

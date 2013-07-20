@@ -1,0 +1,72 @@
+Re: Ctrl+alt+Fn not showing consolesLe 26/04/2010 20:55, Hugo Vanwoerkom a écrit :
+>
+> rudu wrote:
+>> Le 26/04/2010 19:43, Hugo Vanwoerkom a écrit :
+>>>
+>>> rudu wrote:
+>>>> Hi,
+>>>> Running squeeze on AMD64 arch, my system recently stopped to let me
+>>>> get my consoles after I hit the ctrl+alt+Fn keys (n = 1 to 6).
+>>>
+>>> When did it stop?
+>>
+>> I can't be sure but that may coincide with that kernel*-trunk thing, 
+>> when I had to go back to the nv driver as I couldn't get the 
+>> proprietary Nvidia driver to compile with my new kernel.
+>> FWIW, a few more details :
+>> $ uname -a
+>> Linux birdynam 2.6.32-3-amd64 #1 SMP Wed Feb 24 18:07:42 UTC 2010 
+>> x86_64 GNU/Linux
+>> $ lspci | grep VGA
+>> 01:00.0 VGA compatible controller: nVidia Corporation G96 [GeForce 
+>> 9400 GT] (rev a1)
+>>
+>
+> So are you still running nv? 
+Yes
+
+> and what was the driver that wouldn't compile?
+> I run x86-195.36.15 on the latest Sid kernel and it compiles just 
+> fine, but I don't (yet) have a AMD64 system.
+
+Excerpt from /var/log/nvidia-installer.log :
+> Using: nvidia-installer ncurses user interface
+> WARNING: Skipping the runlevel check (the utility `runlevel` failed to 
+> run).
+> -> License accepted.
+> -> Installing NVIDIA driver version 195.36.15.
+> -> Performing CC sanity check with CC="cc".
+> -> Performing CC version check with CC="cc".
+> -> The CC version check failed:
+>
+>    The compiler used to compile the kernel (gcc 4.3) does not exactly 
+> match the
+>    current compiler (gcc 4.4).  The Linux 2.6 kernel module loader 
+> rejects kern
+>    el modules built with a version of gcc that does not exactly match 
+> that of t
+>    he compiler used to build the running kernel.
+>
+>    If you know what you are doing and want to ignore the gcc version 
+> check, sel
+>    ect "No" to continue installation.  Otherwise, select "Yes" to 
+> abort install
+>    ation, set the CC environment variable to the name of the compiler 
+> used to c
+>    ompile your kernel, and restart installation.  Abort now? (Answer: Yes)
+> ERROR: Installation has failed.  Please see the file
+>        '/var/log/nvidia-installer.log' for details.  You may find 
+> suggestions
+>        on fixing installation problems in the README available on the 
+> Linux
+>        driver download page at www.nvidia.com.
+
+Thanks Hugo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD5E68E.5030702@cegetel.net
+
+

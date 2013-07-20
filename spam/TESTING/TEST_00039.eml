@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283f4b7cabd09bc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs131487wfj;
+        Tue, 27 Apr 2010 05:43:51 -0700 (PDT)
+Received: by 10.143.20.7 with SMTP id x7mr2788626wfi.328.1272372231450;
+        Tue, 27 Apr 2010 05:43:51 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 38si5351148pzk.65.2010.04.27.05.43.51;
+        Tue, 27 Apr 2010 05:43:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 423B61BCE6910
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 05:43:51 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 3D89D27286AE4
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 05:43:51 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 8562027286908
+	for <quicktime-api@lists.apple.com>;
+	Tue, 27 Apr 2010 05:43:33 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 757B4D66E597
+	for <quicktime-api@lists.apple.com>;
+	Tue, 27 Apr 2010 05:43:33 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-e1-4bd6dbf41932
+Received: from m2.ach.sch.gr (m2.ach.sch.gr [194.63.238.16])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	C8.78.17067.4FBD6DB4; Tue, 27 Apr 2010 05:43:33 -0700 (PDT)
+Received: (qmail 29511 invoked by uid 207); 27 Apr 2010 12:43:31 -0000
+Received: from 62.1.247.9 by m2 (envelope-from <birbilis@kagi.com>,
+	uid 201) with qmail-scanner-2.01 (sophie: //.  
+	Clear:RC:0(62.1.247.9):. 
+	Processed in 0.087302 secs); 27 Apr 2010 12:43:31 -0000
+Received: from 62.1.247.9.dsl.dyn.forthnet.gr (HELO GeorgePC)
+	(Authenticated?user:?birbilis@[62.1.247.9])
+	(envelope-sender <birbilis@kagi.com>)
+	by m2.ach.sch.gr (qmail-ldap-1.03) with SMTP
+	for <orestis@orestis.gr>; 27 Apr 2010 12:43:31 -0000
+From: "George Birbilis" <birbilis@kagi.com>
+To: "'Orestis Markou'" <orestis@orestis.gr>,
+	<quicktime-api@lists.apple.com>
+References: <1088E6E8-8007-4BFF-B744-A787FEDED13F@orestis.gr>
+In-Reply-To: <1088E6E8-8007-4BFF-B744-A787FEDED13F@orestis.gr>
+Date: Tue, 27 Apr 2010 15:43:29 +0300
+Organization: Zoomicon
+Message-ID: <002c01cae607$3d4aeb00$b7e0c100$@com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Acrl8l2tDQDujSkuSSODVBDyJiGeHAAFMSiA
+Content-Language: el
+X-Brightmail-Tracker: AAAAAgzCY6MT2cBm
+Cc: 
+Subject: RE: Loading a QTMovie when there is no graphical login
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Geia sou Oresti,
+
+
+If there's an API to turn-off h/w acceleration for your app context only, it
+might help
+
+
+-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+George Birbilis (http://Zoomicon.com)
+Microsoft MVP J# 2004-2010
+Borland Spirit of Delphi 2001
+http://birbilis.spaces.live.com
+http://twitter.com/zoomicon
+-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+Insert QuickTime in PowerPoint, Forms etc.:
+http://zoomicon.com/QT4All
+
+
+
+
+I have a web-service that produces static images from various sources using
+Quartz.
+
+Recently I wanted to add the capability of adding QTMovie screenshots there,
+but I'm having some issues.
+
+When the service is run by a user which currently has a graphical login, it
+works fine - I can load a QTMovie, and grab a frame from a specific time to
+be used in the image export.
+
+
+However, in the production environment, the app is run by a user which is
+not logged in. Everything else (Quartz) works fine, but QTMovie loading
+bails out with this:
+
+/SourceCache/QTOtherComponents/QuickTime-1674/MidVale/AVA_VP3_QT/Component/A
+VA_HDUtilitiesHW.c: CGGetOnlineDisplayList failed with code 1011 
+/SourceCache/QTOtherComponents/QuickTime-1674/MidVale/AVA_VP3_QT/Component/A
+VA_HDUtilitiesHW.c: CGGetOnlineDisplayList failed with code 1011 
+_RegisterApplication(), FAILED TO establish the default connection to the
+WindowServer, _CGSDefaultConnection() is NULL
+/SourceCache/QTOtherComponents/QuickTime-1674/MidVale/AVA_VP3_QT/Component/A
+VA_HDUtilitiesHW.c: CGGetOnlineDisplayList failed with code 1011 
+
+Is there a way to work around this? I only want to get the poster image from
+that movie, nothing else. I can detect in my code when I'm not connected to
+the windowserver with CGGetOnlineDisplayList, so I can switch to a different
+code path if required.
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

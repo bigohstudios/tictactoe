@@ -1,0 +1,21 @@
+Re: Adding metadata to file
+On Apr 22, 2010, at 3:34 PM, Phil McLauchlan wrote:
+
+> I've been trying to add a metadata item to a Quicktime file using the
+> Quicktime API, but when I try to do it the file is unchanged. Probably
+> something simple I'm missing in the following code, but does anyone  
+> know
+> what it is?
+
+You need to save the movie, that is, call  UpdateMovieResource
+
+Jan E.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,61 @@
+Re: downloaded .jnlp won't openCamaleón wrote:
+> On Tue, 27 Apr 2010 16:22:37 +0100, John O Laoi wrote:
+> 
+>> Camaleón,
+>>> Run "update-alternatives --display java"
+>>>
+>>>
+>> # update-alternatives --display java
+>>
+>> java - auto mode
+>>
+>>  link currently points to /usr/lib/jvm/java-6-openjdk/jre/bin/java
+> 
+> That is not the Sun's Java but let's keep that way.
+> 
+> 
+>>> "about:plugins"
+>>>
+>>> And look for the plugin in charge of handling Java files (checkout the
+>>> path to the file).
+>>>
+>>>
+>> Java(TM) Plug-in 1.6.0_16
+>> File name: /usr/lib/jvm/java-6-sun-1.6.0.16/jre/lib/i386/libnpjp2.so The
+> 
+> That's o.k.
+> 
+> Icewasel is pointing to the Sun's java plugin.
+> 
+>>> Note 1. Can you send the link to the file you are trying to launch?
+>>>
+>>>
+>> the link that I am trying to launch is at
+>> https://www.sans.org/webcasts/archive/
+>>
+>> You need to create an account with sans.org before launching a webcast.
+> 
+> How about these sample files? Can you run them?
+> 
+> http://pscode.org/jws/api.html
+> 
+> I'm afraid the problem resides not in your Icewasel or Java setup but in 
+> JNLP file itself. Try running others.
+> 
+> Tip: jnlp fiels are just xml plain text files so you can download the 
+> file to your desktop and then open it with any text editor to grab the 
+> full ".jar" source path and try to load it directly, without using the 
+> webstart launcher.
+> 
+
+Not bad. Thanks.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hr7g7n$sde$1@dough.gmane.org
+
+

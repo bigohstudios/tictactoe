@@ -1,0 +1,45 @@
+Re: Does bcm4310 work with Debian Lenny?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+>On Wed, Apr 14, 2010 at 12:53 AM, Camale=F3n <noelamac@csmining.org> wrote:
+>Some Broadcom cards not supported by b43 driver have support with
+>"ndiswrapper", you could check if your model is listed there :-?
+>
+>Mmmm, for this I dunno. It seems to be using Intel G45 chipset. Google a
+>bit to check what people is saying.
+
+Thanks Camale=F3n, I'll look into that chipset a bit more.  Want to avoid
+ndiswrapper if possible; this laptop I'm looking at is built for Linux so
+I'm not sure why it has a Broadcom wireless card.
+
+
+>On Wed, Apr 14, 2010 at 2:20 AM, Omar Campagne <ocampagne@csmining.org> wrote=
+:
+>I have a bcm4312, "cousin" of your wireless. b43 gave me a terribly
+>bad performance, and ndiswrapper works fine for me, however, you need
+>to blacklist ssb and b43 modules at boot (not neccessary anymore?)
+
+Thanks Omar, another vote for ndiswrapper :(
+
+
+>On Wed, Apr 14, 2010 at 6:27 AM, Celejar <celejar@csmining.org> wrote:
+
+> >According to these messages, your card likely has an LP PHY:
+> >
+>
+http://lists.berlios.de/pipermail/bcm43xx-dev/2008-June/004219.html
+> http://lists.berlios.de/pipermail/bcm43xx-dev/2008-June/004221.html
+> >
+> >Recently, there's been a lot of work on the LP PHY, and at least some
+> >cards have at least some support.  I don't know about yours - I'd ask
+> >on the b43 list (new home at infradead), if you care enough.
+>
+
+Interesting, thank you Celejar, I've looked at your links and will
+investigate more.  Since I haven't bought this laptop yet, I'm going to kee=
+p
+searching for something as close to 100% Debian Lenny compatible
+out-of-the-box as possible.
+
+Mark

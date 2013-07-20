@@ -1,0 +1,54 @@
+Re: Simple tool to extract sound from video?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Phil Requirements wrote:
+> On 2010-05-07 23:52:47 -0500, Ron Johnson wrote:
+>  =20
+>> On 05/07/2010 09:48 PM, Phil Requirements wrote:
+>>    =20
+>>> On 2010-05-07 18:19:44 +0200, Merciadri Luca wrote:
+>>>      =20
+>>>> Rob Owens wrote:
+>>>>        =20
+>>>>> Avidemux can do it also.  It's a GUI, but I think it's more
+>>>>> straightforward to do it with ffmpeg, as suggested above
+>>>>>          =20
+>>>> Thanks. ffmpeg does actually, exactly what I want. Thanks. (For such=
+
+>>>> things, people habitually ask for a mere commandline use, at least m=
+e.)
+>>>>        =20
+>>> to watch videos, so I have an mplayer recipe to do this same job.  It=
+
+>>> goes like this:
+>>>
+>>>     mplayer myvideo.avi -vc null -vo null -ao pcm:file=3Dmyvideo.wav
+>>>      =20
+>> $ mplayer ${i}.mpeg -dumpaudio -dumpfile ${i}.raw_audio
+>> $ file ${i}.raw_audio
+>> $ mv ${i}.raw_audio ${i}.whatever
+>>
+>>    =20
+>
+> Yes, another interesting way to use mplayer. You can use the
+> -dumpaudio option to get the raw audio data out of the file.  I am
+> usually not trying to get the raw audio however, because it might be
+> compressed or encoded in weird ways. I usally want to have a nice
+> uncompressed wav file that I can work with. And mplayer is pretty
+> handy for that...
+>
+> So many choices!
+>  =20
+Thanks for this. I am still wondering why VLC does not extract audio as
+expected.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Fine feathers make fine birds.
+

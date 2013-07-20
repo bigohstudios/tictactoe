@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d3f5c9715c54e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs200738wfa;
+        Tue, 6 Apr 2010 09:30:53 -0700 (PDT)
+Received: by 10.87.29.33 with SMTP id g33mr11373603fgj.27.1270571452761;
+        Tue, 06 Apr 2010 09:30:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si30174208fxm.62.2010.04.06.09.30.52;
+        Tue, 06 Apr 2010 09:30:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 02B3413A63B3; Tue,  6 Apr 2010 16:30:41 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.7 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_NUMERIC_HELO autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1A44F13A63A5
+	for <lists-debian-user@liszt.debian.org>; Tue,  6 Apr 2010 16:30:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.933 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_NUMERIC_HELO=2.067]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id EcZ7gkMNAWLe for <lists-debian-user@liszt.debian.org>;
+	Tue,  6 Apr 2010 16:30:27 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id A60A313A63A0
+	for <debian-user@lists.debian.org>; Tue,  6 Apr 2010 16:30:27 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1NzBfS-00015Y-10
+	for debian-user@lists.debian.org; Tue, 06 Apr 2010 18:30:22 +0200
+Received: from 151.82.151.75 ([151.82.151.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 06 Apr 2010 18:30:22 +0200
+Received: from rodolfo.medina by 151.82.151.75 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 06 Apr 2010 18:30:22 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+From: Rodolfo Medina <rodolfo.medina@csmining.org>
+Subject: Re: Epson Stylus SX110 under Debian Lenny?
+Date: Tue, 06 Apr 2010 18:30:03 +0200
+Lines: 21
+Message-ID: <874ojo1r3o.fsf@csmining.org>
+References: <87zl1w4ieh.fsf@csmining.org> <201003251703.07260.tchatelet@free.fr>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 151.82.151.75
+User-Agent: Gnus/5.110007 (No Gnus v0.7) Emacs/22.0.50 (gnu/linux)
+Cancel-Lock: sha1:D8yTXn70thnxhEpAXgRhfBA1Q3k=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <KB7z_H6k7CJ.A.bX.wG2uLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573447
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 16:30:41 +0000 (UTC)
+
+On Thursday 25 March 2010 14:53:26 Rodolfo Medina wrote:
+
+>> I a shop in my town it is sold at a good price the multifunction Epson
+>>  Stylus SX110 printer and I wish to buy it.  Does anybody have any direct
+>>  experience that it should work fine under Lenny?
+
+
+Thierry Chatelet <tchatelet@free.fr> writes:
+
+> Are you sure of the denomination of the printer? It does not show anything 
+> like it there:
+> http://www.openprinting.org/printers
+
+
+Today I went back to that shop and found many other printers - about ten - none
+of whose is listed there.  So, that list seems to be quite old.  On the other
+hand, I seriously need a new printer but would like to be sure it'll work under
+Debian.  What do you Debian users suggest?
+
+Thanks all
+Rodolfo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/874ojo1r3o.fsf@csmining.org
+
+

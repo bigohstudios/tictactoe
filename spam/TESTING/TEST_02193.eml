@@ -1,0 +1,150 @@
+X-Account-Key: account5
+X-UIDL: GmailId12853948bb38d990
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs143133wfj;
+        Sat, 1 May 2010 04:16:04 -0700 (PDT)
+Received: by 10.223.63.17 with SMTP id z17mr2040244fah.66.1272712563699;
+        Sat, 01 May 2010 04:16:03 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si4748063fkt.7.2010.05.01.04.16.03;
+        Sat, 01 May 2010 04:16:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D39D82D0C4C; Sat,  1 May 2010 11:15:58 +0000 (UTC)
+Old-Return-Path: <aspnair@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 727E413A47D9
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 11:15:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1X7LIn-tM0Pt for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 11:15:45 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .gmail. - helo: .mail-yx0-f177.google. - helo-domain: .google.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1; rate: -6.9
+Received: from mail-yx0-f177.google.com (mail-yx0-f177.google.com [209.85.210.177])
+	by liszt.debian.org (Postfix) with ESMTP id 2E33213A469D
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 11:15:44 +0000 (UTC)
+Received: by yxe7 with SMTP id 7so139161yxe.19
+        for <debian-user@lists.debian.org>; Sat, 01 May 2010 04:15:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=y4tYHicyJ1R53jGc6ydI5UScBgA53eczNHqe8kzdl2c=;
+        b=dsKV4XUZs6T72mW0xP2fl8DrFI479rTDcdi87swvitIA2vKjz1Jnrl7agaFcxqtw6y
+         2d9lbAyxXWu6CIwYKtMr21RonGMdOqD9PptxLpnaJTEHWIM/03XrofybUZwUYFKnCc60
+         V8xdIcp+8izdW9RuugH1GgQV/jjMpFxhv5+pk=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=qgHmXR3952WNECdB5+IJ4qDn/CzxexMbEz60RB+7L6K9WNVSS3cujv6/6V021nau0n
+         W/cs99H2GrtPWE4phHa7MK6ZEVu6C0fs9tkEQotlXpWTvO/dmb7XnMa4ckgj5MrVibTu
+         GCOktuczEoTj6z4eYk8Cs2jc1Z6LhdB8gIKr8=
+MIME-Version: 1.0
+Received: by 10.150.48.34 with SMTP id v34mr5307346ybv.137.1272712536498; Sat, 
+	01 May 2010 04:15:36 -0700 (PDT)
+Received: by 10.150.227.3 with HTTP; Sat, 1 May 2010 04:15:36 -0700 (PDT)
+In-Reply-To: <pan.2010.05.01.10.42.05@csmining.org>
+References: <v2mb36d43c31005010313gc968713chc61e587759958e7d@mail.csmining.org>
+	 <pan.2010.05.01.10.42.05@csmining.org>
+Date: Sat, 1 May 2010 16:45:36 +0530
+Message-ID: <o2ud0bf7b0b1005010415pd53f1d0flbe5955424c3e9e1e@mail.csmining.org>
+Subject: Re: Can't play 24bit/96kHz flac files
+From: Anand Sivaram <aspnair@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <v3MwV1_XuSP.A.HBH.u1A3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575615
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 11:15:58 +0000 (UTC)
+
+On Sat, May 1, 2010 at 16:12, Camale=F3n <noelamac@csmining.org> wrote:
+> On Sat, 01 May 2010 12:13:29 +0200, James Stuckey wrote:
+>
+>> If I try to play them in MOC I get: (0) Can't set audio parameters:
+>> Invalid argument
+>>
+>> With mplayer I see:
+>
+> (...)
+>
+>> Running file on the file gives:
+>> flac: FLAC audio bitstream data, 24 bit, 6 channels, 96 kHz, 54720000
+>> samples
+>>
+>> This only happens with this file. The file plays on other systems
+>> (windows).
+>
+> Have you tried to play it with another media players (VideoLan,
+> Rhythmbox, Totem...)?
+>
+> Greetings,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/pan.2010.05.01.10.42.05@csmining.org
+>
+>
+
+
+* Native capability of sound card can be found from
+cat /proc/asound/card0/pcm0p/sub0/hw_params
+
+* Decoding is done by the player itself, most probably the decoder
+output format in your case would be 96khz, 24 bit little endian.  If
+the native rate of your card is only 44100Hz/48000Hz, it can not
+support this.
+
+* In order to play this format this has to be downsampled.  The
+downsamping could be done either by 1) the player itself, but it
+completely depends upon the features and capabilities of the player or
+2)by the (alsa) driver.
+
+So these are your options.
+* Try out different players as Camale=F3n suggested.
+
+* Many players allow you to specify the output audio device.
+Try "plughw:0,0" instead of the default one.  This is a special device
+given by alsa to do audio processing.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2ud0bf7b0b1005010415pd53f1d0flbe5955424c3e9e1e@mail.csmining.org
+
+

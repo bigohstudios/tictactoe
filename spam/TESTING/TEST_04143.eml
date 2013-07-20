@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287542b9d1a42ec
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs481025wfb;
+        Fri, 7 May 2010 17:13:46 -0700 (PDT)
+Received: by 10.143.25.2 with SMTP id c2mr454320wfj.147.1273277626515;
+        Fri, 07 May 2010 17:13:46 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 40si3761174pzk.23.2010.05.07.17.13.46;
+        Fri, 07 May 2010 17:13:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 392061BFAFDF5
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 17:13:46 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 34AB5277D5F30
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 17:13:46 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay11.apple.com (relay11.apple.com [17.128.113.48])
+	by lists.apple.com (Postfix) with ESMTP id 0FF97277D5D35
+	for <x11-users@lists.apple.com>; Fri,  7 May 2010 17:13:27 -0700 (PDT)
+X-AuditID: 11807130-b7c56ae000001d33-4c-4be4aca6a10c
+Received: from elliott.apple.com (elliott.apple.com [17.151.62.13])
+	by relay11.apple.com (Apple SCV relay) with SMTP id
+	64.DF.07475.6ACA4EB4; Fri,  7 May 2010 17:13:26 -0700 (PDT)
+Received: from [17.151.79.101] by elliott.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L2200H6KRAE1B20@elliott.apple.com> for
+	x11-users@lists.apple.com; Fri, 07 May 2010 17:13:26 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <4BE4A45D.3020104@uci.edu>
+Date: Fri, 07 May 2010 17:13:25 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <A3CCA4BF-4EF2-403A-8AD1-F47C4A94DE7F@apple.com>
+References: <4BE31818.5080907@uci.edu>
+	<1AE0E45E-03CB-4463-9AAD-DFB387D6FA5B@apple.com>
+	<4BE4A45D.3020104@uci.edu>
+To: Philip Dennison <dennison@uci.edu>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11 Mailing <x11-users@lists.apple.com>
+Subject: Re: 8-bit color in Tiger X11 and Snow Leopard X11
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On May 7, 2010, at 16:38, Philip Dennison wrote:
+
+> On 20100507 16:02, Jeremy Huddleston wrote:
+>>=20
+>> On May 6, 2010, at 12:27, Philip Dennison wrote:
+>>=20
+>>> If X11 is not set to output 256 colors,
+>>=20
+>> Pseudocolor is not very well supported by the X11 community as it is =
+a very outdated and costly way to handle colors.  We have limited =
+support in XQuartz, but you must select the 8bit mode.
+>>=20
+>> Most of these applications probably won't even work on modern Xorg =
+DDXs either.  You really should update your applications or ask the =
+developers to support TrueColor... They've had well over a decade to do =
+it...
+>>=20
+>> --Jeremy
+>>=20
+>>=20
+>=20
+> Thanks Jeremy.
+>=20
+> Unfortunately neither the software or operating system is supported =
+anymore. I prefer the old software to the current alternative (and =
+already have the licenses), and the SGI platform is so reliable. The =
+computers are at least 12 years old and the Bruker XwinNMR program, was =
+replaced about 5-6 years ago!
+>=20
+> It is also unfortunate that this was handled so nicely by the old X11. =
+I haven't yet tried installing the Tiger X11 on a Snow Leopard machine - =
+would the instructions for doing this under Leopard still work?
+>=20
+> Phil.
+
+Are you experiencing problems when you set the X11 color depth to 256 =
+colors in the preferences?
+
+I think the instructions may still be valid.  I'm not 100% positive, =
+though.  You can also try the package I made a while back:
+
+=
+http://static.macosforge.org/xquartz/downloads/Leopard/X11_Legacy-1.1.4.1.=
+pkg
+http://static.macosforge.org/xquartz/downloads/Leopard/X11_Legacy.README
+
+I think there may be a problem with the quartz-wm in that package, but =
+it should work ok if you use Snow Leopard's quartz-wm instead.
+
+This is really not a supported approach, but hopefully it'll help.  If =
+you have any problems, let me know, and I'll try to help.
+
+--Jeremy
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

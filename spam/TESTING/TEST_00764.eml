@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId12808ee655c13c4c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs43390wfj;
+        Fri, 16 Apr 2010 16:22:42 -0700 (PDT)
+Received: by 10.101.145.35 with SMTP id x35mr4966369ann.236.1271460160847;
+        Fri, 16 Apr 2010 16:22:40 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 1si7888287iwn.131.2010.04.16.16.22.40;
+        Fri, 16 Apr 2010 16:22:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 441661C0285B6
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:22:40 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 3D52526DF760F
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:22:40 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 2A87326DF739A
+	for <objc-language@lists.apple.com>;
+	Fri, 16 Apr 2010 16:22:17 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 19E88D0FB11C
+	for <objc-language@lists.apple.com>;
+	Fri, 16 Apr 2010 16:22:17 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-9c-4bc8f128227c
+Received: from mail-iw0-f179.google.com (mail-iw0-f179.google.com
+	[209.85.223.179])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	B9.5F.17067.821F8CB4; Fri, 16 Apr 2010 16:22:17 -0700 (PDT)
+Received: by iwn9 with SMTP id 9so1845522iwn.0
+	for <objc-language@lists.apple.com>;
+	Fri, 16 Apr 2010 16:22:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:received:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	bh=fDA8xUTNp4yVI5Ges17KNgGhAJCNKfny5cHueJZ7518=;
+	b=NWzk5xuWBX8U9nsVR5ztjo0QPWlZTnYKJeaGxP9lLN6kEFA/5Wfl0HCTqgbHSwtPcU
+	UrNHjqbZ3ColdVD8aMg7hu5W3kfwpIAGo3RbVJbR2HfapYeKWG9VSlaDo79cX50hNR9F
+	81FzaavrZRo+zKKphZkx0+zyfu6B1cOAd3zHw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type:content-transfer-encoding;
+	b=cJUuRDu4Swd7b5x2+p4GHP/y4F/cnfpb6ajnXL0NgeG2SFXxxcsAyPBVBRj2jw6Ko7
+	VwFGrpH5OBxyfTfwz67hPdkm6rK68arTu/mWlQANaCGp9S+q4ChXYG3puyURhEVbdqJj
+	I58QoSb7MR4cVUzHyMvaw3C/M16MiEn2Xy0UU=
+MIME-Version: 1.0
+Received: by 10.231.150.80 with HTTP; Fri, 16 Apr 2010 16:22:16 -0700 (PDT)
+In-Reply-To: <h2k597e7edb1004161553l6b445fd7h3af760ba0af3a1d5@mail.csmining.org>
+References: <h2k597e7edb1004161553l6b445fd7h3af760ba0af3a1d5@mail.csmining.org>
+Date: Fri, 16 Apr 2010 18:22:16 -0500
+Received: by 10.231.59.149 with SMTP id l21mr752240ibh.80.1271460136341; Fri, 
+	16 Apr 2010 16:22:16 -0700 (PDT)
+Message-ID: <t2yf107df21004161622l4bfdbfe3w8f537fb8753c1a13@mail.csmining.org>
+From: "Stephen J. Butler" <stephen.butler@csmining.org>
+To: Objective-C List <objc-language@lists.apple.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAxO1VpgTth2WE7ZYTA==
+Subject: Re: @synchronized scope strangeness
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Your problem is simple...
+
+On Fri, Apr 16, 2010 at 5:53 PM, Hamish Allan <hamish@csmining.org> wrote:
+> @implementation NSPersistentStore (OTAdditions)
+> - (NSNumber *)autoincrementingNumberForKey:(NSString *)key
+> {
+> =A0 =A0NSNumber *number;
+> =A0 =A0@synchronized(self)
+> =A0 =A0{
+> =A0 =A0 =A0 =A0NSMutableDictionary *metadata =3D [[self metadata] mutable=
+Copy];
+>
+> =A0 =A0 =A0 =A0// need to copy and autorelease the number because the ori=
+ginal
+> =A0 =A0 =A0 =A0// does not remain valid outside of the @synchronized bloc=
+k (why?!)
+> =A0 =A0 =A0 =A0number =3D [[[metadata objectForKey:key] copy] autorelease=
+];
+
+If you don't somehow retain "number" here...
+
+> =A0 =A0 =A0 =A0if (!number)
+> =A0 =A0 =A0 =A0 =A0 =A0number =3D [NSNumber numberWithUnsignedLongLong:1]=
+;
+> =A0 =A0 =A0 =A0[metadata setValue:[NSNumber
+> numberWithUnsignedLongLong:([number unsignedLongLongValue] + 1)]
+> forKey:key];
+
+... it's released by the dictionary when you replace it with a new
+value here. That's why you need the copy-autorelease. Or a retain
+would work just as well, and then you could autorelease as you return
+it (return [number autorelease]).
+
+> =A0 =A0 =A0 =A0[self setMetadata:metadata];
+
+Also, you never release the mutableCopy of metadata that you created.
+Memory leak.
+
+> =A0 =A0}
+> =A0 =A0return number;
+> }
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

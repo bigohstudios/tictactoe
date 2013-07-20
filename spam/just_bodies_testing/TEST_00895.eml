@@ -1,0 +1,36 @@
+Re: Apt repository authentication: it's timeOn Wed, 9 Oct 2002 11:03:11 +0200, Matthias Saou <matthias@rpmforge.net> wrote:
+
+> I don't think gpg signing my repositories will help anything, as it will
+> just ensure that my passphrase was typed to confirm the md5 signatures of
+> all pgklists and srclists. Basically, you'll then just be sure that it's me
+> who generated the files, and this will of course prevent automating the
+> process of updating the apt repository when Red Hat updates show up.
+
+    Isn't there a packager-key that's concealed inside the rpm?  Things have changed a bit since I used to work with'em, but I thought there was some internal number that must be compared to be correct (or, presumably, return an error.)
+ 
+> In Red Hat Linux 8.0 though, the warnings about "No Key" appear until you
+> import the right gpg public keys directly with rpm, for example :
+> rpm --import /usr/share/doc/apt-0.5.4cnc7/RPM-GPG-KEY
+> (this will import my key, which is used to sign all freshrpms.net packages)
+
+    Hey, cool; wether it protects me or not, I feel better about it.
+ 
+> Hopefully it is possible to the tell rpm to install *only* packages who
+> verify against an imported gpg key? This for me would be the optimal way to
+> ensure integrity with the way things curently work.
+
+    Yeah, surely there's a flag for that; there is, for everything else, aye?  :)
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+angegangen, Schlange-Hüften, sein es ganz rüber jetzt. Bügel innen fest,
+weil es eine lange, süsse Fahrt ist. 
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

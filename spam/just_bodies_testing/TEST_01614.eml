@@ -1,0 +1,38 @@
+Re: Ctrl+alt+Fn not showing consolesrudu wrote:
+> Le 26/04/2010 19:43, Hugo Vanwoerkom a écrit :
+>>
+>> rudu wrote:
+>>> Hi,
+>>> Running squeeze on AMD64 arch, my system recently stopped to let me
+>>> get my consoles after I hit the ctrl+alt+Fn keys (n = 1 to 6).
+>>
+>>
+>> When did it stop?
+> 
+> I can't be sure but that may coincide with that kernel*-trunk thing, 
+> when I had to go back to the nv driver as I couldn't get the proprietary 
+> Nvidia driver to compile with my new kernel.
+> FWIW, a few more details :
+> $ uname -a
+> Linux birdynam 2.6.32-3-amd64 #1 SMP Wed Feb 24 18:07:42 UTC 2010 x86_64 
+> GNU/Linux
+> $ lspci | grep VGA
+> 01:00.0 VGA compatible controller: nVidia Corporation G96 [GeForce 9400 
+> GT] (rev a1)
+> 
+
+So are you still running nv? and what was the driver that wouldn't compile?
+I run x86-195.36.15 on the latest Sid kernel and it compiles just fine, 
+but I don't (yet) have a AMD64 system.
+With nv I run into a lot of trouble on my system, the reason I use the 
+proprietary driver. Works good.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hr4njr$7kq$1@dough.gmane.org
+
+

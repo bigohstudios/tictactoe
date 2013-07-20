@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId128754960cba6c0b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs481215wfb;
+        Fri, 7 May 2010 17:21:03 -0700 (PDT)
+Received: by 10.223.23.83 with SMTP id q19mr891048fab.12.1273278062752;
+        Fri, 07 May 2010 17:21:02 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si3266139fat.58.2010.05.07.17.21.02;
+        Fri, 07 May 2010 17:21:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2BF9B13A53C3; Sat,  8 May 2010 00:20:58 +0000 (UTC)
+Old-Return-Path: <enrico.agliotti@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.1 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,PHONE,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CABF713A52B7
+	for <lists-debian-kde@liszt.debian.org>; Sat,  8 May 2010 00:20:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, PHONE=2,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id iNrkkzbX7mkz for <lists-debian-kde@liszt.debian.org>;
+	Sat,  8 May 2010 00:20:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id AA86313A5276
+	for <debian-kde@lists.debian.org>; Sat,  8 May 2010 00:20:44 +0000 (UTC)
+Received: by wwb34 with SMTP id 34so134657wwb.6
+        for <debian-kde@lists.debian.org>; Fri, 07 May 2010 17:20:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=v91X3jaHQyFAfVtx112tgunAFoU5+RB+cQA4xTKPim4=;
+        b=RYaTP/tFA2rpo91k0GSHtNwR1bhmrUKl59p+uDDVOp2hZ2/afDLc61tx2TSkUd5p8r
+         7ZVlK2WLpBGGDA+X0x//SR8PMjMeIVZSHDjTQsKGMiCdo2UVAMBnsO6S39czq1oflkZZ
+         y765yu/vbcW/C8j7RxkjAJkV3LK0e/I42G2Os=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=JpyLfWggh0pnW0CDVYaZVQjtKfKGpfmLu1Q2BkmOT3dEqCi4DkPZvIbCnB740Y0aHq
+         KG3lGINMEy+5UBesmAMj8MQIUmy1zDRtcpEEFqJLsroVdFNYq0DdoY2u1aHcB0c8yk8+
+         Io8mzMU7Etbv881ziPsRy0zoIkCgJL0SLntyQ=
+MIME-Version: 1.0
+Received: by 10.216.186.138 with SMTP id w10mr476691wem.206.1273278037301; 
+	Fri, 07 May 2010 17:20:37 -0700 (PDT)
+Received: by 10.216.3.70 with HTTP; Fri, 7 May 2010 17:20:37 -0700 (PDT)
+In-Reply-To: <y2we270ff421005071652ob70b8c73j6a3609ab4fbfb908@mail.csmining.org>
+References: <y2we270ff421005071652ob70b8c73j6a3609ab4fbfb908@mail.csmining.org>
+Date: Sat, 8 May 2010 02:20:37 +0200
+Message-ID: <x2n27cd7f901005071720g4993613bo403e0b90d1a5480f@mail.csmining.org>
+Subject: Re: SIP Phone Alternatives
+From: Enrico Agliotti <enrico.agliotti@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0htnQkpfN3F.A.vgG.q5K5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32265
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 00:20:58 +0000 (UTC)
+
+2010/5/8 Leonardo Meira <serra.meira@csmining.org>:
+> Hi Everyone,
+>
+> In Lenny I use Twinkle to use my SIP phone account.
+> But in Squeeze I'd like to use another application in the place of Twinkle.
+> Preferentially a software better integrated to the KDE 4.x/Qt 4.x desktop
+> which is what I use.
+>
+> Any alternative? Please give me suggestions.
+
+I'm using QuteCom and I'm quite satisfied.
+
+http://packages.debian.org/squeeze/qutecom
+
+
+
+-- 
+Enrico Agliotti
+cell. +39-328-0517312
+tel. con segreteria: +39-011-23415553
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2n27cd7f901005071720g4993613bo403e0b90d1a5480f@mail.csmining.org
+
+

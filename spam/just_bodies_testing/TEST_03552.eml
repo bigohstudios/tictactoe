@@ -1,0 +1,33 @@
+Re: Does Linux respect gratuitous arp replies?Hi Celejar,
+On Wed, Apr 14, 2010 at 05:20:31PM -0400, Celejar wrote:
+> Does Linux respect gratuitous arp replies?  This page claims that it
+> does:
+> 
+> Linux kernels will respect gratuitous ARP frames.
+> 
+> http://linux-ip.net/html/ether-arp.html
+
+It depends on your configuration:
+
+If you do:
+
+echo 1 > /proc/sys/net/ipv4/conf/all/arp_accept
+
+it will accept them.
+
+With
+
+echo 0 > /proc/sys/net/ipv4/conf/all/arp_accept
+
+they are ignored.
+
+
+Axel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415143303.GQ24320@axel
+
+

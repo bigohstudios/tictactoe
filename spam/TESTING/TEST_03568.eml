@@ -1,0 +1,147 @@
+X-Account-Key: account5
+X-UIDL: GmailId12844ea86073f517
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs186272wfj;
+        Wed, 28 Apr 2010 07:55:41 -0700 (PDT)
+Received: by 10.87.73.1 with SMTP id a1mr8361819fgl.17.1272466540148;
+        Wed, 28 Apr 2010 07:55:40 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 28si8010447fkx.6.2010.04.28.07.55.39;
+        Wed, 28 Apr 2010 07:55:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id ABCE513A4A5B; Wed, 28 Apr 2010 14:55:30 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1D1E113A4A19
+	for <lists-debian-user@liszt.debian.org>; Wed, 28 Apr 2010 14:55:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Nty70ZmeRN9s for <lists-debian-user@liszt.debian.org>;
+	Wed, 28 Apr 2010 14:55:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id EFB3113A49FB
+	for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 14:55:10 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1O78fI-0006b4-Ak
+	for debian-user@lists.debian.org; Wed, 28 Apr 2010 14:55:07 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: Installer partitioner project, dif Debian Ubuntu, lvm, UUID, GPartEd, GRUB, HAL
+Date: Wed, 28 Apr 2010 09:58:32 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.31.12-0.2-default; KDE/4.3.5; x86_64; ; )
+References: <1272400348.29035.1372220521@webmail.messagingengine.com> <201004271610.11001.bss@iguanasuicide.net> <pan.2010.04.28.11.40.33@csmining.org>
+In-Reply-To: <pan.2010.04.28.11.40.33@csmining.org>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@
+ =?iso-8859-1?q?q=3B2h=0A=096=265?=@)
+ =?iso-8859-1?q?xd86p=3BwyaJ=25f7=26z=5FBW=7DDkm=2EL=24-=23h=25DUdk7thS-HC?=
+ =?iso-8859-1?q?=5FA=5EJp=7C=23Tq4R/=5Eq/-=5DwRVU=5ET=3Fj=0A=09g?=@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?utf-8?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSKVkSKVkSK?=
+ =?utf-8?q?VkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrXbgSKVlvm9zseJ?=
+ =?utf-8?q?LgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAAI0SURBVDjLbZRNbhQxEIU?=
+ =?utf-8?q?9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRTknZsOlyn8DhAHZj=0A=093iv3Z?=
+ =?utf-8?q?CSgNBqN/fxVvfLPhGH4+NlMROpLyPdPwxCGbzkbIsoWs+HzdQgPb83yc7JzcOHPi?=
+ =?utf-8?q?xC+mCWbRVs=0A=09pY2lNMMz2FMIOurZpREz4LtPU6qOly/A6G9aW0krjLAJcSg?=
+ =?utf-8?q?cICycxRCoXWmurHcKrvHC+eDauR7oWn2=0A=099cQEwExrEXa7/tJlyn9gsC/DhB?=
+ =?utf-8?q?dWpreheun7X1KJxybF0zhLwsnsyJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096Gud?=
+ =?utf-8?q?SNWT0NXblkVuwjBlkWVJrmaAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ7VII?=
+ =?utf-8?q?iKVYmUnJiyr=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ksKF6ESMFERf?=
+ =?utf-8?q?OpfZiTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNrHHeCJMyuaujMNdkt?=
+ =?utf-8?q?gkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6OJEzN41d5VtqG=0A=0901oI?=
+ =?utf-8?q?hvnx8kkGi5H22edTzHVDci52R6OkAyEnPOnUAfY6NR3iGYSu4qJfPTbS5oo9tOU?=
+ =?utf-8?q?MHbdKE23oTci=0A=093cBil8dtoGZk0BF2Yq35wSeWvYeT2EE/KnhRzorfMMgDmH?=
+ =?utf-8?q?3vr9szxa5TVz2dBl2dyyRfV6k76A93l6G=0A=098GbPEj2T+kfi/kPAP8D93f6v?=
+ =?utf-8?q?uL0H8BCu7v+Jq3ARhvDfGP4AtLxO3F/uHbUAAAAASUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart41066122.MA0A3R3p5J";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004280958.39559.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <1UGgU1FD6WN.A.zoD.ixE2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575370
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 28 Apr 2010 14:55:30 +0000 (UTC)
+
+--nextPart41066122.MA0A3R3p5J
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 28 April 2010 06:40:33 Camale=C3=B3n wrote:
+> On Tue, 27 Apr 2010 16:10:04 -0500, Boyd Stephen Smith Jr. wrote:
+> > On Tuesday 27 April 2010 15:32:28 giovanni_re wrote:
+> >> Did ubuntu do something unwise with making use of UUIDs, & now they are
+> >> backtracking?  Did Debian do any of that?
+> >
+> > The Lenny installer defaults to populating /etc/fstab with UUIDs, IIRC.
+> > The Etch installer still just used device names.  UUIDs aren't directly
+> > related to HAL, although HAL can make use of them.
+>=20
+> My Lenny installation defaulted to "/dev/sdax" nomenclature in both, "/
+> boot/grub/menu.lst" and "/etc/fstab".
+
+Could just be me mis-remembering then.  Most of the Lenny installs I deal w=
+ith=20
+are either installed with debootstrap (no d-i) or are Etch upgrades.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart41066122.MA0A3R3p5J
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.12 (GNU/Linux)
+
+iEYEABECAAYFAkvYTR8ACgkQdNbfk+86fC1ktgCdG/UqTZBURc3yDjf6zqFhvMYk
+u+4AnA1wcDCGRosp6OJW3T4SmhVNBv4D
+=3q7t
+-----END PGP SIGNATURE-----
+
+--nextPart41066122.MA0A3R3p5J--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004280958.39559.bss@iguanasuicide.net
+
+

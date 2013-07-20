@@ -1,0 +1,15 @@
+Re: OO.writer can't its file.Oh, thank You for Your time and answer, Bob - very much:
+
+>I see many good suggestions for things to check but didn't see this:
+>your temporary file storage area may be full.
+
+It was the solution. Actually, the user had no permission to write into the temp dir. ...
+I guess the developers could better specify: which file could not be written...
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4bf19361.0b38560a.070b.ffffec83@mx.google.com
+
+

@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId128031de57ebedf5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs75576wfa;
+        Thu, 15 Apr 2010 13:16:51 -0700 (PDT)
+Received: by 10.223.60.142 with SMTP id p14mr237016fah.47.1271362610406;
+        Thu, 15 Apr 2010 13:16:50 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si2063388fks.12.2010.04.15.13.16.49;
+        Thu, 15 Apr 2010 13:16:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BFA6C2D0E5F; Thu, 15 Apr 2010 20:16:44 +0000 (UTC)
+Old-Return-Path: <debian.dev.list@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BF28013A513E
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 20:16:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id qGFAXIKKXJJj for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 20:16:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.152])
+	by liszt.debian.org (Postfix) with ESMTP id AF6D813A50E8
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 20:16:31 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id 22so724763fge.12
+        for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 13:16:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:cc:subject:references:in-reply-to
+         :content-type:content-transfer-encoding;
+        bh=Q4lg76Yo6NCxfkvZaJntOHcErI4ajEvJ5nO3CUE9o1E=;
+        b=jQWXCozess0AJ4NoY6xyXPdewiMXWexLbIOgKErXgvxSGMlj7GxrF6de3IjcaiCC8k
+         5h59cmuYFwA1rThZcrZp6krucJwNpHYTEQ2To5Orje8XkI1Czia2VtwiYYJYM2AxYk2g
+         S00r0j38el8KlDukgFvr97LHsrIR6zsTB9dbc=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:cc:subject
+         :references:in-reply-to:content-type:content-transfer-encoding;
+        b=bOpaDEBNZ7QYf9XwReoti0DeYlELWJDdMOug8iWrsweVqa5s/blzaLdXzYsoxF03Ir
+         7/imUO1o3laK4Bd7bjg7nvYVv2IZmrUF8h3vCUzTI48cfgkSq+DrqRGBDsC8dv+JOhsB
+         c0gAMyd4ByRcRyey+TuEWqu74OnaruuNbt+qE=
+Received: by 10.87.40.31 with SMTP id s31mr655688fgj.60.1271362584241;
+        Thu, 15 Apr 2010 13:16:24 -0700 (PDT)
+Received: from [192.168.0.100] ([89.47.83.116])
+        by mx.google.com with ESMTPS id e20sm1900729fga.21.2010.04.15.13.16.23
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Thu, 15 Apr 2010 13:16:23 -0700 (PDT)
+Message-ID: <4BC77410.6070309@csmining.org>
+Date: Thu, 15 Apr 2010 23:16:16 +0300
+From: Aioanei Rares <debian.dev.list@csmining.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: Hugo Vanwoerkom <hvw59601@care2.com>
+CC: debian-user@lists.debian.org
+Subject: Re: Dual channel memory question
+References: <hq7rp5$tgc$1@dough.gmane.org>
+In-Reply-To: <hq7rp5$tgc$1@dough.gmane.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YO0Ede8SOlJ.A.lDC.sQ3xLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574205
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 20:16:44 +0000 (UTC)
+
+On 04/15/2010 11:09 PM, Hugo Vanwoerkom wrote:
+> Hi,
+>
+> The Wiki on dual channel memory says:
+>
+> "The memory modules are installed into matching banks, which are 
+> usually color coded on the motherboard. These separate channels allow 
+> each memory module access to the memory controller, increasing 
+> throughput bandwidth."
+>
+> Does that mean that placing 2 1GB modules, each into a different 
+> colored slot, is faster than putting 1 2GB module into one slot and 
+> leaving the other 3 slots empty?
+>
+> Hugo
+>
+>
+No, it means that 2 one-gig modules in same-coloured slots will 
+theoretically work better. I have one module in a dual-channel mobo and 
+it works ok. Most desktop/workstation mobos do.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC77410.6070309@csmining.org
+
+

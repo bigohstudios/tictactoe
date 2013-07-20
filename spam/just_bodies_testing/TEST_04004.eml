@@ -1,0 +1,11 @@
+[ILUG] tcpdIf I want to use tcpd for ftp and only one user will ever ftp but I dont
+know what IP that user is because its dialup DHCP how do I setup tcpd for
+that user?
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

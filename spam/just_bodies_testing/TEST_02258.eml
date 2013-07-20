@@ -1,0 +1,58 @@
+Feasibility of private/unofficial KDE 3.5 packagesHello.
+
+First of all, I want to state crystal clear the following:
+
+* I don't want anybody to change his or her mind about the 3.5 vs 4.x 
+situation. Politely talking about it might be interesting or useful, though, 
+but probably many members of the list might not want the discussion here.
+* Of course I don't want anybody to do any kind of work if he or she is not 
+interested or motivated to do it.
+* I'm not stepping up to do any kind of work either, but I will gladly share 
+my experiences if I have some success.
+* I don't think that 3.5 is a long term solution, even if you just want to 
+provide basic support (or none at all) and no new features.
+* However, I do think that it might be convenient to have around some 3.5 
+applications side by side with the 4.x ones for a while, the same way that one 
+might have non-KDE applications.
+
+That said, I would like to ask some questions about how feasible would be to 
+tweak at least some of the KDE 3.5 packaging to not clash with official 4.4 
+packages. Ana mentioned this possibility, and I think I can give it a chance.
+
+First, if I understood correctly, Qt3 and kdelibs 3.5 will still be around for 
+some time. Am I right? I still see them on unstable, and I suppose they will 
+be on the archive unless all remaining KDE 3 packages are removed.
+
+Second, I know that compiling KDE 3.5 setting /opt as a prefix is not an 
+option for official packages, but is it a good idea for private packages? I'm 
+used to compile development versions in a different prefix, and is quite easy 
+and safe, but I have to do manual setup each time I want to run them.
+
+And what about adding a suffix to the 3.5 applications? I suppose this will be 
+more work, but also feels like the proper way to do it.
+
+Finally, how realistic do you think is all of this? I don't have the skills 
+(nor the time to acquire them) to even think about "infrastructure" stuff 
+(desktop, kdm, libraries), but I have some rusty knowledge of packaging KDE 
+applications, and luckily for me, it's just 2 or 3 of the old ones that I 
+need.
+
+Thanks in advance for the replies, and special thanks, as always, for the huge 
+work that the developers do on the KDE packages. I know it's a very difficult 
+task, and one that requires lots of time. Thank you very much, truly.
+
+Regards.
+
+PS: I can move the conversation to pkg-kde-talk if you want. I'm subscribed 
+there too.
+-- 
+Alex (a.k.a. suy) | GPG ID 0x0B8B0BC2
+http://barnacity.net/ | http://disperso.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005091154.39079.suy@badopi.org
+
+

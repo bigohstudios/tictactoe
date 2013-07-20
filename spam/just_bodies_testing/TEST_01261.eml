@@ -1,0 +1,40 @@
+Re: Password messed upOn Friday 07 May 2010 21:15:17 Don wrote:
+
+> Thanks, and if anyone has more ideas on fixing my password/login
+> problem, please help!
+
+  Coming in late to this thread, but if your K desktop is OK,
+then you actually have this problem quite well isolated to something
+in the KDM log-in process. It's not X, and it's not your desktop
+itself.
+
+  By the time KDM has switched over to you, it's writing errors
+into a file, ".xession-errors", in your home directory -- you can
+check this for clues to what's going on.
+
+  Another option is to blitz kdm's config files, and re-configure
+or re-install the package.  I'm not familiar with how sid 
+does this, but you can do "dpkg -L kdm", and look for files in
+the /etc directory -- for the current Debian stable it's
+/etc/kde3/kdm.  I suggest re-naming the analogous directory
+(don't delete it, you might want it back), and then doing
+"apt-get install --reinstall kdm", or whatever the analogous
+operation is in aptitude or synaptic, if that's your preference,
+which should re-build the configuration section.  That's likely
+to fix it, at the cost of un-doing any customizations you've
+done.
+
+  If blitzing and re-building the kdm config fails, then it's
+probably some kind of interaction between kdm and something else...
+
+				-- A.
+-- 
+Andrew Reid / reidac@bellatlantic.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005072325.22749.reidac@bellatlantic.net
+
+

@@ -1,0 +1,26 @@
+Re: [ILUG] Quake 3On Friday 02 August 2002 09:41, Gregory McRandal (ext 722) wrote:
+> Hi,
+>
+> I've installed Quake 3 onto my computer and it starts to run up ok but as
+> soon as the graphics start it bails out.  It complains that there is an
+> error in sis_drv.o,  the line before this says that it is starting Quake in
+> 24 bit depth, now from http://www.winischhofer.net/linuxsis630.shtml I
+> understand that the sis630 won't do 24 bit depth.  So is there a way to
+> make Quake start up in 16 bit depth?  I've done some "google"ing but drawn
+> a blank.....
+>
+> Thanks
+>
+> Greg
+
+If your card has its own MesaGL drivers it may want you to remove the one in 
+the Quake directory (certainly NVidia cards do this). Have a look at the docs 
+for your card's Linux drivers.
+Bob
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

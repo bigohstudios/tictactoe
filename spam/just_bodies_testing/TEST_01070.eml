@@ -1,0 +1,47 @@
+Re: HelloFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu,11.Mar.10, 09:01:02, surreal wrote:
+> I am using a grsecurity hardened kernel downloaded from here -
+> http://indiaforcekernel.googlecode.com/files/linux-image-2.6.32.9-grsecin=
+diaforce1.1_1.1_i386.deb
+>=20
+> It is patched to provide maximum security but it prevents segment
+> relocation..
+>=20
+> An example of this is -
+>=20
+> root@indiaforce:~# VirtualBox
+> VirtualBox: Error -610 in supR3HardenedMainInitRuntime!
+> VirtualBox: dlopen("/usr/lib/virtualbox/VBoxRT.so",) failed:
+> /usr/lib/virtualbox/VBoxRT.so: cannot make segment writable for relocatio=
+n:
+> Permission denied
+>=20
+> VirtualBox: Tip! It may help to reinstall VirtualBox.
+>=20
+>=20
+> I got the above message while trying to execute VirtualBox-OSE.
+>=20
+> Tried installing VirtualBox from source, and I got
+>=20
+> Checking for Xmu: found, OK.
+> Checking for Mesa / GLU: /home/harshad/VirtualBox-3.1.4-OSE/debian/.tmp_o=
+ut:
+> error while loading shared libraries: /usr/lib/libGL.so.1: cannot make
+> segment writable for relocation: Permission denied
+>=20
+> Is there any practical workaround for this, other then reinstalling other
+> kernel??
+
+I have no ideea how to fix your problem, but I would suggest posting=20
+with a better subject. No offence, but half the mails in my spam folder=20
+have "Hello" as a subject...
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

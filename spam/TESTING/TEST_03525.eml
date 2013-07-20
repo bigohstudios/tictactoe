@@ -1,0 +1,95 @@
+X-Account-Key: account5
+X-UIDL: GmailId128694bc7c432601
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs339752wfb;
+        Wed, 5 May 2010 09:28:13 -0700 (PDT)
+Received: by 10.143.85.9 with SMTP id n9mr791543wfl.4.1273076893333;
+        Wed, 05 May 2010 09:28:13 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 38si11102321pzk.133.2010.05.05.09.28.13;
+        Wed, 05 May 2010 09:28:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 328D11BEF9FDA
+	for <mlsubscriber.tech@csmining.org>; Wed,  5 May 2010 09:28:13 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 2E52B27684B41
+	for <mlsubscriber.tech@csmining.org>; Wed,  5 May 2010 09:28:13 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay16.apple.com (relay16.apple.com [17.128.113.55])
+	by lists.apple.com (Postfix) with ESMTP id 70FB62768291B
+	for <X11-users@lists.apple.com>; Wed,  5 May 2010 09:22:54 -0700 (PDT)
+X-AuditID: 11807137-b7c23ae000001561-a5-4be19b5e5b80
+Received: from elliott.apple.com (elliott.apple.com [17.151.62.13])
+	by relay16.apple.com (Apple SCV relay) with SMTP id
+	31.BC.05473.E5B91EB4; Wed,  5 May 2010 09:22:54 -0700 (PDT)
+Received: from [10.0.1.109]
+	(99-51-79-55.lightspeed.snjsca.sbcglobal.net [99.51.79.55])
+	by elliott.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L1Y00KT9G65UMA0@elliott.apple.com> for
+	X11-users@lists.apple.com; Wed, 05 May 2010 09:22:54 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <C7BCA30D-120C-439F-A753-4C96BBC53ECA@humancapitaldev.com>
+Date: Wed, 05 May 2010 09:22:53 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <7A8CDFF5-1D17-4569-9076-593785B7A400@apple.com>
+References: <C7BCA30D-120C-439F-A753-4C96BBC53ECA@humancapitaldev.com>
+To: Daniel Seagraves <dseagrav@humancapitaldev.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11-users@lists.apple.com
+Subject: Re: Xterm crashes when UTF-8 is enabled
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+1) What does the crash log show?
+
+2) What is the version of xterm?
+
+3) What are the exact steps you take to reproduce the problem?
+
+On May 5, 2010, at 06:53, Daniel Seagraves wrote:
+
+> Shortly after I turn UTF-8 on xterm will crash for no apparent reason. =
+It doesn't have to be UTF-8 characters. Simply turn on UTF-8 and do =
+"find /" and there it goes. I can reproduce this 100% of the time.
+>=20
+> (If this is not the right list for this, a pointer to the right list =
+would be appreciated.)
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

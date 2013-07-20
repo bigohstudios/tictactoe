@@ -1,0 +1,24 @@
+Re: =?koi8-r?B?9dPUwc7P18vBIERlYmlhbiDO?=
+	=?koi8-r?Q?=C1?= x86_64On Thu, May 06, 2010 at 09:37:18AM +0400, Михаил wrote:
+> Здравствуйте.
+
+  Hi. You can use debian-russian@lists.debian.org for russian speaking
+  mailing list. This list use only english.
+
+> В организации стоит сервер спроцессором Intel(R) Xeon(TM). ОС: Red Hat Ent. Lic.5 x86_64.
+> Требуется перевести его на Debian.
+> Какой дистрибутив выбирать - x86 или AMD64? Какой из них установится на сервак ?
+> Спасибо.
+
+  You can use ia64 debian for Xeon 64bit. i386 will work too.
+
+  [ru]Используйте ia64 для 64 разрядного Xeon'а. Дистрибутив i386 тоже будет
+  работать[/ru]
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506063615.GA19902@debian
+
+

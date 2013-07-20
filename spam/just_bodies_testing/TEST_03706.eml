@@ -1,0 +1,29 @@
+[SAdev] [Bug 486] SpamAssassin causes zombies (network tests,
+    MIMEDefang 2.16)http://www.hughes-family.org/bugzilla/show_bug.cgi?id=486
+
+
+
+
+
+------- Additional Comments From larry@5points.net  2002-09-10 08:45 -------
+Dan,
+
+To answer your question to my post (which maybe should be a seperate bug?) I'm 
+using Spamassassin version 2.30
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

@@ -1,0 +1,45 @@
+Re: wireless connection issuesOn Fri, 14 May 2010, Frank Zimmermann wrote:
+
+> Am 12.05.2010 19:18, schrieb Cristian Ionescu-Idbohrn:
+>
+> > Can you access that router from your wife's box (Ubuntu 8.10 with
+> > network manager) and have a look at the dhcp logs?  Something (client
+> > maybe) may be eating up all available ip-addresses.  Or there's a
+> > buggy dhcp-server on your router.  It's, not at all, an unusual
+> > scenario :(
+>
+> I can access the router and it only says:
+> sending OFFER to 192...
+
+And there's nothing there to configure to get more proper logging?
+
+> > wicd is _the_ better choice, IMNSHO.  wicd should be available on
+> > ubuntu. If it's not available on 8.10, you may consider upgrading your
+> > wife's box to a more recent ubuntu vesion.
+>
+> OK I was thinking to update to 10.4 anyway. Just wanted to wait if
+> there'll pop up some serious bugs.
+
+Or just _upgrade_ to karmic (9.10) for the time being, unless you're brave
+enough?  8.10 -> 10.4: is that an upgradable path?  Or is it a reinstall
+you're thinking of?
+
+> I'll take this opportunity to switch to wicd and hope she wont
+> realise;-)
+
+Should be quite transparent, but not _that_ transparent to skip
+configuration.
+
+
+Cheers,
+
+-- 
+Cristian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1005142151400.3134@somehost
+
+

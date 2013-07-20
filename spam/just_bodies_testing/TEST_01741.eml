@@ -1,0 +1,56 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 07 May 2010 04:39:00 Modestas Vainius wrote:
+> Initial akonadi trunk packaging is at [1]. I have been using it with SQLi=
+te
+> for over a month now. Yet I don't use akonadi features extensively (not
+>  even addressbook or korganizer) so I can't tell much about quality of the
+>  code. But I can tell you that if you don't step up, this plan probably
+>  won't make it.
+>=20
+> 1. http://svn.debian.org/wsvn/pkg-kde/branches/akonadi-
+> trunk/#_branches_akonadi-trunk_
+
+Thank you.  Since you seem to have SQLite working, I'll focus my efforts on=
+=20
+testing, documentation, and bug fixing on that.
+
+> On penktadienis 07 Gegu=C5=BE=C4=97 2010 01:59:39 Boyd Stephen Smith Jr. =
+wrote:
+> > I think that KMail requiring MySQL to function in Debian stable is a
+> > problem. I request that the Qt/KDE packaging team take steps to ensure
+> > that Debian stable users are not stranded with that situation for the
+> > lifetime of stable.
+>=20
+> Generally, you need to stop talking and generalizing
+>  what you don't know (like keep claiming that releasing with different
+>  versions wasn't considered despite obvious proof on the contrary).
+
+Really?  It was rejected out-of-hand when I suggested using KDEPIM 4.3.
+
+Quoting: "Move on.  kdepim 4.3 is gone."
+Quoting: "KDE 4.4 is the current stable release, there is not much more=20
+options here"
+
+> > I'm not saying to get rid of Akonadi-tied KMail.  I'm certainly not
+> > saying "Akonadi by itself is a bug".  I'd be perfectly happy with
+> > Akonadi/PostgreSQL making it into stable, in fact I'd be excited to play
+> > with Akonadi!
+>=20
+> PostgreSQL/SQLite is a FEATURE, it is not a bug which has to be fixed no
+> matter what.
+
+I'm not willing to argue feature vs. bug.  Having a KMail with a strong=20
+dependency on MySQL in a Debian stable release would be a problem, IMO.  It=
+ is=20
+especially onerous likely to only affect KMail from KDE SC 4.4.x and not fr=
+om=20
+earlier or (if progress continues) later releases.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

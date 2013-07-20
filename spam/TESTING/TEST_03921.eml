@@ -1,0 +1,148 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287240bea97f0c9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs442807wfb;
+        Fri, 7 May 2010 03:12:48 -0700 (PDT)
+Received: by 10.223.98.19 with SMTP id o19mr7937640fan.80.1273227165435;
+        Fri, 07 May 2010 03:12:45 -0700 (PDT)
+Return-Path: <bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w12si1641815fah.87.2010.05.07.03.12.44;
+        Fri, 07 May 2010 03:12:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 510EF13A5A06; Fri,  7 May 2010 10:12:44 +0000 (UTC)
+Old-Return-Path: <prvs=steve/0743e94ca8@lobefin.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.0 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-volatile@liszt.debian.org
+Delivered-To: lists-debian-volatile@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5FE4013A59FC
+	for <lists-debian-volatile@liszt.debian.org>; Fri,  7 May 2010 10:12:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id I7AMCn-BnPgr
+	for <lists-debian-volatile@liszt.debian.org>;
+	Fri,  7 May 2010 10:12:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from vancouver.yorkcabal.org.uk (vancouver.yorkcabal.org.uk [89.16.166.17])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id A295313A535F
+	for <debian-volatile@lists.debian.org>; Fri,  7 May 2010 10:12:24 +0000 (UTC)
+Received: from lobefin.net ([91.103.132.25]:36972 helo=varinia.lobefin.net)
+	by vancouver.yorkcabal.org.uk with esmtps (TLS-1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.63)
+	(envelope-from <steve@lobefin.net>)
+	id 1OAKXe-0000EO-3R
+	for debian-volatile@lists.debian.org; Fri, 07 May 2010 11:12:22 +0100
+Received: by varinia.lobefin.net (Postfix, from userid 1000)
+	id 3679A11EF2; Fri,  7 May 2010 11:12:20 +0100 (BST)
+Date: Fri, 7 May 2010 11:12:20 +0100
+From: Stephen Gran <sgran@debian.org>
+To: debian-volatile@lists.debian.org
+Subject: Re: Volatile binary-armel clamav package versions do not match
+Message-ID: <20100507101220.GA14178@varinia.lobefin.net>
+Mail-Followup-To: debian-volatile@lists.debian.org
+References: <4BE3E187.1070807@webds.com.au>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="sdtB3X0nJg68CQEu"
+Content-Disposition: inline
+In-Reply-To: <4BE3E187.1070807@webds.com.au>
+X-Editor: VIM - Vi IMproved 7.2 
+X-OS: Linux varinia 2.6.32-4-amd64 x86_64
+X-Uptime: 4 days
+X-Latin: Hodie Nonis Maiis MMDCCLXIII ab urbe condita est
+X-Date: Today is Boomtime, the 54th day of Discord in the YOLD 3176
+X-DDate: Only 2429288 Shopping Days Left Before X-Day. Pzat! 
+X-Motto: debian/rules
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Authenticated-Sender: C=UK,ST=North Yorkshire,L=York,O=yorkcabal.org.uk,CN=varinia.lobefin.net,EMAIL=hostmaster@yorkcabal.org.uk
+X-Scanned-By: ClamAV 0.96 on vancouver.yorkcabal.org.uk; Fri, 07 May 2010 11:12:22 +0100
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <NtD3yzN0t5P.A.42.ce-4LB@liszt>
+Resent-From: debian-volatile@lists.debian.org
+X-Mailing-List: <debian-volatile@lists.debian.org> archive/latest/1309
+X-Loop: debian-volatile@lists.debian.org
+List-Id: <debian-volatile.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-volatile/>
+List-Post: <mailto:debian-volatile@lists.debian.org>
+List-Help: <mailto:debian-volatile-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 10:12:44 +0000 (UTC)
+
+
+--sdtB3X0nJg68CQEu
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+This one time, at band camp, Grant Bigham said:
+> Guys, noticeed that the clamav package versions for the binary-armel
+> arch do not match, as follows:
+>=20
+> clamav | version:0.95.3+dfsg-1~volatile1
+> clamav-base | version:0.96+dfsg-4~volatile1
+> clamav-daemon | version:0.95.3+dfsg-1~volatile1
+> clamav-dbg | version:0.95.3+dfsg-1~volatile1
+> clamav-docs | version:0.96+dfsg-4~volatile1
+> clamav-freshclam | version:0.95.3+dfsg-1~volatile1
+> clamav-milter | version:0.95.3+dfsg-1~volatile1
+> clamav-testfiles | version:0.96+dfsg-4~volatile1
+> libclamav-dev | version:0.95.3+dfsg-1~volatile1
+> libclamav6 | version:0.95.3+dfsg-1~volatile1
+
+clamav hasn't been built for armel yet.  The packages that are updated
+to 0.96 are the ones that don't contain architecture-dependant code.
+
+As I don't have anything to do with the building, I can't tell you why
+it hasn't been built yet, just that that is the current situation.
+
+Cheers,
+--=20
+ -----------------------------------------------------------------
+|   ,''`.                                            Stephen Gran |
+|  : :' :                                        sgran@debian.org |
+|  `. `'                        Debian user, admin, and developer |
+|    `-                                     http://www.debian.org |
+ -----------------------------------------------------------------
+
+--sdtB3X0nJg68CQEu
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvj54QACgkQSYIMHOpZA44DswCfS8eW/j8MBvU1P/m5Y5pjXTUG
+oIkAoNHqE7hQHWFrXdJhjgAj/Dmq+PZ3
+=yMlw
+-----END PGP SIGNATURE-----
+
+--sdtB3X0nJg68CQEu--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507101220.GA14178@varinia.lobefin.net
+
+

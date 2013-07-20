@@ -1,0 +1,31 @@
+Re: Cannot loginFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Tue, Apr 6, 2010 at 7:35 PM, John Kapnogiannis <smokejohn@csmining.org>wrote:
+
+> Hello there. I got a debian testing installation and I currently cannot
+> login in kde. I give my pass and instead of a proper kde session I get kdm's
+> login screen again. I haven't done any upgrade but I did a really stupid
+> thing: I hit the power button and turn the laptop off the hard way while it
+> was in suspend mode. I tried googling but it gave me no usefull things.
+>
+> The .xsession-errors file in my home folder says Permission denied.
+
+
+To be correct: With cat on .xsession-errors it says in the first line that
+it tried starting x and on the second line Permission denied. I wrote this
+in case someone by mistake thought I had no permission to read the
+.xsession-errors file.
+
+> I checked the permissions in /tmp and /var/tmp and everything seems fine. I
+> also deleted the .kde folder. Login in as root and typing startx opens a kde
+> session.
+>
+
+> Any ideas?
+>
+> PS: I did the instructions described in this page:
+> https://developer.skype.com/jira/browse/SCL-510 in order to fix skype on
+> me 64-bit installation, but I don't think it has something to do with my
+> problem. I think something got wrong when I hit the power button. :(
+>

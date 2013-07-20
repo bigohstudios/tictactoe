@@ -1,0 +1,23 @@
+Re: which package can show CPU temperature and fan speedOn Sun, 18 Apr 2010 06:33:38 -0400, Long Wind wrote:
+
+> The sensors command shows 0 rpm all the time! Thank Eduard anyway!
+
+Read "carefully" what Eduard said :-)
+
+You have to run "sensors-detect" as root that will ask you some questions 
+and provide more info about the suitable modules you need to load for 
+your board (Intel 845 chipset, an old one, which probably uses ISA bus 
+rather than SMBus).
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.18.10.58.11@csmining.org
+
+

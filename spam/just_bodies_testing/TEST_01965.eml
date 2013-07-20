@@ -1,0 +1,46 @@
+Re: [ILUG] CORRECTION - How to copy some files  | Date: Fri, 19 Jul 2002 16:15:49 +0100
+  | From: Brian Foster <blf@utvinternet.ie>
+  |[ ... ]
+  |  the issue here is tar(1) (and cpio(1)) archives always
+  |  contain the data for each name of a hard link.  [ ... ]
+
+ ARRGGGHHHH!!!!!
+ profuse apologies, the wrong version of my reply was posted
+ (blame it on being late for the pub).  ;-(
+
+ the above is almost pure B*S* --- I got my `tar's and `cpio's
+ confused.  what I said _is_ correct, but for cpio(1) archives;
+ tar(1) archives do _not_ replicate the data for hard links.
+
+ I spotted this confusion on my part before I posted my reply,
+ and re-wrote it to be more correct, yet somehow the wrong
+ version got sent anyways.  ARRGGGHHHH!!!!!  ;-(  ;-(  ;-(
+
+ anyways, GNU `cpio -p' does not do spurious reads or writes.
+ GNU `tar cf - ... | tar xf - ...' also does not, albeit each
+ `tar' both reads and writes the data.  hence, there is twice
+ (not thrice!) the I/O of `cpio -p', maybe an issue for c.60Gb.
+
+ using strace(1), I've verified my claim GNU `cpio -p' does
+ not do spurious reads or writes, i.e. it link(2)s.  but having
+ just come back from the pub, perhaps this should also be taken
+ with extra skepticism ......   ;-\ 
+
+sorry.  cheers!
+	-blf-
+--
+ Innovative, very experienced, Unix and      | Brian Foster    Dublin, Ireland
+ Chorus (embedded RTOS) kernel internals     | e-mail: blf@utvinternet.ie
+ expert looking for a new position ...       | mobile: (+353 or 0)86 854 9268
+  For a résumé, contact me, or see my website  http://www.blf.utvinternet.ie
+
+    Stop E$$o (ExxonMobile):  «Whatever you do, don't buy Esso --- they
+     don't give a damn about global warming.»    http://www.stopesso.com
+     Supported by Greenpeace, Friends of the Earth, and numerous others...
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

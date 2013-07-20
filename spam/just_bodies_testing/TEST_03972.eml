@@ -1,0 +1,41 @@
+RE: Any file details on an executable binary file?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+> On Fri=2C 14 May 2010 22:22:01 +0530 < aspnair@csmining.org > wrote:
+>=20
+> Also you could try and analyze the output of the following > readelf -a <=
+executable>> ldd <executable>> strings <executable>> For example most of th=
+e files compiled with g++ has a dependability on libstdc++.so.6
+
+>=20
+
+Wow the output of readelf -a <executable> was really helpful=2C which conta=
+ined information like:
+
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF64
+  Data:                              2's complement=2C little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Advanced Micro Devices X86-64
+  Version:                           0x1
+  Entry point address:               0x401210
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          15296 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         8
+  Size of section headers:           64 (bytes)
+  Number of section headers:         37
+  Section header string table index: 34
+
+ 		 	   		 =20
+_________________________________________________________________
+30 days of prizes to be won with Hotmail.  Enter Here.
+http://go.microsoft.com/?linkid=3D9729709=

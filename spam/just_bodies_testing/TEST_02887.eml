@@ -1,0 +1,54 @@
+Re: How to keep debian current??2010/5/18 Osamu Aoki <osamu@debian.org>:
+> On Mon, May 17, 2010 at 11:07:10AM -0500, Mark Allums wrote:
+>> On 5/17/2010 10:43 AM, Andrei Popescu wrote:
+>> >On Mon,17.May.10, 10:29:57, Mark Allums wrote:
+>> >
+>> >>Backwards. =A0Sid gets no security, AT ALL. =A0Testing get some.
+>> >
+>> >If some issue is fixed for stable the fix is also applied for unstable,
+>> >unless the maintainer is unresponsive or so. In practice this means tha=
+t
+>> >unstable can be in better shape then testing at times.
+>> >
+>> >Regards,
+>> >Andrei
+>>
+>> Thank you. =A0This is contrary to what the main Debian site says in
+>> multiple places, but it is plausible. =A0Good to know.
+>
+> Could you be more specific where you saw them or where you got this
+> impression? =A0So we can make corrective action to reduce confusion.
+>
+> (Sid gets no corresponding "security" repository like
+> stable/updates nor testing/updates because we can upload directly to it
+> any time.)
+>
+> I am thinking to add text to Debian reference to reduce such confusion.
+>
+> Now:
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =85" line for security updates in the
+> "/etc/apt/sources.list" is not required. Security updates are only
+> available for stable and testing (i.e., lenny and squeeze).
+>
+> (I should have explained better.)
+>
+> New:
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =85" line for security updates in the
+> "/etc/apt/sources.list" is not required. This is because "sid"
+> (unstable) is always updated whenever security issues are fixed. There
+> is no need to have a separate security update archive for "sid".
+
+Perhaps you should add to this "This is because "sid" (unstable) is
+always updated whenever security issues are fixed." that, in the case
+of sid, security updates are downloaded by apt from "deb ... main" (or
+uploaded by DDs to "deb ... main").
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTil4BYIMsxmOU_MBNPpe98fA1g6zGEO8o3dfoW5a@mail.csmining.org
+
+

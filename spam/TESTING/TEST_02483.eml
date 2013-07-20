@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e1f04d8d6a838
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs19454wfi;
+        Fri, 9 Apr 2010 02:39:35 -0700 (PDT)
+Received: by 10.223.92.154 with SMTP id r26mr1408677fam.33.1270805974274;
+        Fri, 09 Apr 2010 02:39:34 -0700 (PDT)
+Return-Path: <bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si2507478fxm.2.2010.04.09.02.39.33;
+        Fri, 09 Apr 2010 02:39:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-isp=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C4A452D0D79; Fri,  9 Apr 2010 09:39:30 +0000 (UTC)
+Old-Return-Path: <glicerinu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-isp@liszt.debian.org
+Delivered-To: lists-debian-isp@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7EE872D0E25
+	for <lists-debian-isp@liszt.debian.org>; Fri,  9 Apr 2010 09:39:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id P7VwgURHbn6B for <lists-debian-isp@liszt.debian.org>;
+	Fri,  9 Apr 2010 09:39:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 3E6BD2D1072
+	for <debian-isp@lists.debian.org>; Fri,  9 Apr 2010 09:39:17 +0000 (UTC)
+Received: by wwb13 with SMTP id 13so783712wwb.6
+        for <debian-isp@lists.debian.org>; Fri, 09 Apr 2010 02:39:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:from:date:received
+         :message-id:subject:to:content-type;
+        bh=VOALdvDGatuX48fy8srmmjL42DvyeM0HT3iEsFfgDig=;
+        b=Z/FHCetd5M+3gsf+Lx/oorViz6BnSSWCvTfSex+nNF6CzU/DOhVV4w5HvcMSQ0rhQV
+         AIcTdB8EwJF2/PImq+PhTXt43jMppu1Rwbh1m5S3v7Tl2Fg/dAHchh9ApkeFcPU4CYPQ
+         ZHd9qFUuPldXjNRDA9Mg0JphX1RR0DC8RrPvI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        b=LxWhfky7fMZSSPCtWYxLT570YOpzB08osDDz/vMEF52k6MJLLgujaz1rbj5sQJjHdN
+         Ibrhj0M7wE4QN6XlnrXQ1wYo2kSSpQAYhY73HAqnJtAN+xC74v9VYctrlBhrtEoXTS2Z
+         bYQv8bVN0UDVD2d5dGU4iK4pC1vTBuMjKZiWE=
+MIME-Version: 1.0
+Received: by 10.216.26.11 with HTTP; Fri, 9 Apr 2010 02:38:52 -0700 (PDT)
+From: Marc Aymerich <glicerinu@csmining.org>
+Date: Fri, 9 Apr 2010 11:38:52 +0200
+Received: by 10.216.87.75 with SMTP id x53mr708585wee.144.1270805952620; Fri, 
+	09 Apr 2010 02:39:12 -0700 (PDT)
+Message-ID: <n2see5163b51004090238qd3758a4fp2d27233616adebf3@mail.csmining.org>
+Subject: Apache2, some variable with "domain name"?
+To: debian-isp@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <igXarRMOXfC.A.E0H.SXvvLB@liszt>
+Resent-From: debian-isp@lists.debian.org
+X-Mailing-List: <debian-isp@lists.debian.org> archive/latest/26645
+X-Loop: debian-isp@lists.debian.org
+List-Id: <debian-isp.lists.debian.org>
+List-Post: <mailto:debian-isp@lists.debian.org>
+List-Help: <mailto:debian-isp-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-isp-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-isp-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-isp-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 09:39:30 +0000 (UTC)
+
+Hi all!
+I have a virtualhost definition with a lot ServerAlias values. I want
+to have a specific alias for any of this ServerAlias. Would be perfect
+if apache2 stores the domain name in som variable in order to use it
+to make a single AliasMatch instance for all ServerAlias.
+
+Something like:
+
+AliasMatch ^/webalizer /home/httpd/webalizer/$domain
+
+
+Have Apache2 anything like $domain var?
+
+Thanks!!
+
+-- 
+Marc
+
+
+-- 
+To UNSUBSCRIBE, email to debian-isp-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2see5163b51004090238qd3758a4fp2d27233616adebf3@mail.csmining.org
+
+

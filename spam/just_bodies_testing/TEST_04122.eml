@@ -1,0 +1,28 @@
+Re: [ILUG] 3c509 & 2.4.19 problems - SUMMARYAlbert White - SUN Ireland wrote:
+> Hi,
+> 
+> Thanks for the replies. It turns out that it was an IRQ conflict with an old 
+> sound card.
+> 
+> Despite checking the BIOS and running the 3c509 setup utility on 
+> http://www.scyld.com/diag, the 2.4 kernel still picked a card on IRQ 5 and 10.
+> 
+> It works fine now that the sound card is removed, but I'm still confused as to 
+> why this worked in 2.2.18 but not 2.4.19, seems like a regression to me...
+
+I'm jumping in here since I'm just back on
+ILUG after quite a long break, anyway...
+
+Alan Cox was mentioning that he might have borked
+some PNP stuff lately. You could try 2.4.19-ac4
+to see if it helps.
+
+Pádraig.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

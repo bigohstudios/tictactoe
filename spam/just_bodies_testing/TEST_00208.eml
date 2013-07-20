@@ -1,0 +1,21 @@
+[ILUG] Alan Cox doesn't like 2.5 so far!Yikes, hope he's not serious!
+
+-------- Original Message --------
+Subject: Re: [bug, 2.5.29, IDE] partition table corruption?
+Date: 08 Aug 2002 14:23:53 +0100
+From: Alan Cox <alan@lxorguk.ukuu.org.uk>
+To: martin@dalecki.de
+
+[IDE specific argument snipped]
+
+Thank you for reminding me why I've given up on the 2.5 kernel ever
+working. Fortunately free software is self correcting so the tree can be
+forked into something workable
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

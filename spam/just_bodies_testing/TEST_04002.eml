@@ -1,0 +1,35 @@
+Re: RH 8 no DMA for DVD driveOnce upon a time, Ville wrote :
+
+> > BTW, I think I'll kake it so that my ogle package automatically inserts
+> > this "options ide-cd dma=1" to /etc/modules.conf! It currently creates
+> > the/dev/dvd link to /dev/cdrom (which will work most of the time, if
+> > there's only one drive) if no /dev/dvd exists.
+> 
+> Eek.  Maybe it's just me, but I don't think that's a good idea. 
+> Outputting a message in %post and providing a README of some kind would
+> be better, as well as perhaps adding a note in %description.
+
+Why "Eek"? :-)
+If no /dev/dvd exists, it'll create it.
+If /dev/dvd exists, it won't touch it.
+If someone installs ogle (a DVD player), I'm assuming the hardware is
+recent enough for software playback and that the drive is a DVD-ROM... all
+of them support DMA! But since that change requires a reboot or a manual
+change, I'm still hesitating to integrate it :-/
+
+My goal is to allow users to install a DVD player through synaptic and play
+DVDs in no time. Outputting a message in the %post section of a package is
+always a bad idea, putting the tip in the %description sounds good though.
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.07 0.14 0.16
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

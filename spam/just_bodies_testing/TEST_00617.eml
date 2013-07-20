@@ -1,0 +1,424 @@
+Re: New monitor, how to change screen resolution?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+> You didn't provide much information, James.  I'm afraid that there's no
+> "one size fits all" answer to that question.  It depends on a lot of
+> things.
+> Please provide the following information:
+>
+> (1) The make and model of your computer
+> (2) The make and model of your video card
+> (3) The make and model of your monitor
+> (4) The type of monitor (CRT, LCD, etc.)
+> (5) The type of video connection used (digital, analog, etc.)
+> (6) The contents of /etc/X11/xorg.conf, if it exists
+> (7) The contents of /var/log/Xorg.0.log
+> (8) Which release of Debian you are running (Lenny, Squeeze, Sid, etc)
+>
+>
+Hi Stephen,
+
+(1) I'm on AMD64/Asus motherboard P5Q
+(2) NVIDIA 9800GT
+(3) ASUS VH242H
+(4) LCD
+(5) Digital connection, not DVI
+
+(6)
+Section "ServerLayout"
+    Identifier     "X.org Configured"
+    Screen      0  "Screen0" 0 0
+    InputDevice    "Mouse0" "CorePointer"
+    InputDevice    "Keyboard0" "CoreKeyboard"
+EndSection
+
+Section "Files"
+    ModulePath   "/usr/lib/xorg/modules"
+    FontPath     "/usr/share/fonts/X11/misc"
+    FontPath     "/usr/share/fonts/X11/cyrillic"
+    FontPath     "/usr/share/fonts/X11/100dpi/:unscaled"
+    FontPath     "/usr/share/fonts/X11/75dpi/:unscaled"
+    FontPath     "/usr/share/fonts/X11/Type1"
+    FontPath     "/usr/share/fonts/X11/100dpi"
+    FontPath     "/usr/share/fonts/X11/75dpi"
+    FontPath     "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
+    FontPath     "built-ins"
+EndSection
+
+Section "Module"
+    Load  "record"
+    Load  "extmod"
+    Load  "glx"
+    Load  "dri"
+    Load  "dbe"
+    Load  "dri2"
+EndSection
+
+Section "InputDevice"
+    Identifier  "Keyboard0"
+    Driver      "kbd"
+EndSection
+
+Section "InputDevice"
+    Identifier  "Mouse0"
+    Driver      "mouse"
+    Option        "Protocol" "auto"
+    Option        "Device" "/dev/input/mice"
+    Option        "ZAxisMapping" "4 5 6 7"
+EndSection
+
+Section "Monitor"
+    Identifier   "Monitor0"
+    VendorName   "Monitor Vendor"
+    ModelName    "Monitor Model"
+EndSection
+
+Section "Device"
+        ### Available Driver options are:-
+        ### Values: <i>: integer, <f>: float, <bool>: "True"/"False",
+        ### <string>: "String", <freq>: "<f> Hz/kHz/MHz"
+        ### [arg]: arg optional
+        #Option     "SWcursor"               # [<bool>]
+        #Option     "HWcursor"               # [<bool>]
+        #Option     "NoAccel"                # [<bool>]
+        #Option     "ShadowFB"               # [<bool>]
+        #Option     "UseFBDev"               # [<bool>]
+        #Option     "Rotate"                 # [<str>]
+        #Option     "VideoKey"               # <i>
+        #Option     "FlatPanel"              # [<bool>]
+        #Option     "FPDither"               # [<bool>]
+        #Option     "CrtcNumber"             # <i>
+        #Option     "FPScale"                # [<bool>]
+        #Option     "FPTweak"                # <i>
+        #Option     "DualHead"               # [<bool>]
+    Identifier  "Card0"
+    Driver      "nvidia"
+    VendorName  "nVidia Corporation"
+    BoardName   "G92 [GeForce 9800 GT]"
+    BusID       "PCI:1:0:0"
+EndSection
+
+Section "Screen"
+    Identifier "Screen0"
+    Device     "Card0"
+    Monitor    "Monitor0"
+    SubSection "Display"
+        Viewport   0 0
+        Depth     1
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     4
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     8
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     15
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     16
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     24
+    EndSubSection
+EndSection
+
+(7)
+X.Org X Server 1.7.6
+Release Date: 2010-03-17
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 2.6.32-4-amd64 x86_64 Debian
+Current Operating System: Linux debian 2.6.32-3-amd64 #1 SMP Wed Feb 24
+18:07:42 UTC 2010 x86_64
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-2.6.32-3-amd64
+root=UUID=cca7add1-981f-469f-9285-ae17722e24bd ro quiet
+Build Date: 05 April 2010  02:21:15PM
+xorg-server 2:1.7.6-2 (Timo Aaltonen <tjaalton@ubuntu.com>)
+Current version of pixman: 0.16.4
+    Before reporting problems, check http://wiki.x.org
+    to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+    (++) from command line, (!!) notice, (II) informational,
+    (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Thu Apr 29 19:58:58 2010
+(==) Using config file: "/etc/X11/xorg.conf"
+(==) ServerLayout "X.org Configured"
+(**) |-->Screen "Screen0" (0)
+(**) |   |-->Monitor "Monitor0"
+(**) |   |-->Device "Card0"
+(**) |-->Input Device "Mouse0"
+(**) |-->Input Device "Keyboard0"
+(==) Automatically adding devices
+(==) Automatically enabling devices
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+    Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+    Entry deleted from font path.
+(**) FontPath set to:
+    /usr/share/fonts/X11/misc,
+    /usr/share/fonts/X11/100dpi/:unscaled,
+    /usr/share/fonts/X11/75dpi/:unscaled,
+    /usr/share/fonts/X11/Type1,
+    /usr/share/fonts/X11/100dpi,
+    /usr/share/fonts/X11/75dpi,
+    /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType,
+    built-ins,
+    /usr/share/fonts/X11/misc,
+    /usr/share/fonts/X11/100dpi/:unscaled,
+    /usr/share/fonts/X11/75dpi/:unscaled,
+    /usr/share/fonts/X11/Type1,
+    /usr/share/fonts/X11/100dpi,
+    /usr/share/fonts/X11/75dpi,
+    /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType,
+    built-ins
+(**) ModulePath set to "/usr/lib/xorg/modules"
+(WW) AllowEmptyInput is on, devices using drivers 'kbd', 'mouse' or
+'vmmouse' will be disabled.
+(WW) Disabling Mouse0
+(WW) Disabling Keyboard0
+(II) Loader magic: 0x7c59c0
+(II) Module ABI versions:
+    X.Org ANSI C Emulation: 0.4
+    X.Org Video Driver: 6.0
+    X.Org XInput driver : 7.0
+    X.Org Server Extension : 2.0
+(++) using VT number 8
+
+(--) PCI:*(0:1:0:0) 10de:0614:3842:c975 nVidia Corporation G92 [GeForce 9800
+GT] rev 162, Mem @ 0xfd000000/16777216, 0xd0000000/268435456,
+0xfa000000/33554432, I/O @ 0x0000dc00/128, BIOS @ 0x????????/131072
+(II) Open ACPI successful (/var/run/acpid.socket)
+(II) "extmod" will be loaded. This was enabled by default and also specified
+in the config file.
+(II) "dbe" will be loaded. This was enabled by default and also specified in
+the config file.
+(II) "glx" will be loaded. This was enabled by default and also specified in
+the config file.
+(II) "record" will be loaded. This was enabled by default and also specified
+in the config file.
+(II) "dri" will be loaded. This was enabled by default and also specified in
+the config file.
+(II) "dri2" will be loaded. This was enabled by default and also specified
+in the config file.
+(II) LoadModule: "record"
+(II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+(II) Module record: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.13.0
+    Module class: X.Org Server Extension
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension RECORD
+(II) LoadModule: "extmod"
+(II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+(II) Module extmod: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    Module class: X.Org Server Extension
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension SELinux
+(II) Loading extension MIT-SCREEN-SAVER
+(II) Loading extension XFree86-VidModeExtension
+(II) Loading extension XFree86-DGA
+(II) Loading extension DPMS
+(II) Loading extension XVideo
+(II) Loading extension XVideo-MotionCompensation
+(II) Loading extension X-Resource
+(II) LoadModule: "glx"
+(II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+(II) Module glx: vendor="NVIDIA Corporation"
+    compiled for 4.0.2, module version = 1.0.0
+    Module class: X.Org Server Extension
+(II) NVIDIA GLX Module  190.53  Wed Dec  9 16:27:33 PST 2009
+(II) Loading extension GLX
+(II) LoadModule: "dri"
+(II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+(II) Module dri: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension XFree86-DRI
+(II) LoadModule: "dbe"
+(II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+(II) Module dbe: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    Module class: X.Org Server Extension
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DOUBLE-BUFFER
+(II) LoadModule: "dri2"
+(II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+(II) Module dri2: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.1.0
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DRI2
+(II) LoadModule: "nvidia"
+(II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+(II) Module nvidia: vendor="NVIDIA Corporation"
+    compiled for 4.0.2, module version = 1.0.0
+    Module class: X.Org Video Driver
+(II) NVIDIA dlloader X Driver  190.53  Wed Dec  9 15:39:50 PST 2009
+(II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+(II) Primary Device is: PCI 01@00:00:0
+(II) Loading sub module "fb"
+(II) LoadModule: "fb"
+(II) Loading /usr/lib/xorg/modules/libfb.so
+(II) Module fb: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    ABI class: X.Org ANSI C Emulation, version 0.4
+(II) Loading sub module "wfb"
+(II) LoadModule: "wfb"
+(II) Loading /usr/lib/xorg/modules/libwfb.so
+(II) Module wfb: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    ABI class: X.Org ANSI C Emulation, version 0.4
+(II) Loading sub module "ramdac"
+(II) LoadModule: "ramdac"
+(II) Module "ramdac" already built-in
+(==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+(==) NVIDIA(0): RGB weight 888
+(==) NVIDIA(0): Default visual is TrueColor
+(==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+(**) Apr 29 19:58:58 NVIDIA(0): Enabling RENDER acceleration
+(II) Apr 29 19:58:58 NVIDIA(0): Support for GLX with the Damage and
+Composite X extensions is
+(II) Apr 29 19:58:58 NVIDIA(0):     enabled.
+(II) Apr 29 19:58:59 NVIDIA(0): NVIDIA GPU GeForce 9800 GT (G92) at
+PCI:1:0:0 (GPU-0)
+(--) Apr 29 19:58:59 NVIDIA(0): Memory: 524288 kBytes
+(--) Apr 29 19:58:59 NVIDIA(0): VideoBIOS: 62.92.24.00.70
+(II) Apr 29 19:58:59 NVIDIA(0): Detected PCI Express Link width: 16X
+(--) Apr 29 19:58:59 NVIDIA(0): Interlaced video modes are supported on this
+GPU
+(--) Apr 29 19:58:59 NVIDIA(0): Connected display device(s) on GeForce 9800
+GT at PCI:1:0:0:
+(--) Apr 29 19:58:59 NVIDIA(0):     ACI ASUS VH242H (DFP-0)
+(--) Apr 29 19:58:59 NVIDIA(0): ACI ASUS VH242H (DFP-0): 330.0 MHz maximum
+pixel clock
+(--) Apr 29 19:58:59 NVIDIA(0): ACI ASUS VH242H (DFP-0): Internal Dual Link
+TMDS
+(II) Apr 29 19:58:59 NVIDIA(0): Assigned Display Device: DFP-0
+(==) Apr 29 19:58:59 NVIDIA(0):
+(==) Apr 29 19:58:59 NVIDIA(0): No modes were requested; the default mode
+"nvidia-auto-select"
+(==) Apr 29 19:58:59 NVIDIA(0):     will be used as the requested mode.
+(==) Apr 29 19:58:59 NVIDIA(0):
+(II) Apr 29 19:58:59 NVIDIA(0): Validated modes:
+(II) Apr 29 19:58:59 NVIDIA(0):     "nvidia-auto-select"
+(II) Apr 29 19:58:59 NVIDIA(0): Virtual screen size determined to be 1920 x
+1080
+(--) Apr 29 19:58:59 NVIDIA(0): DPI set to (93, 94); computed from
+"UseEdidDpi" X config
+(--) Apr 29 19:58:59 NVIDIA(0):     option
+(==) Apr 29 19:58:59 NVIDIA(0): Enabling 32-bit ARGB GLX visuals.
+(--) Depth 24 pixmap format is 32 bpp
+(II) Apr 29 19:58:59 NVIDIA(0): Initialized GPU GART.
+(II) Apr 29 19:58:59 NVIDIA(0): Setting mode "nvidia-auto-select"
+(II) Loading extension NV-GLX
+(II) Apr 29 19:58:59 NVIDIA(0): Initialized OpenGL Acceleration
+(==) NVIDIA(0): Disabling shared memory pixmaps
+(II) Apr 29 19:58:59 NVIDIA(0): Initialized X Rendering Acceleration
+(==) NVIDIA(0): Backing store disabled
+(==) NVIDIA(0): Silken mouse enabled
+(==) NVIDIA(0): DPMS enabled
+(II) Loading extension NV-CONTROL
+(II) Loading extension XINERAMA
+(==) RandR enabled
+(II) Initializing built-in extension Generic Event Extension
+(II) Initializing built-in extension SHAPE
+(II) Initializing built-in extension MIT-SHM
+(II) Initializing built-in extension XInputExtension
+(II) Initializing built-in extension XTEST
+(II) Initializing built-in extension BIG-REQUESTS
+(II) Initializing built-in extension SYNC
+(II) Initializing built-in extension XKEYBOARD
+(II) Initializing built-in extension XC-MISC
+(II) Initializing built-in extension XINERAMA
+(II) Initializing built-in extension XFIXES
+(II) Initializing built-in extension RENDER
+(II) Initializing built-in extension RANDR
+(II) Initializing built-in extension COMPOSITE
+(II) Initializing built-in extension DAMAGE
+SELinux: Disabled on system, not enabling in X server
+(II) Initializing extension GLX
+(II) config/udev: Adding input device Power Button (/dev/input/event3)
+(II) LoadModule: "evdev"
+(II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+(II) Module evdev: vendor="X.Org Foundation"
+    compiled for 1.7.5, module version = 2.3.2
+    Module class: X.Org XInput Driver
+    ABI class: X.Org XInput driver, version 7.0
+(**) Power Button: always reports core events
+(**) Power Button: Device: "/dev/input/event3"
+(II) Power Button: Found keys
+(II) Power Button: Configuring as keyboard
+(II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc104"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device Power Button (/dev/input/event2)
+(**) Power Button: always reports core events
+(**) Power Button: Device: "/dev/input/event2"
+(II) Power Button: Found keys
+(II) Power Button: Configuring as keyboard
+(II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc104"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event6)
+(II) No input driver/identifier specified (ignoring)
+(II) config/udev: Adding input device Kingsis Peripherals  Evoluent
+VerticalMouse 3  (/dev/input/event4)
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : always reports core
+events
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : Device:
+"/dev/input/event4"
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found 9 mouse buttons
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found scroll wheel(s)
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found relative axes
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found x and y relative
+axes
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Configuring as mouse
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : YAxisMapping: buttons 4
+and 5
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : EmulateWheelButton: 4,
+EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(II) XINPUT: Adding extended input device "Kingsis Peripherals  Evoluent
+VerticalMouse 3 " (type: MOUSE)
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : initialized for
+relative axes.
+(II) config/udev: Adding input device Kingsis Peripherals  Evoluent
+VerticalMouse 3  (/dev/input/mouse1)
+(II) No input driver/identifier specified (ignoring)
+(II) config/udev: Adding input device AT Translated Set 2 keyboard
+(/dev/input/event1)
+(**) AT Translated Set 2 keyboard: always reports core events
+(**) AT Translated Set 2 keyboard: Device: "/dev/input/event1"
+(II) AT Translated Set 2 keyboard: Found keys
+(II) AT Translated Set 2 keyboard: Configuring as keyboard
+(II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard"
+(type: KEYBOARD)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc104"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device PC Speaker (/dev/input/event5)
+(II) No input driver/identifier specified (ignoring)
+(II) config/udev: Adding input device Macintosh mouse button emulation
+(/dev/input/event0)
+(**) Macintosh mouse button emulation: always reports core events
+(**) Macintosh mouse button emulation: Device: "/dev/input/event0"
+(II) Macintosh mouse button emulation: Found 3 mouse buttons
+(II) Macintosh mouse button emulation: Found relative axes
+(II) Macintosh mouse button emulation: Found x and y relative axes
+(II) Macintosh mouse button emulation: Configuring as mouse
+(**) Macintosh mouse button emulation: YAxisMapping: buttons 4 and 5
+(**) Macintosh mouse button emulation: EmulateWheelButton: 4,
+EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(II) XINPUT: Adding extended input device "Macintosh mouse button emulation"
+(type: MOUSE)
+(II) Macintosh mouse button emulation: initialized for relative axes.
+(II) config/udev: Adding input device Macintosh mouse button emulation
+(/dev/input/mouse0)
+(II) No input driver/identifier specified (ignoring)
+
+(8) Squeeze with Sid nvidia drivers

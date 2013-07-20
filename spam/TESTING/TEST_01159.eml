@@ -1,0 +1,150 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286f3e181df25cd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs415175wfb;
+        Thu, 6 May 2010 13:11:01 -0700 (PDT)
+Received: by 10.223.21.17 with SMTP id h17mr7144546fab.45.1273176660287;
+        Thu, 06 May 2010 13:11:00 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e8si704593fah.32.2010.05.06.13.10.59;
+        Thu, 06 May 2010 13:11:00 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id F06DC13A542F; Thu,  6 May 2010 20:10:57 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 92AE313A52E9
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 20:10:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ITwhlcgjK0zP for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 20:10:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 45C8413A52F0
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 20:10:44 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1OA7P4-00012O-H4; Thu, 06 May 2010 23:10:38 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Date: Thu, 6 May 2010 23:10:32 +0300
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-amd64; KDE/4.4.3; x86_64; ; )
+Cc: Mike Bird <mgb-debian@yosemite.net>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org> <i2k880dece01005061024v1f3c4914vd9eac1c2fff4db53@mail.csmining.org> <201005061054.17409.mgb-debian@yosemite.net>
+In-Reply-To: <201005061054.17409.mgb-debian@yosemite.net>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1654525.EBjdjhiNLS";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005062310.37915.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <8sL7CLYgNJG.A.4tE.RJy4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32183
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 20:10:57 +0000 (UTC)
+
+--nextPart1654525.EBjdjhiNLS
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 20:54:17 Mike Bird wrote:
+> Are you aware that KDE PIM developers noticed that the percentage of
+> KMail users on KDE-PIM's own mailing list has dropped below 50%?  Even
+> KDE developers are fed up with KDE unreliability.
+
+So what? People moved on. You can do the same if current situation does not=
+=20
+suite you OR you can actually do something real to improve situation. Ranti=
+ng=20
+isn't among that "something".
+
+> Did you check my email's user-agent string?  It's "KMail/1.9.9" - the
+> last Debian STABLE KMail.  How come you're not using KMail if it's so
+> stable in KDE SC 4?
+
+Seriously, attacks on personal preferences is the best you can do? To be=20
+honest, it's none of your business what everybody else is using and why.=20
+Personal preferences are highly subjective and they say really nothing abou=
+t=20
+quality of other similar software in the market. By your logic, you should =
+be=20
+using Windows because apparently it is the best OS in the world due to=20
+enormous PC market penetration (over 90%).
+
+> Sune is not interested in working on KDE 3.5 but he's using slrn via
+> gmane.
+>=20
+> I have great respect for Ana's work but even Ana is using Mutt.
+
+I tried to find a logic in this reasoning but utterly failed. If you are go=
+ing=20
+to respect Ana's work less just because she is using mutt, I believe we hav=
+e=20
+nothing to talk about.
+
+> Have you ever actually tried converting normal office workers from
+> KDE 3.5 to KDE SC 4?  I have.  Twice.  Utter failure.
+
+Maybe. Yet what did you do to improve the situation? And maybe it was not j=
+ust=20
+KDE SC 4 fault, was it?
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart1654525.EBjdjhiNLS
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvjIjkACgkQHO9JRnPq4hTlNACfaUPTuQ1OvVD/tEfSI6TBzHQx
+xMQAnR8F0peZIQJdG+gPWFLJ3HyKa6Ji
+=p68d
+-----END PGP SIGNATURE-----
+
+--nextPart1654525.EBjdjhiNLS--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005062310.37915.modestas@vainius.eu
+
+

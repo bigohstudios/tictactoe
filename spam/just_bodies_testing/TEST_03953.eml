@@ -1,0 +1,24 @@
+RE: [ILUG] slashdot EW Dijkstra humor> > If you're using a break or similar construct in a while loop 
+> then you might 
+> > want to rethink your guard condition.
+> 
+> Good point, I didn't think of that. However, that doesn't help with a
+> case statement, which IMHO is cleaner than using an if statement if you
+> have a lot of branches... but then again maybe that should be refactored
+> away with polymorphism :)
+
+Well, you should consider 'break' inside a 'select' statement
+to be part of the syntax, rather than a control flow modifier.
+
+A _mandatory_ part of the syntax, at that.
+
+Later,
+Kenn
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

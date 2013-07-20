@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId12858200eb7cce4b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs173820wfj;
+        Sun, 2 May 2010 01:26:56 -0700 (PDT)
+Received: by 10.87.74.17 with SMTP id b17mr7627482fgl.59.1272788815387;
+        Sun, 02 May 2010 01:26:55 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si6451663fkq.4.2010.05.02.01.26.54;
+        Sun, 02 May 2010 01:26:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7EDEF13A4794; Sun,  2 May 2010 08:26:52 +0000 (UTC)
+Old-Return-Path: <valerio.passini@unicam.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8F17B13A4771
+	for <lists-debian-kde@liszt.debian.org>; Sun,  2 May 2010 08:26:46 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id zGkiQGlhHc0L for <lists-debian-kde@liszt.debian.org>;
+	Sun,  2 May 2010 08:26:39 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1 IN_ABUSE_RFCI=0.1; rate: -6
+Received: from mail.unicam.it (smtp.unicam.it [193.204.8.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3246F13A475F
+	for <debian-kde@lists.debian.org>; Sun,  2 May 2010 08:26:39 +0000 (UTC)
+Received: from abraracourcix.localnet (host48-70-dynamic.53-79-r.retail.telecomitalia.it [79.53.70.48])
+        by mail.unicam.it (Unicam Mail Server ) with ASMTP (SSL) id KNC47036;
+        Sun, 02 May 2010 10:26:36 +0200
+From: Valerio Passini <valerio.passini@unicam.it>
+Organization: Unicam
+To: lrhorer@satx.rr.com
+Subject: Re: KDE Issues under "Squeeze"
+Date: Sun, 2 May 2010 10:26:25 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.32.12; KDE/4.4.2; x86_64; ; )
+References: <aPKdnQH1541FJk7WnZ2dnUVZ_tWhnZ2d@giganews.com> <20100426001705.GE15960@rene-engelhard.de> <R72dnSXSkbrxWUHWnZ2dnUVZ_qmdnZ2d@giganews.com>
+In-Reply-To: <R72dnSXSkbrxWUHWnZ2dnUVZ_qmdnZ2d@giganews.com>
+Cc: debian-kde@lists.debian.org
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005021026.25738.valerio.passini@unicam.it>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Yt15fO6A32O.A.kfF.MdT3LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32056
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 08:26:52 +0000 (UTC)
+
+Alle domenica 02 maggio 2010, lrhorer ha scritto:
+> hat's just nonsense.  Many packages simply do not have Debian
+> sources, and I have used KPackage to successfully install many alien
+> packages. In some cases, there may be a reasonable .deb subsitute,
+> but many packages, most notably hardware drives, simply have no
+> substitute.  Two of my RAID controllers, for example, only have RPM
+> distros.  Surely you are not suggesting a PC - Debian or otherwise -
+> can do without its hard drives?  They installed fine under KDE3.
+
+You seem to not like either to keep things simple or Debian and KDE. So 
+why don't you switch to other rpm based distros that have the packages 
+that you want? All this discussion about what you don't like in Debian 
+and in KDE is not really meaningful and BTW I don't know of any open 
+source driver that can't be compiled in Debian for any kernel. If it's 
+closed source, then again: use the distro that is compatible with the 
+package format with which the drivers are provided. Just a personal 
+thought on this topic: it seems very odd that a driver compiled for a 
+kernel running on a completely different distro, can run on a Debian 
+kernel too. Are you sure that you are doing things in the right way?
+Bye
+
+Valerio
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005021026.25738.valerio.passini@unicam.it
+
+

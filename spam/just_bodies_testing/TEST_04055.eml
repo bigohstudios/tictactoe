@@ -1,0 +1,112 @@
+[Razor-users] False Positives on EFF MessagesHi everyone,
+
+I'm the systems admin for the Electronic Frontier Foundation and I'm using razor 
+running under spam assassin there and one my own personal server. Generally it 
+works fine with near 0 false positives - except - that almost all the false 
+positives I've seen are on messages that originated at EFF.
+
+So - I am wondering why RAZOR is catching EFF email and how is this happening. 
+Below is an example of what I'm talking about.
+
+---------------------------------
+
+Envelope-to: pcn@virtualrecordings.com
+X-Sender: robin@mail.eff.org
+X-Mailer: QUALCOMM Windows Eudora Version 5.1
+To: eff-ip@eff.org
+From: Robin Gross <robin@eff.org>
+Subject: [E-IP] HP backs off DMCA threat - CNET.com
+Sender: eff-ip-admin@eff.org
+X-BeenThere: eff-ip@eff.org
+X-Mailman-Version: 2.0.11
+List-Unsubscribe: <https://www.eff.org/mailman/listinfo/eff-ip>,
+         <mailto:eff-ip-request@eff.org?subject=unsubscribe>
+List-Id: Intelectual Property <eff-ip.eff.org>
+List-Post: <mailto:eff-ip@eff.org>
+List-Help: <mailto:eff-ip-request@eff.org?subject=help>
+List-Subscribe: <https://www.eff.org/mailman/listinfo/eff-ip>,
+         <mailto:eff-ip-request@eff.org?subject=subscribe>
+List-Archive: <https://www.eff.org/mailman/private/eff-ip/>
+X-Original-Date: Fri, 02 Aug 2002 10:15:12 -0700
+Date: Fri, 02 Aug 2002 10:15:12 -0700
+         tests=MAILTO_LINK,RAZOR_CHECK
+         version=2.40
+2002/07/29 16:25:10 jmason Exp $)
+   SPAM: -------------------- Start SpamAssassin results ----------------------
+   SPAM: This mail is probably spam.  The original message has been altered
+   SPAM: so you can recognise or block similar unwanted mail in future.
+   SPAM: See http://spamassassin.org/tag/ for more details.
+   SPAM:
+   SPAM: Content analysis details:   (7.1 hits, 5 required)
+   SPAM: MAILTO_LINK        (0.1 points)  BODY: Includes a URL link to send an 
+email
+   SPAM: RAZOR_CHECK        (7.0 points)  Listed in Razor, see 
+http://razor.sourceforge.net/
+   SPAM:
+   SPAM: -------------------- End of SpamAssassin results ---------------------
+X-Spam: [SPAM] - Spam Assassin
+
+
+
+http://news.com.com/2100-1023-947740.html
+
+Document: HP backs off DMCA threat
+
+By CNET News.com Staff
+August 1, 2002, 6:10 PM PT
+
+Hewlett-Packard Thursday abandoned legal threats it made against security 
+analysts who publicized flaws in the company's software.
+
+In a statement released late Thursday, HP said it would not use the Digital 
+Millennium Copyright Act (DMCA), a controversial copyright law, to pursue a 
+loosely-organized team of researchers who demonstrated a bug in the company's 
+Tru64 Unix operating system.
+
+The following is the company's statement:
+
+1) HP is committed to protecting our customer's security environments.
+
+2) We have verified that there is a security vulnerability with Tru64 UNIX, the 
+details of which were brought to our attention July 18. The problem has now been 
+isolated and HP has been preparing a fix, which will be available within the 
+next 48 hours.
+
+3) We won't comment on the specifics of our discussions with SnoSoft. However, 
+we take our customers' security requirements very seriously and have a strong 
+track record following industry-standard security practices.
+
+4) Where and how the DMCA should be applied is a matter of great controversy. 
+The reported letter to SnoSoft was not consistent or indicative of HP's policy. 
+We can say emphatically that HP will not use the DMCA to stifle research or 
+impede the flow of information that would benefit our customers and improve 
+their system security.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Robin D. Gross - Cyberspace Attorney @ Law - Intellectual Property
+Director - Campaign for Audiovisual Free Expression (CAFE)
+Electronic Frontier Foundation
+454 Shotwell Street, San Francisco, CA 94110
+e: robin@eff.org    w: http://www.eff.org
+p: 415.863.5459    f: 415.436.9993
+http://www.eff.org/cafe
+http://www.eff.org/IP/Open_licenses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

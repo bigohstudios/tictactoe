@@ -1,0 +1,32 @@
+DVD+RW tools available (Was: Re: How to add service port ?)On Mon, 2002-08-12 at 06:32, Matthias Saou wrote:
+> Once upon a time, Yen wrote :
+> 
+> > How do I install / add an additional service port to the system which
+> > can be access via Microsoft ODBC driver?
+> 
+> I honestly have no idea, and this is probably not the best list to expect
+> an answer as it is supposed to discuss rpm packages/packaging matters.
+> 
+> If you're using Red Hat Linux 7.3, you should try this list :
+> https://listman.redhat.com/mailman/listinfo/valhalla-list
+
+I had to take a stab at answering that for a paying customer yesterday.
+I _think_ you need to install postgreql-odbc and its' dependencies. Then
+probably a bit of configuration to open a port to the network. But
+Matthias is right, this is not the right place for this question.
+
+To bring things back on topic, I was practicing my "rpmbuild'n skillz"
+and made an rpm with some simple software tools to drive my DVD+RW
+burner. No GUI frontend, but it works just fine from the command line. I
+even used it to burn a bootable DVD version of Red Hat 7.3.
+
+ftp://people.redhat.com/ckloiber/dvd+rw-tools-0.1.src.rpm
+
+-- 
+Chris Kloiber
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

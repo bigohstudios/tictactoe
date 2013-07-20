@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dc1b13c51be1d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs65141wfi;
+        Wed, 7 Apr 2010 23:28:35 -0700 (PDT)
+Received: by 10.87.1.13 with SMTP id d13mr3990961fgi.29.1270708114433;
+        Wed, 07 Apr 2010 23:28:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si3312167fxm.11.2010.04.07.23.28.33;
+        Wed, 07 Apr 2010 23:28:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 46B1213A57D4; Thu,  8 Apr 2010 06:28:24 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AB1B913A54A9
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 06:28:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id olvbnxQRnEZ7 for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 06:28:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 7831E13A4ED0
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 06:28:11 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1NzlDh-000172-7J
+	for debian-user@lists.debian.org; Thu, 08 Apr 2010 08:28:05 +0200
+Received: from c-24-16-70-55.hsd1.wa.comcast.net ([24.16.70.55])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 08 Apr 2010 08:28:05 +0200
+Received: from srivasta by c-24-16-70-55.hsd1.wa.comcast.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 08 Apr 2010 08:28:05 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+Mail-Followup-To: debian-user@lists.debian.org
+To: debian-user@lists.debian.org
+From: Manoj Srivastava <srivasta@ieee.org>
+Subject: Re: Making make-kpkg quieter
+Date: Wed, 07 Apr 2010 23:27:57 -0700
+Organization: Manoj Srivastava's Home
+Lines: 22
+Message-ID: <87d3yav4pe.fsf@anzu.internal.golden-gryphon.com>
+References: <48c8.4bbd1c72.3e11c@getafix.xdna.net>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: c-24-16-70-55.hsd1.wa.comcast.net
+User-Agent: Microsoft Gnus Express, Build 5.13 (5.13)
+Face: iVBORw0KGgoAAAANSUhEUgAAACYAAAAwCAMAAABKbPgaAAAAM1BMVEUAAADIjH/0rp1KPz79
+	0b+ic2nlpJc2Ly2AY17VlYb4uqi2gHQXFBN2WVXgno5iT02Xa2Nx+jaIAAACVElEQVQ4jeWU23bj
+	IAxFLUAggQX6/6+dI9LGTpo+9mlYiXNhc3TnOP50naZE0tqvgEk+soutnNfQ8yPTWMTENhNrjI+Y
+	+N7POVt8tAzpn2vJlsmttbyfrdkP7hx5iezteGzsbOts7xT+tC1mcG+LtRP2X/16bEQExuyx1uZW
+	vscrAWUT8aE0aDBeBuw8nS5u4WgWyDCllOZUBeyWgbWbGrBsTDpTx0qpphlcYPcgJLvBXFClPMg5
+	6WH2JidLIAaDF5aAed7uPTH4bjw0bZvfajp2tHc1F+cBm+Vr9YomGSwNhbmcczYEWUu5MBpYvCLV
+	F+ZIKwQfYB+CBXnIRQFvIRhK6l96PemsFLEPFxi+MPxiTYH0Ave1InPsIYes3NJb42ytBSmmysyj
+	lIQYHJm6Im1WbQ0kWMesKFRFPKTDzJ3GhWUn2KWKEkWlKthoACLm2eWJQQh2qKbAUgQxa+8TVjn1
+	aySm8656ookCfCc5TRzvnZ6YOu3NpHg+uR5YuRkNF/b5IHq5Y7Ve6c2+sR4hqIZ3+5DCt3ukh8Eo
+	vFIXVJxqfMdbkd/BF3YaQkB/2RIUHPMS7RLVAHefrYzWZVQ/ei4peBsROFLi90ltQyvF5I05t4Zs
+	L4C9DODJ2AZCUf8UitGjCIdfx15QQkfZibTOGT3edxns5fY6F2rstKcTwiiaJnQwvYkdzTlaTqNH
+	IkSmGdLrON45tGsMNDoSYr4bxH5emHEFaoFjKBahHXFXfLx9cR9p6ejJXihuxPz57gWHZkWovbPl
+	9gsU8eImtBi++3D+f+sfT/Mg79fyEz8AAAAASUVORK5CYII=
+X-URL: http://www.golden-gryphon.com/
+Mail-Copies-To: never
+X-Face:  #q.#]5@vq!Jz+E0t_/;Y^gTjR\T^"B'fbeuVGiyKrvbfKJl!^e|e:iu(kJ6c|QYB57LP*|t
+ &YlP~HF/=h:GA6o6W@I#deQL-%#.6]!z:6Cj0kd#4]>*D,|0djf'CVlXkI,>aV4\}?d_KEqsN{Nnt7
+ 78"OsbQ["56/!nisvyB/uA5Q.{)gm6?q.j71ww.>b9b]-sG8zNt%KkIa>xWg&1VcjZk[hBQ>]j~`Wq
+ Xl,y1a!(>6`UM{~'X[Y_,Bv+}=L\SS*mA8=s;!=O`ja|@PEzb&i0}Qp,`Z\:6:OmRi*
+Cancel-Lock: sha1:hPlZRDAx4Z5kAqI+dAthideXwwg=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <uQsaITZDJ0K.A.fh.IeXvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573566
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 06:28:24 +0000 (UTC)
+
+On Wed, Apr 07 2010, Cameron Hutchison wrote:
+
+> Is there any way to make make-kpkg (kernel-package 12.033) quieter? When
+> I run a "make-kpkg clean" it spits out lots of lines about unlinking
+> files in debian/... On a slow link, this is very annoying (if I forget
+> to run screen)
+>
+> I have RTFM but I cannot see anything about making make-kpkg less
+> verbose (as opposed to the kernel makefiles).
+
+        Please file a wishlist bug. I have usually looked for more
+ insight into what is happening, and might not have considered the
+ desire to only see error  with the level of effort it needs (though I
+ think the unlink verbiage comes from the underlying utility, not
+ make-kpkg itself)
+
+        manoj
+-- 
+Newman's Discovery: Your best dreams may not come true; fortunately,
+neither will your worst dreams.
+Manoj Srivastava <srivasta@acm.org> <http://www.golden-gryphon.com/>  
+4096R/C5779A1C E37E 5EC5 2A01 DA25 AD20  05B6 CF48 9438 C577 9A1C
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87d3yav4pe.fsf@anzu.internal.golden-gryphon.com
+
+

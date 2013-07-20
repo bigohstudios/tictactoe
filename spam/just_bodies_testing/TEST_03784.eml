@@ -1,0 +1,32 @@
+Re: Snow Leopard, Java 6 and NetbeansOn April 26, 2010 08:47:38 pm Dave Minnigerode wrote:
+> I've seen eclipse and Intellij work just find on the same macs.  Almost all
+> our devs use macs and those two IDEs.    It's only us NB users having
+> issues.
+> 
+> One data point.  I installed the Scan On Demand plugin while on my old
+> machine and that helped a LOT.  Was super annoying waiting for the
+> constant scans.  Note that this was a 10.5 machine.
+> 
+> Second datapoint.  On a new machine with an SSD drive all the slowdowns go
+> away.  Still have memory usage issues.  But at least it's fast.  This is a
+> 10.6 machine.
+> 
+> Seems to me it is something in the filesystem code in NB.
+
+Ah, a clue perhaps.
+
+I do see one little problem with using JFileChooser, where it seems to stall 
+temporarily when first opened before allowing selection. I think I see this in 
+NeoOffice also, which uses some Java for its front end.
+
+Raymond
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

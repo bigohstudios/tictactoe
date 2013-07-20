@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId128429d33c469069
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs164945wfj;
+        Tue, 27 Apr 2010 21:11:58 -0700 (PDT)
+Received: by 10.114.236.2 with SMTP id j2mr3619974wah.110.1272427917863;
+        Tue, 27 Apr 2010 21:11:57 -0700 (PDT)
+Return-Path: <bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 6si8887980pzk.45.2010.04.27.21.11.57;
+        Tue, 27 Apr 2010 21:11:57 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 7F76E1BD271D4
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 21:11:57 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 7AB522730BF5A
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 21:11:57 -0700 (PDT)
+X-Original-To: bluetooth-dev@lists.apple.com
+Delivered-To: bluetooth-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 426A72730BF26
+	for <bluetooth-dev@lists.apple.com>;
+	Tue, 27 Apr 2010 21:11:54 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 2352AD0264EF
+	for <bluetooth-dev@lists.apple.com>;
+	Tue, 27 Apr 2010 21:11:54 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-8f-4bd7b589f87d
+Received: from asmtpout024.mac.com (asmtpout024.mac.com [17.148.16.99])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	05.3F.25880.985B7DB4; Tue, 27 Apr 2010 21:11:53 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [10.0.1.5]
+	(99-191-151-100.lightspeed.stchmo.sbcglobal.net [99.191.151.100])
+	by asmtp024.mac.com
+	(Sun Java(tm) System Messaging Server 6.3-8.01 (built Dec 16 2008;
+	32bit)) with ESMTPA id <0L1K00L5PJNQUQ70@asmtp024.mac.com> for
+	bluetooth-dev@lists.apple.com; Tue, 27 Apr 2010 21:11:53 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004270283
+References: <8FAB81E6-07B5-46FF-97C2-A362E056DEDD@mac.com>
+	<k2r360bd19f1004261513xbd185d2ci197466ff1f5f8094@mail.csmining.org>
+	<A58E1BFD-670A-493C-BFFB-60FE310C737F@mac.com>
+	<h2m360bd19f1004270041v8f618a59rb250878b4ef7f8c9@mail.csmining.org>
+In-reply-to: <h2m360bd19f1004270041v8f618a59rb250878b4ef7f8c9@mail.csmining.org>
+Message-id: <3DABC44C-9128-4F71-80F2-63D24F4E53EC@mac.com>
+From: David Giovannini <dsjove@mac.com>
+Date: Tue, 27 Apr 2010 23:11:33 -0500
+To: Dave Keck <davekeck@csmining.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAARPwcVs=
+Cc: bluetooth-dev@lists.apple.com
+Subject: Re: Bluetooth and runloops in a dedicated thread.
+X-BeenThere: bluetooth-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "Mailing list for Bluetooth developer discussion."
+	<bluetooth-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:bluetooth-dev@lists.apple.com>
+List-Help: <mailto:bluetooth-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=subscribe>
+Sender: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hello,
+
+I knocked all the code down to the single UI thread and I rediscovered why I need multiple threads. My Obj-C objects give KVC semantics to the bluetooth device. A getter is waiting on a thread signal for the arrival of requested data. The requested data will never arrive since the single thread is in a blocked state. I also now have to turn the bluetooth scanner off to open a connection to a discovered device!
+
+I don't see how to do the bluetooth communications in another process be non-trivial. Is there a simple approach to that?
+
+My next factoring will be to but the UI thread into a secondary thread, and let bluetooth own the main. Hopefully that will work.
+
+Dave
+
+
+On Apr 27, 2010, at 2:41 AM, Dave Keck wrote:
+
+>> I can easily share a single thread between all bluetooth devices. That will solve any multi-threading issues in the bluetooth services. Bluetooth installs itself as an NSRunLoop source, somehow. IOBluetoothValidateHardware used to do that, and the NSRunLoop had kept on running.
+> 
+> I recommend against using the Bluetooth APIs anywhere but the main
+> thread. There's been some past discussion on this list regarding
+> thread-safety and IOBluetooth, and it seems the Apple guys suggest
+> confining Bluetooth calls to the main thread, too. See:
+> 
+>    http://lists.apple.com/archives/bluetooth-dev/2007/Sep/msg00003.html
+>    http://lists.apple.com/archives/bluetooth-dev/2009/Sep/msg00003.html
+> 
+> With that said, much of the IOBluetooth APIs are asynchronous,
+> allowing you to specify a delegate to be notified when a particular
+> operation is complete. Are you sure you need the Bluetooth calls to
+> exist in their own thread? If so, spawn a helper process and put the
+> Bluetooth calls there. This is what I do in my own projects - it works
+> fine.
+> 
+>> I cannot have the BlueTooth library pick a runloop at random. Depending on configuration, this application may have a UI and/or may have a web-service. Bluetooth communications needs to be sandboxed into a designated RunLoop.
+> 
+> I'm not sure how a UI/web service/Bluetooth combination makes it
+> necessary that the Bluetooth calls exist in their own thread; as
+> mentioned, many of the Bluetooth APIs are non-blocking. If I were
+> writing this sort of combination program, I would either:
+> 
+>    1. put the UI/Bluetooth stuff in the main thread, and the web
+> service stuff in a separate thread, or
+>    2. put the UI stuff in the main thread, Bluetooth stuff in a
+> separate helper process, and the web service stuff in a separate
+> thread.
+> 
+>> How do I tell the Bluetooth library to install itself as a source on a specific runloop of a specific thread? If I need to start that thread in main, I'll do it!
+> 
+> Based on the links above, "make sure you do ALL Bluetooth related
+> activities on the first thread from which you call anything in the
+> Bluetooth stack." I think Jason would agree though, that that advice
+> is error-prone and should only be considered a last resort. That
+> advice was also given 2.5 years ago.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

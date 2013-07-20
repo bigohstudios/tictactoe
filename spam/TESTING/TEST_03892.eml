@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282744dabdc7e87
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs34415wfj;
+        Thu, 22 Apr 2010 13:45:43 -0700 (PDT)
+Received: by 10.142.10.5 with SMTP id 5mr161497wfj.267.1271969143725;
+        Thu, 22 Apr 2010 13:45:43 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 29si474318pzk.89.2010.04.22.13.45.43;
+        Thu, 22 Apr 2010 13:45:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 74BAE1C1CB09D
+	for <mlsubscriber.tech@csmining.org>; Thu, 22 Apr 2010 13:45:43 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 7104E2707EB71
+	for <mlsubscriber.tech@csmining.org>; Thu, 22 Apr 2010 13:45:43 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay16.apple.com (relay16.apple.com [17.128.113.55])
+	by lists.apple.com (Postfix) with ESMTP id 2D7052707E97A
+	for <x11-users@lists.apple.com>; Thu, 22 Apr 2010 13:45:25 -0700 (PDT)
+X-AuditID: 11807137-b7ce7ae0000056c8-84-4bd0b56487da
+Received: from gertie.apple.com (gertie.apple.com [17.151.62.15])
+	by relay16.apple.com (Apple SCV relay) with SMTP id
+	D3.F8.22216.465B0DB4; Thu, 22 Apr 2010 13:45:25 -0700 (PDT)
+Received: from [17.151.97.131] by gertie.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L1A00M4IPNOWH00@gertie.apple.com> for
+	x11-users@lists.apple.com; Thu, 22 Apr 2010 13:45:24 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <w2o735277d41004221335g56f3a85cl5b102c2d92252b9a@mail.csmining.org>
+Date: Thu, 22 Apr 2010 13:45:24 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <DFFF0847-DC13-45CE-9436-D7D24F7221E9@apple.com>
+References: <w2o735277d41004221335g56f3a85cl5b102c2d92252b9a@mail.csmining.org>
+To: James Hughes <jamezilla@csmining.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: x11-users@lists.apple.com
+Subject: Re: cycle through windows causes freeze
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+
+This was fixed in 2.5.1_beta1 3 weeks ago.  2.5.1_beta2 was just =
+released a few minutes ago which also contains this (and other) fixes.
+
+--Jeremy
+
+On Apr 22, 2010, at 13:35, James Hughes wrote:
+
+> I just upgraded to Xquartz 2.5.0 and I'm having an issue with the
+> 'cycle through windows' keyboard shortcut. Every time I hit command-`
+> it causes the X11 windows to freeze and become unresponsive. I'm not
+> able to move the windows, click the close buttons or have any keyboard
+> access to them.
+>=20
+> This issue does NOT happen if I use the "Window -> Cycle through
+> windows" menu item - only with the keyboard shortcut.
+>=20
+> There's nothing in the console logs. It happens whether or not I have
+> an external monitor plugged in.
+>=20
+> Mac Book Pro
+> OS X 10.6.3
+> XQuartz 2.5.0 (xorg-server 1.7.6)
+>=20
+> Thanks,
+> James
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

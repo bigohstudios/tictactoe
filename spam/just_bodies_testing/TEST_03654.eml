@@ -1,0 +1,132 @@
+=?windows-1252?Q?Realtime_Programming_for_ES_&__C_Programming_for_Embedded_&_System_Engineers_Programming_workshop_-_Jun_14th-15th_,16-18th_2010_-_KL_Sentral?=From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+http://www.eact-tech.com/Mailer/rtp_c.jpg
+
+=A0
+
+http://www.eact-tech.com/Mailer/embdlogo.png
+
+5 Days Workshop from APR 5th to 9th 2010
+
+=A0
+
+Real Time Programming for Embedded Systems:
+
+This course is ideal for engineers who are new to the field of real-time. =
+It is also applicable to both managers and engineers who are considering =
+the use of Real-Time Operating Systems on future projects=2E
+
+Objective:
+
+=A0=A0=A0=A0=A0=A0=A0=A0 Appreciate the use of multitasking techniques in =
+real-time systems.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Understand the fundamental concepts of real-time =
+operating systems.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Understand the features and structures of =
+practical implementations.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Appreciate how application areas (e.g. =
+safety-critical, desktop, etc.) impact on RTOS facilities.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Be competent to progress to vendor-specific =
+detailed training=2E
+
+Suitable for:
+
+This course is ideal for engineers who are new to the field of real-time. =
+It is also applicable to both managers and engineers who are considering =
+the use of Real-Time Operating Systems on future projects=2E
+
+Pre-requisites:
+
+=A0=A0=A0=A0=A0=A0=A0=A0 Knowledge of a high level language (e.g. C, C++, =
+etc.)=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 An understanding of the fundamentals of =
+computer-based systems
+
+Embedded C for System Developers:
+
+In this course you'll learn advanced programming techniques using dynamic =
+data structures and algorithms. Finite state machines and statecharts and =
+their uses are covered in depth. You'll also learn techniques specific to =
+embedded systems, such as structured interrupt handling, implementation of =
+simple schedulers, and how to work with embedded operating systems. You'll =
+learn the standard inter-process communication mechanisms and their uses. =
+In addition the course overviews various advanced algorithms and discusses =
+research oriented approaches for learning more about these algorithms and =
+their implementation. The course will also show you how to design modules =
+with clean interfaces to achieve disciplined and well structured code=2E
+
+The course emphasizes the implementation of disciplined and well =
+structured code and the design of modules with clean interfaces. Lab =
+exercises are used to consolidate key concepts=2E
+
+
+Prerequisites
+
+
+Attendees should have some experience of embedded systems programming and =
+a sound basic knowledge of the C languageDelivery
+
+=A0
+
+Course Highlights
+
+=A0
+
+Real Time Programming
+
+Embedded C
+
+Introduction to Embedded Systems
+An overview on Embedded Software Life Cycle Development=A0
+Introduction to Real time system
+Choosing a right mix=A0
+Types of OS under Embedded Systems=A0
+Introducction to Real Time Operating Systems (RTOS).=A0
+Components of RTOS
+Task and Thread=A0
+Introduction to various scheduling policies
+Memory management=A0=A0=A0=A0=A0=A0=A0=A0=A0
+Inter Process Communication=A0=A0=A0=A0=A0=A0=A0=A0
+Introduction to Interrupts and Timer
+
+=A0
+
+=A0Click Here=A0to see the Details in Topics
+
+Introduction to Embedded System and language Generic embedded features
+A brief on C past, present, and future=A0Features Highlighted
+C basic program structure and tools
+Hands on GNU tool chain for C build process
+Making the most out of C [ coding w.r.t processor and compiler=A0]=A0Using =
+Bit wise Expressions, Controls, loops effectively
+Portability and problems=A0=A0Endean=92s
+Function, Structures and Union
+Gotcha under C: Writing portable codes that are not compiler dependent
+Pointers and effective use w.r.t Architecture
+Do=92s and don=92t under C=92s Memory Handling
+Hands on to GNU - X tool-chain
+Using tools to build image
+Hands on building PowerPC toolchain image
+Hands on Configuring the DJGPP toolchain=A0
+Understanding the X86 hardware support needed for running C
+
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 Click =
+Here=A0to see the Details in Topics
+
+=A0
+
+http://www.eact-tech.com/Mailer/footer_rtpc.jpg
+
+=A0
+
+To remove your name from our mailing list, please reply =
+to=A0seminar@eact-tech.com=A0mentioning=A0"REMOVE"=A0in the subject line. =
+If your email is an alias or forward email, please specify the primary =
+email that may be deleted.
+
+=A0
+
+

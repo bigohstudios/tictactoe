@@ -1,0 +1,28 @@
+Re: just fetch .debs without installing> Wolodja Wentland <wentland@cl.uni-heidelberg.de> :
+>> What is the optoin to pass to apt-get in order to make it just fetch
+>> the .debs without installing them?
+>It has already been pointed out that -d/--download-only is the correct
+>option to pass to apt-get in order to keep apt-get from installing
+>retrieved Debian packages.
+>You have not explained why you want to do this,
+
+I have more bandwidth (1Mbps) at nitgh than during the day (256kbps).
+I would like to launch a dist-upgrade, but I want it to happen face to
+me. I'd rather pre-download the .debs and launch real dist-upgrade face
+to face.
+
+Thank you all for your indications. I already have all the needed
+packages downloaded, I'll dist-upgrade tomorow.
+
+-- 
+       Architecte Informatique chez Blueline/Gulfsat:
+    Administration Systeme, Recherche & Developpement
+                                     +261 3456 000 19
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100513200734.64f413c9@pbmiha.malagasy.com
+
+

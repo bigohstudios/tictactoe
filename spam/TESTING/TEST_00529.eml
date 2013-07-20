@@ -1,0 +1,125 @@
+X-Account-Key: account5
+X-UIDL: GmailId12807664cbc96fbb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs30293wfj;
+        Fri, 16 Apr 2010 09:14:24 -0700 (PDT)
+Received: by 10.142.67.27 with SMTP id p27mr1024529wfa.139.1271434464654;
+        Fri, 16 Apr 2010 09:14:24 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 6si7898783iwn.84.2010.04.16.09.14.24;
+        Fri, 16 Apr 2010 09:14:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 366E81BA52757
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 09:14:24 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 30DDF26DA9728
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 09:14:24 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id B455F26DA9540
+	for <quicktime-api@lists.apple.com>;
+	Fri, 16 Apr 2010 09:14:05 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id A45A8CF407B4
+	for <quicktime-api@lists.apple.com>;
+	Fri, 16 Apr 2010 09:14:05 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-b2-4bc88ccd65eb
+Received: from mail-gy0-f179.google.com (mail-gy0-f179.google.com
+	[209.85.160.179])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	F0.6A.26228.DCC88CB4; Fri, 16 Apr 2010 09:14:05 -0700 (PDT)
+Received: by gyd10 with SMTP id 10so1422081gyd.24
+	for <quicktime-api@lists.apple.com>;
+	Fri, 16 Apr 2010 09:14:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:date
+	:x-google-sender-auth:received:message-id:subject:from:to
+	:content-type:content-transfer-encoding;
+	bh=SuhJwov9UalNFDuXjCXZCFanY6JUGtP9LHMgMB0Zepk=;
+	b=rcP00oL5MPOj5QAqDeAcNI3lUJ3pNs5OqsKV3bGMgtI2XfpO7OBXzmEwp5ALyHKRCY
+	6n7a7K5GDBN67mx+RR1/wZgPoqgUyZ4M3hLAN7X1ZE4WCrBtuFDrQlM69G0YjR/ftzOJ
+	JEDVAAqePJRPZXRsBHl3BvCFgJyiHJNiQZGsg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+	:from:to:content-type:content-transfer-encoding;
+	b=bHc3ULaq5YS5CUa7PWvbZSHjFOspkhHlL523CQFL+8nTp2zJKy5gvekvg8gJF1dd++
+	syq31iWAmeKeORo7bCZZ0+j7vtdSZ8r77yOiDzYGx4zdhjZsN4oh5K1/TC6XVEmaBhti
+	95ykPH0g/EVq/AxD7sMnMA3szKDrVbOXBsMLk=
+MIME-Version: 1.0
+Received: by 10.150.201.16 with HTTP; Fri, 16 Apr 2010 09:14:04 -0700 (PDT)
+Date: Fri, 16 Apr 2010 18:14:04 +0200
+X-Google-Sender-Auth: f0ab46589db2acbd
+Received: by 10.150.174.18 with SMTP id w18mr2043970ybe.87.1271434444801; Fri, 
+	16 Apr 2010 09:14:04 -0700 (PDT)
+Message-ID: <l2nc68dc3441004160914jd0c93142we0832979d197a19b@mail.csmining.org>
+From: Jed Soane <jedsoane+quicktime@csmining.org>
+To: quicktime-api@lists.apple.com
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAhO1VpgTtlhM
+Subject: QuickTime IIDC trigger problems
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I am developing an application that is capturing video from two
+cameras that are synced to an external time source running at 60Hz.
+The sync is also driving a laser that provides a visual signal that
+the camera will "see" in every second frame. So the sequence of frames
+looks like:
+
+frame | frame + signal | frame | frame + signal =85
+
+The code I have is based on the WhackedTV example code. I have added
+code to set the trigger settings (using VDIIDCTriggerSettings) and
+other camera-specific settings using VDIIDCSetCSRData. This gives us
+frames with signal that alternates as expected. However the phase of
+the frames switches at a regular period, so the frames without signal
+suddenly become frames with signal and vice versa.
+
+I suspect that this is related to this call:
+
+SGSetFrameRate(mChan, FloatToFixed(60.0f));
+
+I am guessing that this causes problems because the clock of our
+external sync and the clock in the computer are running at slightly
+different rates that after several minutes the clocks are out by
+enough that the sequence grabber re-uses the previous frame because
+there is no new one. Is this a safe assumption?
+
+Is there any way to get the sequence grabber to just grab the frames
+that are generated by the camera without specifying the sequence
+grabber's framerate? That is, so we only get the frames that are
+generated on the camera's sync signal with no double-ups?
+
+Alternatively, if someone could point me in the direction of some
+documentation, example code, or any other suggestions  that may
+provide some answers, clues or other options then I would appreciate
+it greatly.
+
+Cheers
+Jed
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

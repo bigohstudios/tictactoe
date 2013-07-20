@@ -1,0 +1,99 @@
+X-Account-Key: account5
+X-UIDL: GmailId128273c4ae34d4be
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs34221wfj;
+        Thu, 22 Apr 2010 13:36:22 -0700 (PDT)
+Received: by 10.142.248.30 with SMTP id v30mr4999303wfh.52.1271968582571;
+        Thu, 22 Apr 2010 13:36:22 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 17si397665pzk.81.2010.04.22.13.36.22;
+        Thu, 22 Apr 2010 13:36:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 5947D1BBDBCBC
+	for <mlsubscriber.tech@csmining.org>; Thu, 22 Apr 2010 13:36:22 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 543572707BD55
+	for <mlsubscriber.tech@csmining.org>; Thu, 22 Apr 2010 13:36:22 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 740A12707B2E9
+	for <x11-users@lists.apple.com>; Thu, 22 Apr 2010 13:35:01 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 5859ED403A75
+	for <x11-users@lists.apple.com>; Thu, 22 Apr 2010 13:35:01 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-7e-4bd0b2f4b40e
+Received: from mail-px0-f179.google.com (mail-px0-f179.google.com
+	[209.85.212.179])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	65.4D.26228.4F2B0DB4; Thu, 22 Apr 2010 13:35:01 -0700 (PDT)
+Received: by pxi13 with SMTP id 13so797648pxi.24
+	for <x11-users@lists.apple.com>; Thu, 22 Apr 2010 13:35:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:date:received:message-id
+	:subject:from:to:content-type;
+	bh=4SNuA+oZMAaJoisVn3hzeEVhy/BmBLFQLMTQLxjEhdw=;
+	b=Fj/xD3jKdprzGzALbI+iztH8glmV7qAE4QknJAdGLycAjSu+ySc0EpLO0+QT8BU1To
+	ZeqgexK0xaoL2ZNx2hMzQSBbeFudeS5mhaOq/YfOFMidmsNN8KnFsK2sBMAcdoDDsAt9
+	8Q/nlA48W8n4x2rGouiL29hDdraepr6w2Q4dY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=hgdhMJHvRiMdRCwGFjvHvBL6N6cF61DOpmb3bPcEulhpgn67SPwkhWf51SZNl6fgXe
+	PS1bEBvMJLp5n9mvTh0DvPmLFRCOJh1LTFpYUX0RxqvUcsSDOjPUEali3EKCgJkLeNco
+	mmB5NDv+wSbXiVCSrFGaXr+Inp9Qh5YMeac4c=
+MIME-Version: 1.0
+Received: by 10.115.16.19 with HTTP; Thu, 22 Apr 2010 13:35:00 -0700 (PDT)
+Date: Thu, 22 Apr 2010 13:35:00 -0700
+Received: by 10.115.117.19 with SMTP id u19mr253638wam.84.1271968500202; Thu, 
+	22 Apr 2010 13:35:00 -0700 (PDT)
+Message-ID: <w2o735277d41004221335g56f3a85cl5b102c2d92252b9a@mail.csmining.org>
+From: James Hughes <jamezilla@csmining.org>
+To: x11-users@lists.apple.com
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAxPYxgsT2WikE9mWyA==
+Subject: cycle through windows causes freeze
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I just upgraded to Xquartz 2.5.0 and I'm having an issue with the
+'cycle through windows' keyboard shortcut. Every time I hit command-`
+it causes the X11 windows to freeze and become unresponsive. I'm not
+able to move the windows, click the close buttons or have any keyboard
+access to them.
+
+This issue does NOT happen if I use the "Window -> Cycle through
+windows" menu item - only with the keyboard shortcut.
+
+There's nothing in the console logs. It happens whether or not I have
+an external monitor plugged in.
+
+Mac Book Pro
+OS X 10.6.3
+XQuartz 2.5.0 (xorg-server 1.7.6)
+
+Thanks,
+James
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

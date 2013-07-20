@@ -1,0 +1,16 @@
+[Spambayes] test sets?
+>>>>> "TP" == Tim Peters <tim.one@comcast.net> writes:
+
+    >> Any thought to wrapping up your spam and ham test sets for
+    >> inclusion w/ the spambayes project?
+
+    TP> I gave it all the thought it deserved <wink>.  It would be
+    TP> wonderful to get several people cranking on the same test
+    TP> data, and I'm all in favor of that.  OTOH, my Data/ subtree
+    TP> currently has more than 35,000 files slobbering over 134
+    TP> million bytes -- even if I had a place to put that much stuff,
+    TP> I'm not sure my ISP would let me email it in one msg <wink>.
+
+Check it into the spambayes project.  SF's disks are cheap <wink>.
+
+-Barry

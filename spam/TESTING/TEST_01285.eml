@@ -1,0 +1,142 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287ef703caec766
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs565502wfb;
+        Sun, 9 May 2010 14:27:18 -0700 (PDT)
+Received: by 10.223.6.152 with SMTP id 24mr3394384faz.25.1273440436983;
+        Sun, 09 May 2010 14:27:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si7120546fah.47.2010.05.09.14.27.16;
+        Sun, 09 May 2010 14:27:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9B52B2D0C6C; Sun,  9 May 2010 21:27:08 +0000 (UTC)
+Old-Return-Path: <robomod@news.nic.it>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-0.5 required=4.0 tests=ALL_TRUSTED,
+	DNS_FROM_RFC_WHOIS,FOURLA autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C93AB13A44BC
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 21:10:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.7 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, FOURLA=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id GtPDztf2Qgi6 for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 21:10:09 +0000 (UTC)
+Received: from erode.bofh.it (erode.bofh.it [IPv6:2001:4b78:2000::2])
+	by liszt.debian.org (Postfix) with ESMTP id AA5F413A5040
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 21:10:04 +0000 (UTC)
+Received: from erode.bofh.it (localhost [127.0.0.1])
+	by erode.bofh.it (Postfix) with ESMTP id AC7F13A6584
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 23:10:02 +0200 (CEST)
+From: Chris Davies <chris-usenet@roaima.co.uk>
+Subject: Re: backing up LVM volumes
+Date: Sun, 09 May 2010 21:26:04 +0100
+Message-ID: <sbijb7xef7.ln2@news.roaima.co.uk>
+References: <4BD614B4.5060209@teaser.fr> <bq2ja7x5rc.ln2@news.roaima.co.uk> <4BE6DEC1.60704@teaser.fr>
+To: debian-user@lists.debian.org
+Organization: Roaima. Harrogate, North Yorkshire, UK
+Reply-To: chris@roaima.co.uk
+NNTP-Posting-Host: gw.roaima.co.uk
+X-Trace: energise.enta.net 1273438805 29103 87.127.161.67 (9 May 2010 21:00:05 GMT)
+X-Complaints-To: usenet@energise.enta.net
+Cancel-Lock: sha1:5jKAH847VsGt3W+DCFMBFED+uoI=
+User-Agent: tin/1.9.6-20100402 ("Lochruan") (UNIX) (Linux/2.6.30-2-686 (i686))
+Sender: robomod@news.nic.it
+X-Original-Newsgroups: linux.debian.user
+X-Original-References: <eDF86-7RE-31@gated-at.bofh.it> <eDT1p-6jT-25@gated-at.bofh.it> <eIhou-2Qw-13@gated-at.bofh.it>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <pUJR1DDZl2K.A.X8E.siy5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576317
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 21:27:08 +0000 (UTC)
+
+Bernard <bdebreil@teaser.fr> wrote:
+> When I stated that 'SystemRescueCD' did not backup LVM volumes,
+> I meant that 'partimage' lacked this capability. As far as I know,
+> recent versions cannot do any better.
+
+I'm not familiar with partimage. Are you saying that it refuses to allow
+you to backup partitions with names such as "/dev/vg/home" or
+"/dev/mapper/vg-home"?
+
+
+> I tried 'dd' again. It seems more promising, since it does backup 
+> everything. files are huge (about same size as the original partition, 
+> including empty space)
+
+That's because it's a byte-for-byte copy.
+
+
+> /mnt/sdc4/# dd if=/dev/sda1 of=sda1_04_10.img
+
+Go back and read what I wrote about dd. You *really* ought to specify
+a blocksize (for example, bs=100k).
+
+
+> I must say that my original /dev/sda1 was my 'boot' partition. As such, 
+> the RAID/mdadm programs did not create a LVM system ; it kept using the 
+> original ext3.
+
+You probably needed to have updated the disk partition table, too.
+
+
+
+
+> /mnt/sdc4/# dd if=/dev/sda2 of=sda2_04_10.img
+> /mnt/sdc4/# dd if=sda2_04_10.img of=/dev/sdc1
+
+> I can't read, or even mount sdc1 :
+
+> root@new-host:/home/bd# mount /dev/sdc1 /mnt/exthd
+> mount: unknown filesystem type 'lvm2pv'
+> root@new-host:/home/bd#
+
+That suggests that sdc1 is a raw LVM partition, which you would not be
+expected to mount as a filesystem. Are you SURE you're trying to dd from
+a filesystem image and not from an underlying LVM segment?
+
+
+It seems to me that you may be very confused (maybe you don't even know
+it?!). If you want specific advice, please can I ask that you run these
+commands (as root) and post the output.
+
+    for D in /dev/[hs]d[a-z]; do fdisk -l "$D"; done
+    mdadm -v --examine --scan
+    pvdisplay | grep Name
+    lvdisplay | grep Name
+    mount | grep ^/dev/
+
+This will give us a view on what Disk/RAID/LVM/Filesystem combinations
+you actually have.
+
+Chris
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/sbijb7xef7.ln2@news.roaima.co.uk
+
+

@@ -1,0 +1,42 @@
+Re: About USB hard drives and errorsOn 20100411_002510, Celejar wrote:
+> On Sat, 10 Apr 2010 22:06:06 -0600
+> Paul E Condon <pecondon@mesanetworks.net> wrote:
+> 
+> ...
+> 
+> > I got a little less timid and tried running smartctl even though I was
+> > quite unsure of what to expect. It ran. Each of the three USB HD gave
+> > somewhat different output, but none gave output that claimed there was
+> > a working SMART on the drive. These drives are Western Digital (WD).
+> > The WD web site mentions SMART and also uses the words Smart Drive to 
+> > mean something else that is a proprietary marketing thing, AFAICT. I
+> > was unable to find a list of part #s for drives that support S.M.A.R.T.
+> > 
+> > I think I should be in the market for a better class of drives, but not
+> > this weekend. Thanks for the help.
+> 
+> My understanding is that S.M.A.R.T. doesn't generally work over USB.
+> As Wikipedia puts it:
+> 
+> For example, few external drives connected via USB and Firewire
+> correctly send S.M.A.R.T. data over those interfaces.
+> 
+> http://en.wikipedia.org/wiki/S.M.A.R.T.#Standards_and_implementation
+> 
+> Celejar
+
+So, the fact that my WD drives don't play well with S.M.A.R.T doesn't 
+make them special, and I should not spend much, if any, time looking
+for a USB solution. What other options are there for external HD?
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100411044157.GD10774@big.lan.gnu
+
+

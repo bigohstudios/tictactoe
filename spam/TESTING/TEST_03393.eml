@@ -1,0 +1,138 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fcd9d6020bbc9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs18701wfa;
+        Wed, 14 Apr 2010 08:04:47 -0700 (PDT)
+Received: by 10.102.13.10 with SMTP id 10mr4240550mum.87.1271257486867;
+        Wed, 14 Apr 2010 08:04:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n7si2604738mue.15.2010.04.14.08.04.46;
+        Wed, 14 Apr 2010 08:04:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1ECA72D0D22; Wed, 14 Apr 2010 15:04:40 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8D3932D0CEB
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 15:04:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4W2dq73xMWtN for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 15:04:27 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 196052D0C8D
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 15:04:24 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 9652D1568737
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 17:04:22 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fjuxVIfD9BRf for <debian-user@lists.debian.org>;
+	Wed, 14 Apr 2010 17:04:22 +0200 (CEST)
+Received: from [132.229.227.77] (brood.lorentz.leidenuniv.nl [132.229.227.77])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 04706156870A
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 17:04:22 +0200 (CEST)
+Message-ID: <4BC5D975.1090204@lorentz.leidenuniv.nl>
+Date: Wed, 14 Apr 2010 17:04:21 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; nl; rv:1.8.1.21) Gecko/20090318 Lightning/0.9 Thunderbird/2.0.0.21 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Updating JRE in Lenny
+References: <slrnhsasdb.bu7.liam.p.otoole@dipsy.selfip.org> <20100414114742.GA9131@rimmer.esmertec.com> <slrnhsbe0a.bu7.liam.p.otoole@dipsy.selfip.org> <4BC5BE85.3000102@lorentz.leidenuniv.nl> <slrnhsblfq.bu7.liam.p.otoole@dipsy.selfip.org>
+In-Reply-To: <slrnhsblfq.bu7.liam.p.otoole@dipsy.selfip.org>
+X-Enigmail-Version: 0.95.6
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enigD4F4DAD05B052B7A6C43BA74"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tTvMY617edG.A.mFD.ImdxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574047
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 15:04:40 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enigD4F4DAD05B052B7A6C43BA74
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Liam O'Toole schreef:
+> On 2010-04-14, Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl> wrote:
+>> This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+>> --------------enigFA5FB73CBD21A1915422D995
+>> Content-Type: text/plain; charset=3DUTF-8; format=3Dflowed
+>> Content-Transfer-Encoding: quoted-printable
+>>
+>> Liam O'Toole schreef:
+> ---SNIP---
+>>> While the update-java-alternatives command is useful, it helps only i=
+f
+>>> the package already provides an alternative. The OP has to set up the=
+
+>>> alternative manually.
+>> or use backports.org to install a more recent version of Sun's java.
+>=20
+> I don't see a lenny-backports version:
+>=20
+> 	http://packages.debian.org/search?keywords=3Dsun-java6-plugin
+>=20
+> Is it available but under a different name?
+>=20
+It's there (in non-free):
+http://www.backports.org/debian/pool/non-free/s/sun-java6/
+
+Sjoerd
+
+
+--------------enigD4F4DAD05B052B7A6C43BA74
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.7 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLxdl1HKEdNPY5OOURAh9rAKC+vQR+tNRBHodgkyV2Q5qKe/6v1QCeLlAv
+2cs7IQ+Ou1oz56nH7T3hxuk=
+=8Nyr
+-----END PGP SIGNATURE-----
+
+--------------enigD4F4DAD05B052B7A6C43BA74--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5D975.1090204@lorentz.leidenuniv.nl
+
+

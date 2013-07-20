@@ -1,0 +1,234 @@
+X-Account-Key: account5
+X-UIDL: GmailId12873cb50209d414
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs463474wfb;
+        Fri, 7 May 2010 10:23:45 -0700 (PDT)
+Received: by 10.223.63.76 with SMTP id a12mr450062fai.10.1273253023973;
+        Fri, 07 May 2010 10:23:43 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 6si2605145far.39.2010.05.07.10.23.43;
+        Fri, 07 May 2010 10:23:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6D67E2D0D33; Fri,  7 May 2010 17:23:41 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E199E2D0D43
+	for <lists-debian-kde@liszt.debian.org>; Fri,  7 May 2010 17:23:35 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id YZ+3je90ZndC for <lists-debian-kde@liszt.debian.org>;
+	Fri,  7 May 2010 17:23:28 +0000 (UTC)
+Received: from mail-gx0-f224.google.com (mail-gx0-f224.google.com [209.85.217.224])
+	by liszt.debian.org (Postfix) with ESMTP id 17BC02D0D3C
+	for <debian-kde@lists.debian.org>; Fri,  7 May 2010 17:23:27 +0000 (UTC)
+Received: by gxk24 with SMTP id 24so782039gxk.18
+        for <debian-kde@lists.debian.org>; Fri, 07 May 2010 10:23:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=ueT2mC7VN12uBAmN4WKrsQ3OQz27vlFRTU95Kj/CC48=;
+        b=w0QUWH6dcWhlGe5LGdcReuU5swjqrPYmA97oqQ49AEjEDpmwwAn9nt3kBjmO5kytOK
+         7nn26WVPY73o7k8zSbKhBsUrRlrZj++/A3K/Sgf1eU5s4gwg/ca5kzTppmD9dWJkAoyV
+         VjtFUA8W6o1cgCzk4dHbQvXj7FuuWSRo+esgo=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=KzhWOBfmYFRqxqaCniTmMfHaUVgUZ2V0MbgVqxb3k3wZeCHb+nPQQDBWGk2g7he6iC
+         ys9Q/h54G9zttUZ+eFz7MfnenfP0GdBGn2z3PjKq7AeJggPILTyrRqraijhPnmKwIN/A
+         4YsztvE+tKrmA9XaVaeY9d7jFOB8NWAATgM/w=
+MIME-Version: 1.0
+Received: by 10.229.239.148 with SMTP id kw20mr281090qcb.10.1273252997929; 
+	Fri, 07 May 2010 10:23:17 -0700 (PDT)
+Received: by 10.229.221.13 with HTTP; Fri, 7 May 2010 10:23:17 -0700 (PDT)
+In-Reply-To: <201005071754.22839.lisi.reisz@csmining.org>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+	 <201005070956.00294.lisi.reisz@csmining.org>
+	 <p2n880dece01005070917m9ac32c00j51fdfcccaaededca@mail.csmining.org>
+	 <201005071754.22839.lisi.reisz@csmining.org>
+Date: Fri, 7 May 2010 20:23:17 +0300
+Message-ID: <g2x880dece01005071023wd19e98c5qf0428f633e3f7742@mail.csmining.org>
+Subject: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Lisi <lisi.reisz@csmining.org>, debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bHz9ANnS9vB.A.s5.dyE5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32244
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 17:23:41 +0000 (UTC)
+
+On 7 May 2010 19:54, Lisi <lisi.reisz@csmining.org> wrote:
+>> That boils down to "it's on by default". Just go turn them off.
+>
+> But I have to _look_ at them to turn them off. In KDE 3 I do not. I can turn
+> them off without ever having to see them.
+>
+
+Yes, you do have to look at them once.
+
+
+>> And
+>
+>> the defaults do not have wobbly windows, wavy effects, or anything
+>
+>> shimmering. Nothing spins either, but the Alt-tab dialogue does slide.
+>
+>> There is plenty of transparency, though, and I hate that too. So I
+>
+>> turn it off.
+>
+>>
+>
+>> My mother suffers from what she calls "vertigo" and the effects do not
+>
+>> upset her. Nor do they upset the autistics that I volunteer with. They
+>
+>> are merely an annoyance to those annoyed by them, nothing wild.
+>
+> Bully for your mother and your autistics. They make me feel sick and trigger
+> a bad headache.
+>
+
+The effects do make you feel sick? The only effects you will see to
+get to the System Settings is the transparency. I have a lot of
+experience in environmentally-induced reactions (my mother, autistics,
+and by the way I am a trained medic though I currently do not work in
+the field), and I simply do not believe that transparency will cause a
+reaction. Nothing flashes or spins, which are the two established and
+recognized visual triggers.
+
+
+>> It works that way in KDE 4 as well, so long as you have opened them
+>
+>> from Krunner in the past. That is how I open all my applications.
+>
+> They do not. They are much more complicated than in KDE 3 and you have to
+> type more to be offered anything.
+>
+
+You are right, you must type the first three letters in KDE 4.
+
+
+>> > 4. Alt+F1 does not bring up the menu.
+>
+>>
+>
+>> It's Alt-F5 for the Kmenu. Has been since KDE 3 I think.
+>
+> No, it's alt+F1 in KDE 3.5.x. Alt+F5, which I also like and use a lot,
+> brings up a list of running windows.
+>
+
+Thanks, I'm a good year removed from KDE 3. In any case, you can set
+Alt-F1 as the Kmenu shortcut.
+
+
+>> > 5. Kcontrol no longer exists.
+>
+>>
+>
+>> It's called System Settings, and with the Tree menu it's very similar.
+>
+>> It is being reworked for KDE 4.5, so if you have any suggestions then
+>
+>> now is the time to make them!
+>
+> But I don't _like_ KDE 4 and I do, very much, like KDE 3. I like Kcontrol
+> better than those work-arounds.
+>
+
+That's why I'm here. I'm not trying to push you into using KDE 4. I'm
+trying to learn what you dislike about KDE 4 so that I can file issues
+and get things fixed. But I won't do that on trivial things, such as
+non-essential default settings.
+
+
+>> > etc etc.
+>
+>>
+>
+>> Tell me more!
+>
+> Why? You will only tell me that I have not got your petrmission to
+> dislike/miss whatever it is.
+>
+
+No, if you tell me about usability issues, regressions, or just plain
+bugs in KDE 4 I will work to resolve them. I have filed or triages
+over 1300 bugs in KDE, most for users and not for myself.
+
+
+> I have not evaded the question. I have pointed out that I prefer things that
+> are functional to things that are showy.
+
+You did not point out what is not functional. I am here to fix KDE 4.
+I am not here for philosophy.
+
+
+> As I stated at the beginning. As
+> someone else has pointed out, KDE 4 has had 2 years to become half way
+> bearable and has signally failed. I mourn the passing of KDE 3.5.x, which I
+> regard as the pinnacle of DE's. In other words, we have come full circle and
+> are back at the beginning. You have to learn to accept that not everyone
+> agrees with you.
+>
+
+I don't want you to agree with me. I want you to point out the
+problems so that I can fix them.
+
+
+> And, I fear that the lengths you are going to to try and persuade me that I
+> am wrong, even to the extent of telling me that I am only allowed to be made
+> ill by something that also makes your mother ill, do not strike me as
+> helping me.
+>
+
+I am not trying to persuade you to do anything other than share your
+KDE problems with me, so that I might get them resolved. KDE 3
+holdouts are holding out because they are sensitive to the little
+usability issues that make a great desktop environment. I need that
+input so that I might get KDE 4 as great as KDE 3. I want to know what
+is not intuitive, and what doesn't work.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/g2x880dece01005071023wd19e98c5qf0428f633e3f7742@mail.csmining.org
+
+

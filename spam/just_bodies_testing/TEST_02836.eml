@@ -1,0 +1,33 @@
+[ILUG] serial console question I've found a decrepit raq3 that I'm going to resurrect, as soon as I work
+out what's up with the console.
+
+ I'm using 115200 8n1 with minicom, and I'm getting wierd stuff like:
+
+S+#_+Å± INET __+_: 
+S+#_+Å± Å°_°_ MÄ+Å+Å± _+Ä+ °+_<_++_.
+S+#_+Å± #+__+ S+#_+Å± #+Å + __+_: 
+IÅ+#+ _+°#+_ °Ä_ +#Å _+ -- NÄ+ _+#_+Å± SSL
+
+/+__/_Å/++Ä
+S++Å± +Ä PÄ_+±_SQL: FATAL: S+_#+S_+_PÄ_+: Å() °#+: A___ #+_#< Å +_
+        I_ #ÅÄ+_ ÄÄ_++#_+_ #+_#< _+ÅÅÅ± ÄÅ +#+ ÄÄ_+?
+        I° ÅÄ+, _+Ä+ _Ä++ ÅÄ (/++Ä/._.PGSQL.5583) #Å _+_<.
+/+__/Å/ÄÄ_++#_+_: #ÅÅÄ+ _#+ UNIX _+_#+ ÄÄ_+
+ [616]
+S+#_+Å± ++Ä S++Å± +Ä W S_+: 
+
+ So it looks like some sort of setting mismatch. Various places on the web
+say that cobalts are setup with 115200 8n1 serial ports, but someone could
+have changed it on this particular box.
+
+ Anyone care to guess what's up ?
+
+John
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

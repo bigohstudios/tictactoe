@@ -1,0 +1,31 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)Ron Johnson put forth on 4/14/2010 11:10 PM:
+> On 2010-04-14 22:35, briand@aracnet.com wrote:
+> [snip]
+>>
+>>   r8169 requesting rtl8169-1.fw
+>>
+> 
+> What package is that in?
+
+At this point in time it supposedly should be found in
+firmware-linux-nonfree.  However, I can't find it there.  In fact, I can't
+find any sign of Realtek firmware anywhere in firmware-linux-* or in a
+standalone firmware package with anything resembling "Realtek" in the
+package name or contents.
+
+Very strange.  Anyone else able to find any Realtek firmware in any Debian
+packages?  At this point it would seem the Realtek firmware(s) have vanished.
+
+I wonder if none of the Realtek chips actually need soft firmware blobs.  I
+guess not since Debian has removed all traces of them from the packages.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC6A5B6.1020702@hardwarefreak.com
+
+

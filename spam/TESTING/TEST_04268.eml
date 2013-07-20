@@ -1,0 +1,244 @@
+X-Account-Key: account5
+X-UIDL: GmailId12890f5df511cc8e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs50656wfo;
+        Thu, 13 May 2010 02:19:13 -0700 (PDT)
+Received: by 10.223.132.210 with SMTP id c18mr9745597fat.48.1273742352017;
+        Thu, 13 May 2010 02:19:12 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si2652049fah.37.2010.05.13.02.19.11;
+        Thu, 13 May 2010 02:19:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9166713A53FC; Thu, 13 May 2010 09:19:09 +0000 (UTC)
+Old-Return-Path: <kevin.krammer@gmx.at>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7AA4013A4FD9
+	for <lists-debian-kde@liszt.debian.org>; Thu, 13 May 2010 09:19:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id W-Ib2RAOxzFu for <lists-debian-kde@liszt.debian.org>;
+	Thu, 13 May 2010 09:18:55 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from mail.gmx.net (mail.gmx.net [213.165.64.20])
+	by liszt.debian.org (Postfix) with SMTP id D569713A4888
+	for <debian-kde@lists.debian.org>; Thu, 13 May 2010 09:18:55 +0000 (UTC)
+Received: (qmail invoked by alias); 13 May 2010 09:18:53 -0000
+Received: from dialbs-092-079-186-076.static.arcor-ip.net (EHLO artemis.localnet) [92.79.186.76]
+  by mail.gmx.net (mp021) with SMTP; 13 May 2010 11:18:53 +0200
+X-Authenticated: #3816551
+X-Provags-ID: V01U2FsdGVkX18sP348wIUsq27icS7fq/54GoXIZr9rh1yfOg9F2/
+	EsAVfw+cVkVS5T
+From: Kevin Krammer <kevin.krammer@gmx.at>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 upgrade eats 141 MB of /home
+Date: Thu, 13 May 2010 11:18:29 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.28-grml; KDE/4.4.3; i686; ; )
+References: <20100512005320.GA16379@club.cc.cmu.edu> <201005121041.41038.kevin.krammer@gmx.at> <20100512171951.GA17357@club.cc.cmu.edu>
+In-Reply-To: <20100512171951.GA17357@club.cc.cmu.edu>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart13874863.GyJEIdEBUI";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005131118.49759.kevin.krammer@gmx.at>
+X-Y-GMX-Trusted: 0
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LonkgupyRAH.A.pAD.NQ86LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32436
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 09:19:09 +0000 (UTC)
+
+--nextPart13874863.GyJEIdEBUI
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday, 2010-05-12, Mike Kasick wrote:
+> On Wed, May 12, 2010 at 10:41:35AM +0200, Kevin Krammer wrote:
+> > Since you are writing a bit down that you think it is caused by
+> > kres-migrator, where did you get it from (here it seems to be part of
+> > the kdepim-runtime package).
+>=20
+> Yes, kres-migrator is part of kdepim-runtime.  I do have that package
+> installed, as it seems to be indirectly depended upon by kde-minimal.  It=
+'s
+> kdepim itself, and its application dependencies (kaddresbook, kalarm, kma=
+il
+> knode, knotes, kontact, korganizer, etc.) I don't have installed.  Maybe
+> the kdepim-runtime dependency itself is a bug--can't say.
+
+It depends.
+One possible way would be to check every single application (and potentiall=
+y=20
+their plugins) for PIM related functionality.
+I guess it is just easier to depend on runtime. These processes are run on-
+demand only anyway, so in the worst case they consume disk space if nothing=
+ is=20
+actually using PIM functionality.
+
+> > kres-migrator is called when an application accesses the KResource
+> > framework, e.g. some app accessing the old addressbook API.
+> > Not using KDEPIM apps does not necessarily mean non of your other
+> > applications access PIM data.
+>=20
+> Looks like the culprit here is libkabc.  There's a "Default Addressboook"
+> created by the library, that's presumably empty.  I'm not sure what's
+> loading libkabc in the first place.  I do know that I didn't even have ka=
+bc
+> database files (.kde/share/apps/kabc/std.vcf*) until upgrading to 4.4.
+> Maybe it's an explicit part of the migration?  Or I suppose one of the
+> panel widgets I'm using might depend on it now, but I don't believe that's
+> the case.
+
+Ah, right. Probably a KRunner plugin for actions on contacts.
+
+> Looked into this a bit.  The InnoDB documentation itself is a little
+> lacking on describing its particular architecture, but there's an InnoDB
+> tuning tutorial [1] that's rather helpful.
+>=20
+> These files serve as InnoDB's REDO logs.  They serve two purposes.  First,
+> committed transactions are written to the REDO logs sequentially, so that
+> table updates (with possible random seeks) can be done in a write-back mo=
+de
+> "at leisure."
+>=20
+> Second, REDO logs serve as a durability mesaure.  Each time the database =
+is
+> restarted, the REDO logs are replayed to ensure that recent transactions
+> have been properly commited--say if either the database is "kill -9ed" or
+> there's other table corruption.  They may also be used in recovery, where=
+by
+> if table corruption is found and old tables can be reloaded from backup,
+> then the REDO logs can be replayed to bring the tables up to date.  You c=
+an
+> also forward REDO logs to standby (fail-over) servers to ensure their
+> database tables are up to date.
+>=20
+> The REDO logs themselves contain row updates from insert/update statement=
+s.
+> So for a given row length, the REDO logs contain the last
+> LOG_SIZE/ROW_LENGTH transactions.  They're not used in selects or other
+> non-mutating accesses.
+>=20
+> REDO log size is not an issue of correctness.  A small log size might
+> result in decreased performance by forcing a burst of inserts/updates to =
+be
+> committed to table before completing a transaction.  A larger log size may
+> also be of benefit in data recovery if database corruption is found, and a
+> recent enough table backup is maintained so that the REDO log still
+> contains all non-backed up transactions.
+
+Ah, good research, thank you!
+
+> Let's try to quantify this a bit.  I'm not exactly sure what kind of
+> database workloads Akonadi is targetting, but for PIM applications we're
+> looking at managing (1) contacts, (2) calendar entries, (3) "TODO" tasks,
+> (4) notes-to-self, etc.  It seems to me that each of these things results
+> in:
+
+Just for the context, this is for KDE 4.4
+4.5 potentially adds (5) emails
+
+> - Table row length on order of 1 kB.
+
+I think the preconfigured threshold for database cached parts is 4KB, thoug=
+h=20
+there can be several such parts per item (depends on the data type).
+
+> - Total number of rows < 10,000 (how many people do you know?)
+> - Largely read-only data sets, grows over period of years.
+> - A working set (actively updated rows) < 1,000 per day.  Probably < 100.
+
+Right, again in in the 4.4 context.
+With emails these can easily be surpassed, especially on update rate (mails=
+=20
+come in, get marked read, moved, deleted, etc)
+
+> The part that bothers me is that the Akonadi folks are basically aware of
+> the situation, and feel justified in claiming [2] that 100+ MB of disk is
+> reasonable.  Franlky, if you ask even an arm-chair DBA if using InnoDB wi=
+th
+> these parameters are appropriate for per-user PIM management, they'll look
+> at you like your crazy--which is, from what I can tell, the underlying
+> reason for so much of the dislike with KDE 4.4.
+
+My take is that there is quite some room for optimizations through input by=
+=20
+people with good knowledge of database systems.
+As far as I know the developers had help from some MySQL expert on the init=
+ial=20
+configuration, but since MySQL evolves over time the chosen settings might =
+not=20
+be that good anymore.
+
+> I can't imagine that SQLite was really _so bad_ of a target for low-usage
+> PIM workloads that the Akonadi folks couldn't have just written a plugin
+> for it some time ago and filed some bugs.  Afterall, Firefox uses it rath=
+er
+> extensively, seems like it would've been a perfect fit.  But that's anoth=
+er
+> story, and we just have to make do with what we have right now.
+
+SQLite wasn't viable until very recently due to deadlocking when transactio=
+ns=20
+were being using in a multithreading environment.
+My most up-to-date information on that is that it mostly works now with a=20
+development version of SQLite and some additional changes elsewhere.
+IIRC there is only one deadlock case left.
+
+Performance wise it might be a viable solution for people with low=20
+requirements on PIM, e.g. not for people like myself with several hundret=20
+thousand mails, tens of quite active mailinglist, etc. :)
+
+Cheers,
+Kevin
+
+
+--nextPart13874863.GyJEIdEBUI
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iD8DBQBL68PmnKMhG6pzZJIRAiVXAJ4uBFIYq2BFTq2qK4MHB3DV0LB+kQCbBRsw
+INEXcQJi72/dZCf6maV/8fo=
+=jbWZ
+-----END PGP SIGNATURE-----
+
+--nextPart13874863.GyJEIdEBUI--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005131118.49759.kevin.krammer@gmx.at
+
+

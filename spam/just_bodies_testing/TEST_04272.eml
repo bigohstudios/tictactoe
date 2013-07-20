@@ -1,0 +1,43 @@
+Re: How to flush cache of certain disk?On 6 May 2010 18:53, Camale=C3=B3n wrote:
+>>> I never do that way. I always first "umount" the device and then, I
+>>> remove the stick, but not the reverse. Removable media has to be done
+>>> that way, to prevent data loss or flash drive damage, or that is what
+>>> manufacturers say :-?
+>>
+>> Of course, "umount, then remove" is the normal way to remove USB stick
+>> (and any other storage). But as far as main idea of automounting is
+>> "easy (un)plug" (in my opinion at least), we have little weird but
+>> working principle "sync, then unplug, and udev will carry out everything
+>> else". As I already said, it's really weirds, but it works.
+>
+> Mmm, I still fail to see your point for performing a "sync" operation.
+> Umount won't allow the device to be unmounted if it's busy (writing/
+> reading data) so it's a single and safer operation (umount -> unplug).
+
+Now, I run sync manually, then unplug device, and after it umount are
+ran by udev. Actually there's no certain point in doing so: I can run
+umount instead of sync as well. The only reason why it's done like
+this is the following: I just copied this configuration from
+somebody's blog and didn't modify it (well, I *almost* didn't).
+
+
+> I also have a Gmail account and used webmail interface not so time ago,
+> so I am aware of the annoyance to have to delete the OP's e-mail address
+> when replying in some lists... I switched to Mutt (for private e-mails)
+> and use a news reader (for mailing lists). No more webmail O:-)
+
+Yeah, that's exactly what I'm intended to do: switch to mutt. What
+news reader do you mean? Is it some kind of plugin for mutt, or is it
+separate application at all? Excuse me for offtop, you can answer
+privately if you want.
+
+Sincerely,
+Alexander Batischev
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/m2x28c1d5ea1005060904oaab11c02t6d04be6183fd666f@mail.csmining.org
+
+

@@ -1,0 +1,162 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286cbda2424a76a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs380795wfb;
+        Thu, 6 May 2010 01:31:27 -0700 (PDT)
+Received: by 10.142.2.2 with SMTP id 2mr1949720wfb.75.1273134686913;
+        Thu, 06 May 2010 01:31:26 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 17si1148264pzk.47.2010.05.06.01.31.26;
+        Thu, 06 May 2010 01:31:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id BCBD31BF2D5C1
+	for <mlsubscriber.tech@csmining.org>; Thu,  6 May 2010 01:31:26 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id AA2B2276E0085
+	for <mlsubscriber.tech@csmining.org>; Thu,  6 May 2010 01:31:26 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id E970A276DFE9E
+	for <quicktime-api@lists.apple.com>;
+	Thu,  6 May 2010 01:30:58 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id D4B2ED3912F6
+	for <quicktime-api@lists.apple.com>;
+	Thu,  6 May 2010 01:30:58 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-36-4be27e418d7b
+Received: from smtp3.epfl.ch (smtp3.epfl.ch [128.178.224.226])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	0F.A7.07800.14E72EB4; Thu,  6 May 2010 01:30:58 -0700 (PDT)
+Received: (qmail 15369 invoked by uid 107); 6 May 2010 08:30:56 -0000
+X-Virus-Scanned: ClamAV
+Received: from iamac42.epfl.ch (128.178.5.71)
+	by smtp3.epfl.ch (AngelmatoPhylax SMTP proxy);
+	Thu, 06 May 2010 10:30:56 +0200
+User-Agent: Microsoft-Entourage/13.4.0.100208
+Date: Thu, 06 May 2010 10:30:56 +0200
+From: Christophe Salzmann <Christophe.Salzmann@epfl.ch>
+To: "rob@haptek.com" <rob@haptek.com>,
+	"quicktime-api@lists.apple.com" <quicktime-api@lists.apple.com>
+Message-ID: <C8084AE0.176CB%Christophe.Salzmann@epfl.ch>
+Thread-Topic: Bi-directional streaming of "movies"?
+Thread-Index: AcrsoRHwfI8OTcRqQQ2MRtyHbs+0CwAVWCH+
+In-Reply-To: <7c225db0db853c3e4ba38c5f03629a8e.squirrel@www.haptek.com>
+Mime-version: 1.0
+Content-type: text/plain;
+	charset="US-ASCII"
+Content-transfer-encoding: 7bit
+X-Brightmail-Tracker: AAAAAhQMG6kUDPp4
+Cc: 
+Subject: Re: Bi-directional streaming of "movies"?
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Rob,
+
+I have experienced the first option: JPEG image + UDP, no audio but read
+time measurements. It has the advantage to be simple and easy to implement.
+Also it is the one that let you best control the latency, this was the most
+important point for me. We use this solution for remote experimentation.
+
+The server goes as follow:
+
+Grab an image 
+Compress it as JPEG
+Add addition info (timestamp, RT measurements, etc) to the image.
+Split the resulting image in chuncks of less that your network MTU (~1200 B
+should work in many situations)
+Number the chunks
+Send the chunks using UDP
+
+On the client side:
+
+Get chunks as they arrive
+Reassemble chunks into the image
+If a chunck is missing, drop the whole image and start with the next one.
+Decompress the image
+Display the image
+
+You could send back some info/stat to the sever for bandwidth adaptation.
+On the local network you can forget about bandwidth adaptation.
+
+Latency is the result of buffering, "killing" buffers along the path let you
+reduce latency. 
+
+So far this is the best solution I could fine to control the latency. I
+could not achieve the same result with H264. I would be very please to hear
+about other solutions with low latency and h264.
+
+Hope this help
+
+Chris
+
+On 5/6/10 12:18 AM, "rob@haptek.com" <rob@haptek.com> wrote:
+
+> Pardon if this is too general or naive a question, but I noticed
+> relevant inquires in the "ICMCompressionSession question" and
+> "NewMovie... async from Socket ?" threads.
+> 
+> We want to send video, audio, and other graphics information both
+> directions on a local network.  The video doesn't have to be high
+> resolution, even 320 x 240 is fine, but we need low latency, and
+> access to the pixel buffers on both ends.
+> 
+> One suggestion was to get a couple of mac minis, and connect them
+> with ethernet.  But what about the software?  Suggestions have included
+> 
+> - re-invent the wheel, build our own UDP packets, etc.
+> - start with open-source video server software, VLC or Live555 maybe.
+> - piece it together from the quicktime api.
+> - throw money at it, find a consultant, or maybe even a commercial product.
+> 
+> I have some experience with quicktime, playing movies or sending video
+> onto OpenGL textures, but no experience with video streaming.  Also no
+> experience with codecs, is a stream of JPEG's a good choice?  The GPU
+> and CPU's are probably going to be too busy for something fancy like H264.
+> And we need to send maybe 5 KB/sec of extra data, could we include this
+> as a "track" in a "movie"?
+> 
+> This no doubt has been done multiple times before in video conferencing
+> software, etc.  The question is, how to get an overview, and get the
+> project done, hopefully with lightweight software, in finite time.
+> 
+> Any suggestions or pointers to example code gratefully accepted!
+> 
+> Thanks, rob
+> 
+> 
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/christophe.salzmann%40epf
+> l.ch
+> 
+> This email sent to christophe.salzmann@epfl.ch
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

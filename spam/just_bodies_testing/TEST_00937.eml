@@ -1,0 +1,70 @@
+Re: Making onscreen fonts read-able[was:New monitor, how to change
+ screen resolution?]deloptes wrote:
+> James Stuckey wrote:
+> 
+>> On Fri, Apr 30, 2010 at 11:10 AM, Camaleón <noelamac@csmining.org> wrote:
+>>
+>>> On Fri, 30 Apr 2010 10:27:26 +0200, James Stuckey wrote:
+>>>
+>>>> On Fri, Apr 30, 2010 at 10:15 AM, Camaleón wrote:
+>>>>
+>>>>>> http://www.jhstuckey.com/1080.jpeg
+>>>>>>
+>>>>>> Does that look right to you?
+>>>>> Mmmm, yes, nothing strange :-?. I bit "big" for my taste...
+>>>>>
+>>>>> Do you find the font of the toolbar is still "small"? Then instead
+>>>>> 96dpi set to 120dpi, that will make things "bigger".
+>>>>>
+>>>> Doing "xrandr --dpi 120", logging out of wmii and logging back in
+>>>> doesn't change anything.
+>>> Yes, as you already said yesterday, that option was not working for you.
+>>> I dunno how to set DPI under wmii DE, unless you try to edit the
+>>> xorg.conf file and put there.
+>>>
+>>>> Maybe the problem I perceived in the text on screen is just how the
+>>>> monitor displays.
+>>> I fail to see anything wrong in the image you sent. It is readable, is
+>>> not distorted, is not small... :-)
+>>>
+>>> Greetings,
+>>>
+>>> --
+>>> Camaleón
+>>>
+>>>
+>>>
+>> Okay, I'll figure out how to set DPI and assume that whatever problem I
+>> see with the onscreen fonts here is due to the monitor.
+>>
+>> Thanks!
+> 
+> no, monitor doesn't have to do anything with it
+> 
+> you have to distinguish things - that's it
+> I'm suffering the same issue here, but did configure most of the things.
+> 
+> For you however with this funny windows manager it would be really to set
+> DPI globally. If you change DPI in the firefox properties it is applied
+> only to the text, but not to the window itself. That's why it looks like
+> much bigger then the menu area. I leave the firefox DPI setting to system
+> and set the DPI in the window manager/server.
+> 
+
+Right, I set DPI in /etc/gdm/gdm.conf:
+
+...
+command=/usr/bin/X1 :0 -layout X1 -dpi 110 -isolateDevice PCI:1:0:0 vt7
+...
+command=/usr/bin/X0 :1 -layout X0 -dpi 110 -isolateDevice PCI:0:8:0 vt51
+...
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrf69j$u5d$1@dough.gmane.org
+
+

@@ -1,0 +1,31 @@
+Re: How to Find a Printer Driver?Kent West wrote:
+> So you mentioned backports. Reckon I'll go research how to configure 
+> my sources.list file to do that, and how to use it.
+
+> (Pfft! All day trying to set up a printer to print one lousy page (I 
+> almost never need to print, so haven't bothered since the rebuild some 
+> months back), and now I have 15 minutes to do it. Arg.)
+>
+Wait! I've gotta digest all this in 15 minutes?!
+
+http://debian.ethz.ch/pub/debian-backports/utils/Backport-HOWTO.html
+
+Pfft.
+
+I'm giving up, and just gonna create a PDF and mail it to a Mac.
+
+Arg.
+
+-- 
+Kent West     <*)))><
+http://kentwest.blogspot.com
+Praise Yah! \o/
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE87FB7.7090809@acu.edu
+
+

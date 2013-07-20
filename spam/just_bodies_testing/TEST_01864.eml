@@ -1,0 +1,54 @@
+GRUB Hard Disk ErrorI've got two pendrives.
+
+I want to install a Debian on them. RAID1.
+
+Ok...
+
+...
+
+After I installed it in RAID1, it works perfectly, ok! :)
+
+When I pull out one of the pendrive [good pendrive], it still boots up,
+hurrah :)
+
+But: ...
+
+When I pull out the other pendrive [i plug in the first one i tried] it
+say's:
+
+GRUB hard disk error
+
+What can I do?
+
+I already tried:
+grub-install /dev/sdc <-that's the pendrive name [bios -> hard drive
+emulation=hard drive, not auto]
+
+or:
+# grub
+find /boot/grub/stage1
+hd0,0
+hd1,0
+
+root (hd0,0)
+setup (hd0,0)
+
+etc.
+
+What's the solution? Please help me:\
+
+I can't just dd the first 512 Byte of the "good pendrive", because the
+uuid is stored there. [needed for the sraid..]
+
+It gets to the grub, so it's not a ""boot-order problem""
+
+How can I install grub to these two pendrives, so that if one of the
+pendrives die, it would still be a bootable system?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274459390.8022.37.camel@localhost
+
+

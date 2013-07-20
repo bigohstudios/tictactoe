@@ -1,0 +1,39 @@
+Re: How to manage multiple Internet connections?From nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sun, May 16, 2010 at 09:53, Zoran Kolic <zkolic@sbb.rs> wrote:
+
+> > Let's say that you have two internet connections at home, and
+> > consequently two devices which link your computer to the Internet. How
+> > can you manage, e.g. in Iceweasel/FF, to use one or the other? If you
+> > have multiple downloads all the time, it might be an interesting thing
+> > to split them among the diferent connections.
+>
+> Using routing tables, of course.
+> The goal you'd like to get may be tricky the way you post it.
+> Sounds like the application splits the sources and use both.
+> The level of it is different.
+> At least one device should have 2 income ethernet adapters.
+> Choose would it be your desktop or router in front. Anyway,
+> prepare to experiment a bit and try/miss/try.
+> Best regards
+>
+>                              Zoran
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/20100516042300.GA974@faust.net
+>
+>
+This is what I was mentioning before.  Support you have two cable/dsl modems
+connected to a debian machine.  Use load balancing using "netxhop" option of
+iproute2 as shown by the following link..
+http://lartc.org/howto/lartc.rpdb.multiple-links.html
+But note that suppose you have two connetion of 1mbps each, You will not be
+able to do one single 2mbps download per session.  But you could have 2
+sessions of 1mbps each.
+Otherwise you could use custom download accelerators, torrent etc. which
+could split a logical download to multiple sessions.

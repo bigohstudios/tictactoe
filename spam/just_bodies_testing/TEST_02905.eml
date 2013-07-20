@@ -1,0 +1,12 @@
+[ILUG] nmap resultsI had posted previously about the 2.4 kernel using iptables I ran nmap
+against. The IPID sequence generation was all zeros. Someone said this was
+indicative of earlier kernels but was fixed about 2.4.5 version. Since I'm
+running the latest what is causing this? I ran nmap against a 2.2 kernel
+using chains and it had better results than the stock 2.4 kernel.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

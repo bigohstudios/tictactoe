@@ -1,0 +1,28 @@
+launchd, DISPLAY, & sshHi, I have a somewhat unusual setup at work, where I connect to an OS X 
+server from a Windows PC without an X11 server installed.  I use ssh 
+sessions to do the bulk of my work, and view any graphical programs 
+(Aqua and X11) via vnc (so I also login to the console).  I'm the sole 
+user.
+
+I was wondering if there is a way to determine, in my ssh sessions, the 
+DISPLAY environment variable that launchd provides to the console user 
+(it's fine if it only works if I am the logged in user).  Without that, 
+as long as I've already launched X11 from the console, I can usually set 
+DISPLAY=:0.  Very rarely I've had the vnc session go "black" with the 
+only recover to kill the loginwindow process (killing the vnc server 
+does not help in this situation).  I don't have root so cannot reboot. 
+When this happens, I can login as normal, but X11 begins to use display 
+:1 even though there is no longer an X11 process running on :0.  So I 
+was hoping a cleaner approach might be possible.
+
+This is a 10.5.8 system, running X11 2.5.0.
+
+Thanks,
+Brian
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

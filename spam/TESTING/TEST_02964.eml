@@ -1,0 +1,134 @@
+X-Account-Key: account5
+X-UIDL: GmailId12871f44ec753e3a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs438938wfb;
+        Fri, 7 May 2010 01:49:17 -0700 (PDT)
+Received: by 10.223.24.85 with SMTP id u21mr1849366fab.8.1273222156279;
+        Fri, 07 May 2010 01:49:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z13si1508600fah.24.2010.05.07.01.49.15;
+        Fri, 07 May 2010 01:49:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 042C313A54D9; Fri,  7 May 2010 08:49:07 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.4 required=4.0 tests=FOURLA,IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST,MDO_CABLE_TV3,MONEY,RATWARE_GECKO_BUILD,
+	RDNS_DYNAMIC,STOCKLIKE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9C80713A5136
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 08:49:01 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.3 tagged_above=-10000 required=5.3
+	tests=[BAYES_05=-1.5, FOURLA=0.1, IMPRONONCABLE_2=1, LDO_WHITELIST=-5,
+	MDO_CABLE_TV3=0.5, MONEY=0.5, RDNS_DYNAMIC=0.1, STOCKLIKE=1]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id hkqWpH2sQgsY for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 08:48:54 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id 5C57113A482E
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 08:48:45 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id D0E736C04C
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 03:48:41 -0500 (CDT)
+Message-ID: <4BE3D416.7060702@hardwarefreak.com>
+Date: Fri, 07 May 2010 03:49:26 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: replacing hardware raid with software raid
+References: <20100507065047.180600@gmx.net>
+In-Reply-To: <20100507065047.180600@gmx.net>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <c8ejOIFQtjF.A.I5D.DQ94LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576117
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 08:49:07 +0000 (UTC)
+
+Andreas Sachs put forth on 5/7/2010 1:50 AM:
+> Hi,
+> i created a raid-5 array with a LSI MegaRaid 150-6 controller (i used 4 sata drives). Is it possible to use the array without the hardware raid controller with linux software raid/ mdadm?
+
+No, this is not possible.  Did your MegaRAID card die?  If so, you should be
+able to purchase a new (I noticed the 150 is past EOL) similar MegaRAID
+card, drop it in, enter its BIOS, and have it scan the drives for the RAID
+configuration, then save it, and reboot.  (Link to a new in box LSI 150-6 on
+Ebay is below)
+
+This is precisely why American Megatrend's RAID division (now a division of
+LSI) implemented writing the RAID configuration to the disks themselves
+instead of only keeping it in nvram on the card.  This facilitates replacing
+a failed controller card without having to restore from tape or other backup
+media.  The SCSI AMI MegaRAID cards from the late 1990s had this feature (I
+still use one of them, a three channel model 428).  But IIRC back then you
+had to replace the failed card with an identical model.  Today, I'm pretty
+sure you can use any card in the series which has the same basic BIOS.  It
+doesn't have to be the exact BIOS rev, but it has to be the same BIOS code
+family IIRC.
+
+Call LSI and tell them what's up.  They should be able to assist you with
+getting the correct controller to replace yours and get your array going
+again without needing to restore from tape.  If you're just wanting to go to
+software RAID after a controller failure, you have no choice but to connect
+all the drives to a standard SATA controller, wipe the drives, then
+partition them or setup LVM groups, then use mdadm to create a new array.
+Then you'll need to restore from tape or other media if you have backups.
+If you have no backups, for all practical purposes, your data is lost.  If
+you have a few tens of thousands of dollars, I'm sure some of the data
+recovery companies could correctly reassemble the data.  But if you have
+such financial resources, you'd just buy another LSI card and get back up
+and running with little pain or cash outlay.
+
+Here's a new in box LSI 150-6 with cables, identical to your card, on Ebay
+for $100 USD Buy It Now.  Sale ends in 5 days.
+
+http://cgi.ebay.com/LSI-MegaRAID-SATA-150-6-RAID-Card-1506064-w-cables-/220600932830?cmd=ViewItem&pt=LH_DefaultDomain_0&hash=item335cd719de
+
+Ships to:	United States, Europe, Canada, Australia, Mexico, Japan
+
+I'm assuming you're in Germany.  The card is in Utah, USA.  Might take a few
+days to get to you.  Once it does, plug it in, scan the disks for the
+previous RAID configuration, save it, boot up, done.  It _should_ be that
+simple.
+
+I hope I've been able to help you in one way or another Andreas.
+
+Good luck.
+
+-- 
+Stan
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE3D416.7060702@hardwarefreak.com
+
+

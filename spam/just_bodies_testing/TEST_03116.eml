@@ -1,0 +1,80 @@
+Re: PDF printing - was: Re: Flash is open?On Sat, 2010-05-15 at 20:31 +0000, Camale=C3=B3n wrote:
+> On Sat, 15 May 2010 15:46:36 -0400, John A. Sullivan III wrote:
+>=20
+> > On Sat, 2010-05-15 at 13:50 +0000, Camale=C3=B3n wrote:
+>=20
+> >> Mmmm... I'm not sure to fully understand the problem :-?
+>=20
+> (...)
+>=20
+> >> Is that what are you referring about or are you (or your clients)
+> >> experiencig another problem?
+>=20
+> > In this case, the client had a Ricoh MP W3600 plotter although, if I
+> > recall correctly, we had the same problem with all the printers - it wa=
+s
+> > just more obvious with the plotter.  Let's say they wanted to send a
+> > 24x36 drawing to the plotter.  If they send it through any of the FOSS
+> > PDF viewers, it prints a 24x36 job but the image is always the default
+> > paper size, i.e., the drawing would be reduced to 8.5x11 and printed in
+> > the middle of a 24x36 piece of paper.  In some cases, we sent two pages
+> > per side - reducing and rotating the drawings to fit two per page.  In
+> > this case, two 8.5x11 images appeared on the large sheet!
+>=20
+> I see... just two things:
+>=20
+> 1/ Printer driver is vital for a correct paper size detection, but I've=20
+> seen that Ricoh provides a PostScript driver for that device (MP W3600=20
+> plotter) so this shouldn't be a problem at all in your case.
+Yup - we are using the Ricoh supplied PPD
+>=20
+> 2/ Printer settings (in CUPS) and PDF viewer settings paper size for=20
+> printing. These values are also important, I mean, if you are sending a=20
+> PDF file with a custom size you have to previously (an manually) adjust=20
+> the paper size settings accordingly before sending the job for printing.=20
+> This can be done in Evince very easily.
+The PPD had most of the needed paper sizes for the plotter.  We did add
+a custom size or two.
+
+The current workaround is to use a custom printer and send it to
+kprinter :-(
+>=20
+> If you do not tweak this, the default CUPS settings for that printer will=
+=20
+> prevail for the job.
+>=20
+> > Acroread is not without flaws either.  Versions previous to 9.3.2 could
+> > not see our CUPS print server's printers.  9.3.2 can see them but,
+> > whenever it prints, it sends the default page region.  Thus, if I
+> > directly choose, say this 3600 plotter, and send a 36x48 drawing, I see
+> > acroread has created a print job with -o PageSize=3D36x48 but also with=
+ -o
+> > PageRegion=3DA4 (or whatever either the ppd default is or the first
+> > PageRegion listed in the ppd if no default is defined).  We've seen the
+> > same thing when trying to send 11x17 jobs to other printers - it prints
+> > Letter size (or whatever the default PageRegion is).  We've escalated t=
+o
+> > Ricoh but this really smells like an acroread bug.
+>=20
+> Yep. Acrobat Reader has its own glitches. Last time I tested in a linux=20
+> box (that was 2 years ago) was not very "friendly" when choosing the=20
+> printer and/or printer options and required manual user intervention :-/
+>=20
+> OTOH, it made "auto-scalation" and "auto-rotation" of the output document=
+=20
+> quite well :-)
+>=20
+> Greetings,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273962322.17789.9.camel@Family.pacifera.com
+
+

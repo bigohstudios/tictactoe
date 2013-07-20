@@ -1,0 +1,97 @@
+RE: [ILUG] ADSL, routers and firewalls-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ok
+
+Well I am having fun with ADSL now at the moment. I had gotten the
+full package from eircom and elected to take the Zytel Prestige 645M
+(that M is very important) But alas I cannot get it to work even with
+another Major and popular graphical OS. So after almost 8 hours onto
+adsl support trying to conince them that they did actually supplu and
+support the 645M and not just the 643 and 645R its still not working.
+So, after all that I am going to try a poweredge to connect and if
+all else fails I will wait till Eircom send me out a replacement ( I
+am going to have to look for the Alcatel this time :-) But while I
+was doing my googleing I came acroos this
+
+http://www.roaringpenguin.com/pppoe/how-to-connect.txt
+http://www.roaringpenguin.com/pppoe/
+
+And they look very cool for the beginner. Also the is a cool article
+on www.linux.ie about USB and ADSL with PPPoE on Linux. ANyhow when I
+do get it working (either with the 645 MMMMM or something else) I
+will put up a howto but really the above is quite cool.
+
+Aj
+
+
+
+- ----------------------------------------
+AJ McKee
+NMTB media
+
+Phone: (Europe) +353 1 473 53 72
+       (North America) +1 206 339 4326
+
+Fax:   (Europe) +353 1 473 53 73
+       (North America) +1 206 339 4326
+
+Website: http://www.nmtbmedia.com
+- -----------------------------------------
+
+
+>-----Original Message-----
+>From: ilug-admin@linux.ie [mailto:ilug-admin@linux.ie]On Behalf Of
+>Brian O'Donoghue
+>Sent: 16 August 2002 17:42
+>To: 'ilug@linux.ie'
+>Subject: RE: [ILUG] ADSL, routers and firewalls
+>
+>
+>> To get the 3 computers talking to each other, you need a hub 
+>which you can
+>> pick up for a small amount of money.  The internal interface of 
+>the router
+>> (which may be a linux box) is connected to the hub, and the
+>> external interface is connected to the ADSL device.
+>
+>
+>Like this
+>
+>
+>[DSL Connection]--------[Alcatel modem]---[ehternet card1]-[Linux
+>box] 	
+>[         ]
+>				[Hub]-------------[Ethernet card2]-[
+>]
+>				|
+>				|
+>				|
+>			[Other machines on your lan]
+>The other machines on your lan reference the Linux box as their
+>'default gateway'... the Linux box runs nat, firewalling... dhcp(if
+>you want) and so on.
+>
+>-- 
+>Irish Linux Users' Group: ilug@linux.ie
+>http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+>information. List maintainer: listmaster@linux.ie
+>
+>
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGPfreeware 6.5.8 for non-commercial use <http://www.pgp.com>
+Comment: PGP/GPG Keys located at http://www.nmtbmedia.com/keys/
+
+iQA/AwUBPV1dFIHmA/TOOP95EQL/kgCg8Ge94omOuirLYokN1UauZzApHEQAn0In
+6r/o13G+0YEgjlc/XDwQOUN1
+=yGuw
+-----END PGP SIGNATURE-----
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

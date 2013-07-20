@@ -1,0 +1,24 @@
+Re: overcoming the 32k objects limit is ext3 - which file system
+ to use?On 04/23/2010 11:13 PM, Siju George wrote:
+> Hi,
+>
+> ext3 can have only 32000 files/folders under a folder and I hit that limit.
+> Which file system can I use to over come it?
+> I am planning for JFS
+>
+> Does anybody has any recommendations?
+>
+
+Since Mike Bird has demonstrated your erroneous claim, plz show us 
+the real error message.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD2A5ED.7000608@cox.net
+
+

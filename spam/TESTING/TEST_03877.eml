@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f6ecb34c8e939
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs18665wfa;
+        Tue, 13 Apr 2010 04:27:41 -0700 (PDT)
+Received: by 10.102.216.24 with SMTP id o24mr3032074mug.67.1271158059745;
+        Tue, 13 Apr 2010 04:27:39 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 7si22694081mup.3.2010.04.13.04.27.39;
+        Tue, 13 Apr 2010 04:27:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 08C782D0EF0; Tue, 13 Apr 2010 11:27:37 +0000 (UTC)
+Old-Return-Path: <edsonmarquezani@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.1 required=4.0 tests=CAPINIT,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 995E92D0F08
+	for <lists-debian-kde@liszt.debian.org>; Tue, 13 Apr 2010 11:27:29 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gWzVgYXyGwee for <lists-debian-kde@liszt.debian.org>;
+	Tue, 13 Apr 2010 11:27:22 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 67AE22D0EBA
+	for <debian-kde@lists.debian.org>; Tue, 13 Apr 2010 11:27:16 +0000 (UTC)
+Received: by wyf23 with SMTP id 23so1616255wyf.6
+        for <debian-kde@lists.debian.org>; Tue, 13 Apr 2010 04:27:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :from:date:received:message-id:subject:to:cc:content-type;
+        bh=TGc93LtISCxxWtH/xF8lQoddp2i9KpCvWaIQyBS5xzI=;
+        b=UJKYEVKL5ndzCOfGBry/d6tz2Avz3mI37Xc6U28w/P53JjTyVlculXk1jMBDw8r99e
+         LJft/pBM03CsR9307LdGa3Flt5YT2oP9osCwrJ1Bi0UNxGX2hZieFclrqnRPV8N6ceHe
+         qI2NFbdliZDW9Yw10zWHpStbFqbWbPhjXOKco=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :cc:content-type;
+        b=N+FJ/+sgzQxU00FbjT5W9M72ni8PlJLZhRbq9xt4iDdwJqkmR8QSHI0Ym9LBCFotQx
+         pUMBPlHLc/9iT0RlT7oNQTLKdDWJsYyQo7MKsnECa0OczxMM1gEpZqHId+cXZguesonL
+         3wUsk8I//wI0Dj/OHAQ8tW0RTELIEwsq6kVfg=
+MIME-Version: 1.0
+Received: by 10.216.47.136 with HTTP; Tue, 13 Apr 2010 04:26:51 -0700 (PDT)
+In-Reply-To: <201004121901.39427.didi.debian@cknow.org>
+References: <o2g2fc5f091004111716oe078137dse05f0b82f4e519cc@mail.csmining.org> 
+	<201004121901.39427.didi.debian@cknow.org>
+From: Edson Marquezani Filho <edsonmarquezani@csmining.org>
+Date: Tue, 13 Apr 2010 08:26:51 -0300
+Received: by 10.216.172.202 with SMTP id t52mr3114572wel.21.1271158031639; 
+	Tue, 13 Apr 2010 04:27:11 -0700 (PDT)
+Message-ID: <n2m2fc5f091004130426x84c82c1cs375f612af5ace784@mail.csmining.org>
+Subject: Re: Amarok's Issues
+To: Diederik de Haas <didi.debian@cknow.org>
+Cc: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dJrLVfbaAWD.A.s_.oUFxLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32028
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 11:27:37 +0000 (UTC)
+
+On Mon, Apr 12, 2010 at 14:01, Diederik de Haas <didi.debian@cknow.org> wrote:
+> On 2010-04-12 Edson Marquezani Filho wrote:
+>> 3) Pause just dont't work. Instead of it, the music is started over
+>> again, from the beginning.
+> I've had this problem some time ago, but it went away, probably due to an upgrade or sth.
+> I'm running sid/experimental (=KDE 4.4.2 and amarok 2.3.0).
+>
+
+I switched to phonon-backend-xine, as recommended by Debian page[1]
+and pause function started to work. (What means that problem 3 seems
+to be gone.)
+
+The others problems are still there, altough the first (about skiping
+second tracks on the list) sometimes happens and sometimes don't. I'm
+not sure about what it is related to.
+
+I'm using SQLite as database backend, but I'll try MySQL. I just
+didn't want to have such a dependency of a external program, I would
+like that Amarok could be able to work all by itself, but, I know that
+a MySQL database would be much better when it comes to data managment,
+and switching to it would be not so bothering at all.
+
+I'll keep my eyes open and consider to fill some bugs on upstream. =)
+
+[1] http://amarok.kde.org/wiki/Download:Debian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2m2fc5f091004130426x84c82c1cs375f612af5ace784@mail.csmining.org
+
+

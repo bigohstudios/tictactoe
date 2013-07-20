@@ -1,0 +1,21 @@
+RE: [ILUG] RH7.3 on Cobalt - the saga continuesBut how did you get to the prom on it? I have an assortment of qubes and
+raqs here and they have lcd displays but I see no way of entering commands
+that way. You using a serial cable or something?
+
+>  This is actually a raq3. Though, I do have an old raq2 that 
+> Liam was helping me get netbsd on (about all you'll get on a 
+> 16MB machine these days).
+> 
+>  Anyway, I wussed out, and copied hda1:/ to hda2:/boot and 
+> set the bootfs to be hda2. It worked, though it's mounting an 
+> ext3fs as ext2. But I'm getting there.
+> 
+> Kate
+> 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

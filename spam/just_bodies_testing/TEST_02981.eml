@@ -1,0 +1,27 @@
+Re: [ILUG] SMTP auth & muttOn Tue, Aug 20, 2002 at 12:06:18PM +0100, Philip Reynolds mentioned:
+> John P. Looney's [valen@tuatha.org] 11 lines of wisdom included:
+> >  OK, Mutt uses sendmail to deliver mail...
+> > 
+> >  How can I get it to deliver via a Postfix box with SMTP auth enabled ?
+> 
+> Mutt interacts with smtpdaemon or something like that doesn't it?
+> 
+> Can mutt interact directly with SMTP server with authentication
+> capabilities? I don't think it can. 
+> 
+> Surely you can just run a mailserver on your own machine and send
+> mail using it? 
+
+ Hmm. Yeah, mutt sorta calls the sendmail program directly. But I thought
+it would be very crap if the auth details (username, password) had to be
+hardcoded into the sendmail.cf (and damned if I can work out how to do
+that anyway).
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

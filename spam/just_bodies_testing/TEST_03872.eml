@@ -1,0 +1,38 @@
+Re: What needs to improve in KDE 4?I am generally happy with KDE4. A few issues, though:
+
+1. Desktop startup speed. A user with few if any widgets around will be 
+satisfied. Those of us who want to use a lot of these tools will sit and wait. 
+ALL widgets and panel-applets must be asynchronous and background any lengthy 
+process such a searches, indexing, testing network and ports and such. ALL 
+those daemons and "resources" of akonadi and nepomuk must be nicely niced and 
+ioniced out of the way. If recoll's indexing can run nicely and stall nothing, 
+so can kde4's stuff.
+
+2. Activity <--> desktop? Still confused? Think of use cases rather than 
+concepts which though elegant may lay on the virtual shelf. Dotan's post is a 
+welcome step off the ivory tower!
+
+3. Kmail threading. Much much improved, will still crash out occasionally when 
+deleting, moving messages.
+
+4. Untoward pauses in the UI when typing this post.
+
+5. Kaddressbook/Akonadi has too many duplicated "resources." Kaddressbook is 
+too slow to be of much use if it has a lot of data. Needs some say of handling 
+contact duplication (which I got by accident and am stuck with).
+
+6. Very old issue: KDE should respect the "system administrator"s settings of 
+file permissions. If I mess up, that's my fault.
+
+To be continued ...
+
+BTW, distasteful expressions such as "sucks" have gotten much too common on 
+these lists, are offensive and not professional!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005102243.18541.d_baron@012.net.il
+
+

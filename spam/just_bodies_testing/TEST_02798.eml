@@ -1,0 +1,43 @@
+Re: Please help a newbie compile mplayer :-)Make sure you rebuild as root and you're in the directory that you
+downloaded the file.  Also it might complain of a few dependencies but
+you can get these at freshrpms.net, except for gcc3, which you can find
+on your Red Hat cd, Red Hat ftp, or rpmfind.net.
+
+After you rebuild the source rpm it should install a binary rpm in
+/usr/src/redhat/RPMS/i386.  With all dependencies met, install mplayer
+with 'rpm -ivh mplayer-20020106-fr1.rpm' and you should be good to go.
+
+One last thing, you will need the win32 codecs, I found them on google,
+create a directory /usr/lib/win32 and place the codecs in there.
+
+Good Luck!
+
+Lance
+
+On Thu, 2002-01-31 at 23:44, rob bains wrote:
+>     
+>  Hello,
+>    
+>          I just installed redhat 7.2 and I think I have everything 
+> working properly.  Anyway I want to install mplayer because I heard it 
+> can play quicktime movs.  I apt-get source mplayer and dl'd it to 
+> /usr/src. 
+> 
+>          I tried to just rpm --rebuild mplayer-20020106-fr1.src.rpm, 
+> then I get ; mplayer-20020106-fr1.src.rpm: No such file or directory.
+> 
+>          Any help or a link to some document would be appreciated, Thanks
+> -rob
+> 
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

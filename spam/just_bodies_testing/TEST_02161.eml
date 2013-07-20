@@ -1,0 +1,24 @@
+Re: [ILUG] galeon and keyboard focus...I get a different effect. I open new links in a tab, and they "open in the 
+background" or the current page still remains selected. Unfortunately the 
+other tab gets the focus. 
+The same happens with pages (re)loading in other tabs -> the current tab loses 
+the keyboard focus which can be very annoying when filling in forms or even 
+when scrolling using the mouse-wheel.
+
+Donncha.
+
+
+On Friday 09 August 2002 14:21, kevin lyda wrote:
+> ok, in a galeon browser window i open a new window by middle-clicking
+> a link.  the window comes up under my mouse.  however, keys i type go to
+> the first window.  anyone else have this problem, and did they solve it?
+> i use sawfish as my wm with sloppy focus.
+>
+> kevin
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

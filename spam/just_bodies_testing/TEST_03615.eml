@@ -1,0 +1,55 @@
+RE: [Razor-users] What's wrong with the Razor servers now?If I specify -rs on razor-check and point to honor then it checks fine.
+Also if I point to apt to report then I get an authentication error so
+is there something wrong with that box?
+
+-----Original Message-----
+From: Rose, Bobby 
+Sent: Tuesday, August 06, 2002 6:54 PM
+To: ML-razor-users
+Subject: RE: [Razor-users] What's wrong with the Razor servers now?
+
+
+I'm still seeing this.  It reports to honor.cloudmark.com but checks
+against apt.cloudmark.com.  What is the sync delay between these boxes?
+
+-----Original Message-----
+From: Rose, Bobby 
+Sent: Monday, August 05, 2002 2:05 PM
+To: ML-razor-users
+Subject: [Razor-users] What's wrong with the Razor servers now?
+
+
+I noticed a low count of razor'd spam messages. So after digging, if I
+razor-report a message the diags say that it was accepted but if I turn
+around and run a check on the exact same message that was reported, then
+it doesn't find the sig and as such isn't spam.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf _______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf _______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

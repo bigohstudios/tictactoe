@@ -1,0 +1,62 @@
+[SAdev] [Bug 1054] New: Split up FROM_ENDS_IN_NUMShttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=1054
+
+           Summary: Split up FROM_ENDS_IN_NUMS
+           Product: Spamassassin
+           Version: unspecified
+          Platform: Other
+        OS/Version: other
+            Status: NEW
+          Severity: enhancement
+          Priority: P2
+         Component: Rules
+        AssignedTo: spamassassin-devel@example.sourceforge.net
+        ReportedBy: matt@nightrealms.com
+
+
+The current FROM_ENDS_IN_NUMS triggers on any from where the user name ends
+in two or more digits.  I think this should be split up into different
+numbers of trailing digits, so that rules with different S/O ratios can
+get different scores.  So I've made test rules that look from From
+names that end with two, three, four, or five digitis, and one for six or
+more digitis; I also put in a test rule that looks for Froms that end in a
+single digit, just the sake of completeness.
+
+Here is what I got:
+
+OVERALL%   SPAM% NONSPAM%     S/O    RANK   SCORE  NAME
+  15113     4797    10316    0.32    0.00    0.00  (all messages)
+100.000   31.741   68.259    0.32    0.00    0.00  (all messages as %)
+  1.244    3.877    0.019    1.00    0.64    0.01  T_FROM_ENDS_IN_NUMS6
+  0.576    1.459    0.165    0.90    0.43    0.01  T_FROM_ENDS_IN_NUMS5
+  4.982   10.694    2.326    0.82    0.38    0.01  T_FROM_ENDS_IN_NUMS4
+  3.434    6.337    2.084    0.75    0.35    0.01  T_FROM_ENDS_IN_NUMS3
+  8.979   12.383    7.396    0.63    0.30    0.01  T_FROM_ENDS_IN_NUMS2
+  8.847    6.817    9.791    0.41    0.22    0.01  T_FROM_ENDS_IN_NUMS1
+
+I should note that I get rather bad S/O's for FROM_ENDS_IN_NUMS, probably
+because so much of my corpus is made up of Yahoo! Groups traffic, which
+seems to have a lot of users that like sticking numbers at the ends of their
+names.  Here is the normal stats for FROM_ENDS_IN_NUMS:
+
+  7.024   28.480    2.834    0.91    0.50    0.88  FROM_ENDS_IN_NUMS
+
+and my stats:
+
+ 19.228   34.793   11.991    0.74    0.35    0.88  FROM_ENDS_IN_NUMS
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

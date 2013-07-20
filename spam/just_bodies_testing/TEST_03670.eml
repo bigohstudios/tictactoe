@@ -1,0 +1,19 @@
+Re: New Clamav-daemon ErrorOn Tuesday 13 April 2010 17:24:29 David Baron wrote:
+> ~$ sudo /etc/init.d/clamav-daemon start
+> Starting ClamAV daemon: clamd ERROR: Unknown group 20 Incorrect number of
+> arguments
+>  failed!
+>
+> After latest upgrade. Anyone have a quick fix?
+
+Which upgrade on which OS?
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004132031.29032.lisi.reisz@csmining.org
+
+

@@ -1,0 +1,24 @@
+Re: Trying to install Google Earth on Lenny.  How on earth??????On Mon, 24 May 2010 15:47:35 +0100, Lisi wrote:
+
+(...)
+
+> I downloaded, then:
+> <quote>
+> lisi@Tux:~$ cd /home/lisi/Peter/Google_Earth/
+> lisi@Tux:~/Peter/Google_Earth$ chmod u+x GoogleEarthLinux.bin
+> lisi@Tux:~/Peter/Google_Earth$ su
+
+No need to "su", just install with your common user.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.24.18.31.27@csmining.org
+
+

@@ -1,0 +1,14 @@
+Re: Java is for kiddies>
+> Microsoft has announced that they plan to remove Java from Windows.
+> They took it out of XP already and it has to be installed with a
+> service pack.  Somehow, I can't imagine them removing the ability to
+> run C programs.
+They removed /their/ Java VM. They didn't remove the ability to run Java
+programs.
+Anybody is free to develop their own Java VM and make it kick ass. As
+someone said earlier in the thread, nobody is capable or willing to do that.
+
+I've done a bunch of Java and haven't run into huge problems running the
+same bytecode across Solaris or Win2K.
+What actual problems have people actually run into. Actually.
+

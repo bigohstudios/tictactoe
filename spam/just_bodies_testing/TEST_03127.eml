@@ -1,0 +1,49 @@
+Re: [SAtalk] Getting yourself removed from spam listsFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Sep 13, 2002 at 03:21:08PM +0200, carlo@alinoe.com wrote:
+> So... it seems to me that they DO clean up
+> their lists, but only when a spam fails to
+> deliver - or can't they detect that?
+>=20
+> What do spammers do with email addresses in
+> their database that are undeliverable for a
+> few years?  Do they still continue to spam
+> them?
+
+Well, here's my semi-coherent rant for the moment.  ;)
+
+I have >3100 spamtraps on my machine (you can multiply that by each domain
+if you really want to).  The vast majority (all but, say, 10) have never
+ever existed.  Yet, spammers would semi-continuously connect, try to
+deliver mail to 40 of them, disconnect, connect again, try delivering
+to 40 more...  over and over, they kept getting "User unknown" until I
+got around to making them spamtraps.
+
+So my evidence would suggest that it depends who you're dealing with. :)
+If your "business" is to sell address lists to people who would then spam,
+it's in your best interest to never clean your list.  Therefore you can
+say "10 million email addresses" and not technically be lying, even if
+the majority of them don't work.
+
+If you're a spammer, you'd want to know who doesn't actually exist, but
+then again you don't really care: you probably want to relay through
+someone so it's harder to trace you, if you could you'd send to every
+email address available, you don't want to setup a valid bounce address
+because again it's easy to trace you.
+
+So I would say this, if you technically spam people but actually think
+you're running a legit service, you probably really do have a way of
+opting out (even though the user didn't opt in) and you probably don't
+relay, and you probably pay attention to bounces.
+
+Everyone else doesn't really care.
+
+
+That's my view anyway. :)
+
+--=20
+Randomly Generated Tagline:
+"Now you can do that thing with your hands... It's ok." - Prof. Farr

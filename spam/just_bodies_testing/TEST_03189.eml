@@ -1,0 +1,17 @@
+Re: About USB hard drives and errors> will be listed as "Pending".  Pending sectors are much worse than 
+> Reallocated sectors, as Pending sectors mean lost data (if the sector 
+
+Indeed.  OTOH "Pending sectors" can be eliminated by turning them into
+Reallocated sectors (just write to the corresponding sector), whereas
+Reallocated sectors will stay forever.
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwvfx3312sd.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

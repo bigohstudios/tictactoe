@@ -1,0 +1,81 @@
+Re: Any luck with HD web cams?Interesting!
+Though I agree with Mark that the Logitech is a pretty darn good camera.
+
+For tracking people though, do you really need HD resolution?
+The Logitech for example slows way down at above 640 x 480 resolution,
+to something below 10 hz as I recall.
+
+You might be better off using a couple of PS 2 Eye cameras, which
+can run at 120 hz at 320 x 240, and treating people as low-resolution,
+but low-latency "blobs".
+
+rob
+
+> Well I actually need two of them hooked up to the same system.  I want to
+> do
+> some XYZ tracking of objects to get rid of our Wiimote tracking.
+>
+> http://rationalcraft.com/Winscape.html
+>
+> Are there really no USB webcams out there that can deliver decent video
+> greater than 640x480 in Quicktime?
+>
+> -Beth.
+>
+> On Fri, Apr 23, 2010 at 8:12 AM, Ken Aspeslagh <ken@ecamm.com> wrote:
+>
+>> Hi Beth:
+>>
+>> If you can get your hands on a Second Generation MacBook Pro (LED
+>> Backlight), one of the Aluminum iMacs, or one of the Apple Displays with
+>> a
+>> built-in cam, these all have a 1280 x 1024 capable built-in iSight. Not
+>> exactly HD but larger than 640x480.
+>>
+>> Thanks,
+>> Ken
+>>
+>> -------------------------------------
+>> "The major difference between a thing that might go wrong and a thing
+>> that
+>> cannot possibly go wrong is that when a thing that cannot possibly go
+>> wrong
+>> goes wrong it usually turns out to be impossible to get at or repair." -
+>> Douglas Adams
+>>
+>>
+>> On Apr 23, 2010, at 7:05 AM, quicktime-api-request@lists.apple.com
+>> wrote:
+>>
+>> > I need to choose a web cam with which to do some Quicktime
+>> experimental
+>> > work.  It would need to give me high quality frames larger than
+>> 640x480.
+>>  I
+>> > tried the Logitech Quickcam Vision Pro last year but wasn't
+>> particularly
+>> > pleased with the quality.  Maybe I was doing something wrong.
+>> >
+>> > What web cams are you developers having good Quicktime luck with?
+>> >
+>> > Thanks,
+>> > -Beth.
+>>
+>>
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/rob%40haptek.com
+>
+> This email sent to rob@haptek.com
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

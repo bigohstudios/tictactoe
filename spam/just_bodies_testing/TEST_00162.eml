@@ -1,0 +1,76 @@
+Re: New Sequences WindowFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Robert Elz <kre@munnari.OZ.AU>
+> Date:  Wed, 28 Aug 2002 21:44:26 +0700
+>
+>     Date:        Wed, 28 Aug 2002 09:22:34 -0500
+>     From:        Chris Garrigues <cwg-dated-1030976555.34ad5b@DeepEddy.Com>
+>     Message-ID:  <1030544555.28815.TMDA@deepeddy.vircio.com>
+> 
+> 
+>   | so I'll probably poke around at the sequences performance issues,
+> 
+> Well, there's this wonderful piece of code in MhSeqExpand ...
+> 
+>     # Hack to weed out sequence numbers for messages that don't exist
+>     foreach m $rseq {
+>         if ![file exists $mhProfile(path)/$folder/$m] {
+>             Exmh_Debug $mhProfile(path)/$folder/$m not found
+>             set ix [lsearch $seq $m]
+>             set seq [lreplace $seq $ix $ix]
+>         } else {
+>             # Real hack
+>             break
+>         }
+>     }
+> 
+> which is going to run slow if a sequence happens to start with a bunch
+> of messages that don't exist.   I'm not sure why it is important that the
+> first message in the sequence returned exists, but not necessarily any
+> of the others, but I'm sure glad it is, as MhSeqExpand gets called lots,
+> and I don't know if I could cope if it were checking every file in the
+> sequences it is looking at, all the time...
+
+Although my fingerprints are all over that, it's not actually my code and has 
+been in there since before 1998.  (It's code that I moved from mh.tcl to 
+sequences.tcl and back again).  I'm no5 sure either, but it should be a 
+one-time penalty because the sequence will be re-written with the bad messages 
+removed.  (I think.)
+
+> It may help to keep a list of the valid message numbers for the current
+> folder (though that would then need to be verified against changes to the
+> directory).   Does tcl have a directory read function?   I assume so...
+> 
+> Mh_Sequence also goes and rereads the files (.mh_sequences and the
+> context file) but I'm not sure how frequently that one is called.
+
+That *was* a problem, but if you look at Mh_Sequence (and Mh_Sequences and 
+Mh_SequenceUpdate), they all call MhReadSeqs to do the actual reading and it 
+only reads the sequences if the file has been touched.  Look for the 
+"Exmh_Debug Reading $filename" output in the debug log to see when sequences 
+are actually reread from disk.
+
+
+My theory is that Ftoc_ShowSequences is being called too often.  I'm about to 
+investigate that.
+
+>   | I'll email anything I figure out since I'm leaving town in less 
+>   | than 48 hours.
+> 
+> Have a good vacation.
+
+Thanks.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

@@ -1,0 +1,34 @@
+Re: RH 8 no DMA for DVD driveOnce upon a time, Ville wrote :
+
+> I assume that you won't %ghost or remove these and the modules.conf
+> change on uninstall, though.  So people who are installing this RPM and
+> are unfortunate enough to have a DVD drive (or just an ordinary CD,
+> non-DVD drive) that doesn't support DMA will be left with a system
+> without a working CD drive, even after removing the RPM.  And without
+> ever knowing what struck them.  You can't remove the DMA setting from
+> modules.conf either unless you're sure that ogle added it there and
+> nothing else needs it.
+
+I've never heard of any CD-ROM or DVD-ROM drive having problems with DMA...
+although there probably is since Red Hat decided to default disabling it a
+few releases back :-/
+Normally, even if you try to enable DMA and your device doesn't support it,
+it simply don't be able to make the change, and that's it. The problem IIRC
+is with crappy hardware that is supposed to support DMA but doesn't work as
+expected when it's enabled... maybe Chris could confirm this? ;-)
+
+I guess I'll settle for the /dev/dvd link change as described and putting
+the DMA tip in the %description :-)
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.00 0.05 0.14
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

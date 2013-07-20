@@ -1,0 +1,24 @@
+Re: Quick Java QuestionFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat, May 22, 2010 at 11:33:36AM +0200, Danny wrote:
+> Hi guys,
+>=20
+> I have Debian 5.04 and have a little trouble with JRE.
+> I downloaded the new JRE from Sun and installed it. But
+> how do I tell firefox how to use the JRE ?
+
+Hello,
+
+Try both:
+
+a) Check about:config (filter java)
+
+b) $ sudo update-alternatives --config java
+
+Good luck.
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB

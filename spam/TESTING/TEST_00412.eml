@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b3338622c8dec
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs70166wfo;
+        Wed, 19 May 2010 17:53:38 -0700 (PDT)
+Received: by 10.141.15.7 with SMTP id s7mr6923793rvi.296.1274316818331;
+        Wed, 19 May 2010 17:53:38 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id b4si19365047rvn.2.2010.05.19.17.53.38;
+        Wed, 19 May 2010 17:53:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 1F0A01C267ED7
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 17:53:38 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 1AB7127C7D205
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 17:53:38 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id E297D27C7CF91
+	for <objc-language@lists.apple.com>;
+	Wed, 19 May 2010 17:53:15 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id C4527D5BFDB5
+	for <objc-language@lists.apple.com>;
+	Wed, 19 May 2010 17:53:15 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-23-4bf487fb1615
+Received: from asmtpout015.mac.com (asmtpout015.mac.com [17.148.16.90])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	E8.F2.07800.BF784FB4; Wed, 19 May 2010 17:53:15 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 8BIT
+Content-type: text/plain; charset=windows-1252; format=flowed
+Received: from Davids-MacBook.local
+	(ool-44c1658d.dyn.optonline.net [68.193.101.141])
+	by asmtp015.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPA id <0L2P007QT14O2K80@asmtp015.mac.com> for
+	objc-language@lists.apple.com; Wed, 19 May 2010 17:53:15 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=6.0.2-1004200000 definitions=main-1005190191
+X-Proofpoint-Virus-Version: vendor=fsecure
+	engine=1.12.8161:2.4.5,1.2.40,4.0.166
+	definitions=2010-05-19_01:2010-02-06, 2010-05-19,
+	2010-05-19 signatures=0
+Message-id: <4BF487F7.2040007@mac.com>
+Date: Wed, 19 May 2010 20:53:11 -0400
+From: David Hoerl <dhoerl@mac.com>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US;
+	rv:1.9.1.4pre) Gecko/20100105 Eudora/3.0b4
+To: objc-language@lists.apple.com
+References: <20100519021456.6E05C27C124F1@lists.apple.com>
+In-reply-to: <20100519021456.6E05C27C124F1@lists.apple.com>
+X-Brightmail-Tracker: AAAAARRHr6I=
+Subject: Nil messaging statement in "Cocoa Fundimentals Guide" misleading?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I have never before taken this path to request help on a "bug" before, 
+but either I'm nuts or the person who reviewed my bug is, well, not sure 
+what to say.
+
+My bug (Bug ID# 7726255) was just closed with a "Behaves as Normal". 
+This bug is against the "Cocoa Fundimentals Guide", in the section 
+talking about ObjectiveC 2.0 messaging.
+
+On page 70 of the PDF, there is this paragraph:
+
+-----
+In your program’s control-flow statements, you can test for the presence 
+(or absence) of the appropriate negative literal to determine how to 
+proceed. For example, the following while statement from the 
+SimpleCocoaTool code implicitly tests the word object variable for the 
+presence of a returned object (or, in another sense, the absence of nil):
+
+while (word = [enm nextObject]) { printf("%s\n", [word UTF8String]);
+}
+
+In Objective-C, you can often send a message to nil with no ill effects. 
+Return values from messages sent to nil are guaranteed to work as long 
+as what is returned is typed as an object.
+
+------
+
+When I read this I jumped out of my chair - I had just that day revised 
+hundreds of lines my company's old code to tidy up statements like 
+"if(foo && [foo count] != 0)" to "if([foo count])"! So, I cracked open 
+my ObjectiveC 2 guide, just to be sure I hadn't completely misunderstood 
+nil messaging.
+
+Of course, what I found was that in 2.0 methods that return ints, 
+floats, etc are all guaranteed to work with nil messaging (the number of 
+supported types increased dramatically in 2.0).
+
+What I had hoped my ug would prompt a revision such as: "Return values 
+from messages sent to nil are guaranteed to work as long as what is 
+returned is typed as an object or an integral or floating scalar (refer 
+to ObjC2.0 Guide for a full discussion)."
+
+My purpose in entering the bug was that the statement "messages sent to 
+nil are guaranteed to work as long as what is returned is typed as an 
+object." is extremely misleading to people most in need of correct 
+guidance, noobies.
+
+Frankly, I was shocked when this bug was closed. My sincere hope is that 
+some Apple employee reading this will see this issue as I do and do 
+something about it.
+
+
+David
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

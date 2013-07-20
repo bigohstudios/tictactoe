@@ -1,0 +1,54 @@
+Re: non-ASCII environmentOn Fri, 9 Apr 2010 13:18:29 -0400 (EDT), Eduardo M KALINOWSKI wrote:
+> On Fri, 9 Apr 2010, Jerome BENOIT wrote:
+>> Hello List,
+>>
+>> I am writing some C code which involves ASCII characters:
+>> in C related books, we can find a lot of comments about
+>> ASCII character issues, as far as we are concern with portability.
+>>
+>> Nevertheless, something bothers me: where non-ASCII environment can  
+>> be found ?
+>>
+>> Furthermore, can such an environment be created on a Debian box ?
+>> The aim is to check the portability of my code.
+> 
+> There are still IBM Mainframes around that use EBCDIC (yes, that is  
+> not just an IT legend). I don't know if they can run a UNIX-like OS  
+> and if you can compile your C code to run on it, but even if you  
+> could, I'm not sure someone in possession of such mainframe will lend  
+> it for you to run your tests. :-)
+> 
+> IBM Mainframes apart, I don't think any machine that you should  
+> actually care for is non-ASCII.
+
+Eduardo is correct.  IBM mainframes do use EBCDIC.  They always have.
+They always will.  (Changing to ASCII now would break EVERYTHING.)
+I am a systems programmer for IBM mainframes, and have been for the
+last umpteen years; so I speak from personal experience.  And yes,
+modern mainframe operating systems do have a POSIX interface.
+z/OS (MVS) calls it "Unix System Services".  z/VM calls it
+"OpenExtensions".  It is a Unix-like interface, but it uses EBCDIC
+internally.
+
+You can also run GNU/Linux on a mainframe, either directly in an LPAR
+or in a virtual machine under z/VM.  But GNU/Linux is an ASCII-based
+operating system, even when running on a mainframe.  Linux device
+drivers for the s390 architecture talk EBCDIC when necessary to
+communicate with EBCDIC devices (such as I/O to the 3215 virtual console
+under z/VM or reading the disk labels of OS- or CMS-formatted disks),
+but as observed by an application program running under Linux on
+the s390 architecture, it is running in a pure ASCII environment.
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1511468692.2177171270836098658.JavaMail.root@md01.wow.synacor.com
+
+

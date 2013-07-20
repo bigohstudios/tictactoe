@@ -1,0 +1,41 @@
+RE: [ILUG] Newbie QuestionsYo Mark,
+
+Have you goten the closed source drivers from Nvidia or are you still using
+the wans that came with Redbum? 
+
+http://www.nvidia.com and then somewhere...somwhere-else...
+
+Installation is WELL detailed, you should see the NV splash screen, don;t
+forget to edit the config files.
+
+CW
+
+
+--------------------------------------
+Hi
+
+I have just installed Red Hat 7.2 on my desktop machine. I am completely new
+to Linux and therefore have run into a few problems.
+
+The graphic display on my PC doesnt seem to work. My monitor is slightly
+miss-aligned and I cannot run any high resolution games ( everything freezes
+). In the hardware browser in Gnome it lists my Graphics Card (Riva TNT2),
+and shows installed drivers...... maybe the problem lies elswhere.
+
+Another problem I have is that I cannot install my ISDN, USB modem ( LASAT
+Speed Basic ), however im pretty sure its not supported by Linux, but again
+it is featured in the Hardware Browser, without installed drivers.
+
+If anybody has any ideas, please let me know cos id like to use Linux more.
+Please keep in mind I am new to it though.
+
+Thanks
+
+Mark
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

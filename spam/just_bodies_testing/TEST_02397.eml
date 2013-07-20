@@ -1,0 +1,21 @@
+Re: New gkrellm 2.0.0, gtk2 versionOn Mon, Aug 26, 2002 at 07:14:54PM +0200, Matthias Saou wrote:
+> I've repackaged the new gkrellm 2.0.0 which is now ported to gtk2
+> (woohoo!). Unfortunately, the plugins are incompatible with the
+> previous 1.2.x ones, and since not many/all have been ported yet, I
+> prefer not to release the package on the main freshrpms.net site for
+> now.
+
+You could go the same way as the others and call it gkrellm2 and
+conflict with v1 if the executables or paths are the same.
+
+-- 
+Hey, you're right. I don't want to call a destructor on my objects,
+I want to call a *destroyer*. Gozer has come for your memory,
+little PersistentNode!
+		-- Joel Gluth 
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

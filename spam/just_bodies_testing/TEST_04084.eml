@@ -1,0 +1,33 @@
+vmware server and 2.6.33Hi,
+
+Following the established ritual of having to change the vmware server 
+to be able to run under a new kernel (2.6.33), I installed 2.6.33.3 from 
+kernel.org
+and followed the directions from user NeBot here:
+http://communities.vmware.com/thread/257472
+and that worked.
+
+Furthermore I added to .config for the kernel:
+
+# CONFIG_PATA_CYPRESS is not set
+CONFIG_HID_CYPRESS=m
+CONFIG_USB_STORAGE_CYPRESS_ATACB=m
+CONFIG_USB_SERIAL_CYPRESS_M8=m
+CONFIG_USB_CYPRESS_CY7C63=m
+
+and now I can use smartctl on my ATA USB disk, like I can with the 
+Debian kernel.
+
+Also Nvidia's x86-195.36.24 installed without problems on this kernel.
+
+2.6.33 for Debian is still in experimental.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrv6hg$ava$1@dough.gmane.org
+
+

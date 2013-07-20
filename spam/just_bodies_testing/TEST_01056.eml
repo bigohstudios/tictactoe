@@ -1,0 +1,82 @@
+Re: EOL of KDE SC 4.4.2 in qt-kde.debian.netOn Saturday 10 April 2010, Modestas Vainius wrote:
+> Hello,
+> 
+> On ¨e¨tadienis 10 Balandis 2010 16:38:38 Michael Schuerig wrote:
+> > However, doing the same with -t experimental updates the entire
+> > system to experimental, which is presumably not what most people
+> > want. Is there a way to only upgrade KDE-related packages from
+> > experimental?
+> 
+> Bump priority of experimental to 101 (/etc/apt/preferences):
+> 
+> Package: *
+> Pin: release a=experimental
+> Pin-Priority: 101
+> 
+> and do a normal dist-upgrade:
+> 
+> # aptitude dist-upgrade
+
+In my case, that makes aptitude ask about upgrading several ruby 
+packages (apparently there's currently a change from -2 to -3 in 
+progress in unstable), but nothing KDE-related is going to get upgraded. 
+I can see, though, that newer versions are available.
+
+$ apt-cache policy kdebase
+kdebase:
+  Installed: 5:58~rc4
+  Candidate: 5:58
+  Version table:
+     5:58 0
+        101 http://debian.netcologne.de experimental/main Packages
+ *** 5:58~rc4 0
+        100 /var/lib/dpkg/status
+     5:55 0
+        990 http://debian.netcologne.de unstable/main Packages
+
+Michael
+
+
+$ apt-cache policy
+Package files:
+ 100 /var/lib/dpkg/status
+     release a=now
+ 990 http://debian.netcologne.de unstable/non-free Packages
+     release v=None,o=Unofficial Multimedia 
+Packages,a=unstable,n=sid,l=Unofficial Multimedia Packages,c=non-free
+     origin debian.netcologne.de
+ 990 http://debian.netcologne.de unstable/main Packages
+     release v=None,o=Unofficial Multimedia 
+Packages,a=unstable,n=sid,l=Unofficial Multimedia Packages,c=main
+     origin debian.netcologne.de
+ 101 http://debian.netcologne.de experimental/non-free Packages
+     release o=Debian,a=experimental,n=experimental,l=Debian,c=non-free
+     origin debian.netcologne.de
+ 101 http://debian.netcologne.de experimental/contrib Packages
+     release o=Debian,a=experimental,n=experimental,l=Debian,c=contrib
+     origin debian.netcologne.de
+ 101 http://debian.netcologne.de experimental/main Packages
+     release o=Debian,a=experimental,n=experimental,l=Debian,c=main
+     origin debian.netcologne.de
+ 990 http://debian.netcologne.de unstable/non-free Packages
+     release o=Debian,a=unstable,n=sid,l=Debian,c=non-free
+     origin debian.netcologne.de
+ 990 http://debian.netcologne.de unstable/contrib Packages
+     release o=Debian,a=unstable,n=sid,l=Debian,c=contrib
+     origin debian.netcologne.de
+ 990 http://debian.netcologne.de unstable/main Packages
+     release o=Debian,a=unstable,n=sid,l=Debian,c=main
+     origin debian.netcologne.de
+Pinned packages:
+-- 
+Michael Schuerig
+mailto:michael@schuerig.de
+http://www.schuerig.de/michael/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004101812.33990.michael@schuerig.de
+
+

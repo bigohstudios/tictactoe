@@ -1,0 +1,44 @@
+Re: downloaded .jnlp won't openOn Tue, 27 Apr 2010 15:39:20 +0100, John O Laoi wrote:
+
+(...)
+ 
+> Questions:
+> How do install the java from  www.java.com using aptitude?
+
+You can't.
+
+But as per you above comment, it seems you are already using Sun's Java 
+JRE.
+
+Run "update-alternatives --display java"
+
+> How do I ensure that this is the Java that is automatically chosen from
+> within Iceweasel to open .jnlp file?
+
+Type "about:config" in the address bar and change:
+
+plugin.expose_full_path
+
+to "true"
+
+Then close Icewesel and open it again, and type in address bar:
+
+"about:plugins"
+
+And look for the plugin in charge of handling Java files (checkout the 
+path to the file).
+
+Note 1. Can you send the link to the file you are trying to launch?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.27.15.07.21@csmining.org
+
+

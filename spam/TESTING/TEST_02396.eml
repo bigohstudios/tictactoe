@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId12817dbfcff8ed93
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs41663wfj;
+        Mon, 19 Apr 2010 13:59:03 -0700 (PDT)
+Received: by 10.223.5.13 with SMTP id 13mr385075fat.68.1271710612657;
+        Mon, 19 Apr 2010 13:56:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si370570fkb.3.2010.04.19.13.56.52;
+        Mon, 19 Apr 2010 13:56:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D2D7F13A48AB; Mon, 19 Apr 2010 20:56:42 +0000 (UTC)
+Old-Return-Path: <clivemcbarton@web.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.9 required=4.0 tests=FOURLA,FVGT_m_MULTI_ODD,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,PGPSIGNATURE autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1193913A470F
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 20:56:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.88 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, FVGT_m_MULTI_ODD=0.02,
+	IMPRONONCABLE_2=1, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id eS9wi-ah7EC0 for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 20:56:29 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from fmmailgate01.web.de (fmmailgate01.web.de [217.72.192.221])
+	by liszt.debian.org (Postfix) with ESMTP id C4C1513A468F
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 20:56:23 +0000 (UTC)
+Received: from smtp06.web.de (fmsmtp06.dlan.cinetic.de [172.20.5.172])
+	by fmmailgate01.web.de (Postfix) with ESMTP id 8583D157283B0
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 22:56:21 +0200 (CEST)
+Received: from [213.39.164.158] (helo=[192.168.178.29])
+	by smtp06.web.de with asmtp (TLSv1:AES256-SHA:256)
+	(WEB.DE 4.110 #4)
+	id 1O3y0z-0005y1-00
+	for debian-user@lists.debian.org; Mon, 19 Apr 2010 22:56:21 +0200
+Message-ID: <4BCCC3C9.9030203@web.de>
+Date: Mon, 19 Apr 2010 22:57:45 +0200
+From: Clive McBarton <clivemcbarton@web.de>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100329)
+MIME-Version: 1.0
+To: Debian List <debian-user@lists.debian.org>
+Subject: Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?
+References: <p2q631fe46c1004151106k67c61faxe809a17d576affef@mail.csmining.org>	 <h2l631fe46c1004151802r92941076qf14c0f8bacbb76de@mail.csmining.org>	 <4BC934A7.3050808@web.de>	 <slrnhsjcc4.bu7.liam.p.otoole@dipsy.selfip.org> <r2o631fe46c1004172235i180ba554j932d533e80278311@mail.csmining.org>
+In-Reply-To: <r2o631fe46c1004172235i180ba554j932d533e80278311@mail.csmining.org>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Sender: clivemcbarton@web.de
+X-Sender: clivemcbarton@web.de
+X-Provags-ID: V01U2FsdGVkX1/UC4WgWaF9CMAmmMVy4ADLYO4C14Quvye0Ogi9
+	lhLcRZEvb5HUX/6Q11YV5G2rs4iriUanUF18+Fg1crivDokDMV
+	w0uNOt5IKZfrNSyyqXVA==
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0bnom7fC6sB.A.88F.KOMzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574479
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 20:56:42 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Mark wrote:
+> I also have been using debian-multimedia for LAME mp3 and am very thankful
+> for its existence.  
+
+Yes, it's useful for that. Though if it's just lame, it's probably
+simpler to compile the source than to add a repo.
+
+> without the debian-multimedia, in which the .mov file played great in
+> mplayer.  
+
+Can you check your installed version of libavcodec51? That's one of the
+things which d-m modifies.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvMw8kACgkQ+VSRxYk4409f2wCfcIcqL0QBYDHy4Hq6Cs51ovQd
+QL4An22TeCGLYbIkjrAbIjxPjupqikxt
+=8iQ3
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCC3C9.9030203@web.de
+
+

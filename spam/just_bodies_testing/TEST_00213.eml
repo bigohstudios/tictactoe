@@ -1,0 +1,50 @@
+Re: wget, apache and spam
+sethurf wrote:
+> Jon Dowland wrote:
+>   
+>> sethurf wrote:
+>>   
+>>     
+>>> Would you have any solution for me ? I don't know what to do... Maybe
+>>> there is a big big bug/fault in a hosted file for a hosted website.
+>>>     
+>>>       
+>> Yes, one of the sites you are hosting has a problem which is allowing a
+>> third party to run arbitrary commands on your server as the apache user.
+>>
+>> It will be a site which has access to scripting functionality: either
+>> via ExecCGI or a scripting language such as PHP if enabled.
+>>
+>> Check the log lines for the time around when the wget lines appear in
+>> your error log. That may help to narrow down which script or site is
+>> being exploited.
+>>
+>>
+>>   
+>>     
+>
+>
+> Thanks for your quick answer.
+>
+> Indeed, all hosted websites use PHP and suexec (for execCGI) is enables
+> and not installed.
+>
+> I did take a look in apache's log but nothing seems strange during the
+> "wget" using. (before and after). Is it possible that the problem comes
+> from an exploited form on a website or for mysql (I do not know how...)
+> ?  Is there a way or a software to find from where files are put in /tmp ?
+>
+>
+>
+>
+>
+>   
+Anybody would have any ideas?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCC7CB2.7000506@free.fr
+
+

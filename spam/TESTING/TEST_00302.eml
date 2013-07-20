@@ -1,0 +1,128 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bd0952250e313
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs17788wfo;
+        Fri, 21 May 2010 15:43:45 -0700 (PDT)
+Received: by 10.223.56.206 with SMTP id z14mr1971522fag.97.1274481824442;
+        Fri, 21 May 2010 15:43:44 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h4si2481911fai.95.2010.05.21.15.43.43;
+        Fri, 21 May 2010 15:43:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2D9C02D0D0C; Fri, 21 May 2010 22:43:42 +0000 (UTC)
+Old-Return-Path: <msp@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-17.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE,RCVD_IN_DNSWL_LOW autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4D9022D0CF6
+	for <lists-debian-kde@liszt.debian.org>; Fri, 21 May 2010 22:43:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-13 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_LOW=-1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id TCgt2HBEZPtx for <lists-debian-kde@liszt.debian.org>;
+	Fri, 21 May 2010 22:43:29 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .debian. - helo: .outbound.icp-qv1-irony-out2.iinet. - helo-domain: .iinet.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from outbound.icp-qv1-irony-out2.iinet.net.au (outbound.icp-qv1-irony-out2.iinet.net.au [203.59.1.107])
+	by liszt.debian.org (Postfix) with ESMTP id 5AC6B2D0CEC
+	for <debian-kde@lists.debian.org>; Fri, 21 May 2010 22:43:27 +0000 (UTC)
+X-IronPort-AntiFiltered: true
+X-IronPort-AntiResult: AogFANqo9kt8qMmG/2dsb2JhbACYOoVbcb8hhRIE
+X-IronPort-AV: E=Sophos;i="4.53,280,1272816000"; 
+   d="asc'?scan'208";a="658936048"
+Received: from unknown (HELO bristol.purcell.id.au) ([124.168.201.134])
+  by outbound.icp-qv1-irony-out2.iinet.net.au with ESMTP; 22 May 2010 06:43:16 +0800
+Received: from [192.168.1.100] (helo=hp.purcell.id.au)
+	by bristol.purcell.id.au with esmtp (Exim 4.69)
+	(envelope-from <msp@debian.org>)
+	id 1OFatZ-0004Zr-9u; Sat, 22 May 2010 08:43:01 +1000
+Received: from mark by hp.purcell.id.au with local (Exim 4.71)
+	(envelope-from <msp@debian.org>)
+	id 1OFas9-0001F3-9y; Sat, 22 May 2010 08:39:17 +1000
+From: Mark Purcell <msp@debian.org>
+Organization: Debian GNU/Linux
+To: Diederik de Haas <didi.debian@cknow.org>
+Date: Sat, 22 May 2010 08:39:16 +1000
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-amd64; KDE/4.4.3; x86_64; ; )
+Cc: debian-kde@lists.debian.org
+References: <201005211942.45707.didi.debian@cknow.org>
+In-Reply-To: <201005211942.45707.didi.debian@cknow.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1714738.ORsgnQRjm5";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005220839.17061.msp@debian.org>
+X-SA-Exim-Connect-IP: 192.168.1.100
+X-SA-Exim-Rcpt-To: didi.debian@cknow.org, debian-kde@lists.debian.org
+X-SA-Exim-Mail-From: msp@debian.org
+Subject: Re: KMyMoney questions
+X-SA-Exim-Version: 4.2.1 (built Wed, 25 Jun 2008 17:14:11 +0000)
+X-SA-Exim-Scanned: Yes (on bristol.purcell.id.au)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Ur44Tpf_BeE.A.9T.eyw9LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32496
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri, 21 May 2010 22:43:42 +0000 (UTC)
+
+--nextPart1714738.ORsgnQRjm5
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+On Saturday 22 May 2010 03:42:45 Diederik de Haas wrote:
+> - What's a good place to ask questions wrt KMyMoney? I found a mailing
+> list, kmymoney-devel, but  that really looks like a mailing list for the
+> developers, not for users like me.
+
+Diederik,
+
+There is an upstream user list or IRC is always a quick turn around:
+http://kmymoney2.sourceforge.net/mailinglist.html
+
+Mark
+
+--nextPart1714738.ORsgnQRjm5
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkv3C5QACgkQoCzanz0IthIv4gCfdalUqWr8W+3Eg5nEwLcw/l6W
+JkUAnRLg/5c6Lrb61LtUtfK3AZ1AGi90
+=T2v5
+-----END PGP SIGNATURE-----
+
+--nextPart1714738.ORsgnQRjm5--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005220839.17061.msp@debian.org
+
+

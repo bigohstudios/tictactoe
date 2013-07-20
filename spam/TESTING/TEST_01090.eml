@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId12844778a10e08e2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs181111wfj;
+        Wed, 28 Apr 2010 05:50:05 -0700 (PDT)
+Received: by 10.115.99.2 with SMTP id b2mr1976253wam.131.1272459004930;
+        Wed, 28 Apr 2010 05:50:04 -0700 (PDT)
+Return-Path: <bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id j18si4291125wan.92.2010.04.28.05.50.04;
+        Wed, 28 Apr 2010 05:50:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 648661C04D172
+	for <mlsubscriber.tech@csmining.org>; Wed, 28 Apr 2010 05:50:04 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 5FED72733554F
+	for <mlsubscriber.tech@csmining.org>; Wed, 28 Apr 2010 05:50:04 -0700 (PDT)
+X-Original-To: bluetooth-dev@lists.apple.com
+Delivered-To: bluetooth-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id EE8E427335519
+	for <bluetooth-dev@lists.apple.com>;
+	Wed, 28 Apr 2010 05:50:00 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id DE275D044A27
+	for <bluetooth-dev@lists.apple.com>;
+	Wed, 28 Apr 2010 05:50:00 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-8d-4bd82ef8499c
+Received: from eastrmmtao104.cox.net (eastrmmtao104.cox.net [68.230.240.46])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	E5.1B.26228.8FE28DB4; Wed, 28 Apr 2010 05:50:00 -0700 (PDT)
+Received: from eastrmimpo03.cox.net ([68.1.16.126]) by eastrmmtao104.cox.net
+	(InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP id
+	<20100428124959.NDZY18026.eastrmmtao104.cox.net@eastrmimpo03.cox.net>
+	for <bluetooth-dev@lists.apple.com>; Wed, 28 Apr 2010 08:49:59 -0400
+Received: from [192.168.17.19] ([72.192.24.252])
+	by eastrmimpo03.cox.net with bizsmtp
+	id B0pz1e0035SLvi0020pzdl; Wed, 28 Apr 2010 08:49:59 -0400
+X-VR-Score: -100.00
+X-Authority-Analysis: v=1.1 cv=garkv6WxUlWCZxlYffz6yNGlDVHTZyAXTUdcTJEJ4sc=
+	c=1 sm=1 a=hYg7-SXKviEA:10 a=kj9zAlcOel0A:10
+	a=FArLuzL54rOtAGDtZu+JDQ==:17
+	a=X1iqHliVFnpqE-sTZVEA:9 a=EK8qBc9FHEKHxY_oLoAbKpJz3pMA:4
+	a=CjuIK1q_8ugA:10 a=FArLuzL54rOtAGDtZu+JDQ==:117
+X-CM-Score: 0.00
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Peter Sichel <psichel@sustworks.com>
+In-Reply-To: <3DABC44C-9128-4F71-80F2-63D24F4E53EC@mac.com>
+Date: Wed, 28 Apr 2010 08:49:58 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <AF063AE9-7AAE-4619-B260-09B8B55A24E2@sustworks.com>
+References: <8FAB81E6-07B5-46FF-97C2-A362E056DEDD@mac.com>
+	<k2r360bd19f1004261513xbd185d2ci197466ff1f5f8094@mail.csmining.org>
+	<A58E1BFD-670A-493C-BFFB-60FE310C737F@mac.com>
+	<h2m360bd19f1004270041v8f618a59rb250878b4ef7f8c9@mail.csmining.org>
+	<3DABC44C-9128-4F71-80F2-63D24F4E53EC@mac.com>
+To: bluetooth-dev@lists.apple.com
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUo=
+Subject: Re: Bluetooth and runloops in a dedicated thread.
+X-BeenThere: bluetooth-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "Mailing list for Bluetooth developer discussion."
+	<bluetooth-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:bluetooth-dev@lists.apple.com>
+List-Help: <mailto:bluetooth-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=subscribe>
+Sender: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 28, 2010, at 12:11 AM, David Giovannini wrote:
+
+> I knocked all the code down to the single UI thread and I rediscovered =
+why I need multiple threads. My Obj-C objects give KVC semantics to the =
+bluetooth device.
+
+Is this absolutely necessary? =20
+
+> A getter is waiting on a thread signal for the arrival of requested =
+data.=20
+
+The Cocoa Bluetooth API was designed to be asynchronous after years of =
+experience and problems with using synchronous APIs for networking.  =
+Trying to translate it back into a synchronous multi-threaded API might =
+be counter productive.
+
+If you really need a synchronous API, the previous Bluetooth APIs might =
+still be available.
+
+- Peter
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

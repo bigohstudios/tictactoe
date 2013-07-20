@@ -1,0 +1,96 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287f4de3b7faf32
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs568235wfb;
+        Sun, 9 May 2010 16:02:11 -0700 (PDT)
+Received: by 10.223.98.24 with SMTP id o24mr3461848fan.29.1273446130382;
+        Sun, 09 May 2010 16:02:10 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si7225456far.61.2010.05.09.16.02.09;
+        Sun, 09 May 2010 16:02:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3C7D013A5328; Sun,  9 May 2010 23:02:00 +0000 (UTC)
+Old-Return-Path: <SRS0=o44mGh=MS=makeworld.com=racerx@srs.bis.na.blackberry.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.5 required=4.0 tests=LDO_WHITELIST,
+	MIME_BASE64_TEXT,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5080313A50C0
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 23:01:54 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-9.247 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MIME_BASE64_TEXT=1.753,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id YRTA8cm-mw0v for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 23:01:47 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 73 seconds by postgrey-1.31 at liszt; Sun, 09 May 2010 23:01:46 UTC
+Received: from smtp09.bis.na.blackberry.com (smtp09.bis.na.blackberry.com [216.9.248.56])
+	by liszt.debian.org (Postfix) with ESMTP id B8EBB13A515F
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 23:01:40 +0000 (UTC)
+Received: from bda2736.bisx.prod.on.blackberry (bda2736.bisx.prod.on.blackberry [172.20.204.215])
+	by srs.bis.na.blackberry.com (8.13.7 TEAMON/8.13.7) with ESMTP id o49MYZKh030531;
+	Sun, 9 May 2010 23:00:29 GMT
+X-rim-org-msg-ref-id: 1378715711
+Message-ID: <1378715711-1273446029-cardhu_decombobulator_blackberry.rim.net-83615328-@bda2736.bisx.prod.on.blackberry>
+Content-Transfer-Encoding: base64
+Reply-To: racerx@makeworld.com
+X-Priority: Normal
+References: <20100509202636.GB26057@niof.net><4BE72CA8.2070508@cox.net><20100509214856.GD26057@niof.net>
+In-Reply-To: <20100509214856.GD26057@niof.net>
+Sensitivity: Normal
+Importance: Normal
+To: "Rick Pasotto" <rick@niof.net>, debian-user@lists.debian.org
+Subject: Re: colorized ls
+From: "Chris" <racerx@makeworld.com>
+Date: Sun, 9 May 2010 23:01:31 +0000
+Content-Type: text/plain; charset="Windows-1252"
+MIME-Version: 1.0
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <UD6ppu76i5.A.6XD.o7z5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576327
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 23:02:00 +0000 (UTC)
+
+SnVzdCB0eXBlIHNvdXJjZSAuYmFzaHJjDQpTZW50IGZyb20gbXkgQmxhY2tCZXJyea4NCg0KLS0t
+LS1PcmlnaW5hbCBNZXNzYWdlLS0tLS0NCkZyb206IFJpY2sgUGFzb3R0byA8cmlja0BuaW9mLm5l
+dD4NCkRhdGU6IFN1biwgOSBNYXkgMjAxMCAxNzo0ODo1NiANClRvOiA8ZGViaWFuLXVzZXJAbGlz
+dHMuZGViaWFuLm9yZz4NClN1YmplY3Q6IFJlOiBjb2xvcml6ZWQgbHMNCg0KT24gU3VuLCBNYXkg
+MDksIDIwMTAgYXQgMDQ6NDQ6MDhQTSAtMDUwMCwgUm9uIEpvaG5zb24gd3JvdGU6DQo+IE9uIDA1
+LzA5LzIwMTAgMDM6MjYgUE0sIFJpY2sgUGFzb3R0byB3cm90ZToNCj4gPldoYXQgZGlkIEkgdXBk
+YXRlIHJlY2VudGx5IHRoYXQgY2F1c2VkIG1lIHRvIGxvc2UgbHMgY29sb3Jpbmcgd2l0aCB0aGlz
+DQo+ID5lcnJvciBtZXNzYWdlOg0KPiANCj4gV2hhdCBleGFjdGx5IChTdGFibGUsIFRlc3Rpbmcs
+IFNpZCkgZGlkIHlvdSB1cGRhdGUsIGFuZCB3aGF0IGNvbW1hbmQNCj4gZGlkIHlvdSB1c2UgdG8g
+dXBkYXRlIGl0Pw0KDQpUZXN0aW5nLiBhcHRpdHVkZS4NCg0KPiA+bHM6IHVucmVjb2duaXplZCBw
+cmVmaXg6IGhsDQo+ID5sczogdW5wYXJzYWJsZSB2YWx1ZSBmb3IgTFNfQ09MT1JTIGVudmlyb25t
+ZW50IHZhcmlhYmxlDQo+ID4NCj4gPkhvdyBzaG91bGQgSSBmaXggaXQ/DQoNCi0tIA0KIkkgc2F3
+IHRoYXQgdGhlIFN0YXRlIHdhcyBoYWxmLXdpdHRlZCAuLi4gYW5kIEkgbG9zdCBhbGwgbXkNCnJl
+bWFpbmluZyByZXNwZWN0IGZvciBpdCAuLi4iIC0tIEhlbnJ5IERhdmlkIFRob3JlYXUNCiAgICBS
+aWNrIFBhc290dG8gICAgcmlja0BuaW9mLm5ldCAgICBodHRwOi8vd3d3Lm5pb2YubmV0DQoNCg0K
+LS0gDQpUbyBVTlNVQlNDUklCRSwgZW1haWwgdG8gZGViaWFuLXVzZXItUkVRVUVTVEBsaXN0cy5k
+ZWJpYW4ub3JnIA0Kd2l0aCBhIHN1YmplY3Qgb2YgInVuc3Vic2NyaWJlIi4gVHJvdWJsZT8gQ29u
+dGFjdCBsaXN0bWFzdGVyQGxpc3RzLmRlYmlhbi5vcmcNCkFyY2hpdmU6IGh0dHA6Ly9saXN0cy5k
+ZWJpYW4ub3JnLzIwMTAwNTA5MjE0ODU2LkdEMjYwNTdAbmlvZi5uZXQNCg0KDQo=
+
+

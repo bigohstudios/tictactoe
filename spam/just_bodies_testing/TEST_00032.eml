@@ -1,0 +1,28 @@
+Re: Java Web Start Offline ProblemsThese all appear to be Oracle bugs (i.e. not Mac OS X specific), so =
+here's a quick summary of what I've found and I won't post here again on =
+this subject:
+
+1) The fix for bug 6911785 in 1.6.0_20 does seem to prevent the endless =
+"hang" on launch (with an active TCP/IP connection but no internet =
+access), but there are still lots of problems.
+
+2) Launching without internet access can take between 20s and 2 minutes =
+based on our few tests.
+
+3) Launching offline results in a non-sensical "this application has =
+requested to go online" dialog.
+
+4) The JNLPClassLoader ends up doing DNS lookups which occasionally =
+cause long delays during execution (e.g. 20s "freeze").
+
+There is a new bug: =
+http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=3D6931553 bug I think =
+it only addresses part of the problem.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,167 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282f3d407c5b1b9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs8673wfj;
+        Sat, 24 Apr 2010 02:54:24 -0700 (PDT)
+Received: by 10.87.15.35 with SMTP id s35mr2173705fgi.12.1272102863071;
+        Sat, 24 Apr 2010 02:54:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h2si3771911fkh.25.2010.04.24.02.54.22;
+        Sat, 24 Apr 2010 02:54:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5275713A50AD; Sat, 24 Apr 2010 09:54:06 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.9 required=4.0 tests=FOURLA,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1BF8613A5034
+	for <lists-debian-user@liszt.debian.org>; Sat, 24 Apr 2010 09:54:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id p2-Tam1gL663 for <lists-debian-user@liszt.debian.org>;
+	Sat, 24 Apr 2010 09:53:52 +0000 (UTC)
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.153])
+	by liszt.debian.org (Postfix) with ESMTP id 811F313A4FAF
+	for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 09:53:52 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id e12so1218992fga.12
+        for <debian-user@lists.debian.org>; Sat, 24 Apr 2010 02:53:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=gpvEWAjk46P2Im6Rr5qkWDthd0lckyhzQ1cuWiBbDJc=;
+        b=toStkOGe/EebUffYmdEJEW1SDmWkpHeq+bVG7iD25ay1uVdIKSSHX6Nr6RH+PJLIiX
+         Db3PngxjAOPUVOJ1HN8aMxIkDmcvLLMDuklESz6oq+uD/B1SeFGlWa2qtmVUh55TNVlJ
+         rc65IpWx7ofeISIHDL5Dq7fnlQbRX7/YNB3gw=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=MEm7fmETejmSEYBL5s9Amype8kik9vWQTFS2Q1JtEOzGh8pIGIulfa5XBGE4sLVlqs
+         mtNXjSN9G/j6mq8OVn6WEbB+8TXXjlRgzETPFpb/eh+WT4GTWDINYKFvXWaE5cfKED87
+         4ZW0izOSyZ6/HApqJTOF1O+15fsK19RYhka+k=
+Received: by 10.102.197.36 with SMTP id u36mr626294muf.105.1272102826288;
+        Sat, 24 Apr 2010 02:53:46 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id s10sm7818223mue.27.2010.04.24.02.53.45
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 24 Apr 2010 02:53:45 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id 41DF82066; Sat, 24 Apr 2010 12:35:55 +0300 (EEST)
+Date: Sat, 24 Apr 2010 12:35:55 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: Lite SMTP server/daemon
+Message-ID: <20100424093555.GB6685@think.homelan>
+References: <4BD1E3C5.23069.11D86AA@export.hope.cz>
+ <20100423151453.3f134ce4.celejar@csmining.org>
+ <4BD2B7BC.13085.1000BD@export.hope.cz>
+ <20100424085156.GA5134@ghost.local.lan>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="zx4FCpZtqtKETZ7O"
+Content-Disposition: inline
+In-Reply-To: <20100424085156.GA5134@ghost.local.lan>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dfaOYrCC73C.A._uH.--r0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574893
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 24 Apr 2010 09:54:06 +0000 (UTC)
+
+
+--zx4FCpZtqtKETZ7O
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,24.Apr.10, 10:51:56, d.sastre.medina@csmining.org wrote:
+> On Sat, Apr 24, 2010 at 09:19:56AM +0200, export@hope.cz wrote:
+> >    I use Linux running in  Compact Flash so that the size of the Compact
+> >    flash memory is the limit
+> >    Only SMTP, no POP3 server
+> >    Can you suggest something?
+>=20
+> Hello,
+>=20
+> This simple search:
+>=20
+> $ apt-cache search mta light
+>=20
+> showed some exim4 packages and the one you are looking for:
+>=20
+> $ apt-cache show msmtp-mta
+=2E..
+>  msmtp is an SMTP client that can be used to send mails from Mutt and
+> probably
+>  other MUAs (mail user agents). It forwards mails to an SMTP server
+> (for
+>  example at a free mail provider), which takes care of the final
+> delivery.
+=2E..
+
+msmtp will *not* accept incoming mail (which is what the OP asked for). =20
+
+The solution is probably one of exim or postfix, possibly recompiled to=20
+keep only a minimum of features needed for the given application, an=20
+answer to Stan's mail will tell more.
+
+Regards,
+Andrei
+P.S. What keyserver are you using, subkeys keeps timing out when mutt=20
+requests your key
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--zx4FCpZtqtKETZ7O
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL0rt7AAoJEHNWs3jeoi3pMvcH/RdyEdZSo3iHcbmc/W1cxDul
+lQl6UIUwDDMgTA4ju4mhkjiPDBmc3BKu/B9T4cbpMRheHP8rahrCBWr0A5HsZgyZ
+zIjyeixgUMlsGnsHQUdF8kSH8Jb7UVDJMiiT74Q0QpvoOCzRlnDHjvZbk52VQ0lU
+lLxqySxjqjSq0t+DtlKGnwB7kEd+rtR1LzFFIbWxxh6VJwP1WNwkqA8liX4FIWZ1
+mAXWFvtnUoSANt0zDhg+K4PEs+nqfZK7dzvIlxxDgdwf/wzo0ra72EBKHpHNmaLV
+LFpXEiExhSmMCBRjGNJTCWSvvs2fiC5f5th6UNsKLC1TdRDMGFNg0rCZHpEEYi8=
+=ZMGd
+-----END PGP SIGNATURE-----
+
+--zx4FCpZtqtKETZ7O--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100424093555.GB6685@think.homelan
+
+

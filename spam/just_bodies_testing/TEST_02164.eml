@@ -1,0 +1,29 @@
+Re: Aliases with `-'From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Alexander Batischev wrote:
+> Small note about highlighting =E2=80=94 if you add quotes, emacs (and v=
+im, and
+> any other editor with syntax highlighting as well) thinks that it's a
+> string and highlight it. If alias name isn't highlighted that doesn't
+> mean that it won't work. So don't think about highlighting =E2=80=94
+> everything works ;)
+>  =20
+Thanks for all your answers. It actually finally works. I had to
+re-source the file twice to make it work. Weird! I was expecting more
+than that of emacs, because it normally comes into a mode which depends
+on the extension and/or the name of the edited file (e.g. if you edit a
+Makefile, it knows that it's a Makefile).
+
+Thanks again.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Bad news travels fast.
+

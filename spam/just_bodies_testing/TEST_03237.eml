@@ -1,0 +1,40 @@
+Re: 8-bit color in Tiger X11 and Snow Leopard X11
+>
+> Are you experiencing problems when you set the X11 color depth to 256 colors in the preferences?
+>
+> I think the instructions may still be valid.  I'm not 100% positive, though.  You can also try the package I made a while back:
+>
+> http://static.macosforge.org/xquartz/downloads/Leopard/X11_Legacy-1.1.4.1.pkg
+> http://static.macosforge.org/xquartz/downloads/Leopard/X11_Legacy.README
+>
+> I think there may be a problem with the quartz-wm in that package, but it should work ok if you use Snow Leopard's quartz-wm instead.
+>
+> This is really not a supported approach, but hopefully it'll help.  If you have any problems, let me know, and I'll try to help.
+>
+> --Jeremy
+>
+
+Thanks again Jeremy,
+
+I'll try that package next week. My example screenshots were both with 
+colors set to 256 in preferences. I cannot start the XwinNMR program 
+unless 256 colors is set.
+
+Regards,
+
+Phil.
+
+-- 
+Dr Phil Dennison
+NMR Facility Director           (949)824-6010 (office)
+Department of Chemistry         (949)824-5649 (lab)
+University of California        (949)824-8571 (fax)
+Irvine, CA 92697-2025           dennison@uci.edu
+USA
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

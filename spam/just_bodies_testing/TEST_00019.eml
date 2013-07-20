@@ -1,0 +1,27 @@
+Re: Java Robot code and reboots
+On May 24, 2010, at 2:13 PM, Alvin Alexander wrote:
+
+> I've been trying some "simple" tests with the Robot class on Mac OS X =
+10.5 and 10.6, and things aren't working out too well, so I thought I'd =
+see if anyone had a suggestion.
+
+Well, the one thing that seemed quite odd to me is that you appear to be =
+doing all the work in the Constructor of your class.  I would be leery =
+of doing anything like that.  I don't know if that is the cause of the =
+problem, but I would try moving the actual testing you want out into a =
+separate method and then doing something like
+
+   Robot1 r =3D new Robot1();
+   r.doTest();
+
+in your main method.
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

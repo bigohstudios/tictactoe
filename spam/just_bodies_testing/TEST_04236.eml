@@ -1,0 +1,86 @@
+Re: asignar hora a PCOn Wed, 28 Apr 2010 21:50:32 +0200, Florian Kulzer wrote:
+
+> On Wed, Apr 28, 2010 at 16:11:38 +0000, Camaleón wrote:
+
+>> > I would say it is d) "all of the above". If you understand Spanish,
+>> > see for yourself:
+>> > 
+>> > http://lists.debian.org/debian-user/2009/09/msg01806.html
+>> 
+>> That's unfair. I would not judge a user by just one post.
+> 
+> I would say that depends on the post. In any case, I am judging this
+> particular user on his overall posting history here on d-u, which began
+> long before the one mail to which I linked (which is just the most
+> drastic manifestation of his general attitude).
+
+
+You cannot condemn an actitute that is not being perceived by the user. 
+And I don't think the OP knows what is he doing.
+ 
+
+>> You must know that the Spanish list can be sometimes a bit
+>> "un-pleasant" so I even could understood that overreaction.
+> 
+> He did not quote any mails of others that would justify his rudeness and
+> blatant lack of concern for the mailing list code of conduct.
+
+
+Yes, it is quoted, badly, but quoted. 
+
+If you were a frequent user of the Spanish mailing list, you would have 
+noticed that many of the posts are directed not to the list but to the 
+users own e-mail address >:-)
+
+
+>> I think many people here is not fully aware about the technological
+>> limitations some users have to live with and treating such users as
+>> just "nuts" is quite unjust, to say the least.
+> 
+> Just and unjust is in the eye of the beholder. I was trying to make a
+> much more straightforward point: If enough people continue to reward a
+> certain behavior then it is likely that there will be an increase in the
+> occurrence of this very behavior. Case in point: Our friend has just
+> posted another Spanish message to d-u.
+
+
+I know him from the Spanish mailing list so, as he barely replies to the 
+people who is giving some advice, I stopped from replying to his posts 
+some time ago ;-)
+
+Look, every time he posts to the Spanish mailing list, it duplicates the 
+same message here. And note the *sending* time:
+
+***
+Original-Received: from cronos by gecgr.co.cu (MDaemon PRO v9.0.4)
+with ESMTP id md50000092215.msg for <debian-user-
+spanish@lists.debian.org>; Wed, 28 Apr 2010 14:12:35 -0500
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+***
+Original-Received: from cronos by gecgr.co.cu (MDaemon PRO v9.0.4)
+with ESMTP id md50000092214.msg for <debian-user@lists.debian.org>; Wed, 
+28 Apr 2010 14:11:59 -0500
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+***
+
+There is just an interval of *35 seconds* between one mail and the other! 
+Wow, that is *so fast* if you are sending two different messages (to one 
+list and the other) because if you carefully review the e-mail headers, 
+the mailing list address is displayed in "To" field, in both cases. Not 
+"CC" nor "BCC".
+
+Anyway... who cares? Me not :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.28.21.07.36@csmining.org
+
+

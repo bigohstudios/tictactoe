@@ -1,0 +1,34 @@
+Re: rpm versioning done right?Once upon a time, Daniel wrote :
+
+> What do you pleople think of the strategy to put prerelease
+> (alpha/beta/rc) information in the release field? The above example
+> should then have 6.1-0alpha5 as %{version}-%{release} and when the final
+> version was released it would have 6.1-1.
+
+Why not... it's just that sometimes it gets a bit more confusing in the
+spec file since you have to change the "Source:" as well as "%setup" to
+reflect the name changes. But it might also sometimes be even easier the
+way you suggest, if the entire package contains only references to the
+final version and that only the archive name has a "pr1" or "beta6" in it
+for example.
+
+Take for instance xmame : I've been packaging 0.61 pre-releases as
+"0.61-fr0.x" since the entire source has only "0.61" tags everywhere, no
+preversion tags whatsoever.
+
+Still, I don't think "Epoch:" is an evil hack although it's true that it
+may cause problems between distributions when used. Wanting to avoid it
+when possible is a good thing indeed ;-)
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

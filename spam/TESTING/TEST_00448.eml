@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId128555fe43b50965
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs158141wfj;
+        Sat, 1 May 2010 12:37:53 -0700 (PDT)
+Received: by 10.87.1.13 with SMTP id d13mr6923662fgi.29.1272742671950;
+        Sat, 01 May 2010 12:37:51 -0700 (PDT)
+Return-Path: <bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 9si5575096fks.56.2010.05.01.12.37.46;
+        Sat, 01 May 2010 12:37:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6539C13A4A32; Sat,  1 May 2010 19:37:44 +0000 (UTC)
+Old-Return-Path: <it-support@asta.tu-darmstadt.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.6 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RATWARE_GECKO_BUILD,SUPPORTMAIL5 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-volatile@liszt.debian.org
+Delivered-To: lists-debian-volatile@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7C63113A4A1C
+	for <lists-debian-volatile@liszt.debian.org>; Sat,  1 May 2010 19:37:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SUPPORTMAIL5=2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id htGG2uibW-C0
+	for <lists-debian-volatile@liszt.debian.org>;
+	Sat,  1 May 2010 19:37:31 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .tu-darmstadt. - helo: .smtprelay04.ispgateway. - helo-domain: .ispgateway.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+X-Greylist: delayed 67 seconds by postgrey-1.31 at liszt; Sat, 01 May 2010 19:37:31 UTC
+Received: from smtprelay04.ispgateway.de (smtprelay04.ispgateway.de [80.67.31.42])
+	by liszt.debian.org (Postfix) with ESMTP id 9124D13A4A0D
+	for <debian-volatile@lists.debian.org>; Sat,  1 May 2010 19:37:31 +0000 (UTC)
+Received: from [92.50.82.125] (helo=[192.168.1.2])
+	by smtprelay04.ispgateway.de with esmtpsa (TLSv1:AES256-SHA:256)
+	(Exim 4.68)
+	(envelope-from <it-support@asta.tu-darmstadt.de>)
+	id 1O8IU9-0004G1-O3
+	for debian-volatile@lists.debian.org; Sat, 01 May 2010 21:36:21 +0200
+Message-ID: <4BDC82B5.1050405@asta.tu-darmstadt.de>
+Date: Sat, 01 May 2010 21:36:21 +0200
+From: Ivan De Masi <it-support@asta.tu-darmstadt.de>
+Reply-To: it-support@asta.tu-darmstadt.de
+Organization: AStA TU Darmstadt
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.1.9) Gecko/20100317 Lightning/1.0b1 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-volatile@lists.debian.org
+Subject: Run clamav lenny packages on etch?
+Content-Type: text/plain; charset=ISO-8859-15
+Content-Transfer-Encoding: 7bit
+X-Df-Sender: 584367
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <yneQOTmiklJ.A.7U.IMI3LB@liszt>
+Resent-From: debian-volatile@lists.debian.org
+X-Mailing-List: <debian-volatile@lists.debian.org> archive/latest/1303
+X-Loop: debian-volatile@lists.debian.org
+List-Id: <debian-volatile.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-volatile/>
+List-Post: <mailto:debian-volatile@lists.debian.org>
+List-Help: <mailto:debian-volatile-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 19:37:44 +0000 (UTC)
+
+Hello,
+
+is it possible to run the clamav-packages for lenny from the volatile
+repository on Debian etch?
+Some machines still run etch here and the latest version installed is
+0.95.3... :-/
+
+I was curious an changed my sources.list from
+
+# ClamAV Update
+deb http://volatile.debian.org/debian-volatile etch/volatile main
+contrib non-free
+
+into
+
+# ClamAV Update
+deb http://volatile.debian.org/debian-volatile lenny/volatile main
+contrib non-free
+
+and did
+
+apt-get update
+apt-get -s dist-update
+
+The system shows me clamav-base and clamav-testfiles to be updated
+without any complain about missing dependencies...
+
+Thanks!
+
+Regards,
+Ivan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDC82B5.1050405@asta.tu-darmstadt.de
+
+

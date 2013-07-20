@@ -1,0 +1,83 @@
+RE: [SAtalk] Debianized Packages for SA 2.3+I successfully installed spamassassin & razor to run system wide on my
+Debian Woody server.  
+ 
+Briefly I 
+apt-get installed spamassassin razor and libmilter-dev,
+ 
+downloaded spamass-milter-0.1.2.tar.gz from http://www.milter.org,
+ungzipped and untarred the file into /etc/mail, 
+ 
+followed the directions in /etc/mail/spamass-milter-0.1.2/README to
+compile the milter, install the rc scripts, and edit and update
+sendmail.mc
+ 
+changed /etc/default/spamassassin to set spamassassin to daemon mode.
+ 
+verified that spamassassin was running by tailing /var/log/mail.log
+ 
+ 
+Woody/stable has SA 2.20
+Woody/unstable has SA 2.41
+
+I'm running the stable source live right now and it is working very
+well.
+
+If you want unstable change /etc/apt/sources.list, substituting
+"unstable" for "stable",
+Run apt-get update
+Install the unstable versions
+Change /etc/apt/sources.list
+Run apt-get update
+
+
+Quentin Krengel
+Krengel Technology Inc
+
+
+
+-----Original Message-----
+From: spamassassin-talk-admin@example.sourceforge.net
+[mailto:spamassassin-talk-admin@lists.sourceforge.net] On Behalf Of
+Tanniel Simonian
+Sent: Wednesday, September 11, 2002 4:15 PM
+To: spamassassin-talk@example.sourceforge.net
+Subject: [SAtalk] Debianized Packages for SA 2.3+
+
+
+Im currently using woody.
+
+Is there a debianized package for SA on Woody, or at least somewhere I
+can download from? Its been soo long that I haven't compiled stuff, that
+Im sort of shy to try again. =)
+
+
+
+-- 
+Tanniel Simonian
+Programmer / Analyst III
+UCR Libraries
+http://libsys.ucr.edu
+909 787 2832
+
+
+
+
+-------------------------------------------------------
+In remembrance
+www.osdn.com/911/ _______________________________________________
+Spamassassin-talk mailing list Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+
+
+
+-------------------------------------------------------
+In remembrance
+www.osdn.com/911/
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

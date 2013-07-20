@@ -1,0 +1,39 @@
+Re: KDE 4.4.3 upgrade eats 141 MB of /homeOn Friday 14 May 2010, Boyd Stephen Smith Jr. wrote:
+> On Friday 14 May 2010 11:37:19 Allan Sandfeld Jensen wrote:
+> > On Thursday 13 May 2010, Nicolas Alvarez wrote:
+> > > There *has* to be a better way to clean an HTTP cache than to stat
+> > > every single file in the cache to then delete a tiny fraction of them.
+> > > Someone told me 4.4 improved in this area, but I don't know specifics,
+> > > and remain skeptical.
+> > 
+> > If stat updates the files' atime, you may get a lot better performance by
+> > simply mounting the relevant partition with relatime or noatime (which
+> > for some reason is still not default).
+> 
+> noatime "breaks" a few applications.  I recommend against it.
+> 
+> I've not seen similar issues with relatime, although it is theoretically
+> possible.  I mount using relatime, normally.
+
+It breaks mutt, relatime was invented to fix the mutt issue. A lot of netbooks 
+and machines with only SSDs use noatime now, if noatime broke anything serious 
+at any point, those issues will have been solved by now, SSDs have been out 
+for some time and they need noatime.
+
+Also possibly if you don't like the mount flags:
+chattr -R +A /var/tmp
+
+Also add
+chattr -R +A $KDEHOME
+
+The later is good for the config files.
+
+`Allan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005141955.46390.debian@carewolf.com
+
+

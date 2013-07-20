@@ -1,0 +1,20 @@
+Re: memory usageAm Dienstag, 11. Mai 2010 schrieb Sune Vuorela:
+> Except I only have 512mb ram in my laptop, it matches my experience of
+> eclipse.
+
+Nice to hear that I'm not the only one with this "ancient" configuration. For 
+me 4.4.3 made things much worse, and no Eclipse included.
+
+Not sure if only the new presence of virtuoso and akonadi take away the 
+remaining free ram now triggering swapping. Strigi is off, of course and I 
+wonder if any other tricks might make KDE agreeable again in speed.
+
+-Christoph
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005111522.00471.christoph.burgmer@stud.uni-karlsruhe.de
+
+

@@ -1,0 +1,248 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ebf9eccef2707
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs105663wfo;
+        Sun, 11 Apr 2010 01:26:18 -0700 (PDT)
+Received: by 10.223.15.143 with SMTP id k15mr1853256faa.57.1270974377174;
+        Sun, 11 Apr 2010 01:26:17 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si6233459fkq.34.2010.04.11.01.26.16;
+        Sun, 11 Apr 2010 01:26:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 681F513A5EC3; Sun, 11 Apr 2010 08:26:14 +0000 (UTC)
+Old-Return-Path: <prudhomm@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-1.9 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	LDO_WHITELIST,MONOTONE_WORDS_2_15,SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D9EA613A5E6B
+	for <lists-debian-kde@liszt.debian.org>; Sun, 11 Apr 2010 08:26:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	MONOTONE_WORDS_2_15=1, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kYzNYdUogJWC for <lists-debian-kde@liszt.debian.org>;
+	Sun, 11 Apr 2010 08:26:00 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yx0-f204.google.com (mail-yx0-f204.google.com [209.85.210.204])
+	by liszt.debian.org (Postfix) with ESMTP id C7B9513A5D00
+	for <debian-kde@lists.debian.org>; Sun, 11 Apr 2010 08:25:59 +0000 (UTC)
+Received: by yxe42 with SMTP id 42so2192550yxe.24
+        for <debian-kde@lists.debian.org>; Sun, 11 Apr 2010 01:25:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:sender:received:in-reply-to
+         :references:date:x-google-sender-auth:received:message-id:subject
+         :from:to:content-type;
+        bh=O6sev9sxumSgY2EYCB3ZTSLm1BNbr3+eFly58aDMukQ=;
+        b=cF5aJcZoTKxEJDQucH9F0wFEo64Sf970L5FJaOrUasGVbMuzkSUtJYWlNMzJqOgCA8
+         KrynTDdDHOXdeKdYfY1UWvyS5KKNypv4IdlOdNw33cZJaYIk9GNrbI0J7FZlwyvQLiym
+         IAqGuC4HduqFaPf7nyF6Wn2gQe9idQJDbxty4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        b=EYAzBfV1XXiu3tHcwC540isfESZO3FGbmOUmUNKg9KYoPjEXml1emQebUWeJ9ep3sU
+         5T1nxEFS7CkpRihFryjNKWTp8ktBQnRmfYsUwpuXzO8KN9Z5puGZxElMxD/23RfVsqbE
+         PL1rdfMAEhi0TEPApxgqi9Mu64VZiwb6n7v9Y=
+MIME-Version: 1.0
+Sender: prudhomm@csmining.org
+Received: by 10.231.118.16 with HTTP; Sun, 11 Apr 2010 01:25:51 -0700 (PDT)
+In-Reply-To: <s2oaefba0691004100309l4153fb37p534f434fa44b2c19@mail.csmining.org>
+References: <s2oaefba0691004100309l4153fb37p534f434fa44b2c19@mail.csmining.org>
+Date: Sun, 11 Apr 2010 10:25:51 +0200
+X-Google-Sender-Auth: e464273df738711c
+Received: by 10.101.134.3 with SMTP id l3mr4202832ann.200.1270974351382; Sun, 
+	11 Apr 2010 01:25:51 -0700 (PDT)
+Message-ID: <y2naefba0691004110125zc526b700vc102f17502541f61@mail.csmining.org>
+Subject: Re: Issue between KDE 4.x
+From: "Christophe Prud'homme" <prudhomm@debian.org>
+To: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=001636c5be08bb9f2c0483f1c60b
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5uXatAbDxuM.A.InC.meYwLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32016
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 08:26:14 +0000 (UTC)
+
+--001636c5be08bb9f2c0483f1c60b
+Content-Type: text/plain; charset=ISO-8859-1
+
+I just created a new bug report in Kde for all this, Let's see what the
+plasma guys are saying
+
+On Sat, Apr 10, 2010 at 12:09 PM, Christophe Prud'homme <prudhomm@debian.org
+> wrote:
+
+> Dear Debian KDE Maintainers,
+>
+> First, thank you for your job, I know that maintaining huge packages is
+> very much time consuming and not easy.
+>
+> * Kde experience
+>
+> Before reporting a bug in KDE I would like  to have your opinion on how
+> best it should be done.
+> I have been using Kde for many years now, basically from its creation until
+> 4.3.x. I have also installed
+> 4.4.x.  Because I maintain and use paraview (a big package also) I add to
+> get rid of 4.4 and go back to 4.3 (due to Qt dependency).
+>
+> For the record, I have a Lenovo T61p  with an Nvidia Quadro FX 570M card
+> with 8Go of RAM and Debian unstable
+> I have enabled some of the fancy effects
+>
+> ** suspend
+>
+> With Kde 4.x I always had problems with suspend, either it just didn't work
+> (laptop froze) or
+> after 2 successfull suspends I had to shutdown/reboot the laptop
+> I always thought that it was due to bad Nvidia drivers(I am using the ones
+> shipped by  Debian ).
+>
+> ** Very slow desktop
+>
+> With 4.3.x and 4.4.1 (and possibly earlier versions of Kde 4 I cannot
+> remember ) I
+> had also plasma or the desktop that would become incredibly slow to
+> the  point of being unusable then sometimes
+> after a little while it would be back.
+>
+> ** Desktop/Plasma does not resize properly
+>
+> I teach courses at the university and I use quite often  twinview of nvidia
+> through nvidia-settings in order to show
+> some slides or make demos. When I disable the video projector and get back
+> to laptop screen only, the plasma desktop
+> keeps the preview large screen dimension  and the plasma panels are far too
+> large and don't show the almond, systray and parts
+> of the taskbar. I usually "fix" that by adding some spacer (still no almond
+> though). This is just painful.
+>
+> *Gnome Experience
+>
+> Basically it was becoming hard to use Kde on a daily basis and I decided to
+> have a little experiment: install gnome 2.28 (I have some
+> gnome 2.30 packages installed too). I have also installed compiz and
+> enabled all kind of effects.
+>
+> Now for two weeks,
+>  - the desktop never became slow, it is very responsive and is quite fancy
+>  - suspend just works, it is a bliss.
+>  - no issues with desktop resizing
+>
+> In my opinion, there is something wrong KDE/Plasma and its use of OpenGL.
+> Before this experience, I blamed nvidia and was looking
+> for changing my laptop and use ATI but now I definitely blame KDE/Plasma
+>
+> Any suggestions how to report this ? the resize problem is definitely a
+> plasma bug but what about suspend and the slow desktop ? plasma too ?
+>
+> any suggestions ? thoughts ?
+>
+> Best regards
+> C.
+>
+
+--001636c5be08bb9f2c0483f1c60b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+I just created a new bug report in Kde for all this, Let&#39;s see what the=
+ plasma guys are saying<br><br><div class=3D"gmail_quote">On Sat, Apr 10, 2=
+010 at 12:09 PM, Christophe Prud&#39;homme <span dir=3D"ltr">&lt;<a href=3D=
+"mailto:prudhomm@debian.org">prudhomm@debian.org</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex;">Dear Debian KDE Maintainers,<div><br></div>=
+<div>First, thank you=A0for your job, I know that maintaining huge packages=
+ is very much time consuming and not easy.</div>
+<div><br></div><div><div>* Kde experience</div></div><div>
+<br></div><div>Before reporting a bug in KDE I would like =A0to have your o=
+pinion on how best it should be done.</div><div>I have been using Kde for m=
+any years now, basically from its creation until 4.3.x. I have also install=
+ed=A0</div>
+
+<div>4.4.x. =A0Because I maintain and use paraview (a big package also) I a=
+dd to get rid of 4.4 and go back to 4.3 (due to Qt dependency).</div><div><=
+br></div><div>For the record, I have a Lenovo T61p =A0with an Nvidia Quadro=
+ FX 570M card with 8Go of RAM and Debian unstable</div>
+
+<div>I have enabled some of the fancy effects</div><div><br></div><div>** s=
+uspend</div><div><br></div><div>With Kde 4.x I always had problems with sus=
+pend, either it just didn&#39;t work (laptop froze) or=A0</div><div>after 2=
+ successfull suspends I had to shutdown/reboot the laptop</div>
+
+<div>I always thought that it was due to bad Nvidia drivers(I am using the =
+ones shipped by =A0Debian ).=A0</div><div><br></div><div>** Very slow deskt=
+op</div><div><br></div><div>With 4.3.x and 4.4.1 (and possibly earlier=A0ve=
+rsions of Kde 4 I cannot remember ) I=A0</div>
+
+<div>had also=A0plasma or the desktop that would become incredibly slow to =
+the=A0=A0point of being unusable then sometimes</div><div>after a little wh=
+ile it would be back.</div><div><br></div><div>** Desktop/Plasma does not r=
+esize properly</div>
+
+<div><br></div><div>I teach courses at the university and I use quite often=
+ =A0twinview of nvidia through nvidia-settings in order to show=A0</div><di=
+v>some slides or make demos. When I disable the video projector and get bac=
+k to laptop screen only, the plasma desktop=A0</div>
+
+<div>keeps the preview large screen dimension =A0and the plasma panels are =
+far too large and don&#39;t show the almond, systray and parts=A0</div><div=
+>of the taskbar. I usually &quot;fix&quot; that by adding some spacer (stil=
+l no almond though). This is just painful.</div>
+
+<div><br></div><div>*Gnome Experience</div><div><br></div><div>Basically it=
+ was becoming hard to use Kde on a daily basis and I decided to have a litt=
+le experiment: install gnome 2.28 (I have some=A0</div><div>gnome 2.30 pack=
+ages installed too). I have also installed compiz and enabled all kind of e=
+ffects.</div>
+
+<div><br></div><div>Now for two weeks,=A0</div><div>=A0- the desktop never =
+became slow, it is very responsive and is quite fancy</div><div>=A0- suspen=
+d just works, it is a bliss.</div><div>=A0- no issues with desktop resizing=
+</div>
+
+<div>=A0</div><div><div>In my opinion, there is something wrong KDE/Plasma =
+and its use of OpenGL. Before this experience, I blamed nvidia and was look=
+ing=A0</div><div>for changing my laptop and use ATI=A0but now I definitely =
+blame KDE/Plasma=A0</div>
+
+<div><br></div></div><div>Any suggestions how to report this ? the resize p=
+roblem is definitely a plasma bug but what about suspend and the slow deskt=
+op ? plasma too ?</div><div><br></div><div>any suggestions ? thoughts ?</di=
+v>
+
+<div><br></div><div>Best regards</div><div>C.</div>
+</blockquote></div><br>
+
+--001636c5be08bb9f2c0483f1c60b--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2naefba0691004110125zc526b700vc102f17502541f61@mail.csmining.org
+
+

@@ -1,0 +1,27 @@
+Re: Basic install - which DVDs?Ron Johnson wrote:
+> On 05/02/2010 08:47 PM, Marco Shaw wrote:
+>> Hi,
+>>
+>> I'm just looking to do a basic install of the latest version.  I just
+>> need a basic version (no GUI/X required), with networking and an SSH
+>> client basically...
+>>
+>> I've downloaded DVD #1.  Since it took almost 10 hours from my
+>> location of choice, I'm wondering whether the first DVD will be
+>> enough?
+>>
+> 
+> Almost certainly.  You could have probably gotten away with a CD.
+> 
+
+If you are OK with testing and you machine is connected to the internet
+to download the desired packages, you can try the netinstall CD too
+from: http://www.debian.org/devel/debian-installer/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDE303A.8050303@fastmail.fm
+
+

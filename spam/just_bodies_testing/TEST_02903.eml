@@ -1,0 +1,40 @@
+Re: What needs to improve in KDE 4?Hi,
+
+On Tue, May 11, 2010 at 08:58:17AM +0200, cobaco wrote:
+> On Tuesday 11 May 2010, Adrian von Bidder wrote:
+> > On Monday 10 May 2010 18.12:46 Dotan Cohen wrote:
+> > > I started 4.4 on a new ~/.kde
+> > > folder, can you try in a new user profile and report back?
+> > 
+> > I hate it when this shows up.  Yes, it's probably easier to debug, but
+> > often bugs *do* show up that don't happen anymore when I remove my
+> > ~/.kde directory, but this doesn't really help the user who has the bug.
+> > Unfortunately, the end result is very often that removing ~/.kde and
+> > starting from scratch becomes the only solution that is "officially"
+> > recommended.
+> 
+> read remove as 'move temporarily out of the way', this is just the first 
+> step in localizing the problem: if it doesn't get rid of the problem then 
+> we've established conclusively that the bug is not triggered by something in 
+> your personal settings.
+
+Is it guaranteed that KDE doesn't store anything outside of ~/.kde so
+that a user doesn't risk things getting desynched if one exchanges one
+~/.kde with a different one?
+
+Greetings
+Marc
+
+-- 
+-----------------------------------------------------------------------------
+Marc Haber         | "I don't trust Computers. They | Mailadresse im Header
+Mannheim, Germany  |  lose things."    Winona Ryder | Fon: *49 621 72739834
+Nordisch by Nature |  How to make an American Quilt | Fax: *49 3221 2323190
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100511154226.GD15366@torres.zugschlus.de
+
+

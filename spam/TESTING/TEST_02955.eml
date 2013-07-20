@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286de1395a21843
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs394529wfb;
+        Thu, 6 May 2010 06:49:57 -0700 (PDT)
+Received: by 10.223.18.2 with SMTP id u2mr6693707faa.73.1273153796271;
+        Thu, 06 May 2010 06:49:56 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si2066970fkr.59.2010.05.06.06.49.55;
+        Thu, 06 May 2010 06:49:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AE86213A5738; Thu,  6 May 2010 13:49:53 +0000 (UTC)
+Old-Return-Path: <didi.debian@cknow.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=BLOGSPOT,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7D46D13A576F
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 13:49:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BLOGSPOT=3, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id X+A1eeRAdurC for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 13:49:40 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) HELO_IP_IN_CL_SUBNET=-1.2 (check from: .cknow. - helo: .homiemail-a38.g.dreamhost. - helo-domain: .dreamhost.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -6.2
+Received: from homiemail-a38.g.dreamhost.com (mailbigip.dreamhost.com [208.97.132.5])
+	by liszt.debian.org (Postfix) with ESMTP id 6FD6013A56C1
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 13:49:33 +0000 (UTC)
+Received: from the-shire.localnet (e243048.upc-e.chello.nl [213.93.243.48])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by homiemail-a38.g.dreamhost.com (Postfix) with ESMTP id 1C893D489C
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 06:49:37 -0700 (PDT)
+From: Diederik de Haas <didi.debian@cknow.org>
+Organization: Connecting Knowledge
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Date: Thu, 6 May 2010 15:49:25 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-5-686-bigmem; KDE/4.4.3; i686; ; )
+References: <20100505202449.GA26153@ana.debian.net> <201005060913.06917.didi.debian@cknow.org> <20100506112823.GS28964@n0nb.us>
+In-Reply-To: <20100506112823.GS28964@n0nb.us>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061549.26617.didi.debian@cknow.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kW_I4CTA_-O.A.NwE.Bks4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32125
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 13:49:53 +0000 (UTC)
+
+On 2010-05-06 Nate Bargmann wrote:
+> > So you don't like the dependency to Akonadi? Too bad.
+> 
+> Regardless the rationale, this seems to be an attitude that has become
+> very pervasive among KDE developers with the advent of KDE4 and it has
+> me looking seriously at the alternatives.  I no longer recommend KDE to
+> other users due to the "my way or the highway" attitude I've encountered
+> since running KDE 4.2 over a year ago and encountering various issues.
+
+Note: "too bad" are my words and I'm not a kde developer.
+
+Following blog post by Aaron Seigo yielded all the usual responses:
+http://aseigo.blogspot.com/2010/05/i-dont-need-no-stinking-nepomuk-right.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061549.26617.didi.debian@cknow.org
+
+

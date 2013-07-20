@@ -1,0 +1,64 @@
+Re: Filesystem recommendationsStephen Powell put forth on 4/29/2010 8:50 AM:
+
+> I agree with John.  Stan must hobnob with an elite crowd.  
+
+Not really.  A computer educated crowd maybe, but by no means elite for most
+definitions of elite.
+
+> I don't
+> have a UPS at home either, and I don't know anyone that does.
+
+Be the first.  Even something like this will get you through browns and sags
+without a burb from the PC, and will give you 5-20 minutes to do a proper
+shutdown with an average mini tower in the case of total outages due to the
+occasional storm or line crew replacing a transformer, etc.  Less than $50
+at WorstBuy:
+
+http://www.bestbuy.com/site/CyberPower+-+425VA+SL-Series+Battery+Back-Up+System/6201585.p?id=1069297060711&skuId=6201585
+
+A better choice IMO would be something like this:
+
+http://www.bestbuy.com/site/APC+-+900VA+Battery+Back-Up+System/7842588.p?id=1142298456537&skuId=7842588
+
+Provides surge protection for PC, dsl modem, coax; long battery runtime for
+a single home PC.  Keeps the cordless phone base working during a storm
+along with a desk lamp so you're not in total darkness.  They're great for
+the living room home theater system too.  Allows you to watch the local
+weather during a storm when the power is out.
+
+> I do have one at work, but even there most desktop systems aren't
+> on it.  The only reason that my desktop system uses the UPS is that
+> my cubicle is on raised floor inside the computer room and I
+> connected it myself.  Most desktop users, even at the office, are not
+> so privileged.  And my employer is a very big entity, financially.
+> It's not a small business.
+
+In the U.S. most business facilities have more stable power than residential
+areas.  Most offices have transformers inside the building and buried cable
+to the building, unlike residential which, if not fairly new, has all above
+ground cabling and multiple houses on one transformer up on a power pole.
+The latter is a magnet for falling tree limbs due to wind in the summer and
+ice in the winter.  Most offices don't suffer from browns and sags due to
+having dedicated transformers.  Usually when office power goes out it's due
+to a major component failure at a substation or an overhead line somewhere
+in between that got clipped by a boom truck or the like.  In short, office
+desktops usually don't need a UPS, especially if user data is stored on
+network shares on UPS backed servers.  If power goes out it just garbles
+local temp files--unless it's a Windows PC and the registry was held open,
+as it usually is, even though it's not supposed to be...
+
+Anyway, the way I've always looked at the residential side of the UPS debate
+is to ask myself this question:  Is it worth spending $100 to surge and
+power backup protect my $1000 PC and printer?  For me that answer is an
+emphatic yes.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD9A53C.50503@hardwarefreak.com
+
+

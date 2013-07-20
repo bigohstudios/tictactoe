@@ -1,0 +1,35 @@
+Re: Compositing two moviesOn 4/8/2010 11:57 AM, Matt Long wrote:
+> Performance degrades pretty significantly with multiple
+> QTMovieLayers.
+> While you can do it that way, you will likely need to use a
+> CAOpenGLLayer and composite two movies into it. CoreImage filters work
+> with it as well.
+>
+> I wrote a blog post on compositing video into a CAOpenGLLayer a while back:
+> http://www.cimgf.com/2008/09/10/core-animation-tutorial-rendering-quicktime-movies-in-a-caopengllayer/
+
+
+As a matter of fact, I saw your blog post, and I posted a comment there 
+saying that I couldn't get your demo to work...
+
+
+> On Apr 8, 2010, at 12:43 PM, James Walker<jamesw@frameforge3d.com>  wrote:
+>
+>> I need to play two movies in sync, compositing them in a custom
+>> way.
+>> One approach I came up with is to put the movies in QTMovieLayers (Core
+>> Animation), and then I can use a Core Image filter for the compositing.
+>> Does that sound reasonable, or is there another approach that is likely
+>> to perform significantly better?
+
+-- 
+   James W. Walker, Innoventive Software LLC
+   <http://www.frameforge3d.com/>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

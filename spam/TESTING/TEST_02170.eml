@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a8297ff6dbcc4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs34222wfo;
+        Mon, 17 May 2010 14:26:52 -0700 (PDT)
+Received: by 10.223.29.135 with SMTP id q7mr7042986fac.30.1274131611417;
+        Mon, 17 May 2010 14:26:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si13972084far.9.2010.05.17.14.26.50;
+        Mon, 17 May 2010 14:26:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 75A5213A4C5A; Mon, 17 May 2010 21:26:45 +0000 (UTC)
+Old-Return-Path: <robert@timetraveller.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.9 required=4.0 tests=FOURLA,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 58B7713A4A1C
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 21:11:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id d3Ou-4+KrEoM for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 21:11:04 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from capella.opentrend.net (capella.opentrend.net [64.22.125.103])
+	by liszt.debian.org (Postfix) with ESMTP id ACD1A13A47A9
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 21:11:04 +0000 (UTC)
+Received: by capella.opentrend.net (Postfix, from userid 1004)
+	id 6F45ADD67; Mon, 17 May 2010 17:11:00 -0400 (EDT)
+Received: from castor.opentrend.net (castor.opentrend.net [192.168.120.16])
+	by capella.opentrend.net (Postfix) with ESMTP id 61EB5DD63
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 17:11:00 -0400 (EDT)
+Received: by castor.opentrend.net (Postfix, from userid 1000)
+	id C9FE540082DB2; Mon, 17 May 2010 21:14:35 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by castor.opentrend.net (Postfix) with ESMTP id C98B5400835BC
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 17:14:35 -0400 (EDT)
+Date: Mon, 17 May 2010 17:14:35 -0400 (EDT)
+From: Robert Brockway <robert@timetraveller.org>
+X-X-Sender: robert@castor.opentrend.net
+To: debian-user <debian-user@lists.debian.org>
+Subject: Re: cross-connecting console ports?
+In-Reply-To: <4BF1AE3A.2000201@meetinghouse.net>
+Message-ID: <alpine.DEB.1.10.1005171708120.7760@castor.opentrend.net>
+References: <4BF1AE3A.2000201@meetinghouse.net>
+User-Agent: Alpine 1.10 (DEB 962 2008-03-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nHDljjqW17H.A.s0F.VSb8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577072
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 21:26:45 +0000 (UTC)
+
+On Mon, 17 May 2010, Miles Fidelman wrote:
+
+> Has anybody done this?  Any suggestions on where to start - both re. cabling 
+> (USB vs. serial cross-over), and/or software?
+
+Hi Miles.  Many of us have done this for years and years.  You can go with 
+a serial console over rj45 (including bios level tools) like iLO or DRAC 
+or you can get Linux to provide you with a 'software serial console' that 
+will be available from the bootloader (lilo or grub) onwards.
+
+A quick Google should turn up howtos on how to configure Grub & friends.
+
+I've always used true serial ports to do this although I understand it is 
+possible via usb-serial connectors.
+
+You can use any serial terminal app to provide access to the serial port. 
+I prefer minicom but there are lots of options.
+
+Keep security in mind when doing this.  If soneone gets root access[1] to 
+one of the servers then they can 0wn the other one.  Don't cross-connect 
+the serial consoles unless the servers are in the same 'security domain'.
+
+[1] You can restrict who can talk to minicom for example.
+
+Cheers,
+
+Rob
+
+-- 
+Email: robert@timetraveller.org		Linux counter ID #16440
+IRC: Solver (OFTC & Freenode)
+Web: http://www.practicalsysadmin.com
+Open Source: The revolution that silently changed the world
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.1.10.1005171708120.7760@castor.opentrend.net
+
+

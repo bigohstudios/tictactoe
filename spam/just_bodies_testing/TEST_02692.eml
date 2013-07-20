@@ -1,0 +1,48 @@
+Re: udev & /dev/sdaX & lenny2squeezeFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri,09.Apr.10, 11:58:32, Ionel Mugurel Ciob=C3=AEc=C4=83 wrote:
+> Hi,
+
+Hi Ionel ;)
+
+> I just migrate my desktop from lenny to squeeze and after installing
+> all new packages and reboot the system hang at the boot process
+> asking for the root password because it can't find /dev/sdaX, where
+> X=3D2,6,7,8,9. All are valid partitions. root is /dev/sda5 and it is
+> the only partition mounted. fdisk /dev/sda says that /dev/sda not
+> found. Indeed ls /dev/sd* shows only /dev/sdY, with Y=3Dc,d,e,f,f1, no
+> /dev/sdZ, where Z=3Da*,b*.
+
+Like others have said, this is a device naming issue. In order to boot=20
+you must fix your fstab, preferably to use something else than device=20
+names. Labels are easier to set up by hand IMO.
+
+After that you have to make sure the 'root=3D' parameter in grub is=20
+correct. The easiest way is to 'e' (edit) the respective line at the=20
+grub boot menu and experiment until you find the correct device name.
+
+>                           I try MAKEDEV sda but it says that because
+> .udev is present it must abort.
+
+I think that is deprecated since a long time (probably since udev is=20
+around).
+
+> I can't use the system in this state. Any ideas?
+>=20
+> If nothing I will try to boot with knoppix or the net-install
+> testing CD and chroot into the system to attempt a kernel
+> compilation. But I am not sure if the kernel is problematic at the
+> moment.
+=20
+A new kernel could help only if it assigns the same device names as you=20
+have in menu.lst/fstab, but I think it's the bad approach.
+
+Regards,
+Andrei
+P.S. You can usually also reach me on #debian-ro (OFTC)
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

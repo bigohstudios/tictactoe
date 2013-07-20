@@ -1,0 +1,36 @@
+Re: Bug report: msg n+1 marked readFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson <aeriksson@fastmail.fm>
+> Date:  Wed, 25 Sep 2002 23:22:26 +0200
+>
+> 
+> It seems that something changed during the last 3-4 weeks.
+> 
+> 1) In a folder, msgs 1-n is read, n=current, n upwards is unread.
+> 2) change to another folder
+> 3) change back to the original folder and you'll see msg n+1 being 
+> highlighted as current for a split second, that it changes back to 
+> n=current.
+> 
+> Kind of annoying since it marks msg n+1 as read.
+
+I haven't seen what you describe, but I just saw something close to what you 
+describe.  I think the message that's being incorrectly highlighted as current
+is related to the current message in the other folder rather than being n+1.
+
+I'll have to investigate a bit more to identify and fix the bug, but there is 
+something going on here.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

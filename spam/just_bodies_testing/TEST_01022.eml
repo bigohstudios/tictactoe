@@ -1,0 +1,20 @@
+Re: Boot / LVM best practices> I'm thinking to replace this IDE drive with two SATA HDs. One as small as
+> I can get. Say 100GB or so and make that the boot drive. And a second HD say
+> 500GB or so and moving the LVM over to that.
+
+That begs the question: why exactly do you want 2 drives, and why do you
+want one of the two to be small.
+Maybe your case makes sense, but in general buying a small drive is
+a waste of money (you can get larger ones for about the same price and
+they not only give you free extra space, they're also faster).
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwv1veks9vl.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

@@ -1,0 +1,53 @@
+Re: Non Working KeyboardDne, 21. 05. 2010 02:56:32 je David Hoff Jr napisal(a):
+> I have an older computer which use to have Windows XP on it.  It =20
+> currently has Vinux 3.0 on it.  I downloaded the Debian I386 =20
+> installation version of 5.0.4 ISO and burned it to CD.  When I try to =20
+> install it, I get an opening screen with an installation menu which =20
+> then freezes.   I have no apparent keyboard input, and of course no =20
+> mouse.
+>=20
+> I tried the same CD on a newer computer and it first brings up an =20
+> option to choose my language and then brings up the installation menu =20
+> which is accessible from my keyboard.  It then brings up a license =20
+> screen.  At that point I abort the install.
+>=20
+> What do I need to do to install this to the older computer which has =20
+> an AMD 1500+ mz processor.
+>=20
+> David Hoff Jr
+>=20
+>=20
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact =20
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/20100520175613.0375.3BF3CFEE@att.net
+>=20
+>=20
+>=20
+>=20
+
+ From the symptoms you describe, and ruling out bad RAM (you HAVE of =20
+course checked for bad RAM, haven't you?), my first guess would be "an =20
+aging optical drive, combined with a flakily burnt CD". Such =20
+combinations can prove hard to overcome. Suggestions: temporarily =20
+installing a newer optical drive into the box; or burning another CD, =20
+preferably on a different drive/machine, and on different brand of =20
+media, and at the slowest burning rate available; or perhaps, for the =20
+adventurous at heart, even asking uncle Google about "installing Debian =20
+directly from an ISO file on the hard drive, without burning a CD".
+
+--=20
+Regards, and luck,
+
+Klistvud
+Certifiable Loonix User #481801
+http://bufferoverflow.tiddlyspot.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274525713.3111.0@compax
+
+

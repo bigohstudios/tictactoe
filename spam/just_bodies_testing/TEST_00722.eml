@@ -1,0 +1,35 @@
+Re: lighttpd doesn't listen port 80 in a lenny chroot environmentOn Sun, 18 Apr 2010, Onur Aslan <onuraslan@csmining.org> writes:
+> I installed Debian lenny with debootstrap to a dir to use with chroot.
+>
+> I am using Debian squeeze.
+>
+> I mounted /dev /sys and proc in my chroot environment. After installed
+> lighttpd, it doesn't listening port 80. It's only listen tcp6 80. I am
+> using default lighttpd configuration.
+>
+> My mount commands for chroot:
+>
+>   mount -o bind /dev /mychrootdir/dev/ 
+>   mount -o bind /sys /mychrootdir/sys/ 
+>   mount -t proc none /mychrootdir/proc/
+>
+> I am starting fam and portmap before lighttpd. apache2 working fine but
+> lighttpd doesn't listen tcp 80 and I don't get any error.
+>
+> Do you have any idea?
+
+Did you try with below configurations:
+
+  server.use-ipv6 = "disable"
+  server.port = 80
+
+
+Regards.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/877ho48uev.fsf@alamut.alborz.net
+
+

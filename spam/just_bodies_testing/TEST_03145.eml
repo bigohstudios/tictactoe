@@ -1,0 +1,22 @@
+[SAtalk] spamc and DCCFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi -=20
+
+I upgraded to 2.40 (now 2.41) last week and the messages which are =
+definitely in the DCC database aren't being marked as such by =
+spamassassin when connected to via spamc. Interestingly it is detected =
+when running spamassassin -t < sample-spam.txt (using the same userid =
+incidentally). Is this a known "feature" of spamc under 2.4x or is there =
+anything obvious that I am not implementing correctly? Note that as I =
+implied above this used to work under 2.3x of spamassassin and =
+spamd/spamc
+
+Regards
+
+Ray Gardener
+Sheffield Hallam University
+UK
+

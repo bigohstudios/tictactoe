@@ -1,0 +1,39 @@
+Re: plasma desktop changes positions of widgets after I moved themOn Mon, 26 Apr 2010 21:44:33 +0200
+Martin Steigerwald <Martin@lichtvoll.de> wrote:
+
+MS> 
+MS> Hi!
+MS> 
+MS> Did someone else notice this?
+MS> 
+MS> https://bugs.kde.org/232171
+MS> 
+MS> I wonder if this could be partly debian / ubuntu specific as Bojan 
+MS> commented that he couldn't find it on other distros. But then to
+MS> what I  know Debian and Ubuntu package KDE seperately. 
+MS> 
+MS> Ciao,
+
+I think I've seen something similar with Pardus, but not recently (i.e.
+not since they went from 4.2.4 to 4.3.4). As I recall what was happening
+was that if I put a widget on the bottom or right of the screen it
+jumped towards the middle, almost as if it couldn't cope with
+coordinates beyond a 1024x768 (or thereabouts) screen. I also saw the
+same behaviour on Ubuntu with similar vintage. In both cases it didn't
+always happen. Not quite sure if this is the same behaviour that you are
+describing.
+
+-- 
++------------------------+-------------------------------+---------+
+| James Tappin           | School of Physics & Astronomy |  O__    |
+| sjt@star.sr.bham.ac.uk | University of Birmingham      | --  \/` |
+| Ph: 0121-414-6462. Fax: 0121-414-3722                  |         |
++--------------------------------------------------------+---------+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426205410.61fb25d4.sjt@star.sr.bham.ac.uk
+
+

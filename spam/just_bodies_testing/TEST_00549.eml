@@ -1,0 +1,24 @@
+RE: Java is for kiddiesOn Mon, 2 Sep 2002, Reza B'Far (eBuilt) wrote:
+
+> With the increasing prevalence of web services (not that they are always a
+> good thing), I doubt that parsing XML will be something that will remain at
+> the Java application layer for long... Recent threads here on Fork
+> indicating the move towards hardware parsing or this code even become part
+> of the native implementation of Java on various platforms...
+
+OK, so, you get the XML toss it through hardware and turn it back into a
+struct/object whatever you call your binary data. I agree this is the way
+things will go, as XML parsing has just too much overhead to survive in the
+application layer. So why turn it into XML in the first place? Becasue it
+gives geeks something to do and sells XML hardware accelerators and way more
+CPUs?
+
+Is there anyone out there actually doing anything new that actually IMPROVES
+things anymore, or are they all too scared of the fact that improvements put
+people out of work and cut #1 is the creators...
+
+- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

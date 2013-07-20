@@ -1,0 +1,137 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281ae88da8e39ba
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs64527wfj;
+        Tue, 20 Apr 2010 04:09:29 -0700 (PDT)
+Received: by 10.223.63.138 with SMTP id b10mr908797fai.95.1271761767770;
+        Tue, 20 Apr 2010 04:09:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si1972276fka.13.2010.04.20.04.09.27;
+        Tue, 20 Apr 2010 04:09:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 89C7113A4696; Tue, 20 Apr 2010 11:09:21 +0000 (UTC)
+Old-Return-Path: <brad@fineby.me.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.4 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MDO_CABLE_TV3,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 92F2513A464D
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 11:09:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.356 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, DATE_IN_PAST_03_06=0.044, FOURLA=0.1,
+	LDO_WHITELIST=-5, MDO_CABLE_TV3=0.5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id OH+WftkANcd4 for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 11:09:08 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from argent.srv2.com (argent.srv2.com [62.149.36.114])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 62BAD13A466F
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 11:09:08 +0000 (UTC)
+Received: from [84.45.211.248] (helo=abydos.stargate.org.uk)
+	by argent.srv2.com with esmtpa (Exim 4.69)
+	(envelope-from <brad@fineby.me.uk>)
+	id 1O4BK9-00035f-Aw
+	for debian-user@lists.debian.org; Tue, 20 Apr 2010 12:09:01 +0100
+Date: Tue, 20 Apr 2010 09:07:40 +0100
+From: Brad Rogers <brad@fineby.me.uk>
+To: debian-user@lists.debian.org
+Subject: Re: USB device attached via RS232 adaptor
+Message-ID: <20100420090740.589ef48a@abydos.stargate.org.uk>
+In-Reply-To: <4BCCD2F1.10202@allums.com>
+References: <q2w880dece01004180920m4f3f9906u46872de28d1d722f@mail.csmining.org>
+	<4BCB5120.1000205@cox.net>
+	<o2k880dece01004181208n18944251w8c7596003cb3d788@mail.csmining.org>
+	<4BCB5B91.3070507@kalinowski.com.br>
+	<20100418204043.4c00f34e@abydos.stargate.org.uk>
+	<4BCB6879.8010301@cox.net>
+	<20100418212711.54ff5788@abydos.stargate.org.uk>
+	<4BCCD2F1.10202@allums.com>
+Organization: Catch 22
+X-Mailer: Claws Mail 3.7.5 (GTK+ 2.20.0; x86_64-unknown-linux-gnu)
+X-Offender: Blondie
+X-Face: "HPqG~#g:rpB^{}wN[-'q4PUSYnh*~w\D8_av0#QP<L2")x{Wy$Ki[W$<%-8`e`cCD*<Iw. *5p)2,Ifr;Bb~3ppgx$o.G,%iH;\OA%=y1kb{+/>xm^U4y\VgCD$*T5`0t)BJEn#&i2>pCfxohs(Y` |rbxHZA4OaB:!Q)m`~o,3"h!BZjl}k,E?Nsi-}.,ineK$e7e~sAuSsq8'|D0y<AoOp-9M-t$>p4#
+Face: iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAHlBMVEW5ojcDAQL/9AAMBwbz70aBQhz8+tX99Avf3znCzS2LXIwlAAACYklEQVQ4jV2UTYucQBCGa0dUvKWRuS9NlqZvmsZd8gdybld6h70JYZocB2Hi9nUJCbmJYZD+t6lqnQ+3Tk49VtVbHw7wW+uuj7ACm1swpAMcDuBgggzEAVI/HTKHAH/CCRmkAPEA9BMdHITZxeYkdvSkYxMbbXRmThShtTje73p90AAmBtA7iGME5jXjx6MBfNXAESM2cAoRswkfpMrNVRVZfzAm61adEBBGKcZUumqJwD8W7PUjeChnsO0+gJotVtxODLg8+1lOHjGKdAYPF8BIq+vkAqIr+IKOUYxOYCiIO5aT2qWI7KQf/EgRd6wqIpUr1LZF4L13kiJcvTVJ1LzsMWWOb3LvJxdAWYBt97ZNSpY/Y8jgspBKlo92NsPyDQVgdVL1UBYLaEtsRI7j0vk9OwP7HVP1/AzkFUT5josZdAG0MIMaVUlqBdvEBtlL1FQJ+pMaa2Bd52egEgNNYaMyV59QlOikxLFw+KWsUVVllSrVE+eZ9zI0AlFk9xoTVaasnrjIPA4rJfDNWPuDSoMqvnKZeS6dHwjEySL2cV/RDKeJ945Am1waLILUefXw8wqiJ1rt+Rg+X0FDqx2oPXkBTfxo2wanISdqz9EGTwT2OPy2ouPlEzUTriSkQm0t3ZWYvPNp2Pn9y1JiH+bqwPtxBjj2RhmwcVDjcSh9F1KF0bbGmhDgpy5IxuIK14HS2nDt/nLUgymL37aFxDyvPwMdl/ksWK8/Aw112DreSLW7BQANoxC6bbVZgZhc81lX3QrgZmu1VapSlX6b+i7t//bv9MfRVKpGSEC9Ivjz9ta//wdcwQNYY87gKwAAAABJRU5ErkJggg==
+Mime-Version: 1.0
+Content-Type: multipart/signed; micalg=PGP-SHA256;
+ boundary="Sig_/HX.dXOIJKKn4eFqaTTgASmZ"; protocol="application/pgp-signature"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - argent.srv2.com
+X-AntiAbuse: Original Domain - lists.debian.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - fineby.me.uk
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <3ja2O-qBdBH.A.PUB.htYzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574528
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 11:09:21 +0000 (UTC)
+
+--Sig_/HX.dXOIJKKn4eFqaTTgASmZ
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, 19 Apr 2010 17:02:25 -0500
+Mark Allums <mark@allums.com> wrote:
+
+Hello Mark,
+
+> That ought actually to work, if a computer were plugged into the USB=20
+> side.  Then you would have a very slow transfer cable.
+
+Yes, but AIUI, the computer's on the RS232 side.
+
+--=20
+ Regards  _
+         / )           "The blindingly obvious is
+        / _)rad        never immediately apparent"
+
+Just stop and take a second
+U & Ur Hand - P!nk
+
+--Sig_/HX.dXOIJKKn4eFqaTTgASmZ
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Disposition: attachment; filename=signature.asc
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJLzWDMAAoJEEvDbGwXTTHB8IYH/0H6o8m4UKMlQudmPwW0w3VD
+CY7WQF0uzjaRPKaI4K3oXsZ+ls08+yMqqHOUlJx/E1C/jFZsyJFyCbUop1uIVzLW
+VcKw7wTWPHG8aT+/7Nc0FYt/fIqion5eM+Rgo+PX64kKZ0SG1x/fZXqP/g1soVC6
+Gqonnmx1HUl+AIpGDi18R1r+ti0CccoO88ETt1AFLT6gOOcXuv6ZfkKOsdaAalLc
+IWLLl8im7aFH+WERPJo36CprlDYt7VmRi8PThqZCyJLkvMG2RL7MxBzTgFUJ0v/s
+qkrVoSNP410sSfV4RiH2XzoTZ64X0vke2zM5vO5Zp85TAPhehPELNT3WFoID/nA=
+=r7QH
+-----END PGP SIGNATURE-----
+
+--Sig_/HX.dXOIJKKn4eFqaTTgASmZ--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100420090740.589ef48a@abydos.stargate.org.uk
+
+

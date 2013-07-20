@@ -1,0 +1,765 @@
+From - Thu May 13 10:16:20 2010
+X-Account-Key: account2
+X-UIDL: UID13556-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bounce-use=M=4041734834=dr=EFFBD344F51ACA1926333FB3CB3AC4D1@returnpath.bluehornet.com>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 328062C7CE
+	for <m0620212@mail.csmining.org>; Thu, 13 May 2010 00:44:43 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 2CFB016A94
+	for <m0620212@mail.csmining.org>; Thu, 13 May 2010 00:44:43 +0900 (JST)
+X-ASG-Debug-ID: 1273679081-78f755a00001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id r3dCmBKXEgExOlMN for <m0620212@mail.csmining.org>; Thu, 13 May 2010 00:44:41 +0900 (JST)
+X-Barracuda-Envelope-From: bounce-use=M=4041734834=dr=EFFBD344F51ACA1926333FB3CB3AC4D1@returnpath.bluehornet.com
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o4CFif8E020036
+        for <m0620212@mail.csmining.org>; Thu, 13 May 2010 00:44:41 +0900 (JST)
+Received: from mx2.csmining.org (ns4.csmining.org [192.168.3.4])
+        by gw2.csmining.org  with ESMTP id o4CFifbt020032
+        for <hibody@csmining.org>; Thu, 13 May 2010 00:44:41 +0900 (JST)
+Received: from smtp.khartoum.bluehornet.com (smtp.khartoum.bluehornet.com [216.54.194.36])
+	by mx2.csmining.org (csminingorg MX Server2) with ESMTP id 664F063
+	for <hibody@csmining.org>; Thu, 13 May 2010 00:44:39 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha1; d=bluehornet.com; s=bluehornet-1.bh; c=simple/simple;
+	q=dns/txt; i=@bluehornet.com; t=1273679077;
+	h=From:Subject:Date:To:Mime-Version:Content-Type;
+	bh=MGEdkVrLZRT+w9i+XbT90GrWesQ=;
+	b=U0JAj8t3KMDXf2qF8wqalEinkPm+KKrF5ArtbDKE7dfL5YW7AjmhOqxzbz9fmHbt
+	fCQ6t3nNuc5bgHmA4zNPWGMP4Ba4iDBzZr2szvJfXjq8OrzsMnQQWrdRYyK2jP5r;
+X-Barracuda-Registry: Uncertified [returnpath.bluehornet.com/216.54.194.36]
+X-Barracuda-BWL-IP: 216.54.194.36
+X-Barracuda-BBL-IP: 216.54.194.36
+X-Barracuda-RBL-IP: 216.54.194.36
+Received: from [10.64.22.23] ([10.64.22.23:55287] helo=localhost.localdomain)
+	by dc1bhmta01 (envelope-from <bounce-use=M=4041734834=dr=EFFBD344F51ACA1926333FB3CB3AC4D1@returnpath.bluehornet.com>)
+	(ecelerity 3.0.22.35831 r(35835)) with ESMTP
+	id D1/9A-26466-5ECCAEB4; Wed, 12 May 2010 08:44:37 -0700
+Message-ID: <D1.9A.26466.5ECCAEB4@dc1bhmta01>
+Date: Wed, 12 May 2010 06:30:04 -0700
+From: "SWREG" <noreply@swreg.org>
+Reply-To: noreply@swreg.org
+To: hibody hibody <hibody@csmining.org>
+X-Outgoing: khartoum
+X-ASG-Orig-Subj: Convert, create, edit and transfer your media - 4Media Multimedia Pack now 30% off
+Subject: Convert, create, edit and transfer your media - 4Media Multimedia Pack now 30% off
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+    boundary="--4beaad5c7769d-MultiPart-Mime-Boundary"
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1273679081
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-BarracudaScore: 0.54
+X-BarracudaStatus: No, SCORE=0.54 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC5_SA161f, CN_BODY_332, HTML_MESSAGE, SH_BIG5_05413_BODY_104
+X-BarracudaReport: Code version 3.2, rules version 3.2.2.29707
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.12 CN_BODY_332            BODY: CN_BODY_332
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC5_SA161f         Custom Rule SA161f
+
+
+
+----4beaad5c7769d-MultiPart-Mime-Boundary
+Content-Type: text/plain; charset="utf-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by gw2.csmining.org id o4CFif8E020036
+
+
+
+To ensure you receive future customer-only offers, please add
+noreply@swreg.org to your address book. If you no longer wish to
+receive email offers from SWREG, please click the following link
+to unsubscribe: http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=3D=
+jtveeq&action=3Dupdate&eemail=3Dhibody@csmining.org&_mh=3D6190ee55c57868014=
+fc7b36da8684900
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+**A special offer from SWREG and 4Media Software Studio**
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+4Media Multimedia Pack
+Convert, create, edit and transfer your media!
+Now 30% off=20
+
+The 4Media Multimedia Pack pulls out all the stops to meet your
+multimedia needs. This all-in-one solution is exactly what you
+need to transfer, convert, edit and manage your music and videos.
+
+The 4Media Multimedia Pack includes:=20
+
+-4Media iPod Max=20
+-4Media Movie Editor=20
+-4Media DVD Creator for Mac=20
+-4Media iPad Max (Windows Media Pack only)
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Buy the 4Media Multimedia Pack for Windows Now for only $127.40:
+http://dr.bluehornet.com/ct/3800673:4041734834:m:3:133771572:7D9DFEB227E6=
+6ED059AF6BC8CD72FA9E
+
+Buy the 4Media Multimedia Pack for Mac Now for only $102.90:
+http://dr.bluehornet.com/ct/3800674:4041734834:m:3:133771572:7D9DFEB227E6=
+6ED059AF6BC8CD72FA9E
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Manage your multimedia files, create and burn DVDs, transfer
+files and more! And now, through this limited time offer purchase
+the Windows 4Media Multimedia Pack for only $127.40 or the Mac
+4Media Multimedia Pack for only $102.90.
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+iPod Max - iPod Max offers a simple and efficient way to manage
+and backup your iPod contents to PC or iTunes and transfer files
+from your PC to iPod. With this comprehensive iPod transfer
+software, you can also copy iPod incompatible DVDs and
+video/audio files directly to your iPod.
+
+-Create, rename or delete iPod/iPhone playlists=20
+-Built-in resizable media player allows you to play DVD movies,
+video/audio and iPod/iPhone files at your convenience=20
+-Add files to multiple devices=20
+-Intuitive and user-friendly interface makes tasks such as file
+viewing, searching, and transferring quick and straightforward
+
+Movie Editor - Make movies in a snap! Create, edit, add music or
+subtitles to video clips; attach transitions and watermarks to
+your movies just like a pro. Turn virtually all videos including
+camcorder videos and HD videos into movies.
+
+-Supports a wide range of devices including iPod, iPhone, Apple
+TV, PSP, PS3, PMP, Mobile phone, Xbox, Zune, Wii, and DS=20
+-Apply several artistic effects to a single clip=20
+-Add picture and text watermarks; music or audio tracks; and
+attach subtitles=20
+-Supports multilingual interfaces: English, German, French,
+Simplified Chinese, Traditional Chinese and Japanese
+
+DVD Creator - DVD Creator grants you the ability to create DVD
+movies from various video files such as MP4, MKV, AVI, MPEG, WMV,
+MP4, MTS, M2TS and more. DVD Creator is highly compatible with
+most disc formats and even allows you to burn DVDs that include
+your own personalized DVD menu.
+
+-Burn video files to DVD with a click of your mouse=20
+-Preview video files and take a snapshot of video frames anytime
+during preview in the built-in player=20
+-Customize the DVD menu by adding menu topic, background
+music/picture and opening film=20
+-Adjustable video/audio parameters allow you to customize target
+DVD: bit rate, television standard, aspect ratio, frame rate,
+sample rate, etc.=20
+
+iPad Max (Windows 4Media Multimedia Pack Only) - iPad Max acts
+is an amazing way to manage what's on your iPad. Transfer and
+convert your music and video files. This all-in-one iPad
+management tool can copy and transfer music, movies and images
+from iPad to PC and transfer music/movies from PC to iPad without
+iTunes. Besides transferring files, the iPad manager can rip
+CD/DVD to iPad and convert videos, audios, ISO images and IFO
+folder to iPad music and movies.
+
+-Quickly search the key words you enter and find your files
+according to album, artist and genre=20
+-Automatically recognizes your iPad once connecting iPad to your
+computer and show its info including capacity, model, format, and
+serial number=20
+-Includes a stand-alone player which lets you preview DVD
+movies, videos and audios with adjustable aspect ratio: 4:3 or
+16:9=20
+-Support all iPad models =20
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Buy the 4Media Multimedia Pack for Windows Now for only $127.40:
+http://dr.bluehornet.com/ct/3800675:4041734834:m:3:133771572:7D9DFEB227E6=
+6ED059AF6BC8CD72FA9E
+
+Buy the 4Media Multimedia Pack for Mac Now for only $102.90:
+http://dr.bluehornet.com/ct/3800676:4041734834:m:3:133771572:7D9DFEB227E6=
+6ED059AF6BC8CD72FA9E
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+The 4Media Multimedia Pack is the ultimate solution to managing
+your media and meeting your needs.=20
+
+For a limited time, you can purchase the Windows 4Media
+Multimedia Pack for only $127.40 or the Mac 4Media Multimedia
+Pack for only $102.90 - both are at a savings of 30% off the
+regular price.
+
+-------------------------------------------------------------------------=
+-------------------
+
+Windows:=20
+Platform: Win XP, Vista, 7=20
+Processor: 1GHz Intel/AMD processor or above=20
+RAM: 512MB=20
+Hard Drive: 100MB=20
+Graphics: Super VGA (800=C3=97600) resolution, 16-bit graphics card
+or higher=20
+Other:=20
+=C2=B7 DVD-R/W
+=C2=B7 iTunes 9.1 or above=20
+
+Mac:=20
+Platform: OS X v10.5 - 10.6=20
+Processor: Intel=C2=AE processor=20
+RAM: 512MB RAM=20
+Hard Drive: 150MB HD space=20
+Graphics: Super VGA (800=C3=97600) resolution, 16-bit graphics=20
+Other:=20
+=C2=B7 iTunes 8.2 or above
+=C2=B7 DVD-R/W=20
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+IMPORTANT: this offer is only valid for a limited period of
+time!
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Visit Simtel for a huge collection of free software trials:
+www.simtel.net
+ =20
+-------------------------------------------------------------------------=
+-------------------
+
+
+Visit Software Deal of the Day for great software
+discounts...every day!
+www.softwaredod.com     =20
+  =20
+-------------------------------------------------------------------------=
+-------------------
+
+
+This message was intended for: hibody@csmining.org
+You were added to the system June 15, 2007.  For more information
+please follow the URL below:
+http://dr.bluehornet.com/subscribe/source.htm?c=3DbhTNBsNX.05WI&email=3Db=
+antao@csmining.org&cid=3D5a11d45857a74672da2a45dbcc865a
+
+Follow the URL below to update your preferences or opt-out:
+http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=3Djtveeq&action=3D=
+update&eemail=3Dhibody@csmining.org&_mh=3D6190ee55c57868014fc7b36da8684900
+
+SWREG, Inc.
+9625 West 76th Street, #150
+Eden Prairie, MN 55344
+
+----Powered by Digital River----
+http://www.digitalriver.com
+
+
+
+
+
+----4beaad5c7769d-MultiPart-Mime-Boundary
+Content-Type: text/html; charset="utf-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by gw2.csmining.org id o4CFif8E020036
+
+
+
+<html><!--
+
+*******************************************************
+*Note: If you are having trouble viewing this message,*
+*copy and paste the link below into your browser      *
+*address field and hit the Enter button on your       *
+*keyboard.                                            *
+http://dr.bluehornet.com/hostedemail/email.htm?h=3D6190ee55c57868014fc7b3=
+6da8684900&CID=3D4041734834&ch=3D7D9DFEB227E66ED059AF6BC8CD72FA9E=20
+ If you would like to change your preferences         *
+ or unsubscribe, copy the URL below:                  *
+This message was intended for: hibody@csmining.org
+You were added to the system June 15, 2007.  For more information
+please follow the URL below:
+http://dr.bluehornet.com/subscribe/source.htm?c=3DbhTNBsNX.05WI&email=3Db=
+antao@csmining.org&cid=3D5a11d45857a74672da2a45dbcc865a
+
+Follow the URL below to update your preferences or opt-out:
+http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=3Djtveeq&action=3D=
+update&eemail=3Dhibody@csmining.org&_mh=3D6190ee55c57868014fc7b36da8684900
+
+SWREG, Inc.
+9625 West 76th Street, #150
+Eden Prairie, MN 55344=20
+*******************************************************
+ -->
+<body style=3D"padding: 0px; margin: 0px; background-color: #f2f2f2;">
+<div style=3D"padding: 0px; margin: 0px; background-color: #f2f2f2;">
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D600 align=3Dcen=
+ter>
+<tr><td height=3D5><!--spacer--></td></tr>
+<tr>
+<td style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-siz=
+e: 10px; padding-bottom: 8px;">To ensure you receive future customer-only
+offers, please add <A href=3D"mailto:noreply@swreg.org">noreply@swreg.org=
+</A> to your address book. If you no longer wish to receive email offers =
+from
+SWREG, please <A href=3D"http://dr.bluehornet.com/phase2/survey1/survey.h=
+tm?CID=3Djtveeq&action=3Dupdate&eemail=3Dhibody@csmining.org&_mh=3D6190ee55=
+c57868014fc7b36da8684900">unsubscribe here</A>.</td>
+</tr>
+</table>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D600 align=3Dcen=
+ter>
+<tr>
+<td style=3D"border-top: 1px solid #0067b1; border-left: 1px solid #0067b=
+1; border-right: 1px solid #0067b1; padding: 15px 15px 3px 15px;
+background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-s=
+erif; font-size: 12px; text-align: left;">
+
+	<img src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_maili=
+ngs/common/dr_interim_swreg_affiliate_banner.gif" width=3D"568" height=3D=
+"75"
+alt=3D"Affiliate Banner">
+   =20
+<br>&nbsp;<br>
+<div style=3D"color: #FF9900; font-family: Arial, Helvetica, sans-serif; =
+font-weight: bold; font-size: 20px; border-top: 1px dashed #CCCCCC;
+border-bottom: 1px dashed #CCCCCC; ">A special offer from SWREG and 4Medi=
+a Software Studio</div>
+<br>&nbsp;
+
+<br><br>
+
+	<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D568 align=3Dce=
+nter>
+    <tr valign=3Dtop>
+    <td width=3D10><!--spacer--></td>
+    <td width=3D200 style=3D"font-family: Verdana, Arial, Helvetica, sans=
+-serif; font-size: 11px;" align=3Dcenter><a
+href=3D"http://dr.bluehornet.com/ct/3800664:4041734834:m:1:133771572:7D9D=
+FEB227E66ED059AF6BC8CD72FA9E"><img
+src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/20=
+10/20100506/boxshot.jpg" width=3D"200" height=3D"346" border=3D"0" alt=3D=
+"Product
+Boxshot"></a><br>
+   =20
+    &nbsp;
+    <br>
+    <a href=3D"http://dr.bluehornet.com/ct/3800665:4041734834:m:1:1337715=
+72:7D9DFEB227E66ED059AF6BC8CD72FA9E"><img
+src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/20=
+10/20100506/button_buy_win.gif" alt=3D"Buy Now!" width=3D"200" height=3D"=
+57"
+border=3D"0"></a><br>
+    &nbsp;
+   =20
+    <br><a href=3D"http://dr.bluehornet.com/ct/3800666:4041734834:m:1:133=
+771572:7D9DFEB227E66ED059AF6BC8CD72FA9E"><img
+src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/20=
+10/20100506/button_buy_mac_2.gif" alt=3D"Buy Now!" width=3D"200" height=3D=
+"57"
+border=3D"0"></a>
+   =20
+    <br>
+    <br>
+   =20
+        <table align=3D"center" bgcolor=3D"#999999" border=3D"0" cellpadd=
+ing=3D"3" cellspacing=3D"1" width=3D"200">
+        <tr>
+        <td style=3D"font-family: verdana, san-serif; font-size: 10px; co=
+lor: black" bgcolor=3D"#e8d087"><strong>Specifications - Windows</strong>=
+</td>
+        </tr>
+        <tr bgcolor=3D"#ffffff">
+        <td>
+        	<table bgcolor=3D"#cccccc" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"1" width=3D100%>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size: 10px; color: black"
+nowrap><strong>Price:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;"><strike>$182.00</strike> <span
+style=3D"color: red; font-weight: bold;">$127.40</span></td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Platform:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; Win XP, Vista, 7</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Processor:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; 1GHz Intel/AMD process=
+or or
+above</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>RAM:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; 512MB</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size: 10px;" nowrap><strong=
+>Hard
+Drive:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; 100MB</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Graphics:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; Super VGA (800=C3=9760=
+0)
+resolution, 16-bit graphics card or higher</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Other:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; DVD-R/W<br>
+            &middot; iTunes 9.1 or above</td>
+            </tr>
+            </table>
+        </td>
+        </tr>
+        </table>
+   =20
+    <br>
+    <br>
+   =20
+        <table align=3D"center" bgcolor=3D"#999999" border=3D"0" cellpadd=
+ing=3D"3" cellspacing=3D"1" width=3D"200">
+        <tr>
+        <td style=3D"font-family: verdana, san-serif; font-size: 10px; co=
+lor: black" bgcolor=3D"#e8d087"><strong>Specifications - Mac</strong></td=
+>
+        </tr>
+        <tr bgcolor=3D"#ffffff">
+        <td>
+        	<table bgcolor=3D"#cccccc" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"1" width=3D100%>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size: 10px; color: black"
+nowrap><strong>Price:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;"><strike>$137.00</strike> <span
+style=3D"color: red; font-weight: bold;">$102.90</span></td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Platform:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; OS X v10.5 - 10.6</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Processor:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; Intel=C2=AE processor<=
+/td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>RAM:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; 512MB RAM</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size: 10px;" nowrap><strong=
+>Hard
+Drive:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; 150MB HD space</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Graphics:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; Super VGA (800=C3=9760=
+0)
+resolution, 16-bit graphics</td>
+            </tr>
+            <tr valign=3D"top" style=3D"font-family: verdana, san-serif; =
+font-size: 10px; color: black">
+            <td align=3D"right" bgcolor=3D"#f1f1f1" style=3D"padding-righ=
+t: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Other:</strong></td>
+            <td bgcolor=3D"#ffffff" style=3D"padding-left: 5px; font-fami=
+ly: verdana, san-serif; font-size: 10px;">&middot; iTunes 8.2 or above<br=
+>
+          	&middot; DVD-R/W</td>
+            </tr>
+            </table>
+        </td>
+        </tr>
+        </table>
+       =20
+        <br><br><a href=3D"http://dr.bluehornet.com/ct/3800667:4041734834=
+:m:1:133771572:7D9DFEB227E66ED059AF6BC8CD72FA9E"><img
+src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/20=
+10/20100506/screenshot_win_01_sm.jpg" width=3D"200" height=3D"145" border=
+=3D"0"
+alt=3D"screenshot"></a><br>
+    click to view more<br>Windows screenshots
+       =20
+        <br><br><a href=3D"http://dr.bluehornet.com/ct/3800668:4041734834=
+:m:1:133771572:7D9DFEB227E66ED059AF6BC8CD72FA9E"><img
+src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/20=
+10/20100506/screenshot_mac_01_sm.jpg" width=3D"200" height=3D"148" border=
+=3D"0"
+alt=3D"screenshot"></a><br>
+    click to view more<br>Mac screenshots</td>
+    <td width=3D20><!--spacer--></td>
+    <td width=3D328 style=3D"font-family: Verdana, Arial, Helvetica, sans=
+-serif; font-size: 12px; text-align: left;">&nbsp;<br>
+    <span style=3D"font-size: 19px; font-weight: bold">4Media Multimedia =
+Pack</span><br>
+    <strong style=3D"color:#FD9B00; font-size: 12px;">Convert, create, ed=
+it and transfer your media!</strong><br>
+    <strong style=3D"color: red;">Now 30% off</strong>
+   =20
+	<br><br>The <strong>4Media Multimedia Pack</strong> pulls out all the st=
+ops to meet your multimedia needs.  This all-in-one solution is exactly w=
+hat
+you need to transfer, convert, edit and manage your music and videos.
+   =20
+    <br><br>The 4Media Multimedia Pack includes:
+   =20
+    <ul>
+    <li>4Media iPod Max
+    <li>4Media Movie Editor
+    <li>4Media DVD Creator for Mac
+    <li>4Media iPad Max (Windows Media Pack only)
+    </ul>
+   =20
+    <P>Manage your multimedia files, create and burn DVDs, transfer files=
+ and more! And now, through this limited time offer purchase the Windows
+4Media Multimedia Pack for only $127.40 or the Mac 4Media Multimedia Pack=
+ for only $102.90.
+   =20
+    <br><br><strong style=3D"font-size: 14px; color: #003366;">iPod Max</=
+strong>
+   =20
+    <br><br>iPod Max offers a simple and efficient way to manage and back=
+up your iPod contents to PC or iTunes and transfer files from your PC to
+iPod. With this comprehensive iPod transfer software, you can also copy i=
+Pod incompatible DVDs and video/audio files directly to your iPod.
+   =20
+    <ul>
+    <li>Create, rename or delete iPod/iPhone playlists
+    <li>Built-in resizable media player allows you to play DVD movies, vi=
+deo/audio and iPod/iPhone files at your convenience
+    <li>Add files to multiple devices
+    <li>Intuitive and user-friendly interface makes tasks such as file vi=
+ewing, searching, and transferring quick and straightforward
+    </ul>
+   =20
+    <P><strong style=3D"font-size: 14px; color: #003366;">Movie Editor</s=
+trong>
+   =20
+    <br><br>Make movies in a snap!  Create, edit, add music or subtitles =
+to video clips; attach transitions and watermarks to your movies just lik=
+e a
+pro. Turn virtually all videos including camcorder videos and HD videos i=
+nto movies.
+   =20
+    <ul>
+    <li>Supports a wide range of devices including iPod, iPhone, Apple TV=
+, PSP, PS3, PMP, Mobile phone, Xbox, Zune, Wii, and DS
+    <li>Apply several artistic effects to a single clip
+    <li>Add picture and text watermarks; music or audio tracks; and attac=
+h subtitles
+    <li>Supports multilingual interfaces: English, German, French, Simpli=
+fied Chinese, Traditional Chinese and Japanese
+    </ul>
+   =20
+    <p><strong style=3D"font-size: 14px; color: #003366;">DVD Creator</st=
+rong>
+   =20
+    <br><br>DVD Creator grants you the ability to create DVD movies from =
+various video files such as MP4, MKV, AVI, MPEG, WMV, MP4, MTS, M2TS and
+more.  DVD Creator is highly compatible with most disc formats and even a=
+llows you to burn DVDs that include your own personalized DVD menu.
+   =20
+    <ul>
+    <li>Burn video files to DVD with a click of your mouse
+    <li>Preview video files and take a snapshot of video frames anytime d=
+uring preview in the built-in player
+    <li>Customize the DVD menu by adding menu topic, background music/pic=
+ture and opening film
+    <li>Adjustable video/audio parameters allow you to customize target D=
+VD: bit rate, television standard, aspect ratio, frame rate, sample rate,
+etc.
+    </ul>
+   =20
+    <P><strong style=3D"font-size: 14px; color: #003366;">iPad Max</stron=
+g><br>
+    (Windows 4Media Multimedia Pack Only)
+   =20
+    <br><br>iPad Max acts is an amazing way to manage what's on your iPad=
+.  Transfer and convert your music and video files. This all-in-one iPad
+management tool can copy and transfer music, movies and images from iPad =
+to PC and transfer music/movies from PC to iPad without iTunes. Besides
+transferring files, the iPad manager can rip CD/DVD to iPad and convert v=
+ideos, audios, ISO images and IFO folder to iPad music and movies.
+   =20
+    <ul>
+    <li>Quickly search the key words you enter and find your files accord=
+ing to album, artist and genre
+    <li>Automatically recognizes your iPad once connecting iPad to your c=
+omputer and show its info including capacity, model, format, and serial
+number
+    <li>Includes a stand-alone player which lets you preview DVD movies, =
+videos and audios with adjustable aspect ratio: 4:3 or 16:9
+    <li>Support all iPad models
+    </ul>
+   =20
+    <P>The 4Media Multimedia Pack is the ultimate solution to managing yo=
+ur media and meeting your needs.
+   =20
+    <br><br>For a limited time, you can purchase the Windows 4Media Multi=
+media Pack for only $127.40 or the Mac 4Media Multimedia Pack for only
+$102.90 - both are at a savings of 30% off the regular price.
+
+    	<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D100%>
+        <tr><td height=3D15><!--spacer--></td></tr>
+        <tr><td height=3D1 bgcolor=3D"#999999"><!--spacer--></td></tr>
+        <tr><td height=3D15><!--spacer--></td></tr>
+        </table>
+   =20
+    <div style=3D"text-align: center;"><a href=3D"http://dr.bluehornet.co=
+m/ct/3800669:4041734834:m:1:133771572:7D9DFEB227E66ED059AF6BC8CD72FA9E"><=
+img
+src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/20=
+10/20100506/button_buy_win.gif" alt=3D"Buy Now - Windows Version" width=3D=
+"154"
+height=3D"44" border=3D0></a>&nbsp;<a href=3D"http://dr.bluehornet.com/ct=
+/3800670:4041734834:m:1:133771572:7D9DFEB227E66ED059AF6BC8CD72FA9E"><img
+src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/20=
+10/20100506/button_buy_mac_2.gif" alt=3D"Buy Now - Mac Version" width=3D"=
+154"
+height=3D"44" border=3D0></a></div>
+=09
+	<P align=3Dcenter style=3D"font-family: Arial, Helvetica, sans-serif; fo=
+nt-size: 13px;">
+    <strong style=3D"color: #FF0000">IMPORTANT:</strong> this offer is <s=
+trong>only valid for a limited period of time!</strong></p></td>
+    <td width=3D10><!--spacer--></td>
+    </tr>
+    </table>
+   =20
+    <table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D568 align=3D=
+center>
+    <tr><td colspan=3D3 height=3D20 style=3D"border-bottom: 1px dashed #C=
+CCCCC; padding-top: 10px; font-family: Verdana, Arial, Helvetica, sans-se=
+rif;
+color: #FFFFFF;">&nbsp;</td></tr>
+    </table>
+
+</td>
+</tr>
+<tr>
+<td><img src=3D"http://atl.img.digitalriver.com/globalDirect/affiliate_ma=
+ilings/common/bottom-banner_2.jpg" alt=3D"Software Sites" width=3D"600"
+height=3D"175" border=3D"0" usemap=3D"#Map"></td>
+</tr>
+</table>
+
+<map name=3D"Map">
+<area shape=3D"rect" coords=3D"65,50,260,165" href=3D"http://dr.bluehorne=
+t.com/ct/3800671:4041734834:m:1:133771572:7D9DFEB227E66ED059AF6BC8CD72FA9=
+E" alt=3D"Simtel">
+<area shape=3D"rect" coords=3D"330,50,535,165" href=3D"http://dr.bluehorn=
+et.com/ct/3800672:4041734834:m:1:133771572:7D9DFEB227E66ED059AF6BC8CD72FA=
+9E" alt=3D"Software Deal of the Day">
+</map>
+
+</div>
+</body>
+
+<P><FONT face=3D"Verdana, Arial, Helvetica, sans-serif" color=3D#999999 s=
+ize=3D1>This message was intended for: <A href=3D"mailto:hibody@csmining.j=
+p">hibody@csmining.org</A> <BR>You
+were added to the system June 15, 2007. For more information<BR><A href=3D=
+"http://dr.bluehornet.com/subscribe/source.htm?c=3DbhTNBsNX.05WI&email=3D=
+hibody@csmining.org&cid=3D5a11d45857a74672da2a45dbcc865a">click here</A>.<B=
+R><A href=3D"http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=3Djtv=
+eeq&action=3Dupdate&eemail=3Dhibody@csmining.org&_mh=3D6190ee55c57868014fc7=
+b36da8684900">Update your preferences</A> | <A
+href=3D"http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=3Djtveeq&a=
+ction=3Dupdate&eemail=3Dhibody@csmining.org&_mh=3D6190ee55c57868014fc7b36da=
+8684900">Unsubscribe</A></FONT></P>
+<P><FONT face=3DVerdana color=3D#999999 size=3D1>SWREG, Inc.<BR>9625 West=
+ 76th Street, #150<BR>Eden Prairie, MN 55344</FONT></P><br><br><a href=3D=
+"http://www.digitalriver.com"><img src=3D"http://dr.bluehornet.com/skins/=
+dr/powered_by.jpg" border=3D"0"></a></b></font></p><img src=3D"http://dr.=
+bluehornet.com/imagelibrary/N-4041734834-270DABAD255EB9963109EC2137ACCF21=
+.jpg" border=3D"0" width=3D"1" height=3D"1">
+
+</html>
+
+
+
+----4beaad5c7769d-MultiPart-Mime-Boundary--
+

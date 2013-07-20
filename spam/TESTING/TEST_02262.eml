@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284f2083fe9e448
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs97934wfj;
+        Fri, 30 Apr 2010 07:30:51 -0700 (PDT)
+Received: by 10.86.126.33 with SMTP id y33mr4225634fgc.51.1272637850213;
+        Fri, 30 Apr 2010 07:30:50 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si3054090fks.23.2010.04.30.07.30.49;
+        Fri, 30 Apr 2010 07:30:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E642813A479E; Fri, 30 Apr 2010 14:30:41 +0000 (UTC)
+Old-Return-Path: <dburrows@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_SEX_L2 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0307913A4637
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 14:30:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5, MURPHY_SEX_L2=0.1]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id WqXTEWsPM-TQ for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 14:30:28 +0000 (UTC)
+Received: from algebraicthunk.net (algebraicthunk.net [67.207.130.13])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 9BB0E13A4CA7
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 14:30:28 +0000 (UTC)
+Received: from c-76-104-234-217.hsd1.wa.comcast.net ([76.104.234.217] helo=emurlahn.burrows.local)
+	by algebraicthunk.net with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <dburrows@debian.org>)
+	id 1O7rEX-0003wN-KW
+	for debian-user@lists.debian.org; Fri, 30 Apr 2010 07:30:25 -0700
+Date: Fri, 30 Apr 2010 07:30:23 -0700
+From: Daniel Burrows <dburrows@debian.org>
+To: debian-user@lists.debian.org
+Subject: Re: Aptitude status output meaning
+Message-ID: <20100430143023.GD22310@emurlahn.burrows.local>
+References: <4B73B22A.3040904@posteurs.com> <87iqa4fbf9.fsf@turtle.gmx.de>
+	<1d0b453f1002110312n77dcfc72rf1e9f28f2aa7394f@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <1d0b453f1002110312n77dcfc72rf1e9f28f2aa7394f@mail.csmining.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Y8cVkKDbzEM.A.UtB.Rmu2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575554
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 14:30:41 +0000 (UTC)
+
+On Thu, Feb 11, 2010 at 11:12:17AM +0000, Rémi Moyen <rmoyen@csmining.org> was heard to say:
+> 2010/2/11 Sven Joachim <svenjoac@gmx.de>:
+> > On 2010-02-11 08:30 +0100, Guy Marcenac wrote:
+> >
+> >> What is the meaning of [-107] in the status output of aptitude ?
+> >> Current status: 0 updates [-107]
+> >
+> > It means that there are 107 less than before, i.e. you have just
+> > upgraded 107 packages.
+> 
+> I take the opportunity of this question (and apparently, someone who
+> knows a bit about aptitude), since I was also wondering about this...
+> 
+> Is there someplace a full manual of the output of aptitude ?
+
+  The command-line output of aptitude is somewhat underdocumented.
+Please feel free to submit bugs regarding bits of output that you think
+need documentation.  I know there are lots of bug reports, but trust me,
+I do read them, and it's better to have those notes than to have an
+email lingering on some mailing list.
+
+> I haven't found a description of what this number means anywhere, and
+> I'm also puzzled on a lot of other outputs. For example, when
+> proposing an upgrade solution, aptitude says things like "indi
+> [4:3.5.5-1 (stable, stable, now) -> 4:3.5.8-1 (testing, unstable,
+> testing, unstable)]"
+
+  I just tweaked this to uniquify and sort the strings, so you should
+just get "now, stable" and "testing, unstable" in future versions of
+aptitude (the multiple copies probably mean you have more than one
+source for each version, which isn't interesting to know in this
+output).
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430143023.GD22310@emurlahn.burrows.local
+
+

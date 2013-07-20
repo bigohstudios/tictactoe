@@ -1,0 +1,29 @@
+Is it safe to update-rc.d remove defaults ntp with dependency boot
+ in place?
+=A0 As some of you might know=2C the transition to dependency based
+boot / insserv is causing the following lines:
+
+=A0=A0=A0 insserv: warning: current stop runlevel(s) (0 1 6) of script `ntp=
+'
+=A0 =A0 overwrites defaults (empty).
+
+=A0 Is it safe for the system administrator to issue
+
+=A0=A0=A0 update-rc.d remove defaults ntp
+=A0=A0=A0 update-rc.d remove start 20 2 3 4 5 . stop 20 0 1 6 . ntp
+
+?  That is=2C will such commands break something?
+
+=A0 Some references are bugs 568974 and 183460.
+ 		 	   		 =20
+_________________________________________________________________
+Hotmail: Trusted email with powerful SPAM protection.
+https://signup.live.com/signup.aspx?id=3D60969=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BLU133-W2C57A4F3E41690C3BD9A9B3150@phx.gbl
+
+

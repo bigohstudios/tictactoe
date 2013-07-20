@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId12803805afbee9f3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs998wfj;
+        Thu, 15 Apr 2010 15:04:23 -0700 (PDT)
+Received: by 10.141.89.8 with SMTP id r8mr1162737rvl.32.1271369063420;
+        Thu, 15 Apr 2010 15:04:23 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 39si4568590iwn.47.2010.04.15.15.04.23;
+        Thu, 15 Apr 2010 15:04:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id C6E221BA27A42
+	for <mlsubscriber.tech@csmining.org>; Thu, 15 Apr 2010 15:04:22 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id BDF1326D4FA45
+	for <mlsubscriber.tech@csmining.org>; Thu, 15 Apr 2010 15:04:22 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 7751D26D4F7C6
+	for <objc-language@lists.apple.com>;
+	Thu, 15 Apr 2010 15:04:00 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id 66993CF0BAEB
+	for <objc-language@lists.apple.com>;
+	Thu, 15 Apr 2010 15:04:00 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-46-4bc78d4f986b
+Received: from mail-yx0-f183.google.com (mail-yx0-f183.google.com
+	[209.85.210.183])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	59.38.26228.05D87CB4; Thu, 15 Apr 2010 15:04:00 -0700 (PDT)
+Received: by yxe13 with SMTP id 13so1169095yxe.0
+	for <objc-language@lists.apple.com>;
+	Thu, 15 Apr 2010 15:03:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:received:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	bh=4HSzbDT5TqmBPhJaSCYxFYm4Q2K9tW0jmy/JtYS2tRs=;
+	b=WHDYcpGNtiuxo43FqbwEbPyMMTQNvwWItoynjl5324W7Tbf7wb9I0sGO6OhFc08Vas
+	GUB+sTAlTjL/cpKMiP9EPf5SS7UgRxrJQlXBqRplXYALc9WjG7lCXj0AU/G38hppS/Ld
+	qFiPKz3pKNiPNsbvcU+7GAFHscTrCdnVSWadk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type:content-transfer-encoding;
+	b=Ys4mFBefp7ZKFz6nVZ1kL5hUpPWZrGswsBVBZYu3V1sUDDrwymBhvRnOK1StBT6weY
+	JQkWDs43BBTWBLjY2XwM9oPAvHV1ZHgXN6pNAnqv/P90n4XO1H2qGPADosz4I/pRkgVN
+	c3VSfubso39qttkUxV3N1PKRbtb6pu4Epqx64=
+MIME-Version: 1.0
+Received: by 10.90.75.14 with HTTP; Thu, 15 Apr 2010 15:03:59 -0700 (PDT)
+In-Reply-To: <i2ma92022a41004151500i160f157jacadb68e411ff8@mail.csmining.org>
+References: <t2ja92022a41004111315y4f399596pdfb107eb86563859@mail.csmining.org>
+	<z2ide3c77431004111322v7e93615x6941a344be5353ea@mail.csmining.org>
+	<y2v597e7edb1004111359s8d7c36fewc473913688d153b2@mail.csmining.org>
+	<p2me958890e1004120322o6dfba713q7a122518f00e0af2@mail.csmining.org>
+	<v2m597e7edb1004120352tb11aee6wf1715c75b46eca78@mail.csmining.org>
+	<i2ma92022a41004151500i160f157jacadb68e411ff8@mail.csmining.org>
+Date: Thu, 15 Apr 2010 23:03:59 +0100
+Received: by 10.91.51.2 with SMTP id d2mr458592agk.31.1271369039472; Thu, 15 
+	Apr 2010 15:03:59 -0700 (PDT)
+Message-ID: <l2m597e7edb1004151503r5352e445h71353491fe91ae4a@mail.csmining.org>
+From: Hamish Allan <hamish@csmining.org>
+To: Ariel Feinerman <arielfapple@csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAxO1VpgTth2IE7ZYTA==
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: class variables
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Thu, Apr 15, 2010 at 11:00 PM, Ariel Feinerman <arielfapple@csmining.org> w=
+rote:
+
+> where is=A0TheInstanceCounterKey in the class? Must it be defined as a st=
+atic
+> global variable in .m file?
+> static NSNumber * TheInstanceCounterKey;
+
+I would define it as follows at the top of the class implementation file:
+
+static NSString *const TheInstanceCounterKey =3D @"TheInstanceCounterKey";
+
+Best wishes,
+Hamish
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

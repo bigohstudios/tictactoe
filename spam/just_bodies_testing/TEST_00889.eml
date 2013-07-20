@@ -1,0 +1,66 @@
+Re: [ILUG] ipfw vs ipchains vs iptablesPaul Jakma's [paul@clubi.ie] 67 lines of wisdom included:
+> i thought the firewalling code on all the BSDs was fairly related -
+> sorry. So FreeBSD's ipfw is not encumbered in the same way the old
+> OBSD firewalling was?
+
+Nope, indeed IPFW2 has just been rolled out into -STABLE. (-STABLE
+is a stable branch of the code that has been rolled into -CURRENT
+first. It's basically a major release, that's still a work in
+progress)
+
+> to an extent, i guess so, yes. but i've a few boxes with reasonable 
+> uptimes that run netfilter/iptables. (i've one that has crashed twice 
+> now after 60+ day uptimes. but that doesnt seem to be netfilter).
+> 
+> course, there's a lot more that can go wrong with a firewall than the
+> firewall code. in that case get 2 boxes and heartbeat them.
+
+I don't really judge things by uptimes, it's rather like judging
+penis size. People like comparing them, and the larger they are, the
+more people are in awe of them, but overly large ones aren't really
+practical!
+
+> indeed. couldnt agree more.
+> 
+> (that's the nice thing about *nix - fact we /can/ have nit-picking 
+> arguments about which *nix and firewall code is better).
+
+Defiantely. I wouldn't like anyone to accuse me of being a
+nit-picker though ;)
+
+> i've no experience of ipfw. (closest i've come is looking at IPFilter 
+> for IRIX - but it had a problem in that it wasnt maintained 
+> anymore. however, while the englishy syntax is nice, i dont think 
+> iptables command <args> syntax is a big obstacle).
+> 
+> anyway.. there's choice. and as i understand it, with the advent of 
+> netfilter/iptables there's now almost nothing between them from a 
+> technical POV. (apart from ipfw being in use a lot longer).
+
+Well, as someone who's used ipchains quite heavily about two years
+ago, I can guarantee you that the learning curve for reading
+ipchains rules and ipfw rules is quite different. Of course once
+you've memorised (not necessarily sitting down with a sheet of them
+and learning them off by rote) them, you wonder what all the fuss is
+about before.
+
+It's not in itself a reason to choose one firewall product over
+another, but if that's all there is in the difference, and the
+learning curve for the Operating System is the same, then I know
+what I'd prefer, as a beginner.
+
+This is all getting rather off-topic now anyways, but since I've
+been doing quite a lot of work with ipfw over the last week I jumped
+on the bandwagon.
+
+-- 
+  Philip Reynolds        
+   RFC Networks          tel: 01 8832063
+www.rfc-networks.ie      fax: 01 8832041
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

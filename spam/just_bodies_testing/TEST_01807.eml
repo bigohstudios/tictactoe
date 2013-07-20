@@ -1,0 +1,31 @@
+Re: Sudden reboots with Firefox and FlashStan Hoeppner put forth on 4/20/2010 9:39 PM:
+> Nick Douma put forth on 4/20/2010 5:01 PM:
+>> Looks like I'll have to look for a new CPU cooler...
+> 
+> Or you could just properly seat the current factory HSF.  You likely
+> buggered up the pre-applied thermal paste film when you attached the stock
+> HSF, or you possibly didn't get the HSF installed squarely atop the CPU.
+> 
+> If this is a "BOX" i7 CPU the HSF should be more than enough for medium over
+> clocking.  If the Intel tool is telling you there are thermal problems when
+> running at stock frequency, then there's definitely a problem with your
+> thermal interface between the CPU heat spreader and the HSF.
+> 
+> Buy some AS5.  Thoroughly clean the existing thermal paste from the HSF and
+> CPU.  Apply a thin film of AS5 per the instructions, and properly set the
+> HSF onto the CPU heat spreader.  This should solve any CPU thermal issues.
+
+
+Forgot to ask.  What case is this system installed in?  Link please?
+
+-- 
+Stan
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCE65E0.7000708@hardwarefreak.com
+
+

@@ -1,0 +1,22 @@
+Apt 0.3 and 0.5Should I expect problems if my apt server is running RH 7.3/Apt 0.3 and
+some clients are coming on line and will be running RH 8.0/Apt 0.5? Do
+the two different version interoperate?
+
+Thanks,
+
+tjb
+-- 
+=======================================================================
+| Thomas Baker                                  email: tjb@unh.edu    |
+| Systems Programmer                                                  |
+| Research Computing Center                     voice: (603) 862-4490 |
+| University of New Hampshire                     fax: (603) 862-1761 |
+| 332 Morse Hall                                                      |
+| Durham, NH 03824 USA              http://wintermute.sr.unh.edu/~tjb |
+=======================================================================
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

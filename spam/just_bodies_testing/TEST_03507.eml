@@ -1,0 +1,47 @@
+Re: Where to store preferences, Log files, CachesOn Apr 20, 2010, at 4:12 AM, Kustaa Nyholm wrote:
+
+> Hi list,
+>=20
+> sorry for the noise I know this has been discussed numerous times here =
+and
+> I'm sure there must be a guideline TN or something about this from =
+Apple,
+> but for the life of me I can't google it.
+>=20
+> Where should  preference files, log files, caches files, database =
+files,
+> go on Mac OS X and how to get those locations from Java?
+>=20
+> I've read it on this list recently but I can't find the info...
+> there has to a document that defines these...
+
+Preferences is explained here:
+<http://developer.apple.com/mac/library/qa/qa2001/qa1170.html>
+
+Logs should probably go into System.getProperty("user.home") + =
+"/Library/Logs/" + "your.app.identifier".
+
+Caches should either go in the directory returned from =
+System.getProperty("java.io.tmpdir"), or System.getProperty("user.home") =
++ "/Library/Caches/" + "your.app.identifier".
+
+Database files, autosave information, and other things that represent =
+user data that could be lost if deleted should go into =
+System.getProperty("user.home") + "/Library/Application Support/" + =
+"Your App Name".
+
+To request a new tech note, or update the existing QA1170 with this =
+information, please file a request at <http://bugreporter.apple.com>.
+
+Thanks,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

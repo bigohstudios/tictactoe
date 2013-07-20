@@ -1,0 +1,23 @@
+Re: Quick php advice needed :-)On Thu, 1 Aug 2002 12:53:00 +0200, Matthias Saou <matthias@egwn.net> wrote:
+
+> None for that "builds" part : It's just an export of the CVS tree in which
+> I keep my spec files and patches! ;-)
+> I think the filemtime() php function that Ville uses in his sript is what
+> I'm looking for, then I guess I just need to fill an array with the names
+> and mtimes, sort it, then display what I want :-)
+
+    Arg; what a pain.  You can have a cron job to 'digest' this information every so often and populate the database...
+  
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

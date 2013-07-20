@@ -1,0 +1,152 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d46b8a2779896
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs207041wfa;
+        Tue, 6 Apr 2010 11:39:30 -0700 (PDT)
+Received: by 10.223.77.86 with SMTP id f22mr7648863fak.49.1270579170045;
+        Tue, 06 Apr 2010 11:39:30 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 24si11983052fxm.13.2010.04.06.11.39.19;
+        Tue, 06 Apr 2010 11:39:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1FB742D0E6E; Tue,  6 Apr 2010 18:39:17 +0000 (UTC)
+Old-Return-Path: <steven@worldofcrooks.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 765DE2D0F9E
+	for <lists-debian-kde@liszt.debian.org>; Tue,  6 Apr 2010 18:39:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id lYO+KsiK+DWn for <lists-debian-kde@liszt.debian.org>;
+	Tue,  6 Apr 2010 18:39:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 933 seconds by postgrey-1.31 at liszt; Tue, 06 Apr 2010 18:39:03 UTC
+Received: from wp170.webpack.hosteurope.de (wp170.webpack.hosteurope.de [80.237.132.177])
+	by liszt.debian.org (Postfix) with ESMTP id D944E2D0D94
+	for <debian-kde@lists.debian.org>; Tue,  6 Apr 2010 18:38:57 +0000 (UTC)
+Received: from p5ddab7bc.dip.t-dialin.net ([93.218.183.188] helo=worldofcrooks.org); authenticated
+	by wp170.webpack.hosteurope.de running ExIM with esmtpsa (TLSv1:DES-CBC3-SHA:168)
+	id 1NzDQu-0004qf-5l; Tue, 06 Apr 2010 20:23:28 +0200
+From: Steven Crooks <steven@worldofcrooks.org>
+Organization: worldofcrooks.org
+To: debian-kde@lists.debian.org
+Subject: Re: Cannot login
+Date: Tue, 6 Apr 2010 20:23:19 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33-2.slh.1-sidux-amd64; KDE/4.4.2; x86_64; ; )
+References: <4BBB62E7.9010208@csmining.org> <n2l8f23146b1004061030g1a0c682ua29bafb491292c2a@mail.csmining.org> <v2y8f23146b1004061031i5e410c8dj686a5625f24e0f43@mail.csmining.org>
+In-Reply-To: <v2y8f23146b1004061031i5e410c8dj686a5625f24e0f43@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2904185.IVrf86vm48";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004062023.25591.steven@worldofcrooks.org>
+X-bounce-key: webpack.hosteurope.de;steven@worldofcrooks.org;1270579143;7953a2cb;
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <_4jWSr6i_CC.A.edD.V_3uLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31965
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 18:39:17 +0000 (UTC)
+
+--nextPart2904185.IVrf86vm48
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 06 April 2010 19:31:19 Smokejohn wrote:
+> On Tue, Apr 6, 2010 at 7:57 PM, Klaus Becker <colonius@free.fr> wrote:
+> > Le Mardi 06 Avril 2010 18:35:51, John Kapnogiannis a =E9crit :
+> > > Hello there. I got a debian testing installation and I currently cann=
+ot
+> > > login in kde. I give my pass and instead of a proper kde session I get
+> > > kdm's login screen again. I haven't done any upgrade but I did a real=
+ly
+> > > stupid thing: I hit the power button and turn the laptop off the hard
+> > > way while it was in suspend mode. I tried googling but it gave me no
+> > > usefull things.
+> > >=20
+> > > The .xsession-errors file in my home folder says Permission denied. I
+> > > checked the permissions in /tmp and /var/tmp and everything seems fin=
+e.
+> > > I also deleted the .kde folder. Login in as root and typing startx
+> > > opens a kde session.
+> > >=20
+> > > Any ideas?
+> > >=20
+> > > PS: I did the instructions described in this page:
+> > > https://developer.skype.com/jira/browse/SCL-510 in order to fix skype
+> > > on me 64-bit installation, but I don't think it has something to do
+> > > with my problem. I think something got wrong when I hit the power
+> > > button. :(
+> >=20
+> > Hi,
+> >=20
+> > perhaps
+> >=20
+> > #chown -R john /home/john
+> >=20
+> > or any username you use ?
+> >=20
+> > If this does'nt work, you can try to create a new user and then cope all
+> > your
+> > files to /home/new-user.
+> >=20
+> >=20
+> > Nope did not help. Adding a new user did not fix anything too. I tried
+>=20
+> login in a console and then startx and I got some errors about xkb not
+> being able to get initialized. Strange....  So the thing is that no user
+> except the root can start a kde session.
+
+Just for completion:
+
+Check if there is enough space on your/the harddisk.
+
+Steven
+
+--nextPart2904185.IVrf86vm48
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAku7fBgACgkQFM3c/kRTTAM4JgCguCgVRbVrxcyR5NDaxKbKNdhs
+3GgAoLAG0465n08d6RvvaLQAV/X/E3DM
+=YG7C
+-----END PGP SIGNATURE-----
+
+--nextPart2904185.IVrf86vm48--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004062023.25591.steven@worldofcrooks.org
+
+

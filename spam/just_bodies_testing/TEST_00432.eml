@@ -1,0 +1,28 @@
+Re: [Razor-users] spamassassin+razor2From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, Sep 05, 2002 at 04:27:08PM -0400, Eugene Chiu wrote:
+> razor2 check skipped: Bad file descriptor Insecure dependency in open whi=
+le runn
+> ing setuid at /usr/local/lib/perl5/site_perl/5.6.1/Razor2/Client/Config.p=
+m line
+> 410, <GEN23> line 1.
+> >From info@znion.com  Thu Sep  5 11:55:15 2002
+>  Subject: *****SPAM***** Computer Maintenance
+>   Folder: /home/eugene/caughtspam                                        =
+  8343
+
+It looks like you're running via procmail -- what are the permissions
+on procmail?  "Insecure dependency" screams "I'm in taint mode!", which
+is a typical problem when procmail is setuid/setgid (the permissions
+should be 755).
+
+If this is in fact the problem, an easy solution is to put "DROPPRIVS=3Dyes"
+in the procmailrc. :)
+
+--=20
+Randomly Generated Tagline:
+"The bus had no heat, blew over in the wind and used the driver's legs
+ as its first line of defense in an accident." - Unknown about the VW Bus

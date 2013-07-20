@@ -1,0 +1,20 @@
+Re: Secure Sofware Key> However, cracking and reverse engineering tools are not so ubiquitous on
+> UNIX as they are on Windows platform for two main reasons:
+>
+> 1. The main customers of commercial Unices (Solaris, HP-UX, Aix, SCO...)
+> are respectable companies. They are ready to pay big bucks for software
+> they need: the reputation matters.
+>
+> 2. Most software for free and open source Unices like Linux and xBSD (this
+> software often may be used on commercial unices as well) is, well, free and
+> open source.
+
+Thanks to your answers, I start to see where I should head for.  What are your 
+sugestions for protecting a 100% online requirement system ?
+
+-- 
+Yannick Gingras
+Coder for OBB : Observing Bantu-speaking Butanone
+http://OpenBeatBox.org
+
+

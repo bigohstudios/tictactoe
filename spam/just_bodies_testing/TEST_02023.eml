@@ -1,0 +1,37 @@
+Re: Should mplayer be build with Win32 codecs?Once upon a time, Axel wrote :
+
+> has anyone an answer for me? The mplayer documentation still suggests to
+> use them for x86 architectures.
+
+Well, I think my avifile build still needs the win32 codecs to be able to
+run (manually copied into /usr/lib/win32/), but personally, I've been very
+happy with mplayer's default (which is ffmpeg's ffdivx decoder) for nearly
+all the DivX files I used. The only ones that still require (from my own
+experience) the use of the win32 codecs are the ones encoded with a strange
+DivX 3 sound format... and I've really not seen any quality or speed
+improvements when using them.
+
+Matthias
+
+> On Sat, Jun 08, 2002 at 11:39:03PM +0200, Axel Thimm wrote:
+> > Are there perhaps licensing issues, which forbid such a practice? Or
+> > any other reasons?
+> > 
+> > The reason I ask is that I have seen performance and also some feature
+> > differences (fullscreen w/o keeping aspect ratio, visual artifacts on
+> > NVIDIA) comparing with or without the Win32 codecs. The mplayer authors
+> > seem to recommend using them for x86 architectures.
+> > 
+> > Beware, I am no mplayer/codecs/whatever expert, I may be totally lost
+> > ...
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10
+Load : 0.35 0.46 0.43, AC on-line, battery charging: 100% (4:47)
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

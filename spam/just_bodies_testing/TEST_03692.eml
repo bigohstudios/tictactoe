@@ -1,0 +1,59 @@
+Re: Working My_Mark2CurSeen
+[I wrote this last night but it appears I never sent it... still 
+haven't had time to dig in to it...]
+
+
+>>>>> On Tue, 1 Oct 2002, "Robert" == Robert Elz wrote:
+
+  Robert> No, but using PickMarkSeen (and pick(ids)) as an
+  Robert> alternative to just doing
+
+  Robert> Seq_Del $exmh(folder) $mhProfile(unseen-sequence) $results
+
+
+Ah.  Neither Ted nor I were particularly up to date.  I pulled 
+down the lates from CVS and am now running with it.  I miss the 
+blue ftoc lines but I'll sort that out soon, iirc Chris said 
+it's a simple resource change.
+
+Ted's code to "ketchup" made use of some of the procs that went 
+away in the sequence generalization.  I've fixed it up... almost 
+and it looks like this now:
+
+proc Cabeen_Mark2CurSeen {} {
+    global exmh mhProfile msg
+    set results {}
+    Exmh_Status "Clearing unseen up to cur..." red
+    Mh_SetCur $exmh(folder) $msg(id)
+    set unseen [Mh_Sequence $exmh(folder) $mhProfile(unseen-sequence) ]
+    foreach elem $unseen {
+         if { $elem <= $msg(id) } {
+            lappend results $elem
+         }
+    }
+    busy Seq_Del $exmh(folder) $mhProfile(unseen-sequence) $results
+    Exmh_Status ok blue
+}
+
+
+The "almost" is because it's not updating the highlighting on 
+the ftoc.  I'm too tired to go figure out how to fix that just 
+now and have to move on to other stuff.  If someone wants to 
+forward me a clue feel free.
+
+Now that I've got all of Chris' sequence stuff I discovered that 
+my sequences are ... cluttered.
+
+--Hal
+
+
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

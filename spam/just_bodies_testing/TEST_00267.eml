@@ -1,0 +1,18 @@
+Re: http://apt.nixia.no/On Fri, Feb 01, 2002 at 05:41:32PM +0200, Harri Haataja wrote:
+> I have a local one for the main and upgrades from somewhere plus my own
+> at $ORKPLACE.
+
+Olen ajatellut pystyttää itselleni lokaalin apt-varaston, kun Suomesta ei 
+tunnu löytyvän julkista peiliä. Osaisitko avittaa hiukan asiassa, eli 
+kuinka lähteä liikkeelle? Ensin kannattanee peilata varsinainen RH:n rpm:t 
+jostain, vaan millä softalla (rsync?) ja mistä (funet?) tuo kannattaa 
+tehdä, ajatuksia?
+
+-- 
+Peter
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

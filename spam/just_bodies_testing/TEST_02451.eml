@@ -1,0 +1,20 @@
+Re: usb raid1 pendrive bootFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Jozsi Vadkan <jozsi.avadkan@csmining.org> [2010.05.07.1538 +0200]:
+> rootdelay=3D15 worked!!!!!!!!!!!!!!!
+
+http://git.debian.org/?p=3Dpkg-mdadm/mdadm.git;a=3Dblob;f=3Ddebian/FAQ;hb=
+=3DHEAD#l560
+
+--=20
+ .''`.   martin f. krafft <madduck@d.o>      Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+"everyone has a little secret he keeps,
+ i like the fires when the city sleeps."
+                                                  -- mc 900 ft jesus

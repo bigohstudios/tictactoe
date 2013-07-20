@@ -1,0 +1,45 @@
+Using hosts file to rid yourself of popup adsDon't know if everybody knows this trick...
+
+Puts 127.0.0.1 as the IP for adservers. Elegant.
+
+==
+
+http://technoerotica.net/mylog/hostfile.html
+
+As mentioned throughout this site, there is more than one way to skin a cat
+when it comes to pop-ups. The hosts file is one of the most effective
+methods there is. In brief, a hosts file is a text file used by Windows to
+resolve domain names and IP addresses. If you're running windows, you
+already have a hosts file but it most likely isn't being used.
+
+What a hosts file does is simple, it lists domains and IP numbers. To get
+rid of ads, the hosts file lists the domain names of adservers along with
+the IP number 127.0.0.1. This tells windows to grab any content from the
+listed domain from the specified IP number. The specified IP number in this
+case is your own computer. What happens is that it won't display the ad. If
+you choose this method of ad removal there is no need to use our opt out
+links. The hosts file is a very effective mechanism.
+
+You can download this hosts file, unzip it and place it in your Windows
+directory. YOU SHOULD MAKE A BACK UP of your existing hosts file before you
+do. The hosts file is called "hosts" there is no extension. You may have a
+file named Hosts.sam this is merely a sample hosts file.
+
+Once you download the file and put it in the windows folder, reboot your
+computer and it's a done deal. Pretty simple huh? You might want to look at
+the contents of this file as it contains additional information as well as
+an address for getting updated versions. <http://www.accs-net.com/hosts/>
+
+Because we're inherently lazy, this works for windows only, don't use it on
+a mac! Follow the address in the hosts file for alternative system
+instructions.
+download now <http://technoerotica.net/mylog/hosts.zip>
+
+
+We didn't write this file and do not provide support for it's use. Follow
+the address in the hosts file for questions. It's not that we don't want to
+hear from you but the folks at this address have the answers you need.
+
+http://xent.com/mailman/listinfo/fork
+
+

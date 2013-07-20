@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286efbc8738eee2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs411615wfb;
+        Thu, 6 May 2010 11:58:36 -0700 (PDT)
+Received: by 10.223.26.69 with SMTP id d5mr304886fac.20.1273172314372;
+        Thu, 06 May 2010 11:58:34 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si2694988fks.54.2010.05.06.11.58.33;
+        Thu, 06 May 2010 11:58:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 182DA13A582C; Thu,  6 May 2010 18:58:32 +0000 (UTC)
+Old-Return-Path: <ana@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B887313A55AD
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 18:58:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id AF6zBE2gVyr3 for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 18:58:18 +0000 (UTC)
+Received: from ekaia.org (ekaia.org [109.74.204.229])
+	by liszt.debian.org (Postfix) with ESMTP id 7449F13A542F
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 18:58:18 +0000 (UTC)
+Received: from pryan.aurel32.net (localhost [127.0.0.1])
+	by ekaia.org (Postfix) with SMTP id 6254B124CE;
+	Thu,  6 May 2010 20:58:15 +0200 (CEST)
+Received: (nullmailer pid 9770 invoked by uid 1000);
+	Thu, 06 May 2010 18:58:06 -0000
+Date: Thu, 6 May 2010 20:58:06 +0200
+From: Ana Guerrero <ana@debian.org>
+To: Mike Bird <mgb-debian@yosemite.net>
+Cc: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Message-ID: <20100506185806.GA9740@ana.debian.net>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+ <201005061013.46891.mgb-debian@yosemite.net>
+ <i2k880dece01005061024v1f3c4914vd9eac1c2fff4db53@mail.csmining.org>
+ <201005061054.17409.mgb-debian@yosemite.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <201005061054.17409.mgb-debian@yosemite.net>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <wTQ0afmgeGG.A.F9H.YFx4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32175
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 18:58:32 +0000 (UTC)
+
+On Thu, May 06, 2010 at 10:54:17AM -0700, Mike Bird wrote:
+> I have great respect for Ana's work but even Ana is using Mutt.
+>
+
+This has nothing to do with KDE 4 or kdepim, I have been using mutt 
+for more than 6 years now...
+
+Ana
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506185806.GA9740@ana.debian.net
+
+

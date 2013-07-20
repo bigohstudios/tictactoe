@@ -1,0 +1,37 @@
+Re: Epiphany browser continues to get worse and worseOn Sat Apr 17, 2010 at 13:17:40 -0400, Stephen Powell wrote:
+
+> I am continuing to suffer the on-going de-volution of the once-decent
+> epiphany browser under Debian Squeeze.  First they broke file
+> downloading.  They still haven't fixed that.  I'll bet it's been
+> six months or more.
+
+  "They" probably haven't fixed it since it hasn't been reported as
+ a bug.
+
+   Either:
+
+    * Say nothing.
+
+    * Rant in an unproductive fashion, without sufficient details to
+      come to any conclusion.
+
+    * Report a bug.
+
+  Anything else is a waste of your time, and ours.  (e.g. "File
+ downloads are broken"?  Not for me.  But with so few details
+ people will either ignore you, suspect you're trolling, or blame it
+ on user-error.)
+
+  Happily it seems that you're content using Iceweasel, so pragmatically
+ you should continue to do that...
+
+Steve
+--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100417183138.GA10387@steve.org.uk
+
+

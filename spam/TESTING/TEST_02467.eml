@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f170cf32a39c3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs141140wfo;
+        Mon, 12 Apr 2010 02:54:15 -0700 (PDT)
+Received: by 10.223.65.82 with SMTP id h18mr2478672fai.48.1271066054489;
+        Mon, 12 Apr 2010 02:54:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si7988033fkt.7.2010.04.12.02.54.13;
+        Mon, 12 Apr 2010 02:54:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 16CA713A5D07; Mon, 12 Apr 2010 09:54:09 +0000 (UTC)
+Old-Return-Path: <vincent@vinc17.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.9 required=4.0 tests=FOURLA,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8856D13A5EB5
+	for <lists-debian-user@liszt.debian.org>; Mon, 12 Apr 2010 09:36:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kUM+-GcCSJXm for <lists-debian-user@liszt.debian.org>;
+	Mon, 12 Apr 2010 09:36:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 981 seconds by postgrey-1.31 at liszt; Mon, 12 Apr 2010 09:36:30 UTC
+Received: from ypig.lip.ens-lyon.fr (ypig.lip.ens-lyon.fr [140.77.13.48])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 2197013A57D6
+	for <debian-user@lists.debian.org>; Mon, 12 Apr 2010 09:36:30 +0000 (UTC)
+Received: from vlefevre by ypig.lip.ens-lyon.fr with local (Exim 4.71)
+	(envelope-from <vincent@vinc17.org>)
+	id 1O1FoA-0002MP-Fj; Mon, 12 Apr 2010 11:19:54 +0200
+Date: Mon, 12 Apr 2010 11:19:54 +0200
+From: Vincent Lefevre <vincent@vinc17.org>
+To: debian-user@lists.debian.org
+Subject: Broken Debian's testing migration (grave bug in module-init-tools)
+Message-ID: <20100412091954.GD8099@ypig.lip.ens-lyon.fr>
+Mail-Followup-To: debian-user@lists.debian.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+X-Mailer-Info: http://www.vinc17.org/mutt/
+User-Agent: Mutt/1.5.20-6074-vl-r35499 (2010-04-06)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <p4cY3ou_pL.A.GoF.B3uwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573915
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 12 Apr 2010 09:54:09 +0000 (UTC)
+
+There's something broken in the design of Debian's migration to testing.
+
+A grave bug in the testing version of module-init-tools (3.12~pre2-1)
+was fixed several weeks ago, and the package was uploaded with
+urgency=high:
+
+ module-init-tools  (3.12~pre2-2) unstable; urgency=high
+
+   * Fixed an init scripts dependency loop introduced in -1. (Closes: #574535)
+
+ -- Marco d'Itri <md@linux.it>  Mon, 22 Mar 2010 12:21:18 +0100
+
+but it hasn't migrated to testing yet!
+
+The reason is a build failure on HPPA:
+
+  https://buildd.debian.org/build.php?arch=hppa&pkg=module-init-tools&ver=3.12~pre2-2
+
+Isn't it unacceptable that a problem on some platform blocks a fix
+for a grave bug?
+
+Is there a risk that such a broken package gets into squeeze?
+Due to this problem, this is the current candidate for squeeze:
+
+  http://packages.debian.org/squeeze/module-init-tools
+
+says: module-init-tools (3.12~pre2-1)
+
+The grave bug is detected by apt-listbugs. Otherwise, as the bug was
+fixed (in unstable), it isn't immediately visible on the various web
+pages.
+
+-- 
+Vincent Lefèvre <vincent@vinc17.net> - Web: <http://www.vinc17.net/>
+100% accessible validated (X)HTML - Blog: <http://www.vinc17.net/blog/>
+Work: CR INRIA - computer arithmetic / Arénaire project (LIP, ENS-Lyon)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412091954.GD8099@ypig.lip.ens-lyon.fr
+
+

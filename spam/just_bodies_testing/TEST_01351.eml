@@ -1,0 +1,38 @@
+Re: [SAdev] 2.42 to come ?On Wednesday 11 September 2002 16:19 CET Justin Mason wrote:
+> Malte S. Stretz said:
+>[...]
+> > I think we should even add new (GA'd) rules to 2.4x (and/or remove old
+> > ones) and tag a new 2.50 only if we have a bunch of features worth a
+> > "dangerous" big update. I'd say: Yes, you should expect 2.42 and also
+> > 2.43+ (but update to 2.41 now).
+>
+> I would think adding new rules to, or removing broken rules from, 2.4x
+> would require some discussion first.  but new GA'd scores are definitely
+> worth putting in, as the ones there are too wild.
+
+I think my mail wasn't very clear ;-) My point was that we should continue 
+releasing new rules and removing broken ones (all based on discussions on 
+this list of course) in the 2.4 branch instead of creating a new 2.5 branch 
+everytime we have a bunch of new rules.
+
+A new branch should be openend only if (big) new features are introduced 
+(eg. Bayes) or the interface has changed (spam_level_char=x). As the rules 
+are under fluent development, the user has to update quite regularly. But 
+currently he couldn't be shure if the new release will break anything in 
+his setup (like -F going away). So if we say "the branches are stable to 
+the outside and just improved under the surface but you have to watch out 
+when you update to a new minor version number", users and sysadmins could 
+be less reluctant to update.
+
+All just IMHO :o)
+Malte
+
+P.S.: I'll be away from my box and my mail account for one week, starting 
+tomorrow. So happy coding for the next week :-)
+
+-- 
+--- Coding is art.
+-- 
+
+
+

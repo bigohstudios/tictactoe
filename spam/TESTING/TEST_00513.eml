@@ -1,0 +1,164 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281b3149559a355
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs67321wfj;
+        Tue, 20 Apr 2010 05:29:10 -0700 (PDT)
+Received: by 10.223.5.70 with SMTP id 6mr1100334fau.18.1271766534289;
+        Tue, 20 Apr 2010 05:28:54 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si1655138fks.5.2010.04.20.05.28.53;
+        Tue, 20 Apr 2010 05:28:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5A86C13A46A1; Tue, 20 Apr 2010 12:28:48 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.6 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE,PLING_QUERY autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E379813A4589
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 12:28:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.51 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5, PLING_QUERY=1.39]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id E-OIyPDcQYLK for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 12:28:33 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id ACD3913A458F
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 12:28:29 +0000 (UTC)
+Received: (qmail 27790 invoked from network); 20 Apr 2010 14:28:20 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <johannes@physik.blm.tu-muenchen.de>; 20 Apr 2010 14:28:20 +0200
+Message-ID: <4BCD9DBB.6040206@student.ulg.ac.be>
+Date: Tue, 20 Apr 2010 14:27:39 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: Johannes Wiedersich <johannes@physik.blm.tu-muenchen.de>
+CC: debian-user@lists.debian.org
+Subject: Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected! Why?
+References: <4BCC5B32.5030300@student.ulg.ac.be>	<20100419144409.e99ce9d8.codehelp@debian.org>	<4BCC5FB0.7060106@student.ulg.ac.be>	<4BCC613C.6090107@lorentz.leidenuniv.nl>	<4BCC77A3.9080803@student.ulg.ac.be> <87k4s3xxig.fsf@leibnitz.dottedmag.net> <4BCC7F7D.6080307@student.ulg.ac.be> <4BCC9735.90108@physik.blm.tu-muenchen.de> <4BCC9EB0.2040705@student.ulg.ac.be> <4BCD4BEA.2090901@physik.blm.tu-muenchen.de>
+In-Reply-To: <4BCD4BEA.2090901@physik.blm.tu-muenchen.de>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enigD9733D7864947022AF242B37"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <vr6lWiWV_7N.A.D4C.A4ZzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574535
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 12:28:48 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enigD9733D7864947022AF242B37
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Johannes Wiedersich wrote:
+> Merciadri Luca wrote:
+> > Johannes Wiedersich wrote:
+> >> Why would an
+> >> honest soul ever allow information to be read, but not printed?
+> >>  =20
+> > To maintain honesty? An honest soul (i.e. me, here) has to send some
+> > data to some dishonest person.
+>
+> The problem is: either you give data to some dishonest person or you
+> don't give that data to some dishonest person. Tertium non datur.
+Yes, but there are some nuances. Let's take my example: how would you
+have done this? You need to transmit the document, but the receivers are
+sufficiently dishonest to print it and to claim they are the authors.
+>
+> >> Even with acroread it is possible to print screenshots of the
+> documents.
+> >> Might be a pain to reconstruct a multipage document, but not
+> impossible.
+> >>  =20
+> > I know, and we all know this. But this needs some determination, beca=
+use
+> > it needs some time. And when such problems arise, one often thinks (o=
+r
+> > should, at least, think) `Do I really need to copy this using that
+> > painful way, to bypass some limitation which is actually imposed to m=
+e
+> > by an honest person?' This is another aspect of security. There are t=
+he
+> > technical means, and all the infringements which can be done. But,
+> > sometimes, `le jeu n'en vaut pas la chandelle.'
+>
+> FWIW, if you'd like to rely on such a scheme for security by obstacles,=
+
+> you'd have to use something else than pdf. pdf's scheme is broken.
+> That's all.
+And what do you advice?
+>
+> The reason that it is broken for pdfs is that the specifications for pd=
+f
+> are freely available, and thus alternative pdf readers have been
+> developed. Your scheme would require closed specifications and closed
+> software to work. This list, however, is all about free software.
+Yes, but if I had to use closed specs. with closed softwares, I would
+have to pay, and what about paying for your own rights??
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+
+
+--------------enigD9733D7864947022AF242B37
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvNnb0ACgkQM0LLzLt8MhyNbQCfX6UCqtgX3jOriFCWJPposupj
+XKUAn0t+U2bvTKpZexPcavccyAsCgO6Z
+=oLPS
+-----END PGP SIGNATURE-----
+
+--------------enigD9733D7864947022AF242B37--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD9DBB.6040206@student.ulg.ac.be
+
+

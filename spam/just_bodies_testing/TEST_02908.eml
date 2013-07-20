@@ -1,0 +1,30 @@
+Re: Cloned Lenny OS partition: bumped into hibernate and grub2 issuesOn Sun, May 23, 2010 at 4:02 AM, Klistvud <quotations@aliceadsl.fr> wrote:
+> Dne, 23. 05. 2010 03:40:54 je Tom H napisal(a):
+>>
+>> Re 1. Your swap partition's UUID must be different. Check
+>> "/etc/initramfs-tools/". There is a "resume" file (in that dir or in a
+>> subdir) that will have your swap partition's UUID.
+>
+> Thanx, Tom H. It worked.
+>
+>> Re 2. What do you mean by "After changing the UUID of the new
+>> partition"? After "dd...", did your run "tune2fs -U ..." on your root
+>> partition (or the equivalent for xfs, ...; I am assuming that you have
+>> just one partition)? If you didn't, your root partition still has the
+>> same UUID and update-grub is picking it up correctly (in which case, I
+>> have no idea idea how you are booting up!).
+>
+> You're perfectly right. Was looking at the wrong partition (I currently have
+> a mess of partitions on my drives, some of which are clones of others ...).
+> Now, after my usual cup of coffee, and with a clearer grasp of things thanx
+> to your comment, update-grub suddenly decided to work perfectly again ;P
+
+You're welcome.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilgWfuMSiT-Z4gNyivp-Gu7RjG4mZqnksrTj7XV@mail.csmining.org
+
+

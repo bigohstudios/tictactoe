@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId128843367376f971
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs33296wfb;
+        Mon, 10 May 2010 14:51:21 -0700 (PDT)
+Received: by 10.223.63.76 with SMTP id a12mr5203856fai.10.1273528280873;
+        Mon, 10 May 2010 14:51:20 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si9660343fas.103.2010.05.10.14.51.20;
+        Mon, 10 May 2010 14:51:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B579A13A5907; Mon, 10 May 2010 21:51:15 +0000 (UTC)
+Old-Return-Path: <westk@acu.edu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=BLOGSPOT,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1AE4013A58D1
+	for <lists-debian-user@liszt.debian.org>; Mon, 10 May 2010 21:51:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, BLOGSPOT=3, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QzDNB-R6x-Ca for <lists-debian-user@liszt.debian.org>;
+	Mon, 10 May 2010 21:51:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id A721613A5675
+	for <debian-user@lists.debian.org>; Mon, 10 May 2010 21:50:56 +0000 (UTC)
+Received: by gya1 with SMTP id 1so2111894gya.6
+        for <debian-user@lists.debian.org>; Mon, 10 May 2010 14:50:49 -0700 (PDT)
+Received: by 10.231.79.144 with SMTP id p16mr3285079ibk.4.1273528248767;
+        Mon, 10 May 2010 14:50:48 -0700 (PDT)
+Received: from [150.252.128.51] ([150.252.128.51])
+        by mx.google.com with ESMTPS id bk12sm1835016ibb.2.2010.05.10.14.50.48
+        (version=SSLv3 cipher=RC4-MD5);
+        Mon, 10 May 2010 14:50:48 -0700 (PDT)
+Message-ID: <4BE87FB7.7090809@acu.edu>
+Date: Mon, 10 May 2010 16:50:47 -0500
+From: Kent West <westk@acu.edu>
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: How to Find a Printer Driver?
+References: <4BE85B85.8030904@acu.edu> <201005101507.57867.bss@iguanasuicide.net> <4BE86E59.2070804@acu.edu> <201005101638.58573.bss@iguanasuicide.net> <4BE87E23.5070405@acu.edu> <4BE87F3F.7080808@acu.edu>
+In-Reply-To: <4BE87F3F.7080808@acu.edu>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7TaMkjWTAV.A.vRF.T_H6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576460
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 21:51:15 +0000 (UTC)
+
+Kent West wrote:
+> So you mentioned backports. Reckon I'll go research how to configure 
+> my sources.list file to do that, and how to use it.
+
+> (Pfft! All day trying to set up a printer to print one lousy page (I 
+> almost never need to print, so haven't bothered since the rebuild some 
+> months back), and now I have 15 minutes to do it. Arg.)
+>
+Wait! I've gotta digest all this in 15 minutes?!
+
+http://debian.ethz.ch/pub/debian-backports/utils/Backport-HOWTO.html
+
+Pfft.
+
+I'm giving up, and just gonna create a PDF and mail it to a Mac.
+
+Arg.
+
+-- 
+Kent West     <*)))><
+http://kentwest.blogspot.com
+Praise Yah! \o/
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE87FB7.7090809@acu.edu
+
+

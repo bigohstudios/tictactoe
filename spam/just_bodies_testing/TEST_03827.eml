@@ -1,0 +1,17 @@
+Re: Aptitude ErrorThat looks like a problem.  You have unstable version of gcc-4.4-base
+(4.4.3-9) installed, but now your unstable/sid is commented out.  So
+when you try to install g++ which has dependency on gcc-4.4-base, it
+is trying to revert the gcc-4.4-base to that of squeeze (4.4.2-9).
+Install the package "apt-show-versions", that could show your what is
+installed and from which version.
+So either revert gcc-4.4-base to that of squeeze or uncomment the sid
+line, do an update and install "aptitude -t unstable install g++" to
+get sid version.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2pd0bf7b0b1004300410wd5816763m7a1cfa7d1a82cf07@mail.csmining.org
+
+

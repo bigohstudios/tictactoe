@@ -1,0 +1,15 @@
+Non Working KeyboardI have an older computer which use to have Windows XP on it.  It currently has Vinux 3.0 on it.  I downloaded the Debian I386 installation version of 5.0.4 ISO and burned it to CD.  When I try to install it, I get an opening screen with an installation menu which then freezes.   I have no apparent keyboard input, and of course no mouse.
+
+I tried the same CD on a newer computer and it first brings up an option to choose my language and then brings up the installation menu which is accessible from my keyboard.  It then brings up a license screen.  At that point I abort the install.
+
+What do I need to do to install this to the older computer which has an AMD 1500+ mz processor.
+
+David Hoff Jr
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100520175613.0375.3BF3CFEE@att.net
+
+

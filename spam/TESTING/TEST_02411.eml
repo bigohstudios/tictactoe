@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId12818e9771acf79b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs48588wfj;
+        Mon, 19 Apr 2010 18:51:39 -0700 (PDT)
+Received: by 10.223.63.76 with SMTP id a12mr185557fai.10.1271728273309;
+        Mon, 19 Apr 2010 18:51:13 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si1127384fks.12.2010.04.19.18.51.12;
+        Mon, 19 Apr 2010 18:51:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AF0D413A4DB1; Tue, 20 Apr 2010 01:51:07 +0000 (UTC)
+Old-Return-Path: <john@dhh.gt.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7CCBF13A4DFF
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 01:34:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id G4lcOFUlIkZ0 for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 01:34:17 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from smtp.newsguy.com (smtp.newsguy.com [74.209.136.69])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "smtp.newsguy.com", Issuer "newsguy.com" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id 42C0B13A47BE
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 01:34:17 +0000 (UTC)
+Received: from toncho.dhh.gt.org (174-124-43-252.dyn.centurytel.net [174.124.43.252] (may be forged))
+	by smtp.newsguy.com (8.14.3/8.14.2) with ESMTP id o3K1YD1p000854
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 18:34:13 -0700 (PDT)
+	(envelope-from john@dhh.gt.org)
+Received: from [192.168.1.7] (helo=thumper.dhh.gt.org ident=Debian-exim)
+	by toncho.dhh.gt.org with esmtp (Exim 3.36 #1 (Debian))
+	id 1O42Ls-0002qK-00
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 20:34:12 -0500
+Received: from john by thumper.dhh.gt.org with local (Exim 4.71)
+	(envelope-from <john@thumper.dhh.gt.org>)
+	id 1O42Ls-00030D-RO
+	for debian-user@lists.debian.org; Mon, 19 Apr 2010 20:34:12 -0500
+From: John Hasler <jhasler@debian.org>
+To: debian-user@lists.debian.org
+Subject: Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?
+Organization: Dancing Horse Hill
+References: <p2q631fe46c1004151106k67c61faxe809a17d576affef@mail.csmining.org>
+	<h2l631fe46c1004151802r92941076qf14c0f8bacbb76de@mail.csmining.org>
+	<4BC934A7.3050808@web.de>
+	<slrnhsjcc4.bu7.liam.p.otoole@dipsy.selfip.org>
+	<4BCCC8EB.8000702@web.de> <4BCCCC25.9000401@cox.net>
+	<4BCCD26B.4020408@web.de>
+	<1271725695.3636.3.camel@debian.ok.shawcable.net>
+Date: Mon, 19 Apr 2010 20:34:12 -0500
+In-Reply-To: <1271725695.3636.3.camel@debian.ok.shawcable.net> (Alan Ianson's
+	message of "Mon, 19 Apr 2010 18:08:15 -0700")
+Message-ID: <871veagb57.fsf@thumper.dhh.gt.org>
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.1 (gnu/linux)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gKRb2wjCE7M.A.1QF.LiQzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574504
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 01:51:07 +0000 (UTC)
+
+Alan Ianson writes:
+> All the stuff at debian-multimedia can't be included in debian for
+> various reasons, mostly freedom I think, so you won't find it in
+> debian at all. It's made for debian but it isn't debian.
+
+Most of it is Free Software but encumbered by actively-enforced
+patents.  d-mm.o has a non-free section for non-free stuff.
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/871veagb57.fsf@thumper.dhh.gt.org
+
+

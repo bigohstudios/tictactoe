@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId12897f57839bf812
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs39914wfo;
+        Fri, 14 May 2010 10:56:07 -0700 (PDT)
+Received: by 10.223.99.78 with SMTP id t14mr1995721fan.85.1273859766526;
+        Fri, 14 May 2010 10:56:06 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f1si6382448fai.79.2010.05.14.10.56.05;
+        Fri, 14 May 2010 10:56:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CEE7613A5497; Fri, 14 May 2010 17:56:03 +0000 (UTC)
+Old-Return-Path: <debian@carewolf.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E09F813A5233
+	for <lists-debian-kde@liszt.debian.org>; Fri, 14 May 2010 17:55:57 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nZUHdGqHIVPu for <lists-debian-kde@liszt.debian.org>;
+	Fri, 14 May 2010 17:55:50 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from fitch7.uni2.net (fitch7.uni2.net [129.142.225.149])
+	by liszt.debian.org (Postfix) with ESMTP id 98FBB13A4953
+	for <debian-kde@lists.debian.org>; Fri, 14 May 2010 17:55:50 +0000 (UTC)
+Received: from princess.localnet (unknown [129.142.143.67])
+	by fitch7.uni2.net (Postfix) with ESMTP id 3E1912A17DB3
+	for <debian-kde@lists.debian.org>; Fri, 14 May 2010 19:55:48 +0200 (CEST)
+From: Allan Sandfeld Jensen <debian@carewolf.com>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 upgrade eats 141 MB of /home
+Date: Fri, 14 May 2010 19:55:45 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.32-4-686-bigmem; KDE/4.4.3; i686; svn-1117436; 2010-04-17)
+References: <20100512005320.GA16379@club.cc.cmu.edu> <201005141837.20338.debian@carewolf.com> <201005141210.40689.bss@iguanasuicide.net>
+In-Reply-To: <201005141210.40689.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005141955.46390.debian@carewolf.com>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Nvol1ivS5iH.A.GnG.z6Y7LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32443
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 17:56:03 +0000 (UTC)
+
+On Friday 14 May 2010, Boyd Stephen Smith Jr. wrote:
+> On Friday 14 May 2010 11:37:19 Allan Sandfeld Jensen wrote:
+> > On Thursday 13 May 2010, Nicolas Alvarez wrote:
+> > > There *has* to be a better way to clean an HTTP cache than to stat
+> > > every single file in the cache to then delete a tiny fraction of them.
+> > > Someone told me 4.4 improved in this area, but I don't know specifics,
+> > > and remain skeptical.
+> > 
+> > If stat updates the files' atime, you may get a lot better performance by
+> > simply mounting the relevant partition with relatime or noatime (which
+> > for some reason is still not default).
+> 
+> noatime "breaks" a few applications.  I recommend against it.
+> 
+> I've not seen similar issues with relatime, although it is theoretically
+> possible.  I mount using relatime, normally.
+
+It breaks mutt, relatime was invented to fix the mutt issue. A lot of netbooks 
+and machines with only SSDs use noatime now, if noatime broke anything serious 
+at any point, those issues will have been solved by now, SSDs have been out 
+for some time and they need noatime.
+
+Also possibly if you don't like the mount flags:
+chattr -R +A /var/tmp
+
+Also add
+chattr -R +A $KDEHOME
+
+The later is good for the config files.
+
+`Allan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005141955.46390.debian@carewolf.com
+
+

@@ -1,0 +1,24 @@
+Debian Etch n half hd-mediaHi,
+
+I am looking for the hd-media installer files for Etch n half release. Are they still available somewhere?
+
+For etch they are there for ex: [1]
+
+I couldn't find them for etch n half.
+
+(I have seen the warning on top of [2] but I need to install etch n half)
+
+Thanks,
+
+Loris
+
+[1]: http://ftp.us.debian.org/debian/dists/etch/main/installer-i386/current/images/hd-media/
+[2]: http://www.debian.org/releases/etch/debian-installer/etchnhalf
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061134.58285.lboillet69@csmining.org
+
+

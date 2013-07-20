@@ -1,0 +1,170 @@
+X-Account-Key: account5
+X-UIDL: GmailId128463fceb91baa3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs201453wfj;
+        Wed, 28 Apr 2010 14:08:27 -0700 (PDT)
+Received: by 10.87.64.29 with SMTP id r29mr653958fgk.6.1272488906402;
+        Wed, 28 Apr 2010 14:08:26 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h2si440862fkh.55.2010.04.28.14.08.25;
+        Wed, 28 Apr 2010 14:08:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 933FF13A4AB4; Wed, 28 Apr 2010 21:08:15 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1495013A4A6C
+	for <lists-debian-user@liszt.debian.org>; Wed, 28 Apr 2010 21:08:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id bd0cAaZcvhZ3 for <lists-debian-user@liszt.debian.org>;
+	Wed, 28 Apr 2010 21:08:01 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id C8B5613A4A33
+	for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 21:07:55 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O7EU0-0004B6-BO
+	for debian-user@lists.debian.org; Wed, 28 Apr 2010 23:07:48 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 23:07:48 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 23:07:48 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: asignar hora a PC
+Date: Wed, 28 Apr 2010 21:07:36 +0000 (UTC)
+Lines: 78
+Message-ID: <pan.2010.04.28.21.07.36@csmining.org>
+References: <pan.2010.04.28.06.16.20@csmining.org>
+	<1930286533.50658.1272461303863.JavaMail.root@md01.wow.synacor.com>
+	<20100428151415.GA6696@bavaria.univ-lyon1.fr>
+	<pan.2010.04.28.16.11.38@csmining.org> <20100428195032.GA4576@isar.localhost>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <aa4JEh8hJGO.A.-yE._OK2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575396
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 28 Apr 2010 21:08:15 +0000 (UTC)
+
+On Wed, 28 Apr 2010 21:50:32 +0200, Florian Kulzer wrote:
+
+> On Wed, Apr 28, 2010 at 16:11:38 +0000, Camaleón wrote:
+
+>> > I would say it is d) "all of the above". If you understand Spanish,
+>> > see for yourself:
+>> > 
+>> > http://lists.debian.org/debian-user/2009/09/msg01806.html
+>> 
+>> That's unfair. I would not judge a user by just one post.
+> 
+> I would say that depends on the post. In any case, I am judging this
+> particular user on his overall posting history here on d-u, which began
+> long before the one mail to which I linked (which is just the most
+> drastic manifestation of his general attitude).
+
+
+You cannot condemn an actitute that is not being perceived by the user. 
+And I don't think the OP knows what is he doing.
+ 
+
+>> You must know that the Spanish list can be sometimes a bit
+>> "un-pleasant" so I even could understood that overreaction.
+> 
+> He did not quote any mails of others that would justify his rudeness and
+> blatant lack of concern for the mailing list code of conduct.
+
+
+Yes, it is quoted, badly, but quoted. 
+
+If you were a frequent user of the Spanish mailing list, you would have 
+noticed that many of the posts are directed not to the list but to the 
+users own e-mail address >:-)
+
+
+>> I think many people here is not fully aware about the technological
+>> limitations some users have to live with and treating such users as
+>> just "nuts" is quite unjust, to say the least.
+> 
+> Just and unjust is in the eye of the beholder. I was trying to make a
+> much more straightforward point: If enough people continue to reward a
+> certain behavior then it is likely that there will be an increase in the
+> occurrence of this very behavior. Case in point: Our friend has just
+> posted another Spanish message to d-u.
+
+
+I know him from the Spanish mailing list so, as he barely replies to the 
+people who is giving some advice, I stopped from replying to his posts 
+some time ago ;-)
+
+Look, every time he posts to the Spanish mailing list, it duplicates the 
+same message here. And note the *sending* time:
+
+***
+Original-Received: from cronos by gecgr.co.cu (MDaemon PRO v9.0.4)
+with ESMTP id md50000092215.msg for <debian-user-
+spanish@lists.debian.org>; Wed, 28 Apr 2010 14:12:35 -0500
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+***
+Original-Received: from cronos by gecgr.co.cu (MDaemon PRO v9.0.4)
+with ESMTP id md50000092214.msg for <debian-user@lists.debian.org>; Wed, 
+28 Apr 2010 14:11:59 -0500
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+***
+
+There is just an interval of *35 seconds* between one mail and the other! 
+Wow, that is *so fast* if you are sending two different messages (to one 
+list and the other) because if you carefully review the e-mail headers, 
+the mailing list address is displayed in "To" field, in both cases. Not 
+"CC" nor "BCC".
+
+Anyway... who cares? Me not :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.28.21.07.36@csmining.org
+
+

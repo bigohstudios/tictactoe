@@ -1,0 +1,40 @@
+Re: Slowing down the mouse speedOn Sunday 16 May 2010 14:37:45 James Stuckey wrote:
+> Hello,
+>=20
+> How do I control how fast my mouse moves/accelerates? I'd like to have to
+> move it more than a half inch before it has crossed the entire width of my
+> screen.
+>=20
+> I've used "xset m 0 0" but it still moves very fast.
+>=20
+
+I have not experienced this specific problem, but yesterday I installed gpm
+(General Purpose Mouse) in the course of fixing another problem, and I
+noticed that among its command line options there is:
+
+    -r number
+           Set  the responsiveness as a percentage of motion (1 to 100, def=
+ault
+           10). A lower number can be used to slow down cursor motion, this=
+ can
+           not be used to make a mouse move faster, see =E2=80=98-a=E2=80=
+=99.
+
+I am now running the mouse in KDE via gpm as described in my message
+http://lists.debian.org/debian-user/2010/05/msg01389.html
+and at the end of the FAQ entry
+http://wiki.debian.org/XStrikeForce/FAQ#lefthandmouse
+
+Experimenting with gpm yesterday and today, it does not seem to respond to
+command line instructions, only to what is in /etc/gpm.conf.
+
+Best regards,
+Chris Austin.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005161523.48348.chrisaustin@ukonline.co.uk
+
+

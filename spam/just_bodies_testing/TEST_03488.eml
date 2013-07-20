@@ -1,0 +1,41 @@
+Re: KDE 4.4.3 upgrade eats 141 MB of /homeFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 14 May 2010 12:55:45 Allan Sandfeld Jensen wrote:
+> On Friday 14 May 2010, Boyd Stephen Smith Jr. wrote:
+> > noatime "breaks" a few applications.  I recommend against it.
+> >
+> > I've not seen similar issues with relatime, although it is theoretically
+> > possible.  I mount using relatime, normally.
+>=20
+> It breaks mutt, relatime was invented to fix the mutt issue. A lot of
+>  netbooks and machines with only SSDs use noatime now, if noatime broke
+>  anything serious at any point, those issues will have been solved by now,
+>  SSDs have been out for some time and they need noatime.
+
+SSDs marketed for HD replacement do not need noatime.  They have re-write=20
+limits such that, if written to at maximum speed for the lifetime of a=20
+comparable HD, less than the number of reserved cells would fail and no dat=
+a=20
+would be lost.  They are roughly 1.5 orders of magnitude more durable than=
+=20
+"thumbdrives" -- they have to be to stand a MS Windows page file or a Linux=
+=20
+swap partition/file.
+
+noatime can increase performance, it does so by breaking the expectations o=
+f=20
+at least mutt (possibly others).  atime updates are a normal expectation,=20
+since they've been included in the documentation of dozens of UNIX system=20
+calls since before standardization started on POSIX.
+
+relatime is a much better alternative and is roughly equivalent to the OS=20
+deciding to combine atime updates, which is explicitly allowed by the=20
+standards.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

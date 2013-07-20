@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288d686a61ff84d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs2329wfo;
+        Wed, 12 May 2010 09:45:52 -0700 (PDT)
+Received: by 10.223.101.4 with SMTP id a4mr8472422fao.71.1273682750067;
+        Wed, 12 May 2010 09:45:50 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e15si887288fai.75.2010.05.12.09.45.49;
+        Wed, 12 May 2010 09:45:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4840913A4656; Wed, 12 May 2010 16:45:47 +0000 (UTC)
+Old-Return-Path: <schwarzerf@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 64F4013A4647
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 16:45:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 5DzC3wdqU1Nv for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 16:45:33 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id D555E13A4636
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 16:45:33 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so275682fxm.6
+        for <debian-kde@lists.debian.org>; Wed, 12 May 2010 09:45:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=3hP0HI5QqyoLMLRZ+jHUXeRY6Am1hMOjFQ9AOqVEUow=;
+        b=mZZe/QMf35nScDc1l9a2ZERMPNw4F2ZJWQ34Z9ohIu6Zq+pOSiDKZ6EkgZbIvdaAQZ
+         HtakhxzhAUbaxjbcsBI9tVlEO1OpxaDUcHYCcY6sT7DhFNjIiDbDCXW2P3xFLOAXnra+
+         VdboTehcBCJr8Fw3D6OctZ182hQcCYuFuJU0c=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+         :content-type:content-transfer-encoding:message-id;
+        b=OTSnaoYeinUTL+q8v3w0iRtFe6Y6meA0mmbdHBKme2+voT/RuQsPgDhN+sjJL4wgB8
+         1F0ktzEhtzHMRsfkfgrB/HV7gUyKqFfWMANvRH9fPs+Jm5F+OA9aQDaP1BEGwVc6tJwz
+         2BqVArFfaImGHEiXyF8szsL//oR2ggAEhWkdU=
+Received: by 10.223.33.218 with SMTP id i26mr8524833fad.58.1273682728047;
+        Wed, 12 May 2010 09:45:28 -0700 (PDT)
+Received: from tamaki.localnet (g225223177.adsl.alicedsl.de [92.225.223.177])
+        by mx.google.com with ESMTPS id g10sm1456337fai.12.2010.05.12.09.45.26
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 12 May 2010 09:45:27 -0700 (PDT)
+From: Frederik Schwarzer <schwarzerf@csmining.org>
+To: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 upgrade eats 141 MB of /home
+Date: Wed, 12 May 2010 18:45:25 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-fs; KDE/4.4.3; i686; ; )
+References: <20100512005320.GA16379@club.cc.cmu.edu> <201005121709.19874.christoph.burgmer@stud.uni-karlsruhe.de> <201005121828.35294.suy@badopi.org>
+In-Reply-To: <201005121828.35294.suy@badopi.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <201005121845.25780.schwarzerf@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <95Rx4wCTtkN.A.k-F.7st6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32423
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 16:45:47 +0000 (UTC)
+
+[Alejandro Exojo - Mittwoch 12 Mai 2010 18:28:35]=20
+> El Mi=E9rcoles, 12 de Mayo de 2010, Christoph Burgmer escribi=F3:
+> > Am Mittwoch, 12. Mai 2010 schrieb Alejandro Exojo:
+> > > I think that disk usage is an issue in most software, not just KDE ap=
+ps.
+> > > For example, look at ~/.thumbnails, and you will see that is probably
+> > > filled with many thumbnails of images that you deleted long ago or th=
+at
+> > > you saw just once. Same thing for apps that store some data about all
+> > > files that you open, without limit and without expiration.
+> >
+> > You can tell Gwenview to remove .thumbnails on exit.
+>=20
+> The point of .thumbnails to be created, I thought it was to have the scal=
+ed=20
+> images already generated. If I did this, what's the point of having this=
+=20
+> directory?
+
+If you want to have these images there in case they are needed, keep the
+folder, if disk space is more important than loading speed, remove it
+regularily.
+
+Regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005121845.25780.schwarzerf@csmining.org
+
+

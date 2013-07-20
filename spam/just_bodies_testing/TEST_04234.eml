@@ -1,0 +1,98 @@
+Re: Mail errors or attacks?On 25/05/2010 16:58, David Baron wrote:
+> On Monday 24 May 2010 22:57:12 debian-user-digest-request@lists.debian.org
+> wrote:
+>>> I get a zillion of these, every single day, about every 5 minutes or so:
+>>>
+>>>
+>>> 2010-05-24 15:05:38 SMTP call from localhost (dovidhalevi) [127.0.0.1]
+>>> dropped: too many syntax or protocol errors (last command was "MAIL
+>>> FROM:<jameswellington000.org@[71.121.223.194]>  SIZE=8814")
+>>
+>>          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>
+>>> I am running exim4 heavy on a Sid box.
+>>>
+>>>
+>>>
+>>> Exim shows no stuck messages or such. How can I stop this?
+>>
+>> It is a spamer...
+>>
+>> It it is always the same IP, add it to the backlist
+>
+> How do I do this obvious task? In exim? I have fail2ban as well but this is
+> not catching this one.
+
+Hello,
+
+You could try this as root :
+
+# cd /etc/exim4
+
+# touch local_host_blacklist
+
+# touch local_host_whitelist
+
+# touch local_sender_blacklist
+
+# touch local_sender_whitelist
+
+# chown root:Debian-exim local_*
+
+# chmod 640 local_*
+
+I've created these files on my Debian Lenny box and they work very well. 
+For the 'local_host_blacklist' file I add entries such as :
+
+*.spammer.host
+xxx.xxx.xxx.x/24
+xxx.xxx.xxx.xxx
+
+For the 'local_sender_blacklist' I add entries such as :
+
+*@spammer.example
+*@spamoverload.invalid
+!crisisofconscience@spamoverload.invalid
+
+In the above example the last entry would be an exception and would not 
+be blocked. Alternatively I could add that entry to 
+'local_sender_whitelist' for the same effect.
+
+
+Also check out this web page for some really in-depth examples of spam 
+filtering with Exim :
+
+http://www.sput.nl/software/exim.html
+
+
+When trying out new filters you can use 'warn' instead of 'deny' which 
+will just add a header to the email message rather than reject it at 
+SMTP time. The header inserted is the contents of the 'message' line :
+
+warn
+   message = XHeader1: This mail failed on spam test 1.
+
+.. rest of acl ...
+
+
+Hope this helps.
+
+Regards,
+
+Pete.
+
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFC16A3.6030709@nrth.org
+
+

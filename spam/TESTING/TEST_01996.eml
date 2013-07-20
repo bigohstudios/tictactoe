@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285ef70f95ee75d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs230944wfj;
+        Mon, 3 May 2010 09:19:31 -0700 (PDT)
+Received: by 10.87.9.11 with SMTP id m11mr10678158fgi.73.1272903569364;
+        Mon, 03 May 2010 09:19:29 -0700 (PDT)
+Return-Path: <bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id h2si9203485fkh.25.2010.05.03.09.19.26;
+        Mon, 03 May 2010 09:19:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D543213A44E6; Mon,  3 May 2010 16:19:25 +0000 (UTC)
+Old-Return-Path: <prab9062@dataone.in>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.8 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_IN_SORBS_WEB autolearn=failed version=3.2.5
+X-Original-To: lists-debian-volatile@liszt.debian.org
+Delivered-To: lists-debian-volatile@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id F1F9113A44DC
+	for <lists-debian-volatile@liszt.debian.org>; Mon,  3 May 2010 16:19:19 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-6.381 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_IN_SORBS_WEB=0.619]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id W8dmydc6Rq4u
+	for <lists-debian-volatile@liszt.debian.org>;
+	Mon,  3 May 2010 16:19:12 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 302 seconds by postgrey-1.31 at liszt; Mon, 03 May 2010 16:19:12 UTC
+Received: from ndabbmr1.dataone.in (ndabbmr1-a-fixed.dataone.in [218.248.240.99])
+	by liszt.debian.org (Postfix) with ESMTP id B367B13A44D8
+	for <debian-volatile@lists.debian.org>; Mon,  3 May 2010 16:19:12 +0000 (UTC)
+Received: from conversion-daemon.ndabbmr1.dataone.in by ndabbmr1.dataone.in
+ (Sun Java System Messaging Server 6.2-6.01 (built Apr  3 2006))
+ id <0L1U00F01PO2CD00@ndabbmr1.dataone.in>
+ (original mail from prab9062@dataone.in) for debian-volatile@lists.debian.org;
+ Mon, 03 May 2010 21:43:45 +0530 (IST)
+Received: from [59.93.223.108] by ndabbmr1.dataone.in
+ (Sun Java System Messaging Server 6.2-6.01 (built Apr  3 2006))
+ with ESMTPA id <0L1U000COQESY6M0@ndabbmr1.dataone.in> for
+ debian-volatile@lists.debian.org; Mon, 03 May 2010 21:43:45 +0530 (IST)
+Date: Mon, 03 May 2010 21:43:18 +0530
+From: naths <prab9062@dataone.in>
+Subject: Updated clamav version
+To: debian-volatile@lists.debian.org
+Message-id: <1272903198.4895.37.camel@arkodebian.arko.com>
+MIME-version: 1.0
+X-Mailer: Evolution 2.28.3
+Content-type: text/plain; charset=UTF-8
+Content-transfer-encoding: 7BIT
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gRGtWpNQeFD.A.pLH.Nev3LB@liszt>
+Resent-From: debian-volatile@lists.debian.org
+X-Mailing-List: <debian-volatile@lists.debian.org> archive/latest/1306
+X-Loop: debian-volatile@lists.debian.org
+List-Id: <debian-volatile.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-volatile/>
+List-Post: <mailto:debian-volatile@lists.debian.org>
+List-Help: <mailto:debian-volatile-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 16:19:25 +0000 (UTC)
+
+Hi,
+debian-volatile team
+
+I upgraded with aptitude on 02.04.10 for my 'squeeze'.
+then try for dist-upgrade and found, ( as unable to upgrade clamav)
+The following packages have unmet dependencies:
+  libclamav6: Depends: libltdl3 (>= 1.5.2-2) which is a virtual package.
+and with no solution.
+I have in my source.list as,
+deb http://volatile.debian.org/debian-volatile lenny/volatile main
+contrib non-free.
+I have now clamav-0.95.3+dfsg-1 and had no problem with updation.
+Can we use upgraded clamav in future?
+
+regards,
+
+ 
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272903198.4895.37.camel@arkodebian.arko.com
+
+

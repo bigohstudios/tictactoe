@@ -1,0 +1,186 @@
+X-Account-Key: account5
+X-UIDL: GmailId128976ff1f904f99
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs33074wfo;
+        Fri, 14 May 2010 08:30:16 -0700 (PDT)
+Received: by 10.223.65.18 with SMTP id g18mr1852629fai.32.1273851015673;
+        Fri, 14 May 2010 08:30:15 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z20si6132943fah.8.2010.05.14.08.30.15;
+        Fri, 14 May 2010 08:30:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@whereareyounow.net
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 87C2A13A558A; Fri, 14 May 2010 15:30:07 +0000 (UTC)
+Old-Return-Path: <invitation@whereareyounow.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: ***
+XStatus: No, score=3.2 required=4.0 tests=DATING,FOURLA,
+	HTML_IMAGE_ONLY_24,HTML_MESSAGE,MDO_DATING2 autolearn=no version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9693213A507F
+	for <lists-debian-security@liszt.debian.org>; Fri, 14 May 2010 15:13:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=3.752 tagged_above=-10000 required=5.3
+	tests=[DATING=1, FOURLA=0.1, HTML_IMAGE_ONLY_24=1.552, HTML_MESSAGE=1,
+	MDO_DATING2=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 62TDQFx-K2Sb
+	for <lists-debian-security@liszt.debian.org>;
+	Fri, 14 May 2010 15:13:17 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .whereareyounow. - helo: .mail151.wayn. - helo-domain: .wayn.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+X-Greylist: delayed 131654 seconds by postgrey-1.31 at liszt; Fri, 14 May 2010 15:13:17 UTC
+Received: from mail151.wayn.net (mail151.wayn.net [193.169.121.151])
+	by liszt.debian.org (Postfix) with SMTP id 5E36C13A5073
+	for <debian-security@lists.debian.org>; Fri, 14 May 2010 15:13:11 +0000 (UTC)
+Received: from mail151.wayn.net[127.0.0.1] by mail151.wayn.net[127.0.0.1]
+  (SMTPD32); Fri, 14 May 2010 16:13:17 +0100
+DKIM-Signature: v=1; a=rsa-sha1; c=simple/simple;
+  s=default;d=whereareyounow.net;
+  h=message-id:from:to:subject:date:mime-version:content-type;
+  bh=MqZO1zRcxjtKu6U5KrhZPH3w5n8=;
+  b=Qb2LWZx09cogTbrmUMy3EIk3aDn/LiRgpOQsE3VyCgu7LLBGWGMOH9w7KUAy1ks36sWU1LIG77KbpnBdXsulgg==
+DomainKey-Signature: a=rsa-sha1; q=dns; c=simple;
+  s=default;d=whereareyounow.net;
+  h=message-id:from:to:subject:date:mime-version:content-type;
+  b=kVIJ2Z+6KRofw2t23CZZOxO77cioXcMAauhGYzA2jMjlnPR4cS3H0ifGqtJNr3ErKfdjxKKaUxjut28vPDMdWg==;
+X-WSMTPID: 2231966-100514-161308
+X-WSMTPMK: 78855838
+X-WSMTPCK: 125
+X-WSMTPRK: 502272990
+X-WSMTPDBTS: 2010-05-14 15:58:08
+Message-ID: <998d596675ce9b059b65ea84010c8cc3@whereareyounow.net>
+From: "=?utf-8?B?V0FZTi5jb20gLSBKb3PDqSBIZW5yaXF1ZSBCIFNlbnRvIFPDqSBpbnZp?=
+	=?utf-8?B?dGF0aW9u?=" <invitation@whereareyounow.net>
+To: <debian-security@lists.debian.org>
+Subject: =?utf-8?B?Sm9zw6kgSGVucmlxdWUgQiBTZW50byBTw6kgaGFzIHNlbGVjdGVkIHlv?=
+	=?utf-8?B?dSB0byBqb2luIGhpbSBvbiBXQVlO?=
+Date: Fri, 14 May 2010 16:13:08 +0100
+X-Priority: 3
+X-Mailer: WSMTP Mailer
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=SPLITOR00A_001_46920641D"
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Au29CBHYdNB.A.ExH._xW7LB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23811
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 15:30:07 +0000 (UTC)
+
+This is a multi-part message in MIME format.
+
+------=SPLITOR00A_001_46920641D
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Debian-Security,
+
+Jos=C3=A9 Henrique B Sento S=C3=A9 invited you to join him on WAYN (Where =
+Are You Now?)
+
+Connect with Jos=C3=A9 Henrique B Sento S=C3=A9:
+http://www.wayn.com/-/19403-ejq3fn?m=3D18958283&c=3D502272990&v=3D4E6D6AE7
+
+Regards,
+The WAYN Team
+
+
+--------------
+Share what you love doing -- Meet like-minded people -- Make fun things =
+happen!
+
+To stop receiving add friend requests from Jos=C3=A9 Henrique B Sento =
+S=C3=A9, click here:
+http://www.wayn.com/-/19405-ejq3fn?m=3D18958283&c=3D502272990
+
+To stop receiving any notifications from WAYN, click here:
+http://www.wayn.com/-/19406-ejq3fn?c=3D502272990
+
+
+------=SPLITOR00A_001_46920641D
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>WAYN Dating Invite</title>
+<meta http-equiv=3D"Content-type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body style=3D"width:100%; =
+background-color:white"><table><tr><td>&nbsp;</td><td =
+style=3D"width:600px"><table cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"width:600px; background-color:white"><tr><td =
+width=3D"10">&nbsp;</td><td style=3D"width:580px; font:bold 14px =
+Arial,Helvetica,sans-serif; color:#414244">Hi Debian-Security,</td><td =
+width=3D"10">&nbsp;</td>
+</tr><tr><td colspan=3D"3" style=3D"width:600px; =
+font-size:10px">&nbsp;</td></tr><tr><td width=3D"10">&nbsp;</td><td =
+width=3D"580" align=3D"left" valign=3D"top" style=3D"font:12px =
+Arial,Helvetica,sans-serif; color:#414244; line-height:130%">
+Jos=C3=A9 Henrique B Sento S=C3=A9 invited you to join him on WAYN (Where =
+Are You Now?)<br><br><a =
+href=3D"http://www.wayn.com/-/19403-ejq3fn?m=3D18958283&amp;c=3D502272990&a=
+mp;v=3D4E6D6AE7" target=3D"_blank">Connect with Jos=C3=A9 Henrique B Sento =
+S=C3=A9</a>
+</td><td width=3D"10">&nbsp;</td>
+</tr><tr><td width=3D"10">&nbsp;</td><td style=3D"width:580px; font:12px =
+Arial,Helvetica,sans-serif; color:#414244; =
+line-height:130%"><br>Regards,<br>The WAYN Team<br><br>&nbsp;</td><td =
+width=3D"10">&nbsp;</td>
+</tr><tr><td colspan=3D"3" style=3D"width:600px; border-top:1px solid =
+#7c7c82; font-size:6px">&nbsp;</td></tr><tr><td =
+width=3D"10">&nbsp;</td><td width=3D"580" style=3D"font:12px =
+Arial,Helvetica,sans-serif; color:#a0a0a2; line-height:130%">
+Share what you love doing &mdash; Meet like-minded people &mdash; Make fun =
+things happen!<br><a =
+href=3D"http://www.wayn.com/-/19404-ejq3fn?m=3D18958283&amp;c=3D502272990&a=
+mp;v=3D4E6D6AE7" target=3D"_blank" style=3D"color:#7c7c82">Learn =
+more</a><br><br><span style=3D"font-size:11px">To stop receiving add =
+friend requests from Jos=C3=A9 Henrique B Sento S=C3=A9, <a =
+href=3D"http://www.wayn.com/-/19405-ejq3fn?m=3D18958283&amp;c=3D502272990" =
+target=3D"_blank" style=3D"color:#7c7c82">click here</a><br>To stop =
+receiving any notifications from WAYN, <a =
+href=3D"http://www.wayn.com/-/19406-ejq3fn?c=3D502272990" =
+target=3D"_blank" style=3D"color:#7c7c82">click here</span>
+</td><td width=3D"10">&nbsp;</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<img src=3D"http://www.wayn.com/px/19402-ejq3fn" width=3D"1" height=3D"1" =
+alt=3D".">
+</body>
+</html>
+
+
+------=SPLITOR00A_001_46920641D--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/998d596675ce9b059b65ea84010c8cc3@whereareyounow.net
+
+

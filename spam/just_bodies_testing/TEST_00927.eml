@@ -1,0 +1,14 @@
+xorg synaptics driver no longer working with udev?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi list,
+
+After a large set of updates today on testing, xorg no longer picks up
+my udev rules file. A few months ago hal stopped working, as a change to
+udev was required (see also the list history for several threads on that
+topic). Now, udev stopped working? Did I miss any change to xorg
+behaviour? I'm using the latest xorg and kdm/kde on testing.
+
+Sjoerd
+

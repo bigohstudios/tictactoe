@@ -1,0 +1,145 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c6d7cd512ee5e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs64342wfo;
+        Sun, 23 May 2010 13:25:52 -0700 (PDT)
+Received: by 10.223.144.84 with SMTP id y20mr3957249fau.78.1274646351143;
+        Sun, 23 May 2010 13:25:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b22si4648996fah.80.2010.05.23.13.25.50;
+        Sun, 23 May 2010 13:25:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0A63413A5054; Sun, 23 May 2010 20:25:42 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1C93B13A4A17
+	for <lists-debian-user@liszt.debian.org>; Sun, 23 May 2010 20:25:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6FUQjp2koaBH for <lists-debian-user@liszt.debian.org>;
+	Sun, 23 May 2010 20:25:28 +0000 (UTC)
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id DFCB713A4806
+	for <debian-user@lists.debian.org>; Sun, 23 May 2010 20:25:28 +0000 (UTC)
+Received: by fxm2 with SMTP id 2so311901fxm.6
+        for <debian-user@lists.debian.org>; Sun, 23 May 2010 13:25:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=IOX7CpmGJ1YSIeJPgo9h/pM939GIU+wdXT5KTlnHH2I=;
+        b=D9l81Hg9aTkLn6Cg0xrZvukDsPtQtacCb2Joe7gmowz4TANVLxMFefbrF0erhCbsvl
+         QecxL7xreMxkC4TSAX/X3TgwGU/Ij2BftQQ6DB2z3gjJ5Fr8RsUeVgRWEZb8esAEoxUM
+         A2rFgi+wcFCVj87SWG+5tlOZ4Ca9HHMqgsbrw=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=fUixw/7PVLLFzXpi82KB7CISNQFnjxvCiyp6N86BdQZi+xGDnVpo3xBATh/3ejw6/B
+         j6OUxTy6N2T3bUWJT8VKLOGLX2gy1XxGhEzS7NYHP1zvCEhU0s33xvYtuMD1maWMCTB1
+         Xs1IauNhRRsK63ChUcC8W4m0qneBjztAKVtoc=
+Received: by 10.102.240.16 with SMTP id n16mr3483635muh.100.1274646321185;
+        Sun, 23 May 2010 13:25:21 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id 23sm12311571mun.31.2010.05.23.13.25.20
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 23 May 2010 13:25:20 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id 5D8392020; Sun, 23 May 2010 23:25:19 +0300 (EEST)
+Date: Sun, 23 May 2010 23:25:19 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: kvm disk read error
+Message-ID: <20100523202519.GG18703@think.homelan>
+References: <20100522171622.479d0a05@windy.deldotd.com>
+ <20100523074652.GM29062@think.homelan>
+ <20100523124502.05c84c78@windy.deldotd.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="EdRE1UL8d3mMOE6m"
+Content-Disposition: inline
+In-Reply-To: <20100523124502.05c84c78@windy.deldotd.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tDa-8Cl0gjD.A.mqB.G9Y-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577467
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 20:25:42 +0000 (UTC)
+
+
+--EdRE1UL8d3mMOE6m
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun,23.May.10, 12:45:02, briand@aracnet.com wrote:
+>=20
+> WARNING: The character device /dev/vboxdrv does not exist.
+> 	 Please install the virtualbox-ose-dkms package and the
+> appropriate headers, most likely linux-headers-amd64.
+>=20
+> after spending a lot of time with the (incorrect) wiki page and
+> package search, I can't make it work.
+>=20
+> any advice ?
+
+Yes, install the virtualbox-ose-dkms package ;)
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--EdRE1UL8d3mMOE6m
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL+Y8vAAoJEHNWs3jeoi3pUEQH/Rh1Wqm0INfCuT+sAFxlcpc7
++svTlOdGAkbXCzc0wybTYzNxSwuLVXMVzN7QSgMxxVUXRUzjO3mF1PW4F1PqWpL0
+0Lu6wCdxicWZXJUY1ZpeqcR5/dVQiepLfq45KbMixv+wfElHGPIDmq3YsnpHCoI3
+xgVuj8HPe4JWtVcTQ21OTbcAIc2/YZxHTraD+R4X1gUneZJznFje8Bq6nMvknm6x
+C1tsznM4mtp3UbQvi1zllJiXtXeCN9MbbJBLUjVFYNUvY5hb+hit1rg2IGf9jLe4
+NOI5DMV1y0G1MEaMrESfVvtS+97HcCYjmpWqwMqLbEOGRT0Z7QA4+s6m8Xx43H0=
+=RPqK
+-----END PGP SIGNATURE-----
+
+--EdRE1UL8d3mMOE6m--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100523202519.GG18703@think.homelan
+
+

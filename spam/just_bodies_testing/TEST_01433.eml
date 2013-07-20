@@ -1,0 +1,42 @@
+Re: `Battery is now fully charged:' why do I receive this after having
+ unplugged the cable?From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Camale=C3=B3n wrote:
+> It looks not so normal to me.
+>  =20
+I am reassured.
+> But looking at Debian wiki for EEE systems it seems to be a known issue=
+=20
+> with power management:
+>
+> ***
+> http://wiki.debian.org/DebianEeePC/HowTo/Configure#Powermanagement
+>
+> Power management
+>
+> On some models, the battery info is not very precise (jumps from 10% to=
+=20
+> 100%, no rate information, etc.). Apparently, this is normal. It appear=
+s=20
+> that the userspace battery utilities expect the battery to report mAh, =
+
+> but in fact it reports percentage. This is either a bug in the battery =
+
+> firmware or a bug in the BIOS; it is known to be fixed with newer BIOS =
+
+> versions and kernels =E2=89=A5 2.6.25.=20
+> ***
+>  =20
+Sure, but I am using 2.6._26_-2-686 =E2=89=A5 2.6.25. Weird.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

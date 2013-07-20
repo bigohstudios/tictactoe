@@ -1,0 +1,33 @@
+Re: To switch usb-modem to modem-mode.Sthu Deus wrote:
+
+> Good day.
+> 
+> 
+> I have such a problem: I need to switch an usb-modem Huawei E1550 deom
+> cd-rom mode to modem modem. AFAIK usb-modeswitch utility can help me w/
+> this BUT! - it is not installable IMHO in stable repo. Even though I will
+> install it from testing - it will destroy my lovely KDE-3.5 and a huge
+> other packages. So, is there way for me for now - not when next release
+> will be released and not destroying so many packages - to switch the
+> modem?
+> 
+> May, here are the (usb-)modem experts that can help me how I can switch it
+> with the tools we have in the stable version?
+> 
+> 
+> Big thanks for advance and Your time.
+> 
+> PS Please, reply to the list.
+
+in worst case compile the code, but it will also probably need to upgrade
+the kernel. 
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrea4p$g72$2@dough.gmane.org
+
+

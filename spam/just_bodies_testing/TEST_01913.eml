@@ -1,0 +1,33 @@
+Re: use new apt to do null to RH8 upgrade?Matthias Saou (matthias@egwn.net) wrote*:
+>As Red Hat does, I really don't recommend trying to upgrade between betas
+>or from a beta to a final release either. Simply backup your /home, /etc
+>(and /root and/or /usr/local/ if needed) then reinstall cleanly, it'll
+>probably save a few hassles and you'll get the cleanest possible system ;-)
+>
+
+I think this is probably the best way, because I think (maybe) with upgrading you
+do not always automatically get the latest feature enabled in some config file
+because RH would rather take it easy and not update that config file (you get a
+rpmnew instead of rpmsaved file) so they get less calls to support that way.
+
+Anyway, I have tons of media files in /home/* probably 5 to 10 gigs at least, my
+laptop's CDROM takes 700MB at a time (obviously) and compressing media files is
+dumb because they are already compressed. Dumb question: how to backup huge data?
+Network backup to another box? I do not have a box with a tape drive, but maybe box
+with a large HD with much free space could take the backup (oops, I do not have a
+space computer with a large HD with much free space).
+
+These media files are backed up - ON THE CD'S THEY CAME FROM! Yes I learned that
+used CDs make inexpensive backup copy on the shelf. I do not want to re-rip all
+this crap again.
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

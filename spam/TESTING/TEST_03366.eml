@@ -1,0 +1,162 @@
+X-Account-Key: account5
+X-UIDL: GmailId128557cc167f8294
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs158864wfj;
+        Sat, 1 May 2010 13:09:20 -0700 (PDT)
+Received: by 10.223.5.13 with SMTP id 13mr2256891fat.68.1272744559082;
+        Sat, 01 May 2010 13:09:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si5618746fks.24.2010.05.01.13.09.18;
+        Sat, 01 May 2010 13:09:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B373613A4A42; Sat,  1 May 2010 20:09:13 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.5 required=4.0 tests=CAPINIT,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,MIME_BASE64_TEXT,SARE_MSGID_LONG45
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 43E5E13A4565
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 20:09:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.354 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	MIME_BASE64_TEXT=1.753, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Le7Qo4X7WPVa for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 20:09:00 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 06DB513A4717
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 20:09:00 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1069544fxm.6
+        for <debian-user@lists.debian.org>; Sat, 01 May 2010 13:08:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=1WKlJREeAfc22Zcou6lziPiWXTogymcNHyPZ/RCd1cw=;
+        b=rDvAyRD9aOxJY6IQJFdVNyCYYCFwkYNsdxBZC+KNKiHKvLc87lHujhIZXuqBEEFA+h
+         k4undCf8EdLazvLQNxDsOW8PxLtScfUa1Mr2og/4jhjYd0JT4rLmDtZhAhGxcaUcl7aq
+         JXvTpB7QPa1wI/R2YBYNtXljNkfhmrN5QCyVI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=DrLZbPCmEJA/2njYU2bh23pLa/i/2ieiXIt4Jw7PIKRiOZ15lrLZ7bxuGf9Lhlw+L6
+         e/hJQk7NJN6Mx9x+l6U4MLAxt8l+YRQMglgqXAzUEQ+LAqRKC8V6n2EDc3GQFfryZiuI
+         4c33oBX7kXe6CSdhAo+3rbrHsR4C5bGbt4G4o=
+MIME-Version: 1.0
+Received: by 10.223.24.85 with SMTP id u21mr2276073fab.8.1272744535246; Sat, 
+	01 May 2010 13:08:55 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Sat, 1 May 2010 13:08:55 -0700 (PDT)
+In-Reply-To: <m2gb36d43c31005010929vecc62fa4y9fe43d43280e125a@mail.csmining.org>
+References: <y2xb36d43c31004300328m9fe16e64ldeddc780a0dbb397@mail.csmining.org>
+	 <t2tb36d43c31004300416iee60aa51yf3e09092537243b6@mail.csmining.org>
+	 <201004301044.31771.bss@iguanasuicide.net>
+	 <g2kd0bf7b0b1004301018p3fb45806we1fd29cf33c2119d@mail.csmining.org>
+	 <o2u6d4219cc1004301026ma6bc698ft418cb39f162fb69@mail.csmining.org>
+	 <20100501034943.GC26444@emurlahn.burrows.local>
+	 <BAY148-w32EA0F9C959F48DED8105DEFF00@phx.gbl>
+	 <j2r6d4219cc1004302146t8aeac35ax923069b8544415d1@mail.csmining.org>
+	 <20100501052534.GI26444@emurlahn.burrows.local>
+	 <m2gb36d43c31005010929vecc62fa4y9fe43d43280e125a@mail.csmining.org>
+Date: Sat, 1 May 2010 22:08:55 +0200
+Message-ID: <y2hb36d43c31005011308z28b6de7as17437045a69d94b8@mail.csmining.org>
+Subject: Re: Aptitude Error
+From: James Stuckey <jhstuckey@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=001517447bb4e9c85104858ded4b
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tZl9D7l9PwJ.A.8LF.ppI3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575640
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 20:09:13 +0000 (UTC)
+
+--001517447bb4e9c85104858ded4b
+Content-Type: text/plain; charset=ISO-8859-1
+
+All of these searches return nothing:
+
+stuckey@debian:~/tmp$ apt-show-versions | grep unstable
+stuckey@debian:~/tmp$ aptitude search ~Aunstable
+stuckey@debian:~/tmp$ aptitude search ~Aunstable~i
+stuckey@debian:~/tmp$ aptitude search '?narrow(?archive(unstable),
+?installed)'
+
+I know something must be wrong here since:
+
+stuckey@debian:~$ dpkg -l | grep nvidia
+ii  nvidia-glx                           190.53-4
+NVIDIA binary Xorg driver
+rc  nvidia-glx-ia32                      190.53-4
+NVIDIA binary driver 32bit libs
+ii  nvidia-kernel-2.6.32-3-amd64         190.53-4+2.6.32-9
+NVIDIA binary kernel module for Linux 2.6.32-3-amd64
+ii  nvidia-kernel-common                 20100216+3+nmu1
+NVIDIA binary kernel module common files
+ii  nvidia-kernel-source                 190.53-4
+NVIDIA binary kernel module source
+ii  nvidia-settings                      190.53-1
+Tool for configuring the NVIDIA graphics driver
+ii  nvidia-vdpau-driver                  190.53-4
+NVIDIA vdpau driver
+
+I have the nvidia drivers, among other packages, from Sid.
+
+--001517447bb4e9c85104858ded4b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: base64
+
+QWxsIG9mIHRoZXNlIHNlYXJjaGVzIHJldHVybiBub3RoaW5nOjxicj48YnI+c3R1Y2tleUBkZWJp
+YW46fi90bXAkIGFwdC1zaG93LXZlcnNpb25zIHwgZ3JlcCB1bnN0YWJsZTxicj5zdHVja2V5QGRl
+Ymlhbjp+L3RtcCQgYXB0aXR1ZGUgc2VhcmNoIH5BdW5zdGFibGU8YnI+c3R1Y2tleUBkZWJpYW46
+fi90bXAkIGFwdGl0dWRlIHNlYXJjaCB+QXVuc3RhYmxlfmk8YnI+c3R1Y2tleUBkZWJpYW46fi90
+bXAkIGFwdGl0dWRlIHNlYXJjaCAmIzM5Oz9uYXJyb3coP2FyY2hpdmUodW5zdGFibGUpLCA/aW5z
+dGFsbGVkKSYjMzk7PGJyPgoKPGJyPkkga25vdyBzb21ldGhpbmcgbXVzdCBiZSB3cm9uZyBoZXJl
+IHNpbmNlOiA8YnI+PGJyPnN0dWNrZXlAZGViaWFuOn4kIGRwa2cgLWwgfCBncmVwIG52aWRpYTxi
+cj5paaAgbnZpZGlhLWdseKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDE5MC41My00oKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKAgTlZJRElBIGJpbmFyeSBYb3JnIGRyaXZlcjxicj5yY6AgbnZpZGlh
+LWdseC1pYTMyoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDE5MC41My00oKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKAgTlZJRElBIGJpbmFyeSBkcml2ZXIgMzJiaXQgbGliczxicj4KCmlpoCBudmlkaWEta2Vy
+bmVsLTIuNi4zMi0zLWFtZDY0oKCgoKCgoKAgMTkwLjUzLTQrMi42LjMyLTmgoKCgoKCgoKCgoKCg
+oCBOVklESUEgYmluYXJ5IGtlcm5lbCBtb2R1bGUgZm9yIExpbnV4IDIuNi4zMi0zLWFtZDY0PGJy
+PmlpoCBudmlkaWEta2VybmVsLWNvbW1vbqCgoKCgoKCgoKCgoKCgoKAgMjAxMDAyMTYrMytubXUx
+oKCgoKCgoKCgoKCgoKCgoCBOVklESUEgYmluYXJ5IGtlcm5lbCBtb2R1bGUgY29tbW9uIGZpbGVz
+PGJyPgoKaWmgIG52aWRpYS1rZXJuZWwtc291cmNloKCgoKCgoKCgoKCgoKCgoCAxOTAuNTMtNKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgIE5WSURJQSBiaW5hcnkga2VybmVsIG1vZHVsZSBzb3VyY2U8
+YnI+aWmgIG52aWRpYS1zZXR0aW5nc6CgoKCgoKCgoKCgoKCgoKCgoKCgoCAxOTAuNTMtMaCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgIFRvb2wgZm9yIGNvbmZpZ3VyaW5nIHRoZSBOVklESUEgZ3JhcGhp
+Y3MgZHJpdmVyPGJyPgoKaWmgIG52aWRpYS12ZHBhdS1kcml2ZXKgoKCgoKCgoKCgoKCgoKCgoCAx
+OTAuNTMtNKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIE5WSURJQSB2ZHBhdSBkcml2ZXI8YnI+PGJy
+PkkgaGF2ZSB0aGUgbnZpZGlhIGRyaXZlcnMsIGFtb25nIG90aGVyIHBhY2thZ2VzLCBmcm9tIFNp
+ZC48YnI+Cg==
+--001517447bb4e9c85104858ded4b--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2hb36d43c31005011308z28b6de7as17437045a69d94b8@mail.csmining.org
+
+

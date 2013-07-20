@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284a55635e73070
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs34075wfj;
+        Thu, 29 Apr 2010 09:10:34 -0700 (PDT)
+Received: by 10.87.53.28 with SMTP id f28mr1752828fgk.70.1272557429578;
+        Thu, 29 Apr 2010 09:10:29 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si1110731fks.12.2010.04.29.09.10.28;
+        Thu, 29 Apr 2010 09:10:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A757B13A4F17; Thu, 29 Apr 2010 16:09:15 +0000 (UTC)
+Old-Return-Path: <monique@mail.bounceswoosh.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.9 required=4.0 tests=LDO_WHITELIST,RDNS_NONE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 65BD613A4BC9
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 16:09:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RDNS_NONE=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wq7yoPdKZWuQ for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 16:09:01 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from mail.bounceswoosh.org (unknown [173.160.50.61])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 3753213A4AA4
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 16:09:00 +0000 (UTC)
+Received: from monique by mail.bounceswoosh.org with local (Exim 4.71 #1 (Debian))
+	id 1O7WPH-0004CU-KE
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 10:16:07 -0600
+Date: Thu, 29 Apr 2010 10:16:07 -0600
+From: "Monique Y. Mudama" <spam@bounceswoosh.org>
+To: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+Message-ID: <20100429161607.GG25336@mail.bounceswoosh.org>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <87633a5rwr.fsf@thumper.dhh.gt.org>
+ <1610864438.83570.1272549043508.JavaMail.root@md01.wow.synacor.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <1610864438.83570.1272549043508.JavaMail.root@md01.wow.synacor.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <dT_SqDYNEnF.A.YP.r8a2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575457
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 16:09:15 +0000 (UTC)
+
+On Thu, Apr 29 at  9:50, Stephen Powell penned:
+> 
+> I agree with John.  Stan must hobnob with an elite crowd.  I don't
+> have a UPS at home either, and I don't know anyone that does.  I do
+> have one at work, but even there most desktop systems aren't on it.
+> The only reason that my desktop system uses the UPS is that my
+> cubicle is on raised floor inside the computer room and I connected
+> it myself.  Most desktop users, even at the office, are not so
+> privileged.  And my employer is a very big entity, financially.
+> It's not a small business.
+
+I don't have one on my home workstation - I do on the server, and I keep
+anything important on it.  I've also found that UPSes can fail
+eventually, and you might not know until the brown-out from which it
+doesn't protect you.  I use ext3 on the server, which has fine
+erformance for my needs.  I use the OS Which Must Not Be Named on my
+workstation.
+
+(I don't have a good reason not to have a UPS on my workstation -
+basically laziness.)
+
+As far as I know, no one at my mid-sized company has a UPS on his or
+her workstation.  The expectation, again, is that important data goes
+on the fileserver, although for various reasons that expectation is
+not always correct.  We do have the option of requesting backups for
+particular directories on our workstations, but I think they're
+nightly at best.  I've actually asked about getting a UPS here and
+there, but given that no one else has one and that we rarely get
+brownouts, let alone blackouts, I haven't pushed the question.
+
+I do see a lot of non-techie people using laptops as their only
+computer; none of those people run linux or would recognize the term
+"filesystem."  Among the techie people I know (in the US, so relatively
+privileged), very few use a laptop as their primary computer; it's
+usually a supplement to a beefier desktop machine.
+
+But regardless, this is back to one of those eternal tradeoffs -
+performance vs. data integrity.  I see no reason I shouldn't use a UPS
+*and* a journalling filesystem when the performance of that filesystem
+is adequate for my needs.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429161607.GG25336@mail.bounceswoosh.org
+
+

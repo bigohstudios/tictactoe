@@ -1,0 +1,27 @@
+Re: Ximian apt repos?Lance (lance_tt@bellsouth.net) wrote*:
+>
+>well, from the looks of things, Evolution mail client isn't supported
+>just yet, so I reckon I'll wait a bit.  Whoever posted these gnome2 apt
+>repositories, thanks!!!
+>
+
+I'm uising Havoc Pennington's Gnomehide and it rocks. I installed it before I
+knew about apt, but one of the previous emails had an apt repository that
+claimed to have gnomehide. Just remember there is one kew file that makes the
+difference between Gnome1 and Gnome2 being used. I *think* it is "gnome-core"
+vs. "gnome-session" but I can not remember.
+
+Note that that those same files are probably in the Limbo beta, except
+updated. There has not been a major change to "gnomehide" in a while, I
+suspect Havoc's work went into Limbo then.
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

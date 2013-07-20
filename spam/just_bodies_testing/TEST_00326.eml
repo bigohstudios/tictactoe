@@ -1,0 +1,29 @@
+Re: Replace hardware without reinstall debian lenny> My debian server will soon get a complete new hardware (motherboard, cpu,
+> memory, stb.).
+> Have anybody a good idea how to replace the old computer without reinstall
+> the whole system?
+
+Yup: use your old disk in the new machine (or make a clone if you want
+to use a new disk).
+In 99% of the cases, it will pretty much work out of the box.  I've done
+that many times (I basically have made one Debian testing install, back
+in 2003 and then keep on cloning it to the new machines I get).
+Usually the things I bump into are:
+- different arch (e.g. if you want to use an amd64 kernel on your new
+  machine, but were using something else before).
+- /etc/udev/rules.d/70-persistent-* rules, which I just remove.
+- hardware specific tweaks you had made on the old hardware or that you
+  need on the new hardware.  Things like /etc/X11/xorg.conf (tho
+  nowadays an empty file works for most systems), /etc/modules, maybe
+  some firmware-* packages you need for the new hardware.
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwvfx1zbpvc.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

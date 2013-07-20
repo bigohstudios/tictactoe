@@ -1,0 +1,19 @@
+Aptitude From TestingFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Does it annoy anyone else that the 'aptitude' package no longer provides an=
+=20
+'aptitude' binary?
+
+Typing 'aptitude-curses' is a little annoying.  I'm assuming the rename is=
+=20
+because of work on aptitude-gtk and aptitude-qt.  If so, wouldn't using the=
+=20
+alternatives system for an 'aptitude' symlink make sense?
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

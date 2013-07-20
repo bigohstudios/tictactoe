@@ -1,0 +1,41 @@
+Re: Updating JRE in Lenny-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón wrote:
+
+> "update-alternatives" output shows that the wrong java plugin version is 
+> being picked (openJDK instead Sun's Java one).
+
+update-alternatives --config firefox-javaplugin.so now returns:
+
+There is only 1 program which provides firefox-javaplugin.so
+(/usr/lib/jvm/java-6-openjdk/jre/lib/i386/gcjwebplugin.so). Nothing to
+configure.
+
+This has been my problem all along -- how to get update-alternatives to
+recognize *any* alternative except the ones provided by debian packages,
+the one mentioned above, the sun-java6 6-12-1 set of packages and java-gcj.
+
+> If that does not work, you can try with the steps provided in Oracle/Sun 
+> site (manual way).
+
+Likely the next step, unless I can use the java version in
+lenny-backports non-free.
+
+Ken Heard
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvF7+MACgkQlNlJzOkJmTfYiwCeK41iw5IUefBHBVfGVWX5/QIn
+aTsAn040V9uA+a0cVxa6bg0f36Hw9D4+
+=BpLR
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5EFE4.4050304@heard.name
+
+

@@ -1,0 +1,28 @@
+Re: SIP Phone Alternatives2010/5/8 Leonardo Meira <serra.meira@csmining.org>:
+> Hi Everyone,
+>
+> In Lenny I use Twinkle to use my SIP phone account.
+> But in Squeeze I'd like to use another application in the place of Twinkle.
+> Preferentially a software better integrated to the KDE 4.x/Qt 4.x desktop
+> which is what I use.
+>
+> Any alternative? Please give me suggestions.
+
+I'm using QuteCom and I'm quite satisfied.
+
+http://packages.debian.org/squeeze/qutecom
+
+
+
+-- 
+Enrico Agliotti
+cell. +39-328-0517312
+tel. con segreteria: +39-011-23415553
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2n27cd7f901005071720g4993613bo403e0b90d1a5480f@mail.csmining.org
+
+

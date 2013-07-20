@@ -1,0 +1,122 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a832ec20953d6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs34485wfo;
+        Mon, 17 May 2010 14:37:09 -0700 (PDT)
+Received: by 10.142.56.21 with SMTP id e21mr988215wfa.327.1274132229456;
+        Mon, 17 May 2010 14:37:09 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 5si6957997pzk.84.2010.05.17.14.37.09;
+        Mon, 17 May 2010 14:37:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 3D4F31C8B4A8E
+	for <mlsubscriber.tech@csmining.org>; Mon, 17 May 2010 14:37:09 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 3867C27B52535
+	for <mlsubscriber.tech@csmining.org>; Mon, 17 May 2010 14:37:09 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id F0D6927B52114
+	for <quicktime-api@lists.apple.com>;
+	Mon, 17 May 2010 14:36:34 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id DFA1FD3B669F
+	for <quicktime-api@lists.apple.com>;
+	Mon, 17 May 2010 14:36:34 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-14-4bf1b6e1f18d
+Received: from 68.mail-out.ovh.net (68.mail-out.ovh.net [91.121.185.69])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	41.83.05834.2E6B1FB4; Mon, 17 May 2010 14:36:34 -0700 (PDT)
+Received: (qmail 20426 invoked by uid 503); 17 May 2010 21:41:54 -0000
+Received: from 63.mail-out.ovh.net (91.121.185.56)
+	by 68.mail-out.ovh.net with SMTP; 17 May 2010 21:41:54 -0000
+Received: (qmail 8007 invoked by uid 503); 17 May 2010 21:44:56 -0000
+Received: from b7.ovh.net (HELO mail401.ha.ovh.net) (213.186.33.57)
+	by 63.mail-out.ovh.net with SMTP; 17 May 2010 21:44:56 -0000
+Received: from b0.ovh.net (HELO queueout) (213.186.33.50)
+	by b0.ovh.net with SMTP; 17 May 2010 21:36:32 -0000
+Received: from ven34-2-82-238-144-56.fbx.proxad.net (HELO ?192.168.0.20?)
+	(jddupas@shadowlab.org@82.238.144.56)
+	by ns0.ovh.net with SMTP; 17 May 2010 21:36:30 -0000
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=iso-8859-1
+From: Jean-Daniel Dupas <devlists@shadowlab.org>
+In-Reply-To: <52615F85-A58F-4651-B97F-D2FA48782270@lacquer.fi>
+Date: Mon, 17 May 2010 23:36:29 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <2592269E-A8E2-44C7-B113-4CD979C2F49E@shadowlab.org>
+References: <52615F85-A58F-4651-B97F-D2FA48782270@lacquer.fi>
+To: Pauli Ojala <pauli@lacquer.fi>
+X-Mailer: Apple Mail (2.1078)
+X-Ovh-Tracer-Id: 13176969561788397830
+X-Ovh-Remote: 82.238.144.56 (ven34-2-82-238-144-56.fbx.proxad.net)
+X-Ovh-Local: 213.186.33.20 (ns0.ovh.net)
+XCheck: DONE|U 0.5/N
+X-Ovh-Tracer-Id: 13268167453524769104
+X-Brightmail-Tracker: AAAAAA==
+Cc: quicktime-api@lists.apple.com
+Subject: Re: Possible to access Y'CbCr frame data in 64-bit QTKit?
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+Le 17 mai 2010 =E0 19:13, Pauli Ojala a =E9crit :
+
+> I'm trying to port a QuickTime-based application to 64-bit. Because =
+visual contexts don't exist anymore, I've switched to using -[QTMovie =
+frameImageAtTime:withAttributes:error] to pull CVPixelBuffers from the =
+movie.
+>=20
+> The problem is that I can't figure out a way to specify the pixel =
+format for the created pixel buffers. QTMovie seems to always default to =
+ARGB (8 bits per channel). This is not really acceptable because the =
+application is oriented towards accessing the raw Y'CbCr data when =
+possible.
+>=20
+> This discussion from Nov 2008 has someone asking the same thing, with =
+the unfortunate answer that the capability didn't exist at that time:
+>  http://lists.apple.com/archives/quicktime-api/2008/Nov/msg00020.html
+>=20
+>=20
+> I'd like to know whether this situation has improved in Snow Leopard =
+or subsequent QT upgrades... Or are we stuck with plain old ARGB in =
+64-bit apps?
+
+Actually, I know only two way to workaround the issue:
+
+- Don't use 64 bit.
+- Write your own 32 bit  decoder background app that decodes the frames =
+in CVPixelBuffer backed by an IOSurface and send them to the main 64 bit =
+application for processing and display.
+
+
+-- Jean-Daniel
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

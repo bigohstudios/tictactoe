@@ -1,0 +1,26 @@
+Re: can't switch to dash as default shellOn 2010-05-25 18:29 +0200, Frank McCormick wrote:
+
+> With this mornings upgrade to testing there was a new
+> version of DASH.
+> I've been using BASH..and tried to switch.
+>
+>
+> frank@squeeze:~$ sudo dpkg-reconfigure dash
+> dpkg-divert: mismatch on package
+>   when removing `diversion of /bin/sh by dash'
+>   found `diversion of /bin/sh to /bin/sh.distrib by bash'
+>
+> Is this a bug or am I mssing something?
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=582554
+
+Sven
+ 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8739xfg6f3.fsf@turtle.gmx.de
+
+

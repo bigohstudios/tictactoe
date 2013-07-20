@@ -1,0 +1,73 @@
+Re: Umont ownership?On Mon, 05 Apr 2010 19:55:00 -0700, jeremy jozwik wrote:
+
+> On Mon, Apr 5, 2010 at 11:20 AM, Camaleón wrote:
+>> - On standard hard drives this should not happen. Try to debug "umount
+>> - v /mnt/device" using the console. Also, check "dmesg" for additional
+>> information.
+> 
+> $ umount -v /dev/sdb1
+> could not umount /media/video - trying /dev/sdb1 instead umount:
+> /dev/sdb1: not mounted
+> umount: /media/video: must be superuser to umount could not umount
+> /media/video - trying /dev/sdb1 instead umount: /dev/sdb1: not mounted
+> umount: /media/video: must be superuser to umount
+
+Were you running that command as "root" (or sudo) user?
+ 
+> $ su
+> Password:
+> 
+> # umount -v /dev/sdb1
+> /dev/sdb1 umounted
+
+Uh? So it works fine for root user...
+
+O.K., Let me check with my USB flash drive. After I plugg it:
+
+***
+sm01@stt008:~$ mount | grep fat
+/dev/sdc1 on /media/disk type vfat (rw,nosuid,nodev,uhelper=hal,shortname=lower,uid=1000)
+***
+
+I try to umount it:
+
+***
+sm01@stt008:~$ umount /media/disk
+***
+
+And now I verify it has been "really" umounted:
+
+***
+sm01@stt008:~$ mount | grep fat
+***
+
+Seems to be working here for my plain user.
+
+You can check 2 more things:
+
+- Permissions of the mounted device ("mount" will tell)
+
+- Does this happen whith any kind of media you connect in USB ports (USB 
+flash drives, media devices, etc...) or just happens with a concrete 
+device?
+
+>> - "lsof" lists the opened files, you could also check that...
+
+> im not using the drives through any applications other then terminal.
+> and before unmounting i exit the directory or close the terminal window.
+
+There can be operations left in background that may prevent umounting the 
+device... "lsof" will tell.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.06.14.23.13@csmining.org
+
+

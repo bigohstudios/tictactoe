@@ -1,0 +1,47 @@
+Re: [ILUG] Architecture crossover trouble w RH7.2 (solved)On Fri, Jul 26, 2002 at 03:56:22PM +0100 or so it is rumoured hereabouts, 
+Wynne, Conor thought:
+> Surely it would be faster to save you conf files, install it on the box
+> again, copy back you confs and voila.
+> All you car about are the confs as the boite has no DATA right?
+ 
+Yeah, but then I'd have to remember _exactly_ which confs I'd modified and
+they're not all in /etc either...
+
+> Thats what I would do, but you sysadmins have to make life as difficult &
+> complicated as possible ;--)
+
+Yup...  In this case, I had two issues.  1. I mirrored the disk to give to
+someone else to work on but the box he has available has only a P1 or P2
+processor.  2. My celeron box has been crashing the backup software so I
+wanted to try out the backup in a different box to make sure it's hardware
+related.  Again, it's also an interesting exercise...
+ 
+> Have you thought about mirroring the system drives? Might save you serious
+> hassle down the line. 
+
+Oh, I'm doing that too.  This is going to Africa so I'm aiming for as
+robust as possible with belt, braces and probably an all-in-one jumpsuit!
+I'll be mirroring the disk but that is worth only so much (eg. lightning
+strike taking out the disk(s) or system compromise)  I'm also going for a
+backup to CDR with an automated restore http://www.mondorescue.org .  The
+admin out there wouldn't be able to build the system again if the mobo got
+fried and the replacement was the wrong arch but an i386 compatible
+install will mean just dropping in the HD and booting (ish)...
+
+Conor
+-- 
+Conor Daly <conor.daly@oceanfree.net>
+
+Domestic Sysadmin :-)
+---------------------
+Faenor.cod.ie
+  2:32pm  up 64 days, 23:49,  0 users,  load average: 0.00, 0.00, 0.00
+Hobbiton.cod.ie
+  2:19pm  up 7 days, 20:56,  1 user,  load average: 0.05, 0.02, 0.00
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

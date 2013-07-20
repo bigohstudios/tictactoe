@@ -1,0 +1,38 @@
+Re: How to trick my Debian in thinking that a package is not installedOn Tue, Apr 27, 2010 at 09:59:19AM -0600, "Monique Y. Mudama" <spam@bounceswoosh.org> was heard to say:
+> I use "hold" liberally to weather Sid storms.  There are two cases I
+> see crop up: one, aptitude suggests removing packages without an
+> obvious replacement.  Two, aptitude marks things as broken that have
+> been working just fine.  In either case, I start slamming the "=" key
+> until packages will no longer be removed, and nothing is marked
+> broken.  This works 99.99% of the time.  At some later period when I
+> suspect the storm has passed, I test the waters by unholding the
+> packages and gauging aptitude's reaction.
+
+  With aptitude 0.6.2+, I'd be curious to know whether you get the
+answers you want (with less removals and less need to manually hold)
+with this setting or something like it:
+
+Aptitude::ProblemResolver::SolutionCost="2*removals + canceled-actions,safety,priority"
+
+  (sorry about the long line)
+
+  That will ask aptitude to minimize the number of removals and canceled
+actions, but to weigh removals as being twice as bad as holding packages
+back.
+
+> If this is a misuse of "hold" and there's a better way, though, I'm
+> all ears.  Rereading, it seems like "forbid-version" would be the
+> right call for most of what I'm doing, assuming it does persist
+> between aptitude sessions.
+
+  Forbid-version is probably more appropriate, yes.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429040704.GA10998@emurlahn.burrows.local
+
+

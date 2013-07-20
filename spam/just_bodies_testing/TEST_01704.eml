@@ -1,0 +1,20 @@
+Re (7): xorg-server failing on IBM NetVista with Intel 82815 videoFrom:	Andrei Popescu <andreim...@gmail....>
+Date:	Fri, 21 May 2010 22:03:19 +0300
+> # echo 'APT::Default-Release "squeeze";' >> /etc/apt/apt.conf
+
+Somehow I had the impression that the order of the 
+sources would prioritize them.
+
+Thanks,                ... Peter E.
+
+-- 
+Google "pathology workshop".
+In ETHNO click here -> Desktops.OpenDoc http://carnot.pathology.ubc.ca/.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/171056501.50582.30292.@cantor.invalid
+
+

@@ -1,0 +1,286 @@
+X-Account-Key: account5
+X-UIDL: GmailId127de29492b76927
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs86055wfi;
+        Thu, 8 Apr 2010 09:03:20 -0700 (PDT)
+Received: by 10.86.6.16 with SMTP id 16mr614983fgf.55.1270742599867;
+        Thu, 08 Apr 2010 09:03:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si521693fxm.55.2010.04.08.09.03.19;
+        Thu, 08 Apr 2010 09:03:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8499D2D974E; Thu,  8 Apr 2010 16:03:10 +0000 (UTC)
+Old-Return-Path: <jgaulin@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: *
+XStatus: No, score=1.8 required=4.0 tests=FOURLA,MURPHY_WRONG_WORD2,
+	PHONENUMBER autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AFA894C9E04
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 15:47:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-0.2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, MURPHY_WRONG_WORD2=0.2,
+	PHONENUMBER=1.5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id du5BQu3gH0f8 for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 15:46:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-bw0-f210.google.com (mail-bw0-f210.google.com [209.85.218.210])
+	by liszt.debian.org (Postfix) with ESMTP id 529EC3CA2B4
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 15:46:56 +0000 (UTC)
+Received: by bwz2 with SMTP id 2so1867999bwz.30
+        for <debian-user@lists.debian.org>; Thu, 08 Apr 2010 08:46:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:content-type
+         :content-transfer-encoding:subject:date:message-id:to:mime-version
+         :x-mailer;
+        bh=IGjOAU+/u3gEyF7XM5Q8L2QsI0qMkcNWTjdThH9U2J0=;
+        b=f1rwLbyuhYUHzPz4OfxfVRb6rpWi0Kn80EYnMzhpBmr1eD8WwurzX3t58eV/2VBIP3
+         sgKHC2y9cDeAq8QXmB6zs0nLrwMqnmVQCnrnESCMez+FCkXEmbrvLqFcrlDBlqATwPwk
+         YuUDwPCz5uOYyBRosKwZfeYYThYJP5WcaD530=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:content-type:content-transfer-encoding:subject:date:message-id
+         :to:mime-version:x-mailer;
+        b=oyi7T4gID0QBhdRtJfv96UhdOeJHvbg0PMWmt6NBCw+NLJTWhcExtGWfZ1HPH2FurK
+         xvTcnb+XPRCqXLk+lCqdzlFXI/uYoCChyvNCnRZ2UT6QGUp1ymfJIZ/RsWa3dXqFa6DI
+         Q8zKAQ/4SVeLxCLPedf0wo9TBnbobguE/1imE=
+Received: by 10.204.140.67 with SMTP id h3mr335067bku.137.1270741604906;
+        Thu, 08 Apr 2010 08:46:44 -0700 (PDT)
+Received: from [172.22.24.200] (doberman.Intrinsec.com [194.6.240.243])
+        by mx.google.com with ESMTPS id 16sm123212bwz.9.2010.04.08.08.46.42
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Thu, 08 Apr 2010 08:46:43 -0700 (PDT)
+From: =?iso-8859-1?Q?J=E9r=F4me_Gaulin?= <jgaulin@csmining.org>
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Subject: Tomcat5.5 with apache2 and mod_jk on Lenny: error 400 
+Date: Thu, 8 Apr 2010 17:46:40 +0200
+Message-Id: <BECC0E2B-46E0-4EF4-B2DD-3E21AF62A639@csmining.org>
+To: debian-user@lists.debian.org
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <b7YOhK4uw-.A.e0C.-4fvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573618
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 16:03:10 +0000 (UTC)
+
+Hello !
+
+I cant get working tomcat5.5 on apache2 via mod_jk on debian lenny 64 up =
+to date.
+
+When i try to reach a .jsp file i've got an 400 error.
+
+The dpkg -l
+
+ii  libtomcat5.5-java                   5.5.26-5                   Java =
+Servlet engine -- core libraries
+ii  solr-tomcat5.5                      1.2.0+ds1-3+lenny1         =
+enterprise search server based on Lucene - Tomcat integration
+ii  tomcat5.5                           5.5.26-5                   =
+Servlet and JSP engine
+ii  tomcat5.5-admin                     5.5.26-5                   Java =
+Servlet engine -- admin & manager web interfaces
+ii  tomcat5.5-webapps                   5.5.26-5                   Java =
+Servlet engine -- documentation and example web applicati
+ii  apache2-mpm-prefork                 2.2.9-10+lenny6            =
+Apache HTTP Server - traditional non-threaded model
+ii  apache2-utils                       2.2.9-10+lenny6            =
+utility programs for webservers
+ii  apache2.2-common                    2.2.9-10+lenny6            =
+Apache HTTP Server common files
+ii  libapache-mod-jk-doc                1:1.2.26-2+lenny1          =
+Documentation of libapache2-mod-jk package
+ii  libapache2-mod-jk                   1:1.2.26-2+lenny1          =
+Apache 2 connector for the Tomcat Java servlet engine
+ii  libapache2-mod-php5                 5.2.13-0.dotdeb.0          =
+server-side, HTML-embedded scripting language (Apache 2 module
+
+The config files:
+
+root@ [/etc/apache2] 0 # cat workers.properties=20
+
+workers.tomcat_home=3D/usr/share/tomcat5.5
+workers.java_home=3D/usr/lib/jvm/java-6-sun
+ps=3D/
+worker.list=3Dtomcat1
+worker.tomcat1.port=3D8009        # le port d'ecoute
+worker.tomcat1.host=3Dlocalhost # L'adresse IP ou nom d'h=F4te de la =
+machine hebergeant tomcat.
+worker.tomcat1.type=3Dajp13       # le type de worker.
+worker.default.lbfactor=3D1
+
+
+
+root@ [/etc/apache2] 0 # cat conf.d/jk.conf=20
+
+<ifmodule mod_jk.c>
+JkWorkersFile /etc/apache2/workers.properties=20
+JkLogFile /var/log/apache2/mod_jk.log=20
+JkLogLevel info=20
+JkLogStampFormat "[%a %b %d %H:%M:%S %Y]"
+JkRequestLogFormat "%w %V %T"
+JkOptions +ForwardKeySize +ForwardURICompat
+JkshmFile /var/log/apache2/jk.shm=20
+JkshmSize 1=20
+</ifmodule>
+
+
+
+root@ [/etc/apache2] 0 # cat mods-enabled/jk.load=20
+LoadModule jk_module /usr/lib/apache2/modules/mod_jk.so
+
+
+
+root@ [/etc/apache2] 0 # cat /etc/tomcat5.5/server.xml=20
+
+<Server port=3D"8005" shutdown=3D"SHUTDOWN">
+
+  <Listener className=3D"org.apache.catalina.core.AprLifecycleListener" =
+/>
+  <Listener =
+className=3D"org.apache.catalina.mbeans.ServerLifecycleListener" />
+  <Listener =
+className=3D"org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" =
+/>
+  <Listener =
+className=3D"org.apache.catalina.storeconfig.StoreConfigLifecycleListener"=
+/>
+
+  <GlobalNamingResources>
+    <Environment name=3D"simpleValue" type=3D"java.lang.Integer" =
+value=3D"30"/>
+
+    <Resource name=3D"UserDatabase" auth=3D"Container"
+              type=3D"org.apache.catalina.UserDatabase"
+       description=3D"User database that can be updated and saved"
+           factory=3D"org.apache.catalina.users.MemoryUserDatabaseFactory"=
+
+          pathname=3D"conf/tomcat-users.xml" />
+ </GlobalNamingResources>
+
+  <Service name=3D"Catalina">
+
+    <Connector port=3D"8180" maxHttpHeaderSize=3D"8192"
+               maxThreads=3D"150" minSpareThreads=3D"25" =
+maxSpareThreads=3D"75"
+               enableLookups=3D"false" redirectPort=3D"8443" =
+acceptCount=3D"100"
+               connectionTimeout=3D"20000" disableUploadTimeout=3D"true" =
+/>
+   =20
+    <Connector port=3D"8009" enableLookups=3D"false" redirectPort=3D"8180"=
+ protocol=3D"AJP/1.3" jvmRoute=3D"tomcat1"/>
+   =20
+    <Engine name=3D"Catalina" defaultHost=3D"localhost" =
+jvmRoute=3D"tomcat1">
+
+ 	       <Realm =
+className=3D"org.apache.catalina.realm.UserDatabaseRealm"
+  	           resourceName=3D"UserDatabase"/>
+
+		<Host name=3D"clientsite.mydomain.fr" =
+appBase=3D"/var/www/clientsite.mydomain.fr" unpackWARs=3D"true" =
+autoDeploy=3D"true">
+		<context path=3D"" docBase=3D"htdocs" debug=3D"1" =
+reloadable=3D"true"/>
+		<valve =
+className=3D"org.apache.catalina.valves.AccessLogValve" =
+directory=3D"/var/www/clientsite.mydomain.fr/logs"  =
+prefix=3D"tomcat_access_" suffix=3D".log" pattern=3D"common" =
+resolveHosts=3D"false"/>
+   	     </Host>
+
+ 	      <Host name=3D"localhost" appBase=3D"webapps"
+		unpackWARs=3D"true" autoDeploy=3D"true"=20
+		xmlValidation=3D"false" xmlNamespaceAware=3D"false">
+        	</Host>
+
+    </Engine>
+
+</Service>
+
+</Server>
+
+
+
+root@ [/etc/apache2] 0 # cat sites-enabled/clientsite.mydomain.fr=20
+
+<VirtualHost *:80>
+       JkMount /*.jsp tomcat1
+       ServerName clientsite.mydomain.fr
+       ServerAdmin me@mydomain.com
+       DocumentRoot /var/www/clientsite.mydomain.fr/htdocs
+       ErrorLog /var/log/apache2/clientsite.mydomain.fr_error.log
+       CustomLog /var/log/apache2/clientsite.mydomain.fr_access.log =
+common
+       LogLevel debug
+    =20
+	<directory /var/www/clientsite.mydomain.fr/htdocs>
+	Options -Indexes
+	</directory>
+</Virtualhost>
+
+
+
+The  DATA & test side :=20
+
+root@ [/etc/apache2] 1 # sudo cat =
+/var/www/clientsite.mydomain.fr/htdocs/index.jsp
+<html>
+<head>
+<title>Hello World</title>
+</head>
+<body>
+<h1>Hello World</h1>
+Today is: <%=3D new java.util.Date().toString() %>
+</body>
+</html>
+
+
+The LOG side:=20
+When i try to reach the index.jsp file, i ve got a white page and in the =
+log files:=20
+
+=3D=3D> /var/log/apache2/mod_jk.log <=3D=3D
+[Thu Apr 08 17:33:40 2010]tomcat1 clientsite.mydomain.fr 0.000687
+
+=3D=3D> /var/log/apache2/clientsite.mydomain.fr_access.log <=3D=3D
+93.187.41.193 - - [08/Apr/2010:17:33:40 +0200] "GET /index.jsp HTTP/1.1" =
+400 -
+
+
+I am on it since hours.
+Help!=
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BECC0E2B-46E0-4EF4-B2DD-3E21AF62A639@csmining.org
+
+

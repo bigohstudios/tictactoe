@@ -1,0 +1,52 @@
+Re: Boot / LVM best practicesM.Lewis put forth on 4/11/2010 2:19 AM:
+
+> I'm thinking to replace this IDE drive with two SATA HDs. One as small
+> as I can get. Say 100GB or so and make that the boot drive. And a second
+> HD say 500GB or so and moving the LVM over to that.
+
+First, LVM isn't a "thing" you move.  LVM is a tool to manage drives and
+partitions.  For most single user machines, such as a desktop or laptop, LVM
+isn't necessary.  It depends on personal preference and how you like to
+monkey with your free space.  I personally don't use LVM.  Others swear by it.
+
+> Would it be better to move the LVM to a larger SATA drive and migrate
+> the boot drive on to a new small IDE HD? I've even thought to set it up
+> to boot from a flash drive. Not sure that would be wise either.
+
+What would be better is to buy two equal size drives and mirror them with
+mdadm, keeping your current partition layout or something similar.  Having a
+separate /boot partition is always a good idea.  If you're going to buy two
+drives, you'd be stupid to not use mirroring for fault tolerance and a
+little added read performance here and there (depends on application).  And
+yes, booting from a pen drive is a dumb idea.
+
+> My question is is this a 'wise' thing. If not, why not and what would be
+> the better approach?
+
+I just mentioned it above.  You can get two WD 320GB 7200 RPM SATA 3Gb/s
+drives for $100 from Newegg or two 500GB drives for $112:
+
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822136074
+http://www.newegg.com/Product/Product.aspx?Item=N82E16822136073
+
+I have one of the 500GB drives and have been very pleased with it.  It's
+whisper quiet and one of the fastest 7200 RPM drives on the market because
+it's a single platter drive with only two heads.
+
+Do you have SATA on your motherboard or do you need a SATA card?  If you
+need one this Koutech isn't bad.  It's what I'm running my WD on.  I get
+about 85MB/s sequential sustained running benchies, but the system is really
+old, an Intel 440BX with PC100 memory.
+
+http://www.newegg.com/Product/Product.aspx?Item=N82E16815104219
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC1AF63.3060208@hardwarefreak.com
+
+

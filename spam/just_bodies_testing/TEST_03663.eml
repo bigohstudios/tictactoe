@@ -1,0 +1,31 @@
+Re: [SAtalk] 2800 sightings this monthAt 1:16 PM -0400 8/22/02, Theo Van Dinter wrote:
+>On Thu, Aug 22, 2002 at 07:05:33PM +0200, Malte S. Stretz wrote:
+>>  Ummm... has somebody noticed that spamassassin-sightings is the fourth most
+>>  active list for this month on [1]? There is more sighting than talk and
+>>  devel together ;-)
+>
+>hmmm.  do people know that they should only send false negatives there?
+>either there's a lot of stuff SA is missing, or some people are just
+>sending all their spam there.
+
+I've sent in some spam that either didn't score or scored practically 
+nothing, like below 5.  I figure that most people run at 5 so if it 
+scores less than that, a rule needs to be honed to catch it.
+
+Justin
+-- 
+
+--
+Justin Shore, ES-SS ES-SSR                Pittsburg State University
+Network & Systems Manager                 http://www.pittstate.edu/ois/
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

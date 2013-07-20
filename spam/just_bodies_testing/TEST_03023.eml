@@ -1,0 +1,29 @@
+Re: use new apt to do null to RH8 upgrade?On Tue, 1 Oct 2002, Angles Puglisi wrote:
+
+
+> Is it possible to use new apt to do (null) to RH8 upgrade?
+
+Possible - should be, it was possible to update to (null) from RH7.3 with 
+apt. Did that on my laptop and well.. it was painfull to say the least 
+(including a ecovery from totally corrupted rpmdb) Don't expect it to be 
+an easy 'dist-upgrade' at any rate, so much stuff has changed and apt 
+doesn't always handle all that well the way dependencies are set in 
+RHL.
+
+> 
+> Even if it's possible, are there good reasons why maybe I should not do
+> it and just use the RH iso's (I don't think RH8 will upgrade from
+> (null), maybe up2date will)?
+
+It's possible but not supported by RH. I've upgraded both my laptop and my 
+home box from (null) to RH8.0 and didn't encounter any issues though.
+
+-- 
+	- Panu -
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,146 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ac65eaf633d18
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs22744wfo;
+        Tue, 18 May 2010 10:11:21 -0700 (PDT)
+Received: by 10.223.56.206 with SMTP id z14mr8448960fag.97.1274202680190;
+        Tue, 18 May 2010 10:11:20 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si8393705fak.79.2010.05.18.10.11.19;
+        Tue, 18 May 2010 10:11:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1C55713A506F; Tue, 18 May 2010 17:11:14 +0000 (UTC)
+Old-Return-Path: <tomh0665@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AABA413A5050
+	for <lists-debian-user@liszt.debian.org>; Tue, 18 May 2010 17:11:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id w0jEHFTkdrUS for <lists-debian-user@liszt.debian.org>;
+	Tue, 18 May 2010 17:11:00 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 39D9A13A4FFD
+	for <debian-user@lists.debian.org>; Tue, 18 May 2010 17:11:00 +0000 (UTC)
+Received: by fxm8 with SMTP id 8so1092925fxm.6
+        for <debian-user@lists.debian.org>; Tue, 18 May 2010 10:10:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=DM3sBYNMDyWzcKSJuN0skfkWZTXs9Xn9pyK6KnNaZD8=;
+        b=v31+JuJ6NvJIOjasdWsj0r93IRGKNlgi5u6+7xa8QpRMa7dsfZxycFqbM1X7nJLxwl
+         xtw11b4gihBfNNolF+laLD94mBr9awDVSJ2LM7Tv7znFIv4vpo+lft5yFTi2dsIxf1qE
+         UXsKSQQGiC9qYS4F+KTnDr7iwkjHlXFPwNBsI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=or70pwgmrcjldndNCXPJbXPk58bXR/Br5+pXI/90+IEVYMsjLPDSi7A1/GrPseDrzm
+         bVXZtv1PubURlyuh/8UUCYMbCYZM99QPVaXfg67oCWsfgqPYWzMMB4EV3CRgW1+TL4W1
+         tYVm5JKs/4myFCQvddigGyP5FB8/WMToAJ6Zs=
+MIME-Version: 1.0
+Received: by 10.239.132.132 with SMTP id 4mr733987hbr.57.1274202657961; Tue, 
+	18 May 2010 10:10:57 -0700 (PDT)
+Received: by 10.239.133.194 with HTTP; Tue, 18 May 2010 10:10:57 -0700 (PDT)
+In-Reply-To: <20100518153402.GB31197@osamu.debian.net>
+References: <2146380320-1273918352-cardhu_decombobulator_blackberry.rim.net-558375620-@bda030.bisx.prodap.on.blackberry>
+	 <1965615763-1273929389-cardhu_decombobulator_blackberry.rim.net-1787116711-@bda030.bisx.prodap.on.blackberry>
+	 <4BEEA03D.1000905@cox.net> <20100515133902.GB17069@osamu.debian.net>
+	 <4BF1485B.3020501@lorentz.leidenuniv.nl> <4BF14966.50505@rail.eu.org>
+	 <4BF160F5.2000607@allums.com> <20100517154305.GB3959@think.homelan>
+	 <4BF169AE.3000902@allums.com>
+	 <20100518153402.GB31197@osamu.debian.net>
+Date: Tue, 18 May 2010 13:10:57 -0400
+Message-ID: <AANLkTil4BYIMsxmOU_MBNPpe98fA1g6zGEO8o3dfoW5a@mail.csmining.org>
+Subject: Re: How to keep debian current??
+From: Tom H <tomh0665@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <JsAHB62ynvH.A.wCF.yos8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577103
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 17:11:14 +0000 (UTC)
+
+2010/5/18 Osamu Aoki <osamu@debian.org>:
+> On Mon, May 17, 2010 at 11:07:10AM -0500, Mark Allums wrote:
+>> On 5/17/2010 10:43 AM, Andrei Popescu wrote:
+>> >On Mon,17.May.10, 10:29:57, Mark Allums wrote:
+>> >
+>> >>Backwards. =A0Sid gets no security, AT ALL. =A0Testing get some.
+>> >
+>> >If some issue is fixed for stable the fix is also applied for unstable,
+>> >unless the maintainer is unresponsive or so. In practice this means tha=
+t
+>> >unstable can be in better shape then testing at times.
+>> >
+>> >Regards,
+>> >Andrei
+>>
+>> Thank you. =A0This is contrary to what the main Debian site says in
+>> multiple places, but it is plausible. =A0Good to know.
+>
+> Could you be more specific where you saw them or where you got this
+> impression? =A0So we can make corrective action to reduce confusion.
+>
+> (Sid gets no corresponding "security" repository like
+> stable/updates nor testing/updates because we can upload directly to it
+> any time.)
+>
+> I am thinking to add text to Debian reference to reduce such confusion.
+>
+> Now:
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =85" line for security updates in the
+> "/etc/apt/sources.list" is not required. Security updates are only
+> available for stable and testing (i.e., lenny and squeeze).
+>
+> (I should have explained better.)
+>
+> New:
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =85" line for security updates in the
+> "/etc/apt/sources.list" is not required. This is because "sid"
+> (unstable) is always updated whenever security issues are fixed. There
+> is no need to have a separate security update archive for "sid".
+
+Perhaps you should add to this "This is because "sid" (unstable) is
+always updated whenever security issues are fixed." that, in the case
+of sid, security updates are downloaded by apt from "deb ... main" (or
+uploaded by DDs to "deb ... main").
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTil4BYIMsxmOU_MBNPpe98fA1g6zGEO8o3dfoW5a@mail.csmining.org
+
+

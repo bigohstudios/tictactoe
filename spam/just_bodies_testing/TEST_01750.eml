@@ -1,0 +1,444 @@
+Re: interfaces - proper configurationFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+No bites?
+
+Axton
+
+On Sun, Apr 4, 2010 at 5:35 PM, Axton <axton.grams@csmining.org> wrote:
+
+> I am trying to set up the /etc/network/interfaces script properly so that
+> all interfaces are started/stopped properly by /etc/init.d/networking.  I
+> have this set up correctly, mostly, I think, but there is a flurry of
+> warning messages on start of the /etc/init.d/networking.
+>
+> First, some background information on the setup.
+>
+> * Server is a Dell PowerEdge 2650 with 10gb physical memory (hence the i386
+> bigmem kernel)
+>
+> * Running openvz kernel:
+> agrams@dell2650-01:~$ uname -a
+> Linux dell2650-01 2.6.26-2-openvz-686 #1 SMP Tue Mar 9 18:54:31 UTC 2010
+> i686 GNU/Linux
+>
+> * Server has 2 nics:
+> agrams@dell2650-01:~$ dmesg |egrep '(eth0|eth1)' |head -6
+> [    5.050804] eth0: Tigon3 [partno(BCM95703A30) rev 1002 PHY(5703)]
+> (PCIX:133MHz:64-bit) 10/100/1000Base-T Ethernet 00:11:43:32:68:ab
+> [    5.050804] eth0: RXcsums[1] LinkChgREG[0] MIirq[0] ASF[0] WireSpeed[1]
+> TSOcap[1]
+> [    5.050804] eth0: dma_rwctrl[769c4000] dma_mask[64-bit]
+> [    5.110547] eth1: Tigon3 [partno(BCM95703A30) rev 1002 PHY(5703)]
+> (PCIX:133MHz:64-bit) 10/100/1000Base-T Ethernet 00:11:43:32:68:ac
+> [    5.110553] eth1: RXcsums[1] LinkChgREG[0] MIirq[0] ASF[0] WireSpeed[1]
+> TSOcap[1]
+> [    5.110557] eth1: dma_rwctrl[769c4000] dma_mask[64-bit]
+>
+>
+> Now, on to the network configuration:
+>
+> * Switch is a Dell PowerConnect 5324
+> ** Server is connected to ports 13 and 15
+> ** Link aggregation group is 1 with ports 13 and 15
+>
+> Here is the configuration from the switch console:
+>
+> dell5324# show interfaces status port-channel 1
+>                                           Flow    Link
+> Ch       Type    Duplex  Speed  Neg      control  State
+> -------- ------- ------  -----  -------- -------  -----------
+> ch1      1G      Full    1000   Enabled  Off      Up
+>
+> dell5324# show interfaces switchport port-channel 1
+> Port : ch1
+> Port Mode: General
+> Gvrp Status: disabled
+> Ingress Filtering: true
+> Acceptable Frame Type: admitOnlyVlanTagged
+> Ingress UnTagged VLAN ( NATIVE ): 4095
+>
+> Port is member in:
+>
+> Vlan               Name               Egress rule Port Membership Type
+> ---- -------------------------------- ----------- --------------------
+>  2                 LAN                  Tagged           Static
+>  5                 DMZ                  Tagged           Static
+>
+> Forbidden VLANS:
+>
+> Vlan               Name
+> ---- --------------------------------
+>  3                 INET
+>
+> Classification rules:
+>
+> Protocol based VLANs:
+>
+> Group ID Vlan ID
+> -------- -------
+>
+> dell5324# show interfaces port-channel 1
+>
+> Load balancing: Layer 3.
+>
+> Channel  Ports
+> -------  -----
+> ch1      Active: g(13,15)
+>
+> * I am setting up these interfaces as 802.3ad bonded interface (bond
+> mode=4):
+> agrams@dell2650-01:~$ cat /proc/net/bonding/bond0
+> Ethernet Channel Bonding Driver: v3.2.5 (March 21, 2008)
+>
+> Bonding Mode: IEEE 802.3ad Dynamic link aggregation
+> Transmit Hash Policy: layer3+4 (1)
+> MII Status: up
+> MII Polling Interval (ms): 100
+> Up Delay (ms): 200
+> Down Delay (ms): 200
+>
+> 802.3ad info
+> LACP rate: fast
+> Active Aggregator Info:
+>         Aggregator ID: 10
+>         Number of ports: 2
+>         Actor Key: 17
+>         Partner Key: 25
+>         Partner Mac Address: 00:18:8b:97:47:00
+>
+> Slave Interface: eth0
+> MII Status: up
+> Link Failure Count: 0
+> Permanent HW addr: 00:11:43:32:68:ab
+> Aggregator ID: 10
+>
+> Slave Interface: eth1
+> MII Status: up
+> Link Failure Count: 0
+> Permanent HW addr: 00:11:43:32:68:ac
+> Aggregator ID: 10
+>
+> * On the Debian host, the following configuration in in place:
+> agrams@dell2650-01:~$ cat /etc/network/interfaces
+> # This file describes the network interfaces available on your system
+> # and how to activate them. For more information, see interfaces(5).
+>
+> # The loopback network interface
+> auto lo
+> iface lo inet loopback
+>
+> # Physical interface 1
+> auto eth0
+> iface eth0 inet manual
+>
+> # Physical interface 2
+> auto eth1
+> iface eth1 inet manual
+>
+> # lacp bond interface
+> auto bond0
+> iface bond0 inet manual
+>         up ifconfig bond0 0.0.0.0 up
+>         slaves eth0 eth1
+>
+> # vlan2 bond interface
+> auto bond0.2
+> iface bond0.2 inet manual
+>         up ifconfig bond0.2 0.0.0.0 up
+>         pre-up /sbin/vconfig add bond0 2
+>
+> # bridge to vlan2 bond interface
+> auto vlan2
+> iface vlan2 inet dhcp
+>         pre-up /usr/sbin/brctl addbr vlan2
+>         pre-up /usr/sbin/brctl addif vlan2 bond0.2
+>         pre-down /sbin/ifconfig vlan2 down
+>         down /usr/sbin/brctl delif vlan2 bond0.2
+>         post-down /usr/sbin/brctl delbr vlan2
+>
+> Which yields the following configuration information from the host:
+>
+> dell2650-01:~/media# cat /proc/net/bonding/bond0
+> Ethernet Channel Bonding Driver: v3.2.5 (March 21, 2008)
+>
+> Bonding Mode: IEEE 802.3ad Dynamic link aggregation
+> Transmit Hash Policy: layer3+4 (1)
+> MII Status: up
+> MII Polling Interval (ms): 100
+> Up Delay (ms): 200
+> Down Delay (ms): 200
+>
+> 802.3ad info
+> LACP rate: fast
+> Active Aggregator Info:
+>         Aggregator ID: 10
+>         Number of ports: 2
+>         Actor Key: 17
+>         Partner Key: 25
+>         Partner Mac Address: 00:18:8b:97:47:00
+>
+> Slave Interface: eth0
+> MII Status: up
+> Link Failure Count: 0
+> Permanent HW addr: 00:11:43:32:68:ab
+> Aggregator ID: 10
+>
+> Slave Interface: eth1
+> MII Status: up
+> Link Failure Count: 0
+> Permanent HW addr: 00:11:43:32:68:ac
+> Aggregator ID: 10
+>
+> dell2650-01:~# cat /proc/net/vlan/config
+> VLAN Dev name    | VLAN ID
+> Name-Type: VLAN_NAME_TYPE_PLUS_VID_NO_PAD
+> bond0.2        | 2  | bond0
+>
+> dell2650-01:~# cat /proc/net/vlan/bond0.2
+> bond0.2  VID: 2  REORDER_HDR: 1  dev->priv_flags: 1
+>          total frames received       189418
+>           total bytes received    115871948
+>       Broadcast/Multicast Rcvd       114195
+>
+>       total frames transmitted        56900
+>        total bytes transmitted     10038649
+>             total headroom inc            0
+>            total encap on xmit            0
+> Device: bond0
+> INGRESS priority mappings: 0:0  1:0  2:0  3:0  4:0  5:0  6:0 7:0
+> EGRESSS priority Mappings:
+>
+> dell2650-01:~/media# ifconfig -a
+> bond0     Link encap:Ethernet  HWaddr 00:11:43:32:68:ab
+>           inet6 addr: fe80::211:43ff:fe32:68ab/64 Scope:Link
+>           UP BROADCAST RUNNING MASTER MULTICAST  MTU:1500  Metric:1
+>           RX packets:360247 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:194789 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:139293160 (132.8 MiB)  TX bytes:28126921 (26.8 MiB)
+>
+> bond0.2   Link encap:Ethernet  HWaddr 00:11:43:32:68:ab
+>           inet6 addr: fe80::211:43ff:fe32:68ab/64 Scope:Link
+>           UP BROADCAST RUNNING PROMISC MASTER MULTICAST  MTU:1500  Metric:1
+>           RX packets:187223 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:56357 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:115269968 (109.9 MiB)  TX bytes:9955227 (9.4 MiB)
+>
+> eth0      Link encap:Ethernet  HWaddr 00:11:43:32:68:ab
+>           UP BROADCAST RUNNING SLAVE MULTICAST  MTU:1500  Metric:1
+>           RX packets:155494 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:114980 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:1000
+>           RX bytes:69486941 (66.2 MiB)  TX bytes:16889868 (16.1 MiB)
+>           Interrupt:28
+>
+> eth1      Link encap:Ethernet  HWaddr 00:11:43:32:68:ab
+>           UP BROADCAST RUNNING SLAVE MULTICAST  MTU:1500  Metric:1
+>           RX packets:204753 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:79809 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:1000
+>           RX bytes:69806219 (66.5 MiB)  TX bytes:11237053 (10.7 MiB)
+>           Interrupt:29
+>
+> lo        Link encap:Local Loopback
+>           inet addr:127.0.0.1  Mask:255.0.0.0
+>           inet6 addr: ::1/128 Scope:Host
+>           UP LOOPBACK RUNNING  MTU:16436  Metric:1
+>           RX packets:8 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:560 (560.0 B)  TX bytes:560 (560.0 B)
+>
+> venet0    Link encap:UNSPEC  HWaddr
+> 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+>           UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1
+>           RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+>
+> veth2070.2 Link encap:Ethernet  HWaddr 00:0c:29:cf:51:9f
+>           inet6 addr: fe80::20c:29ff:fecf:519f/64 Scope:Link
+>           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+>           RX packets:36810 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:151735 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:3099693 (2.9 MiB)  TX bytes:106816981 (101.8 MiB)
+>
+> vlan2     Link encap:Ethernet  HWaddr 00:0c:29:cf:51:9f
+>           inet addr:10.107.208.131  Bcast:10.107.208.255
+>  Mask:255.255.255.0
+>           inet6 addr: 2001:470:e067:2:20c:29ff:fecf:519f/64 Scope:Global
+>           inet6 addr: 2001:470:e067:2:211:43ff:fe32:68ab/64 Scope:Global
+>           inet6 addr: fe80::211:43ff:fe32:68ab/64 Scope:Link
+>           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+>           RX packets:127087 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:18801 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:39821589 (37.9 MiB)  TX bytes:5847464 (5.5 MiB)
+>
+> dell2650-01:~/media# brctl show
+> bridge name     bridge id               STP enabled     interfaces
+> vlan2           8000.000c29cf519f       no              bond0.2
+>                                                         veth2070.2
+>
+>
+> All is working for the most part with this arrangement except for a few
+> issues:
+>
+> 1. There are some issues when I attempt to bring down the networking
+> service where there are some network interfaces left hanging around that I
+> expect should not be left hanging around.  Below is the output of stopping
+> the networking (/etc/init.d/networking stop) and the interfaces that are
+> left hanging around:
+>
+> Deconfiguring network interfaces...There is already a pid file
+> /var/run/dhclient.vlan2.pid with pid 18891
+> killed old client process, removed PID file
+> Internet Systems Consortium DHCP Client V3.1.1
+> Copyright 2004-2008 Internet Systems Consortium.
+> All rights reserved.
+> For info, please visit http://www.isc.org/sw/dhcp/
+>
+> Listening on LPF/vlan2/00:00:00:00:00:00
+> Sending on   LPF/vlan2/00:00:00:00:00:00
+> Sending on   Socket/fallback
+> DHCPRELEASE on vlan2 to 10.107.208.1 port 67
+> send_packet: Network is unreachable
+> send_packet: please consult README file regarding broadcast address.
+> SIOCSIFFLAGS: Cannot assign requested address
+> done.
+>
+> # ifconfig -a
+>
+> bond0     Link encap:Ethernet  HWaddr 00:00:00:00:00:00
+>           BROADCAST MASTER MULTICAST  MTU:1500  Metric:1
+>           RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+>
+> bond0.2   Link encap:Ethernet  HWaddr 00:11:43:32:68:ab
+>           BROADCAST PROMISC MASTER MULTICAST  MTU:1500  Metric:1
+>           RX packets:187644 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:56466 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:115389061 (110.0 MiB)  TX bytes:9975413 (9.5 MiB)
+>
+> eth0      Link encap:Ethernet  HWaddr 00:11:43:32:68:ab
+>           BROADCAST MULTICAST  MTU:1500  Metric:1
+>           RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:1000
+>           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+>           Interrupt:28
+>
+> eth1      Link encap:Ethernet  HWaddr 00:11:43:32:68:ac
+>           BROADCAST MULTICAST  MTU:1500  Metric:1
+>           RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:1000
+>           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+>           Interrupt:29
+>
+> lo        Link encap:Local Loopback
+>           inet addr:127.0.0.1  Mask:255.0.0.0
+>           inet6 addr: ::1/128 Scope:Host
+>           UP LOOPBACK RUNNING  MTU:16436  Metric:1
+>           RX packets:8 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:560 (560.0 B)  TX bytes:560 (560.0 B)
+>
+> venet0    Link encap:UNSPEC  HWaddr
+> 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+>           UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1
+>           RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+>
+> veth2070.2 Link encap:Ethernet  HWaddr 00:0c:29:cf:51:9f
+>           inet6 addr: fe80::20c:29ff:fecf:519f/64 Scope:Link
+>           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+>           RX packets:36810 errors:0 dropped:0 overruns:0 frame:0
+>           TX packets:151883 errors:0 dropped:0 overruns:0 carrier:0
+>           collisions:0 txqueuelen:0
+>           RX bytes:3099693 (2.9 MiB)  TX bytes:106868121 (101.9 MiB)
+>
+>
+> 2. The second issue is a flurry of messages when networking is started
+> (/etc/init.d/networking start):
+>
+> dell2650-01:~# cat networing_start.txt
+> Configuring network interfaces...if-up.d/mountnfs[eth0]: waiting for
+> interface eth1 before doing NFS mounts (warning).
+> if-up.d/mountnfs[eth0]: waiting for interface bond0 before doing NFS mounts
+> (warning).
+> if-up.d/mountnfs[eth0]: waiting for interface bond0.2 before doing NFS
+> mounts (warning).
+> if-up.d/mountnfs[eth0]: waiting for interface vlan2 before doing NFS mounts
+> (warning).
+> if-up.d/mountnfs[eth1]: waiting for interface bond0 before doing NFS mounts
+> (warning).
+> if-up.d/mountnfs[eth1]: waiting for interface bond0.2 before doing NFS
+> mounts (warning).
+> if-up.d/mountnfs[eth1]: waiting for interface vlan2 before doing NFS mounts
+> (warning).
+> if-up.d/mountnfs[bond0]: waiting for interface bond0.2 before doing NFS
+> mounts (warning).
+> if-up.d/mountnfs[bond0]: waiting for interface vlan2 before doing NFS
+> mounts (warning).
+> ERROR: trying to add VLAN #2 to IF -:bond0:-  error: File exists
+> Failed to bring up bond0.2.
+> Set name-type for VLAN subsystem. Should be visible in
+> /proc/net/vlan/config
+> Internet Systems Consortium DHCP Client V3.1.1
+> Copyright 2004-2008 Internet Systems Consortium.
+> All rights reserved.
+> For info, please visit http://www.isc.org/sw/dhcp/
+>
+> Listening on LPF/vlan2/00:11:43:32:68:ab
+> Sending on   LPF/vlan2/00:11:43:32:68:ab
+> Sending on   Socket/fallback
+> DHCPDISCOVER on vlan2 to 255.255.255.255 port 67 interval 5
+> DHCPDISCOVER on vlan2 to 255.255.255.255 port 67 interval 11
+> DHCPDISCOVER on vlan2 to 255.255.255.255 port 67 interval 15
+> DHCPDISCOVER on vlan2 to 255.255.255.255 port 67 interval 21
+> DHCPDISCOVER on vlan2 to 255.255.255.255 port 67 interval 9
+> DHCPOFFER from 10.107.208.1
+> DHCPREQUEST on vlan2 to 255.255.255.255 port 67
+> DHCPACK from 10.107.208.1
+> bound to 10.107.208.131 -- renewal in 21524 seconds.
+> if-up.d/mountnfs[vlan2]: waiting for interface bond0.2 before doing NFS
+> mounts (warning).
+> done.
+>
+>
+> 3. The third issue are the IPv6 addresses that are assigned to some
+> interfaces.  I expect ipv6 addresses on 'vlan2' and 'lo', but not any of the
+> other interfaces.  I'm no kind of IPv6 expert, but what is the need for
+> addresses on these interfaces when most software doesn't even know how to
+> talk to them?
+>
+> Any help getting /etc/network/interfaces set up properly is greatly
+> appreciated.  It was a headache getting it this far, but it is working, as
+> far as sending/receiving packets and stopping/starting/restarting networking
+> and being able to send packets, but it's sloppy.
+>
+> The idea behind the network configuration is to be able to create openvz
+> VPS's and add veth interfaces to those hosts (multiple ips, broadcasts,
+> etc.).  The network the server is on has several subnets and I would like to
+> be able to connect different VPS's to different networks, depending on its
+> needs.  This is done by bridging the veth interface (which feeds traffic to
+> the VPS) to an interface that is bound to a single VLAN.  I do not want VPSs
+> to connect to untagged interfaces as this would allow a VPS to connect to
+> whatever network it wants to; I instead want that controlled by the VPS
+> configuration on the physical host (CT0).
+>
+> Thanks,
+> Axton Grams
+>
+>

@@ -1,0 +1,54 @@
+Re: [SAdev] Re: several messagesPolitical news T R U T H O U T uses it too.
+
+Justin Mason wrote:
+>>>>  0.978    0.540    1.184    0.31   -1.00  FWD_MSG
+>>>
+>>>I'm a bit surprised that any spams hit this one.  Did somebody forward a 
+>>>spam that then went into a corpus?
+>>
+>>My corpus is quite clean and I get spam hits.
+> 
+> 
+> yes, it's being frequently forged already.
+> 
+> 
+>>>>  1.582    2.226    1.279    0.64    0.39  GAPPY_TEXT
+>>>
+>>>Gappy text in a non-spam?  It must be a  H E A D L I N E  or something.  
+>>>Maybe just remove space from the list of "gap" characters?
+>>
+>>For 2.50, we could try to figure out which nonspams are hitting and
+>>improve the rule.
+> 
+> 
+> BTW I subscribe to the Media Unspun newsletter, and it and a few others
+> regularly use that H E A D L I N E thing.
+> 
+> splitting it into 2, one that matches gappy text with punctuation chars,
+> one that matches spaces between the chars, would probably help.  if
+> anyone's bothered, I'd suggest filing a bug.
+> 
+> --j.
+> 
+> 
+> -------------------------------------------------------
+> This sf.net email is sponsored by: OSDN - Tired of that same old
+> cell phone?  Get a new here for FREE!
+> https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+> _______________________________________________
+> Spamassassin-devel mailing list
+> Spamassassin-devel@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+> 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

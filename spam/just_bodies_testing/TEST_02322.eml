@@ -1,0 +1,43 @@
+Re: Debian on a Super Lean Laptop Part I - Making it WorkOn Fri, Apr 23, 2010 at 03:24:31PM +0200, deloptes wrote:
+> Joey Hess wrote:
+> 
+> > Scarletdown wrote:
+> >> initrd /boot/initrd.img-2.6.32-3-486
+> >> [Linux-initrd @ 0x10b3000, 0x76cdf9 bytes]
+> >> 
+> >> After that, she's locked up tight, and all I can do is power off.
+> >> 
+> >> This is obviously a problem with initrd.  Set too large for such a low
+> >> memory system perhaps?
+> > 
+> > I doubt it, since your initrd is only 7 mb.
+> > 
+> > This seems more likely to be a problem with your bootloader. Quite
+> > possibly grub is not configured to read the initrd from the correct disk
+> > device. It can be hard to get that right when preparing an disk image on
+> > another machine.
+> > 
+> > Or possibly, given the age of the hardware, the initrd is not located
+> > near enough to the front of the drive for grub to be able to access it.
+> > (Which is why having a separate /boot partition first used to be a good
+> > idea.)
+> > 
+> 
+> I would take a live-cd or usb disk (there are images available). Avoid using
+> gnome or kde - your system wont make it. 
+
+A Live CD puts some files in a ramdisk, and thus wastes some more RAM.
+
+-- 
+Tzafrir Cohen         | tzafrir@jabber.org | VIM is
+http://tzafrir.org.il |                    | a Mutt's
+tzafrir@cohens.org.il |                    |  best
+tzafrir@debian.org    |                    | friend
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100423182939.GX16560@pear.tzafrir.org.il
+
+

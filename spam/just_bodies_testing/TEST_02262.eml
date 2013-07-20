@@ -1,0 +1,42 @@
+Re: Aptitude status output meaningOn Thu, Feb 11, 2010 at 11:12:17AM +0000, Rémi Moyen <rmoyen@csmining.org> was heard to say:
+> 2010/2/11 Sven Joachim <svenjoac@gmx.de>:
+> > On 2010-02-11 08:30 +0100, Guy Marcenac wrote:
+> >
+> >> What is the meaning of [-107] in the status output of aptitude ?
+> >> Current status: 0 updates [-107]
+> >
+> > It means that there are 107 less than before, i.e. you have just
+> > upgraded 107 packages.
+> 
+> I take the opportunity of this question (and apparently, someone who
+> knows a bit about aptitude), since I was also wondering about this...
+> 
+> Is there someplace a full manual of the output of aptitude ?
+
+  The command-line output of aptitude is somewhat underdocumented.
+Please feel free to submit bugs regarding bits of output that you think
+need documentation.  I know there are lots of bug reports, but trust me,
+I do read them, and it's better to have those notes than to have an
+email lingering on some mailing list.
+
+> I haven't found a description of what this number means anywhere, and
+> I'm also puzzled on a lot of other outputs. For example, when
+> proposing an upgrade solution, aptitude says things like "indi
+> [4:3.5.5-1 (stable, stable, now) -> 4:3.5.8-1 (testing, unstable,
+> testing, unstable)]"
+
+  I just tweaked this to uniquify and sort the strings, so you should
+just get "now, stable" and "testing, unstable" in future versions of
+aptitude (the multiple copies probably mean you have more than one
+source for each version, which isn't interesting to know in this
+output).
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430143023.GD22310@emurlahn.burrows.local
+
+

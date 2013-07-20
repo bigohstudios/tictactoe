@@ -1,0 +1,63 @@
+Re: How to keep debian current??Hi, Celejar:
+
+On Sunday 23 May 2010 21:42:44 Celejar wrote:
+> On Sat, 22 May 2010 03:03:42 +0200
+> "Jes=C3=BAs M. Navarro" <jesus.navarro@undominio.net> wrote:
+>
+> ...
+>
+> > My simple rule about Debian has always been:
+> > * Stable, if you just want to use Debian.
+> > * Testing, if you want a peek over what Debian will be on next release
+> > and want to help to hunt down the non-obvious bugs (probably because you
+> > depend on the quality of Debian Stable and that's what you can do to he=
+lp
+> > going for it).
+> > * Sid, if you look for fun and have at least a mild desire to become a
+> > day a DD.  If you don't want to open and follow a lot of bugs, provide
+> > patches from time to time and follow the devel lists, you'd probably be
+> > better out of the loop and stay on Stable or Testing.
+>
+> You omit two very good reasons (although they certainly aren't
+> dispositive, and will not be relevant for many) to use Sid: support for
+> newer hardware, and inclusion of newer software.
+>
+> I know that this has all been rehashed a million times already, but I
+> just wanted to clarify your summary.
+
+Well, I did omit those two reasons, but I didn't forget about them: it is t=
+hat=20
+I don't consider them reasons to run Sid, much less to counsel anyone else =
+to=20
+do it.  Neither new hardware nor new software are reasons (on my own regard=
+,=20
+of course) to run a whole in-development OS (which is what Sid is).
+
+You stay with known-to-work hardware and software on production environment=
+s=20
+to start with (non-production environments can, of course, qualify on both=
+=20
+the "peeking into the future" and "for fun" clauses).  If you can't stay on=
+=20
+the known path, then you backport what you need; this way at least you'll=20
+have a clear notice about where your (future) problems are coming from.
+
+And then, if once everything considered it really becomes attractive to go =
+for=20
+a future, in-development version (basically, too much of a burden on the=20
+backporting effort), you still have a case for Testing, not Sid (I for one=
+=20
+I'm open to consider Testing as an alternative on my workplace... for new=20
+projects that can provide strong reasons to do it and once Testing=20
+is "frozen" so probably it will already be Stable by the time the project=20
+goes "live").
+
+Cheers.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005250320.59268.jesus.navarro@undominio.net
+
+

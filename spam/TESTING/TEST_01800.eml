@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282b7d397fd08f6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs69071wfj;
+        Fri, 23 Apr 2010 09:25:47 -0700 (PDT)
+Received: by 10.87.13.6 with SMTP id q6mr827070fgi.19.1272039946447;
+        Fri, 23 Apr 2010 09:25:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si2361178fka.32.2010.04.23.09.25.45;
+        Fri, 23 Apr 2010 09:25:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2479E13A4BB5; Fri, 23 Apr 2010 16:25:30 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2CAAF13A4A40
+	for <lists-debian-user@liszt.debian.org>; Fri, 23 Apr 2010 16:25:24 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nKkLJ8MR4Q21 for <lists-debian-user@liszt.debian.org>;
+	Fri, 23 Apr 2010 16:25:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 7DF9A13A478D
+	for <debian-user@lists.debian.org>; Fri, 23 Apr 2010 16:25:10 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O5Lge-0004jL-Ph
+	for debian-user@lists.debian.org; Fri, 23 Apr 2010 18:25:04 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Fri, 23 Apr 2010 18:25:04 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Fri, 23 Apr 2010 18:25:04 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: funky kernel message from syslogd
+Date: Fri, 23 Apr 2010 16:24:53 +0000 (UTC)
+Lines: 21
+Message-ID: <pan.2010.04.23.16.24.53@csmining.org>
+References: <20100422232438.GA25943@phobos>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BWrBWBfiwmP.A.Pi.6nc0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574833
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 23 Apr 2010 16:25:30 +0000 (UTC)
+
+On Thu, 22 Apr 2010 19:24:38 -0400, Nick Lidakis wrote:
+
+> This popped up in one of my xterms after my Thinkpad came out of
+> hibernation today. The machine has beeped a few times as this message
+> was repeated. Does not sound good. Call Trace? That's, like, bad? Right?
+> 
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.069917] Oops: 0000 [#1] SMP
+
+(...)
+
+That is a kernel "Oops", not a good sign :-(
+
+I would report it (including full log information about the "oops") into 
+Debian bug tracking system.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.23.16.24.53@csmining.org
+
+

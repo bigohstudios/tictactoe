@@ -1,0 +1,63 @@
+Re: Filesystem recommendations
+Boyd Stephen Smith Jr. <bss@iguanasuicide.net> wrote:
+> Joe Brenner wrote:
+> > Ron Johnson <ron.l.johnson@cox.net> wrote:
+> > > B. Alexander wrote:
+> > > > Ron Johnson<ron.l.johnson@cox.net>  wrote:
+
+> > > >> XFS is the canonical fs for when you have lots of Big Files.  I've
+> > > >> also seen simple benchmarks on this list showing that it's faster
+> > > >> than ext3/ext4.
+> > > >
+> > > > Thats cool. What about Lots of Little Files? That was another of the
+> > > > draws of reiser3.
+> > >
+> > > That same unofficial benchmark showed surprising small-file speed by
+> > > xfs.
+
+> > Would you happen to have any links to such benchmarks, unofficial or
+> > otherwise?
+
+> > My experience has been that whenever I look at filesystem benchmarks,
+> > they skip the many-small-files case.  I've always had the feeling that
+> > most of the big filesystems cared a lot about scaling up in file-size,
+> > but not too much about anything else.
+
+> NB: This is my best recollection; I'm not looking this up right now.  Please
+> check my facts, I'd love to know if I'm wrong.
+
+Like I said, I *have* looked at filesystem comparisons a number of times.
+
+It's my problem to check your assertions?  Why isn't it your problem to
+check my assertions?
+
+> > I'm a Reiser3 user myself, and I've never had any problems with it.
+
+> > (The trouble with it being "long in the tooth" is mostly hypothetical,
+> > isn't it?)
+>
+> Not really.
+
+Outside of one mention of "bugs on reiserfs that will not be fixed",
+you're pretty much just describing the theory.  I do understand that
+using relatively unsupported software, even if it's pretty mature
+software, can have it's problems.
+
+Just doing a few quick websearches, I'm reading about ReiserFS bugs
+fixed as recently as 2006, 2007... It's not like it's not getting any
+attention from developers.
+
+> In addition, as file system technology advances, reiserfs will become
+> less attractive for new installs and it will become more attractive to
+> migrate way from it.
+
+I think you're better off if you rely on really well-tested migration
+tools (e.g. "tar").
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004300103.o3U13KCh005837@kzsu.stanford.edu
+
+

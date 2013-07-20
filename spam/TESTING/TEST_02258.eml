@@ -1,0 +1,155 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287c7d6086d5560
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs544600wfb;
+        Sun, 9 May 2010 02:55:12 -0700 (PDT)
+Received: by 10.223.17.150 with SMTP id s22mr2626068faa.14.1273398911130;
+        Sun, 09 May 2010 02:55:11 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c9si5828717fac.12.2010.05.09.02.55.10;
+        Sun, 09 May 2010 02:55:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BEDAA2D0C55; Sun,  9 May 2010 09:55:08 +0000 (UTC)
+Old-Return-Path: <alex.exojo@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3E8ED13A574E
+	for <lists-debian-kde@liszt.debian.org>; Sun,  9 May 2010 09:55:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id bx4jx5hUGmyp for <lists-debian-kde@liszt.debian.org>;
+	Sun,  9 May 2010 09:54:55 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 9387913A56C8
+	for <debian-kde@lists.debian.org>; Sun,  9 May 2010 09:54:46 +0000 (UTC)
+Received: by wwc33 with SMTP id 33so234798wwc.6
+        for <debian-kde@lists.debian.org>; Sun, 09 May 2010 02:54:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:sender:from:to:subject:date
+         :user-agent:x-face:mime-version:content-disposition:content-type
+         :content-transfer-encoding:message-id;
+        bh=7INYt0klm1PX85YgtvzO8AfBJgvhnZMiqMhqCUWEJXc=;
+        b=MoF5+wSc+06S57StfvgHiEuG92vUE0kRm+E6oQoYbDvDLjbUvUAC3aAFc2WUDFvrlx
+         KBRXdUxlz3EykFaH6BVdARtcrlzZH0CGKJUlN+ohMDMt+noMt8DoVm+PZ20ziQMs4k5K
+         TgjgTRGeC1FpAYUkSsSdgSdMQoaHWChVI3+Ho=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=sender:from:to:subject:date:user-agent:x-face:mime-version
+         :content-disposition:content-type:content-transfer-encoding
+         :message-id;
+        b=UD7IQEdh8tmDpD3s5Zzl6UPhsVUG3g62FNi2FldbAFfhSsnbY82kpLAhAIYxhJngKP
+         c/rtvc8X/y1VyGXIWlh4di02m9/JxgD17aCJRd6IGF9zMaxsE6w//NUznf+xjzhJTXWS
+         5oytjZlc6qUHm2R2DlHx8Q+Ufgvg4QhC4dXio=
+Received: by 10.227.132.65 with SMTP id a1mr2290113wbt.79.1273398882125;
+        Sun, 09 May 2010 02:54:42 -0700 (PDT)
+Received: from bender (22.235.19.95.dynamic.jazztel.es [95.19.235.22])
+        by mx.google.com with ESMTPS id u8sm31436233wbc.5.2010.05.09.02.54.40
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 09 May 2010 02:54:41 -0700 (PDT)
+Sender: Alejandro Exojo <alex.exojo@csmining.org>
+From: Alejandro Exojo <suy@badopi.org>
+To: debian-kde@lists.debian.org
+Subject: Feasibility of private/unofficial KDE 3.5 packages
+Date: Sun, 9 May 2010 11:54:38 +0200
+User-Agent: KMail/1.9.9
+X-Face: ?LA,K(HJd)[8Yw5x`S/?la#t]y(B~Amm='K\!AMT.JW@t6f78N]yv,FJz[s!oE`4AVmQ}(
+	9B`:T>&rxZi;n5f7'vt|0i1l2I6>1#.':xz?,F^&d`)%pYBik~U,r~H4B{R8NWEj*%?3mz
+	[-$u~uN*/w;tD10m!0z((%*kf1#(&*_=t&[+QYtaBz4*dYYt7=B}F?9o7Vafw40d9s"_[F
+	Y[GzP#1VO-%gNWIt&qO(Jo=k]&|twR7>0czt30@tEuMUmbg+w7Rpzl']w%]sQEIorY#D>J
+	X<mahQD`K*KKh?B%[C3*QoFp#,slUCK@m0DTZKF8J6^s9"N?e!Erkb>J1'Gw)?NO3O
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005091154.39079.suy@badopi.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <cY4FxaoxiaC.A.ZCH.8Zo5LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32286
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 09:55:08 +0000 (UTC)
+
+Hello.
+
+First of all, I want to state crystal clear the following:
+
+* I don't want anybody to change his or her mind about the 3.5 vs 4.x 
+situation. Politely talking about it might be interesting or useful, though, 
+but probably many members of the list might not want the discussion here.
+* Of course I don't want anybody to do any kind of work if he or she is not 
+interested or motivated to do it.
+* I'm not stepping up to do any kind of work either, but I will gladly share 
+my experiences if I have some success.
+* I don't think that 3.5 is a long term solution, even if you just want to 
+provide basic support (or none at all) and no new features.
+* However, I do think that it might be convenient to have around some 3.5 
+applications side by side with the 4.x ones for a while, the same way that one 
+might have non-KDE applications.
+
+That said, I would like to ask some questions about how feasible would be to 
+tweak at least some of the KDE 3.5 packaging to not clash with official 4.4 
+packages. Ana mentioned this possibility, and I think I can give it a chance.
+
+First, if I understood correctly, Qt3 and kdelibs 3.5 will still be around for 
+some time. Am I right? I still see them on unstable, and I suppose they will 
+be on the archive unless all remaining KDE 3 packages are removed.
+
+Second, I know that compiling KDE 3.5 setting /opt as a prefix is not an 
+option for official packages, but is it a good idea for private packages? I'm 
+used to compile development versions in a different prefix, and is quite easy 
+and safe, but I have to do manual setup each time I want to run them.
+
+And what about adding a suffix to the 3.5 applications? I suppose this will be 
+more work, but also feels like the proper way to do it.
+
+Finally, how realistic do you think is all of this? I don't have the skills 
+(nor the time to acquire them) to even think about "infrastructure" stuff 
+(desktop, kdm, libraries), but I have some rusty knowledge of packaging KDE 
+applications, and luckily for me, it's just 2 or 3 of the old ones that I 
+need.
+
+Thanks in advance for the replies, and special thanks, as always, for the huge 
+work that the developers do on the KDE packages. I know it's a very difficult 
+task, and one that requires lots of time. Thank you very much, truly.
+
+Regards.
+
+PS: I can move the conversation to pkg-kde-talk if you want. I'm subscribed 
+there too.
+-- 
+Alex (a.k.a. suy) | GPG ID 0x0B8B0BC2
+http://barnacity.net/ | http://disperso.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005091154.39079.suy@badopi.org
+
+

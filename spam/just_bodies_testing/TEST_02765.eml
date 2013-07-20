@@ -1,0 +1,17 @@
+Re: [ILUG] Compiling for X> Mmmph. You may actually need -L/usr/lib/X11 (or -L/usr/X11R6/lib) to
+> make this work. I'm sure ld/gcc is smart enough to cope with out of
+> order args.
+
+ld does not generally cope with out of order args by design.
+
+Nick
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

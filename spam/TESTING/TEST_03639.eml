@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283cd54f80fa936
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs110548wfj;
+        Mon, 26 Apr 2010 18:15:32 -0700 (PDT)
+Received: by 10.151.25.7 with SMTP id c7mr4435905ybj.227.1272330931756;
+        Mon, 26 Apr 2010 18:15:31 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 23si6261218gxk.10.2010.04.26.18.15.31;
+        Mon, 26 Apr 2010 18:15:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id A09871BFE3174
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 18:15:30 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 995A42725318B
+	for <mlsubscriber.tech@csmining.org>; Mon, 26 Apr 2010 18:15:30 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 335A327252AFF
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 18:14:34 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 22FB6CFBA80E
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 18:14:34 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-92-4bd63a791676
+Received: from mail-qy0-f184.google.com (mail-qy0-f184.google.com
+	[209.85.221.184])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	85.4B.26228.97A36DB4; Mon, 26 Apr 2010 18:14:34 -0700 (PDT)
+Received: by qyk14 with SMTP id 14so3978956qyk.6
+	for <java-dev@lists.apple.com>; Mon, 26 Apr 2010 18:14:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:from:to:subject:date
+	:user-agent:references:in-reply-to:mime-version:content-type
+	:content-transfer-encoding:message-id;
+	bh=13bfXVHHWtBXgu3OXvwiu3ifB0pqmwDIgnf8Tk6RoFU=;
+	b=Q0LWArsjc7ZQBhzo4pTsp/MJHpCTSEIiy6m4FKURvnvKcwEmZh36A0pZ3NUokAK7b6
+	xxveuBsyuTev6IQx/S7NqQXrG9ujhyZHsHtGkTqypAVKdNuSy17z01F6GIjznm8cCCAX
+	Q2JYLOcxaICs45LO/APec3VaibufL8D4Fchos=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+	:content-type:content-transfer-encoding:message-id;
+	b=Ax5oXqvpaNU2e0QpJY/Kjer8sg9UzGkYlqX/NrI8rSE8TpS/lWg0H/JFEUB1NX92MA
+	WLhpEZtkmBvTnsgbW8E7mpiS+V4hhRKJVr/mRu1YDUp+JFURRLLHtv0m95i0K5znkeS5
+	RFHZP/Ak/CZ4R5VyF+THCE9H3kWd/wP0rbaq4=
+Received: by 10.224.115.25 with SMTP id g25mr1514589qaq.179.1272330872963;
+	Mon, 26 Apr 2010 18:14:32 -0700 (PDT)
+Received: from localhost.localdomain (142-73-252-216.dsl.colba.net
+	[216.252.73.142])
+	by mx.google.com with ESMTPS id 22sm2638330qyk.10.2010.04.26.18.14.31
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Mon, 26 Apr 2010 18:14:32 -0700 (PDT)
+From: Raymond Martin <laseray@csmining.org>
+To: java-dev@lists.apple.com
+Date: Mon, 26 Apr 2010 21:14:29 -0400
+User-Agent: KMail/1.13.2 (Linux/2.6.33.1-desktop-2mnb; KDE/4.4.2; i686; ; )
+References: <o2q761024c21004222306rcca146bck4f41f431e1cd55ec@mail.csmining.org>
+	<7675F8F1-B321-47D3-88DA-2D07946FADE5@minnigerode.org>
+	<C7E28BD8-9BB8-4B0E-9381-524B0040882B@csmining.org>
+In-Reply-To: <C7E28BD8-9BB8-4B0E-9381-524B0040882B@csmining.org>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004262114.29788.laseray@csmining.org>
+X-Brightmail-Tracker: AAAABBNs8AgT2MYLE9loqRPZlsg=
+Subject: Re: Snow Leopard, Java 6 and Netbeans
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On April 26, 2010 09:06:26 pm Jean-Christophe Helary wrote:
+> On Apr 26, 2010, at 7:31 PM, Raymond Martin <laseray@csmining.org> wrote:
+> >>> I'd like to mention that problems are not limited to Netbeans. I've had
+> >>> similar problems (that were reproduced by a member of this list) with a
+> >>> Swing application and I've filled a bug report at Apple about that.
+> >>> That was 2 updates ago and the newest Java VM don't seem to fix that.
+> >>> 
+> >>> That has forced me to re-install Java 1.5 which in some other cases
+> >>> creates problems.
+> >> 
+> >> Unless you can provide some kind of trace of the operation that shows
+> >> the issue has something to do directly with Java 6 on Mac, it is
+> >> vacuous to claim the problem is with Apple's Java 6 automatically
+> >> because you only see a problem on Mac. The problem may be due to bad
+> >> application level programming.
+> 
+> Raymond,
+> 
+> Take a look at Mike's post.
+
+Which basically says that the wrong thing is being chosen in the program.
+
+Anyway, the main thread here really is about slow performance, not about
+Glyph rendering.
+
+Raymond
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

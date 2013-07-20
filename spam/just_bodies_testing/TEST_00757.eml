@@ -1,0 +1,21 @@
+ZFS in Linux (was Re: Filesystem recommendations)On 04/25/2010 01:19 AM, Mark Allums wrote:
+> I wanted to like ZFS, but Sun is now
+> Oracle, and thus over it hangs a dark cloud. Besides, we can almost get
+> the benefits of ZFS with Linux RAID plus LVM2.
+
+Even were Sun not owned by Oracle, the likelihood of ZFS in Linux is 
+zero.  http://kerneltrap.org/node/8066
+
+Sure there might be (is?) a FUSE implementation, but it'll be 
+woefully slower than an in-kernel implementation.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD43317.8000100@cox.net
+
+

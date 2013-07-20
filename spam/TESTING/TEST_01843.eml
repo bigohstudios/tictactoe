@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId12869899899f8dc3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs343639wfb;
+        Wed, 5 May 2010 10:35:47 -0700 (PDT)
+Received: by 10.223.98.5 with SMTP id o5mr5273465fan.64.1273080945054;
+        Wed, 05 May 2010 10:35:45 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si136168fka.43.2010.05.05.10.35.44;
+        Wed, 05 May 2010 10:35:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1E21B13A4A96; Wed,  5 May 2010 17:35:38 +0000 (UTC)
+Old-Return-Path: <d.sastre.medina@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.4 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	NO_REAL_NAME,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7293913A4130
+	for <lists-debian-user@liszt.debian.org>; Wed,  5 May 2010 17:35:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mkdS6qRI-IWs for <lists-debian-user@liszt.debian.org>;
+	Wed,  5 May 2010 17:35:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 005D413A4319
+	for <debian-user@lists.debian.org>; Wed,  5 May 2010 17:35:24 +0000 (UTC)
+Received: by wwg30 with SMTP id 30so301546wwg.6
+        for <debian-user@lists.debian.org>; Wed, 05 May 2010 10:35:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=NEcp0gIZed2YqcMZwk/m42pLBoo20qAtPcRTne0HByk=;
+        b=QJrr2qljTzFyOvueuYjeO7PAPfhGoB5S+OnbSIifX740c9mgXP1fMwG8dB9O0NOpQk
+         f/vLAJcD1HldAHKXij9ncnyz3qlptQY8BFi3YPchlEu6kRO7fBBRQOQVbGciw00XquNs
+         OfUC/hp+Eln54XDTpQQrpl4U3R+sysezJXYDI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=SBKcd6LOnvJL90VmmUlXOCDIQKO1L8ILRCW7SqvUbzmEXtaL2gOocw8YoUMab7ju6f
+         G8nnGKNcoR86yx4q9dOvm1S4YzRWK8zdwq5slPN93mMzhC0URz0Da/j1vMuwhO3E/Lk1
+         cD++0jbRYkmv0xL1dfoHq8weAngLkyC9XG9Go=
+Received: by 10.227.135.209 with SMTP id o17mr2931255wbt.150.1273080920006;
+        Wed, 05 May 2010 10:35:20 -0700 (PDT)
+Received: from localhost (182.137.18.95.dynamic.jazztel.es [95.18.137.182])
+        by mx.google.com with ESMTPS id u8sm360367wbc.11.2010.05.05.10.35.18
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Wed, 05 May 2010 10:35:18 -0700 (PDT)
+Date: Wed, 5 May 2010 19:35:16 +0200
+From: d.sastre.medina@csmining.org
+To: debian-user@lists.debian.org
+Subject: Re: How to schedule for a repeated task?
+Message-ID: <20100505173004.GB3812@ghost.local.lan>
+References: <p2m74aa57df1004282147of393249naa0b7b2f779aab24@mail.csmining.org>
+ <h2r74aa57df1005020211oa5eac248r2c87741ddc851937@mail.csmining.org>
+ <20100502104634.GA4413@ghost.local.lan>
+ <015501caeaf1$5e206640$1a6132c0$@net>
+ <u2m74aa57df1005032125g5207968ei47d8e7a405ad443c@mail.csmining.org>
+ <01d401caebce$9ecb62c0$dc622840$@net>
+ <s2s74aa57df1005042200t23c832fek7370c7b93e2e9f1@mail.csmining.org>
+ <r2s74aa57df1005042201y265a0458j64e30ae47a69760a@mail.csmining.org>
+ <4BE11EBC.6050206@familyross.net>
+ <q2m74aa57df1005050107k2027cf00v470032429df2829d@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="qOrJKOH36bD5yhNe"
+Content-Disposition: inline
+In-Reply-To: <q2m74aa57df1005050107k2027cf00v470032429df2829d@mail.csmining.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <eu-2GUlNJ_G.A.g5D.qxa4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575919
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 17:35:38 +0000 (UTC)
+
+
+--qOrJKOH36bD5yhNe
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+If issuing the commands manually produces the desired output, you
+could try autoexpect=B9 and edit the output of running an autoexpect
+session to your liking. There is a manual page too=B2.
+
+Hope it helps. Regards.
+
+=B9http://expect.nist.gov/example/autoexpect
+=B2http://expect.nist.gov/example/autoexpect.man.html
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB
+
+--qOrJKOH36bD5yhNe
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvhrFQACgkQYX05bESLMetcKACfcJXNvpd1EfDIorwWKLydBvqo
+BRUAn1oLA7nAXrfVPF87xthrWG4OEp95
+=5G4z
+-----END PGP SIGNATURE-----
+
+--qOrJKOH36bD5yhNe--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100505173004.GB3812@ghost.local.lan
+
+

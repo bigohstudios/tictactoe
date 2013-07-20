@@ -1,0 +1,46 @@
+Re: Boot / LVM best practicesOn Sun, Apr 11, 2010 at 3:19 AM, M.Lewis <cajun@cajuninc.com> wrote:
+>
+> I have a machine running Lenny with a 250GB IDE HD in it. The HD is on its
+> last legs giving S.M.A.R.T. errors.
+>
+> I have a question about how best to divide things up in the new setup. The
+> current 250GB IDE HD has two partitions on it:
+>
+> /dev/hda1 = linux (~80 MB)
+> /dev/hda2 = linux LVM (~249.92 GB)
+>
+> I'm thinking to replace this IDE drive with two SATA HDs. One as small as I
+> can get. Say 100GB or so and make that the boot drive. And a second HD say
+> 500GB or so and moving the LVM over to that.
+>
+> Would it be better to move the LVM to a larger SATA drive and migrate the
+> boot drive on to a new small IDE HD? I've even thought to set it up to boot
+> from a flash drive. Not sure that would be wise either.
+
+Given the current size of HDs, dedicating a full one to /boot is a
+waste since 250MB will be amply sufficient.
+
+You should use either one HD to replicate your current system on a
+larger disk or two and set up mdadm to use RAID 1 array.
+
+At work, someone (probably a project manager who convinced the
+powers-that-be that we were "misallocating san resources") convinced
+management that we shouldn't slice up our Solaris boxes with the usual
+/, swap, /var, /usr, /opt, and /export/home. This decision carried
+over to our RHEL servers and I have followed suit in my private and
+moonlighting habits and I split up my disks into / and /home (and
+/boot if using mdadm and/or lvm). We have 1,000s of servers and get
+the occasional "root is over 90%" alert but it has been a mostly
+painless change.
+
+If you really want separate partitions for /usr and /var, check your
+current usage with "du -sh /usr; du -sh /var" and use those values
+plus a decent margin to set up a new layout.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2h6d4219cc1004111225l67be2f35w70e7f763fb9adc59@mail.csmining.org
+
+

@@ -1,0 +1,26 @@
+Re: USB device attached via RS232 adaptorThanks, Kevin and Brad. I now have a good starting point, and should
+be able to google my way out of the situation.
+
+To clarify, for those who I've confused in the beginning of the thread:
+Despite claims by the user that he is connecting USB smart card
+readers via serial, he has two different types of smart card readers:
+1) Serial smart card readers of unknown origin. These card readers may
+or may not be supported in Debian via third party software.
+2) USB smart card readers that communicate via a "virtual com port".
+These card readers are supported in Linux with no mention of distro,
+once they have had a firmware update (done in Windows).
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2s880dece01004230504r9501895bi105176fb0ba52271@mail.csmining.org
+
+

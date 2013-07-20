@@ -1,0 +1,33 @@
+Re: Bindings problem with current CVS codeFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Hal DeVore <haldevore@acm.org>
+> Date:  Tue, 01 Oct 2002 23:22:14 -0500
+>
+> I've had this binding in my ~/.exmh/exmhbindings for years:
+> 
+> set {bindings(key,Flist_FindUnseen 1 ; Inc_PresortFinish)} <Key-f>
+> 
+> After updating to the current code in CVS I get "bad key f" when 
+> I hit the "f" key.  I can open the Bindings... Commands window 
+> and define the binding.  It then works until I restart exmh.
+> 
+> I suspect a parsing problem/change.  I'll try to look into this 
+> tomorrow unless someone knows where the problem might be.
+
+Flist_FindUnseen has changed to Flist_FindSeqs.  It takes the same arguments, 
+but I changed the name because it looks for all the sequences, not just the 
+unseen sequence.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

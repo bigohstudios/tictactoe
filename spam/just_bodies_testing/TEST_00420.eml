@@ -1,0 +1,41 @@
+Re: Re (4): xorg-server failing on IBM NetVista with Intel 82815
+ videoOn Thu, 20 May 2010 14:31:43 -0400 (EDT), Stephen Powell wrote:
+> 
+> There is a newer kernel available in squeeze now, 2.6.32-5.
+> Maybe it will fix the problem.
+
+Oops!  I take that back.  That kernel is still in Sid.
+
+There are a couple of other things you can try.  One is to
+intentionally disable ACPI.  That may cause other problems, but
+you might want to try it at least for diagnostic purposes.  To
+do that, specify
+
+   append="acpi=off"
+
+in your /etc/lilo.conf file.  Put it following the image line
+for your default kernel.  That way, if it causes major problems,
+you can boot your old kernel and ACPI will be on.  After editing
+the file, run lilo, then shutdown and reboot.  You will need to
+be root to do this.
+
+Another thing you can try is to use the vesa driver instead
+of the intel driver.  The vesa driver is slow, but a slow driver
+is better than a driver that doesn't work.  Edit your /etc/X11/xorg.conf
+file and change intel to vesa on the driver line.  Then shutdown
+and reboot.  If the vesa driver works then its a likely that the
+problem is in the intel driver.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/705134282.319664.1274455276495.JavaMail.root@md01.wow.synacor.com
+
+

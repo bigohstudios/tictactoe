@@ -1,0 +1,19 @@
+Re: Using hosts file to rid yourself of popup adsAt 09:24 PM 8/3/02 -0700, Mr. FoRK wrote:
+
+>Don't know if everybody knows this trick...
+>
+>Puts 127.0.0.1 as the IP for adservers. Elegant.
+
+You should note that this trick has been out-evolved by [some] websites. 
+These sites (e.g, yahoo) require a cookie that is set by the pop-up ad to 
+be present before your browsing can continue...
+
+Udhay
+
+-- 
+((Udhay Shankar N)) ((udhay @ pobox.com)) ((www.digeratus.com))
+      God is silent. Now if we can only get Man to shut up.
+
+http://xent.com/mailman/listinfo/fork
+
+

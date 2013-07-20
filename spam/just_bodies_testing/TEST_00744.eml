@@ -1,0 +1,55 @@
+Re: traceback in new exmhFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Scott Lipcon <slipcon@mercea.net>
+> Date:  Mon, 23 Sep 2002 10:54:19 -0400
+>
+> Oops - turns out i wasn't careful installing it, so the exmh(library)
+> variable was pointing at my old installation.  I'm surprised it worked
+> as well as it did.
+> 
+> In any case, I removed the old library directory, and edited exmh,
+> exmh-bg, exmh-strip, etc to point at the right one.  Now I'm getting
+> another traceback on startup:
+> 
+> can't read "mhPriv(pubseq,family,cur)": no such variable
+>     while executing
+> "MhSeq $folder $seq add $mhPriv(pubseq,$folder,$seq) [MhSeqExpand
+> $folder $msgids"
+>     (procedure "MhReadSeqs" line 73)
+>     invoked from within
+> "MhReadSeqs $folder seqs"
+>     (procedure "Mh_Sequences" line 2)
+>     invoked from within
+> "Mh_Sequences $folder"
+>     (procedure "Flist_UnseenUpdate" line 4)
+>     invoked from within
+> "Flist_UnseenUpdate $folder"
+>     (procedure "FolderChange" line 51)
+>     invoked from within
+> "FolderChange family {Msg_Show cur}"
+>     invoked from within
+> "time [list  FolderChange $folder $msgShowProc"
+>     (procedure "Folder_Change" line 3)
+>     invoked from within
+> "Folder_Change $exmh(folder)"
+>     (procedure "Exmh" line 101)
+>     invoked from within
+> "Exmh"
+>     ("after" script)
+> 
+> 
+> +family is the folder I was in when I quit exmh.
+
+That shouldn't have been able to happen, but I've just made the code slightly 
+more bullet proof.
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

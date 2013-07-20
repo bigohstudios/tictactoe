@@ -1,0 +1,40 @@
+RE: [SAtalk] O.T. Habeus -- Why?> I may be dense, but why would anyone want to utilize Habeus?  To
+> me, it looks like a potential backdoor to anyone's defenses against spam.
+
+You're not dense. I'm going to zero the habeas scores on my copy of
+SpamAssassin. I think they were added to SA quite prematurely. To me it's
+simple:
+
+1. People who send me legitimate email have absolutely no motivation to use
+Habeas, at least until it gets lots more press, and even then only
+bulk-mailing companies like Amazon or eBay are going to bother, and I
+already whitelist them. Individuals won't bother.
+
+2. Spammers have lots of motivation to forge the Habeas headers, and a good
+percentage of them are completely out of the legal reach of Habeas.
+
+I think it should be subjected to the same testing and scrutiny as any other
+potential new rule. When I test against my corpus here's what I get:
+
+OVERALL     SPAM  NONSPAM     S/O   SCORE  NAME
+  13851     8919     4932    0.64    0.00  (all messages)
+      0        0        0    0.00   -1.00  HABEAS_SWE
+
+The score of -1.0 is pretty harmless right now, but it still looks like a
+useless rule so far.
+
+--
+Michael Moncur  mgm at starlingtech.com  http://www.starlingtech.com/
+"Never interrupt your enemy when he is making a mistake." --Napoleon
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

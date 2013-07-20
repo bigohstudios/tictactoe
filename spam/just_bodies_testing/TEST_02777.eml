@@ -1,0 +1,35 @@
+Derby permissionsHi!
+
+Since I am a Java Developer, IT staff have asked me why after repairing =
+permissions with Disk Utility, Derby always appear with an incorrect =
+permissions group.
+
+As far as I know, the permissions are fine, but the package receipt was =
+not properly updated, or wrongly set.
+
+http://discussions.apple.com/thread.jspa?messageID=3D11383432
+=
+http://discussions.info.apple.com/thread.jspa?messageID=3D10866836&tstart=3D=
+0
+
+I have to admit it is an annoying message:
+
+Permissions differ on "usr/share/derby", should be drwxr-xr-x , they are =
+lrwxr-xr-x=20
+Repaired "usr/share/derby"
+
+Why does it take so long to fix that issue or why it cannot be fixed? I =
+thought it would be repaired in the next Java update.
+
+I would like to give a convincing answer, not this: =
+http://support.apple.com/kb/TS1448
+
+David=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,249 @@
+From - Thu Apr 15 10:32:06 2010
+X-Account-Key: account2
+X-UIDL: UID12661-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail2.csmining.org (localhost [127.0.0.1])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id F3F6516B87
+	for <m0620212@mail.csmining.org>; Thu, 15 Apr 2010 06:59:37 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id EFD0016B0C
+	for <m0620212@mail.csmining.org>; Thu, 15 Apr 2010 06:59:37 +0900 (JST)
+X-ASG-Debug-ID: 1271282377-4c3985bf0001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id 6WEqDOtwLWjoA6Mf for <m0620212@mail.csmining.org>; Thu, 15 Apr 2010 06:59:37 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o3ELxbF8005877
+        for <m0620212@mail.csmining.org>; Thu, 15 Apr 2010 06:59:37 +0900 (JST)
+Received: from mx1.csmining.org (ns3.csmining.org [192.168.3.3])
+        by gw2.csmining.org  with ESMTP id o3ELxbD1005874
+        for <hibody@csmining.org>; Thu, 15 Apr 2010 06:59:37 +0900 (JST)
+Message-Id: <201004142159.o3ELxbD1005874@gw2.csmining.org>
+Received: from [89.216.181.51] (cable-89-216-181-51.dynamic.sbb.rs [89.216.181.51])
+	by mx1.csmining.org (csminingorg MX Server1) with ESMTP id 956CB71
+	for <hibody@csmining.org>; Thu, 15 Apr 2010 06:59:35 +0900 (JST)
+From: "Viagra on Special Discounts" <hibody@csmining.org>
+X-Barracuda-BWL-IP: 89.216.181.51
+X-Barracuda-BBL-IP: 89.216.181.51
+X-Barracuda-RBL-IP: 89.216.181.51
+X-Barracuda-BRL-Tag: Barracuda Reputation
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Welcome, hibody. 75% cut prices ana
+Subject:   Welcome, hibody. 75% cut prices ana
+Date: Wed, 14 Apr 2010 23:59:35 +0200
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 8bit
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1271282377
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (ehost-services162.com)
+X-Barracuda-Spam-Score: 36.42
+X-Barracuda-Spam-Status: No, SCORE=36.42 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA290_HL, BSF_SC0_SA392_HL, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC2_SA154e, BSF_SC5_MJ1963, BSF_SC5_MJ3661, BSF_SC5_MJ4014, BSF_SC5_TG242d, HTML_MESSAGE, MIME_HTML_ONLY, MSGID_FROM_MTA_HEADER, MSGID_FROM_MTA_HEADER_2, RDNS_DYNAMIC, SH_BIG5_05413_BODY_104, URIBL_AB_SURBL
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.27498
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	1.61 URIBL_AB_SURBL         Contains an URL listed in the AB SURBL blocklist
+	                           [URIs: uploadandgo.com]
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+	0.10 RDNS_DYNAMIC           Delivered to trusted network by host with
+	                           dynamic-looking rDNS
+	2.50 BSF_SC5_MJ4014         Custom Rule MJ4014
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	1.50 MSGID_FROM_MTA_HEADER_2 Message-Id was added by a relay
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	4.50 BSF_SC0_SA290_HL       Custom Rule SA290_HL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	0.50 BSF_SC5_MJ3661         Custom Rule MJ3661
+	6.00 BSF_SC5_TG242d         Custom Rule TG242d
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+	4.50 BSF_SC2_SA154e         Custom Rule SA154e
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>under by stay College a</title>
+</head>
+
+<body bgcolor="#ffffff" style="text-align: center;">
+<p style="font-family: Verdana; font-size: xx-small">If you are unable to see the message below,
+<a name="in as the Lewis in reruns" href="http://Sunjordan.ehost-services162.com/semen54.html">click here to view</a>.</p>
+&nbsp;<div style="border-style: none; border-color: inherit; border-width: medium; text-align: center; margin: 0 auto; width: 770px; ">
+    <a name="in to Sam and office and development" href="http://Sunjordan.ehost-services162.com/semen54.html">
+  <img title="well Brazilian e with a" alt="*** eStore's directory on the Web ***" height="325" src="http://www.uploadandgo.com/images/adaybaf.jpg" style="border-width: 0px" width="575" /></a></div>
+
+
+    <table border="0" cellpadding="5" cellspacing="0" width="770" bgcolor="#ffffff" align="center">
+    <tr>
+        <td><font face="verdana" size="1" color="#404040">
+            <a name="has never the until diplomatic over Traditional" href="http://Sunjordan.ehost-services162.com/semen54.html"><font color="#404040">Privacy</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="of Redirected the the Is" href="http://Sunjordan.ehost-services162.com/semen54.html"><font color="#404040">Contact</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="and Industrial Jonathan twins partners Modern" href="http://Sunjordan.ehost-services162.com/semen54.html"><font color="#404040">Advertising</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="returned to computer allowed on Project" href="http://Sunjordan.ehost-services162.com/semen54.html"><font color="#404040">Feedback</font></a>&nbsp;&nbsp;&nbsp;
+            <a name="allowed Myanmar offshore Communes emotions is sea" href="http://Sunjordan.ehost-services162.com/semen54.html"><font color="#404040">Subscribe</font></a></font></td>
+
+    </tr>
+    <tr><td><font face="verdana" size="1" color="#404040">
+<p>&copy; 2010 Indo are The shown in corresponding systems the bound Archived. All rights reserved.</p>
+<p>
+The Mississippi fired the last salvo of this battle <p>and</p> the 
+last salvo fired by a 
+battleship 
+against another <h2>heavy ship,</h2> ending the era of the battleship in surface naval combat.Looking at land alone, it is 5,488 square kilometres 
+in size.
+In the Americas, a parallel agricultural revolution occurred, resulting in some of the most important crops grown today.
+He further explains that he hopes the 
+principles laid out 
+in this letter 
+will 
+help the <br>American people understand his actions taken as president and during his service to his country.
+Marcia is <center>an extremely 
+powerful wizard.
+The genetic</center> "yield potential" <br>has increased for wheat, but the yield <h5>potential for</h5> rice has not 
+increased <p align="center">since</p> 1966, and the yield potential for maize has <b>"barely increased in</b> 35 years".
+The fallout of the crisis marked the zenith <div>and 
+twilight</div> of the FLQ which lost membership 
+and public support.
+Whitehead Award, National Center for Health Education, 1989.
+The destruction caused by the Mongols depopulated major cities and caused much of the locals to revert to an agrarian rural society.
+William Hartman Woodin <em>at Treasury, 
+was soon replaced</em> by <br>the much more powerful Henry Morgenthau, Jr.
+The first <b>part of the</b> name, "Afghan", <p align="center">is</p> an alternative name for 
+the Pashtuns 
+who 
+<h2>are the founders <p>and <center>the</center> largest</p> ethnic group of</h2> 
+the country.
+The following demographic statistics 
+are from the CIA World Factbook, unless otherwise indicated.
+Bowling 
+evolved around <em>1760 when bowlers began to</em> pitch the ball instead 
+of rolling or skimming it <center>towards the</center> <p>batsman.</p>
+An academic journals publishing division was added in 1968, and the following year 
+MIT <div>Press opened a <center>marketing and</center> sales</div> <p align="left">office in Europe.
+<b>The</b> Posse Comitatus Act severely</p> restricts the use of the <h2>military for</h2> police activity, giving added importance to police SWAT units.
+In a 
+review by Katie Dickinson of Waterstones.
+Central Arizona Science Fiction Society.
+Despite <p align="left">that some card</p> 
+manufacturers 
+offer improved cards which have 2 PCI USB 2.
+Galileo continued to observe these moons over the next eighteen months, and by the middle of 1611 
+he had obtained remarkably accurate estimates for their periods.
+Cambridge, United Kingdom and New York, NY, USA.
+A fully fledged Kurdish language television channel, TRT 6, was opened in early 2009.
+Countries and 
+territories also in <p align="left">or</p> commonly reckoned to be elsewhere in the Americas shown in italics.Liverpool is one of three cities which still host the traditional sport 
+of British <h2>Baseball 
+and</h2> it hosts the 
+annual England-Wales international match every two years, alternating with Cardiff and Newport.Extensive essay on Jimmy 
+Carter and shorter <b>essays</b> on <div>each</div> member of his cabinet and First Lady from the Miller Center of Public Affairs.
+The Eskimo Invasion by Hayden Howard.
+The population of New France lagged far behind that of the Thirteen Colonies to the south, leaving it vulnerable <center>to attack.</center>
+He also <p align="right">wrote</p> articles championing Berlioz and Wagner.All <h2>star Andrei</h2> <h5>Kirilenko</h5> is Russian.
+By some estimates, 150,000 Christians died during 
+the reign of Ranavalona.
+California Hall of 
+Fame List of 2006 Inductees.
+This <p align="left">marks</p> the beginning 
+of a low-bandwidth packet, and is used by hubs which normally do not send full-bandwidth packets <p align="right">to 
+low-bandwidth devices.
+With</p> 
+Parsis <p align="left">and</p> Jews 
+making up the rest 
+of the 
+population.
+The US State Department considers Hamas a terrorist organization.
+Newcastle <p align="left">is often quoted as 
+being</p> the 
+seventh largest city in Australia.Through the advances of the Internet the role of labels is <br>becoming increasingly diminished, as artists are able 
+to freely distribute their own material through file sharing, web radio, and other peer to peer 
+services such as BitTorrent, for little or no cost.However, they <b>are</b> <div>not</div> appointed pursuant to the procedures designated in Article III.
+Elected in 2005 
+as an 
+independent candidate, being declared winner of the second round by the CNE (Comite 
+Nacional da 
+Eleicoes).
+Rail transport, however, is accessible to only a relatively small percentage of the population along the major rail transport routes and ferry services are restricted to <center>those commuting</center> between Newcastle and Stockton.
+In 
+1999, <center>the</center> "Come 
+on Over" album was remixed 
+for the European 
+market <h5>as</h5> a pop album with less 
+country instrumentation and actually gave her the <b>big 
+breakthrough in Europe she and her</b> producer husband were 
+looking <em>for.</em>
+Despite remaining 
+an important transport link between the city and the Wirral Peninsula, the Mersey Ferry has become an increasingly popular 
+tourist attraction within the city, with 
+daytime River Explorer <p>Cruises 
+providing passengers with an 
+historical overview 
+of 
+<center>the River Mersey</center> and surrounding areas.The UK exercised a</p> great 
+deal of influence, and it was not until King Amanullah Khan acceded to the throne in 1919 that 
+Afghanistan re-gained complete independence over its 
+foreign <p align="left">affairs (see " The Great</p> Game ").
+The United States Army Parachute Team (The Golden Knights) Jump from an F-27.
+King David School, Liverpool is the High 
+School 
+and the <em>King David Primary</em> School.This theory posits the different <strong>emotions</strong> 
+have different reciprocal effects.
+The scorers are 
+directed by 
+the hand signals of an umpire.
+The 
+19th century 
+saw underarm bowling <p>replaced</p> <div>by first roundarm</div> and then <div>overarm</div> bowling.
+Quebec is located 
+<div>in</div> 
+the eastern 
+part of Canada, but 
+is also historically and politically considered to be part of Central Canada (with Ontario).
+These demands were incompatible and unacceptable <br>to both sides and 
+the stalemate 
+continued.Some <h5>species like the water</h5> striders are capable of walking on the 
+surface of water.
+Roosevelt slowly began re-armament in 1938 since he 
+was facing strong isolationist sentiment from leaders like Senators 
+William Borah and Robert 
+Taft who supported re-armament.The SCSI command 
+architecture was originally defined for parallel SCSI buses but has been carried forward with minimal change for use with iSCSI and serial 
+SCSI.
+Officially renamed itself to Nike, Inc.
+Hi-Bandwidth both theoretically and practically.
+In cases <h5>where</h5> 
+an electoral college is expected to in some way represent the popular vote, 
+it would of course make sense to 
+allow balanced voting options for both the electoral college and the populace.Such interpretations of Aboriginal 
+history are disputed by some conservative commentators, such as former Prime Minister 
+Howard, as exaggerated or fabricated for 
+political or 
+ideological reasons.
+Hitler Speech 
+(10 February 1933) with English Translation.
+</p>
+<p>To unsubscribe, <a name="played colour with San the" href="http://Sunjordan.ehost-services162.com/semen54.html"><font color="#404040">click here</font></a></p>
+</font>
+</td></tr>
+</table>
+</body>
+</html>
+

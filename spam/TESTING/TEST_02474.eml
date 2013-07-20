@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d14f10fc9cd83
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs146956wfo;
+        Tue, 25 May 2010 14:12:20 -0700 (PDT)
+Received: by 10.223.65.73 with SMTP id h9mr6762352fai.75.1274821939674;
+        Tue, 25 May 2010 14:12:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si8161137fat.58.2010.05.25.14.12.19;
+        Tue, 25 May 2010 14:12:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8A12A13A5F2F; Tue, 25 May 2010 21:12:08 +0000 (UTC)
+Old-Return-Path: <adam.ant@cyberspaceroad.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.6 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,MISSING_HEADERS,ONEWORD,RDNS_DYNAMIC autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8423A13A5C10
+	for <lists-debian-user@liszt.debian.org>; Tue, 25 May 2010 21:12:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.508 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	MISSING_HEADERS=1.292, ONEWORD=2, RDNS_DYNAMIC=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4s5tT8xVeslc for <lists-debian-user@liszt.debian.org>;
+	Tue, 25 May 2010 21:11:55 +0000 (UTC)
+Received: from mx2.athnic.net (host80-240-94-7.athnic.net [80.240.94.7])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "mx2.athnic.net", Issuer "UTN-USERFirst-Hardware" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id 78C2813A55CA
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 21:11:55 +0000 (UTC)
+Received: from [86.178.158.106] (host86-178-158-106.range86-178.btcentralplus.com [86.178.158.106])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx2.athnic.net (Postfix) with ESMTP id EEBF198D28
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 22:11:52 +0100 (BST)
+Message-ID: <4BFC3D11.1040305@cyberspaceroad.com>
+Date: Tue, 25 May 2010 22:11:45 +0100
+From: Adam Hardy <adam.ant@cyberspaceroad.com>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100328)
+MIME-Version: 1.0
+CC: debian-user@lists.debian.org
+Subject: Re: microphone
+References: <1274805531.2735.8.camel@dx2000.g48b> <4BFC137F.8050205@cyberspaceroad.com> <hth5b9$hdr$1@dough.gmane.org> <4BFC29FC.4060706@cyberspaceroad.com> <hthaph$9jv$2@dough.gmane.org>
+In-Reply-To: <hthaph$9jv$2@dough.gmane.org>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <k-qKVmlHfQ.A.7hD.o0D_LB@liszt>
+To: debian-user@lists.debian.org
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577642
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 21:12:08 +0000 (UTC)
+
+deloptes on 25/05/10 21:09, wrote:
+> Adam Hardy wrote:
+> 
+>>  arecord -Dplughw:0,1 |aplay
+>>
+> I just also see that you are not using the command as suggested by me
+> 
+>  -f cd -vv /dev/null
+> 
+> regards
+
+er yes. sorry, figured i could either look up what that did or just leave it 
+out, so I chose to leave it out :O
+
+adam@isengard:~$ arecord -Dplughw:0,0 -c1 -f cd -vv /dev/null
+Recording WAVE '/dev/null' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+Plug PCM: Hardware PCM card 0 'HDA Intel' device 0 subdevice 0
+Its setup is:
+   stream       : CAPTURE
+   access       : RW_INTERLEAVED
+   format       : S16_LE
+   subformat    : STD
+   channels     : 2
+   rate         : 44100
+   exact rate   : 44100 (44100/1)
+   msbits       : 16
+   buffer_size  : 16384
+   period_size  : 4096
+   period_time  : 92879
+   tstamp_mode  : NONE
+   period_step  : 1
+   avail_min    : 4096
+   start_threshold  : 1
+   stop_threshold   : 16384
+   silence_threshold: 0
+   silence_size : 0
+   boundary     : 1073741824
+#+                                                 | 00%^C
+
+Still not a whisper.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFC3D11.1040305@cyberspaceroad.com
+
+

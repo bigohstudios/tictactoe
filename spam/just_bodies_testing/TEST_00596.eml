@@ -1,0 +1,55 @@
+Re: Bluetooth-dev Digest, Vol 7, Issue 13Hi David
+
+On 29.04.2010, at 16:14, dsjove .mac wrote:
+>=20
+> I am writing for the desktop using Cocoa's BT objects. I would love to =
+get this app on the iPhone but jailbreaking appears to be the only =
+option.
+>=20
+> My model over BT is remote procedure calls. That is why I need a =
+dedicated thread for acquiring and signaling results.
+>=20
+> "Blocking" is an ambiguous term. If an event on the main thread calls =
+a function, it is blocking. The low level private implementation detail =
+of a function interacting with BT is irrelevant  to the fact that the =
+main run loop calls a getter on a model object. I have policies built in =
+for timeouts.
+>=20
+> Some of these getters are computed from the results of multiple BT =
+remote procedure calls. The main thread calls the procedural getters. In =
+one connection implementation, BT, it uses another thread to sync the =
+results.
+
+Ah. So you (want to) provide synchronous RPC over BT. We did provide =
+synchronous BT calls in BTnut (btnode.ethz.ch), but so far I don't plan =
+on adding such a feature to BTstack.
+
+>=20
+> I would recomend allowing the client of your library to select the =
+thread. Auto injection into global state is a limiting side-effect. RPC =
+becomes very difficult.
+Thanks for the suggestion. Not convinced yet, but I guess we should this =
+discuss this over at the BTstack-dev mailing list :)
+
+>=20
+> So back to CocoaTouch - can your code go into an AppStore product?
+Let's say it is not impossible. An application that uses BTstack can run =
+inside the usual Sandbox. The client library currently is a dylib but =
+there is no reason to not just link it statically. However, to work, =
+BTdaemon (which implements the Bluetooth stack) needs to be installed =
+and running, which is only possible with jailbreak. So, I in theory an =
+app in the AppStore could use BTstack, but only on a jailbroken device, =
+which might make the AppStore review a bit awkward.   ... See you on the =
+BTstack list :)
+
+Best =20
+ Matthias
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

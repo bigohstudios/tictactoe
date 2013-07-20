@@ -1,0 +1,25 @@
+Re: curses interface to nmhOn Wed, 07 Aug 2002 01:38:55 -0400 
+Tom Lane <tgl@sss.pgh.pa.us> wrote:
+
+> I useta use mh-e regularly, but I never figured out whether it could
+> handle exmh's multidrop mechanism, which is something I've grown to
+> rely on.  Does that work in recent mh-e versions?  I'd love to use
+> mh-e when reading mail remotely, if it can handle my multiple-inbox-
+> folders setup...
+
+I've no idea.  Have you tried asking on the MH-E lists?
+
+-- 
+J C Lawrence                
+---------(*)                Satan, oscillate my metallic sonatas. 
+claw@kanga.nu               He lived as a devil, eh?		  
+http://www.kanga.nu/~claw/  Evil is a name of a foeman, as I live.
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

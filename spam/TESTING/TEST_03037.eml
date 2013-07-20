@@ -1,0 +1,107 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286d182a3bf680a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs386032wfb;
+        Thu, 6 May 2010 03:10:20 -0700 (PDT)
+Received: by 10.223.21.23 with SMTP id h23mr6449836fab.21.1273140619887;
+        Thu, 06 May 2010 03:10:19 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si1604127fks.42.2010.05.06.03.10.19;
+        Thu, 06 May 2010 03:10:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A06B813A5343; Thu,  6 May 2010 10:10:17 +0000 (UTC)
+Old-Return-Path: <mh+debian-kde@zugschlus.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6EB7413A4F30
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 10:10:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id yocN+mvkXDMM for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 10:10:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from torres.zugschlus.de (torres.zugschlus.de [85.214.68.41])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 2DA7213A44C4
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 10:10:04 +0000 (UTC)
+Received: from mh by torres.zugschlus.de with local (Exim 4.69)
+	(envelope-from <mh+debian-kde@zugschlus.de>)
+	id 1O9y1p-0001Ij-Qf
+	for debian-kde@lists.debian.org; Thu, 06 May 2010 12:10:01 +0200
+Date: Thu, 6 May 2010 12:10:01 +0200
+From: Marc Haber <mh+debian-kde@zugschlus.de>
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Message-ID: <20100506101001.GC32231@torres.zugschlus.de>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org> <201005061139.04425.schwarzerf@csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+In-Reply-To: <201005061139.04425.schwarzerf@csmining.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <LyAHFxNPYtP.A.rmC.JWp4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32100
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 10:10:17 +0000 (UTC)
+
+Hi,
+
+On Thu, May 06, 2010 at 11:39:04AM +0200, Frederik Schwarzer wrote:
+> Why is KDE 4 for you no option? Does it not work for you? Or do you just
+> not like the concepts? The KDE developers are open for suggestions, as
+> long as these are not "give me kicker back" or alike.
+
+Konsole 4's Profile handling is utterly broken. There are multiple
+bugs open upstream about this, none of which has been commented on by
+the developers. I don't see any interest of upstream in fixing these
+issues.
+
+I still hope that 4.4.3 will fix the krunner instabilities that were
+introduced in 4.4.
+
+These two issues make me wish to have kde3 back every single day. Eye
+candy is important, which kde4 has more than kde3, but breaking my
+bread-and-butter application that badly is a real turn-off.
+
+Greetings
+Marc
+
+-- 
+-----------------------------------------------------------------------------
+Marc Haber         | "I don't trust Computers. They | Mailadresse im Header
+Mannheim, Germany  |  lose things."    Winona Ryder | Fon: *49 621 72739834
+Nordisch by Nature |  How to make an American Quilt | Fax: *49 3221 2323190
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506101001.GC32231@torres.zugschlus.de
+
+

@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286e0eb1f141216
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs397641wfb;
+        Thu, 6 May 2010 07:39:37 -0700 (PDT)
+Received: by 10.223.56.212 with SMTP id z20mr5110323fag.1.1273156776269;
+        Thu, 06 May 2010 07:39:36 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si2168645fks.50.2010.05.06.07.39.35;
+        Thu, 06 May 2010 07:39:36 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id DFD6F2E8B13; Thu,  6 May 2010 14:39:33 +0000 (UTC)
+Old-Return-Path: <Martin@lichtvoll.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6B83F2D0D2D
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 14:39:28 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LyNfCf9oSPR3 for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 14:39:20 +0000 (UTC)
+Received: from mail.lichtvoll.de (mondschein.lichtvoll.de [194.150.191.11])
+	by liszt.debian.org (Postfix) with ESMTP id DA0852D0D27
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 14:39:20 +0000 (UTC)
+Received: from shambhala.localnet (ppp-88-217-116-75.dynamic.mnet-online.de [88.217.116.75])
+	by mail.lichtvoll.de (Postfix) with ESMTPSA id AFE435AE6B
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 16:39:18 +0200 (CEST)
+From: Martin Steigerwald <Martin@lichtvoll.de>
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+Date: Thu, 6 May 2010 16:39:02 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33.2-tp42-toi-3.1-lowmem-free-991-992-04964-gf00c7ec-dirty; KDE/4.4.3; i686; ; )
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org> <201005060741.29747.Howland@priss.com> <slrnhu5bem.rvp.nospam@sshway.ssh.pusling.com> (sfid-20100506_135510_533685_83853238)
+In-Reply-To: <slrnhu5bem.rvp.nospam@sshway.ssh.pusling.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1704249.UKzeIgF3Lc";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005061639.16309.Martin@lichtvoll.de>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <BL1Qgq5n8lE.A.uuG.lSt4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32129
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 14:39:33 +0000 (UTC)
+
+--nextPart1704249.UKzeIgF3Lc
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 06 Mai 2010 schrieb Sune Vuorela:
+> On 2010-05-06, Curt Howland <Howland@priss.com> wrote:
+> > On Thursday 06 May 2010, Ana Guerrero was heard to say:
+> >> On Thu, May 06, 2010 at 03:17:43AM -0300, Jorge Gon=E7alves wrote:
+> >> > Maybe use dummy packages, or rename the packages so that KDE 3.5
+> >> > could remain installed, and not be forced to upgrade to Kde4.
+> >>=20
+> >> No, there is not sane way and there is nobody interested on it.
+> >=20
+> > While the former is certainly true, the latter is demonstrably false.
+>=20
+> Where is your code?
+>=20
+> I will repeat "No one is interested in doing it".
+
+That does not seem to be entirely true as was mentioned elsewhere in this=20
+thread:
+
+http://trinity.pearsoncomputing.net/
+
+However this seems far away from the man-power behind KDE 3 until 3.5.10.=20
+To truly get forward with this one it appears to me that way more=20
+developers are needed. Who then would have less or no time to work on=20
+improving KDE 4.
+
+I will stick with KDE 4 - as long as it - as a whole - does get better=20
+from release to release. It already got better. It already takes longer=20
+than with KDE 3 to get as stable and nice to work with as KDE 3.5.10, but=20
+with help of everyone it eventually will get there. And KDE 3.5.10 had=20
+issues as well. Especially with KMail that Boyd is so interested in. KMail=
+=20
+as of KDE 4.3 *and* 4.4 appears to be way more stable to me regarding that=
+=20
+annoying index handling issues. And it has been improved a lot by Thomas=20
+McGuire and others. Okular is fine, Dolphin is fine, KWrite, Kate are fine,=
+=20
+Dragon player is quite fine, Amarok is quite fine lots of other apps are=20
+fine. I think mainly Akonadi, Nepomuk, Plasma, a bit also Phonon needs=20
+quite some more stabilization and performance work.
+
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7
+
+--nextPart1704249.UKzeIgF3Lc
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvi1IYACgkQmRvqrKWZhMckqQCdHBhlcb/fsrhc0JAB6o8++Knp
+xZAAoKqlCDj0Eso8g7OvhTvU97T6D2El
+=PCUt
+-----END PGP SIGNATURE-----
+
+--nextPart1704249.UKzeIgF3Lc--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061639.16309.Martin@lichtvoll.de
+
+

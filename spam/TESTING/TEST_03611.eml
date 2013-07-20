@@ -1,0 +1,150 @@
+From - Thu Feb 18 18:45:51 2010
+X-Account-Key: account2
+X-UIDL: UID11143-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 19FDF2C40A
+	for <m0620212@mail.csmining.org>; Thu, 18 Feb 2010 18:43:16 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 1622115E6E
+	for <m0620212@mail.csmining.org>; Thu, 18 Feb 2010 18:43:16 +0900 (JST)
+X-ASG-Debug-ID: 1266486195-761f629f0001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id sExjNBZGmTE5xTWt for <m0620212@mail.csmining.org>; Thu, 18 Feb 2010 18:43:15 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o1I9hFiQ008220
+        for <m0620212@mail.csmining.org>; Thu, 18 Feb 2010 18:43:15 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id o1I9hFYq008217
+        for <hibody@csmining.org>; Thu, 18 Feb 2010 18:43:15 +0900 (JST)
+Received: from [92.83.111.69] ([92.83.111.69])
+	by ns2.csmining.org  with ESMTP id o1I9hDNM001843
+	for <hibody@csmining.org>; Thu, 18 Feb 2010 18:43:14 +0900 (JST)
+Date: Thu, 18 Feb 2010 18:43:13 +0900 (JST)
+X-Barracuda-BWL-IP: 92.83.111.69
+X-Barracuda-BBL-IP: 92.83.111.69
+X-Barracuda-RBL-IP: 92.83.111.69
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Message-Id: <201002180943.o1I9hDNM001843@ns2.csmining.org>
+From: "Pfizer (tm) Viagra Certified Seller" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Mr. hibody 82% less to pay
+Subject:   Mr. hibody 82% less to pay
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1266486195
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (*hourchoice.ru)
+X-Barracuda-Spam-Score: 33.48
+X-Barracuda-Spam-Status: No, SCORE=33.48 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA290_RN, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2, BSF_SC2_SA154, BSF_SC2_SA154_HL, BSF_SC2_SA154d, BSF_SC5_MJ1963, BSF_SC5_MJ3661, BSF_SC7_SA015c, HTML_IMAGE_ONLY_20, HTML_IMAGE_ONLY_20_2, HTML_IMAGE_RATIO_02, HTML_MESSAGE, HTML_SHORT_LINK_IMG_3, HTML_SHORT_LINK_IMG_3_2, MIME_HTML_ONLY, NUMERIC_HTTP_ADDR, RDNS_NONE, URIBL_JP_SURBL, URIBL_WS_SURBL, URI_HEX
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.22833
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	2.10 URIBL_WS_SURBL         Contains an URL listed in the WS SURBL blocklist
+	                           [URIs: hourchoice.ru]
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: hourchoice.ru]
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.32 URI_HEX                URI: URI hostname has long hexadecimal sequence
+	0.00 NUMERIC_HTTP_ADDR      URI: Uses a numeric IP address in URL
+	0.00 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of words
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.70 HTML_IMAGE_ONLY_20_2   HTML: images with 1600-2000 bytes of words
+	0.00 HTML_SHORT_LINK_IMG_3  HTML is very short with a linked image
+	0.56 HTML_SHORT_LINK_IMG_3_2 HTML is very short with a linked image
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	0.80 BSF_SC7_SA015c         Custom Rule SA015c
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	2.50 BSF_SC2_SA154d         Custom Rule SA154d
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	0.50 BSF_SC5_MJ3661         Custom Rule MJ3661
+	5.50 BSF_SC2_SA154          Custom Rule SA154
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL2 Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL2
+	3.50 BSF_SC2_SA154_HL       Custom Rule SA154_HL
+	Realtime IP - 222.241.12.32
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Newsletter</title>
+<style type="text/css">
+<!--
+a:link
+{
+color: #50C9F3;
+}
+
+a:visited
+{
+color: #3B5D1F;
+text-decoration: underline;
+}
+
+a:hover
+{
+color: #74D97A;
+text-decoration: none;
+}
+
+bukubape
+{
+        font-family: Tahoma;
+        font-size: 8px;
+        line-height: 13px;
+        color: #2DB06F;
+        margin-top: 0px;
+        margin-bottom: 6.5pt;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="749" border="0" cellpadding="10" cellspacing="0" bgcolor="#e7e7e9" align=center>
+  <tr>
+    <td align="left" valign="top" colspan=3>
+      <p class="bukubape">To view this email as a webpage, <a href="http://7470308d9e4a.hourchoice.ru/">go here</a>.</p>
+      </td>
+      </tr>
+  </table>
+<table width="749" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" align=center>
+  <tr>
+    <td align="left" valign="top">
+	<a href="http://7c917e17c09a7.hourchoice.ru/">
+	<img alt="Click to get all pictures from this picture" src="http://s002.radikal.ru/i198/1002/41/364da1545493.jpg" width="561" height="454" style="border:0px"></a>
+	<p class="bukubape">&nbsp;</p>
+	<p class="bukubape">This email was sent to: hibody@csmining.org</p>
+      <p class="bukubape">This email was sent by: Evid Company<br>
+        2360 Hihyb Street, 34
+		Kaeolab, XP 39637  USA</p>
+      <p class="bukubape">Go <a href="http://c1df20.hourchoice.ru/" target="_blank">here</a> to remove your address. </p>
+      <p class="bukubape">Go <a href="http://07faad2205d326b.hourchoice.ru/" target="_blank">here</a> to modify your email address and other subscriber information and preferences.</p>
+      <p class="bukubape">We respect your right to privacy. View our mail host's <a href="http://54793ea.hourchoice.ru/">privacy policy</a>.</p>
+	</td>
+  </tr>
+</table>
+</body>
+</html>
+

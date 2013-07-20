@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId12837fe7fed6a783
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs66181wfj;
+        Sun, 25 Apr 2010 19:42:26 -0700 (PDT)
+Received: by 10.143.139.7 with SMTP id r7mr1475814wfn.117.1272249745284;
+        Sun, 25 Apr 2010 19:42:25 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 28si107478pzk.54.2010.04.25.19.42.25;
+        Sun, 25 Apr 2010 19:42:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 197BC1BF92068
+	for <mlsubscriber.tech@csmining.org>; Sun, 25 Apr 2010 19:42:25 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 14C52271AF5E0
+	for <mlsubscriber.tech@csmining.org>; Sun, 25 Apr 2010 19:42:25 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id D9E8F271AEF72
+	for <java-dev@lists.apple.com>; Sun, 25 Apr 2010 19:41:31 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id C9679D5AB254
+	for <java-dev@lists.apple.com>; Sun, 25 Apr 2010 19:41:31 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-71-4bd4fd5bd617
+Received: from onemoonscientific.com
+	(69-55-227-188.in-addr.arpa.johncompanies.com [69.55.227.188])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	9D.FC.26228.B5DF4DB4; Sun, 25 Apr 2010 19:41:31 -0700 (PDT)
+X-Default-Received-SPF: pass (skip=forwardok (res=PASS))
+	x-ip-name=173.54.27.123; 
+Received: from lunalight.home (unverified [173.54.27.123]) 
+	by onemoonscientific.com (SurgeMail 4.2a3) with ESMTP id 111131-1873151
+	for multiple; Sun, 25 Apr 2010 19:41:27 -0700
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: "Bruce A. Johnson" <bruce@onemoonscientific.com>
+In-Reply-To: <20100425190416.20B4B2719BE02@lists.apple.com>
+Date: Sun, 25 Apr 2010 15:26:41 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <1B9765F9-D28B-4091-BE32-CA0275555D3D@onemoonscientific.com>
+References: <20100425190416.20B4B2719BE02@lists.apple.com>
+To: java-dev@lists.apple.com
+X-Mailer: Apple Mail (2.1078)
+X-Authenticated-User: bruce@onemoonscientific.com 
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+Subject: Re: Snow Leopard, Java 6 and Netbeans
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I struggled with NetBeans 6.8 for days in a sort of love/hate =
+relationship.  When it works it's an excellent tool, but often it was =
+agonizingly slow and would run out of memory.  Using the built-in =
+snapshot tool I was able to see that there was a lot of file access =
+driven my Mercurial.  It turns out that I had an .hg directory in my =
+home directory (can't remember putting it there or ever using it).  Even =
+though all of my projects were in sub-directories the NetBeans Mercurial =
+plug-in insisted on scanning everything under my home directory.  This =
+used 100% of the CPU and eventually all the  memory shortly after =
+starting up NetBeans.  After getting rid of the .hg subdirectory =
+everything is groovy.
+
+I don't know if you're using Mercurial with NetBeans or not, but if so =
+this could be the problem.  If not, NetBeans might be doing a similarly =
+crazy thing to cause your problem.
+
+Bruce
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

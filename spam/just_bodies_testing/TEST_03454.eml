@@ -1,0 +1,32 @@
+Re: Evolution email question.On 05/21/2010 09:07 PM, Paul E Condon wrote:
+> I'm looking at Evolution as a GUI MUA to supplement Mutt
+>
+
+Then I'd implement an IMAP server and move all your email to it.
+
+> I'm running Squeeze on Intel hardware - nothing exotic.
+> I go through the initial setup dialog - no problem
+> I'm about to start investigating how it works when I
+> notice my computer is running really slowly. I look
+> carefully at the Evolution window and it seems that
+> Evolution is scanning everything under "/". This will
+> take a long time (100GB HD and pretty near full).
+>
+> Question:
+> What is Evolution looking for? and
+> Is there a way that I can tell it where that is ? So
+> it doesn't look in all the wrong places.
+>
+
+Maybe it's PIM is indexing your disk?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF73DDB.4090508@cox.net
+
+

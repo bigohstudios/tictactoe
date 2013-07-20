@@ -1,0 +1,26 @@
+Launch some command and leave the console, the command still being
+ executedFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I would like to be able to launch some command in the console, and to be
+able to close the terminal, the command being still evaluated, i.e. if I
+launch gedit (I'm under GNOME), and that I close the console, gedit
+closes too. (This is also the case with `gedit &', which is not
+astonishing.)
+
+Is it even possible?
+
+Thanks folks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

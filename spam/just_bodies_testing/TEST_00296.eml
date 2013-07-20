@@ -1,0 +1,39 @@
+Re: Making onscreen fonts read-able[was:New monitor, how to change 
+	screen resolution?]On Fri, 30 Apr 2010 10:27:26 +0200, James Stuckey wrote:
+
+> On Fri, Apr 30, 2010 at 10:15 AM, Camaleón wrote:
+> 
+>> > http://www.jhstuckey.com/1080.jpeg
+>> >
+>> > Does that look right to you?
+>>
+>> Mmmm, yes, nothing strange :-?. I bit "big" for my taste...
+>>
+>> Do you find the font of the toolbar is still "small"? Then instead
+>> 96dpi set to 120dpi, that will make things "bigger".
+>>
+> Doing "xrandr --dpi 120", logging out of wmii and logging back in
+> doesn't change anything.
+
+Yes, as you already said yesterday, that option was not working for you. 
+I dunno how to set DPI under wmii DE, unless you try to edit the 
+xorg.conf file and put there.
+ 
+> Maybe the problem I perceived in the text on screen is just how the
+> monitor displays.
+
+I fail to see anything wrong in the image you sent. It is readable, is 
+not distorted, is not small... :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.30.09.10.14@csmining.org
+
+

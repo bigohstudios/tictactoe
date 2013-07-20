@@ -1,0 +1,26 @@
+[Razor-users] Change timeout setting???This is a semi-followup on my previous question. I am running razor-check
+through a sendmail milter (smrazor http://www.sapros.com/smrazor/ ) and have
+set up my milter timeouts to 20sec connect and 30 sec response. The problem
+is that there is another timeout setting for razor-check that I am unable to
+locate. My razor-agent.log is now getting filled with :
+
+check[6149]: [ 3] Timed out (15 sec) while reading from honor.cloudmark.com.
+
+So the question is, is there a razor-agent.conf file setting to increase
+this timeout value? I have this problem on 2 different servers now (as
+apparently ubik.cloudmark and apt.cloudmark are refusing connections) ......
+
+Sven
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

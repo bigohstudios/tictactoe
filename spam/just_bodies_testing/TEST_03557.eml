@@ -1,0 +1,22 @@
+Re: Heads UP icedove 3.0.4-2Le 21/04/2010 19:37, Wayne Topa wrote:
+> just upgraded icedove on 686 & AND64 Squeeze.
+>
+> It runs on 686 but segfaults on AND64, my main system.
+>
+> Wayne
+>
+>
+>
+Hi, running it on two different AMD64 Squeeze systems, works fine. I use 
+iceowl 1.0b1 (lightning) calendar extension, Adblock Plus 1.1.3, 
+contacts sidebar 0.8pre, Image zoom 0.4.4, quote colors 0.3 and a few 
+others. One system is even running the "personas" stuff. I also use 
+mailbox compacting, Imap and pop.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF54A1.3020106@googlemail.com
+
+

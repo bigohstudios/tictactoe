@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286db77f0eaa5b9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs392669wfb;
+        Thu, 6 May 2010 06:04:22 -0700 (PDT)
+Received: by 10.223.132.210 with SMTP id c18mr6656346fat.48.1273151061658;
+        Thu, 06 May 2010 06:04:21 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si1980571fka.31.2010.05.06.06.04.21;
+        Thu, 06 May 2010 06:04:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 65F752E8B0F; Thu,  6 May 2010 13:04:19 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id ED4DC13A5397
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 13:04:13 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id g81B4Vh3twIQ for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 13:04:06 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 1289813A52F0
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 13:04:05 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so6553561qyk.6
+        for <debian-kde@lists.debian.org>; Thu, 06 May 2010 06:03:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=IMi9aKtcxCWi0EZVMbK35ivNE+LIGEUegXdmWmJantQ=;
+        b=LbV4z36Cvd9QIgEFnfUcnPydLcC/w6Wj3AT4lnaxy5IjzJNE9yzRviefnS0LL3lus+
+         mO/EwNSirppAJU0LrL3RZi30+1RC4Na28chcvDP5KxpZ+Uk6EAQDsOhKAuM690pNSixT
+         sPrYVsqBe4aGY+jFfYzkv+E8F6AMfC18zEPfs=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=i5FnhF4Th00yUKCDqG+xW3PVAKDTOGzINVwKMGVwwWdsPM58mUIhdAr7fpE4HDL8Rg
+         caePN+/IL1e0VSyky6czPy5G+L60V4A2Dve5Vhz/zCYxQVY8yHQ/TLO84Kb0JlEv+lh4
+         PUjI2y0abzz4aSpPcOWPanT5MFQT3vO4l6Xww=
+MIME-Version: 1.0
+Received: by 10.224.105.226 with SMTP id u34mr7540405qao.118.1273151036456; 
+	Thu, 06 May 2010 06:03:56 -0700 (PDT)
+Received: by 10.229.221.13 with HTTP; Thu, 6 May 2010 06:03:56 -0700 (PDT)
+In-Reply-To: <201005061543.12340.d_baron@012.net.il>
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org>
+	 <201005061139.04425.schwarzerf@csmining.org>
+	 <201005061543.12340.d_baron@012.net.il>
+Date: Thu, 6 May 2010 16:03:56 +0300
+Message-ID: <u2i880dece01005060603y3b094cacw9810f35e44d40c7f@mail.csmining.org>
+Subject: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: David Baron <d_baron@012.net.il>
+Cc: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <OQWgzoa6_2N.A.6-E.T5r4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32119
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 13:04:19 +0000 (UTC)
+
+> However, while I agree KDE4 has taken a newer direction and is slower, one can
+> configure it to work more like the old favorite. Your desktop and be the
+> desktop folder "containment" and then work from there.
+>
+
+KDE 4.4 is lighter than KDE 3.5 was, even with desktop effects
+enabled. The only time you will see it appear that KDE 4 is "heavy" is
+if you are loading the Qt3 libraries in addition to the Qt4 libraries,
+for instance by using KDE3 applications. I understand that some people
+still need Quanta or the old Kdevelop, but if you are not using KDE 3
+applications (and therefore loading Qt3 libraries) then Qt4 is lighter
+than Qt3 was.
+
+> Or try one of the lighter-weight alternatives.
+>
+
+The issue applies to the alternatives as well, unless you can find a
+Qt3 alternative. Gnome and XFCE are both GTK.
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2i880dece01005060603y3b094cacw9810f35e44d40c7f@mail.csmining.org
+
+

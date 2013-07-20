@@ -1,0 +1,97 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280cd31ef0c5c24
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs23215wfj;
+        Sat, 17 Apr 2010 10:31:26 -0700 (PDT)
+Received: by 10.223.63.208 with SMTP id c16mr1503419fai.29.1271525485473;
+        Sat, 17 Apr 2010 10:31:25 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si6620275fkr.29.2010.04.17.10.31.21;
+        Sat, 17 Apr 2010 10:31:22 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E605B13A5B00; Sat, 17 Apr 2010 17:31:16 +0000 (UTC)
+Old-Return-Path: <lists@naasa.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 09CEB13A5A74
+	for <lists-debian-kde@liszt.debian.org>; Sat, 17 Apr 2010 17:31:11 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2lMTnKyof6Mn for <lists-debian-kde@liszt.debian.org>;
+	Sat, 17 Apr 2010 17:31:03 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 601 seconds by postgrey-1.31 at liszt; Sat, 17 Apr 2010 17:31:03 UTC
+Received: from ferdi.naasa.net (ferdi.naasa.net [87.106.227.76])
+	by liszt.debian.org (Postfix) with ESMTP id D6AF213A599C
+	for <debian-kde@lists.debian.org>; Sat, 17 Apr 2010 17:30:51 +0000 (UTC)
+Received: from jako.ping.de (d117117.adsl.hansenet.de [80.171.117.117])
+	by ferdi.naasa.net (Postfix) with ESMTPS id 3990C1940D0;
+	Sat, 17 Apr 2010 19:21:00 +0200 (CEST)
+Received: from ibm.jako.ping.de (ibm.jako.ping.de [192.168.0.8])
+	by jako.ping.de (Postfix) with ESMTPS id A8B7379DD5;
+	Sat, 17 Apr 2010 19:20:59 +0200 (CEST)
+Received: from ibm.localnet (localhost [127.0.0.1])
+	by ibm.jako.ping.de (Postfix) with ESMTP id 3BB1749B72;
+	Sat, 17 Apr 2010 19:20:59 +0200 (CEST)
+From: Joerg Platte <lists@naasa.net>
+Reply-To: jplatte@naasa.net
+To: debian-kde@lists.debian.org
+Subject: ssh-agent terminates before session ends
+Date: Sat, 17 Apr 2010 19:20:57 +0200
+User-Agent: KMail/1.13.2 (Linux/2.6.33.2; KDE/4.4.2; i686; ; )
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Message-Id: <201004171920.58302.lists@naasa.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <YRLAe2LiuEE.A.2JB.kBfyLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32038
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat, 17 Apr 2010 17:31:16 +0000 (UTC)
+
+Hi,
+
+after upgrading to the experimental packages of KDE ssh-agent 
+seems to terminate shortly after logging in. I'm able to enter 
+my passphrase with ssh-add and I'm able to log into another 
+machine but after a few minutes the agent terminates.
+
+ssh-agent is started during kdm login via "use-ssh-agent" in 
+/etc/X11/Xsession.options. This worked before without any 
+problems. Does anyone else encounter the same problem?
+
+regards,
+Jörg
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004171920.58302.lists@naasa.net
+
+

@@ -1,0 +1,26 @@
+Whither vCard?Does anyone know what happened to vCard support in Netscape 7.0/Mozilla 
+1.1?
+ (Not there yet in Mozilla and therefore not in the new mail engine I 
+presume?)
+
+Netscape Messenger/Mozilla have LDAP LDIF import/export, but I can't 
+find vCard or a reference to it anywhere.  I like the Netscape/Mozilla 
+email client.  I avoid LookOut for at least two reasons: Windows Only 
+(my main environment is Linux with 30% on Windows) and security issues.
+
+Now that LDAP, and the related DSML and DNS SRV record methods, are 
+becoming more popular, is there a decline of vCard?
+Is there a standard emerging to deal with the mismatch in naming between 
+the two?
+
+I've brushed with directories in the past, but I'm getting in deep along 
+with more PKI oriented focus.  Any wisdom would be appreciated.  In 
+particular, I'm going to start integrating smart cards into my linux and 
+Win32 systems and integrating them with Netscape Messenger/Mozilla and 
+Outlook.
+
+Thanks
+sdw
+
+
+

@@ -1,0 +1,14 @@
+Re: automate apt-get updateFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+El jue, 08-04-2010 a las 09:02 +0200, Jozsi Vadkan escribi=C3=B3:
+> apt-get update
+>=20
+> ? Is there a program for it? [e.g.: update-manager under GUI?] that
+> randomly runs apt-get update?
+
+apt-watch - Applet that monitors apt sources for upgrades=20
+
+JulHer
+

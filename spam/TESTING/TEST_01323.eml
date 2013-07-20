@@ -1,0 +1,248 @@
+From - Mon Oct 19 10:25:53 2009
+X-Account-Key: account2
+X-UIDL: UID8293-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail2.csmining.org (localhost [127.0.0.1])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 5EA592C52A
+	for <m0620212@mail.csmining.org>; Sat, 17 Oct 2009 19:09:01 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 5AD6315F8C
+	for <m0620212@mail.csmining.org>; Sat, 17 Oct 2009 19:09:01 +0900 (JST)
+X-ASG-Debug-ID: 1255774140-6ea7009e0000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1255774140
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250])
+	by spamgw.csmining.org Firewall) with SMTP id ADB977B618E
+	for <m0620212@mail.csmining.org>; Sat, 17 Oct 2009 19:09:00 +0900 (JST)
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id n9HA9047007679
+        for <m0620212@mail.csmining.org>; Sat, 17 Oct 2009 19:09:00 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id n9HA90bZ007676
+        for <hibody@csmining.org>; Sat, 17 Oct 2009 19:09:00 +0900 (JST)
+Received: from 118-232-201-67.dynamic.kbronet.com.tw (118-232-201-67.dynamic.kbronet.com.tw [118.232.201.67])
+      by ns1.csmining.org  with ESMTP id n9HA8xnL027449
+      for <hibody@csmining.org>; Sat, 17 Oct 2009 19:08:59 +0900 (JST)
+Date: Sat, 17 Oct 2009 19:08:59 +0900 (JST)
+Message-Id: <200910171008.n9HA8xnL027449@ns1.csmining.org>
+From: "Tommie Ottaway" <hibody@csmining.org>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Why did we break?
+Subject: [SPAM]  Why did we break?
+Content-type: text/html; charset="iso-8859-1"
+Content-transfer-encoding: 8BIT
+MIME-Version: 1.0
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-ASG-Tag: BRL ([<http://www.barracuda.com/reputation?ip=118.232.201.67>])
+X-Barracuda-Spam-Score: 10.02
+X-Barracuda-Spam-Status: No, SCORE=10.02 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.98396
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.50 BARRACUDA_HEADER_FP20  RBL: Barracuda Reputation
+	                    [<http://www.barracuda.com/reputation?ip=118.232.201.67>]
+	1.21 HELO_DYNAMIC_IPADDR2   Relay HELO'd using suspicious hostname (IP addr
+	                            2)
+	0.70 MSGID_FROM_MTA_ID      Message-Id for external message added locally
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.10 RDNS_DYNAMIC           Delivered to trusted network by host with
+	                           dynamic-looking rDNS
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	2.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH_HL Custom Rule
+	                           SA_TO_FROM_ADDR_MATCH_HL
+	4.00 BSF_SC0_SA392_HL       Custom Rule SA392_HL
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
+
+<style type="text/css">
+
+body
+{
+	background: #aaaaaa;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, p, li, table, tr, td { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+table, tr, td { background: #ffffff; color: #000000; font-size: 12px;
+	text-align: center;
+}
+
+p, li { font-size: 12px; }
+
+p
+{
+	line-height: 130%;
+}
+
+p.note { font-size: 12px; }
+
+h1 { font-size: 22px; font-weight: 400; }
+
+h2 { font-size: 20px; font-weight: 400; }
+
+h3
+{
+
+	font-size: 14px;
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 2px;
+	color: #cc0033;
+}
+
+h3.america
+{
+  color: #7ea1b5;
+  background-color: #ffffff;
+}
+
+form
+{
+	margin: 0;
+	padding: 0;
+}
+
+a { text-decoration: none; }
+
+a:link    { color: #cc0033; background-color: #ffffff; }
+a:visited { color: #cc0033; background-color: #ffffff; }
+a:hover { color: #cc0033; background-color: #ffffff; text-decoration: underline; }
+
+table#main
+{
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+gray tr, .gray td, .gray a:link, .gray a:visited, .gray a:hover
+{
+	background-color: #ececec;
+}
+
+bigfont {
+	font-size:2em; color:#0099CC; text-decoration:underline;
+}
+
+hr
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	color: #000000;
+	background-color: #000000;
+}
+
+p#jumpLinks
+{
+	margin: 2px 2px 0px 8px;
+}
+
+{
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+}
+
+{
+	color: #666666;
+}
+
+{
+	color: #cccccc;
+	background-color: #000000;
+}
+
+</style>
+
+<title>Hot Topics - What's New in Specialty Glass &amp; Framing</title>
+
+</head>
+
+<body>
+
+<table id="main" border="0" cellpadding="0" cellspacing="0" align="center" width="600">
+  <tr>
+    <td>
+
+      <p style="margin: 8px 0 10px 12px;"><a href="http://005.cinosjc.cn/?aaifefyri=Ow20c2u19662Vai236O2a129t&uiqydaexy=242311GSEv5Yc4l7iF15w904&uazav=ZpA691t504842buQ50596t">
+	  View this newsletter as a web page.</a></p>
+
+      <table style="border-bottom: 1px solid #000000;" border="0" cellpadding="12" cellspacing="0" width="600">
+        <tr>
+          <td>
+
+          	<form action="http://4c7df.cinosjc.cn/?ytyhiafaqu=7453c73622njJ8821E5166798&aqulaiu=765553i09496O346309xe&ygywo=4N46hs5r85K0a9n06R82" method="get">
+
+            	<p>Forward this newsletter to a friend!<br>
+            	Your Name: <input name="ReferrerName" type="text" size="20" maxlength="50">&nbsp;&nbsp;
+				Friend's Email: <input name="FriendsEmail" type="text" size="20" maxlength="50"> <input type="submit" value="GO"></p>
+
+            </form>
+
+          </td>
+				</tr>
+			</table>
+
+			<table border="0" cellpadding="12" cellspacing="0">
+				<tr>
+					<td>
+
+            		<br><br><br>
+
+            		<a class="bigfont" href="http://cf2.cinosjc.cn/?pouyboda=zo8b07X6m33wq0514811339v&ipuulidauw=8AX454071l843e34644qo5&aoolitayvo=5tzK962yRj2h975554855497b">
+					<img alt="Your system didn't load this picture? View it by clicking!" src="http://fe1e.cinosjc.cn/oaxierimoa.gif" style="border-width: 0px"></a><br>
+					<br><br><br>
+
+            <hr>
+
+						<p>(c) Qanybocylenie Products Inc<br>
+						8107 Bracken Place SE<br>
+						Snoqualmie, WA 98065</p>
+
+						<p>If you have received this newsletter in error, or to
+						remove your name from future mailings, <a href="http://3c09.cinosjc.cn/?jyduk=8389s81W5n5Y7P564K309275&dobouobu=Qh70F22f9153M8m01541350&oheja=883W76e3sZ776539Knt9">
+						click here</a> to unsubscribe.</p>
+
+					</td>
+				</tr>
+			</table>
+
+			<table id="bottomLinks" border="0" cellpadding="12" cellspacing="0" width="100%" align="center">
+				<tr>
+					<td align="center"><a href="http://67a61.cinosjc.cn/?dixosadyny=38F4463MFB52718w45b2&outeci=d5I2Y65S6jod1f938xfn&iidaypym=948151c0540JY08728m03Yj34">
+					Privacy</a></td>
+					<td align="center"><a href="http://e3f973.cinosjc.cn/?qelujyna=3N0h15q332i2B462g996346&hihuvi=7868A9X89459Cl8H48zJ1m28&yudea=437894e3250C431829870840">
+					Contact Us</a></td>
+					<td align="center"><a href="http://5019.cinosjc.cn/?itouym=4b6q0602O37P74497a7E716h&ibyxa=92164215440510155Av6ccrB&ypamiku=0572e96U231Qe5U030uhq12">
+					Newsletter Archives</a></td>
+				</tr>
+			</table>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>
+

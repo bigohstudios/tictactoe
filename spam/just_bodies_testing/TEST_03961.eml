@@ -1,0 +1,28 @@
+Re: dumb question: X client behind a firewall?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+----- Original Message -----
+From: Joseph S. Barrera III
+Sent: Wednesday, September 25, 2002 7:06 PM
+To: FoRK
+Subject: dumb question: X client behind a firewall?
+
+Let's say you're behind a firewall and have a NAT address.
+Is there any way to telnet to a linux box out there in the world
+and set your DISPLAY in some way that you can create
+xterms on your own screen?
+
+- Joe
+
+--------------------
+I'm in no way a pro but perhaps you could set your Firewall to accept con=
+nections from that Linux box and then somehow set the Linux box to transm=
+it on a specific port. Then configure your router to forward all informat=
+ion from that port to your box.
+
+But then again, that pretty much defeats the entire point of a firewall =3D=
+P.Get more from the Web.  FREE MSN Explorer download : http://explorer.ms=
+n.com

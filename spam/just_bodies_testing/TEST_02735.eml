@@ -1,0 +1,32 @@
+Re: Cyrus 2.2 imapd in AMD64Carlos Bergero wrote:
+> After checking the DB files I found out the version im using in the etch 
+> server uses Berkeley  DB (Btree, version 8 native byte-order) while the 
+> new lenny server is using Berkeley DB (Btree, version 9, native 
+> byte-order) for at least the deliver.db and th tls_sessions.db, do you 
+> agree this could be the problem and if so, any clue how to convert one 
+> into the other?
+>
+On Lenny:
+
+/usr/share/doc/cyrus-common-2.2/README.Debian.database.gz
+
+contains the instructions.
+
+If you have any Sieve scripts, they may also need to be updated. 
+Instructions at:
+
+/usr/share/doc/cyrus-common-2.2/UPGRADE.Debian.gz
+
+
+-- 
+Laurence Southon
+Tiger Computing, Bexley, Kent, UK
+www.tiger-computing.co.uk
+
+
+-- 
+To UNSUBSCRIBE, email to debian-isp-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD2CBD0.4010104@southon.uk.net
+
+

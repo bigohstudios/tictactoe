@@ -1,0 +1,41 @@
+Re: EBusiness Webforms: cluetrain has left the stationOn Saturday, September 28, 2002, at 12:54 PM, Gary Lawrence Murphy 
+wrote:
+
+> Although it's like a total shock to 99.999% (5nines) of all the
+> employed website designers out there, the truth is webforms /can/
+> accept "U.S. of A" as a country.  Incredible, but true.  Web forms can
+> also accept /multiple/ or even /free-form/ telephone numbers and can
+> even be partitioned into manageable steps. All this can also be done
+> without selling exclusive rights to your wallet to the World's
+> Second-Richest Corporation (assuming Cisco is still #1) and vendor
+> locking your business into their "small transaction fee" tithe.
+
+Yes, but this is what normally happened:
+
+Engineer: we can put an input validator/parser on the backend to do 
+that.
+
+Designer: there's a JavaScript library that can do some of the 
+pre-validation.
+
+Creative Director: I want it in blue, with a zooming logo.
+
+Engineer: can we get to that later, we need to meet functional specs.
+
+Creative Director: You *don't* understand. *I* want it in blue.
+
+Creative Director: Oh, and the site launches this Friday because I sent 
+out a press release about our new strategic partnership with HypeCorp.
+
+Designer: fine, we'll just put a list of countries in a drop down.
+
+Engineer: and we can validate against that list.
+
+Creative Director: I don't give a shit. As long as it's in blue. And 
+has a link to my press release.
+
+----
+Bill Humphries <bill@whump.com>
+http://www.whump.com/moreLikeThis/
+
+

@@ -1,0 +1,18 @@
+Re: Increasing number of conflictsOn Mon, Apr 19, 2010 at 02:54:20PM -0500, "Boyd Stephen Smith Jr." <bss@iguanasuicide.net> was heard to say:
+> If (c), aptitude will usually churn until it's solver exhausts all available 
+> memory and it either dies, or is killed by the OMM-killer in the kernel.  You 
+> can 'Ctrl+C' to kill aptitude earlier if you wish, and try again rejecting 
+> fewer (or different) options.
+
+  I should add that I would appreciate hearing about it when this
+happens.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430144416.GH22310@emurlahn.burrows.local
+
+

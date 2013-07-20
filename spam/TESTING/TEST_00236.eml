@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId12861ccff1722655
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs263011wfj;
+        Mon, 3 May 2010 22:32:25 -0700 (PDT)
+Received: by 10.223.33.218 with SMTP id i26mr3662548fad.58.1272951144102;
+        Mon, 03 May 2010 22:32:24 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si10414736fka.16.2010.05.03.22.32.23;
+        Mon, 03 May 2010 22:32:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2C01A13A5271; Tue,  4 May 2010 05:32:18 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.4 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD,RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4DFED13A50CE
+	for <lists-debian-user@liszt.debian.org>; Tue,  4 May 2010 05:32:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.8 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, RDNS_DYNAMIC=0.1]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 8am5ARW5Bki6 for <lists-debian-user@liszt.debian.org>;
+	Tue,  4 May 2010 05:32:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id A42CC13A50B6
+	for <debian-user@lists.debian.org>; Tue,  4 May 2010 05:32:04 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id 0C5776C2D1
+	for <debian-user@lists.debian.org>; Tue,  4 May 2010 00:32:02 -0500 (CDT)
+Message-ID: <4BDFB151.4060909@hardwarefreak.com>
+Date: Tue, 04 May 2010 00:32:01 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org> <4BD3425F.6080301@cox.net> <4BD3DEEF.7050305@allums.com> <4BD53D53.9050205@hardwarefreak.com> <4BD542D0.2070400@cox.net> <4BD54DE6.9060605@hardwarefreak.com> <4BDFA1FE.1020003@cox.net>
+In-Reply-To: <4BDFA1FE.1020003@cox.net>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <u0d2E0j817K.A.DTE.iF73LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575821
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 05:32:18 +0000 (UTC)
+
+Ron Johnson put forth on 5/3/2010 11:26 PM:
+> On 04/26/2010 03:25 AM, Stan Hoeppner wrote:
+> [snip]
+>> If it took only 2 weeks for the bulk of this effort, I can't
+>> imagine they had to modify a ton of XFS code.  IRIX was written in C
+>> as is
+>> Linux, so the changes in XFS were probably fairly minor.
+> 
+> Windows is written in C, Linux is written in C.  Thus, it should be
+> trivial to port Windows drivers to Linux?
+> 
+> Obviously not.
+
+They had it up and running in a couple of weeks.  A couple of weeks to me
+would seem to say they didn't have to modify a ton of code.  Or, maybe
+they're just really efficient programmers.  The truth probably lies
+somewhere in between.
+
+> Bottom line: just because two OSs are written in C doesn't mean that
+> (even if they are both Unix work-alikes) they have the same "guts" (data
+> structures, assumptions, etc).
+
+I made no such statements about the "guts" being the same or similar.  I
+simply stated that because both the Linux kernel and XFS were written in C
+that the XFS code changes were probably fairly minor.  They didn't rewrite
+it from the ground up.  I've never found any documentation that details the
+changes and I don't have access to the original IRIX 6.5.x source code so I
+can't do a diff on the XFS code.  I can only guess.  And knowing what I do,
+I'm guessing I'm probably close to being on the money.
+
+>> I'd venture to guess that the most significant Linux XFS changes were
+>> those
+>> for the 32bit X86 code base.  IRIX and thus XFS were born on 64bit
+>> MIPS RISC
+>> CPUs.
+> 
+> I *know* that part of what you wrote is wrong, since SGI started using
+> MIPS chips in 1986 and the MIPS 4000 is from 1991.
+
+You are correct.  IRIX predates XFS by half a decade.  IRIX was developed
+and released on the 32bit MIPS CPUs, the 2xxx and 3xxx series.
+
+> http://en.wikipedia.org/wiki/IRIX#History
+> http://en.wikipedia.org/wiki/SGI_IRIS_4D
+> http://en.wikipedia.org/wiki/MIPS_architecture#CPU_family
+> 
+> XFS is from 1994, so it did have it's genesis on a 64-bit platform.
+
+And that's the only point I was making about the 32bit x86 work.  Even if
+XFS wasn't originally developed on MIPS64 in 1992/93, the XFS code base in
+2001 was fully 64 bit and had been for many many years.  Porting IRIX from
+64bit MIPS to 64bit Itanium and other 64bit arches such as Alpha was far
+less of an effort than "down" porting it to 32bit x86, which came some years
+later, IIRC.  Such a project requires changing a ton of data structures from
+8 bytes wide to 4 bytes wide.  The down port to 32bit x86 and the porting to
+other architectures was, TTBOMK, required to get XFS into the mainline kernel.
+
+-- 
+Stan
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDFB151.4060909@hardwarefreak.com
+
+

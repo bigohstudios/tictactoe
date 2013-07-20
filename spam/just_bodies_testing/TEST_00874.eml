@@ -1,0 +1,41 @@
+Re: FromFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+
+Jason Rennie <jrennie@ai.mit.edu> writes:
+
+> My sysadmins have told me that the sending mail client is supposed to 
+> escape lines begining with "From ".  EXMH (2.5) doesn't do this.  Should 
+> it?  It appears that my MH is MH 6.8.  Does NMH fix this?
+
+Actually, this issue used to escalate into a religious war. The "From " 
+envelope is an artifact of the mbox mailbox format, and from that 
+perspective it should be the mail server that stores its mailboxes in
+mbox format that should be responsible for escaping lines beginning with 
+"From ". On the other hand, this breaks the assumption that the mail 
+transport only touches the message headers and leaves the message body 
+alone.
+Things like pgp signatures break when the mail server changes the message 
+body.
+
+Also, strictly speaking, the mbox format envelope (or for us old-timers, 
+the UUCP envelope) isn't just any line beginning with "From ". It's really 
+"From", a single space, a valid email address, two spaces, and a valid 
+date.
+For example:
+
+    From ptardif@nbnet.nb.ca  Sun Jul 14 08:53:57 2002
+        ^                   ^^
+
+
+-- 
+John Abreau / Executive Director, Boston Linux & Unix 
+IM: jabr@jabber.blu.org / abreauj@aim / abreauj@yahoo / 28611923@icq
+Email jabr@blu.org / WWW http://www.abreau.net / PGP-Key-ID 0xD5C7B5D9
+PGP-Key-Fingerprint 72 FB 39 4F 3C 3B D6 5B E0 C8 5A 6E F1 2C BE 99
+
+   Some people say, "The enemy of my enemy is my friend."
+   I often respond, "When elephants fight, it's the grass
+   that gets trampled."
+
+
+

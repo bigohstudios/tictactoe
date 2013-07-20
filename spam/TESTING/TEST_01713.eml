@@ -1,0 +1,106 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280319b7f0aa3da
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs75423wfa;
+        Thu, 15 Apr 2010 13:12:17 -0700 (PDT)
+Received: by 10.223.47.130 with SMTP id n2mr230919faf.55.1271362336353;
+        Thu, 15 Apr 2010 13:12:16 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si2062124fke.57.2010.04.15.13.12.15;
+        Thu, 15 Apr 2010 13:12:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 838752D0D79; Thu, 15 Apr 2010 20:12:10 +0000 (UTC)
+Old-Return-Path: <jerjoz.forums@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.7 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MAILTO_TO_SPAM_ADDR,MONOTONE_WORDS_2_15,SARE_MSGID_LONG45 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 21B8F13A4D0A
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 20:12:04 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MONOTONE_WORDS_2_15=1,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id uvgDprng4Rbz for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 20:11:57 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 076442D0D75
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 20:11:57 +0000 (UTC)
+Received: by wwb18 with SMTP id 18so900042wwb.6
+        for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 13:11:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=uBUasWAfv+nxWRlXqXNVv6Mye0GkWYT5+Bap2GF5HAw=;
+        b=WHeruicpbAvM/FH3X2ptIPA560zMvek9N99JtOVZGFf3jw91LpihiOG/eU8WkDEk2/
+         m8x5FhzNC/mR5EkMRSVZFMEjlOwHZTO5rEdYQ4qr1w30w6ukDR7s9sJfoFOEhH8eEP8z
+         MsSjpudJHw+xE5jQTr62kdxX1sTJu7hFkfaLU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=Y6wIB9y3ZsRfbOlShYtpVH2f7rvhYh1wSSFo7ywU0Z9EYNi66qkQS9KdQ4EsC7E4K0
+         kl8q7hzudbyEICYgNUA741Yc041xFLlmpK2TFGhn+2Tphyjw4CyLLbI6Ok/dhsX3K4uA
+         vtzQiCjZy6XJXqJvRtPXoQm+ri3rmbRKw4siY=
+MIME-Version: 1.0
+Received: by 10.216.153.140 with HTTP; Thu, 15 Apr 2010 13:11:51 -0700 (PDT)
+In-Reply-To: <hq7rp5$tgc$1@dough.gmane.org>
+References: <hq7rp5$tgc$1@dough.gmane.org>
+Date: Thu, 15 Apr 2010 13:11:51 -0700
+Received: by 10.216.86.200 with SMTP id w50mr562116wee.173.1271362312103; Thu, 
+	15 Apr 2010 13:11:52 -0700 (PDT)
+Message-ID: <y2uf8d5d4f31004151311u6d9010e7y730696a566cd0641@mail.csmining.org>
+Subject: Re: Dual channel memory question
+From: jeremy jozwik <jerjoz.forums@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WuxKADSxV2K.A.VXB.aM3xLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574204
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 20:12:10 +0000 (UTC)
+
+On Thu, Apr 15, 2010 at 1:09 PM, Hugo Vanwoerkom <hvw59601@care2.com> wrote:
+> Does that mean that placing 2 1GB modules, each into a different colored
+> slot, is faster than putting 1 2GB module into one slot and leaving the
+> other 3 slots empty?
+
+
+on my server board the machine will not even boot up if memory is not
+installed in matching pairs. so only 3 memory sticks installed will
+not work.
+2 / 4 / 6 or 8 only.
+
+...on my machine.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2uf8d5d4f31004151311u6d9010e7y730696a566cd0641@mail.csmining.org
+
+

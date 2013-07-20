@@ -1,0 +1,20 @@
+Re: NewMovieFromDataRef crashes when QT movie URL is not foundI don't think it is the problem with valid graphics port (I have tried
+by creating a NewGWorld and setting that as the current port too).
+If the movie is present at the specified URL the call succeeds and I
+could play the movie. It is crashing only if the movie is not found at
+the URL.
+
++Sam
+
+On Wed, Apr 28, 2010 at 11:27 AM, James W. Walker <osx@jwwalker.com> wrote:
+> Did you read the docs on NewMovieFromDataRef? =A0There's supposed to be a=
+ valid graphics world when you call it. =A0Your sample code doesn't do that=
+.
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

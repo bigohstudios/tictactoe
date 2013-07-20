@@ -1,0 +1,35 @@
+Re: Slow Firefox redraw in Debian testingOn Sat, Apr 03, 2010 at 03:57:59PM -0400, Stefan Monnier wrote:
+> I've recently noticed that Firefox redraw is *really* slow on
+> my Debian testing machines.
+> I'm not sure if it's only Firefox or if it also affects some
+> other applications.  It doesn't seem specific to a particular X driver
+> (I see it both with "nv" and with "radeon").
+> 
+> I almost get the impression that it could be a problem somewhere in Gtk
+> or somesuch thing.
+
+You don't give much details so i'll just point you to a possible
+cause/workaround which worked for me :
+
+New kernel comes with kms (kernel mode-setting, since 2.32 or 33, not
+sure) and apparently, the xserver-xorg-video-radeon driver (6-12-192) is
+not yet compatible with it. So the workaround was to do (any or all of,
+can't remember) :
+
+* in /etc/modules, comment the line 'radeon modeset=1'
+
+* in /etc/modprobe.d/radeon-kms, comment the line containing
+  'options radeon modeset'...
+
+If i don't use this workaround, i have same "symptoms" as yours, as well
+as errors in Xorg.0.log about DRI and errors in dmesg about drm.
+
+Good luck!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/kr1gdi70pnauhfxq9fte0imgl0c2vrpimej0g7svjpxzlyl9@mail.csmining.org
+
+

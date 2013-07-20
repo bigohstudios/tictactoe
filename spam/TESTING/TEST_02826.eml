@@ -1,0 +1,131 @@
+X-Account-Key: account5
+X-UIDL: GmailId12842c346aae9626
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs166164wfj;
+        Tue, 27 Apr 2010 21:53:33 -0700 (PDT)
+Received: by 10.142.201.19 with SMTP id y19mr3611016wff.297.1272430413665;
+        Tue, 27 Apr 2010 21:53:33 -0700 (PDT)
+Return-Path: <bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 39si8661166pzk.49.2010.04.27.21.53.33;
+        Tue, 27 Apr 2010 21:53:33 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 2742A1C03BC4C
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 21:53:33 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 2268D27310035
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 21:53:33 -0700 (PDT)
+X-Original-To: bluetooth-dev@lists.apple.com
+Delivered-To: bluetooth-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 428F327310000
+	for <bluetooth-dev@lists.apple.com>;
+	Tue, 27 Apr 2010 21:53:29 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 2E1E5D02901A
+	for <bluetooth-dev@lists.apple.com>;
+	Tue, 27 Apr 2010 21:53:29 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-62-4bd7bf48080d
+Received: from mail-iw0-f187.google.com (mail-iw0-f187.google.com
+	[209.85.223.187])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	2C.F9.26228.84FB7DB4; Tue, 27 Apr 2010 21:53:29 -0700 (PDT)
+Received: by iwn17 with SMTP id 17so6612608iwn.19
+	for <bluetooth-dev@lists.apple.com>;
+	Tue, 27 Apr 2010 21:53:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:mime-version:received:in-reply-to
+	:references:from:date:message-id:subject:to:cc:content-type
+	:content-transfer-encoding;
+	bh=RluJnj3w9CdBHm16yuuZVnaNUYt5QIYTKGKDOy9ahTU=;
+	b=t4AYqnpgzxScemctmiVEuTcgwkuSTxCx5AzQIgYMZXEYCq4ibJF1yMQ35u4IzYQ2tL
+	ZxTCVLa3YzIjsiWtMNIR2zp8H76JgbSXxShAarPiR/c3ajsg5PzdTfxSPL19Kt0Yi1rK
+	LnfV0siX3cgi9ggLhLRdCg3gs/kCMqXOB53o4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+	:cc:content-type:content-transfer-encoding;
+	b=ALHk7nzjjo4aZvLqUn8AHY1Ag6OesQDxwEPF4ndQttiYe0xHk8XVR2WROXGUAilfmk
+	FehT5Wb7qDefTNluAg9dT13dNEIKhIf4In7H4jhrEC77pOEgO7b803DcFQVYFjpxOr2b
+	huKyguQPrKUSg5Atqx89nsgQoTfG3BiclHVZ8=
+Received: by 10.231.161.75 with SMTP id q11mr2214545ibx.64.1272430408298; Tue, 
+	27 Apr 2010 21:53:28 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.155.195 with HTTP; Tue, 27 Apr 2010 21:53:08 -0700 (PDT)
+In-Reply-To: <3DABC44C-9128-4F71-80F2-63D24F4E53EC@mac.com>
+References: <8FAB81E6-07B5-46FF-97C2-A362E056DEDD@mac.com> 
+	<k2r360bd19f1004261513xbd185d2ci197466ff1f5f8094@mail.csmining.org> 
+	<A58E1BFD-670A-493C-BFFB-60FE310C737F@mac.com>
+	<h2m360bd19f1004270041v8f618a59rb250878b4ef7f8c9@mail.csmining.org>
+	<3DABC44C-9128-4F71-80F2-63D24F4E53EC@mac.com>
+From: Dave Keck <davekeck@csmining.org>
+Date: Tue, 27 Apr 2010 18:53:08 -1000
+Message-ID: <n2h360bd19f1004272153w780a6186x7b90d4e66e0ec4be@mail.csmining.org>
+To: David Giovannini <dsjove@mac.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAxPvoMIT8ELCE/BxWQ==
+Cc: bluetooth-dev@lists.apple.com
+Subject: Re: Bluetooth and runloops in a dedicated thread.
+X-BeenThere: bluetooth-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "Mailing list for Bluetooth developer discussion."
+	<bluetooth-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:bluetooth-dev@lists.apple.com>
+List-Help: <mailto:bluetooth-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/bluetooth-dev>,
+	<mailto:bluetooth-dev-request@lists.apple.com?subject=subscribe>
+Sender: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: bluetooth-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> I knocked all the code down to the single UI thread and I rediscovered wh=
+y I need multiple threads. My Obj-C objects give KVC semantics to the bluet=
+ooth device. A getter is waiting on a thread signal for the arrival of requ=
+ested data. The requested data will never arrive since the single thread is=
+ in a blocked state. I also now have to turn the bluetooth scanner off to o=
+pen a connection to a discovered device!
+
+I see. Note that if your getter method blocks until the Bluetooth
+operation is complete, your UI will also be blocked. So if the
+Bluetooth operation takes too long, you'll get the beachball.
+
+Perhaps your getter could initiate the Bluetooth operation, and in the
+meantime return a cached object? If a cached object isn't available or
+you want to update the property's value, return a default value for
+the property, and initiate a "Loading..." spinner in the UI. Once the
+current state of the property is available, it updates the property
+which in turn updates the UI, and hides the loading spinner. For a
+snappy user experience, I'd try to avoid blocking in a getter method.
+
+> I don't see how to do the bluetooth communications in another process be =
+non-trivial. Is there a simple approach to that?
+
+I implemented a simple custom protocol over Unix pipes, allowing the
+parent to direct the child in performing some simple Bluetooth
+operations. It certainly wasn't fun to implement, but from what you've
+said so far, I think handling the Bluetooth operations in the same
+process will work fine in your case if you structure it right.
+
+> My next factoring will be to but the UI thread into a secondary thread, a=
+nd let bluetooth own the main. Hopefully that will work.
+
+I hate the be the bearer of bad news, but UI code generally needs to
+remain on the main thread, too. See:
+
+    http://developer.apple.com/mac/library/documentation/cocoa/Conceptual/M=
+ultithreading/ThreadSafetySummary/ThreadSafetySummary.html
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

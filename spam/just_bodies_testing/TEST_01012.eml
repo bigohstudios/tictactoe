@@ -1,0 +1,43 @@
+Re: Problem detecting sleep in 10.6On Apr 29, 2010, at 2:19 PM, Greg Guerin wrote:
+
+> Brandon Moon wrote:
+>=20
+>> The callback simply calls a static void method in Java to notify Java =
+of the sleep event. I have a System.out.println() call in this method. =
+When I run this code in Mac OS X 10.5, it works fine. However, when I =
+run it in 10.6, the java process hangs, and the system doesn't go to =
+sleep until the 30 timeout occurs. Upon resume, the java process seems =
+permanently hung up and non-responsive. Any ideas why this would occur?
+>=20
+> Sounds like some kind of deadlock, but without a debugger or =
+diagnostics, it's gonna be hard to pin it down.  Good luck; I suspect =
+figuring out how to run the debugger within the 30-second window is =
+gonna be the hardest part of this.
+>=20
+> You should be able to send a SIGQUIT to the hung process (after =
+wakeup) and get a thread-dump.  That might reveal something.
+>=20
+> You might try simplifying the static method, so it doesn't write to =
+System.out.  Instead, do something much simpler, like increment a static =
+counter with no synchronization, and do no I/O at all.  If that works, =
+do simple file I/O, like writing one byte to an already-open file, and =
+flushing to disk.  Basic strategy: start dead simple and work up.  =
+println() is simple to understand or invoke, but the implementation =
+isn't nearly as simple as one might think.
+
+I'd actually recommend having your static function post a Runnable onto =
+the AWT EventQueue with SwingUtilities.invokeLater(), and return =
+immediately.
+
+Best of luck,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,49 @@
+traceback in new exmhI just updated to the latest CVS - I had been running a build from June.  
+Hitting the Flist button gives the following traceback:
+
+syntax error in expression "int(17+1+(222-)*(19-17-2)/(224-))"
+    while executing
+"expr int($minLine+1+($msgid-$minMsg)*($maxLine-$minLine-2)/($maxMsg-$minMsg))"
+    (procedure "Ftoc_FindMsg" line 57)
+    invoked from within
+"Ftoc_FindMsg $i"
+    (procedure "Ftoc_ShowSequences" line 16)
+    invoked from within
+"Ftoc_ShowSequences $F"
+    (procedure "ScanFolder" line 81)
+    invoked from within
+"ScanFolder inbox 0"
+    invoked from within
+"time [list ScanFolder $F $adjustDisplay"
+    (procedure "Scan_Folder" line 2)
+    invoked from within
+"Scan_Folder $exmh(folder) $ftoc(showNew)"
+    (procedure "Inc_PresortFinish" line 7)
+    invoked from within
+"Inc_PresortFinish"
+    invoked from within
+".fops.flist invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tkButtonUp" line 7)
+    invoked from within
+"tkButtonUp .fops.flist
+"
+    (command bound to event)
+
+
+It seems to only happen in a folder with no unseen messages.
+
+Chris, is this related to your recent changes?
+
+Scott
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

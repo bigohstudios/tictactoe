@@ -1,0 +1,45 @@
+Re: xorg synaptics driver no longer working with udev?On Wed, Apr 14, 2010 at 22:06:41 +0200, Sjoerd Hardeman wrote:
+> Hi list,
+> 
+> After a large set of updates today on testing, xorg no longer picks up
+> my udev rules file. A few months ago hal stopped working, as a change to
+> udev was required (see also the list history for several threads on that
+> topic).
+
+I do not understand what you mean here. I use Sid and I am not aware of
+any recent problems with either hal or udev. (I stress this to warn you
+that I might be unaware of some fundamental aspects of your issue.)
+
+>         Now, udev stopped working? Did I miss any change to xorg
+> behaviour? I'm using the latest xorg and kdm/kde on testing.
+
+I would start by checking:
+
+1) Does hal know that there is a touchpad?
+
+   lshal -u $(hal-find-by-capability --capability input.touchpad)
+
+2) The output of 1) should tell you the associated linux.device_file; in
+   my case this is /dev/input/event7. The next step is to find the
+   devpath:
+
+   udevadm info --query=path --name=/dev/input/event7
+
+3) I get "/devices/platform/i8042/serio4/input/input7/event7" from 2).
+   Now one can test what udev does when the device is added; maybe that
+   command will give you a clue, or you can make the output available so
+   that we can compare:
+
+   udevadm test /devices/platform/i8042/serio4/input/input7/event7
+
+-- 
+Regards,            |
+          Florian   |
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414215118.GA6134@isar.localhost
+
+

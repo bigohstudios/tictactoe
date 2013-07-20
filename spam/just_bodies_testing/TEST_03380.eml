@@ -1,0 +1,94 @@
+Re: Middle button click brokenOn 10/04/17 21:20 , Pierre Baguis wrote:
+> OK, I tried the xev command and here is an example of what it gives:
+>
+> ------------------------------------------------------------------
+> MotionNotify event, serial 32, synthetic NO, window 0x2000001,
+>      root 0x381, subw 0x2000002, time 221527654, (40,36), root:(44,87),
+>      state 0x0, is_hint 0, same_screen YES
+>
+> LeaveNotify event, serial 32, synthetic NO, window 0x2000001,
+>      root 0x381, subw 0x2000002, time 221528034, (-4,18), root:(0,69),
+>      mode NotifyNormal, detail NotifyVirtual, same_screen YES,
+>      focus YES, state 512
+>
+> FocusOut event, serial 32, synthetic NO, window 0x2000001,
+>      mode NotifyNormal, detail NotifyNonlinear
+> -----------------------------------
+>
+> The middle click caused the terminal to come forth.
+>
+>
+> The output of the "defaults read org.x.x11" in my case is:
+>
+> ------------------------------------------------------------------
+> {
+>      "NSWindow Frame x11_prefs" = "178 236 484 330 0 0 1440 878 ";
+>      SULastCheckTime = 2010-04-17 11:05:03 +0200;
+>      WebKitDefaultFontSize = 11;
+>      WebKitStandardFont = "Lucida Grande";
+>      "app_to_run" = "/usr/X11/bin/xterm";
+>      "apps_menu" =     (
+>                  (
+>              Terminal,
+>              xterm,
+>              n
+>          ),
+>                  (
+>              xman,
+>              xman,
+>              ""
+>          ),
+>                  (
+>              xlogo,
+>              xlogo,
+>              ""
+>          )
+>      );
+>      "cache_fonts" = 1;
+>      depth = -1;
+>      "done_xinit_check" = 1;
+>      "enable_fake_buttons" = 1;
+>      "enable_key_equivalents" = 1;
+>      "enable_system_beep" = 0;
+>      "fullscreen_menu" = 0;
+>      "login_shell" = "/bin/tcsh";
+>      "no_auth" = 0;
+>      "nolisten_tcp" = 1;
+>      rootless = 0;
+>      "sync_clipboard_to_pasteboard" = 1;
+>      "sync_keymap" = 0;
+>      "sync_pasteboard" = 1;
+>      "sync_pasteboard_to_clipboard" = 1;
+>      "sync_pasteboard_to_primary" = 1;
+>      "sync_primary_on_select" = 0;
+>      "wm_click_through" = 0;
+>      "wm_ffm" = 0;
+>      "wm_focus_on_new_window" = 1;
+> }
+> ------------------------------------------------------------------
+>
+> Any ideas?
+>
+> Thanks,
+> Pierre
+>
+
+Try unchecking the "Emulate three button mouse" option.
+
+What xev should show is this:
+
+ButtonPress event, serial 22, synthetic NO, window 0x600001,
+     root 0x37d, subw 0x0, time 232282847, (71,76), root:(1431,120),
+     state 0x0, button 2, same_screen YES
+
+ButtonRelease event, serial 22, synthetic NO, window 0x600001,
+     root 0x37d, subw 0x0, time 232283031, (71,76), root:(1431,120),
+     state 0x200, button 2, same_screen YES
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

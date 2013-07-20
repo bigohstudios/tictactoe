@@ -1,0 +1,61 @@
+Linux compatible mainboards-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Two years ago I bought a Foxconn 45CM-S mainboard.  Unfortunately before
+I bought it I failed to research adequately this board and other
+alternatives.  In time I became unsatisfied with its performance.  Lenny
+was and is rock-solid stable on my Lenovo R61, but not on my Foxconn
+desktop, which has a habit of crashing on average twice a day.
+
+Extensive googling revealed that Foxconn has a reputation for buggy
+BIOSes, at least for some models.  The googling also revealed that
+Gigabyte boards are favoured by some Linux users. I am consequently
+looking to replace the the Foxconn with a Gigabyte.
+
+The replacement board must be able use my current CPU and memory
+modules. The former is an Intel E2160 dual core (socket LGA775). The
+latter are two Crucial Rendition 1 gb DDR2 667/PC3500 240 pin memory
+modules.
+
+Several Gigabyte boards meet these requirements.  I am concerned however
+about the north bridge chipsets on these boards. Both that Foxconn board
+and the Lenovo R61 use the 945 chipset, the driver for which is
+available in a Lenny package -- xserver-xorg-video-intel.
+
+While Gigabyte did have boards with the 945 I could not find any seller
+in Toronto who still had any in stock.  The ones now available locally
+use Intel north bridge G31, G41, G45, P31, P43 and P45 series chipsets.
+ (Intel seems to be the chipset manufacturer of choice for Gigabyte; the
+Gigabyte boards available in Toronto use only those chipsets.) One
+model, GA-G41M-ES2H, even integrates in it the Intel Graphics Media
+Accelerator X4500.
+
+The Gigabyte website says that Linux compatible drivers for these
+chipsets must be downloaded either from Intel or a third party. I don't
+see in the Lenny package list drivers for these newer chipsets; so it
+would appear I would have to find them elsewhere.
+
+Has anyone any experience with boards using these chipsets?  Advice
+about chipset drivers and mainboards suitable for Linux which meet my
+basic requirements would be welcomed.
+
+Regards, Ken Heard
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvPKFQACgkQlNlJzOkJmTf14gCfd4BH9Av6fy2JlGtmLEoCPprN
+EwEAnixAR5bXX3FSM+OluYy4i1DkHA65
+=as+V
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF2855.5050901@heard.name
+
+

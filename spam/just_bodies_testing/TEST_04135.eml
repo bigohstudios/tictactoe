@@ -1,0 +1,70 @@
+[Razor-users] Re: Content-Type: message/rfc822  supported ?  Not sure what you're asking.  
+  Content-Type: message/rfc822 mails are handled like attachments
+  and are not broken down further into mime parts.  That is, the attachment
+  is treated as one part.  The headers and body of the message/rfc822 are
+  sent to the server without parsing.  The other way to handle it is to treat it like
+  a regular mail, and break it down into parts.
+  
+  There are reasons to break it down and not to break it down, and right 
+  now we chose not to break it down.  This might change in the future.
+
+  -chad
+
+
+
+On 26/07/02 02:24 +0200, Jørgen Thomsen wrote:
+) I cannot determine if a verbatim forwarded message from Agent is handled
+) correctly i.e. that a message with Content-Type: message/rfc822 does not
+) include the original header lines improperly in the email body when reporting
+) the spam. It would be really nice and convenient if it supported as the Agent
+) verbatim forwarding option is easy to use. 
+) SpamCop does understand the format.
+) See an examle below:
+) 
+) - Jørgen
+) 
+) Return-Path: <un@s.jth.net>
+) Delivered-To: jth@jth.net
+) Received: from vennely1 (vennely1 [194.192.106.109])
+) 	by mail.jth.net (Postfix) with SMTP id 17A9118684
+) 	for <j@jth.net>; Fri, 26 Jul 2002 02:15:03 +0200 (CEST)
+) From: =?ISO-8859-1?Q?J=F8rgen_Thomsen?= <un@s.jth.net>
+) To: j@jth.net
+) Subject: (fwd) [Razor-users] Razor Agents 2.14 Released
+) Date: Fri, 26 Jul 2002 02:14:57 +0200
+) Message-ID: <o351kukdidthhk6fohls8s6b4j5rfghp3i@4ax.com>
+) X-Mailer: Forte Agent 1.91/32.564
+) MIME-Version: 1.0
+) Content-Type: message/rfc822
+) Content-Disposition: inline
+) 
+) Return-Path: <razor-users-admin@example.sourceforge.net>
+) Delivered-To: list@jth.net
+) Received: from usw-sf-list2.sourceforge.net (usw-sf-fw2.sourceforge.net
+) [216.136.171.252])
+) 	by mail.jth.net (Postfix) with ESMTP id 88B0F18684
+) 	for <list@jth.net>; Fri, 26 Jul 2002 01:18:00 +0200 (CEST)
+) 
+) and the rest of the original header and the body
+) 
+) 
+) -------------------------------------------------------
+) This sf.net email is sponsored by: Jabber - The world's fastest growing 
+) real-time communications platform! Don't just IM. Build it in! 
+) http://www.jabber.com/osdn/xim
+) _______________________________________________
+) Razor-users mailing list
+) Razor-users@lists.sourceforge.net
+) https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

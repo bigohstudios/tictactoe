@@ -1,0 +1,32 @@
+Re: Epiphany browser continues to get worse and worseOn Sat, 17 Apr 2010 14:31:38 -0400 (EDT), Steve Kemp wrote:
+>
+>  "They" probably haven't fixed it since it hasn't been reported as
+> a bug.
+
+As for the download problem, I didn't report a bug because someone else
+got there first: Debian bug report number 563056.  I just checked back
+and it has been marked "resolved", but apparently that version has not
+yet migrated to Squeeze, which is what I am running.
+
+As for the reply bug, I just noticed it today; and no, I haven't
+reported a bug yet.  I'm not sure I'm going to.  I already said why.
+I'm not going to give out my password.  And unless the package maintainer
+happens to have a Wow e-mail account, which is unlikely, they won't
+be able to reproduce the problem.  And then some wise guy like you
+will say, "Well, Mr. Powell, if we can't reproduce the problem, how
+do you expect us to fix it?"  I do not hesitate to report bugs.
+If you don't believe me, search the bug database for my e-mail id.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/233932390.98164.1271530815277.JavaMail.root@md01.wow.synacor.com
+
+

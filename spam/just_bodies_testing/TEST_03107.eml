@@ -1,0 +1,26 @@
+Virtuoso 6.1.1+dfsg1-1 breaks Nepomuk
+I noticed that Nepomuk has stopped working for me, the reason presumably 
+being that the virtuoso-t process is no longer running. I restarted the 
+session, still virtuoso-t does not run, however, I see that files in
+
+/.kde/share/apps/nepomuk/repository/main/data/virtuosobackend
+
+have been touched.
+
+As the virtuoso packages in unstable have been upgraded recently, I 
+gather that something in there isn't working with Nepomuk anymore.
+
+Michael
+
+-- 
+Michael Schuerig
+mailto:michael@schuerig.de
+http://www.schuerig.de/michael/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005082057.47484.michael@schuerig.de
+
+

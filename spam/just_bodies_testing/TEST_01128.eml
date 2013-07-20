@@ -1,0 +1,26 @@
+Re: libgdk-x11 symbol lookup error (resolved)From nobody Sat Jul 20 14:17:29 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 10 May 2010 18:22:22 Don wrote:
+> [M]y
+> /etc/apt/sources.list for some time now has contained lines for both
+> squeeze and sid.  I'm not sure anymore my thinking on this and possibly
+> intended to comment out the sid lines.  Is this legit for a sources.list
+> file or could it have been a cause for some of my problems?
+
+That's legit.
+
+Sometimes dependencies are broken in Sid.  Having testing also available to=
+=20
+apt(itude) can make things run smoother.  Also, you might find a bug in Sid=
+=20
+that you can work around by moving back to the testing version and putting =
+the=20
+package on hold.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

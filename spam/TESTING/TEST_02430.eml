@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId12821b648a23a4a1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs126117wfj;
+        Wed, 21 Apr 2010 11:51:54 -0700 (PDT)
+Received: by 10.115.81.32 with SMTP id i32mr552648wal.121.1271875914140;
+        Wed, 21 Apr 2010 11:51:54 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 6si5101179pzk.113.2010.04.21.11.51.54;
+        Wed, 21 Apr 2010 11:51:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id ECC241BEAA478
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 11:51:53 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E7F6426FDBA7B
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 11:51:53 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 646DC26FDB770
+	for <Augd@lists.apple.com>; Wed, 21 Apr 2010 11:51:27 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 5351BCD2FE92
+	for <Augd@lists.apple.com>; Wed, 21 Apr 2010 11:51:27 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-0b-4bcf492ebf7b
+Received: from mail-vw0-f51.google.com (mail-vw0-f51.google.com
+	[209.85.212.51])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	B2.94.26228.E294FCB4; Wed, 21 Apr 2010 11:51:27 -0700 (PDT)
+Received: by vws19 with SMTP id 19so223813vws.24
+	for <Augd@lists.apple.com>; Wed, 21 Apr 2010 11:51:26 -0700 (PDT)
+Received: by 10.229.192.10 with SMTP id do10mr2660783qcb.48.1271875883967;
+	Wed, 21 Apr 2010 11:51:23 -0700 (PDT)
+Received: from [139.127.237.12] ([139.127.237.12])
+	by mx.google.com with ESMTPS id v26sm4633267qce.13.2010.04.21.11.51.22
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Wed, 21 Apr 2010 11:51:23 -0700 (PDT)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+Subject: Re: AUGD: Re: PR Mailing Lists
+From: Paul Richards <paul@pineholm.net>
+In-Reply-To: <C7F4AEBC.51473%augd@chrishart.net>
+Date: Wed, 21 Apr 2010 14:51:20 -0400
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <A170EBB3-9594-4B03-8C9B-EF6AAEAC8EEC@pineholm.net>
+References: <C7F4AEBC.51473%augd@chrishart.net>
+To: Apple Discussion List <Augd@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On Apr 21, 2010, at 1:31 PM, Chris Hart wrote:
+
+> But believe me people are stupid
+
+I prefer not to believe that. I prefer instead to help those who may not =
+have knowledge of little things like that acquire the knowledge. =
+Personal computers and the Internet can be very daunting to anyone =
+unfamiliar with it. What may seem obvious to you and me may not be so =
+obvious to others, nor might the failing of such a thing to occur the =
+designers of these features be obvious to them. None of that equates to =
+stupidity.
+
+Have you shared your belief with the members of your user group? Have =
+you shared it with anyone at Apple who might be able to explore your =
+concerns about that search box?
+
+
+Paul Richards
+Ambassador
+Syracuse Macintosh Users Group
+Syracuse, NY, USA
+http://www.iSMUG.com
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

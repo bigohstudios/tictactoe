@@ -1,0 +1,123 @@
+Re: Filesystem recommendationsFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 29 April 2010 20:03:20 Joe Brenner wrote:
+> Boyd Stephen Smith Jr. <bss@iguanasuicide.net> wrote:
+> > Joe Brenner wrote:
+> > > Ron Johnson <ron.l.johnson@cox.net> wrote:
+> > > > B. Alexander wrote:
+> > > > > Ron Johnson<ron.l.johnson@cox.net>  wrote:
+> > > > >> XFS is the canonical fs for when you have lots of Big Files.  I'=
+ve
+> > > > >> also seen simple benchmarks on this list showing that it's faster
+> > > > >> than ext3/ext4.
+> > > > >
+> > > > > Thats cool. What about Lots of Little Files? That was another of
+> > > > > the draws of reiser3.
+> > > >
+> > > > That same unofficial benchmark showed surprising small-file speed by
+> > > > xfs.
+> > >
+> > > Would you happen to have any links to such benchmarks, unofficial or
+> > > otherwise?
+> > >
+> > > My experience has been that whenever I look at filesystem benchmarks,
+> > > they skip the many-small-files case.  I've always had the feeling that
+> > > most of the big filesystems cared a lot about scaling up in file-size,
+> > > but not too much about anything else.
+> >
+> > NB: This is my best recollection; I'm not looking this up right now.=20
+> > Please check my facts, I'd love to know if I'm wrong.
+>=20
+> Like I said, I *have* looked at filesystem comparisons a number of times.
+
+So have I.  I didn't mean to imply otherwise.  I looked at them for decidin=
+g=20
+on reiserfs, then I replicated the results on my own hardware using bonnie+=
++=20
+before restoring my backups.
+
+I also look around for results about once a year, to see if much has change=
+d,=20
+or if there are new file systems I should look at.  Less often, I'll try an=
+d=20
+run my own bonnie++ tests, but not rigorously; they occur on my system unde=
+r=20
+whatever load I happen to be running.
+
+> It's my problem to check your assertions?
+
+Trust, but verify.
+
+The note was only indicative that I wasn't didn't have data or analysis in=
+=20
+front of me, so I was running off of memory.  Usually, that's fine, but I w=
+as=20
+talking about specific file system implementation features in multiple file=
+=20
+systems.  Since I don't implement or debug file systems every day, I though=
+t=20
+an idle warning was in order.
+
+> Why isn't it your problem to
+> check my assertions?
+
+It is.
+
+> > > I'm a Reiser3 user myself, and I've never had any problems with it.
+> > >
+> > > (The trouble with it being "long in the tooth" is mostly hypothetical,
+> > > isn't it?)
+> >
+> > Not really.
+>=20
+> Outside of one mention of "bugs on reiserfs that will not be fixed",
+> you're pretty much just describing the theory.  I do understand that
+> using relatively unsupported software, even if it's pretty mature
+> software, can have it's problems.
+
+That's not a theory; or that least it is not hypothetical.  It's proven tru=
+e=20
+over and over, and software ranging from OSes to libraries to RDBMSes to=20
+desktop applications.
+
+> Just doing a few quick websearches, I'm reading about ReiserFS bugs
+> fixed as recently as 2006, 2007... It's not like it's not getting any
+> attention from developers.
+
+Took me a little while, but I see bug-fix patches from this year.  It's not=
+ be=20
+abandoned quite as quickly as I was lead to believe.  I still don't recomme=
+nd=20
+it for new installs, but there's a-priori reason to migrate away from it ri=
+ght=20
+now.
+
+> > In addition, as file system technology advances, reiserfs will become
+> > less attractive for new installs and it will become more attractive to
+> > migrate way from it.
+>=20
+> I think you're better off if you rely on really well-tested migration
+> tools (e.g. "tar").
+
+These have significant overhead over file system-specific methods.  They ar=
+e=20
+the both universal and fairly conservative, so your advocacy is well-
+justified.  It's also pretty easy to do them wrong, or get a poorly perform=
+ing=20
+file system out of them.  It's easy to forget extended attributes and  ACLs=
+ =20
+when using cp/tar/rsync; there may be other file system data that needs to =
+be=20
+preserved, too (HPFS+ forks?).  Taking a kernel tarball from a ext3 file=20
+system and extracting it on a reiserfs file system takes much longer than=20
+taking a kernel tarball from a reiserfs file system and extracting to on a=
+=20
+reiserfs file system.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

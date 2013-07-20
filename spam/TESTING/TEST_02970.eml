@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bc430c40ed6fd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs12813wfo;
+        Fri, 21 May 2010 12:07:10 -0700 (PDT)
+Received: by 10.140.251.9 with SMTP id y9mr1465405rvh.276.1274468830271;
+        Fri, 21 May 2010 12:07:10 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id c13si2528200rvf.134.2010.05.21.12.07.10;
+        Fri, 21 May 2010 12:07:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@messagingengine.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 00C471C5E8B8F
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 12:07:10 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id E948727D49657
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 12:07:09 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id C4DD527D48AD4
+	for <java-dev@lists.apple.com>; Fri, 21 May 2010 12:05:20 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id A0F1DD61561A
+	for <java-dev@lists.apple.com>; Fri, 21 May 2010 12:05:20 -0700 (PDT)
+X-AuditID: 11fe0d07-b7b3aae000004253-a1-4bf6d96fcf19
+Received: from out3.smtp.messagingengine.com (out3.smtp.messagingengine.com
+	[66.111.4.27])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	2F.E3.16979.079D6FB4; Fri, 21 May 2010 12:05:20 -0700 (PDT)
+Received: from compute1.internal (compute1.internal [10.202.2.41])
+	by gateway1.messagingengine.com (Postfix) with ESMTP id F326FF7F62;
+	Fri, 21 May 2010 15:05:13 -0400 (EDT)
+Received: from heartbeat2.messagingengine.com ([10.202.2.161])
+	by compute1.internal (MEProxy); Fri, 21 May 2010 15:05:16 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=messagingengine.com;
+	h=subject:mime-version:content-type:from:in-reply-to:date:cc:content-transfer-encoding:message-id:references:to;
+	s=smtpout; bh=JHRoLAcTCvAM/D59YHbYaJfun6M=;
+	b=ptZ8nEhEYzxPO8zXrRlQMVzry97w7IHcekzxFhRCIS+qac+Lx2fptGWVqu0/aut1KWLb3zKJkX9VOsAiR//Vgn8GjNhBf+atzIbCu2qEZXlCeS4HGcm5epyUj9ggUaqO0ereTw/Poi6VuGC9a8QKMKex5S2W1H88GTxugq+JDIw=
+X-Sasl-enc: V0//OvFA6VR0nWTq1aqR/2AthMIchzEFeeO4ImLNvfPq 1274468706
+Received: from sb1.flif.zz (2109ds2-noe.0.fullrate.dk [90.184.11.165])
+	by mail.messagingengine.com (Postfix) with ESMTPSA id 62D0CB6F9;
+	Fri, 21 May 2010 15:05:06 -0400 (EDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Peter Speck <speck@vitality.dk>
+In-Reply-To: <EE2A4220-9CB9-4914-9861-81C499437A8E@mac.com>
+Date: Fri, 21 May 2010 21:05:07 +0200
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <F4E58B51-4C5C-4A08-949F-07310E216E4B@vitality.dk>
+References: <EE2A4220-9CB9-4914-9861-81C499437A8E@mac.com>
+To: Willis Morse <willismorse@mac.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: java-dev@lists.apple.com
+Subject: Re: Setting -Xmx dynamically at launch time under 64bit
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 21/05/2010, at 16:49, Willis Morse wrote:
+
+> 1) Create a native launcher that queries RAM status and launches the =
+Java executable with an appropriate -Xmx parameter. There are several =
+open-source launcher projects  (such as Launch4J) that will do this, but =
+these only support Windows launchers and they will only run under =
+Windows. Has anyone heard of a Mac equivalent?
+
+Here's some code that can help you handling the situation where the =
+launcher is running in 64-bit but no 64-bit JavaVM is available on the =
+system:
+http://glimmerblocker.org/browser/trunk/PrefsPane/proxyApp/proxy.c
+
+The code hasn't been updated to use the /usr/libexec/java_home =
+executable provided in the latest java update.
+
+----
+   - Peter Speck
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

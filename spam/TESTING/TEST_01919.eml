@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId12821724723ec60e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs123416wfj;
+        Wed, 21 Apr 2010 10:39:56 -0700 (PDT)
+Received: by 10.223.26.69 with SMTP id d5mr1173026fac.20.1271871456808;
+        Wed, 21 Apr 2010 10:37:36 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si1855446fkt.11.2010.04.21.10.37.36;
+        Wed, 21 Apr 2010 10:37:36 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1A47913A478D; Wed, 21 Apr 2010 17:37:27 +0000 (UTC)
+Old-Return-Path: <linuxtwo@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 453FA13A4658
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 17:37:21 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id uMhtmzW5UN5v for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 17:37:14 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-vw0-f47.google.com (mail-vw0-f47.google.com [209.85.212.47])
+	by liszt.debian.org (Postfix) with ESMTP id CA1EA13A4656
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 17:37:13 +0000 (UTC)
+Received: by vws6 with SMTP id 6so116803vws.6
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 10:37:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:content-type
+         :content-transfer-encoding;
+        bh=9Fv/6WIEcAi1c4I1WjidK1wg28c4xzyx452FWfP+tOM=;
+        b=YWhnGhDt36irm5mNn7Lii+/ZyFWjGNGbPZ68yzAWOWksug8XK1ULRB+qo+THNT91Ah
+         LKegD6ao2cDMZFGl6VVZyouEUf2gOZ9nyudRRmUNW1B70kIzq6BWCNeX21CiPngqK1gQ
+         QR9AfFFncmyCLon2V5q/tsp5hzqnFuxCJ/0U0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject
+         :content-type:content-transfer-encoding;
+        b=Ubb1nzfOgvFY8WpejIrW4JORtLOGVK1RvaHfB41BEgj9WmM+JSjGtWhvdarQa50Gjw
+         P9gZlwd8y74ZKGRnVUw3QrCVT3gt2/oa3Oxsk2DXSYpEO4Kf7S9GYvdf4XNjfp9pULtH
+         pnkODEe37xabS2hQhO1lReEmSLdf1mIHHPJs8=
+Received: by 10.220.157.206 with SMTP id c14mr5892101vcx.230.1271871428702;
+        Wed, 21 Apr 2010 10:37:08 -0700 (PDT)
+Received: from [192.168.1.3] (134.sub-75-236-43.myvzw.com [75.236.43.134])
+        by mx.google.com with ESMTPS id z22sm29450153vco.22.2010.04.21.10.37.06
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Wed, 21 Apr 2010 10:37:08 -0700 (PDT)
+Message-ID: <4BCF37C3.9020800@csmining.org>
+Date: Wed, 21 Apr 2010 13:37:07 -0400
+From: Wayne Topa <linuxtwo@csmining.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Heads UP icedove 3.0.4-2
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <z91R3XdLuOF.A.qYB.XfzzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574694
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 17:37:27 +0000 (UTC)
+
+just upgraded icedove on 686 & AND64 Squeeze.
+
+It runs on 686 but segfaults on AND64, my main system.
+
+Wayne
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF37C3.9020800@csmining.org
+
+

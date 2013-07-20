@@ -1,0 +1,315 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c5ce9f8f09a77
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs60098wfo;
+        Sun, 23 May 2010 08:36:13 -0700 (PDT)
+Received: by 10.223.67.144 with SMTP id r16mr3693086fai.102.1274628972456;
+        Sun, 23 May 2010 08:36:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g5si4382722fai.85.2010.05.23.08.36.11;
+        Sun, 23 May 2010 08:36:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2CE7413A59D7; Sun, 23 May 2010 15:36:07 +0000 (UTC)
+Old-Return-Path: <invitations@iklanx.ning.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: ***
+XStatus: No, score=3.4 required=4.0 tests=FVGT_m_MULTI_ODD,HTML_MESSAGE,
+	JOINMEON,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,UNPARSEABLE_RELAY autolearn=no
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 726A913A5997
+	for <lists-debian-user@liszt.debian.org>; Sun, 23 May 2010 15:18:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=3.321 tagged_above=-10000 required=5.3
+	tests=[FVGT_m_MULTI_ODD=0.02, HTML_MESSAGE=1, JOINMEON=2,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2,
+	UNPARSEABLE_RELAY=0.001] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id BB2nAEkwuSIz for <lists-debian-user@liszt.debian.org>;
+	Sun, 23 May 2010 15:18:08 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_HELO_IP=-2 (check from: .ning. - helo: .omx05.mx.ning. - helo-domain: .ning.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2; rate: -7
+X-Greylist: delayed 68 seconds by postgrey-1.31 at liszt; Sun, 23 May 2010 15:18:07 UTC
+Received: from omx05.mx.ning.com (omx05.mx.ning.com [208.82.16.196])
+	by liszt.debian.org (Postfix) with ESMTP id 7954D13A5969
+	for <debian-user@lists.debian.org>; Sun, 23 May 2010 15:18:07 +0000 (UTC)
+Received: from unknown (HELO z101e8e.ningops.com) ([10.16.104.38])
+  by omx05.mx.ning.com with ESMTP; 23 May 2010 15:16:52 +0000
+Received: from localhost (slb-snat-10-16-104-44.snv1.ningops.com [/10.16.104.44])
+        by z101e8e.ningops.com with SMTP;
+        Sun, 23 05 2010 15:16:52 +0000 (GMT)
+Date: Sun, 23 May 2010 15:16:53 +0000 (GMT)
+From: Patrick Usit <invitations@iklanx.ning.com>
+Reply-To: do-not-reply@iklanx.ning.com
+To: "debian-user@lists.debian.org" <debian-user@lists.debian.org>
+Message-ID: <10229352.141242601274627813012.JavaMail.xncore@z101e8e.ningops.com>
+Subject: Come join me on iklanX
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=_59cebbe1a7a3518023d4661cc3afc216"
+X-XN-MessageType: MSG_INVITE_NET
+X-XN-UUID: d8ce1f15-f7ed-43dc-a48a-1f8887c59469
+X-XN-Super-Happy-Header: zlfXMN9Z9wfytRjBk7YvXCCNlEMyLlJuzDk2sTOnv9NKhpZbCHeGZFA3-0qDnYw3zFlFBO042kSeU65AqIVespLfJKTtCGl9kFBSlF43jfvQYSriLTZ-VJfFnjiuim8PChn28G3WYGetQiXfDdCq8p2h1kIOajoMpCmaqCQR2js81m5H5VCn-vq1HzkwJ2NC*bnWKnAmMhwMb1SR25ehh26b-jf9rv3aoD1xiug3czRST8xH*mPFf66hCrLmHiWjeTFjFtDbCUa*6ZSgK*DW7r5KFXTSEksrTYJyRfQgRYs6dQi5qWr9pgxHjaJ-NojZ
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Rsord-oEvnN.A.s2G.ntU-LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577446
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 23 May 2010 15:36:07 +0000 (UTC)
+
+--=_59cebbe1a7a3518023d4661cc3afc216
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+iklanX: iklanX = Percuma / Free / Mudah / Gratis @ www.iklanx.com
+--------------------
+
+Setiap 10 minit ada 2 orang signup dari seluruh dunia. Memberikan affiliate commission 80%, high technology produck. Daftar dan terus jadi paid member di
+ http://makemy.rolution.com/en
+
+Click the link below to Join:
+http://iklanx.ning.com/?xgi=2GWEQIHvEgclrh&xg_source=msg_invite_net
+
+If your email program doesn't recognize the web address above as an active link,
+please copy and paste it into your web browser
+
+--------------------
+
+Members already on iklanX
+marul82, samiullah bin mushtaq ahmad, samtlc, joe, Salehan Sumardi
+
+--------------------
+
+About iklanX
+http://www.iklanx.com
+
+247 members
+167 photos
+6 videos
+15 Events
+78 blog posts
+
+--------------------
+
+To control which emails you receive on the corner, or to opt-out, go to:
+http://iklanx.ning.com/?xgo=iUIxMBKIBGlW66lHBQbn13gLnK2zwY-ngO9TKXeXTq9AOmBlVnRdZsTVuU5MK0XmhZDC4UnY1D8&xg_source=msg_invite_net
+--=_59cebbe1a7a3518023d4661cc3afc216
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+>
+=09<title>Network Email</title>
+</head>
+<body style=3D"padding:0; margin:16px; font-size:12px; font-family:'lucida =
+grande', tahoma, helvetica, arial, sans-serif;">
+
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"98%" style=
+=3D"height: 98%">
+=09<tr>
+=09<td valign=3D"top" style=3D"font:12px 'lucida grande', tahoma, helvetica=
+, arial, sans-serif; padding: 10px;">
+=09=09<table width=3D"1" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" s=
+tyle=3D"border:3px solid #ccc">
+=09=09  <tr>
+=09=09=09<td bgcolor=3D"#FFFFFF" style=3D"padding:4px 12px; color:#414143;"=
+>
+
+=09=09=09  <div style=3D"font-size:18px;">
+=09=09=09=09<a style=3D"text-decoration:none" href=3D"http://iklanx.ning.co=
+m/?xgi=3D2GWEQIHvEgclrh&amp;xg_source=3Dmsg_invite_net"><font color=3D"#414=
+143">Join me on <b>iklanX</b></font></a>
+=09=09=09  </div>
+=09=09=09  <div style=3D"font-size:12px;">iklanX =3D Percuma / Free / Mudah=
+ / Gratis @ www.iklanx.com</div>
+=09=09=09</td>
+=09=09  </tr>
+=09=09  <tr>
+=09=09=09<td bgcolor=3D"#ffffff" width=3D"*" style=3D"font-size:12px;paddin=
+g: 10px;" valign=3D"top">
+=09=09=09  <table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+=09=09=09    <tr>
+=09=09=09=09  =09=09=09      <td width=3D"96" valign=3D"top" style=3D"font-=
+size: 12px; padding-right: 10px;">
+=09=09=09=09=09    <a href=3D"http://iklanx.ning.com/profile/PatrickUsit?xg=
+_source=3Dmsg_invite_net"><img height=3D"96" width=3D"96" border=3D"0" alt=
+=3D"Patrick Usit" src=3D"http://api.ning.com/files/xi8m898YDuhPIgTnEPW6jfPv=
+UDj0*ReUQI4o64HnKLxP4rhlGkWOw9OjOxHrYN-eWXxsPaSmVV9yv-bplitn3O7*fLimRwzv/gu=
+essiklanx.jpg?width=3D96&amp;height=3D96&amp;crop=3D1%3A1&amp;xn_auth=3Dno&=
+amp;xg_source=3Dmsg_invite_net"></a>
+    <div style=3D"padding-bottom:6px;text-align:center;font-size:12px"><a h=
+ref=3D"http://iklanx.ning.com/profile/PatrickUsit?xg_source=3Dmsg_invite_ne=
+t" style=3D"text-decoration:none">Patrick Usit</a></div>
+=09=09=09      </td>
+=09=09=09=09  =09=09=09      <td valign=3D"top" style=3D"font-size: 12px;">
+=09=09=09=09=09<div style=3D"font-size:13px; padding:8px 16px 16px;">
+=09=09=09=09=09=09Setiap 10 minit ada 2 orang signup dari seluruh dunia. Me=
+mberikan affiliate commission 80%, high technology produck. Daftar dan teru=
+s jadi paid member di<br />
+ http://makemy.rolution.com/en=09=09=09=09=09</div>
+=09=09=09=09=09<div align=3D"center">
+=09=09=09        <a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgclrh&am=
+p;xg_source=3Dmsg_invite_net" class=3D"xg_button" style=3D"display:block; t=
+ext-decoration:none; background:#ffff99; color:#432; border:1px solid; bord=
+er-color:#fc0 #ca0 #ca0 #fc0; font-size:18px; font-weight:bold; text-align:=
+center; width:220px; line-height:37px; margin:12px auto;">Click to Join</a>=
+<br/>
+=09=09=09=09=09</div>
+=09=09=09        =09=09=09=09=09  Members on iklanX:                    =09=
+=09=09=09=09<table style=3D"margin-top:6px" width=3D"360" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">
+                      =09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09  <td style=3D"text-align:center; paddi=
+ng-right:10px; padding-bottom: 10px" valign=3D"top">
+=09=09=09=09=09=09  =09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgc=
+lrh&amp;xg_source=3Dmsg_invite_net"><img height=3D"64" width=3D"64" border=
+=3D"0"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 alt=3D"marul82"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 src=3D"http://api.ning.com/files/xi=
+8m898YDuhPIgTnEPW6jfPvUDj0*ReUQI4o64HnKLxP4rhlGkWOw9OjOxHrYN-eWXxsPaSmVV9yv=
+-bplitn3O7*fLimRwzv/guessiklanx.jpg?width=3D64&amp;height=3D64&amp;crop=3D1=
+%3A1&amp;xn_auth=3Dno&amp;xg_source=3Dmsg_invite_net"></a>
+=09=09=09=09=09=09=09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgclr=
+h&amp;xg_source=3Dmsg_invite_net" style=3D"font-size:11px; text-decoration:=
+none;display:block;">marul82</a>
+=09=09=09=09=09=09  </td>
+=09=09=09=09=09=09=09=09=09=09=09=09  <td style=3D"text-align:center; paddi=
+ng-right:10px; padding-bottom: 10px" valign=3D"top">
+=09=09=09=09=09=09  =09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgc=
+lrh&amp;xg_source=3Dmsg_invite_net"><img height=3D"64" width=3D"64" border=
+=3D"0"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 alt=3D"samiullah bin&hellip;"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 src=3D"http://api.ning.com/files/X6=
+cW-55asAR7i0Jl7tKOXOlq4NbP9pWbN8RKasLXcvFfaLaCis81j2ph0RQQX36-ZPUlX73NQDJGC=
+pbl3lTq9cQPkG4eIF6u/826837588.bin?width=3D64&amp;height=3D64&amp;crop=3D1%3=
+A1&amp;xn_auth=3Dno&amp;xg_source=3Dmsg_invite_net"></a>
+=09=09=09=09=09=09=09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgclr=
+h&amp;xg_source=3Dmsg_invite_net" style=3D"font-size:11px; text-decoration:=
+none;display:block;">samiullah bin mushtaq ahmad</a>
+=09=09=09=09=09=09  </td>
+=09=09=09=09=09=09=09=09=09=09=09=09  <td style=3D"text-align:center; paddi=
+ng-right:10px; padding-bottom: 10px" valign=3D"top">
+=09=09=09=09=09=09  =09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgc=
+lrh&amp;xg_source=3Dmsg_invite_net"><img height=3D"64" width=3D"64" border=
+=3D"0"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 alt=3D"samtlc"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 src=3D"http://api.ning.com/files/XU=
+Mbj09KD5xc16E6xBGnHJsiTGcHaFkmLCktWHLwxi3V8dsWDUtfRU6Jfxm2vYviMcA3y-cFJtuTK=
+Lxnslbexb22GD8QxSGq/778169359.jpeg?width=3D64&amp;height=3D64&amp;crop=3D1%=
+3A1&amp;xn_auth=3Dno&amp;xg_source=3Dmsg_invite_net"></a>
+=09=09=09=09=09=09=09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgclr=
+h&amp;xg_source=3Dmsg_invite_net" style=3D"font-size:11px; text-decoration:=
+none;display:block;">samtlc</a>
+=09=09=09=09=09=09  </td>
+=09=09=09=09=09=09=09=09=09=09=09=09  <td style=3D"text-align:center; paddi=
+ng-right:10px; padding-bottom: 10px" valign=3D"top">
+=09=09=09=09=09=09  =09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgc=
+lrh&amp;xg_source=3Dmsg_invite_net"><img height=3D"64" width=3D"64" border=
+=3D"0"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 alt=3D"joe"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 src=3D"http://api.ning.com/files/xi=
+8m898YDuhPIgTnEPW6jfPvUDj0*ReUQI4o64HnKLxP4rhlGkWOw9OjOxHrYN-eWXxsPaSmVV9yv=
+-bplitn3O7*fLimRwzv/guessiklanx.jpg?width=3D64&amp;height=3D64&amp;crop=3D1=
+%3A1&amp;xn_auth=3Dno&amp;xg_source=3Dmsg_invite_net"></a>
+=09=09=09=09=09=09=09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgclr=
+h&amp;xg_source=3Dmsg_invite_net" style=3D"font-size:11px; text-decoration:=
+none;display:block;">joe</a>
+=09=09=09=09=09=09  </td>
+=09=09=09=09=09=09=09=09=09=09=09=09  <td style=3D"text-align:center; paddi=
+ng-right:10px; padding-bottom: 10px" valign=3D"top">
+=09=09=09=09=09=09  =09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgc=
+lrh&amp;xg_source=3Dmsg_invite_net"><img height=3D"64" width=3D"64" border=
+=3D"0"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 alt=3D"Salehan Sumar&hellip;"
+=09=09=09=09=09=09=09=09=09=09=09=09=09 src=3D"http://api.ning.com/files/sU=
+dMoDiShC7YiYt54xO4OOylTtGsVrooQIiDvit7ViHsVNXUzkky0fnijfG3e7XL2YGoYSGXJk4zM=
+G5Qe5LaV8SCAMyYhhvX/907303268.bin?width=3D64&amp;height=3D64&amp;crop=3D1%3=
+A1&amp;xn_auth=3Dno&amp;xg_source=3Dmsg_invite_net"></a>
+=09=09=09=09=09=09=09<a href=3D"http://iklanx.ning.com/?xgi=3D2GWEQIHvEgclr=
+h&amp;xg_source=3Dmsg_invite_net" style=3D"font-size:11px; text-decoration:=
+none;display:block;">Salehan Sumardi</a>
+=09=09=09=09=09=09  </td>
+=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+                      =09=09=09=09    </table>
+=09=09=09=09=09 =20
+=09=09=09=09=09      <div style=3D"font-weight:bold; padding:8px 0;border-t=
+op:1px solid #aaa;">About iklanX</div>
+              <div style=3D"padding-bottom:12px">http://www.iklanx.com</div=
+>
+                    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0">
+          <tr>
+                                <td width=3D"74" style=3D"padding-right:10p=
+x; font-size: 12px;" valign=3D"top">
+                    <a href=3D"http://iklanx.ning.com"><img height=3D"64" w=
+idth=3D"64" border=3D"0" alt=3D"iklanX" src=3D"http://api.ning.com/icons/ap=
+patar/5249841?default=3D5249841&amp;width=3D96&amp;height=3D96&amp;xg_sourc=
+e=3Dmsg_invite_net"></a>
+                </td>
+                                <td style=3D"padding-right:10px; font-size:=
+ 12px;" valign=3D"top">
+                                                            247 members<br/=
+>167 photos<br/>6 videos<br/></td><td style=3D"padding-right:10px; font-siz=
+e: 12px;" valign=3D"top">15 Events<br/>78 blog posts<br/>                  =
+                                  </td>
+            </tr>
+        </table>
+    =09=09=09      </td>
+=09=09=09    </tr>
+=09=09=09  </table>
+
+<style type=3D"text/css">
+a.xg_button:hover {
+=09text-decoration:underline!important;
+}
+</style>
+=09
+=09=09=09  <div style=3D"border-bottom:1px solid #aaa; height:10px;">&nbsp;=
+</div>
+=09=09=09  <div style=3D"color:#777777; font-size:11px; padding-top: 5px;">
+    To control which emails you receive on iklanX, <a href=3D"http://iklanx=
+.ning.com/?xgo=3DiUIxMBKIBGlW66lHBQbn13gLnK2zwY-ngO9TKXeXTq9AOmBlVnRdZsTVuU=
+5MK0XmhZDC4UnY1D8&amp;xg_source=3Dmsg_invite_net">click here</a></div>
+=09=09  </td>
+=09=09</tr>
+=09  </table>
+=09</td>
+=09</tr>
+</table>
+
+
+<img src=3D"http://iklanx.ning.com/xn_resources/widgets/index/gfx/spacer.gi=
+f?msgtype=3Dinvitation" width=3D"1" height=3D"1" alt=3D"">
+</body>
+</html>
+--=_59cebbe1a7a3518023d4661cc3afc216--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/10229352.141242601274627813012.JavaMail.xncore@z101e8e.ningops.com
+
+

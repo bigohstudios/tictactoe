@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a077f32755982
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs111582wfo;
+        Sun, 16 May 2010 02:35:35 -0700 (PDT)
+Received: by 10.142.66.15 with SMTP id o15mr2229577wfa.89.1274002535398;
+        Sun, 16 May 2010 02:35:35 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 15si5330809pzk.121.2010.05.16.02.35.35;
+        Sun, 16 May 2010 02:35:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 370371C854B0D
+	for <mlsubscriber.tech@csmining.org>; Sun, 16 May 2010 02:35:35 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 257E327AD8A5F
+	for <mlsubscriber.tech@csmining.org>; Sun, 16 May 2010 02:35:35 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id A279927AD75FF
+	for <java-dev@lists.apple.com>; Sun, 16 May 2010 02:31:44 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id 87F2AD555F84
+	for <java-dev@lists.apple.com>; Sun, 16 May 2010 02:31:44 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-e3-4befbb7f8e9d
+Received: from smtp-out3.blueyonder.co.uk (smtp-out3.blueyonder.co.uk
+	[195.188.213.6])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	12.E7.15139.F7BBFEB4; Sun, 16 May 2010 02:31:44 -0700 (PDT)
+Received: from [172.23.170.142] (helo=anti-virus02-09)
+	by smtp-out3.blueyonder.co.uk with smtp (Exim 4.52)
+	id 1ODaCE-0007zS-Tr
+	for java-dev@lists.apple.com; Sun, 16 May 2010 10:31:42 +0100
+Received: from [62.31.159.186] (helo=[192.168.2.6])
+	by asmtp-out6.blueyonder.co.uk with esmtp (Exim 4.52)
+	id 1ODaCE-0000KW-D5
+	for java-dev@lists.apple.com; Sun, 16 May 2010 10:31:42 +0100
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Bob Lang <Bob.Lang@uwe.ac.uk>
+In-Reply-To: <658B7836-745E-4713-B684-A3B6BA3D7E3C@minnigerode.org>
+Date: Sun, 16 May 2010 10:31:41 +0100
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <6D7C4E15-ABCF-4E70-95A3-4F1F5451613D@uwe.ac.uk>
+References: <54447073-D517-46A4-B7B5-24C5E8D1E30B@mac.com>
+	<808AD194-AC07-49F7-91C5-AEF56F170ED4@apple.com>
+	<002501caf32a$1227ba90$6b1914ac@corp.ads.valuelabs.net>
+	<D3BF7E0C-5392-47DE-85E7-5AEABF9E105F@mac.com>
+	<008501caf360$cdb8f0e0$6b1914ac@corp.ads.valuelabs.net>
+	<B20C9808-5DDB-4B4C-B807-B9830E301628@uwe.ac.uk>
+	<27CE835C-118F-4FFF-A906-F936BF5C8237@csmining.org>
+	<106C0831-DC8A-4526-A4BB-5037F2F0D537@uwe.ac.uk>
+	<658B7836-745E-4713-B684-A3B6BA3D7E3C@minnigerode.org>
+To: list Java-dev <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: Strange behaviour: Scanner and Netbeans
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi Dave
+
+On 15 May 2010, at 18:07, Dave Minnigerode wrote:
+
+> Try using a bufferedreader to read in the lines and save the scanner =
+for any parsing.  Wouldn't seem to be a big difference but then the =
+whole issue is kinda weird.
+
+Good idea!  That's a work around I may consider if we can't get to the =
+root of this problem!
+
+Actually, it might lead to a better program anyway but I'll have to =
+leave it on the back burner for now.
+
+Cheers
+
+Bob
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

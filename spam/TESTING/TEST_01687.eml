@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId12859a42f3bc6ca5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs185412wfj;
+        Sun, 2 May 2010 08:30:53 -0700 (PDT)
+Received: by 10.223.127.212 with SMTP id h20mr2717760fas.89.1272814252019;
+        Sun, 02 May 2010 08:30:52 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si6905343fkg.58.2010.05.02.08.30.51;
+        Sun, 02 May 2010 08:30:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3B3DB13A4D7C; Sun,  2 May 2010 15:30:48 +0000 (UTC)
+Old-Return-Path: <matthewjd@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 450A513A44E6
+	for <lists-debian-laptop@liszt.debian.org>; Sun,  2 May 2010 15:30:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id pBRRG6F4qDlb for <lists-debian-laptop@liszt.debian.org>;
+	Sun,  2 May 2010 15:30:35 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id DEF0B13A43D8
+	for <debian-laptop@lists.debian.org>; Sun,  2 May 2010 15:30:28 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so2479166qyk.3
+        for <debian-laptop@lists.debian.org>; Sun, 02 May 2010 08:30:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:from:to:subject:date
+         :user-agent:references:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:message-id;
+        bh=v5UUxOMOwO9P/fNVEgLE8dzC0FkIMxo368LbJpgMec4=;
+        b=URxlEFUQvLppmt8AAF9RTGncYQuztAK9YMkGgWYkTNKomQVhI1kuBgSyoa9SCL+SJF
+         OA4XdmYE2vAjpixtmdi8dqtBT9vZB7xxEIYJVJ7q/TrLO5BgJdV3xWNSxHKUuO5q6q8X
+         RHA0OavpQnucPJ4CPi16+BRVCax0jWqhKJBM8=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=from:to:subject:date:user-agent:references:in-reply-to:mime-version
+         :content-type:content-transfer-encoding:message-id;
+        b=Xn0JH4gvNujDTz2wTdtTg1nBCzzuWKNbEbitqyT9e+MjjY0A72M+30Qm+Ubpu9R/TL
+         kmB6bfCVSzgLR9qwQZpOUAYIAAvjkOBNNjIsCtCV7lJifUoTtApoP6/d8Wv6B3CDvBBh
+         VZXUhH+oXQR/rd2CmColL5qDFwxLngxSHam7o=
+Received: by 10.224.72.76 with SMTP id l12mr5571256qaj.347.1272814219949;
+        Sun, 02 May 2010 08:30:19 -0700 (PDT)
+Received: from mtab.localnet (CPE00e0b8af23c1-CM001e6b187c5e.cpe.net.cable.rogers.com [99.229.149.83])
+        by mx.google.com with ESMTPS id 5sm7317511qwh.35.2010.05.02.08.30.17
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 02 May 2010 08:30:18 -0700 (PDT)
+From: Matthew Dawson <matthewjd@csmining.org>
+To: debian-laptop@lists.debian.org
+Subject: Re: AMD M780G with ATI Radeon HD 3200 graphics
+Date: Sun, 2 May 2010 11:30:16 -0400
+User-Agent: KMail/1.13.2 (Linux/2.6.32-4-amd64; KDE/4.4.2; x86_64; ; )
+References: <pan.2010.05.01.14.08.45@freesurf.ch> <201005011100.30717.matthewjd@csmining.org> <pan.2010.05.02.08.03.32@freesurf.ch>
+In-Reply-To: <pan.2010.05.02.08.03.32@freesurf.ch>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005021130.16299.matthewjd@csmining.org>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <uY01OLlCTgP.A.duE.oqZ3LB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34129
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 15:30:48 +0000 (UTC)
+
+On Sunday 02 May 2010 04:03:32 Jack Malmostoso wrote:
+> On Sat, 01 May 2010 17:10:02 +0200, Matthew Dawson wrote:
+> 
+> > I have a HP laptop with the Radeon HD3200 graphics card.  3d is
+> > supported by the radeon driver, along with KMS (kernel modesetting).
+> 
+> Hello Matthew,
+> 
+> thank you very much for your quick reply.
+> This is just the info I needed.
+> The power management in general of the x100 seems a bit worse than Atom 
+> based netbooks, but I suppose it's a real hardware issue.
+> 
+> Have a nice day!
+> 
+> 
+ 
+Hello Jack,
+
+No problem.  ATI's binary driver, fglrx, does support power management on this chipset, and using fglrx my laptop was able to stay on using battery power for far longer.  The radeon driver does not yet support power management because its hard todo and is very complex.
+
+Matthew
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005021130.16299.matthewjd@csmining.org
+
+

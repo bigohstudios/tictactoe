@@ -1,0 +1,92 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b738ade485033
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs26559wfo;
+        Thu, 20 May 2010 12:37:45 -0700 (PDT)
+Received: by 10.223.33.218 with SMTP id i26mr469555fad.58.1274384264402;
+        Thu, 20 May 2010 12:37:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g20si387800fai.3.2010.05.20.12.37.43;
+        Thu, 20 May 2010 12:37:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id DE8B913A539A; Thu, 20 May 2010 19:37:38 +0000 (UTC)
+Old-Return-Path: <freeman_groups@reason.dyndns.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E030213A5396
+	for <lists-debian-user@liszt.debian.org>; Thu, 20 May 2010 19:37:32 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mNb-Ura6j7Qd for <lists-debian-user@liszt.debian.org>;
+	Thu, 20 May 2010 19:37:25 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) HELO_IP_IN_CL_SUBNET=-1.2 (check from: .dyndns. - helo: .ironport2-out.pppoe. - helo-domain: .pppoe.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -4.2
+Received: from ironport2-out.pppoe.ca (ironport2-out.teksavvy.com [206.248.154.181])
+	by liszt.debian.org (Postfix) with ESMTP id 6624313A534E
+	for <debian-user@lists.debian.org>; Thu, 20 May 2010 19:37:24 +0000 (UTC)
+X-IronPort-AntiFiltered: true
+X-IronPort-AntiResult: Av0EAIYr9UvO+Lc+/2dsb2JhbACDGJp8cq5QkGWBJYMDagSMMA
+X-IronPort-AV: E=Sophos;i="4.53,272,1272859200"; 
+   d="scan'208";a="64666129"
+Received: from 206-248-183-62.dsl.teksavvy.com (HELO localhost) ([206.248.183.62])
+  by ironport2-out.pppoe.ca with ESMTP/TLS/AES256-SHA; 20 May 2010 15:37:21 -0400
+Received: from mainpc5.leaf.reason.dyndns.org ([192.168.0.1] helo=[0.0.0.0])
+	by localhost with esmtp (Exim 4.69)
+	(envelope-from <freeman_groups@reason.dyndns.org>)
+	id 1OFBYW-0000kc-C4
+	for debian-user@lists.debian.org; Thu, 20 May 2010 19:37:21 +0000
+Message-ID: <4BF58F6F.5000506@reason.dyndns.org>
+Date: Thu, 20 May 2010 15:37:19 -0400
+From: "groups, freeman" <freeman_groups@reason.dyndns.org>
+User-Agent: Thunderbird 2.0.0.24 (Windows/20100228)
+MIME-Version: 1.0
+To: Debian User <debian-user@lists.debian.org>
+Subject: Re: Console: Laptop vs backlight-off problem
+References: <4BF4FF52.7080306@reason.dyndns.org> <pan.2010.05.20.16.31.45@csmining.org>
+In-Reply-To: <pan.2010.05.20.16.31.45@csmining.org>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nmSq7by0SuE.A.3f.C-Y9LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577248
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 20 May 2010 19:37:38 +0000 (UTC)
+
+Camaleón wrote:
+> Have your checked "/etc/console-tools/config" file?
+Yeah, seems to behave identically as setterm does - works for changing 
+screen_blank timeout but I had no success with setting anything that 
+would cause the backlight to extinguish  : (
+
+Thx tho!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF58F6F.5000506@reason.dyndns.org
+
+

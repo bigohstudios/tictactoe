@@ -1,0 +1,24 @@
+[ILUG] RE: When is a WAV not a WAV? ANS: It is?!?Well, after playing around with these strange wav files I realised I didn't 
+even have sox installed. A quick apt-get install sox fixed this.
+
+Sox does reconise these AND even plays them in stereo! Following info from 
+the CD-Writing HOW-TO I used sox to convert the Sgt Pepper's wav to cdr and 
+wrote it to CD and now I've got a CD with ONE track that is the entire Sgt 
+Peppers Album! Not too sure how over 500M of cdr reduces to only 51M of wav 
+file but there it is?!?!
+
+And I've got loads of Beatles Albums and singles in these strange wav files!
+
+KEWL! Now I don't need to go buying them!
+
+Cheers,
+
+	John Gay
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

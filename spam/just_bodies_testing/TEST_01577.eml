@@ -1,0 +1,35 @@
+Re: usb raid1 pendrive bootJozsi Vadkan wrote:
+
+> Did anyone managed to boot from RAID1?
+> 
+> Lenny gives this error message:
+> 
+> "mdadm: no devices found for /dev/md0"
+> 
+> I just want to install Debian Lenny on two pendrives [in sRAID1], so
+> that the HDD's in the pc can be used only as ""data containers"", but it
+> gives this error message.
+> 
+> Please help me.
+> 
+> Thank you!
+
+If you don't know why this is happening, then you shouldn't be doing this!
+
+This is because you don't have the md driver _in_ the kernel
+
+You'll need a small i.e. 20-30MB partition out of raid to boot from with
+i.e. initrd which loads the md driver and your raid device becomes visible.
+
+It doesn't matter if it's a pendrive or something else.
+
+regards
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hs10l8$t06$3@dough.gmane.org
+
+

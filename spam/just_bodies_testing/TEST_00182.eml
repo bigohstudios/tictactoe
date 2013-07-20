@@ -1,0 +1,29 @@
+[SAtalk] Huh?Despite my lack of confidence to upgrade to 2.41 using the tarball instead of 
+cpan, it worked.  With the help of others, got razor working.  I did however 
+notice something in my logs which happened twice but hasn't recurred.
+
+Sep  8 16:10:11 omega spamd[14014]: razor2 check skipped: Permission denied 
+Can't call method "log" on unblessed reference at 
+/usr/lib/perl5/site_perl/5.6.1/Razor2/Client/Agent.pm line 211, <STDIN> line 
+66.
+
+
+-- 
+Robin Lynn Frank
+Paradigm-Omega, LLC
+==================================
+The only certainty about documentation is that
+whoever wrote it "might" have understood it.
+The rest of us may not be so lucky.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

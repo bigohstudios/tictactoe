@@ -1,0 +1,29 @@
+Re: Hi how to escaping under ` ` in shOn Wed, Apr 21, 2010 at 11:04 PM, Wes Garland <wes@page.ca> wrote:
+> Try
+>
+> `mysql -u root -pmy\\\$qlPW -N -B -e 'show databases'`
+>
+> I think that's right. Escape the $ so it doesn't get processed by the
+> current shell, escape the slash so it doesn't get processed, falls to \$
+> which then re-escapes the $ for passing into mysql as part of your password.
+>
+> Nick is on to something as well, this should also work:
+>
+
+maybe I am missing something but doesn't `` == $() which means execute
+/ eval the arg
+
+so `echo $$` should return PID of process
+
+> `mysql -u root -p 'my\$qlPW' -N -B -e 'show databases'`
+>
+> Wes
+[snip]
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/w2s836a6dcf1004211319me9999202l4c4f8b7bc7785bf0@mail.csmining.org
+
+

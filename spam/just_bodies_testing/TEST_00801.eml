@@ -1,0 +1,13 @@
+Problem building lame-3.92-fr5.src.rpm on RH8I can't seem to build this package. It errors out because rpm found 
+files not included in any of the packages. I tried getting them addes 
+(it's the documentation that is being loaded) and was unsuccessful. 
+Anyone get this to work?
+
+Coy
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

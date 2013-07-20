@@ -1,0 +1,30 @@
+Re: Aptitude ErrorFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+All of these searches return nothing:
+
+stuckey@debian:~/tmp$ apt-show-versions | grep unstable
+stuckey@debian:~/tmp$ aptitude search ~Aunstable
+stuckey@debian:~/tmp$ aptitude search ~Aunstable~i
+stuckey@debian:~/tmp$ aptitude search '?narrow(?archive(unstable),
+?installed)'
+
+I know something must be wrong here since:
+
+stuckey@debian:~$ dpkg -l | grep nvidia
+ii  nvidia-glx                           190.53-4
+NVIDIA binary Xorg driver
+rc  nvidia-glx-ia32                      190.53-4
+NVIDIA binary driver 32bit libs
+ii  nvidia-kernel-2.6.32-3-amd64         190.53-4+2.6.32-9
+NVIDIA binary kernel module for Linux 2.6.32-3-amd64
+ii  nvidia-kernel-common                 20100216+3+nmu1
+NVIDIA binary kernel module common files
+ii  nvidia-kernel-source                 190.53-4
+NVIDIA binary kernel module source
+ii  nvidia-settings                      190.53-1
+Tool for configuring the NVIDIA graphics driver
+ii  nvidia-vdpau-driver                  190.53-4
+NVIDIA vdpau driver
+
+I have the nvidia drivers, among other packages, from Sid.

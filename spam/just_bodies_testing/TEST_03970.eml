@@ -1,0 +1,31 @@
+Re: Updating JRE in LennyOn 2010-04-14, Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl> wrote:
+> This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+> --------------enigFA5FB73CBD21A1915422D995
+> Content-Type: text/plain; charset=UTF-8; format=flowed
+> Content-Transfer-Encoding: quoted-printable
+>
+> Liam O'Toole schreef:
+---SNIP---
+>> While the update-java-alternatives command is useful, it helps only if
+>> the package already provides an alternative. The OP has to set up the
+>> alternative manually.
+> or use backports.org to install a more recent version of Sun's java.
+
+I don't see a lenny-backports version:
+
+	http://packages.debian.org/search?keywords=sun-java6-plugin
+
+Is it available but under a different name?
+
+-- 
+Liam O'Toole
+Birmingham, United Kingdom
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhsblfq.bu7.liam.p.otoole@dipsy.selfip.org
+
+

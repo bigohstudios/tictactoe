@@ -1,0 +1,26 @@
+RE: [ILUG] Dell GX260 V Redhat 7.3> bad thing. Just a bad thing for those that hope a distro will 
+> work out of
+> the box.
+
+	It's still quite easy to find out, pre-purchase, what components if
+any are going to give you problems with a specific distribution/version.
+With Dell just check the support.dell.com site, match the system, look for
+downloadable drivers. From these if there aren't any linux drivers you can
+usually find out the chipset of each device. Plug them into google with
+"linux" and see what people have to say about them. Generally speaking when
+you buy the system you'll be told the make/model of each device rather than
+the chipset, so further investigation is necessary.
+
+	The cavaet, of course, is always to know exactly what you're buying.
+In most people's cases unfortunately it's not the person who bought the
+systems that will be configuring them.
+
+steve
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

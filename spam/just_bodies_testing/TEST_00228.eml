@@ -1,0 +1,33 @@
+OT: Script to add line to file if it doesn't existI'm asking you folks, 'cause y'all know this stuff (I've been wrestling 
+with this simple task all day).
+
+I've got a text file; I just want a script (a one-liner sed or awk 
+command, etc, would be awesome) to check to see if the file contains a 
+certain line of text, and if not, to add that line at the bottom of the 
+file.
+
+For example, say the file has these four lines in it:
+
+john
+mary
+fred
+martin
+
+I want a script that will read the file and look for the name "fred", 
+and if it's found, leave the file alone, but if it's not found, to add 
+the name "fred" to the bottom of the file.
+
+Any help appreciated. Thanks!
+
+-- 
+Kent West        <")))><
+http://kentwest.blogspot.com
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBCE69D.3040308@acu.edu
+
+

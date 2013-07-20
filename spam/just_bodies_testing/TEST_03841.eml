@@ -1,0 +1,44 @@
+Re: Suspend to Disk + blacklisted module = still troubleOn Sun, 25 Apr 2010 19:06:13 +0200, Felix Natter wrote:
+
+> Felix Natter writes:
+> 
+>> so verbosity 1 should output something, but I will try 4.
+> 
+> Changing verbosity didn't help, I still have no hibernate.log anywhere
+> in /var.
+
+So you changed "Verbosity 4" and "LogVerbosity 4" but still nothing in "/
+var/log/hibernate.log"? Strange... as soon as the system is called to 
+hibernate, it should start filling that file.
+
+BTW, how do you call the hibernation state? You should type "hibernation" 
+in a text console (gnome-terminal, xterm, konsole...).
+
+Ok, let's try another approach (I think you mentioned this in your first 
+post). In "common.conf" comment-out "UnloadModules" line and specify the 
+exact module name you want to be unloaded:
+
+***
+UnloadModules uvcvideo
+***
+
+But we still are facing two problems here:
+
+1/ No log -> no way to know if the module has been successfully unloaded.
+
+2/ "UnloadBlacklistedModules yes" should perform the requested action as 
+the last module listed in the blacklisted file (blacklisted-modules) is 
+indeed "uvcvideo" and applies to any kernel version.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.25.17.55.01@csmining.org
+
+

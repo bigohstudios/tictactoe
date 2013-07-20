@@ -1,0 +1,168 @@
+X-Account-Key: account5
+X-UIDL: GmailId12883f1ef34e8cc1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs31544wfb;
+        Mon, 10 May 2010 13:39:51 -0700 (PDT)
+Received: by 10.223.45.83 with SMTP id d19mr4966793faf.65.1273523990281;
+        Mon, 10 May 2010 13:39:50 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k9si9527629fad.29.2010.05.10.13.39.49;
+        Mon, 10 May 2010 13:39:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0300A2D0C7D; Mon, 10 May 2010 20:39:48 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 76E2913A4FBF
+	for <lists-debian-kde@liszt.debian.org>; Mon, 10 May 2010 20:39:42 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id D2HFYhQf7y9d for <lists-debian-kde@liszt.debian.org>;
+	Mon, 10 May 2010 20:39:34 +0000 (UTC)
+Received: from mail-vw0-f47.google.com (mail-vw0-f47.google.com [209.85.212.47])
+	by liszt.debian.org (Postfix) with ESMTP id 6FD6D13A4FB1
+	for <debian-kde@lists.debian.org>; Mon, 10 May 2010 20:39:34 +0000 (UTC)
+Received: by vws1 with SMTP id 1so730036vws.6
+        for <debian-kde@lists.debian.org>; Mon, 10 May 2010 13:39:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=tpQVb81+DAD+o6vrqedyVSsIzfM/pXYaCHGdCFIdG/I=;
+        b=fq4djbOue25iyv7dyG7A/76aWekr8+Nz4mjWLxoQhqp3+j0kvpehek6rBAzFjkp8F4
+         xap94NMC9xljkIefp9e9aPTcXKR2i4snTt68tEXZFKZhU7vWQw6Wkq60Q02/6sfKStlG
+         SOp66iJ12J5AsA6SQ0ueNdgzGhoxXFncjHJyQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=TP9X3e743sivtf/FNUUeqpAI6SheWPvGu55Ddtyh1K5tez4sYZoM95DX3HtcI7FZv2
+         N2jNd+FONl03ajzYgKjsJTfHV78SKGPkmJ9QMqFf1mtRE4Oi59jGn4oAAgU6XPN7Cvbm
+         9gOxrK2vQB7m/bAbA5cqGe34gT+7GypSCKd/0=
+MIME-Version: 1.0
+Received: by 10.229.28.137 with SMTP id m9mr4045579qcc.21.1273523967059; Mon, 
+	10 May 2010 13:39:27 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Mon, 10 May 2010 13:39:27 -0700 (PDT)
+In-Reply-To: <201005102243.18541.d_baron@012.net.il>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+	 <201005102243.18541.d_baron@012.net.il>
+Date: Mon, 10 May 2010 23:39:27 +0300
+Message-ID: <AANLkTikKXtlNtFxxzL0KBryfAd4dhOYQFHkaAhqlG6gv@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: David Baron <d_baron@012.net.il>
+Cc: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PcYq3RXcNZD.A.hRC.T8G6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32338
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 20:39:48 +0000 (UTC)
+
+On 10 May 2010 22:43, David Baron <d_baron@012.net.il> wrote:
+> I am generally happy with KDE4. A few issues, though:
+>
+> 1. Desktop startup speed. A user with few if any widgets around will be
+> satisfied. Those of us who want to use a lot of these tools will sit and wait.
+> ALL widgets and panel-applets must be asynchronous and background any lengthy
+> process such a searches, indexing, testing network and ports and such. ALL
+> those daemons and "resources" of akonadi and nepomuk must be nicely niced and
+> ioniced out of the way. If recoll's indexing can run nicely and stall nothing,
+> so can kde4's stuff.
+>
+
+Even Gnome starts in seconds now. I agree, startup time is absurd,
+especially with Akonadi.
+
+
+> 2. Activity <--> desktop? Still confused? Think of use cases rather than
+> concepts which though elegant may lay on the virtual shelf. Dotan's post is a
+> welcome step off the ivory tower!
+>
+
+It should improve for KDE 4.5. Aaron (the head Plasma dev) recently
+discussed some changes to the Activities, and the possibility of
+hiding the feature in 4.5 until it is mature in 4.6.
+
+
+> 3. Kmail threading. Much much improved, will still crash out occasionally when
+> deleting, moving messages.
+>
+
+Really? Please file those crashes! I though that all the serious Kmail
+crashers were fixed!
+
+
+> 4. Untoward pauses in the UI when typing this post.
+>
+
+Can you file a bug on that? I cannot reproduce, but I am not a Kmail
+user, only occasionally test it.
+
+
+> 5. Kaddressbook/Akonadi has too many duplicated "resources." Kaddressbook is
+> too slow to be of much use if it has a lot of data. Needs some say of handling
+> contact duplication (which I got by accident and am stuck with).
+>
+
+With Akonadi (4.4)? I don't find it slow at all, and I'm pushing 500 contacts.
+
+
+> 6. Very old issue: KDE should respect the "system administrator"s settings of
+> file permissions. If I mess up, that's my fault.
+>
+
+Please elaborate.
+
+
+> To be continued ...
+>
+
+Yes, please!
+
+
+> BTW, distasteful expressions such as "sucks" have gotten much too common on
+> these lists, are offensive and not professional!
+>
+
+Agreed. As a non-native English speaker who knows where the term came
+from, it does make me sick.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikKXtlNtFxxzL0KBryfAd4dhOYQFHkaAhqlG6gv@mail.csmining.org
+
+

@@ -1,0 +1,32 @@
+Re: Automated Installation - Copy files from CD?On Tue, May 4, 2010 at 1:46 PM, Tim Nelson <tnelson@fudnet.net> wrote:
+> Greetings all-
+>
+> I need to modify a product based on Debian. It installs from a CD and use=
+s the Debian installer system. Since this product does not contain the prop=
+er driver for some of my hardware, I need a way to have the installer copy =
+some files from the CD (which I'll add to the master ISO) to the appropriat=
+e locations on the installation target. I've been through the preseed docum=
+entation and cannot seem to find it there.
+>
+> Any tips/pointers/etc?
+>
+> Thanks!
+>
+> --Tim
+
+My suggestion is:
+
+1) Use Debian
+2) Use the kmuto installer if you need drivers available in a newer
+kernel: http://kmuto.jp/debian/d-i/
+
+--=20
+Jordan Metzmeier
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/z2i50e5edd51005050607i418deaaevd865019aac45bf00@mail.csmining.org
+
+

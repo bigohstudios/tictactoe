@@ -1,0 +1,142 @@
+X-Account-Key: account5
+X-UIDL: GmailId12873622a7b6e849
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs456895wfb;
+        Fri, 7 May 2010 08:28:53 -0700 (PDT)
+Received: by 10.223.101.4 with SMTP id a4mr173604fao.71.1273246132893;
+        Fri, 07 May 2010 08:28:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 21si2329761faw.71.2010.05.07.08.28.52;
+        Fri, 07 May 2010 08:28:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 15FCF13A587F; Fri,  7 May 2010 15:28:44 +0000 (UTC)
+Old-Return-Path: <andrew@swclan.homelinux.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=FOURLA,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B100613A5854
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 15:28:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id OPJWE007m1uJ for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 15:28:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from swclan.homelinux.org (dpst110.abbacomm.net [206.63.26.110])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 39BE613A5829
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 15:28:30 +0000 (UTC)
+Received: from basement ([192.168.1.3])
+	by swclan.homelinux.org with esmtps (TLS1.0:RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <andrew@swclan.homelinux.org>)
+	id 1OAPTV-0006rY-BJ
+	for debian-user@lists.debian.org; Fri, 07 May 2010 08:28:25 -0700
+Received: from andrew by basement with local (Exim 4.71)
+	(envelope-from <andrew@swclan.homelinux.org>)
+	id 1OAPTV-0005Qo-6A
+	for debian-user@lists.debian.org; Fri, 07 May 2010 08:28:25 -0700
+Date: Fri, 7 May 2010 08:28:25 -0700
+From: Andrew Sackville-West <andrew@swclan.homelinux.org>
+To: debian-user@lists.debian.org
+Subject: Re: isn't sed s,x,x, one big no-op?
+Message-ID: <20100507152824.GI19414@basement.swclan.homelinux.org>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <87tyqlo4a1.fsf@turtle.gmx.de>
+ <87wrvg1253.fsf@jidanni.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="mXDO3udm/xYWQeMQ"
+Content-Disposition: inline
+In-Reply-To: <87wrvg1253.fsf@jidanni.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Spam_score: -1.4
+X-Spam_score_int: -13
+X-Spam_bar: -
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <59lCJloH3KK.A.ZpD.sGD5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576143
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 15:28:44 +0000 (UTC)
+
+
+--mXDO3udm/xYWQeMQ
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, May 07, 2010 at 05:39:52PM +0800, jidanni@jidanni.org wrote:
+> >>>>> "SJ" =3D=3D Sven Joachim <svenjoac@gmx.de> writes:
+>=20
+> SJ> Yes, actually you can do it at build time by using the configure opti=
+on
+> SJ> --program-transform-name.  Say you want grub to be named grub2 to
+> SJ> distinguish it from grub-legacy, then you can run
+>=20
+> SJ> $ ./configure --program-transform-name=3Ds/grub/grub2/
+>=20
+> SJ> and 00_header will have the transform line look like this
+>=20
+> SJ> transform=3D"s/grub/grub2/"
+>=20
+> SJ> This somewhat obscure feature is not used in the Debian package,
+> SJ> hence the no-ops.
+>=20
+> Hmmm, then there is a bug in whatever preprocessor package they are
+> using, that leaves such confusing no-ops when in fact nothing should be
+> left at all perhaps...
+
+ISTM that is much easier and more reliable to change one variable at
+the beginning of the file than to change all the sed expressions
+throughout the file...
+
+=2E02
+
+A
+
+--mXDO3udm/xYWQeMQ
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvkMY4ACgkQaIeIEqwil4Yh1wCdGKyh1nfmvBLuMcT6BFc0bWOP
+LIkAnj25SGGYJvyC3VRbmstxMQmB3kl9
+=yWxY
+-----END PGP SIGNATURE-----
+
+--mXDO3udm/xYWQeMQ--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507152824.GI19414@basement.swclan.homelinux.org
+
+

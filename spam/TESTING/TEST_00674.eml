@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId127dbe33b9abfe2a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs63013wfi;
+        Wed, 7 Apr 2010 22:27:35 -0700 (PDT)
+Received: by 10.86.124.4 with SMTP id w4mr15502372fgc.54.1270704454594;
+        Wed, 07 Apr 2010 22:27:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 8si3192566fxm.5.2010.04.07.22.27.34;
+        Wed, 07 Apr 2010 22:27:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3091113A6593; Thu,  8 Apr 2010 05:27:29 +0000 (UTC)
+Old-Return-Path: <jozsi.avadkan@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2EEE613A5CC8
+	for <lists-debian-user@liszt.debian.org>; Thu,  8 Apr 2010 05:27:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id vCcV7e9UC6Xs for <lists-debian-user@liszt.debian.org>;
+	Thu,  8 Apr 2010 05:27:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f210.google.com (mail-fx0-f210.google.com [209.85.220.210])
+	by liszt.debian.org (Postfix) with ESMTP id 1742E13A5AB5
+	for <debian-user@lists.debian.org>; Thu,  8 Apr 2010 05:27:16 +0000 (UTC)
+Received: by mail-fx0-f210.google.com with SMTP id 2so1687167fxm.30
+        for <debian-user@lists.debian.org>; Wed, 07 Apr 2010 22:27:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:subject:from:to:content-type
+         :date:message-id:mime-version:x-mailer:content-transfer-encoding;
+        bh=TtNfoyUxOmxS5rkBaaPhFjyNnWDeCuY3PMTNYgGP9sY=;
+        b=QhrKdMrRsGZtIbx/5bXVtYMMzHawHCd0Ofdk5HisYR1+5+j/daUtUhH41GN8v+KQT3
+         NxvEdk02Xsg7Ue3rNQqbe0ktQEr6NKJA4R4zABONW4nsFnuDSAA6pHFxj+VegNZaKMM9
+         FMC2vKg0kgpewlVn/0KCsh+O0ocsXwW+9Ltu0=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=subject:from:to:content-type:date:message-id:mime-version:x-mailer
+         :content-transfer-encoding;
+        b=ir4lof5t0BeDWG3mO7xnxS9zh255tMFCnp3L6rZceaBVFawEKPEMjWnklLpQ5ieMP2
+         wVTAFwm7xViCPysas3uVXgpxaN2so+SgZwBUkORVf5KmIhwb7ChDBK3pwwtsojkruJ6g
+         n62Yk9iC5B05OxcMUGEA1jINJi27v8JiSgzvw=
+Received: by 10.223.58.20 with SMTP id e20mr10069267fah.96.1270704435950;
+        Wed, 07 Apr 2010 22:27:15 -0700 (PDT)
+Received: from [192.168.0.88] (78-131-70-84.pool.hdsnet.hu [78.131.70.84])
+        by mx.google.com with ESMTPS id 15sm9957225fxm.11.2010.04.07.22.27.14
+        (version=SSLv3 cipher=RC4-MD5);
+        Wed, 07 Apr 2010 22:27:15 -0700 (PDT)
+Subject: regexp a package with apt?
+From: Jozsi Vadkan <jozsi.avadkan@csmining.org>
+To: Debian User Mailing list <debian-user@lists.debian.org>
+Content-Type: text/plain
+Date: Thu, 08 Apr 2010 07:27:13 +0200
+Message-Id: <1270704433.6395.15.camel@localhost>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1 
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <O4R9P9avj-J.A.PwH.BlWvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573564
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  8 Apr 2010 05:27:29 +0000 (UTC)
+
+Is there a regexp for the:
+
+gstreamer0.10-plugins-bad
+
+package?
+
+I mean like:
+
+apt-get install gstreamer*-plugins-bad
+
+so that later, when it will get a new version number, it would still be
+downloadable by a "script" written e.g.: now.
+
+Thank you!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1270704433.6395.15.camel@localhost
+
+

@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId12821c27bfc88af5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs126573wfj;
+        Wed, 21 Apr 2010 12:06:42 -0700 (PDT)
+Received: by 10.223.16.207 with SMTP id p15mr284332faa.99.1271876713329;
+        Wed, 21 Apr 2010 12:05:13 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si4978681fkg.28.2010.04.21.12.05.12;
+        Wed, 21 Apr 2010 12:05:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B8CB313A4755; Wed, 21 Apr 2010 19:05:02 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.6 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PLING_QUERY autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BAC7913A455C
+	for <lists-debian-user@liszt.debian.org>; Wed, 21 Apr 2010 19:04:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.51 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PLING_QUERY=1.39]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id DwmDblzqxiSj for <lists-debian-user@liszt.debian.org>;
+	Wed, 21 Apr 2010 19:04:49 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id A0BF113A4522
+	for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 19:04:49 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1O4fE4-0008Jz-Dm
+	for debian-user@lists.debian.org; Wed, 21 Apr 2010 21:04:44 +0200
+Received: from 206-248-160-87.dsl.teksavvy.com ([206.248.160.87])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 21:04:44 +0200
+Received: from monnier by 206-248-160-87.dsl.teksavvy.com with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Wed, 21 Apr 2010 21:04:44 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: Stefan Monnier <monnier@iro.umontreal.ca>
+Subject: Re: PDF is blocked for printing, etc. OK for acroread (it behaves as expected), but KPDF allows me to print it, even if it is protected! Why?
+Date: Wed, 21 Apr 2010 15:04:28 -0400
+Lines: 35
+Message-ID: <jwv633k3a7b.fsf-monnier+gmane.linux.debian.user@gnu.org>
+References: <4BCC5B32.5030300@student.ulg.ac.be>
+	<20100419144409.e99ce9d8.codehelp@debian.org>
+	<4BCC5FB0.7060106@student.ulg.ac.be>
+	<4BCC613C.6090107@lorentz.leidenuniv.nl>
+	<4BCC77A3.9080803@student.ulg.ac.be> <4BCC83D1.308@free.fr>
+	<4BCC8906.3010505@student.ulg.ac.be>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 206-248-160-87.dsl.teksavvy.com
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.1 (gnu/linux)
+Cancel-Lock: sha1:3vc7nE1ZpO7p6Mk5uKiydTsBCGo=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <VIaq7hnw3NN.A.qxG.ex0zLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574710
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 21 Apr 2010 19:05:02 +0000 (UTC)
+
+> My reason is quite complicated, and is really justified. Briefly, one
+> person that I know needs to have some report I wrote, but this person
+> should not be able neither to print it nor to extract content from it,
+> for a simple reason: this person could transmit a part (or the whole)
+> [of the] document to a third party, and this third party should not
+> receive the report from the person who could send it to him (the third
+> party), but the third party wants the other fellow (actually not a
+> fellow to me) to receive the report.
+
+Doing it via technical means requires that you be able to formally
+define and control all the cases you want to rule out (and hopefully
+leave the remaining cases possible).
+
+Can you technically prevent him from passing the whole PDF to someone
+else?  Can you prevent her from taking a photo of her screen?
+Can you prevent her from printing his screen?  ...
+
+Once you've solved the above technical problems, you'll have to solve
+the remaining one: can she still read the document?
+
+And to make it more interesting: assuming you can't prevent all of those
+things from happening: what happens if she does one of them?
+Assuming she hasn't actively tried to workaround the DRM (e.g. she
+simply took a photo of the screen or transmitted the whole PDF
+document), her act were perfectly legal so ... what would happen?
+
+Now think about the other route: the one based on the law instead of
+technology: the legal document can simply describe what she's allowed to
+do, and that will automatically cover all imaginable ways to
+circumvent any technological means you could imagine.  And if she does
+break the contract, you can sue her.
+Don't know about you, but to me, it sounds a lot more useful.
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwv633k3a7b.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

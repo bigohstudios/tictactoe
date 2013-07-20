@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285a59644a36401
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs190843wfj;
+        Sun, 2 May 2010 11:48:48 -0700 (PDT)
+Received: by 10.223.26.206 with SMTP id f14mr2822067fac.96.1272826127369;
+        Sun, 02 May 2010 11:48:47 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z15si7160908fkz.51.2010.05.02.11.48.46;
+        Sun, 02 May 2010 11:48:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7C92E13A5265; Sun,  2 May 2010 18:48:44 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0281C13A523B
+	for <lists-debian-kde@liszt.debian.org>; Sun,  2 May 2010 18:48:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 58HOEG8cLmWI for <lists-debian-kde@liszt.debian.org>;
+	Sun,  2 May 2010 18:48:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id B61AD13A4ACD;
+	Sun,  2 May 2010 18:48:30 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1O8eDK-0002RL-SZ; Sun, 02 May 2010 21:48:26 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: Re: kde-core list should be updated (live-helper)
+Date: Sun, 2 May 2010 21:48:25 +0300
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-amd64; KDE/4.4.3; x86_64; ; )
+Cc: Diederik de Haas <didi.debian@cknow.org>,
+ debian-live@lists.debian.org
+References: <201005021238.43613.didi.debian@cknow.org>
+In-Reply-To: <201005021238.43613.didi.debian@cknow.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart1343699.ktYhXLXFdz";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005022148.26428.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7fuBnX-G5cK.A.E4H.Mkc3LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32060
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sun,  2 May 2010 18:48:44 +0000 (UTC)
+
+--nextPart1343699.ktYhXLXFdz
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On sekmadienis 02 Gegu=C5=BE=C4=97 2010 13:38:43 Diederik de Haas wrote:
+> and when 5:59 gets into testing it should become:
+> #if DISTRIBUTION squeeze sid
+> kde-plasma-desktop
+> #endif
+
+Why not just use kde-standard instead?
+
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart1343699.ktYhXLXFdz
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvdyPoACgkQHO9JRnPq4hQGQQCeJYjEMorAozMC1WQeBAbQW4Tf
+DmwAniCyXgTvSy0ZqIbA5cHZbNWPybbn
+=hF8a
+-----END PGP SIGNATURE-----
+
+--nextPart1343699.ktYhXLXFdz--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005022148.26428.modestas@vainius.eu
+
+

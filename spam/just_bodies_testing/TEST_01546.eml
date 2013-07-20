@@ -1,0 +1,11 @@
+Re: Lenny to Squeeze upgrade problemsFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+On Wed, May 12, 2010 at 05:04:07PM -0400, Jordan Metzmeier wrote:
+> This issue is because the new udev requires a > .31 kernel with
+> sysrq_deprecated=n (I am going off memory here so don't quote me). This
+> means you need to first upgrade to the squeeze kernel, reboot, then upgrade
+> udev and proceed with the "updgrade".
+
+I do remember seeing something shoot by with that message, but I didnt think anything of it at the time. I will try this, and see what happens.

@@ -1,0 +1,80 @@
+Re: asynchronous I/O (was Re: Gasp!)
+
+> Wrong, [VMS-like async io] makes a huge difference in even what I
+> consider small programs.
+
+So it sounds as if, to your thinking,
+most useful apps are also trivial. 
+Unless each key on my keyboard were
+(to the apps) distinct event sources,
+I can't think of any of my usual job
+mix that would need hundreds, or even
+tens, of async requests; perhaps you
+can explain how nontrivial apps will
+be compellingly useful? 
+
+> but it's still not built in, who knows when it will be. The point is it's
+> not portable in either case.
+
+Does that lack of portability imply it
+isn't generally useful?  (When it was
+apparent that TCP networks were useful,
+berkeley sockets could be found even
+on VMS and Win 3.1 boxen)
+
+Why would early Unix have run with the
+idea that, if one wishes to do multiple
+things at the same time, one can use a
+group of processes to do them?
+
+- they had Multics as a counterexample?
+
+- in the days of tiny memories and tapes,
+  people were more accustomed to writing
+  programs that didn't run entirely in a
+  single address space?
+
+- one is a great number for an interface,
+  as log(1) is 0, and specification can
+  be implicit?
+
+- some combination of the above?
+
+Now, as Hoare says:
+> There are two ways of constructing a software design.  One way is to make
+> it so simple that there are obviously no deficiencies and the other is to
+> make it so complicated that there are no obvious deficiencies.
+
+As programmers, we've been able to make
+our lives complicated for at least half
+a century; the hardware interrupt gives
+us the rope.
+
+Part of Dijkstra's inspiration for THE
+was the counterexample of IBM's multi-
+programmed boxes (were these the same
+ones that inspired Mythical Man Month?)
+and I suppose he would say the question
+is how not to make a mess of it -- how
+should we structure computations so if
+we try to do ten times as many things
+at the same time, reasoning about the
+resulting system is at most ten times
+more complex -- not one hundred, and
+certainly not three and a half million
+times more.
+
+Compared to that project, the prospect
+of writing a driver library for various
+vendors' aio implementations seems to
+be truly trivial.
+
+-Dave
+
+(Oracle, in their quest for portability,
+used to use raw disks for the database.
+This finessed the filesystem issue; did
+it also allow them to roll their own set
+of async drivers?)
+
+

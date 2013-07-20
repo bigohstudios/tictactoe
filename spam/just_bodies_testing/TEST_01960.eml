@@ -1,0 +1,18 @@
+Re: monitoring internet availability and sending sms alert?
+http://www.hcst.net/~vogelke/src/ishostup/
+
+These scripts are good for exactly one thing: sending me (or someone) a
+message if a given piece of hardware at a given IP address stops responding
+for more than a minute or so.  They rely on fping and regular email.
+
+-- 
+Karl Vogel                      I don't speak for the USAF or my company
+He kept saying I didn't listen to him... or something.      --Tritchen Smith
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517014401.A0CA8BE6C@bsd118.wpafb.af.mil
+
+

@@ -1,0 +1,38 @@
+Re: non-ASCII environmentOn Sex, 09 Abr 2010, Jerome BENOIT wrote:
+> Hello List,
+>
+> I am writing some C code which involves ASCII characters:
+> in C related books, we can find a lot of comments about
+> ASCII character issues, as far as we are concern with portability.
+>
+> Nevertheless, something bothers me: where non-ASCII environment can  
+> be found ?
+>
+> Furthermore, can such an environment be created on a Debian box ?
+> The aim is to check the portability of my code.
+
+There are still IBM Mainframes around that use EBCDIC (yes, that is  
+not just an IT legend). I don't know if they can run a UNIX-like OS  
+and if you can compile your C code to run on it, but even if you  
+could, I'm not sure someone in possession of such mainframe will lend  
+it for you to run your tests. :-)
+
+IBM Mainframes apart, I don't think any machine that you should  
+actually care for is non-ASCII.
+
+
+-- 
+I think a relationship is like a shark.  It has to constantly move forward
+or it dies.  Well, what we have on our hands here is a dead shark.
+		-- Woody Allen
+
+Eduardo M KALINOWSKI
+eduardo@kalinowski.com.br
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409141829.15486wj2uyttkdc0@mail.kalinowski.com.br
+
+

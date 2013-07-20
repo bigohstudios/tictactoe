@@ -1,0 +1,26 @@
+Re: Squeeze can't log in.  Don't know package.On Sun, 18 Apr 2010 10:58:49 -0400
+Ryan Larrowe <larrowe@sbcglobal.net> wrote:
+
+> I would like to report a bug in Debian squeeze.   After a fresg install 
+> I cannot log in to my system.  I did use shadow passwords on my 
+> install.  If you need more information you can contact me at 
+> rlarrowe@csmining.org.
+
+You should definitely use reportbug and file with the BTS, not here.
+You should provide more information.  If you can't login after a fresh
+installation, I'd recommend filing against the installer (package
+installation-reports).
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100418210009.61cd822f.celejar@csmining.org
+
+

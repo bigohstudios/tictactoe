@@ -1,0 +1,82 @@
+Re: How to migrate my localhost php site to my ISP - Was: willing
+ to learn php basicsOn 17/04/10 10:15, Bernard wrote:
+>
+>
+> Thanks for your help Monique. I hadn't thought of that, but it makes
+> sense that the ISP only allows one user to log into databases. Problem
+> is that outside users will have to connect to my database through a php
+> script that will contain my password !
+
+That is normal. If your users can enter data, then the script must have 
+at least some write privileges on the database.
+
+In the real world, you deal with the security aspect by placing the 
+password (and database and user names) in a second php script outside 
+the web server's document root, so that no web request can return it. 
+Apache will normally be configured not to allow download of scripts, 
+even when a user knows the right filename, but placing the script 
+outside the directory tree which apache can reach adds to security. You 
+'require' this mini-script in the main php script, which must of course 
+be placed within the web document tree. While apache cannot reach 
+outside its docroot, php/perl/etc. can, though with the same permissions 
+that apache runs under.
+
+In order to achieve this, you need write access to that directory tree 
+above apache's docroot, with the ability to set permissions correctly. 
+ From what you say, it does not seem that you have that with your 
+current ISP. You would seem to need to spend some money, even before you 
+are sure you will have the access you need.
+
+ >By the way, just in case I would decide to subscribe to pair.com, 
+ >would you know if it is possible to subscribe for a short time, 3 
+ >months for instance ? I know of an ISP in Switzerland that is quite a 
+ >bit cheaper, but then you have to subscribe for at least two years (80 
+ >Euros for the first year, 120 Euros for each following year)
+
+1&1 appears to offer a 60-day guarantee which may meet your needs:
+
+"The 1&1 60-Day Money Back Guarantee applies to the Instant Mail and 
+Beginner packages as well as all shared hosting, Virtual Server and 
+eShop packages. You will receive a full refund of the fees if you are 
+not completely satisfied within 60 days' of the activation of your 
+package. Guarantee starts on the date of initial registration of the 
+contract number.
+
+"There is no refund for packages ordered with the software bundle, 
+software shipping and handling fees, domain name registration fees, or 
+any unused bandwidth. 1&1 considers that customers upgrading from an 
+existing package have already experienced the 60-Day Money Back 
+Guarantee. In addition, each customer can only use the Money Back 
+Guarantee once, and for only one contract number per account."
+
+In practice, you'll need to pay a small amount for shipping of 
+documentation and to register at least one domain name, so you wouldn't 
+get much back out of two months' payment, but you wouldn't be tied into 
+a long contract.
+
+I'm on the Business Pro package, at GBP 15 per month, most of which I 
+can charge on to customers. There's a Business at GBP 9 per month, about 
+the same as your Swiss one, which offers two 100MB MySQL databases plus 
+perl and PHP. It doesn't have ssh access to the server, but I've very 
+rarely used that. It also doesn't have cron scripts, but I've never used 
+them. If you need something timed, you can write it into a script and 
+call it as a web page on a timed basis from outside.
+
+As I recall, you don't need ssh access to install phpmyadmin, it's just 
+another web script. You FTP the files to a suitable directory. You need 
+to give phpmyadmin the local address and port number of the MySQL 
+server. Certainly, you are free to create users at various privilege 
+levels, you have full control of the databases. You can then logon to 
+phpmyadmin using any of the MySQL user credentials, though normally you 
+will be doing administration and you will use the root logon.
+
+-- 
+Joe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC9DB8A.2030309@jretrading.com
+
+

@@ -1,0 +1,84 @@
+Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are liveThanks Brendon - silly copy/paste flip.
+
+Several documents corresponding to this update have now gone live as =
+well:
+
+Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 Release Notes
+=
+<http://developer.apple.com/mac/library/releasenotes/CrossPlatform/JavaSno=
+wLeopardUpdate2LeopardUpdate7RN>
+
+Java SE 6 Apple Extensions Reference
+=
+<http://developer.apple.com/mac/library/documentation/Java/Reference/JavaS=
+E6_AppleExtensionsRef>
+
+AppleJavaExtensions stub jar file
+<http://developer.apple.com/mac/library/samplecode/AppleJavaExtensions>
+
+Identifying Java on Mac OS X
+<http://developer.apple.com/mac/library/technotes/tn2002/tn2110.html>
+
+
+On May 18, 2010, at 1:46 PM, Brendon McLean wrote:
+
+> To all,
+>=20
+> The manual download links are the wrong way around.  Should be:
+>=20
+> 10.6 - http://support.apple.com/kb/DL972
+> 10.5 - http://support.apple.com/kb/DL971
+>=20
+> Thanks Mike and the team for continued great work.
+>=20
+> Regards,
+> Brendon.
+>=20
+> On 18 May 2010, at 22:35 , Mike Swingler wrote:
+>=20
+>> Java developers,
+>>=20
+>> The latest Java software updates for both Mac OS X 10.6 and 10.5 are =
+now live and available to all Mac OS X customers via Software Update. If =
+you installed any of the developer previews, running Software Update =
+will automatically bring you up to date with the final GM version.
+>>=20
+>> Manual download links:
+>> Java for Mac OS X 10.6 Update 2: <http://support.apple.com/kb/DL971>
+>> Java for Mac OS X 10.5 Update 7: <http://support.apple.com/kb/DL972>
+>>=20
+>>=20
+>> Like the last pair of releases, all of the JavaDoc API jars, source =
+jars, native frameworks headers, and tools documentation is in a =
+separate docs package. Be sure to install this package to keep your IDE =
+in sync with the Java platform sources. We've made a number of additions =
+to the eAWT, so you may also want to check out the appledocs.jar if you =
+haven't looked at it in a while.
+>>=20
+>> Java for Mac OS X 10.6 Update 2 Developer Documentation:
+>> =
+<https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftwar=
+e?bundleID=3D20620>
+>>=20
+>> Java for Mac OS X 10.5 Update 7 Developer Documentation:
+>> =
+<https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftwar=
+e?bundleID=3D20621>
+>>=20
+>>=20
+>> The team sends their thanks to everyone who installed the developer =
+previews and helped to make this a great release.
+
+Happy reading,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

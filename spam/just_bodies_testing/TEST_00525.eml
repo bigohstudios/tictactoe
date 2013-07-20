@@ -1,0 +1,20 @@
+Re: Umont ownership?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+jeremy jozwik schreef:
+> On Tue, Apr 6, 2010 at 7:23 AM, Camale=C3=B3n <noelamac@csmining.org> wrot=
+e:
+>> Were you running that command as "root" (or sudo) user?
+>=20
+> does not work in regular user mode. which is what i think causes the
+> issue in GNOME right click.
+>=20
+>> Uh? So it works fine for root user...
+For a regular user, you need to be in the plugdev group to mount and=20
+unmount. I believe the mounting is done via dbus, which checks for this=20
+group (or any other group you have configured it for). So, first check=20
+if your user is a member of the plugdev group.
+
+Sjoerd
+

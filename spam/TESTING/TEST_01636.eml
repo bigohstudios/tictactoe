@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId128676bdecb1ab00
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs314245wfb;
+        Wed, 5 May 2010 00:44:03 -0700 (PDT)
+Received: by 10.223.50.68 with SMTP id y4mr5107991faf.51.1273045442246;
+        Wed, 05 May 2010 00:44:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si3371283fkr.59.2010.05.05.00.44.01;
+        Wed, 05 May 2010 00:44:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 11C9213A53D8; Wed,  5 May 2010 07:43:53 +0000 (UTC)
+Old-Return-Path: <simultaneous@comcast.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8073E13A53D4
+	for <lists-debian-user@liszt.debian.org>; Wed,  5 May 2010 07:43:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id qQB6VWAyZBm9 for <lists-debian-user@liszt.debian.org>;
+	Wed,  5 May 2010 07:43:40 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -1.8
+X-Greylist: delayed 491 seconds by postgrey-1.31 at liszt; Wed, 05 May 2010 07:43:39 UTC
+Received: from mail.pounce.com (mail.pounce.com [199.199.209.121])
+	by liszt.debian.org (Postfix) with ESMTP id D94AB13A5379
+	for <debian-user@lists.debian.org>; Wed,  5 May 2010 07:43:39 +0000 (UTC)
+Received: from massrebater.kasploosh.net (67-150-140-60.stkn.mdsg-pacwest.com [67.150.140.60])
+	by mail.pounce.com (Postfix) with ESMTPSA id 8295189AD3B
+	for <debian-user@lists.debian.org>; Wed,  5 May 2010 02:35:23 -0500 (CDT)
+Received: from kasploosh by massrebater.kasploosh.net with local (Exim 4.71)
+	(envelope-from <simultaneous@comcast.net>)
+	id 1O9Z8e-0001Ut-0W
+	for debian-user@lists.debian.org; Wed, 05 May 2010 07:35:24 +0000
+Date: Wed, 5 May 2010 07:35:24 +0000
+From: Phil Requirements <simultaneous@comcast.net>
+To: debian-user@lists.debian.org
+Subject: Re: Making onscreen fonts read-able[was:New monitor, how to change
+ screen resolution?]
+Message-ID: <20100505073523.GA5674@kasploosh.net>
+References: <pan.2010.04.29.19.39.08@csmining.org>
+ <s2xb36d43c31004291240r6e8f452en64acf67fb04be95a@mail.csmining.org>
+ <pan.2010.04.29.19.45.06@csmining.org>
+ <g2zb36d43c31004291246lbf15fd0ama7e0505e4b4d5d1a@mail.csmining.org>
+ <pan.2010.04.29.20.03.03@csmining.org>
+ <h2mb36d43c31004291306gb845a4d5re17c730e273610d0@mail.csmining.org>
+ <pan.2010.04.29.20.15.51@csmining.org>
+ <u2pb36d43c31004291320ue7e1334dyb7e1343c78e830c8@mail.csmining.org>
+ <pan.2010.04.29.21.05.08@csmining.org>
+ <p2ob36d43c31004300105wa93b93cfq61e1b290a3022480@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+In-Reply-To: <p2ob36d43c31004300105wa93b93cfq61e1b290a3022480@mail.csmining.org>
+Mikedate: 12680.04552
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <mp59BPtnjII.A.NEG.5GS4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575886
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 07:43:53 +0000 (UTC)
+
+On 2010-04-30 10:05:42 +0200, James Stuckey wrote:
+>
+>http://www.jhstuckey.com/1080.jpeg
+>
+>Does that look right to you?
+
+I think the problem you are having is "un-themed GTK". You don't have
+a desktop suite, so maybe you're like me and you like to keep your
+system lean and mean. If so, it could be that you don't have any GTK
+themes installed. A simple, lightweight GTK theme will drastically
+improve the appearance of Iceweasel. The default GTK theme is called
+Raleigh and it's not very good, the fonts are too big, and so on.
+
+I lived without a theme for a while until I got so sick of how ugly
+my GTK apps were. Then I went searching for themes and everything's
+better. You can even get themes that are light and have good
+performance.
+
+If you are interested in getting some simple GTK themes:
+
+    aptitude install gtk2-engines
+
+Hope this helps,
+
+Phil
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100505073523.GA5674@kasploosh.net
+
+

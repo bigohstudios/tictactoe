@@ -1,0 +1,45 @@
+Chromium XperienceHi all,
+
+I have been an Iceweasel user since it entered Debian repositories. A
+few days ago I discovered that Chromium was also available for Debian
+and installed it.
+
+I feel it is more responsive and is "faster" than Iceweasel This could
+be due to Chromium using different task for every tab it opens and using
+its own window decorations (Iceweasel uses GTK+ and I use KDE). Even
+with each tab increasing the use of memory by about 30MB, it still feels
+faster than Iceweasel. No real tests done here, but Chromium does win
+for responsiveness to a casual user.
+
+Being an Iceweasel user with the Adblock+ extension, I'm accustomed to
+(almost) adfree web browsing. This hasn't worked as smoothly with
+Chromium. There is an Adblock extension available for Chromium, but it
+works in a different way that it shows the advertisement while the page
+is loading and then hides the element. This is not as clean as Iceweasel
+(firefox). In addition, the extension didn't block Google adverts!
+Iceweasel takes this round (very important).
+
+And then comes the topic of shortcuts. I love the "/" shortcut for
+Iceweasel, Chromium still uses the two-key combination of Ctrl+F!
+Another fast shortcut is the Ctrl+Shift+Del which brings up the priate
+data delete box. In Chromium one has to go through either preferences or
+first History > Edit Items and then delete.
+
+Chromium was also behaving oddly when playing flash video on full
+screen. The video was full screen but behind the browser window!
+
+The Adblock+ advantage with Iceweasel is the one factor which might keep
+me away from Chromium unless better adblocking is implemented.
+
+What is the experience of other users who have tested out Chromium in
+Debian?
+
+KS.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF349BE.2070205@fastmail.fm
+
+

@@ -1,0 +1,29 @@
+Re: Chromium in SidJavier Barroso <javibarroso@csmining.org> writes:
+
+> What would be wrong if every app would have its own repository ?
+
+Nothing
+
+> There is the problem, isn't it ?
+
+No
+
+> Having an unique repo have many advantages (not need to add / remove
+> repositories when they start / die)
+
+Having an unique repository for packages that you absolutely have to
+have the latest at the moment upstream makes it available is an
+advantage.  Especially if you disagree with the choices or patches that
+the maintainer added to package.
+
+-- 
+John L. Fjellstad
+web: http://www.fjellstad.org/          Quis custodiet ipsos custodes
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87aart9dav.fsf@minerva.secundus.fjellstad.intern
+
+

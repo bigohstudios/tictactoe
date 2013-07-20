@@ -1,0 +1,31 @@
+Digital radio playlists are prohibited?!Anyone heard of this law before?
+
+> Q. Can I get a playlist?
+> A. We are unable to offer a playlist. The Digital Performance Right in 
+> Sound Recordings Act of 1995 passed by Congress prevents us from 
+> disclosing such information. The Digital Law states that if one is 
+> transmitting a digital signal, song information cannot be 
+> pre-announced. It is a Music Choice policy not to release a playlist of 
+> upcoming or previously played songs.
+
+Recently, MusicChoice upgraded their website with a very important 
+service, as far as I'm concerned: real-time song info from their 
+website. My DirecTV receiver is up on a shelf (and its display scrolls 
+intermittently); and I'm surely not going to fire up my projector while 
+listening to the "radio", so I'm quite happy that I can retrieve r/t 
+song info with URLs like:
+
+http://backstage.musicchoice.com/songid/channels/soundsoftheseasons.asp
+http://backstage.musicchoice.com/songid/channels/rap.asp
+http://backstage.musicchoice.com/songid/channels/opera.asp
+etc...
+
+Now, if I were a more eager hacker, I'd write up little WSDL stubs for 
+these event streams (they're clearly not worried about load, since their 
+own web pages specify 15 sec meta-refresh) and then feed 'em through a 
+content router to alert me to cool songs. Heck, cross-reference the 
+service to CDDB and... :-)
+
+RK
+
+

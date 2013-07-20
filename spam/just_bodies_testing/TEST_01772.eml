@@ -1,0 +1,83 @@
+Re: DVD/CD Read IssuesFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+I'm also experiencing this issue with data-DVDs now.
+
+Dmesg:
+[11643.787758] end_request: I/O error, dev sr0, sector 0
+[11643.787834] attempt to access beyond end of device
+[11643.787835] sr0: rw=0, want=2052, limit=4
+[11643.788596] sr 2:0:0:0: [sr0] Result: hostbyte=DID_OK
+driverbyte=DRIVER_SENSE
+[11643.788599] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[11643.788603] sr 2:0:0:0: [sr0] Add. Sense: Logical block address out of
+range
+[11643.788606] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 01
+00
+[11643.788613] end_request: I/O error, dev sr0, sector 0
+[11643.789543] sr 2:0:0:0: [sr0] Result: hostbyte=DID_OK
+driverbyte=DRIVER_SENSE
+[11643.789546] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[11643.789550] sr 2:0:0:0: [sr0] Add. Sense: Logical block address out of
+range
+[11643.789553] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 00 00 00 01
+00
+[11643.789560] end_request: I/O error, dev sr0, sector 0
+[11643.789631] UDF-fs: No anchor found
+[11643.789632] UDF-fs: No partition found (1)
+[11643.809340] sr 2:0:0:0: [sr0] Result: hostbyte=DID_OK
+driverbyte=DRIVER_SENSE
+[11643.809343] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[11643.809345] sr 2:0:0:0: [sr0] Add. Sense: Logical block address out of
+range
+[11643.809348] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 10 00 00 01
+00
+[11643.809353] end_request: I/O error, dev sr0, sector 64
+[11643.809417] isofs_fill_super: bread failed, dev=sr0, iso_blknum=16,
+block=16
+[11644.889055] cdrom: This disc doesn't have any tracks I recognize!
+[11650.939127] sr 2:0:0:0: [sr0] Result: hostbyte=DID_OK
+driverbyte=DRIVER_SENSE
+[11650.939131] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[11650.939136] sr 2:0:0:0: [sr0] Add. Sense: Logical block address out of
+range
+[11650.939140] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 10 00 00 01
+00
+[11650.939148] end_request: I/O error, dev sr0, sector 64
+[11650.945825] sr 2:0:0:0: [sr0] Result: hostbyte=DID_OK
+driverbyte=DRIVER_SENSE
+[11650.945829] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[11650.945832] sr 2:0:0:0: [sr0] Add. Sense: Logical block address out of
+range
+[11650.945836] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 01 00 00 00 01
+00
+[11650.945843] end_request: I/O error, dev sr0, sector 1024
+[11650.946676] sr 2:0:0:0: [sr0] Result: hostbyte=DID_OK
+driverbyte=DRIVER_SENSE
+[11650.946680] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[11650.946683] sr 2:0:0:0: [sr0] Add. Sense: Logical block address out of
+range
+[11650.946687] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 02 00 00 00 01
+00
+[11650.946694] end_request: I/O error, dev sr0, sector 2048
+[11650.946760] UDF-fs: No anchor found
+[11650.946762] UDF-fs: No partition found (1)
+[11650.966982] sr 2:0:0:0: [sr0] Result: hostbyte=DID_OK
+driverbyte=DRIVER_SENSE
+[11650.966986] sr 2:0:0:0: [sr0] Sense Key : Illegal Request [current]
+[11650.966989] sr 2:0:0:0: [sr0] Add. Sense: Logical block address out of
+range
+[11650.966993] sr 2:0:0:0: [sr0] CDB: Read(10): 28 00 00 00 00 10 00 00 01
+00
+[11650.967000] end_request: I/O error, dev sr0, sector 64
+[11650.967074] isofs_fill_super: bread failed, dev=sr0, iso_blknum=16,
+block=16
+
+root@debian:/mnt/western# mount /dev/scd0
+mount: block device /dev/sr0 is write-protected, mounting read-only
+mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+       missing codepage or helper program, or other error
+       (could this be the IDE device where you in fact use
+       ide-scsi so that sr0 or sda or so is needed?)
+       In some cases useful info is found in syslog - try
+       dmesg | tail  or so

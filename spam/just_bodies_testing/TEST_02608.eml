@@ -1,0 +1,31 @@
+[Razor-users] log problemI just set up razor and spamassassin, but I keep getting this error in my 
+mail log file
+
+razor2 check skipped: No such file or directory Can't call method "log" on 
+unblessed reference at 
+/usr/local/lib/perl5/site_perl/5.8.0/Razor2/Client/Agent.pm line 212.
+
+I have looked through the archived list and the only thing I have seen 
+about this error is a possible permission problem on the log file.
+I did what it said in the archives, basically change the permission on the 
+file but its still no go.
+
+Any other help would be appreciated, maybe I'm missing something.
+something I forgot to run or do.
+
+
+rob
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

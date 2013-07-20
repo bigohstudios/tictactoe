@@ -1,0 +1,10 @@
+RE: [ILUG] Linux Install> I had the same problem when installing Win on it and eventually sorted it
+> out by disabling the infrared port. 
+
+Enter your bios and try disabling your infrared port in the bios.
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

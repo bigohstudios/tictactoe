@@ -1,0 +1,22 @@
+/etc/bash_completion ?Howdy,
+
+Following this link ( 
+http://www.debian-administration.org/article/An_introduction_to_bash_completion_part_1 
+) and if I type at the terminal '. /etc/bash_completion' everything 
+works top-notch. However, if I put the above command in the global 
+.profile or in my user's profile, after typing my user/pass in gdm, I 
+get errors. If I put '. /etc/bash_completion' in ~/.profile, I get the 
+'your session lasted less than 10 seconds' and the reason is 'cannot 
+open /etc/bash_completion' . If I put the command in /etc/profile, I get 
+some errors about mismatched parantheses. Am I doing something wrong? 
+It's annoying to type '. /etc/bash_profile' everytime. Thanks in advance.
+
+Yours,
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC99B11.5030308@csmining.org
+
+

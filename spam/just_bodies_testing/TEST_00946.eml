@@ -1,0 +1,49 @@
+Re: not all beeps getting through>>>>> "DI" == Damyan Ivanov <dmn@debian.org> writes:
+
+DI> -=| jidanni@jidanni.org, Thu, Apr 08, 2010 at 10:14:23AM +0800 |=-
+>> Gentlemen, it's driving me bananas. Why am I not getting all the beeps I
+>> am entitled to here on my EEEPC 702 8G?
+>> $ n=1; while sleep 2; do echo $((n++)); beep -r 4; done
+>> $ n=1; while sleep 2; do echo $((n++)); beep; done
+>> For each few beeps, there is one or two not heard.
+
+DI> Aggressive sound card auto-suspending? What happens if the delay is
+DI> 0.5 for example?
+
+7 beeps OK, 8th always very low volume. Being root, or using tty1 gives
+no improvement. modprobe pcspkr no help.
+
+The first few seconds of
+$ beep -l 11111
+are normal, the remainder very low volume. The number of seconds vary.
+How does one toggle auto-suspending, if indeed that is the problem?
+
+/dev/sndstat:
+Sound Driver:3.8.1a-980706 (ALSA v1.0.21 emulation code)
+Kernel: Linux jidanni3 2.6.32-3-686 #1 SMP Thu Feb 25 06:14:20 UTC 2010 i686
+Config options: 0
+
+Installed drivers:
+Type 10: ALSA emulation
+
+Card config:
+HDA Intel at 0xf7eb8000 irq 16
+
+Audio devices: NOT ENABLED IN CONFIG
+
+Synth devices: NOT ENABLED IN CONFIG
+
+Midi devices: NOT ENABLED IN CONFIG
+
+Timers:
+31: system timer
+
+Mixers: NOT ENABLED IN CONFIG
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87k4saqasr.fsf@jidanni.org
+
+

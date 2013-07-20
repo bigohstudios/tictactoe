@@ -1,0 +1,42 @@
+Re: Compositing two movies
+Le 9 avr. 2010 =E0 20:31, James Walker a =E9crit :
+
+> On 4/8/2010 11:57 AM, Matt Long wrote:
+>> Performance degrades pretty significantly with multiple
+>> QTMovieLayers.
+>> While you can do it that way, you will likely need to use a
+>> CAOpenGLLayer and composite two movies into it. CoreImage filters =
+work
+>> with it as well.
+>>=20
+>> I wrote a blog post on compositing video into a CAOpenGLLayer a while =
+back:
+>> =
+http://www.cimgf.com/2008/09/10/core-animation-tutorial-rendering-quicktim=
+e-movies-in-a-caopengllayer/
+>=20
+>=20
+> Activity Monitor seems to indicate that the two-QTMovieLayers approach =
+eats less CPU that the CAOpenGLLayer approach.  (If I were playing half =
+a dozen movies at once, maybe it would be different.)  Also, the =
+CAOpenGLLayer approach prohibits compiling for 64 bits (since various =
+necessary QuickTime functions are unavailable) and prohibits using =
+QTMovieOpenForPlaybackAttribute.
+
+
+Comparaison is meaningless. QTKit uses separate processes to decode the =
+movies.
+
+-- Jean-Daniel
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

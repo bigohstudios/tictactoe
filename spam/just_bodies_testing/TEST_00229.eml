@@ -1,0 +1,18 @@
+JavaFrameEmbedding questionI'm rather interested in embedding a JPanel into a Cocoa GUI.  The =
+JavaFrameEmbedding class looks promising and the JavaMapping example =
+seem interesting at first, but then doesn't seem to show enough of how =
+to pull it off when an existing app is already invoking a jvm. =20
+
+Does anyone have any experience with embedding Swing into Cocoa?  Or, =
+embedding SWT into Cocoa would also work if anyone has experience with =
+that..
+
+Mike=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,44 @@
+Broken Debian's testing migration (grave bug in module-init-tools)There's something broken in the design of Debian's migration to testing.
+
+A grave bug in the testing version of module-init-tools (3.12~pre2-1)
+was fixed several weeks ago, and the package was uploaded with
+urgency=high:
+
+ module-init-tools  (3.12~pre2-2) unstable; urgency=high
+
+   * Fixed an init scripts dependency loop introduced in -1. (Closes: #574535)
+
+ -- Marco d'Itri <md@linux.it>  Mon, 22 Mar 2010 12:21:18 +0100
+
+but it hasn't migrated to testing yet!
+
+The reason is a build failure on HPPA:
+
+  https://buildd.debian.org/build.php?arch=hppa&pkg=module-init-tools&ver=3.12~pre2-2
+
+Isn't it unacceptable that a problem on some platform blocks a fix
+for a grave bug?
+
+Is there a risk that such a broken package gets into squeeze?
+Due to this problem, this is the current candidate for squeeze:
+
+  http://packages.debian.org/squeeze/module-init-tools
+
+says: module-init-tools (3.12~pre2-1)
+
+The grave bug is detected by apt-listbugs. Otherwise, as the bug was
+fixed (in unstable), it isn't immediately visible on the various web
+pages.
+
+-- 
+Vincent Lefèvre <vincent@vinc17.net> - Web: <http://www.vinc17.net/>
+100% accessible validated (X)HTML - Blog: <http://www.vinc17.net/blog/>
+Work: CR INRIA - computer arithmetic / Arénaire project (LIP, ENS-Lyon)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412091954.GD8099@ypig.lip.ens-lyon.fr
+
+

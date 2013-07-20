@@ -1,0 +1,39 @@
+Re: Hi how to escaping under ` ` in shOn Wed, Apr 21, 2010 at 2:31 PM, Tzafrir Cohen <tzafrir@cohens.org.il> wrote:
+>
+> You got the output of 'show databases'. You then consider it a shell
+> command and try to excute it. Why would you want to do that? What do you
+> want to do with that output?
+>
+
+ mysql -u root -pmy\$ql -N -B -e 'show databases'
+
+works
+
+I was to get the script
+
+#!/bin/sh
+for DB in `mysql -u root -pmy\$qlPW -N -B -e 'show databases'`; \
+   do echo $DB; \
+   mysqldump -u root -pmy\$qlPW -e $DB > /var/mysql-1hBak/$DB.sql; \
+done
+
+to work.
+
+> BTW: I would suggest that you actually use a .my.cnf to hold the
+> password, otherwise the password is available in e.g. the output of 'ps
+> auxww'
+>
+
+yes I would eventually do that but even then you need to escape the $ inside ``
+
+thanks
+
+--Siju
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2lb713df2c1004210210pd0c85744o2d1e9573ec13cae@mail.csmining.org
+
+

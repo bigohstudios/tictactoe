@@ -1,0 +1,39 @@
+Re: [OT] Home UPS (was  Filesystem recommendations)From nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Boyd Stephen Smith Jr. wrote:
+> It's not because the printer makes the power unclean or otherwise inter=
+feres=20
+> with the correct functioning of the UPS while mains is working.  They=20
+> recommend against connecting printers because printers draw a large amo=
+unt of=20
+> power, dramatically reducing the time the UPS can maintain power to the=
+ system=20
+> if the mains fails.
+Correct.
+>   Also, (1) I've never actually needed my printer during an=20
+> outage
+Generally, people don't. Only the minimum minimorum (strict minimum)
+needs to be connected to the UPS' electrical outlets. Mine has two rows
+of electrical outlets: one which is `only' secured, and the other which
+is connected to the battery. The best idea is to not succumb to the
+tentation of plugging every possible electrical device into the
+battery-connected electrical outlets. But reasonable thoughts need to be
+taken into account in this case. I saw people having the screen plugged
+in the battery, but the main unit being plugged into the not-battery
+row. This is complete nonsense, and a total lack of commonsense.
+> and (2) printers generally don't suffer the same ill effects from=20
+> sudden power loss that file systems do.
+>  =20
+Sure. But scanners do.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

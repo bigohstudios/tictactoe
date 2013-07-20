@@ -1,0 +1,21 @@
+Re: [Razor-users] removing Razor1From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, Sep 05, 2002 at 05:11:32PM -0500, Josh Hildebrand wrote:
+> If that's the case, can someone please point me to something that explains
+> how to remove Razor1 from my system?  I don't see a point in envoking it.
+> Especially when it appears to error out on me.
+>=20
+> Problem while trying to load Razor1: Permission denied  at
+> /usr/local/lib/perl5/site_perl/5.6.1/Mail/SpamAssassin/Dns.pm line 288.
+> debug: leaving helper-app run mode
+
+rm -rf /usr/local/lib/perl5/site_perl/5.6.1/Razor
+
+(you'll want to check that path first of course...)
+
+--=20
+Randomly Generated Tagline:
+"It's a chicken finger device."            - Theo, looking at entree

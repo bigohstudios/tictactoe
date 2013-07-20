@@ -1,0 +1,52 @@
+Re: bandwidth measurement by processOn Sun, 9 May 2010 12:15:49 +0530
+Anand Sivaram <aspnair@csmining.org> wrote:
+
+> On Sun, May 9, 2010 at 11:38, Celejar <celejar@csmining.org> wrote:
+> 
+> > Hi,
+> >
+> > I'm looking for a tool that will measure bandwidth used by a specific
+> > process. I'd like some sort of utility or wrapper that will answer
+> > questions like "How much data did my network backup job push over the
+> > wire?"
+
+...
+
+>  nethogs is unique in that manner, as per their website itself.
+> http://nethogs.sourceforge.net/
+> see section "Links" in their website
+> 
+> Most of the other tools give rate per tcp/udp sessions based on port numbers
+> and remote address information.
+> So you may not find any other program to take care of this.  I think it is
+> doable with a few hundred lines of code.
+> This is what is required to be done.
+> * /proc/<pid>/fd look for the socket inode numbers
+> * correlate those inode numbers in /proc/net/tcp and /proc/net/udp to find
+> the
+>    source and destination ip and port details
+> * use libpcap to open the interface and capture the packet, from this you
+> could get the packet length, rate etc of each tcp, udp session
+> Combining the above, it is possible to get what you need.
+
+Yeah, that's pretty much what I thought.  Well, I think that I'm going
+to code something like this, unless someone else will point out that
+it's already been done.
+
+I'm actually surprised that such a tool doesn't exist.  Isn't this
+something quite useful?  Aren't the sorts of questions that I want
+answered pretty universal and important?
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100509030342.8f65db26.celejar@csmining.org
+
+

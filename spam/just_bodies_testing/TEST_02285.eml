@@ -1,0 +1,14 @@
+Re: Migrate OS to smaller drive?Others suggested using filesystem-level tools, which is really fine. 
+Alternatively, you can shrink the filesystem and move the entire block at once.
+
+Each method probably has its pros and cons.
+
+-thib
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC22782.8060907@stammed.net
+
+

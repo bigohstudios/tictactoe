@@ -1,0 +1,32 @@
+Re: Aptitude ErrorOn Sat, May 01, 2010 at 12:46:13AM -0400, Tom H <tomh0665@csmining.org> was heard to say:
+> On Sat, May 1, 2010 at 12:04 AM, Mike Viau <viaum@sheridanc.on.ca> wrote:
+> >> On Fri, Apr 30, 2010 at 01:26:45PM -0400, Tom H <tomh0665@csmining.org> was
+> >> heard to say:
+> >> > On Fri, Apr 30, 2010 at 1:18 PM, Anand Sivaram <aspnair@csmining.org>
+> >> > wrote:
+> >> > >
+> >> > > You could find what all packages from sid are installed in your system
+> >> > > by
+> >> > > apt-show-versions |  grep unstable
+
+ [snip]
+
+> "aptitude search ~Aunstable~i"
+
+  That'll show packages that are available from sid and that are
+installed on your computer.  That could include packages you installed
+from testing, but that are also available from sid.  If you want to
+check that the installed version is also available from sid, you'll need
+to wrap it in '?narrow':
+
+$ aptitude search '?narrow(?archive(unstable), ?installed)'
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100501052534.GI26444@emurlahn.burrows.local
+
+

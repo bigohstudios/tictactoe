@@ -1,0 +1,111 @@
+Re: Optical analog computing?
+--- begin forwarded text
+
+
+Delivered-To: fork@spamassassin.taint.org
+To: fork@spamassassin.taint.org
+Subject: Re: Optical analog computing?
+From: Dave Long <dl@silcom.com>
+Sender: fork-admin@xent.com
+Date: Wed, 02 Oct 2002 11:09:34 -0700
+
+
+
+> > "the first computer to crack enigma was optical"
+>
+> Computing with interference patterns, etc, makes perfect sense, but Enigma
+> was cracked by building mechanical systems that were essentially Enigma
+> machines and brute-forcing.
+
+Look for "Zygalski sheets".
+
+By Koerner's* narrative, it wound up
+being a hybrid affair: Bletchley had
+mock Enigmas which cycled through the
+Enigma's ~18k starting positions in a
+quarter of an hour, but the Germans
+started using a plugboard which then
+had ~1.5x10^14 possibilities.  The
+Poles noticed that there were some
+patterns in the messages which were
+only possible via certain plugboard
+settings, and so:
+
+> When we have collected several such cards corresponding to different
+> initial signals ..., we place them in a pile so that the squares
+> corresponding to the same daily settings are aligned and shine a
+> light beneath the pile.  Only those squares which let the light
+> through will correspond to possible daily settings.
+
+So the brute force hardware allowed
+precalculation of "optical" computing
+devices which then narrowed down the
+possibilities enough for brute force
+to again be used for daily decodes,
+until:
+
+> On 10 May, the Germans invaded France and, on the same day, in
+> accordance with the best cryptographic principles, they changed their
+> Enigma procedures in such a way that the 1560 Zygalski sheets, each
+> with their carefully drilled 1000 or so holes, became just so much
+> waste cardboard.
+
+-Dave
+
+::::::
+
+> > "the first synthetic-aperture-radar processor was optical"
+
+This is also easy to believe, given Dr.
+Elachi's description of the 1981 Shuttle
+Imaging Radar:
+
+> The received signal is recorded on an optical film which is retrieved
+> after landing.  The film ... is then processed in an optical correlator
+> to generate the final image.
+
+which makes sense, as one wishes to shift
+each component of the return in proportion
+to its frequency, for which one presumably
+needs a glorified prism.
+
+> Alternatively, the ... signal can be digitized and then recorded on
+> board or transmitted to the ground via a digital data link.  This was
+> the case with the ... sensor flown in 1984.
+
+::::::
+
+* Koerner, _The Pleasures of Counting_,
+in which various aspects of the Enigma
+decoding cover four chapters, of which
+I quote from two sections of one:
+14.2: Beautiful Polish females, and
+14.3: Passing the torch
+> Churchill's romantic soul loved the excitement and secrecy surrounding
+> Bletchley.  He relished the way that
+> > [t]he old procedures, like the setting up of agents, the suborning
+> > of informants, the sending of messages written in invisible ink,
+> > the masquerading, the dressing-up, the secret transmitters, and the
+> > examining of the contents of waste-paper baskets, all turned out
+> > to be largely cover for this other source, as one might keep some
+> > old-established business in rare books going in order to be able,
+> > under cover of it, to do a thriving trade in pornography and erotica
+> ...
+> Looking at the disparate, unkempt and definitely unmilitary crew
+> formed by his top code-breakers, he is said to have added to his head
+> of Intelligence "I know I told you to leave no stone unturned to find
+> the necessary staff, but I did not mean you to take me so literally!"
+
+--- end forwarded text
+
+
+-- 
+-----------------
+R. A. Hettinga <mailto: rah@ibuc.com>
+The Internet Bearer Underwriting Corporation <http://www.ibuc.com/>
+44 Farquhar Street, Boston, MA 02131 USA
+"... however it may deserve respect for its usefulness and antiquity,
+[predicting the end of the world] has not been found agreeable to
+experience." -- Edward Gibbon, 'Decline and Fall of the Roman Empire'
+
+

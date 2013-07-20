@@ -1,0 +1,51 @@
+Re: ldconfig: /usr/lib/libwins.so is not an ELF file - it has the
+ wrong magic bytes at the startFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sjoerd Hardeman wrote:
+> Camale=C3=B3n schreef:
+>> On Mon, 26 Apr 2010 14:40:30 +0200, Merciadri Luca wrote:
+>>
+>>> Camale=C3=B3n wrote:
+>>>>> Did you try "file /usr/lib/libwins.so" to see the file type?
+>>>>>    =20
+>>> It gives `/usr/lib/libwins.so: data'.
+>>
+>> Review your "/var/log/apt/term.*" files to find any hint about where
+>> that file comes from. I cannot find any reference to it in any place :=
+-?
+Amongst other stuff, it gives
+
+=3D=3D
+Setting up libkrb53 (1.6.dfsg.4~beta1-5lenny3) ...
+ldconfig: /usr/lib/libwins.so is not an ELF file - it has the wrong
+magic bytes at the start.
+Setting up libjasper1 (1.900.1-5.1+lenny1) ...
+ldconfig: /usr/lib/libwins.so is not an ELF file - it has the wrong
+magic bytes at the start.
+
+Setting up libpng12-0 (1.2.27-2+lenny3) ...
+ldconfig: /usr/lib/libwins.so is not an ELF file - it has the wrong
+magic bytes at the start.
+
+Setting up pidgin-data (2.4.3-4lenny6) ...
+Setting up libpurple0 (2.4.3-4lenny6) ...
+ldconfig: /usr/lib/libwins.so is not an ELF file - it has the wrong
+magic bytes at the start.
+=3D=3D
+
+Any idea why all these packages could be broken?
+> Or post your /etc/apt/sources.list. Maybe you are using a source that
+> we're all not using that provides this file.
+If necessary, I can do it.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+If you want to judge a man's character, give him power.
+

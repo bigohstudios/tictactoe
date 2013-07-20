@@ -1,0 +1,186 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286d328e9b13f4b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs387208wfb;
+        Thu, 6 May 2010 03:39:10 -0700 (PDT)
+Received: by 10.223.40.136 with SMTP id k8mr745758fae.24.1273142349712;
+        Thu, 06 May 2010 03:39:09 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 9si1651584fks.56.2010.05.06.03.39.09;
+        Thu, 06 May 2010 03:39:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A64F213A5113; Thu,  6 May 2010 10:39:06 +0000 (UTC)
+Old-Return-Path: <thomas.ferry@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.5 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 08CE113A501F
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 10:39:01 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id vSrlseVWnwCb for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 10:38:53 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 9085F13A4FC8
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 10:38:47 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so6364708qyk.6
+        for <debian-kde@lists.debian.org>; Thu, 06 May 2010 03:38:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:references:in-reply-to
+         :content-type;
+        bh=61KbgOc4GJEk2d51ALPYwnRV6tMUlAnZJH1VAJdD9/A=;
+        b=Rq/NkiEDbgRE0A0MYCTomXs6UcxGYnIdGQfe6fxliyJFZ19iNTZ5keCz2N05PvoOAU
+         H9nFKrg+g1DIOVKJQG6R68a7wJJMQgcDiSr6tzmHuvGb+4V0U4Fy2o0rRGv1fv9cevyq
+         9QjQ6YDx/zYNyN2fJl82i38+yAI9pImpf/goA=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type;
+        b=XwORp5ub0T0yhYX3+1u50D1ES+P+aJf0Oh+JkRLNkGipB9+wCVZPIuObOBqBlpfVod
+         Vq4g+1s1CorjjZ2gV2JGf2M0wuuQ6xue/gBvINMqKH8lqV8khkB8r29qS2QIjjxroGIR
+         MX98wdTlmojYy5SREk0UJATbFZjrNeBWAem34=
+Received: by 10.224.116.137 with SMTP id m9mr6485613qaq.162.1273142317748;
+        Thu, 06 May 2010 03:38:37 -0700 (PDT)
+Received: from [65.31.44.139] (cpe-65-31-44-139.woh.res.rr.com [65.31.44.139])
+        by mx.google.com with ESMTPS id 7sm1540497qwb.4.2010.05.06.03.38.36
+        (version=SSLv3 cipher=RC4-MD5);
+        Thu, 06 May 2010 03:38:36 -0700 (PDT)
+Message-ID: <4BE29C2B.8030100@csmining.org>
+Date: Thu, 06 May 2010 06:38:35 -0400
+From: Thomas Ferry <thomas.ferry@csmining.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100423 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-kde@lists.debian.org
+Subject: Re: Kde 3.5 ...
+References: <k2gb59a0661005052317jf0fa9ec4n2399a8ed8d64e1da@mail.csmining.org> <201005061139.04425.schwarzerf@csmining.org> <20100506101001.GC32231@torres.zugschlus.de>
+In-Reply-To: <20100506101001.GC32231@torres.zugschlus.de>
+Content-Type: multipart/alternative;
+ boundary="------------000501040908020206040303"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-gJukDUHwdI.A.AkC.Kxp4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32103
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 10:39:06 +0000 (UTC)
+
+This is a multi-part message in MIME format.
+--------------000501040908020206040303
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+On 05/06/2010 06:10 AM, Marc Haber wrote:
+> Hi,
+>
+> On Thu, May 06, 2010 at 11:39:04AM +0200, Frederik Schwarzer wrote:
+>    
+>> Why is KDE 4 for you no option? Does it not work for you? Or do you just
+>> not like the concepts? The KDE developers are open for suggestions, as
+>> long as these are not "give me kicker back" or alike.
+>>      
+> Konsole 4's Profile handling is utterly broken. There are multiple
+> bugs open upstream about this, none of which has been commented on by
+> the developers. I don't see any interest of upstream in fixing these
+> issues.
+>
+> I still hope that 4.4.3 will fix the krunner instabilities that were
+> introduced in 4.4.
+>
+> These two issues make me wish to have kde3 back every single day. Eye
+> candy is important, which kde4 has more than kde3, but breaking my
+> bread-and-butter application that badly is a real turn-off.
+>
+> Greetings
+> Marc
+>
+>    
+Im using kde 4.4.3 and I rather like it. However there is a fork of KDE 
+3.5.x http://trinity.pearsoncomputing.net/
+You could compile the packages yourself. Yes before i get flamed for it 
+i know its ubuntu but however the code it freely accessible from the kde 
+trunk so it would not be all that hard to compile it.
+
+--------------000501040908020206040303
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+</head>
+<body text="#000000" bgcolor="#ffffff">
+On 05/06/2010 06:10 AM, Marc Haber wrote:
+<blockquote cite="mid:20100506101001.GC32231@torres.zugschlus.de"
+ type="cite">
+  <pre wrap="">Hi,
+
+On Thu, May 06, 2010 at 11:39:04AM +0200, Frederik Schwarzer wrote:
+  </pre>
+  <blockquote type="cite">
+    <pre wrap="">Why is KDE 4 for you no option? Does it not work for you? Or do you just
+not like the concepts? The KDE developers are open for suggestions, as
+long as these are not "give me kicker back" or alike.
+    </pre>
+  </blockquote>
+  <pre wrap="">
+Konsole 4's Profile handling is utterly broken. There are multiple
+bugs open upstream about this, none of which has been commented on by
+the developers. I don't see any interest of upstream in fixing these
+issues.
+
+I still hope that 4.4.3 will fix the krunner instabilities that were
+introduced in 4.4.
+
+These two issues make me wish to have kde3 back every single day. Eye
+candy is important, which kde4 has more than kde3, but breaking my
+bread-and-butter application that badly is a real turn-off.
+
+Greetings
+Marc
+
+  </pre>
+</blockquote>
+Im using kde 4.4.3 and I rather like it. However there is a fork of KDE
+3.5.x
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<a href="http://trinity.pearsoncomputing.net/">http://trinity.pearsoncomputing.net/</a><br>
+You could compile the packages yourself. Yes before i get flamed for it
+i know its ubuntu but however the code it freely accessible from the
+kde trunk so it would not be all that hard to compile it.<br>
+</body>
+</html>
+
+--------------000501040908020206040303--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE29C2B.8030100@csmining.org
+
+

@@ -1,0 +1,30 @@
+Re: What needs to improve in KDE 4?From nobody Sat Jul 20 14:17:30 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 10 May 2010 16.08:40 Dotan Cohen wrote:
+> Please tell us what problems, bugs, or issues KDE 4 that make it
+> difficult to use.
+
+Nepomuk / Strigi need to improve a *lot*.
+
+* Strigi sucks up all disk bandwidth and, given enough time, all memory to=
+=20
+the point where the oom kill kills my session.
+* Strigi index uses all my disk.  Removing folders that were indexed (eithe=
+r=20
+removing these files, or removing them from the strigi configuration so=20
+they're not indexed anymore) didn't seem to have any effect on index size.
+* Likewise when I completely disable file indexing: the database doesn't=20
+shrink / isn't removed.
+
+I'd really like to use file indexing, but everytime I enable it, I quickly=
+=20
+turn it off again :-(
+
+cheers
+=2D- vbi
+
+=2D-=20
+Could this mail be a fake? (Answer: No! - http://fortytwo.ch/gpg/intro)

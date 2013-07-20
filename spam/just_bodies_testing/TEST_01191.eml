@@ -1,0 +1,33 @@
+RE: [ILUG] mirroring on a running systemI don't see why not John, but I'd sure backup my data first ;--)
+
+So I suppose you could setup half of the raid1, copy your partitions across,
+vi lilo to append the new device labels, /dev/md0 instead of /dev/hda...
+re-run lilo, then raidhotadd /dev/xxx /dev/md0 [or is that the other way
+around?]
+
+I have never tried this so this could be bollix, I have setup root-raid
+systems but during install time, I have had drive failures on my
+"production" systems at home and successfully re-built the raid many times.
+IMHO linux software raid is extremely good.
+
+When are we going to have a pint? 
+
+CW
+
+--------------------------
+ I've a running system, and I want to set it up so that the disks are
+mirrored. I'll win a little more read speed, and a lot more reliability.
+
+ However, the RAID_HOWTO just mentions RAID 1 and RAID 0 on a machine
+that's new. They don't mention anything about an existing setup. Is it
+possible to setup disk mirroring on a running box ?
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

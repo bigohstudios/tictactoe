@@ -1,0 +1,40 @@
+invisible consoleI like an old-fashioned VGA text look on the console; in
+/etc/default/console-setup I have
+
+FONTFACE="VGA"
+FONTSIZE="16"
+
+This used to work.
+
+But after a dist-upgrade around April 10th, the behaviour changed.
+
+1 -- cold startup works normally (and looks normal).
+2 -- startx works OK
+3 -- pressing control-alt-f2 (to go to the console temporarily)
+now gives a (framebuffer?) screen with very small letters; at the
+top of the screen there is a message from "drm" stating that the
+resolution is set to 1250 x 1024 (instead of 640 x 480 which is
+what I want).
+4 -- presing alt-f7 gets me back into X.
+5 -- pressing control-alt-f2 AGAIN gives a completely black
+screen. Nothing visible. Going back to X with alt-f7 is still
+possible.
+
+uname -a gives:
+Linux vega 2.6.32-3-686 #1 SMP Thu Feb 25 06:14:20 UTC 2010 i686
+GNU/Linux
+
+This kernel was installed recently; booting an earlier kernel,
+e.g. 2.6.29-2, gets the old (proper) behaviour back.
+
+Configuration error? Or bug? If the latter, which package?
+
+Regards, Jan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDAB531.4060901@my.home
+
+

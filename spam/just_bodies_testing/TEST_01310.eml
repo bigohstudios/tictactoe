@@ -1,0 +1,35 @@
+RE: [ILUG] veritas backup on linux ?Yes indeed - there should be an agents directory on the Veritas CD - in
+the unix subdirectory there should be a file called be_agnt.tar which
+needs to be installed and configured.  I am not sure - but I think that
+you may need to purchase a serial number in order to get this to work..
+
+Fergal.
+
+> -----Original Message-----
+> From: John P. Looney [mailto:valen@tuatha.org] 
+> Sent: 19 August 2002 10:34
+> To: Irish LUG list
+> Subject: [ILUG] veritas backup on linux ?
+> 
+> 
+>  I've a solaris box & a windows 2000 box, both with DLT 
+> drives, controlled by Veritas Backup.
+> 
+>  Can I install some sort of client on the linux box to enable 
+> it to be backed up ? A browse of the Veritas site is a little 
+> quiet on this front.
+> 
+> Kate
+> 
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie 
+> http://www.linux.ie/mailman/listinfo/ilug for 
+> (un)subscription information. List maintainer: listmaster@linux.ie
+> 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

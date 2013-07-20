@@ -1,0 +1,35 @@
+Re: What needs to improve in KDE 4?On 11 May 2010 12:16, Marcus Better <marcus@better.se> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Dotan Cohen wrote:
+>> I though that all the serious Kmail crashers were fixed!
+>
+> How about this little gem that I reported in 2008 (Crash when deleting
+> messages):
+> =C2=A0https://bugs.kde.org/show_bug.cgi?id=3D163071
+>
+> I'm proud to report that this has now reached 100 duplicates and is the
+> third most often reported open bug in KDE. :-)
+>
+
+Marcus, I think that Kmail 2, with the Akonadi cache, will likely not
+suffer from this. In fact, I think that bug was one of the motivating
+factors into creating Akonadi! I don't promise anything, though you
+can already test Kmail 2.
+
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikDtE74jeUnCtcYFVVId7vaBbpYlhWs_gVaNQK_@mail.csmining.org
+
+

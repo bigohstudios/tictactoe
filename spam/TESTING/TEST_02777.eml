@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId1282b30cb11209cd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs66005wfj;
+        Fri, 23 Apr 2010 08:02:20 -0700 (PDT)
+Received: by 10.141.14.19 with SMTP id r19mr153489rvi.255.1272034937760;
+        Fri, 23 Apr 2010 08:02:17 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id b7si2558183rvn.85.2010.04.23.08.02.17;
+        Fri, 23 Apr 2010 08:02:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 8E6B41BC07A75
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 08:02:17 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8A280270D5BD9
+	for <mlsubscriber.tech@csmining.org>; Fri, 23 Apr 2010 08:02:17 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 0904D270D535B
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 08:00:48 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id E8EE5CDED09F
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 08:00:48 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-35-4bd1b620fc3c
+Received: from mail-vw0-f51.google.com (mail-vw0-f51.google.com
+	[209.85.212.51])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	8C.08.26228.026B1DB4; Fri, 23 Apr 2010 08:00:48 -0700 (PDT)
+Received: by vws9 with SMTP id 9so917618vws.24
+	for <java-dev@lists.apple.com>; Fri, 23 Apr 2010 08:00:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:subject:from:content-type
+	:message-id:date:to:content-transfer-encoding:mime-version:x-mailer;
+	bh=c0GXZrU7jCr29qzZPr36B+ZY1PpXkipSPkWFGY2aVcI=;
+	b=df2eBTlEVyUnAxuk0010niafRZwwoMXXM4ghmT0MymPZzMHMbQyK3PqeDo0BH1CDDl
+	itf0+1p9th7oPQwO4A2QlLinJqK4s2RPIa7CwyZ+s1gyjR3OM0PS+VSCa8x9EQp0EzNq
+	PKvgcoRZ4hL229yDde+XprVHX9YOgMks+dL2k=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=subject:from:content-type:message-id:date:to
+	:content-transfer-encoding:mime-version:x-mailer;
+	b=js0MRVY1jkCCNaJxQtSlwY5nGBXFrY7c2IL7fmmmAeiApaAnCIRffRJ+gh+ns5pmDE
+	sjcI4K6LCb8E2v8z80BDrX6pouISpdU8z9zKfpDNhnJXgIo3kY9cGCZ6Oc8veXOI0AXf
+	cSAG/nrioN8HSA3mQIaQBLPfTFGSQsclt4DI8=
+Received: by 10.220.108.198 with SMTP id g6mr88475vcp.82.1272034847585;
+	Fri, 23 Apr 2010 08:00:47 -0700 (PDT)
+Received: from [10.0.1.2] ([190.79.121.136])
+	by mx.google.com with ESMTPS id a1sm5332087vcp.9.2010.04.23.08.00.40
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Fri, 23 Apr 2010 08:00:46 -0700 (PDT)
+From: David Sanchez <davidenrique@csmining.org>
+Content-Type: text/plain; charset=us-ascii
+Message-Id: <F8C089FB-CBDE-46D0-A29A-FD94405EF977@csmining.org>
+Date: Fri, 23 Apr 2010 10:30:21 -0430
+To: JavaDev java-dev <java-dev@lists.apple.com>
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: Derby permissions
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi!
+
+Since I am a Java Developer, IT staff have asked me why after repairing =
+permissions with Disk Utility, Derby always appear with an incorrect =
+permissions group.
+
+As far as I know, the permissions are fine, but the package receipt was =
+not properly updated, or wrongly set.
+
+http://discussions.apple.com/thread.jspa?messageID=3D11383432
+=
+http://discussions.info.apple.com/thread.jspa?messageID=3D10866836&tstart=3D=
+0
+
+I have to admit it is an annoying message:
+
+Permissions differ on "usr/share/derby", should be drwxr-xr-x , they are =
+lrwxr-xr-x=20
+Repaired "usr/share/derby"
+
+Why does it take so long to fix that issue or why it cannot be fixed? I =
+thought it would be repaired in the next Java update.
+
+I would like to give a convincing answer, not this: =
+http://support.apple.com/kb/TS1448
+
+David=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

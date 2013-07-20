@@ -1,0 +1,45 @@
+Re: Increasing number of conflictsHi, Alexander:
+
+On Monday 19 April 2010 15:16:02 B. Alexander wrote:
+> I've got an issue with a sid box that I have been maintaining for a while.
+> This is my workstation, and I have noticed a growing number of broken
+> packages, unmet dependencies and conflicts. I have been using safe-upgrade
+> for months now, hoping that it would work itself out over time.
+
+It won't.  That's not the way Sid works.
+
+On Sid packages can come and go.  Since 'safe-upgrade' won't uninstall 
+packages, once you enter a "dead end" on Sid, it won't go away by itself: you 
+will need to uninstall those packages and after that install the new 
+versions, probably with new dependencies, old dependencies trashed away, etc.
+
+On Sid you are expected to go the "full-upgrade" path and do it both wisely 
+and often.
+
+"Wisely" because, not as in Stable, you can't just "blindly" upgrade 
+everything, but you will want to cherrypick this or that based on its 
+current "breakability" status (i.e.: you follow debian-devel list and learn 
+that currently, say, libc, or KDE is almost broken and heavily updated, so 
+you may decide to stay away from them.  After some weeks, those become 
+more "palatable" but then it's the time for Openoffice to go "fun", etc.).
+
+"Often" because if you let the system to "rot" for few months or even few 
+weeks, you end up with a nightmare of packages to work with instead of only  
+a few you can manage easier (that's the case for the system you outline in 
+your post).
+
+So, with Sid, you should test for a "full-upgrade" almost daily.  Then you may 
+decide to upgrade by hand only a subset you feel more comfortable with and 
+then, even for such a subset you may need to uninstall (or let the system 
+unistall) some packages and after the fact you'll need to reinstall them 
+manually to let the system recompute new needs, dependencies, etc.
+
+Cheers.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005161557.21069.jesus.navarro@undominio.net
+
+

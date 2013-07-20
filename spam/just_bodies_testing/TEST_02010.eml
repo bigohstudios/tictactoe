@@ -1,0 +1,23 @@
+Re: kvm disk read errorFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun,23.May.10, 12:45:02, briand@aracnet.com wrote:
+>=20
+> WARNING: The character device /dev/vboxdrv does not exist.
+> 	 Please install the virtualbox-ose-dkms package and the
+> appropriate headers, most likely linux-headers-amd64.
+>=20
+> after spending a lot of time with the (incorrect) wiki page and
+> package search, I can't make it work.
+>=20
+> any advice ?
+
+Yes, install the virtualbox-ose-dkms package ;)
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

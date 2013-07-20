@@ -1,0 +1,182 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b19d6abebd850
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs60078wfo;
+        Wed, 19 May 2010 10:30:04 -0700 (PDT)
+Received: by 10.223.54.143 with SMTP id q15mr5048223fag.16.1274290203186;
+        Wed, 19 May 2010 10:30:03 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si10725099fak.79.2010.05.19.10.30.02;
+        Wed, 19 May 2010 10:30:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 945B52D0C89; Wed, 19 May 2010 17:29:53 +0000 (UTC)
+Old-Return-Path: <andreimpopescu@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 9C8362D0D6F
+	for <lists-debian-user@liszt.debian.org>; Wed, 19 May 2010 17:29:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id lvZJgGAwQ67d for <lists-debian-user@liszt.debian.org>;
+	Wed, 19 May 2010 17:29:40 +0000 (UTC)
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 250352D0D6E
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 17:29:40 +0000 (UTC)
+Received: by fxm8 with SMTP id 8so2296321fxm.6
+        for <debian-user@lists.debian.org>; Wed, 19 May 2010 10:29:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=qKh9+FFRubj6MZH8ynJjdmeaWF8d6jdbB/xyzomvNx4=;
+        b=eqGlniur47sCYTZs64vQskEIEGBed7JSU9oCqQKTruos7Fbh563+UYhJIRBvtnLjcH
+         rI/WEzZyj6Py1GAcI3iqK5lsLHe1OROEiu9RMCd9wgTuR6YpZbNuOonC8KfWv9XKqfK8
+         7/BR+4LaB9CRJydlNbpI0+nJZuSw2k4etxPGI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=be68Am+ZfedU3hPtiIAGldNOwJqRC/OLrIKcgkf96iSCwHdTB1E7PypyqzS7loUmDc
+         UVJNbopZkD5NIyeEbfw/GnZ48L1VlOK9XsuufED0yzYttR1C2fxzk6yp/JhU6RBgOz5H
+         +e7tXGJsdbQPN2lV1MNlWd/gTJMhV+qauKELY=
+Received: by 10.223.24.130 with SMTP id v2mr1500401fab.61.1274290175293;
+        Wed, 19 May 2010 10:29:35 -0700 (PDT)
+Received: from think.homelan ([92.86.142.199])
+        by mx.google.com with ESMTPS id g10sm7136996fai.0.2010.05.19.10.29.33
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Wed, 19 May 2010 10:29:34 -0700 (PDT)
+Received: by think.homelan (Postfix, from userid 1000)
+	id D04342020; Wed, 19 May 2010 20:29:28 +0300 (EEST)
+Date: Wed, 19 May 2010 20:29:28 +0300
+From: Andrei Popescu <andreimpopescu@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: Moving a drive to another computer
+Message-ID: <20100519172928.GC20103@think.homelan>
+References: <Pine.BSF.4.64.1005191240350.46861@paprika.michvhf.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha256;
+	protocol="application/pgp-signature"; boundary="kVXhAStRUZ/+rrGn"
+Content-Disposition: inline
+In-Reply-To: <Pine.BSF.4.64.1005191240350.46861@paprika.michvhf.com>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <qGFCvH19mtN.A.daB.RAC9LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577193
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 19 May 2010 17:29:53 +0000 (UTC)
+
+
+--kVXhAStRUZ/+rrGn
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed,19.May.10, 12:46:53, Vince Vielhaber wrote:
+>=20
+> A friend was running windows and the viruses got the best of it. She
+> sent me the drive so I could get her pics and documents off of it and
+> put 5.0.4 on it and send it back (she's a few states away).
+>=20
+> What problems (and solutions) should I be expecting when she installs
+> the drive in her computer?  I'm assuming the network setup will be one
+> problem.
+
+Yes. interfaces(5) will tell you all you need for the configuration=20
+part, but before you send the drive don't forget to delete=20
+/etc/udev/rules.d/70-persistent-net.rules. This is the file responsible=20
+for mapping network interfaces to names by MAC. Wired interfaces are=20
+called eth0, eth1 and so on. Pray she doesn't have more than one=20
+(including any firewire adapter) otherwise it can get tricky.
+
+> My background is mainly in FreeBSD.  If a drive is set up as being
+> /dev/ad0 and the other machine sees it as /dev/ad4 it won't complete
+> the boot, it'll complain with a cannot mount root error.  Will that be
+> an issue with Debian?
+
+Could be. The newer installer will setup fstab with UUIDs, but don't=20
+know about 5.0.4 (lenny). You can still modify it yourself though. Use=20
+blkid(8) (package util-linux) to find out the UUIDs and replace
+
+/dev/hda1	/	ext3	errors=3Dremount-ro	0	1
+
+with
+
+UUID=3D<realy long hex string that is the UUID>	/	ext3	errors=3Dremount-ro	=
+0	1
+
+(assuming /dev/hda1 is the root partition)
+
+Grub (the boot loader) can also be an issue, especially since its 'root'=20
+parameter can not use LABEL or UUID. If this is the only drive in the=20
+computer and the root partition is the first one you probably need
+
+root	(hd0,0)
+
+and you also need to pass the correct UUID as a kernel parameter. =20
+Replace 'root=3D/dev/hda1' with 'root=3DUUID=3D<the very long hex string>.
+
+Do not edit the stanzas directly, but read the comments at the beginning=20
+of the file. You have to edit (from memory) the 'groot' and 'kopt'=20
+parameters, after which you have to run 'update-grub'.
+
+Hope I didn't miss anything. There was also recently a thread about=20
+this, you should look it up.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic
+
+--kVXhAStRUZ/+rrGn
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL9B/4AAoJEHNWs3jeoi3pJa0H/39piID78iKDBrytVVbks1t+
+vzpP04tCqvHG6YxY+9sEDL/CTTtOidPGt4kNf0VZ29gmxIiqcTz1soNKIlZ8OWjg
+eYDx+w5g/QNUHcgA25ZIc4xIJUiFt9ZG9FsWa+P8pV4POHFCiQWX6nktw1+SDEsk
+26+6djUwLQs7soQk/k6mcJCQedhaaeheOz7hecITfcyfI0DMkmsR1xpN/fvip6r1
+oJonxE4qhorN7DvXvW+vlfwe93PbocmbqxHqAIW7iWfB7Xm4dWhOIcy1/qAZkZ/b
+oKQpRWBaS3Xsg+q59v8yb11FpO0WZ6PVfursX2EZM2dFYb4+n14FGJ9PzqMkprs=
+=YjBe
+-----END PGP SIGNATURE-----
+
+--kVXhAStRUZ/+rrGn--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519172928.GC20103@think.homelan
+
+

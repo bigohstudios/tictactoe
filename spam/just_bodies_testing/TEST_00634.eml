@@ -1,0 +1,53 @@
+RE: OSCOM Berkeley report: Xopus, Bitflux, Plone, XoopsI attended the same conference, and was impressed by a few systems that
+Jim didn't mention. In terms of CMS, the following all had apparently
+been used in some fairly large implementations and looked like some
+pretty strong competition to commercial systems:
+- Midgard, http://www.midgard-project.org/ , a PHP-based content
+management framework that with other programs combines to be a full CMS
+- Redhat CCM CMS, Java-based: http://www.spamassassin.taint.org/software/ccm/cms/
+- OpenCMS, Java-based: http://www.opencms.org
+
+There was agreement that usability has not generally been an open source
+strength, but both Plone and Xopus represented some real movement
+towards improving that situation.
+
+I was impressed by the spectrum of perspectives on XML. Some took for
+granted that XSLT was relevant to content management, others took it
+just as for granted that XSLT was irrelevant and seemed happy to ignore
+XML almost completely. 
+
+I attended realizing that "content management" is generally used to
+apply to *Web* content management, but I was still a bit shocked how
+completely out of scope document management was (almost no consideration
+of the potential print/PDF dimension to content other than the
+occasional "...and you can use FOP to make PDF" as if that was
+functional): this seems more the case in open source content management
+than in commercial content management, and probably makes XML easier to
+ignore (if HTML is the be-all and end-all of the output...).
+
+The honesty was refreshing, Phil Suh complained about the state of
+current tools (both open source and commercial), and I wish I'd written
+down what he said, something like "it sucks so extremely, it sucks so
+widely, and it is so generally sucking, that it seems sometimes there is
+no hope." For a moment there was contemplation that perhaps commercial
+systems scaled so well that the commercial "big boys" were really much
+more functional than open source, until someone pointed out, "OK, take
+some average blog software, spend $500,000 on the rollout... it'll scale
+pretty well." Another quote (citing Brendan Quinn): "content management
+problems are either trivial or impossible."
+
+Mac OS X is getting popular, of the laptops there it was an even 1/3
+each of Mac, Linux, Windows.
+
+I am sure it wasn't news to Jim, but I can't wait to try Subversion, a
+CVS replacement that supports some of the newer features of WebDAV:
+http://subversion.tigris.org/
+
+I'm also eager to try Xopus, I hope the developers make it back home
+safely, they said they'd only been in America four days but were already
+homeless...
+
+Max
+
+
+

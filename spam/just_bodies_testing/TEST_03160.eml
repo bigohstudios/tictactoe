@@ -1,0 +1,15 @@
+Re: How to get kdict or aequivalent in KDE4 / Squeeze?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 17 May 2010, Dirk Salva wrote:
+> a few days ago I've upgraded my Debian from Lenny to Squeeze. My
+> problem: the beloved kdict with the small input-field in the kicker are
+> not there anymore. I am missing it:-(
+> What can I do to get access with such a small input-field to my local
+> dictd?
+
+there is a dictionary plasmoid, adding it to your panel should work AFAIK
+=2D-=20
+Cheers, Cobaco (aka Bart Cornelis)

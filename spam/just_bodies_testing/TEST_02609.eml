@@ -1,0 +1,25 @@
+Distributed.net cracks the RC5-64 cipherURL: http://boingboing.net/#85512053
+Date: Not supplied
+
+The Distributed.net project -- a precursor to SETI@Home that used volunteer 
+computer-time to attack giant, sophisticated ciphers -- has cracked RC564. I 
+used to have half a dozen computers working on this. 
+
+    On 14-Jul-2002, a relatively characterless PIII-450 in Tokyo returned the 
+    winning key to the distributed.net keyservers. The key 0x63DE7DC154F4D039 
+    produces the plaintext output: 
+
+    The unknown message is: some things are better left unread 
+
+    Unfortunately, due to breakage in scripts (dbaker's fault, naturally) on 
+    the keymaster, this successful submission was not automatically detected. 
+    It sat undiscovered until 12-Aug-2002. The key was immediately submitted to 
+    RSA Labs and was verified as the winning key.  
+
+Link[1] Discuss[2] (_Thanks, Dave[3]!_)
+
+[1] http://www.distributed.net/pressroom/news-20020926.html
+[2] http://www.quicktopic.com/boing/H/wf6mvUdf3xfR
+[3] http://www.seizethedave.com/
+
+

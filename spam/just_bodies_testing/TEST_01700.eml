@@ -1,0 +1,20 @@
+plasma desktop changes positions of widgets after I moved themFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi!
+
+Did someone else notice this?
+
+https://bugs.kde.org/232171
+
+I wonder if this could be partly debian / ubuntu specific as Bojan=20
+commented that he couldn't find it on other distros. But then to what I=20
+know Debian and Ubuntu package KDE seperately.=20
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

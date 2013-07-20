@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fd6ab5028b637
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs25251wfa;
+        Wed, 14 Apr 2010 10:43:01 -0700 (PDT)
+Received: by 10.102.14.17 with SMTP id 17mr4349358mun.46.1271266980995;
+        Wed, 14 Apr 2010 10:43:00 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 23si3502280mun.37.2010.04.14.10.43.00;
+        Wed, 14 Apr 2010 10:43:00 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8F93713A5407; Wed, 14 Apr 2010 17:42:52 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=DNS_FROM_RFC_WHOIS,FOURLA,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 02D5F13A53DD
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 17:42:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 8EYpE4ys86sw for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 17:42:39 +0000 (UTC)
+Received: from eastrmmtao102.cox.net (eastrmmtao102.cox.net [68.230.240.8])
+	by liszt.debian.org (Postfix) with ESMTP id 1ECF713A53D4
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 17:42:39 +0000 (UTC)
+Received: from eastrmimpo03.cox.net ([68.1.16.126])
+          by eastrmmtao102.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100414174236.DNHL7060.eastrmmtao102.cox.net@eastrmimpo03.cox.net>
+          for <debian-user@lists.debian.org>;
+          Wed, 14 Apr 2010 13:42:36 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo03.cox.net with bizsmtp
+	id 5Vib1e0014dcMZy02Vic6N; Wed, 14 Apr 2010 13:42:36 -0400
+X-VR-Score: -100.00
+X-Authority-Analysis: v=1.1 cv=garkv6WxUlWCZxlYffz6yNGlDVHTZyAXTUdcTJEJ4sc=
+ c=1 sm=1 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=e8K4JUYW02ZqPUcZJQoA:9 a=QW-j7Wazxc3op13h-Yy3UcOFeUEA:4 a=wPNLvfGTeEIA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BC5FE8A.7070501@cox.net>
+Date: Wed, 14 Apr 2010 12:42:34 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: recent mobo recommendation
+References: <hq2ljp$8o3$1@dough.gmane.org> <4BC4E964.3070602@cox.net> <hq4phe$1r8$1@dough.gmane.org>
+In-Reply-To: <hq4phe$1r8$1@dough.gmane.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <IaJD9jfNzJB.A.lRF.c6fxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574076
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 17:42:52 +0000 (UTC)
+
+On 2010-04-14 11:12, Hugo Vanwoerkom wrote:
+> Ron Johnson wrote:
+>> On 2010-04-13 15:53, Hugo Vanwoerkom wrote:
+>>> Hi,
+>>>
+>>> Anybody install a recent motherboard that they are happy with?
+>>> I am due for an upgrade and there are too many choices.
+>>>
+>>
+>> Come on, man...  You should know the drill.
+>>
+>> Specify:
+>>
+>> o budget
+>> o needed features
+>> o preferred features
+>>
+> 
+> budget - any
+> 
+> needed features - desktop configuration, at least 2 PCI express slots - 
+> ATX form factor
+> 
+> preferred features - runs with Debian
+> 
+
+ATX means you'll get lots of built-in features.  I like my Gigabyte 
+GA-MA780G-UD3H mobo with AM2+/AM2 socket.
+
+8GM RAM, 6 SATA, 1 (or 2, I forget) rear eSATA, lots of USB, a front 
+and rear Firewire and decent on-board audio.  On-board ATI video 
+with separate video RAM, but I installed a fanless NVIDIA card 
+because the driver situation is *simple*, and it's fast.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5FE8A.7070501@cox.net
+
+

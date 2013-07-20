@@ -1,0 +1,133 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ed65dac45a12f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs113519wfo;
+        Sun, 11 Apr 2010 08:03:48 -0700 (PDT)
+Received: by 10.114.251.5 with SMTP id y5mr2190925wah.94.1270998227604;
+        Sun, 11 Apr 2010 08:03:47 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 33si8233766pzk.39.2010.04.11.08.03.47;
+        Sun, 11 Apr 2010 08:03:47 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 4D5551B90EFFD
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 08:03:47 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 48E7726B39BDF
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 08:03:47 -0700 (PDT)
+X-Original-To: QuickTime-API@lists.apple.com
+Delivered-To: QuickTime-API@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 548CF26B39A09
+	for <QuickTime-API@lists.apple.com>;
+	Sun, 11 Apr 2010 08:03:29 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 445B0CF8E7DB
+	for <QuickTime-API@lists.apple.com>;
+	Sun, 11 Apr 2010 08:03:29 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7cc2ae000000813-e4-4bc1e4bd3b0c
+Received: from smtp6-g21.free.fr (smtp6-g21.free.fr [212.27.42.6])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	D4.40.02067.FB4E1CB4; Sun, 11 Apr 2010 08:03:29 -0700 (PDT)
+Received: from smtp6-g21.free.fr (localhost [127.0.0.1])
+	by smtp6-g21.free.fr (Postfix) with ESMTP id 47BAEE08084;
+	Sun, 11 Apr 2010 17:03:22 +0200 (CEST)
+Received: from mac-pro.ohmforce.paris (hq.ohmforce.com [82.238.202.205])
+	by smtp6-g21.free.fr (Postfix) with ESMTP id 300D4E080C7;
+	Sun, 11 Apr 2010 17:03:20 +0200 (CEST)
+Message-Id: <96C80517-9A31-43A8-BE1B-1DE74217C166@csmining.org>
+From: Dinge Raphael <raphael.dinge@csmining.org>
+To: James Walker <jamesw@frameforge3d.com>
+In-Reply-To: <4BBF743B.6040005@frameforge3d.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Sun, 11 Apr 2010 17:03:19 +0200
+References: <4BBE23D7.40901@frameforge3d.com>
+	<008801cad7e1$00327280$00975780$@com>
+	<4BBF743B.6040005@frameforge3d.com>
+X-Mailer: Apple Mail (2.936)
+X-Brightmail-Tracker: AAAAAxOdpHETnh8uE56qXQ==
+Cc: "quicktime-api@lists.apple.com" <QuickTime-API@lists.apple.com>
+Subject: Re: Compositing two movies
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+>> Depending on how much custom the compositing you need is, I guess  
+>> you could
+>> create a movie referring to content in those two and maybe use some  
+>> tweening
+>> code too if needed
+>
+> I'm not sure what you mean by "tweening code".
+
+If I may jump into...
+
+Probably he means about having your two movies perfectly in sync
+with some code.
+
+Actually this is on what I've been since this morning and what I
+found :
+
+If you start your two movies approximatively at the same time
+does not mean they are going to start in sync.
+
+It might not be easy to see though. a way I found to ensure
+that I'm in sync is to play 2 exact same movie with sound.
+if you can ear a phasing effect, then the two movies are not
+in sync, otherwise you may assume that they are in sync.
+
+Tracks in a movie get synchronized when you start a movie, however
+doing the same on several movies is different. After some searches
+I've found some sample code : "LiveVideoMixer3". To see my point
+above you'll have to comment line 136 of VideoChannel.m (to enable
+sound) then you'll have to change line 275 of LiveVideoMixerController.m
+to :
+TimeBase mtb = masterTimeBase;
+in that case you can load 2 times the same movie and see that they
+are perfectly in sync.
+Looking around in the code you can figure out that the first video
+feed the time base for the others, which does the trick, and which
+I think was the meaning of "tweening code".
+
+Also I discovered the following. I needed to put several movies
+in sync, but could not rely on one movie to exist. So I thought
+I could make some kind of base movie which would be the master
+of the other dynamically allocated movies.
+
+If I do a NewMovie (0), I can use this movie as the time base
+for the other movies.
+What is interesting here, is that the clock of this new empty
+movie is a micro seconds one and not a sample one. (the sample
+one is the one you find when you get a video with sound).
+A bug on that particular feature was reported on this list
+some time ago but it seems to be ok now.
+(if someone can confirm that last part, that would make me glad,
+ie does it always work, is there some drift, etc.)
+
+Hope this will help,
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

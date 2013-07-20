@@ -1,0 +1,37 @@
+Re: 2.5.1_rc1 (Leopard and Snow Leopard)On 20May2010 10:39, James Gunning <James.Gunning@csiro.au> wrote:
+| Hi Jeremy,
+|                release looks good, it fixes a number of things like
+| the #290 missing  border
+| around widgets etc. And opengl apps at least open and start running
+| from remote
+| machines. I presume we still need  LIBGL_ALWAYS_INDIRECT?
+| Sadly, all remote things I've tried force segfaults pretty fast (simple
+| xterms,xclocks,glxgears etc).
+
+Superficially, a remote-over-"ssh -Y" x11 works; a remote xdpyinfo,
+xterm, xclock all good. But no GL stuff involved. I'm running the
+Leopard 2.5.1_rc1 on a PPC.
+
+| My setup is OSX10.5.8 on a PPC, and 99% of my work is remote to
+| linux boxes running
+| recent FedoraCore.  I've put in a new bug #405, but presumable
+| others will see it too...
+
+I confess I normally run the terminal locally, with an ssh inside.
+But I did test a remote xterm above.
+
+Cheers,
+-- 
+Cameron Simpson <cs@zip.com.au> DoD#743
+http://www.cskk.ezoshosting.com/cs/
+
+Let the bullet of your thought achieve the true and final path of its
+trajectory before it reaches the ear of the listener, lest it plow out the
+other side of his head. - Henry David Thoreau
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,95 @@
+X-Account-Key: account5
+X-UIDL: GmailId128c5863831eace0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs58606wfo;
+        Sun, 23 May 2010 07:17:08 -0700 (PDT)
+Received: by 10.141.22.18 with SMTP id z18mr3117242rvi.22.1274624227700;
+        Sun, 23 May 2010 07:17:07 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id b12si4796608rvn.48.2010.05.23.07.17.07;
+        Sun, 23 May 2010 07:17:07 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 908271C32D7EC
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 07:17:07 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8B2FE27DC9141
+	for <mlsubscriber.tech@csmining.org>; Sun, 23 May 2010 07:17:07 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay16.apple.com (relay16.apple.com [17.128.113.55])
+	by lists.apple.com (Postfix) with ESMTP id D0A8927DC8AD0
+	for <java-dev@lists.apple.com>; Sun, 23 May 2010 07:16:17 -0700 (PDT)
+X-AuditID: 11807137-b7c23ae000001561-9e-4bf938b1ba8b
+Received: from [17.151.81.57] (Unknown_Domain [17.151.81.57])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay16.apple.com (Apple SCV relay) with SMTP id
+	B4.87.05473.1B839FB4; Sun, 23 May 2010 07:16:17 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <AEA4ED12-330A-4D62-AB48-EDA28D0019A0@att.net>
+Date: Sun, 23 May 2010 07:16:17 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <59477710-8D1D-49BC-803E-5FE9A41C0811@apple.com>
+References: <DC58EDE0-BC94-4E56-BA37-7C8A277A71CD@q7design.demon.co.uk>
+	<ADB71160-5E91-4D4D-B41E-5F76A1A1B855@apple.com>
+	<821213D4-80CB-4EA9-B66D-B4FABA526775@activemath.org>
+	<36A81879-8E81-457E-9B1D-6AF1975F38BA@apple.com>
+	<AEA4ED12-330A-4D62-AB48-EDA28D0019A0@att.net>
+To: Michael Hall <hallmike@att.net>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: "java-dev@lists.apple.com Java-dev" <java-dev@lists.apple.com>
+Subject: Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are live
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On May 22, 2010, at 5:01 PM, Michael Hall wrote:
+
+> On May 22, 2010, at 1:32 PM, Mike Swingler wrote:
+>=20
+>> Firefox is hardwired to Plugin1 with the JEP/MRJ, unless you remove =
+it them from (app)/Contents/MacOS/plugins
+>=20
+> Are you saying that if this is done for Firefox, the =
+Contents/MacOS/plugins files are 'removed', then plugin2 will =
+automatically get picked up and work correctly?
+
+Yes. I usually create a new directory =
+(Firefox.app/Contents/MacOS/plugins/disabled) and move both =
+JavaEmbeddingPlugin.bundle and MRJPlugin.plugin into that directory so I =
+still have them around.
+
+I'm at a complete loss why this doesn't work for Camino.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

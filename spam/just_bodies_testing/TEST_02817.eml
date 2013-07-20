@@ -1,0 +1,17 @@
+[ILUG] How to copy some filesI have about 60G of data which I need to copy from one disk to another.
+However, I'm not sure how I should best copy it. The problem is the bulk of
+the data is images and most of these image have two directory entries i.e.
+there is a hard link to each file. If I copy them using cp -a or my usual
+favourite of find .|cpio -pmd other_dir it's going to copy each file twice,
+which is not what I want. dump / restore would take care of this if the
+source filesystem wasn't reiserfs :-( Any suggestions ?
+
+
+Niall
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

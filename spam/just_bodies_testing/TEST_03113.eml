@@ -1,0 +1,48 @@
+Re: "Give root password for maintence" during every boot of systemOn 23 May 2010, Johan Kullstam wrote:
+> Anthony Campbell <ac@acampbell.org.uk> writes:
+> 
+> > On 23 May 2010, Merciadri Luca wrote:
+> >> Hi Mitchell,
+> >> 
+> >> You might add
+> >> 
+> >> ==
+> >> |su:S:wait:/sbin/sulogin|
+> >> ==
+> >> 
+> >> in /etc/inittab.
+> >> 
+> >> 
+> >
+> > But why was the OP getting the message in the first place? A couple of
+> > weeks ago I was also getting it and then it went away as mysteriously as
+> > it came.
+> 
+> I don't know why you suddenly started getting it, but it is what you
+> have when booting to single-user-mode.  The grub menu calls it "recovery
+> mode" and you can always get to it with "telinit 1".  In my grub menu
+> list of kernels, I see the "recovery mode" coming right after the normal
+> mode for each kernel.  I could see that if the line with normal mode was
+> disabled, missing or broken, grub might just skip down to recovery mode
+> which gives you the behavior.
+> 
+
+Yes,  I know it's recovery mode but there didn't seem to be any reason
+why it was coming up. Pressing Crtrl-D made everything happen normally.
+Just one of the mysterious things that happen with computers, I suppose
+...
+
+
+-- 
+Anthony Campbell - ac@acampbell.org.uk 
+Microsoft-free zone - Using Debian GNU/Linux 
+http://www.acampbell.org.uk - sample my ebooks at
+http://www.smashwords.com/profile/view/acampbell
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100524091309.GA21979@acampbell.org.uk
+
+

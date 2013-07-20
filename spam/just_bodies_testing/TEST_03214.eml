@@ -1,0 +1,37 @@
+[SACVS] CVS: spamassassin/debian spamassassin.README.Debian,1.1,1.2Update of /cvsroot/spamassassin/spamassassin/debian
+In directory usw-pr-cvs1:/tmp/cvs-serv23243/debian
+
+Modified Files:
+	spamassassin.README.Debian 
+Log Message:
+removed -P
+
+Index: spamassassin.README.Debian
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/debian/spamassassin.README.Debian,v
+retrieving revision 1.1
+retrieving revision 1.2
+diff -b -w -u -d -r1.1 -r1.2
+--- spamassassin.README.Debian	21 Jun 2002 02:46:50 -0000	1.1
++++ spamassassin.README.Debian	27 Aug 2002 09:31:29 -0000	1.2
+@@ -2,7 +2,7 @@
+ you wish to use spamd (the Daemon version of spamassassin), please edit
+ /etc/default/spamassassin.
+ 
+-'spamc' is equivalent to 'spamassassin -P' and you should use it instead if
++'spamc' is equivalent to 'spamassassin' and you should use it instead if
+ (and only if) you enabled 'spamd' (and you've installed the spamc package)
+ 
+ To add rules, change scores, edit the template, edit
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

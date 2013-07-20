@@ -1,0 +1,103 @@
+Configuring X for second monitor running free-driver.Good day.
+
+
+Could You please help me with my X server config.
+
+I'm trying to use only external monitor connected to a laptop and all is fine except that I have no 3D-support and also mplayer when playing movies shows it only in full screen mode and refuses to show it in its window.
+
+It seems to me that Xserver does not operate fully somehow with the external screen - sending most of its capabilities to the internal screen (that is off always) and not to the external one. This my guess also proves the KDE 3.6 control center - in section of display it show only single screen w abilities of the laptop screen and it is no possibility to change the screen1 to another screen - that is KDE does not know on which screen it runs.
+
+Also I can not use option "DRI" in Section "Device" - Xserver does not start then.
+
+$ glxgears
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  143 (GLX)
+  Minor opcode of failed request:  19 (X_GLXQueryServerString)
+  Value in failed request:  0x1
+  Serial number of failed request:  17
+  Current serial number in output stream:  17
+
+In case it is informative. 
+
+Therefore, if my guess i true, how I can totally move Xserver capabilities to be applied to the external monitor? If i'm wrong, then what's else could be the problem and I can settle it?
+
+For instance, I use the monitor using only Xserver config file (that is w/o xrandr help).
+Here is its contents:
+
+Section "ServerLayout"
+        Identifier     "Layout1"
+        Screen         "Screen1"
+        InputDevice    "Mouse0" "CorePointer"
+        InputDevice    "Keyboard0" "CoreKeyboard"
+EndSection
+
+
+Section "ServerFlags"
+        Option      "AllowEmptyInput" "no"
+EndSection
+
+Section "InputDevice"
+        Identifier  "Keyboard0"
+        Driver      "kbd"
+        Option      "XkbModel" "pc105"
+        Option      "XkbLayout" "us,ru(winkeys)"
+        Option      "XkbOptions" "grp:ctrl_shift_toggle,grp_led:scroll"
+EndSection
+
+Section "InputDevice"
+        Identifier  "Mouse0"
+        Driver      "mouse"
+EndSection
+
+Section "Monitor"
+        Identifier   "Monitor0"
+        ModelName    "LCD Panel 1280x800"
+EndSection
+
+Section "Monitor"
+        Identifier   "Monitor1"
+        ModelName    "LCD Panel 1600x900"
+EndSection
+
+Section "Device"
+        Identifier  "videocard0"
+        Driver      "radeon"
+        BusID       "PCI:1:5:0"
+        Option      "AccelMethod"       "EXA"
+EndSection
+
+Section "Screen"
+        Identifier "Screen0"
+        Device     "Videocard0"
+        Monitor    "Monitor0"
+EndSection
+
+Section "Screen"
+        Identifier "Screen1"
+        Device     "Videocard0"
+        Monitor    "Monitor1"
+        DefaultDepth     24
+        SubSection "Display"
+                Viewport   0 0
+                Depth     24
+                Modes "1600x900" "1280x800"
+        EndSubSection
+EndSection
+
+The related software versions:
+xserver-xorg-7.3+20
+xserver-xorg-core-1.4.2-10.lenny2
+xserver-xorg-video-ati-6.9.0-1+lenny4
+linux 2.6.32-3-amd64
+
+Thanks for Your time.
+
+PS Please, reply to the list.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4be44746.101abc0a.5aeb.4204@mx.google.com
+
+

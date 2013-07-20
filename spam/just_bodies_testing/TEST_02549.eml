@@ -1,0 +1,178 @@
+Re: iSight - setFrameRateHi Alex,
+
+Welcome to the joys of quicktime video.
+I gave up on the sequence grabber years ago, due to similar problems.
+It looks like SGIdle() is polling the camera five times, finding
+a frame ready only the first time.  I believe there is no real
+callback triggered by the video hardware, just this polling hack.
+
+You can get more control by using the underlying "vdig" layer,
+but this code is arcane and undocumented.  I finally got fast video
+to work on a mac, after finding the "seeSaw" example of Daniel
+Heckenberg, which shows how to write a video frame to an opengl texture.
+I think it was his thesis (!)  This much of the vdig interface has
+been implemented for the isight, and works for a lot of cameras,
+thanks to the open source "macam" driver efforts.
+
+People would probably advise you to use the newer "qtkit" layer
+to access video frames.  This may just be an objective C blanket
+pulled over the old code, I don't know.  I'm not changing over,
+the old stuff runs well, especially on the new multiprocessor machines.
+
+The guys who originally wrote the quicktime code may be long gone,
+perhaps retired to a hot tub in the Los Altos hills.
+But their morass lives on!
+
+rob<at>haptek<.>com
+
+> Hi Rob,
+>
+>> There seems to be no way to change the exposure, frame rate, or
+>> anything else from their automatic settings on the USB isight,
+>> this has been the case since 2006.  The vdig/sequence grabber interface
+>> has never been implemented, the only solution is to use an external
+>> camera.
+>
+> thanks a lot ! That clarifies why it doesn't work. Nevertheless, in that
+> context one question remains: If I use the inbuilt iSight with the
+> mentioned frame rate and if I call SGIdle only once per second why does
+> the device additionally execute 4 more times (in subsequent 20 microsecond
+> intervals) such as:
+>
+> 1000.38 ms (callback after the execution of the previous callback)
+> 0.026 ms
+> 0.023 ms
+> 0.024 ms
+> 0.027 ms
+> 1002.55 ms
+> 0.025 ms
+> 0.026 ms
+> 0.022 ms
+> 0.021 ms etc...
+>
+> Is there a chance to get rid of these additional calls ?
+>
+> Thanks
+>
+> -- A l e x
+>
+>
+>>> Hi all,
+>>>
+>>> with respect to my problem that the video callback is triggered more
+>>> often
+>>> than I want to (see below) I had a guess that it is related to the
+>>> device
+>>> frame rate. In that context I tried to set the frame rate of my inbuilt
+>>> iSight to 1 and SGGetFrameRate did confirm this:
+>>>
+>>>  err = SGSetFrameRate(videoData->sgchanVideo,IntToFixed(1));
+>>>  Fixed *frameRate;
+>>>  SGGetFrameRate(videoData->sgchanVideo,frameRate);
+>>>  int rate = FixedToInt(*frameRate);
+>>>  cout << "FrameRate: " << rate << endl;  //// PLOTS 1 WHEN EXECUTING
+>>>
+>>> However, when I execute the app the frame size is much higher (I guess
+>>> 30
+>>> fps or more). I saw an older post from 2007, which dealt with the same
+>>> problem of not being able to set the inbuilt iChat frame rate but
+>>> nobody
+>>> replied. Does anyone have a guess how to approach this problem ?
+>>>
+>>> Thanks in advance
+>>>
+>>> -- A l e x
+>>>
+>>>
+>>> ***********************************
+>>> Hi all,
+>>>
+>>> I have a thread, which triggers the SGIdle call according to my desired
+>>> frame rate:
+>>>
+>>> void video::run(){
+>>> while (running){
+>>>   sj->dFC->videoBlocker->lock();
+>>>   sj->dFC->videoWaiter->wait(sj->dFC->videoBlocker);
+>>>
+>>>   err = SGIdle(videoData->seqGrab);
+>>>   usleep(1000000/1);   //// FRAMERATE
+>>>
+>>>   sj->dFC->videoBlocker->unlock();
+>>> }
+>>> }
+>>>
+>>> In this example the thread waits for 1 second before executing the next
+>>> time, which results in a frame rate of 1 fps. However, I discovered
+>>> some
+>>> strange system behavior, which forced me to verify if this is really
+>>> the
+>>> case: I applied a time measurement between each data proc function call
+>>> and in fact it is executed 4 more times ins between in approx. 250
+>>> microsecond intervals. In the following I have plotted the measured
+>>> interval times in ms:
+>>>
+>>> 1000.38
+>>> 0.026
+>>> 0.023
+>>> 0.024
+>>> 0.027
+>>> 1002.55
+>>> 0.025
+>>> 0.026
+>>> 0.022
+>>> 0.021
+>>> 1002.61
+>>> 0.026
+>>> 0.021
+>>> 0.02
+>>> 0.024
+>>> 1002.54
+>>> 0.026
+>>> 0.023
+>>> 0.024
+>>> 0.02
+>>> 1000.18
+>>> 0.026
+>>> 0.137
+>>> 0.025
+>>> 0.024
+>>>
+>>> etc .... and so forth. This is actually not happening when I reside
+>>> above
+>>> a framerate of 25 fps. Can anyone tell me why this is happening and how
+>>> I
+>>> can prevent this to happen ?
+>>>
+>>> Thanks a lot in advance, best
+>>>
+>>> -- A l e x
+>>> _______________________________________________
+>>> Do not post admin requests to the list. They will be ignored.
+>>> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+>>> Help/Unsubscribe/Update your Subscription:
+>>> http://lists.apple.com/mailman/options/quicktime-api/rob%40haptek.com
+>>>
+>>> This email sent to rob@haptek.com
+>>>
+>>
+>>
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/quicktime-api/alexander_carot%40gmx.net
+>>
+>> This email sent to alexander_carot@gmx.net
+>
+>
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

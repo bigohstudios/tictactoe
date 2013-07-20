@@ -1,0 +1,34 @@
+Re: storage bitsOn Mon, 16 Sep 2002, Stephen D. Williams wrote:
+
+> It's efficient-end, not low end.  At 1Million hour MTBF, 133MB/sec,
+> and pretty good buffering and speed, the only thing going for SCSI is
+> 15,000 RPM vs. 7200 and in a very small number of cases, slightly
+> better scatter-gather.  (Actually, I think there might be a 15,000 RPM
+> IDE now.)
+
+It's not just krpm, the desktop HDs have a higher failure rate. But I
+agree, EIDE has high density, and EIDE hardware RAID can offer SCSI a
+sound beating for reliability, performance, and storage density/rack units
+for the money, if designed for it, and if people would actually start 
+buying it.
+ 
+> The other issues are pretty much non-issues: using multiple drives and
+> controller contention (just use many IDE channels with extra PCI
+> cards, up to 10 in some systems), and long cable runs (just split
+
+There are not all that many hard drives inside an 1U enclosure. Airflow
+blockage (you have to fit in 2-3x the number of SCSI disks with EIDE) will
+soon be a thing of the past due to SATA.
+
+> storage between nodes).  Dual-port SCSI is also a non-issue since it
+> is very expensive, doesn't work that well in practice because there
+> are numerous secondary failure modes for shared disk systems, and
+> because you still end up with a single point of failure.
+
+Since rack-space costs dominate, and our systems need more or less decent
+I/O we're going with 1U Dells with SCSI. The hard drive prices don't
+really make a visible difference, given the cost of the iron, and the
+rackspace/month. Plus, 1U Dells don't have any space left for lots of EIDE
+drives.
+
+

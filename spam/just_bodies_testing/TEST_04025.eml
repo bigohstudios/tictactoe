@@ -1,0 +1,18 @@
+Re: kde-core list should be updated (live-helper)On 05/02/2010 12:38 PM, Diederik de Haas wrote:
+> With that, the meta package kde-minimal does no longer exist, so /usr/share/live-helper/lists/kde-
+> core should be updated and possibly again when 5:59 gets into testing/squeeze.
+
+updated in git, thanks.
+
+-- 
+Address:        Daniel Baumann, Burgunderstrasse 3, CH-4562 Biberist
+Email:          daniel.baumann@panthera-systems.net
+Internet:       http://people.panthera-systems.net/~daniel-baumann/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDD75F7.9000907@debian.org
+
+

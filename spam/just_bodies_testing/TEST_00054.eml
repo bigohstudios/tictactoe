@@ -1,0 +1,14 @@
+rdesktop segmentation faultWe have found that the Lenny rdestkop-1.6.0-2 package seg faults
+reliably when using seamlessrdp.  In fact, it seg faults on every other
+access.  Apparently this is a known problem.  We did apply the known
+patch. It works and we have packaged internally as rdesktop-1.6.0-2.1.
+Should we do anything with this package in case others are also using
+seamlessrdp? What is the Debian protocol? Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1270907956.25675.2.camel@Family.pacifera.com
+
+

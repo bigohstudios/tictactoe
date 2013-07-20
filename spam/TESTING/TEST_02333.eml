@@ -1,0 +1,155 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288893990c820a2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs357wfb;
+        Tue, 11 May 2010 11:14:55 -0700 (PDT)
+Received: by 10.223.99.212 with SMTP id v20mr6723336fan.44.1273601694090;
+        Tue, 11 May 2010 11:14:54 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g5si11968182fai.33.2010.05.11.11.14.53;
+        Tue, 11 May 2010 11:14:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 42D6113A59D3; Tue, 11 May 2010 18:14:47 +0000 (UTC)
+Old-Return-Path: <titan8990@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.4 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,MAILTO_TO_SPAM_ADDR,MDO_DATING13 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id CD43513A59CF
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 18:14:40 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	MDO_DATING13=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 7rjGazf+z6as for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 18:14:33 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-yw0-f202.google.com (mail-yw0-f202.google.com [209.85.211.202])
+	by liszt.debian.org (Postfix) with ESMTP id 87BEB13A59C0
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 18:14:33 +0000 (UTC)
+Received: by ywh40 with SMTP id 40so2604025ywh.18
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 11:14:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=a1p87e4aV/cewcX/p8ft68wJVegHwiVWYIdHYhALft0=;
+        b=x76/LL425SvYvawCrEYi4OLR2BJLWbbD10cYght6k+fkShf5Z6Ez66Hdlw+LpGHONC
+         p00jWBAnfeNcThzfzUY8JUmY6UZ73KmYE2GOsPcFo01kSlyvrCjY0X11dKrETR80Ws6q
+         MG6WMZfzQQZ7pEbbsrHBWghz7VsW2K9dR0oh4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=xVwjEiIsipBedgEG3Zw3G3QXycVY49qZtcV+Jz0xoLV8OPio6OjrsiposVZqIkKhA3
+         nV8gUkGV+Ci3zj7YblaLuyUtt+QZn7V15p2CgmEBZEiqMfXOWFFU8eS+f7WDkxrhEn7b
+         kSC5knKT7uhHCeZrfMeLkFf4v7tPmPL/iPRD4=
+MIME-Version: 1.0
+Received: by 10.91.182.18 with SMTP id j18mr604984agp.116.1273601666139; Tue, 
+	11 May 2010 11:14:26 -0700 (PDT)
+Received: by 10.90.101.9 with HTTP; Tue, 11 May 2010 11:14:26 -0700 (PDT)
+In-Reply-To: <AANLkTikSgQCH0hkkSshUKxpcI9g3wIil-ecPR8gnjuXk@mail.csmining.org>
+References: <COL122-W552C2CBA6682ADBE143AB487FA0@phx.gbl>
+	 <AANLkTil3IyBhKeJ2xkvAooM-q9w_LCP_0phW8zY2xm8L@mail.csmining.org>
+	 <AANLkTikSgQCH0hkkSshUKxpcI9g3wIil-ecPR8gnjuXk@mail.csmining.org>
+Date: Tue, 11 May 2010 14:14:26 -0400
+Message-ID: <AANLkTikuxT0ZY8BhAHPxlUhWZS6UXRnoaJamx89skK9F@mail.csmining.org>
+Subject: Re: What to choose for Core i5 64 bits?
+From: Jordan Metzmeier <titan8990@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=0016e640cc42e546db0486557e16
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <inXUiJJStqE.A.HsB.X6Z6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576549
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 18:14:47 +0000 (UTC)
+
+--0016e640cc42e546db0486557e16
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Tue, May 11, 2010 at 2:02 PM, Kelly Clowers <kelly.clowers@csmining.org>wrote:
+
+> On Tue, May 11, 2010 at 06:56, Jordan Metzmeier <titan8990@csmining.org>
+> wrote:
+> >
+> > Adobe's 64bit flash player does not function on all the sites
+> > that the 32bit plugin will.
+>
+> [citation needed]
+>
+>
+> Cheers,
+> Kelly Clowers
+>
+>
+Again, sorry if this is a duplicate, I got a bounce from the list for the
+2nd time today.
+
+Citation: https://bugs.adobe.com/jira/browse/FP-4067
+
+Also, see the topics which forked from this one.
+
+-- 
+Jordan Metzmeier
+
+--0016e640cc42e546db0486557e16
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote">On Tue, May 11, 2010 at 2:02 PM, Kelly Clowers <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:kelly.clowers@csmining.org">kelly.clowe=
+rs@csmining.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex;">
+<div class=3D"im">On Tue, May 11, 2010 at 06:56, Jordan Metzmeier &lt;<a hr=
+ef=3D"mailto:titan8990@csmining.org">titan8990@csmining.org</a>&gt; wrote:<br>
+&gt;<br>
+&gt; Adobe&#39;s 64bit flash player does not function on all the sites<br>
+&gt; that the 32bit plugin will.<br>
+<br>
+</div>[citation needed]<br>
+<br>
+<br>
+Cheers,<br>
+Kelly Clowers<br>
+
+<br></blockquote><div><br></div><div>Again, sorry if this is a duplicate, I=
+ got a bounce from the list for the 2nd time today.</div><div><br></div><di=
+v>Citation:=A0<span class=3D"Apple-style-span" style=3D"font-family: arial,=
+ sans-serif; font-size: 13px; border-collapse: collapse; "><a href=3D"https=
+://bugs.adobe.com/jira/browse/FP-4067" target=3D"_blank" style=3D"color: rg=
+b(42, 93, 176); ">https://bugs.adobe.com/jira/browse/FP-4067</a></span>=A0<=
+/div>
+<div><br></div><div>Also, see the topics which forked from this one.</div><=
+/div><br>-- <br>Jordan Metzmeier<br>
+
+--0016e640cc42e546db0486557e16--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikuxT0ZY8BhAHPxlUhWZS6UXRnoaJamx89skK9F@mail.csmining.org
+
+

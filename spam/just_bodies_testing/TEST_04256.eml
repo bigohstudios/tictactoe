@@ -1,0 +1,42 @@
+C1B3-EEB1-B4CB : CONFIRM from tcpdump-workers (subscribe)__ 
+The following request
+
+  "subscribe tcpdump-workers hibody <mlsubscriber.tech@csmining.org>"
+
+was sent to Support lists for tcpdump, libpcap and tcpsplice 
+by hibody <mlsubscriber.tech@csmining.org>.
+
+To accept or reject this request, please do one of the following:
+
+1. If you have web browsing capability, visit
+   <https://cod.sandelman.ca/cgi-bin/mj_confirm/domain=lists.tcpdump.org?t=C1B3-EEB1-B4CB>
+   and follow the instructions there.
+
+2. Reply to majordomo@lists.tcpdump.org 
+   with one of the following two commands in the body of the message:
+
+    accept
+    reject
+
+   (The number C1B3-EEB1-B4CB must be in the Subject header)
+
+3. Reply to majordomo@lists.tcpdump.org 
+   with one of the following two commands in the body of the message:
+   
+    accept C1B3-EEB1-B4CB
+    reject C1B3-EEB1-B4CB
+
+Your confirmation is required for the following reason(s):
+
+  The subscribe_policy rule says that the "subscribe" command 
+  must be confirmed by the person affected by the command.
+  
+
+If you do not respond within 4 days, a reminder will be sent.
+
+If you do not respond within 7 days, this token will expire,
+and the request will not be completed.
+
+If you would like to communicate with a person, 
+send mail to tcpdump-workers-owner@lists.tcpdump.org.
+

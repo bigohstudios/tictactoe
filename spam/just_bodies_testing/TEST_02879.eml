@@ -1,0 +1,40 @@
+Re: how to setup my environment variable for vim ?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,24.Apr.10, 11:28:13, Bernard wrote:
+> Hi to Everyone,
+>=20
+> I use ncftp' fairly often, and I wish to be able to edit files on
+> my remote accesses. The ncftp command 'edit' does not operate here,
+> it says:
+>=20
+> "
+> Setup your Editor environment variable prior to running ncftp
+> example for /bin/sh:
+> EDITOR=3D"/usr/bin/vi";export EDITOR
+> "
+>=20
+> But, on my Lenny, I don't have anything relevant at /bin/sh. For
+> once, /bin/sh is a directory, not a file, and I don't see anything
+
+I really doubt that! /bin/sh should be a symbolic link (symlink) to=20
+either /bin/bash or /bin/dash (depending on the release you are using).
+
+> relevant in it. As for /usr/bin/sh, I don't have such a file or
+> directory
+
+Of course, /bin/sh is needed for the basic operation of your OS, it=20
+couldn't reside on /usr (which is often a separate partition mounted=20
+later on).
+
+Try putting this in ~/.bashrc:
+
+export EDITOR=3D/usr/bin/vim
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

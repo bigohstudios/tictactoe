@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b49460596e89
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs34806wfb;
+        Tue, 11 May 2010 23:52:37 -0700 (PDT)
+Received: by 10.223.98.24 with SMTP id o24mr7603845fan.29.1273647154704;
+        Tue, 11 May 2010 23:52:34 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si13097523fak.96.2010.05.11.23.52.34;
+        Tue, 11 May 2010 23:52:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6970913A5841; Wed, 12 May 2010 06:52:32 +0000 (UTC)
+Old-Return-Path: <cobaco@linux.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.9 required=4.0 tests=FOURLA,LDO_WHITELIST,
+	PGPSIGNATURE,REMOVEDOT autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 789F213A57F4
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 06:52:26 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-8.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	REMOVEDOT=3] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1WqzZV62dilg for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 06:52:18 +0000 (UTC)
+Received: from mail.unilogicnetworks.net (mail-out123.unilogicnetworks.net [62.133.206.123])
+	by liszt.debian.org (Postfix) with ESMTP id A4DD713A582F
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 06:52:18 +0000 (UTC)
+Received: from router (router.unilogic.nl [62.133.193.82])
+	by mail.unilogicnetworks.net (Postfix) with ESMTP id EE18B4A4C1
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 08:47:52 +0200 (CEST)
+Received: from mail.unilogic.local (mail.unilogic.nl [10.0.11.245])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by router (Postfix) with ESMTP id 417E06E786
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 08:52:16 +0200 (CEST)
+Received: from localhost ([127.0.0.1])
+	by mail.unilogic.local
+	(using TLSv1/SSLv3 with cipher AES256-SHA (256 bits))
+	for debian-kde@lists.debian.org;
+	Wed, 12 May 2010 08:52:14 +0200
+From: cobaco <cobaco@linux.be>
+Reply-To: cobaco@linux.be
+To: debian-kde@lists.debian.org
+Subject: Re: What needs to improve in KDE 4?
+Date: Wed, 12 May 2010 08:52:07 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-686; KDE/4.4.3; i686; ; )
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org> <201005110858.24240.cobaco@linux.be> <20100511154226.GD15366@torres.zugschlus.de>
+In-Reply-To: <20100511154226.GD15366@torres.zugschlus.de>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart10442774.K8s1zSikMs";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005120852.12946.cobaco@linux.be>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ARNjNVbIySE.A.ecC.wAl6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32401
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 06:52:32 +0000 (UTC)
+
+--nextPart10442774.K8s1zSikMs
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 11 May 2010, Marc Haber wrote:
+> Hi,
+>=20
+> On Tue, May 11, 2010 at 08:58:17AM +0200, cobaco wrote:
+> > On Tuesday 11 May 2010, Adrian von Bidder wrote:
+> > > On Monday 10 May 2010 18.12:46 Dotan Cohen wrote:
+> > > > I started 4.4 on a new ~/.kde
+> > > > folder, can you try in a new user profile and report back?
+> > >=20
+> > > I hate it when this shows up.  Yes, it's probably easier to debug,
+> > > but often bugs *do* show up that don't happen anymore when I remove
+> > > my ~/.kde directory, but this doesn't really help the user who has
+> > > the bug. Unfortunately, the end result is very often that removing
+> > > ~/.kde and starting from scratch becomes the only solution that is
+> > > "officially" recommended.
+> >=20
+> > read remove as 'move temporarily out of the way', this is just the
+> > first step in localizing the problem: if it doesn't get rid of the
+> > problem then we've established conclusively that the bug is not
+> > triggered by something in your personal settings.
+>=20
+> Is it guaranteed that KDE doesn't store anything outside of ~/.kde=20
+
+not entirely some of the cross-desktop standarized stuff is stored in=20
+$XDG_CONFIG_HOME (which defaults to $HOME/.config) as specified in the=20
+freedesktop basedir spec
+
+> so that a user doesn't risk things getting desynched if one exchanges one
+> ~/.kde with a different one?
+
+shouldn't be a problem AFAIK
+=2D-=20
+Cheers, Cobaco (aka Bart Cornelis)
+
+--nextPart10442774.K8s1zSikMs
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvqUBcACgkQ5ihPJ4ZiSrt9eQCfcg1FfgbwEQAHF/8d9LAjP3jL
+vD0AnR9CJq6qp4rKKzjWbjhe3LtkkB7+
+=eQnz
+-----END PGP SIGNATURE-----
+
+--nextPart10442774.K8s1zSikMs--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005120852.12946.cobaco@linux.be
+
+

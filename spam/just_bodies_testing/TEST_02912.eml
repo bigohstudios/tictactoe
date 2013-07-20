@@ -1,0 +1,22 @@
+Re: The future of "nv" driverMark Allums writes:
+> Ah, a matter of taste, then.  (Debian tastes bad with Nvidia loaded,
+> apparently.)
+
+No.  A matter of support.  Device driver bugs can cause crashes in
+apparently unrelated parts of the kernel.  Thus in order to properly
+debug kernel problems it is necessary to have complete source.  When you
+install a closed-source driver part of the kernel source is hidden from
+the kernel maintainers, thus "tainting" the kernel.  The maintainers
+suggest that you ask whoever supplied the closed-source code for support
+as only they have complete source for the kernel that you are having
+trouble with.
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87d3xp9gmr.fsf@thumper.dhh.gt.org
+
+

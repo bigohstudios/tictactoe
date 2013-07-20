@@ -1,0 +1,147 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280f380eeca1ca0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs34524wfj;
+        Sat, 17 Apr 2010 21:40:52 -0700 (PDT)
+Received: by 10.223.127.212 with SMTP id h20mr1755838fas.89.1271565651681;
+        Sat, 17 Apr 2010 21:40:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si7533199fka.43.2010.04.17.21.40.51;
+        Sat, 17 Apr 2010 21:40:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id ED6B613A486A; Sun, 18 Apr 2010 04:40:46 +0000 (UTC)
+Old-Return-Path: <monique@mail.bounceswoosh.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.9 required=4.0 tests=LDO_WHITELIST,RDNS_NONE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 194F313A47D1
+	for <lists-debian-user@liszt.debian.org>; Sun, 18 Apr 2010 04:40:41 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RDNS_NONE=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id RfGltwrXD5MQ for <lists-debian-user@liszt.debian.org>;
+	Sun, 18 Apr 2010 04:40:33 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from mail.bounceswoosh.org (unknown [173.160.50.61])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id C0D5F13A47B8
+	for <debian-user@lists.debian.org>; Sun, 18 Apr 2010 04:40:32 +0000 (UTC)
+Received: from monique by mail.bounceswoosh.org with local (Exim 4.71 #1 (Debian))
+	id 1O3MPT-0000mi-7Z; Sat, 17 Apr 2010 22:47:07 -0600
+Date: Sat, 17 Apr 2010 22:47:07 -0600
+From: "Monique Y. Mudama" <spam@bounceswoosh.org>
+To: Bernard <bdebreil@teaser.fr>
+Cc: debian-user@lists.debian.org
+Subject: Re: How to migrate my localhost php site to my ISP - Was: willing
+ to learn php basics
+Message-ID: <20100418044707.GB20950@mail.bounceswoosh.org>
+Mail-Followup-To: Bernard <bdebreil@teaser.fr>,
+	debian-user@lists.debian.org
+References: <4B0DA73C.1020908@teaser.fr>
+ <20091126090817.374f312a@jup-linux2.SGL.GROUP>
+ <4BC78879.6@teaser.fr>
+ <20100416001551.GD11310@mail.bounceswoosh.org>
+ <4BC97C1E.2020407@teaser.fr>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BC97C1E.2020407@teaser.fr>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <XBG4G0KHNlP.A.5_F.O1oyLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574354
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 18 Apr 2010 04:40:46 +0000 (UTC)
+
+On Sat, Apr 17 at 11:15, Bernard penned:
+> 
+> Thanks for your help Monique. I hadn't thought of that, but it makes
+> sense that the ISP only allows one user to log into databases.
+> Problem is that outside users will have to connect to my database
+> through a php script that will contain my password !
+
+Nope.  There are a few ways to deal with this; Joe mentioned a common
+one, which is to have your password stored in a file that's outside of
+your website directory.
+
+Bear in mind, many, many people and businesses have successfully built
+websites using both their own servers and host providers.  So for
+almost any "wait, that can't be right, because it causes this
+problem!" situation - there's almost certainly a readily available
+solution.
+
+> >>Could someone tell me where I could find relevant information and
+> >>docs ? And maybe mention one or more ISP that would provide
+> >>suitable mysql facilities ?
+> >
+> >As for hosting companies, I have been very happy with www.pair.com
+> >for years.  They provide I believe three database users -
+> >read-only, read-write, and full access.  You would only use the
+> >full access user to create the database structure - tables,
+> >indexes, etc.
+
+Given that this is a Debian list, I should mention that Pair runs
+FreeBSD systems, not Linux.
+
+> Prior to subscribing to an expensive hosting, I wish to test the
+> system on free ISP. I have two of them here. I tested them both, but
+> testing did not go far as for now, since I am far from having
+> understood how it is supposed to work. No doc is provided
+
+*snip*
+
+In my experience paying for web hosting - you do get what you pay for.
+Pair is not the cheapest host in the business, but they have
+had phenomenal uptimes, excellent support, and provide reasonable
+access to the system.  I've been burned by cheap web hosts before -
+including a company that cancelled a friend's account because he'd
+typed "ls /etc" and they found it in his bash history file.  Wow.  I'm
+not saying that you can't find a good host cheaper than Pair - for me
+personally, Pair is cheap enough and good enough that I haven't looked
+further since I started using them.  I should also note that I'm only
+running a personal vanity site, not a business or service.  And if
+you're not based in the US, I don't know how much sense it makes to
+work with a US host provider.
+
+I've never installed mysqladmin, so I can't speak to that.  I've
+always just used command line tools for mySQL.
+
+Anyway, I don't mean to sound like an advertisement for one particular
+company.  I'm sure there are many reputable, reliable hosting
+companies out there.  It does sound like you need a fair amount of
+information to do this for the first time, so you might want to choose
+a host provider that explicitly includes support as part of the deal.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100418044707.GB20950@mail.bounceswoosh.org
+
+

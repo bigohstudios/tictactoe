@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId1287ecb55823caaa
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs564348wfb;
+        Sun, 9 May 2010 13:39:35 -0700 (PDT)
+Received: by 10.223.20.216 with SMTP id g24mr3295373fab.63.1273437574487;
+        Sun, 09 May 2010 13:39:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si7050632fay.31.2010.05.09.13.39.33;
+        Sun, 09 May 2010 13:39:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4344F13A53BA; Sun,  9 May 2010 20:39:29 +0000 (UTC)
+Old-Return-Path: <eual.jp@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4BA3713A52B2
+	for <lists-debian-user@liszt.debian.org>; Sun,  9 May 2010 20:39:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id HrOIL9gfOVhb for <lists-debian-user@liszt.debian.org>;
+	Sun,  9 May 2010 20:39:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 008AD13A5243
+	for <debian-user@lists.debian.org>; Sun,  9 May 2010 20:39:15 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1959777fxm.6
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 13:39:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:mail-followup-to:references:mime-version:content-type
+         :content-disposition:in-reply-to:user-agent;
+        bh=MlF46Lobo63YzdxEDCsNisn04icPCPefChw6BYNpMIE=;
+        b=j+cgE42lRQ10FIsYtaZ6a7YnriWyKTfS+5fYvxbMFwItTPkSXBLSGEQsVMBhNbHxJI
+         59hI3xXQ1460kbRX2Y2ENoY28N+RUm/hT1CCEalvXz4/EvO7xa4ayPD/xp44g472/Klq
+         UUkS6ssk8GHGyqG0Dkrgz5MvMcrl4AowQ7xhU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:mail-followup-to:references
+         :mime-version:content-type:content-disposition:in-reply-to
+         :user-agent;
+        b=wQRSrIHz4RajG3lF1++kiSePqOfpyEQJGWReaDuBPSSju9XGiC4e/92YHOm5WqN6H2
+         Gj5gg9K+NGDExcBQAT50jFyom1HTM6nSWchTxiq0zhFeeKMRP//LsIPP5ulCpIYIzszK
+         pJ4whDQgQJ2nYJ1RPC2MexbwWAXTZLUnbttKY=
+Received: by 10.87.48.34 with SMTP id a34mr8353173fgk.2.1273437551239;
+        Sun, 09 May 2010 13:39:11 -0700 (PDT)
+Received: from localhost (36.163.47.77.pptp.ntu-kpi.kiev.ua [77.47.163.36])
+        by mx.google.com with ESMTPS id e11sm2904724fga.18.2010.05.09.13.39.10
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 09 May 2010 13:39:10 -0700 (PDT)
+Date: Sun, 9 May 2010 23:39:11 +0300
+From: Alexander Batischev <eual.jp@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: colorized ls
+Message-ID: <20100509203911.GA24526@eternity.smila.com>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100509202636.GB26057@niof.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20100509202636.GB26057@niof.net>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <uKwBIJu7PrP.A.tSH.B2x5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576313
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun,  9 May 2010 20:39:29 +0000 (UTC)
+
+On Sun, May 09, 2010 at 04:26:36PM -0400, Rick Pasotto wrote:
+> What did I update recently that caused me to lose ls coloring with this
+> error message:
+> 
+> ls: unrecognized prefix: hl
+> ls: unparsable value for LS_COLORS environment variable
+> 
+> How should I fix it?
+
+In academic interest you can look what LS_COLORS environment variable contain:
+
+$ echo $LS_COLORS
+
+After that you can look what's wrong with it.
+
+Fix is pretty easy:
+
+$ eval `dircolors`
+
+Read man pages for dircolors(1) and  dir_colors(5) for most complete reference.
+Note that you should place command mentioned above to .bashrc (or .zshrc, or
+whatever your shell' config is) so it will run every time shell starts.
+
+-- 
+Regards,
+Alexander Batischev
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100509203911.GA24526@eternity.smila.com
+
+

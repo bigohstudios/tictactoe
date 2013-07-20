@@ -1,0 +1,140 @@
+X-Account-Key: account5
+X-UIDL: GmailId128358c848133dbe
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs50335wfj;
+        Sun, 25 Apr 2010 08:18:42 -0700 (PDT)
+Received: by 10.86.124.35 with SMTP id w35mr4832604fgc.49.1272208721265;
+        Sun, 25 Apr 2010 08:18:41 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si6312310fka.14.2010.04.25.08.18.40;
+        Sun, 25 Apr 2010 08:18:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CED1E13A50A0; Sun, 25 Apr 2010 15:18:16 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 58B2F13A508C
+	for <lists-debian-user@liszt.debian.org>; Sun, 25 Apr 2010 15:18:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id KiV9qQy1vauA for <lists-debian-user@liszt.debian.org>;
+	Sun, 25 Apr 2010 15:18:03 +0000 (UTC)
+Received: from eastrmmtao104.cox.net (eastrmmtao104.cox.net [68.230.240.46])
+	by liszt.debian.org (Postfix) with ESMTP id B71F213A5074
+	for <debian-user@lists.debian.org>; Sun, 25 Apr 2010 15:18:02 +0000 (UTC)
+Received: from eastrmimpo02.cox.net ([68.1.16.120])
+          by eastrmmtao104.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100425151800.FIZV18026.eastrmmtao104.cox.net@eastrmimpo02.cox.net>
+          for <debian-user@lists.debian.org>;
+          Sun, 25 Apr 2010 11:18:00 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo02.cox.net with bizsmtp
+	id 9rHz1e0084dcMZy02rHzY1; Sun, 25 Apr 2010 11:18:00 -0400
+X-VR-Score: -130.00
+X-Authority-Analysis: v=1.1 cv=FnQQhIGgoxKy895ni2P06Ys7q26b/tysl77b0NRG5XA=
+ c=1 sm=1 a=AwL2jJmLLuMA:10 a=8nJEP1OIZ-IA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=pQs5aej7AAAA:8 a=yceZafaJuhNCY-Y_MMIA:9 a=U2Lo0gRxjNx2vBPyZ5cqhUBQbakA:4
+ a=wPNLvfGTeEIA:10 a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BD45D27.6090409@cox.net>
+Date: Sun, 25 Apr 2010 10:17:59 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Icedove/Thunderbird 3.0 (was Re: The future of "nv" ...)
+References: <4BD34603.1050901@cox.net> <4BD37AA0.2040002@comcast.net>	 <4BD383DE.7030002@cox.net>	 <v2i880dece01004250602ma8ea8ec6r15876cfe760ab6c6@mail.csmining.org>	 <4BD4424A.2000907@cox.net> <u2p880dece01004250756h81be4d32z83bf25263f508e7e@mail.csmining.org>
+In-Reply-To: <u2p880dece01004250756h81be4d32z83bf25263f508e7e@mail.csmining.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5jRjq3sMIlJ.A.DAB.40F1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575023
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 25 Apr 2010 15:18:16 +0000 (UTC)
+
+On 04/25/2010 09:56 AM, Dotan Cohen wrote:
+>>> Lots of other issues, such as the message header being huge, are taken
+>>> care of in addons. And lots of Tb2 bugs are fixed in Tb3 (such as the
+>>> invalid server cert issue).
+>>
+>> But Tbird/ID 2.0.x (the layout and UI) was *not* broken!
+>>
+>
+> What is "broken"? What would you say if an Ubuntard posted saying that
+> his OS is broken? Would you even answer the post? What issues do you
+> have? What is not intuitive? What doesn't work as you expect?
+>
+
+Why else would "they" have made the radical UI changes unless "they" 
+thought the traditional UI was broken (i.e. substantialy flawed)?
+
+>>> What issues do you have? I can point you to the bugs, and I can help
+>>> suggest addons.
+>>
+>> It's "different" for *no ascertainable reasons*.
+>>
+>
+> You might want to try Help ->  Migration Assistant ->  Use Original Toolbar
+> That might be more familiar to you.
+>
+
+I'd already done that, but decided to take another look at MA, and 
+thus disabled "Smart folders mode".
+
+>> Fix what *is* broken, not what's not broken.
+>>
+>
+> The problem is that no two people agree on what needs changing. I
+> suggest that you look at the Muttator extensioin, then you can safely
+> ignore most of the Thunderbird UI.
+>
+
+Jeez, everyone know that *my* opinion is the only one that counts!
+
+>> The same with FireFox/Iceweasel.  Major UI and add-on redesigns in an
+>> upcoming version, but the UI is fine just like it is.
+>>
+>
+> The Firefox UI didn't really change all that much.
+>
+
+Not in v3.6, but it's coming.
+
+https://wiki.mozilla.org/Firefox/Projects/3.7_and_4.0_Theme_and_UI_Revamp/Direction_and_Feedback
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD45D27.6090409@cox.net
+
+

@@ -1,0 +1,35 @@
+Re: Bug Report : Running Pymol for terminal produce ImportError:
+ No  module named copySushil Mishra skrev:
+> When i try to open pymol by terminal thsi is producing fallowing error--
+> 
+> sushil@sushilnb:~$ pymol
+> 'import site' failed; use -v for traceback
+> Traceback (most recent call last):
+>   File "/var/lib/python-support/python2.5/pymol//__init__.py", line 32, 
+> in <module>
+>     from copy import deepcopy
+> ImportError: No module named copy
+> sushil@sushilnb:~$
+> 
+
+I do not remember having had such a problem with pymol in debian. As I 
+understand it, the command "from copy import deepcopy" is the first to 
+run at all.
+
+Given that the module copy is in the python standard library, I find it 
+surprising that it is not found. Do you have any problems with other 
+python programs?
+
+Can you run the line
+python -c "from copy import deepcopy"
+without problems (errors)?
+
+/ johan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hpne6b$obp$1@dough.gmane.org
+
+

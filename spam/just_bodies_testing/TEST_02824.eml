@@ -1,0 +1,40 @@
+Re: Simple tool to extract sound from video?On Fri, May 07, 2010 at 09:29:44PM +0530, Anand Sivaram wrote:
+> On Fri, May 7, 2010 at 21:19, Merciadri Luca <
+> Luca.Merciadri@student.ulg.ac.be> wrote:
+> 
+> > Hi,
+> >
+> > I have some videos, with different encodings, whose soundtrack is
+> > interesting for me. How can I extract the related sountracks in an easy
+> > way? I tried with VLC, but to no avail, as VLC either creates another
+> > file, with the desired extension (e.g. mp3), but with the same content
+> > (i.e. video + sound), or simply creates some corrupted file.
+> >
+> > Thanks all.
+> >
+> > --
+> > Merciadri Luca
+> > See http://www.student.montefiore.ulg.ac.be/~merciadri/
+> > I use PGP. If there is an incompatibility problem with your mail
+> > client, please contact me.
+> >
+> 
+> 
+> Use ffmpeg
+> 
+> Suppose you want to create mp2 audio without audio
+> ffmpeg -i <file> -vn -acodec  mp2 -f mp2 <output file>
+> If you dont want to do reencoding use "-acodec copy"
+
+Avidemux can do it also.  It's a GUI, but I think it's more
+straightforward to do it with ffmpeg, as suggested above.
+
+-Rob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507161400.GA13488@aurora.owens.net
+
+

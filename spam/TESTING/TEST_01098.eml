@@ -1,0 +1,145 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288b6b7ca3988fd
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs36685wfb;
+        Wed, 12 May 2010 00:30:03 -0700 (PDT)
+Received: by 10.227.136.20 with SMTP id p20mr6365170wbt.37.1273649397468;
+        Wed, 12 May 2010 00:29:57 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s4si21005219wbc.36.2010.05.12.00.29.56;
+        Wed, 12 May 2010 00:29:57 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1D2B613A52A2; Wed, 12 May 2010 07:29:52 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AFBF213A51AD
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 07:29:46 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ql2q8z1QHVFV for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 07:29:39 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id E23EE13A5191
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 07:29:38 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so9533368qyk.6
+        for <debian-kde@lists.debian.org>; Wed, 12 May 2010 00:29:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=PPAG+uNeLLTMrHpKL9IyI+4SZujcpSTSjnlPxEGeJME=;
+        b=YKmjqCQ6y5UOXgDcT1dYM5sooADhu+oPu2xw1e1SzROOWDIWlAhOWHS/rpZZ+GuYWQ
+         K13ejH2qZ27bmGyszbbMeLrwAzbAKY7CnbiWTjwKcT5QkZGm7u/30FoDT3gEiz1XtEQ8
+         OnRjhuUp7jJnIzGnqIt7653C9DKzR/u0zCwuw=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=diV3seG+MxdmgxVFDc0enJaiOThzlGJXCVxCbwOUbAbOSvptaESYzbr+wREgjAsSEb
+         Dxoa8Bh5i4xP62+0cXQxLvmBzUcA1BROpii5ezDiZR2uSQbsWR4YytLW+TWJvzYIGMJ8
+         PDD7zhmfyEeLPrWVAjVeUB0rM4nIaNUDEj5qs=
+MIME-Version: 1.0
+Received: by 10.229.215.14 with SMTP id hc14mr501713qcb.172.1273649371092; 
+	Wed, 12 May 2010 00:29:31 -0700 (PDT)
+Received: by 10.229.1.210 with HTTP; Wed, 12 May 2010 00:29:30 -0700 (PDT)
+In-Reply-To: <201005112141.21845.Martin@lichtvoll.de>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org>
+	 <201005102358.43775.Martin@lichtvoll.de>
+	 <AANLkTinU0FqAz1n_Yux04G3Cq6OhD8x0EELtZ57jOq1Y@mail.csmining.org>
+	 <201005112141.21845.Martin@lichtvoll.de>
+Date: Wed, 12 May 2010 10:29:30 +0300
+Message-ID: <AANLkTink1iKQSXmyt3DhT8FfDq2x495j1aC6NoCI72Rq@mail.csmining.org>
+Subject: Re: What needs to improve in KDE 4?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jhhujkhFWPL.A.yVG.wjl6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32403
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 07:29:52 +0000 (UTC)
+
+On 11 May 2010 22:41, Martin Steigerwald <Martin@lichtvoll.de> wrote:
+> I ccd you since you ccd me. Please do not cc me in the future. I read the
+> list and that new thread grouping features of KMail are really handy ;).
+>
+
+Oops, sorry, I'll try to pay attention to that more in the future. I apologize.
+
+
+>> > IMHO when a config setting is not handled properly on upgrade of KDE
+>> > its a bug.
+>>
+>> Agreed, but it's not one that is likely to be fixed. There seems to be
+>> no backwards-compatibility in KDE anymore. It's a problem, I know.
+>
+> Well I got no reply to my detailed bug report yet.
+>
+
+Can you post a link? I'd like to comment on that!
+
+
+>> > Only one I triaged and filed: The separator "58" for colon for web
+>> > shortcuts in kuriikwsrc or something like that it was is not
+>> > recognized by KRunner, only by Konqueror. ":" instead works with
+>> > both. Unfortunately Konqueror saved it as "58" not as ":".
+>>
+>> It _should_ be escaped.
+>
+> It doesn't work in krunner when it is. See here:
+>
+> [Bug 218272] New: webshortcuts broken after upgrading KDE 3 to 4 due to
+> decimal in keyword delimiter which krunner doesnt support
+>
+> https://bugs.kde.org/218272
+>
+
+I see two reasons why that bug was ignored:
+1) It's an upgrade issue, and apparently the dev who works on Krunner
+(yes, I know who that is) does not consider upgrades a common use
+case. KDE 3 never existed?!? This attitude is seen throughout Plasma,
+even in minor-version upgrades.
+2) It's wordy. Don't mention Linux-Magazine or other irrelevant
+things. Just the bug, as concise as possible. Wordy bugs are almost
+always ignored. I'm not blaming you, just giving you a hint as to how
+to get the devs' attention.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTink1iKQSXmyt3DhT8FfDq2x495j1aC6NoCI72Rq@mail.csmining.org
+
+

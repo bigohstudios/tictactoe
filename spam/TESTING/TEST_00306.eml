@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288426c1c8749d7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs32892wfb;
+        Mon, 10 May 2010 14:37:32 -0700 (PDT)
+Received: by 10.142.118.2 with SMTP id q2mr3158244wfc.114.1273527451951;
+        Mon, 10 May 2010 14:37:31 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 38si7271159pzk.65.2010.05.10.14.37.31;
+        Mon, 10 May 2010 14:37:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id AA2921C6E1052
+	for <mlsubscriber.tech@csmining.org>; Mon, 10 May 2010 14:37:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A636F278C8888
+	for <mlsubscriber.tech@csmining.org>; Mon, 10 May 2010 14:37:31 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 3A979278C81EA
+	for <filesystem-dev@lists.apple.com>;
+	Mon, 10 May 2010 14:36:34 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 23866D45537D
+	for <filesystem-dev@lists.apple.com>;
+	Mon, 10 May 2010 14:36:34 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-f8-4be87c61a4c4
+Received: from daleenterprise.com (daleenterprise.com [67.78.11.229])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	6F.3A.05834.16C78EB4; Mon, 10 May 2010 14:36:34 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by daleenterprise.com (Postfix) with ESMTP id E63E112A8B3C;
+	Mon, 10 May 2010 17:36:32 -0400 (EDT)
+Received: from daleenterprise.com ([127.0.0.1])
+	by localhost (daleenterprise.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 24658-01; Mon, 10 May 2010 17:36:30 -0400 (EDT)
+Received: from [10.1.100.11] (unknown [67.78.11.226])
+	by macftphttp.serverbox.org (Postfix) with ESMTP id C355412A8B2F;
+	Mon, 10 May 2010 17:36:30 -0400 (EDT)
+In-Reply-To: <3402013F-F670-45D7-BDA3-278E64956B7D@apple.com>
+References: <8FBFF1C1-4D28-4BC8-A654-8397CA78DD9F@macftphttp.serverbox.org>
+	<3402013F-F670-45D7-BDA3-278E64956B7D@apple.com>
+Mime-Version: 1.0 (Apple Message framework v752.2)
+X-Gpgmail-State: !signed
+Content-Type: text/plain; charset=ISO-8859-1; delsp=yes; format=flowed
+Message-Id: <16C3EDF1-0950-4E3E-9A2C-311481095169@macftphttp.serverbox.org>
+Content-Transfer-Encoding: quoted-printable
+From: websrvr <websrvr@macftphttp.serverbox.org>
+Date: Mon, 10 May 2010 17:36:30 -0400
+To: filesystem-dev@lists.apple.com
+X-Mailer: Apple Mail (2.752.2)
+MTA-Interface: amavisd-new-2.3.3 (2005-08-22) + Maia Mailguard 1.0.1 at
+	daleenterprise.com
+XScanned: using SpamAssassin 3.1.7 (2006-10-05) at daleenterprise.com
+X-Virus-Scanned: using ClamAV 0.96 (2010-03-15) at daleenterprise.com
+X-Brightmail-Tracker: AAAAAgBUIXcUDAn3
+Cc: 
+Subject: Re: auto mounting a partition with nobrowse
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On May 10, 2010, at 12:38 PM, Daniel Markarian wrote:
+
+> Hey Dale,
+>
+> DADiskMountApprovalCallback() can head off the mount.  =20
+> DADiskMountWithArguments() can accept "nobrowse" as an argument.
+
+Do you have any sample code that uses these?
+
+> Dan
+>
+> PS:  fstab(5) can accept "nobrowse" as an alternative.  You do not =20
+> need to head off the mount in this case.
+>
+> Le 2010-05-10 =E0 02:27, websrvr a =E9crit :
+>
+>> I've trying to solve a problem which requires 2 components, the =20
+>> first which has been solved by the code from the =20
+>> SampleFilterScheme project which makes my partition mountable.
+>>
+>> Currently the partition mounts and is viewable in the finder and =20
+>> on the Desktop, manually I use diskutil to unmount the partition =20
+>> (diskutil unmount /dev/disk0s3s1) and use hdiutil to mount it =20
+>> (hdiutil mount /dev/disk0s3s1 -nobrowse) to hide it and this is OK =20=
+
+>> for me since I know how to do this but expecting users to perform =20
+>> this task.
+>>
+>> I'm told that I need to use the DA framework to achieve this task =20
+>> however I am unable to find any sample code that shows me how to =20
+>> mount a partition with flags.
+>>
+>> I realize everyone will ask why I need to do this and to make it =20
+>> short I want it hidden from view to prevent people from any =20
+>> accidental wrong-doings.
+>>
+>> I've read the list archives and what I have concluded is that this =20=
+
+>> is a complicated matter that is well beyond my capabilities so =20
+>> finding sample code I can adopt for this use would make my life =20
+>> significantly easier and allow me to keep what little hair I have =20
+>> left.
+>>
+>> The partition in question wli always be /dev/diskXs3s1 so finding =20
+>> them is easy, unmounting and remounting with the nobrowse flag is =20
+>> my problem and I'm probably looking at it wrong, maybe the initial =20=
+
+>> mount request can be interrupted and the option set.
+>>
+>> Sample code that shows how to do either would be greatly appreciated.
+>>
+>> -- Dale
+>
+>
+
+-- Dale=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

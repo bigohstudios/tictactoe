@@ -1,0 +1,26 @@
+Re: (new post) Is there a way to manage a WS 3500 Lacrosse Technology
+ wheather station under Debian Lenny ?Bernard put forth on 5/10/2010 5:59 PM:
+
+> Yes, I am sorry for not having been more clear. I wish to monitor my
+> Lacrosse WS 3500 meteo station without the original MSWIN program that
+> came with it, using Debian Lenny resources if possible. The only thing
+> that I really need, is to be able to recuperate the data that is beeing
+> stored onto an EEPROM, on to my hard disk, so that I can create
+> OpenOffice.org sheets from .csv text files. I don't need continuous
+> monitoring.
+
+Have you tried running the Windows version in Wine?  That's my first
+suggestion.  My second suggestion would be to contact the manufacturer and
+see if they can point you in the direction of a Linux version of the
+application.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE8B069.5030504@hardwarefreak.com
+
+

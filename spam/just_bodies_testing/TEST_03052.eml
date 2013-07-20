@@ -1,0 +1,61 @@
+Re: The future of "nv" driver (was: Linux compatible mainboards -another
+ thought)On 04/24/2010 08:53 AM, James P. Wallen wrote:
+>
+>
+> On 01/-10/-28163 02:59 PM, Ron Johnson wrote:
+>> On 04/22/2010 08:49 AM, Stephen Powell wrote:
+>> [snip]
+>>>
+>>> I shall now avoid, when possible, computers with Nvidia graphics cards.
+>>>
+>>
+>> Except that Nvidia's drivers are still *much* better than ATI's drivers.
+>>
+>
+> Insofar as my experience goes I'd have to qualify that with a
+> /sometimes/ they are better...
+>
+> I've got a couple of fairly high-end Quadro graphics workstation cards
+> that have given me fits in every distro I've tried. If I used restricted
+> / blob / proprietary / whatever drivers -- whether I got them directly
+> from nvidia or from distro-associated repositories -- the result was
+> always that bits and pieces of the desktop environment would break from
+> time-to-time. Trying to use Compiz under Gnome could be a nightmare.
+
+That's one difference between us: I don't use Compiz.
+
+> Using the nv drivers has at least always left me with a reliable system,
+> albeit without much in the way of glitzy special effects.
+
+... because I don't need glitzy special effects.
+
+Are there any non-glitzy benefits to compositors?
+
+> Right now I run a bunch of systems with ATI, integrated Intel, and the
+> Quadro cards in them. I've settled happily into Debian Squeeze with
+> Xfce. The desktop compositing in Xfce 4.6.1 even works with the nv
+> drivers -- but very, very slowly. The far cheaper ATI and Intel graphics
+> subsystems are snappy and responsive with the same environment. If I use
+> the binary blob nvidia driver, I get fast, snappy -- and unreliable.
+
+Which driver version do you use?
+
+> I don't like that. And I don't like nvidia's attitude. I came over to
+> GNU/Linux because I was tired of feeling that I was being screwed over
+> in the name of business models and IP. I won't be buying any more nvidia
+> stuff, either.
+>
+> Heck, I haven't even installed the non-free firmware to make wireless
+> work in a couple of these notebooks.
+
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD34603.1050901@cox.net
+
+

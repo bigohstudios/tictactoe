@@ -1,0 +1,36 @@
+Re: Snow Leopard, Java 6 and NetbeansOn April 26, 2010 09:06:26 pm Jean-Christophe Helary wrote:
+> On Apr 26, 2010, at 7:31 PM, Raymond Martin <laseray@csmining.org> wrote:
+> >>> I'd like to mention that problems are not limited to Netbeans. I've had
+> >>> similar problems (that were reproduced by a member of this list) with a
+> >>> Swing application and I've filled a bug report at Apple about that.
+> >>> That was 2 updates ago and the newest Java VM don't seem to fix that.
+> >>> 
+> >>> That has forced me to re-install Java 1.5 which in some other cases
+> >>> creates problems.
+> >> 
+> >> Unless you can provide some kind of trace of the operation that shows
+> >> the issue has something to do directly with Java 6 on Mac, it is
+> >> vacuous to claim the problem is with Apple's Java 6 automatically
+> >> because you only see a problem on Mac. The problem may be due to bad
+> >> application level programming.
+> 
+> Raymond,
+> 
+> Take a look at Mike's post.
+
+Which basically says that the wrong thing is being chosen in the program.
+
+Anyway, the main thread here really is about slow performance, not about
+Glyph rendering.
+
+Raymond
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId128951ecc2e248f1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs7263wfo;
+        Thu, 13 May 2010 21:42:24 -0700 (PDT)
+Received: by 10.223.25.208 with SMTP id a16mr851022fac.79.1273812143420;
+        Thu, 13 May 2010 21:42:23 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id s14si4729429faa.62.2010.05.13.21.42.22;
+        Thu, 13 May 2010 21:42:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@yahoo.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6F9AB13A5448; Fri, 14 May 2010 04:42:18 +0000 (UTC)
+Old-Return-Path: <mshapiro_42@yahoo.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 64A3313A5414
+	for <lists-debian-user@liszt.debian.org>; Fri, 14 May 2010 04:42:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id atrFyISeAhc3 for <lists-debian-user@liszt.debian.org>;
+	Fri, 14 May 2010 04:42:05 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .yahoo. - helo: .web55503.mail.re4.yahoo. - helo-domain: .yahoo.)  FROM/MX_MATCHES_HELO(DOMAIN)=-2 IN_PM_RFCI=0.1 IN_ABUSE_RFCI=0.1; rate: -6.8
+Received: from web55503.mail.re4.yahoo.com (web55503.mail.re4.yahoo.com [206.190.58.212])
+	by liszt.debian.org (Postfix) with SMTP id CEBF113A540F
+	for <debian-user@lists.debian.org>; Fri, 14 May 2010 04:41:58 +0000 (UTC)
+Received: (qmail 71473 invoked by uid 60001); 14 May 2010 04:41:51 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1273812110; bh=iVvSSLgHzB1SOl88HSbvlPQhxfRfQk58v7YHQ/xzIJI=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=cFgZsnOh7wc+inGh0Kjz0POEkWPj8SgIygca4hz6d9IOUrlr8Tbar3NGpJZfLy916POb5GTjtV4eqUh8m9oWPXEAzJZJbfUbVySP/hjOHoJmNJ07S0ChYeCcTgf5EkOXphoUTfqm1bGXoecBw8TtMnNqPk1JjGyiyUUpjYjMJRg=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+  b=2nMNP4s5KuJzvRRmvHpaObxcyVTIpXtQEgMk/ExdyGMxpfB73YWD587krvIAGX/eRclw+wFxcXnwHm+EczTM0+0ry2IeOJFP21HJukrqDaCzrQBCKwG953GpeR78K7E5cK5LrSoUQPwK/bwZ/6OYiZ6gf+7nNwh1SVvVroYwn5Q=;
+Message-ID: <975051.69158.qm@web55503.mail.re4.yahoo.com>
+X-YMail-OSG: OO6wHu8VM1kwjHzSXtXP1Zm0llg8_xkSjhLC7d99LfcZi.x
+ jKOJUeBBqwUq5ktF9G49VzV_Ti8iAOhMqrkoqabM9pK1lyEON0bNcAmKfl4T
+ 01rsoZuya7KV76.qdCHzVkN2WEwcMRfrh5bWRAceViylDmlZvVk2dOaJqLDx
+ ZQk8yZkj5Ot0_ZGqnjAaa.lRXoYUPjO.d13221rQHQpDCB9P_1f_WQkc7x4o
+ SKuqflH5YA3scug9sCK09O9g8jUv7mhrNEX_tObfG344H8xTSVQe7QKc4wtA
+ lWU3UacsdQTsCBtgHdxqYtB0zhZ1OwYfFjqL7i..oCCEB1htB_sBvZIif1YM
+ -
+Received: from [173.50.237.124] by web55503.mail.re4.yahoo.com via HTTP; Thu, 13 May 2010 21:41:50 PDT
+X-Mailer: YahooMailRC/374.4 YahooMailWebService/0.8.103.269680
+References: <861952.20797.qm@web55508.mail.re4.yahoo.com> <170755.30838.qm@web55502.mail.re4.yahoo.com> <20100512095518.GC18235@fischer>
+Date: Thu, 13 May 2010 21:41:50 -0700 (PDT)
+From: Marc Shapiro <mshapiro_42@yahoo.com>
+Subject: Re: Automounting problems.
+To: debian-user@lists.debian.org
+In-Reply-To: <20100512095518.GC18235@fischer>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <X94OMJ34SgJ.A.BSD.qSN7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576726
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 04:42:18 +0000 (UTC)
+
+> From: Chris Bannister <mockingbird@earthlight.co.nz>
+
+> To: debian-user@lists.debian.org
+> 
+Sent: Wed, May 12, 2010 2:55:18 AM
+> Subject: Re: Automounting 
+problems.
+> 
+> On Tue, May 11, 2010 at 10:54:47PM -0700, 
+Marc Shapiro wrote:
+> I am now 
+> slapping myself on the 
+head for being so STUPID!  Automount is 
+> 
+> working just 
+fine, and has been all along.  Automount does its thing as 
+> 
+> soon as a device is ACCESSED, not plugged in.
+> 
+> I think 
+I'll 
+> slap myself on the head, again.
+
+Not so fast! :) How are you supposed to 
+> access them if you don't know
+what they will be labelled as?
+
+What does 
+> "ls 
+/mnt/<TAB><TAB>" do?
+
+Are you supposed to carry round a 
+> scrap of paper with the mount labels
+written down?
+
+-----------
+
+The map files specify what the mount point names will be.  If you added the lines to the map files then you should know what the mount points are.  Additionally, if you set it up so that all the mount points are under 
+/mnt then you could put soft links in, say, /media pointing to where the actual mount points will be.  Then you can access the link in /media 
+and the device will be automatically mounted and accessed.  This also 
+has the advantage of allowing the link to be visible to GUI file 
+managers to allow access that way.  Scratch that last sentence.  I had 
+seen that as a suggestion, but had not tried it myself.  I just did try 
+it, using PCManFM and it did not work.  PCManFM sees the link, but does 
+not know what to do with it.  The soft link would still help with 
+command line access, however.
+
+(Sorry about the extra post, Chris.  I hate Yahoo! web mail.
+
+-- 
+Marc Shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/975051.69158.qm@web55503.mail.re4.yahoo.com
+
+

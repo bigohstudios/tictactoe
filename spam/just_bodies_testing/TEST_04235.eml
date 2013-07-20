@@ -1,0 +1,12 @@
+[Spambayes] Maybe change X-Spam-Disposition to something else...
+    >> ... choose something with a different prefix than "X-Spam-" so that
+    >> people don't confuse it with SpamAssassin ...
+
+    Neale> How about X-Spambayes-Disposition (or X-Hammie-Disposition if
+    Neale> there'll be other classifier front-ends)?
+
+I kinda like "hammie".  Your front end was there first, so I suspect it will
+rule the front end roost.
+
+S
+

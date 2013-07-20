@@ -1,0 +1,871 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284ad651faed509
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs42613wfj;
+        Thu, 29 Apr 2010 11:31:24 -0700 (PDT)
+Received: by 10.86.221.34 with SMTP id t34mr1947812fgg.36.1272565879616;
+        Thu, 29 Apr 2010 11:31:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si1405128fkg.28.2010.04.29.11.31.18;
+        Thu, 29 Apr 2010 11:31:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D2BF813A50A7; Thu, 29 Apr 2010 18:31:06 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-12.9 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45,XORGBUGREPORTS
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 13CAC13A4B11
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 18:31:01 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-9.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893, XORGBUGREPORTS=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 0oSqWdTQod3u for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 18:30:51 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 6480F13A4AF3
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 18:30:45 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so1242358fxm.6
+        for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 11:30:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=pBK7Wz2pzRkKztY5nVkdWIQsHYgh4gsuzNu66Y2iUnA=;
+        b=BO2IlR5KH4aN85iM986eUY/OAWyMZRJxybUF3Mj3DxXi0YeYt8dkmDFNRKtiq+TImd
+         RZ0dXfOXZocBuqKERjLzpsW9HbDrPaiKVafLNU7X3pPzqzxE/kko35UScS5AxD6oRBLl
+         G7j1xX9pLghAErLHjHXUXQ1FUCL1FVX0O9qok=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=INZfU9Tk5Hc7vZtY8AZBMD/UOQHiKYKR/0bVf0V7Tl4W5vhQs+ok7mlKrJjIyRqUVt
+         3FxkMkvKdU2JHKxdd6Sp6doRXa42LzEkhLMfiw31WjJPHVBW6KY2hOQy5yLrxG+Pue0m
+         RHVkd6LzqAjSyJtODtpf21SWOva70+brIehxE=
+MIME-Version: 1.0
+Received: by 10.223.98.24 with SMTP id o24mr905825fan.29.1272565840443; Thu, 
+	29 Apr 2010 11:30:40 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Thu, 29 Apr 2010 11:30:40 -0700 (PDT)
+In-Reply-To: <674417720.81786.1272545865761.JavaMail.root@md01.wow.synacor.com>
+References: <n2lb36d43c31004290442w8592f437qab7ad9357c8502ee@mail.csmining.org>
+	 <674417720.81786.1272545865761.JavaMail.root@md01.wow.synacor.com>
+Date: Thu, 29 Apr 2010 20:30:40 +0200
+Message-ID: <k2mb36d43c31004291130if215a171i437b2a31c293702a@mail.csmining.org>
+Subject: Re: New monitor, how to change screen resolution?
+From: James Stuckey <jhstuckey@csmining.org>
+To: debian-user@lists.debian.org
+Cc: Stephen Powell <zlinuxman@wowway.com>
+Content-Type: multipart/alternative; boundary=0015174be79edf7ba9048564522d
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <OmGklj_6eAL.A.3GG.qBd2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575475
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 18:31:06 +0000 (UTC)
+
+--0015174be79edf7ba9048564522d
+Content-Type: text/plain; charset=ISO-8859-1
+
+> You didn't provide much information, James.  I'm afraid that there's no
+> "one size fits all" answer to that question.  It depends on a lot of
+> things.
+> Please provide the following information:
+>
+> (1) The make and model of your computer
+> (2) The make and model of your video card
+> (3) The make and model of your monitor
+> (4) The type of monitor (CRT, LCD, etc.)
+> (5) The type of video connection used (digital, analog, etc.)
+> (6) The contents of /etc/X11/xorg.conf, if it exists
+> (7) The contents of /var/log/Xorg.0.log
+> (8) Which release of Debian you are running (Lenny, Squeeze, Sid, etc)
+>
+>
+Hi Stephen,
+
+(1) I'm on AMD64/Asus motherboard P5Q
+(2) NVIDIA 9800GT
+(3) ASUS VH242H
+(4) LCD
+(5) Digital connection, not DVI
+
+(6)
+Section "ServerLayout"
+    Identifier     "X.org Configured"
+    Screen      0  "Screen0" 0 0
+    InputDevice    "Mouse0" "CorePointer"
+    InputDevice    "Keyboard0" "CoreKeyboard"
+EndSection
+
+Section "Files"
+    ModulePath   "/usr/lib/xorg/modules"
+    FontPath     "/usr/share/fonts/X11/misc"
+    FontPath     "/usr/share/fonts/X11/cyrillic"
+    FontPath     "/usr/share/fonts/X11/100dpi/:unscaled"
+    FontPath     "/usr/share/fonts/X11/75dpi/:unscaled"
+    FontPath     "/usr/share/fonts/X11/Type1"
+    FontPath     "/usr/share/fonts/X11/100dpi"
+    FontPath     "/usr/share/fonts/X11/75dpi"
+    FontPath     "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
+    FontPath     "built-ins"
+EndSection
+
+Section "Module"
+    Load  "record"
+    Load  "extmod"
+    Load  "glx"
+    Load  "dri"
+    Load  "dbe"
+    Load  "dri2"
+EndSection
+
+Section "InputDevice"
+    Identifier  "Keyboard0"
+    Driver      "kbd"
+EndSection
+
+Section "InputDevice"
+    Identifier  "Mouse0"
+    Driver      "mouse"
+    Option        "Protocol" "auto"
+    Option        "Device" "/dev/input/mice"
+    Option        "ZAxisMapping" "4 5 6 7"
+EndSection
+
+Section "Monitor"
+    Identifier   "Monitor0"
+    VendorName   "Monitor Vendor"
+    ModelName    "Monitor Model"
+EndSection
+
+Section "Device"
+        ### Available Driver options are:-
+        ### Values: <i>: integer, <f>: float, <bool>: "True"/"False",
+        ### <string>: "String", <freq>: "<f> Hz/kHz/MHz"
+        ### [arg]: arg optional
+        #Option     "SWcursor"               # [<bool>]
+        #Option     "HWcursor"               # [<bool>]
+        #Option     "NoAccel"                # [<bool>]
+        #Option     "ShadowFB"               # [<bool>]
+        #Option     "UseFBDev"               # [<bool>]
+        #Option     "Rotate"                 # [<str>]
+        #Option     "VideoKey"               # <i>
+        #Option     "FlatPanel"              # [<bool>]
+        #Option     "FPDither"               # [<bool>]
+        #Option     "CrtcNumber"             # <i>
+        #Option     "FPScale"                # [<bool>]
+        #Option     "FPTweak"                # <i>
+        #Option     "DualHead"               # [<bool>]
+    Identifier  "Card0"
+    Driver      "nvidia"
+    VendorName  "nVidia Corporation"
+    BoardName   "G92 [GeForce 9800 GT]"
+    BusID       "PCI:1:0:0"
+EndSection
+
+Section "Screen"
+    Identifier "Screen0"
+    Device     "Card0"
+    Monitor    "Monitor0"
+    SubSection "Display"
+        Viewport   0 0
+        Depth     1
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     4
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     8
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     15
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     16
+    EndSubSection
+    SubSection "Display"
+        Viewport   0 0
+        Depth     24
+    EndSubSection
+EndSection
+
+(7)
+X.Org X Server 1.7.6
+Release Date: 2010-03-17
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 2.6.32-4-amd64 x86_64 Debian
+Current Operating System: Linux debian 2.6.32-3-amd64 #1 SMP Wed Feb 24
+18:07:42 UTC 2010 x86_64
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-2.6.32-3-amd64
+root=UUID=cca7add1-981f-469f-9285-ae17722e24bd ro quiet
+Build Date: 05 April 2010  02:21:15PM
+xorg-server 2:1.7.6-2 (Timo Aaltonen <tjaalton@ubuntu.com>)
+Current version of pixman: 0.16.4
+    Before reporting problems, check http://wiki.x.org
+    to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+    (++) from command line, (!!) notice, (II) informational,
+    (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Thu Apr 29 19:58:58 2010
+(==) Using config file: "/etc/X11/xorg.conf"
+(==) ServerLayout "X.org Configured"
+(**) |-->Screen "Screen0" (0)
+(**) |   |-->Monitor "Monitor0"
+(**) |   |-->Device "Card0"
+(**) |-->Input Device "Mouse0"
+(**) |-->Input Device "Keyboard0"
+(==) Automatically adding devices
+(==) Automatically enabling devices
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+    Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+    Entry deleted from font path.
+(**) FontPath set to:
+    /usr/share/fonts/X11/misc,
+    /usr/share/fonts/X11/100dpi/:unscaled,
+    /usr/share/fonts/X11/75dpi/:unscaled,
+    /usr/share/fonts/X11/Type1,
+    /usr/share/fonts/X11/100dpi,
+    /usr/share/fonts/X11/75dpi,
+    /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType,
+    built-ins,
+    /usr/share/fonts/X11/misc,
+    /usr/share/fonts/X11/100dpi/:unscaled,
+    /usr/share/fonts/X11/75dpi/:unscaled,
+    /usr/share/fonts/X11/Type1,
+    /usr/share/fonts/X11/100dpi,
+    /usr/share/fonts/X11/75dpi,
+    /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType,
+    built-ins
+(**) ModulePath set to "/usr/lib/xorg/modules"
+(WW) AllowEmptyInput is on, devices using drivers 'kbd', 'mouse' or
+'vmmouse' will be disabled.
+(WW) Disabling Mouse0
+(WW) Disabling Keyboard0
+(II) Loader magic: 0x7c59c0
+(II) Module ABI versions:
+    X.Org ANSI C Emulation: 0.4
+    X.Org Video Driver: 6.0
+    X.Org XInput driver : 7.0
+    X.Org Server Extension : 2.0
+(++) using VT number 8
+
+(--) PCI:*(0:1:0:0) 10de:0614:3842:c975 nVidia Corporation G92 [GeForce 9800
+GT] rev 162, Mem @ 0xfd000000/16777216, 0xd0000000/268435456,
+0xfa000000/33554432, I/O @ 0x0000dc00/128, BIOS @ 0x????????/131072
+(II) Open ACPI successful (/var/run/acpid.socket)
+(II) "extmod" will be loaded. This was enabled by default and also specified
+in the config file.
+(II) "dbe" will be loaded. This was enabled by default and also specified in
+the config file.
+(II) "glx" will be loaded. This was enabled by default and also specified in
+the config file.
+(II) "record" will be loaded. This was enabled by default and also specified
+in the config file.
+(II) "dri" will be loaded. This was enabled by default and also specified in
+the config file.
+(II) "dri2" will be loaded. This was enabled by default and also specified
+in the config file.
+(II) LoadModule: "record"
+(II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+(II) Module record: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.13.0
+    Module class: X.Org Server Extension
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension RECORD
+(II) LoadModule: "extmod"
+(II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+(II) Module extmod: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    Module class: X.Org Server Extension
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension SELinux
+(II) Loading extension MIT-SCREEN-SAVER
+(II) Loading extension XFree86-VidModeExtension
+(II) Loading extension XFree86-DGA
+(II) Loading extension DPMS
+(II) Loading extension XVideo
+(II) Loading extension XVideo-MotionCompensation
+(II) Loading extension X-Resource
+(II) LoadModule: "glx"
+(II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+(II) Module glx: vendor="NVIDIA Corporation"
+    compiled for 4.0.2, module version = 1.0.0
+    Module class: X.Org Server Extension
+(II) NVIDIA GLX Module  190.53  Wed Dec  9 16:27:33 PST 2009
+(II) Loading extension GLX
+(II) LoadModule: "dri"
+(II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+(II) Module dri: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension XFree86-DRI
+(II) LoadModule: "dbe"
+(II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+(II) Module dbe: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    Module class: X.Org Server Extension
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DOUBLE-BUFFER
+(II) LoadModule: "dri2"
+(II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+(II) Module dri2: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.1.0
+    ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DRI2
+(II) LoadModule: "nvidia"
+(II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+(II) Module nvidia: vendor="NVIDIA Corporation"
+    compiled for 4.0.2, module version = 1.0.0
+    Module class: X.Org Video Driver
+(II) NVIDIA dlloader X Driver  190.53  Wed Dec  9 15:39:50 PST 2009
+(II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+(II) Primary Device is: PCI 01@00:00:0
+(II) Loading sub module "fb"
+(II) LoadModule: "fb"
+(II) Loading /usr/lib/xorg/modules/libfb.so
+(II) Module fb: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    ABI class: X.Org ANSI C Emulation, version 0.4
+(II) Loading sub module "wfb"
+(II) LoadModule: "wfb"
+(II) Loading /usr/lib/xorg/modules/libwfb.so
+(II) Module wfb: vendor="X.Org Foundation"
+    compiled for 1.7.6, module version = 1.0.0
+    ABI class: X.Org ANSI C Emulation, version 0.4
+(II) Loading sub module "ramdac"
+(II) LoadModule: "ramdac"
+(II) Module "ramdac" already built-in
+(==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+(==) NVIDIA(0): RGB weight 888
+(==) NVIDIA(0): Default visual is TrueColor
+(==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+(**) Apr 29 19:58:58 NVIDIA(0): Enabling RENDER acceleration
+(II) Apr 29 19:58:58 NVIDIA(0): Support for GLX with the Damage and
+Composite X extensions is
+(II) Apr 29 19:58:58 NVIDIA(0):     enabled.
+(II) Apr 29 19:58:59 NVIDIA(0): NVIDIA GPU GeForce 9800 GT (G92) at
+PCI:1:0:0 (GPU-0)
+(--) Apr 29 19:58:59 NVIDIA(0): Memory: 524288 kBytes
+(--) Apr 29 19:58:59 NVIDIA(0): VideoBIOS: 62.92.24.00.70
+(II) Apr 29 19:58:59 NVIDIA(0): Detected PCI Express Link width: 16X
+(--) Apr 29 19:58:59 NVIDIA(0): Interlaced video modes are supported on this
+GPU
+(--) Apr 29 19:58:59 NVIDIA(0): Connected display device(s) on GeForce 9800
+GT at PCI:1:0:0:
+(--) Apr 29 19:58:59 NVIDIA(0):     ACI ASUS VH242H (DFP-0)
+(--) Apr 29 19:58:59 NVIDIA(0): ACI ASUS VH242H (DFP-0): 330.0 MHz maximum
+pixel clock
+(--) Apr 29 19:58:59 NVIDIA(0): ACI ASUS VH242H (DFP-0): Internal Dual Link
+TMDS
+(II) Apr 29 19:58:59 NVIDIA(0): Assigned Display Device: DFP-0
+(==) Apr 29 19:58:59 NVIDIA(0):
+(==) Apr 29 19:58:59 NVIDIA(0): No modes were requested; the default mode
+"nvidia-auto-select"
+(==) Apr 29 19:58:59 NVIDIA(0):     will be used as the requested mode.
+(==) Apr 29 19:58:59 NVIDIA(0):
+(II) Apr 29 19:58:59 NVIDIA(0): Validated modes:
+(II) Apr 29 19:58:59 NVIDIA(0):     "nvidia-auto-select"
+(II) Apr 29 19:58:59 NVIDIA(0): Virtual screen size determined to be 1920 x
+1080
+(--) Apr 29 19:58:59 NVIDIA(0): DPI set to (93, 94); computed from
+"UseEdidDpi" X config
+(--) Apr 29 19:58:59 NVIDIA(0):     option
+(==) Apr 29 19:58:59 NVIDIA(0): Enabling 32-bit ARGB GLX visuals.
+(--) Depth 24 pixmap format is 32 bpp
+(II) Apr 29 19:58:59 NVIDIA(0): Initialized GPU GART.
+(II) Apr 29 19:58:59 NVIDIA(0): Setting mode "nvidia-auto-select"
+(II) Loading extension NV-GLX
+(II) Apr 29 19:58:59 NVIDIA(0): Initialized OpenGL Acceleration
+(==) NVIDIA(0): Disabling shared memory pixmaps
+(II) Apr 29 19:58:59 NVIDIA(0): Initialized X Rendering Acceleration
+(==) NVIDIA(0): Backing store disabled
+(==) NVIDIA(0): Silken mouse enabled
+(==) NVIDIA(0): DPMS enabled
+(II) Loading extension NV-CONTROL
+(II) Loading extension XINERAMA
+(==) RandR enabled
+(II) Initializing built-in extension Generic Event Extension
+(II) Initializing built-in extension SHAPE
+(II) Initializing built-in extension MIT-SHM
+(II) Initializing built-in extension XInputExtension
+(II) Initializing built-in extension XTEST
+(II) Initializing built-in extension BIG-REQUESTS
+(II) Initializing built-in extension SYNC
+(II) Initializing built-in extension XKEYBOARD
+(II) Initializing built-in extension XC-MISC
+(II) Initializing built-in extension XINERAMA
+(II) Initializing built-in extension XFIXES
+(II) Initializing built-in extension RENDER
+(II) Initializing built-in extension RANDR
+(II) Initializing built-in extension COMPOSITE
+(II) Initializing built-in extension DAMAGE
+SELinux: Disabled on system, not enabling in X server
+(II) Initializing extension GLX
+(II) config/udev: Adding input device Power Button (/dev/input/event3)
+(II) LoadModule: "evdev"
+(II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+(II) Module evdev: vendor="X.Org Foundation"
+    compiled for 1.7.5, module version = 2.3.2
+    Module class: X.Org XInput Driver
+    ABI class: X.Org XInput driver, version 7.0
+(**) Power Button: always reports core events
+(**) Power Button: Device: "/dev/input/event3"
+(II) Power Button: Found keys
+(II) Power Button: Configuring as keyboard
+(II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc104"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device Power Button (/dev/input/event2)
+(**) Power Button: always reports core events
+(**) Power Button: Device: "/dev/input/event2"
+(II) Power Button: Found keys
+(II) Power Button: Configuring as keyboard
+(II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc104"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event6)
+(II) No input driver/identifier specified (ignoring)
+(II) config/udev: Adding input device Kingsis Peripherals  Evoluent
+VerticalMouse 3  (/dev/input/event4)
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : always reports core
+events
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : Device:
+"/dev/input/event4"
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found 9 mouse buttons
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found scroll wheel(s)
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found relative axes
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Found x and y relative
+axes
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : Configuring as mouse
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : YAxisMapping: buttons 4
+and 5
+(**) Kingsis Peripherals  Evoluent VerticalMouse 3 : EmulateWheelButton: 4,
+EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(II) XINPUT: Adding extended input device "Kingsis Peripherals  Evoluent
+VerticalMouse 3 " (type: MOUSE)
+(II) Kingsis Peripherals  Evoluent VerticalMouse 3 : initialized for
+relative axes.
+(II) config/udev: Adding input device Kingsis Peripherals  Evoluent
+VerticalMouse 3  (/dev/input/mouse1)
+(II) No input driver/identifier specified (ignoring)
+(II) config/udev: Adding input device AT Translated Set 2 keyboard
+(/dev/input/event1)
+(**) AT Translated Set 2 keyboard: always reports core events
+(**) AT Translated Set 2 keyboard: Device: "/dev/input/event1"
+(II) AT Translated Set 2 keyboard: Found keys
+(II) AT Translated Set 2 keyboard: Configuring as keyboard
+(II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard"
+(type: KEYBOARD)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc104"
+(**) Option "xkb_layout" "us"
+(II) config/udev: Adding input device PC Speaker (/dev/input/event5)
+(II) No input driver/identifier specified (ignoring)
+(II) config/udev: Adding input device Macintosh mouse button emulation
+(/dev/input/event0)
+(**) Macintosh mouse button emulation: always reports core events
+(**) Macintosh mouse button emulation: Device: "/dev/input/event0"
+(II) Macintosh mouse button emulation: Found 3 mouse buttons
+(II) Macintosh mouse button emulation: Found relative axes
+(II) Macintosh mouse button emulation: Found x and y relative axes
+(II) Macintosh mouse button emulation: Configuring as mouse
+(**) Macintosh mouse button emulation: YAxisMapping: buttons 4 and 5
+(**) Macintosh mouse button emulation: EmulateWheelButton: 4,
+EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(II) XINPUT: Adding extended input device "Macintosh mouse button emulation"
+(type: MOUSE)
+(II) Macintosh mouse button emulation: initialized for relative axes.
+(II) config/udev: Adding input device Macintosh mouse button emulation
+(/dev/input/mouse0)
+(II) No input driver/identifier specified (ignoring)
+
+(8) Squeeze with Sid nvidia drivers
+
+--0015174be79edf7ba9048564522d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br>
+<div class=3D"gmail_quote"><blockquote class=3D"gmail_quote" style=3D"borde=
+r-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-le=
+ft: 1ex;">You didn&#39;t provide much information, James. =A0I&#39;m afraid=
+ that there&#39;s no<br>
+
+&quot;one size fits all&quot; answer to that question. =A0It depends on a l=
+ot of things.<br>
+Please provide the following information:<br>
+<br>
+(1) The make and model of your computer<br>
+(2) The make and model of your video card<br>
+(3) The make and model of your monitor<br>
+(4) The type of monitor (CRT, LCD, etc.)<br>
+(5) The type of video connection used (digital, analog, etc.)<br>
+(6) The contents of /etc/X11/xorg.conf, if it exists<br>
+(7) The contents of /var/log/Xorg.0.log<br>
+(8) Which release of Debian you are running (Lenny, Squeeze, Sid, etc)<br><=
+br></blockquote><div><br>Hi Stephen, <br><br>(1) I&#39;m on AMD64/Asus moth=
+erboard P5Q<br>(2) NVIDIA 9800GT <br>(3) ASUS VH242H<br>(4) LCD<br>(5) Digi=
+tal connection, not DVI<br>
+<br>(6) <br>Section &quot;ServerLayout&quot;<br>=A0=A0=A0 Identifier=A0=A0=
+=A0=A0 &quot;X.org Configured&quot;<br>=A0=A0=A0 Screen=A0=A0=A0=A0=A0 0=A0=
+ &quot;Screen0&quot; 0 0<br>=A0=A0=A0 InputDevice=A0=A0=A0 &quot;Mouse0&quo=
+t; &quot;CorePointer&quot;<br>=A0=A0=A0 InputDevice=A0=A0=A0 &quot;Keyboard=
+0&quot; &quot;CoreKeyboard&quot;<br>
+EndSection<br><br>Section &quot;Files&quot;<br>=A0=A0=A0 ModulePath=A0=A0 &=
+quot;/usr/lib/xorg/modules&quot;<br>=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/u=
+sr/share/fonts/X11/misc&quot;<br>=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/usr/=
+share/fonts/X11/cyrillic&quot;<br>
+=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/usr/share/fonts/X11/100dpi/:unscaled&=
+quot;<br>=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/usr/share/fonts/X11/75dpi/:u=
+nscaled&quot;<br>=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/usr/share/fonts/X11/=
+Type1&quot;<br>=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/usr/share/fonts/X11/10=
+0dpi&quot;<br>
+=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/usr/share/fonts/X11/75dpi&quot;<br>=
+=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;/var/lib/defoma/x-ttcidfont-conf.d/dir=
+s/TrueType&quot;<br>=A0=A0=A0 FontPath=A0=A0=A0=A0 &quot;built-ins&quot;<br=
+>EndSection<br><br>Section &quot;Module&quot;<br>
+=A0=A0=A0 Load=A0 &quot;record&quot;<br>=A0=A0=A0 Load=A0 &quot;extmod&quot=
+;<br>=A0=A0=A0 Load=A0 &quot;glx&quot;<br>=A0=A0=A0 Load=A0 &quot;dri&quot;=
+<br>=A0=A0=A0 Load=A0 &quot;dbe&quot;<br>=A0=A0=A0 Load=A0 &quot;dri2&quot;=
+<br>EndSection<br><br>Section &quot;InputDevice&quot;<br>
+=A0=A0=A0 Identifier=A0 &quot;Keyboard0&quot;<br>=A0=A0=A0 Driver=A0=A0=A0=
+=A0=A0 &quot;kbd&quot;<br>EndSection<br><br>Section &quot;InputDevice&quot;=
+<br>=A0=A0=A0 Identifier=A0 &quot;Mouse0&quot;<br>=A0=A0=A0 Driver=A0=A0=A0=
+=A0=A0 &quot;mouse&quot;<br>=A0=A0=A0 Option=A0=A0=A0 =A0=A0=A0 &quot;Proto=
+col&quot; &quot;auto&quot;<br>
+=A0=A0=A0 Option=A0=A0=A0 =A0=A0=A0 &quot;Device&quot; &quot;/dev/input/mic=
+e&quot;<br>=A0=A0=A0 Option=A0=A0=A0 =A0=A0=A0 &quot;ZAxisMapping&quot; &qu=
+ot;4 5 6 7&quot;<br>EndSection<br><br>Section &quot;Monitor&quot;<br>=A0=A0=
+=A0 Identifier=A0=A0 &quot;Monitor0&quot;<br>
+=A0=A0=A0 VendorName=A0=A0 &quot;Monitor Vendor&quot;<br>=A0=A0=A0 ModelNam=
+e=A0=A0=A0 &quot;Monitor Model&quot;<br>EndSection<br><br>Section &quot;Dev=
+ice&quot;<br>=A0=A0=A0=A0=A0=A0=A0 ### Available Driver options are:-<br>=
+=A0=A0=A0=A0=A0=A0=A0 ### Values: &lt;i&gt;: integer, &lt;f&gt;: float, &lt=
+;bool&gt;: &quot;True&quot;/&quot;False&quot;,<br>
+=A0=A0=A0=A0=A0=A0=A0 ### &lt;string&gt;: &quot;String&quot;, &lt;freq&gt;:=
+ &quot;&lt;f&gt; Hz/kHz/MHz&quot;<br>=A0=A0=A0=A0=A0=A0=A0 ### [arg]: arg o=
+ptional<br>=A0=A0=A0=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;SWcursor&quot;=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 =A0=A0=A0 # [&lt;bool&gt;]<br>=A0=A0=A0=A0=
+=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;HWcursor&quot;=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0 =A0=A0=A0 # [&lt;bool&gt;]<br>
+=A0=A0=A0=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;NoAccel&quot;=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0 =A0=A0=A0 # [&lt;bool&gt;]<br>=A0=A0=A0=A0=A0=A0=A0 #=
+Option=A0=A0=A0=A0 &quot;ShadowFB&quot;=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 =A0=
+=A0=A0 # [&lt;bool&gt;]<br>=A0=A0=A0=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;=
+UseFBDev&quot;=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 =A0=A0=A0 # [&lt;bool&gt;]<br>
+=A0=A0=A0=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;Rotate&quot;=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0 =A0=A0=A0 # [&lt;str&gt;]<br>=A0=A0=A0=A0=A0=A0=A0 #O=
+ption=A0=A0=A0=A0 &quot;VideoKey&quot;=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 =A0=A0=
+=A0 # &lt;i&gt;<br>=A0=A0=A0=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;FlatPane=
+l&quot;=A0=A0=A0=A0=A0=A0=A0=A0=A0 =A0=A0=A0 # [&lt;bool&gt;]<br>=A0=A0=A0=
+=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;FPDither&quot;=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0 =A0=A0=A0 # [&lt;bool&gt;]<br>
+=A0=A0=A0=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;CrtcNumber&quot;=A0=A0=A0=
+=A0=A0=A0=A0=A0 =A0=A0=A0 # &lt;i&gt;<br>=A0=A0=A0=A0=A0=A0=A0 #Option=A0=
+=A0=A0=A0 &quot;FPScale&quot;=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 =A0=A0=A0 # =
+[&lt;bool&gt;]<br>=A0=A0=A0=A0=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;FPTweak&q=
+uot;=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 =A0=A0=A0 # &lt;i&gt;<br>=A0=A0=A0=A0=
+=A0=A0=A0 #Option=A0=A0=A0=A0 &quot;DualHead&quot;=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0 =A0=A0=A0 # [&lt;bool&gt;]<br>
+=A0=A0=A0 Identifier=A0 &quot;Card0&quot;<br>=A0=A0=A0 Driver=A0=A0=A0=A0=
+=A0 &quot;nvidia&quot;<br>=A0=A0=A0 VendorName=A0 &quot;nVidia Corporation&=
+quot;<br>=A0=A0=A0 BoardName=A0=A0 &quot;G92 [GeForce 9800 GT]&quot;<br>=A0=
+=A0=A0 BusID=A0=A0=A0=A0=A0=A0 &quot;PCI:1:0:0&quot;<br>EndSection<br>
+<br>Section &quot;Screen&quot;<br>=A0=A0=A0 Identifier &quot;Screen0&quot;<=
+br>=A0=A0=A0 Device=A0=A0=A0=A0 &quot;Card0&quot;<br>=A0=A0=A0 Monitor=A0=
+=A0=A0 &quot;Monitor0&quot;<br>=A0=A0=A0 SubSection &quot;Display&quot;<br>=
+=A0=A0=A0 =A0=A0=A0 Viewport=A0=A0 0 0<br>=A0=A0=A0 =A0=A0=A0 Depth=A0=A0=
+=A0=A0 1<br>
+=A0=A0=A0 EndSubSection<br>=A0=A0=A0 SubSection &quot;Display&quot;<br>=A0=
+=A0=A0 =A0=A0=A0 Viewport=A0=A0 0 0<br>=A0=A0=A0 =A0=A0=A0 Depth=A0=A0=A0=
+=A0 4<br>=A0=A0=A0 EndSubSection<br>=A0=A0=A0 SubSection &quot;Display&quot=
+;<br>=A0=A0=A0 =A0=A0=A0 Viewport=A0=A0 0 0<br>=A0=A0=A0 =A0=A0=A0 Depth=A0=
+=A0=A0=A0 8<br>=A0=A0=A0 EndSubSection<br>
+=A0=A0=A0 SubSection &quot;Display&quot;<br>=A0=A0=A0 =A0=A0=A0 Viewport=A0=
+=A0 0 0<br>=A0=A0=A0 =A0=A0=A0 Depth=A0=A0=A0=A0 15<br>=A0=A0=A0 EndSubSect=
+ion<br>=A0=A0=A0 SubSection &quot;Display&quot;<br>=A0=A0=A0 =A0=A0=A0 View=
+port=A0=A0 0 0<br>=A0=A0=A0 =A0=A0=A0 Depth=A0=A0=A0=A0 16<br>=A0=A0=A0 End=
+SubSection<br>=A0=A0=A0 SubSection &quot;Display&quot;<br>
+=A0=A0=A0 =A0=A0=A0 Viewport=A0=A0 0 0<br>=A0=A0=A0 =A0=A0=A0 Depth=A0=A0=
+=A0=A0 24<br>=A0=A0=A0 EndSubSection<br>EndSection<br><br></div></div>(7)<b=
+r>X.Org X Server 1.7.6<br>Release Date: 2010-03-17<br>X Protocol Version 11=
+, Revision 0<br>Build Operating System: Linux 2.6.32-4-amd64 x86_64 Debian<=
+br>
+Current Operating System: Linux debian 2.6.32-3-amd64 #1 SMP Wed Feb 24 18:=
+07:42 UTC 2010 x86_64<br>Kernel command line: BOOT_IMAGE=3D/boot/vmlinuz-2.=
+6.32-3-amd64 root=3DUUID=3Dcca7add1-981f-469f-9285-ae17722e24bd ro quiet<br=
+>Build Date: 05 April 2010=A0 02:21:15PM<br>
+xorg-server 2:1.7.6-2 (Timo Aaltonen &lt;<a href=3D"mailto:tjaalton@ubuntu.=
+com">tjaalton@ubuntu.com</a>&gt;) <br>Current version of pixman: 0.16.4<br>=
+=A0=A0=A0 Before reporting problems, check <a href=3D"http://wiki.x.org">ht=
+tp://wiki.x.org</a><br>
+=A0=A0=A0 to make sure that you have the latest version.<br>Markers: (--) p=
+robed, (**) from config file, (=3D=3D) default setting,<br>=A0=A0=A0 (++) f=
+rom command line, (!!) notice, (II) informational,<br>=A0=A0=A0 (WW) warnin=
+g, (EE) error, (NI) not implemented, (??) unknown.<br>
+(=3D=3D) Log file: &quot;/var/log/Xorg.0.log&quot;, Time: Thu Apr 29 19:58:=
+58 2010<br>(=3D=3D) Using config file: &quot;/etc/X11/xorg.conf&quot;<br>(=
+=3D=3D) ServerLayout &quot;X.org Configured&quot;<br>(**) |--&gt;Screen &qu=
+ot;Screen0&quot; (0)<br>
+(**) |=A0=A0 |--&gt;Monitor &quot;Monitor0&quot;<br>(**) |=A0=A0 |--&gt;Dev=
+ice &quot;Card0&quot;<br>(**) |--&gt;Input Device &quot;Mouse0&quot;<br>(**=
+) |--&gt;Input Device &quot;Keyboard0&quot;<br>(=3D=3D) Automatically addin=
+g devices<br>
+(=3D=3D) Automatically enabling devices<br>(WW) The directory &quot;/usr/sh=
+are/fonts/X11/cyrillic&quot; does not exist.<br>=A0=A0=A0 Entry deleted fro=
+m font path.<br>(WW) The directory &quot;/usr/share/fonts/X11/cyrillic&quot=
+; does not exist.<br>
+=A0=A0=A0 Entry deleted from font path.<br>(**) FontPath set to:<br>=A0=A0=
+=A0 /usr/share/fonts/X11/misc,<br>=A0=A0=A0 /usr/share/fonts/X11/100dpi/:un=
+scaled,<br>=A0=A0=A0 /usr/share/fonts/X11/75dpi/:unscaled,<br>=A0=A0=A0 /us=
+r/share/fonts/X11/Type1,<br>
+=A0=A0=A0 /usr/share/fonts/X11/100dpi,<br>=A0=A0=A0 /usr/share/fonts/X11/75=
+dpi,<br>=A0=A0=A0 /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType,<br>=A0=
+=A0=A0 built-ins,<br>=A0=A0=A0 /usr/share/fonts/X11/misc,<br>=A0=A0=A0 /usr=
+/share/fonts/X11/100dpi/:unscaled,<br>
+=A0=A0=A0 /usr/share/fonts/X11/75dpi/:unscaled,<br>=A0=A0=A0 /usr/share/fon=
+ts/X11/Type1,<br>=A0=A0=A0 /usr/share/fonts/X11/100dpi,<br>=A0=A0=A0 /usr/s=
+hare/fonts/X11/75dpi,<br>=A0=A0=A0 /var/lib/defoma/x-ttcidfont-conf.d/dirs/=
+TrueType,<br>=A0=A0=A0 built-ins<br>
+(**) ModulePath set to &quot;/usr/lib/xorg/modules&quot;<br>(WW) AllowEmpty=
+Input is on, devices using drivers &#39;kbd&#39;, &#39;mouse&#39; or &#39;v=
+mmouse&#39; will be disabled.<br>(WW) Disabling Mouse0<br>(WW) Disabling Ke=
+yboard0<br>
+(II) Loader magic: 0x7c59c0<br>(II) Module ABI versions:<br>=A0=A0=A0 X.Org=
+ ANSI C Emulation: 0.4<br>=A0=A0=A0 X.Org Video Driver: 6.0<br>=A0=A0=A0 X.=
+Org XInput driver : 7.0<br>=A0=A0=A0 X.Org Server Extension : 2.0<br>(++) u=
+sing VT number 8<br>
+<br>(--) PCI:*(0:1:0:0) 10de:0614:3842:c975 nVidia Corporation G92 [GeForce=
+ 9800 GT] rev 162, Mem @ 0xfd000000/16777216, 0xd0000000/268435456, 0xfa000=
+000/33554432, I/O @ 0x0000dc00/128, BIOS @ 0x????????/131072<br>(II) Open A=
+CPI successful (/var/run/acpid.socket)<br>
+(II) &quot;extmod&quot; will be loaded. This was enabled by default and als=
+o specified in the config file.<br>(II) &quot;dbe&quot; will be loaded. Thi=
+s was enabled by default and also specified in the config file.<br>(II) &qu=
+ot;glx&quot; will be loaded. This was enabled by default and also specified=
+ in the config file.<br>
+(II) &quot;record&quot; will be loaded. This was enabled by default and als=
+o specified in the config file.<br>(II) &quot;dri&quot; will be loaded. Thi=
+s was enabled by default and also specified in the config file.<br>(II) &qu=
+ot;dri2&quot; will be loaded. This was enabled by default and also specifie=
+d in the config file.<br>
+(II) LoadModule: &quot;record&quot;<br>(II) Loading /usr/lib/xorg/modules/e=
+xtensions/librecord.so<br>(II) Module record: vendor=3D&quot;X.Org Foundati=
+on&quot;<br>=A0=A0=A0 compiled for 1.7.6, module version =3D 1.13.0<br>=A0=
+=A0=A0 Module class: X.Org Server Extension<br>
+=A0=A0=A0 ABI class: X.Org Server Extension, version 2.0<br>(II) Loading ex=
+tension RECORD<br>(II) LoadModule: &quot;extmod&quot;<br>(II) Loading /usr/=
+lib/xorg/modules/extensions/libextmod.so<br>(II) Module extmod: vendor=3D&q=
+uot;X.Org Foundation&quot;<br>
+=A0=A0=A0 compiled for 1.7.6, module version =3D 1.0.0<br>=A0=A0=A0 Module =
+class: X.Org Server Extension<br>=A0=A0=A0 ABI class: X.Org Server Extensio=
+n, version 2.0<br>(II) Loading extension SELinux<br>(II) Loading extension =
+MIT-SCREEN-SAVER<br>
+(II) Loading extension XFree86-VidModeExtension<br>(II) Loading extension X=
+Free86-DGA<br>(II) Loading extension DPMS<br>(II) Loading extension XVideo<=
+br>(II) Loading extension XVideo-MotionCompensation<br>(II) Loading extensi=
+on X-Resource<br>
+(II) LoadModule: &quot;glx&quot;<br>(II) Loading /usr/lib/xorg/modules/exte=
+nsions/libglx.so<br>(II) Module glx: vendor=3D&quot;NVIDIA Corporation&quot=
+;<br>=A0=A0=A0 compiled for 4.0.2, module version =3D 1.0.0<br>=A0=A0=A0 Mo=
+dule class: X.Org Server Extension<br>
+(II) NVIDIA GLX Module=A0 190.53=A0 Wed Dec=A0 9 16:27:33 PST 2009<br>(II) =
+Loading extension GLX<br>(II) LoadModule: &quot;dri&quot;<br>(II) Loading /=
+usr/lib/xorg/modules/extensions/libdri.so<br>(II) Module dri: vendor=3D&quo=
+t;X.Org Foundation&quot;<br>
+=A0=A0=A0 compiled for 1.7.6, module version =3D 1.0.0<br>=A0=A0=A0 ABI cla=
+ss: X.Org Server Extension, version 2.0<br>(II) Loading extension XFree86-D=
+RI<br>(II) LoadModule: &quot;dbe&quot;<br>(II) Loading /usr/lib/xorg/module=
+s/extensions/libdbe.so<br>
+(II) Module dbe: vendor=3D&quot;X.Org Foundation&quot;<br>=A0=A0=A0 compile=
+d for 1.7.6, module version =3D 1.0.0<br>=A0=A0=A0 Module class: X.Org Serv=
+er Extension<br>=A0=A0=A0 ABI class: X.Org Server Extension, version 2.0<br=
+>(II) Loading extension DOUBLE-BUFFER<br>
+(II) LoadModule: &quot;dri2&quot;<br>(II) Loading /usr/lib/xorg/modules/ext=
+ensions/libdri2.so<br>(II) Module dri2: vendor=3D&quot;X.Org Foundation&quo=
+t;<br>=A0=A0=A0 compiled for 1.7.6, module version =3D 1.1.0<br>=A0=A0=A0 A=
+BI class: X.Org Server Extension, version 2.0<br>
+(II) Loading extension DRI2<br>(II) LoadModule: &quot;nvidia&quot;<br>(II) =
+Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so<br>(II) Module nvidia: =
+vendor=3D&quot;NVIDIA Corporation&quot;<br>=A0=A0=A0 compiled for 4.0.2, mo=
+dule version =3D 1.0.0<br>
+=A0=A0=A0 Module class: X.Org Video Driver<br>(II) NVIDIA dlloader X Driver=
+=A0 190.53=A0 Wed Dec=A0 9 15:39:50 PST 2009<br>(II) NVIDIA Unified Driver =
+for all Supported NVIDIA GPUs<br>(II) Primary Device is: PCI 01@00:00:0<br>=
+(II) Loading sub module &quot;fb&quot;<br>
+(II) LoadModule: &quot;fb&quot;<br>(II) Loading /usr/lib/xorg/modules/libfb=
+.so<br>(II) Module fb: vendor=3D&quot;X.Org Foundation&quot;<br>=A0=A0=A0 c=
+ompiled for 1.7.6, module version =3D 1.0.0<br>=A0=A0=A0 ABI class: X.Org A=
+NSI C Emulation, version 0.4<br>
+(II) Loading sub module &quot;wfb&quot;<br>(II) LoadModule: &quot;wfb&quot;=
+<br>(II) Loading /usr/lib/xorg/modules/libwfb.so<br>(II) Module wfb: vendor=
+=3D&quot;X.Org Foundation&quot;<br>=A0=A0=A0 compiled for 1.7.6, module ver=
+sion =3D 1.0.0<br>
+=A0=A0=A0 ABI class: X.Org ANSI C Emulation, version 0.4<br>(II) Loading su=
+b module &quot;ramdac&quot;<br>(II) LoadModule: &quot;ramdac&quot;<br>(II) =
+Module &quot;ramdac&quot; already built-in<br>(=3D=3D) NVIDIA(0): Depth 24,=
+ (=3D=3D) framebuffer bpp 32<br>
+(=3D=3D) NVIDIA(0): RGB weight 888<br>(=3D=3D) NVIDIA(0): Default visual is=
+ TrueColor<br>(=3D=3D) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)<br=
+>(**) Apr 29 19:58:58 NVIDIA(0): Enabling RENDER acceleration<br>(II) Apr 2=
+9 19:58:58 NVIDIA(0): Support for GLX with the Damage and Composite X exten=
+sions is<br>
+(II) Apr 29 19:58:58 NVIDIA(0):=A0=A0=A0=A0 enabled.<br>(II) Apr 29 19:58:5=
+9 NVIDIA(0): NVIDIA GPU GeForce 9800 GT (G92) at PCI:1:0:0 (GPU-0)<br>(--) =
+Apr 29 19:58:59 NVIDIA(0): Memory: 524288 kBytes<br>(--) Apr 29 19:58:59 NV=
+IDIA(0): VideoBIOS: 62.92.24.00.70<br>
+(II) Apr 29 19:58:59 NVIDIA(0): Detected PCI Express Link width: 16X<br>(--=
+) Apr 29 19:58:59 NVIDIA(0): Interlaced video modes are supported on this G=
+PU<br>(--) Apr 29 19:58:59 NVIDIA(0): Connected display device(s) on GeForc=
+e 9800 GT at PCI:1:0:0:<br>
+(--) Apr 29 19:58:59 NVIDIA(0):=A0=A0=A0=A0 ACI ASUS VH242H (DFP-0)<br>(--)=
+ Apr 29 19:58:59 NVIDIA(0): ACI ASUS VH242H (DFP-0): 330.0 MHz maximum pixe=
+l clock<br>(--) Apr 29 19:58:59 NVIDIA(0): ACI ASUS VH242H (DFP-0): Interna=
+l Dual Link TMDS<br>
+(II) Apr 29 19:58:59 NVIDIA(0): Assigned Display Device: DFP-0<br>(=3D=3D) =
+Apr 29 19:58:59 NVIDIA(0): <br>(=3D=3D) Apr 29 19:58:59 NVIDIA(0): No modes=
+ were requested; the default mode &quot;nvidia-auto-select&quot;<br>(=3D=3D=
+) Apr 29 19:58:59 NVIDIA(0):=A0=A0=A0=A0 will be used as the requested mode=
+.<br>
+(=3D=3D) Apr 29 19:58:59 NVIDIA(0): <br>(II) Apr 29 19:58:59 NVIDIA(0): Val=
+idated modes:<br>(II) Apr 29 19:58:59 NVIDIA(0):=A0=A0=A0=A0 &quot;nvidia-a=
+uto-select&quot;<br>(II) Apr 29 19:58:59 NVIDIA(0): Virtual screen size det=
+ermined to be 1920 x 1080<br>
+(--) Apr 29 19:58:59 NVIDIA(0): DPI set to (93, 94); computed from &quot;Us=
+eEdidDpi&quot; X config<br>(--) Apr 29 19:58:59 NVIDIA(0):=A0=A0=A0=A0 opti=
+on<br>(=3D=3D) Apr 29 19:58:59 NVIDIA(0): Enabling 32-bit ARGB GLX visuals.=
+<br>(--) Depth 24 pixmap format is 32 bpp<br>
+(II) Apr 29 19:58:59 NVIDIA(0): Initialized GPU GART.<br>(II) Apr 29 19:58:=
+59 NVIDIA(0): Setting mode &quot;nvidia-auto-select&quot;<br>(II) Loading e=
+xtension NV-GLX<br>(II) Apr 29 19:58:59 NVIDIA(0): Initialized OpenGL Accel=
+eration<br>
+(=3D=3D) NVIDIA(0): Disabling shared memory pixmaps<br>(II) Apr 29 19:58:59=
+ NVIDIA(0): Initialized X Rendering Acceleration<br>(=3D=3D) NVIDIA(0): Bac=
+king store disabled<br>(=3D=3D) NVIDIA(0): Silken mouse enabled<br>(=3D=3D)=
+ NVIDIA(0): DPMS enabled<br>
+(II) Loading extension NV-CONTROL<br>(II) Loading extension XINERAMA<br>(=
+=3D=3D) RandR enabled<br>(II) Initializing built-in extension Generic Event=
+ Extension<br>(II) Initializing built-in extension SHAPE<br>(II) Initializi=
+ng built-in extension MIT-SHM<br>
+(II) Initializing built-in extension XInputExtension<br>(II) Initializing b=
+uilt-in extension XTEST<br>(II) Initializing built-in extension BIG-REQUEST=
+S<br>(II) Initializing built-in extension SYNC<br>(II) Initializing built-i=
+n extension XKEYBOARD<br>
+(II) Initializing built-in extension XC-MISC<br>(II) Initializing built-in =
+extension XINERAMA<br>(II) Initializing built-in extension XFIXES<br>(II) I=
+nitializing built-in extension RENDER<br>(II) Initializing built-in extensi=
+on RANDR<br>
+(II) Initializing built-in extension COMPOSITE<br>(II) Initializing built-i=
+n extension DAMAGE<br>SELinux: Disabled on system, not enabling in X server=
+<br>(II) Initializing extension GLX<br>(II) config/udev: Adding input devic=
+e Power Button (/dev/input/event3)<br>
+(II) LoadModule: &quot;evdev&quot;<br>(II) Loading /usr/lib/xorg/modules/in=
+put/evdev_drv.so<br>(II) Module evdev: vendor=3D&quot;X.Org Foundation&quot=
+;<br>=A0=A0=A0 compiled for 1.7.5, module version =3D 2.3.2<br>=A0=A0=A0 Mo=
+dule class: X.Org XInput Driver<br>
+=A0=A0=A0 ABI class: X.Org XInput driver, version 7.0<br>(**) Power Button:=
+ always reports core events<br>(**) Power Button: Device: &quot;/dev/input/=
+event3&quot;<br>(II) Power Button: Found keys<br>(II) Power Button: Configu=
+ring as keyboard<br>
+(II) XINPUT: Adding extended input device &quot;Power Button&quot; (type: K=
+EYBOARD)<br>(**) Option &quot;xkb_rules&quot; &quot;evdev&quot;<br>(**) Opt=
+ion &quot;xkb_model&quot; &quot;pc104&quot;<br>(**) Option &quot;xkb_layout=
+&quot; &quot;us&quot;<br>
+(II) config/udev: Adding input device Power Button (/dev/input/event2)<br>(=
+**) Power Button: always reports core events<br>(**) Power Button: Device: =
+&quot;/dev/input/event2&quot;<br>(II) Power Button: Found keys<br>(II) Powe=
+r Button: Configuring as keyboard<br>
+(II) XINPUT: Adding extended input device &quot;Power Button&quot; (type: K=
+EYBOARD)<br>(**) Option &quot;xkb_rules&quot; &quot;evdev&quot;<br>(**) Opt=
+ion &quot;xkb_model&quot; &quot;pc104&quot;<br>(**) Option &quot;xkb_layout=
+&quot; &quot;us&quot;<br>
+(II) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event6=
+)<br>(II) No input driver/identifier specified (ignoring)<br>(II) config/ud=
+ev: Adding input device Kingsis Peripherals=A0 Evoluent VerticalMouse 3=A0 =
+(/dev/input/event4)<br>
+(**) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : always reports core =
+events<br>(**) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : Device: &q=
+uot;/dev/input/event4&quot;<br>(II) Kingsis Peripherals=A0 Evoluent Vertica=
+lMouse 3 : Found 9 mouse buttons<br>
+(II) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : Found scroll wheel(s=
+)<br>(II) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : Found relative =
+axes<br>(II) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : Found x and =
+y relative axes<br>
+(II) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : Configuring as mouse=
+<br>(**) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : YAxisMapping: bu=
+ttons 4 and 5<br>(**) Kingsis Peripherals=A0 Evoluent VerticalMouse 3 : Emu=
+lateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200<br>
+(II) XINPUT: Adding extended input device &quot;Kingsis Peripherals=A0 Evol=
+uent VerticalMouse 3 &quot; (type: MOUSE)<br>(II) Kingsis Peripherals=A0 Ev=
+oluent VerticalMouse 3 : initialized for relative axes.<br>(II) config/udev=
+: Adding input device Kingsis Peripherals=A0 Evoluent VerticalMouse 3=A0 (/=
+dev/input/mouse1)<br>
+(II) No input driver/identifier specified (ignoring)<br>(II) config/udev: A=
+dding input device AT Translated Set 2 keyboard (/dev/input/event1)<br>(**)=
+ AT Translated Set 2 keyboard: always reports core events<br>(**) AT Transl=
+ated Set 2 keyboard: Device: &quot;/dev/input/event1&quot;<br>
+(II) AT Translated Set 2 keyboard: Found keys<br>(II) AT Translated Set 2 k=
+eyboard: Configuring as keyboard<br>(II) XINPUT: Adding extended input devi=
+ce &quot;AT Translated Set 2 keyboard&quot; (type: KEYBOARD)<br>(**) Option=
+ &quot;xkb_rules&quot; &quot;evdev&quot;<br>
+(**) Option &quot;xkb_model&quot; &quot;pc104&quot;<br>(**) Option &quot;xk=
+b_layout&quot; &quot;us&quot;<br>(II) config/udev: Adding input device PC S=
+peaker (/dev/input/event5)<br>(II) No input driver/identifier specified (ig=
+noring)<br>
+(II) config/udev: Adding input device Macintosh mouse button emulation (/de=
+v/input/event0)<br>(**) Macintosh mouse button emulation: always reports co=
+re events<br>(**) Macintosh mouse button emulation: Device: &quot;/dev/inpu=
+t/event0&quot;<br>
+(II) Macintosh mouse button emulation: Found 3 mouse buttons<br>(II) Macint=
+osh mouse button emulation: Found relative axes<br>(II) Macintosh mouse but=
+ton emulation: Found x and y relative axes<br>(II) Macintosh mouse button e=
+mulation: Configuring as mouse<br>
+(**) Macintosh mouse button emulation: YAxisMapping: buttons 4 and 5<br>(**=
+) Macintosh mouse button emulation: EmulateWheelButton: 4, EmulateWheelIner=
+tia: 10, EmulateWheelTimeout: 200<br>(II) XINPUT: Adding extended input dev=
+ice &quot;Macintosh mouse button emulation&quot; (type: MOUSE)<br>
+(II) Macintosh mouse button emulation: initialized for relative axes.<br>(I=
+I) config/udev: Adding input device Macintosh mouse button emulation (/dev/=
+input/mouse0)<br>(II) No input driver/identifier specified (ignoring)<br>
+<br>(8) Squeeze with Sid nvidia drivers<br>
+
+--0015174be79edf7ba9048564522d--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2mb36d43c31004291130if215a171i437b2a31c293702a@mail.csmining.org
+
+

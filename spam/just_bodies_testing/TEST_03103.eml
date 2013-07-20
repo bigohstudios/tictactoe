@@ -1,0 +1,31 @@
+Re: PDF grief - was Re: Flash is open?On Fri, May 14, 2010 at 07:14:18AM -0400, John A. Sullivan III uttered:
+> On Fri, 2010-05-14 at 06:52 +0000, Camaleón wrote:
+> <snip>
+> > Look at PDF. PDF became a ISO/IEC standard but we (at linux) still lack 
+> > for a PDF editor that can compete with Acrobat Professional.
+> <snip>
+> That comment really strikes home.  We are working on a potential major
+> Windows desktop replacement project.  The two things that are absolutely
+> killing us are email and a viable substitute for Acrobat Standard.  We
+> can roughly mimic everything Acrobat does but only with create
+> complexity, taking ten times longer to get it done, using several
+> applications in the process, having less than comparable results, and
+> making the process detestable to the end users who wonder why would
+> anyone give up Windows for this.  There are couple of admirable efforts
+> out there but they have a very, very long way to go - John
+
+There are competing products to Acrobat Standard; they're not free
+though. But the problem is not that other's can't; it's just that most
+people don't realize what a complex bit of software engineering
+developing a PDF editor is; if it's to be useful at all.
+
+Check out acrobatuser.com where vendor products for Acrobat other than
+just Adobe are often reviewed/discussed/used.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514115106.GC21487@google.com
+
+

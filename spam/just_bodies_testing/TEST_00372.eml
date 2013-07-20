@@ -1,0 +1,30 @@
+Re: [ILUG] ADSL, routers and firewallsHey there,
+Im using the standard ADSL package
+With the speedtouch usb modem
+
+I have a 3 machine network(it was a 4 machine till my laptop crapped out)
+Anyway
+I have a dedicated linux server running debian 3.0 with the ADSL modem
+plugged directly into it.
+I have a 5 port switch connecting the home net, all have their own 10/100 nic.
+The server runs my firewall/net gateway/etc.
+And I have some firewall rules for masquerading 
+which shares the connection over the lan just nicely.
+
+Once the machine is configured for adsl  (thats the tough bit)
+the network stuff is quite easy.
+
+I found that to be the simpelst way to go.
+
+
+-- 
+
+Redbrick - Dublin City University Networking Society
+Declan McMullen - Education Officer
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

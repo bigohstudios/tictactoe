@@ -1,0 +1,36 @@
+RE: How to schedule for a repeated task?> From: d.sastre.medina@csmining.org [mailto:d.sastre.medina@csmining.org]
+> Sent: Sunday, May 02, 2010 3:47 AM
+> 
+> On Sun, May 02, 2010 at 10:11:43AM +0100, hadi motamedi wrote:
+> > Dear All
+> > I need to schedule for a repeated task on my Debian server, as the
+> > followings:
+> > -) Telnet to a remote node
+> > -) Issue a command
+> > -) Capture the output in a log
+> > -) Logout from Telnet
+> > -) Wait for a prescribed time interval
+> > -) Then redo , but append the subsequent output in just on file
+> > Can you please let me know which options do we have to write such a
+> task?
+> > Thank you
+> 
+> Hello,
+> 
+> For that task, you want expect.
+> To schedule it, you need cron.
+> 
+> Regards.
+
+Yes, expect will work, but if you can use ssh, use it, it will be easier.
+Setup ssh to use RSA key for authentication, so it won't prompt for a
+password.  Then just execute "ssh username@remote.server somecommand" and it
+will run "somecommand" and the output will be sent back to you.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/015501caeaf1$5e206640$1a6132c0$@net
+
+

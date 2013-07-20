@@ -1,0 +1,91 @@
+X-Account-Key: account4
+X-UIDL: GmailId1283bcf7352b6a01
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: hibody@csmining.org
+Received: by 10.231.39.131 with SMTP id g3cs96143ibe;
+        Mon, 26 Apr 2010 13:29:32 -0700 (PDT)
+Received: by 10.115.135.20 with SMTP id m20mr5185423wan.54.1272313771924;
+        Mon, 26 Apr 2010 13:29:31 -0700 (PDT)
+Return-Path: <info@loadelementpush.com>
+Received: from sim18.similarpotmiddle.com (sim18.similarpotmiddle.com [173.205.233.211])
+        by mx.google.com with ESMTP id 16si216585wab.75.2010.04.26.13.29.30;
+        Mon, 26 Apr 2010 13:29:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of info@loadelementpush.com designates 173.205.233.211 as permitted sender) client-ip=173.205.233.211;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of info@loadelementpush.com designates 173.205.233.211 as permitted sender) smtp.mail=info@loadelementpush.com; dkim=pass (test mode) header.i=info@loadelementpush.com
+Message-Id: <4bd5f7aa.1002720a.2673.7a24SMTPIN_ADDED@mx.google.com>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=fd02; d=loadelementpush.com;
+ h=To:From:Subject:MIME-Version:Content-Type:List-Unsubscribe:Date; i=info@loadelementpush.com;
+ bh=sEiiehA0zO44r3+D6JTq/w9vV5s=;
+ b=FDYu/sQtWKCDTgsx8M3clW+dnh1tJ4KtFws0TtQzWRRsXzR1+XEs68c61j6XfqAlLlOdpcE2xvd1
+   jv6Wyr+EZNuXkfeMD4BAmBTAE5ssQDKeQbv3IDEtUCMJHQRLDp+V3f4K9w9WhfJhU/2p7wINafKo
+   YEXWkN4pLtyLqPhSQjs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=fd02; d=loadelementpush.com;
+ b=hiTJHLYM9/W3XxyJxKhesNJpupLpDDxaxrBN2dBkmHtB9DaaNsGjx1080vrNSmPal0N2o6XKkKBM
+   YPsznfAPHGC7bOG14f2nS96aPYJeJDph65G5dKlxSNNV1uLYnoJ22gF3z9IkFXBW+0KU7AWT14Y2
+   Y449qEw6gxkMHspFRKE=;
+To: hibody@csmining.org
+From: "Certified Training"<info@loadelementpush.com>
+Subject: Advance your training in medical billing
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+X-Code: nrodeDsLeuRzXKHex
+List-Unsubscribe: <mailto:unsubscribe@loadelementpush.com?subject=MAliYW50YW9AZ21haWwuY29t-21881>
+Date: Mon, 26 Apr 2010 13:29:30 -0700
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+
+
+
+<body>
+
+<center>
+
+<div style="font-family:Arial;width:617px;font-size:10px;padding:3px;margin-bottom:50px;">
+
+<div style="border:1px solid #6DA1AF;">
+
+<div style="font-size:20px;font-weight:bold;color:#ffffff;padding:5px;background-color:#6DA1AF;">
+Get started on a career with your medical billing degree
+</div>
+
+<div style="font-size:15px;padding:10px;">
+<a href="http://www.bonepaleeast.com/MAliYW50YW9AZ21haWwuY29t/b/21881/77263">Find the medical billing program that's best for you</a>
+</div>
+
+<div>
+<a href="http://www.bonepaleeast.com/MAliYW50YW9AZ21haWwuY29t/b/21881/77263"><img src="http://www.bonepaleeast.com/MAliYW50YW9AZ21haWwuY29t/a/21881/77263"  border="0"></a>
+</div>
+
+
+</div>
+
+
+
+<div style="font-size:10px;padding:3px;">
+To stop further mailing, <a href="http://www.bonepaleeast.com/MAliYW50YW9AZ21haWwuY29t/b/21881/77264">go here</a> or write: <br />
+PinpointMediaServices, 4255 E. Charleston Blvd. Suite D-345, Las Vegas, NV 89104
+</div>
+
+</div>
+</center>
+
+<div style="color:#ffffff;font-size:0px;margin-bottom:50px;">
+Issue status update for <a href="http://drupal.org/node/729454"></a> Post a follow up: <a href="http://drupal.org/comment/reply/729454"></a>#comment-form -Project: Drupal +Project: Drupal.org webmasters -Version: 6.15 +Version: -Component: other +Component: Other Category: support request Priority: normal Assigned to: Anonymous Status: active Updated by: gluestick gluestick Original issue: ------------------------------------------------------------------------ Monday, March 1, 2010 - 12:02 : gluestick I have Drupal working properly on my WAMP stack on my local machine. When I tried to deploy a staging/production Drupal installation on GoDaddy, the redirect URLs are not being set correctly causing the system to act dead. Example 1: (1) go to login screen: <a href="http://www.gluestick.com/pims/"></a> [1] (2) enter name and password (3) press "login" button (4) address bar shows " <a href="http://www.gluestick.com/pims/customerror/403?destination=node%2F1"></a>  " with status bar "Done" and a blank page. If I edit the address bar to my home page ( <a href="http://www.gluestick.com/pims/"></a>  [2]) I go there and have been logged in properly. Example 2: (1) go to a node: <a href="http://www.gluestick.com/pims/node/123"></a> [3] (2) click "Edit" (3) form entry screen is displayed properly <a href="http://www.gluestick.com/pims/node/123/edit"></a>  [4] (4) change field (5) click "Save" button (4) address bar shows " <a href="http://www.gluestick.com/pims/node/123/edit"></a>  " with status bar "Done" and a blank page. If I modify the address to the node again ( <a href="http://www.gluestick.com/pims/node/123"></a>  [5]) I go there properly and the changes have been saved. So the actions are happening appropriately, but the subsequent URL (where to go next) is not being sent back to the browser correctly. Navigating through links and buttons that specifically identify a URL work properly -- only problems at the end of a button action that sets a new URL. There is a lot of discussion about getting Clean URLs to work on GoDaddy, but I don't think that is the problem. The redirect URL is either not getting set at the end of an action, or the new page is not getting sent to the browser. Questions: - How is the URL set to go *AFTER* the buttons are pressed? - Why is this working on localhost and not on GoDaddy? - Is there some trick about Linux Shared Host configuration on GoDaddy that someone knows about? Thanks. [1] <a href="http://www.gluestick.com/pims/"></a> [2] <a href="http://www.gluestick.com/pims/"></a> [3] <a href="http://www.gluestick.com/pims/node/123"></a> [4] <a href="http://www.gluestick.com/pims/node/123/edit"></a> [5] <a href="http://www.gluestick.com/pims/node/123"></a> _______________________________________________ webmasters mailing list webm ... @drupal.orgg <a href="http://lists.drupal.org/mailman/listinfo/webmasters"></a>  
+
+Hi All, I personally think point three of Karen's email is a good idea, as Evergreen does use a fair bit of Mozilla's XULrunner as its backbone. But I would also like to add, we could as a community put on Evergreen 's OPAC a logo which combine both, the Evergreen logo and the Mozilla logo, which we could put at the bottom of the OPAC screen where the current logo is. I have included a copy of my idea in JPEG (.jpg) format attached to this email for comment, or ideas. Cheers, Joel Joel Harbottle Library Services Officer LCG Library ----- On Tue, Jun 16, 2009 at 4:57 AM, Karen Schneider < kg ... <a href="http://esilibrary.com"></a> > wrote: Dear folks, three questions have come up, and as you are the community your input is advised. 1. For the conference videos (being processed right this very moment, actually), several video sites ask about licensing. Is Creative Commons Attribution Share-Alike all right? 2. Also, are you all ok with the Internet Archive for the conference videos? It's free, files can be almost 2 gigs (which is about 50 minutes of an mpeg2 file, or about your average talk), and their goals seem at least congruent with Evergreen 's. 3. As you may have read earlier, the Mozilla Foundation has listed Evergreen as a featured software on its site. The foundation has also asked if Evergreen would be interested in including the 'Powered by Mozilla' logo on its site. You can see the logo at: <a href="http://www.mozilla .org/poweredby"></a> Your thoughts? -- -- | Karen G. Schneider | Community Librarian | Equinox Software Inc. "The Evergreen Experts" | Toll-free: 1.877.Open.ILS (1.877.673.6457) x712 | kg ... <a href="http://esilibrary.com"></a> | Web: <a href="http://www.esilibrary.com"></a>
+
+Top level dir: ./configure && make Fell at the first fence - I can't find a configure file in \qtsharp, \qtsharp\src, \qtsharp\src\binge etc... Cheers, Martin -----Original Message----- From: Adam Treat [mailto: many ... <a href="http://yahoo.com"></a> ] Sent: 29 June 2004 23:01 To: KDE bindings for other programming languages; qtcs ... @lists.sourceforge.nett Subject: [Kde-bindings] Primer on building/using Binge and the generated newQt# bindings On Tuesday 29 June 2004 5:31 pm, Martin Welch wrote: I've started to look through the code -- GlueStick .cs fascinated me for some reason -- but I'll await your howto before I go any further. Thanks again. Martin Here is the quick overview of howto compile, generate and test Binge code: Assuming you have latest release Mono, Pnet, Qt etc, etc You'll have to manually edit a few files after they've been generated and move around the resultant .so and .dll files.. Top level dir: ./configure && make This will proceed for awhile, first building Binge and then using Binge to generate the newlibqtsharp C++ glue library and then proceed to compile that... It'll error on src/newlibqtsharp/QFontDialogGlue.cpp. This is because the api.xml file I'm using is months old and the new Qt version makes some of this files methods private. 1) Edit QFontDialogGlue.cpp and remove the offending methods: eventFilter, updateFamilies, updateStyles, updateScripts, and updateSizes. 2. Finish compiling newlibqtsharp and then the build will move on to generating the bindings in newbindings... 3. You'll see an error in QMessageBox regarding the property 'TheIcon'. Remove the 'override' keyword from this generated file and then issue a 'csant' command in newbindings. This is because of some nasty swings in the inheritance tree for this particular prop... 3. If you forget and issue a 'make' command instead of 'csant' it'll throw a bunch of errors because of this bug in mcs: <a href="http://bugs.ximian.com/show_bug.cgi?id=60603"></a>  That's why you use pnet's cscc via the generic 'csant' command :) 4. Ok, now you are almost done and ready to go. Copy the libnewqtsharp.so* files in newlibqtsharp into "newexamples/samples/" and do likewise for the NewQt.dll in newbindings. Go into newexamples/samples and issue another 'csant'. 5. You can invoke the examples with 'mono hello.exe' or 'ilrun emit.exe' to see how they work. That's it for now. I have some modifications in my local tree that aren't quite ready for primetime, but they enable full virtual/override inheritance goodness. Oh, and you can see the list for a few modifications we are still going to make for the signal/slot stuff. It is quite complete now, but we're thinking of some magic so we can omit the emit call ;) KDE bindings are on the way as soon as we can get caught up. Cheers, Adam _______________________________________________ Kde-bindings mailing list Kde- ... @kde.orgg <a herf="https://mail.kde.org/mailman/listinfo/kde-bindings"></a>  
+</div>
+
+
+</body>
+</html>
+
+
+
+

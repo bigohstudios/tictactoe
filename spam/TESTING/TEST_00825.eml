@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId128608e70af2fa07
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs251671wfj;
+        Mon, 3 May 2010 16:44:28 -0700 (PDT)
+Received: by 10.143.136.2 with SMTP id o2mr2085493wfn.94.1272930267630;
+        Mon, 03 May 2010 16:44:27 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 42si6654926iwn.39.2010.05.03.16.44.27;
+        Mon, 03 May 2010 16:44:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@yahoo.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id B7A4D1BE9326A
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 16:44:26 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id B3462275C415C
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 16:44:26 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 3654B275C40AB
+	for <augd@lists.apple.com>; Mon,  3 May 2010 16:44:19 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 17B39D34F30F
+	for <augd@lists.apple.com>; Mon,  3 May 2010 16:44:19 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-b6-4bdf5fd231bf
+Received: from web52103.mail.re2.yahoo.com (web52103.mail.re2.yahoo.com
+	[206.190.48.106])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	F6.F3.05834.2DF5FDB4; Mon,  3 May 2010 16:44:18 -0700 (PDT)
+Received: (qmail 99087 invoked by uid 60001); 3 May 2010 23:44:18 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024;
+	t=1272930257; bh=rBV+JTRJZKQAinZZ9M9nSoUlb8MSHySWzlhtY/nd+go=;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+	b=y6OpmiJ+lAkfmg0ioFiMCLFkh2TEWQiO8avmxQ3WHYiHshh74QrVljdUpbVv6Ty94QehaR9SBnGBKNgNT0vPJ/XLknaGiEC9c0LwwMnSTL3HqiEbzopEd/0Kz5Ba6WjlBgdi/iL+M+pO5/TJMsi9ogNoAgRHs6JhsyHehvFSsrM=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:References:Date:From:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+	b=6KJWL3pAYaMc/8xk9QJzy98gRuHZ9cZG1CgTfIEtvYTZW3mMMWk4PDZpl249CMKz4bdXafij5Llm6ZdDoKnECjocSZZqZWHguB4lhU3o/DbE+i/XVAejeUnmsKhZBKmJYizREVf3VnLBvRxImHDggzhmv4p9fL3uH8NubIODhzQ=;
+Message-ID: <960247.98541.qm@web52103.mail.re2.yahoo.com>
+X-YMail-OSG: CAHfZK8VM1nZrnkZQjqC5K_Hlt8MCLHQ5JyNeLS09fhl2GP
+	j43DANYSWOS6vmtHI7fGxZTQnadwBB3wuKkmPzgtDMrt66kL.XTyOQYGPHEU
+	11elnpYAv1mg4XWa7Q3KF4dgeUosUIPgK5Fk4ClraYQchyfuDhkxAUCdfbdF
+	T4bVc0V64Qb7_9MVPSNrdJO7SpdyoGhS5SACLTufklqedzE30BCvU_II.6_U
+	DEVNgjPUpkPo0FLGWrSDueg.lqUJqB98_Xuqh6Wk5MqQkhIdyt2gOoxhma7J
+	zODp8ZmQe11UIP6fKnSpws00EEVdzVBPkNj5O0LaPWpljmEzeolNuqR9s5Je
+	yK0HAhOMe7MN1BqX1KW8-
+Received: from [69.105.118.224] by web52103.mail.re2.yahoo.com via HTTP;
+	Mon, 03 May 2010 16:44:17 PDT
+X-Mailer: YahooMailRC/348.5 YahooMailWebService/0.8.103.269680
+References: <20100503113211.AD576275667F3@lists.apple.com>
+Date: Mon, 3 May 2010 16:44:17 -0700 (PDT)
+From: claudia crask <sfcutters@yahoo.com>
+Subject: AUGD: Free Ride for Board Members?
+To: augd@lists.apple.com
+In-Reply-To: <20100503113211.AD576275667F3@lists.apple.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Brightmail-Tracker: AAAAAwzExQIT76AEE/BAEw==
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I hope at some point that as this topic settles itself out that one of the things that comes from it is that we all were able to hear from a number of leaders and we listened to each other.
+
+Something to keep in mind, is that no one involves themselves in User Group leadership without giving of their time and energy, and invariably hearing more loud complaints than a hail of Thank Yous. I have been actively training myself to ignore the loudness of the negative, yet pick up details for improvement - very very hard for me, and be more grateful for the more subtle acts of gracious gratitude.
+
+I am really grateful for all the statements but particularly my colleague Michael Horton's of LAFCPUG, and the previous message that yes the FCPUG's are in a league of our own. I also agree with Michael that it is not because we are some huge corporation, but rather because of the dedication of many savvy, honest, and dedicated leaders and an amazing group of people worldwide who are happy to participate. Our members generally really like what they are doing - either as a profession, or a rather expensive hobby - and seek to learn how to do it better.
+
+some things you will find that are typical for the FCPUG Network groups:
+
+we talk to each other
+
+we find incredibly inexpensive ways to do everything - bottom line, if you don't spend, you don't need $$
+
+we genuinely like each other, we love to get together, most editors work alone, UG meetings awaken the social
+
+we don't complain about what Apple does or doesn't do, we just like their products and are pretty shameless
+
+we are open to different ways of doing things, new technologies, and are always looking for the FCP compatibility
+
+some groups have democratically elected leaders, most don't : it really depends on what each group wants to do.
+
+we look for what works, share what we can, and make positive referrals within our groups and between them
+
+When Kevin Monahan established SF Cutters over ten years ago, his motto then and still is "Share the Love" maybe that is San Francisco, but it still works for me.
+
+My hope is that people do this because it makes them happy to do it, and not one more burden on their backs.
+Apple products have always been cool, are still setting trends, and for me and my colleagues I think it is enough just to keep up with the news of how it works, the possibilities of how to do it better, and how to help everyone tell their stories in whatever context that may be, and in the process broaden all of our horizons.
+
+Have a great day, and thank you for the opportunity to learn more about you, and connect names with the groups you lead.
+
+Best wishes,
+
+Claudia Crask
+SF Cutters
+sfcutters@yahoo.com
+
+
+
+      
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281814e5655453d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs43179wfj;
+        Mon, 19 Apr 2010 15:00:58 -0700 (PDT)
+Received: by 10.223.27.151 with SMTP id i23mr369058fac.104.1271714342314;
+        Mon, 19 Apr 2010 14:59:02 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p9si470390fkb.3.2010.04.19.14.59.01;
+        Mon, 19 Apr 2010 14:59:02 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5CCEF13A4E6C; Mon, 19 Apr 2010 21:58:57 +0000 (UTC)
+Old-Return-Path: <clivemcbarton@web.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.0 required=4.0 tests=IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id DA60113A49A9
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 21:58:51 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_2=1, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gX0FXrzVfKeT for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 21:58:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from fmmailgate03.web.de (fmmailgate03.web.de [217.72.192.234])
+	by liszt.debian.org (Postfix) with ESMTP id 6AFFB13A4DD8
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 21:58:44 +0000 (UTC)
+Received: from smtp05.web.de (fmsmtp05.dlan.cinetic.de [172.20.4.166])
+	by fmmailgate03.web.de (Postfix) with ESMTP id 69F7114DD5589
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 23:58:42 +0200 (CEST)
+Received: from [213.39.164.129] (helo=[192.168.178.29])
+	by smtp05.web.de with asmtp (TLSv1:AES256-SHA:256)
+	(WEB.DE 4.110 #4)
+	id 1O3yzK-0000a1-00
+	for debian-user@lists.debian.org; Mon, 19 Apr 2010 23:58:42 +0200
+Message-ID: <4BCCD26B.4020408@web.de>
+Date: Tue, 20 Apr 2010 00:00:11 +0200
+From: Clive McBarton <clivemcbarton@web.de>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100329)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?
+References: <p2q631fe46c1004151106k67c61faxe809a17d576affef@mail.csmining.org> <h2l631fe46c1004151802r92941076qf14c0f8bacbb76de@mail.csmining.org> <4BC934A7.3050808@web.de> <slrnhsjcc4.bu7.liam.p.otoole@dipsy.selfip.org> <4BCCC8EB.8000702@web.de> <4BCCCC25.9000401@cox.net>
+In-Reply-To: <4BCCCC25.9000401@cox.net>
+X-Enigmail-Version: 0.95.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Sender: clivemcbarton@web.de
+X-Sender: clivemcbarton@web.de
+X-Provags-ID: V01U2FsdGVkX1+3veFQ/9fF4Nfwgf0zR4Qght/A6ahRzDNvwyw3
+	q0yJX0/S+bj4Fes/Mdm9AInki1YctwoLP6jApNBLzTQq23u4RF
+	GUrxPhXQiK05lwi5J2iA==
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Ob3OKxVuXHL.A.ifH.hINzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574492
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 21:58:57 +0000 (UTC)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ron Johnson wrote:
+> On 2010-04-19 16:19, Clive McBarton wrote:
+> [snip]
+>>
+>> How come there is no link anywhere on debian.org pointing to
+>> debian-multimedia.org? Anything to establish a chain of trust. As it is,
+>> I looked and looked but didn't find. Even when searching for
+>> "multimedia" on debian.org, it does not mention debian-multimedia.org at
+>> all. Not even when searching for "debian-multimedia". Every new debian
+>> user trying to verify the credibilitiy of debian-multimedia.org would
+>> have given up at this point for sure.
+> 
+> Google is pretty darned ubiquitous, and has been for 8+ years.
+> 
+> Putting "Debian play" in the FF/IW search bar auto-completes "debian
+> play encrypted dvd", and each of the first 5 links mentions d-mm.o.
+
+Yes, google (and all other search sites) quickly lead to d-m. But what
+does this really prove? We all know that google (and all other search
+sites) are far from immune against finding malware sites. Example:
+google "windows multimedia". On the first page of results, half the hits
+are sites with pretty dubious names. I wouldn't be surprised if some of
+them actually distributed malware.
+
+Linux is generally better protected against malware as Windows, but this
+ is one vulnerability that is common to both: if you install anything
+from an untrusted repo, and if that repo had malware, you're toast.
+
+> "Mentioned" does *not* mean "endorsed".  Never has, never will.
+
+> d-mm.o is not an official Debian site, so it's nor mentioned anywhere 
+> except his personal page and the list archives.
+
+I understand that point of view. But it is a point of view that will
+make people stay away from d-m (and pretty much all other repos for that
+matter).
+
+It would help a lot if the key of d-m (package
+debian-multimedia-keyring) was in the debian repos, not just the d-m repos.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvM0msACgkQ+VSRxYk440+0dwCgj57XNX8Clqcwiib5Hln1HxVZ
+k1wAoOxWT7C1A2xQ6N4kWSl0rs2Z3/l5
+=+WNb
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCD26B.4020408@web.de
+
+

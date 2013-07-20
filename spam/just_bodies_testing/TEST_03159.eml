@@ -1,0 +1,34 @@
+Re: FromIn message <200210091925.g99JPGfJ001534@fsck.intern.waldner.priv.at>, Robert 
+Wa
+ldner said:
+> 
+> 
+> On Wed, 09 Oct 2002 14:43:32 EDT, Kevin Kenny writes:
+> >> 3)  You can learn to use procmail,
+> 
+> >Can this be done via .forward?
+> 
+> make your .forward contain only the following line:
+> "|/usr/bin/procmail"
+>  (incl. the quotes, your procmail binary may be in another path)
+> 
+Check the procmail documentation.  They actually recommend:
+
+"|IFS=' '&&p=(PATH/TO/PROCMAIL)&&test -f $p&&exec $p -f-||exit 
+75#(UNIQUE_STRING)"
+
+I don't know what this does, but it is explained in the doc.
+-- 
+Jim McMaster
+mailto:mcmasjc@tatanka.stortek.com
+
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

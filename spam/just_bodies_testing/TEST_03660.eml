@@ -1,0 +1,153 @@
+Re: backing up LVM volumesOn Sun, 2010-05-09 at 18:11 +0200, Bernard wrote: 
+> Chris Davies wrote:
+> > Bernard <bdebreil@teaser.fr> wrote:
+[snip]
+
+> >   
+> >> So, what should I do so as to backup my system ?  I once tried 'dd', but 
+> >> I think I remember it took forever [...]
+> >>     
+> >
+> > Without the bs argument you would have been reading the disk 512bytes
+> > at a time. Try bs=1000k for better throughput.
+> >   
+> I tried 'dd' again. It seems more promising, since it does backup 
+
+dd is not a backup tool for running systems
+
+> everything. files are huge (about same size as the original partition, 
+> including empty space), but, in the end, it barely takes more than one 
+> hour for each of my 64 GB partitions. (By the way, I kind of recall 
+> having stated somewhere that my partitions were 200 GB in size, but I 
+> was wrong.  I have two internal hard drives of 80 GB each). My 
+> partitions are :
+> 
+> /dev/sda1 and /dev/sdb1 => assembled onto a RAID 1 array as /dev/md0 
+> (boot partition) (about half of a GB)
+> 
+> /dev/sda2 and /dev/sdb2 => assembled onto a RAID 1 array as /dev/md1 and 
+> also as /dev/mapper/vg00-root (about 64 GB each)
+> 
+> /dev/sda3 => fat32 partition, with MSWIN XP installed on it (10 GB)
+> >   
+> >> I don't really know whether I would have been able to use the resulting
+> >> file to successfully restore the partitions if needed.
+> >>     
+> >
+> > How do you know any of your backups work? Test them!
+> >   
+> 
+> Sure !  Not so easy though !  To carry such test, you ought to have 
+> enough space available, unless you carry mini tests on small partitions.
+> 
+> This time, I think I have what I need. I purchased yet another external 
+> HD, with a capacity of 500 GB, and, after I had erased whatever it 
+> contained for use under MSWIN, I created four partitions using 'cfdisk', 
+> all Linux. Then I formated them to ext2 using 'mkfs -t ext2..' (mkfs -t 
+> ext2 /dev/sdc1, mkfs -t ext2 /dev/sdc2, .. ,mkfs -t ext2 /dev/sdc4) 
+
+What is the aim of formatting the disk this way. Why not have a single
+partition and backup into there, into some sort of directory structure
+like <mntpoint>/YYYYMMDD/
+
+> Next, I launched 'dd' as follows :
+> 
+> /mnt/sdc4/# dd if=/dev/sda1 of=sda1_04_10.img
+> 
+> Don't know if this was the best way to do, in any case I did just that. 
+> It only took a few minutes, since that partition is only half of a GB 
+> long. Then I attempted to restore the saved partition onto another 
+> partition of my external HD:
+> 
+> /mnt/sdc4/# dd if=sda1_04_10.img of=/dev/sdc2
+> 
+> This being done, and after unmounting/re-mounting the devices, I found 
+> that /dev/sdc2 was indeed a copy of /dev/sda1...
+> 
+> BUT...
+> 
+> I must say that my original /dev/sda1 was my 'boot' partition. As such, 
+> the RAID/mdadm programs did not create a LVM system ; it kept using the 
+> original ext3.
+
+great you used DD to backup a filesystem that isn't/doesn't change.
+Waste of space using DD
+
+> 
+> Once this was achieved, I carried on with another partition (sda2). This 
+> one was about 64 GB in size.
+> 
+> /mnt/sdc4/# dd if=/dev/sda2 of=sda2_04_10.img
+> 
+> Next morning (but I figured that the process only took a little more 
+> than one hour), I attempted to restore said partition into /dev/sdc4
+> 
+> /mnt/sdc4/# dd if=sda2_04_10.img of=/dev/sdc1
+> 
+> the result of restoring the partition sda2 onto the sdc1 partition of my 
+> external disk, was not the same as that obtained in restoring sda1 onto 
+> sdc2. I can't read, or even mount sdc1 :
+
+I wonder why.... in 1 hour the filesystem would have been used so the
+initial part of the backup would have been done whilst the fs was in one
+state and the last part of the backup whilst it was in a different
+state.
+
+
+> 
+> root@new-host:/home/bd# mount /dev/sdc1 /mnt/exthd
+> mount: unknown filesystem type 'lvm2pv'
+> root@new-host:/home/bd#
+> 
+> So, my hard disk partition sda2 has been restored from its image, onto a 
+> lvm2pv logical partition.
+> 
+> Now, my question is :  what can I do with this partition so as to 
+> restore something useful ?  In case something crashes on my desktop, I 
+> imagine that, after replacing one or both hard disks, I would just have 
+> to partition and then use 'dd' to restore both sda1 (as ext3 RAID array) 
+> and sda2 (as LVM RAID array) and that the rest would follow 
+> automatically upon reboot ?  Do you confirm this ?
+
+if you really must use dd which is not a backup utility. you have to
+stop all the processes and mount all the filesystems as read only.
+
+in fact install another os on the 500G drive, that just does the backup
+of the original system to the 500G drive.
+
+maybe have a look at http://www.mondorescue.org/
+
+> 
+> But, as a matter of testing, what can I do ? Using 'mdadm', can I 
+> re-create a RAID array /dev/md1 or/and /dev/mapper/vg00-root ?
+> How shall I do that, supposing that I have obtained two similar 
+> partitions (sda2 and sdb2 imaged and restored on two partitions of my 
+> external HD ?  I attempted to manage with the 'mdadm' man pages, but 
+> this is not very obvious to me
+
+I accept the fact that if I loose my system I am going to have to
+partially build a new system, install the base system.
+
+I have kept copies of my apt/dpkg db for restoration if need and I use
+rsync to backup all of my files (except for obvious things like /dev),
+this backups to a compressed fuse fs so I get compression as well,
+incremental backups.
+
+another tool to look at is tar
+
+Alex 
+> 
+> >
+> >
+> >   
+> 
+> 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273439063.18606.10.camel@alex-mini.samad.com.au
+
+

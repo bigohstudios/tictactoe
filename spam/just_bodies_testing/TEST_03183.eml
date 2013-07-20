@@ -1,0 +1,31 @@
+Re: central managementOnce upon a time, Brian wrote :
+
+>     I was thinkinf about an addition of another file: apt-repositories.
+>     Stick it on apt.freshmeat.net (the center of the apt universe, IMHO)
+>     and every time a new repository is added, the RPM can be rebuilt. 
+>     Heck, if I could get out of my depression, I could make the whole
+>     submission process automated....even making the RPM...
+
+Well, I already keep a list of known apt repositories on
+http://freshrpms.net/apt/ although I haven't added the ones that were
+talked about lately (actually I've been very busy over the week-end and I'm
+sick right now...).
+
+You could make the whole submission automated, even making the rpm?
+<subliminal message>
+http://rpmforge.net/ needs *you*!
+</subliminal message>
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,22 @@
+Re: [ILUG] RH7.3 on Cobalt - the saga continuesOn Tue, Aug 13, 2002 at 10:03:14AM +0100, Damian O' Sullivan mentioned:
+> But how did you get to the prom on it? I have an assortment of qubes and
+> raqs here and they have lcd displays but I see no way of entering commands
+> that way. You using a serial cable or something?
+
+ Yep.
+
+ Power on the box while pushing the recessed button near the LCD with a
+paper clip. On the serial console, you'll see "press space to enter the
+prom".
+
+ It's a crap prom, but a prom, nonetheless.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

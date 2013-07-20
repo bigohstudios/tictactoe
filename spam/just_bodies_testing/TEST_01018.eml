@@ -1,0 +1,9 @@
+[Spambayes] test sets?> I believe the SpamAssassin maintainers have a scheme whereby the corpus
+> of non-spam is distributed, ie. several people have bodies of non-spam
+> that they use for collectively evolving the SA score set.  If that
+> sounds vague, it matches my level of understanding.
+
+See if you can get a hold of that so we can do a level-playing-field
+competition. :-)
+
+--Guido van Rossum (home page: http://www.python.org/~guido/)

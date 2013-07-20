@@ -1,0 +1,164 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284fd8c8ee12472
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs109429wfj;
+        Fri, 30 Apr 2010 10:52:07 -0700 (PDT)
+Received: by 10.223.17.150 with SMTP id s22mr1601052faa.14.1272649926888;
+        Fri, 30 Apr 2010 10:52:06 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si3448855fks.20.2010.04.30.10.52.06;
+        Fri, 30 Apr 2010 10:52:06 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id AD29413A4920; Fri, 30 Apr 2010 17:51:55 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-13.0 required=4.0 tests=CAPINIT,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 180BC13A48CB
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 17:51:50 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id NbeKjz7XQO52 for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 17:51:42 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 764E513A48BA
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 17:51:30 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1O7uN1-0000ga-Ew
+	for debian-user@lists.debian.org; Fri, 30 Apr 2010 17:51:27 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: Aptitude Error
+Date: Fri, 30 Apr 2010 12:54:57 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.31.12-0.2-default; KDE/4.3.5; x86_64; ; )
+References: <y2xb36d43c31004300328m9fe16e64ldeddc780a0dbb397@mail.csmining.org> <201004301044.31771.bss@iguanasuicide.net> <y2ub36d43c31004301010r4538975bxd54a164d759951ba@mail.csmining.org>
+In-Reply-To: <y2ub36d43c31004301010r4538975bxd54a164d759951ba@mail.csmining.org>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?iso-8859-15?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSK?=
+ =?iso-8859-15?q?VkSKVkSKVkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrX?=
+ =?iso-8859-15?q?bgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAA?=
+ =?iso-8859-15?q?I0SURBVDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRT?=
+ =?iso-8859-15?q?knZsOlyn8DhAHZj=0A=093iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdP?=
+ =?iso-8859-15?q?wxCGbzkbIsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs=0A=09pY2lNMM?=
+ =?iso-8859-15?q?z2FMIOurZpREz4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKr?=
+ =?iso-8859-15?q?vHC+eDauR7oWn2=0A=099cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X?=
+ =?iso-8859-15?q?1KJxybF0zhLwsnsyJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096GudSNWT0?=
+ =?iso-8859-15?q?NXblkVuwjBlkWVJrmaAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ?=
+ =?iso-8859-15?q?7VIIiKVYmUnJiyr=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ks?=
+ =?iso-8859-15?q?KF6ESMFERfOpfZiTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNr?=
+ =?iso-8859-15?q?HHeCJMyuaujMNdktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6?=
+ =?iso-8859-15?q?OJEzN41d5VtqG=0A=0901oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnP?=
+ =?iso-8859-15?q?OnUAfY6NR3iGYSu4qJfPTbS5oo9tOUMHbdKE23oTci=0A=093cBil8dto?=
+ =?iso-8859-15?q?GZk0BF2Yq35wSeWvYeT2EE/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyy?=
+ =?iso-8859-15?q?RfV6k76A93l6G=0A=098GbPEj2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3A?=
+ =?iso-8859-15?q?RhvDfGP4AtLxO3F/uHbUAAAAASUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2494014.u28UznbIan";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004301255.03070.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <oS_BEJ7lIXG.A.Fd.7ix2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575571
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 17:51:55 +0000 (UTC)
+
+--nextPart2494014.u28UznbIan
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 30 April 2010 12:10:45 James Stuckey wrote:
+> On Fri, Apr 30, 2010 at 5:44 PM, Boyd Stephen Smith Jr. <
+>=20
+> bss@iguanasuicide.net> wrote:
+> > On Friday 30 April 2010 06:16:22 James Stuckey wrote:
+> > > The unstable/sid doesn't have to be comment out. Setting the default
+> > >  release will keep the system tracked to, in this case, testing.
+> >
+> > Er, mostly.
+> >
+> > If there is a versioned dependency that can be satisfied from sid but n=
+ot
+> > testing, you will get the package from sid.  This shouldn't happen given
+> > the
+> > way testing is managed, unless you installed at least one package from
+> > sid.
+>=20
+> I installed eclipse from sid, since there isn't eclipse in testing.
+
+It may have pulling in some dependencies from Sid, then.
+
+I know the official line is to use '-t $something' as arguments to apt-
+get/aptitude for pulling in packages from Sid/experimental/backports, but I=
+=20
+think it is better to use the '$package=3D$version' format.  (After getting=
+ the=20
+version from something like (apt-cache policy $package).)
+
+My instinct is that '-t $something' effectively increases the priority of a=
+ll=20
+packages from the $something repository, which may make the dependency=20
+resolver pull more from that repository than is absolutely necessary.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart2494014.u28UznbIan
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.12 (GNU/Linux)
+
+iEYEABECAAYFAkvbGXYACgkQdNbfk+86fC2pEACgg9Tr1s1aYry2bBEacOjX+sJu
+X/oAnAthVRv8GUnTXDzPpQYgcVrUV0Vg
+=DnP8
+-----END PGP SIGNATURE-----
+
+--nextPart2494014.u28UznbIan--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004301255.03070.bss@iguanasuicide.net
+
+

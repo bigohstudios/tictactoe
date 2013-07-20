@@ -1,0 +1,66 @@
+Re: How to Find a Printer Driver?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 10 May 2010 16:17:32 Kent West wrote:
+> Brad Rogers wrote:
+> > On Mon, 10 May 2010 15:36:41 -0500
+> > Kent West <westk@acu.edu> wrote:
+> >
+> > Hello Kent,
+> >
+> >> I tried installing hpijs-ppds, but I still don't see the CM3530
+> >> listed; I do now see a Color Laserjet 3550 (without the CM, and not
+> >> the 3530), but who knows if that'd work? Not me.
+> >
+> > In Testing, the CM3530 is listed.  You might try pulling the hplip-data
+> > package from there, or wait for it to migrate.
+>=20
+> Okay. That scares me. This box used to run Sid, but then one update
+> killed my dual-monitor setup, and after about 6 months of fighting
+> trying to get it back, I finally rebuilt the box back to stable.
+>=20
+> I don't mind pulling in a package or two from Testing, but I'm unsure
+> how to do it without doing a wholesale dist-upgrade to Testing.
+
+It's generally referred to as a "mixed" system.  Most "mixed" systems are=20
+neither tested nor officially supported.  They can still be quite useful.
+
+Adding backports as a source is *almost* supported.  Backports is not an=20
+official service for Lenny, but I think there was some work to make it=20
+official for Squeeze or Squeeze+1.
+
+In practice, using stable/backports is _vastly_ superior to trying to use a=
+=20
+mixed stable/testing system.  Unless you've already been playing with pinni=
+ng,=20
+you should simply be able to add backports to your sources.list.  Only the=
+=20
+packages you specifically request from backports will be installed.
+
+> putting the testing lines below the stable lines so
+> the stable will still be the default,
+
+The order the lines appear in the file does not affect what versions of a=20
+package will be installed.  (It *might* affect which mirror is tried first,=
+=20
+but I don't think even that is guaranteed.)
+
+You'll want to look into (man 5 apt_preferences) if you want to run a mixed=
+=20
+system.  I also have some information at=20
+<http://www.iguanasuicide.net/node/4>.
+
+> then running "aptitude update",
+> then "aptitude install +testing hpijs-ppds" or something similar. Right?
+
+You should probably know how to do this before you consider moving to a mix=
+ed=20
+system.  There's (aptitude -t testing hpijs-ppds) and (aptitude hpijs-
+ppds/testing) which seem fairly similar but can do very different things.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

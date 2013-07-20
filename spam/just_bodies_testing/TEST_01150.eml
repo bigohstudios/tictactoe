@@ -1,0 +1,17 @@
+Re: Impossible to establish ppp-connection through cellar samsung.From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Sthu Deus wrote at 2010-04-23 06:47 -0500:
+> I have troubles with connecting cellar phone Samsung C3010 to Debian 5 de=
+sktop.
+> I have put into chatscript the correct for the manufacturer initializatio=
+n line, but it still does not work.
+
+I can't help you with chatscripts, but I have found that I often have to di=
+al=20
+#777 to make USB cell/3g modems work.  Also, I have had much more luck with=
+=20
+wvdial (which calls pppd) than just ppp.  I hope you are able to find a=20
+solution.

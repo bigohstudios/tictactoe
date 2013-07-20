@@ -1,0 +1,268 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285d0e29c7b6311
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs210565wfj;
+        Mon, 3 May 2010 00:25:28 -0700 (PDT)
+Received: by 10.142.60.14 with SMTP id i14mr7079983wfa.196.1272871528579;
+        Mon, 03 May 2010 00:25:28 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 6si6983184pzk.79.2010.05.03.00.25.28;
+        Mon, 03 May 2010 00:25:28 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 4954D1C4B4829
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 00:25:28 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 403FC2755B3BE
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 00:25:28 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 19A462755B3B1
+	for <Augd@lists.apple.com>; Mon,  3 May 2010 00:25:26 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 07EF3D101814
+	for <Augd@lists.apple.com>; Mon,  3 May 2010 00:25:26 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-33-4bde7a65884a
+Received: from oakford.webserversystems.com (oakford.webserversystems.com
+	[74.54.107.139])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	B7.91.15139.56A7EDB4; Mon,  3 May 2010 00:25:25 -0700 (PDT)
+Received: from 124-168-168-110.dyn.iinet.net.au ([124.168.168.110]
+	helo=[10.1.1.7])
+	by oakford.webserversystems.com with esmtpa (Exim 4.69)
+	(envelope-from <lists@nicholaspyers.com>) id 1O8q1r-0003W9-6t
+	for Augd@lists.apple.com; Mon, 03 May 2010 02:25:24 -0500
+Message-Id: <60CE49BD-2337-4C05-B692-700946DB1976@nicholaspyers.com>
+From: Nicholas Pyers <lists@nicholaspyers.com>
+To: Augd@lists.apple.com
+In-Reply-To: <z2raae88f271005022227w76e1d18fv22d1541d14047f2c@mail.csmining.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: Re: Re(4): AUGD: Free Ride for Board Members?
+Date: Mon, 3 May 2010 17:25:13 +1000
+References: <C7FF39E3.51ABA%augd@chrishart.net>
+	<94A402DF-9874-4154-8222-0BD5F594404C@mus.ch>
+	<20100430162512.1658598795@sendmail.Joiner.net>
+	<z2saae88f271004301657m1cbc6552nf528f7446c7572eb@mail.csmining.org>
+	<20100501145718.476178133@mail.mugcenter.com>
+	<y2taae88f271005011513y9872f3f6jc1bbef2a0dd63515@mail.csmining.org>
+	<4B24D9F1-5C33-494A-88DC-5CD365B20FAE@nicholaspyers.com>
+	<z2raae88f271005022227w76e1d18fv22d1541d14047f2c@mail.csmining.org>
+X-Mailer: Apple Mail (2.936)
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - oakford.webserversystems.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - nicholaspyers.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Brightmail-Tracker: AAAAARPvoAQ=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 03/05/2010, at 3:27 PM, Dave G wrote:
+>> Apple has saved itself... and as much as I believe User Groups did  
+>> a far
+>> better job of keeping the Apple Flag visible back in the '90's then  
+>> Apple
+>> itself did, that is no longer the case in the 21st Century
+>>
+>>> A User Group is neither a for profit enterprise or a cause.  It's a
+>>> non-profit group of people with a similar shared interest: a fan  
+>>> club.
+>>
+>> I agree that User Groups are now basically fan clubs... or social  
+>> groups
+>> that are bought together through a common interest of the devices and
+>> software that one company produces.
+>>
+>> But I disagree that a User Group can't be a "for profit"  
+>> enterprize... as
+>> there are groups out there that are exactly that - look at some of  
+>> the Final
+>> Cut Pro groups as a perfect example that works extremely well under  
+>> a "for
+>> profit" arrangement.
+>>
+> I respectfully disagree that a User Group can be truly "for profit".
+> As I stated, a for profit organization is out there to make money.
+> That's it's goal.  User Groups are designed to bring people together.
+> When looking at "what's good for the members" and "what makes money",
+> a for profit venture would decide on money.  While I'm sure it
+> wouldn't do something "bad" to it's members, ultimately by it's
+> definition it has to make a profit.  Nothing wrong with for profit
+> ventures, but to have someone volunteer in a for profit venture isn't
+> really volunteering.  It's giving of your time to make someone else
+> money.
+
+Making money is NOT a bad thing for User Groups to do.  Often the  
+thing that will make money will also be good for the members.
+And the money raised doesn't have to go back to individuals - it can  
+be plowed back in to the club itself and provide additional services  
+for the members.
+
+> I think the FCP groups are great, but are in a different league on
+> every level than Apple User Groups.  They have more in common with
+> Macworld and WWDC , IMHO
+
+I agree wholeheartedly that the FCP are currently in a slightly  
+different league to the 'traditional' User Groups.
+Part of that is because the adopted a very different approach to the  
+way they run themselves and the audience they target.
+They provide the services that their members want , yet the group  
+makes some money from it
+
+>> Every group that I have seen take that attitude isn't around  
+>> anymore, or are
+>> quite visibly killing themselves right now
+>>
+>>> Problem of course is, when you do what the members want, then you
+>>> aren't leading.  Don't expect anything to change if you do what the
+>>> existing members want.  You won't attract new members.  Eventually,
+>>> though attrition, your group dies out.  You'll be paralyzed by the
+>>> status quo
+>>
+>> Whilst I strongly advise all User Groups that they need to EVOLVE,  
+>> they
+>> don't need to be reactionary with changes. Evolution is a gradual  
+>> change.
+>
+> I think, respectfully that's an excuse.  When groups still debate
+> whether to support classic users, then it's gone from gradual change
+> to extinction.
+
+Oh, I agree 1000% with your statement about groups still debating to  
+support Classic Users... it is probably already to late for those  
+groups. They took toooooo long to evolve and will become extinct  
+sooner rather than later.
+
+But changes can't happen over night either.
+
+For example, there are hints that Apple are pulling back on their  
+support of Mac OS X... eg No Apple Designs Awards for Mac OS X  
+developers this year - yet they have a new category for iPad  
+developers already!
+
+So User Groups should be looking at supporting iPad users sooner  
+rather than later... and I said the same sort of thing 10 years when  
+Apple introduced Mac OS X... many groups then were slow to embrace Mac  
+OS X and they continued to inform their members who to perform certain  
+things under Classic rather than Mac OS X even after Steve Jobs held  
+the funeral for Mac OS 9... they were slow to evolve and many groups  
+weren't in a position to support new Apple users who never knew  
+Classic and only had Mac OS X on their shiny new systems.
+
+>>> Are printed newsletters and disks of the month emulating Apple's
+>>> behavior?  Or is it acting like Microsoft that STILL allows you to  
+>>> run
+>>> WordPerfect 5.1 for DOS on the newest and latest computers?
+>>
+>> There are still places for newsletters and Discs of the Month, even  
+>> in the
+>> 21st century... but again they need to be thought about  
+>> differently... and
+>> form part of an overall strategy of attracting the same sort of  
+>> customers
+>> that Apple themselves now target.
+>
+> Enlighten me.  I simply can't imagine a scenario where the ancient
+> discs of the month and printed newsletters make sense.  I know the
+> argument:  "Our members wanted printed newsletters",  "They are on
+> dialup and need these discs".  Is that leading?  Apple isn't targeting
+> people that don't have broadband internet connections.  They don't
+> even make phone modems anymore.  Those were discontinued.  These
+> aren't customers Apple wants to support or attract.  They want these
+> customers to enter the 21st century.
+
+The Disc of the Month is an entire separate topic that I'm planning on  
+covering in a few weeks times.
+
+But the main argument FOR newsletters and DotM is the internet is so  
+vast it is impossible to be aware of everything that is available out  
+there. Newsletters and DotMs can help point members in the right  
+direction for finding other resources
+
+Also, American's need to understand that not everyone has 'unlimited'  
+broadband internet access. Here in Australia we pay through the nose  
+for plans that have traffic quotas - some ISPs even count uploads as  
+part of that quota... some charge $150+ per gigabyte for 'excess'  
+usage... others throttle the connection speed down to a mere 64K if  
+you exceed the monthly quota... they even break the quota allowance up  
+into peak and off-peak times
+
+And I understand Australia is not unique in these practices.
+
+>> Then again, Apple itself isn't exactly democratic in the way it  
+>> appoints
+>> its' own board. The Board itself effectively nominates itself and  
+>> then
+>> shareholders ratify those nominations.... usually for the Board as  
+>> a block
+>> and not for individual nominees.
+>>
+>> And shareholders certainly don't get a say in the day to day  
+>> management of
+>> the company nor the projects that Apple work on and eventually  
+>> bring to
+>> market or even kill off before they get to market!
+>
+> Oh yes they do.  I'm a shareholder and get to vote on nominees.  I
+> always vote to remove Bill Campbell.  Intuit treats the Mac like a
+> second class citizen.  Topic for a different day.  As a shareholder I
+> also get to go to the annual meeting, start shareholder initiatives
+> etc.  It's much more democratic than the way User Groups are run.
+
+OK... I stand corrected.
+
+>>> I hope this leads to an interesting and much needed discussion  
+>>> that is
+>>> long overdue.
+>>
+>> hear, hear :)
+>
+> Alas, it would be nice if other voices join in.
+
+Agreed :)
+
+
+--
+Nicholas Pyers (nicholas@appleusers.org)
+Founder & Publisher, AppleUsers.org
+
+http://www.appleusers.org/
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

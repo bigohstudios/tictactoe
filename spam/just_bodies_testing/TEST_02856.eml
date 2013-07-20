@@ -1,0 +1,17 @@
+DADiskMountWithArguments() [bug???]While testing my dissenter daemon which is using the  
+DADiskMountWithArguments() function I have encountered several issues.
+
+1) any mounts executed as root user, the arguments are ignored.
+2) calling the DADiskMountWithArguments() function triggers the  
+registered approvalcallback function.
+
+
+-- Dale
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

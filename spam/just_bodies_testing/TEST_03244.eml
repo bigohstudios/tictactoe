@@ -1,0 +1,41 @@
+Re: sh command issueFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 30 April 2010 12:39:00 Gary wrote:
+> I have a php file used to make the build, and the file contains these
+> lines..
+>=20
+> 	system("g++ $files $incl $libs >& build.log");
+> #	system("g++ $files $incl $libs");
+>=20
+> The first line fails with an error "sh: Syntax error: Bad fd number".
+
+That's because ">& build.log" is a bash-ism.  If dash is installed as /bin/=
+sh=20
+(which is useful, since it executes the start-up scripts faster), you might=
+=20
+get this error.
+
+You probably want "> build.log 2>&1" which (one of?) the standard, POSIX/SU=
+S-
+compatible way of re-directing both stdout and stderr to a single file name=
+d=20
+"build.log".  The ">&" shortcut that bash has is nice, but it is not portab=
+le.
+
+The Single UNIX Specification, version 3 (and older versions) are available=
+=20
+for free from the owner of the UNIX trademark.  Those documents can tell yo=
+u=20
+what to expect from the shell on any certified UNIX system.  AFAIK, no Linu=
+x=20
+has been certified yet, but they still remain an excellent guideline for Li=
+nux=20
+systems.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

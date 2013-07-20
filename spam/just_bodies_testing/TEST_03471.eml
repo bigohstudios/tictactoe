@@ -1,0 +1,40 @@
+Re: Moving to Debian: updated softwareOn Thu, 22 Apr 2010 17:26:07 +0300, Dotan Cohen wrote:
+
+>> Unfortunately, the goals of always having the latest KDE and a stable
+>> distro are not compatible.
+>>
+>>
+> Not necessarily. KDE has a regular release schedule, with a point
+> release about once a month. I would consider a distro that included the
+> latest point releases stable in the sense of no (or few) beta software.
+
+It's hard for distributions to include the latest KDE SC available *and* 
+deliver it as "stable". Rolling distros (such Arch Linux), which are 
+always up-to-date, may fit better into this schema.
+
+(...)
+ 
+>> Have you asked other KDE contributors about their setups?
+>>
+>>
+> Yes, there is a lot of favour towards Mandriva and Suse. Kubuntu with
+> Project Timelord is also being mentioned. If I jump ship from a Debian
+> based distro, it will likely be to Suse.
+
++1 for openSUSE :-)
+
+But remember that openSUSE 11.2 is still including kde 4.3.5 under their 
+stable KDE repo. KDESC 4.4 is available under factory/testing repo.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.22.15.07.14@csmining.org
+
+

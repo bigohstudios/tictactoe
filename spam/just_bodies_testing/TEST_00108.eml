@@ -1,0 +1,59 @@
+Re: Bluetooth and runloops in a dedicated thread.Hello,
+
+I knocked all the code down to the single UI thread and I rediscovered why I need multiple threads. My Obj-C objects give KVC semantics to the bluetooth device. A getter is waiting on a thread signal for the arrival of requested data. The requested data will never arrive since the single thread is in a blocked state. I also now have to turn the bluetooth scanner off to open a connection to a discovered device!
+
+I don't see how to do the bluetooth communications in another process be non-trivial. Is there a simple approach to that?
+
+My next factoring will be to but the UI thread into a secondary thread, and let bluetooth own the main. Hopefully that will work.
+
+Dave
+
+
+On Apr 27, 2010, at 2:41 AM, Dave Keck wrote:
+
+>> I can easily share a single thread between all bluetooth devices. That will solve any multi-threading issues in the bluetooth services. Bluetooth installs itself as an NSRunLoop source, somehow. IOBluetoothValidateHardware used to do that, and the NSRunLoop had kept on running.
+> 
+> I recommend against using the Bluetooth APIs anywhere but the main
+> thread. There's been some past discussion on this list regarding
+> thread-safety and IOBluetooth, and it seems the Apple guys suggest
+> confining Bluetooth calls to the main thread, too. See:
+> 
+>    http://lists.apple.com/archives/bluetooth-dev/2007/Sep/msg00003.html
+>    http://lists.apple.com/archives/bluetooth-dev/2009/Sep/msg00003.html
+> 
+> With that said, much of the IOBluetooth APIs are asynchronous,
+> allowing you to specify a delegate to be notified when a particular
+> operation is complete. Are you sure you need the Bluetooth calls to
+> exist in their own thread? If so, spawn a helper process and put the
+> Bluetooth calls there. This is what I do in my own projects - it works
+> fine.
+> 
+>> I cannot have the BlueTooth library pick a runloop at random. Depending on configuration, this application may have a UI and/or may have a web-service. Bluetooth communications needs to be sandboxed into a designated RunLoop.
+> 
+> I'm not sure how a UI/web service/Bluetooth combination makes it
+> necessary that the Bluetooth calls exist in their own thread; as
+> mentioned, many of the Bluetooth APIs are non-blocking. If I were
+> writing this sort of combination program, I would either:
+> 
+>    1. put the UI/Bluetooth stuff in the main thread, and the web
+> service stuff in a separate thread, or
+>    2. put the UI stuff in the main thread, Bluetooth stuff in a
+> separate helper process, and the web service stuff in a separate
+> thread.
+> 
+>> How do I tell the Bluetooth library to install itself as a source on a specific runloop of a specific thread? If I need to start that thread in main, I'll do it!
+> 
+> Based on the links above, "make sure you do ALL Bluetooth related
+> activities on the first thread from which you call anything in the
+> Bluetooth stack." I think Jason would agree though, that that advice
+> is error-prone and should only be considered a last resort. That
+> advice was also given 2.5 years ago.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

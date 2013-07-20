@@ -1,0 +1,57 @@
+Re: Apt problemsOnce upon a time, Harri wrote :
+
+> On Wed, Feb 06, 2002 at 04:29:53PM +0200, Peter Peltonen wrote:
+> > Two issues:
+> > 
+> > --<snip>--
+> > Sorry, but the following packages have unmet dependencies:
+> >   openssh: Depends: openssl (= 0.9.5a) but 0.9.6b-8 is installed
+> >   php-pgsql: Depends: postgresql but it is not installed
+> >              Depends: libpq.so.2
+> > E: Unmet dependencies. Try using -f.
+> > --</snip>--
+> > 
+> > 1. I have the following openssl packages installed:
+> > 
+> > --<snip>--
+> > openssl-perl-0.9.6b-8
+> > openssl-0.9.6b-8
+> > openssl095a-0.9.5a-11
+> > openssl-devel-0.9.6b-8
+> > --</snip>--
+> > 
+> > The openssl095a package should provide the openssl-0.9.5a compatibility
+> > but apt doesn't think so? 
+> 
+> I believe that's just a matter of string parsing. If someone were to fix
+> the openssh package, removing the explicit Requires:, I believe the
+> automagic binary handler would figure the right libraries to use and
+> install. I haven't met an openssh like that and in worst case I've had 3
+> different openssl libraries (WTF can't they just bump a major version if
+> it's incompatible?!?).
+
+Strange... all my openssh packages don't explicitly requires a version of
+openssl. What version of openssh do you have? Is it an official Red Hat
+package? I suppose it isn't, and using Red Hat's rpms will solve your
+problem.
+
+What you need to know for openssl is :
+0.9.5b is libcrypto.so.0 and libssl.so.0
+0.9.6  is libcrypto.so.1 and libssl.so.1
+0.9.6b is libcrypto.so.2 and libssl.so.2
+
+Now in all Red Hat packages I've seen so far, the only dependency is on
+those files and not on "openssl = version".
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

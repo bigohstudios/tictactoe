@@ -1,0 +1,96 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286c7ae8532ab00
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs377614wfb;
+        Thu, 6 May 2010 00:18:35 -0700 (PDT)
+Received: by 10.223.16.207 with SMTP id p15mr1014349faa.99.1273130314238;
+        Thu, 06 May 2010 00:18:34 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si1293237fkt.7.2010.05.06.00.18.33;
+        Thu, 06 May 2010 00:18:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 36B3D13A5163; Thu,  6 May 2010 07:18:32 +0000 (UTC)
+Old-Return-Path: <ana@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E837D13A4E73
+	for <lists-debian-kde@liszt.debian.org>; Thu,  6 May 2010 07:18:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id kdFwGHXA5XqV for <lists-debian-kde@liszt.debian.org>;
+	Thu,  6 May 2010 07:18:18 +0000 (UTC)
+Received: from ekaia.org (ekaia.org [109.74.204.229])
+	by liszt.debian.org (Postfix) with ESMTP id 926A413A4600
+	for <debian-kde@lists.debian.org>; Thu,  6 May 2010 07:18:18 +0000 (UTC)
+Received: from pryan.aurel32.net (localhost [127.0.0.1])
+	by ekaia.org (Postfix) with SMTP id 310C6124CE;
+	Thu,  6 May 2010 09:18:16 +0200 (CEST)
+Received: (nullmailer pid 30919 invoked by uid 1000);
+	Thu, 06 May 2010 07:18:07 -0000
+Date: Thu, 6 May 2010 09:18:07 +0200
+From: Ana Guerrero <ana@debian.org>
+To: "Boyd Stephen Smith Jr\." <bss@iguanasuicide.net>
+Cc: debian-kde@lists.debian.org
+Subject: Re: KDE 4.4.3 in unstable
+Message-ID: <20100506071807.GA30882@ana.debian.net>
+References: <20100505202449.GA26153@ana.debian.net>
+ <201005051621.23651.bss@iguanasuicide.net>
+ <201005060007.16669.suy@badopi.org>
+ <201005051813.50627.bss@iguanasuicide.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <201005051813.50627.bss@iguanasuicide.net>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-ZisZTKf8aO.A.uWE.I1m4LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32089
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 07:18:32 +0000 (UTC)
+
+On Wed, May 05, 2010 at 06:13:50PM -0500, Boyd Stephen Smith Jr. wrote:
+> 
+> These responses are quite frustrating.  I read Ana's post as "please make sure 
+> KDE 4.4 is ready for stable".  My post was "KDE 4.4 is inappropriate for 
+> stable".  All the replies have been "too bad, we are going to release it 
+> anyway".
+>
+
+No, you complain about something *specific* no the whole KDE 4.4, as I told 
+you, if you are able to develop a patch for it, there is plenty of time for 
+testing before freeze. Understand no everybody is annoyed about that.
+
+Ana
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506071807.GA30882@ana.debian.net
+
+

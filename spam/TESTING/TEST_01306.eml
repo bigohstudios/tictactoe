@@ -1,0 +1,166 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b4e362cd8bc5b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs7487wfo;
+        Thu, 20 May 2010 01:45:21 -0700 (PDT)
+Received: by 10.223.40.136 with SMTP id k8mr4201218fae.24.1274345120268;
+        Thu, 20 May 2010 01:45:20 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si19327822far.0.2010.05.20.01.45.19;
+        Thu, 20 May 2010 01:45:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CF0F213A548D; Thu, 20 May 2010 08:45:07 +0000 (UTC)
+Old-Return-Path: <computing.account@googlemail.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: **
+XStatus: No, score=2.1 required=4.0 tests=RATWARE_GECKO_BUILD,
+	SARE_MONEYTERMS autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id EBCCB13A52E4
+	for <lists-debian-user@liszt.debian.org>; Thu, 20 May 2010 08:27:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1.319 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, SARE_MONEYTERMS=0.681] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id C8mU8DbL+UHQ for <lists-debian-user@liszt.debian.org>;
+	Thu, 20 May 2010 08:27:05 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 5FF4113A522C
+	for <debian-user@lists.debian.org>; Thu, 20 May 2010 08:27:05 +0000 (UTC)
+Received: by wwb28 with SMTP id 28so15402wwb.6
+        for <debian-user@lists.debian.org>; Thu, 20 May 2010 01:26:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:references:in-reply-to
+         :content-type:content-transfer-encoding;
+        bh=zCmCcQDLDQPhZEud5932xUUwzHOEWT4t3ZQ+kngxVgU=;
+        b=oojoZpek5a7VDFCWMKJKdUTcRmN+n70xxnpJTB2lB6fJUWkY+Bjvxb4b58RVBTItQC
+         KpsDw/bnbdDQmK0+P0jILofhSaMFr7jWlpaCzwsGCJeLE7Z1vZFzgL6JbQmVLQoXSpFw
+         8LoJRjIaStArNHkwwvsz40dI2VCjtxzRiOIRg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=googlemail.com; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type:content-transfer-encoding;
+        b=UHNyBBiMI4FDSXJIQAzOuFnQ0EtUv9HkYynQlXEGWIkJEhmY7ya70JhtBbYh9ZGxvX
+         BWTtetLBNCqdIi5ibHf3FO5Je1ySO1FFWZs+ffi+gUEtruWKz7gvN2+Ovi7iSHjxF8JU
+         iXkRbCgQaq7QS9SE3NPio4RaZiRgc5rsbFXpI=
+Received: by 10.227.146.3 with SMTP id f3mr9052305wbv.211.1274344018947;
+        Thu, 20 May 2010 01:26:58 -0700 (PDT)
+Received: from [192.168.1.40] (78-105-132-248.zone3.bethere.co.uk [78.105.132.248])
+        by mx.google.com with ESMTPS id f8sm2893115wbe.11.2010.05.20.01.26.58
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Thu, 20 May 2010 01:26:58 -0700 (PDT)
+Message-ID: <4BF4F265.6010806@csmining.org>
+Date: Thu, 20 May 2010 09:27:17 +0100
+From: AG <computing.account@googlemail.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100411 Icedove/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Newbie needinhg a screen reader
+References: <20100519171150.2345.3BF3CFEE@att.net> <201005200252.40141.tchatelet@free.fr>
+In-Reply-To: <201005200252.40141.tchatelet@free.fr>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <vWUhNzAcvVC.A.Q9F.TaP9LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577226
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 20 May 2010 08:45:07 +0000 (UTC)
+
+On 20/05/10 01:52, Thierry Chatelet wrote:
+> On Thursday 20 May 2010 02:12:55 David Hoff Jr wrote:
+>    
+>> I am a current Windows XP User but want to convert to Linux.
+>>
+>> I have downloaded the Debian 5.0.4 CD and need to know which other CD's
+>> I need to download to have a working screen reader.   Since I only have
+>> a dialup connection I need the CD's to install required packages rather
+>> than trying to do them over the internet. My wife and grandchildren can
+>> help me with installation.   Any suggestions would be appreciated.  I
+>> have tried Vinux 3.0 but Ubuntu does not include modem support.
+>>      
+> You have to know what type of cpu you have: 64 or 32 bits. Then get the cd's,
+> either amd64 or i386, unless you have something else than intel or amd cpu.
+> Then you have to decide which graphic interface you want: KDE, gnome xfce or
+> an other one. Search the net to make your choice. I doubt you will need more
+> than the first  cd for gnome, or the kde or xfce+lxde cds if you choose one of
+> these graphical interface.(I am using kde). If you need more application, you
+> can always download cd2 after, it should meet all your needs. As far as modem
+> support, I have no idea, but someone else can help you......
+> Thierry
+>
+>
+>    
+David
+
+In the days that I used dial-up modem, the kppp package was always very 
+helpful for getting the modem working.  It was a small button that one 
+clicked to activate the interface and once you were connected would just 
+sit in the system tray (area near the clock) and blink red/ green for 
+package transmission.  The genius of kppp was that it would 
+automatically seek out the modem that was connected to the machine and 
+configure it.  All I needed to do was to complete the account-related 
+details, save them and then hit connect.  It is possible, and sometimes 
+desirable, to use one DE (such as Gnome or KDE) but use packages 
+associated with another DE.  For example, if you default to Gnome - 
+which is a very good DE in terms of configuration capacity and ease of 
+use - you can still use any number of KDE-related packages, one of which 
+would be kppp.
+
+I am privileged to have broadband so haven't had to think about this for 
+a while, but you might want to use the CD set from Lenny (stable) only 
+because, unlike testing, there will be very little in the way of needing 
+to download packages and security fixes, etc. which otherwise will be a 
+pain.
+
+Welcome to GNU/ Linux Debian.  You will have a reasonably steep learning 
+curve and will likely get frustrated and feel out of your depth.  This 
+is all quite normal and except for the uber-geeks, most of us have 
+probably had experiences which have caused us grief and rapid hair loss 
+from self-inflicted pulling.  But, take things slowly, familiarise 
+yourself with the command line because you can get a lot of things done 
+there and once you are familiar with it, if the you-know-what hits the 
+fan and you are back to a black screen/ white text situation you won't 
+feel intimidated and lost.  Also, do lots of reading - there are some 
+good on-line fora (e.g. http://www.linuxquestions.org ) and of course 
+this mailing list - on which to ask questions.  These days though you 
+should have a pretty easy ride and can usually accept most of the 
+default configuration options out of the box.
+
+I would certainly reiterate Thierry's comments about ensuring that your 
+CD set is compatible with your system architecture, otherwise you will 
+have a very unpleasant computing experience.
+
+Hope this helps
+
+AG
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF4F265.6010806@csmining.org
+
+

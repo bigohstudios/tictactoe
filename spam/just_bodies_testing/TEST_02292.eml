@@ -1,0 +1,30 @@
+Re: cvs access working?From nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Brent Welch <welch@panasas.com>
+> Date:  Fri, 26 Jul 2002 15:00:57 -0700
+>
+> Can anyone access the CVS server for exmh?
+> The last thing I was able to do was try a "cvs commit", but
+> I got an "up-to-date check failed" for a couple files,
+> exmh.CHANGES and lib/msg.tcl, I think, so I then tried "cvs update".
+> I get a password prompt, and then it just hangs.
+> 
+> cat CVS/Root
+> welch@cvs.sourceforge.net:/cvsroot/exmh
+
+I did a commit on friday and I just did an update right now.
+
+cat CVS/Root 
+:ext:cwg@cvs.exmh.sourceforge.net:/cvsroot/exmh
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

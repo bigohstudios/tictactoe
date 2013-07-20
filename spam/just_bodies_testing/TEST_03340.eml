@@ -1,0 +1,16 @@
+blogged item**Scraping**:  I've read this before, but it's worth pointing to: Jon
+Udell on <a href=http://www.byte.com/documents/s=493/byt20010214s0005/index.htm>SSL
+Proxying</a>.
+
+ the browser's secure traffic flows to Proxomitron. It decrypts that
+ traffic, so you can see it in the log window, and then re-encrypts it to
+ the destination server. Coming back the other way, it decrypts the
+ server's responses, so you can see them in the log window, then
+ re-encrypts them to complete the secure loop back to the browser.  It's
+ really quite amazing, and amazingly useful. Automation tasks that used to
+ look like more trouble than they were worth -- for example, driving a
+ HotMail or E*Trade account from a script -- suddenly look easy.
+
+
+
+

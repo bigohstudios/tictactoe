@@ -1,0 +1,93 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284a18543ca2c5a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs30630wfj;
+        Thu, 29 Apr 2010 08:03:58 -0700 (PDT)
+Received: by 10.141.107.19 with SMTP id j19mr9237546rvm.90.1272553428157;
+        Thu, 29 Apr 2010 08:03:48 -0700 (PDT)
+Return-Path: <l7-filter-developers-bounces@lists.sourceforge.net>
+Received: from lists.sourceforge.net (lists.sourceforge.net [216.34.181.88])
+        by mx.google.com with ESMTP id 26si1577441iwn.110.2010.04.29.08.03.14;
+        Thu, 29 Apr 2010 08:03:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of l7-filter-developers-bounces@lists.sourceforge.net designates 216.34.181.88 as permitted sender) client-ip=216.34.181.88;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of l7-filter-developers-bounces@lists.sourceforge.net designates 216.34.181.88 as permitted sender) smtp.mail=l7-filter-developers-bounces@lists.sourceforge.net
+Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.69)
+	(envelope-from <l7-filter-developers-bounces@lists.sourceforge.net>)
+	id 1O7VFS-00075x-IU; Thu, 29 Apr 2010 15:01:54 +0000
+Received: from sfi-mx-2.v28.ch3.sourceforge.com ([172.29.28.122]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.69)
+	(envelope-from <pbaldwin@clearfoundation.com>) id 1O7VFR-00075q-JB
+	for l7-filter-developers@lists.sourceforge.net;
+	Thu, 29 Apr 2010 15:01:53 +0000
+Received-SPF: pass (sfi-mx-2.v28.ch3.sourceforge.com: domain of
+	clearfoundation.com designates 216.58.8.86 as permitted sender)
+	client-ip=216.58.8.86;
+	envelope-from=pbaldwin@clearfoundation.com;
+	helo=mail.pointclark.net; 
+Received: from i216-58-8-86.cybersurf.com ([216.58.8.86]
+	helo=mail.pointclark.net)
+	by sfi-mx-2.v28.ch3.sourceforge.com with esmtp (Exim 4.69)
+	id 1O7VFP-0002q9-Di for l7-filter-developers@lists.sourceforge.net;
+	Thu, 29 Apr 2010 15:01:53 +0000
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.pointclark.net (Postfix) with ESMTP id 503FA810035
+	for <l7-filter-developers@lists.sourceforge.net>;
+	Thu, 29 Apr 2010 11:01:46 -0400 (EDT)
+Received: from [192.168.2.150] (unknown [192.168.2.150])
+	by mail.pointclark.net (Postfix) with ESMTP id 0E1A82AC085
+	for <l7-filter-developers@lists.sourceforge.net>;
+	Thu, 29 Apr 2010 11:01:46 -0400 (EDT)
+Message-ID: <4BD99F57.4000102@clearfoundation.com>
+Date: Thu, 29 Apr 2010 11:01:43 -0400
+From: Peter Baldwin <pbaldwin@clearfoundation.com>
+User-Agent: Thunderbird 2.0.0.24 (X11/20100317)
+MIME-Version: 1.0
+To: l7-filter-developers@lists.sourceforge.net
+References: <l2ma86b32511004290649h5fb080c0m373fea3f13887fc3@mail.csmining.org>
+In-Reply-To: <l2ma86b32511004290649h5fb080c0m373fea3f13887fc3@mail.csmining.org>
+XScore: -0.5 (/)
+XReport: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	1.0 RDNS_DYNAMIC           Delivered to trusted network by host with
+	dynamic-looking rDNS
+X-Headers-End: 1O7VFP-0002q9-Di
+Subject: Re: [l7-filter-developers] How create rules .pat for layer7
+X-BeenThere: l7-filter-developers@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: l7-filter development discussion
+	<l7-filter-developers.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/l7-filter-developers>,
+	<mailto:l7-filter-developers-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=l7-filter-developers>
+List-Post: <mailto:l7-filter-developers@lists.sourceforge.net>
+List-Help: <mailto:l7-filter-developers-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/l7-filter-developers>,
+	<mailto:l7-filter-developers-request@lists.sourceforge.net?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Errors-To: l7-filter-developers-bounces@lists.sourceforge.net
+
+Cristiano Bosenbecker Hellwig wrote:
+> I Need the help for create rules using ER? What  method used for 
+> identify  the packets using wireshark or rfcs?
+
+Wireshark seems to be the tool of choice.  ER?
+
+Peter Baldwin
+ClearFoundation
+
+------------------------------------------------------------------------------
+_______________________________________________
+l7-filter-developers mailing list
+l7-filter-developers@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/l7-filter-developers
+

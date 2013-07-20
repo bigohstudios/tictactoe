@@ -1,0 +1,25 @@
+Apache2, some variable with "domain name"?Hi all!
+I have a virtualhost definition with a lot ServerAlias values. I want
+to have a specific alias for any of this ServerAlias. Would be perfect
+if apache2 stores the domain name in som variable in order to use it
+to make a single AliasMatch instance for all ServerAlias.
+
+Something like:
+
+AliasMatch ^/webalizer /home/httpd/webalizer/$domain
+
+
+Have Apache2 anything like $domain var?
+
+Thanks!!
+
+-- 
+Marc
+
+
+-- 
+To UNSUBSCRIBE, email to debian-isp-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2see5163b51004090238qd3758a4fp2d27233616adebf3@mail.csmining.org
+
+

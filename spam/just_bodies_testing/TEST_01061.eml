@@ -1,0 +1,75 @@
+Newbie question : am I going in the right direction ?Hi,
+
+I'm trying to do the following from the application point of view :
+I would have a sequence. The sequence contains tracks. Tracks
+contains movie clips. A movie clip would be a part of an original
+movie.
+The output of tracks would be fetched in a display link call,
+from which an opengl texture would be fetched from the track,
+with which I would do some transformations before it would be
+composited on screen.
+
+Since I'm a complete newbie in the quicktime world, I know I have
+to do my home work, I just want to have some feedback to know if
+I'm going somehow in the right direction from an architectural
+point of view.
+
+Please find below assertions, are they right or wrong ? Comments ?
+
+- I need to use Quicktime C api to have it to work on MacOS and Windows
+- I need to use Quicktime C api because of the low level calls that
+   might not be available in the Cocoa equivalent
+- Quicktime C api might be future proof (64 bits problems and the like)
+
+- The only way for me to get a texture from a movie clip is to fetch
+   it from a visual context attached to a movie (in particular, if the
+   Quicktime Movie has multiple tracks, it will be hard or not thread
+   safe to deactivate/activate tracks to have a particular track to
+   render into the visual context)
+- Quicktime editing operations are light on the main thread
+- Internally Quicktime acts like a sequencer, to be able to schedule
+   tasks (reading/decompressing/etc.) in a *predictable* manner
+
+ From now it seems to me as for the needs of my application I should
+have (almost) as many Quicktime Movie as I have video tracks in
+my application. But since I need to play all those tracks in sync :
+
+- The quicktime playback controller is transaction based. it will wait
+   to return to the carbon run loop before sending all movie messages
+   as one big time-stamped transaction to the sequencer. This permit
+   to have synchronisation between movies at sample accuracy precision
+
+As of building the movie clips sequence on a track (if I'm still in
+the right direction)
+
+- building the track is just a matter of selecting a part in the
+   original movie, and then insert this part in the Quicktime movie
+   representing the track
+- making this selection/insert operation is light enough to have it
+   on the main thread
+- since I'll have "hole" in a track (that is a range of time where
+   there would be no movie), and to be able to consider that those
+   "holes" are fully transparent in a compositing point of view, I
+   need to manage manually by getting the frame accurate time in the  
+display
+   link call to know if I'm in a "hole" (ie. "is new image available"
+   scheme is not enough for my problem)
+
+And on a practical point of view :
+
+- one good advice for this project would be to start with "hacking
+   around" methodology on the QTCoreVideo101 sample code, ie. given
+   my low experience in QuickTime, an architecture from scratch would
+   not survive the first design.
+
+Thanks in advance for any informations on that matter,
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

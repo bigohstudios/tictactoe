@@ -1,0 +1,28 @@
+Re: changing default nfs mount optionsOn Sun, May 23, 2010 at 11:53 AM, Camale=F3n <noelamac@csmining.org> wrote:
+> On Fri, 21 May 2010 14:27:44 -0700, Evuraan wrote:
+>
+>> i did =A0install nfs-common portmap, and nfs client works:
+>>
+>> below are the options i see take effect per /proc/mounts if i say "mount
+>> -t nfs blah:/fs /tmp/somedir"
+>>
+> rw,vers=3D3,rsize=3D32768,wsize=3D32768,namlen=3D255,hard,nointr,proto=3D=
+tcp,timeo=3D600,retrans=3D2,sec=3Dsys,mountproto=3Dudp
+>>
+>> how can i change some of the above without having to use the "-o" option
+>> to the mount command?
+>
+> >From client-side, I'm not sure, but if NFS is/acts/behaves similar than
+> samba does, you should be able to define NFS mount point options under "/
+> etc/fstab".
+
+Client-side, you can create an alias
+alias mountnfs=3D'mount.nfs -o ...'
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTil7Pu-r81sf2PAXZCLIb1KTDQpZLyTwsahCDP15@mail.csmining.org
+
+

@@ -1,0 +1,30 @@
+Re: Working My_Mark2CurSeen    Date:        Mon, 30 Sep 2002 14:53:33 -0500
+    From:        Hal DeVore <haldevore@acm.org>
+    Message-ID:  <3703.1033415613@dimebox.bmc.com>
+
+  | I vote for this being added to CVS, any objections?
+
+No, but using PickMarkSeen (and pick(ids)) as an alternative to
+just doing
+
+	Seq_Del $exmh(folder) $mhProfile(unseen-sequence) $results
+
+seems unnecessary to me (that's all that PickMarkSeen does after all).
+(That can be done via "busy")
+
+Of course, the same is true of the badly named Pick_MarkSeen which has
+nothing at all to do with "pick" except that it (ab)uses the pick(ids) var
+in the same way.   (Its name would be hard to change unfortunately, as it
+is known in app-defaults files for the "Catch Up Unseen" menu item, but
+its implementation could certainly be fixed).
+
+kre
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

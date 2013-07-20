@@ -1,0 +1,40 @@
+Re: [ILUG] SUSE 8 disks? (thread changed slightly)Quoting Paul Linehan (plinehan@yahoo.com):
+
+> Anyway, I should have initiated a new thread for my different request
+> about S.u.S.E. CDs.
+
+You'll probably want to buy a retail boxed set, e.g., via mail order.
+The only editions of SuSE for i386 that are lawful to duplicate and
+redistribute are as follows:
+
+SuSE Evaluation:  This is a single-CD ISO9660 image, currently at v. 7.0. 
+If you don't mind having only one disk's worth of SuSE, and being
+several revisions behind the boxed-set editions, this is quite good and 
+recommended.
+
+SuSE Live Eval:  Another CD image, currently at v. 8.0, but this one
+doesn't install to hard drives at all:  It's a demo disk.
+
+SuSE FTP Edition (for lack of an official name):  Not a CD image, but
+the contents of ftp://ftp.suse.com/pub/suse/i386/current/ .  You would
+have to mirror the ftp directory tree, and then figure out how to
+install (e.g., over NFS).  Currently at v. 8.0.
+
+There are three (non-redistributable) boxed-set editions, at different
+price points.
+
+I'm assuming in the above that you're talking about an i386-architecture
+computer.  Slightly different answers apply for Alpha, IA64, SPARC, PPC,
+SPARC64, PPC64, or S390.
+
+-- 
+Cheers,                   "Teach a man to make fire, and he will be warm 
+Rick Moen                 for a day.  Set a man on fire, and he will be warm
+rick@linuxmafia.com       for the rest of his life."   -- John A. Hrastar
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

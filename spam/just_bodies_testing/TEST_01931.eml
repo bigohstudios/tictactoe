@@ -1,0 +1,21 @@
+Re: Apt problemsOn Wed, Feb 06, 2002 at 04:30:18PM +0200, Harri Haataja wrote:
+> install. I haven't met an openssh like that and in worst case I've had 3
+> different openssl libraries (WTF can't they just bump a major version if
+> it's incompatible?!?).
+
+So, what should I with the openssl thing?
+
+> something) and Ive just made dummy packages (with verbose warning
+> attached ;) that explicitly provide those capabilities. (or claim to,
+> that is).
+
+How do I make such packages?
+
+-- 
+Peter
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

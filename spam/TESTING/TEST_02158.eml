@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284b992f0f6dd42
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs52323wfj;
+        Thu, 29 Apr 2010 15:04:09 -0700 (PDT)
+Received: by 10.142.2.29 with SMTP id 29mr975726wfb.204.1272578649676;
+        Thu, 29 Apr 2010 15:04:09 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 6si1902112pzk.11.2010.04.29.15.04.09;
+        Thu, 29 Apr 2010 15:04:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 5B54C1BDA528F
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 15:04:09 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 571CA27402ADA
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 15:04:09 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 37B1A27401A8D
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 15:01:23 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 258ACD745B77
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 15:01:23 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-bf-4bda01b26363
+Received: from mail-pw0-f51.google.com (mail-pw0-f51.google.com
+	[209.85.160.51])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	20.CF.26228.2B10ADB4; Thu, 29 Apr 2010 15:01:22 -0700 (PDT)
+Received: by pwj8 with SMTP id 8so12530151pwj.24
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 15:01:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	bh=TBTyzGCDhsr/FLurOupGs/81G847NBNO0vMBHVYibdw=;
+	b=E78wF93bzG10CpAGR/K1MGnfELNQ7BvwYg2l4YlFsiyVzmjqmCJPblWd2DNqnbzJBf
+	tVdCLtKbd2WBFE2AGQoG14p14KJWPU8ryk8ARDHHq7mqhOBx54zlsk+DIed3M+QbKbTm
+	y/wirZtOcGksi/dnwUiqd2mEFKQkikXvfqacs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type:content-transfer-encoding;
+	b=m0Sif/h/FtQbHr/QCTfZcXCR3GfCK5CtTu4zMldOL4iZltuU9vQmA9DGZlhCX/Yx1k
+	5Nc87OlCrl6bTUfaCJgsiRkf+IAgMsFXxUrTpJfZWTM1zoWqA4y62EZVmIocieEwxZ5a
+	xMiseIyg7BKsGBY6Bc/as2LRG8ilyx6DPFE8Y=
+MIME-Version: 1.0
+Received: by 10.140.88.9 with SMTP id l9mr97077rvb.286.1272578481882; Thu, 29 
+	Apr 2010 15:01:21 -0700 (PDT)
+Received: by 10.140.131.8 with HTTP; Thu, 29 Apr 2010 15:01:21 -0700 (PDT)
+In-Reply-To: <4BDA00A5.7020207@cywh.com>
+References: <4BDA00A5.7020207@cywh.com>
+Date: Thu, 29 Apr 2010 15:01:21 -0700
+Message-ID: <v2x63b50fda1004291501u9bf1ef2fp526e25379b4fa16a@mail.csmining.org>
+From: Kevin Ballard <kballard@csmining.org>
+To: Luke Scott <luke@cywh.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAxPvoMIT8HFZE/CR6A==
+Cc: objc-language@lists.apple.com
+Subject: Re: Mouse/Keyboard "Hook"?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I don't think this is the right list for this question. Your best bet
+may be to contact the author of Teleport[1] and ask him what he did.
+
+[1]: http://www.abyssoft.com/software/teleport/
+
+-Kevin Ballard
+
+On Thu, Apr 29, 2010 at 2:56 PM, Luke Scott <luke@cywh.com> wrote:
+> I'm trying to make a program in C/C++ that blocks the mouse and keyboard
+> events on the local system (as if they didn't happen) and send them to
+> another machine over LAN. Essentially my end goal is to control computer =
+B
+> with the mouse and keyboard from computer A.
+>
+> I've done a lot of this already on Windows 2000/XP and above through
+> low-level hooks, but I'm not sure where to start with OS X. I want to mak=
+e
+> it compatible with Tiger and above (or even just Leopard and above - depe=
+nds
+> on the solutions available).
+>
+> I really haven't done much application development on the Mac. I'm sure
+> there is documentation about it somewhere, but I'm not sure what to searc=
+h
+> for. When I search for anything related to "keyboard and mouse hooks" on
+> Google everything I get back is Windows related... So "hooks" must not be
+> the proper terminology for the Mac.
+>
+> I pretty much need to know what my options are, and which options are bet=
+ter
+> suited for my goal. I've heard that there is an accessibility API for thi=
+s
+> sort of thing, but where the documentation is and what my options are
+> outside of that I don't know. Are there any sample projects, or sample co=
+de
+> that demonstrate similar functionality?
+>
+> Any information on the subject would be greatly appreciated :).
+>
+> Thanks,
+>
+> Luke
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Objc-language mailing list =C2=A0 =C2=A0 =C2=A0(Objc-language@lists.apple=
+.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/objc-language/kballard%40csmining.org
+>
+> This email sent to kballard@csmining.org
+>
+
+
+
+--=20
+Kevin Ballard
+http://kevin.sb.org
+kballard@csmining.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

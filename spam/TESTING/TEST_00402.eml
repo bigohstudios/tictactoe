@@ -1,0 +1,205 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a2236e07479d1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs125503wfo;
+        Sun, 16 May 2010 10:22:31 -0700 (PDT)
+Received: by 10.223.24.133 with SMTP id v5mr4993596fab.46.1274030550993;
+        Sun, 16 May 2010 10:22:30 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w12si10922028fah.35.2010.05.16.10.22.30;
+        Sun, 16 May 2010 10:22:30 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B4E586C8457; Sun, 16 May 2010 17:22:24 +0000 (UTC)
+Old-Return-Path: <storm16@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5A663348E52
+	for <lists-debian-user@liszt.debian.org>; Sun, 16 May 2010 17:22:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id AG6WKXlg2wKd for <lists-debian-user@liszt.debian.org>;
+	Sun, 16 May 2010 17:22:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id B885B348E50
+	for <debian-user@lists.debian.org>; Sun, 16 May 2010 17:22:10 +0000 (UTC)
+Received: by gya1 with SMTP id 1so1693359gya.6
+        for <debian-user@lists.debian.org>; Sun, 16 May 2010 10:22:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=cTX0nR7e3XDonQ6KfrxgIx4wYWAJYmeD5OPveIt0r48=;
+        b=htrKscPL4T5DP4V5NRrjRF1B96W+FMujfQVJAESPbmSyQE0g4kdyPtjS34WSjv06sB
+         AJkjgxpeG9UqFQoE0StvtfZe5OXLduDrL4oTWWdRYyDE0iWA0ujV1/8IGeNTE0IoyAYq
+         EDmJQEdivGEw14B0g13KOj2xbQjxeiT6hAXe4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=b1l485o9NgN29qF41QyKzyellT8Av5FENA1erFRA4nww3u5iDFgtcCozlwCUUtoPg1
+         XSzp/CYBhX7HXQgvwu/aM7ODzIhWsGY6DwVciDqw6srjrAZOznGXVsyheYfVbqXFtVDg
+         lR9XCzUttCQJyz1oOeIomaJVN1D6twxZUq7l8=
+MIME-Version: 1.0
+Received: by 10.151.1.36 with SMTP id d36mr1737810ybi.1.1274030522003; Sun, 16 
+	May 2010 10:22:02 -0700 (PDT)
+Received: by 10.150.52.17 with HTTP; Sun, 16 May 2010 10:22:01 -0700 (PDT)
+In-Reply-To: <4BF02141.50302@stammed.net>
+References: <AANLkTim9w5n3ONip5K19mdUAoKPN6NCR56QhDnliz9Wp@mail.csmining.org>
+	 <4BF02141.50302@stammed.net>
+Date: Sun, 16 May 2010 13:22:01 -0400
+Message-ID: <AANLkTik5lxxxpaTjVHDcMI1kj5HR7qpgqRkRmnxUkXqV@mail.csmining.org>
+Subject: Re: LVM spanning multiple encrypted drives
+From: "B. Alexander" <storm16@csmining.org>
+To: thib <thib@stammed.net>
+Cc: Debian-user List <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=000e0cd5cc4cb271bd0486b9587f
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <HcZ2EPZImvF.A.gVG.QnC8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576981
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 16 May 2010 17:22:24 +0000 (UTC)
+
+--000e0cd5cc4cb271bd0486b9587f
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sun, May 16, 2010 at 12:45 PM, thib <thib@stammed.net> wrote:
+
+> ...
+>  but consider encrypting the logical volume instead of the physical
+> volumes.  It makes much more sense to me.
+>
+
+It seems to me that
+
+
+>  Does anyone know the right way to get the drives decrypted first?
+>>
+>
+> The fun might take place in your init scripts or in your initramfs,
+> depending on your configuration.  Unfortunately, things are currently moving
+> in this domain, and I'm not sure about Debian's position here -- thus I
+> cannot recommend you a hack over any other.  Maybe someone can.
+>
+> I (very) quickly overviewed the initscripts, it looks like the same code in
+> /lib/cryptsetup/cryptdisks.functions is called twice by cryptdisks-early
+> (before lvm2), and then by cryptdisks (after lvm2).  Supposedly, the -early
+> script can't decrypt some devices, I just don't know why.  By the looks of
+> it all, I wouldn't be surprised if there were some dependency problems for
+> unusual setups;  is the problematic device a raid volume or something?
+>
+
+ I started looking in this direction myself last night. I am, for the life
+of me, unable to figure why or how drives are designated as early versus
+non-early. With the exception of adding "noearly" to the options in
+/etc/cryptab. However, I am unable to find a single partition on a single
+encrypted machine that uses this option. So theoretically, all of the drives
+should be designated as early. I also haven't done this in a couple of
+years, so maybe the encryption system has matured in the meantime.
+
+
+> If you mount your filesystems in your initramfs (which should really be
+> done only for the root fs), you might be able to put some hooks in
+> /etc/initramfs-tools.  I'm not really comfortable with it, so you should
+> read the initramfs-tools(8) manual page or wait for more help.
+>
+
+I'm really not comfortable with modifying something like that, not because I
+can't, but rather because I don't want to tweak something and have it break
+on the next upgrade. So I will take the latter suggestion. I want to build a
+test box to see if I can further troubleshoot the problem or if it still
+even exists.
+
+Thanks for the suggestions, thib...
+
+--b
+
+--000e0cd5cc4cb271bd0486b9587f
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Sun, May 16, 2010 at 12:45 PM, thib <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:thib@stammed.net">thib@stammed.net</=
+a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"border-l=
+eft: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left:=
+ 1ex;">
+...<br>=A0but consider encrypting the logical volume instead of the physica=
+l volumes. =A0It makes much more sense to me.<br></blockquote><div><br>It s=
+eems to me that <br>=A0</div><blockquote class=3D"gmail_quote" style=3D"bor=
+der-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-=
+left: 1ex;">
+
+<div class=3D"im"><blockquote class=3D"gmail_quote" style=3D"border-left: 1=
+px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;"=
+>
+Does anyone know the right way to get the drives decrypted first?<br>
+</blockquote>
+<br></div>
+The fun might take place in your init scripts or in your initramfs, dependi=
+ng on your configuration. =A0Unfortunately, things are currently moving in =
+this domain, and I&#39;m not sure about Debian&#39;s position here -- thus =
+I cannot recommend you a hack over any other. =A0Maybe someone can.<br>
+
+<br>
+I (very) quickly overviewed the initscripts, it looks like the same code in=
+ /lib/cryptsetup/cryptdisks.functions is called twice by cryptdisks-early (=
+before lvm2), and then by cryptdisks (after lvm2). =A0Supposedly, the -earl=
+y script can&#39;t decrypt some devices, I just don&#39;t know why. =A0By t=
+he looks of it all, I wouldn&#39;t be surprised if there were some dependen=
+cy problems for unusual setups; =A0is the problematic device a raid volume =
+or something?<br>
+</blockquote><div><br>=A0I started looking in this direction myself last ni=
+ght. I am, for the life of me, unable to figure why or how drives are desig=
+nated as early versus non-early. With the exception of adding &quot;noearly=
+&quot; to the options in /etc/cryptab. However, I am unable to find a singl=
+e partition on a single encrypted machine that uses this option. So theoret=
+ically, all of the drives should be designated as early. I also haven&#39;t=
+ done this in a couple of years, so maybe the encryption system has matured=
+ in the meantime.<br>
+=A0</div><blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid =
+rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+
+If you mount your filesystems in your initramfs (which should really be don=
+e only for the root fs), you might be able to put some hooks in /etc/initra=
+mfs-tools. =A0I&#39;m not really comfortable with it, so you should read th=
+e initramfs-tools(8) manual page or wait for more help.<br>
+</blockquote><div><br>I&#39;m really not comfortable with modifying somethi=
+ng like that, not because I can&#39;t, but rather because I don&#39;t want =
+to tweak something and have it break on the next upgrade. So I will take th=
+e latter suggestion. I want to build a test box to see if I can further tro=
+ubleshoot the problem or if it still even exists.<br>
+<br>Thanks for the suggestions, thib...<br><br>--b<br></div></div><br>
+
+--000e0cd5cc4cb271bd0486b9587f--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTik5lxxxpaTjVHDcMI1kj5HR7qpgqRkRmnxUkXqV@mail.csmining.org
+
+

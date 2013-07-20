@@ -1,0 +1,53 @@
+Re: Boot / LVM best practicesOn 2010-04-11 02:19, M.Lewis wrote:
+> 
+> I have a machine running Lenny with a 250GB IDE HD in it. The HD is on 
+> its last legs giving S.M.A.R.T. errors.
+> 
+> I have a question about how best to divide things up in the new setup. 
+> The current 250GB IDE HD has two partitions on it:
+> 
+> /dev/hda1 = linux (~80 MB)
+> /dev/hda2 = linux LVM (~249.92 GB)
+> 
+> I'm thinking to replace this IDE drive with two SATA HDs. One as small 
+> as I can get. Say 100GB or so and make that the boot drive. And a second 
+> HD say 500GB or so and moving the LVM over to that.
+
+Sounds eminently reasonable to me.
+
+> Would it be better to move the LVM to a larger SATA drive and migrate 
+> the boot drive on to a new small IDE HD?
+
+You could do that, too.
+
+Or reinstall fresh to the new IDE drive.  Debian is great enough 
+that you *never must* reinstall, but it helps by clearing out old 
+cruft, etc.
+
+>                                          I've even thought to set it up 
+> to boot from a flash drive. Not sure that would be wise either.
+
+Booting from flash and having the mechanical drives as /home and 
+"data" would also work.
+
+Except... /var and /tmp.  They volatile enough that flash probably 
+isn't the best place for them to be.  You should put them on small 
+"mechanical" partitions.
+
+> My question is is this a 'wise' thing. If not, why not and what would be 
+> the better approach?
+> 
+
+Sure.  lvm even has a utility to move a PV from one partition to 
+another (even though I've never gotten it to work).
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC1E6A8.3020505@cox.net
+
+

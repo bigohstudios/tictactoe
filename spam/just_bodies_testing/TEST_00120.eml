@@ -1,0 +1,58 @@
+ActiveBuddyKind of interesting application of 'agent' technology.
+A mix of telnet and Eliza?
+(wonder if KnowNow needs this as a partner...)
+
+==
+http://www.activebuddy.com/products/index.shtml
+ActiveBuddy, Inc. has developed patented technology for building and
+deploying interactive agents. ActiveBuddy's BuddyScript technology powers
+business solutions that leverage the functionality, convenience and appeal
+of instant messaging to provide an efficient and immediate means of
+communication with customers and constituents.
+
+ActiveBuddy technology is proven in the marketplace by the smash success of
+SmarterChild, ActiveBuddy's showcase interactive agent launched in June 2001
+and visited by over 8 million consumers in its first year of life.
+
+Interactive agents allow your customers and constituents to receive
+information and services in a natural, conversational interface.
+
+
+Software Products
+BuddyScriptT Server - an end-to-end software solution for deploying
+interactive agents. BuddyScript Server provides every component required to
+operate an interactive agent, including connectivity with the messaging
+network, message routing, data access, message formatting, user and session
+management, and detailed tracking. BuddyScript Server is offered in four
+configurations to meet your capacity needs. Its scaleable architecture
+supports virtually unlimited usage. More...
+
+===
+Here is a sample conversation on (MSN Messenger with 'SmarterChild'):
+
+Mike says:
+how are you?
+
+SmarterChild says:
+Great thx! You?
+
+Mike says:
+Fine. What is the weather like in seattle?
+
+SmarterChild says:
+Current weather conditions for Seattle, WA:
+
+Currently: 57 F
+Condition: Few Clouds
+Real Feel: 57 F
+Dewpoint: 44
+Humidity: 62 %
+Visibility: 10 mi
+Wind: N/0 mph
+
+Next time, just type "weather seattle, wa."
+
+To get the forecast for Seattle, WA, just type "forecast."
+
+
+

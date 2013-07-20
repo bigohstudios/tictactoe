@@ -1,0 +1,43 @@
+New Sequences WindowFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+
+I've just checked in a rather large patch which replaces the Unseen Window 
+with a new Sequences Window.
+
+Since the preference items are different, you'll need to turn the display of 
+the sequences window on in the preferences even if you had the unseen window 
+enabled.  I couldn't figure out how to default the preferences to match the 
+unseen window.
+
+I'm hoping that all people with no additional sequences will notice are purely 
+cosmetic changes.
+
+For those who have other sequences defined, the window will widen to display 
+the other sequences.  Preferences allow you to say if you want a given 
+sequence display to never show or to always show.
+
+I've also changed the ftoc colorization as discussed briefly on the list a 
+week or so ago.
+
+The two things that I know I need to do are to fix the performance issue that 
+I think is what Anders was seeing yesterday and to catch the documentation up 
+with the code.
+
+My wife is out for an "evening with the girls" tonight, so I should be able to 
+work on the performance issue tonight and check it in after some testing in a 
+day or two.
+
+I hope I didn't break very much with all the changes I made...
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

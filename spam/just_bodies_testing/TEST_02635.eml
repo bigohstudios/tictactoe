@@ -1,0 +1,33 @@
+Re: Current through USB busOn 5/6/2010 1:02 PM, markus reichelt wrote:
+> * Merciadri Luca <Luca.Merciadri@student.ulg.ac.be> wrote:
+>
+>   
+>> How can I know how much current goes through each USB port for its
+>> related device(s)? Thanks.
+>>     
+> Via software: zero chance.
+>   
+
+<snip>
+
+Check the manufacturer website and obtain a copy of the manual for your
+motherboard manual. It should have the voltage that each USB port
+outputs listed. Some manufacturers require that a jumper be set in order
+to increase/decrease the voltage output supplied by a specific group of
+ports.
+
+-- 
+	 Ryan Manikowski
+
+
+]] Devision Media Services LLC [[
+	 www.devision.us
+ ryan@devision.us | 716.771.2282
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE2F5F1.2030506@devision.us
+
+

@@ -1,0 +1,21 @@
+Re: OpenGLHi.
+
+John Hinsley <johnhinsley@blueyonder.co.uk> wrote:
+
+> Querying the rpm database for OpenGL gets me nowhere fast. Can anyone
+> point me in the right direction? What, in RedHat, provides OpenGL?
+
+The X server itself does (or does not, depending on your driver). There
+is a software fallback called Mesa compiled in the X server, which
+is used as a fallback. So, if you have installed X, you have OpenGL.
+Try the glxinfo command to see the capabilities provided by your
+X system.
+
+-- 
+R!
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

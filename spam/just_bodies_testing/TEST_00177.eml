@@ -1,0 +1,27 @@
+Re: Linking message [was: Re: Patch to complete a change...]
+
+>>>>> On Fri, 13 Sep 2002, "Tony" == Tony Nugent wrote:
+
+  Tony> (In essence: is there a way to mark a destination folder
+  Tony> for a message link or move without actually doing a move
+  Tony> or link, I couldn't see anything obvious).
+
+1) Right click on the folder label in the folder list
+
+2) In the main window, the "+" key puts you into a "change 
+   folder" mode (the first time you use it after starting exmh),
+   hit a second + and you go to "set a target" mode.  Type a few
+   characters of the folder name and hit space for autocomplete.
+
+--Hal
+
+How's spring shaping up "down under"?
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,28 @@
+RE: [ILUG] Formatting a windows partition from LinuxThis is a bit of a messy solution but might be useful -
+
+If you have an internal zip drive (not sure about external) and
+you bios supports using a zip as floppy drive, you could 
+use a bootable zip disk with all the relevant dos utils.
+
+G.
+___________________________
+ Graham Smith,
+ Network Administrator,
+ Department of Computing,
+ Institute of Technology,
+ Tallaght, Dublin 24
+ Phone: + 353 (01) 4042840
+
+-----Original Message-----
+From: Ciaran Johnston [mailto:cj@nologic.org]
+Sent: 21 August 2002 16:22
+To: ilug@linux.ie
+Subject: Re: [ILUG] Formatting a windows partition from Linux
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

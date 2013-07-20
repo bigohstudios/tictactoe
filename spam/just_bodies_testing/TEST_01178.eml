@@ -1,0 +1,46 @@
+Re: Fwd: Re: Kde 3.5 ...From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Mon, May 10, 2010 at 8:38 PM, Mike Bird <mgb-debian@yosemite.net> wrote:
+
+> On Mon May 10 2010 05:14:57 Adrian von Bidder wrote:
+> > So far most of the "discussion" has been whining about where KDE 4 is
+> > perceived to be worse than KDE 3.5 and whining that "somebody should
+> please
+> > do something".
+>
+> KDE 4 has far more problems - both conceptually and in
+> implementation - than KDE 3.5.  I wasn't aware that KDE 4
+> had received an exemption from discussion of problems.  Every
+> other package in Debian seems able to stand the heat.
+>
+> Nevertheless the KDE 3.5 users are not trying to block KDE 4
+> in any way.  It is the KDE 4 true believers who are obstructing
+> KDE 3.5 at every opportunity.
+>
+> Now if you have nothing useful to say about KDE 3.5, please
+> stop trolling this thread.
+>
+> --Mike Bird
+>
+>
+
+Hi Mike,
+
+If you really care about KDE 3.5, I would suggest that you follow the
+footstep of Mr. Marillat of Debian-multimedia [
+http://debian-multimedia.org/ ]
+
+Feel free to host the KDE 3.5 source and build server, and provide the
+opportunity for KDE3.5 users to install it to their Debian computer by just
+adding a single configuration line on /etc/apt/sources.list
+
+If you see in the Debian-multimedia site, there are a lot of packages that
+overlaps with the official Debian repository, but it does helps users (like
+me) to use packages that are not really up to their liking in the official
+repository.
+
+Thanks.
+
+-- 
+Sharuzzaman Ahmat Raslan

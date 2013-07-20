@@ -1,0 +1,49 @@
+[Webdev] mod_rewrite question I'm trying to wrap Zope up behind apache, so I can do VirtualHosts for
+Zope.
+
+ I've a site on http://ip:8080/mysite.
+
+ I want that to appear as http://mysite.com/ - so:
+
+<VirtualHost 192.168.2.11>
+        ServerName mysite.com
+        DocumentRoot /var/www/mysite
+        RewriteEngine                   on
+        RewriteRule     ^/(.*)    http://localhost:8080/mysite/$1 [P]
+</VirtualHost>
+
+ Now, what happens is that apache grabs http://localhost:8080/mysite/ and spits
+it out to the browser. Lovely. all works.
+
+ Except for framed pages (like Zope's management interface). It ends up
+looking like:
+
+    <frameset rows="34, *">
+    <frame src="http://localhost:8080/reenactors/manage_top_frame"
+name="manage_top_frame"
+   marginheight="0" scrolling="no"/>
+
+  <frameset cols="175,*">
+    <frame src="http://localhost:8080/reenactors/manage_menu"
+name="manage_menu"
+     marginwidth="2" marginheight="2" scrolling="auto"/>
+
+    <frame src="http://localhost:8080/reenactors/manage_workspace"
+name="manage_main"
+     marginwidth="2" marginheight="2" scrolling="auto"/>
+  </frameset>
+
+  </frameset>
+
+ and of course, that's not what my client should go to. Any ideas what I'm
+doing wrong ?
+
+Kate
+
+
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

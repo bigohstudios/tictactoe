@@ -1,0 +1,18 @@
+RE: [Spambayes] New web training interface for pop3proxy
+    Paul> I suspect the best answer is to make the DBM implementation
+    Paul> configurable via bayescustomize.ini (with the default being
+    Paul> anydbm).
+
+I think you might want to specify the database open function instead of just
+the module.  There are three ways to open db files with bsddb (btopen,
+hashopen, rnopen).  That will require a little more trickery in Options.py,
+but not an insane amount.
+
+Skip
+
+_______________________________________________
+Spambayes mailing list
+Spambayes@python.org
+http://mail.python.org/mailman/listinfo/spambayes
+
+

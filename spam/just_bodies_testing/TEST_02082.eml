@@ -1,0 +1,37 @@
+Re: New Sequences WindowFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Wed, 21 Aug 2002 10:40:39 -0500
+>
+> > From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> > Date:  Wed, 21 Aug 2002 10:17:45 -0500
+> >
+> > > From:  Robert Elz <kre@munnari.OZ.AU>
+> > > Date:  Wed, 21 Aug 2002 19:30:01 +0700
+> > >
+> > > Second, I've been used to having a key binding which was to Msg_MarkUnseen
+> > > which doesn't seem to exist any more, and I'm not sure what I should replace
+> > > that with.   There's obviously a way as the "Sequences" menu does this.
+> > > The "Mark Unseen" menu entry in the message "More" menu is still wanting
+> > > that function as well...
+> 
+> {Msg_Mark unseen}
+> 
+> I'm not sure how I missed the need to fix this in app-defaults for "Mark 
+> Unseen".  I guess that'll be my next CVS fix.
+
+Okay, that was easy...fixed in CVS.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

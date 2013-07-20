@@ -1,0 +1,105 @@
+X-Account-Key: account5
+X-UIDL: GmailId128883eda565de1d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs77670wfb;
+        Tue, 11 May 2010 09:42:21 -0700 (PDT)
+Received: by 10.223.26.130 with SMTP id e2mr6528752fac.101.1273596140263;
+        Tue, 11 May 2010 09:42:20 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z13si11749263fah.76.2010.05.11.09.42.19;
+        Tue, 11 May 2010 09:42:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id DB3E013A5899; Tue, 11 May 2010 16:42:07 +0000 (UTC)
+Old-Return-Path: <i.adore.debian@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id E955413A5343
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 16:24:27 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id ogFITn3AZekK for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 16:24:20 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from ey-out-1920.google.com (ey-out-1920.google.com [74.125.78.150])
+	by liszt.debian.org (Postfix) with ESMTP id CF95E13A5431
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 16:24:14 +0000 (UTC)
+Received: by ey-out-1920.google.com with SMTP id 3so12068eyh.56
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 09:24:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:subject:content-type
+         :content-transfer-encoding;
+        bh=5FlcbtjWTmeiUyVrjSS86CuKMY2MM4znp69H8f6rZP4=;
+        b=hWnmFcA5fme4/qe2VCPnv4Y7nArzgHbAM2iI9Iuhi66euV6d8dTStFguhRYmgS4Pqz
+         3QMZyWQp8cwUJu/CgvcplPmP/Kl9UlIyhLVo1nWxvIqpvmRWTIjbypchUHusxi6XEaUk
+         w1ijX65wGvlwH8o21yJil3XZEC8hdtnW90iTs=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:subject
+         :content-type:content-transfer-encoding;
+        b=UZ9+3a6etV8JFi57ixjLKQizkUkvgdFKCiJKlkB3It/Z39Y8VgwONfBRoSXzlUNnlv
+         6Y+zenUY+vUk96fs75mxiFkP9PnmPczrPPWkGBqXV6GL1Ur9AVzT3BivxozAo+jz+wqO
+         FumsRCt5yONzGgeo22lk39ByoNqE08KPyFVw0=
+Received: by 10.213.44.75 with SMTP id z11mr2451700ebe.70.1273595047656;
+        Tue, 11 May 2010 09:24:07 -0700 (PDT)
+Received: from [192.168.1.3] ([188.158.153.155])
+        by mx.google.com with ESMTPS id 13sm3179176ewy.5.2010.05.11.09.24.05
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Tue, 11 May 2010 09:24:06 -0700 (PDT)
+Message-ID: <4BE984A2.1040403@csmining.org>
+Date: Tue, 11 May 2010 20:54:02 +0430
+From: Nima Azarbayjany <i.adore.debian@csmining.org>
+User-Agent: Mozilla-Thunderbird 2.0.0.24 (X11/20100329)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: East Asian fonts in Lenny
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <WPso0VPHCBB.A.F1C.fjY6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576532
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 16:42:07 +0000 (UTC)
+
+Hi all,
+
+How do you add support for East Asian fonts in Debian Lenny?  For 
+example, a default install of Lenny does not show some of the fonts at 
+the bottom of www.debian.org.
+
+Thanks.
+
+Nima
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE984A2.1040403@csmining.org
+
+

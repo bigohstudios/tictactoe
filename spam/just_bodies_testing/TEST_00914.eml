@@ -1,0 +1,30 @@
+Re: installing Lenny packages in SqueezeFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 28 April 2010 22:11:00 Rob Owens wrote:
+> My understanding is that live-helper must build the kernel so that
+> certain modules necessary to the live system get included.  I confess
+> that I don't completely understand that answer, but it's what I was told
+> by the developer.
+
+You should look into the live-helper configuration and adjust where it gets=
+=20
+the kernel source and any (extra?) patches it applies.  It should be able t=
+o=20
+work with kernel sources provided from lenny-backports with the proper=20
+configuration, since it already works with both Lenny and Squeeze kernel=20
+sources.  The bpo kernels are not packaged significantly differently.
+
+If live-helper doesn't have any relevant configuration, looking into how it=
+=20
+receives, patches, compiles, and packages the kernel should give you some=20
+insight into a work-around.  (e.g. repackaging the bpo kernel package to ha=
+ve=20
+the same package name but a higher version than the Lenny kernel package.)
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

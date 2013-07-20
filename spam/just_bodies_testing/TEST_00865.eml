@@ -1,0 +1,28 @@
+Re: Kde 3.5 ...From nobody Sat Jul 20 14:17:28 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 06 May 2010 01:17:43 Jorge Gon=E7alves wrote:
+> Hello!
+>=20
+> First, thank you for the great distro that is Debian, one of the best.
+>=20
+> I would like to suggest you some way so that the users keep on using
+> the good old KDE 3.5 when they migrate to the upcoming Lenny.
+>=20
+> Maybe use dummy packages, or rename the packages so that KDE 3.5 could
+> remain installed, and not be forced to upgrade to Kde4.
+
+Add oldstable to your sources.list and pin the packages you want to keep. =
+=20
+You'll get a while to hold on to KDE 3.5 after the Squeeze release.  Of=20
+course, if the KDE SC that is released with Squeeze is the problem, it is=20
+unlikely that Squeeze+1 will be available before security support on Lenny =
+is=20
+discontinued.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

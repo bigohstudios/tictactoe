@@ -1,0 +1,143 @@
+X-Account-Key: account5
+X-UIDL: GmailId128602d7859fea93
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs247739wfj;
+        Mon, 3 May 2010 14:58:34 -0700 (PDT)
+Received: by 10.87.47.17 with SMTP id z17mr11246863fgj.39.1272923912368;
+        Mon, 03 May 2010 14:58:32 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si9926266fkt.19.2010.05.03.14.58.31;
+        Mon, 03 May 2010 14:58:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2C03013A5129; Mon,  3 May 2010 21:58:26 +0000 (UTC)
+Old-Return-Path: <fernando.scussel@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.8 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,RCVD_IN_SORBS_WEB autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2D71113A5119
+	for <lists-debian-user@liszt.debian.org>; Mon,  3 May 2010 21:58:20 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.381 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	RCVD_IN_SORBS_WEB=0.619] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id FoRinrRjGgYC for <lists-debian-user@liszt.debian.org>;
+	Mon,  3 May 2010 21:58:13 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-iw0-f179.google.com (mail-iw0-f179.google.com [209.85.223.179])
+	by liszt.debian.org (Postfix) with ESMTP id EE21313A510A
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 21:58:06 +0000 (UTC)
+Received: by iwn9 with SMTP id 9so3827679iwn.0
+        for <debian-user@lists.debian.org>; Mon, 03 May 2010 14:57:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:reply-to:from:to
+         :references:in-reply-to:subject:date:mime-version:content-type
+         :content-transfer-encoding:x-priority:x-msmail-priority:importance
+         :x-mailer:x-mimeole;
+        bh=JiGKGkShsUWYLggQzDmvtsNhfg8F5uIyVzFcNnl2994=;
+        b=TTTN4eMTD03sef9MKgrTlA/5gTIchQT/icn7huzJxId0m8au8uL9g7AqOrV2Hf2S6P
+         iiHpBDTZF+/s7D2JvTuXn6HSc15ZS4QBewFBdEIfdtEglp1PBVU1oy24OwbHCGpmm50m
+         Z8ymsI8g4VaNcBsjFzCVvZZEPboNI35lcjVoU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:reply-to:from:to:references:in-reply-to:subject:date
+         :mime-version:content-type:content-transfer-encoding:x-priority
+         :x-msmail-priority:importance:x-mailer:x-mimeole;
+        b=sVPboZbCxIeohEcdThCfzXTw4iO0ueAsiuDkfG7OxNaMuAdBqnEuk7wcmADSFuu9Fq
+         LCfXgdACoSGb3/uFtZzztHIBxMzAK/NnznaqIpU8lWZxOoJt/BZMS3EIPdaMAM5pdHoK
+         cfqS+6vyzBxoOxn9IDoF13jE291sGfm42LHzM=
+Received: by 10.231.173.144 with SMTP id p16mr679095ibz.77.1272923878084;
+        Mon, 03 May 2010 14:57:58 -0700 (PDT)
+Received: from Phoenix ([189.7.197.57])
+        by mx.google.com with ESMTPS id bk12sm313294ibb.14.2010.05.03.14.57.55
+        (version=SSLv3 cipher=RC4-MD5);
+        Mon, 03 May 2010 14:57:57 -0700 (PDT)
+Message-ID: <7B0E10876D634E4597D618A9AE3D4BCB@Phoenix>
+Reply-To: "Fernando B. Scussel" <fernando.scussel@csmining.org>
+From: "Fernando B. Scussel" <fernando.scussel@csmining.org>
+To: "Jimmy Johnson" <field.engineer@csmining.org>,
+	"Debian User List" <debian-user@lists.debian.org>
+References: <D0B0ADD22F8E4DF9998B38187D784C04@Phoenix> <201005031259.42591.bss@iguanasuicide.net> <4BDF1797.6070402@csmining.org>
+In-Reply-To: <4BDF1797.6070402@csmining.org>
+Subject: Re: apt-get dist-update failure - can't boot
+Date: Mon, 3 May 2010 18:57:52 -0300
+MIME-Version: 1.0
+Content-Type: text/plain;
+	format=flowed;
+	charset="UTF-8";
+	reply-type=response
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+Importance: Normal
+X-Mailer: Microsoft Windows Live Mail 14.0.8089.726
+X-MimeOLE: Produced By Microsoft MimeOLE V14.0.8089.726
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6B43Zv9BlL.A.XSD.Cc03LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575786
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 21:58:26 +0000 (UTC)
+
+I couldn't copy cause I couldn't install gpm cause nothing works so I just 
+gave up.
+
+Thanks for everyone who contributed. System got fucked =/
+
+
+--------------------------------------------------
+From: "Jimmy Johnson" <field.engineer@csmining.org>
+Sent: Monday, May 03, 2010 3:36 PM
+To: <debian-user@lists.debian.org>
+Subject: Re: apt-get dist-update failure - can't boot
+
+> Boyd Stephen Smith Jr. wrote:
+>
+>> From you output it looks like your 'perl-base' is scheduled to be 
+>> upgraded.  You should try installing the new version of that package with 
+>> dpkg and then retrying your apt-get/aptitude run.
+>
+>
+> It's worth a shot, depending of if dpkg has not been borked, 'dpkg -i 
+> perl-base'
+> -- 
+> Jimmy Johnson
+>
+> Debian-Live installed at sda14
+> Registered Linux User #380263
+>
+>
+> -- 
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a 
+> subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BDF1797.6070402@csmining.org
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/7B0E10876D634E4597D618A9AE3D4BCB@Phoenix
+
+

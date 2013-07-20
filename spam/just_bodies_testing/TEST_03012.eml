@@ -1,0 +1,25 @@
+Re: ntpdate cron error2010/5/14 Rob Owens <rowens@ptd.net>:
+>
+> Not sure. =C2=A0But do you think you should be running the ntp daemon ins=
+tead
+> of using ntpdate in cron?
+>
+> -Rob
+
+I think that's indeed the way to go, yes.
+
+
+--=20
+Frank Van Damme
+A: Because it destroys the flow of the conversation.
+Q: Why is it bad?
+A: No, it's bad.
+Q: Should I top post in replies to mailing lists or on Usenet?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilxWJM2BwFAyPz3JjDOqW62yqLzk5JrLF03Qq-D@mail.csmining.org
+
+

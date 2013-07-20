@@ -1,0 +1,36 @@
+Re: Dual channel memory questionLisi put forth on 4/17/2010 10:04 AM:
+
+> Would I be correct in taking this to mean  that the memory modules appear to 
+> be incorrectly installed, and that I could improve my memory performance by 
+> moving one of the modules that dual channel functions?  And also, if that 
+
+No, they are currently properly installed for dual channel operation.
+
+> does not give me enough improvement (which it almost certainly won't), I 
+> could add another module in the third channel, which would not necessarily 
+> need to be the same size as the other two?
+
+There is no 3rd channel.  There are 3 DIMM slots, but slots 2 and 3 are part
+of the same channel.  The nForce2 northbridge chip for some odd reason was
+designed to support 1 DIMM on channel 0 and 2 DIMMs on channel 1.
+
+As long as you have a DIMM installed in slot 1 and a DIMM installed in
+either or both of slots 2 and 3, you are running in dual channel mode.
+
+# of DIMM slots does not equal # of memory bus channels.  As an example, the
+Compaq Proliant 5000 quad Pentium Pro server had 16 DIMM slots but only a
+single memory "channel".  Back then they called it a "bus", which is the
+proper electrical engineering term.  "Channel" didn't come along until much
+later when vendors started installing multiple memory buses.  I guess the
+marketing folks thought "channel" sounded better than "bus".
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC9D265.4020800@hardwarefreak.com
+
+

@@ -1,0 +1,26 @@
+Re: Two questionsOnce upon a time, Matthias wrote :
+
+> For that n°2, it's simple : They've been pulled out from the upstream
+> xine source. I guess I should make a "xine-skins" package if there is
+> enough demand for it ;-)
+
+Well, replying to my own post, sorry ;-)
+There is now a 1.3MB xine-skins package that includes all the available
+skins that can be found on the xine website.
+
+Time to "apt-get install xine-skins" for those who started to miss xinetic
+or lcd ;-)
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

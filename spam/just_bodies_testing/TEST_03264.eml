@@ -1,0 +1,24 @@
+Re: How to add service port ?Once upon a time, Yen wrote :
+
+> How do I install / add an additional service port to the system which
+> can be access via Microsoft ODBC driver?
+
+I honestly have no idea, and this is probably not the best list to expect
+an answer as it is supposed to discuss rpm packages/packaging matters.
+
+If you're using Red Hat Linux 7.3, you should try this list :
+https://listman.redhat.com/mailman/listinfo/valhalla-list
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

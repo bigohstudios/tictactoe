@@ -1,0 +1,55 @@
+Re: Strange behaviour: Scanner and NetbeansHi Mike
+
+On 15 May 2010, at 18:33, Mike Swingler wrote:
+
+> On May 15, 2010, at 6:45 AM, Bob Lang wrote:
+>=20
+>> Hi Harald
+>>=20
+>> On 15 May 2010, at 13:26, Harald Kuhr wrote:
+>>=20
+>>> Hmm..=20
+>>>=20
+>>> Very strange. Does both IDEs use the same Java version when running =
+your app? Does either Netbeans or XCode set custom system properties for =
+line.separator?=20
+>>=20
+>> As far as I can tell, both IDEs use the same Java version - and as =
+far as I can tell I only have one Java version on my computer.
+>>=20
+>> I've checked line.separator and in both cases its value is 10 =
+decimal. =20
+>>=20
+>> I also checked the delimiter pattern use by the Scanner and it's the =
+same in both cases: \p{javaWhitespace}+
+>=20
+> You might also try dumping all of your System properties, and checking =
+if the IDE spawned version is using the same file.encoding. While your =
+app is running, try doing a "ps awwwx" to see what all the parameters =
+your app has been launched with.
+
+Yes, that's found it!  It appears that Netbeans explicitly sets =
+-Dfile.encoding=3DUTF-8 in the java command line, whereas Xcode doesn't. =
+ The presence of this command option causes the problem.  By default, =
+Java on Mac appears to use "MacRoman" as the file encoding.
+
+An apparent fix in Netbeans is to go to the project's Properties > Run =
+page and set the VM Options to -Dfile.encoding=3DMacRoman
+
+At first sight, this appears to fix the problem but I need to make more =
+tests to be sure; I may come back if I find further issues.   =
+Incidentally, trying to set the option with a System.setProperty () call =
+didn't work.
+
+Thanks to everyone who helped
+
+Bob=
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

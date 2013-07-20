@@ -1,0 +1,37 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is	protected! Why?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Gunnar Wolf wrote:
+> Merciadri Luca dijo [Tue, Apr 20, 2010 at 02:00:13PM +0200]:
+>  =20
+>
+> Yet, you say in your previous reply they would be able to remove the
+> watermark from the document. That is clearly more complicated.
+>  =20
+Sure, but I think that PDFs are composed `in layers,' aren't they? If
+`layers' were not merged together, it might still be possible to remove
+the watermark.
+>  =20
+>
+> If you distribute an image file in such a fashion it can be read on
+> screen but lacks enough resolution to be good for printing, fewer
+> people will print it. Of course, depends on what you want to achieve,
+> on the nature of the document.
+>  =20
+I will think about it later. This is not in my character to think about
+stuff I could do to prevent other from harming, globally, but one
+apparently needs to trust nobody. That is sad to resort to technical
+means for problems which could be fixed at `human scale.'
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

@@ -1,0 +1,13 @@
+[Spambayes] stack.pop() ate my multipart messageSo then, Neale Pickett <neale@woozle.org> is all like:
+
+> Maybe there's some subtle interaction between generators and lists
+> that I can't understand.  Or something.  Being as I'm baffled, I don't
+> imagine any theory I come up with will be anywhere close to reality.
+
+And then, just as I was about to fall asleep, I figured it out.  The
+tokenizer now has an extra [:], and all is well.  I feel like a real
+chawbacon for not realizing this earlier.  :*)
+
+Blaming it on staying up past bedtime,
+
+Neale

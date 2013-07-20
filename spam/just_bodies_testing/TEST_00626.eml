@@ -1,0 +1,30 @@
+Re: Aptitude status output meaningOn Friday 30 April 2010 15:30:23 Daniel Burrows wrote:
+> =A0 The command-line output of aptitude is somewhat underdocumented.
+> Please feel free to submit bugs regarding bits of output that you think
+> need documentation. =A0I know there are lots of bug reports, but trust me,
+> I do read them, and it's better to have those notes than to have an
+> email lingering on some mailing list.
+
+Daniel - (or anyone else who knows!)
+
+I have noted this.  But for me it is a long-term solution.  a) I have to be=
+=20
+sure that what I am looking for is not there.  It might just be I who am=20
+being blind.  And b) I have to get my head round how to submit a bug. =20
+Meanwhile, I manage to get the answers to many of my questions by just=20
+waiting.
+
+One, however, continues to elude me.  What does the A mean in <i  A> at the=
+=20
+beginning of a line in the results from an aptitude search?
+
+Thanks!
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004301606.28225.lisi.reisz@csmining.org
+
+

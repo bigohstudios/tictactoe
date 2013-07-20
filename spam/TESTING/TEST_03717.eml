@@ -1,0 +1,171 @@
+X-Account-Key: account5
+X-UIDL: GmailId12854248d2533404
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs148628wfj;
+        Sat, 1 May 2010 06:53:24 -0700 (PDT)
+Received: by 10.87.47.17 with SMTP id z17mr6200043fgj.39.1272722001067;
+        Sat, 01 May 2010 06:53:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si5011130fks.50.2010.05.01.06.53.20;
+        Sat, 01 May 2010 06:53:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 88C2D13A4847; Sat,  1 May 2010 13:53:15 +0000 (UTC)
+Old-Return-Path: <sarkiaponius@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.9 required=4.0 tests=FOURLA,IMPRONONCABLE_2,
+	LDO_WHITELIST autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8043913A4813
+	for <lists-debian-user@liszt.debian.org>; Sat,  1 May 2010 13:53:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.504 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, IMPRONONCABLE_2=1, LDO_WHITELIST=-5,
+	MIME_QP_LONG_LINE=1.396] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id tHbt9in77-8X for <lists-debian-user@liszt.debian.org>;
+	Sat,  1 May 2010 13:53:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-ww0-f47.google.com (mail-ww0-f47.google.com [74.125.82.47])
+	by liszt.debian.org (Postfix) with ESMTP id 5EF7A13A4810
+	for <debian-user@lists.debian.org>; Sat,  1 May 2010 13:53:02 +0000 (UTC)
+Received: by wwb18 with SMTP id 18so743969wwb.6
+        for <debian-user@lists.debian.org>; Sat, 01 May 2010 06:52:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:sender:received:subject:from
+         :to:cc:in-reply-to:references:content-type:content-transfer-encoding
+         :date:message-id:mime-version:x-mailer;
+        bh=wCRNFobbTT6Iisz25GIBvSFGwXiSVggLO4mqW+6eSZw=;
+        b=YhKOT+3gjE7gmFK5KH9TGPZ5sU0KmQlxPRaLrJn7wSsShQxuZ1ZQfNVtkC/AXw24EN
+         gyFJfifyzypWA/RGvOINts6oe3RZMJaKDjF5XNWFmEV3RppaAmGh4Qa6GeHuEM00fflt
+         kyws1PA6U3wz1IVmOFMKD42kMm1kk28pmwfSI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=sender:subject:from:to:cc:in-reply-to:references:content-type
+         :content-transfer-encoding:date:message-id:mime-version:x-mailer;
+        b=Z6Jp/MCxJ+LngcmUEAxxmmcra42LtQ9Xyrx9R2zolAcUxAd2o7dkhwlu2LDzTJruqR
+         RTq/mcb6NLh0Fg74QpZqVAAiwxw9FVS9rgVwRPtOZ5qTi7ibOByVxNK9HQ3rfGB4z/33
+         xskumGjOo5XXW0P14zaENG8xIie80HDZ3+wYk=
+Received: by 10.216.185.139 with SMTP id u11mr5252432wem.13.1272721974295;
+        Sat, 01 May 2010 06:52:54 -0700 (PDT)
+Received: from debian.it (net-93-145-75-129.t2.dsl.vodafone.it [93.145.75.129])
+        by mx.google.com with ESMTPS id b2sm17764287wbb.20.2010.05.01.06.52.49
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 01 May 2010 06:52:51 -0700 (PDT)
+Sender: Andrea Giuliano <sarkiaponius@csmining.org>
+Received: by debian.it (Postfix, from userid 1000)
+	id 6B2D23BD29; Sat,  1 May 2010 15:52:47 +0200 (CEST)
+Subject: Re: NVidia MCP61, no sound...
+From: Andrea Giuliano <sarkiaponius@alice.it>
+To: debian-user <debian-user@lists.debian.org>
+Cc: noelamac@csmining.org
+In-Reply-To: <pan.2010.05.01.11.36.09@csmining.org>
+References: <1272712434.16598.7.camel@debian>
+	 <pan.2010.05.01.11.36.09@csmining.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 01 May 2010 15:52:46 +0200
+Message-Id: <1272721966.6312.5.camel@debian>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <EcnMbzh5BFN.A.e3C.LJD3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575621
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  1 May 2010 13:53:15 +0000 (UTC)
+
+Alsamixer doesn'i show muted input. Not does gnome-volume-settings. I
+also checked out gnome-sound-properties, and it gives no errors at all,
+as if it thinks everything is working fine.=20
+
+Here is the output from amixer:
+
+Simple mixer control 'Master',0
+  Capabilities: pvolume
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 42
+  Mono:
+  Front Left: Playback 34 [81%] [-12.00dB]
+  Front Right: Playback 34 [81%] [-12.00dB]
+Simple mixer control 'PCM',0
+  Capabilities: pvolume
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 255
+  Mono:
+  Front Left: Playback 255 [100%] [0.00dB]
+  Front Right: Playback 255 [100%] [0.00dB]
+Simple mixer control 'Capture',0
+  Capabilities: cvolume cswitch
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 31
+  Front Left: Capture 20 [65%] [13.50dB] [on]
+  Front Right: Capture 20 [65%] [13.50dB] [on]
+
+and here is /proc/asound/cards
+
+ 0 [NVidia         ]: HDA-Intel - HDA NVidia
+                      HDA NVidia at 0xf9ef8000 irq 22
+
+I'm going to try a LiveCD or such, but I'm not very optimistic.
+
+Thanks anyway.
+
+
+On Sat, 2010-05-01 at 11:36 +0000, Camale=C3=B3n wrote:
+> On Sat, 01 May 2010 13:13:54 +0200, Andrea Giuliano wrote:
+>=20
+> (...)
+>=20
+> > Could it be that all external jacks are disconnected at all due to some
+> > mistakes during the assembly of the whole box? Clearly front connector
+> > must be connected manually, but I really don't think that the rear ones
+> > must be enabled with jumpers or such.
+>=20
+> Front connector has to be manually plugged, yes. But embedded sound=20
+> chipset has also to be enabled in the BIOS in order to work (which is the=
+=20
+> default) and as you already tested, it is detected by the system, so I=20
+> don't think this is the problem here.
+>=20
+> I would go for a software problem configuration as d.sastre.medina=20
+> already pointed out (sound levels muted -or very low-, or sound card=20
+> model wrongly recognized by alsa and so the number and position of the=20
+> inputs/outputs).
+>=20
+> Anyway, you can always load any LiveCD to check if sound is workimg from=20
+> there, to discard any harwdare issue.
+>=20
+> Greetings,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272721966.6312.5.camel@debian
+
+

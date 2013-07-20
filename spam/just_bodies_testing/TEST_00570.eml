@@ -1,0 +1,29 @@
+Re: [ILUG] slashdot EW Dijkstra humorOn Mon, 2002-08-12 at 12:09, Albert White - SUN Ireland wrote:
+> If you want to stop in the middle of that because some condition is set then 
+> you probably should have used a while loop instead of `for`:
+> i:=0
+> flag:=false
+> while [ i != 100 && flag != true ]
+> do
+> 	....
+> 	# found our special case set flag to jump out of loop
+> 	flag:=true
+> 	....
+> 	i++;
+> done
+> 
+> If you're using a break or similar construct in a while loop then you might 
+> want to rethink your guard condition.
+
+Good point, I didn't think of that. However, that doesn't help with a
+case statement, which IMHO is cleaner than using an if statement if you
+have a lot of branches... but then again maybe that should be refactored
+away with polymorphism :)
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

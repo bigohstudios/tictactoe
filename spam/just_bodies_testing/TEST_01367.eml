@@ -1,0 +1,33 @@
+Re: mkfifo questionFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+fifo is just like pipe, but there is a name/filesystem entry for that.  you
+could assume that fifo is splitting the standard
+program1 | programs into two parts using the named fifo.
+
+In this case it depends how your program is doing the processing, whether it
+processes one file each after downloading or at once after downloading them
+all.
+
+On Mon, Apr 26, 2010 at 17:06, Mag Gam <magawake@csmining.org> wrote:
+
+> Hello,
+>
+> Currently I download a file (which is about 700MB) from wget and place
+> it in my /tmp and do my task on the file. If I have to work with 10 of
+> these fies at a single time I have to have 10 files in /tmp;
+>
+> I was wondering if anyone has a clever idea how I can avoid having all
+> 10 in /tmp and have a pipe or a "virtual file" so the program things
+> there is actually a file there.  Is it possible to fake out the OS
+> like that?
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/w2z1cbd6f831004260436u90c45e45r9daf9d0cb07177f6@mail.csmining.org
+>
+>

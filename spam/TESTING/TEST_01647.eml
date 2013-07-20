@@ -1,0 +1,176 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288a06dc33eca25
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs19002wfb;
+        Tue, 11 May 2010 18:00:26 -0700 (PDT)
+Received: by 10.223.92.152 with SMTP id r24mr7176108fam.74.1273626025412;
+        Tue, 11 May 2010 18:00:25 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id n26si12648636faa.70.2010.05.11.18.00.24;
+        Tue, 11 May 2010 18:00:25 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E693713A5680; Wed, 12 May 2010 01:00:19 +0000 (UTC)
+Old-Return-Path: <mkasick-dk@club.cc.cmu.edu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3E8D813A55B9
+	for <lists-debian-kde@liszt.debian.org>; Wed, 12 May 2010 01:00:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_IN_DNSWL_MED=-4]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 72YYYspQPOg2 for <lists-debian-kde@liszt.debian.org>;
+	Wed, 12 May 2010 01:00:06 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 402 seconds by postgrey-1.31 at liszt; Wed, 12 May 2010 01:00:06 UTC
+Received: from calcium.club.cc.cmu.edu (CALCIUM.CLUB.CC.CMU.EDU [128.237.157.16])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 4157913A5625
+	for <debian-kde@lists.debian.org>; Wed, 12 May 2010 01:00:06 +0000 (UTC)
+Received: (qmail 2777 invoked from network); 12 May 2010 00:53:21 -0000
+Received: from bromine.club.cc.cmu.edu (128.237.157.4)
+  by calcium.club.cc.cmu.edu with SMTP; 12 May 2010 00:53:21 -0000
+Received: from mkasick by bromine.club.cc.cmu.edu with local (Exim 4.63)
+	(envelope-from <mkasick-dk@club.cc.cmu.edu>)
+	id 1OC0CP-0004Gh-2U
+	for debian-kde@lists.debian.org; Tue, 11 May 2010 20:53:21 -0400
+Date: Tue, 11 May 2010 20:53:21 -0400
+From: Mike Kasick <mkasick-dk@club.cc.cmu.edu>
+To: debian-kde@lists.debian.org
+Subject: KDE 4.4.3 upgrade eats 141 MB of /home
+Message-ID: <20100512005320.GA16379@club.cc.cmu.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.13 (2006-08-11)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <GIbr45h7fRK.A.SPB.j2f6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32399
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed, 12 May 2010 01:00:19 +0000 (UTC)
+
+Folks,
+
+I've looked around the "KDE 4.4.3 in unstable" thread and elsewhere, and I
+didn't see this specific issue come up, although I think it's generally
+well known.
+
+In any event, I upgraded my unstable machine today, which was a few weeks
+behind, and it pulled in KDE 4.4.3.  First thing I noticed was my home
+directory was less 141 MB.  Furthermore, if I create a new user account,
+and do nothing but login and logout of a KDE desktop, the home directory
+takes up 141 MB with no real data!
+
+I'll be frank for a moment.  Regardless of whatever technical issues have
+arisen in recent history, it is _simply unacceptable_ that a system upgrade
+should suddenly eat 141 of /home, especially without warning!.  It is
+similarly unacceptable that a new, empty user account also takes up this
+much space.  I know disk space is cheap and plentiful these days, and that
+Google is willing to store 7453.767074 MB of my email, but certainly I must
+not be alone in the belief that an empty user account taking up 141 MB of
+disk space is absurd.
+
+Alright, so here's the backstory:
+
+KDE 4 uses Akonadi as its PIM storage backend.  Akonadi, at least in
+unstable, only supports MySQL (and PostgreSQL) as backends.  And the
+default configuration of Akonadi is to run a per-user instance of MySQL
+with InnoDB tables with two 64 MB transaction logs.  Apparently such has
+been the case for a while, and anyone who has been using KDE PIM
+applications has probably noticed such.
+
+But I _don't_ use KDE PIM!  I don't even have kdepim installed.
+
+The only reason why I even have akonadi-server and mysql-server-core
+installed is because kde-minimal ultimately depends on them, and I'd rather
+not micromanage my KDE packages.
+
+In any event, Akonadi is a known problem, and many folks are unhappy about
+kdepim 4.4's inclusion in squeeze, etc.  It's not worth going into that
+here.
+
+Point is, up until now, folks who didn't use KDE PIM applications never had
+to worry about akonadi/mysql/141 MB.  But apparently in KDE 4.4,
+kres-migrator automatically migrates the old KResource mechanism to an
+Akonadi-backed data store.  Thus burdening every KDE user, including brand
+new user accounts, with akonadi/mysql/141 MB less disk space.  I suppose
+that's "fine" for anyone who might actually benefit from it--although I
+consider it a blatant waste of disk space.  But it's surprising at best,
+and downright aggravating at worse, to those of us who are trying to avoid
+this entire mess.
+
+In any event, this problem can be avoided by simply running "kwriteconfig
+--file kres-migratorrc --group Migration --key Enabled --type bool false"
+[1] prior to upgrading to KDE 4.4, or prior to running "startkde" as a new
+user account, although the latter results in the KDE 3 => 4 migration
+dialog popping up.
+
+There's a couple solutions to this problem.
+
+- Long term: Don't use MySQL as the default Akonadi backend, which is
+  currently infeasible.
+
+- Disable "kres-migrator".  Or at least add a debconf option to
+  kdepim-runtime presenting the option of running kres-migrator by default
+  or disabling it.
+
+- Add a warning dialog during kdepim-runtime upgrade stating that
+  kres-migrator will run by default and potentially consume a large amount
+  of per-user disk space, unless migration is manually disabled by the
+  above command.
+
+- Reduce the default size of the InnoDB transaction logs in the Akonadi
+  per-user MySQL configuration.  I'm not familiar enough with InnoDB tuning
+  to offer an appropriate value, but I would suggest 4 MB to be the upper
+  limit of a reasonable per-user log size, it terms of what I'm comfortable
+  spending towards unproductive disk usage.  Presumably if 64 MB is the
+  default, it's intended for databases with somewhat significant
+  transaction volumes.  I expect that in average usage, Akonadi sees very,
+  very few transactions relatively speaking.  If one can get away with a 1
+  MB transaction log or less, even better!
+
+I suppose the last option is the best for going forward with KDE PIM 4.4 in
+squeeze.  Hopefully someone familiar with InnoDB tuning can comment on what
+a reasonable transaction log size is for the expected, typical Akonai
+transaction volume, and Debian can configure to use the minimum reasonable
+value by default.
+
+Apologies for my rant.  I just can't comprehend how such disk usage is even
+remotely acceptable for PIM usage patterns.
+
+Thanks to anyone who addresses the issue, and to the KDE packagers for
+their patience in dealing with user complaints.  =)
+
+[1] http://techbase.kde.org/Projects/PIM/Akonadi#How_do_I_disable_automatic_migration_from_KDE.27s_traditional_framework.3F
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100512005320.GA16379@club.cc.cmu.edu
+
+

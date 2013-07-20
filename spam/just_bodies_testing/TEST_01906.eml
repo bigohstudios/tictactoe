@@ -1,0 +1,25 @@
+Re: Filesystem recommendationsOn Mon, 26 Apr 2010 13:56:21 +0200, Javier Barroso wrote:
+
+> Why Debian Installer doesn't change its default filesystem to xfs if it
+> is better than ext3 / ext4? I think always is better stick to defaults
+> if it is possible
+
+XFS (and ReiserFS) were having (still have?) problems with GRUB legacy 
+bootloader so defaulting the filsesystem to any of them could be a bit 
+"risky".
+
+I mean, not only "performance" is a key factor to determine a default 
+filesystem :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.26.13.09.00@csmining.org
+
+

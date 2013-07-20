@@ -1,0 +1,43 @@
+Re: 64-bit netbooks with Debian linuxOn 5/2/2010 2:17 PM, Peter Tenenbaum wrote:
+> I've been thinking about getting a netbook and I'd like to install
+> Debian linux on it when / if I do.  I'd also like to get one which uses
+> an AMD64-class processor.  Does anyone have any suggestions?  The
+> Gateway LT21 looks like just what I want in terms of hardware (ie,
+> fairly low-end but 64-bit); has anyone got any positive / negative
+> experience installing Debian on this computer?
+>
+> Thanks in advance,
+> -PT
+
+I have not installed Debian on this *particular* machine, but I have had 
+some experience in general.
+
+
+Netbooks are underpowered.  Get a *real* notebook/laptop.  You can get a 
+much better computer for about the same money.  The only advantage I can 
+see in a netbook is battery life.  I speak from experience.
+
+I have briefly had Linux installed on an Eee PC.  It performs better in 
+some ways, but I saw no real advantage other than the usual advantages 
+that Linux has over Win/Mac.
+
+At the time, I struggled with drivers.  That situation has probably 
+improved.
+
+My Eee PC's Atom CPU is single-core, 32-bit.  This is appropriate 
+because the machine cannot support more than 2GB of RAM anyway, and it 
+is never used for anything except "net" things:  web+email.
+
+64-bit is overkill for a netbook.  If you get a "real" machine, 64-bit 
+might be useful.  But for netbook-class machines, save your money.
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDE0C99.8080406@allums.com
+
+

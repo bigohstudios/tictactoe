@@ -1,0 +1,54 @@
+Re: Safely delete (35-pass) file with a Java applicationThank you for your suggestion of using RandomAccessFile and not to use
+35-pass rewrite.
+
+As I wrote, I might just use srm terminal application to safely delete
+files (which is included in MacOS X).
+And as well, I might do the 3-pass rewrite (in case of normal hard
+drives) and 1-pass rewrite in case of SSD drives.
+
+Is there possibly any chance of figuring out, whether the user has SSD
+or normal HDD? I mean, out of java?
+
+Thank you for your answers.
+
+2010/5/3, Harald Kuhr <harald.kuhr@csmining.org>:
+>
+> On 3. mai 2010, at 14.36, Matev=C5=BE Markovi=C4=8D wrote:
+>
+>> Since I am still an amateur in the Java language, I want to practice
+>> as much as possible. Not long ago I came along with an idea, that I
+>> want to write a application (Swing application), from which one will
+>> be able to choose a file and safely delete it (e.g. rename,delete,
+>> overwrite 35-times, possibly less).
+>
+> I'm not really sure if this is guarateed to work on all Java
+> implementations, but you could try to open the file for random access
+> (http://java.sun.com/j2se/1.5.0/docs/api/java/io/RandomAccessFile.html),
+> then write random data to the entire contents of the file before you dele=
+te.
+> It might even work if you first open, then delete, before writing random
+> data if you prefer that.
+>
+> But it might be that you are better off finding a command-line tool that
+> handles the secure deletion for you, and create a Swing app that delegate=
+s
+> the heavy lifting to the command-line tool. Low-level file system access
+> isn't really one of Java's strong points, as its foucs has always been be=
+ing
+> cross-platform (Java 7's NIO.2 functionality might fix some of these issu=
+es
+> though) .
+>
+>
+> Best regards,
+>
+> --
+> Harald K
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

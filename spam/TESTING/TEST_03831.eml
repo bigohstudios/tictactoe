@@ -1,0 +1,96 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284b0855bdc2364
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs45684wfj;
+        Thu, 29 Apr 2010 12:25:57 -0700 (PDT)
+Received: by 10.142.208.15 with SMTP id f15mr5483442wfg.310.1272569156859;
+        Thu, 29 Apr 2010 12:25:56 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 5si1711851pzk.118.2010.04.29.12.25.56;
+        Thu, 29 Apr 2010 12:25:56 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id A9DF71BD9D5F4
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 12:25:56 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A57F4273F4897
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 12:25:56 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id EC219273F47EA
+	for <augd@lists.apple.com>; Thu, 29 Apr 2010 12:25:49 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id DB9BBD73E100
+	for <augd@lists.apple.com>; Thu, 29 Apr 2010 12:25:49 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-25-4bd9dd3dc50e
+Received: from mail-qy0-f184.google.com (mail-qy0-f184.google.com
+	[209.85.221.184])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	18.E4.26228.D3DD9DB4; Thu, 29 Apr 2010 12:25:49 -0700 (PDT)
+Received: by qyk14 with SMTP id 14so8272195qyk.6
+	for <augd@lists.apple.com>; Thu, 29 Apr 2010 12:25:49 -0700 (PDT)
+Received: by 10.224.83.83 with SMTP id e19mr666663qal.157.1272569148455;
+	Thu, 29 Apr 2010 12:25:48 -0700 (PDT)
+Received: from [192.168.1.100] ([96.18.58.220])
+	by mx.google.com with ESMTPS id 21sm996137iwn.7.2010.04.29.12.25.47
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Thu, 29 Apr 2010 12:25:47 -0700 (PDT)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Apple Message framework v1078)
+From: Jackie Klinnert <jklinnert@cableone.net>
+In-Reply-To: <20100429190111.E9E8F273ED279@lists.apple.com>
+Date: Thu, 29 Apr 2010 14:25:46 -0500
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <3CC55A9A-851C-4EC3-AE28-2F2D217DC170@cableone.net>
+References: <20100429190111.E9E8F273ED279@lists.apple.com>
+To: augd@lists.apple.com
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAxPvoMIT8ELAE/BxWQ==
+Subject: AUGD: Re: Free Ride for Board Members?
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> So I'm curious to hear opinions on the notion of MUG board members =
+being free from paying group dues, as a thanks for the time they give, =
+as well as a potential means of attracting new board members -- =
+something we are having a very hard time with.
+>=20
+> Do any of your groups do this?
+>=20
+> If not, how do you think the idea would go over in your own group?
+>=20
+> Chris
+
+Although it can be hard to get people to be board members, I don't think =
+giving a board member free group dues would make any difference. Our =
+group dues are $25, not enough to entice someone to do the 'footwork'.   =
+:-)
+
+Jackie
+Fargo-Moorhead Mac User Group
+(FM-MUG)=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

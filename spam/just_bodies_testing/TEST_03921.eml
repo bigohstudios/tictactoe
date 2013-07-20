@@ -1,0 +1,34 @@
+Re: Volatile binary-armel clamav package versions do not matchFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+This one time, at band camp, Grant Bigham said:
+> Guys, noticeed that the clamav package versions for the binary-armel
+> arch do not match, as follows:
+>=20
+> clamav | version:0.95.3+dfsg-1~volatile1
+> clamav-base | version:0.96+dfsg-4~volatile1
+> clamav-daemon | version:0.95.3+dfsg-1~volatile1
+> clamav-dbg | version:0.95.3+dfsg-1~volatile1
+> clamav-docs | version:0.96+dfsg-4~volatile1
+> clamav-freshclam | version:0.95.3+dfsg-1~volatile1
+> clamav-milter | version:0.95.3+dfsg-1~volatile1
+> clamav-testfiles | version:0.96+dfsg-4~volatile1
+> libclamav-dev | version:0.95.3+dfsg-1~volatile1
+> libclamav6 | version:0.95.3+dfsg-1~volatile1
+
+clamav hasn't been built for armel yet.  The packages that are updated
+to 0.96 are the ones that don't contain architecture-dependant code.
+
+As I don't have anything to do with the building, I can't tell you why
+it hasn't been built yet, just that that is the current situation.
+
+Cheers,
+--=20
+ -----------------------------------------------------------------
+|   ,''`.                                            Stephen Gran |
+|  : :' :                                        sgran@debian.org |
+|  `. `'                        Debian user, admin, and developer |
+|    `-                                     http://www.debian.org |
+ -----------------------------------------------------------------

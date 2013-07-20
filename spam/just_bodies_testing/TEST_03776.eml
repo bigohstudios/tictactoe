@@ -1,0 +1,39 @@
+Re: Moving /tmp to a separate partition. Advice?From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun, May 23, 2010 at 11:10:19AM +0200, Klistvud wrote:
+> Dne, 23. 05. 2010 10:45:36 je Ron Johnson napisal(a):
+> > Why?
+> I frequently burn double-layer DVDs, requiring around 8GB of free space =
+=20
+> for temporary files. Until now, I had to do that on another rig. Also, =
+=20
+> I'm planning to do some video editing, which, I'm told, likewise =20
+> requires huge amounts of temporary space. On my / partition, I have =20
+> nowhere *near* that amount of free space.
+
+IMHO, it is a good idea to implement LVM when possible.
+In case you go on, I recently went through an actual BTDT situation:
+
+Having /tmp mounted noexec,nosuid for security reasons, aptitude
+failed to execute postinstall scripts.
+The solution was to remount exec /tmp partition and rerun aptitude.
+After that I had to add this to /etc/apt/apt.conf or under
+/etc/apt/apt.conf.d/ (depends on your config)
+
+DPkg::Pre-Invoke{"mount -o remount,exec /tmp";};                           =
+                                                                       =20
+DPkg::Post-Invoke {"mount -o remount /tmp";}; =20
+
+Some useful references:
+
+http://www.debian-administration.org/articles/57                           =
+   =20
+http://forums.debian.net/viewtopic.php?t=3D16450
+
+Regards.
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB

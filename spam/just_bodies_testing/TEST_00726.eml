@@ -1,0 +1,48 @@
+upgrade from lenny to sid with kde installed (second attempt)Hi,
+I've just finished one test upgrade from lenny to sid. Here is what I did:
+
+I. upgrade to squeeze
+
+remove all the kde3 related applications
+
+1. copy the system to an external usb harddrive (and make it bootable)
+2. mount the usb drive and 
+3. chroot to the mounted dir
+4. modify /etc/apt/source.list to be squeeze
+5. apt-get update; apt-get dist-upgrade
+
+Note: not all packages have been installed correctly
+
+6. reboot into the usb drive
+7. apt-get -f install; apt-get autoremove ; apt-get clean
+
+II. upgrade to sid
+(back in my working environment)
+
+1. mount the usb drive and 
+2. chroot to the mounted dir
+3. modify /etc/apt/source.list to be sid
+4. apt-get update; apt-get dist-upgrade
+5. reboot into the usb drive
+6. apt-get -f install; apt-get autoremove ; apt-get clean
+7. using dselect or aptitude or whatever install the kde4 desktop
+
+The problem is that there are still many packages that do not "see" that I'm
+in chroot and try to restart services while upgrading.
+Do you know any solution to this?
+
+Keeping kde3 and upgrading resulted in broken system (because of
+dependencies few crucial packages were removed or prepared for installation
+when apt-get died)
+
+I short discussion would be appreciated
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/htb1un$8o8$1@dough.gmane.org
+
+

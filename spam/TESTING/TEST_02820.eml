@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e1a98e01c3823
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs17262wfi;
+        Fri, 9 Apr 2010 01:22:19 -0700 (PDT)
+Received: by 10.223.100.141 with SMTP id y13mr1320889fan.15.1270801338197;
+        Fri, 09 Apr 2010 01:22:18 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 8si2187147fxm.45.2010.04.09.01.22.17;
+        Fri, 09 Apr 2010 01:22:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E1EFB2D1EB7; Fri,  9 Apr 2010 08:22:11 +0000 (UTC)
+Old-Return-Path: <tolimar@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-12.4 required=4.0 tests=ALL_TRUSTED,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5AE972D1EE1
+	for <lists-debian-security@liszt.debian.org>; Fri,  9 Apr 2010 08:22:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-8.8 tagged_above=-10000 required=5.3
+	tests=[ALL_TRUSTED=-1.8, BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id CFi+nkkofH7P
+	for <lists-debian-security@liszt.debian.org>;
+	Fri,  9 Apr 2010 08:22:01 +0000 (UTC)
+Received: from melusine.alphascorpii.net (cl-961.dus-01.de.sixxs.net [IPv6:2a01:198:200:3c0::2])
+	by liszt.debian.org (Postfix) with ESMTP id 231472D1EB7;
+	Fri,  9 Apr 2010 08:22:01 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by melusine.alphascorpii.net (Postfix) with ESMTP id D7D2B83E584;
+	Fri,  9 Apr 2010 10:21:58 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at melusine.alphascorpii.net
+Received: from melusine.alphascorpii.net ([127.0.0.1])
+	by localhost (melusine.alphascorpii.net [127.0.0.1]) (amavisd-new, port 10026)
+	with LMTP id wYIWDHl4dpF3; Fri,  9 Apr 2010 10:20:27 +0200 (CEST)
+Received: from [194.95.112.177] (pc2177.tib.uni-hannover.de [194.95.112.177])
+	by melusine.alphascorpii.net (Postfix) with ESMTPSA id 446F4846F69;
+	Fri,  9 Apr 2010 10:20:27 +0200 (CEST)
+Message-ID: <4BBEE34A.4030208@debian.org>
+Date: Fri, 09 Apr 2010 10:20:26 +0200
+From: Alexander Reichle-Schmehl <tolimar@debian.org>
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090707)
+MIME-Version: 1.0
+To: Moritz Muehlenhoff <jmm@inutil.org>
+CC: Michael Tautschnig <mt@debian.org>, 
+ Gabriele Giacone <1o5g4r8o@csmining.org>,
+ Florian Weimer <fw@deneb.enyo.de>, security@debian.org, 
+ Debian Security <debian-security@lists.debian.org>,
+ Torsten Werner <twerner@debian.org>, 
+ Debian Java <debian-java@lists.debian.org>,
+ Michael Koch <konqueror@gmx.de>
+Subject: Re: jedit_4.3.1+dfsg-1_amd64.changes REJECTED
+References: <4BA1DE7B.20404@debian.org> <82b06fd61003180322i5a9cec6q714358f43461d5e@mail.csmining.org> <4BA22E19.2090107@debian.org> <82b06fd61003180719x158afd6ej38d80d1a2645888c@mail.csmining.org> <20100318142739.GA32085@laptop165.dbai.tuwien.ac.at> <4BB3CD1C.8000005@csmining.org> <87hbns1ipr.fsf@mid.deneb.enyo.de> <20100403214319.GF6368@l04.thnet> <4BB8F651.2040902@csmining.org> <20100405105239.GB9805@l04.thnet> <20100408220221.GC3131@galadriel.inutil.org>
+In-Reply-To: <20100408220221.GC3131@galadriel.inutil.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <R57K5ivB7BM.A.akC.zOuvLB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23772
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Fri,  9 Apr 2010 08:22:11 +0000 (UTC)
+
+Hi!
+
+Moritz Muehlenhoff schrieb:
+
+> bsh code copies don't strike me as a security-relevant overhead,
+> personally I don't have any objections.
+
+If it's fine with you, it's okay with us.  We don't like it (the archive 
+is already big enough without yet another code copy), but we'll accept it.
+
+
+Best regards,
+   Alexander
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBEE34A.4030208@debian.org
+
+

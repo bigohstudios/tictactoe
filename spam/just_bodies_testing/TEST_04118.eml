@@ -1,0 +1,37 @@
+Re: KDE in Debian, a personal POVFrom nobody Sat Jul 20 14:17:34 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+On Fri, May 07, 2010 at 12:52:09PM -0700, Mike Bird wrote:
+> Debian ships all sorts of software, including even
+> non-free software.  Would it be possible to continue
+> rebuilding and shipping KDE 3.5, perhaps in "contrib",
+> perhaps with a huge "no security updates" disclaimer?
+
+Hi Mike.  You've implied elsewhere in this thread that you have some
+users for whom you provide KDE-based desktop support of some kind.
+Would you really be willing to provide these people with a desktop
+comprised of software that not only gets no security support from the
+distro vendor, but also no security support from an upstream development
+community?
+
+KDE 3 is dead.  Nobody is looking after the code base to find and squash
+bugs, patch security flaws, maintain compatibility with possible API
+changes of library dependencies, etc.  This is not a simple matter of
+packaging.  This is an orphaned project.  Maybe someday this trinity
+project will amount to something, but it can not be considered anything
+short of a fork of the original KDE code base.  It does not have the
+same developer community or resources, and can not be considered the
+same project.  If it ends up getting packaged for Debian, which is
+certainly within the realm of possibilities, then it must be treated as
+a new project, and go through the standard NEW queue and all that.  If
+the upstream maintainers of that project end up building a community of
+developers around their project, and there are people interested in
+packaging it for Debian, then you could very well see it included in
+squeeze+1.  Given that nobody here has expressed any interest in
+actually doing that, I'm not sure how likely it really is.  Howver, no
+matter what happens, there is zero chance of it being included in
+squeeze.
+
+noah
+

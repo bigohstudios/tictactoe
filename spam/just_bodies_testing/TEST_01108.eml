@@ -1,0 +1,29 @@
+Re: Debian on IBM eServer System p5 - POWER ArchFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, Apr 26, 2010 at 13:04 +0530, Abhishek Amberkar [=E0=A4=85=E0=A4=AD=
+=E0=A4=BF=E0=A4=B7=E0=A5=87=E0=A4=95] wrote:
+> Hello List,
+>=20
+> I am trying to install Debian Testing on IBM eServer System p5.
+
+I can't really help you with your problem, but would like to point out
+that there is a mailing list for PowerPC [1], which might be worth a
+try. And there are a couple of hits on Google for the error (prom-init
+freeze) you get ... ;)
+
+Are you using the squeeze installer? If so, I would try the stable
+installer for the installation. Is there a special reason why you need
+the squeeze installer? You can easily upgrade to squeeze later on or
+oven install squeeze directly.
+
+Good luck!
+
+[1] http://lists.debian.org/debian-powerpc/
+--=20
+  .''`.     Wolodja Wentland    <wentland@cl.uni-heidelberg.de>=20
+ : :'  :   =20
+ `. `'`     4096R/CAF14EFC=20
+   `-       081C B7CD FF04 2BA9 94EA  36B2 8B7F 7D30 CAF1 4EFC

@@ -1,0 +1,111 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284c2483b1c5fae
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs56965wfj;
+        Thu, 29 Apr 2010 17:36:22 -0700 (PDT)
+Received: by 10.142.55.11 with SMTP id d11mr6042576wfa.99.1272587781109;
+        Thu, 29 Apr 2010 17:36:21 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 27si1943804pzk.3.2010.04.29.17.36.20;
+        Thu, 29 Apr 2010 17:36:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id B0BD11C3E24B1
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 17:36:20 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id ADA0D27410BB2
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 17:36:20 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 426E12741093A
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 17:35:58 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 20F95D2DCD10
+	for <objc-language@lists.apple.com>;
+	Thu, 29 Apr 2010 17:35:58 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-16-4bda25ed490d
+Received: from asmtpout024.mac.com (asmtpout024.mac.com [17.148.16.99])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	76.FA.25880.DE52ADB4; Thu, 29 Apr 2010 17:35:58 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [192.168.0.103] (203-158-45-59.dyn.iinet.net.au [203.158.45.59])
+	by asmtp024.mac.com
+	(Sun Java(tm) System Messaging Server 6.3-8.01 (built Dec 16 2008;
+	32bit)) with ESMTPSA id <0L1N00170YZ8DK60@asmtp024.mac.com> for
+	objc-language@lists.apple.com; Thu, 29 Apr 2010 17:35:35 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004290232
+From: Ian Joyner <ianjoyner@me.com>
+In-reply-to: <4BDA05D5.5070407@cywh.com>
+Date: Fri, 30 Apr 2010 10:35:32 +1000
+Message-id: <D73E4DF3-9B84-4540-959C-C1B80D386AA5@me.com>
+References: <4BDA00A5.7020207@cywh.com>
+	<z2ud73dcbd61004291510i8ad13fa8u9a2f018fe6df3158@mail.csmining.org>
+	<4BDA05D5.5070407@cywh.com>
+To: Luke Scott <luke@cywh.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: objc-language@lists.apple.com
+Subject: Re: Mouse/Keyboard "Hook"?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 30 Apr 2010, at 08:19, Luke Scott wrote:
+
+> On 4/29/10 3:10 PM, Shawn Erickson wrote:
+>> On Thu, Apr 29, 2010 at 2:56 PM, Luke Scott<luke@cywh.com>  wrote:
+>>   
+>>> I'm trying to make a program in C/C++ that blocks the mouse and keyboard
+>>> events on the local system (as if they didn't happen) and send them to
+>>> another machine over LAN. Essentially my end goal is to control computer B
+>>> with the mouse and keyboard from computer A.
+>>>     
+>> Wrong list for this type of question, it has nothing to do with any
+>> programming language.
+>> 
+>> Look at CGEvent and consider asking on the quartz dev list instead.
+>> 
+>> -Shawn
+>>   
+> Well considering that I really haven't written very much code for the Mac not knowing which list specifically is understandable. I figured posting in the generic C++ list would be sufficient, at least for pointing me to the right list.
+
+Objective-C is a specific object extension of the C language based on Smalltalk, not a generic moniker to cover other C-based OO languages like C++ (based on Simula, which was a much nicer more modern language). Objective-C is a very different beast to C++, although there is Objective-C++ where you can mix the languages to some extent (for porting, etc - in general you would not mix in C++ code with Obj-C code in a new app).
+
+As to the original (non-language based) question, you can drive another Mac with keyboard and mouse, just by connecting to it with Screen share - works across applications. I'll assume there's something more that you want to do that you'll have to program the same thing for yourself. If you can (your app isn't too secret), you should also post a higher-level description of what you really want to do. In the Mac world we call this "Think Different"!
+
+HTH
+Ian
+> 
+> Is quartz "the option" or "one of the options" for capturing keyboard and mouse events? If it's one of the options, I would be interested in knowing what the other options are.
+> 
+> Luke
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

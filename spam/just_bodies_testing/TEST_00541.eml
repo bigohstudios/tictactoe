@@ -1,0 +1,121 @@
+Re: udev & /dev/sdaX & lenny2squeezeOn Fri, 9 Apr 2010 10:43:12 -0400 (EDT), Ionel Mugurel Ciob=C3=AEc=C4=83 wr=
+ote:
+> On Fri, 9 Apr 2010 09:58:22 -0400 (EDT), Stephen Powell wrote:
+>>
+>> Migrating from Lenny to Squeeze (or any migration, really) is tricky.
+>>
+> =20
+> I know. I manage fine from bo 2 hamm, from hamm 2 potato, from
+> potato 2 woody, from woody 2 sarge and from sarge 2 lenny.
+=20
+If you've been around that long, then why is it that you didn't know to
+reply to the list instead of to me personally?  Please post *and* reply
+*only* to the list.  You can CC someone if they ask for a CC, but always
+include the list as one of your recipients.
+
+>> You can't just change your /etc/apt/sources.list file to point to the
+>> squeeze repositories and then do "aptitude update;aptitude full-upgrade"=
+.
+>> The problem you are describing above is only the first of your problems
+>> if you have done that.  You need to follow the upgrade outline mentioned
+>> in the Release Notes.  You didn't say how you did it, and it's too late
+>> in any case, but I just wanted to mention that while we're on the subjec=
+t.
+> =20
+> I did this:
+> - edit /etc/apt/sources.list (changed lenny/stable to squeeze/testing)
+> - aptitude update
+> - aptitude install apt dpkg aptitude
+> - aptitude full-upgrade (few times)
+
+That is not the proper procedure.  Read the release notes.
+The most important step you missed is to issue "aptitude dist-upgrade"
+*before* the "aptitude full-upgrade", but there are other steps you left
+out as well.  I speak from experience.  I tried to upgrade a system from
+Etch to Lenny by "winging it" and not following the upgrade procedure
+listed in the release notes, and my system was almost unusable.  Fortunatel=
+y
+I had another system on which I had installed Lenny directly, and by compar=
+ing
+installed packages between the install-Lenny-from-scratch system and the
+upgrade-from-Etch-to-Lenny system I was eventually able to recover my syste=
+m.
+But it took many days.  Following the upgrade procedure in the release note=
+s
+is very important.  Take it from one who learned that the hard way.
+
+>> Assuming that you did the migration properly, this may be a device name
+>> issue.  There's been some problems with device names recently, particula=
+rly
+>> with IDE hard disks.  It hasn't happened to me, but others have reported
+>> device names going from /dev/hdx to /dev/sdx and back again with
+>> subsequent maintenance.  You may have to boot from a rescue disk,
+>> edit your /etc/fstab to change device names, according to what they
+>> are now, and rebuild your initial RAM file system.
+> =20
+> That is not the issues.  The booting process manage to use /dev/sda5 as r=
+oot
+> but then it can't find the other /dev/sdaX. Indeed, ls /dev/sd* /dev/hd*
+> shows no /dev/hd* files and onlu /dev/sdY, with Y=3Dc,d,e,f,f1, not even
+> /dev/sda5 which
+> is already mounted as root.
+>>
+>> If that is the issue, an alternative to traditional device names is
+>> to use UUIDs.
+> =20
+> In /dev/.udev/ are some entry with uuid, but they are for the external hd=
+d
+> (also sata) which is there as /dev/sdf.
+>
+> I don't understand why /dev/sda5 is mounted as root, then all /dev/sdaX a=
+re
+> no longer available. dmesg | grep sda shows all partitions.
+>
+> This is not a kernel issue. I manually install a kernel (via the memory
+> stick)
+> from debian site (linux-image-2.6.32.1-3_i686.deb) and it is doing the sa=
+me.
+>
+> I can boot fine with the rescue CD and chroot into the installed
+> squeeze, but
+> I don't know any more how to fix it.
+
+Neither do I.  Maybe someone else has some ideas, but I'm out.  I don't kno=
+w
+about you, but I know what I would do if it were me.  I'd reinstall from
+scratch.  (I always keep /home in a separate partition for just such
+occasions as this.)  I'd reinstall from scratch and reformat the / partitio=
+n.
+If you don't have /home as a separate partition then back up the /home dire=
+ctory
+somewhere first so you won't lose your personal files.  I strongly recommen=
+d
+that you make /home a separate partition in your new install, if it isn't n=
+ow.
+
+I also recommend that you use the latest "daily build" development version
+of the Debian installer if you want to install Squeeze directly.
+That's the only version of the D-I that I trust to install Squeeze at this
+point.  Good luck.
+
+If I had known in advace how much work it was going to be to recover my dam=
+aged
+system from a bad upgrade attempt, I wouldn't have even tried.  I would hav=
+e
+reinstalled from scratch.  You've got your system hosed up much worse than
+mine was.  I recommend that you reinstall from scratch.  And next time,
+read (and carefully follow) the release notes when you do an upgrade.
+
+--=20
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1972509979.2211501270845101316.JavaMail.root@md01.wow.synacor.com
+
+

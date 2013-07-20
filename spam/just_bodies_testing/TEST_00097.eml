@@ -1,0 +1,73 @@
+Re: Debian Java track at DebConf 10(this is an e-mail soliciting talks for a Debian-Java track at
+DebConf10, please CC: me unless you also reply to the debian-java
+mailing list)
+
+On Mon, Apr 26, 2010 at 10:24 PM, Tom Marble <tmarble@info9.net> wrote:
+> Pablo Duboue wrote:
+>> I'd like to coordinate a Debian-Java track in DebConf10
+> Sounds like a good idea!
+
+Looking forward to your jigsaw talk :-)
+
+> We should encourage related language (e.g. Clojure) talks as well.
+
+Indeed. I learned scala because I found about it through Debian :-)
+I'm CC:ing the Scala maintainers to see if they feel like giving a
+talk. (Groovy and clojure are Debian-Java maintained so the
+maintainers should be getting this already.)
+
+Alternatively, we can have a JVM-based languages BoF session. If
+anybody is interested in the topic, please submit it before the
+deadline (in three days).
+
+>> * A talk explaining the current state of the Java Policy and where we wa=
+nt to
+>> take it in the longer term. Doesn't need to be a talk, it can a joust ;-=
+)
+>>
+>> * A talk explaining javahelper, maybe focusing on newer developments if =
+such a
+>> talk has been offered on past DebConfs
+>
+> I suspect these will be topics that interest many Java hackers.
+> One of the old discussions we had on this topic was how to think
+> of these topics in a way that can benefit other distros as well [0].
+
+(that thread looks very good, I'll read it at a later time, thanks for
+pointing to it)
+
+with respect to other distros, yes, in that area the Eclipse packaging
+is heavily based on the work of Linux Tools in Eclipse, with a number
+of people from Red Hat, so it is nice if we can identify things we do
+to return the favor ;-)
+
+Does anybody has experience using java tooling in other distros and
+will be willing to sign up for a talk on the subject?
+
+> For example, our friends from another popular Libre distro are
+> concerned (rightly so) about Java security [1]. =A0Anyone care to
+> give a Java security talk (or is this really just a special case
+> of a GNU/Linux security talk)?
+
+We recently had issues with duplicated code in bsh [2]. Maybe there're
+people in Debian-Security with particular expertise to Java that'd
+like to give a talk (or a joint talk)?
+
+Again, the deadline for talks is soon so go for it :-)
+
+P.
+
+
+
+[0] http://lists.debian.org/debian-java/2007/06/threads.html#00023
+[1] http://identi.ca/conversation/26332216
+
+[2] http://lists.debian.org/4BB8F651.2040902@csmining.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2md5adecf91004271452j84050f1fx601c71ed9ae9bce@mail.csmining.org
+
+

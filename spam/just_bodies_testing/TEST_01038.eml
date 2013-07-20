@@ -1,0 +1,26 @@
+[ILUG] app of the day - Spacklehttp://spackle.xidus.net/info.php
+
+>>From the website:
+"Spackle is designed to be a flexible client/server architecture for the 
+gathering and displaying of statistics, primarily suited to monitoring 
+servers. It's written in PHP and bash shell script, uses RRDtool  for stats 
+logging, and PostgreSQL for the server-side database. (soon to support MySQL 
+as well)"
+
+I had this up and running within a few hours. The hardest bit was getting 
+PostgreSQL running as it's been a few years since I used it. I had a bit of a 
+problem getting it to work on rh6.2 boxes but I documented the changes here: 
+http://xeer.blogspot.com/?/2002_07_01_xeer_archive.html#79148596
+
+Web interface is simple, but functional. It has a simple way of distributing 
+the monitoring scripts (which could be compromised but I digress), and the 
+resulting graphs are pretty!
+
+Donncha.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

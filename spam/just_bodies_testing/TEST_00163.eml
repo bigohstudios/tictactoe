@@ -1,0 +1,31 @@
+Re: use new apt to do null to RH8 upgrade?On Wed, 2 Oct 2002 09:44:15 +0200 (CEST), Thomas Vander Stichele <thomas@urgent.rug.ac.be> wrote:
+
+> > Matthias Saou (matthias@egwn.net) wrote*:
+> > >As Red Hat does, I really don't recommend trying to upgrade between betas
+> > >or from a beta to a final release either. Simply backup your /home, /etc
+> > >(and /root and/or /usr/local/ if needed) then reinstall cleanly, it'll
+> > >probably save a few hassles and you'll get the cleanest possible system ;-)
+
+    Yeah, I need to work this out, too; I just learned my lesson about living on the bleeding edge. Lesson learned?  NO MORE XIMIAN, UNDER ANY CIRCUMSTANCES.  Man, that was annoying.
+
+    Anyway, I have returned to Redhat 7.3 on my root filesystem (saved my home directories, music and games on other partitions) and while I have the 8.0 stuff in the list, everything I want to upgrade requires 200+ RPMs.
+
+    I'm not opposed to this, but apt is.  "apt-get dist-upgrade" dumps core.
+
+    What's the inside secret here, or do I just start searching mirrors for the ISO and get over it?
+
+  
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+Just machines, to make big decisions- programmed by fellas with
+compassion and vision.  We'll be clean when that work is done;
+Eternally free and eternally young.  Linux.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

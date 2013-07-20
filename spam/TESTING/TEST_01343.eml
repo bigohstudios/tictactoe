@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId12898190a0ef3ce5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs41536wfo;
+        Fri, 14 May 2010 11:34:58 -0700 (PDT)
+Received: by 10.223.45.22 with SMTP id c22mr2023374faf.107.1273862097794;
+        Fri, 14 May 2010 11:34:57 -0700 (PDT)
+Return-Path: <bounce-debian-infrastructure-announce=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t2si6485142faa.26.2010.05.14.11.34.57;
+        Fri, 14 May 2010 11:34:57 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-infrastructure-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-infrastructure-announce=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-infrastructure-announce=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 823F62D0DF2; Fri, 14 May 2010 18:34:56 +0000 (UTC)
+Old-Return-Path: <zobel@ftbfs.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.0 required=4.0 tests=IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-infrastructure-announce@liszt.debian.org
+Delivered-To: lists-debian-infrastructure-announce@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7FAE72D0DED
+	for <lists-debian-infrastructure-announce@liszt.debian.org>; Fri, 14 May 2010 18:34:50 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank moderated
+X-AmavisStatus: No, score=-11 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_2=1, LDO_WHITELIST=-5,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id bFW1XzTRXJIS
+	for <lists-debian-infrastructure-announce@liszt.debian.org>;
+	Fri, 14 May 2010 18:34:43 +0000 (UTC)
+Received: from idun.ftbfs.de (mail-outv6.ftbfs.de [IPv6:2001:6f8:1215:ba:1::76])
+	by liszt.debian.org (Postfix) with ESMTP id 483BF2D0DEC
+	for <debian-infrastructure-announce@lists.debian.org>; Fri, 14 May 2010 18:34:43 +0000 (UTC)
+Received: from idun.ftbfs.de (idun.ftbfs.de [78.47.2.106]) (Authenticated sender) by idun.ftbfs.de (Postfix) with ESMTP id 20404EC36C for <debian-infrastructure-announce@lists.debian.org>; Fri, 14 May 2010 20:34:41 +0200 (CEST)
+Received: by marra.vpn.ftbfs.de (Postfix, from userid 1000)
+	id BD0BCFACB; Fri, 14 May 2010 20:34:39 +0200 (CEST)
+Date: Fri, 14 May 2010 20:34:39 +0200
+From: Martin Zobel-Helas <zobel@debian.org>
+To: debian-infrastructure-announce@lists.debian.org
+Subject: mips machines down for maintenance
+Message-ID: <20100514183439.GA10597@ftbfs.de>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="mYCpIKhGyMATD0i+"
+Content-Disposition: inline
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Debian-Message: Signature check passed for Debian member
+Mail-Followup-To: debian-project@lists.debian.org
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <bI4F4S-6TaF.A.d6E.QfZ7LB@liszt>
+Resent-From: debian-infrastructure-announce@lists.debian.org
+X-Mailing-List: <debian-infrastructure-announce@lists.debian.org> archive/latest/74
+X-Loop: debian-infrastructure-announce@lists.debian.org
+List-Id: <debian-infrastructure-announce.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-infrastructure-announce/>
+List-Post: <mailto:debian-infrastructure-announce@lists.debian.org>
+List-Help: <mailto:debian-infrastructure-announce-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-infrastructure-announce-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-infrastructure-announce-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-infrastructure-announce-request@lists.debian.org
+Resent-Date: Fri, 14 May 2010 18:34:56 +0000 (UTC)
+
+
+--mYCpIKhGyMATD0i+
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+i just shut down gabrielli.debian.org (mips porter box) and will do so
+with corelli and lucatelli (both buildd) as well, as we do some hardware
+maintenance on them.
+
+They should be back in a few hours.
+
+Cheers
+Martin
+--=20
+ Martin Zobel-Helas <zobel@debian.org>  | Debian System Administrator
+ Debian & GNU/Linux Developer           |           Debian Listmaster
+ Public key http://zobel.ftbfs.de/5d64f870.asc   -   KeyID: 5D64 F870
+ GPG Fingerprint:  5DB3 1301 375A A50F 07E7  302F 493E FB8E 5D64 F870
+
+--mYCpIKhGyMATD0i+
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvtl78ACgkQST77jl1k+HAMYACfbRDy7WkJbMKHWkTCUqJmjsum
+3YIAoKk+/ffoPWTEsHbrwn9YcM80blkB
+=AOcU
+-----END PGP SIGNATURE-----
+
+--mYCpIKhGyMATD0i+--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-infrastructure-announce-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514183439.GA10597@ftbfs.de
+
+

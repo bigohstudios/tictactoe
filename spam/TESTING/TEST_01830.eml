@@ -1,0 +1,210 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283c088928831db
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs105012wfj;
+        Mon, 26 Apr 2010 14:31:52 -0700 (PDT)
+Received: by 10.87.71.7 with SMTP id y7mr3444056fgk.63.1272317511905;
+        Mon, 26 Apr 2010 14:31:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si2294247fka.14.2010.04.26.14.31.51;
+        Mon, 26 Apr 2010 14:31:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A399113A54D6; Mon, 26 Apr 2010 21:31:39 +0000 (UTC)
+Old-Return-Path: <bss@iguanasuicide.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-15.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 97A2C13A5188
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 21:31:31 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 586PsMTlE+KA for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 21:31:22 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from rei.iguanasuicide.net (rei.iguanasuicide.net [209.20.91.252])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id EFAE613A5358
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 21:31:15 +0000 (UTC)
+Received: from [99.49.187.102] (helo=dellbuntu.localnet)
+	by rei.iguanasuicide.net with esmtpsa (TLS1.0:DHE_DSS_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <bss@iguanasuicide.net>)
+	id 1O6VtY-0008Ms-1U
+	for debian-user@lists.debian.org; Mon, 26 Apr 2010 21:31:12 +0000
+From: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+To: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+Date: Mon, 26 Apr 2010 16:34:38 -0500
+User-Agent: KMail/1.12.4 (Linux/2.6.31.12-0.2-default; KDE/4.3.5; x86_64; ; )
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org> <201004261322.24215.bss@iguanasuicide.net> <w2i258ced3f1004261405t78b9aad9md94419ae567697c6@mail.csmining.org>
+In-Reply-To: <w2i258ced3f1004261405t78b9aad9md94419ae567697c6@mail.csmining.org>
+X-Face: ^vamSukCH~ctN{VF@Q-&WG{+0';38cJ]\/:{x0w-b'+GPuWvNg%NAa2SuBw=&"obQ@q;2h
+	6&5@)xd86p;wyaJ%f7&z_BW}Dkm.L$-#h%DUdk7thS-HC_A^Jp|#Tq4R/^q/-]wRVU^T?j
+	g@-H./`NrG[
+X-Eric-Conspiracy: There is no conspiracy.
+Face: =?iso-8859-15?q?iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEUSK?=
+ =?iso-8859-15?q?VkSKVkSKVkSKVkrXb=0A=09grXbgrXbgrXbhEddVEddXI2uzI2uxEddUrX?=
+ =?iso-8859-15?q?bgSKVlvm9zseJLgAAAAC3RSTlMZS96SGZLeS95LGbtQ3=0A=096QAAA?=
+ =?iso-8859-15?q?I0SURBVDjLbZRNbhQxEIU9sMsqCWukMNmjITkDN+AacCBW2SH1FXqk3iJRT?=
+ =?iso-8859-15?q?knZsOlyn8DhAHZj=0A=093iv3ZCSgNBqN/fxVvfLPhGH4+NlMROpLyPdP?=
+ =?iso-8859-15?q?wxCGbzkbIsoWs+HzdQgPb83yc7JzcOHPixC+mCWbRVs=0A=09pY2lNMM?=
+ =?iso-8859-15?q?z2FMIOurZpREz4LtPU6qOly/A6G9aW0krjLAJcSgcICycxRCoXWmurHcKr?=
+ =?iso-8859-15?q?vHC+eDauR7oWn2=0A=099cQEwExrEXa7/tJlyn9gsC/DhBdWpreheun7X?=
+ =?iso-8859-15?q?1KJxybF0zhLwsnsyJ/rU4AbtYPXViyxQNQlrXWTCsJ=0A=096GudSNWT0?=
+ =?iso-8859-15?q?NXblkVuwjBlkWVJrmaAMMJqarlLCgIcWLGGZ3yj+NRXoiqYMZRfnQBQ?=
+ =?iso-8859-15?q?7VIIiKVYmUnJiyr=0A=09bjfrItJGT9eLq7hgVhV2RTa7R5XNLttjBtQ4ks?=
+ =?iso-8859-15?q?KF6ESMFERfOpfZiTzPxYnCNMw1x62G9Y2gUFkeJXo=0A=09NIyLKGpXNr?=
+ =?iso-8859-15?q?HHeCJMyuaujMNdktgkR4+au3MLaBd5cCEc02GrFVlZexk7MzCCV2wzf6?=
+ =?iso-8859-15?q?OJEzN41d5VtqG=0A=0901oIhvnx8kkGi5H22edTzHVDci52R6OkAyEnP?=
+ =?iso-8859-15?q?OnUAfY6NR3iGYSu4qJfPTbS5oo9tOUMHbdKE23oTci=0A=093cBil8dto?=
+ =?iso-8859-15?q?GZk0BF2Yq35wSeWvYeT2EE/KnhRzorfMMgDmH3vr9szxa5TVz2dBl2dyy?=
+ =?iso-8859-15?q?RfV6k76A93l6G=0A=098GbPEj2T+kfi/kPAP8D93f6vuL0H8BCu7v+Jq3A?=
+ =?iso-8859-15?q?RhvDfGP4AtLxO3F/uHbUAAAAASUVORK5CYII=3D?=
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart3133234.PnYsOh8N8D";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004261634.43523.bss@iguanasuicide.net>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <tDVodvPro8C.A.2SG.7Yg1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575178
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 21:31:39 +0000 (UTC)
+
+--nextPart3133234.PnYsOh8N8D
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 16:05:31 B. Alexander wrote:
+> On Mon, Apr 26, 2010 at 2:22 PM, Boyd Stephen Smith Jr. <
+> bss@iguanasuicide.net> wrote:
+> > I'm also a current reiser3 user.  I find the ability to shrink the
+> > filesystem
+> > to be something I am not willing to do without.
+>=20
+> You know, I said the same thing, but then as the kernel and GRUB and the
+> like advanced, I noticed that my reiserfs partitions would have to replay
+> the journal every time I rebooted, even after a clean shutdown. I started
+> calculating how many times I shrunk any of my partitions in the last 8
+> years, and I can only recall twice. And since I have several terabytes
+> around the house, I figure I can migrate data and delete/recreate
+>  partitions if I really need to reduce it.
+
+That doesn't seem right.  I have been using reiser3 since 2005, and my syst=
+em=20
+does not require a journal replay if I do a clean shutdown/reboot.  A force=
+d=20
+reboot through Alt+SysRq+B does trigger a journal replay (as it should).
+
+I also have 4+ tebibytes but most of them are allocated to filesystems.  I'=
+ve=20
+had to shrink filesystems dozens of times since 2005, during or after a dat=
+a=20
+move.
+
+I don't use partitions (much), having been using LVM happily for everything=
+=20
+except /boot.  I'm hoping to be able to move that onto LVM once I move to=20
+GRUB2 and GPT.
+
+> > I have not read the rest of the thread, but my off-the-cuff
+> > recommendation would be to start migration to btrfs.  Now that the
+> > on-disk format has stabilized, I am going to start testing it for
+> > filesystems other than /usr/local, /var, and /home.  Assuming I can keep
+> > those running well for 6-12
+> > months, I will migrate /usr/local, /var, and then /home, in that order,
+> > with a
+> > 1-3 month gap in between migrations.
+>=20
+> I might play with it for some non-critical partitions, or ones that I can
+> mirror on an established filesystem, even if it is only to use in an
+> "Archive Island" scenario, where I have a LV that I can mount, sync and
+> umount. However, btrfs is not included in the kernel, is it? As I recall,
+> nilfs2 has kernel support, but that was the only one of the new
+>  filesystems, at the time when I started looking at this.
+
+btrfs is included in 2.6.31.12-0.2-default in openSUSE 11.2.  It is also=20
+included in linux-image-2.6-686 and linux-image-2.6-amd64 for lenny-backpor=
+ts,=20
+testing, and sid.  I don't normally deal with other=20
+architectures/distributions, so it might also be available there.
+
+> > I've already encountered an issue related to btrfs in my very isolated
+> > deployments.  The initramfs created by update-initramfs does not appear
+> > to mount it properly.  Instead I am given an '(initramfs)' prompt and I
+> > have to
+> > mount the filesystem manually (a simple two-argument mount command
+> > suffices)
+> > and continue the boot process.  This is fine for my laptop, but servers
+> > (and
+> > even my desktop) need to be able to boot unattended; I am still
+> > investigating
+> > the issue, which may just be due to my configuration.
+>=20
+> That is enough to give me pause...
+
+It doesn't appear to be a file system issue, but rather a problem with the=
+=20
+initramfs scripts.  It could also be rooted in my configuration.  I know th=
+at=20
+my "root=3D" kernel parameter has to differ from the device name in my=20
+/etc/fstab in order to get the initramfs to correctly initialize LVM.
+
+I don't mind being a first adopter for this in particular; I hope to be abl=
+e=20
+to report good things about btrfs by this time next year.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/
+
+--nextPart3133234.PnYsOh8N8D
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.12 (GNU/Linux)
+
+iEYEABECAAYFAkvWBvMACgkQdNbfk+86fC1PxQCfSgXbrP/bR9c/mhIcLEPqzJ2X
+TvYAoIYX6joATXud5genIK8DDe9O5umD
+=m4Ro
+-----END PGP SIGNATURE-----
+
+--nextPart3133234.PnYsOh8N8D--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004261634.43523.bss@iguanasuicide.net
+
+

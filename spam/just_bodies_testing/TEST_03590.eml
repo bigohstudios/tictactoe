@@ -1,0 +1,19 @@
+[SAtalk] moving SPAM: results to bottom of message.Is there a way to tell spamassassin to put the results at the bottom
+of the message instead?  If not, what is the easiest way to do this.
+I found a report_header, but no equivalent report_bottom.
+
+Thanks,
+
+Jon.
+jon.g@directfreight.com
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

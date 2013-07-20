@@ -1,0 +1,20 @@
+problem with redirection in APache2From nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi,
+
+
+I'm trying to redirect from a site to another, and it works....but i want
+that when it redirects it shows the original address and not the destination
+address, the line that i have at the moment and works without hide the
+redirection is:
+
+RewriteRule ^/(.*) http://openmeetings.innovagroup.es:5080/openmeetings
+[R=301
+
+I've read in google that changing the [R=301] to [P], it should works ...but
+it shows that is a forbiden site when I change it.
+
+Someone knows how can i get it???
+
+thanks

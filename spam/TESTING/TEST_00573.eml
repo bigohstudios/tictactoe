@@ -1,0 +1,241 @@
+X-Account-Key: account5
+X-UIDL: GmailId12892c9ad58b9ddc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs10228wfo;
+        Thu, 13 May 2010 10:50:36 -0700 (PDT)
+Received: by 10.143.154.27 with SMTP id g27mr6438625wfo.333.1273773010344;
+        Thu, 13 May 2010 10:50:10 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id s5si2961032wff.81.2010.05.13.10.50.10;
+        Thu, 13 May 2010 10:50:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 1B58F1C0E72FD
+	for <mlsubscriber.tech@csmining.org>; Thu, 13 May 2010 10:50:10 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 16C9D279EF06E
+	for <mlsubscriber.tech@csmining.org>; Thu, 13 May 2010 10:50:10 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 4EF84279EE86D
+	for <filesystem-dev@lists.apple.com>;
+	Thu, 13 May 2010 10:48:40 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 3CC15D8E753D
+	for <filesystem-dev@lists.apple.com>;
+	Thu, 13 May 2010 10:48:40 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-db-4bec3b78060e
+Received: from asmtpout028.mac.com (asmtpout028.mac.com [17.148.16.103])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	55.B8.15139.87B3CEB4; Thu, 13 May 2010 10:48:40 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from blacksilver.apple.com ([17.203.20.14])
+	by asmtp028.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPA id <0L2D003EODGTZB90@asmtp028.mac.com> for
+	filesystem-dev@lists.apple.com; Thu, 13 May 2010 10:48:30 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=6.0.2-1004200000 definitions=main-1005130111
+X-Proofpoint-Virus-Version: vendor=fsecure
+	engine=1.12.8161:2.4.5,1.2.40,4.0.166
+	definitions=2010-05-13_02:2010-02-06, 2010-05-13,
+	2010-05-13 signatures=0
+From: Kevin Elliott <kelliott@mac.com>
+In-reply-to: <394951BF-24B3-4D43-A441-C44D9C9EAD5E@macftphttp.serverbox.org>
+Date: Thu, 13 May 2010 10:48:29 -0700
+Message-id: <B249AA24-1CCD-4133-934C-E395FEC807B4@mac.com>
+References: <8FBFF1C1-4D28-4BC8-A654-8397CA78DD9F@macftphttp.serverbox.org>
+	<3402013F-F670-45D7-BDA3-278E64956B7D@apple.com>
+	<16C3EDF1-0950-4E3E-9A2C-311481095169@macftphttp.serverbox.org>
+	<CB4ED98B-D077-47FA-AC7C-3740BB63B29F@apple.com>
+	<48E28D41-827A-4031-A453-C0CA08DF7DD9@macftphttp.serverbox.org>
+	<7AE05B12-9AFE-4BE3-B31B-83E212DD6759@apple.com>
+	<394951BF-24B3-4D43-A441-C44D9C9EAD5E@macftphttp.serverbox.org>
+To: websrvr <websrvr@macftphttp.serverbox.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: filesystem-dev@lists.apple.com
+Subject: Re: auto mounting a partition with nobrowse
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> Using DiskArbitration seems to offer the results I need so I started coding a little test app but due to the lack of sample code I'm not sure I'm doing any of it properly since it segfaults when I use DADiskMountWithArguments().
+
+Reread here:
+<http://developer.apple.com/mac/library/documentation/Darwin/Reference/DiscArbitrationFramework/DiskArbitration_h/index.html#//apple_ref/c/func/DADiskMountWithArguments>
+
+Last argument is a NULL terminated array, which you're not providing.
+
+-Kevin
+
+
+On May 13, 2010, at 2:29 AM, websrvr wrote:
+
+> 
+> On May 12, 2010, at 21:20 PM, Daniel Markarian wrote:
+> 
+>> Hey Dale,
+>> 
+>> Does /sbin/mount show "nobrowse" on 10.6?
+>> 
+>> Dan
+>> 
+>> PS: You can run the 10.6 version of /sbin/mount on 10.5 to check the state of "nobrowse" on 10.5 as well.
+> 
+> Hey Dan,
+> 
+> The 10.6.2 version of mount  doesn't run in 10.5.6.
+> 
+> In 10.6 it does show the nobrowse but in the left side of the finder window I can see the partition (it's grayed out) but only seems to do this if there are existing finder windows open, if all windows are closed then the partitions are not visible at all.
+> 
+> Depending on the existence of the fstab file to do the hiding is a poor solution since I cannot guarantee the user will plug the drive only into systems that have it.
+> 
+> Using DiskArbitration seems to offer the results I need so I started coding a little test app but due to the lack of sample code I'm not sure I'm doing any of it properly since it segfaults when I use DADiskMountWithArguments().
+> 
+> Here's the code:
+> 
+> // test_mount.m
+> // gcc -Wall -o test_mount test_mount.m -framework DiskArbitration -framework Foundation
+> 
+> #import <Foundation/Foundation.h>
+> #import <DiskArbitration/DiskArbitration.h>
+> 
+> #define _NO_ARGS_		1
+> 
+> /* guessing due to lack of sample code */
+> DADissenterRef
+> MountDiskHidden(DADiskRef disk, void *context)
+> {
+> 	char const *CdiskName = DADiskGetBSDName(disk);
+> 	NSString *diskName = [NSString stringWithUTF8String:CdiskName];
+> 	NSRange s1s1NumberRange = NSMakeRange([diskName length] - 4, 4);
+> 	DADissenterRef dissenter;
+> 	char *type;
+> 
+> 	if([[diskName substringWithRange:s1s1NumberRange] isEqualToString:@"s1s1"]) /* it's our magic partition */
+> 	{
+> 
+> #if _NO_ARGS_
+> 		DADiskMount(disk,
+> 					NULL,
+> 					kDADiskMountOptionDefault,
+> 					NULL,
+> 					NULL);
+> #else
+> 		CFStringRef arguments = CFStringCreateWithCString(kCFAllocatorDefault, "nobrowse", kCFStringEncodingUTF8);
+> 
+> 		/* using this causes a segfault */
+> 		DADiskMountWithArguments(disk,
+> 								NULL,
+> 								kDADiskMountOptionDefault,
+> 								NULL,
+> 								NULL,
+> 								&arguments);
+> #endif
+> 
+> 		dissenter = DADissenterCreate(kCFAllocatorDefault,
+> 									kDAReturnSuccess,
+> 									CFSTR("mounted hidden"));
+> 
+> 		type = "mounted hidden";
+> 	}
+> 	else
+> 	{
+> 		DADiskMount(disk,
+> 					NULL,
+> 					kDADiskMountOptionDefault,
+> 					NULL,
+> 					NULL);
+> 
+> 		dissenter = DADissenterCreate(kCFAllocatorDefault,
+> 									kDAReturnSuccess,
+> 									CFSTR("mount not permitted"));
+> 
+> 		type = "mounted normal";
+> 	}
+> 
+> 	printf("%s: %s\n", CdiskName, type);
+> 
+> 	return dissenter;
+> }
+> 
+> /* This should really be daemonized but should suffice for test purposes */
+> int
+> main (int argc, const char * argv[])
+> {
+> 	NSAutoreleasePool *pool = [NSAutoreleasePool new];
+> 	DAApprovalSessionRef session = DAApprovalSessionCreate(kCFAllocatorDefault);
+> 
+> 	if (!session)
+> 	{
+> 		fprintf(stderr, "failed to create Disk Arbitration session");
+> 		goto out;
+> 	}
+> 
+> 	DARegisterDiskMountApprovalCallback(session,
+> 										NULL,  // matches all disk objects
+> 										MountDiskHidden,
+> 										NULL); // context
+> 
+> 	DAApprovalSessionScheduleWithRunLoop(session,
+> 										 CFRunLoopGetCurrent(),
+> 										 kCFRunLoopDefaultMode);
+> 
+> 	CFRunLoopRunInMode(kCFRunLoopDefaultMode,
+> 						45 /* seconds */,
+> 						false);
+> 
+> 	DAApprovalSessionUnscheduleFromRunLoop(session,
+> 										 CFRunLoopGetCurrent(),
+> 										 kCFRunLoopDefaultMode);
+> 
+> 	DAUnregisterApprovalCallback(session,
+> 								MountDiskHidden,
+> 								NULL);
+> 
+> out:
+>  if (session)
+> 		CFRelease(session);
+> 
+>   [pool release];
+> 
+> 	exit(0);
+> }
+> 
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/filesystem-dev/kelliott%40mac.com
+> 
+> This email sent to kelliott@mac.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284b7d946928acb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs51369wfj;
+        Thu, 29 Apr 2010 14:34:01 -0700 (PDT)
+Received: by 10.142.9.17 with SMTP id 17mr2650328wfi.325.1272576841133;
+        Thu, 29 Apr 2010 14:34:01 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 15si1689127pzk.19.2010.04.29.14.34.00;
+        Thu, 29 Apr 2010 14:34:01 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id B0DFA1BDA3273
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 14:34:00 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id AC88B273FEA75
+	for <mlsubscriber.tech@csmining.org>; Thu, 29 Apr 2010 14:34:00 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay14.apple.com (relay14.apple.com [17.128.113.52])
+	by lists.apple.com (Postfix) with ESMTP id 793FF273FE404
+	for <java-dev@lists.apple.com>; Thu, 29 Apr 2010 14:33:09 -0700 (PDT)
+X-AuditID: 11807134-b7b33ae000001768-13-4bd9fb156e78
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay14.apple.com (Apple SCV relay) with SMTP id
+	56.10.05992.51BF9DB4; Thu, 29 Apr 2010 14:33:09 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <F119FF46-8C89-4B47-BE59-F5DA1D0E5220@amug.org>
+Date: Thu, 29 Apr 2010 14:33:08 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <0F0C063C-AB78-4758-841A-F311082DDC5E@apple.com>
+References: <F119FF46-8C89-4B47-BE59-F5DA1D0E5220@amug.org>
+To: list Java-dev <java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: Greg Guerin <glguerin@amug.org>
+Subject: Re: Problem detecting sleep in 10.6
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 29, 2010, at 2:19 PM, Greg Guerin wrote:
+
+> Brandon Moon wrote:
+>=20
+>> The callback simply calls a static void method in Java to notify Java =
+of the sleep event. I have a System.out.println() call in this method. =
+When I run this code in Mac OS X 10.5, it works fine. However, when I =
+run it in 10.6, the java process hangs, and the system doesn't go to =
+sleep until the 30 timeout occurs. Upon resume, the java process seems =
+permanently hung up and non-responsive. Any ideas why this would occur?
+>=20
+> Sounds like some kind of deadlock, but without a debugger or =
+diagnostics, it's gonna be hard to pin it down.  Good luck; I suspect =
+figuring out how to run the debugger within the 30-second window is =
+gonna be the hardest part of this.
+>=20
+> You should be able to send a SIGQUIT to the hung process (after =
+wakeup) and get a thread-dump.  That might reveal something.
+>=20
+> You might try simplifying the static method, so it doesn't write to =
+System.out.  Instead, do something much simpler, like increment a static =
+counter with no synchronization, and do no I/O at all.  If that works, =
+do simple file I/O, like writing one byte to an already-open file, and =
+flushing to disk.  Basic strategy: start dead simple and work up.  =
+println() is simple to understand or invoke, but the implementation =
+isn't nearly as simple as one might think.
+
+I'd actually recommend having your static function post a Runnable onto =
+the AWT EventQueue with SwingUtilities.invokeLater(), and return =
+immediately.
+
+Best of luck,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

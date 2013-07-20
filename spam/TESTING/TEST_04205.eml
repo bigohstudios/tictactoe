@@ -1,0 +1,137 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a27dc911bd37a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs128088wfo;
+        Sun, 16 May 2010 12:01:13 -0700 (PDT)
+Received: by 10.223.117.164 with SMTP id r36mr5131577faq.28.1274036472319;
+        Sun, 16 May 2010 12:01:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t2si11147974faa.26.2010.05.16.12.01.11;
+        Sun, 16 May 2010 12:01:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D54E713A5CFB; Sun, 16 May 2010 19:01:06 +0000 (UTC)
+Old-Return-Path: <brad@fineby.me.uk>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D247313A5CF0
+	for <lists-debian-user@liszt.debian.org>; Sun, 16 May 2010 19:01:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id aTozGmqy3LQ7 for <lists-debian-user@liszt.debian.org>;
+	Sun, 16 May 2010 19:00:53 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from argent.srv2.com (argent.srv2.com [62.149.36.114])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 453C613A5CEB
+	for <debian-user@lists.debian.org>; Sun, 16 May 2010 19:00:43 +0000 (UTC)
+Received: from [84.45.211.248] (helo=abydos.stargate.org.uk)
+	by argent.srv2.com with esmtpa (Exim 4.69)
+	(envelope-from <brad@fineby.me.uk>)
+	id 1ODj4k-0003wB-Ja
+	for debian-user@lists.debian.org; Sun, 16 May 2010 20:00:35 +0100
+Date: Sun, 16 May 2010 19:54:53 +0100
+From: Brad Rogers <brad@fineby.me.uk>
+To: debian-user@lists.debian.org
+Subject: Re: apect ration change on wide monitor
+Message-ID: <20100516195453.4f570819@abydos.stargate.org.uk>
+In-Reply-To: <20100516182028.GB2671@alfa>
+References: <20100516182028.GB2671@alfa>
+Organization: Catch 22
+X-Mailer: Claws Mail 3.7.6 (GTK+ 2.20.1; x86_64-unknown-linux-gnu)
+X-Offender: Blondie
+X-Face: "HPqG~#g:rpB^{}wN[-'q4PUSYnh*~w\D8_av0#QP<L2")x{Wy$Ki[W$<%-8`e`cCD*<Iw. *5p)2,Ifr;Bb~3ppgx$o.G,%iH;\OA%=y1kb{+/>xm^U4y\VgCD$*T5`0t)BJEn#&i2>pCfxohs(Y` |rbxHZA4OaB:!Q)m`~o,3"h!BZjl}k,E?Nsi-}.,ineK$e7e~sAuSsq8'|D0y<AoOp-9M-t$>p4#
+Face: iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAMFBMVEW/19+10dv7/PsuKB6lyNh7d3OYq7Db6OdLQTWvzdmdwtT////+//7I3OCRus681N3LvLYZAAABwklEQVQ4jXXUsUsCURwH8De1xXVLcEMcOAsNYTgWHILtimNBWgrqllPTYbyxAy3eEC5H0BvqD7D/oMUpW8QlGhzEW2qK1++933ted+oXbvHj7/v7eYNkuCFk+Pr2th662avaSpoAuUy/RCvzZL4kZKs5v8L58yrUyqXKjPNVOPdOOE+OIDS80JP2PG+lJ1Q4n9Va6SoJMAOHrpnweJiETJ31UAAaeARO1B0N3izkGA2MMYRPPJzzRwMBYw4UhugnSwhsGadX1JVhEljwxPAOBV0EIQmAFRnMIZzZroBA17Ht4DINYkHIQo4cwxPALg1tVxBCrMh2gxQIgG0CbYNIXbEEaJJgxVBQ5yqQES/yBFkVg7JooABekKrKtIkeEbeWmmC9QrxDZQcgiOFUf2yRWyEiV44YsIgl4NzFwBbChTYNzYmpOlqob0TOnQaTB32E2FXnNq+vDUwmo20pGjqdDtIe+oh8K7joyIzhudeTo61/IPNjStMwNp3vyx0azBUI1dJKygouKfUPkjk0ANkIdA1UKE1ZDpdTI77vH+QldxX05R00jp/PI3zQRHyser3J7sMvmi5f/WQqfsUYJjb++2zIHyNMQ8RzrXOvAAAAAElFTkSuQmCC
+Mime-Version: 1.0
+Content-Type: multipart/signed; micalg=PGP-SHA256;
+ boundary="Sig_/EdLaqmx/=GIyceCoP8wCcRZ"; protocol="application/pgp-signature"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - argent.srv2.com
+X-AntiAbuse: Original Domain - lists.debian.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - fineby.me.uk
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nvcF0n6XEdB.A.pCG.yDE8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576987
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 16 May 2010 19:01:06 +0000 (UTC)
+
+--Sig_/EdLaqmx/=GIyceCoP8wCcRZ
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+On Sun, 16 May 2010 20:20:29 +0200
+Martin <adsrtg-mlist@yahoo.com.au> wrote:
+
+Hello Martin,
+
+> In manual for monitor I did not find any note about such posibility.
+> I have LG FLATRON W1943SS.
+
+Not the same monitor (LG FLATRON W2042S) but have had no success in
+finding anything to auto-switch the 4:3 modes correctly.  My assumption
+being that, because there's a button to do the job, it's not possible to
+do it in software as the relevant commands don't exist to do it.
+
+If you don't run the monitor at its native resolution, things can look
+pretty ugly anyway.
+
+Now, there's an oxymoron for you.   :-)
+
+--=20
+ Regards  _
+         / )           "The blindingly obvious is
+        / _)rad        never immediately apparent"
+
+If a thought came in your head it would die of loneliness
+I Don't Like You - Stiff Little Fingers
+
+--Sig_/EdLaqmx/=GIyceCoP8wCcRZ
+Content-Type: application/pgp-signature; name=signature.asc
+Content-Disposition: attachment; filename=signature.asc
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBCAAGBQJL8D99AAoJEEvDbGwXTTHBTmoH/31w4d06oWGJvJgaIGs5lejX
+vdfCly3TPu1+1AvRGqPcunMx7+i1bFeoEniD3M9GH708CTPX1Q9aUGF/AcJAtHOQ
+56F6wmNIjTdU8cX33Sl/gzcIGiopUMQ+6fnrBk/1edgTKEdPSgINnr/g/oRpxdK3
+jyqUZNPrS6SCsda9EP4Mg3oVHJAiW7guqURzdooXrDnpWZU9qhVjxtHelU0P+YcL
+nzbxOpdD3Czvb6Ds0nBY7tk10vZqB6qiKfZvGPo2ZdUOqywAg/Srr2gfqzpo2Dt1
+y7MZpJKGiToodQZNN7NehP6Pwlsm6MoVgJ6QZxKqHpYNVSr1tQf6TyDIHsw0a5w=
+=meAi
+-----END PGP SIGNATURE-----
+
+--Sig_/EdLaqmx/=GIyceCoP8wCcRZ--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100516195453.4f570819@abydos.stargate.org.uk
+
+

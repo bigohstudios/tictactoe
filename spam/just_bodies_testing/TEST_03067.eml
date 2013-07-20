@@ -1,0 +1,38 @@
+Re: [SOLVED]Re: DVD-RamOn Wed, 12 May 2010 13:15:10 -0400, Curt Howland wrote:
+
+(...)
+
+> Adding a file, deleting, both worked just fine treating it as a regular
+> disk.
+> 
+> My apologies for bothering the list with something already pretty well
+> answered, but my searches had not turned up the information I needed
+> when I did the searches the first two times.
+> 
+> I'll also try UDF to see if it's readable on Winders, since who knows
+> wtf I'll be needing to mount backups on in several years. I've lost too
+> many pictures that were stored on floppies already.
+> 
+> Thank you for your time,
+
+Wow, I just have read the complete thread and it's looks promising.
+
+Your post (and Wikipedia article :-P) have motivated me enough to give 
+DVD-RAM a try along with UDF (or maybe FAT32) filesystem. I didn't like 
+so much all that DVD±RW stuff and the problems that may arise while using 
+a different UDF spec but after reading this I'm gonna give it a chance.
+
+Thanks for sharing this :-)
+
+Gretings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.13.08.25.59@csmining.org
+
+

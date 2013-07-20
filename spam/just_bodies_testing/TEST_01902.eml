@@ -1,0 +1,44 @@
+tmda (was: Re: [ILUG] jpeg patented...)On Sun, Jul 21, 2002 at 11:12:34PM +0100, Paul Jakma wrote:
+> oh yes, see you've setup that tdma thingy, so here's a thought. do
+> you reckon spammers (or the software they use) is/are smart enough to
+> 
+> 	s/\(.\)+\+.*@\([a-zA-Z\.0-9\-]\)/\1@\2/
+> 
+> on email addresses? it's a fairly old trick, so i dont see why they
+> wouldnt.
+
+the dated address that my from appears as is a good address for five days
+for anyone.  after that it requires a confirm message from the sender.
+my regular email address requires a confirm address if i haven't
+explicitly given permission to the sender.
+
+and yes, spammers could try to set up a system to reply to my confirm
+messages, but that would require them to a) give out a valid email address
+in their From headers, and b) use a lot more bandwidth then they do now
+(thereby costing them more money).
+
+oh, and they can't forge confirm messages.  the confirm message system
+works something like this:
+
+    message goes in the pending q and is assigned an id.
+    that id is encrypted and used to create the from address of the
+	outgoing confirm mail - kevin+confirm+kghdsfg@ie.suberic.net
+    only a message to that address will work to free the message from
+	the q (or i can free it using tmda-pending).
+
+all of this is discussed on http://tmda.sf.net/
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

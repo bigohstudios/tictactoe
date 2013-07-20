@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId12846821ae7680cc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs203278wfj;
+        Wed, 28 Apr 2010 15:20:52 -0700 (PDT)
+Received: by 10.87.42.2 with SMTP id u2mr635467fgj.79.1272493251556;
+        Wed, 28 Apr 2010 15:20:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si550347fks.50.2010.04.28.15.20.50;
+        Wed, 28 Apr 2010 15:20:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 339F713A4EB2; Wed, 28 Apr 2010 22:20:40 +0000 (UTC)
+Old-Return-Path: <stan@hardwarefreak.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.5 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MURPHY_DRUGS_REL8,RATWARE_GECKO_BUILD,RDNS_DYNAMIC autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BC16713A43B4
+	for <lists-debian-user@liszt.debian.org>; Wed, 28 Apr 2010 22:20:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.88 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id tUcgkfsol5H0 for <lists-debian-user@liszt.debian.org>;
+	Wed, 28 Apr 2010 22:20:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from greer.hardwarefreak.com (mo-65-41-216-221.sta.embarqhsd.net [65.41.216.221])
+	by liszt.debian.org (Postfix) with ESMTP id 8493713A5366
+	for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 22:20:26 +0000 (UTC)
+Received: from [192.168.100.53] (gffx.hardwarefreak.com [192.168.100.53])
+	by greer.hardwarefreak.com (Postfix) with ESMTP id ABC6C6C248
+	for <debian-user@lists.debian.org>; Wed, 28 Apr 2010 17:20:23 -0500 (CDT)
+Message-ID: <4BD8B4A7.7000406@hardwarefreak.com>
+Date: Wed, 28 Apr 2010 17:20:23 -0500
+From: Stan Hoeppner <stan@hardwarefreak.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: asignar hora a PC
+References: <pan.2010.04.28.06.16.20@csmining.org>	<1930286533.50658.1272461303863.JavaMail.root@md01.wow.synacor.com>	<20100428151415.GA6696@bavaria.univ-lyon1.fr>	<pan.2010.04.28.16.11.38@csmining.org> <20100428195032.GA4576@isar.localhost> <pan.2010.04.28.21.07.36@csmining.org>
+In-Reply-To: <pan.2010.04.28.21.07.36@csmining.org>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5iJrFBLsnmK.A.tdB.4SL2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575398
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 28 Apr 2010 22:20:40 +0000 (UTC)
+
+Camaleón put forth on 4/28/2010 4:07 PM:
+
+> There is just an interval of *35 seconds* between one mail and the other! 
+> Wow, that is *so fast* if you are sending two different messages (to one 
+> list and the other) because if you carefully review the e-mail headers, 
+> the mailing list address is displayed in "To" field, in both cases. Not 
+> "CC" nor "BCC".
+
+This behavior is usually due to working in "off line" mode.  Remember waaay
+back in the dialup days?  People would download mail via POP, then reply to
+all the emails with the results going into the 'outbox', hit 'send', and the
+client would dial out and send all the queued emails back-to-back.
+
+If you look at the xfs mailing list, most devs submit their patches in this
+queued manner.  You'll see 10 or more emails all from the same dev with
+timestamps only a few seconds apart.
+
+Given all of the other things we know about cosme's situation, I think this
+"dial up" sending behavior is the likely cause of what you describe.
+There's nothing odd or sinister about it.  I don't care for this whole cosme
+situation as it distracts the list.  I wish he'd go away.  That said, again,
+there's nothing suspicious about his quick succession sending.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD8B4A7.7000406@hardwarefreak.com
+
+

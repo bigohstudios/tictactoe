@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281232b868f120b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs51863wfj;
+        Sun, 18 Apr 2010 11:33:54 -0700 (PDT)
+Received: by 10.223.60.148 with SMTP id p20mr2107075fah.54.1271615633726;
+        Sun, 18 Apr 2010 11:33:53 -0700 (PDT)
+Return-Path: <bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k29si8817969fkk.15.2010.04.18.11.33.53;
+        Sun, 18 Apr 2010 11:33:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A5DB413A4ACB; Sun, 18 Apr 2010 18:33:52 +0000 (UTC)
+Old-Return-Path: <prvs=steve/072407dceb@lobefin.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.0 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-volatile@liszt.debian.org
+Delivered-To: lists-debian-volatile@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2B62813A4A9B
+	for <lists-debian-volatile@liszt.debian.org>; Sun, 18 Apr 2010 18:33:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-16 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Ci7895hKkoMl
+	for <lists-debian-volatile@liszt.debian.org>;
+	Sun, 18 Apr 2010 18:33:39 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from vancouver.yorkcabal.org.uk (vancouver.yorkcabal.org.uk [89.16.166.17])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id DBA2F13A4A62
+	for <debian-volatile@lists.debian.org>; Sun, 18 Apr 2010 18:33:39 +0000 (UTC)
+Received: from lobefin.net ([91.103.132.25]:55206 helo=varinia.lobefin.net)
+	by vancouver.yorkcabal.org.uk with esmtps (TLS-1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.63)
+	(envelope-from <steve@lobefin.net>)
+	id 1O3ZJJ-0002XD-Dv
+	for debian-volatile@lists.debian.org; Sun, 18 Apr 2010 19:33:37 +0100
+Received: by varinia.lobefin.net (Postfix, from userid 1000)
+	id 6ACC911F02; Sun, 18 Apr 2010 19:33:36 +0100 (BST)
+Date: Sun, 18 Apr 2010 19:33:36 +0100
+From: Stephen Gran <sgran@debian.org>
+To: debian-volatile@lists.debian.org
+Subject: Re: Spamassassin version 3.3.0
+Message-ID: <20100418183336.GA3905@varinia.lobefin.net>
+References: <FD9631AD38F945E68B4141ECC60EDF88@cc.bas.bg>
+ <1259234049.3535.2.camel@jan>
+ <4B0ED1BC.2050609@debian.org>
+ <4B757786.7040807@middleswarth.net>
+ <20100212201229.GA5019@apu.snow-crash.org>
+ <n2yf971bab41004181035ldc8b81e6rc2250f3f8b611596@mail.csmining.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="k1lZvvs/B4yU6o8G"
+Content-Disposition: inline
+In-Reply-To: <n2yf971bab41004181035ldc8b81e6rc2250f3f8b611596@mail.csmining.org>
+X-Editor: VIM - Vi IMproved 7.2 
+X-OS: Linux varinia 2.6.32-trunk-amd64 x86_64
+X-Uptime: 5 days
+X-Latin: Hodie decimo quarto Kalendas Maias MMDCCLXIII ab urbe condita est
+X-Date: Today is Pungenday, the 35th day of Discord in the YOLD 3176
+X-DDate: Only 2429307 Shopping Days Left Before X-Day. Wibble. 
+X-Motto: debian/rules
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Authenticated-Sender: C=UK,ST=North Yorkshire,L=York,O=yorkcabal.org.uk,CN=varinia.lobefin.net,EMAIL=hostmaster@yorkcabal.org.uk
+X-Scanned-By: ClamAV 0.95.3 on vancouver.yorkcabal.org.uk; Sun, 18 Apr 2010 19:33:37 +0100
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <SxJHIcch8iE.A.GiB.QC1yLB@liszt>
+Resent-From: debian-volatile@lists.debian.org
+X-Mailing-List: <debian-volatile@lists.debian.org> archive/latest/1292
+X-Loop: debian-volatile@lists.debian.org
+List-Id: <debian-volatile.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-volatile/>
+List-Post: <mailto:debian-volatile@lists.debian.org>
+List-Help: <mailto:debian-volatile-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-request@lists.debian.org
+Resent-Date: Sun, 18 Apr 2010 18:33:52 +0000 (UTC)
+
+
+--k1lZvvs/B4yU6o8G
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+This one time, at band camp, Jim Popovitch said:
+> For instance in lenny (STABLE), the latest clamav is in volatile but
+> the latest spamassassin is in backports.
+>=20
+> What drives this?
+
+backports.org is an unofficial service, and is more free to break working
+configurations on upgrade or othewise introduce incompatibilities.  It's
+down to the maintainers judgement which repo suits a given upload better.
+
+Cheers,
+--=20
+ -----------------------------------------------------------------
+|   ,''`.                                            Stephen Gran |
+|  : :' :                                        sgran@debian.org |
+|  `. `'                        Debian user, admin, and developer |
+|    `-                                     http://www.debian.org |
+ -----------------------------------------------------------------
+
+--k1lZvvs/B4yU6o8G
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvLUIAACgkQSYIMHOpZA47YvgCg3TZ0XZDRJe7CQiEySOPGdhG5
+8PYAmwTRIFT3wTUQ8mJoFQ9OAc41ecgz
+=AFFj
+-----END PGP SIGNATURE-----
+
+--k1lZvvs/B4yU6o8G--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100418183336.GA3905@varinia.lobefin.net
+
+

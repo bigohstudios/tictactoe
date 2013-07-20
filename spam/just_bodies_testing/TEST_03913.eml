@@ -1,0 +1,71 @@
+Re: [webmin-l] how to redirect a domain in virtualminAssuming you are running Virtalmin 3.78 or later, you can just select AAA.com
+from the left menu, go to Server Configuration -> Website Redirects, and create
+a redirect from / to the URL http://BBB.com/index.php?lang=en .
+
+ - Jamie
+
+On 29/Apr/2010 09:35 Jozsi Vadkan <jozsi.avadkan@csmining.org> wrote ..
+> The question is simple.
+> 
+> The answer [is there any] isn't simple [it's not implemented in
+> virtualmin yet?].
+> 
+> So:
+> 
+> There are two domains:
+> 
+> AAA.com
+> 
+> and:
+> 
+> BBB.com
+> 
+> Ok! Both domains are on the Virtualmin server, Ok!
+> 
+> The big question:
+> 
+> How can I redirect
+> 
+> AAA.com
+> 
+> to:
+> 
+> BBB.com/index.php?lang=en
+> 
+> ?
+> 
+> In the menu: Apache Servers -> AAA.com -> Aliases and Redirections -> I
+> fill the forms as the:
+> 
+> http://doxfer.com/Webmin/ApacheWebserver
+> 
+> says it would work -> Save -> Apply Changes -> it doesn't work.
+> 
+> Webmin version: 1.350 / Lenny
+> 
+> 
+> 
+> So is there an offical howto/doc/anyTHING, that describes, how to
+> redirect "AAA.com" to "BBB.com/index.php?lang=en" ???
+> 
+> 
+> Thank you.
+> 
+> Sorry for posting to two mailing lists, but I just can't seem to find a
+> working howto :O [I read about this problem in forums, others complain
+> about it too!]
+> 
+> 
+> ------------------------------------------------------------------------------
+> -
+> Forwarded by the Webmin mailing list at webadmin-list@lists.sourceforge.net
+> To remove yourself from this list, go to
+> http://lists.sourceforge.net/lists/listinfo/webadmin-list
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272559683.19077@webmin.com
+
+

@@ -1,0 +1,34 @@
+Re: Aptitude ErrorFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Fri, Apr 30, 2010 at 12:39 PM, Kousik Maiti <kousikster@csmining.org> wrote:
+
+> Try
+>
+> apt-get install fakeroot devscripts build-essential
+>
+> If it gives error then post your /etc/apt/sources.list
+>
+>
+>
+>> I selected "n" and it prompted me to "downgrade the packages to testing".
+>> This means that the versions it had were newer than testing, i.e., from sid.
+>> How could this be if I followed 2.7.3 of DR? According to that, my candidate
+>> version is appropriately set:
+>>
+>>
+>>
+I selected "n" and then "y" and it downgraded the packages to testing. Why
+would they have been upgraded in the first place? Here is my sources file:
+
+stuckey@debian:~$ cat /etc/apt/sources.list
+deb ftp://ftp.debian-multimedia.org squeeze main non-free
+
+deb http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+#deb-src http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+
+#deb http://ftp.de.debian.org/debian sid main contrib non-free
+deb-src http://ftp.de.debian.org/debian/ sid main contrib non-free
+
+deb http://security.debian.org/ squeeze/updates main contrib non-free
+#deb-src http://security.debian.org/ squeeze/updates main contrib non-free

@@ -1,0 +1,35 @@
+Re: Kde 3.5 ...Hi,
+
+On Thu, May 06, 2010 at 11:39:04AM +0200, Frederik Schwarzer wrote:
+> Why is KDE 4 for you no option? Does it not work for you? Or do you just
+> not like the concepts? The KDE developers are open for suggestions, as
+> long as these are not "give me kicker back" or alike.
+
+Konsole 4's Profile handling is utterly broken. There are multiple
+bugs open upstream about this, none of which has been commented on by
+the developers. I don't see any interest of upstream in fixing these
+issues.
+
+I still hope that 4.4.3 will fix the krunner instabilities that were
+introduced in 4.4.
+
+These two issues make me wish to have kde3 back every single day. Eye
+candy is important, which kde4 has more than kde3, but breaking my
+bread-and-butter application that badly is a real turn-off.
+
+Greetings
+Marc
+
+-- 
+-----------------------------------------------------------------------------
+Marc Haber         | "I don't trust Computers. They | Mailadresse im Header
+Mannheim, Germany  |  lose things."    Winona Ryder | Fon: *49 621 72739834
+Nordisch by Nature |  How to make an American Quilt | Fax: *49 3221 2323190
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506101001.GC32231@torres.zugschlus.de
+
+

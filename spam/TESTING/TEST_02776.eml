@@ -1,0 +1,130 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288c9899d4d9d2f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs53118wfb;
+        Wed, 12 May 2010 05:58:50 -0700 (PDT)
+Received: by 10.143.85.1 with SMTP id n1mr4899439wfl.201.1273669130270;
+        Wed, 12 May 2010 05:58:50 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id w26si273735wfh.19.2010.05.12.05.58.50;
+        Wed, 12 May 2010 05:58:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 1AFD21C3B20CE
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 05:58:50 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 168EA27979725
+	for <mlsubscriber.tech@csmining.org>; Wed, 12 May 2010 05:58:50 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id B58D927979528
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 05:58:31 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 93F4BD2995F2
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 05:58:31 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-c2-4beaa5f6cab7
+Received: from mailout1.zih.tu-dresden.de (mailout1.zih.tu-dresden.de
+	[141.30.67.72])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	B5.D1.05834.6F5AAEB4; Wed, 12 May 2010 05:58:31 -0700 (PDT)
+Received: from rmc67-31.zih.tu-dresden.de ([141.30.67.31] helo=server-n)
+	by mailout1.zih.tu-dresden.de with esmtp (Exim 4.63)
+	(envelope-from <Eeri.Kask@inf.tu-dresden.de>) id 1OCBW9-0003Ud-DS
+	for x11-users@lists.apple.com; Wed, 12 May 2010 14:58:29 +0200
+Received: from [169.254.31.39] (unknown [62.156.235.154])
+	by server-n (Postfix) with ESMTP id 35014100A091
+	for <x11-users@lists.apple.com>; Wed, 12 May 2010 14:58:29 +0200 (CEST)
+Message-ID: <4BEAA60F.1000202@inf.tu-dresden.de>
+Date: Wed, 12 May 2010 14:58:55 +0200
+From: Eeri Kask <Eeri.Kask@inf.tu-dresden.de>
+User-Agent: Thunderbird 2.0.0.23 (X11/20090827)
+MIME-Version: 1.0
+To: x11-users@lists.apple.com
+References: <20100507224523.555E6277CEEBA@lists.apple.com>
+In-Reply-To: <20100507224523.555E6277CEEBA@lists.apple.com>
+X-Enigmail-Version: 0.95.7
+Content-Type: text/plain; charset=ISO-8859-15
+Content-Transfer-Encoding: 7bit
+X-TUD-Virus-Scanned: mailout1.zih.tu-dresden.de
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: Leopard or Snow L?
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Am 05/08/2010 12:45 AM, fred <x11apple@pgc.com> schrieb:
+> Folks --
+> 
+> I finally am forced to upgrade from Tiger, intending to go directly
+> to Snow Leopard unless there is some reason not to. I live in X11
+> (emacs, vmacs) so stability is all.
+
+
+Hello,
+
+may I followup this thread, despite being off-topic, in the hope to
+find technically savvy people giving good advice...  :-)
+
+
+(1)  Does it make sense to upgrade Tiger to Leopard running on a
+G4-PowerBook-12" laptop?
+
+In contrast to above I am not forced to do it at all, even more so
+because on this marvellous machine all has worked very well as it
+already is;  and I am definitely not going to do the transition if
+this could mean any loss in performance.
+
+Otherwise I would probably upgrade, mostly because of QTKit which in
+Leopard includes
+
+    QTCaptureSession
+
+which seems to provide a simple method to access video cameras
+(IIDC-firewire or usb-webcams) for video capturing purposes if
+comparing to QTKit on Tiger (at least I've got an impression this
+stuff being pretty/very tricky there).
+
+
+(The downside means moving away from XFree-X11 which has proven
+exceptionally solid too.)
+
+
+
+(2)  I am considering to install a second CPU into a current 4-core
+Xeon MacPro (as one processor socket is still empty).  Local Apple
+guys say this is not supposed to be done (in particular because of
+some heating problems which could arise then etc), but I cannot see
+if this is simply a "salesman's talk" while trying selling a
+completely new machine instead.  Though having 8 cores in total
+makes more computational (... and financial) sense as to buy a
+machine of today with, e.g. 6 cores.
+
+Is there anything of substance known in these supposed heating issues?
+
+Huge thanks in advance for any hint,
+
+    Eeri Kask
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

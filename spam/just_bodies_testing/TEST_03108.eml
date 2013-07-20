@@ -1,0 +1,37 @@
+Re: From
+
+>>>>> On Wed, 9 Oct 2002, "Jason" == Jason Rennie wrote:
+
+  Jason> My sysadmins have told me that the sending mail client
+  Jason> is supposed to escape lines begining with "From ".
+
+Your sysadmins are wrong.
+
+Whatever program that is used to store the mail into the 
+braindead "mailbox" file (/var/spool/mail/whatever) is supposed 
+to escape a line that begins with From.  That program is called 
+the local Mail Delivery Agent (MDA)
+
+It would be better if you never, ever, stored your mail in a 
+"mailbox" file.
+
+If your sysadmins are capable of it, get them to set up the 
+receiving Mail Transfer Agent (MTA) to allow the use of procmail 
+as the local MDA.  Then use procmail to invoke rcvstore and 
+deliver your mail directly into your MH mail folders.
+
+Most Linux systems come configured this way, if a user has a
+$HOME/.procmail file then mail is delivered using procmail.
+
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

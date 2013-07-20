@@ -1,0 +1,34 @@
+Re: Increasing number of conflictsFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Tue, Apr 20, 2010 at 2:48 AM, Jimmy Johnson <field.engineer@csmining.org>wrote:
+
+> B. Alexander wrote:
+>
+>> I've got an issue with a sid box that I have been maintaining for a while.
+>> This is my workstation, and I have noticed a growing number of broken
+>> packages, unmet dependencies and conflicts. I have been using safe-upgrade
+>> for months now, hoping that it would work itself out over time. However,
+>> this hasn't happened. So what can I do to fix the problems without losing
+>> functionality? Below is the result of aptitude full-upgrade (forgive the
+>> cut-and-paste):
+>> SNIP< Thanks,
+>>
+>
+>
+> I'm using KDE and it's fully up-to-date with no broken packages, your
+> problem seems to be that you are holding obsolete/orphan packages, you may
+> want to use Synaptic to look at your system and do some investigating as to
+> why dependence are not being met.
+
+
+This was sage advice, Jimmy. I had never used Synaptic much before, but the
+local or obsleted tab in conjunction with searching dpkg -l is a boon.
+
+In my case, it appears the root of the problems are caused by bitrot. I
+probably need to come up with some method of rebuilding my sid boxes every
+so often. Prior to this, my rebuilds were done in 2000 and 2007...Maybe if I
+am going to run sid, I need to plan for an annual rebuild of the system...At
+least the workstations...
+
+--b

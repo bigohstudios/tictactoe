@@ -1,0 +1,26 @@
+Re: What needs to improve in KDE 4?El Martes 11 Mayo 2010 15:18:30 Dotan Cohen <dotancohen@csmining.org> escribi=
+=C3=B3:
+>=20
+> Thanks, Facundo. It seems that the proxy configuration is only for kio
+> slaves: https://bugs.kde.org/show_bug.cgi?id=3D186872
+>=20
+> But that bug requests that the KDE proxy configuration apply to all
+> apps. Please comment there. Thanks.
+
+Yes, I voted that bug. The gnome way is to set the http_proxy, etc, system=
+=20
+variables when setting the proxy from control panel. Maybe KDE can do that =
+if=20
+some check box is setted.
+
+Thanks to you.
+
+=46acundo.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005111637.26376.budinero@csmining.org
+
+

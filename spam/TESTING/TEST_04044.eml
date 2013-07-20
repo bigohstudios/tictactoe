@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bf64a7e50b892
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs28203wfo;
+        Sat, 22 May 2010 02:42:45 -0700 (PDT)
+Received: by 10.223.65.73 with SMTP id h9mr2433208fai.75.1274521364188;
+        Sat, 22 May 2010 02:42:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g4si2997168fac.53.2010.05.22.02.42.43;
+        Sat, 22 May 2010 02:42:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E76C913A5477; Sat, 22 May 2010 09:42:36 +0000 (UTC)
+Old-Return-Path: <longwind2009@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 94F5513A5221
+	for <lists-debian-user@liszt.debian.org>; Sat, 22 May 2010 09:42:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nKGG+Gb+nbTz for <lists-debian-user@liszt.debian.org>;
+	Sat, 22 May 2010 09:42:23 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-iw0-f175.google.com (mail-iw0-f175.google.com [209.85.214.175])
+	by liszt.debian.org (Postfix) with ESMTP id 1BF0A13A50DF
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 09:42:22 +0000 (UTC)
+Received: by iwn2 with SMTP id 2so1913158iwn.6
+        for <debian-user@lists.debian.org>; Sat, 22 May 2010 02:42:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type;
+        bh=K8dNyUTSz4Zgg6tsbztBunzVRxxzRNn0npLXxRS67Aw=;
+        b=EnNid4RZqNbZUvI4bMU02fGQvV9/EpKkXAdth66+fQfW36aSam2JScgIH8NCSkvWb6
+         5l0rWwypQjWOvtBgIn3bi0CcJ78XAR1nY9VcH76XdIryt4fxCzieZFlKOGkcjPFIPoIn
+         KxaeX7fdg2RtDG7xqOr/5ckvcLMeayN+j5CGI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=W1Id743XJX1/bB6k5lUsQFr7afUCqyaOFRswLx7OdyHIF6VWcUjOTQD02fDxtAb/Ja
+         rdUOO44fEDpb5Zdf2oQCHxvKjFMMzrTsFSZYPlL4Ey8ldDpoLzaS/r5VzSwSNLv0nolW
+         q+WcjQjpgTS3TUNyxy2nUeTyu0A0fwwhzfYgs=
+MIME-Version: 1.0
+Received: by 10.231.120.69 with SMTP id c5mr1865392ibr.79.1274521337941; Sat, 
+	22 May 2010 02:42:17 -0700 (PDT)
+Received: by 10.231.35.202 with HTTP; Sat, 22 May 2010 02:42:17 -0700 (PDT)
+Date: Sat, 22 May 2010 05:42:17 -0400
+Message-ID: <AANLkTim30Zmmiu6xy-i01Qjy4h99VciAtRTN2tNB-OC0@mail.csmining.org>
+Subject: how to save sound volume setting?
+From: Long Wind <longwind2009@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <lkhEJwzv41F.A.QjH.Mc69LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577367
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 09:42:36 +0000 (UTC)
+
+I use etch
+Everytime I boot debian and start xawtv, I have to set volume in xmixer
+how to save volume setting?
+I use snd_pcm_oss module
+Thanks!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTim30Zmmiu6xy-i01Qjy4h99VciAtRTN2tNB-OC0@mail.csmining.org
+
+

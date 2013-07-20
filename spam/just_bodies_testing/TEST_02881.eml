@@ -1,0 +1,33 @@
+Re: asignar hora a PCCamaleón put forth on 4/28/2010 4:07 PM:
+
+> There is just an interval of *35 seconds* between one mail and the other! 
+> Wow, that is *so fast* if you are sending two different messages (to one 
+> list and the other) because if you carefully review the e-mail headers, 
+> the mailing list address is displayed in "To" field, in both cases. Not 
+> "CC" nor "BCC".
+
+This behavior is usually due to working in "off line" mode.  Remember waaay
+back in the dialup days?  People would download mail via POP, then reply to
+all the emails with the results going into the 'outbox', hit 'send', and the
+client would dial out and send all the queued emails back-to-back.
+
+If you look at the xfs mailing list, most devs submit their patches in this
+queued manner.  You'll see 10 or more emails all from the same dev with
+timestamps only a few seconds apart.
+
+Given all of the other things we know about cosme's situation, I think this
+"dial up" sending behavior is the likely cause of what you describe.
+There's nothing odd or sinister about it.  I don't care for this whole cosme
+situation as it distracts the list.  I wish he'd go away.  That said, again,
+there's nothing suspicious about his quick succession sending.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD8B4A7.7000406@hardwarefreak.com
+
+

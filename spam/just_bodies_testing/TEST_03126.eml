@@ -1,0 +1,61 @@
+Re: Moving a drive to another computerFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed,19.May.10, 12:46:53, Vince Vielhaber wrote:
+>=20
+> A friend was running windows and the viruses got the best of it. She
+> sent me the drive so I could get her pics and documents off of it and
+> put 5.0.4 on it and send it back (she's a few states away).
+>=20
+> What problems (and solutions) should I be expecting when she installs
+> the drive in her computer?  I'm assuming the network setup will be one
+> problem.
+
+Yes. interfaces(5) will tell you all you need for the configuration=20
+part, but before you send the drive don't forget to delete=20
+/etc/udev/rules.d/70-persistent-net.rules. This is the file responsible=20
+for mapping network interfaces to names by MAC. Wired interfaces are=20
+called eth0, eth1 and so on. Pray she doesn't have more than one=20
+(including any firewire adapter) otherwise it can get tricky.
+
+> My background is mainly in FreeBSD.  If a drive is set up as being
+> /dev/ad0 and the other machine sees it as /dev/ad4 it won't complete
+> the boot, it'll complain with a cannot mount root error.  Will that be
+> an issue with Debian?
+
+Could be. The newer installer will setup fstab with UUIDs, but don't=20
+know about 5.0.4 (lenny). You can still modify it yourself though. Use=20
+blkid(8) (package util-linux) to find out the UUIDs and replace
+
+/dev/hda1	/	ext3	errors=3Dremount-ro	0	1
+
+with
+
+UUID=3D<realy long hex string that is the UUID>	/	ext3	errors=3Dremount-ro	=
+0	1
+
+(assuming /dev/hda1 is the root partition)
+
+Grub (the boot loader) can also be an issue, especially since its 'root'=20
+parameter can not use LABEL or UUID. If this is the only drive in the=20
+computer and the root partition is the first one you probably need
+
+root	(hd0,0)
+
+and you also need to pass the correct UUID as a kernel parameter. =20
+Replace 'root=3D/dev/hda1' with 'root=3DUUID=3D<the very long hex string>.
+
+Do not edit the stanzas directly, but read the comments at the beginning=20
+of the file. You have to edit (from memory) the 'groot' and 'kopt'=20
+parameters, after which you have to run 'update-grub'.
+
+Hope I didn't miss anything. There was also recently a thread about=20
+this, you should look it up.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

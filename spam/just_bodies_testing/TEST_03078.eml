@@ -1,0 +1,18 @@
+curses interface to nmh
+On Fri, 26 Jul 2002 10:06:41 EDT,
+	pll@lanminds.com wrote:
+
+> [...]Unless someone writes a really neat curses based 
+> interface to ride on top of nmh :)
+
+Years ago, there was a package called mh-e which was an emacs interface
+to MH.  I don't know if it's still around or works.  But it's an idea.
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

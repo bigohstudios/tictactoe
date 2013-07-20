@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286f1997f05f5fb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs413376wfb;
+        Thu, 6 May 2010 12:31:07 -0700 (PDT)
+Received: by 10.142.248.7 with SMTP id v7mr2393080wfh.234.1273174267761;
+        Thu, 06 May 2010 12:31:07 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 9si1973175pzk.4.2010.05.06.12.31.07;
+        Thu, 06 May 2010 12:31:07 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 7C5D41C25F08D
+	for <mlsubscriber.tech@csmining.org>; Thu,  6 May 2010 12:31:07 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 74D4B27716C37
+	for <mlsubscriber.tech@csmining.org>; Thu,  6 May 2010 12:31:07 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 84037277163A1
+	for <quicktime-api@lists.apple.com>;
+	Thu,  6 May 2010 12:29:48 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id 73188D39E377
+	for <quicktime-api@lists.apple.com>;
+	Thu,  6 May 2010 12:29:48 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-2b-4be318a80f9f
+Received: from smtp2-g21.free.fr (smtp2-g21.free.fr [212.27.42.2])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	F4.79.15139.AA813EB4; Thu,  6 May 2010 12:29:48 -0700 (PDT)
+Received: from smtp2-g21.free.fr (localhost [127.0.0.1])
+	by smtp2-g21.free.fr (Postfix) with ESMTP id 675084B00BC
+	for <quicktime-api@lists.apple.com>;
+	Thu,  6 May 2010 21:29:42 +0200 (CEST)
+Received: from mac-pro.ohmforce.paris (hq.ohmforce.com [82.238.202.205])
+	by smtp2-g21.free.fr (Postfix) with ESMTP
+	for <quicktime-api@lists.apple.com>;
+	Thu,  6 May 2010 21:29:41 +0200 (CEST)
+Message-Id: <273C1475-E6BE-470B-A7EA-0DAC2437145B@csmining.org>
+From: Dinge Raphael <raphael.dinge@csmining.org>
+To: quicktime-api@lists.apple.com
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Thu, 6 May 2010 21:29:41 +0200
+X-Mailer: Apple Mail (2.936)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: GetMediaSample2 performance problem
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi,
+
+I'm using GetMediaSample2 to retrieve sample of a video (H264)
+to feed them to ICMDecompressionSessionDecodeFrame.
+
+Usually, after the first frame has been read, GetMediaSample2 is
+quite fast with timing as low as 1ms, which seems to indicate
+some kind of caching.
+
+However, and randomly, GetMediaSample2 will sometimes takes timings
+like 1000 ms to read a single frame. This happens with a pattern
+I cannot really understand, for example :
+
+(the integer numbers are frame numbers, "last frame" is the last frame
+I have been processed, and "cur frame" is the requested frame when
+there is a "hole" between the last frame I processed and the one
+I'm asked for)
+
+frame read: 1159.920201ms at 34	
+last frame: 34	
+cur frame: 40	
+frame read: 1048.547101ms at 37	
+frame read: 1061.771239ms at 38	
+last frame: 63	
+cur frame: 102	
+
+or
+
+frame read: 922.650834ms at 26	
+frame read: 981.708654ms at 34	
+last frame: 49	
+cur frame: 60	
+frame read: 240.574639ms at 166	
+(here my scheduler can keep up with the
+long frame read because I put a big read ahead
+time for my tests)
+
+Do someone knows where it might come from ?
+Or should I write a sample cache code (I already have some), use
+CopyMediaMutableSampleTable and the like and expect better timings ?
+
+Thanks in advance for any informations on that matter,
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

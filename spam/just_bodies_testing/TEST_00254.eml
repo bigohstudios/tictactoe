@@ -1,0 +1,19 @@
+[WM] Problem with textarea tagsI had a problem with extra whitespace being added between textarea tags.
+Solved the problem by adding textarea to $INLINE_TAGS= list in
+HTMLCleaner.pm
+
+Hope this might help someone else
+Joe
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+webmake-talk mailing list
+webmake-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/webmake-talk
+

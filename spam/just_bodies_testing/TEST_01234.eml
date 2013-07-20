@@ -1,0 +1,20 @@
+[ILUG] yast2has anyone had a problem with Yast2 not being able to
+mount a source medium for installing new packages, on
+suse 8.0?
+
+it finds the directory containing the source, so the
+installation program gets as far as selecting
+packages, and formatting, but then says it can't mount
+the source directory?
+
+
+
+http://digital.yahoo.com.au - Yahoo! Digital How To
+- Get the best out of your PC!
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

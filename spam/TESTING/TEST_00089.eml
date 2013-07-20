@@ -1,0 +1,343 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281636895fbf7e6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs24261wfj;
+        Mon, 19 Apr 2010 06:17:16 -0700 (PDT)
+Received: by 10.223.6.150 with SMTP id 22mr2752737faz.12.1271682992325;
+        Mon, 19 Apr 2010 06:16:32 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si422270fkr.39.2010.04.19.06.16.31;
+        Mon, 19 Apr 2010 06:16:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7473413A4813; Mon, 19 Apr 2010 13:16:25 +0000 (UTC)
+Old-Return-Path: <storm16@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.5 required=4.0 tests=HTML_MESSAGE,IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST,MIME_BASE64_TEXT,SARE_MSGID_LONG45
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id ED1AD13A47E8
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 13:16:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2.354 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MIME_BASE64_TEXT=1.753, SARE_MSGID_LONG45=0.893]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Yzhj+XcZequw for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 13:16:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yw0-f197.google.com (mail-yw0-f197.google.com [209.85.211.197])
+	by liszt.debian.org (Postfix) with ESMTP id 710B813A47CB
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 13:16:10 +0000 (UTC)
+Received: by ywh35 with SMTP id 35so2460369ywh.24
+        for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 06:16:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:date:received:message-id
+         :subject:from:to:content-type;
+        bh=8Qy9+mteMeQ8RHds23SLiAaQAC6oTdhli+g6D5s1TN8=;
+        b=i05ZjbDfRJvXXTlKaJfb0dMJT8IbGgMvWVosZ7hxcUXsdQe3+G+WXIS4+nIvq6HR2N
+         CuB4uXBCIcm/hGFdCDXdmBQSZeMjWkotBIXJiJvw51BkNOllNl9dHub0CadEJu3zu7J+
+         SHU9pKP7Oij38c599HbRa9mBJW1A5A6ITvkmM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=B0BwW7X9bwfidpnIKmaPwXjTQGUOrxVZ7v1aXgQphh3sNWJ2sDCBVSG5ryZEIdSN9A
+         sZZPY/8n3WPHd09GGtaQbNeBqjBSCIs66YrcLsQq1yfqAwXyPNrsz45ZgBIbDnvRCaCo
+         cYUacN+MkKQTA3Buz5KFS8wkZJv6CwmVRqfiI=
+MIME-Version: 1.0
+Received: by 10.150.216.9 with HTTP; Mon, 19 Apr 2010 06:16:02 -0700 (PDT)
+Date: Mon, 19 Apr 2010 09:16:02 -0400
+Received: by 10.150.242.3 with SMTP id p3mr5730462ybh.130.1271682962719; Mon, 
+	19 Apr 2010 06:16:02 -0700 (PDT)
+Message-ID: <y2j258ced3f1004190616w857c5c27ya8616bf0a36bfea8@mail.csmining.org>
+Subject: Increasing number of conflicts
+From: "B. Alexander" <storm16@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=000e0cd5186642844e048496c387
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <HhL1X0Js5hK.A.BkF.peFzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574426
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 13:16:25 +0000 (UTC)
+
+--000e0cd5186642844e048496c387
+Content-Type: text/plain; charset=ISO-8859-1
+
+I've got an issue with a sid box that I have been maintaining for a while.
+This is my workstation, and I have noticed a growing number of broken
+packages, unmet dependencies and conflicts. I have been using safe-upgrade
+for months now, hoping that it would work itself out over time. However,
+this hasn't happened. So what can I do to fix the problems without losing
+functionality? Below is the result of aptitude full-upgrade (forgive the
+cut-and-paste):
+
+The following packages have unmet dependencies:
+  xulrunner-1.9.1: Conflicts: xulrunner-1.9.1-gnome-support but 1.9.1.6-1 is
+in.
+  texlive-base: Conflicts: dvipdfmx but 1:20090708-1+b1 is installed.
+                Conflicts: texlive-base-bin (< 2008) but 2007.dfsg.2-8 is
+insta.
+  python-zope.interface: Conflicts: python-zopeinterface but 3.4.0-1 is
+install.
+  g++-4.1: Depends: gcc-4.1-base (= 4.1.2-27) but 4.1.2-29 is to be
+installed.
+           Depends: gcc-4.1 (= 4.1.2-27) but 4.1.2-29 is to be installed.
+  texlive-common: Conflicts: texlive-base-bin (< 2008) but 2007.dfsg.2-8 is
+ins.
+  libcdt4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  luatex: Conflicts: texlive-base-bin (< 2008) but 2007.dfsg.2-8 is
+installed.
+  libcgraph5: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libstdc++6-4.1-dev: Depends: gcc-4.1-base (= 4.1.2-27) but 4.1.2-29 is to
+be .
+  ruby1.8: Conflicts: irb1.8 but 1.8.7.249-2 is installed.
+  mysql-server-core-5.1: Conflicts: mysql-server-5.0 (< 5.1.45-2) but
+5.0.84-1 .
+  gcj-jre-headless: Conflicts: java-gcj-compat-headless (< 1.0.80-6) but
+1.0.80.
+  libsensors4-dev: Conflicts: libsensors-dev but 1:2.10.8-2 is installed.
+  odbcinst1debian2: Conflicts: odbcinst1debian1 but 2.2.11-21 is installed.
+  libxml-libxml-perl: Conflicts: libxml-libxml-common-perl but 0.13-6+b1 is
+ins.
+  texlive-binaries: Conflicts: texlive-base-bin but 2007.dfsg.2-8 is
+installed.
+  python-twisted-conch: Depends: python-twisted-core (>= 10.0.0-3) but
+10.0.0-2.
+  josm-plugins: Conflicts: josm (>= 0.0.svn2256) but 0.0.svn3094-1 is to be
+ins.
+  libgvc5: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libmudflap0-dev: Depends: gcc-4.1-base (= 4.1.2-27) but 4.1.2-29 is to be
+ins.
+  libxdot4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libgvpr1: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  kmymoney-common: Conflicts: kmymoney2-common (< 3.96.0-1) but
+3.95.0+svn10693.
+  libgraph4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  libruby1.8: Conflicts: libreadline-ruby1.8 but 1.8.7.249-2 is installed.
+  kivio: Depends: koffice-libs (< 1:1.6.4) but 1:2.1.1-1 is to be installed.
+  libpathplan4: Conflicts: libgraphviz4 but 2.20.2-8+b1 is installed.
+  kmymoney: Conflicts: kmymoney2-plugin-aqbanking (<= 1.0-1) but 1.0-1 is
+insta.
+  python-kde4: Depends: python-qt4 (< 4.7-2+~) but 4.7.3-1 is to be
+installed.
+               Depends: python-sip4 (>= <none>) but 4.10.2-1 is to be
+installed.
+open: 916; closed: 1439; defer: 0; conflict:
+77                                :
+
+      Remove the following packages:
+1)      ardour
+2)      dvipdfmx
+3)      g++-4.1
+4)      graphviz
+5)      iceweasel-gnome-support
+6)      irb1.8
+7)      java-gcj-compat
+8)      java-gcj-compat-headless
+9)      josm-plugins
+10)     kivio
+11)     kmymoney2
+12)     kmymoney2-plugin-aqbanking
+13)     libmudflap0-dev
+14)     libreadline-ruby1.8
+15)     libsnmp-dev
+16)     libstdc++6-4.1-dev
+17)     libxml-libxml-common-perl
+18)     mysql-server-5.0
+19)     odbcinst1debian1
+20)     plasma-scriptengine-python
+21)     plasma-scriptengines
+22)     python-axiom
+23)     python-coherence
+24)     python-kde4
+25)     python-twisted
+26)     python-twisted-conch
+27)     python-zopeinterface
+28)     system-config-printer-kde
+29)     texlive-base-bin
+30)     totem-coherence
+31)     xulrunner-1.9.1-gnome-support
+
+      Keep the following packages at their current version:
+32)     kmymoney [Not Installed]
+33)     kmymoney-common [Not Installed]
+34)     libcdt4 [Not Installed]
+35)     libcgraph5 [Not Installed]
+36)     libgraph4 [Not Installed]
+37)     libgvc5 [Not Installed]
+38)     libgvpr1 [Not Installed]
+39)     libpathplan4 [Not Installed]
+40)     libsensors4-dev [Not Installed]
+41)     libxdot4 [Not Installed]
+
+      Leave the following dependencies unresolved:
+42)     josm recommends josm-plugins
+43)     kdeadmin recommends system-config-printer-kde (>= 4:4.3.4-1)
+44)     kdebase-workspace-bin recommends plasma-scriptengines
+45)     kcachegrind recommends graphviz
+46)     lokalize recommends python-kde4
+47)     kmymoney2-common recommends kmymoney2
+48)     totem-plugins recommends totem-coherence
+      Tier: Safe actions, Remove packages (10000)
+
+Thanks,
+--b
+
+--000e0cd5186642844e048496c387
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: base64
+
+SSYjMzk7dmUgZ290IGFuIGlzc3VlIHdpdGggYSBzaWQgYm94IHRoYXQgSSBoYXZlIGJlZW4gbWFp
+bnRhaW5pbmcgZm9yIGEgd2hpbGUuIFRoaXMgaXMgbXkgd29ya3N0YXRpb24sIGFuZCBJIGhhdmUg
+bm90aWNlZCBhIGdyb3dpbmcgbnVtYmVyIG9mIGJyb2tlbiBwYWNrYWdlcywgdW5tZXQgZGVwZW5k
+ZW5jaWVzIGFuZCBjb25mbGljdHMuIEkgaGF2ZSBiZWVuIHVzaW5nIHNhZmUtdXBncmFkZSBmb3Ig
+bW9udGhzIG5vdywgaG9waW5nIHRoYXQgaXQgd291bGQgd29yayBpdHNlbGYgb3V0IG92ZXIgdGlt
+ZS4gSG93ZXZlciwgdGhpcyBoYXNuJiMzOTt0IGhhcHBlbmVkLiBTbyB3aGF0IGNhbiBJIGRvIHRv
+IGZpeCB0aGUgcHJvYmxlbXMgd2l0aG91dCBsb3NpbmcgZnVuY3Rpb25hbGl0eT8gQmVsb3cgaXMg
+dGhlIHJlc3VsdCBvZiBhcHRpdHVkZSBmdWxsLXVwZ3JhZGUgKGZvcmdpdmUgdGhlIGN1dC1hbmQt
+cGFzdGUpOjxicj4KPGJyPlRoZSBmb2xsb3dpbmcgcGFja2FnZXMgaGF2ZSB1bm1ldCBkZXBlbmRl
+bmNpZXM6PGJyPqAgeHVscnVubmVyLTEuOS4xOiBDb25mbGljdHM6IHh1bHJ1bm5lci0xLjkuMS1n
+bm9tZS1zdXBwb3J0IGJ1dCAxLjkuMS42LTEgaXMgaW4uPGJyPqAgdGV4bGl2ZS1iYXNlOiBDb25m
+bGljdHM6IGR2aXBkZm14IGJ1dCAxOjIwMDkwNzA4LTErYjEgaXMgaW5zdGFsbGVkLjxicj6goKCg
+oKCgoKCgoKCgoKAgQ29uZmxpY3RzOiB0ZXhsaXZlLWJhc2UtYmluICgmbHQ7IDIwMDgpIGJ1dCAy
+MDA3LmRmc2cuMi04IGlzIGluc3RhLjxicj4KoCBweXRob24tem9wZS5pbnRlcmZhY2U6IENvbmZs
+aWN0czogcHl0aG9uLXpvcGVpbnRlcmZhY2UgYnV0IDMuNC4wLTEgaXMgaW5zdGFsbC48YnI+oCBn
+KystNC4xOiBEZXBlbmRzOiBnY2MtNC4xLWJhc2UgKD0gNC4xLjItMjcpIGJ1dCA0LjEuMi0yOSBp
+cyB0byBiZSBpbnN0YWxsZWQuPGJyPqCgoKCgoKCgoKAgRGVwZW5kczogZ2NjLTQuMSAoPSA0LjEu
+Mi0yNykgYnV0IDQuMS4yLTI5IGlzIHRvIGJlIGluc3RhbGxlZC48YnI+CqAgdGV4bGl2ZS1jb21t
+b246IENvbmZsaWN0czogdGV4bGl2ZS1iYXNlLWJpbiAoJmx0OyAyMDA4KSBidXQgMjAwNy5kZnNn
+LjItOCBpcyBpbnMuPGJyPqAgbGliY2R0NDogQ29uZmxpY3RzOiBsaWJncmFwaHZpejQgYnV0IDIu
+MjAuMi04K2IxIGlzIGluc3RhbGxlZC48YnI+oCBsdWF0ZXg6IENvbmZsaWN0czogdGV4bGl2ZS1i
+YXNlLWJpbiAoJmx0OyAyMDA4KSBidXQgMjAwNy5kZnNnLjItOCBpcyBpbnN0YWxsZWQuPGJyPgqg
+IGxpYmNncmFwaDU6IENvbmZsaWN0czogbGliZ3JhcGh2aXo0IGJ1dCAyLjIwLjItOCtiMSBpcyBp
+bnN0YWxsZWQuPGJyPqAgbGlic3RkYysrNi00LjEtZGV2OiBEZXBlbmRzOiBnY2MtNC4xLWJhc2Ug
+KD0gNC4xLjItMjcpIGJ1dCA0LjEuMi0yOSBpcyB0byBiZSAuPGJyPqAgcnVieTEuODogQ29uZmxp
+Y3RzOiBpcmIxLjggYnV0IDEuOC43LjI0OS0yIGlzIGluc3RhbGxlZC48YnI+oCBteXNxbC1zZXJ2
+ZXItY29yZS01LjE6IENvbmZsaWN0czogbXlzcWwtc2VydmVyLTUuMCAoJmx0OyA1LjEuNDUtMikg
+YnV0IDUuMC44NC0xIC48YnI+CqAgZ2NqLWpyZS1oZWFkbGVzczogQ29uZmxpY3RzOiBqYXZhLWdj
+ai1jb21wYXQtaGVhZGxlc3MgKCZsdDsgMS4wLjgwLTYpIGJ1dCAxLjAuODAuPGJyPqAgbGlic2Vu
+c29yczQtZGV2OiBDb25mbGljdHM6IGxpYnNlbnNvcnMtZGV2IGJ1dCAxOjIuMTAuOC0yIGlzIGlu
+c3RhbGxlZC48YnI+oCBvZGJjaW5zdDFkZWJpYW4yOiBDb25mbGljdHM6IG9kYmNpbnN0MWRlYmlh
+bjEgYnV0IDIuMi4xMS0yMSBpcyBpbnN0YWxsZWQuPGJyPgqgIGxpYnhtbC1saWJ4bWwtcGVybDog
+Q29uZmxpY3RzOiBsaWJ4bWwtbGlieG1sLWNvbW1vbi1wZXJsIGJ1dCAwLjEzLTYrYjEgaXMgaW5z
+Ljxicj6gIHRleGxpdmUtYmluYXJpZXM6IENvbmZsaWN0czogdGV4bGl2ZS1iYXNlLWJpbiBidXQg
+MjAwNy5kZnNnLjItOCBpcyBpbnN0YWxsZWQuPGJyPqAgcHl0aG9uLXR3aXN0ZWQtY29uY2g6IERl
+cGVuZHM6IHB5dGhvbi10d2lzdGVkLWNvcmUgKCZndDs9IDEwLjAuMC0zKSBidXQgMTAuMC4wLTIu
+PGJyPgqgIGpvc20tcGx1Z2luczogQ29uZmxpY3RzOiBqb3NtICgmZ3Q7PSAwLjAuc3ZuMjI1Nikg
+YnV0IDAuMC5zdm4zMDk0LTEgaXMgdG8gYmUgaW5zLjxicj6gIGxpYmd2YzU6IENvbmZsaWN0czog
+bGliZ3JhcGh2aXo0IGJ1dCAyLjIwLjItOCtiMSBpcyBpbnN0YWxsZWQuPGJyPqAgbGlibXVkZmxh
+cDAtZGV2OiBEZXBlbmRzOiBnY2MtNC4xLWJhc2UgKD0gNC4xLjItMjcpIGJ1dCA0LjEuMi0yOSBp
+cyB0byBiZSBpbnMuPGJyPgqgIGxpYnhkb3Q0OiBDb25mbGljdHM6IGxpYmdyYXBodml6NCBidXQg
+Mi4yMC4yLTgrYjEgaXMgaW5zdGFsbGVkLjxicj6gIGxpYmd2cHIxOiBDb25mbGljdHM6IGxpYmdy
+YXBodml6NCBidXQgMi4yMC4yLTgrYjEgaXMgaW5zdGFsbGVkLjxicj6gIGtteW1vbmV5LWNvbW1v
+bjogQ29uZmxpY3RzOiBrbXltb25leTItY29tbW9uICgmbHQ7IDMuOTYuMC0xKSBidXQgMy45NS4w
+K3N2bjEwNjkzLjxicj4KoCBsaWJncmFwaDQ6IENvbmZsaWN0czogbGliZ3JhcGh2aXo0IGJ1dCAy
+LjIwLjItOCtiMSBpcyBpbnN0YWxsZWQuPGJyPqAgbGlicnVieTEuODogQ29uZmxpY3RzOiBsaWJy
+ZWFkbGluZS1ydWJ5MS44IGJ1dCAxLjguNy4yNDktMiBpcyBpbnN0YWxsZWQuPGJyPqAga2l2aW86
+IERlcGVuZHM6IGtvZmZpY2UtbGlicyAoJmx0OyAxOjEuNi40KSBidXQgMToyLjEuMS0xIGlzIHRv
+IGJlIGluc3RhbGxlZC48YnI+CqAgbGlicGF0aHBsYW40OiBDb25mbGljdHM6IGxpYmdyYXBodml6
+NCBidXQgMi4yMC4yLTgrYjEgaXMgaW5zdGFsbGVkLjxicj6gIGtteW1vbmV5OiBDb25mbGljdHM6
+IGtteW1vbmV5Mi1wbHVnaW4tYXFiYW5raW5nICgmbHQ7PSAxLjAtMSkgYnV0IDEuMC0xIGlzIGlu
+c3RhLjxicj6gIHB5dGhvbi1rZGU0OiBEZXBlbmRzOiBweXRob24tcXQ0ICgmbHQ7IDQuNy0yK34p
+IGJ1dCA0LjcuMy0xIGlzIHRvIGJlIGluc3RhbGxlZC48YnI+CqCgoKCgoKCgoKCgoKCgIERlcGVu
+ZHM6IHB5dGhvbi1zaXA0ICgmZ3Q7PSAmbHQ7bm9uZSZndDspIGJ1dCA0LjEwLjItMSBpcyB0byBi
+ZSBpbnN0YWxsZWQuPGJyPm9wZW46IDkxNjsgY2xvc2VkOiAxNDM5OyBkZWZlcjogMDsgY29uZmxp
+Y3Q6IDc3oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA6PGJyPjxicj6goKCgoCBSZW1v
+dmUgdGhlIGZvbGxvd2luZyBwYWNrYWdlczqgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+IDxicj4KMSmgoKCgoCBhcmRvdXKgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoCA8YnI+MimgoKCgoCBkdmlwZGZteKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+MymgoKCgoCBnKystNC4xoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+NCmgoKCg
+oCBncmFwaHZpeqCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoCA8YnI+CjUpoKCgoKAgaWNld2Vhc2VsLWdub21lLXN1cHBvcnSgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjYpoKCgoKAgaXJiMS44oKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjcpoKCgoKAgamF2YS1nY2ot
+Y29tcGF0oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjgp
+oKCgoKAgamF2YS1nY2otY29tcGF0LWhlYWRsZXNzoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKAgPGJyPgo5KaCgoKCgIGpvc20tcGx1Z2luc6CgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDxicj4xMCmgoKCgIGtpdmlvoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDxicj4xMSmgoKCgIGtteW1v
+bmV5MqCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDxi
+cj4xMimgoKCgIGtteW1vbmV5Mi1wbHVnaW4tYXFiYW5raW5noKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgIDxicj4KMTMpoKCgoCBsaWJtdWRmbGFwMC1kZXagoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+MTQpoKCgoCBsaWJyZWFkbGluZS1ydWJ5
+MS44oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+MTUpoKCgoCBs
+aWJzbm1wLWRldqCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oCA8YnI+MTYpoKCgoCBsaWJzdGRjKys2LTQuMS1kZXagoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoCA8YnI+CjE3KaCgoKAgbGlieG1sLWxpYnhtbC1jb21tb24tcGVybKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjE4KaCgoKAgbXlzcWwtc2VydmVy
+LTUuMKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjE5KaCg
+oKAgb2RiY2luc3QxZGViaWFuMaCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKAgPGJyPjIwKaCgoKAgcGxhc21hLXNjcmlwdGVuZ2luZS1weXRob26goKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPgoyMSmgoKCgIHBsYXNtYS1zY3JpcHRlbmdpbmVzoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDxicj4yMimgoKCgIHB5dGhvbi1h
+eGlvbaCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDxicj4y
+MymgoKCgIHB5dGhvbi1jb2hlcmVuY2WgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgIDxicj4yNCmgoKCgIHB5dGhvbi1rZGU0oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgIDxicj4KMjUpoKCgoCBweXRob24tdHdpc3RlZKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+MjYpoKCgoCBweXRo
+b24tdHdpc3RlZC1jb25jaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8
+YnI+MjcpoKCgoCBweXRob24tem9wZWludGVyZmFjZaCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoCA8YnI+MjgpoKCgoCBzeXN0ZW0tY29uZmlnLXByaW50ZXIta2RloKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+CjI5KaCgoKAgdGV4bGl2ZS1iYXNlLWJp
+bqCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjMwKaCgoKAg
+dG90ZW0tY29oZXJlbmNloKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKAgPGJyPjMxKaCgoKAgeHVscnVubmVyLTEuOS4xLWdub21lLXN1cHBvcnSgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKAgPGJyPjxicj6goKCgoCBLZWVwIHRoZSBmb2xsb3dpbmcgcGFja2Fn
+ZXMgYXQgdGhlaXIgY3VycmVudCB2ZXJzaW9uOqCgoKCgoKCgIDxicj4KMzIpoKCgoCBrbXltb25l
+eSBbTm90IEluc3RhbGxlZF2goKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+
+MzMpoKCgoCBrbXltb25leS1jb21tb24gW05vdCBJbnN0YWxsZWRdoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoCA8YnI+MzQpoKCgoCBsaWJjZHQ0IFtOb3QgSW5zdGFsbGVkXaCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+MzUpoKCgoCBsaWJjZ3JhcGg1IFtOb3QgSW5z
+dGFsbGVkXaCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+CjM2KaCgoKAgbGli
+Z3JhcGg0IFtOb3QgSW5zdGFsbGVkXaCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAg
+PGJyPjM3KaCgoKAgbGliZ3ZjNSBbTm90IEluc3RhbGxlZF2goKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKAgPGJyPjM4KaCgoKAgbGliZ3ZwcjEgW05vdCBJbnN0YWxsZWRdoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjM5KaCgoKAgbGlicGF0aHBsYW40IFtO
+b3QgSW5zdGFsbGVkXaCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPgo0MCmgoKCg
+IGxpYnNlbnNvcnM0LWRldiBbTm90IEluc3RhbGxlZF2goKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKCgIDxicj40MSmgoKCgIGxpYnhkb3Q0IFtOb3QgSW5zdGFsbGVkXaCgoKCgoKCgoKCgoKCgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgIDxicj48YnI+oKCgoKAgTGVhdmUgdGhlIGZvbGxvd2luZyBkZXBl
+bmRlbmNpZXMgdW5yZXNvbHZlZDqgoKCgoKCgoKCgoKCgoKCgoCA8YnI+NDIpoKCgoCBqb3NtIHJl
+Y29tbWVuZHMgam9zbS1wbHVnaW5zoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoCA8YnI+
+CjQzKaCgoKAga2RlYWRtaW4gcmVjb21tZW5kcyBzeXN0ZW0tY29uZmlnLXByaW50ZXIta2RlICgm
+Z3Q7PSA0OjQuMy40LTEpPGJyPjQ0KaCgoKAga2RlYmFzZS13b3Jrc3BhY2UtYmluIHJlY29tbWVu
+ZHMgcGxhc21hLXNjcmlwdGVuZ2luZXOgoKCgoKAgPGJyPjQ1KaCgoKAga2NhY2hlZ3JpbmQgcmVj
+b21tZW5kcyBncmFwaHZpeqCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKAgPGJyPjQ2KaCgoKAg
+bG9rYWxpemUgcmVjb21tZW5kcyBweXRob24ta2RlNKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCg
+oKAgPGJyPgo0NymgoKCgIGtteW1vbmV5Mi1jb21tb24gcmVjb21tZW5kcyBrbXltb25leTKgoKCg
+oKCgoKCgoKCgoKCgoKCgoKCgIDxicj40OCmgoKCgIHRvdGVtLXBsdWdpbnMgcmVjb21tZW5kcyB0
+b3RlbS1jb2hlcmVuY2WgoKCgoKCgoKCgoKCgoKCgoKCgIDxicj6goKCgoCBUaWVyOiBTYWZlIGFj
+dGlvbnMsIFJlbW92ZSBwYWNrYWdlcyAoMTAwMDApoKCgoKCgoKCgoKCgoKCgoKCgIDxicj48YnI+
+VGhhbmtzLDxicj4KLS1iPGJyPgo=
+--000e0cd5186642844e048496c387--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2j258ced3f1004190616w857c5c27ya8616bf0a36bfea8@mail.csmining.org
+
+

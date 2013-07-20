@@ -1,0 +1,29 @@
+Re: Secure Sofware Key-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Le 3 Septembre 2002 12:43, vous avez écrit :
+> Yannick,
+> You'll want to peruse Fravia's web site on reverse engineering (and other
+> things) http://www.woodmann.com/fravia/protec.htm. That specific page
+> covers just your concerns.
+>
+> Josh
+
+Thanks for the input.  Some of the tips are quite portable but are there any 
+special attentions to take when implementing such shemes on a UNIX system ?
+
+Thanks.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Ostentatiously Breathless Brother-in-law
+http://OpenBeatBox.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dQ6guv7G0DNFO+QRApsXAKCjD98foVvLjet3x9ExtihruvT7KACeNayD
+wDZlxJXjDmLFhNrN97cd73M=
+=4Clx
+-----END PGP SIGNATURE-----
+

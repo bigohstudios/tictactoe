@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286668fa5cfcfe6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs303291wfb;
+        Tue, 4 May 2010 20:01:26 -0700 (PDT)
+Received: by 10.150.249.24 with SMTP id w24mr14240016ybh.180.1273028475706;
+        Tue, 04 May 2010 20:01:15 -0700 (PDT)
+Return-Path: <l7-filter-developers-bounces@lists.sourceforge.net>
+Received: from lists.sourceforge.net (lists.sourceforge.net [216.34.181.88])
+        by mx.google.com with ESMTP id 35si519099iwn.24.2010.05.04.20.01.13;
+        Tue, 04 May 2010 20:01:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of l7-filter-developers-bounces@lists.sourceforge.net designates 216.34.181.88 as permitted sender) client-ip=216.34.181.88;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of l7-filter-developers-bounces@lists.sourceforge.net designates 216.34.181.88 as permitted sender) smtp.mail=l7-filter-developers-bounces@lists.sourceforge.net
+Received: from localhost ([127.0.0.1] helo=sfs-ml-4.v29.ch3.sourceforge.com)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.69)
+	(envelope-from <l7-filter-developers-bounces@lists.sourceforge.net>)
+	id 1O9UqY-000718-6r; Wed, 05 May 2010 03:00:26 +0000
+Received: from sfi-mx-2.v28.ch3.sourceforge.com ([172.29.28.122]
+	helo=mx.sourceforge.net)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.69)
+	(envelope-from <pbaldwin@clearfoundation.com>) id 1O9UqW-000711-I3
+	for l7-filter-developers@lists.sourceforge.net;
+	Wed, 05 May 2010 03:00:24 +0000
+Received-SPF: pass (sfi-mx-2.v28.ch3.sourceforge.com: domain of
+	clearfoundation.com designates 216.58.8.86 as permitted sender)
+	client-ip=216.58.8.86;
+	envelope-from=pbaldwin@clearfoundation.com;
+	helo=mail.pointclark.net; 
+Received: from i216-58-8-86.cybersurf.com ([216.58.8.86]
+	helo=mail.pointclark.net)
+	by sfi-mx-2.v28.ch3.sourceforge.com with esmtp (Exim 4.69)
+	id 1O9UqU-0001Aa-28 for l7-filter-developers@lists.sourceforge.net;
+	Wed, 05 May 2010 03:00:24 +0000
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.pointclark.net (Postfix) with ESMTP id 3EECF810035;
+	Tue,  4 May 2010 23:00:22 -0400 (EDT)
+Received: from [192.168.4.214] (mail2-dallas.pointclark.com [67.18.166.2])
+	by mail.pointclark.net (Postfix) with ESMTP id 519C02AC3F1;
+	Tue,  4 May 2010 23:00:19 -0400 (EDT)
+Message-ID: <4BE0DF3C.5090609@clearfoundation.com>
+Date: Tue, 04 May 2010 23:00:12 -0400
+From: Peter Baldwin <pbaldwin@clearfoundation.com>
+User-Agent: Thunderbird 2.0.0.24 (X11/20100317)
+MIME-Version: 1.0
+To: James King <t.james.king@csmining.org>
+References: <4BE0856C.6070907@clearfoundation.com>
+	<h2k38bcb3ec1005041925q39ce7761ue6019620e9636c2d@mail.csmining.org>
+In-Reply-To: <h2k38bcb3ec1005041925q39ce7761ue6019620e9636c2d@mail.csmining.org>
+XScore: -0.5 (/)
+XReport: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	1.0 RDNS_DYNAMIC           Delivered to trusted network by host with
+	dynamic-looking rDNS
+X-Headers-End: 1O9UqU-0001Aa-28
+Cc: l7-filter-developers@lists.sourceforge.net
+Subject: Re: [l7-filter-developers] Update on migration to ClearFoundation
+X-BeenThere: l7-filter-developers@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: l7-filter development discussion
+	<l7-filter-developers.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/l7-filter-developers>,
+	<mailto:l7-filter-developers-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=l7-filter-developers>
+List-Post: <mailto:l7-filter-developers@lists.sourceforge.net>
+List-Help: <mailto:l7-filter-developers-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/l7-filter-developers>,
+	<mailto:l7-filter-developers-request@lists.sourceforge.net?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Errors-To: l7-filter-developers-bounces@lists.sourceforge.net
+
+James King wrote:
+> On Tue, May 4, 2010 at 1:37 PM, Peter Baldwin
+> <pbaldwin@clearfoundation.com> wrote:
+>> Hello l7-filter members.
+>>
+>> This is just an update on how things are moving along with the l7-filter
+>> project changes.
+>>
+>> SVN Import
+>> ----------
+>>
+>> The l7-filter source code has been imported into SVN.  Darryl took the
+>> time and effort to create the repository with change history intact.
+>> Feel free to take a look at the results:
+>>
+>> http://code.clearfoundation.com/svn/listing.php?repname=l7-filter
+> 
+> This looks great, thanks for all the effort here!  A couple questions:
+> 
+> -One thing that's been bugging me for a while about the kernel version
+> is the lumping of the xt_layer.* and reg* files into the monolithic
+> patch.  Any chance of separating these into standalone files (leaving
+> just the part that actually patches existing files) and updating the
+> installation instructions to just copy the files to their proper place
+> instead?  This would make submitting and merging patches much easier.
+
+That sounds reasonable to me and it's certainly the patch policy we use 
+for other upstream projects.
+
+> -Will these mailing lists be going away at some point, or will
+> ClearFoundation continue to use them?
+
+I think we'll keep using the SourceForge mailing lists for now.  The 
+other option is to move them to the ClearFoundation mailing lists server.
+
+Cheers,
+Pete
+
+
+------------------------------------------------------------------------------
+_______________________________________________
+l7-filter-developers mailing list
+l7-filter-developers@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/l7-filter-developers
+

@@ -1,0 +1,20 @@
+Re: network setup questionFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+>if I change the netmask of the server it can no longer talk to the
+>router because it is in a different ip network ie 192.168.11.55/22 can't
+>talk to 192.168.11.1/24 (you can fake it on linux with iproute - see my
+>other answer to this thread).
+
+That does not look correct.  Just to see how it works, I just chaged the
+netmask of my pc from /24 to /16, it is working
+router - 192.168.1.1/255.255.255.0
+pc1 - 192.168.1.50/255.255.0.0, gw 192.168.1.1, broadcast 192.168.255.255
+This pc1 could reach all other machines on 192.168.1.0/24 network with the
+above configuration, also it could access internet using 192.168.1.1 as the
+gateway.
+
+In your example, network 192.168.11.55/22 (netmask 255.255.252.0) means
+192.168.8.0 to 192.168.11.255.  It could very well reach 192.168.11.1.  But
+on the other hand 192.168.11.1/24 could reach only 192.168.11.0 to
+192.168.11.255 machines.

@@ -1,0 +1,27 @@
+Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are liveOn May 20, 2010, at 9:23 AM, Bill Janssen wrote:
+
+> So, do I need to connect a tablet to my Mac and enable Inkwell, to try
+> out the new gesture methods in EAWT?  Anyone tried this yet?  Can I
+> finally get rid of JPen?
+
+You need a Mac with a trackpad that supports the native Cocoa scale, =
+rotate, and swipe events - or a MagicMouse, which only supports swipe.
+
+The gesture support is not a replacement for tablet input methods. =
+Particularly, it does not express the "touches" information about =
+individual finger positions: a swipe on a glass-trackpad MacBook Pro =
+uses 3 fingers, whereas the swipe on a MagicMouse uses 2. =46rom Cocoa's =
+perspective, they are both the same swipe gesture though.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

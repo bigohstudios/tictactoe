@@ -1,0 +1,60 @@
+Re: More acroread printing problemsJohn A. Sullivan III wrote:
+
+> On Wed, 2010-05-05 at 16:41 -0400, John A. Sullivan III wrote:
+>> Hello, all.  With the appreciate help from this list, we finally learned
+>> we needed to install Acrobat Reader version 9.3.2 from unstable into our
+>> Lenny systems in order for Acrobat to see our CUPS printers.  However we
+>> are still having problems printing anything other than letter size jobs.
+>> It looks like acroread is creating an lpr command using the -o
+>> PageRegion and setting that option incorrectly.  For example, in one
+>> case we saw -o PageSize=11x17 -p PageRegion=Letter which printed the
+>> 11x17 print job on letter sized paper.  On a plotter we saw -o
+>> PageSize=24x36 -p PageRegion=A4 which resulted in the plotter rejecting
+
+you have to use sizes supported by the plotter, no?
+
+>> the job as an invalid page size.  Bypassing the Acroread print command
+>> by using a Custom printer and sending the job to KPrinter works so this
+>> seems to be a clear bug in how Acrobat is reading the PPD file and
+>> creating the print command.
+
+KPrinter or gnome printer have their own rendering engines to translate to
+printer language (as far as I know).
+
+>> 
+>> Has anyone else encountered this problem? Is there a workaround? If not,
+>> I suppose I'll need to figure out how one reports bugs for acroread to
+>> Adobe.  Thanks - John
+
+I had a lot of headache years ago. We finally upgraded the firmmemory on one
+of the printers that was printing junk in certain cases. It took about 2
+weeks to find out and a lot of paper. Luckily we had 3 from the same model
+and we noticed on the other 2 one and the same document was printed fine
+but on the 3rd one it was failing. That much on commercial software...
+
+>> 
+>> 
+> Oops! typing a little too fast.  That's appreciated help and the
+> PageRegion is preceded by -o and not -p - John
+
+I'm not sure that the AcroReader on the client knows the PPD on the server.
+Did you install on both the same ppd? I'm also not sure that it is using it
+at all to create the printable. I think it's the cups server that can not
+prepare the printable for the printer.
+
+You can try using the ppds from the plotters manufacturer. This was very
+useful approach in many cases.
+
+Also I would try printing the same document from Adobe on Windows or Mac.
+
+regards
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrt0ls$lte$1@dough.gmane.org
+
+

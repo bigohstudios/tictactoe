@@ -1,0 +1,24 @@
+Documentation about RPM macros?Hi,
+
+   Can someone tell me where I can find some
+   documentation about rpm macros?  In
+   particular, I'd like to understand the
+   '%files devel', '%post -p', and '%postun -p'
+   uses described at 
+
+    http://freshrpms.net/docs/fight.html
+
+   and, more generally, I'm looking for a
+   more detailed description of the available
+   macros and the options they accept.  There's
+   no description of the above uses of %file,
+   %post, or %postun in the maximum-rpm book.
+
+   Thanks in advance for any help!
+
+---
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

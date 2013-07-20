@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId128490cd223c5a99
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs16517wfj;
+        Thu, 29 Apr 2010 03:11:37 -0700 (PDT)
+Received: by 10.87.49.36 with SMTP id b36mr855014fgk.57.1272535896726;
+        Thu, 29 Apr 2010 03:11:36 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d4si1900894fga.10.2010.04.29.03.11.36;
+        Thu, 29 Apr 2010 03:11:36 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id EA07813A5133; Thu, 29 Apr 2010 10:11:24 +0000 (UTC)
+Old-Return-Path: <randall@songshu.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.2 required=4.0 tests=IMPRONONCABLE_1,LDOSUBSCRIBER,
+	LDO_WHITELIST,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,RATWARE_GECKO_BUILD,
+	RDNS_NONE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 828D413A4F25
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 10:11:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_1=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2, RDNS_NONE=0.1]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id B31fWIWm9+er for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 10:11:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 496 seconds by postgrey-1.31 at liszt; Thu, 29 Apr 2010 10:11:11 UTC
+Received: from ispcp.songshu.org (unknown [212.123.252.158])
+	by liszt.debian.org (Postfix) with ESMTP id 5856713A4AE2
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 10:11:05 +0000 (UTC)
+Received: from [192.168.0.136] (unknown [192.168.0.136])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by ispcp.songshu.org (Postfix) with ESMTPSA id 429AE7B2248
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 12:02:52 +0200 (CEST)
+Message-ID: <4BD95949.7080000@songshu.org>
+Date: Thu, 29 Apr 2010 12:02:49 +0200
+From: randall <randall@songshu.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100423 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: Which remote help solution?
+References: <4BD84895.2020205@kitaj.net> <k2yd0bf7b0b1004280756kcafdd623nb08ab84f1d0a3eed@mail.csmining.org> <hrbke7$f08$1@dough.gmane.org>
+In-Reply-To: <hrbke7$f08$1@dough.gmane.org>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ClP1q8NGpTD.A.V9B.MtV2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575426
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 10:11:24 +0000 (UTC)
+
+On 04/29/2010 11:44 AM, Benedict Verheyen wrote:
+> On 28/04/2010 16:56, Anand Sivaram wrote:
+>> You could do the following.
+>> 1. install ssh server on your friends machine.  Create port forwarding
+>> in their router
+>> Login to their machine as usual using ssh.  To reduce ssh brute force
+>> attack, change the ssh port from 22 to some larger number and use the
+>> corresponding port for router port forwarding.
+>> 2. Install openvpn server on your machine, client on your friends
+>> machine. access your friends machine just a like a local machine.
+>>
+>> First option is the simplest to setup, it gives only ssh access to you.
+>> Second option takes a bit more configuration, but gives you better
+>> security and ease of use after that.
+>>
+>
+> ssh + tightvncserver is also a good possibility.
+> It's easy to setup and tightvnc will be run over the ssh tunnel
+> so it should be safe. They will be able to see what you do.
+>
+> Regards,
+> Benedict
+>
+>
+>
+if you want graphical basically the same kind of solution would be to 
+use FreeNX (free speech) or the Free NX server (free beer)
+
+i've setup FreeNX 2 years ago for a friend and its still up and running, 
+its faster then any other remote desktop kind of connection, never had 
+any stability issues and it works over SSH port 22 with the option to 
+use certificates for security.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD95949.7080000@songshu.org
+
+

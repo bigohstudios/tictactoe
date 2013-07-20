@@ -1,0 +1,26 @@
+Kernel (de)bug information sent, even if there is no connectionFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+When my Lenny (w. k. 2.6.26-2-686-bigmem) encounters a kernel error, a
+box pops, and I am asked if I want to report the (de)bug information.
+
+1. Why can't I specify somewhere that I always want to report this info?
+Such boxes are annoying
+2. If I am not connected to the Internet, the (de)bug info is marked as
+`sent' after having chosen a button which allows the reporting tool to
+send data over the Internet. Why?
+
+Thanks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+The teacher has not taught, until the student has learned.
+

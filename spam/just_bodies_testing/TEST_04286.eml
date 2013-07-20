@@ -1,0 +1,46 @@
+Re: Migrate OS to smaller drive?On 2010-04-11 08:29, Clive McBarton wrote:
+> 
+> Eduardo M KALINOWSKI wrote:
+>>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>>   rsync -ax / /media/newdevice.
+>>>>      
+>>> What exactly is the advantage of this approach over "cp -a" or "mv"?
+>>>    
+>> Over mv? That you keep the original files.
+> 
+> Of course. But in this case the OP said "migrate".
+
+Ooooo.  Remind me never to have you work on my computer.
+
+Never destroy the original until you know the copy works!
+
+>> Over cp? That you can resume from where you left off in case the
+>> transfer is stopped for any reason.
+> 
+> Useful point. With cp you'd have to start over.
+> 
+> What are the disadvantages of rsync? E.g., doesn't it compress and
+> decompress everything,
+
+Only if you want it to.
+
+>                        hence hogging the CPU
+
+You won't be doing anything else at the time...
+
+>                                             and possibly slowing transfers?
+
+Hah.  Speeding up transfers is more likely, since the wire is always 
+the bottleneck, and compression means it will be carrying "more bits 
+per bit".
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC1E472.8060202@cox.net
+
+

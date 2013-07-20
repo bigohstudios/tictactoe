@@ -1,0 +1,88 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b6b96dd87264b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs21929wfo;
+        Thu, 20 May 2010 10:18:45 -0700 (PDT)
+Received: by 10.142.55.4 with SMTP id d4mr33139wfa.309.1274375925162;
+        Thu, 20 May 2010 10:18:45 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 31si120882pzk.26.2010.05.20.10.18.45;
+        Thu, 20 May 2010 10:18:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id 0CF861C9A041E
+	for <mlsubscriber.tech@csmining.org>; Thu, 20 May 2010 10:18:45 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 0803A27CC30EE
+	for <mlsubscriber.tech@csmining.org>; Thu, 20 May 2010 10:18:45 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay13.apple.com (relay13.apple.com [17.128.113.29])
+	by lists.apple.com (Postfix) with ESMTP id DA8BC27CC2A7F
+	for <java-dev@lists.apple.com>; Thu, 20 May 2010 10:17:49 -0700 (PDT)
+X-AuditID: 1180711d-b7c17ae00000693e-96-4bf56ebd43b6
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay13.apple.com (Apple SCV relay) with SMTP id
+	93.9A.26942.DBE65FB4; Thu, 20 May 2010 10:17:49 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <47375.1274372621@parc.com>
+Date: Thu, 20 May 2010 10:17:49 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <0E17C623-2288-4434-AFF2-DBFBA7B9166F@apple.com>
+References: <9EB9B867-DE57-4D60-A308-D3F28A59971D@apple.com>
+	<47375.1274372621@parc.com>
+To: Bill Janssen <janssen@parc.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: list Java-dev <java-dev@lists.apple.com>
+Subject: Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are live
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On May 20, 2010, at 9:23 AM, Bill Janssen wrote:
+
+> So, do I need to connect a tablet to my Mac and enable Inkwell, to try
+> out the new gesture methods in EAWT?  Anyone tried this yet?  Can I
+> finally get rid of JPen?
+
+You need a Mac with a trackpad that supports the native Cocoa scale, =
+rotate, and swipe events - or a MagicMouse, which only supports swipe.
+
+The gesture support is not a replacement for tablet input methods. =
+Particularly, it does not express the "touches" information about =
+individual finger positions: a swipe on a glass-trackpad MacBook Pro =
+uses 3 fingers, whereas the swipe on a MagicMouse uses 2. =46rom Cocoa's =
+perspective, they are both the same swipe gesture though.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

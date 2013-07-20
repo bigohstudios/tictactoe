@@ -1,0 +1,22 @@
+Re: class variablesOn Thu, Apr 15, 2010 at 11:00 PM, Ariel Feinerman <arielfapple@csmining.org> w=
+rote:
+
+> where is=A0TheInstanceCounterKey in the class? Must it be defined as a st=
+atic
+> global variable in .m file?
+> static NSNumber * TheInstanceCounterKey;
+
+I would define it as follows at the top of the class implementation file:
+
+static NSString *const TheInstanceCounterKey =3D @"TheInstanceCounterKey";
+
+Best wishes,
+Hamish
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

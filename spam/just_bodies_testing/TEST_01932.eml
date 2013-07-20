@@ -1,0 +1,58 @@
+Re: Broken dependenciesOn Sat, May 01, 2010 at 17:20:56 +0200, Alois Mahdal wrote:
+> Hello,
+> 
+> because a stupid mistake, I have interrupted apt-get during early
+> stage of dist-upgrade from Lenny to Squeeze.
+> 
+> Now I cannot get apt-get working and I don't know how to fix it.
+> 
+> Could anyone of you please help me? I'll be also happy with advice
+> on how to get proper debug info for you, of course.
+> 
+> $ apt-get -fyo Debug::pkgProblemResolver=yes upgrade
+
+[...]
+
+> perl: warning: Setting locale failed.
+> perl: warning: Please check that your locale settings:
+> 	LANGUAGE = (unset),
+> 	LC_ALL = (unset),
+> 	LANG = "en_US.UTF-8"
+>     are supported and installed on your system.
+> perl: warning: Falling back to the standard locale ("C").
+> Can't exec "locale": No such file or directory at
+> /usr/share/perl5/Debconf/Encoding.pm line 16.
+> Use of uninitialized value $Debconf::Encoding::charmap in scalar
+> chomp at /usr/share/perl5/Debconf/Encoding.pm line 17.
+> 0 upgraded, 0 newly installed, 0 to remove and 744 not upgraded.
+> 2 not fully installed or removed.
+> After this operation, 0B of additional disk space will be used.
+> dpkg: warning: 'ldconfig' not found on PATH.
+> dpkg: 1 expected program(s) not found on PATH.
+> NB: root's PATH should usually contain /usr/local/sbin, /usr/sbin
+> and /sbin.
+> E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+Both "locale" and "ldconfig" were shifted from libc6 to libc-bin going
+from Lenny and Squeeze; my guess would be that you upgraded to the
+Squeeze version of libc6, but you did not yet complete the installation
+of libc-bin, so now these important commands (and others) are missing on
+your system. (The libc-bin package does not exist for Lenny.)
+
+If dpkg still works then you can try to download libc-bin for your
+architecture from http://packages.debian.org/squeeze/libc-bin and
+install the .deb with "dpkg -i ...", see here:
+
+http://www.debian.org/doc/manuals/reference/ch02.en.html#_rescue_with_the_dpkg_command
+
+-- 
+Regards,            |
+          Florian   |
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100501171452.GA26870@bavaria.univ-lyon1.fr
+
+

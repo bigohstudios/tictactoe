@@ -1,0 +1,23 @@
+Re: apect ration change on wide monitorFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun,16.May.10, 20:20:29, Martin wrote:
+=20
+> I wonder if there is some program that can perform this swich by
+> issuing command from computer instead of me manually pressing the
+> buttons on monitor?
+
+As others have mentioned, LCDs are always used best at their native=20
+resolution. What exactly do you need the 4:3 aspect ratio for?
+
+For example, if you have video content in lower resolutions and 4:3=20
+aspect ratio you'd better let the player do software upscaling, it will=20
+look better anyway. For other problems there might be other solutions.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

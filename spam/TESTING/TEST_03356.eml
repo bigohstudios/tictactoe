@@ -1,0 +1,168 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e965c5b2698ad
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs92826wfo;
+        Sat, 10 Apr 2010 13:25:16 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr1604501fai.98.1270931115770;
+        Sat, 10 Apr 2010 13:25:15 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 26si5624667fks.52.2010.04.10.13.25.12;
+        Sat, 10 Apr 2010 13:25:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CB29513A6057; Sat, 10 Apr 2010 20:25:07 +0000 (UTC)
+Old-Return-Path: <modestas@vainius.eu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,PGPSIGNATURE,
+	RDNS_DYNAMIC autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2E29413A5FF2
+	for <lists-debian-kde@liszt.debian.org>; Sat, 10 Apr 2010 20:25:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5,
+	RDNS_DYNAMIC=0.1] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id sFhvV7M-XtAj for <lists-debian-kde@liszt.debian.org>;
+	Sat, 10 Apr 2010 20:24:54 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mdxdesktop.ozas.sytes.net (lan-84-240-22-131.vln.skynet.lt [84.240.22.131])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 9E62313A5BF9
+	for <debian-kde@lists.debian.org>; Sat, 10 Apr 2010 20:24:48 +0000 (UTC)
+Received: from localhost ([127.0.0.1] helo=mdxdesktop.localnet)
+	by mdxdesktop.ozas.sytes.net with esmtp (Exim 4.71)
+	(envelope-from <modestas@vainius.eu>)
+	id 1O0hES-0005E0-4v; Sat, 10 Apr 2010 23:24:44 +0300
+From: Modestas Vainius <modestas@vainius.eu>
+To: debian-kde@lists.debian.org
+Subject: Re: EOL of KDE SC 4.4.2 in qt-kde.debian.net
+Date: Sat, 10 Apr 2010 23:24:29 +0300
+User-Agent: KMail/1.13.2 (Linux/2.6.33-2-amd64; KDE/4.4.2; x86_64; ; )
+Cc: Diederik de Haas <didi.debian@cknow.org>
+References: <201004101443.28086.modestas@vainius.eu> <201004101704.11066.modestas@vainius.eu> <201004102025.05076.didi.debian@cknow.org>
+In-Reply-To: <201004102025.05076.didi.debian@cknow.org>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart13536415.AVHCkvv4Kp";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201004102324.42734.modestas@vainius.eu>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ZVwYMbuFJIE.A.S5G.j6NwLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32014
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat, 10 Apr 2010 20:25:07 +0000 (UTC)
+
+--nextPart13536415.AVHCkvv4Kp
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On =C5=A1e=C5=A1tadienis 10 Balandis 2010 21:25:04 Diederik de Haas wrote:
+> I would also like to know if it's possible to only pin the kde packages
+> from experimental.
+
+No unless you want to list all KDE SC 4.4 binary packages in=20
+/etc/apt/preferences (one entry for each package, 400+ in total).
+
+> I'm trying to create a KDE 4.4.2 LiveCD with live-helper. During the
+> creation process a chroot environment is created where all the packages
+> are installed. In that chroot I have the testing, sid and experimental
+> sources configured. But with the above preferences file the kde packages
+> from testing are installed, since testing/sid have a priority of 500 and
+> experimental 101. Changing the Pin-Priority to 501 makes the chroot fail,
+> since aptitude removes aptitude at some point due to dependency issues.
+
+Never pin whole experimental higher than unstable.
+
+> (like Michael Schuerig mentioned, it tries to upgrade the whole system to
+> experimental) Probably important to note is that during that stage when
+> issues arrive, the 1st proposed solution is always used, since it's not an
+> interactive stage.
+
+Therefore you should tweak aptitude in such a way that the first solution=20
+would be the one you want.
+
+> Live-helper also supports an interactive stage, which creates the chroot,
+> installs the packages and then you're given a command line at which you
+> can do things interactively. Doing a full-upgrade in interactive mode, I
+> get a whole bunch of solutions, each of them include removing kde-minimal,
+> thus removing all kde related packages.
+
+In order to upgrade existing KDE 4.3.4 installation, something like this=20
+should work (untested):
+
+# aptitude -t experimental install '?maintainer(Debian Qt/KDE=20
+Maintainers)~Aexperimental~i'
+
+or (a safer version):
+
+# aptitude -o 'Aptitude::ProblemResolver::Hints::experimental=3Dapprove=20
+~Aexperimental' install '?maintainer(Debian Qt/KDE=20
+Maintainers)~Aexperimental~i'/experimental
+
+=46or new installations:
+
+# aptitude -t experimental install kde-standard
+
+or (safer version):
+
+# aptitude -o 'Aptitude::ProblemResolver::Hints::experimental=3Dapprove=20
+~Aexperimental' install kde-standard/experimental
+
+You should not run into much troube unless there are packages with=20
+unresolvable dependencies installed.
+
+> Conclusion: I'm not able create a KDE 4.4.2 LiveCD at this point :-/
+
+It has never been easy to deal with experimental because it is a dumping=20
+ground for lots stuff and typically only want a couple of packages.
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>
+
+--nextPart13536415.AVHCkvv4Kp
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvA3oEACgkQHO9JRnPq4hSA3ACcCG4O6bCSYHkJ6mnKrPkMOVYt
+KrQAmwUKTgZDhvKk12tMASq/oS1O8Laq
+=0DFZ
+-----END PGP SIGNATURE-----
+
+--nextPart13536415.AVHCkvv4Kp--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004102324.42734.modestas@vainius.eu
+
+

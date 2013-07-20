@@ -1,0 +1,33 @@
+Re: [SAdev] Suggestion - 2 levels of Spam StatusTony L. Svanstrom wrote:
+
+>On Sun, 15 Sep 2002 the voices made Marc Perkel write:
+>
+>>Right now we have one spam status flag indicating that a message is or
+>>is not spam. The idea being that the end user perhaps make a rule that
+>>would move the spam flagged messages into a spam folder and thus gain
+>>some time by presorting messages into to piles.
+>>
+>
+> If you (people) don't know enough to filter on the actual score they've got
+>the "stars", which will give them more than enough levers, if they want it.
+>
+>
+>	/Tony
+>
+Sure - we developers know that - but what I'm talking about is making it 
+easier for END USERS to figure out.
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

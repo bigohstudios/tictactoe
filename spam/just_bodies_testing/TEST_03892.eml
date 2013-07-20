@@ -1,0 +1,43 @@
+Re: cycle through windows causes freeze
+
+This was fixed in 2.5.1_beta1 3 weeks ago.  2.5.1_beta2 was just =
+released a few minutes ago which also contains this (and other) fixes.
+
+--Jeremy
+
+On Apr 22, 2010, at 13:35, James Hughes wrote:
+
+> I just upgraded to Xquartz 2.5.0 and I'm having an issue with the
+> 'cycle through windows' keyboard shortcut. Every time I hit command-`
+> it causes the X11 windows to freeze and become unresponsive. I'm not
+> able to move the windows, click the close buttons or have any keyboard
+> access to them.
+>=20
+> This issue does NOT happen if I use the "Window -> Cycle through
+> windows" menu item - only with the keyboard shortcut.
+>=20
+> There's nothing in the console logs. It happens whether or not I have
+> an external monitor plugged in.
+>=20
+> Mac Book Pro
+> OS X 10.6.3
+> XQuartz 2.5.0 (xorg-server 1.7.6)
+>=20
+> Thanks,
+> James
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

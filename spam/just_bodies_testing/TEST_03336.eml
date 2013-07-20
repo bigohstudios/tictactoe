@@ -1,0 +1,35 @@
+Any file details on an executable binary file?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello list=2C
+
+I was wondering if anyone could suggest a package or means to look at any o=
+r all of the information from a given executable binary file:
+
+- What compiler compiled it
+
+- What (source) language was it compiled from
+
+- What computer architecture the file was compiled for
+
+- How many hardware bits was the file intended for (eg. 32-bit or 64-bit en=
+coding)
+
+- Endianness
+
+
+If any of the above a simply not possible because of the nature all binary =
+files=2C it would be helpful to know that too.
+
+Thanks.
+=20
+
+-M
+
+
+ 		 	   		 =20
+_________________________________________________________________
+MSN Dating: Find someone special. Start now.
+http://go.microsoft.com/?linkid=3D9729707=

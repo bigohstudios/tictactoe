@@ -1,0 +1,133 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f92f09aabe411
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs41112wfa;
+        Tue, 13 Apr 2010 14:59:22 -0700 (PDT)
+Received: by 10.103.4.14 with SMTP id g14mr3499341mui.84.1271195961542;
+        Tue, 13 Apr 2010 14:59:21 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y37si25734400mug.22.2010.04.13.14.59.20;
+        Tue, 13 Apr 2010 14:59:21 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7B6BB13A5BDE; Tue, 13 Apr 2010 21:59:14 +0000 (UTC)
+Old-Return-Path: <holtzm@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=DNS_FROM_RFC_WHOIS,FOURLA,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BC1B313A5BC4
+	for <lists-debian-user@liszt.debian.org>; Tue, 13 Apr 2010 21:59:08 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id HcZNe9tWbQYi for <lists-debian-user@liszt.debian.org>;
+	Tue, 13 Apr 2010 21:59:01 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from fed1rmmtao107.cox.net (fed1rmmtao107.cox.net [68.230.241.39])
+	by liszt.debian.org (Postfix) with ESMTP id C223613A5B92
+	for <debian-user@lists.debian.org>; Tue, 13 Apr 2010 21:59:00 +0000 (UTC)
+Received: from fed1rmimpo03.cox.net ([70.169.32.75])
+          by fed1rmmtao107.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100413215858.ZWHL1969.fed1rmmtao107.cox.net@fed1rmimpo03.cox.net>
+          for <debian-user@lists.debian.org>;
+          Tue, 13 Apr 2010 17:58:58 -0400
+Received: from [192.168.1.102] ([68.230.109.174])
+	by fed1rmimpo03.cox.net with bizsmtp
+	id 59ys1e0033loKRw049yxxQ; Tue, 13 Apr 2010 17:58:57 -0400
+X-VR-Score: -150.00
+X-Authority-Analysis: v=1.1 cv=b4II0uhcJPnwjva2/FqJSYAtAoopJitAe4Ogu0tU6w4=
+ c=1 sm=1 a=kj9zAlcOel0A:10 a=ch4VN+NIJeiTjR+08exk/Q==:17 a=A1X0JdhQAAAA:8
+ a=xNf9USuDAAAA:8 a=qmywNGxBh6UnOENQ4LsA:9 a=BU4xpo2dPy8yE0lYD24A:7
+ a=HYLYIe3HP5WUnuP9rrcLmWY7snsA:4 a=CjuIK1q_8ugA:10 a=H_AMHutfXn4A:10
+ a=4rq7TwIXcRUA:10 a=Y6qChIQXU1wA:10 a=DNPw10ZIbvBSwiVN:21
+ a=9ReVNJ9wxFtudBlZ:21 a=ch4VN+NIJeiTjR+08exk/Q==:117
+X-CM-Score: 0.00
+Date: Tue, 13 Apr 2010 14:58:52 -0700 (MST)
+From: Robert Holtzman <holtzm@cox.net>
+X-X-Sender: holtzm@localhost
+To: debian-user@lists.debian.org
+Subject: Re: Configuring exim4 to send emails
+In-Reply-To: <k2y3480cbae1004131349u306ae2a7qc7da0f0a775fec88@mail.csmining.org>
+Message-ID: <alpine.DEB.2.00.1004131444170.8302@localhost>
+References: <k2y3480cbae1004131349u306ae2a7qc7da0f0a775fec88@mail.csmining.org>
+User-Agent: Alpine 2.00 (DEB 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <iuYdmi5aYiF.A.SVF.ykOxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574005
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 21:59:14 +0000 (UTC)
+
+On Tue, 13 Apr 2010, Ruben Varela wrote:
+
+> I'm configuring an email to send emails. Emails sent to any domain,
+> apart from my own, are sent okay. I have my emails with Google Apps.
+>
+> Assuming my domain is, example.com. If I send an email from my server
+> to ruben@example.com it doesn't arrive at my Google Apps account, it
+> arrives to my server and I can read it using $ mail.
+>
+> I configured exim the following way:
+> $ sudo dpkg-reconfigure exim4-config
+>     General type of mail configuration:   internet site; mail is sent
+> and received directly using SMTP
+>     System mail name:   domain.tld
+>     IP-addresses to listen on for incoming S TP connections:
+> 127.0.0.1:xxx.xxx.xxx.xx
+>     Other destinations for which mail is accepted:   <blank>
+>     Domains to relay mail for:    <blank>
+>     Machines to relay mail for:   <blank>
+>     Keep number of DNS-queries minimal (Dial-on-Demand)?:   <No>
+>     Delivery method for local mail:   mbox format in /var/mail/
+>     Split configuration into small files?:   <No>
+> $ sudo update-exim4.conf
+> $ sudo /etc/init.d/exim4 restart
+>
+> Where xxx.xxx.xxx.xx is my external IP address and example.com is my
+> real domain.
+>update-exim4.conf
+> Does anyone know how to correctly configure this?
+
+Try pkg-exim4-users@lists.alioth.debian.org. That's for Debian users 
+with exim4. Also after I run dpkg-reconfigure exim4-config it 
+automatically stops and restarts.
+
+BTW if you solve this contact me or post your solution as I'm having the 
+same problem.
+
+-- 
+Bob Holtzman
+Key ID: 8D549279
+"If you think you're getting free lunch,
+  check the price of the beer"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.2.00.1004131444170.8302@localhost
+
+

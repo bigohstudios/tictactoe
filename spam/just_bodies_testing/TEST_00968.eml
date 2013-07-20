@@ -1,0 +1,47 @@
+Re: Retrieve hardware and modules info..thanks Stephen this is exactly what I was looking for. :-)
+
+On Mon, Apr 5, 2010 at 8:53 AM, Stephen Powell <zlinuxman@wowway.com> wrote=
+:
+> On Sun, 4 Apr 2010 17:36:03 -0400 (EDT), Lubos Rendek wrote:
+>>
+>> thanks guys for this.. Now what is the best way to link modules to a
+>> specific hardware. for example my lsmod shows that I use 'ecb' module.
+>> For someone like me this name does not say much. Is there a way to
+>> find which module belongs to which piece of hardware?
+>
+> =A0 /sbin/modinfo ecb
+>
+> The "description" line is helpful of course. =A0And the "alias" lines
+> identify which pieces of hardware will cause the module to be loaded,
+> for most device drivers. =A0(Some older device drivers don't have any
+> internal aliases and require help from external aliases to load
+> automatically when the corresponding hardware device is detected.
+>
+> --
+> =A0.''`. =A0 =A0 Stephen Powell =A0 =A0<zlinuxman@wowway.com>
+> =A0: :' =A0:
+> =A0`. `'`
+> =A0 `-
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1212216035.1060481270421606408.JavaMail.=
+root@md01.wow.synacor.com
+>
+>
+
+
+
+--=20
+http://www.linuxconfig.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2h7d2c465d1004070445m105a0633v9632329622e6746@mail.csmining.org
+
+

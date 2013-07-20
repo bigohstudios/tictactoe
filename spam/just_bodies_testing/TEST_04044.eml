@@ -1,0 +1,13 @@
+how to save sound volume setting?I use etch
+Everytime I boot debian and start xawtv, I have to set volume in xmixer
+how to save volume setting?
+I use snd_pcm_oss module
+Thanks!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTim30Zmmiu6xy-i01Qjy4h99VciAtRTN2tNB-OC0@mail.csmining.org
+
+

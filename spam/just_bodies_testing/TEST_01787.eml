@@ -1,0 +1,21 @@
+Re: lilo removal in squeeze (or, "please test grub2")On 05/24/2010 11:29 AM, Ferenc Wagner wrote:
+> You may want to try extlinux, it works much like LILO in this respect.
+> It lacks a convenient configuration system, but that of grub-legacy
+> would be easy to adapt, and I actually plan to work on this.
+
+sometime ago i've added extliux-install and update-extlinux. if fits my
+setups well, however, any other/better ideas how to improve it are very
+welcome, see #573042 for more information.
+
+-- 
+Address:        Daniel Baumann, Burgunderstrasse 3, CH-4562 Biberist
+Email:          daniel.baumann@panthera-systems.net
+Internet:       http://people.panthera-systems.net/~daniel-baumann/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFAC975.1070108@debian.org
+
+

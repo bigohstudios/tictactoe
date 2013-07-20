@@ -1,0 +1,137 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bee3260ae405f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs25587wfo;
+        Sat, 22 May 2010 00:21:18 -0700 (PDT)
+Received: by 10.223.143.9 with SMTP id s9mr2395020fau.52.1274512877174;
+        Sat, 22 May 2010 00:21:17 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d13si2814851fah.99.2010.05.22.00.21.16;
+        Sat, 22 May 2010 00:21:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5A6E513A5807; Sat, 22 May 2010 07:21:08 +0000 (UTC)
+Old-Return-Path: <osamu@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=LDO_WHITELIST,
+	MURPHY_DRUGS_REL8 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1FE0713A57A3
+	for <lists-debian-user@liszt.debian.org>; Sat, 22 May 2010 07:05:48 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.98 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MURPHY_DRUGS_REL8=0.02]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 941rdaX9YVxN for <lists-debian-user@liszt.debian.org>;
+	Sat, 22 May 2010 07:05:40 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from pbsg500.nifty.com (pbsg500.nifty.com [202.248.238.70])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 584C313A579B
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 07:05:40 +0000 (UTC)
+Received: from goofy.local (KD113151139119.ppp-bb.dion.ne.jp [113.151.139.119]) (authenticated)
+	by pbsg500.nifty.com with ESMTP id o4M75PP2018877
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 16:05:25 +0900
+X-Nifty-SrcIP: [113.151.139.119]
+Received: from osamu by goofy.local with local (Exim 4.71)
+	(envelope-from <osamu@goofy.local>)
+	id 1OFilI-0000t8-CK
+	for debian-user@lists.debian.org; Sat, 22 May 2010 16:04:44 +0900
+Date: Sat, 22 May 2010 16:04:44 +0900
+From: Osamu Aoki <osamu@debian.org>
+To: debian-user@lists.debian.org
+Subject: Re: How to keep debian current??
+Message-ID: <20100522070444.GA2680@osamu.debian.net>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <1965615763-1273929389-cardhu_decombobulator_blackberry.rim.net-1787116711-@bda030.bisx.prodap.on.blackberry>
+ <4BF2E8B0.6030006@allums.com>
+ <20100519014536.GB6644@osamu.debian.net>
+ <201005220303.42972.jesus.navarro@undominio.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+In-Reply-To: <201005220303.42972.jesus.navarro@undominio.net>
+X-GPG-Fingerprint: 253A 4076 6A3B CCE2 A426  DEF5 E80F C4C1 A806 1F32
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <xfFF6a9irKF.A.Qr.kX49LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577358
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 07:21:08 +0000 (UTC)
+
+Hi,
+
+On Sat, May 22, 2010 at 03:03:42AM +0200, Jes=FAs M. Navarro wrote:
+> Hi, Osamu:
+>=20
+> On Wednesday 19 May 2010 03:45:36 Osamu Aoki wrote:
+> > Hi,
+> >
+> > There are 2 different topics.
+> >
+> >  * Which is better shape "testing" or "unstable" for security issues?
+> >    (original question)
+>=20
+> The answer is "it depends".
+
+We all know this .... and I am OK with what you are talking except one
+point.
+=20
+> As already stated, there are no security updates on Sid 'per se', but the=
+y=20
+> depend on upstream maintainers provinding a new version that hopefully wi=
+ll=20
+> resolve the problem *and* its ability to go into Sid.
+=2E..
+> Meanwhile, the Security team, aware of the=20
+> security problem, produces foo 1.2.3-patch1 backporting the security fix =
+and=20
+> it goes directly into Testing, since Sid it's waiting for the new 2 branc=
+h. =20
+> In this case Testing is the one ahead of Sid.
+
+Wrong assumption.  Security updates to testing is not so often as we
+wish to be. (Already pointed out in the thread.)  Le me remind you.
+
+ http://lists.debian.org/debian-testing-security-announce/2010/01/msg00000.=
+html
+  This say:
+  >  Most of the security work done for the testing distribution during
+  >  the last months has been through unstable and a few occasional DTSAs,
+  >  because of to the team being understaffed.
+
+The reality is we are under staffed to do many things as much as we
+wish.  Your contribution is most appreciated.
+
+Osamu
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522070444.GA2680@osamu.debian.net
+
+

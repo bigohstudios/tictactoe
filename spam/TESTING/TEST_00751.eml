@@ -1,0 +1,166 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d405b6219a553
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs201837wfa;
+        Tue, 6 Apr 2010 09:48:20 -0700 (PDT)
+Received: by 10.87.74.6 with SMTP id b6mr5646564fgl.58.1270572496811;
+        Tue, 06 Apr 2010 09:48:16 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si30220486fxm.62.2010.04.06.09.48.15;
+        Tue, 06 Apr 2010 09:48:16 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 66BA113A63A3; Tue,  6 Apr 2010 16:48:12 +0000 (UTC)
+Old-Return-Path: <smokejohn@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A6F1913A633A
+	for <lists-debian-kde@liszt.debian.org>; Tue,  6 Apr 2010 16:48:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Yi8DZw26zSd4 for <lists-debian-kde@liszt.debian.org>;
+	Tue,  6 Apr 2010 16:47:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f210.google.com (mail-fx0-f210.google.com [209.85.220.210])
+	by liszt.debian.org (Postfix) with ESMTP id 5600413A634A
+	for <debian-kde@lists.debian.org>; Tue,  6 Apr 2010 16:47:59 +0000 (UTC)
+Received: by fxm2 with SMTP id 2so82198fxm.30
+        for <debian-kde@lists.debian.org>; Tue, 06 Apr 2010 09:47:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=sZjns7tI7SZqchFqQN0HYNz9bw2IzZmaa+CLugpB2eE=;
+        b=ewXXnFB0vbEcRc+BNz6ReelnCXC3l6pap3IJAajfDgTfGzLzJEZyQCD6yn/dwVxCJt
+         po51fDfYYFnu7i6ZW6Ne/QDsj0Cdew+j8BF31KreIlT88VdqHz91RApk98G+7HfF4FQS
+         qnPorCO2UKS2jSpENwwBkRi9Kt2pJRp84KpxU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=k65Fy0i2/DBNLnNIQbWYC+EwsZDaTTdr+1h9HDGxsTzSjV+obiVYRlauwMVJDgGH3f
+         T2qFd4Ak1kLVzrHEDquk7LQSCAx198VGK66qsX35k1xn1lzKVo5pzY39hZSPTYDuU0bV
+         WAbHwmpgqTBvuWi+TdCPzXzHeTZKsOVIsum58=
+MIME-Version: 1.0
+Received: by 10.223.108.2 with HTTP; Tue, 6 Apr 2010 09:47:56 -0700 (PDT)
+In-Reply-To: <4BBB62E7.9010208@csmining.org>
+References: <4BBB62E7.9010208@csmining.org>
+Date: Tue, 6 Apr 2010 19:47:56 +0300
+Received: by 10.223.8.67 with SMTP id g3mr6373865fag.107.1270572477149; Tue, 
+	06 Apr 2010 09:47:57 -0700 (PDT)
+Message-ID: <w2w8f23146b1004060947m46da4dd2u2482082a55b9fc79@mail.csmining.org>
+Subject: Re: Cannot login
+From: Smokejohn <smokejohn@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=001517477f2a2971af04839435de
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <KTLsOit9FPF.A.-bC.MX2uLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31960
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue,  6 Apr 2010 16:48:12 +0000 (UTC)
+
+--001517477f2a2971af04839435de
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Tue, Apr 6, 2010 at 7:35 PM, John Kapnogiannis <smokejohn@csmining.org>wrote:
+
+> Hello there. I got a debian testing installation and I currently cannot
+> login in kde. I give my pass and instead of a proper kde session I get kdm's
+> login screen again. I haven't done any upgrade but I did a really stupid
+> thing: I hit the power button and turn the laptop off the hard way while it
+> was in suspend mode. I tried googling but it gave me no usefull things.
+>
+> The .xsession-errors file in my home folder says Permission denied.
+
+
+To be correct: With cat on .xsession-errors it says in the first line that
+it tried starting x and on the second line Permission denied. I wrote this
+in case someone by mistake thought I had no permission to read the
+.xsession-errors file.
+
+> I checked the permissions in /tmp and /var/tmp and everything seems fine. I
+> also deleted the .kde folder. Login in as root and typing startx opens a kde
+> session.
+>
+
+> Any ideas?
+>
+> PS: I did the instructions described in this page:
+> https://developer.skype.com/jira/browse/SCL-510 in order to fix skype on
+> me 64-bit installation, but I don't think it has something to do with my
+> problem. I think something got wrong when I hit the power button. :(
+>
+
+--001517477f2a2971af04839435de
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Tue, Apr 6, 2010 at 7:35 PM, John Kap=
+nogiannis <span dir=3D"ltr">&lt;<a href=3D"mailto:smokejohn@csmining.org">smok=
+ejohn@csmining.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" =
+style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 20=
+4); padding-left: 1ex;">
+Hello there. I got a debian testing installation and I currently cannot log=
+in in kde. I give my pass and instead of a proper kde session I get kdm&#39=
+;s login screen again. I haven&#39;t done any upgrade but I did a really st=
+upid thing: I hit the power button and turn the laptop off the hard way whi=
+le it was in suspend mode. I tried googling but it gave me no usefull thing=
+s.<br>
+
+<br>
+The .xsession-errors file in my home folder says Permission denied. </block=
+quote><div><br>To be correct: With cat on .xsession-errors it says in the f=
+irst line that it tried starting x and on the second line Permission denied=
+. I wrote this in case someone by mistake thought I had no permission to re=
+ad the .xsession-errors file.<br>
+</div><blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex;=
+ border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">I checked t=
+he permissions in /tmp and /var/tmp and everything seems fine. I also delet=
+ed the .kde folder. Login in as root and typing startx opens a kde session.=
+=A0<br>
+</blockquote><blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt=
+ 0.8ex; border-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+<br>
+Any ideas?<br>
+<br>
+PS: I did the instructions described in this page: <a href=3D"https://devel=
+oper.skype.com/jira/browse/SCL-510" target=3D"_blank">https://developer.sky=
+pe.com/jira/browse/SCL-510</a> in order to fix skype on me 64-bit installat=
+ion, but I don&#39;t think it has something to do with my problem. I think =
+something got wrong when I hit the power button. :(<br>
+
+</blockquote></div><br>
+
+--001517477f2a2971af04839435de--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/w2w8f23146b1004060947m46da4dd2u2482082a55b9fc79@mail.csmining.org
+
+

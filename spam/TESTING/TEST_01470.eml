@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ebdc8f5a6a3a9
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs104958wfo;
+        Sun, 11 Apr 2010 00:54:13 -0700 (PDT)
+Received: by 10.87.47.23 with SMTP id z23mr2876998fgj.28.1270972452802;
+        Sun, 11 Apr 2010 00:54:12 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si6239660fkt.37.2010.04.11.00.54.12;
+        Sun, 11 Apr 2010 00:54:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3A2A113A5FDF; Sun, 11 Apr 2010 07:54:08 +0000 (UTC)
+Old-Return-Path: <rk@vzsze.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 93E4B13A5C99
+	for <lists-debian-user@liszt.debian.org>; Sun, 11 Apr 2010 07:37:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id plj8irJT-KBa for <lists-debian-user@liszt.debian.org>;
+	Sun, 11 Apr 2010 07:36:55 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 397 seconds by postgrey-1.31 at liszt; Sun, 11 Apr 2010 07:36:54 UTC
+Received: from reiko.vzsze.de (reiko.vzsze.de [78.47.138.27])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id F10CB13A5C8E
+	for <debian-user@lists.debian.org>; Sun, 11 Apr 2010 07:36:54 +0000 (UTC)
+Received: by reiko.vzsze.de (Postfix, from userid 1000)
+	id 1FC88358614; Sun, 11 Apr 2010 09:30:15 +0200 (CEST)
+Date: Sun, 11 Apr 2010 09:30:15 +0200
+From: Rolf Kutz <rk@vzsze.de>
+To: debian-user@lists.debian.org
+Subject: Re: Ubuntu vs Debian forums (was recompiling the kernel with a
+	different version name)
+Message-ID: <20100411073012.GC11923@vzsze.de>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <1280705063.2050161270780727932.JavaMail.root@md01.wow.synacor.com> <4BBF9F3F.1040303@hardwarefreak.com> <w2m880dece01004101412k40049bb2q9d8458321d74f7c8@mail.csmining.org> <201004110756.10207.lisi.reisz@csmining.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Disposition: inline
+In-Reply-To: <201004110756.10207.lisi.reisz@csmining.org>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Jdt6FxHiQvD.A.xXF.gAYwLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573841
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 11 Apr 2010 07:54:08 +0000 (UTC)
+
+On 11/04/10 07:56 +0100, Lisi wrote:
+>
+>Recently I was trying to show my 15 year old granddaughter, who runs Open SuSU 
+>11 on her laptop, how to do some small admin job.  She said that she didn't 
+>want to know.  When I queried this, she said:
+>
+>"When I am at school, the IT department does it for me.  When I am at home 
+>here, you do it for me.  When I am in Japan, Daddy does it for me.  Why do I 
+>need to know how to do it?"
+
+I really think this would be the right approach
+for many, even windows and macos users. If your
+car needs maintenance most people ask a mechanic
+or at least somebody who knows what (s)he is
+doing.
+
+have a nice day
+Rolf
+
+-- 
+... Cowardice asks the question, 'Is it safe?' ...
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100411073012.GC11923@vzsze.de
+
+

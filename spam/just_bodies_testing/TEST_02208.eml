@@ -1,0 +1,17 @@
+Re: Problem with me Modem Huawei on Debian LennyHi
+I have a different 3g usb modem, and I have found after .31 there is a
+problem loading the firmware into the device. maybe you are running
+into the same problem.
+
+There was a change to the qcserial - there is a regression bug again
+32+ which make the firmware fail.
+
+Alex
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2m836a6dcf1004260130h264b2078u1ef0ee45f560e7ce@mail.csmining.org
+
+

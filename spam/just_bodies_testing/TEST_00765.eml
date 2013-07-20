@@ -1,0 +1,23 @@
+Re: Trying to get a kernel patch included in SqueezeAndrei Popescu wrote:
+
+> 
+> Unless I'm doing something terribly wrong, at this point I'm assuming
+> that the patch will not apply to 2.6.32, but I have no ideea how
+> difficult it would be to backport it. Comments?
+> 
+
+if you are not supporting multiple systems that need this patch you can
+download and compile the kernel from kernel.org
+
+The kernel patches are applied to the main line in this case to 2.6.33 by
+the way (if you are using the patch from kernel.org.
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsdvta$fbo$1@dough.gmane.org
+
+

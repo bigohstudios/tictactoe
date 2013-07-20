@@ -1,0 +1,61 @@
+Re: [ILUG] How to copy some filesOn Sun, Jul 21, 2002 at 01:47:39AM +0100, Paul Jakma wrote:
+> isnt this standard behaviour?? mv uses rename() which replaces the
+> new path name:
+
+why, yes.  yes it is.  i think that was my point.
+
+> yes it does. :)
+> 
+> but your super-links dont is what you're saying i guess. but why? why
+> would you want a symlink, bar, linking to foo, to stop linking if foo
+> is changed?
+
+uh, i wouldn't.  i was referring to the previous message which discussed
+the idea of a symlink that referred to a 64 bit device id and the inode
+of the file.  i gave two examples of why it wouldn't work.
+
+> >     % ln -ss foo bar
+> >     % ls -i foo
+> >     111 foo
+> >     % rm foo
+> >     % touch floyd
+> >     % ls -i floyd
+> >     111 floyd
+> is this an example of inode reuse? :) or do you mean that somehow 
+> floyd is the new foo, (foo is dead, all hail floyd) and that bar now 
+> points to floyd?
+
+yes.  i did fail to mention that floyd might not use inode 111, but
+it might.  and that was my point, having these mythical symlinks point
+to the device+inode is not simple.  just like the unrm thing, it might
+be possible, but hard links and soft links are the best implementations
+that have survived to date on unix.  windows shortcuts are kinda weird -
+they're really an application level thing.
+
+mac aliases seem to take the idea of unix symlinks (linking by filename)
+along with the concept of device+inode.  i don't know mac internals,
+but i seem to remember being told it tried the former first, and then
+tried the latter.  how it would deal with the 2nd example i mentioned i
+dunno - i'm not certain if the mac version of inodes would suffer from
+that (maybe the fs identifier for the file included the creation time
+or something like that).
+
+> how do i control this 'symlinks magically link to new files' feature?
+
+i think it would be difficult.  it would also fail to work in numerous
+situations.
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

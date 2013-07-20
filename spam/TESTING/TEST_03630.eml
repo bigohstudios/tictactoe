@@ -1,0 +1,118 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289a699e44e696f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs65718wfo;
+        Fri, 14 May 2010 22:22:14 -0700 (PDT)
+Received: by 10.223.144.79 with SMTP id y15mr2633908fau.22.1273900932762;
+        Fri, 14 May 2010 22:22:12 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c11si7219996faa.30.2010.05.14.22.22.12;
+        Fri, 14 May 2010 22:22:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B20AD13A5780; Sat, 15 May 2010 05:22:06 +0000 (UTC)
+Old-Return-Path: <debian-kde@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.3 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RCVD_IN_NJABL_PROXY,RCVD_NUMERIC_HELO autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B929313A501C
+	for <lists-debian-kde@liszt.debian.org>; Sat, 15 May 2010 05:22:00 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.19 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	RCVD_IN_NJABL_PROXY=1.643, RCVD_NUMERIC_HELO=2.067] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id AcISKURPZK65 for <lists-debian-kde@liszt.debian.org>;
+	Sat, 15 May 2010 05:21:53 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id A50DD13A4DC9
+	for <debian-kde@lists.debian.org>; Sat, 15 May 2010 05:21:53 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <debian-kde@m.gmane.org>)
+	id 1OD9oq-0004mZ-Ub
+	for debian-kde@lists.debian.org; Sat, 15 May 2010 07:21:48 +0200
+Received: from 190.189.227.89 ([190.189.227.89])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-kde@lists.debian.org>; Sat, 15 May 2010 07:21:48 +0200
+Received: from nicolas.alvarez by 190.189.227.89 with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-kde@lists.debian.org>; Sat, 15 May 2010 07:21:48 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-kde@lists.debian.org
+connect(): No such file or directory
+From: Nicolas Alvarez <nicolas.alvarez@csmining.org>
+Subject: Re: KDE 4.4.3 upgrade eats 141 MB of /home
+Followup-To: gmane.linux.debian.user.kde
+Date: Sat, 15 May 2010 02:21:38 -0300
+Lines: 26
+Message-ID: <hslb13$ibk$1@dough.gmane.org>
+References: <20100512005320.GA16379@club.cc.cmu.edu> <20100512173310.GC17357@club.cc.cmu.edu> <hshkqb$8ov$1@dough.gmane.org> <201005141837.20338.debian@carewolf.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7Bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 190.189.227.89
+User-Agent: KNode/4.4.3
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <1WpGjg7jpFL.A.NXB.-9i7LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32446
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Sat, 15 May 2010 05:22:06 +0000 (UTC)
+
+Allan Sandfeld Jensen wrote:
+> On Thursday 13 May 2010, Nicolas Alvarez wrote:
+>> As a KDE4.3 user with 1TB of disk, I'm way more annoyed at
+>> kio_http_cache_cleaner starting regularly and eating my computer's I/O
+>> than the HTTP cache growing big. I can easily notice when the the cache
+>> cleaner is running from the HD light, the HD noise, and the general
+>> system lag.
+>> 
+>> There *has* to be a better way to clean an HTTP cache than to stat every
+>> single file in the cache to then delete a tiny fraction of them. Someone
+>> told me 4.4 improved in this area, but I don't know specifics, and remain
+>> skeptical.
+> 
+> If stat updates the files' atime, you may get a lot better performance by
+> simply mounting the relevant partition with relatime or noatime (which for
+> some reason is still not default).
+
+After some stracing: It doesn't just stat the files. It first stats, then 
+actually opens the files and *reads* the first few bytes of all of them 
+(where the HTTP cache information is stored).
+
+-- 
+Nicolas
+
+(I read mailing lists through Gmane. Please don't Cc me on replies; it makes 
+me get one message on my newsreader and another on email.)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hslb13$ibk$1@dough.gmane.org
+
+

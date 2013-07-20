@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId128aad70ea90177d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs10709wfo;
+        Tue, 18 May 2010 02:55:41 -0700 (PDT)
+Received: by 10.142.7.13 with SMTP id 13mr1552718wfg.122.1274176540770;
+        Tue, 18 May 2010 02:55:40 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id f8si10751147wfg.16.2010.05.18.02.55.40;
+        Tue, 18 May 2010 02:55:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 36E3C1C4EAFF0
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 02:55:40 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 31AA627B7F0E4
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 02:55:40 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 6481A27B7E894
+	for <objc-language@lists.apple.com>;
+	Tue, 18 May 2010 02:54:35 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id 51954D99569D
+	for <objc-language@lists.apple.com>;
+	Tue, 18 May 2010 02:54:35 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-34-4bf263dbbe78
+Received: from asmtpout026.mac.com (asmtpout026.mac.com [17.148.16.101])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	F3.6B.05834.BD362FB4; Tue, 18 May 2010 02:54:35 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [192.168.0.103]
+	(203-214-158-71.perm.iinet.net.au [203.214.158.71])
+	by asmtp026.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPSA id <0L2M00LYR0UL3I30@asmtp026.mac.com> for
+	objc-language@lists.apple.com; Tue, 18 May 2010 02:54:25 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=6.0.2-1004200000 definitions=main-1005180027
+X-Proofpoint-Virus-Version: vendor=fsecure
+	engine=1.12.8161:2.4.5,1.2.40,4.0.166
+	definitions=2010-05-18_01:2010-02-06, 2010-05-18,
+	2010-05-18 signatures=0
+From: Ian Joyner <ianjoyner@me.com>
+In-reply-to: <482C961E-0AC6-47DD-9721-3EC043EA76BB@me.com>
+Date: Tue, 18 May 2010 19:54:21 +1000
+Message-id: <C4199F69-A334-4264-9B26-86B25628F04C@me.com>
+References: <482C961E-0AC6-47DD-9721-3EC043EA76BB@me.com>
+To: "Jason T. Slack-Moehrle" <slackmoehrle@me.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAwAAAUoUKe46FCoSCg==
+Cc: "objc-language@lists.apple.com" <objc-language@lists.apple.com>
+Subject: Re: Some questions about @property and @synthesize
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 18 May 2010, at 11:48, Jason T. Slack-Moehrle wrote:
+
+> I don't understand these, I know they are new to objective-c 2.
+> 
+> How does one use these properly?
+> 
+> So with @synthesize I would not create getters and setters? What ones does it infer?
+
+I think these ones 11111111!
+> 
+> If I create a class how do I instantiate it? In C++ I would do something like FileListView f = new FileListView and have code that runs in that method.
+
+What method?
+
+> Do i just give me class I created a main() function and does that get auto executed?
+
+
+?
+
+Getters and setters are a bad idea, just verbosity of language. Retrieving a value from an object should be as simple as:
+
+a := b.c
+
+where c could be a variable or a function. You should not be able to tell. That way you can always change the implementation.
+
+However,
+
+b.c := <expression>
+
+you do want the object b to check that it is valid to set c to the value of the expression. If you are not using garbage collection, you want the common idiom of reference counting statements generated for you.
+
+Objective-C 2.0 is a great improvement in terms of you don't have to write so much junk (well, repetitive code). However, @property and @synthesize aren't exactly ideal, but just look at what you have to write without them.
+
+Ian
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

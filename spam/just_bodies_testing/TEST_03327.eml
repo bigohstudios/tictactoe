@@ -1,0 +1,42 @@
+Re: Aptitude ErrorFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 30 April 2010 12:10:45 James Stuckey wrote:
+> On Fri, Apr 30, 2010 at 5:44 PM, Boyd Stephen Smith Jr. <
+>=20
+> bss@iguanasuicide.net> wrote:
+> > On Friday 30 April 2010 06:16:22 James Stuckey wrote:
+> > > The unstable/sid doesn't have to be comment out. Setting the default
+> > >  release will keep the system tracked to, in this case, testing.
+> >
+> > Er, mostly.
+> >
+> > If there is a versioned dependency that can be satisfied from sid but n=
+ot
+> > testing, you will get the package from sid.  This shouldn't happen given
+> > the
+> > way testing is managed, unless you installed at least one package from
+> > sid.
+>=20
+> I installed eclipse from sid, since there isn't eclipse in testing.
+
+It may have pulling in some dependencies from Sid, then.
+
+I know the official line is to use '-t $something' as arguments to apt-
+get/aptitude for pulling in packages from Sid/experimental/backports, but I=
+=20
+think it is better to use the '$package=3D$version' format.  (After getting=
+ the=20
+version from something like (apt-cache policy $package).)
+
+My instinct is that '-t $something' effectively increases the priority of a=
+ll=20
+packages from the $something repository, which may make the dependency=20
+resolver pull more from that repository than is absolutely necessary.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

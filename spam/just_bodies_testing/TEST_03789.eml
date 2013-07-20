@@ -1,0 +1,19 @@
+Re: Setting -Xmx dynamically at launch time under 64bit
+On May 21, 2010, at 3:05 PM, Peter Speck wrote:
+
+> Here's some code that can help you handling the situation where the launcher is running in 64-bit but no 64-bit JavaVM is available on the system:
+> http://glimmerblocker.org/browser/trunk/PrefsPane/proxyApp/proxy.c
+> 
+> The code hasn't been updated to use the /usr/libexec/java_home executable provided in the latest java update.
+
+Thanks, Peter. That's handy.
+
+- Willis Morse
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

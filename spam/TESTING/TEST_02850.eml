@@ -1,0 +1,150 @@
+X-Account-Key: account5
+X-UIDL: GmailId128d06bb69388850
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs139587wfo;
+        Tue, 25 May 2010 10:04:05 -0700 (PDT)
+Received: by 10.223.64.205 with SMTP id f13mr6406076fai.98.1274807044573;
+        Tue, 25 May 2010 10:04:04 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si7753991far.52.2010.05.25.10.03.58;
+        Tue, 25 May 2010 10:03:59 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BC96013A568F; Tue, 25 May 2010 17:03:52 +0000 (UTC)
+Old-Return-Path: <JohnRChamplin@columbus.rr.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3941C13A566A
+	for <lists-debian-user@liszt.debian.org>; Tue, 25 May 2010 17:03:47 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 740RDOiftP7W for <lists-debian-user@liszt.debian.org>;
+	Tue, 25 May 2010 17:03:39 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+Received: from hrndva-omtalb.mail.rr.com (hrndva-omtalb.mail.rr.com [71.74.56.123])
+	by liszt.debian.org (Postfix) with ESMTP id 7932C13A562B
+	for <debian-user@lists.debian.org>; Tue, 25 May 2010 17:03:33 +0000 (UTC)
+X-Authority-Analysis: v=1.1 cv=muTmBHIsIIrvj5np50lvqqEF3x9MmSj/zDSU9q1ni6E= c=1 sm=0 a=wbKXeunVgZ0A:10 a=2Mv5UtBvbboA:10 a=noZ6akX4yogfK0Rf0CdubQ==:17 a=Ebts3kiMAAAA:8 a=aAqSTYNxAAAA:8 a=ayC55rCoAAAA:8 a=mAkJgPaMAAAA:8 a=sK2SkNjYi01yb7hYWFkA:9 a=gBnX9RAaMgVv5TP0wV-sUdeE95wA:4 a=CjuIK1q_8ugA:10 a=4cPhXtoKQjUA:10 a=VWG1iVv6S2aJvSJqKmcA:9 a=CIEYIt84CbggOz60AexzPeKVt7QA:4 a=noZ6akX4yogfK0Rf0CdubQ==:117
+X-Cloudmark-Score: 0
+X-Originating-IP: 174.101.50.81
+Received: from [174.101.50.81] ([174.101.50.81:39527] helo=localhost.localdomain)
+	by hrndva-oedge04.mail.rr.com (envelope-from <JohnRChamplin@columbus.rr.com>)
+	(ecelerity 2.2.2.39 r()) with ESMTP
+	id 9C/87-22658-2E20CFB4; Tue, 25 May 2010 17:03:30 +0000
+Received: from me by localhost.localdomain with local (Exim 4.71)
+	(envelope-from <JohnRChamplin@columbus.rr.com>)
+	id 1OGxXN-0004XM-WB
+	for debian-user@lists.debian.org; Tue, 25 May 2010 13:03:30 -0400
+Date: Tue, 25 May 2010 13:03:29 -0400
+From: John <JohnRChamplin@columbus.rr.com>
+To: debian-user@lists.debian.org
+Subject: Re: Mail errors or attacks?
+Message-ID: <20100525170329.GA2267@columbus.rr.com>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <20100524195712.216D02D0D78@liszt.debian.org>
+ <201005251858.06957.d_baron@012.net.il>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="vtzGhvizbBRQ85DL"
+Content-Disposition: inline
+In-Reply-To: <201005251858.06957.d_baron@012.net.il>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <08SlVDdsQE.A.AvG.4LA_LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577615
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 25 May 2010 17:03:52 +0000 (UTC)
+
+
+--vtzGhvizbBRQ85DL
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On 25/05/10, David Baron (d_baron@012.net.il) wrote:
+| > > I get a zillion of these, every single day, about every 5 minutes or =
+so:
+| > >=20
+| > >
+| > > 2010-05-24 15:05:38 SMTP call from localhost (dovidhalevi) [127.0.0.1=
+]=20
+| > > dropped: too many syntax or protocol errors (last command was "MAIL=
+=20
+| > > FROM:<jameswellington000.org@[71.121.223.194]> SIZE=3D8814")
+| >=20
+| >         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| >=20
+| > > I am running exim4 heavy on a Sid box.
+| > >
+| > >=20
+| > >
+| > > Exim shows no stuck messages or such. How can I stop this?
+| >=20
+| > It is a spamer...
+| >=20
+| > It it is always the same IP, add it to the backlist
+|=20
+| How do I do this obvious task? In exim? I have fail2ban as well but this =
+is=20
+| not catching this one.=20
+
+Have you tried adding=20
+
+/sbin/iptables -I INPUT -s 71.121.223.194 -j DROP
+
+to /etc/init.d/iptables.rules?
+
+--=20
+JohnRChamplin@columbus.rr.com
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+GPG key 1024D/99421A63 2005-01-05
+EE51 79E9 F244 D734 A012 1CEC 7813 9FE9 9942 1A63
+gpg --keyserver subkeys.pgp.net --recv-keys 99421A63
+
+--vtzGhvizbBRQ85DL
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkv8AuEACgkQeBOf6ZlCGmOk/QCgg4L3hebTWBOg3vjItZxzIXfA
+zfIAoIhwSDLA6fzLcPrrB4vFP8Jr3TRz
+=m3BK
+-----END PGP SIGNATURE-----
+
+--vtzGhvizbBRQ85DL--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100525170329.GA2267@columbus.rr.com
+
+

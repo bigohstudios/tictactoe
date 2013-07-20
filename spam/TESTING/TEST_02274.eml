@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286f29d58ce7016
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs414183wfb;
+        Thu, 6 May 2010 12:48:52 -0700 (PDT)
+Received: by 10.223.56.206 with SMTP id z14mr7213148fag.97.1273175332010;
+        Thu, 06 May 2010 12:48:52 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si669498fah.22.2010.05.06.12.48.51;
+        Thu, 06 May 2010 12:48:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0509513A58EF; Thu,  6 May 2010 19:48:46 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 07D1113A5684
+	for <lists-debian-user@liszt.debian.org>; Thu,  6 May 2010 19:48:40 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id haoU9HbbGIoB for <lists-debian-user@liszt.debian.org>;
+	Thu,  6 May 2010 19:48:32 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id BAD2813A545A
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 19:48:32 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OA73a-0001ne-IV
+	for debian-user@lists.debian.org; Thu, 06 May 2010 21:48:26 +0200
+Received: from 206-248-157-232.dsl.teksavvy.com ([206.248.157.232])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 06 May 2010 21:48:26 +0200
+Received: from hs.samix by 206-248-157-232.dsl.teksavvy.com with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 06 May 2010 21:48:26 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: "H.S." <hs.samix@csmining.org>
+Subject: merge alternate pages from two PDF files in to one
+Date: Thu, 06 May 2010 15:48:17 -0400
+Lines: 13
+Message-ID: <hrv6e2$ah9$1@dough.gmane.org>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 206-248-157-232.dsl.teksavvy.com
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gmOnQV-ilg.A.5eG.d0x4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576070
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 19:48:46 +0000 (UTC)
+
+Hello.
+
+Can somebody describe how to merge two PDF files into one so that odd
+pages are from the first file and the even ones are from the second? I
+am looking at pdftk, but it is not obvious to me if or how it can do this.
+
+Thanks.
+-- 
+
+Please reply to this list only. I read this list on its corresponding
+newsgroup on gmane.org. Replies sent to my email address are just
+filtered to a folder in my mailbox and get periodically deleted without
+ever having been read.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrv6e2$ah9$1@dough.gmane.org
+
+

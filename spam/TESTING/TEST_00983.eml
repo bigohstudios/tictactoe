@@ -1,0 +1,141 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284e478752c2dd0
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs85746wfj;
+        Fri, 30 Apr 2010 03:33:51 -0700 (PDT)
+Received: by 10.223.161.204 with SMTP id s12mr1299823fax.103.1272623630125;
+        Fri, 30 Apr 2010 03:33:50 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 35si2653418fkt.37.2010.04.30.03.33.49;
+        Fri, 30 Apr 2010 03:33:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2DF5C13A4F72; Fri, 30 Apr 2010 10:33:44 +0000 (UTC)
+Old-Return-Path: <aspnair@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.1 required=4.0 tests=CAPINIT,GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id C36F913A4EEA
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 10:33:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QqGUeaU5COHC for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 10:33:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yw0-f197.google.com (mail-yw0-f197.google.com [209.85.211.197])
+	by liszt.debian.org (Postfix) with ESMTP id 6994513A4E41
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 10:33:30 +0000 (UTC)
+Received: by ywh35 with SMTP id 35so22255ywh.24
+        for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 03:33:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=Mcdt8DysutZdJFiey6MaFANaLtKNsyFmucFzhyLFlFU=;
+        b=ZgMtUhXv/96pNvehzvJxwX4nIbBkdiVWFD7AW89a+zbCcyz3rb46TwL5oh1ScMk5LI
+         EPSm83/6GQmDPYWJA9ygJUfIMH8KVR2wlxoro9fJFXEkOgH7liVXrkZjgiVGyAnJAyM8
+         UT/s1Vb7dqPpz4/JUJxyrX7aBD1qiKkAcco8c=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=BySCHZoVkLk6Pfv/zCOlyqfvqNQUB93ICwYYoDxARxEP2FIwvuA//7WbijV+vS9V2Q
+         6yx2MAtZLfz5Hs2bo9/JsINeTWasi27womK4uqg6HdBh2xPIaGrtqzP/8WSgmnpAsBz+
+         qOYw3G3NxmFJIkkNILsO2mj2/ijHMEIWHzRtM=
+MIME-Version: 1.0
+Received: by 10.150.66.20 with SMTP id o20mr1714285yba.232.1272623600194; Fri, 
+	30 Apr 2010 03:33:20 -0700 (PDT)
+Received: by 10.150.227.3 with HTTP; Fri, 30 Apr 2010 03:33:20 -0700 (PDT)
+In-Reply-To: <y2xb36d43c31004300328m9fe16e64ldeddc780a0dbb397@mail.csmining.org>
+References: <y2xb36d43c31004300328m9fe16e64ldeddc780a0dbb397@mail.csmining.org>
+Date: Fri, 30 Apr 2010 16:03:20 +0530
+Message-ID: <z2sd0bf7b0b1004300333z1a5921f7o5f878986973d05f8@mail.csmining.org>
+Subject: Re: Aptitude Error
+From: Anand Sivaram <aspnair@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <CGgWG9xAFtB.A.-u.IIr2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575537
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 10:33:44 +0000 (UTC)
+
+On Fri, Apr 30, 2010 at 15:58, James Stuckey <jhstuckey@csmining.org> wrote:
+> Why am I getting this and how can I fix it?
+>
+> root@debian:/home/stuckey# aptitude install fakeroot devscripts
+> build-essential
+> Reading package lists... Done
+>
+> Building dependency tree
+> Reading state information... Done
+> Reading extended state information... Done
+> Initializing package states... Done
+>
+> Reading task descriptions... Done
+> The following NEW packages will be installed:
+>   build-essential g++{a} g++-4.4{ab} gcc{a} gcc-4.4{ab}
+>
+>   libstdc++6-4.4-dev{ab}
+> 0 packages upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+> Need to get 7,126B/9,723kB of archives. After unpacking 27.3MB will be used.
+>
+> The following packages have unmet dependencies:
+>   g++-4.4: Depends: gcc-4.4-base (= 4.4.2-9) but 4.4.3-9 is installed.
+>   gcc-4.4: Depends: gcc-4.4-base (= 4.4.2-9) but 4.4.3-9 is installed.
+>
+>            Depends: cpp-4.4 (= 4.4.2-9) but 4.4.3-9 is installed.
+>   libstdc++6-4.4-dev: Depends: gcc-4.4-base (= 4.4.2-9) but 4.4.3-9 is
+> installed.
+> The following actions will resolve these dependencies:
+>
+>
+>      Keep the following packages at their current version:
+> 1)     build-essential [Not Installed]
+> 2)     g++ [Not Installed]
+>
+> 3)     g++-4.4 [Not Installed]
+> 4)     gcc [Not Installed]
+> 5)     gcc-4.4 [Not Installed]
+>
+> 6)     libstdc++6-4.4-dev [Not Installed]
+>
+>      Tier: Cancel all user actions (20000)
+>
+> Accept this solution? [Y/n/q/?]
+>
+>
+
+Have you tried "apt-get update" or "aptitude update" before trying to
+install these packages?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/z2sd0bf7b0b1004300333z1a5921f7o5f878986973d05f8@mail.csmining.org
+
+

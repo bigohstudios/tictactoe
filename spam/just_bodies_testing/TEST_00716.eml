@@ -1,0 +1,34 @@
+Re: Cyrus 2.2 imapd in AMD64On Thu, 22 Apr 2010 20:50:41 -0300, Carlos Bergero wrote:
+
+> Hi there list, got some trouble running a cyrus server, actually I have
+> an old setup running in Etch i386 without any trouble, virtual mail
+> server and all pgsql setup for backend and postfix for MTA, all sweat. I
+> installed a new server, better hardware, using AMD64 dist, as Etch is
+> going to be out of security, I copy everithing but the cyrus is not
+> properly working. I cant conect to the imap port or use imtest, to check
+> users, when i start server first cyr_expire and then tls_prune consume
+> lots of time doing not shure what, and i get the following syslog and
+> kern.log error:
+> 
+> Apr 22 18:48:08 darwin kernel: [6121490.275489] ctl_cyrusdb[18309]
+> general protection ip:7fecdaef0f30 sp:7fffc46d9380 error:0 in
+> libdb-4.2.so[7fecdae4e000+ea000]
+
+"ctl_cyrusdb" is the program in charge of Cyrus databases (man 
+ctl_cyrusdb) so I first would check that. Maybe something got wrong when 
+you "migrated" the data from the old server to the new one.
+
+P.S. I cannot see your "cyrus.conf" :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.23.07.10.47@csmining.org
+
+

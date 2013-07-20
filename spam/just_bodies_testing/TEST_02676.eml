@@ -1,0 +1,40 @@
+Re: Moving to Debian: updated software> Unfortunately, the goals of always having the latest KDE and a stable distro
+> are not compatible.
+>
+
+Not necessarily. KDE has a regular release schedule, with a point
+release about once a month. I would consider a distro that included
+the latest point releases stable in the sense of no (or few) beta
+software.
+
+
+> Another thing you could consider: run testing/unstable in a virtual
+> machine or a chroot on your lenny system. Beware, though, that even in
+> unstable the upload of major packages can be delayed.
+>
+
+I have tested KDE in a VM in the past, it doesn't work out. I need to
+use it for everyday work.
+
+
+> Have you asked other KDE contributors about their setups?
+>
+
+Yes, there is a lot of favour towards Mandriva and Suse. Kubuntu with
+Project Timelord is also being mentioned. If I jump ship from a Debian
+based distro, it will likely be to Suse.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2s880dece01004220726je1940918k364dbc3818b97539@mail.csmining.org
+
+

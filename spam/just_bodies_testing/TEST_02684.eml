@@ -1,0 +1,31 @@
+Imap servers that support the MH folder/file standards
+>>>From time to time I have to travel, and seem to end up with a rather slow
+link back home that makes remote display of exmh rather slow, even over
+ssh and/or VNC. What I'd  like to do is use an imap capable mailer to
+communicate with an imap server that is serving up my MH folders. Does
+anyone know of any Imap servers that can do this? I'd like it to be able
+to handle the  mailstore using MH commands so things don't get out of
+sync. At the moment I use a combo of fetchmail and procmail to handle
+soring things when I'm local, and it's possible that an imap server
+would mung this when I deleted a message remotely.
+
+
+
+	Stephen
+
+-- 
+  The views expressed above are not those of PGS Tensor.
+
+    "We've heard that a million monkeys at a million keyboards could produce
+     the Complete Works of Shakespeare; now, thanks to the Internet, we know
+     this is not true."            Robert Wilensky, University of California
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

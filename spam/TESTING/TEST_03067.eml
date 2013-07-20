@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId12890c5b57b42907
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs48723wfo;
+        Thu, 13 May 2010 01:26:36 -0700 (PDT)
+Received: by 10.223.19.18 with SMTP id y18mr2678769faa.6.1273739195427;
+        Thu, 13 May 2010 01:26:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id t12si2500192fah.66.2010.05.13.01.26.34;
+        Thu, 13 May 2010 01:26:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 18C142D0C80; Thu, 13 May 2010 08:26:29 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1C84013A4FA6
+	for <lists-debian-user@liszt.debian.org>; Thu, 13 May 2010 08:26:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id mqqnTUuKjhr3 for <lists-debian-user@liszt.debian.org>;
+	Thu, 13 May 2010 08:26:15 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id C81A413A4F93
+	for <debian-user@lists.debian.org>; Thu, 13 May 2010 08:26:11 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OCTk7-0000zf-0I
+	for debian-user@lists.debian.org; Thu, 13 May 2010 10:26:07 +0200
+Received: from 75.red-213-96-214.staticip.rima-tde.net ([213.96.214.75])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 13 May 2010 10:26:06 +0200
+Received: from noelamac by 75.red-213-96-214.staticip.rima-tde.net with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Thu, 13 May 2010 10:26:06 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: =?iso-8859-1?q?Camale=F3n?= <noelamac@csmining.org>
+Subject: Re: [SOLVED]Re: DVD-Ram
+Date: Thu, 13 May 2010 08:25:59 +0000 (UTC)
+Lines: 30
+Message-ID: <pan.2010.05.13.08.25.59@csmining.org>
+References: <201005121121.58209.Howland@priss.com>
+	<201005121315.10654.Howland@priss.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: 75.red-213-96-214.staticip.rima-tde.net
+User-Agent: Pan/0.132 (Waxed in Black)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <elfDzPyH-MB.A.-5.1e76LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576669
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 13 May 2010 08:26:29 +0000 (UTC)
+
+On Wed, 12 May 2010 13:15:10 -0400, Curt Howland wrote:
+
+(...)
+
+> Adding a file, deleting, both worked just fine treating it as a regular
+> disk.
+> 
+> My apologies for bothering the list with something already pretty well
+> answered, but my searches had not turned up the information I needed
+> when I did the searches the first two times.
+> 
+> I'll also try UDF to see if it's readable on Winders, since who knows
+> wtf I'll be needing to mount backups on in several years. I've lost too
+> many pictures that were stored on floppies already.
+> 
+> Thank you for your time,
+
+Wow, I just have read the complete thread and it's looks promising.
+
+Your post (and Wikipedia article :-P) have motivated me enough to give 
+DVD-RAM a try along with UDF (or maybe FAT32) filesystem. I didn't like 
+so much all that DVD±RW stuff and the problems that may arise while using 
+a different UDF spec but after reading this I'm gonna give it a chance.
+
+Thanks for sharing this :-)
+
+Gretings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.13.08.25.59@csmining.org
+
+

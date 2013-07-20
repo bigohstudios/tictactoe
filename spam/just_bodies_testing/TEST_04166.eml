@@ -1,0 +1,27 @@
+exim listen on one ip to two ports?Can exim be made to listen to two ports (587 and 25) on one ip?
+
+I put this in /etc/default/exim4:
+
+SMTPLISTENEROPTIONS='-oX 587:25'
+
+Exim responded by generating a /var/log/exim4/paniclog file containing:
+
+"socket bind() to port 25 for address [my local ip] failed: Address
+already in use: daemon abandoned"
+
+Interestingly enough smtp to port 587 worked despite this paniclog
+entry. The existence of a "non-zero length" paniclog does however muck
+up starting and stoping the daemon.
+
+-- 
+No no no, my fish's name is Eric, Eric the fish. He's an halibut. I am
+not a looney! Why should I be tarred with the epithet looney merely
+because I have a pet halibut?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2i585bd7151005030741i62acac09y6e60a64ffebf86ed@mail.csmining.org
+
+

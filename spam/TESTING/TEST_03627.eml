@@ -1,0 +1,180 @@
+X-Account-Key: account5
+X-UIDL: GmailId12880f46a4de1201
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs587041wfb;
+        Sun, 9 May 2010 23:43:42 -0700 (PDT)
+Received: by 10.223.17.197 with SMTP id t5mr3692311faa.84.1273473821277;
+        Sun, 09 May 2010 23:43:41 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y12si7635405fah.45.2010.05.09.23.43.40;
+        Sun, 09 May 2010 23:43:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0439B13A5697; Mon, 10 May 2010 06:43:36 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6767413A5680
+	for <lists-debian-user@liszt.debian.org>; Mon, 10 May 2010 06:43:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 7+MGBcBwJm+r for <lists-debian-user@liszt.debian.org>;
+	Mon, 10 May 2010 06:43:23 +0000 (UTC)
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id 1603913A5679
+	for <debian-user@lists.debian.org>; Mon, 10 May 2010 06:43:23 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so2120823fxm.6
+        for <debian-user@lists.debian.org>; Sun, 09 May 2010 23:43:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=y+5IYu4x763ozFcxL2KitoY355qo7hA0SrNYimrmOSo=;
+        b=TlIYwY/cEms9lL0ox2zc0NZ+WHlP+Yiu87dFn+Ku+zG02G4HEGY2jmPKxh5qGBt+3D
+         VztfSL5aHV+/T/QzAKlI20fCd8gDUzVq+wHZTfulMdRK/1L2gj2mr9BLSAKbg479mRoB
+         U0bsYF1RMpmWtSqL/BOhI5Bg4Mhy99kpkXdQY=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=FdkzbrUp6749wRQmTW0Mzwlt7EsM1gR79PE8MI3g8b9dJbBpoWO5bVNAHrn4E7/o+C
+         5zplBSPhBy214UFkPQvBHsz8duiw1cfnA4T0jZLI4ejFGkaCHvF+lxzY8oV8vVXGDWU9
+         c1Yb3e3LEJf2+2gV+9H/NY09K4SHzd3D/6sGQ=
+MIME-Version: 1.0
+Received: by 10.239.152.75 with SMTP id u11mr303406hbb.207.1273473798396; Sun, 
+	09 May 2010 23:43:18 -0700 (PDT)
+Received: by 10.239.183.199 with HTTP; Sun, 9 May 2010 23:43:18 -0700 (PDT)
+In-Reply-To: <201005091602.50128.lisi.reisz@csmining.org>
+References: <201005071123.48345.lisi.reisz@csmining.org>
+	 <201005091500.32195.lisi.reisz@csmining.org>
+	 <4BE6C70B.6000300@lorentz.leidenuniv.nl>
+	 <201005091602.50128.lisi.reisz@csmining.org>
+Date: Mon, 10 May 2010 09:43:18 +0300
+Message-ID: <AANLkTilHj-yLAY1qhSYS-6FL5UngnInHDdMylWC2_oGn@mail.csmining.org>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Lisi <lisi.reisz@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <qFLxTEkaLkK.A.fTE.Xs65LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576349
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 10 May 2010 06:43:36 +0000 (UTC)
+
+On 9 May 2010 18:02, Lisi <lisi.reisz@csmining.org> wrote:
+> I have already forwarded them to the list and would gladly send them on t=
+o you
+> if you were to ask me to do so. =C2=A0But list policy is to stay on list =
+unless
+> requested to do otherwise. ;-)
+>
+> The last one in particular was personal, rude and unpleasant. =C2=A0He is=
+ not
+> simply
+> <quote>
+>> collecting issues with KDE4 and filing the
+>> to the devs.</quote>
+>
+> He is doing that, but in addition he is bullying people most unpleasantly=
+ if
+> they do not do his bidding. =C2=A0I do not use KDE 4 and have no wish to =
+do so.
+>
+
+Please quote where I "bullied" you.
+
+
+> The only thing I could have done differently (other than not send that ve=
+ry
+> short and mild complaint) is bow down to Dotan and agree that I have no r=
+ight
+> to dislike KDE 4, because he does not find my reasons valid. =C2=A0I trie=
+d to end
+> this by simply not replying, but even that did not rescue me - he sent
+> another email, to which I again did not reply. =C2=A0What more could I do=
+, other
+> than be very rude myself, to make him go away?
+>
+
+I expect you to dislike KDE 4, as it does not suit your needs! That is
+quite why I ask what your problems are, so that I might fix them. I
+have never disputed your reasons, rather, I agree that your reasons
+are valid and are cause for concern. The only thing that I disagreed
+with you was on default settings of composting, and even in that
+context I offered to personally design a KDE default configuration for
+you that you could have composting disabled  before loading KDE for
+the first time. Rude? Unpleasant? I bend over backwards to help you.
+
+
+> I do not have to give him reasons for my dislike. =C2=A0I dislike KDE 4 a=
+nd do not
+> use it. =C2=A0That is surely my right? =C2=A0I dislike fennel. =C2=A0No-o=
+ne tries to
+> force-feed me with it!
+>
+
+I clearly stated that my intention is not to try to convince you to
+use KDE 4, rather, that my intention is to learn about the problems
+that you have with KDE 4 so that I might fix them. You don't have to
+help me fix KDE 4, but it is only to your own benefit to do so.
+Contributors of what other software have asked you personally about
+your problems with the software?
+
+
+> And surely I have no duty to help Dotan in his single minded ambition to
+> impose KDE 4 on all the world? =C2=A0Many of us do not use it. =C2=A0Seve=
+ral people
+> have been very helpful in sending me comments (_on_ list) on other
+> possibilities.
+>
+> If he is truly doing what he is doing from altruistic motives, then surel=
+y he
+> must only "help" (help????) those who want his help, not bully those who
+> don't.
+>
+
+No problem, I won't help you any more. You never expressed your desire
+that I might not communicate with you, other than complaining that I
+do. I get the point, don't worry, I won't ask you about KDE 4 any
+more.
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilHj-yLAY1qhSYS-6FL5UngnInHDdMylWC2_oGn@mail.csmining.org
+
+

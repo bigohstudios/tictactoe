@@ -1,0 +1,220 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283bf0fb4efce67
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs104342wfj;
+        Mon, 26 Apr 2010 14:06:10 -0700 (PDT)
+Received: by 10.87.73.30 with SMTP id a30mr3619454fgl.64.1272315968415;
+        Mon, 26 Apr 2010 14:06:08 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si3531043fke.57.2010.04.26.14.06.07;
+        Mon, 26 Apr 2010 14:06:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id A504D13A577A; Mon, 26 Apr 2010 21:05:58 +0000 (UTC)
+Old-Return-Path: <storm16@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.9 required=4.0 tests=FOURLA,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 25A4313A5757
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 21:05:52 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 1SqHLitayBhF for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 21:05:44 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-vw0-f47.google.com (mail-vw0-f47.google.com [209.85.212.47])
+	by liszt.debian.org (Postfix) with ESMTP id CD1F213A56FD
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 21:05:41 +0000 (UTC)
+Received: by vws5 with SMTP id 5so740290vws.6
+        for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 14:05:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type;
+        bh=cPY9qDaYPiCmKOWe3Ie86AH6LZwz7GVE9wMDxlz/R+A=;
+        b=QnApaEPdRuvPgrkhwmSn7YEWhl6ANHeft94LCMer+fGYRFikaBBtRS7/6M+Hb5D/5J
+         6RsfXWfw4DM6ryptiMXVmLlwjEPzfFNW7O8oGEnF8S17phQ9JfZmyjNtTQB5+vcFDgGH
+         ZQlNI3AaPfFiwT5O4dGbiA4JPTWPTw43qGESc=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=GS/Vdv/besD2Y6sgFk+JdCjguJX5zOJl6V+teAxHg7jBbVrYAyroi2rKnFn4e0edTU
+         X75LPWB351a0TYn/cTSoZUAlZHHd9zH8OJKItzxO/jZk4fzRoL9y/xMJdtTDVlNuevnx
+         ScauGnywdFuQEKGmJJe/PIAylUmpDdouNGClg=
+MIME-Version: 1.0
+Received: by 10.220.127.96 with SMTP id f32mr3200607vcs.32.1272315931553; Mon, 
+	26 Apr 2010 14:05:31 -0700 (PDT)
+Received: by 10.150.216.9 with HTTP; Mon, 26 Apr 2010 14:05:31 -0700 (PDT)
+In-Reply-To: <201004261322.24215.bss@iguanasuicide.net>
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org>
+	 <201004261322.24215.bss@iguanasuicide.net>
+Date: Mon, 26 Apr 2010 17:05:31 -0400
+Message-ID: <w2i258ced3f1004261405t78b9aad9md94419ae567697c6@mail.csmining.org>
+Subject: Re: Filesystem recommendations
+From: "B. Alexander" <storm16@csmining.org>
+To: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+Cc: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016e68ee02e246f4f04852a238a
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <KDh08MbsHmL.A.dNC.2Ag1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575174
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 21:05:58 +0000 (UTC)
+
+--0016e68ee02e246f4f04852a238a
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Mon, Apr 26, 2010 at 2:22 PM, Boyd Stephen Smith Jr. <
+bss@iguanasuicide.net> wrote:
+
+> I'm also a current reiser3 user.  I find the ability to shrink the
+> filesystem
+> to be something I am not willing to do without.
+>
+
+You know, I said the same thing, but then as the kernel and GRUB and the
+like advanced, I noticed that my reiserfs partitions would have to replay
+the journal every time I rebooted, even after a clean shutdown. I started
+calculating how many times I shrunk any of my partitions in the last 8
+years, and I can only recall twice. And since I have several terabytes
+around the house, I figure I can migrate data and delete/recreate partitions
+if I really need to reduce it.
+
+
+> I have not read the rest of the thread, but my off-the-cuff recommendation
+> would be to start migration to btrfs.  Now that the on-disk format has
+> stabilized, I am going to start testing it for filesystems other than
+> /usr/local, /var, and /home.  Assuming I can keep those running well for
+> 6-12
+> months, I will migrate /usr/local, /var, and then /home, in that order,
+> with a
+> 1-3 month gap in between migrations.
+>
+
+I might play with it for some non-critical partitions, or ones that I can
+mirror on an established filesystem, even if it is only to use in an
+"Archive Island" scenario, where I have a LV that I can mount, sync and
+umount. However, btrfs is not included in the kernel, is it? As I recall,
+nilfs2 has kernel support, but that was the only one of the new filesystems,
+at the time when I started looking at this.
+
+
+> It's an aggressive migration plan, but reiser3 is just barely
+
+maintained in
+> the kernel, and btrfs is the only filesystem I have heard of that even
+> advertises all the features I need.
+>
+> I've already encountered an issue related to btrfs in my very isolated
+> deployments.  The initramfs created by update-initramfs does not appear to
+> mount it properly.  Instead I am given an '(initramfs)' prompt and I have
+> to
+> mount the filesystem manually (a simple two-argument mount command
+> suffices)
+> and continue the boot process.  This is fine for my laptop, but servers
+> (and
+> even my desktop) need to be able to boot unattended; I am still
+> investigating
+> the issue, which may just be due to my configuration.
+>
+
+That is enough to give me pause...
+
+--b
+
+--0016e68ee02e246f4f04852a238a
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Mon, Apr 26, 2010 at 2:22 PM, Boyd St=
+ephen Smith Jr. <span dir=3D"ltr">&lt;<a href=3D"mailto:bss@iguanasuicide.n=
+et">bss@iguanasuicide.net</a>&gt;</span> wrote:<br><blockquote class=3D"gma=
+il_quote" style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0=
+pt 0pt 0.8ex; padding-left: 1ex;">
+I&#39;m also a current reiser3 user. =A0I find the ability to shrink the fi=
+lesystem<br>
+to be something I am not willing to do without.<br></blockquote><div><br>Yo=
+u know, I said the same thing, but then as the kernel and GRUB and the like=
+ advanced, I noticed that my reiserfs partitions would have to replay the j=
+ournal every time I rebooted, even after a clean shutdown. I started calcul=
+ating how many times I shrunk any of my partitions in the last 8 years, and=
+ I can only recall twice. And since I have several terabytes around the hou=
+se, I figure I can migrate data and delete/recreate partitions if I really =
+need to reduce it.<br>
+=A0<br></div><blockquote class=3D"gmail_quote" style=3D"border-left: 1px so=
+lid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+I have not read the rest of the thread, but my off-the-cuff recommendation<=
+br>
+would be to start migration to btrfs. =A0Now that the on-disk format has<br=
+>
+stabilized, I am going to start testing it for filesystems other than<br>
+/usr/local, /var, and /home. =A0Assuming I can keep those running well for =
+6-12<br>
+months, I will migrate /usr/local, /var, and then /home, in that order, wit=
+h a<br>
+1-3 month gap in between migrations.<br></blockquote><div><br>I might play =
+with it for some non-critical partitions, or ones that I can mirror on an e=
+stablished filesystem, even if it is only to use in an &quot;Archive Island=
+&quot; scenario, where I have a LV that I can mount, sync and umount. Howev=
+er, btrfs is not included in the kernel, is it? As I recall, nilfs2 has ker=
+nel support, but that was the only one of the new filesystems, at the time =
+when I started looking at this.<br>
+=A0</div><blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid =
+rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+
+It&#39;s an aggressive migration plan, but reiser3 is just barely=A0</block=
+quote><blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb=
+(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">maintained =
+in<br>
+
+the kernel, and btrfs is the only filesystem I have heard of that even<br>
+advertises all the features I need.<br>
+<br>
+I&#39;ve already encountered an issue related to btrfs in my very isolated<=
+br>
+deployments. =A0The initramfs created by update-initramfs does not appear t=
+o<br>
+mount it properly. =A0Instead I am given an &#39;(initramfs)&#39; prompt an=
+d I have to<br>
+mount the filesystem manually (a simple two-argument mount command suffices=
+)<br>
+and continue the boot process. =A0This is fine for my laptop, but servers (=
+and<br>
+even my desktop) need to be able to boot unattended; I am still investigati=
+ng<br>
+the issue, which may just be due to my configuration.<br></blockquote><div>=
+<br>That is enough to give me pause...<br><br>--b<br></div></div>
+
+--0016e68ee02e246f4f04852a238a--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/w2i258ced3f1004261405t78b9aad9md94419ae567697c6@mail.csmining.org
+
+

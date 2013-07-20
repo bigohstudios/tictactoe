@@ -1,0 +1,139 @@
+X-Account-Key: account5
+X-UIDL: GmailId128bf16eaeb384eb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs26430wfo;
+        Sat, 22 May 2010 01:17:50 -0700 (PDT)
+Received: by 10.223.25.74 with SMTP id y10mr2368725fab.81.1274516269756;
+        Sat, 22 May 2010 01:17:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g9si2911508fai.2.2010.05.22.01.17.49;
+        Sat, 22 May 2010 01:17:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 63B2713A550F; Sat, 22 May 2010 08:17:40 +0000 (UTC)
+Old-Return-Path: <d.sastre.medina@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-12.4 required=4.0 tests=CAPINIT,LDOSUBSCRIBER,
+	LDO_WHITELIST,NO_REAL_NAME,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A817013A520D
+	for <lists-debian-user@liszt.debian.org>; Sat, 22 May 2010 08:17:34 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, LDO_WHITELIST=-5, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id f+NvTRPVkZA7 for <lists-debian-user@liszt.debian.org>;
+	Sat, 22 May 2010 08:17:26 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 8EF7513A4D50
+	for <debian-user@lists.debian.org>; Sat, 22 May 2010 08:17:26 +0000 (UTC)
+Received: by wyb40 with SMTP id 40so1177410wyb.6
+        for <debian-user@lists.debian.org>; Sat, 22 May 2010 01:17:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:references:mime-version:content-type:content-disposition
+         :in-reply-to:user-agent;
+        bh=UJhJam2M9guO+ZHgxqr5vqUsKVdtIKb/dmWoNXybFo8=;
+        b=p36berKQy3VRoWvr6ys28fvJHTc5ZyHjpwcnCmca6+Jv93LTSWZa48LPgGKKxgg0Ps
+         jSFT12tJM9FgLopCwZaBpjjm7uDi053XsQur2r4mGIDgpD5gKjmNRV7nhuTbou5GzfbC
+         C/fiI8rXCITbqVTBYSMKidsyNR5eihyIW4z5Y=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        b=YOm4jb8kdbnsnWgwPRBoaQDGMDXZ5G4yaUZ8110eG+Sp/ilyMJ3ANKuLAw449h4hs5
+         UES5Kx9rkrBOMrkIZI5M7YtTH5ATwU2MIr8r1N34oa2BfHIoirw0iGmc8bz7GWyq87xz
+         uLNRIbYLMy5h4pK7DIVCruGn58aPB5zGLnVjs=
+Received: by 10.227.133.67 with SMTP id e3mr2469124wbt.114.1274516242303;
+        Sat, 22 May 2010 01:17:22 -0700 (PDT)
+Received: from localhost (6.145.217.87.dynamic.jazztel.es [87.217.145.6])
+        by mx.google.com with ESMTPS id l23sm13643024wbb.20.2010.05.22.01.17.21
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sat, 22 May 2010 01:17:21 -0700 (PDT)
+Date: Sat, 22 May 2010 10:17:17 +0200
+From: d.sastre.medina@csmining.org
+To: debian-user@lists.debian.org
+Subject: Re: Quick Java Question
+Message-ID: <20100522081717.GB4173@ghost.local.lan>
+References: <20100522093336.GA5758@fever>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="98e8jtXdkpgskNou"
+Content-Disposition: inline
+In-Reply-To: <20100522093336.GA5758@fever>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nTfPRd2yATN.A.iMD.kM59LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577365
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 22 May 2010 08:17:40 +0000 (UTC)
+
+
+--98e8jtXdkpgskNou
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat, May 22, 2010 at 11:33:36AM +0200, Danny wrote:
+> Hi guys,
+>=20
+> I have Debian 5.04 and have a little trouble with JRE.
+> I downloaded the new JRE from Sun and installed it. But
+> how do I tell firefox how to use the JRE ?
+
+Hello,
+
+Try both:
+
+a) Check about:config (filter java)
+
+b) $ sudo update-alternatives --config java
+
+Good luck.
+
+--=20
+Huella de clave primaria: 0FDA C36F F110 54F4 D42B  D0EB 617D 396C 448B 31EB
+
+--98e8jtXdkpgskNou
+Content-Type: application/pgp-signature
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkv3kw0ACgkQYX05bESLMet3VQCcCcsTHAdTOmLbauXVTLCXfPjm
+Q8AAoMD9m+50gHv/mx+4Vigd5Zrwv03v
+=8ZZz
+-----END PGP SIGNATURE-----
+
+--98e8jtXdkpgskNou--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522081717.GB4173@ghost.local.lan
+
+

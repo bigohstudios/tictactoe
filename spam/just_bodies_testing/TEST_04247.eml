@@ -1,0 +1,65 @@
+Re: Nepomuk wants virtuoso sopranoOn 20/05/10 12:19, tv.debian@googlemail.com wrote:
+> Le 20/05/2010 10:12, AG wrote:
+>> Hi all
+>>
+>> Although I am logging into Gnome DE on an up-to-date Squeeze system, I
+>> receive a message at login that declares Nepomuk requires virtuoso
+>> soprano to work. Having looked nepomuk up via Google, it seems like it
+>> is something from our KDE friends, but using apt-cache search I don't
+>> see anything called virtuoso soprano to draw down to satisfy nepomuk.
+>>
+>> My question is: how does one satisfy nepomuk and/ or is nepomuk even
+>> necessary?
+>>
+>> Also, is it just me or do other folk here also find that KDE seems to be
+>> pulling in loads of dependencies ... databases, nepomuk (which wants
+>> virtuoso soprano), etc. just to operate? Seems like a lot of overhead is
+>> required to prop up KDE4.* these days.
+>>
+>> Anyway, any suggestions re: the nepomuk issue?
+>>
+>> Cheers
+>>
+>> AG
+>>
+>>
+>
+> Hi,
+>
+> virtuoso-minimal is on the recommend list for soprano-daemon, which is 
+> brought in by libsoprano4 (a depend of many kde4 apps).
+>
+> Here I have:
+>
+> aptitude search ~S~i~nnepomuk
+> i   libnepomuk4
+> i   libnepomukquery4a
+>
+> aptitude search ~S~i~nvirtuoso
+>
+> aptitude search ~S~i~nsoprano
+> i   libsoprano4
+> i   soprano-daemon
+>
+> aptitude why soprano-daemon
+> i   libsoprano4 Dépend soprano-daemon (= 2.4.3+dfsg.1-1)
+>
+> Hope it helps.
+>
+>
+
+It does/ did help, thank you.  I just pulled down virtuoso-minimal, and 
+that dragged in a few more libraries, so hopefully that will shut 
+nepomuk from complaining at me each time I logon.
+
+Thanks mate - appreciate your help.
+
+AG
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF54906.7050108@csmining.org
+
+

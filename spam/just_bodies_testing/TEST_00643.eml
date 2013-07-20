@@ -1,0 +1,22 @@
+Re: dvd::rip on Red Hat 8.0?Once upon a time, Michèl wrote :
+
+> Has anyone made a working source RPM for dvd::rip for Red Hat 8.0?
+
+I don't think I've tried yet, but if I did, I probably moved on to another
+package after having bumped into one of the problems you mention.
+
+If anyone sends me a patch to my spec file and eventually needed patches
+etc., I'd be more than glad to make a new build available.
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.13 0.09 0.09
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

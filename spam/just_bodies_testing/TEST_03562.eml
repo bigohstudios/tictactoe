@@ -1,0 +1,92 @@
+Re: Bi-directional streaming of "movies"?Rob,
+
+I have experienced the first option: JPEG image + UDP, no audio but read
+time measurements. It has the advantage to be simple and easy to implement.
+Also it is the one that let you best control the latency, this was the most
+important point for me. We use this solution for remote experimentation.
+
+The server goes as follow:
+
+Grab an image 
+Compress it as JPEG
+Add addition info (timestamp, RT measurements, etc) to the image.
+Split the resulting image in chuncks of less that your network MTU (~1200 B
+should work in many situations)
+Number the chunks
+Send the chunks using UDP
+
+On the client side:
+
+Get chunks as they arrive
+Reassemble chunks into the image
+If a chunck is missing, drop the whole image and start with the next one.
+Decompress the image
+Display the image
+
+You could send back some info/stat to the sever for bandwidth adaptation.
+On the local network you can forget about bandwidth adaptation.
+
+Latency is the result of buffering, "killing" buffers along the path let you
+reduce latency. 
+
+So far this is the best solution I could fine to control the latency. I
+could not achieve the same result with H264. I would be very please to hear
+about other solutions with low latency and h264.
+
+Hope this help
+
+Chris
+
+On 5/6/10 12:18 AM, "rob@haptek.com" <rob@haptek.com> wrote:
+
+> Pardon if this is too general or naive a question, but I noticed
+> relevant inquires in the "ICMCompressionSession question" and
+> "NewMovie... async from Socket ?" threads.
+> 
+> We want to send video, audio, and other graphics information both
+> directions on a local network.  The video doesn't have to be high
+> resolution, even 320 x 240 is fine, but we need low latency, and
+> access to the pixel buffers on both ends.
+> 
+> One suggestion was to get a couple of mac minis, and connect them
+> with ethernet.  But what about the software?  Suggestions have included
+> 
+> - re-invent the wheel, build our own UDP packets, etc.
+> - start with open-source video server software, VLC or Live555 maybe.
+> - piece it together from the quicktime api.
+> - throw money at it, find a consultant, or maybe even a commercial product.
+> 
+> I have some experience with quicktime, playing movies or sending video
+> onto OpenGL textures, but no experience with video streaming.  Also no
+> experience with codecs, is a stream of JPEG's a good choice?  The GPU
+> and CPU's are probably going to be too busy for something fancy like H264.
+> And we need to send maybe 5 KB/sec of extra data, could we include this
+> as a "track" in a "movie"?
+> 
+> This no doubt has been done multiple times before in video conferencing
+> software, etc.  The question is, how to get an overview, and get the
+> project done, hopefully with lightweight software, in finite time.
+> 
+> Any suggestions or pointers to example code gratefully accepted!
+> 
+> Thanks, rob
+> 
+> 
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/christophe.salzmann%40epf
+> l.ch
+> 
+> This email sent to christophe.salzmann@epfl.ch
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

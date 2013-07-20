@@ -1,0 +1,66 @@
+Re: [ILUG] How to copy some files  | Date: Mon, 22 Jul 2002 09:09:41 +0100
+  | From: "John P. Looney" <valen@tuatha.org>
+  |[ ... ]
+  | That's something that POSIX would do - make every platform as
+  | equally broken, rather than standing up and saying "how about
+  | we try & make everyone better".
+
+ eh?  POSIX doesn't "do" anything.  POSIX is a de jour
+ specification for a voluntary minimal implementation to
+ encourage software transportability.  no-one, absolutely
+ no-one, has or ever had to implement POSIX or be restricted
+ to POSIX.  commercial considerations et.al. may encourage
+ some "POSIX-compatibility", but that's a freely-made choice.
+
+ IMHO, the process's weakness is a general rule --- which
+ has been ignored on occasion --- to only consider "formal"
+ submissions of "proven" technologies.  that translates into
+ specifying more-or-less common parts of the existing *ix
+ implementations which actively contribute to the process.
+ most of the committees are loath to blue-sky, solicit
+ proposals/research, or pick an uncommon or unsponsored
+ implementation, even when manifestly superior.  (IMHO,
+ this is why POSIX is *ix and not, e.g., Plan9 or Inferno.)
+
+ OTOH, considering the motivating force behind the process,
+ it can be argued the above "weakness" is a strength ....
+
+  | (why? Because in the real world, you can't. Somethings just suck)
+
+ yep.  which is not to say POSIX "sucks" per se.  but the old
+ pre-POSIX *ix world arguably did, at least in terms of ease
+ of software porting.  one of *ix's claims to fame is it is
+ perhaps the first system where one could seriously consider
+ porting, more or less intact and with relative ease, software
+ from one architecture+platform+vendor to a radically utterly
+ different triple.
+
+ however, as people discovered, there's a lot of difference
+ between "consider porting" and "actually porting" --- and
+ some problems were silly.  some were self-inflicted (e.g.,
+ assuming byte-orientation or a particular endianness); but
+ others were Frustrating "system" incompatibilities --- the
+ motivating force that lead to /usr/group, XPG (X/Open), POSIX,
+ Spec1170, Unix98, Common Unix, &tc.
+
+     «The nice thing about standards is there's so many to
+      choose from.»   -- commonly attributed to bwk.
+
+cheers!
+	-blf-
+--
+ Innovative, very experienced, Unix and      | Brian Foster    Dublin, Ireland
+ Chorus (embedded RTOS) kernel internals     | e-mail: blf@utvinternet.ie
+ expert looking for a new position ...       | mobile: (+353 or 0)86 854 9268
+  For a résumé, contact me, or see my website  http://www.blf.utvinternet.ie
+
+    Stop E$$o (ExxonMobile):  «Whatever you do, don't buy Esso --- they
+     don't give a damn about global warming.»    http://www.stopesso.com
+     Supported by Greenpeace, Friends of the Earth, and numerous others...
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

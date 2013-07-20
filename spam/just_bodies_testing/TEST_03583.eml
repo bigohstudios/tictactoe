@@ -1,0 +1,58 @@
+Re: How to recover boot floppy in LennyOn Fri, 16 Apr 2010 10:48:10 -0300, Mauricio Contreras wrote:
+
+> On Fri, Apr 16, 2010 at 8:04 AM, Camaleón wrote:
+
+>> You mean there is no sound "after" you login?
+>>
+>> I fail to see any relation with that fact (no sound) and the bootloader
+>> being located in a floppy disk or SuperGrubDisk so I would investigate
+>> first why the sound stopped from working.
+
+(...)
+
+> I recovered sound in Lenny after booting with SuperGrub and running
+> alsaconf as root. I picked up my old SoundBlaster Live card and the
+> emu10k1 module with alsaconf and set it up as the main sound card
+> (there's also an integrated AC'97 in the motherboard) card with index=0.
+> Then sound came back.
+
+Ah, that makes more sense to me :-)
+
+(...)
+
+> My disks are set up as follows:
+> 
+> IDE 80 GB hda: 2 partitions
+> hd0, 40 GB --- windows xp boot;
+> hd1, 40 GB --- windows xp data files
+
+> SATA 80 GB sda 1 partition
+> sda 80 GB -- windows data files
+
+> SATA 500 GB
+> sdb 1 partition sdb (??) 500 GB ---lenny
+> 
+> I haven't been able to configure Grub 0.94 to boot in this setup so I
+> have used SuperGrub or a bootable floppy with Lenny. Could you point me
+> to an appropiate grub setup?
+
+Well, it seems you have 3 physical hard disks, with windows installed in 
+the first partition of the IDE hdd and Lenny in the second SATA (500 GiB).
+
+First you have to do is *to know* what hard disk is being booted in first 
+place by the BIOS ("IDE 80" -windows- or "SATA 500" -lenny-). After that, 
+put here the results of your findings and we will see what could be the 
+better setup for installing GRUB :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.16.14.44.41@csmining.org
+
+

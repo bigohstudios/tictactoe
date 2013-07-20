@@ -1,0 +1,38 @@
+Re: 64-bit netbooks with Debian linuxFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi, everyone --
+
+I guess I should clarify my desirement for 64-bit.  There are two things
+here.  First, I intend to build a home computer which will run linux, and it
+will be 64-bit; since I'm quite new to maintaining my own linux computers,
+I'd rather limit the number of differences between the home machine and my
+portable.  Second is just a desire to avoid early obsolescence in the
+portable, since at some point I expect 64 bit to become the standard and
+32-bit to fade into the past.  That day may not be near, and in any event it
+may be crazy to worry about obsolescence of a computer which costs less than
+an iPod, but that's just the way I roll.
+
+It also sounds like the respndents to my first message are underwhelmed by
+netbooks in general and recommend that I look at a low-end notebook / laptop
+computer instead.  I confess that the distinction is a bit blurry to me.
+
+In any event, with those caveats, perhaps I should ask more generally for
+recommendations of netbooks or smallish laptops which people recommend as
+being compatible with Debian linux.
+
+Thanks again,
+-PT
+
+On Sun, May 2, 2010 at 12:17 PM, Peter Tenenbaum <quarkpt@csmining.org> wrote:
+
+> I've been thinking about getting a netbook and I'd like to install Debian
+> linux on it when / if I do.  I'd also like to get one which uses an
+> AMD64-class processor.  Does anyone have any suggestions?  The Gateway LT21
+> looks like just what I want in terms of hardware (ie, fairly low-end but
+> 64-bit); has anyone got any positive / negative experience installing Debian
+> on this computer?
+>
+> Thanks in advance,
+> -PT
+>

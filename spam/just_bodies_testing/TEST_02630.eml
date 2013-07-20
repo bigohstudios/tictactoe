@@ -1,0 +1,24 @@
+[IIU] Eircom aDSL Nat'ingHi all,
+
+apologies for the possible silly question (i don't think it is, but), 
+but is Eircom's aDSL service NAT'ed?
+
+and what implications would that have for VoIP? I know there are 
+difficulties with VoIP or connecting to clients connected to a NAT'ed 
+network from the internet wild (i.e. machines with static, real IPs)
+
+any help pointers would be helpful,
+
+cheers
+-- 
+rgrds,
+Bernard
+-- 
+Bernard Tyers * National Centre for Sensor Research * P:353-1-700-5273 *
+E: bernard.tyers@dcu.ie * W: www.physics.dcu.ie/~bty * L:N117
+
+_______________________________________________
+IIU mailing list
+IIU@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+

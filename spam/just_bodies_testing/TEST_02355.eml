@@ -1,0 +1,37 @@
+[ILUG] The Age Old 'Which Mailer' QuestionI am trying to manage the email for a domain which I have hosted with
+hosting365, and am trying to get the whole email send and receive thing
+working nice and easily.
+At the moment I have configured Fetchmail to poll the different pop3
+mailboxes and deliver the mail accordingly, although it appears that I have
+to have only one unix user being able to receive from each pop3 mailbox.
+This could be a limitation of the fetchmailconf programme, I'm not sure, but
+It would be much handier if I could just tell it to collect all of the mail
+from the different mailboxes, and then deliver it locally according to the
+"To:" header instead of the pop3 mailbox it came from.
+The other issue I am having is sending outgoing mail.  I have been trying to
+use sendmail, but am finding it to be an absolute pain in the posterior, and
+when the relay server will only accept outgoing connections if I have
+checked for incoming mail in the last twenty minutes, and I don't know how
+to set sendmail to run a command before it sends out the mail.  Do any of
+the outgoing mailer programs, exim or postfix or whatever, have a 'nice'
+configuration interface, or do they all have nice friendly configuration
+files like sendmail.
+
+Any suggestions of alternative solutions would be much appreciated.  There
+are only three or four email addresses in my domain, and setting it up for
+scheduled collection and either scheduled or immediate delivery would do me
+fine.
+
+Thanks,
+
+	David.
+
+David Hamilton
+Senior Technical Consultant
+HP Ireland 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

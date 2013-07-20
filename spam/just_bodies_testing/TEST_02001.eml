@@ -1,0 +1,40 @@
+Re: belocs-locales-bin brokenFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 27 April 2010 10:15:24 John A. Sullivan III wrote:
+> On Mon, 2010-04-26 at 13:48 -0500, Boyd Stephen Smith Jr. wrote:
+> > On Sunday 25 April 2010 07:45:28 John A. Sullivan III wrote:
+> > > Is something broken in the belocs-locales-bin package? Thanks - John
+> >
+> > I think it is not needed anymore.  ISTR upstream for it being quite dead
+> > because the main reason it was created is now a feature of the normal
+> > locales package.  I migrated away from it when I moved from Etch to
+> > Lenny.
+>=20
+> Strange.  I was using locales.  This was a forced change when I
+> installed Evolution from Squeeze.  It insisted on removing loales and
+> replacing it with belocs - John
+
+Odd.  I only see that happening if you already had belocs-locales-data=20
+installed:
+bss@rei:~% aptitude why evolution belocs-locales-bin
+p   evolution           Depends  libc6 (>=3D 2.7-1)
+i A libc6               Suggests locales
+i A belocs-locales-data Provides locales
+i A belocs-locales-data Depends  belocs-locales-bin
+bss@rei:~% aptitude why-not evolution locales
+p   evolution           Depends   libc6 (>=3D 2.7-1)
+i A libc6               Suggests  locales
+i A belocs-locales-data Provides  locales
+i A belocs-locales-data Conflicts locales
+bss@rei:~%
+
+I'm betting you should be able to move back to locales instead of belocs-
+locales-bin; have you tried?
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

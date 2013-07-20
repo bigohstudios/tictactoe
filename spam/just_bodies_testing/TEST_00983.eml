@@ -1,0 +1,56 @@
+Re: Aptitude ErrorOn Fri, Apr 30, 2010 at 15:58, James Stuckey <jhstuckey@csmining.org> wrote:
+> Why am I getting this and how can I fix it?
+>
+> root@debian:/home/stuckey# aptitude install fakeroot devscripts
+> build-essential
+> Reading package lists... Done
+>
+> Building dependency tree
+> Reading state information... Done
+> Reading extended state information... Done
+> Initializing package states... Done
+>
+> Reading task descriptions... Done
+> The following NEW packages will be installed:
+>   build-essential g++{a} g++-4.4{ab} gcc{a} gcc-4.4{ab}
+>
+>   libstdc++6-4.4-dev{ab}
+> 0 packages upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+> Need to get 7,126B/9,723kB of archives. After unpacking 27.3MB will be used.
+>
+> The following packages have unmet dependencies:
+>   g++-4.4: Depends: gcc-4.4-base (= 4.4.2-9) but 4.4.3-9 is installed.
+>   gcc-4.4: Depends: gcc-4.4-base (= 4.4.2-9) but 4.4.3-9 is installed.
+>
+>            Depends: cpp-4.4 (= 4.4.2-9) but 4.4.3-9 is installed.
+>   libstdc++6-4.4-dev: Depends: gcc-4.4-base (= 4.4.2-9) but 4.4.3-9 is
+> installed.
+> The following actions will resolve these dependencies:
+>
+>
+>      Keep the following packages at their current version:
+> 1)     build-essential [Not Installed]
+> 2)     g++ [Not Installed]
+>
+> 3)     g++-4.4 [Not Installed]
+> 4)     gcc [Not Installed]
+> 5)     gcc-4.4 [Not Installed]
+>
+> 6)     libstdc++6-4.4-dev [Not Installed]
+>
+>      Tier: Cancel all user actions (20000)
+>
+> Accept this solution? [Y/n/q/?]
+>
+>
+
+Have you tried "apt-get update" or "aptitude update" before trying to
+install these packages?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/z2sd0bf7b0b1004300333z1a5921f7o5f878986973d05f8@mail.csmining.org
+
+

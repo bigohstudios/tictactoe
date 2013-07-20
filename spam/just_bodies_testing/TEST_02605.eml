@@ -1,0 +1,26 @@
+Re: EOL of KDE SC 4.4.2 in qt-kde.debian.netFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On =A8e=A8tadienis 10 Balandis 2010 19:12:33 Michael Schuerig wrote:
+
+> $ apt-cache policy kdebase
+> kdebase:
+>   Installed: 5:58~rc4
+>   Candidate: 5:58
+>   Version table:
+>      5:58 0
+>         101 http://debian.netcologne.de experimental/main Packages
+>  *** 5:58~rc4 0
+>         100 /var/lib/dpkg/status
+>      5:55 0
+>         990 http://debian.netcologne.de unstable/main Packages
+
+This clearly shows that dist-upgrade should pick up newer kdebase (see=20
+Candidate version).
+
+=2D-=20
+Modestas Vainius <modestas@vainius.eu>

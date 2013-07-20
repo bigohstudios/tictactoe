@@ -1,0 +1,47 @@
+Re: Cannot loginFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+To try to solve the problem, Can someone without the problem list the files
+in /lib32 and in /usr/lib32?
+
+Thanks,
+
+Un saludo,
+
+Daniel Sutil
+
+
+
+On Tue, Apr 6, 2010 at 10:53 PM, Klaus Becker <colonius@free.fr> wrote:
+
+> Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :
+> > Finally I applied the following workaround: I remove kdm and installed
+> gdm.
+> > After that, I have no problem to login. I haven't investigated any
+> further
+> > because I really don't know from where the problem comes, but now, mayb=
+e
+> we
+> > have to undo the steps applied with the skype's solution to solve our
+> > problem.
+>
+>
+> Hi,
+>
+> I had the same problem with kdm, but no problem with gdm.
+>
+> cheers
+>
+> Klaus
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/201004062253.54963.colonius@free.fr
+>
+>

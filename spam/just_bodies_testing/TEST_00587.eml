@@ -1,0 +1,37 @@
+Re: [SAdev] 2.40: ready for release? *NO*From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: 7bit
+
+Justin Mason wrote:
+> OK guys -- I reckon it's now Good Enough, modulo some minor score
+> tweaking, or commenting of some more broken/high-FP-ing rules.
+>
+> What do you all think?  are we ready to go?  anyone run into any trouble
+> with the new autoconf code, or found a bug from the merge of that spamc
+> BSMTP-support patch?
+
+I just checked out b2_4_0 from CVS and 'make test' fails horribly.
+
+It seems to be looking in my site_perl SpamAssassin code, not the build
+directory.
+
+Example error:
+
+Failed to run FROM_AND_TO_SAME_5 SpamAssassin test, skipping:
+        (Can't locate object method "check_for_from_to_same" via package
+"Mail::SpamAssassin::PerMsgStatus" at
+/usr/local/lib/perl5/site_perl/5.8.0/Mail/SpamAssassin/PerMsgStatus.pm line
+1701.
+)
+
+Anyone else seeing this?
+
+rOD.
+
+--
+"If you're dumb, surround yourself with smart people;
+ and if you're smart, surround yourself with smart people
+ who disagree with you."
+
+Doing the blogging thang again at http://www.groovymother.com/ <<

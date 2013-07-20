@@ -1,0 +1,24 @@
+Re: Making make-kpkg quieterManoj Srivastava <srivasta@ieee.org> writes:
+>On Wed, Apr 07 2010, Cameron Hutchison wrote:
+
+>> Is there any way to make make-kpkg (kernel-package 12.033) quieter? When
+>> I run a "make-kpkg clean" it spits out lots of lines about unlinking
+>> files in debian/... 
+
+>        Please file a wishlist bug. I have usually looked for more
+> insight into what is happening, and might not have considered the
+> desire to only see error  with the level of effort it needs (though I
+> think the unlink verbiage comes from the underlying utility, not
+> make-kpkg itself)
+
+Thanks Manoj. I've filed the bug. If I get time this weekend I'll have a
+look into it and see if I can track it down. I figured there was a
+simple echo/print somewhere and it would be an easy change.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4d9.4bbe6608.8e7e5@getafix.xdna.net
+
+

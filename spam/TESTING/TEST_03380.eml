@@ -1,0 +1,164 @@
+X-Account-Key: account5
+X-UIDL: GmailId1280ddcd31a5a3fc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs29363wfj;
+        Sat, 17 Apr 2010 15:21:36 -0700 (PDT)
+Received: by 10.101.2.1 with SMTP id e1mr7726299ani.132.1271542895548;
+        Sat, 17 Apr 2010 15:21:35 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 9si10507827iwn.35.2010.04.17.15.21.35;
+        Sat, 17 Apr 2010 15:21:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id EF77E1C0643D8
+	for <mlsubscriber.tech@csmining.org>; Sat, 17 Apr 2010 15:21:34 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id EB06C26E5D80B
+	for <mlsubscriber.tech@csmining.org>; Sat, 17 Apr 2010 15:21:34 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 7E1A826E5D616
+	for <x11-users@lists.apple.com>; Sat, 17 Apr 2010 15:21:17 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 6D5A6CFABCC1
+	for <x11-users@lists.apple.com>; Sat, 17 Apr 2010 15:21:17 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7c42ae000006518-c9-4bca345b3a25
+Received: from mail3.maxer.hu (m16.maxer.hu [79.172.211.133])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	64.B0.25880.C543ACB4; Sat, 17 Apr 2010 15:21:17 -0700 (PDT)
+Received: from catv-89-133-47-100.catv.broadband.hu ([89.133.47.100]
+	helo=chrome.lan)
+	by mail3.maxer.hu (Exim 4.69) with esmtpsa (lehel@pmc-services.hu)
+	(cypher TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32) id 1O3GO2-0002id-1D
+	for x11-users@lists.apple.com; Sun, 18 Apr 2010 00:21:14 +0200
+Message-ID: <4BCA33F7.8060200@maxer.hu>
+Date: Sun, 18 Apr 2010 00:19:35 +0200
+From: Lehel Bernadt <lehel@maxer.hu>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: x11-users@lists.apple.com
+References: <822791.81619.qm@web55608.mail.re4.yahoo.com>	<20100417.114055.362175913.hanche@math.ntnu.no>
+	<470592.99987.qm@web55602.mail.re4.yahoo.com>
+In-Reply-To: <470592.99987.qm@web55602.mail.re4.yahoo.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Warning: client sent invalid HELO hostname
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 10/04/17 21:20 , Pierre Baguis wrote:
+> OK, I tried the xev command and here is an example of what it gives:
+>
+> ------------------------------------------------------------------
+> MotionNotify event, serial 32, synthetic NO, window 0x2000001,
+>      root 0x381, subw 0x2000002, time 221527654, (40,36), root:(44,87),
+>      state 0x0, is_hint 0, same_screen YES
+>
+> LeaveNotify event, serial 32, synthetic NO, window 0x2000001,
+>      root 0x381, subw 0x2000002, time 221528034, (-4,18), root:(0,69),
+>      mode NotifyNormal, detail NotifyVirtual, same_screen YES,
+>      focus YES, state 512
+>
+> FocusOut event, serial 32, synthetic NO, window 0x2000001,
+>      mode NotifyNormal, detail NotifyNonlinear
+> -----------------------------------
+>
+> The middle click caused the terminal to come forth.
+>
+>
+> The output of the "defaults read org.x.x11" in my case is:
+>
+> ------------------------------------------------------------------
+> {
+>      "NSWindow Frame x11_prefs" = "178 236 484 330 0 0 1440 878 ";
+>      SULastCheckTime = 2010-04-17 11:05:03 +0200;
+>      WebKitDefaultFontSize = 11;
+>      WebKitStandardFont = "Lucida Grande";
+>      "app_to_run" = "/usr/X11/bin/xterm";
+>      "apps_menu" =     (
+>                  (
+>              Terminal,
+>              xterm,
+>              n
+>          ),
+>                  (
+>              xman,
+>              xman,
+>              ""
+>          ),
+>                  (
+>              xlogo,
+>              xlogo,
+>              ""
+>          )
+>      );
+>      "cache_fonts" = 1;
+>      depth = -1;
+>      "done_xinit_check" = 1;
+>      "enable_fake_buttons" = 1;
+>      "enable_key_equivalents" = 1;
+>      "enable_system_beep" = 0;
+>      "fullscreen_menu" = 0;
+>      "login_shell" = "/bin/tcsh";
+>      "no_auth" = 0;
+>      "nolisten_tcp" = 1;
+>      rootless = 0;
+>      "sync_clipboard_to_pasteboard" = 1;
+>      "sync_keymap" = 0;
+>      "sync_pasteboard" = 1;
+>      "sync_pasteboard_to_clipboard" = 1;
+>      "sync_pasteboard_to_primary" = 1;
+>      "sync_primary_on_select" = 0;
+>      "wm_click_through" = 0;
+>      "wm_ffm" = 0;
+>      "wm_focus_on_new_window" = 1;
+> }
+> ------------------------------------------------------------------
+>
+> Any ideas?
+>
+> Thanks,
+> Pierre
+>
+
+Try unchecking the "Emulate three button mouse" option.
+
+What xev should show is this:
+
+ButtonPress event, serial 22, synthetic NO, window 0x600001,
+     root 0x37d, subw 0x0, time 232282847, (71,76), root:(1431,120),
+     state 0x0, button 2, same_screen YES
+
+ButtonRelease event, serial 22, synthetic NO, window 0x600001,
+     root 0x37d, subw 0x0, time 232283031, (71,76), root:(1431,120),
+     state 0x200, button 2, same_screen YES
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

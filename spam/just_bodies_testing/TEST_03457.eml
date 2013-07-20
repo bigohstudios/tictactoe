@@ -1,0 +1,36 @@
+Re: Deleting some regexp/simple expression from lots of files in
+ a secure wayFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Bob McGowan wrote:
+> On 05/14/2010 10:37 AM, Boyd Stephen Smith Jr. wrote:
+>  =20
+>> On Friday 14 May 2010 12:04:42 Merciadri Luca wrote:
+>>    =20
+>>> I have many text files (actually .tex files) which contain some
+>>> sequence or regexp (it depends on the files) that I would like to
+>>> remove. Is there a commandline/GUI for doing this massive edit?
+>>>      =20
+>> (sed -i -e "s/$regexp//" "$file") for a single file.  (GNU sed only.)
+>>
+>>    =20
+>
+> If you're not comfortable with making the change in place (meaning
+> losing the original, in case you got something wrong in the script),
+> just add a "SUFFIX" to the -i option, as in '-i.bak', and sed will make=
+
+> a backup copy, using the suffix as the extension appended to the file n=
+ame.
+>  =20
+Thanks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Man is still the most extraordinary computer of all. (John F. Kennedy)
+

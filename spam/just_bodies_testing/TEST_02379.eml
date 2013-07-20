@@ -1,0 +1,43 @@
+Re: [SAtalk] spamc processesOn Wed, Aug 21, 2002 at 11:26:13AM -0500, brad angelcyk wrote:
+> 
+> 
+> Hi,
+> 
+> I have been using SpamAssassin for a few weeks, and I have noticed that
+> the speed of scanning of email has drastically reduced since we switched
+> to it.  My configuration is Sendmail 8.12.3 with SA 2.31 (using the
+> spamass-milter sendmail milter).  There are 125 spamc processes running
+> right now, and there were about 109 an hour ago.  They don't seem to be
+> clearing up.  Does anybody have any information on what I can do?
+> 
+> Thanks,
+> Brad
+> 
+the check_local tarball includes a program called miltrassassin.
+It's a C Milter program speaking the SPAMD protocol so it will be
+far more efficient than spamass-milter.
+Check http://www.digitalanswers.org/check_local/miltrassassin.html
+for some details about miltrassassin.                                                                                                                                                                     
+The check_local tarball can be downloaded on
+http://www.digitalanswers.org/check_local/beta.html
+
+Another alternative solution is to use Mimedefang : it offers
+anti-spam, attachment defanging, custom filtering.
+
+regards, 
+
+SL/
+
+---
+Stephane Lentz / Alcanet International - Internet Services
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

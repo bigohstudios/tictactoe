@@ -1,0 +1,62 @@
+Re: Can't play 24bit/96kHz flac filesOn Sat, May 1, 2010 at 16:12, Camale=F3n <noelamac@csmining.org> wrote:
+> On Sat, 01 May 2010 12:13:29 +0200, James Stuckey wrote:
+>
+>> If I try to play them in MOC I get: (0) Can't set audio parameters:
+>> Invalid argument
+>>
+>> With mplayer I see:
+>
+> (...)
+>
+>> Running file on the file gives:
+>> flac: FLAC audio bitstream data, 24 bit, 6 channels, 96 kHz, 54720000
+>> samples
+>>
+>> This only happens with this file. The file plays on other systems
+>> (windows).
+>
+> Have you tried to play it with another media players (VideoLan,
+> Rhythmbox, Totem...)?
+>
+> Greetings,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/pan.2010.05.01.10.42.05@csmining.org
+>
+>
+
+
+* Native capability of sound card can be found from
+cat /proc/asound/card0/pcm0p/sub0/hw_params
+
+* Decoding is done by the player itself, most probably the decoder
+output format in your case would be 96khz, 24 bit little endian.  If
+the native rate of your card is only 44100Hz/48000Hz, it can not
+support this.
+
+* In order to play this format this has to be downsampled.  The
+downsamping could be done either by 1) the player itself, but it
+completely depends upon the features and capabilities of the player or
+2)by the (alsa) driver.
+
+So these are your options.
+* Try out different players as Camale=F3n suggested.
+
+* Many players allow you to specify the output audio device.
+Try "plughw:0,0" instead of the default one.  This is a special device
+given by alsa to do audio processing.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2ud0bf7b0b1005010415pd53f1d0flbe5955424c3e9e1e@mail.csmining.org
+
+

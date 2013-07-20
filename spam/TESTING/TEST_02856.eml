@@ -1,0 +1,93 @@
+X-Account-Key: account5
+X-UIDL: GmailId128aa8dcd2a33155
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs8771wfo;
+        Tue, 18 May 2010 01:35:39 -0700 (PDT)
+Received: by 10.142.122.24 with SMTP id u24mr4371235wfc.264.1274171739423;
+        Tue, 18 May 2010 01:35:39 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id f9si10571360wfg.78.2010.05.18.01.35.39;
+        Tue, 18 May 2010 01:35:39 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 45EE01C4E7EF3
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 01:35:39 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 4133E27B79EDE
+	for <mlsubscriber.tech@csmining.org>; Tue, 18 May 2010 01:35:39 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id F341327B79EB5
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 18 May 2010 01:35:34 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id C6E33D3C87AA
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 18 May 2010 01:35:34 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-30-4bf251562096
+Received: from daleenterprise.com (daleenterprise.com [67.78.11.229])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	F5.38.05834.65152FB4; Tue, 18 May 2010 01:35:34 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by daleenterprise.com (Postfix) with ESMTP id E4FDC12C503C
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 18 May 2010 04:35:33 -0400 (EDT)
+Received: from daleenterprise.com ([127.0.0.1])
+	by localhost (daleenterprise.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 04917-03 for <filesystem-dev@lists.apple.com>;
+	Tue, 18 May 2010 04:35:26 -0400 (EDT)
+Received: from [10.1.100.11] (unknown [67.78.11.226])
+	by macftphttp.serverbox.org (Postfix) with ESMTP id B1D9912C5032
+	for <filesystem-dev@lists.apple.com>;
+	Tue, 18 May 2010 04:35:26 -0400 (EDT)
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Transfer-Encoding: 7bit
+Message-Id: <10551DD9-98D3-4FF4-8269-A63897A88A09@macftphttp.serverbox.org>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+To: filesystem-dev@lists.apple.com
+From: websrvr <websrvr@macftphttp.serverbox.org>
+Date: Tue, 18 May 2010 04:35:25 -0400
+X-Mailer: Apple Mail (2.752.2)
+MTA-Interface: amavisd-new-2.3.3 (2005-08-22) + Maia Mailguard 1.0.1 at
+	daleenterprise.com
+XScanned: using SpamAssassin 3.1.7 (2006-10-05) at daleenterprise.com
+X-Virus-Scanned: using ClamAV 0.96 (2010-03-15) at daleenterprise.com
+X-Brightmail-Tracker: AAAAAwBUIXcUKSB6FCkyUg==
+Subject: DADiskMountWithArguments() [bug???]
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+While testing my dissenter daemon which is using the  
+DADiskMountWithArguments() function I have encountered several issues.
+
+1) any mounts executed as root user, the arguments are ignored.
+2) calling the DADiskMountWithArguments() function triggers the  
+registered approvalcallback function.
+
+
+-- Dale
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

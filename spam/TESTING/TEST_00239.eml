@@ -1,0 +1,136 @@
+X-Account-Key: account5
+X-UIDL: GmailId12808f14a4bdea6a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs43467wfj;
+        Fri, 16 Apr 2010 16:25:51 -0700 (PDT)
+Received: by 10.101.153.5 with SMTP id f5mr5611692ano.234.1271460350674;
+        Fri, 16 Apr 2010 16:25:50 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 29si7868307iwn.102.2010.04.16.16.25.50;
+        Fri, 16 Apr 2010 16:25:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 26F1C1BA7A52B
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:25:50 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 20E3626DF7EF1
+	for <mlsubscriber.tech@csmining.org>; Fri, 16 Apr 2010 16:25:50 -0700 (PDT)
+X-Original-To: Java-dev@lists.apple.com
+Delivered-To: Java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id F1FEB26DF78B0
+	for <Java-dev@lists.apple.com>; Fri, 16 Apr 2010 16:24:56 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id E10F4CAABA7D
+	for <Java-dev@lists.apple.com>; Fri, 16 Apr 2010 16:24:56 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-21-4bc8f1c89ac9
+Received: from mail-vw0-f51.google.com (mail-vw0-f51.google.com
+	[209.85.212.51])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	9B.6F.17067.8C1F8CB4; Fri, 16 Apr 2010 16:24:56 -0700 (PDT)
+Received: by vws15 with SMTP id 15so1351057vws.24
+	for <Java-dev@lists.apple.com>; Fri, 16 Apr 2010 16:24:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:received:received:references:in-reply-to
+	:mime-version:content-type:message-id:content-transfer-encoding:from
+	:subject:date:to:x-mailer;
+	bh=kf2FTWIGEnKa9kTD//9VQpshA//iu5RHJeTRCkbThLU=;
+	b=QDk6/Ea5MmQO9xy9Vy3+s7BkIrBTXzcC64RFUgVeiQ+wQf5HI8rnBfDZjA88klyYMu
+	G2vL64ZzdOaJp4/14OOEIdg4foynpn9bwjQbwFhh6LDDiIv65pV11Q0qbcpCcwudplVg
+	7yWryfBmCVMSor8vi4ubWb+uIVLYA9r+50s/c=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=references:in-reply-to:mime-version:content-type:message-id
+	:content-transfer-encoding:from:subject:date:to:x-mailer;
+	b=la7aKGN2pZjtvKIhiP+F82RStyA5RotWtGZ5tKbBmgqVD1hAVHT2Ae0gDjquB6T/hB
+	KAio8QvHDWHY/ditD4t2x9iQevX8rVdiKuiPyOc4RwKY0h2rXnwNNh21kLciEjuTqnRi
+	gzEap4b3B5I/SOI6+EGHT8go+xbVXh8ZFNNJM=
+Received: by 10.220.108.41 with SMTP id d41mr1451836vcp.180.1271460295654;
+	Fri, 16 Apr 2010 16:24:55 -0700 (PDT)
+Received: from [192.168.24.53] (pl571.nas982.takamatsu.nttpc.ne.jp
+	[124.154.42.59])
+	by mx.google.com with ESMTPS id z13sm5508246vco.6.2010.04.16.16.24.53
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Fri, 16 Apr 2010 16:24:55 -0700 (PDT)
+References: <E95B25C5-374B-4CDC-9617-7E8D5666471C@csmining.org>
+	<5C85C48E-F542-44A7-AE8D-7953498A517E@apple.com>
+In-Reply-To: <5C85C48E-F542-44A7-AE8D-7953498A517E@apple.com>
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+Message-Id: <E6D05668-F826-44D3-B9E5-0395A13F40D8@csmining.org>
+Content-Transfer-Encoding: quoted-printable
+From: Jean-Christophe Helary <jean.christophe.helary@csmining.org>
+Date: Sat, 17 Apr 2010 08:24:50 +0900
+To: list Java-dev <Java-dev@lists.apple.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAxO1VpgTth2LE7ZYTA==
+Cc: 
+Subject: Re: Recommended values for JVMVersion ?
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Thank you very much Mike for the detailed reply.
+
+Jean-Christophe Helary
+
+On 17 avr. 10, at 01:45, Mike Swingler wrote:
+
+> On Apr 16, 2010, at 4:50 AM, Jean-Christophe Helary wrote:
+>=20
+>> There have been a number of releases since March 2009 so I'd like to =
+know if the information on that page regarding the possible values of =
+"JVMVersion" is still relevant:
+>>=20
+>> =
+http://developer.apple.com/mac/library/documentation/Java/Reference/Java_I=
+nfoplistRef/Articles/JavaDictionaryInfo.plistKeys.html
+>>=20
+>> Especially the part where it is written that the "1.n*" values are =
+not recommended.
+>=20
+> We don't recommend the "1.n*" notation, because it means that your app =
+shouldn't run in a newer version of Java.
+>=20
+> In the case where there is only one version available on the system, =
+like in Mac OS X 10.6, we have to effectively ignore 1.4* and 1.5* =
+requests - because from an end-user's perspective, it's better to =
+attempt the launch and possibly fail than to not launch at all and not =
+even get the possibility of succeeding.
+>=20
+> Besides some corner cases, there really is no benefit to using "1.n*" =
+instead of "1.n+". We even print a warning to the console if we have to =
+ignore the "1.n*" directive.
+>=20
+> The "1.n*" notation is actually more helpful in Java Web Start =
+applications that can specify multiple resource blocks and load =
+different resources depending on the version - I think it's usefulness =
+for double-clickable applications though is limited, given the current =
+launching logic and plist structure.
+>=20
+> Regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,175 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d8b27ef1029f8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs26676wfi;
+        Wed, 7 Apr 2010 07:35:29 -0700 (PDT)
+Received: by 10.141.214.41 with SMTP id r41mr5746576rvq.77.1270650929060;
+        Wed, 07 Apr 2010 07:35:29 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 1si26657670iwn.131.2010.04.07.07.35.28;
+        Wed, 07 Apr 2010 07:35:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 5181A1BB30AF9
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 07:35:28 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 4C83D26947A89
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 07:35:28 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 4DCBC26947825
+	for <quicktime-api@lists.apple.com>;
+	Wed,  7 Apr 2010 07:35:10 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay3.apple.com (Postfix) with ESMTP id 3A86AC866E4C
+	for <quicktime-api@lists.apple.com>;
+	Wed,  7 Apr 2010 07:35:10 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7b77ae000001b08-e7-4bbc981c26f7
+Received: from mail-gy0-f179.google.com (mail-gy0-f179.google.com
+	[209.85.160.179])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	12.E0.06920.D189CBB4; Wed,  7 Apr 2010 07:35:10 -0700 (PDT)
+Received: by gyd10 with SMTP id 10so610081gyd.24
+	for <quicktime-api@lists.apple.com>;
+	Wed, 07 Apr 2010 07:35:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:received:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	bh=wYOMvlisuRmuI0qGxW2A0ILjGKwuGUgwaK5VV6C8HNk=;
+	b=YbiT/FY23nCEQm0Igw2ntmq428fgpxkI4LGpXJeBCyOACDsBYx61+a3ttT5cIPRkEw
+	2nuB2h6If+SnfQhdjwhbEXY7JlX8Isdb7kJ/q4NZVTp+uoQ1X9tfNWIo04bMszzgyapD
+	47a/CQ4ZHqJpECXLyA59q8Kl0QSDSwYDjt71M=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type:content-transfer-encoding;
+	b=smRbaa66jJBdi7ZpAjzThrBbAPSzYZjeJj4TKk6SU2H71lwPDOar5UQPvrybBUaMs/
+	vMefZu+aZpwKzbdHHWc3xgepaDFwI2uOyY5p6B9eq/8cpn1uu0kDSZp/iPv7wj3aajOG
+	tUNdytUTjKQTfJ/XTMI43B99Bljrv4vO637+A=
+MIME-Version: 1.0
+Received: by 10.100.122.20 with HTTP; Wed, 7 Apr 2010 07:35:08 -0700 (PDT)
+In-Reply-To: <0F9B47CD-43D2-43E0-815C-4A3DE95327CE@outcastsoft.com>
+References: <h2p22dbdb3c1004050900j60b01bc7wfb3917b9d38c662a@mail.csmining.org>
+	<000001cad4e8$b05349b0$10f9dd10$@com>
+	<0F9B47CD-43D2-43E0-815C-4A3DE95327CE@outcastsoft.com>
+Date: Wed, 7 Apr 2010 09:35:08 -0500
+Received: by 10.101.184.14 with SMTP id l14mr5954898anp.108.1270650908064; 
+	Wed, 07 Apr 2010 07:35:08 -0700 (PDT)
+Message-ID: <i2z22dbdb3c1004070735hbc34c0f2g14e8f742f4910477@mail.csmining.org>
+From: "Igor C. Antonio" <igorantonio@csmining.org>
+To: Milton Aupperle <milton@outcastsoft.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAAAxOdnMATnoDwE56n8A==
+Cc: quicktime API <quicktime-api@lists.apple.com>
+Subject: Re: How get movie file information, such as encoding
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Thanks everyone.
+
+Igor
+
+On Mon, Apr 5, 2010 at 1:14 PM, Milton Aupperle <milton@outcastsoft.com> wr=
+ote:
+> Dear Igor;
+> Just to clarify, as RLopez indicates, GetMediaSample or=C2=A0GetMediaSamp=
+le2=C2=A0will
+> give you the cc type of one Media, which is the simplest case for a .mov.
+> Although likely uncommon now with apple deprecating most of QucikTime to
+> Corexxx routines a QuickTime movie can have multiple video media and
+> multiple video types in a single File, such as mp4, MJPEG, PJPEG, cinepac=
+k,
+> RLE, AVC, Apple LossLess etc., etc., etc., etc. The same applies for Audi=
+o
+> media too.
+> So a .mov is not at all like a .avi or .divx file type and can use multip=
+le
+> codecs, for multiple tracks and multiple media types.
+> And if you blindly grab the the first media you find in a file, you likel=
+y
+> won't represent what is actually in the movie.
+> Milton J. Aupperle
+> President
+> ASC - Aupperle Services and Contracting
+> Mac Software (Drivers, Components and Application) Specialist
+> #1106 - 428=C2=A0Chaparral Ravine View SE.
+> Calgary Alberta T2X 0N2
+> 1-(403)-453-1624
+> milton@outcastsoft.com
+> www.outcastsoft.com
+> On 5-Apr-10, at 11:51 AM, RLopez wrote:
+>
+> Hi,
+>
+> I'm new to developing QuickTime applications and I've inherited a C++
+>
+> application that uses QuickTime API to import video frames from
+>
+> whatever file formats QuickTime Player can play. =C2=A0It's fully functio=
+n
+>
+> and it can give me a matrix of RGB values for each frame. =C2=A0The
+>
+> application can also calculate basic information from the file, such
+>
+> as the frame count and the overall duration of the movie.
+>
+> I am now trying to enhance this application to extract more
+>
+> information from the file. =C2=A0The first piece of information I need is
+>
+> the video encoding used in the file.
+>
+> Can anyone point me to which QuickTime API document I need to read in
+>
+> order to figure out how to do this? =C2=A0The API is quite large!
+>
+> Call GetMediaSample2(...) then check the cType parameter of the returned
+> ImageDescription pointer. =C2=A0cType will hold the four character code o=
+f the
+> codec. =C2=A0A list of four character codes can be found at
+> http://www.fourcc.org.
+>
+> Thanks,
+>
+> Igor
+>
+>
+>
+>
+>
+> =C2=A0_______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list =C2=A0 =C2=A0 =C2=A0(QuickTime-API@lists.apple=
+.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/igorantonio%40gmail.=
+com
+>
+> This email sent to igorantonio@csmining.org
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

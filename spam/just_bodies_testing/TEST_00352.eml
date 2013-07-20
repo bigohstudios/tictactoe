@@ -1,0 +1,67 @@
+Re: Ctrl+alt+Fn not showing consolesFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+On Tue, Apr 27, 2010 at 16:08, rudu <rudu@cegetel.net 
+<mailto:rudu@cegetel.net>> wrote:
+>
+>     Le 27/04/2010 03:48, Hugo Vanwoerkom a écrit :
+>
+>
+>         rudu wrote:
+>
+>             Le 26/04/2010 20:55, Hugo Vanwoerkom a écrit :
+>
+>
+>                 and what was the driver that wouldn't compile?
+>                 I run x86-195.36.15 on the latest Sid kernel and it
+>                 compiles just
+>                 fine, but I don't (yet) have a AMD64 system.
+>
+>
+>             Excerpt from /var/log/nvidia-installer.log :
+>
+>                 Using: nvidia-installer ncurses user interface
+>                 WARNING: Skipping the runlevel check (the utility
+>                 `runlevel` failed
+>                 to run).
+>                 -> License accepted.
+>                 -> Installing NVIDIA driver version 195.36.15.
+>                 -> Performing CC sanity check with CC="cc".
+>                 -> Performing CC version check with CC="cc".
+>                 -> The CC version check failed:
+>
+>                   [...]
+>
+>
+>
+>         Indeed. Forget this if it is beating a dead horse, but did you
+>         have
+>         gcc-4.3 + gcc-4.4 both installed? I did and I set the symlink
+>         gcc to
+>         gcc-4.3 and that got rid of the message.
+>
+>
+>     Thank you Hugo, I managed to compile the proprietary driver.
+>     Now every ctrl+alt+Fn leads to a complete black screen, with no
+>     prompt or cursor or anything.
+>     Ctrl+alt+F7 works as expected.
+>     Could it be that my system stopped creating the consoles at boot
+>     time ?
+>     What should I check and where ?
+>
+
+Le 27/04/2010 12:59, Anand Sivaram a écrit :
+ > How about single user mode?  Are you able to get virtual console there.
+ > Also try to disable gdm/kdm, see whether virtual consoles are working.
+
+Thanks Anand,
+In single user mode, I can login on the first virtual console but every 
+other ctrl+alt+Fn I hit only gives me a black screen with a prompt 
+flashing in the upper left corner ...
+Launching a graphic session with startx instead of gdm/kdm doesn't 
+change anything except that I don't even have any flashing prompt on my 
+black screen anymore.
+
+Any help would be appreciated.
+Jean-Marc

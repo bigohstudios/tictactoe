@@ -1,0 +1,38 @@
+Re: What needs to improve in KDE 4?On 11 May 2010 18:00, Luis Felipe Tabera <lftabera@yahoo.es> wrote:
+> On Tuesday May 11 2010, Tim R=C3=BChsen <tim.ruehsen@openmediasystem.de> =
+wrote:
+>> KMail
+>> =C2=A0- click on 'New Message'
+>> =C2=A0- click into message body (i am using a custom template for new me=
+ssages)
+>> =C2=A0- ctrl-f, type something not findable into the search window and p=
+ress
+>> return - click OK in window 'no matches found'
+>> =C2=A0- move the mouse cursor over the kmail menu / toolbar - it is INVI=
+SIBLE
+>> while over there
+>
+> I can confirm this bug, even without custom template, just ensure that th=
+e
+> body is not empty to start searching. It is extrange.
+>
+
+
+Please comment:
+https://bugs.kde.org/show_bug.cgi?id=3D237294
+
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTik8jSj9PfWRSzP7xBcBAVJ2dNCXwqR9JSX0ZzRL@mail.csmining.org
+
+

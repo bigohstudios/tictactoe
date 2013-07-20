@@ -1,0 +1,50 @@
+Re: Configuring exim4 to send emailsOn Tue, 13 Apr 2010, Ruben Varela wrote:
+
+> I'm configuring an email to send emails. Emails sent to any domain,
+> apart from my own, are sent okay. I have my emails with Google Apps.
+>
+> Assuming my domain is, example.com. If I send an email from my server
+> to ruben@example.com it doesn't arrive at my Google Apps account, it
+> arrives to my server and I can read it using $ mail.
+>
+> I configured exim the following way:
+> $ sudo dpkg-reconfigure exim4-config
+>     General type of mail configuration:   internet site; mail is sent
+> and received directly using SMTP
+>     System mail name:   domain.tld
+>     IP-addresses to listen on for incoming S TP connections:
+> 127.0.0.1:xxx.xxx.xxx.xx
+>     Other destinations for which mail is accepted:   <blank>
+>     Domains to relay mail for:    <blank>
+>     Machines to relay mail for:   <blank>
+>     Keep number of DNS-queries minimal (Dial-on-Demand)?:   <No>
+>     Delivery method for local mail:   mbox format in /var/mail/
+>     Split configuration into small files?:   <No>
+> $ sudo update-exim4.conf
+> $ sudo /etc/init.d/exim4 restart
+>
+> Where xxx.xxx.xxx.xx is my external IP address and example.com is my
+> real domain.
+>update-exim4.conf
+> Does anyone know how to correctly configure this?
+
+Try pkg-exim4-users@lists.alioth.debian.org. That's for Debian users 
+with exim4. Also after I run dpkg-reconfigure exim4-config it 
+automatically stops and restarts.
+
+BTW if you solve this contact me or post your solution as I'm having the 
+same problem.
+
+-- 
+Bob Holtzman
+Key ID: 8D549279
+"If you think you're getting free lunch,
+  check the price of the beer"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.2.00.1004131444170.8302@localhost
+
+

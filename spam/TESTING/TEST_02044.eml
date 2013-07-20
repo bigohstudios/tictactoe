@@ -1,0 +1,146 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284c3da9a878ab1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs57851wfj;
+        Thu, 29 Apr 2010 18:03:50 -0700 (PDT)
+Received: by 10.86.6.37 with SMTP id 37mr2660377fgf.7.1272589429140;
+        Thu, 29 Apr 2010 18:03:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 18si1990032fkq.34.2010.04.29.18.03.48;
+        Thu, 29 Apr 2010 18:03:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 9B3CB13A4F39; Fri, 30 Apr 2010 01:03:43 +0000 (UTC)
+Old-Return-Path: <doom@kzsu.stanford.edu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-14.9 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	MDO_DATING2,RCVD_IN_DNSWL_MED autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A280013A4D27
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 01:03:37 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MDO_DATING2=0.1,
+	RCVD_IN_DNSWL_MED=-4] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id wTMJ7KvXt5vL for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 01:03:30 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.2
+Received: from smtp.stanford.edu (smtp5.Stanford.EDU [171.67.219.85])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 4654713A4E9B
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 01:03:30 +0000 (UTC)
+Received: from smtp.stanford.edu (localhost.localdomain [127.0.0.1])
+	by localhost (Postfix) with SMTP id 1929519017E;
+	Thu, 29 Apr 2010 18:03:26 -0700 (PDT)
+Received: from kzsu.stanford.edu (KZSU.Stanford.EDU [171.66.118.90])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtp.stanford.edu (Postfix) with ESMTPS id 6368E190173;
+	Thu, 29 Apr 2010 18:03:25 -0700 (PDT)
+Received: from kzsu.stanford.edu (localhost.stanford.edu [127.0.0.1])
+	by kzsu.stanford.edu (8.13.4/8.13.7) with ESMTP id o3U13KCh005837;
+	Thu, 29 Apr 2010 18:03:25 -0700 (PDT)
+	(envelope-from doom@kzsu.stanford.edu)
+Message-Id: <201004300103.o3U13KCh005837@kzsu.stanford.edu>
+To: "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+cc: debian-user@lists.debian.org
+Subject: Re: Filesystem recommendations
+In-reply-to: <201004291443.18606.bss@iguanasuicide.net>
+References: <o2p258ced3f1004241053j28352c68v7fa61b56b021443b@mail.csmining.org> <4BD37551.3070109@cox.net> <201004291917.o3TJHSIg000473@kzsu.stanford.edu> <201004291443.18606.bss@iguanasuicide.net>
+Comments: In-reply-to "Boyd Stephen Smith Jr." <bss@iguanasuicide.net>
+   message dated "Thu, 29 Apr 2010 14:43:13 -0500."
+X-Mailer: MH-E 8.2; nmh 1.2; GNU Emacs 24.0.50
+Date: Thu, 29 Apr 2010 18:03:20 -0700
+From: Joe Brenner <doom@kzsu.stanford.edu>
+X-Scanned-By: MIMEDefang 2.56 on 171.66.118.47
+X-Greylist: Sender DNS name whitelisted, not delayed by milter-greylist-2.0.2 (kzsu.stanford.edu [127.0.0.1]); Thu, 29 Apr 2010 18:03:25 -0700 (PDT)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <DWn_DAmqB6P.A.dLG.vxi2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575516
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 01:03:43 +0000 (UTC)
+
+
+Boyd Stephen Smith Jr. <bss@iguanasuicide.net> wrote:
+> Joe Brenner wrote:
+> > Ron Johnson <ron.l.johnson@cox.net> wrote:
+> > > B. Alexander wrote:
+> > > > Ron Johnson<ron.l.johnson@cox.net>  wrote:
+
+> > > >> XFS is the canonical fs for when you have lots of Big Files.  I've
+> > > >> also seen simple benchmarks on this list showing that it's faster
+> > > >> than ext3/ext4.
+> > > >
+> > > > Thats cool. What about Lots of Little Files? That was another of the
+> > > > draws of reiser3.
+> > >
+> > > That same unofficial benchmark showed surprising small-file speed by
+> > > xfs.
+
+> > Would you happen to have any links to such benchmarks, unofficial or
+> > otherwise?
+
+> > My experience has been that whenever I look at filesystem benchmarks,
+> > they skip the many-small-files case.  I've always had the feeling that
+> > most of the big filesystems cared a lot about scaling up in file-size,
+> > but not too much about anything else.
+
+> NB: This is my best recollection; I'm not looking this up right now.  Please
+> check my facts, I'd love to know if I'm wrong.
+
+Like I said, I *have* looked at filesystem comparisons a number of times.
+
+It's my problem to check your assertions?  Why isn't it your problem to
+check my assertions?
+
+> > I'm a Reiser3 user myself, and I've never had any problems with it.
+
+> > (The trouble with it being "long in the tooth" is mostly hypothetical,
+> > isn't it?)
+>
+> Not really.
+
+Outside of one mention of "bugs on reiserfs that will not be fixed",
+you're pretty much just describing the theory.  I do understand that
+using relatively unsupported software, even if it's pretty mature
+software, can have it's problems.
+
+Just doing a few quick websearches, I'm reading about ReiserFS bugs
+fixed as recently as 2006, 2007... It's not like it's not getting any
+attention from developers.
+
+> In addition, as file system technology advances, reiserfs will become
+> less attractive for new installs and it will become more attractive to
+> migrate way from it.
+
+I think you're better off if you rely on really well-tested migration
+tools (e.g. "tar").
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004300103.o3U13KCh005837@kzsu.stanford.edu
+
+

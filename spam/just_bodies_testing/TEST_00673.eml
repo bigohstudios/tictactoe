@@ -1,0 +1,59 @@
+Re: Flash is open?On Fri, May 14, 2010 at 12:38 PM, Camale=C3=B3n <noelamac@csmining.org> wrote:
+> On Fri, 14 May 2010 05:00:51 -0500, Ron Johnson wrote:
+>
+>> On 05/14/2010 04:32 AM, Camale=C3=B3n wrote:
+>
+>>>> You seems to be conflating 3 different entities: 1. Adobe Flash
+>>>> 2. Adobe Flash Player
+>>>> 3. SWF file format
+>>>
+>>> AFAIK:
+>>>
+>>> #1 As per Wikipedia =E2=86=92 Licence: Proprietary EULA (it can be wron=
+g,
+>>> though) #2 Adobe Flash Player is closed source, non freely
+>>> distributable, etc... #3 Falls into #1 (is just a "container")
+>>
+>> No. =C2=A0It's a file format, and that file format has (except for Soren=
+sen
+>> Spark) been published.
+>
+> "Published" does not means FLOSS or GPL. I would like to know what is the
+> licence of Flash :-)
+
+http://www.adobe.com/devnet/swf/
+
+"The SWF file format is available as an open specification ..."
+
+http://en.wikipedia.org/wiki/Open_specifications
+
+"An open specification is not controlled by a single company or
+individual or by a group with discriminatory membership criteria.
+Copies of Open Specifications are available free of charge or for a
+moderate fee and can be implemented under reasonable and non
+discriminatory licensing (RAND) terms by all interested parties."
+
+And for some other informations:
+
+http://www.openscreenproject.org/about/faq.html
+
+"Where are the new licenses for the SWF and FLV/F4V specifications?
+
+Adobe has removed the entire license agreement from the SWF and
+FLV/F4V specifications. The only remaining restrictions are on copying
+and distributing the specifications themselves and on the use of Adobe
+trademarks, including the Flash trademark. The copyright and trademark
+restrictions are on the copyright page of the specification.
+Developers are now free to implement what is documented in the
+specifications without restrictions from Adobe."
+
+Bye,
+a
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinexhMKIN_mHG2efRrLX7nSo_0UyyffBhG2j6XN@mail.csmining.org
+
+

@@ -1,0 +1,49 @@
+Re: [ILUG] putty + proxy goodnessOn Sat, Jul 27, 2002 at 03:06:15PM +0100, Stephen Shirley wrote:
+> Mornin' all,
+> 	I'm running one of the development snapshots of putty, and i just
+> noticed a very handy new feature: builtin proxy support. This means that
+> people like me can connect to external hosts using ssh via a http proxy.
+
+sort of. Squid, and most other good http proxies won't let you connect
+to any other destination port other than 443 (by default).  So the sshd 
+has to be listening on port 443. PuTTy's proxy support is a bit flaky 
+right now, the raw connects are a bit flaky aswell, I can't get them 
+to work with certain revisions of IOS becuase they use different prompts
+and success strings, gah! I havnt played with the SOCKS proxy support
+much yet, but it's there.
+
+If you're trying to SSH through a http proxy, use netcat :)
+PuTTy's proxy stuff will take another few weeks to get stable, and
+currently it won't send keepalives, so if you go afk expect your 
+session to get killed by the proxy.  Netcat send keepalives
+which prevent this :)
+
+# 
+# call as http_proxy_tunnel host port
+#
+function http_proxy_tunnel()
+{
+	mkfifo in.fifo
+
+	( echo CONNECT $1:$2 HTTP/1.1 
+          echo HOST: $1:$2
+          echo HTTP/1.1
+	  echo 
+          cat in.fifo ) | nc myproxy 3128 | (read ; read ; nc -lp <localport> > in.fifo )
+}
+
+
+course that assumes you have bash, I use cygwin, but the above should be
+doable natively, then again if you have cygwin, use OpenSSH and it's
+excellently configurable proxycmd :)
+
+-- 
+colmmacc@redbrick.dcu.ie        PubKey: colmmacc+pgp@redbrick.dcu.ie  
+Web:                                 http://devnull.redbrick.dcu.ie/ 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

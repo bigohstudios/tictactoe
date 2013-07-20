@@ -1,0 +1,58 @@
+Re: [ILUG] linux pthreads problemOn Mon, 19 Aug 2002, Vincent Cunniffe wrote:
+
+> The process list initially shows a single main process :
+> 
+>    16877  1.0  0.2  1824  540 pts/1    S    17:14   0:00 ./heartbeat2
+> 
+> When the client runs, connects, and sleeps for 5 seconds :
+> 
+>    16877  0.0  0.2 10024  604 pts/1    S    17:14   0:00 ./heartbeat2
+>    16887  0.5  0.2  1796  720 pts/1    S    17:15   0:00 ./client
+>    16888  0.0  0.2 10024  604 pts/1    S    17:15   0:00 ./heartbeat2
+>    16889  0.0  0.0     0    0 pts/1    Z    17:15   0:00 [heartbeat2 
+> <defunct>]
+> 
+> When the client exits, and the thread should finish, it doesn't :
+> 
+>    16877  0.0  0.2 10024  604 pts/1    S    17:14   0:00 ./heartbeat2
+>    16888  0.0  0.2 10024  604 pts/1    S    17:15   0:00 ./heartbeat2
+> 
+> This second thread never goes away, but no more threads accumulate,
+> and the total memory consumption rises by about 8-9MB every single
+> time a client connects.
+> 
+> C++ bug, linux bug, pthreads bug, coding error?
+
+hmm... with pthreads there is always one thread which acts as a 
+'thread manager'. do the number of processes accumulate? or is it 
+just that the # of threads is == # of threads you're expecting + 1? 
+if the latter, ttbomk that is normal.
+
+ie, you dont create the thread until the accept() returns. so up 
+until then its a normal programme (ie no thread manager). after that 
+you will always have +1 processes (for the thread manager).
+
+also, the stack for further threads is allocated from the heap. (see
+sigaltstack() ) possibly glibc does not brk() back the space, just
+like malloc()/free() does not always release the space to the heap
+again (as most programmes will allocate memory / threads again
+soonish anyway).
+
+> Regards,
+> 
+> Vin
+
+regards,
+-- 
+Paul Jakma	paul@clubi.ie	paul@jakma.org	Key ID: 64A2FF6A
+	warning: do not ever send email to spam@dishone.st
+Fortune:
+The Official Colorado State Vegetable is now the "state legislator".
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,18 @@
+Re: [ILUG] PostgreSQL vs. MySQLSean O'Donnell wrote:
+> Doesnt answer your question, but theres a very simple reason i 
+ > develop a lot on mysql, it runs on windows and linux, a lot of
+ > clients only have windows servers, and last time i checked
+ > you can only run postgresql on windows with a lot of fecking
+> around with cygwin. give postgres a decent standalone windows 
+ > build and i reckon you would see a lot of defections.
+
+This is pertinent: http://lwn.net/Articles/17067/
+
+Pádraig.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

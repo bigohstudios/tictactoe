@@ -1,0 +1,70 @@
+Re: How to migrate my localhost php site to my ISP - Was: willing
+ to learn php basicsOn Sat, Apr 17 at 11:15, Bernard penned:
+> 
+> Thanks for your help Monique. I hadn't thought of that, but it makes
+> sense that the ISP only allows one user to log into databases.
+> Problem is that outside users will have to connect to my database
+> through a php script that will contain my password !
+
+Nope.  There are a few ways to deal with this; Joe mentioned a common
+one, which is to have your password stored in a file that's outside of
+your website directory.
+
+Bear in mind, many, many people and businesses have successfully built
+websites using both their own servers and host providers.  So for
+almost any "wait, that can't be right, because it causes this
+problem!" situation - there's almost certainly a readily available
+solution.
+
+> >>Could someone tell me where I could find relevant information and
+> >>docs ? And maybe mention one or more ISP that would provide
+> >>suitable mysql facilities ?
+> >
+> >As for hosting companies, I have been very happy with www.pair.com
+> >for years.  They provide I believe three database users -
+> >read-only, read-write, and full access.  You would only use the
+> >full access user to create the database structure - tables,
+> >indexes, etc.
+
+Given that this is a Debian list, I should mention that Pair runs
+FreeBSD systems, not Linux.
+
+> Prior to subscribing to an expensive hosting, I wish to test the
+> system on free ISP. I have two of them here. I tested them both, but
+> testing did not go far as for now, since I am far from having
+> understood how it is supposed to work. No doc is provided
+
+*snip*
+
+In my experience paying for web hosting - you do get what you pay for.
+Pair is not the cheapest host in the business, but they have
+had phenomenal uptimes, excellent support, and provide reasonable
+access to the system.  I've been burned by cheap web hosts before -
+including a company that cancelled a friend's account because he'd
+typed "ls /etc" and they found it in his bash history file.  Wow.  I'm
+not saying that you can't find a good host cheaper than Pair - for me
+personally, Pair is cheap enough and good enough that I haven't looked
+further since I started using them.  I should also note that I'm only
+running a personal vanity site, not a business or service.  And if
+you're not based in the US, I don't know how much sense it makes to
+work with a US host provider.
+
+I've never installed mysqladmin, so I can't speak to that.  I've
+always just used command line tools for mySQL.
+
+Anyway, I don't mean to sound like an advertisement for one particular
+company.  I'm sure there are many reputable, reliable hosting
+companies out there.  It does sound like you need a fair amount of
+information to do this for the first time, so you might want to choose
+a host provider that explicitly includes support as part of the deal.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100418044707.GB20950@mail.bounceswoosh.org
+
+

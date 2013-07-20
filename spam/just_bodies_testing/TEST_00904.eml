@@ -1,0 +1,36 @@
+Re: [SAtalk] spamc -c problems on 2.41?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, Sep 12, 2002 at 01:47:27PM -0700, Jeremy Kusnetz wrote:
+> When running:
+> spamc -c < sample-spam.txt
+> I get: 18.9/6.0   Which looks correct, BUT
+> doing an echo $?, returns a 0 instead of 1.
+
+Can you submit this to bugzilla?  It definately is a bug, I mean I do
+a packet trace and here's what I get with one of my spams:
+
+[the request]
+
+0040  0b 8e 43 48 45 43 4b 20 53 50 41 4d 43 2f 31 2e   ..CHECK SPAMC/1.
+0050  32 0d 0a 55 73 65 72 3a 20 66 65 6c 69 63 69 74   2..User: felicit
+0060  79 0d 0a 43 6f 6e 74 65 6e 74 2d 6c 65 6e 67 74   y..Content-lengt
+0070  68 3a 20 38 33 34 39 0d 0a 0d 0a                  h: 8349....
+
+[the spam, removed for brevity]
+
+[the response]
+
+0040  0b 8f 53 50 41 4d 44 2f 31 2e 31 20 30 20 45 58   ..SPAMD/1.1 0 EX
+0050  5f 4f 4b 0d 0a 53 70 61 6d 3a 20 46 61 6c 73 65   _OK..Spam: False
+0060  20 3b 20 34 36 2e 35 20 2f 20 35 2e 30 0d 0a 0d    ; 46.5 / 5.0...
+
+
+So spamd is definately returning false incorrectly.
+
+
+--=20
+Randomly Generated Tagline:
+?pu gnikcab yb naem uoy tahw siht sI

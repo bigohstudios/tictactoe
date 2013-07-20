@@ -1,0 +1,218 @@
+Re: Lite SMTP server/daemon<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+<br />
+</span>
+</font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Hi Celejar,</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Thank you for your reply.</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+I use Linux running in&#160; Compact Flash so that the size of the Compact flash memory is the 
+limit</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Users will&#160; send emails to a program running in the Compact flash so I need a mail server 
+there too.</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Only SMTP, no POP3 server</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Can you suggest something?</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+<br />
+</span>
+</font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Thank you .</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Best regards,</span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+Lad.</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&#160;</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; &gt; Does anyone know about a tiny&#160; / liteweight&#160; SMTP server for Linux( Debian)? I need the </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; &gt; server that can accept several connections at the same time .</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; &gt; I do not need POP3 server</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; I'm not sure that I can help, but what, exactly, do you mean by tiny /</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; liteweight?&#160; Binary size, CPU / RAM usage?&#160; IIUC, even the heavy</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; hitters like Exim use very few resources when not under load.&#160; E.g., on</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; my system, htop shows Exim at 0 CPU, and only &quot;6484 648 588&quot; for &quot;VIRT</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; RES SHR&quot;.</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; This has come up before on the list.&#160; What, exactly, are your</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; restrictions / goals?</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; Celejar</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; -- </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; mailmin.sourceforge.net - remote access via secure (OpenPGP) email</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; ssuds.sourceforge.net - A Simple Sudoku Solver and Generator</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; -- </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org </span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; with a subject of &quot;unsubscribe&quot;. Trouble? Contact listmaster@lists.debian.org</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; Archive: http://lists.debian.org/20100423151453.3f134ce4.celejar@csmining.org</span></font>
+</div>
+<div align="left">
+<font face="Arial" color="#7f0000" size="2">
+<span style=" font-size:10pt">
+&gt; </span></font>
+</div>
+<div align="left">
+<font face="Arial" size="2">
+<span style=" font-size:10pt">
+<br />
+</span>
+</font>
+</div>
+<div align="left">
+&nbsp;</div>
+</body>
+</html>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD2B7BC.13085.1000BD@export.hope.cz
+
+

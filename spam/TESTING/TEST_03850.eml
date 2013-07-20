@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId128618bd98ddcadb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs260467wfj;
+        Mon, 3 May 2010 21:21:15 -0700 (PDT)
+Received: by 10.86.22.32 with SMTP id 32mr9126598fgv.61.1272946874674;
+        Mon, 03 May 2010 21:21:14 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si10317800fke.57.2010.05.03.21.21.14;
+        Mon, 03 May 2010 21:21:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 609AD13A4FFB; Tue,  4 May 2010 04:21:08 +0000 (UTC)
+Old-Return-Path: <ron.l.johnson@cox.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 926B113A4ED4
+	for <lists-debian-user@liszt.debian.org>; Tue,  4 May 2010 04:21:02 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id maXwh0+SFr4v for <lists-debian-user@liszt.debian.org>;
+	Tue,  4 May 2010 04:20:55 +0000 (UTC)
+Received: from eastrmmtao102.cox.net (eastrmmtao102.cox.net [68.230.240.8])
+	by liszt.debian.org (Postfix) with ESMTP id 096BC13A4A96
+	for <debian-user@lists.debian.org>; Tue,  4 May 2010 04:20:54 +0000 (UTC)
+Received: from eastrmimpo02.cox.net ([68.1.16.120])
+          by eastrmmtao102.cox.net
+          (InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP
+          id <20100504042052.FADE7060.eastrmmtao102.cox.net@eastrmimpo02.cox.net>
+          for <debian-user@lists.debian.org>;
+          Tue, 4 May 2010 00:20:52 -0400
+Received: from [192.168.1.10] ([70.171.113.214])
+	by eastrmimpo02.cox.net with bizsmtp
+	id DGLr1e00A4dcMZy02GLsWc; Tue, 04 May 2010 00:20:52 -0400
+X-VR-Score: -130.00
+X-Authority-Analysis: v=1.1 cv=FnQQhIGgoxKy895ni2P06Ys7q26b/tysl77b0NRG5XA=
+ c=1 sm=1 a=_NAYcfyF4qoA:10 a=IkcTkHD0fZMA:10 a=IRkVBGF3v46fcoh1nyAFMw==:17
+ a=X7WiMxLsku7tw9AluQcA:9 a=j34K0TV6EEYss2pA_aMVrJNFUeQA:4 a=QEXdDO2ut3YA:10
+ a=IRkVBGF3v46fcoh1nyAFMw==:117
+X-CM-Score: 0.00
+Message-ID: <4BDFA0A3.8090008@cox.net>
+Date: Mon, 03 May 2010 23:20:51 -0500
+From: Ron Johnson <ron.l.johnson@cox.net>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.22) Gecko/20090706 Thunderbird/2.0.0.22 Mnenhy/0.7.6.666
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: 64-bit netbooks with Debian linux
+References: <t2s92e02fab1005021217le43861d0m64e19a959c3f6ad9@mail.csmining.org> <w2u92e02fab1005031429g36268ej8c7c065fd5d49d5a@mail.csmining.org> <4BDF47C6.7080503@allums.com> <4BDF9C01.1020602@hardwarefreak.com>
+In-Reply-To: <4BDF9C01.1020602@hardwarefreak.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Phuwoi7S8LN.A.M1C.0C63LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575813
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue,  4 May 2010 04:21:08 +0000 (UTC)
+
+On 05/03/2010 11:01 PM, Stan Hoeppner wrote:
+> Mark Allums put forth on 5/3/2010 5:01 PM:
+>
+>> With 64 bits, you will need more memory, so I suggest you look for a
+>> machine that can use 4 GB of memory.
+>
+> A user's application usage patterns dictate how much memory the machine
+> needs, not the width of the CPU registers.  The comment above belongs in the
+> winders user world, not here on the debian-user list, where we are assumed
+> to be competent OPs.  The reasoning behind your suggestion is totally flawed.
+>
+
+While Mark's comment is only superficially true, your response is 
+*really* uncalled for.
+
+For one thing, your first sentence is a /non sequiter/, irrelevant 
+as to whether a 64-bit system uses more memory than does a 32-bit 
+system.  (Which it does, since the pointers are larger.)
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDFA0A3.8090008@cox.net
+
+

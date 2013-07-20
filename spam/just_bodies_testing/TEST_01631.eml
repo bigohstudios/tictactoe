@@ -1,0 +1,55 @@
+Re: Cannot loginFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 06 April 2010 19:31:19 Smokejohn wrote:
+> On Tue, Apr 6, 2010 at 7:57 PM, Klaus Becker <colonius@free.fr> wrote:
+> > Le Mardi 06 Avril 2010 18:35:51, John Kapnogiannis a =E9crit :
+> > > Hello there. I got a debian testing installation and I currently cann=
+ot
+> > > login in kde. I give my pass and instead of a proper kde session I get
+> > > kdm's login screen again. I haven't done any upgrade but I did a real=
+ly
+> > > stupid thing: I hit the power button and turn the laptop off the hard
+> > > way while it was in suspend mode. I tried googling but it gave me no
+> > > usefull things.
+> > >=20
+> > > The .xsession-errors file in my home folder says Permission denied. I
+> > > checked the permissions in /tmp and /var/tmp and everything seems fin=
+e.
+> > > I also deleted the .kde folder. Login in as root and typing startx
+> > > opens a kde session.
+> > >=20
+> > > Any ideas?
+> > >=20
+> > > PS: I did the instructions described in this page:
+> > > https://developer.skype.com/jira/browse/SCL-510 in order to fix skype
+> > > on me 64-bit installation, but I don't think it has something to do
+> > > with my problem. I think something got wrong when I hit the power
+> > > button. :(
+> >=20
+> > Hi,
+> >=20
+> > perhaps
+> >=20
+> > #chown -R john /home/john
+> >=20
+> > or any username you use ?
+> >=20
+> > If this does'nt work, you can try to create a new user and then cope all
+> > your
+> > files to /home/new-user.
+> >=20
+> >=20
+> > Nope did not help. Adding a new user did not fix anything too. I tried
+>=20
+> login in a console and then startx and I got some errors about xkb not
+> being able to get initialized. Strange....  So the thing is that no user
+> except the root can start a kde session.
+
+Just for completion:
+
+Check if there is enough space on your/the harddisk.
+
+Steven

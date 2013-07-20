@@ -1,0 +1,54 @@
+Re: CVS report
+Oooops!
+
+Doesn't work at all. Got this on startup and on any attempt to change folder (which fail)
+
+/Anders
+
+can't read "flist(seqcount,lists/exmh,unseen)": no such element in array
+    (reading value of variable to increment)
+    invoked from within
+"incr flist(seqcount,$folder,$seq) $delta"
+    (procedure "Seq_Del" line 16)
+    invoked from within
+"Seq_Del $exmh(folder) $mhProfile(unseen-sequence) $msgid"
+    (procedure "MsgSeen" line 7)
+    invoked from within
+"MsgSeen $msgid"
+    (procedure "MsgShow" line 12)
+    invoked from within
+"MsgShow $msgid"
+    (procedure "MsgChange" line 17)
+    invoked from within
+"MsgChange 73 show"
+    invoked from within
+"time [list MsgChange $msgid $show"
+    (procedure "Msg_Change" line 3)
+    invoked from within
+"Msg_Change $msg(id) $show"
+    (procedure "Msg_Show" line 7)
+    invoked from within
+"Msg_Show cur"
+    ("eval" body line 1)
+    invoked from within
+"eval $msgShowProc"
+    (procedure "FolderChange" line 55)
+    invoked from within
+"FolderChange lists/exmh {Msg_Show cur}"
+    invoked from within
+"time [list  FolderChange $folder $msgShowProc"
+    (procedure "Folder_Change" line 3)
+    invoked from within
+"Folder_Change $exmh(folder)"
+    (procedure "Exmh" line 101)
+    invoked from within
+"Exmh"
+    ("after" script)
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

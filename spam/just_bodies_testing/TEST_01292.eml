@@ -1,0 +1,63 @@
+Re: Compositing two movies>> Depending on how much custom the compositing you need is, I guess  
+>> you could
+>> create a movie referring to content in those two and maybe use some  
+>> tweening
+>> code too if needed
+>
+> I'm not sure what you mean by "tweening code".
+
+If I may jump into...
+
+Probably he means about having your two movies perfectly in sync
+with some code.
+
+Actually this is on what I've been since this morning and what I
+found :
+
+If you start your two movies approximatively at the same time
+does not mean they are going to start in sync.
+
+It might not be easy to see though. a way I found to ensure
+that I'm in sync is to play 2 exact same movie with sound.
+if you can ear a phasing effect, then the two movies are not
+in sync, otherwise you may assume that they are in sync.
+
+Tracks in a movie get synchronized when you start a movie, however
+doing the same on several movies is different. After some searches
+I've found some sample code : "LiveVideoMixer3". To see my point
+above you'll have to comment line 136 of VideoChannel.m (to enable
+sound) then you'll have to change line 275 of LiveVideoMixerController.m
+to :
+TimeBase mtb = masterTimeBase;
+in that case you can load 2 times the same movie and see that they
+are perfectly in sync.
+Looking around in the code you can figure out that the first video
+feed the time base for the others, which does the trick, and which
+I think was the meaning of "tweening code".
+
+Also I discovered the following. I needed to put several movies
+in sync, but could not rely on one movie to exist. So I thought
+I could make some kind of base movie which would be the master
+of the other dynamically allocated movies.
+
+If I do a NewMovie (0), I can use this movie as the time base
+for the other movies.
+What is interesting here, is that the clock of this new empty
+movie is a micro seconds one and not a sample one. (the sample
+one is the one you find when you get a video with sound).
+A bug on that particular feature was reported on this list
+some time ago but it seems to be ok now.
+(if someone can confirm that last part, that would make me glad,
+ie does it always work, is there some drift, etc.)
+
+Hope this will help,
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

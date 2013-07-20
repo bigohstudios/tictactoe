@@ -1,0 +1,41 @@
+Re: cross-connecting console ports?On Mon, 17 May 2010, Miles Fidelman wrote:
+
+> Has anybody done this?  Any suggestions on where to start - both re. cabling 
+> (USB vs. serial cross-over), and/or software?
+
+Hi Miles.  Many of us have done this for years and years.  You can go with 
+a serial console over rj45 (including bios level tools) like iLO or DRAC 
+or you can get Linux to provide you with a 'software serial console' that 
+will be available from the bootloader (lilo or grub) onwards.
+
+A quick Google should turn up howtos on how to configure Grub & friends.
+
+I've always used true serial ports to do this although I understand it is 
+possible via usb-serial connectors.
+
+You can use any serial terminal app to provide access to the serial port. 
+I prefer minicom but there are lots of options.
+
+Keep security in mind when doing this.  If soneone gets root access[1] to 
+one of the servers then they can 0wn the other one.  Don't cross-connect 
+the serial consoles unless the servers are in the same 'security domain'.
+
+[1] You can restrict who can talk to minicom for example.
+
+Cheers,
+
+Rob
+
+-- 
+Email: robert@timetraveller.org		Linux counter ID #16440
+IRC: Solver (OFTC & Freenode)
+Web: http://www.practicalsysadmin.com
+Open Source: The revolution that silently changed the world
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/alpine.DEB.1.10.1005171708120.7760@castor.opentrend.net
+
+

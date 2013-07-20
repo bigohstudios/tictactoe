@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId12847bfe7596c3c1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs8wfj;
+        Wed, 28 Apr 2010 21:08:54 -0700 (PDT)
+Received: by 10.87.40.31 with SMTP id s31mr231948fgj.60.1272514078383;
+        Wed, 28 Apr 2010 21:07:58 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e11si10471310fga.8.2010.04.28.21.07.28;
+        Wed, 28 Apr 2010 21:07:58 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B316413A48B4; Thu, 29 Apr 2010 04:07:22 +0000 (UTC)
+Old-Return-Path: <dburrows@debian.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BD7F513A4794
+	for <lists-debian-user@liszt.debian.org>; Thu, 29 Apr 2010 04:07:16 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 7Wmgu6i84rde for <lists-debian-user@liszt.debian.org>;
+	Thu, 29 Apr 2010 04:07:09 +0000 (UTC)
+Received: from algebraicthunk.net (algebraicthunk.net [67.207.130.13])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 35E1F13A472D
+	for <debian-user@lists.debian.org>; Thu, 29 Apr 2010 04:07:09 +0000 (UTC)
+Received: from c-76-104-234-217.hsd1.wa.comcast.net ([76.104.234.217] helo=emurlahn.burrows.local)
+	by algebraicthunk.net with esmtpsa (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <dburrows@debian.org>)
+	id 1O7L1l-0002hk-UT
+	for debian-user@lists.debian.org; Wed, 28 Apr 2010 21:07:06 -0700
+Date: Wed, 28 Apr 2010 21:07:04 -0700
+From: Daniel Burrows <dburrows@debian.org>
+To: debian-user@lists.debian.org
+Subject: Re: How to trick my Debian in thinking that a package is not installed
+Message-ID: <20100429040704.GA10998@emurlahn.burrows.local>
+References: <hqkgqo$bip$1@dough.gmane.org>
+	<20100427134848.GA29591@emurlahn.burrows.local>
+	<201004271032.25207.bss@iguanasuicide.net>
+	<20100427155919.GB30298@mail.bounceswoosh.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20100427155919.GB30298@mail.bounceswoosh.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <5R8DvqlbseO.A.Ug.6XQ2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575416
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 29 Apr 2010 04:07:22 +0000 (UTC)
+
+On Tue, Apr 27, 2010 at 09:59:19AM -0600, "Monique Y. Mudama" <spam@bounceswoosh.org> was heard to say:
+> I use "hold" liberally to weather Sid storms.  There are two cases I
+> see crop up: one, aptitude suggests removing packages without an
+> obvious replacement.  Two, aptitude marks things as broken that have
+> been working just fine.  In either case, I start slamming the "=" key
+> until packages will no longer be removed, and nothing is marked
+> broken.  This works 99.99% of the time.  At some later period when I
+> suspect the storm has passed, I test the waters by unholding the
+> packages and gauging aptitude's reaction.
+
+  With aptitude 0.6.2+, I'd be curious to know whether you get the
+answers you want (with less removals and less need to manually hold)
+with this setting or something like it:
+
+Aptitude::ProblemResolver::SolutionCost="2*removals + canceled-actions,safety,priority"
+
+  (sorry about the long line)
+
+  That will ask aptitude to minimize the number of removals and canceled
+actions, but to weigh removals as being twice as bad as holding packages
+back.
+
+> If this is a misuse of "hold" and there's a better way, though, I'm
+> all ears.  Rereading, it seems like "forbid-version" would be the
+> right call for most of what I'm doing, assuming it does persist
+> between aptitude sessions.
+
+  Forbid-version is probably more appropriate, yes.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429040704.GA10998@emurlahn.burrows.local
+
+

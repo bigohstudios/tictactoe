@@ -1,0 +1,15 @@
+Re: [l7-filter-developers] How create rules .pat for layer7Cristiano Bosenbecker Hellwig wrote:
+> I Need the help for create rules using ER? What  method used for 
+> identify  the packets using wireshark or rfcs?
+
+Wireshark seems to be the tool of choice.  ER?
+
+Peter Baldwin
+ClearFoundation
+
+------------------------------------------------------------------------------
+_______________________________________________
+l7-filter-developers mailing list
+l7-filter-developers@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/l7-filter-developers
+

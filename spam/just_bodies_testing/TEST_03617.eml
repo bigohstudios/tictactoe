@@ -1,0 +1,29 @@
+Re: Cyrus 2.2 imapd in AMD64Carlos Bergero <rak@fcien.edu.uy> writes:
+
+--snip--
+
+> Apparently for what i read in list and in web pages/lists/readme it
+> might be a compatibility problem in Berkeley DB use by Cyrus.
+--snip--
+> So far im focused in trying to get this DB to the proper format
+> version 9 in the standard Lenny install, and see what happens, without
+> much success.
+> If I manage to work it out ill post the process int list.
+> If anyone has a better clue ill appreciate it :)
+
+Have you looked at the db4.x-util packages, for whatever version of
+library you have?  The db4.6-util package contains a program called
+db4.6-upgrade which might do what you want.  There are other version
+of db-util, so get whichever one matches your current library and try
+it on a *copy* to see if it does what you want.
+
+-- 
+Carl Johnson		carlj@peak.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8739yhx1yg.fsf@cjlinux.localnet
+
+

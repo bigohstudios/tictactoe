@@ -1,0 +1,56 @@
+Re: Flash is open?On 5/14/2010 2:22 PM, Stefan Monnier wrote:
+>> I always perceived a lack of interest.  Few people really want to work
+>> on it, it seems.  I root for Gnash, but I go ahead and use Adobe's
+>> non-free player.
+>
+> As long as you use adobe's player, you're not really rooting for Gnash.
+
+It comes down to options.  There are none.  Gnash is not a viable 
+option.  If it were, I would use it.
+
+
+>
+>> The former is becoming mooted by the advent of HTML5.  The latter is
+>> boring, since there are 1000s of other ways to write programs that run
+>> in web browsers, e.g., Javascript.
+>
+> Actually, I'd be interested to know what are those other 999.
+> AFAIK Javascript and Flash are the only games in town.  And in some
+> areas (e.g. modern furniture companies come to mind), Flash-based
+> websites is the norm.  So Flash is important.
+
+Oh, if you give me a plugin, as Flash is, then I can use anything I 
+please.
+
+>
+> But in either case, for users who care about their Freedom, both Flash
+> and Javascript are real threats, because even if you use a Free Software
+> implementation of the language, the code run in each web-page will
+> usually be 100% proprietary.
+
+True.  And even Javascript itself is subject to proprietary whims. 
+After all, it depends on browser support.  If a particular browser 
+becomes dominant for a while, it could dictate (for a while) it own 
+implementation be the "standard", as Microsoft managed to do with IE6.
+
+What I meant was, it's pushed code.  But it's any code the site owner 
+desires, as long as the browser can interpret it.
+
+Amazon, for example, depends heavily on Javascript, as does, of course 
+Google.  They, *do* desire a fixed standard, because they can run on 
+anything then, from a PC to a Blackberry, as long as it has a browser 
+that supports Javascript.  Why use Flash when every browser already has 
+what we need?  And with HTML5, the limitations are reduced, and I'm not 
+just talking about the video tag.
+
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEDA8BD.5010904@allums.com
+
+

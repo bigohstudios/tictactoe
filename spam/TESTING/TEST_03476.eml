@@ -1,0 +1,157 @@
+X-Account-Key: account5
+X-UIDL: GmailId128770b48e2f565f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs496548wfb;
+        Sat, 8 May 2010 01:32:28 -0700 (PDT)
+Received: by 10.223.92.153 with SMTP id r25mr1155641fam.76.1273307547955;
+        Sat, 08 May 2010 01:32:27 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z13si3750211fah.76.2010.05.08.01.32.27;
+        Sat, 08 May 2010 01:32:27 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id D9B3213A552B; Sat,  8 May 2010 08:32:17 +0000 (UTC)
+Old-Return-Path: <Luca.Merciadri@student.ulg.ac.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,PGPSIGNATURE
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 62BE513A5529
+	for <lists-debian-user@liszt.debian.org>; Sat,  8 May 2010 08:32:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id LrPkmXwpcnhf for <lists-debian-user@liszt.debian.org>;
+	Sat,  8 May 2010 08:32:05 +0000 (UTC)
+Received: from serv108.segi.ulg.ac.be (serv108.segi.ulg.ac.be [139.165.32.111])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 0552A13A54B6
+	for <debian-user@lists.debian.org>; Sat,  8 May 2010 08:32:05 +0000 (UTC)
+Received: (qmail 21845 invoked from network); 8 May 2010 10:32:02 +0200
+Received: from unknown (HELO [192.168.0.101]) (s083201@[62.197.101.67])
+          (envelope-sender <Luca.Merciadri@student.ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with SMTP
+          for <simultaneous@comcast.net>; 8 May 2010 10:32:02 +0200
+Message-ID: <4BE5213C.8020709@student.ulg.ac.be>
+Date: Sat, 08 May 2010 10:30:52 +0200
+From: Merciadri Luca <Luca.Merciadri@student.ulg.ac.be>
+Reply-To: Luca.Merciadri@student.ulg.ac.be
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: Phil Requirements <simultaneous@comcast.net>
+CC: debian-user@lists.debian.org
+Subject: Re: Simple tool to extract sound from video?
+References: <4BE43699.6040608@student.ulg.ac.be> <AANLkTinNQTxLqXskgo72K9b8CfJ5Dry7vKt68oHXnweF@mail.csmining.org> <20100507161400.GA13488@aurora.owens.net> <4BE43DA0.6050703@student.ulg.ac.be> <20100508024845.GA1683@kasploosh.net> <4BE4EE1F.8050607@cox.net> <20100508064633.GB1683@kasploosh.net>
+In-Reply-To: <20100508064633.GB1683@kasploosh.net>
+X-Enigmail-Version: 0.95.0
+OpenPGP: id=BB7C321C;
+	url=http://www.student.montefiore.ulg.ac.be/~merciadri/
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enigD5609CEAA865E998EDDD24C2"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Yizzrq_AbNB.A.jH.RGS5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576205
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat,  8 May 2010 08:32:17 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enigD5609CEAA865E998EDDD24C2
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Phil Requirements wrote:
+> On 2010-05-07 23:52:47 -0500, Ron Johnson wrote:
+>  =20
+>> On 05/07/2010 09:48 PM, Phil Requirements wrote:
+>>    =20
+>>> On 2010-05-07 18:19:44 +0200, Merciadri Luca wrote:
+>>>      =20
+>>>> Rob Owens wrote:
+>>>>        =20
+>>>>> Avidemux can do it also.  It's a GUI, but I think it's more
+>>>>> straightforward to do it with ffmpeg, as suggested above
+>>>>>          =20
+>>>> Thanks. ffmpeg does actually, exactly what I want. Thanks. (For such=
+
+>>>> things, people habitually ask for a mere commandline use, at least m=
+e.)
+>>>>        =20
+>>> to watch videos, so I have an mplayer recipe to do this same job.  It=
+
+>>> goes like this:
+>>>
+>>>     mplayer myvideo.avi -vc null -vo null -ao pcm:file=3Dmyvideo.wav
+>>>      =20
+>> $ mplayer ${i}.mpeg -dumpaudio -dumpfile ${i}.raw_audio
+>> $ file ${i}.raw_audio
+>> $ mv ${i}.raw_audio ${i}.whatever
+>>
+>>    =20
+>
+> Yes, another interesting way to use mplayer. You can use the
+> -dumpaudio option to get the raw audio data out of the file.  I am
+> usually not trying to get the raw audio however, because it might be
+> compressed or encoded in weird ways. I usally want to have a nice
+> uncompressed wav file that I can work with. And mplayer is pretty
+> handy for that...
+>
+> So many choices!
+>  =20
+Thanks for this. I am still wondering why VLC does not extract audio as
+expected.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Fine feathers make fine birds.
+
+
+--------------enigD5609CEAA865E998EDDD24C2
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvlITwACgkQM0LLzLt8MhxVpACgkLem1KSmS6j26VCD6lr8HIHy
+AawAn3Uq4shEqenhp+M8KNaZTqUAvfrl
+=TbCR
+-----END PGP SIGNATURE-----
+
+--------------enigD5609CEAA865E998EDDD24C2--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE5213C.8020709@student.ulg.ac.be
+
+

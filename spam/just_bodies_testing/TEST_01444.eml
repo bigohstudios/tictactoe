@@ -1,0 +1,29 @@
+Re: http://apt.nixia.no/From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Feb 01, 2002 at 04:15:52PM +0100, Matthias Saou wrote:
+> Once upon a time, Harri wrote :
+>=20
+> > > During the past few days, I've experienced connection problems with
+> > > that site from time to time, but for me right now it's working.
+> >=20
+> > Maybe it's temporary :-/
+>=20
+> If you need another apt repository with Red Hat Linux 7.2 files, there are
+> a few others. See : http://freshrpms.net/apt/
+
+I have a local one for the main and upgrades from somewhere plus my own
+at $ORKPLACE.
+
+blades@remiel% grep nixia /etc/apt/sources.list=20
+#rpm http://apt.nixia.no redhat/7.2/i386 gnomehide
+#rpm-src  http://apt.nixia.no redhat/7.2/i386 gnomehide
+
+Ah, that's it. They had newer gnome there
+
+--=20
+"When life hands you a lemon, make batteries
+=2E...then go electrocute someone."
+	-- Stevo, Scary Devil Monastery

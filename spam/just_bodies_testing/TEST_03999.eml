@@ -1,0 +1,42 @@
+New testing packagesHi,
+
+Just the kind of announce I make once in a while :
+- I've rebuilt a new "alsaplayer" package based on Angle's one.
+- I've rebuilt a hopefully final version "-fr8" of the "alsa-driver" and
+  "alsa-kernel" packages which fix all known SMP build issues.
+
+Both can be found here :
+http://ftp.freshrpms.net/pub/freshrpms/testing/alsa/
+
+I've also repackaged gkrellm 2.0.2 with at last a separate package for the
+server that can be installed standalone and doesn't even require glib2.
+http://ftp.freshrpms.net/pub/freshrpms/testing/gkrellm/
+
+Last but not least, my latest proftpd 1.2.6 package incorporates some nifty
+new features : You can use any of "--with ldap", "--with mysql" and "--with
+postgres" when rebuilding the source rpm with rpmbuild to enable desired
+extra authentication methods and all package requirements are set
+accordingly, and the release tag is changed too.
+http://valhalla.freshrpms.net/ (the usual place ;-))
+
+I think I'll use this "--with <whatever>" switch more and more where
+possible. Some other of my package already use it like the xmame for its
+output targets, sqlrelay for its modules and my latest sylpheed claws spec
+to enable Pilot support.
+
+As usual, feedback and comments are welcome! :-)
+
+Matthias
+
+PS: Yup, I'm back from my holidays ;-)
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10
+Load : 2.42 2.10 1.32, AC on-line, battery charging: 100% (7:12)
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

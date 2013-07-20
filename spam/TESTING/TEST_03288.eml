@@ -1,0 +1,113 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d9226bcd6b95b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs32754wfi;
+        Wed, 7 Apr 2010 09:37:45 -0700 (PDT)
+Received: by 10.141.108.12 with SMTP id k12mr969347rvm.2.1270658264927;
+        Wed, 07 Apr 2010 09:37:44 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 15si54440246iwn.74.2010.04.07.09.37.42;
+        Wed, 07 Apr 2010 09:37:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id A83031BD52E13
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 09:37:38 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9FF8A26959744
+	for <mlsubscriber.tech@csmining.org>; Wed,  7 Apr 2010 09:37:38 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay13.apple.com (relay13.apple.com [17.128.113.29])
+	by lists.apple.com (Postfix) with ESMTP id 6202A26957B07
+	for <java-dev@lists.apple.com>; Wed,  7 Apr 2010 09:33:39 -0700 (PDT)
+X-AuditID: 1180711d-b7ba0ae000000e9e-89-4bbcb3e3f5a0
+Received: from swingler-box.apple.com (swingler-box.apple.com [17.224.14.136])
+	(using TLS with cipher AES128-SHA (AES128-SHA/128 bits))
+	(Client did not present a certificate)
+	by relay13.apple.com (Apple SCV relay) with SMTP id
+	2D.AC.03742.3E3BCBB4; Wed,  7 Apr 2010 09:33:39 -0700 (PDT)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Mike Swingler <swingler@apple.com>
+In-Reply-To: <z2r18b190da1004060800td3e0b2feg2f5800963c0cbb16@mail.csmining.org>
+Date: Wed, 7 Apr 2010 09:33:38 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <055A68D4-E4D4-4C21-88AE-113EAD4C6C32@apple.com>
+References: <z2r18b190da1004060800td3e0b2feg2f5800963c0cbb16@mail.csmining.org>
+To: Patrick Malka <pm.signup@csmining.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAQAAAZE=
+Cc: list Java-dev <java-dev@lists.apple.com>
+Subject: Re: Strange behavior with Mac OS X 10.6 and minimized dialogs in
+	the	Dock
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Apr 6, 2010, at 8:00 AM, Patrick Malka wrote:
+
+> In testing interoperability of one of our products with 10.6, we =
+noticed some strange behavior.
+>=20
+> Our application is a desktop client that is always running in the =
+background thanks to LaunchServices (plist in the LaunchServices =
+directory).
+>=20
+> This all works great, but now, starting with 10.6, any time we =
+minimize a dialog that is shown by our Java application (executed via =
+LaunchServices - "java -jar ..." command line), the dialog minimizes, =
+but the thumbnail in the dock for that dialog is blank. It appears that =
+there is a gap between the trash can and the next minimized item. When =
+you hover the mouse over the gap, the dialog name shows up correctly.
+>=20
+> I have ensured that all GUI functionality is done in the EDT. It =
+states that creation of the dialog can be done on the main thread until =
+setVisible() is called and then all GUI updating must be on the EDT, so =
+I don't think that is the problem.
+>=20
+> I will create a dummy app to see if it happens with a hello world type =
+application, but I wonder if it is a bug.
+>=20
+> Has anyone seen this behavior before? I could not find any matches in =
+the archives for something like this.
+
+Are you setting an icon on the window? We previously had a bug in Java 6 =
+where we were inadvertently ignoring the icon that was set on the =
+heavyweight window components, and when we fixed it we got a bunch of =
+angry bugs about how "my window's Dock icon looks like crap!", because =
+they were setting some low-res art as the window's icon for other =
+platforms.
+
+Just a thought...I haven't tested this scenario yet. Even if you don't =
+have a simple example that reproduces the problem, if you can send us a =
+copy of your app via <http://bugreporter.apple.com> and some steps to =
+reproduce, we should be able to quickly determine what the issue is.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

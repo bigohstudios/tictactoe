@@ -1,0 +1,13 @@
+CVS report
+Just cvs up'ed and nowadays Catch-up Unseen is __extremely__ slow on 
+large (>100 msgs) unseen sequences. Anybody else having this problem?
+
+/A
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

@@ -1,0 +1,147 @@
+X-Account-Key: account5
+X-UIDL: GmailId12838d2ec7637a1e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs73450wfj;
+        Sun, 25 Apr 2010 23:34:28 -0700 (PDT)
+Received: by 10.86.239.14 with SMTP id m14mr985232fgh.78.1272263666965;
+        Sun, 25 Apr 2010 23:34:26 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si7694835fkr.9.2010.04.25.23.34.26;
+        Sun, 25 Apr 2010 23:34:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 3DA1413A541C; Mon, 26 Apr 2010 06:34:21 +0000 (UTC)
+Old-Return-Path: <madduck@piper.oerlikon.madduck.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.7 required=4.0 tests=IMPRONONCABLE_1,LDO_WHITELIST,
+	MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2,PGPSIGNATURE autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A87E313A4E77
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 06:34:15 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_1=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2, PGPSIGNATURE=-5]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Sqyc3SktUDJh for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 06:34:07 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=SKIP(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=SKIP(0) CL_IP_EQ_FROM_MX=-3.1; rate: -6.1
+Received: from clegg.madduck.net (clegg.madduck.net [193.242.105.96])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id AFFA013A5368
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 06:34:07 +0000 (UTC)
+Received: from piper.oerlikon.madduck.net (84-74-106-21.dclient.hispeed.ch [84.74.106.21])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "piper.oerlikon.madduck.net", Issuer "CAcert Class 3 Root" (verified OK))
+	by clegg.madduck.net (postfix) with ESMTPS id E76421D4004;
+	Mon, 26 Apr 2010 08:25:14 +0200 (CEST)
+Received: by piper.oerlikon.madduck.net (Postfix, from userid 1000)
+	id 51C22F9; Mon, 26 Apr 2010 08:24:52 +0200 (CEST)
+Date: Mon, 26 Apr 2010 08:24:52 +0200
+From: martin f krafft <madduck@debian.org>
+To: Stephen Powell <zlinuxman@wowway.com>
+Cc: debian-user@lists.debian.org
+Subject: Re: Why are there no latest books written for Debian systems?
+Message-ID: <20100426062452.GA21670@piper.oerlikon.madduck.net>
+Mail-Followup-To: Stephen Powell <zlinuxman@wowway.com>,
+	debian-user@lists.debian.org
+References: <4BCEBCFD.2000504@jretrading.com>
+ <2047298230.199548.1271856862719.JavaMail.root@md01.wow.synacor.com>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-ripemd160;
+	protocol="application/pgp-signature"; boundary="lrZ03NoBR/3+SXJZ"
+Content-Disposition: inline
+In-Reply-To: <2047298230.199548.1271856862719.JavaMail.root@md01.wow.synacor.com>
+X-Motto: Keep the good times rollin'
+X-OS: Debian GNU/Linux squeeze/sid kernel 2.6.33-2-amd64 x86_64
+Organization: The Debian project
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Virus-Scanned: clamav-milter 0.95.3 at clegg
+X-Virus-Status: Clean
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Wi0uMzZV37I.A.-jD.tPT1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575067
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 06:34:21 +0000 (UTC)
+
+
+--lrZ03NoBR/3+SXJZ
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Stephen Powell <zlinuxman@wowway.com> [2010.04.21.1534 +0200]:
+> This is hardly a new book.  In fact, it was written in the days of Woody.
+> (Woody -> Sarge -> Etch -> Lenny -> Squeeze)
+
+It was written in the days of the sarge freeze and is entirely
+focused on sarge.
+
+> And parts of it are obsolete.  But the author focuses on the core
+> stuff of Unix/Linux, and so most of it is still current. It's an
+> excellent guide for how to accomplish common computing tasks in
+> Linux,
+
+Interesting analysis. ;)
+
+I /wanted/ to focus on Debian and leave out the "core stuff of
+Unix/Linux" and "common computing tasks", because that's documented
+elsewhere.
+
+It is true that in the last 5 years, some parts have been obsoleted,
+but I'd say most of it still applies.
+
+Regardless, there's a need for a new edition. I am working on it.
+
+--=20
+ .''`.   martin f. krafft <madduck@d.o>      Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+echo Prpv a\'rfg cnf har cvcr | tr Pacfghnrvp Cnpstuaeic
+
+--lrZ03NoBR/3+SXJZ
+Content-Type: application/pgp-signature; name="digital_signature_gpg.asc"
+Content-Description: Digital signature (see http://martin-krafft.net/gpg/)
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEAREDAAYFAkvVMbMACgkQIgvIgzMMSnX1TgCg2fxYzm1AfM6WomEgNvdsIPMX
+hC4AoND4ZStJkmvyv0lhpT9K9qCgaz8F
+=Un8A
+-----END PGP SIGNATURE-----
+
+--lrZ03NoBR/3+SXJZ--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426062452.GA21670@piper.oerlikon.madduck.net
+
+

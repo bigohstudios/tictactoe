@@ -1,0 +1,54 @@
+Re: Unable to connect to my home wirelessFrom: John <JohnRChamplin@columbus.rr.com>
+
+> On 01/05/10, Marc Shapiro (mshapiro_42@yahoo.com) wrote:
+| When I try to connect, wicd says that it is 'Putting interface up...', 'Validating 
+| authentication...', 'Obtaining IP address...' then it times out and says 
+| 'Connection failed: Unable to Get IP Address.'
+| 
+| Does anyone have any 
+| idea what is wrong, or what config file, or error log I should look at to get 
+| more information?
+| 
+
+> I have exactly the same problem on a 600X 
+> ThinkPad, using an IBM High Rate Wireless LAN PC Card, but not on a 
+> T42pThinkPad, both running upto date sid. 
+
+> I have no clue what causes 
+> the problem, but I have found a clumsyworkaround by trial and error: when I 
+> reset the router (LinksysWRT54GL) either to WPA from WPA2, or back the other 
+> way, wic managesto connect the next try. It doesn't seem to matter whether 
+> wic islooking for a password or a pre-shared key, so long as the 
+> theprotocol is TKIP.  Next time, I have to reset the router back 
+> theother way. No further change required -- until the next time, when 
+> therouter needs to be reset _again_!.
+
+I> t's a nuisance and a > puzzlement. The only clue I get from/var/log/daemon.log is
+
+> dhclient: 
+> send_packet: Network is unreachable
+> dhclient: send_packet: please consult 
+> README file regarding broadcast address
+> (I find nothing helpful in any README 
+> (in /usr/share/doc/dhcp-client ordhcp-common.)
+> After that, ifplugd finds 
+> the network, and dhclient fails to secure aconnection. Until I reset the 
+> router and try again.
+
+> Good luck figuring out a better solution.
+
+Well, I am using WEP, not WPA, but that is, essentially, the messages that I get in daemon.log, as well..  I tried to turn WEP off then back on again.  The first time that I tried this, it actually worked.  I was able to connect.  Once I disconnected, however, I could not reconnect, even after turning security off and then on again.  Up until last Monday;s update this was working fine.  On RARE occasions I would have this kind of problem, but simply turning the router off, then back on would fix it.  That no longer works, however.  I will again point out that this same laptop connects to my wireless just fine if I use the OS which must not be named, or if I boot into eeebuntu 3.0.  Also, I can connect from Debian on this laptop with unsecured networks and also with OTHER WEP secured networks.  I tried a different WEP secured network today and it connected automatically, just like it should.  But it still will not connect to my home wireless network.  
+
+The other problems that started after Monday's update have since been solved, but this one remains and is quite annoying.  If anyone has any other ideas, I would appreciate hearing them.
+
+
+ Marc Shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/477707.99370.qm@web55506.mail.re4.yahoo.com
+
+

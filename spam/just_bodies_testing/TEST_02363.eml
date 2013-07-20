@@ -1,0 +1,38 @@
+[SAtalk] Spamassassin webinterface for Communigate using PHP releasedHi,
+
+akitogo is happy to announce that Jochen Becker has just finished a small
+nice PHP interface which integrates Spammassassin in the webuser interface
+from Communigate.
+
+It currently tested with RedHat,PHP and CGPro
+
+What is does:
+-------------
+The users are able to:
+- edit the blacklist and whitelist
+- edit required hits (score)
+- define a mailbox in which every spam mail is dropped
+
+Spamassassin settings made by the webinterfaxe are handled domain wide.
+
+You can download it from:
+-------------------------
+http://www.akitogo.com/download/spamAssassinCommunigateWebinterface.tar.gz
+
+
+Enjoy,
+
+Gunnar Lieb, akitogo OHG
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

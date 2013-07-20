@@ -1,0 +1,123 @@
+X-Account-Key: account5
+X-UIDL: GmailId12824ee061c0ee71
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs12374wfj;
+        Thu, 22 Apr 2010 02:51:51 -0700 (PDT)
+Received: by 10.223.6.150 with SMTP id 22mr423968faz.12.1271929898705;
+        Thu, 22 Apr 2010 02:51:38 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 31si6358057fkt.49.2010.04.22.02.51.38;
+        Thu, 22 Apr 2010 02:51:38 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 2773613A4F1C; Thu, 22 Apr 2010 09:51:33 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.1 required=4.0 tests=GMAIL,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 98E2C13A4EFA
+	for <lists-debian-user@liszt.debian.org>; Thu, 22 Apr 2010 09:51:27 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nKo-Z7MHfRto for <lists-debian-user@liszt.debian.org>;
+	Thu, 22 Apr 2010 09:51:19 +0000 (UTC)
+Received: from mail-qy0-f175.google.com (mail-qy0-f175.google.com [209.85.221.175])
+	by liszt.debian.org (Postfix) with ESMTP id 886E413A4862
+	for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 09:51:19 +0000 (UTC)
+Received: by qyk5 with SMTP id 5so11517616qyk.3
+        for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 02:51:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type;
+        bh=PFaY4hg2QzfqgyPMOfYONIJOepRDqfIqWnSHQjCa6XE=;
+        b=JjVdicJ9+2MIpXmFiKp1dz4k4ZEDyNtXZYb2nRFYkFE7TOQ17Xhx02VuL6gKICfTqd
+         h5nl4wEeA2nAQsvjQyZBpFZ0qhBfVQoCW7pSiNoepgTjTDUTxm0Vt0+w9xmuJ4KoKqqJ
+         nkfAThCW1G1Mn4R72+U+gMcVKzO2bsTWwcdhU=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=IXXkOhy7DRD6bGPTM4sPnfvixdmIBMyrlt2PY1KsGzGFcyyThrQR+rctDJRDIro7ld
+         OHqcHsxr/hfuRdK8Pwo5kYX/lA1Bs0FnO1ZlxWj52vJPTiqA/2C6uKYOnFshkJKgQQFw
+         WFPDPRy2H5iJWBnYA9xumSvG4n5jJd/BR6TsU=
+MIME-Version: 1.0
+Received: by 10.224.60.208 with HTTP; Thu, 22 Apr 2010 02:51:11 -0700 (PDT)
+In-Reply-To: <slrnht05h3.bu7.liam.p.otoole@dipsy.selfip.org>
+References: <y2w880dece01004220154jad02ab44yf643598b56a6bc23@mail.csmining.org>
+	 <slrnht05h3.bu7.liam.p.otoole@dipsy.selfip.org>
+Date: Thu, 22 Apr 2010 12:51:11 +0300
+Received: by 10.224.63.196 with SMTP id c4mr3192989qai.78.1271929871899; Thu, 
+	22 Apr 2010 02:51:11 -0700 (PDT)
+Message-ID: <q2z880dece01004220251ue268208fmebc004c5e1867800@mail.csmining.org>
+Subject: Re: Moving to Debian: updated software
+From: Dotan Cohen <dotancohen@csmining.org>
+To: "Liam O'Toole" <liam.p.otoole@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <VnJIUYEnfMH.A.YwE.lwB0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574748
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 22 Apr 2010 09:51:33 +0000 (UTC)
+
+On 22 April 2010 12:25, Liam O'Toole <liam.p.otoole@csmining.org> wrote:
+> On 2010-04-22, Dotan Cohen <dotancohen@csmining.org> wrote:
+>> I am looking for KDE 4.4.2 and Open Office 3.2 packages for Lenny. I
+>> have found qt-kde.debian, Debian Experimental, Testing, Unstable, and
+>> Backports. It looks to me that Backports is the best for an everyday
+>> user who values stability, and prefers to use released software
+>> version. Please let me know where I am mistaken. Thanks.
+>>
+>
+> I recommend debian-backports for users of stable who like to cherry-pick
+> later versions of software without too much hassle. OOo 3.2 is available
+> in debian-backports, but not KDE4. The debian KDE maintainers used to
+> offer KDE4 backports for lenny, but they were discontinued early on in
+> the KDE4 series.
+>
+
+Thank you, Liam. That is why I was unable to find the KDE packages. I
+thought that I may have been searching on the wrong terms, i.e. the
+package is not called "kde" or "kde-desktop".
+
+>From where to acquire KDE 4.4.2 in a reasonably safe manner?
+
+Thanks!
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/q2z880dece01004220251ue268208fmebc004c5e1867800@mail.csmining.org
+
+

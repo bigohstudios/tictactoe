@@ -1,0 +1,212 @@
+X-Account-Key: account5
+X-UIDL: GmailId12811db93345f34c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.43.17 with SMTP id v17cs50025wfj;
+        Sun, 18 Apr 2010 09:58:44 -0700 (PDT)
+Received: by 10.100.56.21 with SMTP id e21mr9252017ana.115.1271609922544;
+        Sun, 18 Apr 2010 09:58:42 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 9si12172211iwn.103.2010.04.18.09.58.42;
+        Sun, 18 Apr 2010 09:58:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id D7A021BDEB203
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 09:58:41 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D2CBD26E95FC3
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 09:58:41 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay14.apple.com (relay14.apple.com [17.128.113.52])
+	by lists.apple.com (Postfix) with ESMTP id 5041526E95DCF
+	for <X11-users@lists.apple.com>; Sun, 18 Apr 2010 09:58:22 -0700 (PDT)
+X-AuditID: 11807134-b7b22ae000005450-4a-4bcb3a2e1c48
+Received: from et.apple.com (et.apple.com [17.151.62.12])
+	by relay14.apple.com (Apple SCV relay) with SMTP id
+	FE.93.21584.E2A3BCB4; Sun, 18 Apr 2010 09:58:22 -0700 (PDT)
+Received: from [17.151.76.121] by et.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L1300L7R0FPEV70@et.apple.com> for
+	X11-users@lists.apple.com; Sun, 18 Apr 2010 09:58:21 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <460333.63537.qm@web55608.mail.re4.yahoo.com>
+Date: Sun, 18 Apr 2010 09:58:21 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <F2484E3C-20C3-42E2-A765-3A3F94FA456A@apple.com>
+References: <20100417.114055.362175913.hanche@math.ntnu.no>
+	<470592.99987.qm@web55602.mail.re4.yahoo.com>
+	<B941E3A2-60B0-4E72-9CF4-1496F7954F9B@apple.com>
+	<20100417.220307.82490045.hanche@math.ntnu.no>
+	<543587.87903.qm@web55604.mail.re4.yahoo.com>
+	<FC595004-94CA-48F4-9842-F31C862D7ED3@apple.com>
+	<460333.63537.qm@web55608.mail.re4.yahoo.com>
+To: Pierre Baguis <pbaguis@yahoo.com>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11-users@lists.apple.com,
+	Harald Hanche-Olsen <hanche@math.ntnu.no>
+Subject: Re: Middle button click broken
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Well... can you try creating a fresh user account on your machine to see =
+if it is something unique to your user.
+
+On Apr 18, 2010, at 06:20, Pierre Baguis wrote:
+
+> No, it is a cheap generic USB mouse with no drivers whatsoever. It is =
+very strange. I also tried another one, also without drivers, and it =
+behaves in the same way (that is the middle click is interpreted as a =
+LeaveNotify event). Of course before the update everything worked fine.
+>=20
+> In another machine (running X11 under WindowMaker) the update was =
+smooth without such problems. I am wondering if Gnome is to blame (but =
+then Harald had not issues).
+>=20
+> The ctrl-c and ctrl-v are obviously on the applications to handle, but =
+they worked fine in Nedit before the update. Now they are also broken (I =
+touched nothing else in the X11 installation, I only ran the XQuartz =
+installer).
+>=20
+> Pierre
+>=20
+>=20
+>=20
+>=20
+>=20
+> ----- Original Message ----
+> From: Jeremy Huddleston <jeremyhu@apple.com>
+> To: Pierre Baguis <pbaguis@yahoo.com>
+> Cc: Harald Hanche-Olsen <hanche@math.ntnu.no>; =
+X11-users@lists.apple.com
+> Sent: Sun, April 18, 2010 1:22:11 PM
+> Subject: Re: Middle button click broken
+>=20
+> erm...  do you have some kind of 3rd party drivers installed for your =
+mouse?  My guess is you have "middle click" mapped to something like =
+"cycle through apps"
+>=20
+> ctrl-c and ctrl-v are entirely on the applications to handle.  We just =
+pass along those keypresses to whatever application you're running...
+>=20
+>=20
+> On Apr 18, 2010, at 01:30, Pierre Baguis wrote:
+>=20
+>> Indeed, I followed your instructions and I clicked in the small white =
+window. I was mistaken however about the kind of output you need. The =
+middle click in my case produces precisely this:
+>>=20
+>> =
+--------------------------------------------------------------------------=
+-------------------
+>> LeaveNotify event, serial 29, synthetic NO, window 0x1c00001,
+>>   root 0x381, subw 0x0, time 268261578, (-57,257), root:(0,899),
+>>   mode NotifyNormal, detail NotifyNonlinear, same_screen YES,
+>>   focus NO, state 512
+>> =
+--------------------------------------------------------------------------=
+-------------------
+>>=20
+>>=20
+>> And this is the LeaveNotify event I take when I move the mouse =
+pointer outside the white box:
+>>=20
+>> =
+--------------------------------------------------------------------------=
+-------------------
+>> LeaveNotify event, serial 29, synthetic NO, window 0x1c00001,
+>>   root 0x381, subw 0x0, time 268570589, (7,183), root:(1013,234),
+>>   mode NotifyNormal, detail NotifyNonlinear, same_screen YES,
+>>   focus YES, state 0
+>> =
+--------------------------------------------------------------------------=
+-------------------
+>>=20
+>> Probably this explains why the middle click switches the focus to =
+another active window. But is it also related to the copy-paste (ctrl-c =
+--- ctrl-v) not working?
+>>=20
+>> Pierre
+>>=20
+>>=20
+>>=20
+>>=20
+>> ----- Original Message ----
+>> From: Harald Hanche-Olsen <hanche@math.ntnu.no>
+>> To: jeremyhu@apple.com
+>> Cc: pbaguis@yahoo.com; X11-users@lists.apple.com
+>> Sent: Sun, April 18, 2010 4:03:07 AM
+>> Subject: Re: Middle button click broken
+>>=20
+>> + Jeremy Huddleston <jeremyhu@apple.com>:
+>>=20
+>>>=20
+>>> On Apr 17, 2010, at 12:20, Pierre Baguis wrote:
+>>>=20
+>>>> The middle click caused the terminal to come forth.
+>>>=20
+>>> You need to middle click inside the white box that was brought up.
+>>=20
+>> I assumed he had done that (it's what I asked him to do), in which
+>> case the reported behaviour indicates something odd going on. Of
+>> course, the xev output he posted came from the mouse leaving the xev
+>> window, so maybe you're right and he misunderstood the instructions.
+>>=20
+>> So, to make it even clearer: Move the xev window if necessary so it
+>> doesn't cover the terminal window. Middle click in it, preferably
+>> without moving the mouse, even a little. You should now see the mouse
+>> click event in the terminal window. The moment you move the mouse,
+>> tons of movement events will roll in and scroll the click events =
+right
+>> out of the terminal window.
+>>=20
+>> - Harald
+>>=20
+>>=20
+>>=20
+>>=20
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> X11-users mailing list      (X11-users@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>>=20
+>> This email sent to jeremyhu@freedesktop.org
+>=20
+>=20
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

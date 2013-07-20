@@ -1,0 +1,32 @@
+[ILUG] Network problemsHi guys,
+	I'm looking for help on this one. I have a server with SME5.5 installed
+- used to be e-smith. It's based on RH7.1, has a 3c507 NIC, and is
+connected to a hub. Also connected to the hub are a laptop and
+workstation, both with RH7.3 . The server supplies DHCP amongst other
+things.
+	The problem is interruptions in the network. If I ping the laptop from
+the workstation, or the other way around, there are no problems, i.e.
+shows up as 0% loss. If however I ping the server from the laptop or
+workstation, it will do a few packets, anywhere from 3 to 20, and then
+stop responding, it will start again after a little while.
+	The server is definitely not overloaded, 128Mb, and seems to be
+configured correctly. In /etc/modules.conf,;
+
+options 3c507 irq=0x5 io=0x300
+alias eth0 3c507
+
+there is an option in there for something called hisax, but whatever
+that is, the machine doesn't have one.
+	doing route shows 192.168.0.0 as going through eth0 which is correct.
+
+	Any help on this appreciated.
+
+	Eamonn
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

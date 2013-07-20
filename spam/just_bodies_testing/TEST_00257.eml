@@ -1,0 +1,33 @@
+Re: Bug#578383: Bug nautilus-clamscanLe samedi 24 avril 2010 =C3=A0 13:02 +0200, Philipp Kern a =C3=A9crit :
+> On Wed, Apr 21, 2010 at 09:00:34AM +0200, Philipp Kern wrote:
+> > On Wed, Apr 21, 2010 at 08:36:24AM +0200, Josselin Mouette wrote:
+> > > Dear volatile team, would it be possible to have binNMUs for
+> > > python-clamav in volatile? Or does it need a source upload? If so, wh=
+o
+> > > could do it?
+> > thanks to adsb that already happened.  However unless somebody who's us=
+ed
+> > to the package tests it and reports back a success it won't be copied o=
+ver.
+> > dansguardian was the only package for now where that happened.  Would y=
+ou
+> > mind testing it?
+>=20
+> ping.  It's in volatils's lenny-proposed fwiw.
+
+Giulio, could you test it? Or Cl=C3=A9ment?
+--=20
+ .''`.      Josselin Mouette
+: :' :
+`. `'  =E2=80=9CIf you behave this way because you are blackmailed by someo=
+ne,
+  `-    [=E2=80=A6] I will see what I can do for you.=E2=80=9D  -- J=C3=B6r=
+g Schilling
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272116492.2336.5.camel@tomoe
+
+

@@ -1,0 +1,38 @@
+Re: automate apt-get updateOn Thu, 2010-04-08 at 09:02 +0200, Jozsi Vadkan wrote:
+> I don't want to put: apt-get update in:
+>  /etc/crontab
+> 
+> But then how could I "automate" the: apt-get update
+
+APT has such built-in feature, see
+  /etc/cron.daily/apt
+Which you can configure manually, or...
+
+> ? Is there a program for it? [e.g.: update-manager under GUI?] that
+> randomly runs apt-get update?
+
+On Debian-Gnome installation, you can install update-notifier-common
+which provide the file /etc/apt/apt.conf.d/10periodic, which contains
+the required apt settings:
+  APT::Periodic::Update-Package-Lists "1";
+  APT::Periodic::Download-Upgradeable-Packages "0";
+  APT::Periodic::AutocleanInterval "0";
+
+(Since I don't use it on my laptop, I can't give you much details)
+
+On servers, you might want to une apt-listchanges to get notifications,
+see:
+  http://wiki.aims.ac.za/mediawiki/index.php/Auto_Update_Notification
+
+
+Regards,
+
+Franklin
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1270898372.3786.948.camel@solid.paris.klabs.be
+
+

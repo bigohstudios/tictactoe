@@ -1,0 +1,32 @@
+Re: How to remove oowriter delay on opening document?On Sun, 18 Apr 2010 02:25:38 +0700, Sthu Deus wrote:
+
+> I have oowriter from testing repo installed w/ all the necessary
+> dependencies. Now at opening of the first document it hangs for about 40
+> seconds - all other documents it opens quickly - the same is for oocalc.
+> 
+> Is there anything I can do to remove this delays?
+
+As Ron already said, review your system specs. 
+
+OOo needs a lot of ram the first time it opens, and keeps consuming a 
+good quantity of your system resources as long as is loaded.
+
+In OOo 2.4 there is a "quick launch" option that preloads OOo at startup, 
+not sure if that is available on newer releases.
+
+Another thing you can try is launching OOo with an empty profile folder 
+(just rename the current one) to start it from scratch and check if the 
+delay still continues.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.18.13.30.40@csmining.org
+
+

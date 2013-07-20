@@ -1,0 +1,142 @@
+Re: Java Web Start Offline ProblemsI am running the same version (developer preview) that you are (I'm =
+running on Mac OS X Server 10.6, but I don't think that makes any =
+difference).
+
+If I disconnect both the internet and the LAN, your app and mine launch =
+OK.  Makes no sense to me.
+
+On Apr 16, 2010, at 1:44 PM, Gabriele Kahlout wrote:
+
+> BTW: I had attached a screnshoot that showed my java -version, no
+> network connection, and MemorizEasy application window (launched after
+> I disconnected to any network).
+> However it may not be posted to the list.
+>=20
+> Maybe you should try disconnecting completely too?
+>=20
+> 2010/4/16, Gabriele Kahlout <gabriele@mysimpatico.com>:
+>> At this point, I don't know what else to say. I hope volks from the
+>> community could re-do the tests we did and report back.
+>>=20
+>> 2010/4/16, Nick Howes <nick@ghostwood.org>:
+>>> I launched via the JNLP (online) and created a "shortcut" app.  I =
+then
+>>> quit
+>>> the app and shut down my internet connection (still with a local =
+LAN).  I
+>>> double-clicked the "shortcut" app - I waited at least 2 minutes and =
+it
+>>> did
+>>> not launch (the app name appears in the menu bar, but nothing else). =
+ As
+>>> soon as I reconnected my internet connection, it launched.
+>>>=20
+>>>=20
+>>> On Apr 16, 2010, at 1:26 PM, Gabriele Kahlout wrote:
+>>>=20
+>>>> It works on my end. I think I own of users that use it offline too.
+>>>> What steps did you follow?
+>>>>=20
+>>>> 2010/4/16, Nick Howes <nick@ghostwood.org>:
+>>>>> Thanks Gabriele.  I was able to launch your app online without a
+>>>>> problem,
+>>>>> but I could not launch it offline.  I do have the latest Developer
+>>>>> Preview
+>>>>> installed and I suspect that might be the problem: I believe the =
+bug
+>>>>> may
+>>>>> have been introduced with Java 1.6.0_18.
+>>>>>=20
+>>>>>=20
+>>>>> On Apr 16, 2010, at 12:47 PM, Gabriele Kahlout wrote:
+>>>>>=20
+>>>>>> http://memorizeasy.mysimpatico.com
+>>>>>>=20
+>>>>>> It's actually 2 jnlps, one setup and one launch.
+>>>>>>=20
+>>>>>> Should it not work offline with you, pls let me know. I'm aware =
+that
+>>>>>> it does work (I've tested that some time ago, and just now,  but =
+...).
+>>>>>>=20
+>>>>>> I also verified that yours doesn't launch offline.
+>>>>>>=20
+>>>>>>=20
+>>>>>> 2010/4/16, Nick Howes <nick@ghostwood.org>:
+>>>>>>> On Apr 16, 2010, at 11:18 AM, Gabriele Kahlout wrote:
+>>>>>>>=20
+>>>>>>>>> Launching without an internet connection causes the =
+application to
+>>>>>>>>> "hang".
+>>>>>>>>=20
+>>>>>>>> In the case of my application this doesn't happen. Must be =
+specific
+>>>>>>>> to
+>>>>>>>> some cases.
+>>>>>>>=20
+>>>>>>> Thanks for that information.
+>>>>>>>=20
+>>>>>>> Maybe it's something about our JNLP file
+>>>>>>> <http://driveweb.com/tech/ap/v3/dw.jnlp>.  Could you maybe share =
+the
+>>>>>>> JNLP
+>>>>>>> file for the case that doesn't hang?
+>>>=20
+>>>=20
+>>=20
+>>=20
+>> --
+>> Regards,
+>> K. Gabriele
+>>=20
+>> --- unchanged since 25/1/10 ---
+>> P.S. Unless a notification (LON), please reply either with an answer
+>> OR with " ACK" appended to this subject within 48 hours. Otherwise, I
+>> might resend.
+>> In(LON, this) =E2=88=A8 In(48h, TimeNow) =E2=88=A8 =E2=88=83x. In(x, =
+MyInbox) =E2=88=A7 IsAnswerTo(x,
+>> this) =E2=88=A8 (In(subject(this), subject(x)) =E2=88=A7 In(ACK, =
+subject(x)) =E2=88=A7
+>> =C2=ACIsAnswerTo(x,this)) =E2=87=92 =C2=ACIResend(this).
+>>=20
+>> Also note that correspondence may be received only from specified a
+>> priori senders, or if the subject of this email ends with a code, eg.
+>> -LICHT01X, then also from senders whose reply contains it.
+>> =E2=88=80x. In(x, MyInbox) =E2=87=92 In(senderAddress(x), =
+MySafeSenderList) =E2=88=A8 (=E2=88=83y.
+>> In(y, subject(this) ) =E2=88=A7 In(y,x) =E2=88=A7 isCodeLike(y, =
+-LICHT01X) ).
+>>=20
+>=20
+>=20
+> --=20
+> Regards,
+> K. Gabriele
+>=20
+> --- unchanged since 25/1/10 ---
+> P.S. Unless a notification (LON), please reply either with an answer
+> OR with " ACK" appended to this subject within 48 hours. Otherwise, I
+> might resend.
+> In(LON, this) =E2=88=A8 In(48h, TimeNow) =E2=88=A8 =E2=88=83x. In(x, =
+MyInbox) =E2=88=A7 IsAnswerTo(x,
+> this) =E2=88=A8 (In(subject(this), subject(x)) =E2=88=A7 In(ACK, =
+subject(x)) =E2=88=A7
+> =C2=ACIsAnswerTo(x,this)) =E2=87=92 =C2=ACIResend(this).
+>=20
+> Also note that correspondence may be received only from specified a
+> priori senders, or if the subject of this email ends with a code, eg.
+> -LICHT01X, then also from senders whose reply contains it.
+> =E2=88=80x. In(x, MyInbox) =E2=87=92 In(senderAddress(x), =
+MySafeSenderList) =E2=88=A8 (=E2=88=83y.
+> In(y, subject(this) ) =E2=88=A7 In(y,x) =E2=88=A7 isCodeLike(y, =
+-LICHT01X) ).
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

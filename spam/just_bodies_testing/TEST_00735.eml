@@ -1,0 +1,29 @@
+Re: C programming questionOn Fri, 16 Apr 2010 14:13:36 -0400 (EDT), Boyd Stephen Smith Jr. wrote:
+> Stephen Powell wrote:
+>> I'm going to be filing a bug report against parted for (a) miscalculating
+>> the starting block of the implicit partition on an ldl (Linux Disk Layout)
+>> formatted disk on the s390 architecture when the block size is other than
+>> 4096, and (b) no support for CMS-formatted disks.  I'm going to include my
+>> patch files for the fix in the bug report.  
+>> Would you like to be in the
+>> credits?
+> 
+> That would be awesome!
+
+   http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=578097
+
+Your name is in the changelog patch.  Thanks again.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2132081836.81881.1271453101549.JavaMail.root@md01.wow.synacor.com
+
+

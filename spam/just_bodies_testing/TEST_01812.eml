@@ -1,0 +1,50 @@
+Re: [SAtalk] http://www.spamassassin.orgOn Monday 22 July 2002 07:00 CET John Rudd wrote:
+> On Sunday, July 21, 2002, at 08:30 , Bob Proulx wrote:
+> > > http://www.spamassassin.org
+> > > Is anyone besides me having problems getting to the site?
+
+Jepp. The same is true for Justin's private page jmason.org. traceroutes to 
+both these servers die at the same point:
+| mss@otherland:~> /usr/sbin/traceroute spamassassin.org
+| traceroute to spamassassin.org (212.17.35.15), 30 hops max, 40 byte
+|  packets
+|  1  nebukadnezar.msquadrat.de (10.10.1.111)  9 ms  1 ms  1 ms
+|  2  212.185.255.161 (212.185.255.161)  54 ms  54 ms  55 ms
+|  3  212.185.255.162 (212.185.255.162)  55 ms  54 ms  55 ms
+|  4  F-gw13.F.NET.DTAG.DE (62.154.18.46)  63 ms  62 ms  62 ms
+|  5  rt007ffm.de.vianw.net (194.231.40.201)  63 ms  62 ms  61 ms
+|  6  r1ffm.vianw.net (213.2.254.45)  62 ms  63 ms  62 ms
+|  7  r2ffm.vianw.net (213.2.254.42)  63 ms  63 ms  63 ms
+|  8
+There're probably some problems with Justin's webserver; I'm shure he's 
+already looking into this as it affects his own website, too :o)
+
+> > What site is that one?  Isn't this site on sourceforge the official
+> > home page?
+> >
+> >   http://spamassassin.sourceforge.net/
+
+spamassassin.sf.net is the US mirror, also accessible through 
+us.spamassassin.org.
+
+> They appear to be the same page, but until recently I could get to the
+> www. spamassassin.org one, but it hasn't been responsive the last couple
+> days.
+
+For me it worked until yesterday or the day before.
+
+> But then, I also haven't been able to get anyone to answer my questions
+> about user_prefs files (not the one from earlier today, but from a couple
+> days ago).
+
+About this question: No, that's currently not possible. But I was thinking 
+about implementing a feature like this; it might be in the next release.
+
+Malte
+
+-- 
+-- Coding is art.
+-- 
+
+
+

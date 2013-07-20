@@ -1,0 +1,37 @@
+Re: Is this possible ?On 5/20/2010 8:45 AM, export@hope.cz wrote:
+> Let’s suppose this configuration
+>
+> |Server1| <----- |Server2| <----- |Client|
+>
+> A client sends a request that starts a script on Server2.The script (
+> running on server2) from this server 2 will download a webpage from
+> Server1.
+> Is it possible to record Client’s IP on Server1, instead of Server2’s
+> IP? In other words, Server1 will think the request for downloading is
+> directly from Client.
+> That is Server2’s IP will be “invisible” for Server1
+>
+> Is this possbile?
+
+
+The diagram looks like a typical proxying situation.  If you are trying 
+to avoid having someone identify you, it may not work as well as you 
+would like.
+
+If your goal is transparency, what you can do depends on your level of 
+access and control of server2.  If your goal is of obscurity, it may 
+work to a degree, but there have been some news stories lately of, for 
+instance, security researchers identifying the IP of people even though 
+they went through Tor.
+
+So, yes, it may be possible.
+
+MAA
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF59E14.9030903@allums.com
+
+

@@ -1,0 +1,20 @@
+Re: aptitude and held packagesOn Mon, Apr 26, 2010 at 10:29:06AM -0400, Rick Pasotto <rick@niof.net> was heard to say:
+> I just upgraded apt and aptitude to the latest testing version. Although
+> 'aptitude -s safe-upgrade' tells me that '172 not upgraded' it no longer
+> lists them. Is this a bug or an intentional change?
+
+  That's ... a good question.  I'll get back to you.
+
+  My guess is that when the safe-upgrade code was merged into the other
+command-line actions, you got a behavior change for free.  Must be your
+lucky day! :-)
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100427135852.GC29591@emurlahn.burrows.local
+
+

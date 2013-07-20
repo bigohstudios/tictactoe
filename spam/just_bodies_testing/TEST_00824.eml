@@ -1,0 +1,47 @@
+ICMDecompressionSessionDecodeFrame - decoding packets arriving out
+	of orderI am stuck up with the issue mentioned below.please help me to sort this out.
+
+OSStatus ICMDecompressionSessionDecodeFrame (
+ICMDecompressionSessionRef session,
+const UInt8 *data,
+ByteCount dataSize,
+ICMDecompressionFrameOptionsRef frameOptions,
+const ICMFrameTimeRecord *frameTime,
+void *sourceFrameRefCon
+);
+
+This API is invoked as
+
+OSStatus ICMDecompressionSessionDecodeFrame (
+ICMDecompressionSessionRef session,
+const UInt8 *data,
+ByteCount dataSize,
+NULL,
+NULL,
+void *sourceFrameRefCon
+);
+
+sometimes the  decoder is not capturing error for packets arriving out
+of order therby giving grey,green images at display.For packets
+arriving in order the decoding is fine.Is there anything to be done to
+get the video right for packets arriving out of order.
+
+
+1) How do I populate frameOptions input to the decoder api ?WiIl using
+this help in any way to solve the above problem of green,gray video?
+
+
+2) Should the struct ICMFrameTimeRecord  be populated to overcome this
+issue?If so what are the essential fields to be filled in the struct
+ICMFrameTimeRecord.
+
+
+Thanks,
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

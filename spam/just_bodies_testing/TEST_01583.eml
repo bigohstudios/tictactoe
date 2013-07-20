@@ -1,0 +1,29 @@
+~/.xsession-errors file grows way too bigHi,
+
+I am astonished to find out that my ~/.xsession-errors grows to a 
+humongous 640M! My wife's is nearly 400M as well. This is way way too 
+big. 
+
+I took a look, the reason and cure is very simple -- having X to trunk it 
+each time when started 
+(http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=287876)
+whereas currently, my ~/.xsession-errors kept logs back to stone age. 
+
+However, such reasonable request has been tabled for 6 years now. The DD 
+gave loads of irrelevant reasons as excuse of not fixing it. Ref:
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=276545
+
+Any comment? 
+
+-- 
+Tong (remove underscore(s) to reply)
+  http://xpt.sourceforge.net/techdocs/
+  http://xpt.sourceforge.net/tools/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ht131h$ell$1@dough.gmane.org
+
+

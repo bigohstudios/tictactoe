@@ -1,0 +1,66 @@
+Re: Mouse/Keyboard "Hook"?I don't think this is the right list for this question. Your best bet
+may be to contact the author of Teleport[1] and ask him what he did.
+
+[1]: http://www.abyssoft.com/software/teleport/
+
+-Kevin Ballard
+
+On Thu, Apr 29, 2010 at 2:56 PM, Luke Scott <luke@cywh.com> wrote:
+> I'm trying to make a program in C/C++ that blocks the mouse and keyboard
+> events on the local system (as if they didn't happen) and send them to
+> another machine over LAN. Essentially my end goal is to control computer =
+B
+> with the mouse and keyboard from computer A.
+>
+> I've done a lot of this already on Windows 2000/XP and above through
+> low-level hooks, but I'm not sure where to start with OS X. I want to mak=
+e
+> it compatible with Tiger and above (or even just Leopard and above - depe=
+nds
+> on the solutions available).
+>
+> I really haven't done much application development on the Mac. I'm sure
+> there is documentation about it somewhere, but I'm not sure what to searc=
+h
+> for. When I search for anything related to "keyboard and mouse hooks" on
+> Google everything I get back is Windows related... So "hooks" must not be
+> the proper terminology for the Mac.
+>
+> I pretty much need to know what my options are, and which options are bet=
+ter
+> suited for my goal. I've heard that there is an accessibility API for thi=
+s
+> sort of thing, but where the documentation is and what my options are
+> outside of that I don't know. Are there any sample projects, or sample co=
+de
+> that demonstrate similar functionality?
+>
+> Any information on the subject would be greatly appreciated :).
+>
+> Thanks,
+>
+> Luke
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Objc-language mailing list =C2=A0 =C2=A0 =C2=A0(Objc-language@lists.apple=
+.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/objc-language/kballard%40csmining.org
+>
+> This email sent to kballard@csmining.org
+>
+
+
+
+--=20
+Kevin Ballard
+http://kevin.sb.org
+kballard@csmining.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,189 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d72f694de6dbf
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs9434wfi;
+        Wed, 7 Apr 2010 00:32:42 -0700 (PDT)
+Received: by 10.87.58.6 with SMTP id l6mr13131199fgk.15.1270625560622;
+        Wed, 07 Apr 2010 00:32:40 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 3si3961938fxm.26.2010.04.07.00.32.40;
+        Wed, 07 Apr 2010 00:32:40 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 923862D1EC0; Wed,  7 Apr 2010 07:32:37 +0000 (UTC)
+Old-Return-Path: <daniel.sutil@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 276912D1EB7
+	for <lists-debian-kde@liszt.debian.org>; Wed,  7 Apr 2010 07:32:31 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JwYQ0p6pwwVq for <lists-debian-kde@liszt.debian.org>;
+	Wed,  7 Apr 2010 07:32:20 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yx0-f204.google.com (mail-yx0-f204.google.com [209.85.210.204])
+	by liszt.debian.org (Postfix) with ESMTP id 05E782D1EA0
+	for <debian-kde@lists.debian.org>; Wed,  7 Apr 2010 07:32:15 +0000 (UTC)
+Received: by yxe42 with SMTP id 42so462410yxe.24
+        for <debian-kde@lists.debian.org>; Wed, 07 Apr 2010 00:32:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type;
+        bh=d6lQcCbhT1fDCki1oOAUUkSs8uDCPVBAqtoK2YZpEfs=;
+        b=oU/0A9pKPisrhftabXUyuGgFxsa9f8QxacyMTraWXCZCc5Lzff0DbHpSHa2P77QfKK
+         dw9BpNnQtb3ObE0XGsY5OsiuRqsg0DOkWUOYT2SQBsIbsuCf5qiTHCf92LHh1m5m1tyg
+         ucQYV7B+UnhVHLBCQRUpqYA1I2hCtzQBg/1SM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=KWoN1sYna83R8TnS+cSDWXeEzAt6aLuW0QH3/DttrCAIJwCP4ukbSyZVZks1WIPa+9
+         +MaztXJVCfmUfPtAw3k5jpTq68E7EZ0e389bGf26JdjfPcIyRva4upNcrYYab3KgrJI/
+         hW/3FMAlaIYtp+sQyHlGlv3O6RFkBK/H8Vg+k=
+MIME-Version: 1.0
+Received: by 10.90.71.7 with HTTP; Wed, 7 Apr 2010 00:32:07 -0700 (PDT)
+In-Reply-To: <201004062253.54963.colonius@free.fr>
+References: <4BBB62E7.9010208@csmining.org>
+	 <l2w8f23146b1004061146w7dca7842sd0c14533936b2caa@mail.csmining.org>
+	 <n2zaee79c571004061341q66664974z7e5c4ce1decdb79d@mail.csmining.org>
+	 <201004062253.54963.colonius@free.fr>
+Date: Wed, 7 Apr 2010 09:32:07 +0200
+Received: by 10.90.172.1 with SMTP id u1mr1618160age.66.1270625527838; Wed, 07 
+	Apr 2010 00:32:07 -0700 (PDT)
+Message-ID: <i2oaee79c571004070032k10e63e9dw6918c8eddb502e5e@mail.csmining.org>
+Subject: Re: Cannot login
+From: Daniel Sutil <daniel.sutil@csmining.org>
+To: debian-kde@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016362841083ab7c40483a08f05
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <W25AzByaOu.A.aPG.VUDvLB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/31970
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 07:32:37 +0000 (UTC)
+
+--0016362841083ab7c40483a08f05
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+To try to solve the problem, Can someone without the problem list the files
+in /lib32 and in /usr/lib32?
+
+Thanks,
+
+Un saludo,
+
+Daniel Sutil
+
+
+
+On Tue, Apr 6, 2010 at 10:53 PM, Klaus Becker <colonius@free.fr> wrote:
+
+> Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :
+> > Finally I applied the following workaround: I remove kdm and installed
+> gdm.
+> > After that, I have no problem to login. I haven't investigated any
+> further
+> > because I really don't know from where the problem comes, but now, mayb=
+e
+> we
+> > have to undo the steps applied with the skype's solution to solve our
+> > problem.
+>
+>
+> Hi,
+>
+> I had the same problem with kdm, but no problem with gdm.
+>
+> cheers
+>
+> Klaus
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/201004062253.54963.colonius@free.fr
+>
+>
+
+--0016362841083ab7c40483a08f05
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hello,<br><br>To try to solve the problem, Can someone without the problem =
+list the files in /lib32 and in  /usr/lib32?<br><br>Thanks,<br><br clear=3D=
+"all">Un saludo,<br><br>Daniel Sutil<br><br>
+<br><br><div class=3D"gmail_quote">On Tue, Apr 6, 2010 at 10:53 PM, Klaus B=
+ecker <span dir=3D"ltr">&lt;<a href=3D"mailto:colonius@free.fr">colonius@fr=
+ee.fr</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"m=
+argin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204); paddin=
+g-left: 1ex;">
+Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :<br>
+<div class=3D"im">&gt; Finally I applied the following workaround: I remove=
+ kdm and installed gdm.<br>
+&gt; After that, I have no problem to login. I haven&#39;t investigated any=
+ further<br>
+&gt; because I really don&#39;t know from where the problem comes, but now,=
+ maybe we<br>
+&gt; have to undo the steps applied with the skype&#39;s solution to solve =
+our<br>
+&gt; problem.<br>
+<br>
+<br>
+</div>Hi,<br>
+<br>
+I had the same problem with kdm, but no problem with gdm.<br>
+<br>
+cheers<br>
+<br>
+Klaus<br>
+<div class=3D"im"><br>
+<br>
+--<br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-kde-REQUEST@lists.debian.=
+org">debian-kde-REQUEST@lists.debian.org</a><br>
+with a subject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mail=
+to:listmaster@lists.debian.org">listmaster@lists.debian.org</a><br>
+</div>Archive: <a href=3D"http://lists.debian.org/201004062253.54963.coloni=
+us@free.fr" target=3D"_blank">http://lists.debian.org/201004062253.54963.co=
+lonius@free.fr</a><br>
+<br>
+</blockquote></div><br>
+
+--0016362841083ab7c40483a08f05--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2oaee79c571004070032k10e63e9dw6918c8eddb502e5e@mail.csmining.org
+
+

@@ -1,0 +1,29 @@
+Re: Mounting DVD.  What am I doing wrong?On 05/01/2010 05:17 PM, Camaleón wrote:
+> On Sat, 01 May 2010 15:38:50 -0500, Ron Johnson wrote:
+>
+>> On 05/01/2010 02:57 PM, Rick Thomas wrote: [snip]
+>
+> (...)
+>
+>>> So you can "read" the directory without the "x" bit, but it doesn't do
+>>> you a fat load of good.
+>>>
+>>>
+>> Interesting.  What magic do I chant to make executable those files in
+>> udf partitions, since "exec" in the fstab options doesn't seem to work?
+>
+> Does this happen with all DVD/CDs you insert or just only with a few ones?
+>
+
+Apparently only on disks burned on a Toshiba DVR.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDCB2AA.1000604@cox.net
+
+

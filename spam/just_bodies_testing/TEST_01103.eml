@@ -1,0 +1,22 @@
+Re: EOL of KDE SC 4.4.2 in qt-kde.debian.netOn Sat April 10 2010 06:43:13 Modestas Vainius wrote:
+> Hello,
+> 
+> KDE SC 4.4.2 packages in qt-kde.debian.net have been superseded by packages
+> uploaded to official Debian experimental archive and therefore they were
+> removed from the semi-official repository. As it was written on the
+> introductory page of qt-kde.debian.net, the repository itself will remain
+> to exist and might get some random extremely bleeding edge updates from
+> time to time. Feel free to keep it in your /etc/apt/sources.list.
+
+My humble thanks to all who helped us enjoy this great privilege.
+
+-- 
+Bud Rogers <budr at netride net>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004100750.52732.budr@netride.net
+
+

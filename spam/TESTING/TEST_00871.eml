@@ -1,0 +1,170 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286021571b0f89e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs247278wfj;
+        Mon, 3 May 2010 14:45:18 -0700 (PDT)
+Received: by 10.87.67.13 with SMTP id u13mr11175103fgk.66.1272923117390;
+        Mon, 03 May 2010 14:45:17 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z15si319559fkz.21.2010.05.03.14.45.16;
+        Mon, 03 May 2010 14:45:17 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 84DFA13A50F7; Mon,  3 May 2010 21:45:11 +0000 (UTC)
+Old-Return-Path: <quarkpt@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-2.0 required=4.0 tests=GMAIL,HTML_MESSAGE,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 849492D0BE4
+	for <lists-debian-user@liszt.debian.org>; Mon,  3 May 2010 21:30:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 2Q3BXNNehJtd for <lists-debian-user@liszt.debian.org>;
+	Mon,  3 May 2010 21:29:56 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-gw0-f47.google.com (mail-gw0-f47.google.com [74.125.83.47])
+	by liszt.debian.org (Postfix) with ESMTP id 0D4B413A50B1
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 21:29:55 +0000 (UTC)
+Received: by gwj23 with SMTP id 23so1302607gwj.6
+        for <debian-user@lists.debian.org>; Mon, 03 May 2010 14:29:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=RMXq/ZzTUv5705hLn1Dyudg1rTlPvYCDhDNndUnehKo=;
+        b=enBQhhKdzcReT7NC06ucZ70fbWJGI8nFHMML7IR9d1fd9ejXpk4XKZAV6sb3HDC7cl
+         PUUFkHFnOWuTcJXQXPZUBwPzn77eLnXEWjqdnK1IuD1LNZCROhrg7w3CFW5YsR3DvRPV
+         jM02li9FvHXVCukuKFs5dnm33o01w0XDx//Z8=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=TMmTaefHNgyHG60kPpBekFvqnQXAoZSh3DC6tJFCg4WDpZ674ThB5+kBkFhsS8gSPI
+         +Zp2M6n6P3tJ6jZ4eO05NIRfnCrhS7eLnz7lIL+4cdfr9BdXd4MCejfAbZDjDWODEUDD
+         a1fSTyNcbyp5QDVpV6ncjL6YUR7x8JRbWYRnU=
+MIME-Version: 1.0
+Received: by 10.91.51.2 with SMTP id d2mr2258726agk.31.1272922188204; Mon, 03 
+	May 2010 14:29:48 -0700 (PDT)
+Received: by 10.90.102.1 with HTTP; Mon, 3 May 2010 14:29:48 -0700 (PDT)
+In-Reply-To: <t2s92e02fab1005021217le43861d0m64e19a959c3f6ad9@mail.csmining.org>
+References: <t2s92e02fab1005021217le43861d0m64e19a959c3f6ad9@mail.csmining.org>
+Date: Mon, 3 May 2010 14:29:48 -0700
+Message-ID: <w2u92e02fab1005031429g36268ej8c7c065fd5d49d5a@mail.csmining.org>
+Subject: Re: 64-bit netbooks with Debian linux
+From: Peter Tenenbaum <quarkpt@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=001485f876eadacb720485b74aa8
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <0pl2s5xu9M.A.I4B.nP03LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575785
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 21:45:11 +0000 (UTC)
+
+--001485f876eadacb720485b74aa8
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi, everyone --
+
+I guess I should clarify my desirement for 64-bit.  There are two things
+here.  First, I intend to build a home computer which will run linux, and it
+will be 64-bit; since I'm quite new to maintaining my own linux computers,
+I'd rather limit the number of differences between the home machine and my
+portable.  Second is just a desire to avoid early obsolescence in the
+portable, since at some point I expect 64 bit to become the standard and
+32-bit to fade into the past.  That day may not be near, and in any event it
+may be crazy to worry about obsolescence of a computer which costs less than
+an iPod, but that's just the way I roll.
+
+It also sounds like the respndents to my first message are underwhelmed by
+netbooks in general and recommend that I look at a low-end notebook / laptop
+computer instead.  I confess that the distinction is a bit blurry to me.
+
+In any event, with those caveats, perhaps I should ask more generally for
+recommendations of netbooks or smallish laptops which people recommend as
+being compatible with Debian linux.
+
+Thanks again,
+-PT
+
+On Sun, May 2, 2010 at 12:17 PM, Peter Tenenbaum <quarkpt@csmining.org> wrote:
+
+> I've been thinking about getting a netbook and I'd like to install Debian
+> linux on it when / if I do.  I'd also like to get one which uses an
+> AMD64-class processor.  Does anyone have any suggestions?  The Gateway LT21
+> looks like just what I want in terms of hardware (ie, fairly low-end but
+> 64-bit); has anyone got any positive / negative experience installing Debian
+> on this computer?
+>
+> Thanks in advance,
+> -PT
+>
+
+--001485f876eadacb720485b74aa8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi, everyone -- <br><br>I guess I should clarify my desirement for 64-bit.=
+=A0 There are two things here.=A0 First, I intend to build a home computer =
+which will run linux, and it will be 64-bit; since I&#39;m quite new to mai=
+ntaining my own linux computers, I&#39;d rather limit the number of differe=
+nces between the home machine and my portable.=A0 Second is just a desire t=
+o avoid early obsolescence in the portable, since at some point I expect 64=
+ bit to become the standard and 32-bit to fade into the past.=A0 That day m=
+ay not be near, and in any event it may be crazy to worry about obsolescenc=
+e of a computer which costs less than an iPod, but that&#39;s just the way =
+I roll.<br>
+<br>It also sounds like the respndents to my first message are underwhelmed=
+ by netbooks in general and recommend that I look at a low-end notebook / l=
+aptop computer instead.=A0 I confess that the distinction is a bit blurry t=
+o me.=A0 <br>
+<br>In any event, with those caveats, perhaps I should ask more generally f=
+or recommendations of netbooks or smallish laptops which people recommend a=
+s being compatible with Debian linux.<br><br>Thanks again,<br>-PT<br><br>
+<div class=3D"gmail_quote">On Sun, May 2, 2010 at 12:17 PM, Peter Tenenbaum=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:quarkpt@csmining.org">quarkpt@gmail.c=
+om</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"bord=
+er-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-l=
+eft: 1ex;">
+I&#39;ve been thinking about getting a netbook and I&#39;d like to install =
+Debian linux on it when / if I do.=A0 I&#39;d also like to get one which us=
+es an AMD64-class processor.=A0 Does anyone have any suggestions?=A0 The Ga=
+teway LT21 looks like just what I want in terms of hardware (ie, fairly low=
+-end but 64-bit); has anyone got any positive / negative experience install=
+ing Debian on this computer?<br>
+
+<br>Thanks in advance,<br><font color=3D"#888888">-PT<br>
+</font></blockquote></div><br>
+
+--001485f876eadacb720485b74aa8--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/w2u92e02fab1005031429g36268ej8c7c065fd5d49d5a@mail.csmining.org
+
+

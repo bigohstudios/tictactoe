@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId128752255fba11b8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs480034wfb;
+        Fri, 7 May 2010 16:38:23 -0700 (PDT)
+Received: by 10.142.6.33 with SMTP id 33mr477105wff.135.1273275503875;
+        Fri, 07 May 2010 16:38:23 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 12si1605335pzk.83.2010.05.07.16.38.23;
+        Fri, 07 May 2010 16:38:23 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 96F001BFAE99C
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 16:38:23 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9266D277D40FC
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 16:38:23 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id B8619277D3F07
+	for <x11-users@lists.apple.com>; Fri,  7 May 2010 16:38:05 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay3.apple.com (Postfix) with ESMTP id 96448D18BF92
+	for <x11-users@lists.apple.com>; Fri,  7 May 2010 16:38:05 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-32-4be4a45dd589
+Received: from smtp2.es.uci.edu (smtp2.es.uci.edu [128.200.80.28])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	61.16.15139.D54A4EB4; Fri,  7 May 2010 16:38:05 -0700 (PDT)
+Received: from magnet.ps.uci.edu (magnet.ps.uci.edu [128.200.31.32])
+	(authenticated bits=0)
+	by smtp2.es.uci.edu (8.13.1/8.13.1) with ESMTP id o47Nc32Z013231
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Fri, 7 May 2010 16:38:04 -0700
+X-UCInetID: dennison
+Message-ID: <4BE4A45D.3020104@uci.edu>
+Date: Fri, 07 May 2010 16:38:05 -0700
+From: Philip Dennison <dennison@uci.edu>
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en-US;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Jeremy Huddleston <jeremyhu@apple.com>
+References: <4BE31818.5080907@uci.edu>
+	<1AE0E45E-03CB-4463-9AAD-DFB387D6FA5B@apple.com>
+In-Reply-To: <1AE0E45E-03CB-4463-9AAD-DFB387D6FA5B@apple.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: X11 Mailing <x11-users@lists.apple.com>
+Subject: Re: 8-bit color in Tiger X11 and Snow Leopard X11
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 20100507 16:02, Jeremy Huddleston wrote:
+>
+> On May 6, 2010, at 12:27, Philip Dennison wrote:
+>
+>> If X11 is not set to output 256 colors,
+>
+> Pseudocolor is not very well supported by the X11 community as it is a very outdated and costly way to handle colors.  We have limited support in XQuartz, but you must select the 8bit mode.
+>
+> Most of these applications probably won't even work on modern Xorg DDXs either.  You really should update your applications or ask the developers to support TrueColor... They've had well over a decade to do it...
+>
+> --Jeremy
+>
+>
+
+Thanks Jeremy.
+
+Unfortunately neither the software or operating system is supported 
+anymore. I prefer the old software to the current alternative (and 
+already have the licenses), and the SGI platform is so reliable. The 
+computers are at least 12 years old and the Bruker XwinNMR program, was 
+replaced about 5-6 years ago!
+
+It is also unfortunate that this was handled so nicely by the old X11. I 
+haven't yet tried installing the Tiger X11 on a Snow Leopard machine - 
+would the instructions for doing this under Leopard still work?
+
+Phil.
+-- 
+Dr Phil Dennison
+NMR Facility Director           (949)824-6010 (office)
+Department of Chemistry         (949)824-5649 (lab)
+University of California        (949)824-8571 (fax)
+Irvine, CA 92697-2025           dennison@uci.edu
+USA
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

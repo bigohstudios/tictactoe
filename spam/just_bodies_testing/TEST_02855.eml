@@ -1,0 +1,15 @@
+[SQL] Database joinsFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+I have created two databases, db1 and db2  in my POSTGRESQL database system.
+And both the databases contains few tables also.
+Could you please help me to write a query which should retrieve data from b=
+oth the databases
+(Database joins and table joins)
+Expecting and earliest reply
+Regards
+Jay
+

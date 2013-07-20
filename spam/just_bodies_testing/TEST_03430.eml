@@ -1,0 +1,37 @@
+Re: Quick php advice needed :-)I am a php programmer (very busy one at that - anglemail.org) but if someone
+gets to this before me, I would also love to se the code because I want my
+rpms site to be more user friendly.
+
+Matthias Saou (matthias@egwn.net) wrote*:
+>
+>Sorry, this hasn't got much to do with rpm packages directly ;-)
+>
+>My "builds" page is getting bigger and bigger, and quite messy as
+>directories are listed in no particular order :
+>http://freshrpms.net/builds/
+>
+>What I'd need is to have last modification date of the directory displayed
+>next to the directory name (sort of like "mplayer - Thu Aug 1 2002"), and
+>the list ordered to have the most recent entries at the top.
+>
+>Now, if there are php programmers on this list, I'd love to have their help
+>on how to do this ;-) It must be quite simple to get the system mtime for
+>the directory, it's the ordering that scares me a bit more.
+>
+>Attached is the current code (please keep in mind that I'm not a
+>programmer, it usually explains a lot ;-)).
+>
+>Matthias
+>
+>
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

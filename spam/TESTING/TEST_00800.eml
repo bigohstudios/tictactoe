@@ -1,0 +1,74 @@
+From - Tue Jul 07 16:26:08 2009
+X-Account-Key: account2
+X-UIDL: UID6056-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <Eric.Wetjen@mathworks.com>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 25DA616A34
+	for <m0620212@mail.csmining.org>; Tue,  7 Jul 2009 16:23:34 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id 2276016A32
+	for <m0620212@mail.csmining.org>; Tue,  7 Jul 2009 16:23:34 +0900 (JST)
+X-ASG-Debug-ID: 1246951413-371d00330000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1246951413
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251])
+	by spamgw.csmining.org Firewall) with SMTP id 9850373F0D9
+	for <m0620212@mail.csmining.org>; Tue,  7 Jul 2009 16:23:33 +0900 (JST)
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id n677NXCj027784
+        for <m0620212@mail.csmining.org>; Tue, 7 Jul 2009 16:23:33 +0900 (JST)
+Received: from ns2.csmining.org (ns2.csmining.org [192.168.3.2])
+        by gw2.csmining.org  with ESMTP id n677NXVV027781
+        for <hibody@csmining.org>; Tue, 7 Jul 2009 16:23:33 +0900 (JST)
+Received: from mail4.ecem1.com (mail4.ecem1.com [64.41.189.93])
+	by ns2.csmining.org  with ESMTP id n677NW0U017449
+	for <hibody@csmining.org>; Tue, 7 Jul 2009 16:23:33 +0900 (JST)
+Received: from SC-PD-MAILR01 ([172.16.1.210])
+	by mail4.ecem1.com (StrongMail Enterprise 4.1.1.3(4.1.1.3-45945)); Tue, 07 Jul 2009 00:17:30 -0700
+X-VirtualServer: Default, mail4.ecem1.com, 172.16.6.27
+X-VirtualServerGroup: Default
+X-MailingID: 00000::00000::00000::00000::::49575
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: hibody@csmining.org
+X-SMFBL: YmFudGFvQG5pY3QuZ28uanA=
+From: "Eric Wetjen" <Eric.Wetjen@mathworks.com>
+To: "hibody@csmining.org" <hibody@csmining.org>
+Reply-To: Eric.Wetjen@mathworks.com
+Date: Tue, 07 Jul 2009 00:17:30 -0700
+MIME-Version: 1.0
+Content-Type: text/plain; charset=Utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: aspNetEmail ver 3.6.0.65
+X-ASG-Orig-Subj: =?UTF-8?B?WW91ciBpbnB1dCByZXF1ZXN0ZWQgZm9yIEluc3RydW1lbnQgQ29udHJvbCBUb29sYm94?=
+Subject: =?UTF-8?B?WW91ciBpbnB1dCByZXF1ZXN0ZWQgZm9yIEluc3RydW1lbnQgQ29udHJvbCBUb29sYm94?=
+Message-ID: <SC-PD-MAILR01c9c25ff903574715b1b92f37d71b7809@SC-PD-MAILR01>
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-Barracuda-Spam-Score: 0.01
+X-Barracuda-Spam-Status: No, SCORE=0.01 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=SUBJECT_EXCESS_BASE64, X_MAILER_PRESENT
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.89380
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.01 X_MAILER_PRESENT       exists:X-Mailer
+	0.00 SUBJECT_EXCESS_BASE64  Subject: base64 encoded encoded unnecessarily
+X-BitDefenderWKS-SpamStamp: v1, build 2.8.21.67767, dwl listed, bayes
+ score: 0(0), pbayes score: 0(0), neunet score: 0(0), flags: [WET;
+ URL_BETWEEN_NEWLINES], total: 0(725)
+X-BitDefenderWKS-Spam: No - 0
+
+Recently, you received an e-mail inviting you to participate in a survey =
+that The MathWorks is conducting for users of Instrument Control Toolbox=2E=
+ The survey should take 5 minutes or fewer and will provide valuable inpu=
+t=2E I encourage you to participate in this survey so that we can better =
+serve your needs in the future=2E Thank you=2E=0D=0A=0D=0Ahttp://www=2Ecu=
+stomersat3=2Ecom/e=2Easp?IID=3D152C100B38E92EC690ED98447166D194=0D=0A=0D=0A=
+Regards,=0D=0A=0D=0AEric Wetjen=0D=0AProduct Marketing Manager=0D=0A
+
+
+

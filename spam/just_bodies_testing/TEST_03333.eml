@@ -1,0 +1,91 @@
+Re: How get movie file information, such as encodingThanks everyone.
+
+Igor
+
+On Mon, Apr 5, 2010 at 1:14 PM, Milton Aupperle <milton@outcastsoft.com> wr=
+ote:
+> Dear Igor;
+> Just to clarify, as RLopez indicates, GetMediaSample or=C2=A0GetMediaSamp=
+le2=C2=A0will
+> give you the cc type of one Media, which is the simplest case for a .mov.
+> Although likely uncommon now with apple deprecating most of QucikTime to
+> Corexxx routines a QuickTime movie can have multiple video media and
+> multiple video types in a single File, such as mp4, MJPEG, PJPEG, cinepac=
+k,
+> RLE, AVC, Apple LossLess etc., etc., etc., etc. The same applies for Audi=
+o
+> media too.
+> So a .mov is not at all like a .avi or .divx file type and can use multip=
+le
+> codecs, for multiple tracks and multiple media types.
+> And if you blindly grab the the first media you find in a file, you likel=
+y
+> won't represent what is actually in the movie.
+> Milton J. Aupperle
+> President
+> ASC - Aupperle Services and Contracting
+> Mac Software (Drivers, Components and Application) Specialist
+> #1106 - 428=C2=A0Chaparral Ravine View SE.
+> Calgary Alberta T2X 0N2
+> 1-(403)-453-1624
+> milton@outcastsoft.com
+> www.outcastsoft.com
+> On 5-Apr-10, at 11:51 AM, RLopez wrote:
+>
+> Hi,
+>
+> I'm new to developing QuickTime applications and I've inherited a C++
+>
+> application that uses QuickTime API to import video frames from
+>
+> whatever file formats QuickTime Player can play. =C2=A0It's fully functio=
+n
+>
+> and it can give me a matrix of RGB values for each frame. =C2=A0The
+>
+> application can also calculate basic information from the file, such
+>
+> as the frame count and the overall duration of the movie.
+>
+> I am now trying to enhance this application to extract more
+>
+> information from the file. =C2=A0The first piece of information I need is
+>
+> the video encoding used in the file.
+>
+> Can anyone point me to which QuickTime API document I need to read in
+>
+> order to figure out how to do this? =C2=A0The API is quite large!
+>
+> Call GetMediaSample2(...) then check the cType parameter of the returned
+> ImageDescription pointer. =C2=A0cType will hold the four character code o=
+f the
+> codec. =C2=A0A list of four character codes can be found at
+> http://www.fourcc.org.
+>
+> Thanks,
+>
+> Igor
+>
+>
+>
+>
+>
+> =C2=A0_______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list =C2=A0 =C2=A0 =C2=A0(QuickTime-API@lists.apple=
+.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/igorantonio%40gmail.=
+com
+>
+> This email sent to igorantonio@csmining.org
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

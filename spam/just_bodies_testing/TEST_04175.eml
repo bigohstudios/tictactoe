@@ -1,0 +1,31 @@
+Re: KDE 4.4.3 upgrade eats 141 MB of /homeAm Mittwoch, 12. Mai 2010 schrieb Alejandro Exojo:
+> El Mi=E9rcoles, 12 de Mayo de 2010, Christoph Burgmer escribi=F3:
+> > Am Mittwoch, 12. Mai 2010 schrieb Alejandro Exojo:
+> > > I think that disk usage is an issue in most software, not just KDE
+> > > apps. For example, look at ~/.thumbnails, and you will see that is
+> > > probably filled with many thumbnails of images that you deleted long
+> > > ago or that you saw just once. Same thing for apps that store some
+> > > data about all files that you open, without limit and without
+> > > expiration.
+> >=20
+> > You can tell Gwenview to remove .thumbnails on exit.
+>=20
+> The point of .thumbnails to be created, I thought it was to have the scal=
+ed
+> images already generated. If I did this, what's the point of having this
+> directory?
+
+You would at least have them available while using the current Gwenview=20
+instance.=20
+
+Not sure how Dolphin interacts with that.
+
+=2DChristoph
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005121835.54871.christoph.burgmer@stud.uni-karlsruhe.de
+
+

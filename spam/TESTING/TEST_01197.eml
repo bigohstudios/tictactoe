@@ -1,0 +1,141 @@
+From - Tue Mar 16 22:52:44 2010
+X-Account-Key: account2
+X-UIDL: UID11855-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <hibody@csmining.org>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail3.csmining.org (localhost [127.0.0.1])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id B1D362C19B
+	for <m0620212@mail.csmining.org>; Tue, 16 Mar 2010 22:49:12 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail3.csmining.org (csminingorg Mail) with ESMTP id AE0972C171
+	for <m0620212@mail.csmining.org>; Tue, 16 Mar 2010 22:49:12 +0900 (JST)
+X-ASG-Debug-ID: 1268747349-07a0841d0001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id 9daUdokqlAYUqRhU for <m0620212@mail.csmining.org>; Tue, 16 Mar 2010 22:49:09 +0900 (JST)
+X-Barracuda-Envelope-From: hibody@csmining.org
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o2GDn8Is004510
+        for <m0620212@mail.csmining.org>; Tue, 16 Mar 2010 22:49:08 +0900 (JST)
+Received: from mx1.csmining.org (ns3.csmining.org [192.168.3.3])
+        by gw1.csmining.org  with ESMTP id o2GDn8d0004505
+        for <hibody@csmining.org>; Tue, 16 Mar 2010 22:49:08 +0900 (JST)
+Date: Tue, 16 Mar 2010 22:49:08 +0900 (JST)
+Message-Id: <201003161349.o2GDn8d0004505@gw1.csmining.org>
+Received: from host114-86-static.51-88-b.business.telecomitalia.it (host114-86-static.51-88-b.business.telecomitalia.it [88.51.86.114])
+	by mx1.csmining.org (csminingorg MX Server1) with ESMTP id AB95E78
+	for <hibody@csmining.org>; Tue, 16 Mar 2010 22:49:07 +0900 (JST)
+From: Official Pfizer Pharmacy <hibody@csmining.org>
+X-Barracuda-BWL-IP: 88.51.86.114
+X-Barracuda-BBL-IP: 88.51.86.114
+X-Barracuda-RBL-IP: 88.51.86.114
+X-Barracuda-BRL-Tag: Barracuda Reputation
+To: hibody@csmining.org
+X-ASG-Orig-Subj: User hibody receives 70% discounts on all products.
+Subject:   User hibody receives 70% discounts on all products.
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1268747349
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: BRL ()
+X-Barracuda-Spam-Score: 28.16
+X-Barracuda-Spam-Status: No, SCORE=28.16 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA392f, BSF_SC0_SA392f2, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC0_SA424j, BSF_SC0_SA_TFAM_SBL, BSF_SC0_SA_TO_FROM_ADDR_MATCH, BSF_SC2_SA154a, BSF_SC5_MJ3865, BSF_SC7_SA015c, HTML_IMAGE_ONLY_28, HTML_IMAGE_RATIO_02, HTML_MESSAGE, MIME_HTML_ONLY, MSGID_FROM_MTA_HEADER, MSGID_FROM_MTA_HEADER_2, NUMERIC_HTTP_ADDR, SH_BIG5_05413_BODY_104, URIBL_JP_SURBL, URI_HEX
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.25020
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.32 URI_HEX                URI: URI hostname has long hexadecimal sequence
+	0.00 NUMERIC_HTTP_ADDR      URI: Uses a numeric IP address in URL
+	0.73 HTML_IMAGE_ONLY_28     BODY: HTML: images with 2400-2800 bytes of words
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: dadstudy.ru]
+	0.00 MSGID_FROM_MTA_HEADER  Message-Id was added by a relay
+	0.50 BSF_SC5_MJ3865         Custom Rule MJ3865
+	0.80 BSF_SC7_SA015c         Custom Rule SA015c
+	1.50 MSGID_FROM_MTA_HEADER_2 Message-Id was added by a relay
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	3.10 BSF_SC0_SA424j         Custom Rule SA424j
+	3.50 BSF_SC0_SA_TFAM_SBL    Custom Rule SA_TFAM_SBL
+	1.00 BSF_SC0_SA392f         Custom Rule SA392f
+	4.10 BSF_SC2_SA154a         Custom Rule SA154a
+	5.50 BSF_SC0_SA392f2        Custom Rule SA392f2
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>News</title>
+  <meta http-equiv="Content-Type" content="text/html;" charset="iso-8859-1" />
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#ffffff" marginheight="0" marginwidth="0" LINK="#660F57" VLINK="#663366" ALINK="#663366" TEXT="#555555">
+    <table border="0" cellpadding="3" cellspacing="0" width="600" align="center">
+      <tr><td height="6"></td></tr>
+      <tr>
+        <td align="center">
+          <font face="arial" size="2" color="#444444">
+            Trouble viewing these images? See the
+            <a style="color:#006699;" href="http://b4cfe7.dadstudy.ru/">online version of this e-mail</a>.
+          </font>
+        </td>
+      </tr>
+      <tr><td height="5" style="text-align: center"><br />
+        <a href="http://29a.dadstudy.ru/">
+        <img alt="Try using this link in case of problems with images" height="566" src="http://imageboo.com/files/3d07byml3aqp5645uf1w.jpg" style="border-width: 0px" width="465" />
+        </a></td></tr>
+    </table>
+<table width="600" cellspacing="0" cellpadding="0" border="1" bordercolor="#CCCCCC" align="center">
+  <tr>
+    <td>
+      <div id="main" style="width:600px;">
+        <table width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+          <tr>
+            <td>
+              &nbsp;<div id="bodycontentwrapper">
+    <TABLE BGCOLOR="#FFFFFF" border=0 cellPadding=3 cellSpacing=0 width=600 align="center">
+    <TR>
+        <TD style="background-color: #660F57"><center>
+    <a style="color:#FFFFFF;" HREF="http://9d5e9b.dadstudy.ru/">
+    About Us</a> &nbsp; <a style="color:#FFFFFF;" HREF="http://43a.dadstudy.ru/">
+    Contact Us</a> &nbsp;<a style="color:#FFFFFF;" HREF="http://8332506733.dadstudy.ru/">
+    Privacy Policy</a>&nbsp;</center>
+        </TD>
+    </TR>
+    </table>
+    </div>
+    </TD>
+</TR>
+</TABLE>
+<table width="600" cellspacing="0" cellpadding="0" align="center"><tr><td>
+<div id="main2" style="width:600px;">
+    <div style="text-align:center;">
+        <font face="arial" size="1" color="#444444"><br />c 1999-2009 AGO, Inc.<br />
+        </font>
+    </div>
+    <div style="text-align:center;">
+        <font face="arial" size="2">
+            This e-mail was sent to hibody@csmining.org.<br /><br />
+    <a style="color:#006699;" href="http://7b8ee8.dadstudy.ru/">Click here to unsubscribe</a></font></div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

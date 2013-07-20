@@ -1,0 +1,18 @@
+Re: New testing packagesOn Wed, 2002-09-18 at 17:50, Matthias Saou wrote:
+
+> I think I'll use this "--with <whatever>" switch more and more where
+> possible.
+
+Nifty, I've been thinking about that too.  Any good ideas how to
+document those targets?  %description?
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

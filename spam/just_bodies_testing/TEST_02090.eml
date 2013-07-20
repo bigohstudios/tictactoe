@@ -1,0 +1,63 @@
+RE: [ILUG] Dell GX260 V Redhat 7.3
+<rant>
+I swear to god you have to be so carefull with dell machines and linux. My
+laptop is the only dell 
+that I've had so far that you could do a quick clean install of linux on.
+Every machine recently seems 
+to have some cheapo piece of hardware (eth card, modem, sound, graphics )
+that is incompatable/unsupported. 
+I don't know how long I've spent banging my head off the wall with some crap
+dell machine that 
+the secretary/store manager/windoze admin of whatever company I've been in
+has ordered.
+Ok everything is budget basement these days but they're getting the
+components cheaper as well. 
+If you do buy from dell be damned carefull what you order cause the default
+config cheapo machines 
+are allways a pain in the hole. 
+</rant>
+
+--B
+
+-----Original Message-----
+From: deccy@csn.ul.ie [mailto:deccy@csn.ul.ie]
+Sent: 01 August 2002 23:19
+To: ilug@linux.ie
+Subject: [ILUG] Dell GX260 V Redhat 7.3
+
+
+Hi,
+We just got some new Dell GX260 machines here are work and I'm supposed to
+be putting Linux on them. I tried installing RedHat 7.3. It just didn't want
+to know about the graphics card. I's an onboard Intel DVMT chip. No
+dedicated memory, it takes it from the onboard RAM.
+
+I was wondering if anybody had gotton these machines and had any luck
+getting this graphics card working?
+
+When this graphics card didn't work, I installed a PCI Diamond Stealth 64
+VRAM card. Xconfigurator auto-detected this and my 21" SUN monitor no
+problem but whenever it tries to test the configuration it fails and the
+screen is left with a blue background and all of the text is blue.
+Does anybody have any idea what the problem is or how to fix it?
+Cheers,
+deccy.
+
+-- 
+---------------------------------------
+Declan Houlihan
+deccy@csn.ul.ie
+http://deccy.csn.ul.ie/
+---------------------------------------
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

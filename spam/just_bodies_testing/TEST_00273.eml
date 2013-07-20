@@ -1,0 +1,32 @@
+Re: [SAtalk] 2.40 RELEASE: oops -- newer freqs.
+"Craig R.Hughes" said:
+
+> The GA run on the current corpus is yielding an average (mean) 
+> score for false-positives of about 10 points, which is higher 
+> than before.  There's some tweaking to be done yet (rule 
+> elimination and such), so that will likely fall, but -15 might 
+> not be enough of a correction in many situations.  I will set 
+> the scores for the Habeas stuff and the Ironport stuff to be 
+> sensible given:
+> 
+> a) estimated likeliness of compliance with Habeas/Bonded sender 
+> rules, and
+> b) score correction level needed to achieve purposes of those projects.
+
+Using the score-ranges stuff and my aggressive anti-FP evaluation code,
+BTW, yielded an average FP of 5.7 points, with 0.67% FPs and 96.57%
+overall accuracy -- but I notice you went back to the other method.
+Just pointing this out ;)
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

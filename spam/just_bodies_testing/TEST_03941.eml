@@ -1,0 +1,589 @@
+Debian Project News - April 12th, 2010------------------------------------------------------------------------
+The Debian Project                                http://www.debian.org/
+Debian Project News                    debian-publicity@lists.debian.org
+April 12th, 2010                 http://debian.org/News/project/2010/01/
+------------------------------------------------------------------------
+
+Welcome to this year's first issue of DPN, the newsletter for the
+Debian community. Topics covered in this issue include:
+
+  * Debian Project Leader Election
+  * Bits from the Release Team
+  * Estimates of the number of Debian users
+  * ... and much more.
+
+
+Upcoming elections for the Debian Project Leader
+------------------------------------------------
+
+Four Debian Developers are nominated in the currently running election
+for the Debian Project Leader: Stefano "Zack" Zacchiroli [1], Wouter
+"Yoe" Verhelst [2], Charles Plessy [3] and Margarita "marga" Manterola
+[4] - the first woman ever nominated for this position. The voting
+period ends on Thursday, April 15th.
+
+   1 : http://www.debian.org/vote/2010/platforms/zack
+   2 : http://www.debian.org/vote/2010/platforms/wouter
+   3 : http://www.debian.org/vote/2010/platforms/plessy
+   4 : http://www.debian.org/vote/2010/platforms/marga
+
+Some of the questions asked and topics discussed in the campaigning
+period were:
+
+  * Do you plan on taking on a [5]2IC or a team?
+  * Project Funds, donations and [6] "official" Partners
+  * How much time do you currently devote to Debian? How will that
+    amount of time change for the DPL term? [7]
+  * Financing of development through external sources [8]
+  * Heated discussions in the Debian project [9]
+  * "In ten years I'd like Debian..." [10]
+  * Communication and media [11]
+  * Release process [12]
+  * Withdrawing delegations of DD not behaving correctly? [13]
+  * Care of Core infrastructure [14]
+  * Disappearing DPLs? [15]
+  * Race against "None of the above" [16]
+  * Architecture Support [17]
+  * Decentralization of power [18]
+  * License and copyright requirements [19]
+  * Who would you vote for? [20]
+  * Personal mentoring [21]
+  * About membership [22]
+  * Standardization, large scale changes, innovations [23]
+  * Enforce Debian Community Guidelines? [24]
+
+   5 : http://lists.debian.org/debian-vote/2010/03/msg00023.html
+   6 : http://lists.debian.org/debian-vote/2010/03/msg00032.html
+   7 : http://lists.debian.org/debian-vote/2010/03/msg00038.html
+   8 : http://lists.debian.org/debian-vote/2010/03/msg00041.html
+   9 : http://lists.debian.org/debian-vote/2010/03/msg00058.html
+   10 : http://lists.debian.org/debian-vote/2010/03/msg00057.html
+   11 : http://lists.debian.org/debian-vote/2010/03/msg00059.html
+   12 : http://lists.debian.org/debian-vote/2010/03/msg00071.html
+   13 : http://lists.debian.org/debian-vote/2010/03/msg00085.html
+   14 : http://lists.debian.org/debian-vote/2010/03/msg00086.html
+   15 : http://lists.debian.org/debian-vote/2010/03/msg00133.html
+   16 : http://lists.debian.org/debian-vote/2010/03/msg00149.html
+   17 : http://lists.debian.org/debian-vote/2010/03/msg00161.html
+   18 : http://lists.debian.org/debian-vote/2010/03/msg00181.html
+   19 : http://lists.debian.org/debian-vote/2010/03/msg00192.html
+   20 : http://lists.debian.org/debian-vote/2010/03/msg00234.html
+   21 : http://lists.debian.org/debian-vote/2010/03/msg00278.html
+   22 : http://lists.debian.org/debian-vote/2010/03/msg00281.html
+   23 : http://lists.debian.org/debian-vote/2010/03/msg00287.html
+   24 : http://lists.debian.org/debian-vote/2010/03/msg00297.html
+
+
+Bits from the Release Team
+--------------------------
+
+Release manager Adam Barrat sent Bits from the release team [25] which
+gave an overview of the state of the upcoming release, Debian 6.0
+"Squeeze". Adam admits that the situation is not as good as the release
+team hoped, but that it is possible to release "Squeeze" in a few
+months. He also gave a list of known transitions and asked people to
+inform the release team about missing items. Regarding the timeline, he
+asked all involved people to work hard, so a freeze in late May or June
+would be possible. He concludes with some hints on how to help. Most
+important is to fix release critical bugs or organise face-to-face
+meetings to fix these. Andreas Barth laterblogged [26] a more detailed
+list on how to help with the release.
+
+   25 : http://lists.debian.org/debian-devel-announce/2010/04/msg00001.html
+   26 : http://blogs.turmzimmer.net/2010/04/04#squeeze-9
+
+
+Estimates of the number of Debian users
+---------------------------------------
+
+In the discussion about the upcoming elections for the Debian Project
+Leader, Antony Towns [27] wondered how many users Debian has. Several
+people discussed who is a "Debian user" and if users of Debian
+derivatives would count, too. Another topic was how
+accuratepopcon.debian.org [28] (a service where Debian users can report
+anonymously what packages they have installed) reflects the number of
+installations. Mike Hommey analysed [29] the installations reported for
+xulrunner [30] (the rendering engine used by the Iceweasel browser) and
+compared them to the hits of the page displayed after an upgrade.  He
+came to the conclusion that for every one of the 13,000 Iceweasel
+installations reported to popcon, there are at least 7.7 additional
+Iceweasel installations, which do not have have popcon installed or
+activated, while Simon Paillard found 1.5 million unique IP addresses
+in the access logs of security.debian.org.
+
+   27 : http://lists.debian.org/debian-vote/2010/03/msg00205.html
+   28 : http://popcon.debian.org/
+   29 : http://lists.debian.org/debian-vote/2010/03/msg00324.html
+   30 : http://packages.debian.org/xulrunner-1.9.1
+
+
+Bits from the DPL
+-------------
+
+Shortly before the end of his term Debian Project Leader Steve McIntyre
+sent a "(Final) Bits from (this) DPL" [31]. He announced personnel
+changes in several teams and mentioned some press contacts and their
+outcome.  He also announced the availability of "Debian Certification"
+for official Developers: "It seems that more and more companies are
+keen to hire Debian folks, so it can be useful to have this kind of
+documentation available." Steve also talked about suggestions made in
+the last few months for ways to productively spend Debian money,
+including funding of needed hardware and a large number of developer
+meetings, as well as funding for the Debian Edu subproject, to help
+them to continue their developer meetings into the future. He closed by
+wishing the candidates of the current election good luck and is looking
+forwards to having more time for some hacking.
+
+   31 : http://lists.debian.org/debian-devel-announce/2010/04/msg00000.html
+
+
+New archive snapshot service available
+--------------------------------------
+
+A new service called http://snapshot.debian.org/ [32] has just been
+announced [33]. snapshot.debian.org is a wayback machine that allows
+access to old packages based on dates and version numbers. The ability
+to install packages and view source code from any given date can be
+very helpful to developers and users alike. It provides a valuable
+resource for tracking down when regressions were introduced, or for
+providing a specific environment that a particular application may
+require to run. The snapshot archive is accessible like any normal apt
+repository, allowing it to be easily used by all.
+
+   32 : http://snapshot.debian.org/
+   33 : http://www.debian.org/News/2010/20100412
+
+The archive currently holds almost all packages from the main and
+security archives since March 2005, as well as selected additional
+archives like debian-volatile [34], debian-ports [35] and backports.org
+[36]. This new service currently holds about 6.5 terabytes of data and
+will grow constantly.
+
+   34 : http://www.debian.org/volatile/
+   35 : http://www.debian-ports.org/
+   36 : http://www.backports.org
+
+
+MiniDebConf held in Panama
+--------------------------
+
+More than 50 people participated recently in a MiniDebConf in Panama.
+Starting March 20th and lasting two full days, the MiniDebConf touched
+on a variety of subjects involving Debian with the participants sharing
+their experiences with both Debian and Free Software. As Alejandro Rios
+said [37]: "All this is possible thanks to several sponsors from Panama
+and SPI, and the hard work from many people, specially Anto Recio,
+Mauro Rosero, Carolina Flores, Gunnar Wolf and the local team." SPI is
+Software in the Public Interest [38], a non-profit organisation which
+was founded to help organisations develop and distribute open hardware
+and software.
+
+   37 : http://alerios-en.blogspot.com/2010_03_01_archive.html
+   38 : http://www.spi-inc.org/
+
+The MiniDebConf got quite technical, some of the subjects they covered
+were: Packaging, Debian's Bug Tracking System, the Linux Kernel,
+pbuilder and quilt.  There was also time for some socialising as there
+was a visit to the Panama Canal as well as a group photo and apparently
+some people even gathered to drink beer. Sounds to me like a successful
+MiniDebConf. More info on Alejandro's blog. [39]
+
+   39 : http://alerios-en.blogspot.com/
+
+
+First German Debian Mini Conference
+-----------------------------------
+
+The Debian Project announced the first German Debian Mini Conference
+[40] to be held on the 10th and 11th of June in Berlin. Embedded into
+LinuxTag [41], one of the most important Open Source events in Europe,
+it will feature two days of talks, workshops and panel discussions for
+Debian Developers and Maintainers to contributors, users and otherwise
+interested persons. In parallel to the conference, in a neighbouring
+hacking area a Bug Squashing Party will be held.  Details are available
+in the DebConf Wiki [42].
+
+   40 : http://www.debian.org/News/2010/20100408
+   41 : http://www.linuxtag.org/
+   42 : http://wiki.debconf.org/wiki/Miniconf-LT-Berlin/2010
+
+
+Graphical Installer for ARM-Based netbooks
+------------------------------------------
+
+Frans Pop blogged [43] about his work on porting Debian and the
+debian-installer to ARM-based netbooks from ChiTech. After solving some
+problems due to the limitations of the bootloader, he even managed to
+get the X11 based graphical installer running on that device.
+
+   43 : http://alioth.debian.org/~fjp/log/posts/Debianizing_an_ARM-based_ne=
+tbook.html
+
+
+QEMU image for SH4 port available
+---------------------------------
+
+To make debugging of problems with the (unofficial) port to the SH4
+architecture [44] easier, Aurelien Jarno provides [45] SH4 images to be
+used with qemu [46]. The images have some limitations as they can only
+use 64MB and need the current development version of qemu [47].
+
+   44 : http://wiki.debian.org/SH4
+   45 : http://blog.aurel32.net/?p=3D55
+   46 : http://packages.debian.org/qemu
+   47 : http://git.savannah.gnu.org/cgit/qemu.git
+
+
+The role of the Debian ftpmasters
+---------------------------------
+
+lwn.net [49] published a lengthy article about the role of the Debian
+ftpmasters [50] (article will be freely available from 15th April) and
+their kind of unique position compared to other distributions. Based
+upon explanations and a recent call for volunteers [51] from ftp-master
+J=F6rg Jaspert, the article explains the duties and problems the ftp-team
+is facing.
+
+   49 : http://lwn.net/
+   50 : https://lwn.net/Articles/381667/
+   51 : http://lists.debian.org/debian-devel-announce/2010/03/msg00003.html
+
+
+Other news
+----------
+
+The Atlantic Canada Open Source Showcase published an interview with
+Ben Armstrong [52] about his work on the Debian Eee PC project [53].
+
+   52 : http://acoss.wordpress.com/2010/03/29/interview-with-ben-armstrong-=
+debian-eee-pc-project-leader/
+   53 : http://wiki.debian.org/DebianEeePC
+
+DSA Martin Zobel-Helas announced [54], that the Debian Project got four
+powerful MIPS machines donated by Movidis [55]. Two or three will be
+used as build daemon, the remaining one is accessible for all
+Developers as porter machine.
+
+   54 : http://lists.debian.org/debian-devel-announce/2010/04/msg00004.html
+   55 : http://www.movidis.com/
+
+Christine Spang asked [56] Debian Developers listed on the keysigning
+offers list [57] to check their data regularly. She also added that it
+is possible to subscribe to changes in the list of people requesting
+keysigning [58].
+
+   56 : http://blog.spang.cc/posts/is_your_keysigning_offer_up_to_date__63_=
+_/
+   57 : http://wiki.debian.org/Keysigning/Offers
+   58 : http://wiki.debian.org/Keysigning/Need
+
+Sune Vuorela reported [59] about the "Eckhart slope": quite a drop
+of the number of KDE related bugs.
+
+   59 : http://pusling.com/blog/?p=3D158
+
+Sylvestre Ledru gave an update [60] about linear algebra libraries
+(e.g. blas [61] and lapack [62]) in Debian, which are used by various
+numerical programs in Debian (e.g. OpenOffice.org Calc [63]). He
+emphasised how the packages deal with optimisation for different CPUs
+(like SSE in different versions).
+
+   60 : http://sylvestre.ledru.info/blog/sylvestre/2010/04/06/update_of_the=
+_linear_algebra_libraries_i
+   61 : http://packages.debian.org/search?searchon=3Dsourcenames&keywords=
+=3Dblas
+   62 : http://packages.debian.org/search?searchon=3Dsourcenames&keywords=
+=3Dlapack
+   63 : http://packages.debian.org/search?keywords=3Dopenoffice.org-calc
+
+
+New Developers and Maintainers
+------------------------------
+
+Seven applicants have been [64] accepted [65] as Debian Maintainer in the l=
+ast
+two weeks. Please welcome Joachim Wiedorn, Kai Wasserbaech, Gabriele Giacon=
+e,
+Ahmed El-Mahmoudy, Niels Thykier, Stephen Leake and Daiki Ueno into our
+project!
+
+   64 : http://lists.debian.org/debian-project/2010/04/msg00016.html
+   65 : http://lists.debian.org/debian-project/2010/03/msg00063.html
+
+
+Release-critical bugs statistics for the upcoming release
+---------------------------------------------------------
+
+According to the unofficial RC-bugs count [66], the upcoming release,
+Debian 6.0 "Squeeze", is currently affected by 445 release critical
+bugs. 108 of them have already been fixed in Debian's "unstable"
+branch. Of the remaining 337 release critical bugs, 53 already have a
+patch (which might need testing) and 21 are marked as pending.
+
+   66 : http://bts.turmzimmer.net/details.php
+
+Ignoring these bugs as well as release critical bugs for packages in
+contrib or non-free, 196 release critical bugs remain to be solved for
+the release to happen.
+
+
+
+Important Debian Security Advisories
+------------------------------------
+
+Debian's Security Team recently released advisories for these packages
+(among others): drupal6 [67], php5 [68], ikiwiki [69], spamass-milter
+[70], mediawiki [71], curl [72], moin [73], icedove [74], xulrunner
+[75] and xpdf [76]. Please read them carefully and take the proper
+measures.
+
+   67 : http://www.debian.org/security/2010/dsa-2016
+   68 : http://www.debian.org/security/2010/dsa-2018
+   69 : http://www.debian.org/security/2010/dsa-2020
+   70 : http://www.debian.org/security/2010/dsa-2021
+   71 : http://www.debian.org/security/2010/dsa-2022
+   72 : http://www.debian.org/security/2010/dsa-2023
+   73 : http://www.debian.org/security/2010/dsa-2024
+   74 : http://www.debian.org/security/2010/dsa-2025
+   75 : http://www.debian.org/security/2010/dsa-2027
+   76 : http://www.debian.org/security/2010/dsa-2028
+
+Please note that these are a selection of the more important security
+advisories of the last weeks. If you need to be kept up to date about
+security advisories released by the Debian Security Team, please
+subscribe to the security mailing list [77] for announcements.
+
+   77 : http://lists.debian.org/debian-security-announce/
+
+
+New and noteworthy packages
+---------------------------
+
+The following packages were added to the unstable Debian archive
+recently (among others [78]):
+
+   78 : http://packages.debian.org/unstable/main/newpkg
+
+
+  * aaphoto - Auto Adjust Photo, automatic color correction of photos [79]
+  * aimage - Create forensic image of devices in an open format [80]
+  * ambdec - Ambisonic decoder for first and second order [81]
+  * asterisk-espeak - eSpeak module for Asterisk [82]
+  * asterisk-flite - flite module for Asterisk [83]
+  * autokey-gtk - desktop automation utility - GTK+ version [84]
+  * autokey-qt - desktop automation utility - QT version [85]
+  * banshee-community-extensions - set of community contributed extensions =
+for Banshee [86]
+  * banshee-extension-awn - AWN integration extension for Banshee [87]
+  * banshee-extension-lcd - LCD display integration extension for Banshee [=
+88]
+  * banshee-extension-liveradio - LiveRadio extension for Banshee [89]
+  * banshee-extension-magnatune - Magnatune for Banshee [90]
+  * banshee-extension-radiostationfetcher - radio station fetcher extension=
+ for Banshee [91]
+  * banshee-extensions-common - common files for banshee-community-extensio=
+ns [92]
+  * banshee-extension-streamrecorder - StreamRecorder extension for Banshee=
+ [93]
+  * banshee-extension-telepathy - Telepathy extension for Banshee [94]
+  * bzr-rewrite - History rewriting plugin for Bazaar [95]
+  * cluster-agents - The reusable cluster components for Linux HA [96]
+  * cluster-glue - The reusable cluster components for Linux HA [97]
+  * codelite - Powerful and lightweight C/C++ IDE [98]
+  * codelite-plugins - Powerful and lightweight C/C++ IDE - plugins [99]
+  * crawl-tiles - Dungeon Crawl, a roguelike game, tiles version [100]
+  * ddir - display DOS style hierarchical directory tree [101]
+  * docky - Elegant, powerful, clean dock [102]
+  * eclipse-plugin-cvs - Eclipse Team Integration (CVS support) [103]
+  * eekboek-gui - Graphical User Interface for EekBoek [104]
+  * fusionforge-full - FusionForge collaborative development tool - full me=
+tapackage [105]
+  * fusionforge-minimal - FusionForge collaborative development tool - mini=
+mal metapackage [106]
+  * fusionforge-standard - FusionForge collaborative development tool - sta=
+ndard metapackage [107]
+  * fusioninventory-agent - Hardware and software inventory tool (client) [=
+108]
+  * gogoc - Client to connect to IPv6 tunnel brokers [109]
+  * gpsprune - visualize, edit, convert and prune GPS data [110]
+  * icedove-3.0 - mail/news client with RSS (transitional package) [111]
+  * icinga - A host/service/network monitoring and management system [112]
+  * icinga-phpapi - phpapi for icinga [113]
+  * imageshack-uploader - a image and video upload utility for the ImageSha=
+ck hosting service [114]
+  * ipheth-dkms - USB tethering driver for the iPhone [DKMS driver source] =
+[115]
+  * ipheth-utils - USB tethering driver for the iPhone [support utilities] =
+[116]
+  * jabref-plugin-oo - OpenOffice plugin for JabRef [117]
+  * kobby - Collaborative text editor for KDE [118]
+  * lazarus-ide-gtk2 - IDE for Free Pascal - IDE build on top of GTK+ backe=
+nd [119]
+  * lazarus-ide-qt4 - IDE for Free Pascal - IDE build on top of QT backend =
+[120]
+  * lcl - Lazarus Components Library - LCL metapackage [121]
+  * mapnik-viewer - GUI for rendering and viewing maps based on Mapnik mapf=
+iles [122]
+  * menu-l10n - localized menu entries for Debian menu. [123]
+  * multiwatch - Forks and watches multiple instances of a program [124]
+  * muroard - minimalist RoarAudio sound daemon [125]
+  * nagstamon - Nagios status monitor which takes place in systray or on de=
+sktop [126]
+  * netio230a-gui - GUI to access the Koukaam NETIO-230A [127]
+  * nfs4-acl-tools - Commandline and GUI ACL utilities for the NFSv4 client=
+ [128]
+  * numptyphysics - crayon based physics puzzle game [129]
+  * ocamlviz - real-time profiling tools for Objective Caml (clients) [130]
+  * openrocket - Model Rocket Simulator [131]
+  * otf-freefont - Freefont Serif, Sans and Mono OpenType fonts [132]
+  * pdf-presenter-console - multi-monitor presentation tool (ala Keynote) f=
+or PDF files [133]
+  * plymouth - Graphical Boot Animation and Logger [134]
+  * postgresql-8.4-orafce - Oracle support functions for PostgreSQL [135]
+  * python-django-auth-ldap - Django LDAP authentication backend [136]
+  * python-django-picklefield - Pickled object field for Django [137]
+  * python-docky - Elegant, powerful, clean dock - Python support library [=
+138]
+  * python-netio230a - Python class to access the Koukaam NETIO-230A [139]
+  * python-pygccxml - specialized XML reader reads the output from gccxml [=
+140]
+  * python-py - Advanced Python testing tool and networking lib [141]
+  * python-stemmer - Python bindings for libstemmer - snowball stemming alg=
+orithms [142]
+  * raincat - 2D puzzle game featuring a fuzzy little cat [143]
+  * sabayon - system administration tool to manage GNOME desktop settings [=
+144]
+  * saga - System for Automatic Geoscientific Analysis [145]
+  * skipfish - fully automated, active web application security reconnaissa=
+nce tool [146]
+  * trac-datefieldplugin - Add custom date fields to Trac tickets [147]
+  * trac-wikitablemacro - Table from an arbitrary SQL for Trac [148]
+  * tryton-modules-calendar-classification - Tryton Application Platform (C=
+alendar Classification Module) [149]
+  * tryton-modules-dashboard - Tryton Application Platform (Dashboard Modul=
+e) [150]
+  * tryton-modules-party-siret - Tryton Application Platform (Party SIRET/S=
+IREN Module) [151]
+  * ust-bin - LTTng Userspace Tracer (utilities) [152]
+  * vidcontrol - command-line tool to control the system console on GNU/kFr=
+eeBSD [153]
+  * webgen0.5 - A template based static website generator [154]
+  * zeromq-bin - Utilities for ZeroMQ [155]
+
+   79 : http://packages.debian.org/unstable/main/aaphoto
+   80 : http://packages.debian.org/unstable/main/aimage
+   81 : http://packages.debian.org/unstable/main/ambdec
+   82 : http://packages.debian.org/unstable/main/asterisk-espeak
+   83 : http://packages.debian.org/unstable/main/asterisk-flite
+   84 : http://packages.debian.org/unstable/main/autokey-gtk
+   85 : http://packages.debian.org/unstable/main/autokey-qt
+   86 : http://packages.debian.org/unstable/main/banshee-community-extensio=
+ns
+   87 : http://packages.debian.org/unstable/main/banshee-extension-awn
+   88 : http://packages.debian.org/unstable/main/banshee-extension-lcd
+   89 : http://packages.debian.org/unstable/main/banshee-extension-liveradio
+   90 : http://packages.debian.org/unstable/main/banshee-extension-magnatune
+   91 : http://packages.debian.org/unstable/main/banshee-extension-radiosta=
+tionfetcher
+   92 : http://packages.debian.org/unstable/main/banshee-extensions-common
+   93 : http://packages.debian.org/unstable/main/banshee-extension-streamre=
+corder
+   94 : http://packages.debian.org/unstable/main/banshee-extension-telepathy
+   95 : http://packages.debian.org/unstable/main/bzr-rewrite
+   96 : http://packages.debian.org/unstable/main/cluster-agents
+   97 : http://packages.debian.org/unstable/main/cluster-glue
+   98 : http://packages.debian.org/unstable/main/codelite
+   99 : http://packages.debian.org/unstable/main/codelite-plugins
+   100 : http://packages.debian.org/unstable/main/crawl-tiles
+   101 : http://packages.debian.org/unstable/main/ddir
+   102 : http://packages.debian.org/unstable/main/docky
+   103 : http://packages.debian.org/unstable/main/eclipse-plugin-cvs
+   104 : http://packages.debian.org/unstable/main/eekboek-gui
+   105 : http://packages.debian.org/unstable/main/fusionforge-full
+   106 : http://packages.debian.org/unstable/main/fusionforge-minimal
+   107 : http://packages.debian.org/unstable/main/fusionforge-standard
+   108 : http://packages.debian.org/unstable/main/fusioninventory-agent
+   109 : http://packages.debian.org/unstable/main/gogoc
+   110 : http://packages.debian.org/unstable/main/gpsprune
+   111 : http://packages.debian.org/unstable/main/icedove-3.0
+   112 : http://packages.debian.org/unstable/main/icinga
+   113 : http://packages.debian.org/unstable/main/icinga-phpapi
+   114 : http://packages.debian.org/unstable/main/imageshack-uploader
+   115 : http://packages.debian.org/unstable/main/ipheth-dkms
+   116 : http://packages.debian.org/unstable/main/ipheth-utils
+   117 : http://packages.debian.org/unstable/main/jabref-plugin-oo
+   118 : http://packages.debian.org/unstable/main/kobby
+   119 : http://packages.debian.org/unstable/main/lazarus-ide-gtk2
+   120 : http://packages.debian.org/unstable/main/lazarus-ide-qt4
+   121 : http://packages.debian.org/unstable/main/lcl
+   122 : http://packages.debian.org/unstable/main/mapnik-viewer
+   123 : http://packages.debian.org/unstable/main/menu-l10n
+   124 : http://packages.debian.org/unstable/main/multiwatch
+   125 : http://packages.debian.org/unstable/main/muroard
+   126 : http://packages.debian.org/unstable/main/nagstamon
+   127 : http://packages.debian.org/unstable/main/netio230a-gui
+   128 : http://packages.debian.org/unstable/main/nfs4-acl-tools
+   129 : http://packages.debian.org/unstable/main/numptyphysics
+   130 : http://packages.debian.org/unstable/main/ocamlviz
+   131 : http://packages.debian.org/unstable/main/openrocket
+   132 : http://packages.debian.org/unstable/main/otf-freefont
+   133 : http://packages.debian.org/unstable/main/pdf-presenter-console
+   134 : http://packages.debian.org/unstable/main/plymouth
+   135 : http://packages.debian.org/unstable/main/postgresql-8.4-orafce
+   136 : http://packages.debian.org/unstable/main/python-django-auth-ldap
+   137 : http://packages.debian.org/unstable/main/python-django-picklefield
+   138 : http://packages.debian.org/unstable/main/python-docky
+   139 : http://packages.debian.org/unstable/main/python-netio230a
+   140 : http://packages.debian.org/unstable/main/python-pygccxml
+   141 : http://packages.debian.org/unstable/main/python-py
+   142 : http://packages.debian.org/unstable/main/python-stemmer
+   143 : http://packages.debian.org/unstable/main/raincat
+   144 : http://packages.debian.org/unstable/main/sabayon
+   145 : http://packages.debian.org/unstable/main/saga
+   146 : http://packages.debian.org/unstable/main/skipfish
+   147 : http://packages.debian.org/unstable/main/trac-datefieldplugin
+   148 : http://packages.debian.org/unstable/main/trac-wikitablemacro
+   149 : http://packages.debian.org/unstable/main/tryton-modules-calendar-c=
+lassification
+   150 : http://packages.debian.org/unstable/main/tryton-modules-dashboard
+   151 : http://packages.debian.org/unstable/main/tryton-modules-party-siret
+   152 : http://packages.debian.org/unstable/main/ust-bin
+   153 : http://packages.debian.org/unstable/main/vidcontrol
+   154 : http://packages.debian.org/unstable/main/webgen0.5
+   155 : http://packages.debian.org/unstable/main/zeromq-bin
+
+Work-needing packages
+---------------------
+
+Currently 594 packages are orphaned and 139 packages are up for
+adoption.  Please take a look at the recent [156] reports [157] to see
+if there are packages you are interested in or view the complete list
+of packages which need your help [158].
+
+   156 : http://lists.debian.org/debian-devel/2010/03/msg00836.html
+   157 : http://lists.debian.org/debian-devel/2010/04/msg00017.html
+   158 : http://www.debian.org/devel/wnpp/help_requested
+
+
+Want to continue reading DPN?
+-----------------------------
+
+Please help us create this newsletter. We still need more volunteer
+writers to watch the Debian community and report about what is going
+on. Please see the contributing page [159] to find out how to help.
+We're looking forward to receiving your mail at
+debian-publicity@lists.debian.org [160].
+
+   159 : http://wiki.debian.org/ProjectNews/HowToContribute
+   160 : mailto:debian-publicity@lists.debian.org
+
+This issue of Debian Project News was edited by Jeremiah Foster and
+Alexander Reichle-Schmehl.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-news-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412105541.GK20709@melusine.alphascorpii.net
+
+

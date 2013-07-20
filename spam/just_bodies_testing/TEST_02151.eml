@@ -1,0 +1,24 @@
+[Razor-users] Windows port / bug reports?Hi,
+
+Newbie (to the list) question;  I've been working on porting the code to
+run under Perl on Windows.  The changes are fairly minor and can be made
+to interoperate with the current code.  How would one best go about
+getting those changes merged in (better question, would there be
+interest in such a version and getting those changes merged in)?
+
+Bill
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

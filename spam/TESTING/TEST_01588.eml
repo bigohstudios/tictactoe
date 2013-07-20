@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId128afaa4816c2774
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs45146wfo;
+        Wed, 19 May 2010 01:24:52 -0700 (PDT)
+Received: by 10.143.20.33 with SMTP id x33mr5528941wfi.116.1274257492147;
+        Wed, 19 May 2010 01:24:52 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 35si10001882pzk.111.2010.05.19.01.24.52;
+        Wed, 19 May 2010 01:24:52 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id DB4CB1C931032
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 01:24:51 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D5B8C27C1E6B9
+	for <mlsubscriber.tech@csmining.org>; Wed, 19 May 2010 01:24:51 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 759E527C1E447
+	for <objc-language@lists.apple.com>;
+	Wed, 19 May 2010 01:24:26 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 652C4D9C0180
+	for <objc-language@lists.apple.com>;
+	Wed, 19 May 2010 01:24:26 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-f4-4bf3a03961f7
+Received: from mail-fx0-f43.google.com (mail-fx0-f43.google.com
+	[209.85.161.43])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	8A.E7.15139.930A3FB4; Wed, 19 May 2010 01:24:26 -0700 (PDT)
+Received: by fxm20 with SMTP id 20so2165014fxm.30
+	for <objc-language@lists.apple.com>;
+	Wed, 19 May 2010 01:24:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:cc:content-type;
+	bh=AIoI5T0aph3jjvdB5C6rjVpO8vmXdmf81ijHHV6m6Ts=;
+	b=AhmlBstW0GRhnum6Rkilk77A4CSsPUwu0bVbI6/hBal6tQuESafkXkd/qHgPEcxZ5w
+	O25nLiXu9T1vWY6xmTV7veGQJmTAEswrAyimNWv/p2pQDmQ87zlabtH3p8ZTUenjt1yU
+	kxl723bMwAkx73NpH92njXlfSh9DIQGudQDP0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type;
+	b=BC+aHVuzLZLexH1gi1g+o3TGD6T00DTFn+DuNWaxGEHiWR5m0J6uHzh30rxNfrCPF2
+	U0lI2+BYyYwUcNZOHK4XWlsnPp5X8ApGdiU2EOs72efku206R1XcXYggD6VxtcnKKEde
+	WPZYknGNBwpoBsX7k2PxwRrWn3dTgazWsy3EQ=
+MIME-Version: 1.0
+Received: by 10.102.174.39 with SMTP id w39mr5934458mue.20.1274257464605; Wed, 
+	19 May 2010 01:24:24 -0700 (PDT)
+Received: by 10.204.47.129 with HTTP; Wed, 19 May 2010 01:24:24 -0700 (PDT)
+In-Reply-To: <26A613D9-94CE-4576-A952-85F5CCB44EE1@manoverboard.org>
+References: <1C0A76E4-8286-4CE6-9F5B-C1BB76693297@me.com>
+	<26A613D9-94CE-4576-A952-85F5CCB44EE1@manoverboard.org>
+Date: Wed, 19 May 2010 09:24:24 +0100
+Message-ID: <AANLkTinF_c2RibI7ndOteE58qeGBbGgFiIgs_cSGpAye@mail.csmining.org>
+From: Hamish Allan <hamish@csmining.org>
+To: Fritz Anderson <fritza@manoverboard.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Brightmail-Tracker: AAAAAhRG5EIUR6+g
+Cc: objc-language@lists.apple.com
+Subject: Re: Class Structure Questions
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Wed, May 19, 2010 at 1:47 AM, Fritz Anderson
+<fritza@manoverboard.org> wrote:> This isn't really a question about
+the Objective-C language itself.
+
+> UITableView is a pure view class. It contains no data. It is particular to no application or data set. I can't imagine a reasonable case for ever subclassing it.
+
+I have a UITableView subclass with a "marking" property (and a
+-setMarking:animated: method) to toggle a mode for multiple selection
+(a la MobileMail) with the cooperation of a complementary
+UITableViewCell subclass. It's modelled after the 'editing' mode, but
+distinct from it (which makes retaining the existing swipe-to-delete
+behaviour much easier).
+
+H
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

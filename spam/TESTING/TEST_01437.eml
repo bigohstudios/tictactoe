@@ -1,0 +1,94 @@
+X-Account-Key: account5
+X-UIDL: GmailId12887a7a5225041c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs65089wfb;
+        Tue, 11 May 2010 06:57:11 -0700 (PDT)
+Received: by 10.223.101.81 with SMTP id b17mr6394559fao.17.1273586230622;
+        Tue, 11 May 2010 06:57:10 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id u3si11358636fan.80.2010.05.11.06.57.10;
+        Tue, 11 May 2010 06:57:10 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0DA016C846B; Tue, 11 May 2010 13:57:08 +0000 (UTC)
+Old-Return-Path: <christoph.burgmer@stud.uni-karlsruhe.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.0 required=4.0 tests=RCVD_IN_DNSWL_MED
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 7AD2513A56AD
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 13:40:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, RCVD_IN_DNSWL_MED=-4] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id L9L8Zxn7aJ7w for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 13:39:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -8.1
+X-Greylist: delayed 1008 seconds by postgrey-1.31 at liszt; Tue, 11 May 2010 13:39:59 UTC
+Received: from smtp2.rz.uni-karlsruhe.de (smtp2.rz.uni-karlsruhe.de [129.13.185.218])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id DEAC62D0DCC
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 13:39:53 +0000 (UTC)
+Received: from chrislbmobile.localnet (dslb-188-099-228-244.pools.arcor-ip.net [188.99.228.244])
+	by smtp2.rz.uni-karlsruhe.de with esmtpsa (Exim 4.63 #1)
+	id 1OBpQS-0001wa-Sf; Tue, 11 May 2010 15:23:09 +0200
+From: Christoph Burgmer <christoph.burgmer@stud.uni-karlsruhe.de>
+To: debian-kde@lists.debian.org
+Subject: Re: memory usage
+Date: Tue, 11 May 2010 15:21:59 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.31-1-686; KDE/4.4.3; i686; ; )
+References: <hsb831$3q9$1@dough.gmane.org> <slrnhuim5s.rvp.nospam@sshway.ssh.pusling.com>
+In-Reply-To: <slrnhuim5s.rvp.nospam@sshway.ssh.pusling.com>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005111522.00471.christoph.burgmer@stud.uni-karlsruhe.de>
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <NXw7yUMDktM.A.WQG.0IW6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32372
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 13:57:08 +0000 (UTC)
+
+Am Dienstag, 11. Mai 2010 schrieb Sune Vuorela:
+> Except I only have 512mb ram in my laptop, it matches my experience of
+> eclipse.
+
+Nice to hear that I'm not the only one with this "ancient" configuration. For 
+me 4.4.3 made things much worse, and no Eclipse included.
+
+Not sure if only the new presence of virtuoso and akonadi take away the 
+remaining free ram now triggering swapping. Strigi is off, of course and I 
+wonder if any other tricks might make KDE agreeable again in speed.
+
+-Christoph
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005111522.00471.christoph.burgmer@stud.uni-karlsruhe.de
+
+

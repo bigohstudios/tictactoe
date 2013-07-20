@@ -1,0 +1,56 @@
+Re: bad focus/click behavioursI need to experiment with ripping out all my "sophisticated" cut/paste
+code.  This is mostly historical accident from dealing with very early
+versions of Tk, and the emacs "cutbuffer", and other wierd junk.
+You can, too, by hacking upon seditBind.tcl appropriately.
+
+>>>Hal DeVore said:
+ > 
+ > 
+ > >>>>> On Fri, 13 Sep 2002, "Tony" == Tony Nugent wrote:
+ > 
+ >   Tony> I can't even mark text in an exmh message window and then
+ >   Tony> paste it into a terminal window, the cut buffer seems to
+ >   Tony> be completely empty (and its previous contents are no
+ >   Tony> longer there either).
+ > 
+ > Brent confessed recently that he had tried to subvert the X
+ > model(s) of copy and paste.  Not in those words... but that
+ > was how I read it. ;)
+ > 
+ > I have a lot of trouble copying and pasting from or to exmh 
+ > across a VNC link (from things in the vncviewer to things not in 
+ > it and vice versa).  As long as I stick to apps being "normally" 
+ > displayed on my X server I don't have much of a problem.
+ > 
+ > My recollection from my X programming days is that the X model,
+ > like everything in X, is more complex than the human brain can
+ > handle.  It also is very different from the MS-Windows model.
+ > And I get the feeling that Tk tries to "unify" those two models
+ > and fails.  Not sure what the exmh-specific contribution to the 
+ > confusion is, frankly.
+ > 
+ > --Hal
+ > 
+ > 
+ > 
+ > 
+ > _______________________________________________
+ > Exmh-users mailing list
+ > Exmh-users@redhat.com
+ > https://listman.redhat.com/mailman/listinfo/exmh-users
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

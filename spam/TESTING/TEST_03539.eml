@@ -1,0 +1,179 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284e58750ef0daa
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs86494wfj;
+        Fri, 30 Apr 2010 03:52:20 -0700 (PDT)
+Received: by 10.223.67.144 with SMTP id r16mr1304409fai.102.1272624739395;
+        Fri, 30 Apr 2010 03:52:19 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id p17si2650240fka.46.2010.04.30.03.52.18;
+        Fri, 30 Apr 2010 03:52:19 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id CC82C13A4D4B; Fri, 30 Apr 2010 10:52:09 +0000 (UTC)
+Old-Return-Path: <jhstuckey@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-5.0 required=4.0 tests=CAPINIT,GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D807E13A491E
+	for <lists-debian-user@liszt.debian.org>; Fri, 30 Apr 2010 10:52:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, CAPINIT=3, GMAIL=1, HTML_MESSAGE=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gMJtlIxpaZXn for <lists-debian-user@liszt.debian.org>;
+	Fri, 30 Apr 2010 10:51:53 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-fx0-f47.google.com (mail-fx0-f47.google.com [209.85.161.47])
+	by liszt.debian.org (Postfix) with ESMTP id BBBE713A4C27
+	for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 10:51:53 +0000 (UTC)
+Received: by fxm11 with SMTP id 11so59867fxm.6
+        for <debian-user@lists.debian.org>; Fri, 30 Apr 2010 03:51:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=Q4RiOzygJ57wxUJDIP3AB6/vxs8mVGjHjDIwOG6yINo=;
+        b=S4OlYTlCH7cExg3eKdywYRSd7fP0UQEuEWf4sCr4mSTExKxtgVtGOm2EhtifZn3LIt
+         rHS43zGV1fmu978J6aWV/PP5qs8VWklUuoj37aRmPjKPNidcNTe30kS/SFjIQ+cFJ5RI
+         Mq/RAhtrJyLQQaMVXe5JeGkV9gyKhf0KujArM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=aqwLbSe4X6jAtG52LA9z5JwWzs4xy3AJzbuWB0RzFyQaFfnR3VI/mcQWGSNN2bS2dd
+         nrxmJiiWRFDMGItdnZIO0ux17INCfgxOUj2T8b8nXOUoe9YSsYtm/SVqxR0b5+HDATPz
+         QMjYGn5mQzJ5YKFA++HXJNikslo2SlZQIPMUE=
+MIME-Version: 1.0
+Received: by 10.223.117.164 with SMTP id r36mr1317255faq.28.1272624709066; 
+	Fri, 30 Apr 2010 03:51:49 -0700 (PDT)
+Received: by 10.223.117.66 with HTTP; Fri, 30 Apr 2010 03:51:49 -0700 (PDT)
+In-Reply-To: <u2xbe2e83e31004300339w60c33217k878fccef19b9aca3@mail.csmining.org>
+References: <y2xb36d43c31004300328m9fe16e64ldeddc780a0dbb397@mail.csmining.org>
+	 <z2sd0bf7b0b1004300333z1a5921f7o5f878986973d05f8@mail.csmining.org>
+	 <i2zb36d43c31004300337jb7f297c5x88a99ada8fd5602c@mail.csmining.org>
+	 <u2xbe2e83e31004300339w60c33217k878fccef19b9aca3@mail.csmining.org>
+Date: Fri, 30 Apr 2010 12:51:49 +0200
+Message-ID: <x2ob36d43c31004300351g42fe5d58w99779be3e796f2a6@mail.csmining.org>
+Subject: Re: Aptitude Error
+From: James Stuckey <jhstuckey@csmining.org>
+To: "kousikster@csmining.org Anand Sivaram" <aspnair@csmining.org>, debian-user <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=00163662e5dfb760ba0485720766
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <3An8DoNoaKH.A.guC.ZZr2LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575541
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri, 30 Apr 2010 10:52:09 +0000 (UTC)
+
+--00163662e5dfb760ba0485720766
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Fri, Apr 30, 2010 at 12:39 PM, Kousik Maiti <kousikster@csmining.org> wrote:
+
+> Try
+>
+> apt-get install fakeroot devscripts build-essential
+>
+> If it gives error then post your /etc/apt/sources.list
+>
+>
+>
+>> I selected "n" and it prompted me to "downgrade the packages to testing".
+>> This means that the versions it had were newer than testing, i.e., from sid.
+>> How could this be if I followed 2.7.3 of DR? According to that, my candidate
+>> version is appropriately set:
+>>
+>>
+>>
+I selected "n" and then "y" and it downgraded the packages to testing. Why
+would they have been upgraded in the first place? Here is my sources file:
+
+stuckey@debian:~$ cat /etc/apt/sources.list
+deb ftp://ftp.debian-multimedia.org squeeze main non-free
+
+deb http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+#deb-src http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+
+#deb http://ftp.de.debian.org/debian sid main contrib non-free
+deb-src http://ftp.de.debian.org/debian/ sid main contrib non-free
+
+deb http://security.debian.org/ squeeze/updates main contrib non-free
+#deb-src http://security.debian.org/ squeeze/updates main contrib non-free
+
+--00163662e5dfb760ba0485720766
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Fri, Apr 30, 2010 at 12:39 PM, Kousik=
+ Maiti <span dir=3D"ltr">&lt;<a href=3D"mailto:kousikster@csmining.org">kousik=
+ster@csmining.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
+tyle=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8e=
+x; padding-left: 1ex;">
+<pre><span>Try <br><br>apt-get install fakeroot devscripts build-essential<=
+br><br>If it gives error then post your /etc/apt/sources.list<br><br></span=
+></pre><div><div></div><div><br><div class=3D"gmail_quote"><blockquote clas=
+s=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, 204, 204); margi=
+n: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+<div class=3D"gmail_quote"><div><br>I selected &quot;n&quot; and it prompte=
+d me to &quot;downgrade the packages to testing&quot;. This means that the =
+versions it had were newer than testing, i.e., from sid. How could this be =
+if I followed 2.7.3 of DR? According to that, my candidate version is appro=
+priately set: <br>
+
+
+
+<br><br></div></div></blockquote></div></div></div></blockquote><div>=A0<br=
+>I selected &quot;n&quot; and then &quot;y&quot; and it downgraded the pack=
+ages to testing. Why would they have been upgraded in the first place? Here=
+ is my sources file:<br>
+<br>stuckey@debian:~$ cat /etc/apt/sources.list<br>deb <a href=3D"ftp://ftp=
+.debian-multimedia.org">ftp://ftp.debian-multimedia.org</a> squeeze main no=
+n-free<br><br>deb <a href=3D"http://ftp.de.debian.org/debian/">http://ftp.d=
+e.debian.org/debian/</a> squeeze main contrib non-free<br>
+#deb-src <a href=3D"http://ftp.de.debian.org/debian/">http://ftp.de.debian.=
+org/debian/</a> squeeze main contrib non-free<br><br>#deb <a href=3D"http:/=
+/ftp.de.debian.org/debian">http://ftp.de.debian.org/debian</a> sid main con=
+trib non-free<br>
+deb-src <a href=3D"http://ftp.de.debian.org/debian/">http://ftp.de.debian.o=
+rg/debian/</a> sid main contrib non-free<br><br>deb <a href=3D"http://secur=
+ity.debian.org/">http://security.debian.org/</a> squeeze/updates main contr=
+ib non-free<br>
+#deb-src <a href=3D"http://security.debian.org/">http://security.debian.org=
+/</a> squeeze/updates main contrib non-free<br><br></div><blockquote class=
+=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, 204, 204); margin=
+: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;">
+<div><div><div class=3D"gmail_quote"><blockquote class=3D"gmail_quote" styl=
+e=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt 0pt 0.8ex; =
+padding-left: 1ex;">
+</blockquote></div></div></div></blockquote></div>
+
+--00163662e5dfb760ba0485720766--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2ob36d43c31004300351g42fe5d58w99779be3e796f2a6@mail.csmining.org
+
+

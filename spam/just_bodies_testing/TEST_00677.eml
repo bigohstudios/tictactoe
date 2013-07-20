@@ -1,0 +1,60 @@
+Re: Filesystem recommendationsFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Mon, Apr 26, 2010 at 2:22 PM, Boyd Stephen Smith Jr. <
+bss@iguanasuicide.net> wrote:
+
+> I'm also a current reiser3 user.  I find the ability to shrink the
+> filesystem
+> to be something I am not willing to do without.
+>
+
+You know, I said the same thing, but then as the kernel and GRUB and the
+like advanced, I noticed that my reiserfs partitions would have to replay
+the journal every time I rebooted, even after a clean shutdown. I started
+calculating how many times I shrunk any of my partitions in the last 8
+years, and I can only recall twice. And since I have several terabytes
+around the house, I figure I can migrate data and delete/recreate partitions
+if I really need to reduce it.
+
+
+> I have not read the rest of the thread, but my off-the-cuff recommendation
+> would be to start migration to btrfs.  Now that the on-disk format has
+> stabilized, I am going to start testing it for filesystems other than
+> /usr/local, /var, and /home.  Assuming I can keep those running well for
+> 6-12
+> months, I will migrate /usr/local, /var, and then /home, in that order,
+> with a
+> 1-3 month gap in between migrations.
+>
+
+I might play with it for some non-critical partitions, or ones that I can
+mirror on an established filesystem, even if it is only to use in an
+"Archive Island" scenario, where I have a LV that I can mount, sync and
+umount. However, btrfs is not included in the kernel, is it? As I recall,
+nilfs2 has kernel support, but that was the only one of the new filesystems,
+at the time when I started looking at this.
+
+
+> It's an aggressive migration plan, but reiser3 is just barely
+
+maintained in
+> the kernel, and btrfs is the only filesystem I have heard of that even
+> advertises all the features I need.
+>
+> I've already encountered an issue related to btrfs in my very isolated
+> deployments.  The initramfs created by update-initramfs does not appear to
+> mount it properly.  Instead I am given an '(initramfs)' prompt and I have
+> to
+> mount the filesystem manually (a simple two-argument mount command
+> suffices)
+> and continue the boot process.  This is fine for my laptop, but servers
+> (and
+> even my desktop) need to be able to boot unattended; I am still
+> investigating
+> the issue, which may just be due to my configuration.
+>
+
+That is enough to give me pause...
+
+--b

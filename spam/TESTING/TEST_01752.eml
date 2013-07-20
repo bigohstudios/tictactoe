@@ -1,0 +1,126 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d9a09f79d0158
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs39905wfi;
+        Wed, 7 Apr 2010 11:55:36 -0700 (PDT)
+Received: by 10.87.68.36 with SMTP id v36mr14592721fgk.43.1270666534669;
+        Wed, 07 Apr 2010 11:55:34 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 5si33539376fxm.72.2010.04.07.11.55.33;
+        Wed, 07 Apr 2010 11:55:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id E87AF13A5C28; Wed,  7 Apr 2010 18:55:24 +0000 (UTC)
+Old-Return-Path: <celejar@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=IMPRONONCABLE_2,
+	LDOSUBSCRIBER,LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id AF57713A5C0E
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 18:55:18 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, IMPRONONCABLE_2=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Fct84-1fWd6w for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 18:55:11 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from ey-out-1920.google.com (ey-out-1920.google.com [74.125.78.146])
+	by liszt.debian.org (Postfix) with ESMTP id 9838A13A5BC8
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 18:55:11 +0000 (UTC)
+Received: by ey-out-1920.google.com with SMTP id 3so320900eyh.6
+        for <debian-user@lists.debian.org>; Wed, 07 Apr 2010 11:55:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:date:from:to:subject
+         :message-id:in-reply-to:references:x-mailer:mime-version
+         :content-type:content-transfer-encoding;
+        bh=3MdhIK8iQQjPVrbHVGhinRW2OiVwNWx74Nzg1Z6LlAI=;
+        b=fm85tSsgf+BKhHVdxymZAsejmwALrUIdQENITWhYF7bXx/ZrM16BBIStQgLpBjC9Tx
+         ku3/U5EYD7o6yg/DDr7N7AYyI/yNxdgZh7dx24ddukUmNz7EOZpgIb21J/7Rn6YBGKTR
+         pKzsfw2zoz0pZAiecky2gbWsyzr3HmDNVcPnA=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=date:from:to:subject:message-id:in-reply-to:references:x-mailer
+         :mime-version:content-type:content-transfer-encoding;
+        b=Cs73mmrgciF1iQYKK4G45MAE05PlcpaqPDgQTyv70BczIkkgZCU6NL+MrpwpdF256n
+         l7cO7GqjObBUOE10e5J4Nwk/2CuXKfPSzGTle4SAIHFV+dg74zYyoS/FB8iDZ3aa9hc5
+         P6b7+2tjH+2QrPc2dZ8eR77bz8x2PPHsKsfaI=
+Received: by 10.213.109.149 with SMTP id j21mr5710785ebp.73.1270666506711;
+        Wed, 07 Apr 2010 11:55:06 -0700 (PDT)
+Received: from localhost.localdomain (pool-173-68-45-142.nycmny.east.verizon.net [173.68.45.142])
+        by mx.google.com with ESMTPS id 15sm8210923ewy.0.2010.04.07.11.55.04
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Wed, 07 Apr 2010 11:55:06 -0700 (PDT)
+Date: Wed, 7 Apr 2010 14:54:53 -0400
+From: Celejar <celejar@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Re: recompiling the kernel with a different version name
+Message-Id: <20100407145453.41737aad.celejar@csmining.org>
+In-Reply-To: <1843272845.1680871270662498861.JavaMail.root@md01.wow.synacor.com>
+References: <hpiena$t7t$1@dough.gmane.org>
+	<1843272845.1680871270662498861.JavaMail.root@md01.wow.synacor.com>
+X-Mailer: Sylpheed 3.0.1 (GTK+ 2.20.0; i486-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <jwDkxCzPNSM.A.d6G.cUNvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573534
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 18:55:24 +0000 (UTC)
+
+On Wed, 7 Apr 2010 13:48:18 -0400 (EDT)
+Stephen Powell <zlinuxman@wowway.com> wrote:
+
+...
+
+> Note: you must always issue "make-kpkg clean" after running "make menuconfig"
+> or after running "make-kpkg" with any target other than "clean".  Otherwise,
+> version and revision numbers will not work as expected.  Assuming that you
+
+Are you sure that this is currently required?  From the changelog:
+
+kernel-package (12.016) unstable; urgency=low
+
+  * [4df65e7]: Remove obsolete warnings about running make-clean
+    With the new facility to regenerate ./debian, all the old strictures
+    about running make clean after anything that might change the version
+    number have beenmade obsolete, so remove from man page.  
+    Bug fix: "Is the --append-to-version section still accurate?", thanks
+    to Frédéric Brière. Short answer: No.                  (Closes: #534743).
+
+ -- Manoj Srivastava <srivasta@debian.org>  Sun, 28 Jun 2009 15:31:12 -0500
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100407145453.41737aad.celejar@csmining.org
+
+

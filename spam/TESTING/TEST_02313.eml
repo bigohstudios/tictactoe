@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId127df8435cbe26d6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs536wfi;
+        Thu, 8 Apr 2010 15:22:16 -0700 (PDT)
+Received: by 10.114.186.29 with SMTP id j29mr1293156waf.99.1270765335987;
+        Thu, 08 Apr 2010 15:22:15 -0700 (PDT)
+Return-Path: <quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 33si714780pzk.39.2010.04.08.15.22.15;
+        Thu, 08 Apr 2010 15:22:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id B3D491BBAE109
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 15:22:15 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id AEE2F26A42ECD
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 15:22:15 -0700 (PDT)
+X-Original-To: quicktime-users@lists.apple.com
+Delivered-To: quicktime-users@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id D6FA326A42D56
+	for <quicktime-users@lists.apple.com>;
+	Thu,  8 Apr 2010 15:22:00 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id C60B9CED4647
+	for <quicktime-users@lists.apple.com>;
+	Thu,  8 Apr 2010 15:22:00 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7c81ae0000050dc-a4-4bbe57083d44
+Received: from mail-out1.fuse.net (mail-out1.fuse.net [216.68.8.170])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	FC.AC.20700.8075EBB4; Thu,  8 Apr 2010 15:22:00 -0700 (PDT)
+X-CNFS-Analysis: v=1.1 cv=Wtlyt5xHM7hyfhNp3Azyi3EJo0fD6gIesAu9gnKS8rs= c=1
+	sm=0 a=8nJEP1OIZ-IA:10 a=w1lZMHalAAAA:8
+	a=ZsqSP2yEshZucf4aA8IA:9 a=KHX_C_9gWmeeQ1r0wg0k9rG6JbkA:4
+	a=wPNLvfGTeEIA:10 a=LUGdSHaYEaYA:10
+	a=cYE5rj1cpynp/YQFi5O3Rw==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Authentication-Results: ecout1 smtp.mail=christol@fuse.net; spf=unknown
+Authentication-Results: ecout1 smtp.user=christol; auth=pass (LOGIN)
+Received-SPF: error (ecout1: 69.61.171.236 is neither permitted nor denied by
+	domain of fuse.net
+Received: from [69.61.171.236] ([69.61.171.236:52600] helo=Macintosh.local)
+	by ecout1 (envelope-from <christol@fuse.net>)
+	(ecelerity 2.2.2.43 r()) with ESMTPA
+	id 1A/A7-00090-8075EBB4; Thu, 08 Apr 2010 18:22:00 -0400
+Message-ID: <4BBE56F8.2050401@fuse.net>
+Date: Thu, 08 Apr 2010 18:21:44 -0400
+From: M Christol <christol@fuse.net>
+User-Agent: Thunderbird 2.0.0.24 (Macintosh/20100228)
+MIME-Version: 1.0
+To: quicktime-users@lists.apple.com
+References: <20100408191025.EFF7A26A278BA@lists.apple.com>
+	<916FBCFA-84F8-4926-A07E-0F7ADA17547E@conncoll.edu>
+In-Reply-To: <916FBCFA-84F8-4926-A07E-0F7ADA17547E@conncoll.edu>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: AAAAAhOekTsTnpfA
+Subject: Re: File Size & cut
+X-BeenThere: quicktime-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Usage of QuickTIme <quicktime-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-users@lists.apple.com>
+List-Help: <mailto:quicktime-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Frank Fulchiero wrote:
+>>
+>> From: M Christol <christol@fuse.net>
+>> Subject: File Size & cut
+>>
+>> I had a 40 minute .mov file. I cut 36 minutes off and the file size
+>> remained the same (499MB).
+>> I had used h.264 & AAC
+>> I exported the movie & the file size went down to what I expected.
+>> Why didn't the file size reduce afer the cut?
+>
+> The file size will stay the same unless you save as a new 
+> self-contained QT movie.
+> Frank
+>
+So, the deleted part of the file is just hidden?
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

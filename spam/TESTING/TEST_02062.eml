@@ -1,0 +1,90 @@
+X-Account-Key: account5
+X-UIDL: GmailId12831a0aae92d1a1
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs26665wfj;
+        Sat, 24 Apr 2010 14:02:13 -0700 (PDT)
+Received: by 10.141.105.14 with SMTP id h14mr1799009rvm.197.1272142932862;
+        Sat, 24 Apr 2010 14:02:12 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 29si4102507pzk.21.2010.04.24.14.02.12;
+        Sat, 24 Apr 2010 14:02:12 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id A30031C253BE3
+	for <mlsubscriber.tech@csmining.org>; Sat, 24 Apr 2010 14:02:12 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 8C3712716718F
+	for <mlsubscriber.tech@csmining.org>; Sat, 24 Apr 2010 14:02:12 -0700 (PDT)
+X-Original-To: X11-users@lists.apple.com
+Delivered-To: X11-users@lists.apple.com
+Received: from relay11.apple.com (relay11.apple.com [17.128.113.48])
+	by lists.apple.com (Postfix) with ESMTP id C774E27166F9C
+	for <X11-users@lists.apple.com>; Sat, 24 Apr 2010 14:01:53 -0700 (PDT)
+X-AuditID: 11807130-b7cbdae0000079bd-f8-4bd35c418c60
+Received: from elliott.apple.com (elliott.apple.com [17.151.62.13])
+	by relay11.apple.com (Apple SCV relay) with SMTP id
+	E4.C3.31165.14C53DB4; Sat, 24 Apr 2010 14:01:53 -0700 (PDT)
+Received: from [17.151.90.94] by elliott.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L1E00JGDFR5JE90@elliott.apple.com> for
+	X11-users@lists.apple.com; Sat, 24 Apr 2010 14:01:53 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <m2v1b7ff9921004241345q4f15d0edrd5412127ea9a8d6f@mail.csmining.org>
+Date: Sat, 24 Apr 2010 14:01:52 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <DE40219E-6C34-46BE-BBAE-8726E5147B3B@apple.com>
+References: <m2v1b7ff9921004241345q4f15d0edrd5412127ea9a8d6f@mail.csmining.org>
+To: Enrico Malito <rnaelm@csmining.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11-users@lists.apple.com
+Subject: Re: prevent terminal from opening
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+h=
+ttp://xquartz.macosforge.org/trac/wiki/X11-UsersFAQ#Suppressingxtermlaunch=
+ingbydefault
+
+On Apr 24, 2010, at 13:45, Enrico Malito wrote:
+
+> Hello,
+> Is there a way to prevent the automatic opening of the terminal when =
+X11
+> (XQuartz 2.5.0/Leopard 10.6.3) starts?
+> Thanks,
+> EM
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

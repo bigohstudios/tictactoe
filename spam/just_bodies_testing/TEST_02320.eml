@@ -1,0 +1,61 @@
+Re: ~/.xsession-errors file grows way too bigT o n g wrote:
+> Hi,
+> 
+> I am astonished to find out that my ~/.xsession-errors grows to a 
+> humongous 640M! My wife's is nearly 400M as well. This is way way too 
+> big. 
+> 
+> I took a look, the reason and cure is very simple -- having X to trunk it 
+> each time when started 
+> (http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=287876)
+> whereas currently, my ~/.xsession-errors kept logs back to stone age. 
+> 
+> However, such reasonable request has been tabled for 6 years now. The DD 
+> gave loads of irrelevant reasons as excuse of not fixing it. Ref:
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=276545
+> 
+> Any comment? 
+> 
+
+My .xsession-errors is now:
+
+hugo@debian:~$ ls -l .xsession-errors
+-rw-r--r-- 1 hugo hugo 200043 2010-05-19 12:34 .xsession-errors
+
+and it is filled with:
+
+...
+error 173 request 152 minor 8 serial 1023
+error 173 request 152 minor 8 serial 1176
+error 173 request 152 minor 8 serial 1271
+error 173 request 152 minor 8 serial 1323
+...
+
+I asked about that several times who knows where and when and nobody 
+answered, as will be the case here.
+
+It gets that way after I do (in Fvwm)
+
+Key F9          A       M       Exec /usr/local/bin/xcompmgr -c -f
+
+so that I can make my onscreen monitors grow translucent to see what is 
+behind them:
+
+Mouse 4         W       S       Exec /usr/bin/transset-df --min 0.1 
+--id=$[w.id] --dec 0.2
+Mouse 5         W       S       Exec /usr/bin/transset-df -p --inc 0.1 
+--id=$[w.id]
+
+But .xsession-errors gets initialized at the beginning of each session, 
+who knows why...
+
+Hugo
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ht185u$77n$1@dough.gmane.org
+
+

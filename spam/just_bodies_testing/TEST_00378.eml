@@ -1,0 +1,37 @@
+[Razor-users] removing Razor1Forgive me for being a partially stupid end-user of this fantastic
+spam fighting software.
+
+I was looking at my spamd debug output today, and noticed that it ran
+through Razor2 stuff, and then it ran through dccproc, and then it tried to
+go through old Razor1 stuff.  I'm assuming (and please correct me if I'm
+wrong) that Razor1 is out dated and was to be replaced entirely by Razor2.
+
+If that's the case, can someone please point me to something that explains
+how to remove Razor1 from my system?  I don't see a point in envoking it.
+Especially when it appears to error out on me.
+
+debug: Razor1 is available
+debug: entering helper-app run mode
+debug: Razor Agents 1.19, protocol version 2.
+debug: 170803 seconds before closest server discovery
+debug: Agent terminated
+Problem while trying to load Razor1: Permission denied  at
+/usr/local/lib/perl5/site_perl/5.6.1/Mail/SpamAssassin/Dns.pm line 288.
+debug: leaving helper-app run mode
+
+Thanks!
+
+-- 
+Josh Hildebrand          Email: josh@jedi.net
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

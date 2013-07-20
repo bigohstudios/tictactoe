@@ -1,0 +1,140 @@
+X-Account-Key: account5
+X-UIDL: GmailId128a6fa1fa04f7cc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs23445wfo;
+        Mon, 17 May 2010 08:55:30 -0700 (PDT)
+Received: by 10.223.17.197 with SMTP id t5mr1671647faa.84.1274111729346;
+        Mon, 17 May 2010 08:55:29 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id d18si13223247fah.37.2010.05.17.08.55.28;
+        Mon, 17 May 2010 08:55:29 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7FC0713A4913; Mon, 17 May 2010 15:55:18 +0000 (UTC)
+Old-Return-Path: <storm16@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 06C7E13A490F
+	for <lists-debian-user@liszt.debian.org>; Mon, 17 May 2010 15:55:12 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 9F1Wv2a57TkV for <lists-debian-user@liszt.debian.org>;
+	Mon, 17 May 2010 15:55:04 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id 88ACA13A48BE
+	for <debian-user@lists.debian.org>; Mon, 17 May 2010 15:54:57 +0000 (UTC)
+Received: by gya1 with SMTP id 1so2104872gya.6
+        for <debian-user@lists.debian.org>; Mon, 17 May 2010 08:54:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type;
+        bh=f8h6k7mfkeESAbkzK2p+Ot01VET0YFW+TYSnUCQipxA=;
+        b=bLKbXdaEOZFxWfyxY1XE+YAKQzlpoBXdT+c/rGTd5bMdW0IISWctCa7pAlSfi/DvGB
+         QljExS42YOU1MBNFkSv3ahVwTWfx4dO7w7q2sq0u52L6tKAVgespNDRxfFzp4khahBFH
+         uUiz7wLkcp+oetXF5XSxjEh1IYlLVVOrZxP7U=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=ei/pYMk/JY6zDHApM3d8N8vD11/IWI+QIuFFhqEVWdPUiFJ3HvNSfkw2FNsFFloSEe
+         /1aPT3XFykLJZ/aFU/zlvBkOPe4jupOWbUg/GjkEZpIcP0uuepna03ZJj4x+8HGS9BQR
+         mkQt1RAelYyxak9jcLScGWInWx9ya3ete+doE=
+MIME-Version: 1.0
+Received: by 10.151.88.18 with SMTP id q18mr6356846ybl.33.1274110146188; Mon, 
+	17 May 2010 08:29:06 -0700 (PDT)
+Received: by 10.150.52.17 with HTTP; Mon, 17 May 2010 08:29:05 -0700 (PDT)
+Date: Mon, 17 May 2010 11:29:05 -0400
+Message-ID: <AANLkTik0KPq0I5Bw8jVcpJ1jQHfoHekuGLdEBCDhK5Lj@mail.csmining.org>
+Subject: Aargh! I hate the fglrx driver!
+From: "B. Alexander" <storm16@csmining.org>
+To: Debian-user List <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=000e0cd648ccab16ce0486cbe22d
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7JPCnVsZiHM.A.FJ.mbW8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577042
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 17 May 2010 15:55:18 +0000 (UTC)
+
+--000e0cd648ccab16ce0486cbe22d
+Content-Type: text/plain; charset=ISO-8859-1
+
+I upgraded my machine at work today, and among other things that were
+installed, aptitude upgraded the kernel (linux-image-2.6.32-5-amd64) as well
+as the fglrx packages. I had the 9-11 held, but aptitude upgraded it anyway.
+And with the combination of packages, I was no longer able to roll back to
+9-11...
+
+The reason I had it held in the first place was that any with any of the
+later drivers I was not able to get compiz working again. With the newer
+drivers (including 10-4), my kde panel and terminal windows are solid white,
+sort of a mini-white screen of death.
+
+I have been fiddling with it (this time) for about the last 3 hours, and
+can't get it to work. I looked online, but didn't see the level of uproar
+that I would have thought  if it were a common problem. Therefore, I am
+thinking that it is a configuration issue on this machine.
+
+I did an m-a a-i fglrx, and the driver built, but as I said, compiz white
+screens. KDE 4.4.3's compositing seems to work fine, but it doesn't have all
+the features I need. (Group and tab comes to mind).
+
+Anyone have any idea why  compiz won't work with newer fglrx drivers?
+
+--b
+
+--000e0cd648ccab16ce0486cbe22d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+I upgraded my machine at work today, and among other things that were insta=
+lled, aptitude upgraded the kernel (linux-image-2.6.32-5-amd64) as well as =
+the fglrx packages. I had the 9-11 held, but aptitude upgraded it anyway. A=
+nd with the combination of packages, I was no longer able to roll back to 9=
+-11...<br>
+<br>The reason I had it held in the first place was that any with any of th=
+e later drivers I was not able to get compiz working again. With the newer =
+drivers (including 10-4), my kde panel and terminal windows are solid white=
+, sort of a mini-white screen of death.<br>
+<br>I have been fiddling with it (this time) for about the last 3 hours, an=
+d can&#39;t get it to work. I looked online, but didn&#39;t see the level o=
+f uproar that I would have thought=A0 if it were a common problem. Therefor=
+e, I am thinking that it is a configuration issue on this machine. <br>
+<br>I did an m-a a-i fglrx, and the driver built, but as I said, compiz whi=
+te screens. KDE 4.4.3&#39;s compositing seems to work fine, but it doesn&#3=
+9;t have all the features I need. (Group and tab comes to mind).<br><br>
+Anyone have any idea why=A0 compiz won&#39;t work with newer fglrx drivers?=
+<br><br>--b<br>
+
+--000e0cd648ccab16ce0486cbe22d--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTik0KPq0I5Bw8jVcpJ1jQHfoHekuGLdEBCDhK5Lj@mail.csmining.org
+
+

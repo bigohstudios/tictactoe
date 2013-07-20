@@ -1,0 +1,51 @@
+Re: Lite SMTP server/daemonOn Fri, 30 Apr 2010 23:10:11 +0100
+Steve Kemp <skx@debian.org> wrote:
+
+> On Fri Apr 30, 2010 at 16:20:40 -0400, Celejar wrote:
+> 
+> > > Hm, I had thought that at least some of the small, relaying MTAs
+> > > accepted connections on port 25.  On closer perusal, it looks like they
+> > > don't.
+> 
+> ..
+> 
+> > I was sufficiently intrigued by the (apparent) absence of a simple MTA
+> > that does the above, so I decided to write my own: Tmta.  It actually
+> > works, and is documented, although it's still pretty much in the
+> > proof-of-concept stage:
+> >
+> > https://sourceforge.net/projects/tmta/
+> 
+>    qpsmtpd?  It is small, plugin-based, and also written in Perl.
+> 
+>    There are inetd versions, prefork versions, and simple fork-on-demand
+>   too.  Chances are you can configure it to recognise a single domain,
+>   or act as a smart-host with only one of the available plugins which
+>   makes it a trivially portable solution.
+> 
+>    Insanely customizable and very very useful to me, but also I think
+>   something that could be used even as a very simple MTA.
+
+Thanks!  I missed that one, and when no one corrected my previous email
+that wondered if such a thing existed, I assumed that it did not.
+
+I couldn't discern, BTW, whether it supports TLS / SSL to an
+upstream MTA?  I did find this thread:
+
+http://www.nntp.perl.org/group/perl.qpsmtpd/2005/07/msg3404.html
+
+but I have no idea what the current status of this is.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100501222413.f5fdba21.celejar@csmining.org
+
+

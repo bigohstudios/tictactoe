@@ -1,0 +1,162 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289e12f87e06f1f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs96196wfo;
+        Sat, 15 May 2010 15:26:03 -0700 (PDT)
+Received: by 10.223.26.154 with SMTP id e26mr3835123fac.57.1273962363374;
+        Sat, 15 May 2010 15:26:03 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id z10si9197762fah.22.2010.05.15.15.26.02;
+        Sat, 15 May 2010 15:26:03 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 0A31B13A5B7B; Sat, 15 May 2010 22:25:55 +0000 (UTC)
+Old-Return-Path: <jsullivan@opensourcedevel.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.9 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0079613A56B4
+	for <lists-debian-user@liszt.debian.org>; Sat, 15 May 2010 22:25:49 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.504 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	MIME_QP_LONG_LINE=1.396] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id m2p67JbezFab for <lists-debian-user@liszt.debian.org>;
+	Sat, 15 May 2010 22:25:41 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.195])
+	by liszt.debian.org (Postfix) with ESMTP id 7FF5813A5B6B
+	for <debian-user@lists.debian.org>; Sat, 15 May 2010 22:25:41 +0000 (UTC)
+Received: from [192.168.223.100] (cpe-74-75-231-235.maine.res.rr.com [74.75.231.235])
+	by mrelay.perfora.net (node=mrus2) with ESMTP (Nemesis)
+	id 0MfEpO-1NxVTB27x4-00OMyH; Sat, 15 May 2010 18:25:37 -0400
+Subject: Re: PDF printing - was: Re: Flash is open?
+From: "John A. Sullivan III" <jsullivan@opensourcedevel.com>
+To: =?ISO-8859-1?Q?Camale=F3n?= <noelamac@csmining.org>
+Cc: debian-user@lists.debian.org
+In-Reply-To: <pan.2010.05.15.20.31.01@csmining.org>
+References: <20100513193147.0466ac73.celejar@csmining.org>
+	 <pan.2010.05.14.06.52.05@csmining.org>
+	 <jwvk4r62q75.fsf-monnier+gmane.linux.debian.user@gnu.org>
+	 <pan.2010.05.14.21.39.38@csmining.org>
+	 <20100514230728.GC21756@tamay-dogan.net>
+	 <pan.2010.05.15.10.05.16@csmining.org> <1273927941.3747.11.camel@localhost>
+	 <pan.2010.05.15.13.50.29@csmining.org>
+	 <1273952796.17789.6.camel@Family.pacifera.com>
+	 <pan.2010.05.15.20.31.01@csmining.org>
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 15 May 2010 18:25:22 -0400
+Message-Id: <1273962322.17789.9.camel@Family.pacifera.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1 
+Content-Transfer-Encoding: quoted-printable
+X-Provags-ID: V01U2FsdGVkX18+YF9L5mPrOPXmOc2/J2s/bV1VjSfdrY+Uox6
+ oiTh+zWa/GvMfdIFWY2eXZ/bLREp4P5UoIyS4oIut43uUUgbcm
+ 4CQ70SmwzshVw5PsT5YiOY+a/FDQ99Z4UTu7anX5Kc=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6PnSSsT6wh.A.ILB.y9x7LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576954
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sat, 15 May 2010 22:25:55 +0000 (UTC)
+
+On Sat, 2010-05-15 at 20:31 +0000, Camale=C3=B3n wrote:
+> On Sat, 15 May 2010 15:46:36 -0400, John A. Sullivan III wrote:
+>=20
+> > On Sat, 2010-05-15 at 13:50 +0000, Camale=C3=B3n wrote:
+>=20
+> >> Mmmm... I'm not sure to fully understand the problem :-?
+>=20
+> (...)
+>=20
+> >> Is that what are you referring about or are you (or your clients)
+> >> experiencig another problem?
+>=20
+> > In this case, the client had a Ricoh MP W3600 plotter although, if I
+> > recall correctly, we had the same problem with all the printers - it wa=
+s
+> > just more obvious with the plotter.  Let's say they wanted to send a
+> > 24x36 drawing to the plotter.  If they send it through any of the FOSS
+> > PDF viewers, it prints a 24x36 job but the image is always the default
+> > paper size, i.e., the drawing would be reduced to 8.5x11 and printed in
+> > the middle of a 24x36 piece of paper.  In some cases, we sent two pages
+> > per side - reducing and rotating the drawings to fit two per page.  In
+> > this case, two 8.5x11 images appeared on the large sheet!
+>=20
+> I see... just two things:
+>=20
+> 1/ Printer driver is vital for a correct paper size detection, but I've=20
+> seen that Ricoh provides a PostScript driver for that device (MP W3600=20
+> plotter) so this shouldn't be a problem at all in your case.
+Yup - we are using the Ricoh supplied PPD
+>=20
+> 2/ Printer settings (in CUPS) and PDF viewer settings paper size for=20
+> printing. These values are also important, I mean, if you are sending a=20
+> PDF file with a custom size you have to previously (an manually) adjust=20
+> the paper size settings accordingly before sending the job for printing.=20
+> This can be done in Evince very easily.
+The PPD had most of the needed paper sizes for the plotter.  We did add
+a custom size or two.
+
+The current workaround is to use a custom printer and send it to
+kprinter :-(
+>=20
+> If you do not tweak this, the default CUPS settings for that printer will=
+=20
+> prevail for the job.
+>=20
+> > Acroread is not without flaws either.  Versions previous to 9.3.2 could
+> > not see our CUPS print server's printers.  9.3.2 can see them but,
+> > whenever it prints, it sends the default page region.  Thus, if I
+> > directly choose, say this 3600 plotter, and send a 36x48 drawing, I see
+> > acroread has created a print job with -o PageSize=3D36x48 but also with=
+ -o
+> > PageRegion=3DA4 (or whatever either the ppd default is or the first
+> > PageRegion listed in the ppd if no default is defined).  We've seen the
+> > same thing when trying to send 11x17 jobs to other printers - it prints
+> > Letter size (or whatever the default PageRegion is).  We've escalated t=
+o
+> > Ricoh but this really smells like an acroread bug.
+>=20
+> Yep. Acrobat Reader has its own glitches. Last time I tested in a linux=20
+> box (that was 2 years ago) was not very "friendly" when choosing the=20
+> printer and/or printer options and required manual user intervention :-/
+>=20
+> OTOH, it made "auto-scalation" and "auto-rotation" of the output document=
+=20
+> quite well :-)
+>=20
+> Greetings,
+>=20
+> --=20
+> Camale=C3=B3n
+>=20
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273962322.17789.9.camel@Family.pacifera.com
+
+

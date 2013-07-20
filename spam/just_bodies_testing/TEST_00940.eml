@@ -1,0 +1,62 @@
+Re: [Razor-users] Using razor with maildrop
+Here is my recipe for Maildrop:
+
+# Vipul's Razor check
+#
+log `/usr/bin/razor-check`
+log "razor-check = $RETURNCODE"
+if ( $RETURNCODE == 0 )
+{
+  xfilter "reformail -a'X-Razor: SPAM'"
+  log "SPAM caught by Vipul's Razor"
+  to "$FOLDERS/.SPAM/"
+}
+
+I used this with Razor version 1.  I'm not sure if it was ever used
+with Razor2.  I am now using SpamAssassin w/ Razor2.  You may wish to
+remove the log statements once running.
+
+I use both.  SpamAssassin (SA) catches things that Razor does not.  There
+were enough false positives with Razor that I do not trust it alone.
+After whitelisting all the newsletters I receive, SA w/ Razor2 does a
+very good job.
+
+HTH,
+  Jeffrey
+
+
+Quoting Sunil William Savkar <sunil@inthespace.com>:
+> Hi.
+>
+> I just finished installing and getting running maildrop with my virtual
+> users.  I was thinking to set up razor with maildrop as my first test of
+> its filtering capabilities..
+>
+> I have seen documentation out there for procmail, but is there similar
+> documentation for integrating maildrop with razor?
+> 
+>  
+> 
+> Separately, it looks like many people use spamassassin with razor.  If I
+> am using razor2, is there still an advantage to this?
+> 
+>  
+> 
+> Thanks in advance.
+> 
+>  
+> 
+> Sunil
+> 
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

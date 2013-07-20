@@ -1,0 +1,72 @@
+New archive snapshot service available------------------------------------------------------------------------
+The Debian Project                                http://www.debian.org/
+New archive snapshot service available                  press@debian.org
+April 12th, 2010                http://www.debian.org/News/2010/20100412
+------------------------------------------------------------------------
+
+New archive snapshot service available
+
+The Debian project is proud to announce a new service, available at
+http://snapshot.debian.org/, a wayback machine that allows access to
+old packages based on dates and version numbers.
+
+The ability to install packages and view source code from any given
+date can be very helpful to developers and users alike. It provides a
+valuable resource for tracking down when regressions were introduced,
+or for providing a specific environment that a particular application
+may require to run. The snapshot archive is accessible like any normal
+apt repository, allowing it to be easily used by all.
+
+The snapshot service also enables administrators to install a
+predictable, tested set of packages by using a view of the archive on a
+given date.  This feature allows administrators to test an upgrade path
+in a staging environment and then repeat the procedure in their
+production environment with assurance that they are performing exactly
+the tested upgrade. As the snapshot covers the entire archive and all
+suites this can be applied to environments that wish to track testing
+in a controlled manner as well as those with more stringent change
+control who wish to fully audit all stable updates before rolling them
+out.
+
+The archive currently holds almost all[1] packages from the main and
+security archives since March 2005, as well as selected additional
+archives like debian-volatile, debian-ports and backports.org. This new
+service currently holds about 6.5 terabytes of data and will grow
+constantly.
+
+Hosting of the snapshot service is provided by the Electrical and
+Computer Engineering department of the University of British
+Columbia[2] and the Wellcome Trust Sanger Institute[3].  Additional
+needed hardware was provided by Nordic Gaming[4]. Initial data was
+provided by the Debian ftp-master team as well as Fumitoshi Ukai.
+
+
+About Debian
+------------
+
+Debian GNU/Linux is a free operating system, developed by more than a
+thousand volunteers from all over the world who collaborate via the
+Internet. Debian's dedication to Free Software, its non-profit nature,
+and its open development model make it unique among GNU/Linux
+distributions.
+
+The Debian project's key strengths are its volunteer base, its
+dedication to the Debian Social Contract, and its commitment to provide
+the best operating system possible.
+
+Contact Information: For further information, please visit the Debian
+web pages at http://www.debian.org/ or send mail to <press@debian.org>.
+
+  [1]: Some packages have been removed due to license issues since they
+       were first shipped.
+  [2]: http://www.ece.ubc.ca/
+  [3]: http://www.sanger.ac.uk/
+  [4]: http://www.nordicgaming.com/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412050752.GA27740@melusine.alphascorpii.net
+
+

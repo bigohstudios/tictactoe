@@ -1,0 +1,25 @@
+Re: udev & /dev/sdaX & lenny2squeezeOn Fri, 9 Apr 2010 16:35:43 -0400 (EDT), Tom H wrote:
+> On Fri, Apr 9, 2010 at 4:31 PM, Stephen Powell wrote:
+>> That is not the proper procedure. =C2=A0Read the release notes.
+>> The most important step you missed is to issue "aptitude dist-upgrade"
+>> *before* the "aptitude full-upgrade", but there are other steps you left
+>> out as well.
+>=20
+> You must have meant:
+> issue "aptitude safe-upgrade" *before* the "aptitude full-upgrade"
+
+Correct.  My mistake.  Good catch!
+
+--=20
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1251236643.2217511270847170483.JavaMail.root@md01.wow.synacor.com
+
+

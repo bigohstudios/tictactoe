@@ -1,0 +1,1119 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b6d46f4ae59d2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs22994wfo;
+        Thu, 20 May 2010 10:48:16 -0700 (PDT)
+Received: by 10.223.5.89 with SMTP id 25mr323955fau.87.1274377695124;
+        Thu, 20 May 2010 10:48:15 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y20si189033fah.102.2010.05.20.10.48.14;
+        Thu, 20 May 2010 10:48:15 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 4770713A5247; Thu, 20 May 2010 17:48:07 +0000 (UTC)
+Old-Return-Path: <seminar@embeddedact.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: ***
+XStatus: No, score=3.8 required=4.0 tests=FOURLA,HTML_MESSAGE,HTML_NBSP,
+	MDO_CABLE_TV3,MDO_DATING13,SUBJECT_EXCESS_QP autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5D28E13A5152
+	for <lists-debian-user@liszt.debian.org>; Thu, 20 May 2010 17:32:05 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=3.7 tagged_above=-10000 required=5.3
+	tests=[FOURLA=0.1, HTML_MESSAGE=1, HTML_NBSP=2, MDO_CABLE_TV3=0.5,
+	MDO_DATING13=0.1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id m1deKD2LLUMC for <lists-debian-user@liszt.debian.org>;
+	Thu, 20 May 2010 17:31:57 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -5
+X-Greylist: delayed 2582 seconds by postgrey-1.31 at liszt; Thu, 20 May 2010 17:31:56 UTC
+Received: from se2.hostsoln.com (se2.hostsoln.com [67.228.104.60])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id 4FCBF13A5134
+	for <debian-user@lists.debian.org>; Thu, 20 May 2010 17:31:56 +0000 (UTC)
+Received: from [203.109.44.92] (helo=msi-ssk)
+	by se2.hostsoln.com with esmtpa (Exim 4.69)
+	(envelope-from <seminar@embeddedact.com>)
+	id 1OF8vP-0000YL-66
+	for debian-user@lists.debian.org; Fri, 21 May 2010 00:48:48 +0800
+Reply-To: seminar@embeddedact.com
+Message-ID: <2fc4b98f90aca2651bae8b4c001d5127@embeddedact.com>
+From: "seminarembedded" <seminar@embeddedact.com>
+To: <debian-user@lists.debian.org>
+Subject: =?windows-1252?Q?Realtime_Programming_for_ES_&__C_Programming_for_Embedded_&_System_Engineers_Programming_workshop_-_Jun_14th-15th_,16-18th_2010_-_KL_Sentral?=
+Date: Fri, 21 May 2010 00:46:07 +0800
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=SPLITOR00A_001_14818750D"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - se2.hostsoln.com
+X-AntiAbuse: Original Domain - lists.debian.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - embeddedact.com
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <AMAnlWzO9v.A.pEH.XXX9LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577244
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 20 May 2010 17:48:07 +0000 (UTC)
+
+This is a multi-part message in MIME format.
+
+------=SPLITOR00A_001_14818750D
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+http://www.eact-tech.com/Mailer/rtp_c.jpg
+
+=A0
+
+http://www.eact-tech.com/Mailer/embdlogo.png
+
+5 Days Workshop from APR 5th to 9th 2010
+
+=A0
+
+Real Time Programming for Embedded Systems:
+
+This course is ideal for engineers who are new to the field of real-time. =
+It is also applicable to both managers and engineers who are considering =
+the use of Real-Time Operating Systems on future projects=2E
+
+Objective:
+
+=A0=A0=A0=A0=A0=A0=A0=A0 Appreciate the use of multitasking techniques in =
+real-time systems.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Understand the fundamental concepts of real-time =
+operating systems.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Understand the features and structures of =
+practical implementations.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Appreciate how application areas (e.g. =
+safety-critical, desktop, etc.) impact on RTOS facilities.=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 Be competent to progress to vendor-specific =
+detailed training=2E
+
+Suitable for:
+
+This course is ideal for engineers who are new to the field of real-time. =
+It is also applicable to both managers and engineers who are considering =
+the use of Real-Time Operating Systems on future projects=2E
+
+Pre-requisites:
+
+=A0=A0=A0=A0=A0=A0=A0=A0 Knowledge of a high level language (e.g. C, C++, =
+etc.)=A0
+=A0=A0=A0=A0=A0=A0=A0=A0 An understanding of the fundamentals of =
+computer-based systems
+
+Embedded C for System Developers:
+
+In this course you'll learn advanced programming techniques using dynamic =
+data structures and algorithms. Finite state machines and statecharts and =
+their uses are covered in depth. You'll also learn techniques specific to =
+embedded systems, such as structured interrupt handling, implementation of =
+simple schedulers, and how to work with embedded operating systems. You'll =
+learn the standard inter-process communication mechanisms and their uses. =
+In addition the course overviews various advanced algorithms and discusses =
+research oriented approaches for learning more about these algorithms and =
+their implementation. The course will also show you how to design modules =
+with clean interfaces to achieve disciplined and well structured code=2E
+
+The course emphasizes the implementation of disciplined and well =
+structured code and the design of modules with clean interfaces. Lab =
+exercises are used to consolidate key concepts=2E
+
+
+Prerequisites
+
+
+Attendees should have some experience of embedded systems programming and =
+a sound basic knowledge of the C languageDelivery
+
+=A0
+
+Course Highlights
+
+=A0
+
+Real Time Programming
+
+Embedded C
+
+Introduction to Embedded Systems
+An overview on Embedded Software Life Cycle Development=A0
+Introduction to Real time system
+Choosing a right mix=A0
+Types of OS under Embedded Systems=A0
+Introducction to Real Time Operating Systems (RTOS).=A0
+Components of RTOS
+Task and Thread=A0
+Introduction to various scheduling policies
+Memory management=A0=A0=A0=A0=A0=A0=A0=A0=A0
+Inter Process Communication=A0=A0=A0=A0=A0=A0=A0=A0
+Introduction to Interrupts and Timer
+
+=A0
+
+=A0Click Here=A0to see the Details in Topics
+
+Introduction to Embedded System and language Generic embedded features
+A brief on C past, present, and future=A0Features Highlighted
+C basic program structure and tools
+Hands on GNU tool chain for C build process
+Making the most out of C [ coding w.r.t processor and compiler=A0]=A0Using =
+Bit wise Expressions, Controls, loops effectively
+Portability and problems=A0=A0Endean=92s
+Function, Structures and Union
+Gotcha under C: Writing portable codes that are not compiler dependent
+Pointers and effective use w.r.t Architecture
+Do=92s and don=92t under C=92s Memory Handling
+Hands on to GNU - X tool-chain
+Using tools to build image
+Hands on building PowerPC toolchain image
+Hands on Configuring the DJGPP toolchain=A0
+Understanding the X86 hardware support needed for running C
+
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 Click =
+Here=A0to see the Details in Topics
+
+=A0
+
+http://www.eact-tech.com/Mailer/footer_rtpc.jpg
+
+=A0
+
+To remove your name from our mailing list, please reply =
+to=A0seminar@eact-tech.com=A0mentioning=A0"REMOVE"=A0in the subject line. =
+If your email is an alias or forward email, please specify the primary =
+email that may be deleted.
+
+=A0
+
+
+
+------=SPLITOR00A_001_14818750D
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word" xmlns:m =3D=20
+"http://schemas.microsoft.com/office/2004/12/omml"><head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<meta content=3D"MSHTML 6.00.2900.5945" name=3DGENERATOR><!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+=2Eshape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h2
+	{mso-style-priority:9;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.style47
+	{mso-style-name:style47;}
+p.style53, li.style53, div.style53
+	{mso-style-name:style53;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.style51, li.style51, div.style51
+	{mso-style-name:style51;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.style52, li.style52, div.style52
+	{mso-style-name:style52;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.style531
+	{mso-style-name:style531;}
+span.style55
+	{mso-style-name:style55;}
+span.style57
+	{mso-style-name:style57;}
+span.style59
+	{mso-style-name:style59;}
+p.style60, li.style60, div.style60
+	{mso-style-name:style60;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.style601
+	{mso-style-name:style601;}
+span.style45
+	{mso-style-name:style45;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+=2EMsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:135414530;
+	mso-list-template-ids:-523224234;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1261642992;
+	mso-list-template-ids:1941333560;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:1613633396;
+	mso-list-template-ids:-86370604;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"2050" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]--></head>
+<body lang=3DEN-US vLink=3Dpurple link=3Dblue>
+<div class=3DSection1>
+<div align=3Dcenter>
+<table class=3DMsoNormalTable style=3D"WIDTH: 564.75pt" cellPadding=3D0 =
+width=3D753=20
+border=3D0>
+  <tbody>
+  <tr style=3D"HEIGHT: 887.25pt">
+    <td=20
+    style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; BACKGROUND: =
+#cccccc; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; HEIGHT: 887.25pt"=20
+    vAlign=3Dtop>
+      <table class=3DMsoNormalTable style=3D"WIDTH: 564.75pt" =
+cellPadding=3D0=20
+      width=3D753 border=3D0>
+        <tbody>
+        <tr>
+          <td=20
+          style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+BACKGROUND: white; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt">
+            <div align=3Dcenter>
+            <table class=3DMsoNormalTable style=3D"WIDTH: 564.75pt" =
+cellPadding=3D0=20
+            width=3D753 border=3D0>
+              <tbody>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+BACKGROUND: white; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt"=20
+                vAlign=3Dtop>
+                  <p class=3DMsoNormal><b><span=20
+                  style=3D"FONT-SIZE: 22.5pt; COLOR: #800040; FONT-FAMILY: =
+'Tahoma','sans-serif'"><img=20
+                  id=3DPicture_x0020_1 height=3D150=20
+                  alt=3Dhttp://www.eact-tech.com/Mailer/rtp_c.jpg=20
+                  src=3D"cid:image001.jpg@01CABBD9.902D84C0"=20
+                  width=3D753></span></b><b><span=20
+                  style=3D"FONT-SIZE: =
+12pt"><o:p></o:p></span></b></p></td></tr></tbody></table></div>
+            <p class=3DMsoNormal style=3D"TEXT-ALIGN: center" =
+align=3Dcenter><b><span=20
+            style=3D"DISPLAY: none"><o:p>&nbsp;</o:p></span></b></p>
+            <div align=3Dcenter>
+            <table class=3DMsoNormalTable style=3D"WIDTH: 570pt" =
+cellPadding=3D0=20
+            width=3D760 border=3D0>
+              <tbody>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+BACKGROUND: white; PADDING-BOTTOM: 0.75pt; WIDTH: 311.25pt; PADDING-TOP: =
+0.75pt"=20
+                width=3D415>
+                  <p class=3DMsoNormal><!--[if gte vml 1]><v:shapetype=20
+                  id=3D_x0000_t75 coordsize =3D "21600,21600" =
+o:preferrelative =3D "t"=20
+                  o:spt =3D "75" filled =3D "f" stroked =3D "f" path =3D=20
+                  " m@4@5 l@4@11@9@11@9@5 xe"><v:stroke joinstyle =3D=20
+                  "miter"></v:stroke><v:formulas><v:f eqn =3D=20
+                  "if lineDrawn pixelLineWidth 0 "></v:f><v:f eqn =3D=20
+                  "sum @0 1 0 "></v:f><v:f eqn =3D "sum 0 0 @1 =
+"></v:f><v:f eqn =3D=20
+                  "prod @2 1 2 "></v:f><v:f eqn =3D=20
+                  "prod @3 21600 pixelWidth "></v:f><v:f eqn =3D=20
+                  "prod @3 21600 pixelHeight "></v:f><v:f eqn =3D=20
+                  "sum @0 0 1 "></v:f><v:f eqn =3D "prod @6 1 2 =
+"></v:f><v:f eqn =3D=20
+                  "prod @7 21600 pixelWidth "></v:f><v:f eqn =3D=20
+                  "sum @8 21600 0 "></v:f><v:f eqn =3D=20
+                  "prod @7 21600 pixelHeight "></v:f><v:f eqn =3D=20
+                  "sum @10 21600 0 "></v:f></v:formulas><v:path =
+o:extrusionok =3D=20
+                  "f" gradientshapeok =3D "t" o:connecttype =3D=20
+                  "rect"></v:path><o:lock v:ext=3D"edit"=20
+                  aspectratio=3D"t"></o:lock></v:shapetype><v:shape=20
+                  id=3DPicture_x0020_2=20
+                  style=3D"MARGIN-TOP: 0px; Z-INDEX: 1; VISIBILITY: =
+visible; MARGIN-LEFT: 0px; WIDTH: 120pt; POSITION: absolute; HEIGHT: 48pt; =
+mso-wrap-style: square; mso-wrap-distance-left: 0; mso-wrap-distance-top: =
+0; mso-wrap-distance-right: 0; mso-wrap-distance-bottom: 0; =
+mso-position-horizontal: left; mso-position-horizontal-relative: text; =
+mso-position-vertical: absolute; mso-position-vertical-relative: line"=20
+                  o:spid=3D"_x0000_s1027" type =3D "#_x0000_t75" coordsize =
+=3D=20
+                  "21600,21600" alt =3D=20
+                  "http://www.eact-tech.com/Mailer/embdlogo.png" =
+o:allowoverlap=20
+                  =3D "f"><v:imagedata o:title=3D"embdlogo" src =3D "
+"                 =
+"cid:image002.png@01CABBD9.902D84C0"></v:imagedata><w:wrap=20
+                  anchory=3D"line" type =3D =
+"square"></w:wrap></v:shape><![endif]--><![if !vml]><img width=3D160 =
+height=3D64
+      src=3D"cid:image002.png@01CABBD9.902D84C0" align=3Dleft
+      alt=3D"http://www.eact-tech.com/Mailer/embdlogo.png" =
+v:shapes=3D"Picture_x0020_2"><![endif]><b><span=20
+                  style=3D"FONT-SIZE: 12pt"><o:p></o:p></span></b></p></td>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+BACKGROUND: white; PADDING-BOTTOM: 0.75pt; WIDTH: 251.25pt; PADDING-TOP: =
+0.75pt"=20
+                width=3D335>
+                  <p class=3DMsoNormal><span class=3Dstyle47><b><span=20
+                  style=3D"FONT-SIZE: 10.5pt; COLOR: maroon; FONT-FAMILY: =
+'Tahoma','sans-serif'"><font=20
+                  color=3D#ff0000 size=3D2>2+3 Days Workshop from Jun =
+14-15 &amp;=20
+                  16-18th=20
+            '10</font></span></b></span></p></td></tr></tbody></table></div>
+            <p class=3DMsoNormal style=3D"TEXT-ALIGN: center" =
+align=3Dcenter><b><span=20
+            style=3D"DISPLAY: none"><o:p>&nbsp;</o:p></span></b></p>
+            <div align=3Dcenter>
+            <table class=3DMsoNormalTable style=3D"WIDTH: 570pt" =
+cellPadding=3D0=20
+            width=3D760 border=3D0>
+              <tbody>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt"=20
+                vAlign=3Dtop>
+                  <p class=3Dstyle53><b><span=20
+                  style=3D"FONT-SIZE: 10.5pt; COLOR: #b30000; FONT-FAMILY: =
+'Verdana','sans-serif'">Real=20
+                  Time Programming for Embedded=20
+                  Systems:<o:p></o:p></span></b></p>
+                  <p class=3Dstyle51><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">This=20
+                  course is ideal for engineers who are new to the field =
+of=20
+                  real-time. It is also applicable to both managers and=20
+                  engineers who are considering the use of Real-Time =
+Operating=20
+                  Systems on future projects.<o:p></o:p></span></b></p>
+                  <p class=3Dstyle52><b><u><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Objective:</span></u></b><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b></p>
+                  <p class=3Dstyle51><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+                  Appreciate the use of multitasking techniques in =
+real-time=20
+                  systems.<span=20
+                  =
+class=3Dapple-converted-space>&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+                  Understand the fundamental concepts of real-time =
+operating=20
+                  systems.<span=20
+                  =
+class=3Dapple-converted-space>&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+                  Understand the features and structures of practical=20
+                  implementations.<span=20
+                  =
+class=3Dapple-converted-space>&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+                  Appreciate how application areas (e.g. safety-critical,=20
+                  desktop, etc.) impact on RTOS facilities.<span=20
+                  =
+class=3Dapple-converted-space>&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+                  Be competent to progress to vendor-specific detailed=20
+                  training.<o:p></o:p></span></b></p>
+                  <p class=3Dstyle52><b><u><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Suitable=20
+                  for:</span></u></b><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b></p>
+                  <p class=3Dstyle51><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">This=20
+                  course is ideal for engineers who are new to the field =
+of=20
+                  real-time. It is also applicable to both managers and=20
+                  engineers who are considering the use of Real-Time =
+Operating=20
+                  Systems on future projects.<o:p></o:p></span></b></p>
+                  <p class=3Dstyle52><b><u><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Pre-requisites:</span></u></b><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b></p>
+                  <p class=3Dstyle51><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+                  Knowledge of a high level language (e.g. C, C++, =
+etc.)<span=20
+                  =
+class=3Dapple-converted-space>&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+                  An understanding of the fundamentals of computer-based=20
+                  systems<o:p></o:p></span></b></p>
+                  <p class=3Dstyle51><span class=3Dstyle531><b><span=20
+                  style=3D"FONT-SIZE: 10.5pt; COLOR: #b30000; FONT-FAMILY: =
+'Verdana','sans-serif'">C=20
+                  Programming for Embedded and&nbsp;System=20
+                  Developers:</span></b></span><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b></p>
+                  <p class=3Dstyle51><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">In=20
+                  this course you'll learn advanced programming techniques =
+using=20
+                  dynamic data structures and algorithms. Finite state =
+machines=20
+                  and statecharts and their uses are covered in depth. =
+You'll=20
+                  also learn techniques specific to embedded systems, such =
+as=20
+                  structured interrupt handling, implementation of simple=20
+                  schedulers, and how to work with embedded operating =
+systems.=20
+                  You'll learn the standard inter-process communication=20
+                  mechanisms and their uses. In addition the course =
+overviews=20
+                  various advanced algorithms and discusses research =
+oriented=20
+                  approaches for learning more about these algorithms and =
+their=20
+                  implementation. The course will also show you how to =
+design=20
+                  modules with clean interfaces to achieve disciplined and =
+well=20
+                  structured code.<o:p></o:p></span></b></p>
+                  <p class=3DMsoNormal><span class=3Dstyle55><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">The=20
+                  course emphasizes the implementation of disciplined and =
+well=20
+                  structured code and the design of modules with clean=20
+                  interfaces. Lab exercises are used to consolidate key=20
+                  concepts.</span></b></span><b><span=20
+                  style=3D"FONT-SIZE: 12pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b></p>
+                  <h2><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Prerequisites<o:p></o:p></span></h2>
+                  <ul type=3Ddisc>
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l1 level1 lfo1"><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Attendees=20
+                    should have some experience of embedded systems =
+programming=20
+                    and a sound basic knowledge of the C=20
+                    languageDelivery<o:p></o:p></span></b>=20
+            </li></ul></td></tr></tbody></table></div>
+            <p class=3DMsoNormal style=3D"TEXT-ALIGN: center" =
+align=3Dcenter><b><span=20
+            style=3D"DISPLAY: none"><o:p>&nbsp;</o:p></span></b></p>
+            <div align=3Dcenter>
+            <table class=3DMsoNormalTable style=3D"WIDTH: 570pt" =
+cellPadding=3D0=20
+            width=3D760 border=3D0>
+              <tbody>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+BACKGROUND: #395c22; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt"=20
+                vAlign=3Dtop>
+                  <p class=3DMsoNormal><span class=3Dstyle57><b><span=20
+                  style=3D"FONT-SIZE: 10.5pt; COLOR: yellow; FONT-FAMILY: =
+'Tahoma','sans-serif'">Course=20
+                  Highlights</span></b></span><b><span=20
+                  style=3D"FONT-SIZE: =
+12pt"><o:p></o:p></span></b></p></td></tr></tbody></table></div>
+            <p class=3DMsoNormal style=3D"TEXT-ALIGN: center" =
+align=3Dcenter><b><span=20
+            style=3D"DISPLAY: none"><o:p>&nbsp;</o:p></span></b></p>
+            <div align=3Dcenter>
+            <table class=3DMsoNormalTable style=3D"WIDTH: 570pt" =
+cellPadding=3D0=20
+            width=3D760 border=3D0>
+              <tbody>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+PADDING-BOTTOM: 0.75pt; WIDTH: 278.25pt; PADDING-TOP: 0.75pt"=20
+                width=3D371>
+                  <p class=3DMsoNormal style=3D"TEXT-ALIGN: center"=20
+                  align=3Dcenter><span class=3Dstyle59><b><span=20
+                  style=3D"COLOR: #a60053">Real Time Programming for =
+Embedded=20
+                  Systems</span></b></span></p></td>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+PADDING-BOTTOM: 0.75pt; WIDTH: 284.25pt; PADDING-TOP: 0.75pt"=20
+                width=3D379>
+                  <p class=3DMsoNormal style=3D"TEXT-ALIGN: center"=20
+                  align=3Dcenter><span style=3D"COLOR: #a60053"><strong>C =
+for=20
+                  Embedded /System Engineers</strong></span></p></td></tr>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt"=20
+                vAlign=3Dtop>
+                  <ul type=3Ddisc>
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Introduction=20
+                    to Embedded Systems</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">An=20
+                    overview on Embedded Software Life Cycle=20
+                    Development</span></strong><span=20
+                    class=3Dapple-converted-space><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></b></span><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><br><strong><span=20
+                    style=3D"FONT-FAMILY: =
+'Verdana','sans-serif'">Introduction to=20
+                    Real time =
+system</span></strong><o:p></o:p></span></b>=20
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Choosing=20
+                    a right mix&nbsp;</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Types=20
+                    of OS under Embedded =
+Systems&nbsp;</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Introducction=20
+                    to Real Time Operating Systems=20
+                    (RTOS).</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;<o:p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Components=20
+                    of RTOS</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Task=20
+                    and Thread&nbsp;</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Introduction=20
+                    to various scheduling =
+policies</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Memory=20
+                    management</span></strong><span=20
+                    class=3Dapple-converted-space><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></b></span><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:=
+p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Inter=20
+                    Process Communication</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:=
+p></o:p></span></b>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Introduction=20
+                    to Interrupts and Timer</span></strong><b><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span></b>=20
+                    </li></ul>
+                  <p class=3Dstyle60 style=3D"TEXT-ALIGN: right"=20
+                  align=3Dright><b><span=20
+                  style=3D"FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: =
+'Tahoma','sans-serif'">&nbsp;<o:p></o:p></span></b></p>
+                  <p class=3Dstyle60 style=3D"TEXT-ALIGN: right"=20
+                  align=3Dright><b><span=20
+                  style=3D"FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: =
+'Tahoma','sans-serif'">&nbsp;<a=20
+                  =
+href=3D"http://www.embeddedact.com/rtpoutline.html">Click=20
+                  Here</a><span =
+class=3Dapple-converted-space>&nbsp;</span>to see=20
+                  the Details in Topics<o:p></o:p></span></b></p></td>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt"=20
+                vAlign=3Dtop>
+                  <ul type=3Ddisc>
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Introduction=20
+                    to Embedded System and language Generic embedded=20
+                    features</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">A=20
+                    brief on C past, present, and =
+future</span></strong><span=20
+                    class=3Dapple-converted-space><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></span><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Features=20
+                    Highlighted</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">C=20
+                    basic program structure and =
+tools</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Hands=20
+                    on GNU tool chain for C build =
+process</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Making=20
+                    the most out of C [ coding w.r.t processor and=20
+                    compiler</span></strong><span=20
+                    class=3Dapple-converted-space><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></span><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">]<strong><span=20
+                    style=3D"FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;Using Bit=20
+                    wise Expressions, Controls, loops=20
+                    effectively</span></strong><o:p></o:p></span>=20
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Portability=20
+                    and problems</span></strong><span=20
+                    class=3Dapple-converted-space><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></span><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;<strong><span=20
+                    style=3D"FONT-FAMILY: =
+'Verdana','sans-serif'">Endean=92s</span></strong><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Function,=20
+                    Structures and Union</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Gotcha=20
+                    under C: Writing portable codes that are not compiler=20
+                    dependent</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Pointers=20
+                    and effective use w.r.t =
+Architecture</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Do=92s=20
+                    and don=92t under C=92s Memory =
+Handling</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Hands=20
+                    on to GNU - X tool-chain</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Using=20
+                    tools to build image</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Hands=20
+                    on building PowerPC toolchain =
+image</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Hands=20
+                    on Configuring the DJGPP=20
+                    toolchain&nbsp;</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+
+                    <li class=3DMsoNormal=20
+                    style=3D"mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-list: l2 level1 lfo3"><strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'">Understanding=20
+                    the X86 hardware support needed for running=20
+                    C</span></strong><span=20
+                    style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><o:p></o:p></span>=20
+                    </li></ul>
+                  <p><span class=3Dstyle601><span=20
+                  style=3D"FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: =
+'Tahoma','sans-serif'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=20
+                  <b><a=20
+                  =
+href=3D"http://www.embeddedact.com/embeddedcoutline.html">Click=20
+                  Here</a></b></span></span><span=20
+                  class=3Dapple-converted-space><b><span=20
+                  style=3D"FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: =
+'Tahoma','sans-serif'">&nbsp;</span></b></span><span=20
+                  class=3Dstyle601><b><span=20
+                  style=3D"FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: =
+'Tahoma','sans-serif'">to=20
+                  see the Details in=20
+                  =
+Topics</span></b></span><b><o:p></o:p></b></p></td></tr></tbody></table></d=
+iv>
+            <p class=3DMsoNormal style=3D"TEXT-ALIGN: center" =
+align=3Dcenter><b><span=20
+            style=3D"DISPLAY: none"><o:p>&nbsp;</o:p></span></b></p>
+            <div align=3Dcenter>
+            <table class=3DMsoNormalTable style=3D"WIDTH: 570pt" =
+cellPadding=3D0=20
+            width=3D760 border=3D0>
+              <tbody>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt">
+                  <p class=3DMsoNormal style=3D"TEXT-ALIGN: center"=20
+                  align=3Dcenter><b><span=20
+                  style=3D"FONT-SIZE: 9pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><img=20
+                  id=3DPicture_x0020_2 height=3D150=20
+                  alt=3Dhttp://www.eact-tech.com/Mailer/footer_rtpc.jpg=20
+                  src=3D"cid:image003.jpg@01CABBD9.902D84C0" width=3D753=20
+                  border=3D0></span></b><b><span=20
+                  style=3D"FONT-SIZE: =
+12pt"><o:p></o:p></span></b></p></td></tr></tbody></table></div>
+            <p class=3DMsoNormal style=3D"TEXT-ALIGN: center" =
+align=3Dcenter><b><span=20
+            style=3D"DISPLAY: none"><o:p>&nbsp;</o:p></span></b></p>
+            <div align=3Dcenter>
+            <table class=3DMsoNormalTable style=3D"WIDTH: 570pt" =
+cellPadding=3D0=20
+            width=3D760 border=3D0>
+              <tbody>
+              <tr>
+                <td=20
+                style=3D"PADDING-RIGHT: 0.75pt; PADDING-LEFT: 0.75pt; =
+PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt"=20
+                vAlign=3Dtop>
+                  <p class=3DMsoNormal><span class=3Dstyle45><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">To=20
+                  remove your name from our mailing list, please reply=20
+                  to</span></b></span><span =
+class=3Dapple-converted-space><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;<u><font=20
+                  =
+color=3D#0000ff>training</font></u></span></b></span><span=20
+                  class=3Dstyle45><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'"><a=20
+                  =
+href=3D"mailto:training@eact-tech.com">@eact-tech.com</a></span></b></span>=
+<span=20
+                  class=3Dapple-converted-space><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></b></span><span=20
+                  class=3Dstyle45><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">mentioning</span></b></span><span=20
+                  class=3Dapple-converted-space><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></b></span><strong><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">"REMOVE"</span></strong><span=20
+                  class=3Dapple-converted-space><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">&nbsp;</span></b></span><span=20
+                  class=3Dstyle45><b><span=20
+                  style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: =
+'Verdana','sans-serif'">in=20
+                  the subject line. If your email is an alias or forward =
+email,=20
+                  please specify the primary email that may be=20
+                  deleted.</span></b></span><b><span=20
+                  style=3D"FONT-SIZE: =
+12pt"><o:p></o:p></span></b></p></td></tr></tbody></table></div></td></tr><=
+/tbody></table></td></tr></tbody></table></div>
+<p class=3DMsoNormal><span=20
+style=3D"FONT-SIZE: 9pt"><o:p>&nbsp;</o:p></span></p></div></body></html>
+
+
+
+------=SPLITOR00A_001_14818750D--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2fc4b98f90aca2651bae8b4c001d5127@embeddedact.com
+
+

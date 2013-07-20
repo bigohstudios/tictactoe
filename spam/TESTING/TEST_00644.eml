@@ -1,0 +1,87 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e5268c7ca4d71
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs61916wfi;
+        Fri, 9 Apr 2010 17:37:41 -0700 (PDT)
+Received: by 10.150.183.15 with SMTP id g15mr421744ybf.210.1270859861285;
+        Fri, 09 Apr 2010 17:37:41 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 10si3205490iwn.133.2010.04.09.17.37.40;
+        Fri, 09 Apr 2010 17:37:41 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id B1F491BBF5721
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 17:37:40 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id ACF0F26AC5C0C
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 17:37:40 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 1100226AC5BFF
+	for <augd@lists.apple.com>; Fri,  9 Apr 2010 17:37:39 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 002CACF29F24
+	for <augd@lists.apple.com>; Fri,  9 Apr 2010 17:37:38 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7cccae000002a80-b1-4bbfc852eab9
+Received: from asmtpout022.mac.com (asmtpout022.mac.com [17.148.16.97])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	D7.25.10880.258CFBB4; Fri,  9 Apr 2010 17:37:38 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=us-ascii
+Received: from [192.168.7.241] (173-21-253-32.client.mchsi.com [173.21.253.32])
+	by asmtp022.mac.com
+	(Sun Java(tm) System Messaging Server 6.3-8.01 (built Dec 16 2008;
+	32bit)) with ESMTPA id <0L0M009RWXQPZN20@asmtp022.mac.com> for
+	augd@lists.apple.com; Fri, 09 Apr 2010 17:37:38 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=2 spamscore=2
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004090259
+From: Tom Piper <macquest@mac.com>
+In-reply-to: <20100409190109.A053226A99CCD@lists.apple.com>
+Date: Fri, 09 Apr 2010 19:37:36 -0500
+Message-id: <631735A0-32AA-47D6-9DD7-CE4D2CDA1B3E@mac.com>
+References: <20100409190109.A053226A99CCD@lists.apple.com>
+To: augd@lists.apple.com
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAhOegPMTnqjk
+Subject: AUGD: Re: Displaying iPad/iPhone/iPod touch for video projector
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+> We've used a TV camera hooked up to our projector to shoot/display an iPhone. It's a bit clunky. I was hoping for a better solution with the iPad. 
+
+I found a great solution at the Consumer Electronic Show . . . the HoverCam Document Camera has worked well at our user group meetings when plugged via USB into my MacBook Pro 17" connected to a VGA digital projector. . . for scanning up to 600 dpi, I recommend the HoverCam X500.
+
+There are two models (X300 and X500) that look exactly alike which I extensively reviewed at http://applejac.typepad.com/applejac_macintosh_users/2010/02/hovercam-digital-age-multiscanner.html.
+
+When using either, I recommend using a white background (not the black mat which it comes with), and reducing the brightness on the iPad (or iPhone or iPod touch or Android or whatever) to about 25% due to the extreme sensitivity of the scanner lense.
+
+Tom Piper
+(Vendor Wizard)
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,31 @@
+Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Mark wrote:
+> I also have been using debian-multimedia for LAME mp3 and am very thankful
+> for its existence.  
+
+Yes, it's useful for that. Though if it's just lame, it's probably
+simpler to compile the source than to add a repo.
+
+> without the debian-multimedia, in which the .mov file played great in
+> mplayer.  
+
+Can you check your installed version of libavcodec51? That's one of the
+things which d-m modifies.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvMw8kACgkQ+VSRxYk4409f2wCfcIcqL0QBYDHy4Hq6Cs51ovQd
+QL4An22TeCGLYbIkjrAbIjxPjupqikxt
+=8iQ3
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCC3C9.9030203@web.de
+
+

@@ -1,0 +1,60 @@
+Re: GNOME crashes when .xsession file is present.On 4/14/10, Camale=C3=B3n <noelamac@csmining.org> wrote:
+> On Wed, 14 Apr 2010 20:55:18 +0530, Disc Magnet wrote:
+>
+>> So, how do I prevent it from crashing and successfully log in?
+>
+> Curious is that I don't have such file in my home (running Lenny and
+> GNOME here) :-?
+>
+> Anyway, what is the full content of your "~/.xsession" file and what is
+> your final purpose, I mean, what do you want to achieve with that file?
+>
+> Greetings,
+>
+> --
+> Camale=C3=B3n
+
+~/.xsession is recognized by the Xsession usually located at
+/etc/X11/xdm/Xsession or /etc/X11/xinit/Xsession.  gdm, usually comes
+with a link to it, and it is called by default.  Xsession will look
+for several files, one of them being ~/.xsession.
+
+If ~/.xsession is not present, then gdm will pick one of the desktops
+found under /etc/X11/sessions or /usr/share/xsessions, etc., being
+gnome the default, but gdm allows selecting which one...
+
+If ~/.xsession is found, you can indicate what things to do at first
+prior to call the window manager (such as xrdb, autocutsel, xmodmap,
+xsetbg, xsetroot, etc...).  The final thing it does is calling the
+window manager.  If you want to go with the approach of ~/.xsession,
+and still use gnome, then the last thing you should include is "exec
+gnome-session", or "exec startkde", or "exec startfluxbox", etc.  This
+is pretty useful for those not using desktop environment, so they
+instead call something lik "exec startfluxbox" or "exec fvwm2", or the
+call for whatever window manager of their preference.
+
+For those not using gdm neither kdm, then they're more familiar with
+it, perhaps because of using xdm, slim, or plain startx.  startx uses
+~/.xinitrc instead, so usually what one creates is ~/.xinitrc, and
+~/.xsession is just a symlink to it, but one then needs to provide
+executing access to ~/.xinitrc.  This approach will simplify things
+when one wants to enable both startx and a login session manager such
+as xdm or slim, etc.
+
+So to me the most standard way to setup the X session is through
+default scripts, Xinit and Xsession.  I'm not sure why the desktop
+environments had to provide their own ways, :-)  Any ways, that's what
+gdm uses, and kdm has similar way also (though I'm not sure if kdm
+also allows a default which also looks for Xsession)...
+
+
+--=20
+Javier.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2q2645c3ed1004140905q8d46501egec8b761a63ba2ab1@mail.csmining.org
+
+

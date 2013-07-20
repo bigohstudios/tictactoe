@@ -1,0 +1,42 @@
+Re: Limbo beta 2 ?On Tue, 2002-08-13 at 07:25, Gary Peck wrote:
+> On Mon, Aug 12, 2002 at 11:06:18PM +0000,  Angles  Puglisi wrote:
+> > Michel Alexandre Salim (salimma1@yahoo.co.uk) wrote*:
+> > Limbo beta2 ? I'm running Limbo 7.3.92 with kernel 4.2.18-5.58, is what I am running
+> > an "older" version of the Limbo beta, it is it "the" limbo beta?
+> 
+> The current version of the Limbo beta is 7.3.93 (yeah, they should
+> have renamed it, but they didn't). It's in the same
+> redhat/linux/beta/limbo directory on the ftp servers. Just check the
+> redhat-release package to find out which version is on the server. 
+> Looking at ftp.redhat.com, the current one is redhat-release-7.3.93-2.
+> 
+> If you're using GNOME2 from the beta, I'd upgrade as there were some
+> important bugfixes since the first beta. The only thing to watch out
+> for is that Limbo2 switched gcc to 3.2, which is once again
+> incompatible with the previous gcc (v3.1 shipped in Limbo1).
+
+Eeeek... I hope they aren't intending to release a new RH with a new gcc
+which hasn't yet been released (again). Bad enough the first time, and
+I'm sure it gave RedHat a lot of embarrassment.
+
+FWIW, I've yet to compile apt on the gcc 3.2 snapshot in RawHide - apt's
+C++ makes several rather poor assumptions on what iterators are, and in
+addition doesn't use namespaces at all.
+
+For non-C++ folk, this basically means it needs porting. I've got a
+reasonable way along, now, and I'll send a suitable patch to Connectiva
+or somewhere when I succeed - I can't find anything on Connectiva's site
+itself for this.
+
+In addition, the rpmlib stuff has changed slightly - I've not really
+started on this, but it's mainly just arguments added. The rpmlib
+documentation seems somewhat poor, though, unless I've missed it.
+
+Dave.
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

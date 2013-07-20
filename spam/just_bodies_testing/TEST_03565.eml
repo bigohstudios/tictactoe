@@ -1,0 +1,31 @@
+Re: apt-get...universe (was: Sylpheed with GNOME 2On Thu, 25 Jul 2002 11:07:00 +0200, Matthias Saou <matthias@egwn.net> wrote:
+
+> Once upon a time, Lance wrote :
+> 
+> > Well, from the looks of things, I can import all my mail settings from
+> > Evolution to Sylpheed.  Has anyone successfully run Sylpheed in Gnome
+> > 2.0?  I noticed with 'apt-get install gnome-session' from the 'rpm
+> > http://apt.sunnmore.net gnome2 73' repository, Sylpheed isn't one of the
+> > packages selected for deletion.
+> 
+> I think that's simply because Sylpheed isn't a GNOME application, but a
+> "simple" gtk+ one. It needs no GNOME libs at all, so upgrading to GNOME 2
+> but keeping gtk+ 1.2 will let you keep Sylpheed with no problem.
+
+    Yeah, mine works here; I did about the same thing.
+
+    Hey: "Universe"   I saw this keyword on the gstreamer website.  They said something like "If you're feeling froggy and want to jump into it, use apt-get gstreamer-universe" but I've not gotten the syntax of it right, to get "all" of a project yet.  Has anyone used this yet?
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I don't want to hear news from Isreal until the news contains the words
+"Bullet", "Brain", and "Arafat".
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

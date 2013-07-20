@@ -1,0 +1,33 @@
+Re: how to uninstall java preview?Gabriele Kahlout wrote:
+
+> WARNING: THIS IS A VERY BAD THING TO DO.
+>=20
+> Well, then I just don't want to do it! Too much is at stake.
+>=20
+> I'll be even more thankful now, if you guys may report to me if an =
+error is
+> encountered just launching this (you need to choose an installation
+> directory, and after doing so the error could appear):
+>> https://sourceforge.net/projects/memorizeasy/
+>=20
+> Maybe, some JRE problems maybe identified, since the problem doesn't =
+occur
+> on Windows, and occurred only a macbook so far.
+
+Another approach would be to get another hard drive (internal SATA if =
+you have a Mac Pro, or an external USB or FireWire unit for other Macs =
+without additional internal drive bays) and put a clean install of OS X =
+on that drive. Going forward you can install DP releases on the =
+alternate drive, and keep your main system in a mainstream =
+configuration.
+
+You can also repartition your drive, and have two (or more) partitions =
+on it, each independently bootable. Back it up first, though.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,28 @@
+Console: Laptop vs backlight-off problemHowdy, I have a Debian Lenny system in console-only mode (no X, etc) 
+running on a Toshiba Tecra S1.
+
+I'd like the LCD backlight to turn off after a period of inactivity but 
+can't seem to make it happen.
+
+I've tried via setterm (e.g. 'setterm -blank 1 -powersave powerdown 
+-powerdown 2') and the screen-blanking time is properly adjusted but the 
+backlight never turns off. (I've tried changing it to include 
+'-powersave <all_available_options>' with no successes either, as well 
+as invoking the commands one-at-a-time instead of as a single large 
+command line.)
+
+Manually using vbetool ('vbetool dpms off/on') does properly turn off/on 
+the backlight so the underlying hardware & DPMS support seems in place, 
+but obviously I'd like it to happen automagically.
+
+Am I missing something obvious or is there a silver bullet that I need?
+
+TIA for any assistance, and for Debian!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF4FF52.7080306@reason.dyndns.org
+
+

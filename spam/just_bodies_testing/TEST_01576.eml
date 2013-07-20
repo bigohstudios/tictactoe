@@ -1,0 +1,42 @@
+S&P QC
+Begeman's _Manufacturing Processes_
+talks about Quality Control Charts:
+
+> The tolerance limits for a part are placed outside of the control
+> limits and are never inside of them.  Once the control chart has
+> been established, data is recorded on it and it becomes a record
+> of the variation of an inspected dimension over a period of time.
+> The data plotted should fall in random fashion between the control
+> lines, if all assignable causes for variation are absent.  When the
+> data fall in this manner, it can be assumed that the part is being
+> made correctly 99.73% of the time; that is, no more than 3 out of
+> 1000 will leave the process incorrectly made.
+
+Taking a look at the S&P 500, and 
+using the Ibbotson 2000 figures of
+13% expected stock return and 20%
+standard deviation, and taking the
+the actual 2.5 year return on the
+S&P since 31 Dec 1999 to be close
+to -30%, we find:
+
+-.30 ? 2.5*(.13) - 3*sqrt(2.5)*(.20)
+-30% > -60%
+
+so it still plots out between the
+control lines ...
+
+> So long as the points fall between the control lines, no adjustments
+> or changes in the process are necessary.  If five to seven points fall
+> on one side of the mean, the process should be checked.  When points
+> fall outside of the control lines, the cause must be located and
+> corrected immediately.
+
+... but maybe we should've checked
+the process during the "long" bull.
+
+-Dave
+
+http://xent.com/mailman/listinfo/fork
+
+

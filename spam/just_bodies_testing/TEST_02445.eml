@@ -1,0 +1,43 @@
+Re: X Window System on Samsung n210 (Intel GMA 3150)On Mon, 19 Apr 2010 15:00:54 +0200, Enrique Matías Sánchez (Quique) wrote:
+
+> I've bought a Samsung n210 netbook, which has an Intel GMA 3150 graphics
+> card.
+> 
+> I've installed Debian testing on it, and KDE 4.4 from experimental.
+> Unfortunately the graphical interface doesn't work properly.
+> 
+> When xserver-xorg-video-intel 2:2.11.0-1 is installed, the X window
+> system doesn't start (I paste below the log I get). Removing this
+> package, X works (using the VESA driver, I guess), but the screen
+> resolution is quite bad (800x600).
+> 
+> There is no xorg.conf in /etc/X11.
+> 
+> What should I do?
+
+(...)
+
+> (EE) open /dev/fb0: No such file or directory 
+> (EE) intel(0): No kernel modesetting driver detected. 
+> (II) UnloadModule: "intel"
+> (EE) Screen(s) found, but none have a usable configuration.
+> 
+> Fatal server error:
+> no screens found
+
+Have you tried to disable KMS (kernel mode setting)?
+
+http://wiki.debian.org/KernelModesetting
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.19.13.58.55@csmining.org
+
+

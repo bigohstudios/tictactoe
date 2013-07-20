@@ -1,0 +1,173 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281ac85fc0378f5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs63683wfj;
+        Tue, 20 Apr 2010 03:34:36 -0700 (PDT)
+Received: by 10.223.100.141 with SMTP id y13mr780409fan.15.1271759658997;
+        Tue, 20 Apr 2010 03:34:18 -0700 (PDT)
+Return-Path: <bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e17si1924324fke.27.2010.04.20.03.34.18;
+        Tue, 20 Apr 2010 03:34:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-laptop=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 93D1313A4E8F; Tue, 20 Apr 2010 10:34:15 +0000 (UTC)
+Old-Return-Path: <j.andradas@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.0 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-laptop@liszt.debian.org
+Delivered-To: lists-debian-laptop@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2B2C513A4669
+	for <lists-debian-laptop@liszt.debian.org>; Tue, 20 Apr 2010 10:34:09 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 6KiSlwTYjGIJ for <lists-debian-laptop@liszt.debian.org>;
+	Tue, 20 Apr 2010 10:34:02 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id 2D77E13A4660
+	for <debian-laptop@lists.debian.org>; Tue, 20 Apr 2010 10:34:02 +0000 (UTC)
+Received: by wyb29 with SMTP id 29so35591wyb.6
+        for <debian-laptop@lists.debian.org>; Tue, 20 Apr 2010 03:33:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type;
+        bh=wakMEdbFdHEVWjT/g4dGpcpxh3SI8RJCxvj8mLxEsbE=;
+        b=Hd00AazOQ0Q1Tuuct3NiCxbZPIQaOgUznlOlJOh4GkopXK5XzgXUoKK84rt0Oq6UmY
+         sFPMTnNFADDa79xjBdojA47mLcPRPpzDJdHvRUegNstiLyMKwG4iYN4NVRk62NTLULzX
+         0jn2cJjvwC2NPyg7AR3YJ1WrE8YFpKEkzH3M4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=HdCsKiD1Wk/gAsrRbs/TdhxxS7tZts6eh38CwxHfiatiIimRBxIgczsAR5PywCzDk5
+         x3mt0iLllBjSprMsLMaZVwo6E5ghVr3GH60ApOMFMpOrJu5GhnxpLRgdxzXeAT4UGiNK
+         sIt4jnuhsVhvNlDJVYHpLdAR7RT7jYO1eeLNU=
+MIME-Version: 1.0
+Received: by 10.216.25.76 with HTTP; Tue, 20 Apr 2010 03:33:53 -0700 (PDT)
+In-Reply-To: <1271758810.2990.11.camel@linux-d59.Netz>
+References: <4BCCBC32.8090706@emenaker.com>
+	 <20100419212930.GA5574@dementia.proulx.com>
+	 <o2l9e87a6011004191540qb6b851b7w214ea4c691f1e76@mail.csmining.org>
+	 <1271758810.2990.11.camel@linux-d59.Netz>
+Date: Tue, 20 Apr 2010 12:33:53 +0200
+Received: by 10.216.91.18 with SMTP id g18mr1429332wef.203.1271759634054; Tue, 
+	20 Apr 2010 03:33:54 -0700 (PDT)
+Message-ID: <i2v690ef5851004200333q8368f24y8783517a31cad7c0@mail.csmining.org>
+Subject: Re: Battery monitor tools?
+From: Jonas Andradas <j.andradas@csmining.org>
+To: Dirk Linnerkamp <dirk_linnerkamp@vodafone.de>
+Cc: debian-laptop@lists.debian.org
+Content-Type: multipart/alternative; boundary=0016e6d58f7f3a3d090484a89dbd
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ghHOd5Th2iJ.A.FOE.nMYzLB@liszt>
+Resent-From: debian-laptop@lists.debian.org
+X-Mailing-List: <debian-laptop@lists.debian.org> archive/latest/34119
+X-Loop: debian-laptop@lists.debian.org
+List-Id: <debian-laptop.lists.debian.org>
+List-Post: <mailto:debian-laptop@lists.debian.org>
+List-Help: <mailto:debian-laptop-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-laptop-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-laptop-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-laptop-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 10:34:15 +0000 (UTC)
+
+--0016e6d58f7f3a3d090484a89dbd
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Apr 20, 2010 at 12:20, Dirk Linnerkamp
+<dirk_linnerkamp@vodafone.de>wrote:
+
+> Hi Simon,
+>
+> Am Dienstag, den 20.04.2010, 00:40 +0200 schrieb Simon Chen:
+>
+> > So, is this just because i choosed a unsuitable tool? Or it has any
+> > other reason. In the comparison mentioned above, I was doing some file
+> > work and/or running emacs
+>
+> ...i'm using laptop-mode-tools as an additionally tool to control my
+> battery power and i would say that it gave me just a bit more time on
+> battery. You have a  lot of configuration files for controlling
+> autostart programs and your hardware i.e. cpu, disks,wireless etc.
+>
+> But you never wil get the same time span as you reache with your windows
+> OS
+>
+>
+In my humble opinion, this statement holds true if you keep the "original"
+Windows that came with your laptop.  Usually this Windows is slighly
+modified or has a special power manager or management options made by the
+laptop manufacturer, specially tailored for the laptop model.  I wish they
+would also make available similar configurations for non-Windows OS (for
+example, as configuration files/scripts for laptop-mode-tools or others)
+
+Best Regards,
+
+
+--=20
+Jon=C3=A1s Andradas
+
+--0016e6d58f7f3a3d090484a89dbd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Tue, Apr 20, 2010 at 12:20, Dirk Linn=
+erkamp <span dir=3D"ltr">&lt;<a href=3D"mailto:dirk_linnerkamp@vodafone.de"=
+>dirk_linnerkamp@vodafone.de</a>&gt;</span> wrote:<br><blockquote class=3D"=
+gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-=
+left:1ex;">
+Hi Simon,<br>
+<br>
+Am Dienstag, den 20.04.2010, 00:40 +0200 schrieb Simon Chen:<br>
+<div class=3D"im"><br>
+&gt; So, is this just because i choosed a unsuitable tool? Or it has any<br=
+>
+&gt; other reason. In the comparison mentioned above, I was doing some file=
+<br>
+&gt; work and/or running emacs<br>
+<br>
+</div>...i&#39;m using laptop-mode-tools as an additionally tool to control=
+ my<br>
+battery power and i would say that it gave me just a bit more time on<br>
+battery. You have a =C2=A0lot of configuration files for controlling<br>
+autostart programs and your hardware i.e. cpu, disks,wireless etc.<br>
+<br>
+But you never wil get the same time span as you reache with your windows<br=
+>
+OS<br>
+<br></blockquote><div><br></div><div>In my humble opinion, this statement h=
+olds true if you keep the &quot;original&quot; Windows that came with your =
+laptop. =C2=A0Usually this Windows is slighly modified or has a special pow=
+er manager or management options made by the laptop manufacturer, specially=
+ tailored for the laptop model. =C2=A0I wish they would also make available=
+ similar configurations for non-Windows OS (for example, as configuration f=
+iles/scripts for laptop-mode-tools or others)</div>
+<div><br></div><div>Best Regards,</div></div><br clear=3D"all"><br>-- <br>J=
+on=C3=A1s Andradas<br><br><br>
+
+--0016e6d58f7f3a3d090484a89dbd--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2v690ef5851004200333q8368f24y8783517a31cad7c0@mail.csmining.org
+
+

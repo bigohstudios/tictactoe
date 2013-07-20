@@ -1,0 +1,33 @@
+Re: problem to put the soho plasmoidOn 05/23/2010 12:05 AM, BasaBuru wrote:
+> On Sábado 22 Mayo 2010 23:19:04 godo escribió:
+>> On 05/22/2010 10:29 PM, BasaBuru wrote:
+>>> helo
+>>>
+>>> I can't put in the desktop the soho and solar system.
+>>>
+>>> See me the initializacion script is fail.
+>>>
+>>> I think i need few packets but i don't now how.
+>>>
+
+Which Debian (Lenny, Squeeze, Sid) you have?
+	$ cat /etc/debian_version
+Which DE (KDE, Gnome, something else) you have?
+
+Did you install soho and solar system manually (download and compile) or 
+automated thru "Add Widget"?
+
+-- 
+Bye,
+Goran Dobosevic
+Hrvatski: www.dobosevic.com
+  English: www.dobosevic.com/en/
+Registered Linux User #503414
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF87CD5.3040001@dobosevic.com
+
+

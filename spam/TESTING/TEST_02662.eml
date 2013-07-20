@@ -1,0 +1,127 @@
+X-Account-Key: account5
+X-UIDL: GmailId12820d7d5fed238a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs115909wfj;
+        Wed, 21 Apr 2010 07:48:55 -0700 (PDT)
+Received: by 10.114.215.30 with SMTP id n30mr1949972wag.27.1271861335356;
+        Wed, 21 Apr 2010 07:48:55 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 27si12301287iwn.70.2010.04.21.07.48.54;
+        Wed, 21 Apr 2010 07:48:55 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id D6DE21BB7FC5E
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 07:48:54 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id D212E26FC352C
+	for <mlsubscriber.tech@csmining.org>; Wed, 21 Apr 2010 07:48:54 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay15.apple.com (relay15.apple.com [17.128.113.54])
+	by lists.apple.com (Postfix) with ESMTP id 0EC6B26FC334E
+	for <quicktime-api@lists.apple.com>;
+	Wed, 21 Apr 2010 07:48:40 -0700 (PDT)
+X-AuditID: 11807136-b7cbaae000005187-52-4bcf1046a73a
+Received: from webmail.apple.com (castile.apple.com [17.254.0.86])
+	by relay15.apple.com (Apple SCV relay) with SMTP id
+	8E.01.20871.6401FCB4; Wed, 21 Apr 2010 07:48:39 -0700 (PDT)
+Received: from 17.151.80.197 (SquirrelMail authenticated user timmon@apple.com)
+	by webmail.apple.com with HTTP; Wed, 21 Apr 2010 07:48:39 -0700 (PDT)
+Message-ID: <725524d7d8601394183f59bd344bee82.squirrel@webmail.apple.com>
+In-Reply-To: <20100421141126.79F2F26FC0E15@lists.apple.com>
+References: <20100421141126.79F2F26FC0E15@lists.apple.com>
+Date: Wed, 21 Apr 2010 07:48:39 -0700 (PDT)
+From: timmon@apple.com
+To: quicktime-api@lists.apple.com
+User-Agent: SquirrelMail/1.4.15
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Brightmail-Tracker: AAAAAA==
+Subject: Re: Asynchronous load fail with i386 build in a cmd line tool
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On Wed, April 21, 2010 7:11 am, Christophe Ducommun wrote:
+
+> Hi QuickTime developers.
+>
+> I have written a simple command line tool which load asynchronously a
+> QuickTime movie.
+> It's just an example to show my problem, I need to load asynchronously
+> because I want to process
+> the file before all is completely loaded.
+>
+> If I compile my tool with x86_64 architecture, the tool work as expected,
+> if I build the tool
+> with i386 the movie doesn't load completely.
+>
+> int main (int argc, const char * argv[])
+> {
+>     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+>
+> 	NSString* inputPath = [NSString stringWithFormat:@"/myfile.mov"];
+>
+> 	QTMovieLoader* loader = [[QTMovieLoader alloc] initWithFile:inputPath];
+> 	if ([loader LoadAsyncMovie] == NO)
+> 	{
+> 		NSLog(@"QuickTime can't read this file ! (Exit)");
+> 		return NO;
+> 	}
+>
+> 	NSLog(@"Before WaitForLoaded");
+> 	[loader WaitForLoaded];
+>
+> 	NSLog(@"Movie Loaded successfully !");
+>
+>     [pool drain];
+>     return 0;
+> }
+>
+
+So, you ask for a movie to be loaded asynchronously and then call
+-WaitForLoaded, which essentially just suspends the calling thread except
+for a periodic call to retrieve the movie's load state. I think your
+result are expected. If you suspend the main thread, then QTKit (and
+QuickTime underneath) is not going to be being given any time to load the
+movie asynchronously.
+
+I guess I don't understand why you feel you need to call -WaitForLoaded.
+It seems to be an attempt to get synchronous behavior even while you load
+the movie asynchronously. If you want simply to monitor the load state,
+your -movieLoadStateChanged: method is a better place to do that.
+
+
+Tim Monroe
+QuickTime Engineering
+
+
+P.S. Your code works in 64-bits because your call to -WaitForLoaded does
+not block the thread that is loading the movie, which happens in a 32-bit
+helper process.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

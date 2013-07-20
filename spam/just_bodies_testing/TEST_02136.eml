@@ -1,0 +1,30 @@
+Re: KDE Issues under "Squeeze"Alle domenica 02 maggio 2010, lrhorer ha scritto:
+> hat's just nonsense.  Many packages simply do not have Debian
+> sources, and I have used KPackage to successfully install many alien
+> packages. In some cases, there may be a reasonable .deb subsitute,
+> but many packages, most notably hardware drives, simply have no
+> substitute.  Two of my RAID controllers, for example, only have RPM
+> distros.  Surely you are not suggesting a PC - Debian or otherwise -
+> can do without its hard drives?  They installed fine under KDE3.
+
+You seem to not like either to keep things simple or Debian and KDE. So 
+why don't you switch to other rpm based distros that have the packages 
+that you want? All this discussion about what you don't like in Debian 
+and in KDE is not really meaningful and BTW I don't know of any open 
+source driver that can't be compiled in Debian for any kernel. If it's 
+closed source, then again: use the distro that is compatible with the 
+package format with which the drivers are provided. Just a personal 
+thought on this topic: it seems very odd that a driver compiled for a 
+kernel running on a completely different distro, can run on a Debian 
+kernel too. Are you sure that you are doing things in the right way?
+Bye
+
+Valerio
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005021026.25738.valerio.passini@unicam.it
+
+

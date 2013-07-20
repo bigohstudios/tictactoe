@@ -1,0 +1,26 @@
+Re: xterm color
+On Apr 29, 2010, at 07:46, Carlos Roman wrote:
+>=20
+> Would anyone be so kind to remind me how
+> to fix this?
+
+Do you have ~/.Xresources that might be interfering?
+
+> Also, this is another newbie question, but
+> if I use ssh to connect to my desktop,
+> I cannot forward any X11 applications into
+> my laptop. I tried xhost + and nothing happens.
+
+'xhost +' enables connection without authentication from other systems =
+over TCP/IP and has nothing to do with ssh tunnels.  Make sure you're =
+sshing to the remote system using 'ssh -Y' and that the remote system =
+allows ssh tunneling in its /etc/sshd_config.
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

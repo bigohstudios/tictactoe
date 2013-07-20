@@ -1,0 +1,88 @@
+Re: creating tables...htmlHere is a different way - kinda expensive with divs - depending on how
+rigorous the formatting needs to be.  You can change the colors to
+what you want them to be.
+
+<div style=3D"float:top;width=3D100%;background-color:#0000D0;border-width:=
+1px;border-color:#0000D0;border-style:solid
+solid solid solid;"> test text here1 </div>
+<div style=3D"float:top;width=3D100%;background-color:#0000F0;border-width:=
+1px;border-color:#0000F0;border-style:solid
+solid solid solid;"> test text here2 </div>
+<div style=3D"float:top;width=3D100%;background-color:#00D000;border-width:=
+1px;border-style:solid
+solid none solid;"> test text here1 </div>
+<div style=3D"float:top;width=3D100%;height=3D1px;background-color:#00D000;=
+border-width:1px;border-style:none
+solid none solid;">  </div>
+<div style=3D"float:top;width=3D100%;height=3D1px;background-color:#00F000;=
+border-width:1px;border-style:none
+solid none solid;">  </div>
+<div style=3D"float:top;width=3D100%;background-color:#00F000;border-width:=
+1px;border-style:none
+solid solid solid;"> test text here1 </div>
+<div style=3D"float:top;width=3D100%;background-color:#D00000;border-width:=
+1px;border-color:#D00000;border-style:solid
+solid solid solid;"> test text here1 </div>
+<div style=3D"float:top;width=3D100%;background-color:#F00000;border-width:=
+1px;border-color:#F00000;border-style:solid
+solid solid solid;"> test text here2 </div>
+
+
+On Sat, Apr 24, 2010 at 8:15 PM, Mike Bird <mgb-debian@yosemite.net> wrote:
+> On Sat April 24 2010 15:52:41 Jozsi Vadkan wrote:
+>> <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html;
+>> charset=3Dutf-8" />
+>> <body><style type=3D"text/css">
+>> a:link, a:visited, a:active { text-decoration: none; }
+>> a:hover { text-decoration: underline; }
+>> table.tabletemplate { width: 100%; border-width: 1px; border-style:
+>> outset; border-color: #000000; }
+>> </style></head><body><pre>
+>> test text here1
+>> test text here2
+>> <table class=3D"tabletemplate"><tr><td><pre>
+>> test text here1
+>> test text here2
+>> </pre></td></tr></table>
+>> test text here1
+>> test text here2
+>> </pre><body></html>
+>
+> You've got two different causes of white space there. =A0Try this:
+>
+> <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html;
+> charset=3Dutf-8" />
+> <body><style type=3D"text/css">
+> a:link, a:visited, a:active { text-decoration: none; }
+> a:hover { text-decoration: underline; }
+> table.tabletemplate { width: 100%; border-width: 1px; border-style:
+> outset; border-color: #000000; }
+> </style></head><body><pre>
+> test text here1
+> test text here2
+> <table class=3D"tabletemplate"><tr><td><pre style=3D"margin-bottom: 0;">
+> test text here1
+> test text here2</pre></td></tr></table>test text here1
+> test text here2
+> </pre>
+> <body></html>
+>
+> --Mike Bird
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/201004241715.00934.mgb-debian@yosemite.n=
+et
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2xcab1c5a71004241729y337e9037r5588fc000c9ce716@mail.csmining.org
+
+

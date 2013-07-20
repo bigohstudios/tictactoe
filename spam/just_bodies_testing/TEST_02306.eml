@@ -1,0 +1,35 @@
+Re: Alternative to dhcp?Ed Jabbour <edjabr@csmining.org> writes:
+
+> On Wed, 14 Apr 2010 17:31:54 -0400, Celejar wrote:
+>
+>>> Ed Jabbour <edjabr@csmining.org> wrote:
+>
+>>> I edited /etc/resolv.conf to add a nameserver, edited
+>>> etc/dhcp3/dhclient.conf to do the same and added the dns to wicd.  
+>>> However, I keep getting the same old dns from the router, i.e., 
+>>> resolv.conf keeps changing to the router's 192 ip.  The router does not
+>>> allow editing dns.  I think this is due to using dhcp.  Is there an
+>>> alternative which wouldn't cause a default to the router's dns?  Any 
+>>> pointers appreciated.
+>>
+>>Do 'man dhclient.conf' and look at the prepend and supersede options.
+>
+> I had already done that.  I tried either one and both.  I had also already 
+> done the wicd gui edit.  As I said above, my chosen dns doesn't stick, as 
+> resolv.conf keeps reverting to the router's.   
+
+Has the dhclient been restarted since you edited the configuration
+file, either manually or through a reboot?  I use the prepend- option,
+but I assume that it isn't reread automatically so I kill and restart
+the client manually when I change the file.
+
+-- 
+Carl Johnson		carlj@peak.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87vdbsy6hl.fsf@cjlinux.localnet
+
+

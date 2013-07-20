@@ -1,0 +1,23 @@
+Re: Apt problemsOn Wed, Feb 06, 2002 at 04:30:18PM +0200, Harri Haataja wrote:
+> I have a few such things (with jdk, imlib, kernel DRI version..
+> something) and Ive just made dummy packages (with verbose warning
+> attached ;) that explicitly provide those capabilities. (or claim to,
+> that is).
+
+Hm. One could do this with rpm's --justdb switch too, without having to 
+make a dummy package, right?
+
+I was wondering that this is a bit dangerous if there is a update for my 
+software, as the dummy package might get updated with it overwriting the 
+installation I've done from source... Not good.
+
+Is there really no "--nodeps" kind of switch in apt-get? 
+
+-- 
+Peter
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

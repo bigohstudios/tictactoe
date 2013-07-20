@@ -1,0 +1,29 @@
+Re: Aliases with `-'On 2010-05-06 19:31 +0200, Merciadri Luca wrote:
+
+> I would like to define an alias with some `-' characters into it, in my
+> .bashrc. For example, if `this-is-my-alias' is my alias, I would use
+>
+> ==
+> alias 'this-is-my-alias'='some command to achieve'
+> ==
+>
+> It simply does not work. Why?
+
+Don't know -- it works for me in bash 4.1.5(1)-release.
+
+> I tried without `'' but emacs then stops
+> highlighting the word, which is no good sign.
+
+Syntax highlighting in Emacs' shell-script-mode leaves much to be
+desired, so this is not really a bad sign.  Does it work if you leave
+out the apostrophes?
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87pr18ly1b.fsf@turtle.gmx.de
+
+

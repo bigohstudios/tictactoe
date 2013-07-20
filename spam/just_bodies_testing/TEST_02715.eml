@@ -1,0 +1,26 @@
+python-twisted-core not getting updated on i386, but is updated on
+ amd64 [was Re: Increasing number of conflicts]
+On Apr 20, 2010, at 2:30 AM, Jimmy Johnson wrote:
+
+> If I was you I would start by finding out why python-twisted-core is  
+> not getting upgraded to the latest version that's in the repos and  
+> so on, with a little investigating I'm sure you will find what has  
+> broken your system, it may help to use Synaptic to look at the  
+> packages.
+
+
+The reason seems to be that python-twisted-core version 10.0.0-3 is  
+available on amd64 Sid, but on i386 Sid it's only available at version  
+10.0.0-2 .
+
+Maybe it needs to be rebuilt for i386 ?
+
+Rick
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/449A1502-5DEC-447A-B35E-5062A0E6401A@pobox.com
+
+

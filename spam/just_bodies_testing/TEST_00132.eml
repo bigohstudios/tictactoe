@@ -1,0 +1,48 @@
+Re: akonadi first time start bugs with KDE 4.4.3From nobody Sat Jul 20 14:17:27 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 06 Mai 2010 schrieb Diederik de Haas:
+> On 2010-05-06 Martin Steigerwald wrote:
+> > > Possible 'workaround' can be found at:
+> > > http://userbase.kde.org/Akonadi_4.4/Troubleshooting
+> > >=20
+> > > ie wrt 236538: close Kontact. Start KAddressBook standalone. Quit
+> > > KAddressBook. Start Kontact.
+> >=20
+> > Where?
+>=20
+> 3.8 I can't see any details in my Address Book
+>=20
+> At the moment, the cause of this is not identified, but the cure is
+> simple. Close Kontact, and start KAddressBook as a stand-alone
+> application. After you close it you will be able to use it within
+> Kontact. It seems that something is not being triggered when Kontact
+> launches, and I expect this to be identified and fixed soon. This
+> seems to mainly affect version 4.4.0.
+
+Thanks. I overlooked this. For me its enough to just stop Kontact and=20
+start it another time.
+
+> > My current work-around is just to close Kontact completely again and
+> > start it another time. This will work for now.
+> >=20
+> > Apart from that I am not interested in work-arounds. I am interested
+> > in *fixes*.
+>=20
+> I'm interesting in fixes as well and not (so much) in workarounds.
+> But a workaround _could_ help in fixing the bug, although I'm not too
+> sure in this case, since I got the workaround from userbase.kde.org.
+>=20
+> btw, I'm just confirming your findings, no need to bite my head off.
+
+Hey, I did not meant to bite your head off. I eat mostly vegan, but at=20
+least vegetarian. ;)
+
+Thanks for your help!
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

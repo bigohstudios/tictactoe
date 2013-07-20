@@ -1,0 +1,31 @@
+Re: ALSA (almost) made easyOn Wed, 2002-08-28 at 23:48, Ville Skyttä wrote:
+
+> > The devices are there now, thank Gordon for reporting the problem (and as I
+> > said, you were the only one). Any further comments are very welcome!
+> > 
+> > Download : http://ftp.freshrpms.net/pub/freshrpms/testing/alsa/
+> > New spec : http://freshrpms.net/builds/alsa-driver/alsa-driver.spec
+> 
+> Ahh, wonderful!  Just tried out these and *finally* got sound working
+> with my Abit TH7II-RAID's integrated audio.  I've been pulling hair
+> together with the (helpful) OpenSound people for quite some time now,
+> but we've failed to get sound to work, either with the drivers included
+> in kernel, or the commercial OSS.
+> 
+> Thanks a *lot* !  The RPMs seem to be fine, they worked for me out of
+> the box (on vanilla Valhalla w/latest errata).
+
+...except that I don't see an init script in the RPMs, a sample one
+designed for RH is supposed to be in "utils/alsasound".  Could you take
+a look if it can be included?
+
+Cheers,
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

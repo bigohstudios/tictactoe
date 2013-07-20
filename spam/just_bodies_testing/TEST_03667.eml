@@ -1,0 +1,37 @@
+[SAtalk] "Broken Pipe" on initial testHi
+
+I've just installed SpamAssassin and relevant modules.
+Just tried the initial test: 
+
+spamassassin -t < sample-nonspam.txt > nonspam.out
+
+and got back:
+
+Broken Pipe
+
+I've also tried using the -P and --pipe option but to
+no avail.
+
+Any help greatly appreciated. BTW - I'm no great Perl
+expert!
+
+rgds
+
+Peter
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

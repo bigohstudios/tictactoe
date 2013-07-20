@@ -1,0 +1,28 @@
+Updated clamav versionHi,
+debian-volatile team
+
+I upgraded with aptitude on 02.04.10 for my 'squeeze'.
+then try for dist-upgrade and found, ( as unable to upgrade clamav)
+The following packages have unmet dependencies:
+  libclamav6: Depends: libltdl3 (>= 1.5.2-2) which is a virtual package.
+and with no solution.
+I have in my source.list as,
+deb http://volatile.debian.org/debian-volatile lenny/volatile main
+contrib non-free.
+I have now clamav-0.95.3+dfsg-1 and had no problem with updation.
+Can we use upgraded clamav in future?
+
+regards,
+
+ 
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272903198.4895.37.camel@arkodebian.arko.com
+
+

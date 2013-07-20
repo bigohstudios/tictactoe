@@ -1,0 +1,37 @@
+Re: [ILUG] hard- vs. soft-links [was: How to copy some files ]Brian Foster wrote:
+>  I use this fact on occasion to "save" data, via the well-
+>  known attack of hard-linking to a supposedly-temporary file
+>  I want to preserve.  the subsequent unlink(2)ing of the
+>  "temporary" file does not destroy the data.
+
+Now here is a thought: a Unix version of the "Deleted Items" folder.
+
+In the root of a hard drive, create a directory ".unwanted". Then
+periodically create hard links to every file on the hard drive that does not
+have hard links.
+
+That way, when someone accidentally does "rm *" or whatever, you still have
+a link under ".unwanted"
+
+Another script can then periodically clear out enough old files to ensure
+that there is usually enough disk space.
+
+Although this sounds like a horrible hack. It would no doubt be much better
+to have a transaction oriented file system with a rollback facility.  :)
+
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.comm
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

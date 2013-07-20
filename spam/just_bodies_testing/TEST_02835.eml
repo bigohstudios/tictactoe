@@ -1,0 +1,37 @@
+Re: Mouse/Keyboard "Hook"?On 30 Apr 2010, at 08:19, Luke Scott wrote:
+
+> On 4/29/10 3:10 PM, Shawn Erickson wrote:
+>> On Thu, Apr 29, 2010 at 2:56 PM, Luke Scott<luke@cywh.com>  wrote:
+>>   
+>>> I'm trying to make a program in C/C++ that blocks the mouse and keyboard
+>>> events on the local system (as if they didn't happen) and send them to
+>>> another machine over LAN. Essentially my end goal is to control computer B
+>>> with the mouse and keyboard from computer A.
+>>>     
+>> Wrong list for this type of question, it has nothing to do with any
+>> programming language.
+>> 
+>> Look at CGEvent and consider asking on the quartz dev list instead.
+>> 
+>> -Shawn
+>>   
+> Well considering that I really haven't written very much code for the Mac not knowing which list specifically is understandable. I figured posting in the generic C++ list would be sufficient, at least for pointing me to the right list.
+
+Objective-C is a specific object extension of the C language based on Smalltalk, not a generic moniker to cover other C-based OO languages like C++ (based on Simula, which was a much nicer more modern language). Objective-C is a very different beast to C++, although there is Objective-C++ where you can mix the languages to some extent (for porting, etc - in general you would not mix in C++ code with Obj-C code in a new app).
+
+As to the original (non-language based) question, you can drive another Mac with keyboard and mouse, just by connecting to it with Screen share - works across applications. I'll assume there's something more that you want to do that you'll have to program the same thing for yourself. If you can (your app isn't too secret), you should also post a higher-level description of what you really want to do. In the Mac world we call this "Think Different"!
+
+HTH
+Ian
+> 
+> Is quartz "the option" or "one of the options" for capturing keyboard and mouse events? If it's one of the options, I would be interested in knowing what the other options are.
+> 
+> Luke
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

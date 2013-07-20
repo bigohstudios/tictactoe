@@ -1,0 +1,25 @@
+Re: Creating a debian local mirror from 5 debian DVDsHi,
+
+> Take a look at "apt-cacher" instead of a full mirror, see whether it
+> could help you.
+> http://www.debuntu.org/how-to-set-up-a-repository-cache-with-apt-cacher
+
+>> Or approx - I use it and like it very much.
+
+The problem is that these tools involve one time download and I don't
+want to make even that as I have all the debian 504 dvds with me. I
+can't even do that one time download.
+
+Btw, how do I turn off the digest mode and subscribe to the regular one
+mail per mail to the list mode?
+
+Regards,
+Guruprasad
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD99588.4070507@csmining.org
+
+

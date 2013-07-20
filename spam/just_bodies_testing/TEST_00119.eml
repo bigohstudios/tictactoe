@@ -1,0 +1,40 @@
+Re: How to remove oowriter delay on opening document?On Wed, 21 Apr 2010 20:55:17 +0700, Sthu Deus wrote:
+
+> Thank You for Your time and answer, Camaleón:
+> 
+>>Life is hard :-)
+> 
+> And I know what makes it harder! ;)
+> 
+>>If OOo does not offer such feature anymore, you can get "preload¹" which
+>>is... humm, a "preloader" daemon ;-)
+> 
+> Thank You again. Do I need to wait for some period when it will gather
+> its statistics?
+
+Dunno, I've never used it :-?
+
+There is a good explanation about the daemon features here:
+
+***
+Drastically Speed up your Linux System with Preload
+http://techthrob.com/2009/03/02/drastically-speed-up-your-linux-system-with-preload/
+***
+
+It seems you can tweak some values but the defaults should be fine. 
+
+Also, as per the article, you can take a look into what is currently 
+monitoring by reading "/var/lib/preload/preload.state" file.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.21.14.58.10@csmining.org
+
+

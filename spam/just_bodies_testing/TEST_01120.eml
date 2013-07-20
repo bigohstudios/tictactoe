@@ -1,0 +1,48 @@
+Re: [Razor-users] report automation with pine?
+----- Original Message ----- 
+From: "Forrest English" <forrest@truffula.net>
+To: <razor-users@example.sourceforge.net>
+Sent: Saturday, August 03, 2002 9:30 AM
+Subject: [Razor-users] report automation with pine?
+
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> is there currently a way to integrate razor-report into
+> pine?   spamassassin is killing most of the major spam, but more and more
+> stuff is sneaking in that is very short conscise...  and
+> annoying.  usually with hotmail, aol or yahoo return addresses.  i've
+> blacklisted *@aol.com...   but i'd rather start reporting this stuff in
+> the hopes that it would help someone else avoid it.
+> 
+> anyhow, if it could be done, let me know.  thanks.
+
+setup the config of pine to 
+enable the enable-unix-pipe-cmd 
+
+then when reading the message
+
+enter 
+
+|  razor-check 
+
+
+Regards
+
+Ray Gardener
+
+>
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

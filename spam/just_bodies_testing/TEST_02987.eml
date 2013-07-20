@@ -1,0 +1,22 @@
+[ILUG] PNP collision avoidance questionHi all,
+      I have an ISA PNP card that will use io 0x200 if available.  If located at
+0x200 the card never works, at 0x210 it always does.  I suspect the problem is
+the soundcard (Creative SB PCI-64) gameport controller, which also seems to live
+here.  I'm not using the controller, so it doesn't show in /proc/ioports, so
+autodetect happily puts my ISA card there.
+      I can get the card to work easily enough using isapnptools, banning the
+0x200 range in /etc/isapnp.gone, and then using "insmod radio-cadet io=0x210",
+but I'd like to get the autodetect working, so what I think I'm looking for is
+some way of adding "don't go here, don't bother me" entries into /proc/ioports.
+
+Anybody?
+
+TIA,
+Ronan.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

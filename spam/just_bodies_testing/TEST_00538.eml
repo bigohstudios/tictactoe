@@ -1,0 +1,12 @@
+Debian in Debian via Virtual boxFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi,
+How have people managed to get debian in virtual box to display with a
+resolution higher than 800x600. I've tried reinstalling with a higher video
+memory setting  and installing the guest additions. Was finding it difficult
+to find out if the additions actually installed correctly, so if anyone can
+help me with that I'd be grateful.
+
+Best regards
+Jim

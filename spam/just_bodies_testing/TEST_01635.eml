@@ -1,0 +1,25 @@
+Re: Please help a newbie compile mplayer :-)Once upon a time, rob wrote :
+
+>  I dl'd gcc3 and libgcc3, but I still get the same error message when I 
+> try rpm --rebuild or recompile. I do this as root, I dl'd as root also.
+> 
+> thanks for the help, any more idea what's going on?
+
+I've never installed source rpms with apt, but I suppose that if you get
+file not found, it's because the source rpm was installed. To see if this
+is the case, go to /usr/src/redhat/SPECS/ and if you see mplayer.spec,
+you'll just need to do "rpm -bb mplayer.spec" to get a binary build in
+/usr/src/redhat/RPMS/i386/
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

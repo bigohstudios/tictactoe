@@ -1,0 +1,19 @@
+Re: Java is for kiddiesGLM wrote:
+>And a Java program, due to the extensive class libraries, will weigh
+>in at 10% the number of lines of the equivalent C program.  QED.
+
+Quod erat not demonstrandum at all.
+
+There are massive amounts of libraries for C, Fortran and so on.
+To pick an obvious example., if you want to do linear algebra, then
+Java isn't a serious candidate at all.
+
+Furthermore, plenty of bugs occur in the libraries too, at a lower
+rate due to more users having been bitten by them, but they are much
+harder for you to fix than in your own code.
+
+Why do so many people outside of Sun's marketing department consider
+Java to be "Write Once, Debug Everywhere" ?
+
+R
+

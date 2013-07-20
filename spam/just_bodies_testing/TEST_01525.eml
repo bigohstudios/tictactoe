@@ -1,0 +1,30 @@
+Re: backup apt tree?On Tue, Apr 20, 2010 at 9:27 PM, B. Alexander <storm16@csmining.org> wrote:
+> If you are asking what I think you are asking, as in which files would you
+> need to restore your system in the event that you lose your apt and dpkg
+> databases, then I do the following:
+>
+> /var/backups
+> /var/cache/apt (less /var/cache/apt/archives)
+> /var/lib/apt
+> /var/lib/dpkg
+>
+> This will give you enough that apt-get update, etc works.
+>
+Nice, thanks! I've just configured a weekly backup schedule in BackInTime.
+
+
+> Now the rules have
+> probably changed if you use aptitude as I believe it creates/uses a
+> different database.
+>
+Could anyone advise on what additional files should be backed up to
+suit aptitude? Thank you
+Liviu
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/m2s68b1e2611004201341u5d3dd886ud52cb0c539a93c4d@mail.csmining.org
+
+

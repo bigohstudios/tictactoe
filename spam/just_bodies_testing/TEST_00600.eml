@@ -1,0 +1,23 @@
+Re: DVD/CD Read IssuesFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+Replying to debian-user......
+
+1. Take the cd (you burnt with this drive) and try to mount it using another
+cdrom to see the quality of that cd.
+2. Take a readonly cdrom/cdr(written from some where else) and try to use it
+in this drive to see how the drive works.
+
+On Tue, Apr 27, 2010 at 17:15, James Stuckey <jhstuckey@csmining.org> wrote:
+
+> On Tue, Apr 27, 2010 at 1:37 PM, Anand Sivaram <aspnair@csmining.org> wrote:
+>
+>> It is giving a lot of input output error.  Either your cd is bad or there
+>> could be problem with your cdrom drive.
+>>
+>
+> How do I go about proving either? I burnt this CD with this drive.
+>
+> Thanks,
+> James
+>

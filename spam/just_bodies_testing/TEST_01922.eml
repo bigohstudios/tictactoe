@@ -1,0 +1,90 @@
+[VulnWatch] EEYE: Macromedia Shockwave Flash Malformed Header OverflowMacromedia Shockwave Flash Malformed Header Overflow
+
+Release Date: August 8, 2002
+
+Severity:
+High (Remote Code Execution)
+
+Systems Affected:
+Macromedia Shockwave Flash - All Versions;
+Unix and Windows; Netscape and Internet Explorer
+
+Description:
+While working on some pre-release eEye Retina CHAM tools, an exploitable
+condition was discovered within the Shockwave Flash file format called SWF
+(pronounced "SWIF").
+
+Since this is a browser based bug, it makes it trivial to bypass firewalls
+and attack the user at his desktop. Also, application browser bugs allow you
+to target users based on the websites they visit, the newsgroups they read,
+or the mailing lists they frequent. It is a "one button" push attack, and
+using anonymous remailers or proxies for these attacks is possible.
+
+This vulnerability has been proven to work with all versions of Macromedia
+Flash on Windows and Unix, through IE and Netscape. It may be run wherever
+Shockwave files may be displayed or attached, including: websites, email,
+news postings, forums, Instant Messengers, and within applications utilizing
+web-browsing functionality.
+
+Technical Description:
+The data header is roughly made out to:
+
+[Flash signature][version (1)][File Length(A number of bytes too
+short)][frame size (malformed)][Frame Rate (malformed)][Frame Count
+(malformed)][Data]
+
+By creating a malformed header we can supply more frame data than the
+decoder is expecting. By supplying enough data we can overwrite a function
+pointer address and redirect the flow of control to a specified location as
+soon as this address is used. At the moment the overwritten address takes
+control flow, an address pointing to a portion of our data is 8 bytes back
+from the stack pointer. By using a relative jump we redirect flow into a
+"call dword ptr [esp+N]", where N is the number of bytes from the stack
+pointer. These "jump points" can be located in multiple loaded dll's. By
+creating a simple tool using the debugging API and ReadMemory, you can
+examine a process's virtual address space for useful data to help you with
+your exploitation.
+
+This is not to say other potentially vulnerable situations have not been
+found in Macromedia's Flash. We discovered about seventeen others before we
+ended our testing. We are working with Macromedia on these issues.
+
+Protection:
+Retina(R) Network Security Scanner already scans for this latest version of
+Flash on users' systems. Ensure all users within your control upgrade their
+systems.
+
+Vendor Status:
+Macromedia has released a patch for this vulnerability, available at:
+http://www.macromedia.com/v1/handlers/index.cfm?ID=23293&Method=Full&Title=M
+PSB02%2D09%20%2D%20Macromedia%20Flash%20Malformed%20Header%20Vulnerability%2
+0Issue&Cache=False
+
+Discovery: Drew Copley
+Exploitation: Riley Hassell
+
+Greetings: Hacktivismo!, Centra Spike
+
+Copyright (c) 1998-2002 eEye Digital Security
+Permission is hereby granted for the redistribution of this alert
+electronically. It is not to be edited in any way without express consent of
+eEye. If you wish to reprint the whole or any part of this alert in any
+other medium excluding electronic medium, please e-mail alert@eEye.com for
+permission.
+
+Disclaimer
+The information within this paper may change without notice. Use of this
+information constitutes acceptance for use in an AS IS condition. There are
+NO warranties with regard to this information. In no event shall the author
+be liable for any damages whatsoever arising out of or in connection with
+the use or spread of this information. Any use of this information is at the
+user's own risk.
+
+Feedback
+Please send suggestions, updates, and comments to:
+
+eEye Digital Security
+http://www.eEye.com
+info@eEye.com
+
+

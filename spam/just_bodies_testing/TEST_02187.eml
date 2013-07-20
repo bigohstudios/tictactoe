@@ -1,0 +1,21 @@
+Re: KDE 4.4.3 in unstableOn Thu May 6 2010 17:08:48 Diederik de Haas wrote:
+> On 2010-05-07 Mike Bird wrote:
+> > Does installing KDE cause a global /var/lib/mysql MySQL server to run on
+> > each workstation, even when nobody is logged in?
+>
+> Not anymore, but it used to be that case.
+> Since http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=548419 was resolved,
+> the dependency is on mysql-server-core(-5.1) and not on mysql-server(-5.1)
+> anymore.
+
+Thank you Diederik.  Your answer saved me a lot of time.
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061717.26953.mgb-debian@yosemite.net
+
+

@@ -1,0 +1,27 @@
+Re: How to flush cache of certain disk?On 7 May 2010 23:10, thib wrote:
+>> But all you said made me hard thinking about the way I mount and
+>> unmount my removable media. Maybe I should forget about sync and use
+>> 'umount /mnt/sd[a-z]' instead, or even write little script which will
+>> ask me which device I want to unmount=E2=80=A6 [snip]
+>
+> Which is what eject(1) is. =C2=A0It will search mountpoints in /dev, /med=
+ia and
+> /mnt by default btw, so it's just "eject sd[a-z]" for your example. =C2=
+=A0You
+> might want to use /media and volume names instead.
+
+Wow=E2=80=A6 I used eject to eject cdrom, but never read DESCRIPTION in man
+page and didn't know that it's not for CDROMs only. Thank you very
+much for pointing this out!
+
+
+Regards,
+Alexander Batischev
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2x28c1d5ea1005071318r7cc60b67xd4773b8a2f63ffaa@mail.csmining.org
+
+

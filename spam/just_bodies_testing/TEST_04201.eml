@@ -1,0 +1,26 @@
+Re: Cannot Connect to Debian BTSOn 04/18/2010 03:32 PM, David Baron wrote:
+>> Neither "normal" reportbug or the reportbug-ng can connect to debian bts
+>> right now.
+>>
+>> Is there something wrong there?
+>> Some recent Sid upgrade zapped access?
+>>
+>> Cannot really keep system up-to-date without access to debian bts.
+>>      
+> If I attempt to access a bug report in a browser by :
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=577796, for example,
+> this will also fail. The bug is there. I filed it.
+>
+> So what could be preventing me from accessing BTS?
+>
+>
+>    
+Works here as well.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCB01EB.7020804@csmining.org
+
+

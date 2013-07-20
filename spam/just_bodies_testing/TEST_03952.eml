@@ -1,0 +1,50 @@
+Re: Pango problemsOn Thu, 2002-08-08 at 12:15, Matthias Saou wrote:
+> I didn't say it wasn't nice! It looks great, but... it clearly doesn't suit
+> my needs or tastes :
+> - I'm a sloppy focus addict... and I configured sawfish to behave exactly
+> like I want for window focus and delayed raising as well as separating
+> windows per desktop or placing transient windows. For all these reasons and
+> many others, Metacity that Havoc Pennington wants to keep basic and simple
+> is right out! :-(
+
+One of the things you need to understand with gnome2 is that while they
+did simplify a lot of things, most of the configuration options people
+found very useful are still available through gconf. Learn to love
+gconf-editor ;) -- metacity can have sloppy focus (Desktop Preferences
+-> Window Focus -- there's actually GUI for that), and the delay until
+raising (and whether it raises) can be set in gconf-editor,
+/apps/metacity/general/auto_raise and auto_raise_delay
+
+> - I like the ability to have sliding panels that auto-hide in GNOME... but
+> with the new panel you can't specify the amount of pixels by which it
+> sticks out anymore :-(
+
+/apps/panel/global/panel_minimized_size
+
+> 
+> These are only two examples, I could find more : Each time I use GNOME 2
+> I'm quickly irritated by a little something that suited me better in 1.4.
+
+Well, it definitely is not the same as 1.4. Some people will always like
+gnome 1 better. Whatever suits your needs.
+
+> I'm not saying that GNOME 2 is bad, poorly conceived or ugly. It'll
+> probably even get very good critics from reviewers that are used to Windows
+> or MacOS X, where I also feel "limited" myself.
+
+I think you need to understand that simplifying the configuration
+options and the UI does make it a lot easier to use for people who are
+either not using it all the time or are just starting to use it. The
+GNOME team decided that advanced users who want to edit the kinds of
+options you talk about are advanced enough to use gconf-editor.
+Personally, I'm fine with that, because I don't find gconf-editor hard
+to use :)
+
+Julian
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

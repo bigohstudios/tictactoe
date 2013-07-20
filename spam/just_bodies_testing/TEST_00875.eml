@@ -1,0 +1,44 @@
+Re: Kde 3.5 ...On Thu, May 6, 2010 at 17:33, Dotan Cohen <dotancohen@csmining.org> wrote:
+
+> Actually, I personally have not. However, this was actually the design
+> goal of Qt4 and many users have tested and reported lower memory usage
+> in KDE 4 compared to KDE 3. I don't know about CPU, though.
+
+For KDE 2 -> 3, this was true. I had 128 or 256 MiB of RAM back then
+and when they announced that KDE 3 would use _less_ RAM, I laughed.
+Well, they proved me wrong and KDE 3 gave new life to an old machine.
+
+With KDE 4.1, I was forced to upgrade from 512 MiB RAM to 1.2 GiB
+to get from "pretty static pictures" to "slow".
+
+
+> Also, the last time I ran KDE 3.5.10 it felt was noticeably lagging
+> compared to my then-current KDE 4.3 setup on the same hardware. Note
+> that the KDE 4.3 even had quite a few other apps installed, and the
+> KDE 3.5.10 was a new install that I did to triage a possible
+> regression.
+
+As said earlier, I have KDE 4 on a pretty new machine and KDE 3 on an
+ancient one. If anything, a _lot_ more in installed & running on the KDE 3
+machine.
+The KDE 3 machine is noticably faster in pretty much every regard.
+
+YMMV.
+
+
+> Like I said, though, if you need Qt3 libraries in addition to Qt4 (for
+> Quanta, for instance) then you will be using the memory of _both_,
+> naturally, and that is a lot!
+
+Nope, pure Qt/KDE 4.
+
+
+Richard
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2l2d460de71005060909u9615296aj6a704e18759c402e@mail.csmining.org
+
+

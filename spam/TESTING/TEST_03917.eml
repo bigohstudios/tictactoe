@@ -1,0 +1,119 @@
+X-Account-Key: account5
+X-UIDL: GmailId127e459ab0799e27
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs52774wfi;
+        Fri, 9 Apr 2010 13:53:55 -0700 (PDT)
+Received: by 10.114.187.22 with SMTP id k22mr1079743waf.106.1270846434331;
+        Fri, 09 Apr 2010 13:53:54 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 36si2952691iwn.96.2010.04.09.13.53.53;
+        Fri, 09 Apr 2010 13:53:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id ACD0F1B8C6587
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 13:53:53 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A727826AA95B1
+	for <mlsubscriber.tech@csmining.org>; Fri,  9 Apr 2010 13:53:53 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 5182326AA95A1
+	for <augd@lists.apple.com>; Fri,  9 Apr 2010 13:53:51 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay2.apple.com (Postfix) with ESMTP id 2F553CDC4547
+	for <augd@lists.apple.com>; Fri,  9 Apr 2010 13:53:51 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c7dae000001ba1-41-4bbf93de6c15
+Received: from asmtpout025.mac.com (asmtpout025.mac.com [17.148.16.100])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	31.13.07073.ED39FBB4; Fri,  9 Apr 2010 13:53:51 -0700 (PDT)
+MIME-version: 1.0
+Content-type: text/plain; charset=windows-1252
+Received: from [10.0.1.3]
+	(c-69-247-240-107.hsd1.fl.comcast.net [69.247.240.107])
+	by asmtp025.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTPSA id <0L0M009BNNDI3810@asmtp025.mac.com> for
+	augd@lists.apple.com; Fri, 09 Apr 2010 13:53:45 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1004090210
+Subject: Re: AUGD: Displaying iPad at a meeting, what doesn't work
+From: Jerome King <jwking@mac.com>
+In-reply-to: <3AAD2D23-2A87-462B-89B2-E1E233E3632F@earthlink.net>
+Date: Fri, 09 Apr 2010 16:53:42 -0400
+Content-transfer-encoding: quoted-printable
+Message-id: <09370BF1-8CDD-4CA4-BB35-6DDA2900236B@mac.com>
+References: <51E7C1D7-6031-4A90-9B0A-65E1504C2FD4@Comcast.NET>
+	<21E459A6-6241-406A-92F3-B8B2A7976F7F@mac.com>
+	<3AAD2D23-2A87-462B-89B2-E1E233E3632F@earthlink.net>
+To: Allen Emory <aemory@earthlink.net>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAwAAAUoTnae2E56A8w==
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Thanks Allen
+
+Incidentally, it turns out that Quicktime 10 / File / New Movie =
+Recording DOES let the iSight camera see the iPad without the mirroring =
+we suffered with using iChat.  The green button expands the image
+
+You don=92t have to record, (although you could), but it works to the =
+extent you can put the iSight camera on the iPad
+
+Jerry
+On Apr 8, 2010, at 9:17 PM, Allen Emory wrote:
+
+> Your club might consider one of these
+>=20
+> http://www.ipevo.com/Point-2-View-USB-Camera_p_70.html
+>=20
+> I think our group is going to give one a try. Our local Apple systems =
+engineer says they work well for demos and are only $70.=20
+>=20
+>=20
+> On Apr 8, 2010, at 7:54 AM, Jerome King wrote:
+>=20
+>> Turned on iChat and selected ourself so the computer was in preview =
+mode.  Expanded the video to full screen size and then focused on the =
+iPad.
+>> 	This worked quite well Except it was a reverse image of the =
+iPad.
+>> 		Next time will have to use a mirror OR find an effect =
+setting for iChat that is reverse.
+>>=20
+>> Later one of the members found the following in the iPad manual on =
+video.  the VGA output only works for a couple of the applications, not =
+all the time
+>>=20
+>> Jerry King, President
+>> Naples MacFriends User Group
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,61 @@
+Re: About USB hard drives and errors>
+>
+>
+>---- Original Message ----
+>From: pecondon@mesanetworks=2Enet
+>To: debian-user@lists=2Edebian=2Eorg
+>Subject: Re: About USB hard drives and errors
+>Date: Sun, 11 Apr 2010 15:47:40 -0600
+>
+>>On 20100411=5F115203, Andrei Popescu wrote:
+>>> On Sat,10=2EApr=2E10, 16:24:45, Paul E Condon wrote:
+>>> =20
+>>> > The errors that I am experiencing are all similar=2E The first
+>>> > indication of a problem is a message from the kernel (I think)=2E
+>An
+>>> > example is:
+>>> >=20
+>>> > kernel: [78454=2E939948] journal commit I/O error
+>>> =20
+>>> [=2E=2E=2E]
+>>> =20
+>>> > When this happens, all the USB drives (3 of them) disappear from
+>>> > /dev/disks/by-label (they are all labeled by me)=2E I have not
+>>>=20
+>>> Just a long shot, bun since you are connecting 3 USB drives to the
+>same=20
+>>> computer you might experience power issues=2E If you connect only
+>one=20
+>>> drive do you get the same issues=3F Or you could try a powered USB
+>hub if=20
+>>> you have one=2E
+>>
+>>This is a good thing to look into=2E Now I am experiencing a interlude
+>>of error free operation, so I can't test it=2E =20
+>>
+>>Thanks
+>>--=20
+>>Paul E Condon          =20
+>>pecondon@mesanetworks=2Enet
+>>
+>>
+>>--=20
+>>To UNSUBSCRIBE, email to debian-user-REQUEST@lists=2Edebian=2Eorg=20
+>>with a subject of "unsubscribe"=2E Trouble=3F Contact
+>listmaster@lists=2Edebian=2Eorg
+>>Archive: http://lists=2Edebian=2Eorg/20100411214740=2EGG10774@big=2Elan=
+=2Egnu
+>>
+while its "working" you might try and plug in yet another USB device
+or two(if you have the ports) and see if it fails=2E
+Larry
+>>
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/380-22010421312134750@netptc.net
+
+

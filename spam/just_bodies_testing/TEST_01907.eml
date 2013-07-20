@@ -1,0 +1,34 @@
+Re: SCSI tape library & ISCSIOn 4/9/2010 10:39 AM, Mirco Piccin wrote:
+> Hi,
+>
+> > it's possible to manage a SCSI tape library (IBM 3581) with ISCSI?
+> > I need to use that library attached to a server into another server...
+>
+> well, the aim is to share the tape library across the network..
+> Is there a way (iscsi or other) to do the job?
+>
+> Regards
+> M
+
+What you need is a SCSI to iSCSI bridge.
+
+http://www.attostore.com/iscsibridges.html
+
+I do not know of any software that can do this for you.
+
+
+-- 
+	 Ryan Manikowski
+
+
+]] Devision Media Services LLC [[
+	 www.devision.us
+ ryan@devision.us | 716.771.2282
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBF4A3B.2030404@devision.us
+
+

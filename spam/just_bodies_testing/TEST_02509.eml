@@ -1,0 +1,72 @@
+Re: Re: Correct way to (re)compile a kernel on Debian SidFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+> On Thu, 8 Apr 2010 10:40:46 -0400 (EDT), Stephen Powell wrote:
+>> It sounds to me like you want to get pristine kernel sources directly
+>> from kernel.org and compile them and run them on a Debian system.
+
+>> I've never done that, but others tell me that they do it.  Of course,
+>> this is not supported by Debian.
+>
+> I'm not sure that it's correct to say that using kernel-package to
+
+> build and install vanilla kernel sources is "not supported by Debian".
+> My understanding is that the package is supposed to work on any kernel
+> tree, not just Debian's packaged ones.  Perhaps Manoj will comment?
+
+I didn't say it wouldn't work.  I said it is unsupported.  There's
+a difference.  Debian does make modifications to the kernel source.
+The official Debian kernel source packages have been modified by the
+
+Debian kernel team after downloading them from kernel.org.  There is
+a reason for all of these modifications.  Often it's to prune "non-free"
+drivers from the kernel source tree.  But there may be other modifications
+
+made for other reasons.  The Debian kernel team only supports their
+own kernel sources.  If you obtain kernel source code directly from
+upstream, and you have problems running it, you will have to seek
+support and file bug reports directly with upstream kernel development.
+
+You can't file a bug report against the Debian kernel source package
+because it's not the Debian kernel source.  And you can't ask for
+help from the Debian kernel team on their list because it's not
+
+their source.  They will have nothing to do with it.  That's what
+I mean by unsupported.
+
+
+I understand "not supported" as I can't file bugs from the pristine kernel
+on the Debian kernel package, and if there's a problem with that, I have to
+go to the kernel.org bug list, exactly as Stephen pointed. I'm also aware
+about the changes that the Debian Kernel Team does to the pristine kernel.
+But all this is about the kernel itself, and not the process of _building_ a
+new kernel. So a good question is:  kernel-package supports the compilation
+of other kernels than the Debian one?
+
+This is all explained in http://www.wowway.com/~zlinuxman/Kernel.htm
+<http://www.wowway.com/%7Ezlinuxman/Kernel.htm>
+In particular, review Step 10.
+
+
+
+I will check that, and see if there I can get my way around it. But I still
+miss the old make-kpkg way... ;-)
+
+this is not supported by Debian.  But why don't you just install the
+appropriate firmware package on Debian?  Are you saying that the bug is
+fixed in newer kernel images from kernel.org that Debian has not
+
+packaged yet?
+
+
+I've installed the debian firmware-iwlwifi package, that is the appropriate
+package for my hardware, but I'm having several problems with the
+combination of firmware-iwlwifi 0.23 and kernel 2.6.32 that didn't happened
+on 0.21 and kernel 2.6.31. As the linux-kbuild-2.6.33 package is not yet
+avaliable, and I need the linux-headers to compile some modules that I need
+(nvidia), I was planning my own kernel and test if the problem with my wifi
+goes away. And also because I like to test new stuff ;-)
+
+Thanks for all your help.
+
+Ivan

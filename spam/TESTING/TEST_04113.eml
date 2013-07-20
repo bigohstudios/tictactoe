@@ -1,0 +1,104 @@
+X-Account-Key: account5
+X-UIDL: GmailId12874235ac15bfa6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs470010wfb;
+        Fri, 7 May 2010 11:59:55 -0700 (PDT)
+Received: by 10.142.56.17 with SMTP id e17mr300707wfa.12.1273258794924;
+        Fri, 07 May 2010 11:59:54 -0700 (PDT)
+Return-Path: <quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 29si3426309pzk.55.2010.05.07.11.59.53;
+        Fri, 07 May 2010 11:59:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+DomainKey-Status: bad (test mode)
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; domainkeys=hardfail (test mode) header.From=mkoob@rogers.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id A5BAD1C61F7EE
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 11:59:53 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A1472277A329A
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 11:59:53 -0700 (PDT)
+X-Original-To: quicktime-users@lists.apple.com
+Delivered-To: quicktime-users@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id F413D277A3123
+	for <quicktime-users@lists.apple.com>;
+	Fri,  7 May 2010 11:59:39 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id E3719D828D6A
+	for <quicktime-users@lists.apple.com>;
+	Fri,  7 May 2010 11:59:39 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-53-4be4631b7f9c
+Received: from smtp105.rog.mail.re2.yahoo.com (smtp105.rog.mail.re2.yahoo.com
+	[206.190.36.83])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	32.86.07800.B1364EB4; Fri,  7 May 2010 11:59:39 -0700 (PDT)
+Received: (qmail 28306 invoked from network); 7 May 2010 18:59:38 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=rogers.com;
+	h=Received:X-Yahoo-SMTP:X-YMail-OSG:X-Yahoo-Newman-Property:Mime-Version:Content-Transfer-Encoding:Message-Id:Content-Type:To:From:Subject:Date:X-Mailer;
+	b=1esfYxbb+Q4z/cpllLJZ8k8sC3WEvvwpcY2k5egiatlZ08Yq0+PXJbMEm6VtGZymhJ5wp9cz8q6HwndXtSx5DYxiteYwWa+1/XBHo39Ru5t3zDb2HlbPNkJXvilGof6HAs0uOM9v9gqv/HAR2AJZFZzbXhMjoI7lfVa44yuLTVk=
+	; 
+Received: from [192.168.0.102] (mkoob@99.232.101.228 with plain)
+	by smtp105.rog.mail.re2.yahoo.com with SMTP;
+	07 May 2010 11:59:38 -0700 PDT
+X-Yahoo-SMTP: cFSgwOeswBA3R59eZuBpt8tYLPJw1cowBZvAM50-
+X-YMail-OSG: CuLWfHoVM1nS3RFiYhWxu.CeppMuDCAXLC.hDO8WpdNjayKCMu6IUnD0pWMbbNrEie9NNaAC1y8iOujyV0L30enNC8NC_mDmjxAeGIfsnV9P5NSZqo1aUPwXl4YwOdr2jFGKAi6Vkp9cEVanq8unhXEm_L8E2qid_hgj9X2FzMGauZqKiXb_JSMVm67MPVQu4QTbLB9Z4D4TeEpSbdnQ_Bh6QFIESAAVsf6haSv07JRdnPVx0yADyDrm2GU0vFy4Vtv4I7XQV..KdIEM3MnsPB6SzvTuQK.NW.w_lX8.yCjS0qq6D5_Z32weI86GL4gnHPk3CKR9PSXriDX_0g16Kmj3m1UhX1byejKA0gYtYlycCCi49nITgO6S9rvson9DfVHdCiMw6KVNNBefmupXKeqqu6NDal0bsNNii3n445dib60S225f
+X-Yahoo-Newman-Property: ymail-3
+Mime-Version: 1.0 (Apple Message framework v753.1)
+Content-Transfer-Encoding: 7bit
+Message-Id: <B1F20DE3-A489-402E-8553-823F6B87D792@rogers.com>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+To: QuickTime Talk List <quicktime-users@lists.apple.com>
+From: Martin Koob <mkoob@rogers.com>
+Date: Fri, 7 May 2010 14:59:37 -0400
+X-Mailer: Apple Mail (2.753.1)
+X-Brightmail-Tracker: AAAAARQMrgQ=
+Subject: Kiosk mode in .qtl not working properly in Quicktime X Player
+X-BeenThere: quicktime-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Usage of QuickTIme <quicktime-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-users@lists.apple.com>
+List-Help: <mailto:quicktime-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-users>,
+	<mailto:quicktime-users-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi.
+
+I have Quicktime Link files (.qtl)  on a server that refer to another  
+movie on the server.
+
+If I open the .qtl file with Quicktime Player 7 it works properly,  
+the user can't save the movie or cut and copy the movie.
+
+If I open the .qtl file in Quicktime Player X the menu choices for   
+'save as...' ,  'save for web...' and the 'Share' menu choices  
+'iTunes...' 'MobileMe Gallery...' and YouTube...' are enabled.
+However  If I chose them the movie starts to save but then will get  
+an error.
+
+Save as... and Share>Itunes . generate OSStatus error-38
+save for web generates OSStatus error-108
+
+It does not result in the movie being saved but the interface  
+indicates it can be done.  Can Quicktime player X save movies which  
+have Kiosk mode set as true?
+
+Martin
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

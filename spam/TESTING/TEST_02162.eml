@@ -1,0 +1,89 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d40b783d8e0ed
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.71.20 with SMTP id t20cs202294wfa;
+        Tue, 6 Apr 2010 09:55:27 -0700 (PDT)
+Received: by 10.115.116.22 with SMTP id t22mr7080230wam.56.1270572874149;
+        Tue, 06 Apr 2010 09:54:34 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 42si1765016iwn.77.2010.04.06.09.54.33;
+        Tue, 06 Apr 2010 09:54:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id BDA621BCF9ED0
+	for <mlsubscriber.tech@csmining.org>; Tue,  6 Apr 2010 09:54:33 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id B8A54268CB145
+	for <mlsubscriber.tech@csmining.org>; Tue,  6 Apr 2010 09:54:33 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay13.apple.com (relay13.apple.com [17.128.113.29])
+	by lists.apple.com (Postfix) with ESMTP id 233A0268CAF56
+	for <x11-users@lists.apple.com>; Tue,  6 Apr 2010 09:54:16 -0700 (PDT)
+X-AuditID: 1180711d-b7ba0ae000000e9e-82-4bbb6737f7e3
+Received: from elliott.apple.com (elliott.apple.com [17.151.62.13])
+	by relay13.apple.com (Apple SCV relay) with SMTP id
+	AB.9F.03742.7376BBB4; Tue,  6 Apr 2010 09:54:15 -0700 (PDT)
+Received: from [17.151.124.177] by elliott.apple.com
+	(Sun Java(tm) System Messaging Server 6.3-7.04 (built Sep 26 2008;
+	32bit)) with ESMTPSA id <0L0G0098XSAFAC80@elliott.apple.com> for
+	x11-users@lists.apple.com; Tue, 06 Apr 2010 09:54:15 -0700 (PDT)
+MIME-version: 1.0 (Apple Message framework v1078)
+Content-type: text/plain; charset=us-ascii
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-reply-to: <4BBAE806.9020704@wanadoo.fr>
+Date: Tue, 06 Apr 2010 09:54:16 -0700
+Content-transfer-encoding: quoted-printable
+Message-id: <EBE338A3-C0A9-4FCB-9FCC-5269A893DBAB@apple.com>
+References: <14FE7024-A764-421D-AFED-3CBB3B3BDDB6@earthlink.net>
+	<4BBAE806.9020704@wanadoo.fr>
+To: Martin Costabel <costabel@wanadoo.fr>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: X11 List <x11-users@lists.apple.com>
+Subject: Re: weird bug where mouse pointer sticks to x11 windows
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On Apr 6, 2010, at 00:51, Martin Costabel wrote:
+
+> Vernon Williams wrote:
+> []
+>> The problem seems to occur when you move any X11 window against
+>> the Mac menu bar, so that the mouse pointer continues on into the
+>> Mac menu bar but has not been released, as a standard Mac window
+>> comes up.
+>=20
+> This is still happening with 10.6.3 X11 2.3.5. I think the first bug =
+there is that the mouse pointer is moving into the Mac menu bar at all.
+
+Yeah, I have this bug in my list of issues to deal with "eventually" ... =
+there should be an open bug on it already.
+
+It has something to do with the mouse button events going to the menu =
+bar and not getting to the DDX thread to pass on to quartz-wm.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

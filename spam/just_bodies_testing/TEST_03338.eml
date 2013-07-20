@@ -1,0 +1,39 @@
+Re: no alternatives for firefox/mozillaOn Thursday 06 May 2010 23:20:07 T o n g wrote:
+
+>
+> $ update-alternatives --display firefox
+> update-alternatives: error: no alternatives for firefox.
+>
+> $ update-alternatives --display mozilla
+> update-alternatives: error: no alternatives for mozilla.
+
+  In the alternatives scheme, the browser is "x-www-browser", 
+so for example on my system:
+
+> $ update-alternatives --display x-www-browser
+> x-www-browser - status is manual.
+>  link currently points to /usr/bin/iceweasel
+> /usr/bin/konqueror - priority 100
+>  slave x-www-browser.1.gz: /usr/share/man/man1/konqueror.1.gz
+> /usr/bin/iceweasel - priority 70
+>  slave x-www-browser.1.gz: /usr/share/man/man1/iceweasel.1.gz
+> /usr/bin/google-chrome - priority 35
+> Current `best' version is /usr/bin/konqueror.
+
+  The x-www-browser is respected by K desktop apps, and
+in my config, they all now use Iceweasel instead of Konqueror
+when I click on links.  I don't know what other apps might
+or might not respect the x-www-browser setting, but I would
+think any desktop app packaged for Debian should do it.
+
+				-- A.
+-- 
+Andrew Reid / reidac@bellatlantic.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071106.48303.reidac@bellatlantic.net
+
+

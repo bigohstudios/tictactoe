@@ -1,0 +1,40 @@
+Re: apect ration change on wide monitorMartin wrote:
+
+> Another use case when I like to have 4:3 aspect ratio is when I switch
+> to MS Windows. For one thing XP as installed on my box does not allow
+> me to use wide screen at all. It only offer 000x600 and 1024x768
+> resolution (I guess this could be fixed if I reinstall XP). And I do
+> not care really for this as the only reason I am keeping XP around is
+> to play some games. And all the games when played in fullscreen are
+> 4:3. At least those I do play. Since my box is so limited I do not
+> have almost any game released after year 1998 (or 2000).
+> 
+> So after reading replays my conclusion is that none of LCD wide
+> monitors do not offer possibility to change aspect ratio by software.
+> Same that designers of monitor and protocol that its use to
+> communicate with computer did not thing about this feature.
+> I hope that I am wrong.
+
+
+Martin, The correct display resolution for your monitor is "1360x768", I 
+suggest you use that resolution, for Windows I suggest you use the 
+driver that came with your monitor, if you do not have the driver I 
+suggest you contact LG, if you are not happy with your monitor then take 
+it back and get something else.
+
+If your wallpaper is not made for wide screen or you are not using .svgz 
+wallpaper then it will not look right, only with "1360x768" will your 
+applications, games and movies look right.
+-- 
+Jimmy Johnson
+
+Debian Squeeze at sda9
+Registered Linux User #380263
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF1C1C1.2020303@csmining.org
+
+

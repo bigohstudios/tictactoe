@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId128735426f887d48
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs456233wfb;
+        Fri, 7 May 2010 08:13:36 -0700 (PDT)
+Received: by 10.143.20.33 with SMTP id x33mr111238wfi.116.1273245214265;
+        Fri, 07 May 2010 08:13:34 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 41si3171811pzk.6.2010.05.07.08.13.34;
+        Fri, 07 May 2010 08:13:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 01C461BF7DAB8
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 08:13:34 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id F0AA327777B51
+	for <mlsubscriber.tech@csmining.org>; Fri,  7 May 2010 08:13:33 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 7529C27777B45
+	for <Augd@lists.apple.com>; Fri,  7 May 2010 08:13:32 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 57C3ED8258C8
+	for <Augd@lists.apple.com>; Fri,  7 May 2010 08:13:32 -0700 (PDT)
+X-AuditID: 11fe0d07-b7cf7ae000003b23-bb-4be42e1b6965
+Received: from oakford.webserversystems.com (oakford.webserversystems.com
+	[74.54.107.139])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	06.5C.15139.C1E24EB4; Fri,  7 May 2010 08:13:32 -0700 (PDT)
+Received: from 124-168-153-130.dyn.iinet.net.au ([124.168.153.130]
+	helo=[10.1.1.7])
+	by oakford.webserversystems.com with esmtpa (Exim 4.69)
+	(envelope-from <lists@nicholaspyers.com>) id 1OAPF4-0000d9-P9
+	for Augd@lists.apple.com; Fri, 07 May 2010 10:13:31 -0500
+Message-Id: <DF3DB0A5-656D-4FCA-9048-4EBAA31E58CD@nicholaspyers.com>
+From: Nicholas Pyers <lists@nicholaspyers.com>
+To: Augd@lists.apple.com
+In-Reply-To: <291789.99788.qm@web31601.mail.mud.yahoo.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: Re: AUGD: AppleUsers.org Adopts The Smith Family
+Date: Sat, 8 May 2010 01:13:26 +1000
+References: <291789.99788.qm@web31601.mail.mud.yahoo.com>
+X-Mailer: Apple Mail (2.936)
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - oakford.webserversystems.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - nicholaspyers.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 07/05/2010, at 11:21 PM, Gary Kampel wrote:
+> I saw this on Facebook and thought it was worth sharing.
+>
+> "AppleUsers.org has adopted The Smith Family as their preferred  
+> charity and encourage all our readers to learn more about the work  
+> The Smith Family does to provide support and services to more than  
+> 30,000 disadvantaged children and young people around Australia."
+>
+> What good things people do in this world, huh?
+
+
+Thanks Gary for posting this to the list here. I was extremely pleased  
+to see someone think enough of our initiative to share it with others.
+
+The full story, which explains why the team here at AppleUsers.org  
+choose to support The Smith Family as our preferred charity, can be  
+found at http://www.appleusers.org/news/appleusers-org-adopts-the-smith-family/
+
+--
+Nicholas Pyers (nicholas@appleusers.org)
+Founder & Publisher, AppleUsers.org
+
+http://www.appleusers.org/
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

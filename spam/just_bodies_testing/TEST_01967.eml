@@ -1,0 +1,30 @@
+Re: KDE 4.4.3 upgrade eats 141 MB of /homeAllan Sandfeld Jensen wrote:
+> On Saturday 15 May 2010, Nicolas Alvarez wrote:
+>> After some stracing: It doesn't just stat the files. It first stats, then
+>> actually opens the files and *reads* the first few bytes of all of them
+>> (where the HTTP cache information is stored).
+> 
+> Yes, the header contains the http expire date there is no other way to get
+> it. Though I would have thought it would keep the statistics in memory
+> instead of rereading it on every cycle. Are you sure that this isn't just
+> on startup?
+
+In what memory? In KDE 4.3, kio_http_cache_cleaner is not a daemon. It's 
+started to clean the cache, apparently by kio_http, and it quits when it's 
+done doing that.
+
+That seems to be exactly what changed in 4.4: it's now a permanent daemon.
+
+-- 
+Nicolas
+
+(I read mailing lists through Gmane. Please don't Cc me on replies; it makes 
+me get one message on my newsreader and another on email.)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ht1jb3$mvj$1@dough.gmane.org
+
+

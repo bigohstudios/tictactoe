@@ -1,0 +1,26 @@
+Re: Accelerating directory's content's viewing: how, is directory
+	is 	huge?On Wed, 2010-05-19 at 12:51 +0200, Merciadri Luca wrote:
+> <snip>   
+> >> I have many media files in some specific directory (folder, call it as
+> >> you want). Loading the folder takes ~30 sec., even if I am using quite
+> >> fast HDDs, etc. They're all on the same partition. I have disabled
+> >> previewing, or thumbnails.
+> >>
+> >> How can I do to make this process faster?
+> ><snip>
+> >
+> > If you're using ext2/ext3, turning off dir/file access time might help.
+> > Edit /etc/fstab and add noatime,nodiratime on the appropriate line,
+> > like in the example below:
+> >
+> > /dev/hdb2   /home   ext3   defaults,noatime,nodiratime   0   2
+> ><snip>
+Apparently noatime implies nodiratime.  Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274270184.13861.8.camel@Family.pacifera.com
+
+

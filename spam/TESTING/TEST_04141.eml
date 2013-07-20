@@ -1,0 +1,187 @@
+X-Account-Key: account5
+X-UIDL: GmailId128140467eac5ff8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs6161wfj;
+        Sun, 18 Apr 2010 20:02:33 -0700 (PDT)
+Received: by 10.100.29.20 with SMTP id c20mr11936302anc.167.1271646152305;
+        Sun, 18 Apr 2010 20:02:32 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 12si12554696iwn.9.2010.04.18.20.02.31;
+        Sun, 18 Apr 2010 20:02:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id A5C7A1C0A522E
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 20:02:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9232626EC829B
+	for <mlsubscriber.tech@csmining.org>; Sun, 18 Apr 2010 20:02:31 -0700 (PDT)
+X-Original-To: Augd@lists.apple.com
+Delivered-To: Augd@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 2993726EC7E85
+	for <Augd@lists.apple.com>; Sun, 18 Apr 2010 20:01:56 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay2.apple.com (Postfix) with ESMTP id 13328D05782B
+	for <Augd@lists.apple.com>; Sun, 18 Apr 2010 20:01:56 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-db-4bcbc7a3b10b
+Received: from oakford.webserversystems.com (oakford.webserversystems.com
+	[74.54.107.139])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	DF.EF.17067.3A7CBCB4; Sun, 18 Apr 2010 20:01:55 -0700 (PDT)
+Received: from 124-168-137-193.dyn.iinet.net.au ([124.168.137.193]
+	helo=[10.1.1.7])
+	by oakford.webserversystems.com with esmtpa (Exim 4.69)
+	(envelope-from <lists@nicholaspyers.com>) id 1O3hFA-0007IO-OT
+	for Augd@lists.apple.com; Sun, 18 Apr 2010 22:01:54 -0500
+Message-Id: <A97D1947-CAF0-4BBE-90ED-D4A109BF95C4@nicholaspyers.com>
+From: Nicholas Pyers <lists@nicholaspyers.com>
+To: Augd@lists.apple.com
+In-Reply-To: <o2maae88f271004181919vcf8883a6md38ac93c15ce10f@mail.csmining.org>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: Re: PR Mailing Lists (was Re: AUGD: The MUG Center Briefing: April 11,
+	2010)
+Date: Mon, 19 Apr 2010 13:01:43 +1000
+References: <20100412011915.1570331386@mail.chuckjoiner.com>
+	<05F9A158-781E-4435-BEF9-24A931EC782F@usa.net>
+	<4DCB1B38-3CD5-4A70-8E38-D0B6AC6B86A1@nicholaspyers.com>
+	<o2maae88f271004181919vcf8883a6md38ac93c15ce10f@mail.csmining.org>
+X-Mailer: Apple Mail (2.936)
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - oakford.webserversystems.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - nicholaspyers.com
+X-Brightmail-Tracker: AAAAAA==
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 19/04/2010, at 12:19 PM, Dave G wrote:
+> Wouldn't it be great if there were a resource that suggested whom to
+> contact and the actual email addresses, especially for newer people?
+> Or is this a guarded trade secret?  Sounds like you are on a first
+> name basis with these people.  Not all of us are *smile*
+
+Some of them, yes, I am on a first name basis with... but then  
+virtually anyone can be too... they are all very friendly and  
+helpful... once you contact them once, you'll be on first name basis  
+with them.
+
+None of the people nor organisations listed below were trade secrets.
+
+Chuck posts to the AUGD list every week, as does Fred & Lynn... in  
+fact both have posted their weekly announcements in the last hour or so
+Sandy's email address is listed in each issue of the Apple User Group  
+Bulletin each month... and now the AUGR team are too (well, they are  
+just the Apple User Group Advisory Board)
+
+The Apple Regional Liaisons have been listed on Apple's website for  
+years.
+The same with User Groups 'in your area'
+
+The rest of the suggested list will be unique to every individual User  
+Group
+
+A while ago I posted a suggested list of Publicity Contacts that  
+Australian Apple User Groups could utilise
+It IS very Australian focused, but may give other User Groups more  
+ideas on local organisations they can include on their own lists
+http://www.appleusers.org/ugr/publicity-opportunities-for-mugs/
+
+
+> On Sun, Apr 11, 2010 at 11:25 PM, Nicholas Pyers
+> <lists@nicholaspyers.com> wrote:
+>> On 12/04/2010, at 12:51 PM, Robert Poland wrote:
+>>>
+>>> Chuck,
+>>> As usual we were left off the weekly calendar.
+>>> Are you trying to tell us something?
+>>
+>> I'm sure Chuck doesn't deliberately leave any Apple User Group off  
+>> his list
+>> of forthcoming meetings :)
+>>
+>> But your query got me thinking about a few things...
+>>
+>> How many Apple User Groups actually maintain a PR mailing list?
+>>
+>> If you do, who do you include on it?
+>> Is Chuck from the MUG Center on it?
+>> Sandy, the Editor of the Apple User Group Bulletin?
+>> The Apple User Group Resources website team?
+>> Your Apple Regional Liaison?
+>> Lynn and Fred's InfoManger?
+>> Are other Apple User Groups in your 'area' included?
+>> What about PC-based or Adobe Based user groups?
+>> Your local newspapers, community radio and TV stations?
+>> Local Mayor and other local councillors?
+>> Your local Apple Retail store?
+>> Your local Apple Reseller?
+>> Your sponsors and advertisers?
+>> What about your own Committee/Board of Directors? and even your own  
+>> members?
+>> Anyone else?
+>>
+>>
+>> What information do you send out to the PR List?
+>> Just an announcement about your next meeting?
+>> What about a teaser for the next THREE meetings?
+>> How often do you send them out? Weekly, Monthly, or just when you  
+>> have a
+>> 'major' event?
+>> How far in advance of your meeting do you send them? The day  
+>> before? A week
+>> before? Two weeks before?
+>>
+>> Do you send HTML based emails? Or just Plain Text?
+>> Do you keep an archive online of your past Press Releases on your  
+>> website?
+>>
+>>
+>> If you don't have a PR mailing list, why don't you?
+>>
+>>
+>>
+>> PLEASE REPLY TO THE *_LIST_* so everyone can benefit from your  
+>> responses :)
+
+
+--
+Nicholas Pyers (nicholas@appleusers.org)
+Founder & Publisher, AppleUsers.org
+
+http://www.appleusers.org/
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

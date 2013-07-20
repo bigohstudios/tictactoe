@@ -1,0 +1,46 @@
+RE: Aptitude ErrorFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+> Fri=2C 30 Apr 2010 21:10:56 -0700 <dburrows@debian.org> wrote:
+> On Sat=2C May 01=2C 2010 at 12:04:07AM -0400=2C Mike Viau <viaum@sheridan=
+c.on.ca> was heard to say:
+> >=20
+> > > On Fri=2C Apr 30=2C 2010 at 01:26:45PM -0400=2C Tom H <tomh0665@gmail=
+.com> was heard to say:
+> > > > On Fri=2C Apr 30=2C 2010 at 1:18 PM=2C Anand Sivaram <aspnair@gmail=
+.com> wrote:
+> > > > >
+> > > > > You could find what all packages from sid are installed in your s=
+ystem by
+> > > > > apt-show-versions |  grep unstable
+> > > >=20
+> > > > Or "aptitude search ~Aunstable"
+> > >=20
+> >=20
+> > "aptitude search ~Aunstable" seems to show all packages from sid (wheat=
+her installed or not)
+> >=20
+> > try " aptitude search ~Aunstable | grep '^i' "
+>=20
+>   Ah=2C I missed that requirement.
+>=20
+>   How about this:
+>=20
+>  $ aptitude versions --group-by=3Dnone --show-package-name=3Dalways \
+>                      -F '%p %d' '?archive(unstable)?installed'
+>=20
+>   Or for earlier systems:
+>=20
+>  $ aptitude search '?narrow('?archive(unstable)=2C ?installed)'
+>=20
+
+debian01:~# aptitude search '?narrow('?archive(unstable)=2C ?installed)'
+
+-bash: syntax error near unexpected token `('
+
+ 		 	   		 =20
+_________________________________________________________________
+Live connected. Get Hotmail & Messenger on your phone.
+http://go.microsoft.com/?linkid=3D9724462=

@@ -1,0 +1,37 @@
+Re: QuickTime X bug. Please, any ideas for a workaround?
+On 8 sep 2009, at 16.03, Jan E. Schotsman wrote:
+
+>=20
+> On Sep 7, 2009, at 9:05 PM, Isaksson J=F6rgen wrote:
+>=20
+>> It seems like the iPhone, iPod and Apple TV exporters doesn't handle
+>> transparency settings as expected. If you export a movie with a track
+>> that has a transparency setting, say Straight Alpha, the exporter
+>> makes it all black instead of transparent... in certain cases.
+>=20
+> I bet the problem is that the iDevice exporters try to use '2vuy =
+format' and PNG refuses to decompress to that.
+> I can only think of rendering to a format like AIC first.
+> Not great and you probably thought of that yourself already.
+
+I started to dig into this again since the QuickTime bug is not fixed =
+yet :-(
+
+And yes, exporting using the Apple Intermediate Codec and then to iPod =
+works. But it's not a good solution.
+
+Are there any other kind of track that could hold some images and =
+decompress to '2vuy'?
+
+Any ideas are welcome.
+
+/Jorgen
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

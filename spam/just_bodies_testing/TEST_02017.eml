@@ -1,0 +1,21 @@
+Re: [ILUG] packaging risks and the reputation of linux distributionsQuoting Brendan Kehoe (brendan@zen.org):
+
+> As a workaround, the various distributions could use a GPG singature
+> to verify correctness of the file.  Since the distributor's secret key
+> is required to create that signature, it would add a pretty
+> significant step that would have to be taken to make it possible to
+> replace both a rpm or apt file and its accompanying signature.
+
+There are complex problems inherent in attempts to implement this.
+http://linuxmafia.com/~rick/linux-info/debian-package-signing
+
+-- 
+Cheers,                        My pid is Inigo Montoya.  You kill -9    
+Rick Moen                      my parent process.  Prepare to vi.
+rick@linuxmafia.com
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

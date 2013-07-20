@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fd1205d25dccb
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs20986wfa;
+        Wed, 14 Apr 2010 09:06:09 -0700 (PDT)
+Received: by 10.103.7.30 with SMTP id k30mr4385003mui.24.1271261168818;
+        Wed, 14 Apr 2010 09:06:08 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id y37si2877271mug.22.2010.04.14.09.06.08;
+        Wed, 14 Apr 2010 09:06:08 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 1FFBF13A5273; Wed, 14 Apr 2010 16:06:02 +0000 (UTC)
+Old-Return-Path: <jidanni@jidanni.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-6.5 required=4.0 tests=FOURLA,IMPRONONCABLE_1,
+	IMPRONONCABLE_2,LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD2,NO_REAL_NAME,
+	SARE_RECV_SPAM_DOMN0b autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2A43613A5247
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 16:05:56 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.034 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, IMPRONONCABLE_1=1, IMPRONONCABLE_2=1,
+	LDO_WHITELIST=-5, MURPHY_WRONG_WORD2=0.2, SARE_RECV_SPAM_DOMN0b=1.666]
+	autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id yC+SyydxDAlF for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 16:05:49 +0000 (UTC)
+Received: from homiemail-a3.g.dreamhost.com (caiajhbdcahe.dreamhost.com [208.97.132.74])
+	by liszt.debian.org (Postfix) with ESMTP id DB82113A520C
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 16:05:48 +0000 (UTC)
+Received: from jidanni.org (125-230-47-153.dynamic.hinet.net [125.230.47.153])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by homiemail-a3.g.dreamhost.com (Postfix) with ESMTP id E30A1C5DD3;
+	Wed, 14 Apr 2010 09:05:43 -0700 (PDT)
+From: jidanni@jidanni.org
+To: dmn@debian.org
+Cc: debian-eeepc-devel@lists.alioth.debian.org,
+	debian-user@lists.debian.org
+Subject: Re: not all beeps getting through
+References: <20100408083413.GJ4017@ktnx.net>
+Date: Thu, 15 Apr 2010 00:05:40 +0800
+Message-ID: <87k4saqasr.fsf@jidanni.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <Zog2eEOFEDL.A.x2E.qfexLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574057
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 16:06:02 +0000 (UTC)
+
+>>>>> "DI" == Damyan Ivanov <dmn@debian.org> writes:
+
+DI> -=| jidanni@jidanni.org, Thu, Apr 08, 2010 at 10:14:23AM +0800 |=-
+>> Gentlemen, it's driving me bananas. Why am I not getting all the beeps I
+>> am entitled to here on my EEEPC 702 8G?
+>> $ n=1; while sleep 2; do echo $((n++)); beep -r 4; done
+>> $ n=1; while sleep 2; do echo $((n++)); beep; done
+>> For each few beeps, there is one or two not heard.
+
+DI> Aggressive sound card auto-suspending? What happens if the delay is
+DI> 0.5 for example?
+
+7 beeps OK, 8th always very low volume. Being root, or using tty1 gives
+no improvement. modprobe pcspkr no help.
+
+The first few seconds of
+$ beep -l 11111
+are normal, the remainder very low volume. The number of seconds vary.
+How does one toggle auto-suspending, if indeed that is the problem?
+
+/dev/sndstat:
+Sound Driver:3.8.1a-980706 (ALSA v1.0.21 emulation code)
+Kernel: Linux jidanni3 2.6.32-3-686 #1 SMP Thu Feb 25 06:14:20 UTC 2010 i686
+Config options: 0
+
+Installed drivers:
+Type 10: ALSA emulation
+
+Card config:
+HDA Intel at 0xf7eb8000 irq 16
+
+Audio devices: NOT ENABLED IN CONFIG
+
+Synth devices: NOT ENABLED IN CONFIG
+
+Midi devices: NOT ENABLED IN CONFIG
+
+Timers:
+31: system timer
+
+Mixers: NOT ENABLED IN CONFIG
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87k4saqasr.fsf@jidanni.org
+
+

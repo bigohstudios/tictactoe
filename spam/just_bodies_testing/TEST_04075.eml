@@ -1,0 +1,18 @@
+Does bcm4310 work with Debian Lenny?From nobody Sat Jul 20 14:17:34 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi,
+
+I'm considering purchasing a new laptop like this one
+http://www.thelinuxlaptop.com/viper-linux-laptop.php which uses a Dell
+Wireless 1490 card a.k.a. bcm4310.  I've used b43-fwcutter with great
+results on older dell bcm43xx cards in Lenny but bcm4310 is not listed here
+http://wireless.kernel.org/en/users/Drivers/b43#Supported_chip_types.  I'm
+also curious about the video card (intel graphics media accelerator x4500hd)
+but that appears to be supported based on what I've read.
+
+Does anyone have additional information or suggestions?  Any help is
+appreciated.
+
+Thank you,
+Mark

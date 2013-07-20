@@ -1,0 +1,67 @@
+Re: [ILUG] slashdot EW Dijkstra humorBrian O'Donoghue wrote a code fragment:
+> For(a=0;a<strlen(somestring);a++)
+> {
+>  some_thing_goes_here();
+>
+>  if(b=strlen(somestring)-4)
+> do_something;
+>
+> };
+
+Unfortunately strlen is a relatively expensive operation. If you are using
+C++ this is not such a big issue as string.length() can be declared const.
+So long as you do not modify the string object, the compiler can do the
+caching for you.
+
+I do not think this is possible in C, though?
+
+You could write the same code fragment as:
+============================
+for(a=0,l=strlen(somestring);a<l;a++)
+{
+    some_thing_goes_here();
+    if(b==l-4)
+        do_something();
+}
+============================
+
+Note my previous point: if some_thing_goes_here() or do_something() are very
+long functions, then there is no real need to optimise this code.
+
+Also, for string manipulation, a much better approach would be:
+============================
+char c;
+char* p;
+for(p=somestring,(c=*p)!=0;p++)
+{
+    some_thing_goes_here();
+    if(*(p+4)==0)
+        do_something();
+}
+============================
+
+This works because C used \0 terminated strings. It improves performance
+because you always have a pointer to the character instead of having to do
+array manipulation. Strictly speaking, the variable c is not required as
+most compilers are smart enough to store *p in a register.
+
+The problem is that this uses pointer arithmetic, which can make the code
+illegable if not managed carefully. Which is one of the reasons I prefer
+Java for most programming tasks. :)
+
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

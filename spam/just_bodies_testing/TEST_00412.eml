@@ -1,0 +1,62 @@
+Nil messaging statement in "Cocoa Fundimentals Guide" misleading?I have never before taken this path to request help on a "bug" before, 
+but either I'm nuts or the person who reviewed my bug is, well, not sure 
+what to say.
+
+My bug (Bug ID# 7726255) was just closed with a "Behaves as Normal". 
+This bug is against the "Cocoa Fundimentals Guide", in the section 
+talking about ObjectiveC 2.0 messaging.
+
+On page 70 of the PDF, there is this paragraph:
+
+-----
+In your program’s control-flow statements, you can test for the presence 
+(or absence) of the appropriate negative literal to determine how to 
+proceed. For example, the following while statement from the 
+SimpleCocoaTool code implicitly tests the word object variable for the 
+presence of a returned object (or, in another sense, the absence of nil):
+
+while (word = [enm nextObject]) { printf("%s\n", [word UTF8String]);
+}
+
+In Objective-C, you can often send a message to nil with no ill effects. 
+Return values from messages sent to nil are guaranteed to work as long 
+as what is returned is typed as an object.
+
+------
+
+When I read this I jumped out of my chair - I had just that day revised 
+hundreds of lines my company's old code to tidy up statements like 
+"if(foo && [foo count] != 0)" to "if([foo count])"! So, I cracked open 
+my ObjectiveC 2 guide, just to be sure I hadn't completely misunderstood 
+nil messaging.
+
+Of course, what I found was that in 2.0 methods that return ints, 
+floats, etc are all guaranteed to work with nil messaging (the number of 
+supported types increased dramatically in 2.0).
+
+What I had hoped my ug would prompt a revision such as: "Return values 
+from messages sent to nil are guaranteed to work as long as what is 
+returned is typed as an object or an integral or floating scalar (refer 
+to ObjC2.0 Guide for a full discussion)."
+
+My purpose in entering the bug was that the statement "messages sent to 
+nil are guaranteed to work as long as what is returned is typed as an 
+object." is extremely misleading to people most in need of correct 
+guidance, noobies.
+
+Frankly, I was shocked when this bug was closed. My sincere hope is that 
+some Apple employee reading this will see this issue as I do and do 
+something about it.
+
+
+David
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

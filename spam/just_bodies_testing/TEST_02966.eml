@@ -1,0 +1,45 @@
+What prevents mounting of USB devices?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I run KDE and normally mount usb devices with the "Storage Media" applet
+in the task bar. Recently I have been getting strange errors and
+mounting failed:
+
+
+Rejected send message, 3 matched rules; type="method_call",
+sender=":1.21" (uid=101 pid=13921 comm="kded [kdeinit] --new-startup ")
+interface="org.freedesktop.Hal.Device.Volume" member="Mount" error
+name="(unset)" requested_reply=0 destination="org.freedesktop.Hal"
+(uid=0 pid=11879 comm="/usr/sbin/hald "))	
+
+
+Mounting as root on the commandline still works, but it's a hassle for
+the user who wants to simple use their usb stick.
+
+And the UUID of the usb stick is even listed in /etc/fstab so that it is
+supposed to mount automatically when plugged in (though that does not
+seem to work). But that may be an unrelated issue.
+
+Another (possibly also unrelated) issue is that when several X are
+running (different users, all with KDE) then it seems that only one of
+them can mount and unmount, usually the wrong user.
+
+Is it worth digging into hal to correct this? Given that hal won't be in
+Debian much longer.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvAs2oACgkQ+VSRxYk4409soQCeJS9yoZLdAL4HH+FVMYJIB3or
+GuIAnA5nFILteZkTtK94c84dF7tDjiCr
+=uq+P
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC0B36A.6010105@web.de
+
+

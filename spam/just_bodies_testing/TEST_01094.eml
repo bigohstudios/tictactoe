@@ -1,0 +1,47 @@
+Re: lilo removal in squeeze (or, "please test grub2")From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+Harald Braumann <harry@unheit.net> wrote on Tue, 25 May 2010:
+>=20
+> On simple standard system -- one disk, one kernel in /boot, no fancy
+> stuff -- it works quite well.
+
+This is enough to use grub2 for new installing of Debian.
+
+> On other systems it often breaks miserably. Updates leave my system
+> unbootable every other time. One major problem are incompatible
+> versions of the boot loader installed in the MBR and grub.cfg.
+>=20
+> Currently, automatic installation of grub in the MBR is a no-go for me,
+> because of #554790 but I can't prevent grub from automatically
+> updating grub.cfg which leads to incompatible versions, hence an
+> unbootable system.=20
+
+And these problems say, we still need an alternative - I would say: LiLO.
+
+William Pitcock <nenolod@dereferenced.org> wrote on Sat, 22 May 2010:
+>=20
+> After some discussion about lilo on #debian-devel in IRC, it has pretty
+> much been determined that kernel sizes have crossed the line past where
+> lilo can reliably determine the payload size.
+
+But not all kernels are to large - especially the custom kernels - and
+LiLO can be used for this special situation. Until which size of kernel=20
+is LiLO usable?
+
+My suggestion / recommendation is now:
+
+  a) using grub2 as default boot manager for new installations (d-i)
+     and for updating grub.
+
+  b) provide LiLO in squeeze as alternative for grub2. The
+     limitations must be said while installing the lilo package.
+     I think it must not be a proposal in d-i.
+
+Because I still use LiLO for all my systems, I could support the
+maintaining of LiLO. Would this a way for you, William?
+
+Fondest regards,
+ Joachim Wiedorn
+

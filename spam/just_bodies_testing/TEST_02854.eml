@@ -1,0 +1,39 @@
+RE: How to schedule for a repeated task?Please find below my simple expect telnet script :
+/usr/bin/expect
+>set name 172.16.17.160
+>spawn telnet $name
+>set cmd1 command1
+>set cmd2 logout
+>send "$cmd1"
+>send "$cmd2"
+>exit
+When I try for this procedure , I just see loging in and loging out from the
+telnet session . Actually , I need to have the output result of issuing
+'command1' on the remote node to be captured on my local host . But when I
+try manually , say telnet to it and issue the command , I see the output on
+my screen . Please help me how to modify my simple code to have the desired
+result?
+Thank you
+__________________________________________
+
+It doesn't require a username or password?
+
+I'm guessing it's sending the first command "command1" too soon, before the
+command prompt appears, so the other end doesn't see it.  It only sees the
+logout command.
+
+Try adding:
+
+expect "% "
+
+or whatever the command prompt is, such as "$ " or "# " before sending the
+commands.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/023d01caec81$1393a560$3abaf020$@net
+
+

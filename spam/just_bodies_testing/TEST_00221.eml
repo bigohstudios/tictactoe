@@ -1,0 +1,60 @@
+Re: Gstreamer updateWell, I tried the Ximian GNOME 2.0 packages from
+http://apt.sunnmore.net, and have to say, it was a let-down.  Ran
+'apt-get update' , 'apt-get install gnome-session' then 'apt-get
+upgrade' and Nautilus failed to execute, couldn't get any help docs to
+come up, along with more problems.  So, with the luck of 'rpm -qa|grep
+ximian' then removing by hand all ximian packages with 'rpm -e --nodeps'
+and reinstalling everything GNOME and GNOME-related with apt, I got
+trusty old Red Hat 7.3 GNOME back on the desktop, and the only trace of
+Ximian is Evolution, again, thanks to apt from this site.
+
+I really liked Ximian (back then, Helix ?) at first but, to me, Red
+Hat's GNOME, released with 7.3 seems much more pretty and up-to-date. 
+Could this be because of inclusion of gtk2 in RH 7.3?
+
+Lance  
+
+On Fri, 2002-07-26 at 07:40, Michèl Alexandre Salim wrote:
+>  --- Angles Puglisi <angles@aminvestments.com> wrote:
+> > 
+> > I still think there's got to be a way to get the
+> > packages that make gnomehide
+> > from the Limbo CDs, they would be newer.
+> > 
+> Surely you just need to recompile and install them in
+> order?
+> 
+> Ximian packages are awful - I had recurring problems
+> with their packaged libxslt a few months back.
+> 
+> Regards,
+> 
+> Michel
+> 
+> __________________________________________________
+> Do You Yahoo!?
+> Everything you'll ever need on one web page
+> from News and Sport to Email and Music Charts
+> http://uk.my.yahoo.com
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+-- 
+:       _ /~\'_
+         (o o)
+=====oooO==U==Oooo================[Joe Ramaswamy]==========
+
+THE LEWINSKY virus..
+(Sucks all the memory out of your computer, 
+then Emails everyone about what it did)
+
+============================[URL:http://devil.net/joe_r/]==
+:
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

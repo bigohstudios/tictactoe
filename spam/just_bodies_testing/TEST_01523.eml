@@ -1,0 +1,115 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves as expected), but KPDF allows me to print it, even if it is protected! Why?Merciadri Luca <Luca.Merciadri@student.ulg.ac.be> wrote:
+
+> Jay Berkenbilt wrote:
+>> Merciadri Luca <Luca.Merciadri@student.ulg.ac.be> wrote:
+>>
+>>
+>>
+>> The PDF specification itself recommends using external encryption in
+>> this case.  From section 7.6.1 of the PDF specification:
+>>
+>>   NOTE: Conforming writers have two choices if the encryption methods
+>>   and syntax provided by PDF are not sufficient for their needs: they
+>>   can provide an alternate security handler or they can encrypt whole
+>>   PDF documents themselves, not making use of PDF security.
+>>
+>> It is very easy to defeat PDF security in any file that has a blank user
+>> password since it is just up to the application to enforce security.
+>>
+> Yes, but if you ask for some non-void password, you need to send the
+> password by some way to the receivers. Once they have the password, they
+> can do pretty much they want. So, why would you use a password?
+
+You might use a password if you wanted to provide complete access for
+some people and no access for others.  For someone who has the password,
+there is no real protection.  I sent some financial documents to a loan
+officer once as a password-protected PDF.  I emailed him the PDF and
+then left the password on his voicemail.  For my purposes, that was
+sufficient security, and it didn't require any fancy technology or
+software on his end.
+
+>> I've written a detailed explanation of this which I can dig up and send
+>> you if you're interested.
+>>
+> Sure. I am very interested in it.
+
+Here it is.  I wrote this in response to a question from a user of my
+PDF software, qpdf, which is in debian, but other than a quick mention
+of a few specific tools, the response is not related to any particular
+PDF application.
+
+----
+
+The PDF specification allows authors of PDF files to place various
+restrictions on what you can do with them.  These include restricting
+printing, extracting text and images, reorganizing them, saving form
+data, or doing various other operations.  These flags are nothing more
+than just a checklist of allowed operations.  The PDF consuming
+application (evince, Adobe Reader, etc.) is supposed to honor those
+restrictions and prevent you from doing operations that the author
+didn't want you to do.
+
+The PDF specification also provides a mechanism for creating encrypted
+files.  When a PDF file is encrypted, all the strings and stream data
+(such as page content) are encrypted with a specific encryption key.
+This makes it impossible to extract data from without understanding the
+PDF encryption methods.  (You couldn't open it in a text editor and dig
+for recognizable strings, for example.)  The whole encryption method is
+documented in the spec and is basically just RC4 for PDF version 1.4 and
+earlier, which is not a particularly strong encryption method.  PDF
+version 1.5 added 128-bit AESv2 with CBC, which is somewhat stronger.
+Those details aren't really important though.  The point is that you
+must be able to recover the encryption key to decrypt the file.
+
+Encrypted PDF files always have both a user password and an owner
+password, either or both of which may be the empty string.  The key used
+to encrypt the data in the PDF is always based on the user password.
+The owner password is not used at all.  In fact, the only thing the
+owner password can do is to recover the user password.  In other words,
+the user password is stored in the file encrypted by the owner password,
+and the encryption key is stored in the file encrypted by the user
+password.  That means that it is possible to entirely decrypt a PDF
+file, and therefore to bypass any restrictions placed on that file, by
+knowing only the user password.  PDF readers are supposed to only allow
+you to bypass the restrictions if you can correctly supply the owner
+password, but there's nothing inherent about the way PDF files are
+structured that makes this necessary.
+
+If the user password is set to a non-empty value, neither qpdf nor any
+other application can do anything with the PDF file unless that password
+is provided.  This is because the data in the PDF file is simply not
+recoverable by any method short of using some kind of brute force attack
+to discover the encryption key.
+
+The catch is that you can't set restrictions on a PDF file without also
+encrypting it.  This is just because of how the restrictions are stored
+in the PDF file.  (The restrictions are stored with the encryption
+parameters and are used in the computation of the key from the
+password.)  So if an author wants to place restrictions on a file but
+still allow anyone to read the file, the author assigns an empty user
+password and a non-empty owner password.  PDF applications are supposed
+to try the empty string to see if it works as a password, and if it
+does, not to prompt for a password.  In this case, however, it is up to
+the application to voluntarily honor any of the restrictions imposed on
+the file.  This is pretty much unavoidable: the application must be able
+to fully decrypt the file in order to display it.
+
+None of this is a secret.  It's all spelled out in the PDF
+specification.  So encrypting a PDF file without a password is just like
+encrypting anything else without a password.  It may prevent a casual
+user from doing something with the data, but there's no real security
+there.  Encrypting a PDF file with a password provides pretty good
+security, but the best security would be provided by just encrypting the
+file in some other way not related to PDF encryption.
+
+----
+
+--Jay
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100420211152.0270994370.qww314159@soup
+
+

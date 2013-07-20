@@ -1,0 +1,21 @@
+[ILUG] One Command -- Four TypesI tried several ways to force the command ln to create a link with
+an option attached . . . it wouldn't work.
+
+How are there four (/bin/dnsdomainname /bin/domainname
+/bin/nisdomainname /bin/ypdomainname) different types of hostname
+links with their own separate options?
+
+-- 
+Note: When you reply to this message, please include the mailing
+      list and/or newsgroup address and my email address in To:
+
+*********************************************************************
+Signed,
+SoloCDM
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

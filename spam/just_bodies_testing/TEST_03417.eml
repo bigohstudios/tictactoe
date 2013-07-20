@@ -1,0 +1,22 @@
+Re: Resizing Raid 1 partitionsOn Wed, 2010-05-19 at 13:32 -0600, Aaron Toponce wrote: 
+> On 05/19/2010 12:47 PM, Erwan David wrote:
+> > 	Hi,
+[snip]
+
+> I would personally recommend backing up your data, and reinstalling,
+> with LVM on top of your software RAID. You still have the redundancy,
+> and you have the awesome flexibility of resizing volumes with great ease.
+
+ditto
+
+> 
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274332912.28864.1.camel@alex-mini.samad.com.au
+
+

@@ -1,0 +1,57 @@
+Re: [ILUG] Dell GX260 V Redhat 7.3Yea, I tried the VESA driver but it doesn't seem to want to work,
+it's kinda weird actually, when I run Xconfigurator, the test 
+comes up ok sometimes but when I try to load X it won't come
+up at all.
+
+I read the intel page, I think I'll just throw this on the back burner
+until intel bring out a driver for this.
+
+Thanks for your help though.
+
+On Fri, Aug 02, 2002 at 03:19:53AM -0500, Stephen_Reilly@dell.com wrote:
+> >> I swear to god you have to be so carefull with dell machines 
+> >> and linux. 
+> ...
+> >> to have some cheapo piece of hardware (eth card, modem, 
+> >> sound, graphics )
+> >> that is incompatable/unsupported. 
+> ...
+> >> with some crap
+> >> dell machine that 
+> yes, yes, all terribly insightful and extremely useful information.
+>  
+> > We just got some new Dell GX260 machines here are work and 
+> > I'm supposed to
+> > be putting Linux on them. I tried installing RedHat 7.3. It 
+> > just didn't want
+> > to know about the graphics card. I's an onboard Intel DVMT chip. No
+> > dedicated memory, it takes it from the onboard RAM.
+> The onboard DVMT card has an Intel 845 G/GL chipset.
+> http://www.intel.com/support/graphics/linux/ or
+> http://www.intel.com/support/graphics/intel845g/linux.htm has more specific
+> information. There is help available there.
+> 
+> I also found somewhere (not through personal experience though) that
+> 2.4.19-pre10ac2 includes drivers for the chipset ?
+> 
+> Steve
+> 
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> List maintainer: listmaster@linux.ie
+
+-- 
+---------------------------------------
+Declan Houlihan
+deccy@csn.ul.ie
+http://deccy.csn.ul.ie/
+---------------------------------------
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

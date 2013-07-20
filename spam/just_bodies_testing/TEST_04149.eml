@@ -1,0 +1,18 @@
+Re: Questions about RAID 6On Mon April 26 2010 14:44:32 Boyd Stephen Smith Jr. wrote:
+> the chance of a double failure in a 5 (or less) drive array is minuscule.
+
+A flaky controller knocking one drive out of an array and then
+breaking another before you're rebuilt can really ruin your day.
+
+Rebuild is generally the period of most intense activity so
+figure on failures being much more likely during a rebuild.
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004261633.53139.mgb-debian@yosemite.net
+
+

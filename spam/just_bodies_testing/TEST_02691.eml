@@ -1,0 +1,23 @@
+Re: md does a monthly resync??  (was Re: Questions about RAID 6)On 05/04/2010 11:08 AM, Hugo Vanwoerkom wrote:
+[snip]
+>
+> I forget your specifics, but you do RAID *and* backup regularly to an
+> external lvm2?
+>
+
+No, no RAID for me *at home*.  But at work I manage databases on all 
+sorts of (to use a quaint old phrase) super-minicomputers, and if 
+they ever needed to "resynchronize" monthly, we'd have tossed them 
+out immediately, since for the money we spend on them, they're 
+supposed to stay in sync *always*.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE07A94.5070808@cox.net
+
+

@@ -1,0 +1,22 @@
+Re: Spam spam spam>>>>> "D" == Damien Morton <damien.morton@acm.org> writes:
+
+    D> An alternative, which I have found very effective in reducing
+    D> my spam levels, is to reject emails to multiple or undisclosed
+    D> recipients, unless from someone in my whitelist (In this case,
+    D> subscribed members).
+
+I often use just such a posting to send emails to lists but also to
+send them to private individuals who need not be publically exposed on
+the list. This is what BCC is for.
+
+Where my spam filter draws the line is for emails which /only/ have
+undisclosed recipients, or an obviously bogus recipient.
+
+-- 
+Gary Lawrence Murphy <garym@teledyn.com> TeleDynamics Communications Inc
+Business Innovations Through Open Source Systems: http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+http://xent.com/mailman/listinfo/fork
+
+

@@ -1,0 +1,25 @@
+sync taking forever to finishHi
+
+Interesting problems, symptom, when I insert a usb key into machine,
+the partition as not being created in /dev/.  What I have found is
+that /etc/init.d/hdparm hotplug is being called, it does a sync. And
+the sync is getting stuck.
+
+So if I ssh to my box to a sync it gets stuck, if I open another ssh
+to the same box and turn off collectd, the sync finishes.  With
+collectd off, sync finish quickly.
+
+I have waited around 10 min for the sync to finish whilst collectd is
+doing its stuff.
+
+This a problem with collectd ?
+
+Alex
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/l2k836a6dcf1005020446r250435abk9f9ff25aa7207c79@mail.csmining.org
+
+

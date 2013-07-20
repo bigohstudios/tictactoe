@@ -1,0 +1,26 @@
+[SAdev] Alternatives to the GABTW Ken Shan suggested making a set of corpus data publically available,
+so that different classification algos can be tried out.
+
+I'd be happy to do that -- providing the nonspam.log and spam.log files
+from my mass-check output (ie. the "matrix of test results" in Ken's
+terms).  Along with the default scores, this is the entire input data set
+for the SpamAssassin GA system.
+
+So, if anyone wants a go, contact me by mail.
+
+--j.
+
+-- 
+'Justin Mason' => { url => http://jmason.org/ , blog => http://taint.org/ }
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

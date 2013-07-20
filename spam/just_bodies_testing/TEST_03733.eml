@@ -1,0 +1,44 @@
+Re: scan bug: no update after Pick's "New FTOC"From nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Thu, 01 Aug 2002 13:09:56 -0500
+>
+> > From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> > Date:  Thu, 01 Aug 2002 10:01:04 -0500
+> >
+> > > If you run Pick, and then use the "New FTOC" button to show only
+> > > those messages selected by pick, then the ftoc display was considered
+> > > "invalid" in the old code.  This prevented the display from being cache
+> d,
+> > > and it meant that you could get back to the full folder display by
+> > > clicking on the folder lablel.  That doesn't work anymore.  You have
+> > > to resort to Rescan Folder.  In fact, when you change folders you
+> > > continue to have the Pick results, not the new folder contents.
+> > > If you go to a any folder and do Rescan, then it heals itself.
+> > 
+> > Well, that's obviously my fault.  Okay, will look when I get a chance.
+> 
+> My copy of the tree right now is full of organizational changes in 
+> preparation for generalizing the unseen window for display of other 
+> sequences, so I'll probably not check in a fix for this until I 
+> stabilize that.
+
+I've checked in my organizational changes and I've checked in a fix for the 
+invalid sequence bug.
+
+My next task is to actually create a general sequences window now that the 
+data that it will display is available.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

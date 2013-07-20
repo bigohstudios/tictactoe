@@ -1,0 +1,17 @@
+Re: KDE 4.4.3 in unstableOn 2010-05-06 Boyd Stephen Smith Jr. wrote:
+> Not true.  I installed KMail from Sid earlier this week.  It refused to
+> send  mail by entering an infinite loop trying to connect to an Akonadi
+> server that I was not running.
+> 
+> KAddressBook and KOrganizer depend on Akonadi in KDE 4.3 and I believe
+> they  also did so in KDE 4.2.
+
+Does 3.11 of http://userbase.kde.org/Akonadi_4.4/Troubleshooting apply to you then?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061934.32824.didi.debian@cknow.org
+
+

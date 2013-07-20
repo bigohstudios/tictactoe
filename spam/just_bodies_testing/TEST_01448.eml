@@ -1,0 +1,28 @@
+Re: Tiny DNS Swap(This list is sponsored by Ironclad Networks http://www.ironclad.net.au/)
+
+Hello!
+
+
+Friday, August 30, 2002, 7:25:31 PM Bob Musser <BobM@dbsinfo.com> wrote:
+
+[lost]
+
+BM> I'd like to swap with someone also using Simple DNS to take
+BM> advantage of the trusted zone file transfer option.
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Are you speaking about limiting AXFR requests on IP address basis? If
+yes, then virtually every BIND-equipped DNS server in the world will
+be suitable for your needs.
+
+
+-- 
+
+Yours sincerely,
+
+Andrey G. Sergeev (AKA Andris)     http://www.andris.msk.ru/
+
+
+--
+To Unsubscribe: <dns-swap-off@lists.ironclad.net.au>
+Sponsor & Host: Ironclad Networks <http://www.ironclad.net.au/>
+

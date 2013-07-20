@@ -1,0 +1,31 @@
+Re: Updating JRE in LennyFrom nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Liam O'Toole schreef:
+> On 2010-04-14, Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl> wrote:
+>> This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+>> --------------enigFA5FB73CBD21A1915422D995
+>> Content-Type: text/plain; charset=3DUTF-8; format=3Dflowed
+>> Content-Transfer-Encoding: quoted-printable
+>>
+>> Liam O'Toole schreef:
+> ---SNIP---
+>>> While the update-java-alternatives command is useful, it helps only i=
+f
+>>> the package already provides an alternative. The OP has to set up the=
+
+>>> alternative manually.
+>> or use backports.org to install a more recent version of Sun's java.
+>=20
+> I don't see a lenny-backports version:
+>=20
+> 	http://packages.debian.org/search?keywords=3Dsun-java6-plugin
+>=20
+> Is it available but under a different name?
+>=20
+It's there (in non-free):
+http://www.backports.org/debian/pool/non-free/s/sun-java6/
+
+Sjoerd
+

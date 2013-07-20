@@ -1,0 +1,258 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888f655738ecc3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs6728wfb;
+        Tue, 11 May 2010 13:02:45 -0700 (PDT)
+Received: by 10.223.26.206 with SMTP id f14mr6815973fac.96.1273608164636;
+        Tue, 11 May 2010 13:02:44 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g5si12215011fai.33.2010.05.11.13.02.44;
+        Tue, 11 May 2010 13:02:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 724B213A5A44; Tue, 11 May 2010 20:02:38 +0000 (UTC)
+Old-Return-Path: <gldu-debian-user-2@m.gmane.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.9 required=4.0 tests=FORGED_YAHOO_RCVD,FOURLA,
+	LDOSUBSCRIBER,LDO_WHITELIST,MDO_DATING2,MONOTONE_WORDS_2_15 autolearn=failed
+	version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 025AB13A5A25
+	for <lists-debian-user@liszt.debian.org>; Tue, 11 May 2010 20:02:33 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.503 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FORGED_YAHOO_RCVD=2.297, FOURLA=0.1,
+	LDO_WHITELIST=-5, MDO_DATING2=0.1, MONOTONE_WORDS_2_15=1] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id EN8GGQ0bnMo9 for <lists-debian-user@liszt.debian.org>;
+	Tue, 11 May 2010 20:02:25 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lo.gmane.org (lo.gmane.org [80.91.229.12])
+	by liszt.debian.org (Postfix) with ESMTP id 86AD513A59D8
+	for <debian-user@lists.debian.org>; Tue, 11 May 2010 20:02:25 +0000 (UTC)
+Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gldu-debian-user-2@m.gmane.org>)
+	id 1OBvel-0006yV-Rf
+	for debian-user@lists.debian.org; Tue, 11 May 2010 22:02:19 +0200
+Received: from chello062178025100.9.11.vie.surfer.at ([62.178.25.100])
+        by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 22:02:19 +0200
+Received: from deloptes by chello062178025100.9.11.vie.surfer.at with local (Gmexim 0.1 (Debian))
+        id 1AlnuQ-0007hv-00
+        for <debian-user@lists.debian.org>; Tue, 11 May 2010 22:02:19 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+To: debian-user@lists.debian.org
+connect(): No such file or directory
+From: deloptes <deloptes@yahoo.com>
+Subject: Re: Fwd: Re: Kde 3.5 ...
+Date: Tue, 11 May 2010 22:02:06 +0200
+Lines: 166
+Message-ID: <hscd3u$moe$1@dough.gmane.org>
+References: <201005071123.48345.lisi.reisz@csmining.org> <4BE3F943.4010701@lorentz.leidenuniv.nl> <4BE4ED6F.4050708@dobosevic.com> <g2icdeec9051005080532z810046edveb2a8ea4c51fa0d9@mail.csmining.org> <q2t880dece01005080831zae8e27a7z35e6c132e9f0c273@mail.csmining.org> <hsbc1b$hor$1@dough.gmane.org> <hsbcpr$k5v$1@dough.gmane.org> <AANLkTinoxMbiE3v2HTcNli-955BwCfwkHXlpg7PRcBAW@mail.csmining.org>
+Reply-To: deloptes@yahoo.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7Bit
+X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: chello062178025100.9.11.vie.surfer.at
+User-Agent: KNode/0.10.9
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <RWKXtWn-vHP.A.wtC.efb6LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576570
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 20:02:38 +0000 (UTC)
+
+Dotan Cohen wrote:
+
+I'm going to write a list and post it here. ATM I can not start korganizer.
+I have some time, so I would like to test 4.4. 
+Thanks for pointing me to known bugs. I really don't have the patience to
+search.
+
+> 
+> p   kteatime                                                       -
+> KDE 4 utility for making a fine cup of tea
+
+yes, I can not live without a good cup of tea :-)
+
+> 
+>> - weather
+> 
+>
+http://kde-look.org/content/show.php/yaWP+%28Yet+Another+Weather+Plasmoid%29?content=94106
+
+This was not working in 4.3 and I couldn't start it in 4.4.
+
+> 
+> 
+>> - moon
+> 
+> Check!
+
+agreed
+
+> 
+> 
+>> - clock/calendar
+> 
+> Check!
+
+agreed
+
+> 
+> 
+>> - wireless manager
+> 
+> Knetworkmanager works, but I prefer wicd, which has integration in
+> KDE's System Settings. It's in the system tray, not on the panel. You
+> can configure it to always show, though.
+
+I think I've seen this already, I'll test. thanks.
+
+> 
+> 
+>> - skype
+> 
+> Integrated into Kopete!
+> 
+> 
+>> - korganizer
+> 
+> Check!
+
+it took at least 10min to start
+
+> 
+> 
+>> - kwallet
+> 
+> Check!
+> 
+> 
+>> - cpu monitor
+> 
+> Check, but you might want to comment here:
+> https://bugs.kde.org/show_bug.cgi?id=172312
+> https://bugs.kde.org/show_bug.cgi?id=191341
+> https://bugs.kde.org/show_bug.cgi?id=191342
+> 
+
+I'll check, thanks
+
+> 
+>> - infrared control
+> 
+> How did you do this in KDE 3?
+
+with klirc and lircd and modifying the kernel key map for my cinergy xxs
+dvbt card ;-)
+
+a big challenge was to setup the kde keys ... it's not very developed, but
+the basic functionality works
+
+> 
+> 
+>> - powermanagement
+> 
+> Check!
+> 
+> 
+>> - keyboard
+> 
+> i   plasma-widget-kbstate                                          - A
+> plasma widget that shows the state of the modifier keys
+
+In kde3 the "idiots" didn't think of us poor people not using latin and
+associated per default ALT+K to switch the keymap. Now if you switch from
+english to rushian/bulgarian or whatever ALT+K gives a completely different
+keycode ... So I had to always change this.
+
+Now in kde4 it's even better. You have to click ... and no reasonable
+language switching combination is working. In this point Windows wins, as
+it's per default configured to switch languages when typing (left)ALT+SHIFT
+
+> 
+> 
+>> - screen management (xrandr interface)
+> 
+> Yes, built into System Settings.
+
+yes but not working for me and everybody running i915 vga card. this is also
+related to X-Server and the a**holes from intel. (don't judge me the
+notebook was given to me from the company I'm working for :-( )
+
+> 
+> 
+>> - krypt
+>>
+> 
+> http://kde-apps.org/content/show.php/Krypt?content=80641
+
+the question is if it is compiling in kde4? and also if it is working well
+
+> 
+> 
+>> I forgot to mention that the keyboard froze after pressing ALT+F2 and
+>> switching language settings
+>>
+> 
+> Please, please comment on this bug:
+> https://bugs.kde.org/show_bug.cgi?id=205369
+
+The problem is that it was not iresponsive for just 10secs but forever.
+
+> 
+> 
+>> A HUGE trouble I see is with the keyboard layout for my mother
+>> language "bulgarian"
+>> Who the hell have change the default keyboard layout for the phonetic
+>> setup? I've been using this for years now hen I press "W" I get seomthing
+>> different ..
+>> _THIS_ _IS_ _REALLY_ _ODD_ - _STUPID_ _MONKEYS_!
+>>
+> 
+> I don't speak Bulgarian, so I cannot reproduce. Please file a bug!
+> 
+
+I'll look to get a complete list. We'll have to discuss also the stuff we
+don't need too.
+
+this was my first impression. the conclusion is that it will stay unusable
+for quite a long time yet.
+
+your commitment is motivating me to do some testing ... may be it's time to
+have some closer look at upcoming testing debian.
+
+I'm still not that motivated as I would love to be, as I'm primary focused
+on debian stable.
+
+regards
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hscd3u$moe$1@dough.gmane.org
+
+

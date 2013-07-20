@@ -1,0 +1,46 @@
+Re: 64-bit netbooks with Debian linuxRon Johnson put forth on 5/5/2010 8:56 AM:
+> On 05/05/2010 08:49 AM, Camaleón wrote:
+>> On Wed, 05 May 2010 09:42:03 +1000, Alex Samad wrote:
+>>
+>>> right tools for the job, I never ever thought about putting 64bit os on
+>>> my netbook - it physically limited to 2G of memory
+>>
+>> 64-bits kernels are not only intended for systems with tons of ram. Those
+>> kernels usually have enabled the "nx bit" and AFAIK, only 32 bits PAE
+>> kernels enable such feature.
+>>
+>> BTW, my Shuttle box has also a ram limitation of 2 GiB (and currently
+>> using only 1 GiB) but has installed "amd64". It runs fine, without
+>> noticeable drawbacks.
+>>
+> 
+> The question, though, is: "What -- beyond geekness -- is the *benefit*
+> of amd64 in 'low' RAM systems?"
+
+Very little, if any, benefit for the vast majority of apps.  Cache use is
+more efficient with 32bit kernel and app binaries due to smaller code,
+pointer, and data size.  x86-64 binaries double the width and number of
+GPRs, so you get more efficient in-core code execution, though cache
+performance takes a hit, opposite of the 32bit case.  For the vast majority
+of day-day applications such as web and mail the user won't notice a
+difference.  That said...
+
+I happen to be resizing (downsizing, for web page use) about 150 digital
+camera .jpg files of ~3000 x ~2000 pixel dimension on a 32bit system using
+ImageMagick.  I can only assume that the 64bit version of this binary would
+run more than a bit faster than the 32bit version.  The system isn't x86-64
+capable so I can't do a comparison.  Image manipulation is one area where
+x86-64 binaries would definitely have an advantage over i386 (i686)
+binaries.  Gimp would definitely perform better in many operations with
+x86-64.  PDF readers would also probably run a bit faster.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE180CD.6040702@hardwarefreak.com
+
+

@@ -1,0 +1,41 @@
+Re: Debian+KDE 4.4.3KS wrote:
+> Jimmy Johnson wrote:
+>> Here we go, currently I have only done the safe upgrade, still 176
+>> packages to upgrade, I can remove yawp (yet another weather plasma) and
+>> get a full upgrade or keep yawp, do the upgrade and break kde, I will
+>> stick with the safe upgrade for awhile, cause I don't want to lose yawp
+>> or break kde.
+>>
+>> Hopefully it won't be the last minute when yawp gets upgraded.
+
+
+> I just did it a couple of hours ago. When I logged in to KDE 4.4.3, I
+> got a blank screen. After much searching, I found a post in KDE forums
+> talking about some commands about plasma not working
+> http://forum.kde.org/viewtopic.php?f=66&t=85760 So I checked and it
+> wasn't installed. Reinstalled it and everything seemed to be back to
+> normal.
+
+> safe-upgrade shouldn't be problem.
+
+
+I have this Debian-Live system that I took from Lenny to Squeeze, 
+nothing to lose so I did a full Sid upgrade, of course yawp was removed, 
+so I installed kweather and got Weather Forecast to work, no problems to 
+report.
+
+Funny they are still using the name kweather, it's no longer a valid 
+applet or widget, but needed to get plasma weather widgets to work.
+-- 
+Jimmy Johnson
+
+Debian-Live installed at sda14
+Registered Linux User #380263
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDE69FE.6060705@csmining.org
+
+

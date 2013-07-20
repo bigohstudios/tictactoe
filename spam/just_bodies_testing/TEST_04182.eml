@@ -1,0 +1,109 @@
+Re: how to control tty to external monitor or local lcdFrom nobody Sat Jul 20 14:17:34 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Wed, Apr 7, 2010 at 11:55 PM, Stephen Powell <zlinuxman@wowway.com>wrote:
+
+> On Wed, 7 Apr 2010 02:31:48 -0400 (EDT), Alexander Samad wrote:
+> > On Wed, Apr 7, 2010 at 11:55 AM, Stephen Powell wrote:
+> >> On Tue, 6 Apr 2010 18:53:46 -0400 (EDT), Alex Samad wrote:
+>
+
+
+> [snip]
+>
+
+
+> >
+> > yep external keyboard - does that make a difference !
+>
+> For most things, no.  But the key combination to switch to the external
+> monitor requires that special Fn key, which is present only on the internal
+> keyboard.
+>
+> >
+> > I don;t need to do that, my laptop autoamically picks the external
+> monitor
+> > if the lid is closed - on boot up
+>
+> Closing the lid may cause other problems.  Many laptops are set up to
+> enter suspend or hibernate mode when the lid is closed, unless they are
+> currently installed in a docking station.  Apparently yours isn't,
+> but this operating state is one that I'm not familiar with.
+>
+
+yes I know this, what I was trying to say was that, it I start the laptop up
+with the lid closed and the external monitor attached my console comes up on
+the external monitor
+I would like to find a linux cli or gui app that will let me set it back
+
+
+>
+> [snip]
+>
+
+
+> Maybe it doesn't work on yours because you're not doing it the way
+> I suggest.  You insist on closing the lid and using an external keyboard.
+> The key combination to switch to the external monitor may not be
+> Fn+F7 on your laptop.  Maybe it's Fn+F2.  Consult your hardware
+> documentation.
+> But there should be a way.  xrandr is an X-specific tool.  I know of no
+> equivalent
+> tool for the console.  Once you switch to the external monitor with
+> Fn+F2, or whatever, and have verified that both text mode consoles and
+> the graphical console are using the external monitor, then try using
+> the external keyboard.  If everything is still working, then try closing
+> the lid.
+>
+yes I have a fn that is supposed to do it, but doesn't - only way to press
+the key combo is with the lid up.  I think you are too hung up on the
+external keyboard - or maybe I have given enough info.
+
+
+let me try again.
+
+attach laptop to external monitor, leave laptop open
+turn on laptop, it boots into X, which is setup to have external monitor and
+laptop monitor, one above the other.
+
+Console is on the exterenal monitor
+
+remove external monitor
+
+I can reconfigure X with xrandr so that my display is only on the laptop -
+work well
+
+but when I go to tty1 or 2-6, its not there and pressing fn+fx to switch
+screens isn't working.
+
+I was hoping that there would be a tool to do it from the command line -
+something I could do before removing the external monitor.
+
+we have tools to grab the vga info vbetool.
+
+presume all the above is done with out external keyboard :)
+
+
+
+>
+> If this procedure doesn't work, then I'm out of ideas.  You're on your own.
+>
+ta
+
+
+>
+> --
+>   .''`.     Stephen Powell    <zlinuxman@wowway.com>
+>  : :'  :
+>  `. `'`
+>   `-
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/1061221911.1613881270648503148.JavaMail.root@md01.wow.synacor.com
+>
+>

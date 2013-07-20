@@ -1,0 +1,467 @@
+From - Thu Apr 22 10:08:56 2010
+X-Account-Key: account2
+X-UIDL: UID12876-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bounce-use=M=3976482837=dr=72DA13610000D2FE700A8AF6A3B930ED@returnpath.bluehornet.com>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail2.csmining.org (localhost [127.0.0.1])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 6E6891974
+	for <m0620212@mail.csmining.org>; Thu, 22 Apr 2010 01:54:48 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail2.csmining.org (csminingorg Mail) with ESMTP id 6A1111825
+	for <m0620212@mail.csmining.org>; Thu, 22 Apr 2010 01:54:48 +0900 (JST)
+X-ASG-Debug-ID: 1271868884-78f4a1170001-W4TwRL
+Received: from gw2.csmining.org (gw2.csmining.org [192.168.18.251]) by spamgw.csmining.org with SMTP id ZGaqAtP1UayGlxC5 for <m0620212@mail.csmining.org>; Thu, 22 Apr 2010 01:54:44 +0900 (JST)
+X-Barracuda-Envelope-From: bounce-use=M=3976482837=dr=72DA13610000D2FE700A8AF6A3B930ED@returnpath.bluehornet.com
+Received: from gw2.csmining.org (localhost [127.0.0.1])
+        by gw2.csmining.org  with ESMTP id o3LGsijW009884
+        for <m0620212@mail.csmining.org>; Thu, 22 Apr 2010 01:54:44 +0900 (JST)
+Received: from mx2.csmining.org (ns4.csmining.org [192.168.3.4])
+        by gw2.csmining.org  with ESMTP id o3LGsiBm009881
+        for <hibody@csmining.org>; Thu, 22 Apr 2010 01:54:44 +0900 (JST)
+Received: from smtp.khartoum.bluehornet.com (smtp.khartoum.bluehornet.com [216.54.194.36])
+	by mx2.csmining.org (csminingorg MX Server2) with ESMTP id C3B7970
+	for <hibody@csmining.org>; Thu, 22 Apr 2010 01:54:43 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha1; d=bluehornet.com; s=bluehornet-1.bh; c=simple/simple;
+	q=dns/txt; i=@bluehornet.com; t=1271868882;
+	h=From:Subject:Date:To:Mime-Version:Content-Type;
+	bh=oTr98gMQ9Yh0iqnzF8toGJoNIHQ=;
+	b=pZIuKrE6qoeHAgLaYk6xvr4FTuYr9Itv3fjLdZQvWGBnikwyfWK961CXz3lpnEpN
+	egzatqgg386QjRmiknq5mJ6SlNRMxS/lGIND9MeFtsyxCiI8R9Td7C9ptTxfEezr;
+X-Barracuda-Registry: Uncertified [returnpath.bluehornet.com/216.54.194.36]
+X-Barracuda-BWL-IP: 216.54.194.36
+X-Barracuda-BBL-IP: 216.54.194.36
+X-Barracuda-RBL-IP: 216.54.194.36
+Received: from [10.64.22.23] ([10.64.22.23:2093] helo=localhost.localdomain)
+	by dc1bhmta04 (envelope-from <bounce-use=M=3976482837=dr=72DA13610000D2FE700A8AF6A3B930ED@returnpath.bluehornet.com>)
+	(ecelerity 3.0.22.35831 r(35835)) with ESMTP
+	id 28/98-22274-2DD2FCB4; Wed, 21 Apr 2010 09:54:42 -0700
+Message-ID: <28.98.22274.2DD2FCB4@dc1bhmta04>
+Date: Wed, 21 Apr 2010 07:52:58 -0700
+From: "SWREG" <noreply@swreg.org>
+Reply-To: noreply@swreg.org
+To: hibody hibody <hibody@csmining.org>
+X-Outgoing: khartoum
+X-ASG-Orig-Subj: Personalize your digital photos - Photo Frame Show now only $49.95
+Subject: Personalize your digital photos - Photo Frame Show now only $49.95
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+    boundary="--4bcf114a6f620-MultiPart-Mime-Boundary"
+X-Barracuda-Connect: gw2.csmining.org[192.168.18.251]
+X-Barracuda-Start-Time: 1271868884
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-BarracudaScore: 0.54
+X-BarracudaStatus: No, SCORE=0.54 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC5_SA161f, CN_BODY_332, HTML_IMAGE_RATIO_08, HTML_MESSAGE, SH_BIG5_05413_BODY_104
+X-BarracudaReport: Code version 3.2, rules version 3.2.2.28043
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.12 CN_BODY_332            BODY: CN_BODY_332
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.00 HTML_IMAGE_RATIO_08    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC5_SA161f         Custom Rule SA161f
+
+
+
+----4bcf114a6f620-MultiPart-Mime-Boundary
+Content-Type: text/plain; charset="utf-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by gw2.csmining.org id o3LGsijW009884
+
+
+
+To ensure you receive future customer-only offers, please add
+noreply@swreg.org to your address book. If you no longer wish to
+receive email offers from SWREG, please click the following link
+to unsubscribe: http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=3D=
+jtveeq&action=3Dupdate&eemail=3Dhibody@csmining.org&_mh=3D3986236e51bb8be76=
+46aed5b381b22d8
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+**A special offer from SWREG and Likno Software**
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Photo Frame Show
++ 1000 credits (+200 bonus credits)
+The perfect way to get creative with all of the photos you plan
+to take this spring and summer!
+Now 40% off =20
+
+Turn your images into impressive creations in just a few simple
+steps with Photo Frame Show. Photo Frame Show allows you to add
+stylish and fun frames to your digital photos and blend them with
+your desktop, enhance your online albums, web pages, blogs,
+mobile wallpapers and more!
+
+With Photo Frame Show you can create an eye-catching desktop
+view by using your own photos to create original, personalized,
+as well as fun desktop wallpaper in just seconds. For website or
+blog owners using Photo Frame Show is the perfect way to give
+your pages an impressive look. You can even create personalized
+e-cards to send to friends and family for any occasion totally
+FREE!
+
+By purchasing Photo Frame Show now you will receive 1000 credits
+and 200 bonus credits which will get you up to an estimated 60
+frames!! Credits allow you to download selected frames from the
+Frame Gallery (http://www.frameshow.com/gallery.php?src=3Dswr-pfs)
+to your Photo Frame Show Desktop Application. In addition to the
+credits you will also receive 300 non-watermarked frames for
+FREE!
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Buy Photo Frame Show now for only $49.95:
+http://dr.bluehornet.com/ct/3757264:3976482837:m:3:133771572:787D8A123FA9=
+BDBAFFD350571939CD52
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Features:=20
+
+-Save framed photos in popular formats for personal use or for
+your projects
+-Easily print framed photos through a "virtual" printer that
+appears on screen
+-Email framed photos to your friends and family directly from
+within the program
+-Blend your favorite framed photos with your desktop using drag
+and drop
+-Jazz up your mobile, t-shirts, cups and any other item you can
+think of - there is just no limit to what you can do!=20
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Buy Photo Frame Show now for only $49.95:
+http://dr.bluehornet.com/ct/3757265:3976482837:m:3:133771572:787D8A123FA9=
+BDBAFFD350571939CD52
+
+-------------------------------------------------------------------------=
+-------------------
+
+Photo Frame Show is a great and easy way to get creative with
+all of those photos you plan on taking this spring and summer.
+View the online demo (http://www.frameshow.com/help.htm) of the
+Photo Frame Show application to discover how easy it is to use
+this innovative tool that you can purchase now for only $49.95!=20
+
+-------------------------------------------------------------------------=
+-------------------
+
+*Specifications*
+Price: $49.95
+Platform:
+=C2=B7 Windows - all versions
+
+-------------------------------------------------------------------------=
+-------------------
+=20
+
+*Testimonials*
+
+"Hi, thanks for the great tool! I purchased Photo Frame Show a
+few days ago and created an amazing desktop view. I framed all my
+photos in just minutes- It's great!" - J. Stevenson
+
+"It's a great example of what user-friendly programs are all
+about and the perfect tool for adding lovely frames to our
+photos. Well done!" - C. Mylton - www.stockwiz.com
+
+-------------------------------------------------------------------------=
+-------------------
+=20
+
+IMPORTANT: this offer is only valid for a limited period of
+time!
+
+-------------------------------------------------------------------------=
+-------------------
+
+
+Visit Simtel for a huge collection of free software trials:
+www.simtel.net
+ =20
+-------------------------------------------------------------------------=
+-------------------
+
+
+Visit Software Deal of the Day for great software
+discounts...every day!
+www.softwaredod.com     =20
+  =20
+-------------------------------------------------------------------------=
+-------------------
+
+
+This message was intended for: hibody@csmining.org
+You were added to the system June 15, 2007.  For more information
+please follow the URL below:
+http://dr.bluehornet.com/subscribe/source.htm?c=3DbhTNBsNX.05WI&email=3Db=
+antao@csmining.org&cid=3D5a11d45857a74672da2a45dbcc865a
+
+Follow the URL below to update your preferences or opt-out:
+http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=3Djtveeq&action=3D=
+update&eemail=3Dhibody@csmining.org&_mh=3D3986236e51bb8be7646aed5b381b22d8
+
+SWREG, Inc.
+9625 West 76th Street, #150
+Eden Prairie, MN 55344
+
+----Powered by Digital River----
+http://www.digitalriver.com
+
+
+
+
+
+----4bcf114a6f620-MultiPart-Mime-Boundary
+Content-Type: text/html; charset="utf-8"
+Content-Disposition: inline
+
+
+
+<html><!--
+
+*******************************************************
+*Note: If you are having trouble viewing this message,*
+*copy and paste the link below into your browser      *
+*address field and hit the Enter button on your       *
+*keyboard.                                            *
+http://dr.bluehornet.com/hostedemail/email.htm?h=3986236e51bb8be7646aed5b381b22d8&CID=3976482837&ch=787D8A123FA9BDBAFFD350571939CD52 
+ If you would like to change your preferences         *
+ or unsubscribe, copy the URL below:                  *
+This message was intended for: hibody@csmining.org
+You were added to the system June 15, 2007.  For more information
+please follow the URL below:
+http://dr.bluehornet.com/subscribe/source.htm?c=bhTNBsNX.05WI&email=hibody@csmining.org&cid=5a11d45857a74672da2a45dbcc865a
+
+Follow the URL below to update your preferences or opt-out:
+http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=3986236e51bb8be7646aed5b381b22d8
+
+SWREG, Inc.
+9625 West 76th Street, #150
+Eden Prairie, MN 55344 
+*******************************************************
+ -->
+<body style="padding: 0px; margin: 0px; background-color: #f2f2f2;">
+<div style="padding: 0px; margin: 0px; background-color: #f2f2f2;">
+
+<table border=0 cellpadding=0 cellspacing=0 width=600 align=center>
+<tr><td height=5><!--spacer--></td></tr>
+<tr>
+<td style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; padding-bottom: 8px;">To ensure you receive future customer-only
+offers, please add <A href="mailto:noreply@swreg.org">noreply@swreg.org</A> to your address book. If you no longer wish to receive email offers from
+SWREG, please <A href="http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=3986236e51bb8be7646aed5b381b22d8">unsubscribe here</A>.</td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width=600 align=center>
+<tr>
+<td style="border-top: 1px solid #0067b1; border-left: 1px solid #0067b1; border-right: 1px solid #0067b1; padding: 15px 15px 3px 15px;
+background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;">
+
+	<img src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/common/dr_interim_swreg_affiliate_banner.gif" width="568" height="75"
+alt="Affiliate Banner">
+    
+<br>&nbsp;<br>
+<div style="color: #FF9900; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 24px; border-top: 1px dashed #CCCCCC;
+border-bottom: 1px dashed #CCCCCC; ">A special offer from SWREG and Likno Software</div>
+<br>&nbsp;
+
+<br><br>
+
+	<table border=0 cellpadding=0 cellspacing=0 width=568 align=center>
+    <tr valign=top>
+    <td width=10><!--spacer--></td>
+    <td width=200 style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;" align=center><a
+href="http://dr.bluehornet.com/ct/3757256:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100219/boxshot.jpg" width="200" height="346" border="0" alt="Product
+Boxshot"></a><br>
+    
+    &nbsp;
+    <br>
+    <a href="http://dr.bluehornet.com/ct/3757257:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100219/button_buy.gif" alt="Buy Now!" width="200" height="57"
+border="0"></a><br>
+    <br>
+    
+        <table align="center" bgcolor="#999999" border="0" cellpadding="3" cellspacing="1" width="200">
+        <tr>
+        <td style="font-family: verdana, san-serif; font-size: 10px; color: black" bgcolor="#e8d087"><strong>Specifications</strong></td>
+        </tr>
+        <tr bgcolor="#ffffff">
+        <td>
+        	<table bgcolor="#cccccc" border="0" cellpadding="0" cellspacing="1" width=100%>
+            <tr valign="top" style="font-family: verdana, san-serif; font-size: 10px; color: black">
+            <td align="right" bgcolor="#f1f1f1" style="padding-right: 5px; font-family: verdana, san-serif; font-size: 10px; color: black"
+nowrap><strong>Price:</strong></td>
+            <td bgcolor="#ffffff" style="padding-left: 5px; font-family: verdana, san-serif; font-size: 10px;"><strike>$74.95</strike> <span
+style="color: red; font-weight: bold;">$49.95</span></td>
+            </tr>
+            <tr valign="top" style="font-family: verdana, san-serif; font-size: 10px; color: black">
+            <td align="right" bgcolor="#f1f1f1" style="padding-right: 5px; font-family: verdana, san-serif; font-size:
+10px;"><strong>Platforms:</strong></td>
+            <td bgcolor="#ffffff" style="padding-left: 5px; font-family: verdana, san-serif; font-size: 10px;">&middot; Windows - all versions<br>
+            	&middot; Mac OS X 10.4.11+<br>
+            	&middot; Unix Fedora 8+, Ubuntu 7.10+, OpenSuse 10.3+</td>
+            </tr>
+            </table>
+        </td>
+        </tr>
+        </table>
+    
+    <br><br><a href="http://dr.bluehornet.com/ct/3757258:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100219/screenshot_01b_sm.jpg" width="200" height="166" border="0"
+alt="screenshot"></a><br>
+    click to view larger image
+    
+    <br><br><a href="http://dr.bluehornet.com/ct/3757259:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100219/screenshot_02b_sm.jpg" width="200" height="297" border="0"
+alt="screenshot"></a><br>
+    click to view larger image</td>
+    <td width=20><!--spacer--></td>
+    <td width=328 style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;">&nbsp;<br>
+    <span style="font-size: 21px; font-weight: bold">Photo Frame Show</span><br><strong style="color:#000000; font-size: 12px;">+ 1000 credits (+200
+bonus credits)</strong><br>
+    <strong style="color:#FD9B00; font-size: 12px;">The perfect way to get creative with all of the photos you plan to take this spring and
+summer!</strong><br>
+    <strong style="color: red;">Now 40% off!</strong>
+    
+	<br><br>Turn your images into impressive creations in just a few simple steps with <strong>Photo Frame Show.</strong>  Photo Frame Show allows you
+to add stylish and fun frames to your digital photos and blend them with your desktop, enhance your online albums, web pages, blogs, mobile wallpapers
+and more!
+    
+    <br><br>With Photo Frame Show you can create an eye-catching desktop view by using your own photos to create original, personalized, as well as
+fun desktop wallpaper in just seconds. For website or blog owners using Photo Frame Show is the perfect way to give your pages an impressive look. You
+can even create personalized e-cards to send to friends and family for any occasion totally FREE!
+    
+    <br><br>By purchasing Photo Frame Show now you will receive 1000 credits PLUS 200 bonus credits which will get you up to an estimated 60 frames!!
+Credits allow you to download selected frames from the <a href="http://dr.bluehornet.com/ct/3757260:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52">Frame Gallery</a>
+to your Photo Frame Show Desktop Application (watermark-free). In addition to the credits you will also receive 300 non-watermarked frames for FREE!
+    
+    <br><br><strong>Features:</strong>
+    
+    <ul>
+    <li>Select stylish and creative frames from Frame Gallery
+    <li>Save/Export framed photos in popular formats for personal use or for your projects
+    <li>Easily print framed photos
+    <li>Add graphics/cliparts to your framed photos in order to give them an even more original look
+    <li>Personalize your framed images by adding text (messages) to them
+    <li>Jazz up your mobile, t-shirts, cups and any other item you can think of - there is just no limit to what you can do!
+    </ul>
+    
+    <p>Photo Frame Show is a great and easy way to get creative with all of those photos you plan on taking this spring and summer. Purchase Photo
+Frame Show now for only $49.95 and experience for yourself how easy this innovative tool is to use!
+
+    <br><br>
+    <table border=0 cellpadding=0 cellspacing=0>
+    <tr>
+    <td>
+    
+        <table border=0 cellpadding=0 cellspacing=0 style="border: 1px solid #CC9900; background-color: #FFFFCC;">
+        <tr>
+        <td style="padding: 10px; font-size: 11px; font-family: Arial, Helvetica, sans-serif"><div>&quot;Hi, thanks for the great tool! I purchased
+Photo Frame Show a few days ago and created an amazing desktop view. I framed all my photos in just minutes- It's great!&quot;</div>
+        <div style="text-align: right; font-weight: bold;">J. Stevenson</div></td>
+        </tr>
+        </table>
+        
+    </td>
+    </tr>
+    <tr><td height=20></td></tr>
+    <tr>
+    <td>
+
+        <table border=0 cellpadding=0 cellspacing=0 style="border: 1px solid #CC9900; background-color: #FFFFCC;">
+        <tr>
+        <td style="padding: 10px; font-size: 11px; font-family: Arial, Helvetica, sans-serif"><div>&quot;It's a great example of what user-friendly
+programs are all about and the perfect tool for adding lovely frames to our photos. Well done!&quot;</div>
+        <div style="text-align: right; font-weight: bold;">C. Mylton - www.stockwiz.com</div></td>
+        </tr>
+        </table>
+        
+    </td>
+    </tr>
+    <tr><td height=20></td></tr>
+    <tr>
+    <td>
+    
+        <table border=0 cellpadding=0 cellspacing=0 width=100%>
+        <tr valign=top>
+        <td width=50% align="center"><img src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100219/award_01.gif"
+width="107" height="62" border="0" alt="screenshot"></td>
+        <td width=50% align="center"><img src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100219/award_02.gif"
+width="107" height="54" border="0" alt="screenshot"></td>
+        </tr>
+        </table>
+        
+    </td>
+    </tr>
+    </table>
+
+    	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+        <tr><td height=15><!--spacer--></td></tr>
+        <tr><td height=1 bgcolor="#999999"><!--spacer--></td></tr>
+        <tr><td height=15><!--spacer--></td></tr>
+        </table>
+    
+    <div style="text-align: center;"><a href="http://dr.bluehornet.com/ct/3757261:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52"><img
+src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/2010/20100219/button_buy.gif" alt="Buy Now!" width="200" height="57"
+border="0"></a></div>
+	
+	<P align=center style="font-family: Arial, Helvetica, sans-serif; font-size: 13px;">
+    <strong style="color: #FF0000">IMPORTANT:</strong> this offer is <strong>only valid for a limited period of time!</strong></p></td>
+    <td width=10><!--spacer--></td>
+    </tr>
+    </table>
+    
+    <table border=0 cellpadding=0 cellspacing=0 width=568 align=center>
+    <tr><td colspan=3 height=20 style="border-bottom: 1px dashed #CCCCCC; padding-top: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #FFFFFF;">&nbsp;</td></tr>
+    </table>
+
+</td>
+</tr>
+<tr>
+<td><img src="http://atl.img.digitalriver.com/globalDirect/affiliate_mailings/common/bottom-banner_2.jpg" alt="Software Sites" width="600"
+height="175" border="0" usemap="#Map"></td>
+</tr>
+</table>
+
+<map name="Map">
+<area shape="rect" coords="65,50,260,165" href="http://dr.bluehornet.com/ct/3757262:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52" alt="Simtel">
+<area shape="rect" coords="330,50,535,165" href="http://dr.bluehornet.com/ct/3757263:3976482837:m:1:133771572:787D8A123FA9BDBAFFD350571939CD52" alt="Software Deal of the Day">
+</map>
+
+</div>
+</body>
+
+<P><FONT face="Verdana, Arial, Helvetica, sans-serif" color=#999999 size=1>This message was intended for: <A href="mailto:hibody@csmining.org">hibody@csmining.org</A> <BR>You
+were added to the system June 15, 2007. For more information<BR><A href="http://dr.bluehornet.com/subscribe/source.htm?c=bhTNBsNX.05WI&email=hibody@csmining.org&cid=5a11d45857a74672da2a45dbcc865a">click here</A>.<BR><A href="http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=3986236e51bb8be7646aed5b381b22d8">Update your preferences</A> | <A
+href="http://dr.bluehornet.com/phase2/survey1/survey.htm?CID=jtveeq&action=update&eemail=hibody@csmining.org&_mh=3986236e51bb8be7646aed5b381b22d8">Unsubscribe</A></FONT></P>
+<P><FONT face=Verdana color=#999999 size=1>SWREG, Inc.<BR>9625 West 76th Street, #150<BR>Eden Prairie, MN 55344</FONT></P><br><br><a href="http://www.digitalriver.com"><img src="http://dr.bluehornet.com/skins/dr/powered_by.jpg" border="0"></a></b></font></p><img src="http://dr.bluehornet.com/imagelibrary/N-3976482837-03A04B7323AEB23D129314BE5B0F7810.jpg" border="0" width="1" height="1">
+
+</html>
+
+
+
+----4bcf114a6f620-MultiPart-Mime-Boundary--
+

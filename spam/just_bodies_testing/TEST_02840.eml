@@ -1,0 +1,41 @@
+Re: (new post) Is there a way to manage a WS 3500 Lacrosse Technology
+ wheather station under Debian Lenny ?Camaleón wrote:
+> On Mon, 10 May 2010 10:32:21 -0500, Stan Hoeppner wrote:
+>
+>   
+>> Bernard put forth on 5/9/2010 4:47 PM:
+>>     
+>>> I've read somewhere that a Lacrosse WS2300 or 23?? was being
+>>> successfully mastered, but I can't find the appropriate links. What
+>>> about my WS 3500 ?  the MSWIN driver that I got with it, is called
+>>> "Heavy Wheather 3600", as it is supposed to manage both WS3500 and
+>>> WS3600.
+>>>
+>>> There is a SERIAL connexion between the wheather station and the PC.
+>>>       
+>> What, exactly, _specifically_, is the question you would like us to
+>> answer?
+>>     
+>
+> See the "subject" :-)
+>
+> I think the OP wants to connect his weather device to a Debian system and 
+> retrieve/manage data from it in the same manner it would do the windows 
+> counterpart application designed for this device (Heavy Weather Pro).
+>   
+
+Yes, I am sorry for not having been more clear. I wish to monitor my 
+Lacrosse WS 3500 meteo station without the original MSWIN program that 
+came with it, using Debian Lenny resources if possible. The only thing 
+that I really need, is to be able to recuperate the data that is beeing 
+stored onto an EEPROM, on to my hard disk, so that I can create 
+OpenOffice.org sheets from .csv text files. I don't need continuous 
+monitoring.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE88FBE.7060309@teaser.fr
+
+

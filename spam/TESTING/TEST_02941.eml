@@ -1,0 +1,194 @@
+From - Fri Oct 09 18:06:44 2009
+X-Account-Key: account2
+X-UIDL: UID8111-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <abbotsyxj521@edfpd.com>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 6034E16BF9
+	for <m0620212@mail.csmining.org>; Fri,  9 Oct 2009 18:00:10 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 5C21516BE8
+	for <m0620212@mail.csmining.org>; Fri,  9 Oct 2009 18:00:10 +0900 (JST)
+X-ASG-Debug-ID: 1255078804-649f00b10000-W4TwRL
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1255078804
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250])
+	by spamgw.csmining.org Firewall) with SMTP id 966A786E858
+	for <m0620212@mail.csmining.org>; Fri,  9 Oct 2009 18:00:04 +0900 (JST)
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id n99904PM018850
+        for <m0620212@mail.csmining.org>; Fri, 9 Oct 2009 18:00:04 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id n99904rI018847
+        for <hibody@csmining.org>; Fri, 9 Oct 2009 18:00:04 +0900 (JST)
+Received: from SOVZXATERP ([123.24.27.98])
+      by ns1.csmining.org  with ESMTP id n99901BT022630
+      for <hibody@csmining.org>; Fri, 9 Oct 2009 18:00:02 +0900 (JST)
+Received: from 123.24.27.98 by p.nsm.ctmail.com; Fri, 9 Oct 2009 01:59:59 -0800
+Message-ID: <000d01ca48be$e1373c00$6400a8c0@abbotsyxj521>
+From: "Annette Summers" <abbotsyxj521@edfpd.com>
+To: <hibody@csmining.org>
+X-ASG-Orig-Subj: =?koi8-r?B?VGhpcyByZWFsbHkgd29ya3MgliBhc2sgbG90cyBvZiBoYXBweSBvd25l?=
+	=?koi8-r?B?cnMgb2YgYmlnIHBlbmlzZXMu?=
+Subject: [spam] =?koi8-r?B?W1NQQU1dIA==?=
+ =?koi8-r?B?VGhpcyByZWFsbHkgd29ya3MgliBhc2sgbG90cyBvZiBoYXBweSBvd25l?=
+ =?koi8-r?B?cnMgb2YgYmlnIHBlbmlzZXMu?=
+Date: Fri, 9 Oct 2009 01:59:59 -0800
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0007_01CA48BE.E1373C00"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-Barracuda-Virus-Scanned: by csminingorg Anti-SPAM System at csmining.org
+X-ASG-Tag: BRL ([<http://www.barracuda.com/reputation?ip=123.24.27.98>])
+X-Barracuda-Spam-Score: 25.17
+X-Barracuda-Spam-Status: No, SCORE=25.17 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.97624
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.50 BARRACUDA_HEADER_FP20  RBL: Barracuda Reputation
+	                      [<http://www.barracuda.com/reputation?ip=123.24.27.98>]
+	0.01 X_MAILER_PRESENT       exists:X-Mailer
+	0.00 UNPARSEABLE_RELAY      Informational: message has unparseable relay lines
+	0.62 BODY_ENHANCEMENT2      BODY: Information on getting larger body parts
+	0.50 BODY_ENHANCEMENT       BODY: Information on growing body parts
+	0.99 SARE_ADULT2            BODY: Contains adult material
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.30 BSF_SC0_SA092c         Custom Rule SA092c
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.80 BSF_SC0_SA191b         Custom Rule SA191b
+	0.00 BSF_SC0_TG035a         Message contains invalid style definition
+	0.00 ADVANCE_FEE_1          Appears to be advance fee fraud (Nigerian 419)
+	1.50 BSF_SC0_SA191f2        Custom Rule SA191f2
+	0.00 BSF_SC5_SA210e         Custom Rule SA210e
+	1.00 BSF_SC0_SA191g         Custom Rule SA191g
+	2.50 BSF_SC0_SA191f1        Custom Rule SA191f1
+	3.50 BSF_SC0_SA191a         Custom Rule SA191a
+	1.50 BSF_SC0_SA191          Custom Rule SA191
+	3.00 BSF_SC0_SA082_OFFN_CN  Custom Rule SA082_OFFN_CN
+	1.00 BSF_SC5_SA041a         Custom Rule SA041a
+	2.50 BSF_SC5_SA041i         Custom Rule SA041i
+	2.10 BSF_SC5_SA269          Custom Rule SA269
+	2.25 BSF_SC1_TG094a         Custom Rule TG094a
+X-Barracuda-Spam-Flag: YES
+X-BitDefenderWKS-SpamStamp: v1, build 2.8.21.78277, dwl listed, bayes
+ score: 0(0), pbayes score: 650(13), neunet score: 901(805), flags:
+ [NN_ABS_SAFE_ADN; NN_ENLARGE_PILL_ADN; NN_PILLZ; NN_SUMM_BN3_BGU;
+ NN_PENIS; NN_ENLARGEMENT; NN_S_ENDS_IN_FULLSTOP_BGU;
+ NN_CN_DOMAIN_ONLY_ADN; NN_DOUBLE_HTML_CLOSING; NN_MAXGENTLEMAN_ADN;
+ NN_YOUR_MOJO; NN_PILLS; NN_PENIS_ENLARGEMENT; NN_INCH;
+ NN_LEGIT_SQARE_BRACKETS_SUBJ; NN_PENIS_SLANG_NMD], total: 817(725)
+X-BitDefenderWKS-Spam: Yes - 817
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0007_01CA48BE.E1373C00
+Content-Type: text/plain;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+
+
+
+You are not satisfied with the size of your penis?
+
+You are shy to get acquainted with the girl of your dream? We know how to h=
+elp you. Using MaxGentleman penis enlargement pills will help you to overco=
+me all your fears and to gain the new life that you have never had before.
+
+Choose your personal penis enlargement program at penis shop and live the 1=
+00% full life. Taking our magic pills during a 6 month period your penis wi=
+ll become up to 3 inches longer. It will gain the size and will help you to=
+ forget about the erection problems. Our pills were tested by thousands of =
+people throughout the world and you are welcome to read their positive feed=
+backs at penis shop. Besides that, some of the things that differ our pills=
+ from others that are being advertised in the internet are:
+
+
+100% Herbal, 100% Safe
+Pills are doctor Approved and Recommended!
+The only Penis Enlargement pill PROVEN in clinical trials
+No Expensive Doctor Visit Required
+
+
+Buying your MaxGentleman course for $199.95 now you get 3 FREE Bottles Of M=
+axGentleman pills. We guarantee the 100% confidentiality.
+
+
+
+
+------=_NextPart_000_0007_01CA48BE.E1373C00
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DWindows-125=
+2">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY>
+<html>
+<head>
+<title></title>
+</head>
+<body style=3D"font: 14px/17px Courier New, tahoma, arial; text-align: just=
+ify;">
+<table border=3D"0" width=3D"60%" align=3D"center">
+<tr>
+<td>
+<center><h1>You are not satisfied with the size of your penis?</h1></center=
+></p>
+
+<u>You are shy to get acquainted with the girl of your dream?</u> We know h=
+ow to help you. Using <b>MaxGentleman</b> penis enlargement pills will help=
+ you to overcome all your fears and to gain the new life that you have neve=
+r had before.</p>
+
+Choose your personal penis enlargement program at <a href=3D"http://aetucct=
+v.cn" style=3D"text-decoration:none; color:#3399CC">penis shop</a> and live=
+ the 100% full life. Taking our magic pills during a 6 month period your pe=
+nis will become up to 3 inches longer. It will gain the size and will help =
+you to forget about the erection problems. Our pills were tested by thousan=
+ds of people throughout the world and you are welcome to read their positiv=
+e feedbacks at <a href=3D"http://aetucctv.cn" style=3D"text-decoration:none=
+; color:#00CCCC"><b>penis shop</b></a>. Besides that, some of the things th=
+at differ our pills from others that are being advertised in the internet a=
+re:</p>
+<b>
+<ul>
+<li>100% Herbal, 100% Safe</li>
+<li>Pills are doctor Approved and Recommended!</li>
+<li>The only Penis Enlargement pill PROVEN in clinical trials</li>
+<li>No Expensive Doctor Visit Required</li>
+</ul>
+</b>
+<center><a href=3D"http://aetucctv.cn" style=3D"text-decoration:none; color=
+:#0000FF"><u>Buying your MaxGentleman course for $199.95 now you get 3 FREE=
+ Bottles Of MaxGentleman pills. We guarantee the 100% confidentiality.</u><=
+/a></center>
+</td>
+</table>
+</body>
+</html>
+</BODY></HTML>
+
+------=_NextPart_000_0007_01CA48BE.E1373C00--
+
+
+

@@ -1,0 +1,147 @@
+Re: Kde 3.5 ...On 7 May 2010 19:54, Lisi <lisi.reisz@csmining.org> wrote:
+>> That boils down to "it's on by default". Just go turn them off.
+>
+> But I have to _look_ at them to turn them off. In KDE 3 I do not. I can turn
+> them off without ever having to see them.
+>
+
+Yes, you do have to look at them once.
+
+
+>> And
+>
+>> the defaults do not have wobbly windows, wavy effects, or anything
+>
+>> shimmering. Nothing spins either, but the Alt-tab dialogue does slide.
+>
+>> There is plenty of transparency, though, and I hate that too. So I
+>
+>> turn it off.
+>
+>>
+>
+>> My mother suffers from what she calls "vertigo" and the effects do not
+>
+>> upset her. Nor do they upset the autistics that I volunteer with. They
+>
+>> are merely an annoyance to those annoyed by them, nothing wild.
+>
+> Bully for your mother and your autistics. They make me feel sick and trigger
+> a bad headache.
+>
+
+The effects do make you feel sick? The only effects you will see to
+get to the System Settings is the transparency. I have a lot of
+experience in environmentally-induced reactions (my mother, autistics,
+and by the way I am a trained medic though I currently do not work in
+the field), and I simply do not believe that transparency will cause a
+reaction. Nothing flashes or spins, which are the two established and
+recognized visual triggers.
+
+
+>> It works that way in KDE 4 as well, so long as you have opened them
+>
+>> from Krunner in the past. That is how I open all my applications.
+>
+> They do not. They are much more complicated than in KDE 3 and you have to
+> type more to be offered anything.
+>
+
+You are right, you must type the first three letters in KDE 4.
+
+
+>> > 4. Alt+F1 does not bring up the menu.
+>
+>>
+>
+>> It's Alt-F5 for the Kmenu. Has been since KDE 3 I think.
+>
+> No, it's alt+F1 in KDE 3.5.x. Alt+F5, which I also like and use a lot,
+> brings up a list of running windows.
+>
+
+Thanks, I'm a good year removed from KDE 3. In any case, you can set
+Alt-F1 as the Kmenu shortcut.
+
+
+>> > 5. Kcontrol no longer exists.
+>
+>>
+>
+>> It's called System Settings, and with the Tree menu it's very similar.
+>
+>> It is being reworked for KDE 4.5, so if you have any suggestions then
+>
+>> now is the time to make them!
+>
+> But I don't _like_ KDE 4 and I do, very much, like KDE 3. I like Kcontrol
+> better than those work-arounds.
+>
+
+That's why I'm here. I'm not trying to push you into using KDE 4. I'm
+trying to learn what you dislike about KDE 4 so that I can file issues
+and get things fixed. But I won't do that on trivial things, such as
+non-essential default settings.
+
+
+>> > etc etc.
+>
+>>
+>
+>> Tell me more!
+>
+> Why? You will only tell me that I have not got your petrmission to
+> dislike/miss whatever it is.
+>
+
+No, if you tell me about usability issues, regressions, or just plain
+bugs in KDE 4 I will work to resolve them. I have filed or triages
+over 1300 bugs in KDE, most for users and not for myself.
+
+
+> I have not evaded the question. I have pointed out that I prefer things that
+> are functional to things that are showy.
+
+You did not point out what is not functional. I am here to fix KDE 4.
+I am not here for philosophy.
+
+
+> As I stated at the beginning. As
+> someone else has pointed out, KDE 4 has had 2 years to become half way
+> bearable and has signally failed. I mourn the passing of KDE 3.5.x, which I
+> regard as the pinnacle of DE's. In other words, we have come full circle and
+> are back at the beginning. You have to learn to accept that not everyone
+> agrees with you.
+>
+
+I don't want you to agree with me. I want you to point out the
+problems so that I can fix them.
+
+
+> And, I fear that the lengths you are going to to try and persuade me that I
+> am wrong, even to the extent of telling me that I am only allowed to be made
+> ill by something that also makes your mother ill, do not strike me as
+> helping me.
+>
+
+I am not trying to persuade you to do anything other than share your
+KDE problems with me, so that I might get them resolved. KDE 3
+holdouts are holding out because they are sensitive to the little
+usability issues that make a great desktop environment. I need that
+input so that I might get KDE 4 as great as KDE 3. I want to know what
+is not intuitive, and what doesn't work.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/g2x880dece01005071023wd19e98c5qf0428f633e3f7742@mail.csmining.org
+
+

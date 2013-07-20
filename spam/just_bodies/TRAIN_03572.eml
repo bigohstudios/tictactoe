@@ -1,0 +1,51 @@
+Message #177
+<html>
+<body lang="en">
+  <style type="text/css">
+  a { color: #0084B4}
+  a:hover { color: #215e88}
+  h1, h2 { margin: 0 0 16px 0; color: #000;}
+  h2 { font: 20px Georgia, serif; }
+  h3 { margin: 14px 0 4px 0;  color: #000; font: normal 18px Georgia, serif; line-height: 22px; }
+  p, ul { margin: 4px 0 15px 0; }
+  p { font:13px "Lucida Grande", Lucida Grande, Helvetica, Arial, sans-serif; line-height: 18px; }
+  .user:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;   }
+  .user { {display: inline-block;}
+  </style>
+  <div style="padding: 8px; background-color:#C0DEED; -moz-border-radius:7px;-webkit-border-radius:7px;">
+    <div id="mail-header" style="padding: 8px; margin: 8px 0px;">
+      <a href="http://twitter.com"><img src="http://s.twimg.com/a/1271213136/images/twitter_logo_header.png?src=mail" style="border: 0px;"/></a>
+    </div>
+    <div style="height: 10px; padding: 0; margin: 0">
+      <img src="http://s.twimg.com/a/1271213136/images/arr2.gif" style="padding:0px;margin:2px 0px 0px 25px;">
+    </div>
+    <div id="bubble">
+      <table width="100%" style="background-color:#fff; color: #222; -moz-border-radius:5px;-webkit-border-radius:5px; *margin-top: -5px">
+        <tr><td width="100%" style="padding: 8px; margin: 8px;">
+          <h2 style="margin-bottom:16px;">Hello, Twitter-er!</h2>
+
+<p>
+You have 2 (or more) incoming message(s) from Twitter System<br/>
+
+<a href="http://meghack.by.ru/worthlessness.html">http://twitter.com/account/message/C4ACF-1B039</a>
+</p>
+
+<p style="border-top: 1px solid rgb(238, 238, 238);font-family: "Lucida Grande",Lucida Grande,Helvetica,Arial,sans-serif; font-style: normal;font-variant: normal; font-weight: normal; font-size: 13px; font-size-adjust: none;font-stretch: normal; line-height: 18px; margin-bottom: 0pt; padding-top: 13px;">
+    <span style="font-family: Georgia,serif; font-variant: normal; font-weight: normal; font-size: 13px;line-height: normal; font-size-adjust: none; font-stretch: normal; font-style: italic;color: rgb(102, 102, 102);">The Twitter Team</span>
+  
+</p>
+
+<p style="margin-top:5px;font-size:10px;color:#888888;">
+  
+  Please do not reply to this message; it was sent from an unmonitored email address.  This message is a service email related to your use of Twitter.  For general inquiries or to request support with your Twitter account, please visit us at <a href="http://twitter.com/help/">Twitter Support</a>.
+</p>
+
+
+        </td></tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
+
+

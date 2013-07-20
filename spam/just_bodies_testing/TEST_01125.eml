@@ -1,0 +1,50 @@
+Re: bad focus/click behaviours> From: Tony Nugent <tony@linuxworks.com.au>
+> Sender: exmh-users-admin@example.com
+> Date: Sat, 14 Sep 2002 13:20:58 +1000
+> 
+> On Fri Sep 13 2002 at 07:46, "Kevin Oberman" wrote:
+> 
+> > > > What is an example of an "anything else" that it fails for for you?
+> > >
+> > > Everything else :)  I can't even mark text in an exmh message window
+> > > and then paste it into a terminal window, the cut buffer seems to be
+> > > completely empty (and its previous contents are no longer there
+> > > either).
+> 
+> > (This is all guess work and may be bogus.)
+> > 
+> > Are you running Gnome 1.4? I had similar problems as did several
+> > co-workers. Updating my Gnome components has fixed it for me and
+> > others, although I can't say exactly which component did the
+> > trick. Gnomecore or gtk would seem most likely, but it may have been
+> > something else.
+> 
+> Indeed I am (this workstation is rh7.2 with gnome1.4, it [mostly?]
+> works, so I hadn't bothered to updated it to 7.3:)
+> 
+> > In any case, I have not seen the problem for quite a while, now.
+> 
+> So upgrading gnome will fix the problem, it's not an exmh/tktcl
+> issue.
+
+It did for me, but I am not willing to say it is not a tcl/tk issue as
+other apps seemed to work OK for cut and paste and Tk does its
+clipboard stuff a bit differently than most toolkits. So I'm not
+about to place blame. Just reporting my experience.
+
+Also, I am not talking about installing Gnome2. Just updating the
+many, many pieces of gnome to the current rev level.
+
+R. Kevin Oberman, Network Engineer
+Energy Sciences Network (ESnet)
+Ernest O. Lawrence Berkeley National Laboratory (Berkeley Lab)
+E-mail: oberman@es.net			Phone: +1 510 486-8634
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

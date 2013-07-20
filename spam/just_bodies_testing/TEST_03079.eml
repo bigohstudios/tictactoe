@@ -1,0 +1,27 @@
+Re (3): xorg-server failing on IBM NetVista with Intel 82815 videoFrom:	Stephen Powell <zlinux...@wowway....>
+Date:	Wed, 19 May 2010 21:57:26 -0400 (EDT)
+> Please post your /etc/lilo.conf file.
+
+Sorry; make that http://carnot.pathology.ubc.ca/dalton.lilo.conf  .
+
+> The only way [acpi] should fail is if
+> you have a kernel boot parameter to disable it.
+
+I hope so, but the output from 
+  find /etc/ -type f -exec grep "acpi" {} \; -print
+seems complex enough for a snag to exist.
+
+Thanks,               ... Peter E.
+
+
+-- 
+Google "pathology workshop".
+In ETHNO click here -> Desktops.OpenDoc http://carnot.yi.org/.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/171056500.33845.29563.@cantor.invalid
+
+

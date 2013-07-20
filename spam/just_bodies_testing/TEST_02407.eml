@@ -1,0 +1,41 @@
+Re: apt-get dist-update failure - can't bootI couldn't copy cause I couldn't install gpm cause nothing works so I just 
+gave up.
+
+Thanks for everyone who contributed. System got fucked =/
+
+
+--------------------------------------------------
+From: "Jimmy Johnson" <field.engineer@csmining.org>
+Sent: Monday, May 03, 2010 3:36 PM
+To: <debian-user@lists.debian.org>
+Subject: Re: apt-get dist-update failure - can't boot
+
+> Boyd Stephen Smith Jr. wrote:
+>
+>> From you output it looks like your 'perl-base' is scheduled to be 
+>> upgraded.  You should try installing the new version of that package with 
+>> dpkg and then retrying your apt-get/aptitude run.
+>
+>
+> It's worth a shot, depending of if dpkg has not been borked, 'dpkg -i 
+> perl-base'
+> -- 
+> Jimmy Johnson
+>
+> Debian-Live installed at sda14
+> Registered Linux User #380263
+>
+>
+> -- 
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a 
+> subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BDF1797.6070402@csmining.org
+> 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/7B0E10876D634E4597D618A9AE3D4BCB@Phoenix
+
+

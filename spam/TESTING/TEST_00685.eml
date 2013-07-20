@@ -1,0 +1,110 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286fd20bbbb5ed6
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs420923wfb;
+        Thu, 6 May 2010 15:52:35 -0700 (PDT)
+Received: by 10.142.2.29 with SMTP id 29mr5847978wfb.204.1273186355777;
+        Thu, 06 May 2010 15:52:35 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 16si2099843pzk.86.2010.05.06.15.52.35;
+        Thu, 06 May 2010 15:52:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 7C02C1C26EE06
+	for <mlsubscriber.tech@csmining.org>; Thu,  6 May 2010 15:52:35 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 7730727735001
+	for <mlsubscriber.tech@csmining.org>; Thu,  6 May 2010 15:52:35 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id E4D712773498A
+	for <java-dev@lists.apple.com>; Thu,  6 May 2010 15:51:36 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay1.apple.com (Postfix) with ESMTP id C59A4D817F9C
+	for <java-dev@lists.apple.com>; Thu,  6 May 2010 15:51:36 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-34-4be347f87505
+Received: from smtp101.sbc.mail.mud.yahoo.com (smtp101.sbc.mail.mud.yahoo.com
+	[68.142.198.200])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	38.FD.05834.8F743EB4; Thu,  6 May 2010 15:51:36 -0700 (PDT)
+Received: (qmail 52854 invoked from network); 6 May 2010 22:51:35 -0000
+Received: from [4.252.134.16] (hallmike@4.252.134.16 with plain)
+	by smtp101.sbc.mail.mud.yahoo.com with SMTP;
+	06 May 2010 15:51:35 -0700 PDT
+X-Yahoo-SMTP: mNKfHjCswBA95J3_nxaI0I77OQFH
+X-YMail-OSG: SITW5dwVM1lF_1Qcmpj8n7G1EZHIKgVdy_EqXtOZpFaCQOUZCXetzWH_xVRdO786k46STcw9tiTHOywkGrSmLWvRYpiwLGDkhp.liji48FnNzJQ.8bc5pmQJV_8Lvxk.qHRCnwxaAUUmzXWzvfoXKyaGpuCjTW5K5HFUmuxOaJbhHqdOZqVCUuIQJs_SPZfVhIo096aN762x3cq2Z80PqXVdFbzQDtZObZJbBUlePqO2sElWLwo04heJrA1wUMJ3DG6OxCAMMWNctVOeoyY_eEboBe4BzyFPQjwpgKUimJcq4Cpeg.pmttXLbpAatOMaWKF6nvpAUZSojnVmPnS.
+X-Yahoo-Newman-Property: ymail-3
+Mime-Version: 1.0 (Apple Message framework v753.1)
+In-Reply-To: <B3CEAE0E-4445-4D78-A0BC-203A997BCC69@elluminate.com>
+References: <20100506211145.6A76327725BF4@lists.apple.com>
+	<B3CEAE0E-4445-4D78-A0BC-203A997BCC69@elluminate.com>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <B82D0B2C-8F5A-4CB8-B0C1-AEF9EA1B5106@att.net>
+Content-Transfer-Encoding: 7bit
+From: Michael Hall <hallmike@att.net>
+Date: Thu, 6 May 2010 17:51:31 -0500
+To: Java Mac List <java-dev@lists.apple.com>
+X-Pgp-Agent: GPGMail 1.1.2 (Tiger)
+X-Mailer: Apple Mail (2.753.1)
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Subject: Re: Safely delete (35-pass) file with a Java application
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+On May 6, 2010, at 4:56 PM, Doug Zwick wrote:
+
+> Any space between the logical EOF and physical EOF will contain  
+> arbitrary information (e.g. leftover fragments from even older  
+> deleted files), and should also be erased.
+
+
+I might question whether you really need to be concerned about  
+erasing this as it really isn't part of the data you want to make  
+safe, it is residue of someone else's file that they had to worry about.
+
+Mike Hall        hallmike at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforge.net/projects/macnative
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.14 (Darwin)
+
+iJwEAQECAAYFAkvjR/QACgkQUvk/ZSaThTLF7wQAlmwRVi+VEJrheUJnDp9SaIVL
+GxD1oYqYHf3R9tovgScLftnbL/Cn9m8He2P12CTH3jgl2dzGluZ81nCgVdSEyRJn
++6ciyiK+EW3VpSzwIh7KADvqtZ6nDzn4CBa6EtfvU+2wf8pUMyHt+vf3MRBan1f2
+ppoqu8N9IOrcscdJ+0s=
+=vV4x
+-----END PGP SIGNATURE-----
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

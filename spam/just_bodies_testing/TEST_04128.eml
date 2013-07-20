@@ -1,0 +1,44 @@
+Re: Unable to connect to my home wirelessOn Fri, 21 May 2010 13:51:45 -0400
+Jordan Metzmeier <titan8990@csmining.org> wrote:
+
+...
+
+> The IRC bot in #debian has this to say about "why recommends":
+> 
+>  From lenny onwards, apt-get and aptitude both install "Recommended" 
+> packages by default.  From <policy> section 7.2, Recommends, "declares a 
+> strong, but not absolute, dependency.  The Recommends field should list 
+> packages that would be found together with this one in all but unusual 
+> installations."  You're not that unusual, trust us.  By not installing 
+> "recommended" packages, you will be  missing functionality.
+
+But I've long found the 'recommends' concept to be somewhat tricky and
+perhaps to vary from maintainer to maintainer.  For example, mesa-utils
+needs GLX, which, practically speaking, means that you need
+libgl1-mesa-dri.  The maintainer refuses to make this even a
+recommends, basically since the X server can run on a different machine:
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=559223
+
+Now, I'd bet (although I suppose that I may be wrong) that the vast
+majority of Debian installations have the X server and clients on the
+same machine, and the other case is probably the more 'unusual' one.
+
+OTOH, acpi-support 'recommends' radeontool, even though this package is
+utterly irrelevant to those without ATI Radeon chipsets:
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=562883
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100521144347.eaf9b2ae.celejar@csmining.org
+
+

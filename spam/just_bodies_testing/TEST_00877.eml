@@ -1,0 +1,68 @@
+Re: USB key accepts data only as rootFrom nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+David Kinyua wrote:
+> Thank you for this Camale=C3=B3n, I was just about to ask a similar que=
+stion.
+>
+> On 4/26/2010 7:33 PM, Camale=C3=B3n wrote:
+>  =20
+>> On Sun, 25 Apr 2010 21:16:31 +0200, Merciadri Luca wrote:
+>>
+>>    =20
+>>> To put data on my USB key, I need to be root. This does not sound
+>>> normal. How can I tweak this?
+>>>      =20
+>> Not normal.
+>>    =20
+Reassuring.
+>> When I attach a flash drive I get:
+>>
+>> sm01@stt008:~$ mount | grep media
+>> /dev/sdc1 on /media/disk type vfat (rw,nosuid,nodev,uhelper=3Dhal,shor=
+tname=3Dlower,uid=3D1000)
+>>    =20
+$ mount | grep media
+/dev/sdd1 on /media/disk-1 type ext3 (rw,nosuid,nodev,uhelper=3Dhal)
+
+
+# mount | grep media
+/dev/sdd1 on /media/disk-1 type ext3 (rw,nosuid,nodev,uhelper=3Dhal)
+
+>> Look that "uid=3D1000".
+>>    =20
+No such one here. Normal?
+>> sm01@stt008:~$ ls -l /media/ | grep disk
+>> drwxr-xr-x 3 sm01 root 16384 ene  1  1970 disk
+>>    =20
+$ ls -l /media/ | grep disk
+drwxr-xr-x 3 root root 4096 2009-09-04 19:30 disk
+drwxr-xr-x 3 root root 4096 2010-04-25 13:30 disk-1
+
+# ls -l /media/ | grep disk
+drwxr-xr-x 3 root root 4096 2009-09-04 19:30 disk
+drwxr-xr-x 3 root root 4096 2010-04-25 13:30 disk-1
+
+>> Open GConf Editor and navigate to "/system/storage/default_options/vfa=
+t"=20
+>> key. It should say:
+>>
+>> mount_options [shortname=3Dlower,uid=3D]
+>>    =20
+That is precisely what it says.
+>> Also, check your "/etc/fstab" file, there should be nothing about the =
+usb=20
+>> flash drive. This is auto-handle by HAL and "gnome-mount".
+>>    =20
+There is no line about it, unfortunately.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

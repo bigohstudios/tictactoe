@@ -1,0 +1,40 @@
+Re: Alsa/Redhat 8 compatabilityOnce upon a time, Brian wrote :
+
+> 
+>     I have a fresh, new 8.0 install.  I'd like to 'go alsa', but I worry
+>     about screwing it up.  Is this fear founded?  If I could get Alsa, I
+>     could run a bunch of games I've been waiting for years to come
+>     out...like Search & Rescue (available on a Mandrake RPM) and maybe
+>     FlightGear (flight simulator).
+
+Well, I'm sure you can recompile those game packages without ALSA anyway.
+Also, note that ALSA 0.9.x has just appeared in Mandrake 9.0 and that all
+previous Mandrake releases were using the incompatible, aging and now
+unsupported 0.5.x series. (unless I've misunderstood)
+
+>     How much 'hacking' is likely required to make it work for an
+>     SBLive/emu10k1 soundcard?
+
+Near to none, it should be quite straightforward :
+http://freshrpms.net/docs/alsa/
+
+The only tricky part is editing the /etc/modules.conf file, but the ALSA
+Soundcard Matrix has a page for every supported card with a section you can
+most of the time simply copy and paste!
+
+I really think that with my ALSA packages, ALSA on Red Hat Linux has never
+been so easy! ;-)
+
+Cheers,
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10
+Load : 0.00 0.07 0.17, AC on-line, battery charging: 100% (1:47)
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

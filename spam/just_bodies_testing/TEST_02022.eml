@@ -1,0 +1,36 @@
+Re: [ILUG] gargnome & sawfish..On Tue, Aug 13, 2002 at 01:59:06PM +0200, David Neary mentioned:
+> Have you tried gconf-editor? It's a GUI front-end to gconf
+> settings (and metacity has it's settings handled by gconf, like
+> all good gnome2 apps).
+
+ Hmm. It's even worse than using a text editor on a file.
+
+> It's true there's no designated metacity configurator - but the whole
+> point of metacity is to have reasonable defaults, and thus get away from
+> the need for settings altogether, and have the window manager be not in
+> the way (as so many are).
+
+ Don't buy it.
+
+ shift-alt-s should start a shell, alt-d should maximise a window
+vertically, alt-q should close a window, alt-w should shade it. These I've
+used for about eight years, and I'm not about to change them now.
+
+ Stuff like alt-1 to go to workspace-1, I love - it just appeared in
+windowmaker about six years back, and I've also gotten used to it.
+
+> As to the sawfish issue, no idea, sorry - are you sure that
+> gnome2's panel handles 1.4 applets at all?
+
+ Wierdly, I've gone back to sawfish & gnome 1.4 - and the keybindings
+still don't work. It's not fair.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

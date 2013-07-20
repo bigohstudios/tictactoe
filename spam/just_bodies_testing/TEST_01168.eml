@@ -1,0 +1,32 @@
+Re: lilo removal in squeeze (or, "please test grub2")On Sun, 23 May 2010 21:37:28 +0100
+Lisi <lisi.reisz@csmining.org> wrote:
+
+> On Sunday 23 May 2010 21:11:30 William Pitcock wrote:
+> > Hi,
+> >
+> > ----- "Stephen Powell" <zlinuxman@wowway.com> wrote:
+> > > (blah blah blah blah)
+> >
+> > Nobody cares if you are opposed to it.  Unless you are offering to
+> > become lilo upstream, it's going away.
+> 
+> Unless someone who is a capable coder feels the same.  Which is quite 
+> possible. 
+> 
+
+It's not the capable coder part that matters as much as the
+know-and-understand how LILO works part.
+
+Such knowledge would take quite a while to accumulate, which is why if
+the package maintainer can't get it done then we will probably all be
+stuck with grub2.
+
+Brian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100523134651.284b4b1b@windy.deldotd.com
+
+

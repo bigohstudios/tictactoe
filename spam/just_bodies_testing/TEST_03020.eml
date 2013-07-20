@@ -1,0 +1,31 @@
+Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are liveOn May 22, 2010, at 5:01 PM, Michael Hall wrote:
+
+> On May 22, 2010, at 1:32 PM, Mike Swingler wrote:
+>=20
+>> Firefox is hardwired to Plugin1 with the JEP/MRJ, unless you remove =
+it them from (app)/Contents/MacOS/plugins
+>=20
+> Are you saying that if this is done for Firefox, the =
+Contents/MacOS/plugins files are 'removed', then plugin2 will =
+automatically get picked up and work correctly?
+
+Yes. I usually create a new directory =
+(Firefox.app/Contents/MacOS/plugins/disabled) and move both =
+JavaEmbeddingPlugin.bundle and MRJPlugin.plugin into that directory so I =
+still have them around.
+
+I'm at a complete loss why this doesn't work for Camino.
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

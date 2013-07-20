@@ -1,0 +1,79 @@
+PDF printing - was: Re: Flash is open?On Sat, 2010-05-15 at 13:50 +0000, Camale=C3=B3n wrote:
+> On Sat, 15 May 2010 08:52:21 -0400, John A. Sullivan III wrote:
+>=20
+> > On Sat, 2010-05-15 at 10:05 +0000, Camale=C3=B3n wrote:
+>=20
+> >> Linux PDF "readers" are in a very good shape. In fact, I don't even
+> >> have Acrobat Reader installed on my linux systems.
+>=20
+> > I thought this, too, until recently when working with companies which
+> > use PDF heavily.  I had always used KPDF as it seemed so much lighter
+> > and faster than acroread.  However, it has only a very small portion of
+> > the full functionality of acroread.  I had never noticed but our client=
+s
+> > did.
+>=20
+> Acrobat Reader for linux has some nice features, I agree. One of them is=20
+> the ability to print brochures and booklets in a easy way.
+>=20
+> But is so "bloat" that I have discarded from any of my linux systems and =
+=20
+> use Evince almost exclusively (before Evince I was very happy with KPDF).=
+=20
+> On windows I try to install Foxit Reader or something similar.
+> =20
+> > It's everything from small things (like mousing into to lower left
+> > corner and seeing the document size -very handy for non-standard sizes
+> > such as construction drawings) to the massive printing problem that
+> > afflicts all other Linux pdf readers - at least in Lenny, no pdf reader
+> > could print non-default print sizes.  No matter what we did, every
+> > single PDF reader we tried insisted on printing to the default paper
+> > size.  Apparently this is a well known bug from the hours of searching
+> > we did.  Only acroread would let our client print their construction
+> > drawings without shrinking them down letter or A4 size - John
+>=20
+> Mmmm... I'm not sure to fully understand the problem :-?
+>=20
+> I have a PDF file sized "prc5 Envelope, Landscape (220 x 110 mm)" which I=
+=20
+> open with Evince (2.22.2). Then I send the document for printing with any=
+=20
+> of our HP laserjet printers using the envelope feeder. I put the envelope=
+=20
+> in the tray, from Evince I go under "File / Printer settings" and from=20
+> "Paper size" dropdown menu I choose "DL Envelope". The output is printed=20
+> correctly, obeying the size of the printed media (DL envelope) and fiting=
+=20
+> the text correctly into it.
+>=20
+> Is that what are you referring about or are you (or your clients) =20
+> experiencig another problem?
+<snip>
+In this case, the client had a Ricoh MP W3600 plotter although, if I
+recall correctly, we had the same problem with all the printers - it was
+just more obvious with the plotter.  Let's say they wanted to send a
+24x36 drawing to the plotter.  If they send it through any of the FOSS
+PDF viewers, it prints a 24x36 job but the image is always the default
+paper size, i.e., the drawing would be reduced to 8.5x11 and printed in
+the middle of a 24x36 piece of paper.  In some cases, we sent two pages
+per side - reducing and rotating the drawings to fit two per page.  In
+this case, two 8.5x11 images appeared on the large sheet!
+
+Acroread is not without flaws either.  Versions previous to 9.3.2 could
+not see our CUPS print server's printers.  9.3.2 can see them but,
+whenever it prints, it sends the default page region.  Thus, if I
+directly choose, say this 3600 plotter, and send a 36x48 drawing, I see
+acroread has created a print job with -o PageSize=3D36x48 but also with -o
+PageRegion=3DA4 (or whatever either the ppd default is or the first
+PageRegion listed in the ppd if no default is defined).  We've seen the
+same thing when trying to send 11x17 jobs to other printers - it prints
+Letter size (or whatever the default PageRegion is).  We've escalated to
+Ricoh but this really smells like an acroread bug.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273952796.17789.6.camel@Family.pacifera.com
+
+

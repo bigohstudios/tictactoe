@@ -1,0 +1,56 @@
+Re: Ctrl+alt+Fn not showing consolesLe 28/04/2010 18:30, Anand Sivaram a écrit :
+>
+> What is your default runlevel.  It should be 2 in normal mode.  You
+> could find it from the command "runlevel".
+
+# runlevel
+N 2
+
+
+> Anyway,  just see your /etc/inittab and make sure that the required
+> gettys are there.
+>
+> For my debian squeeze system, these are the relevant lines.
+>
+> # Note that on most Debian systems tty7 is used by the X Window System,
+> # so if you want to add more getty's go ahead but skip tty7 if you run X.
+> #
+> 1:2345:respawn:/sbin/getty 38400 tty1
+> 2:23:respawn:/sbin/getty 38400 tty2
+> 3:23:respawn:/sbin/getty 38400 tty3
+> 4:23:respawn:/sbin/getty 38400 tty4
+> 5:23:respawn:/sbin/getty 38400 tty5
+> 6:23:respawn:/sbin/getty 38400 tty6
+>
+>
+
+I've got exactly the same lines in my inittab file.
+
+ps aux | grep getty
+root      2183  0.0  0.0   5864   604 tty1     Ss+  09:58   0:00 
+/sbin/getty 38400 tty1
+root      2184  0.0  0.0   5864   600 tty2     Ss+  09:58   0:00 
+/sbin/getty 38400 tty2
+root      2185  0.0  0.0   5864   604 tty3     Ss+  09:58   0:00 
+/sbin/getty 38400 tty3
+root      2186  0.0  0.0   5864   604 tty4     Ss+  09:58   0:00 
+/sbin/getty 38400 tty4
+root      2187  0.0  0.0   5864   604 tty5     Ss+  09:58   0:00 
+/sbin/getty 38400 tty5
+root      2188  0.0  0.0   5864   604 tty6     Ss+  09:58   0:00 
+/sbin/getty 38400 tty6
+root      3807  0.0  0.0   9604   896 pts/0    S+   19:30   0:00 grep getty
+
+But still no virtual console ... :(
+
+Thanks for your interest Anand.
+
+Jean-Marc
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD87310.3020304@cegetel.net
+
+

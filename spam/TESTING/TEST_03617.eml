@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283c5178a973729
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs106968wfj;
+        Mon, 26 Apr 2010 15:51:32 -0700 (PDT)
+Received: by 10.87.76.7 with SMTP id d7mr1046467fgl.65.1272322291760;
+        Mon, 26 Apr 2010 15:51:31 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 4si7570892fge.13.2010.04.26.15.51.31;
+        Mon, 26 Apr 2010 15:51:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6596E13A5655; Mon, 26 Apr 2010 22:51:25 +0000 (UTC)
+Old-Return-Path: <carlj@peak.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A8CBB13A5601
+	for <lists-debian-user@liszt.debian.org>; Mon, 26 Apr 2010 22:51:19 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id k1H+O-TVvSuD for <lists-debian-user@liszt.debian.org>;
+	Mon, 26 Apr 2010 22:51:12 +0000 (UTC)
+Received: from redcondor1.peak.org (redcondor1.peak.org [69.59.192.54])
+	by liszt.debian.org (Postfix) with ESMTP id E6E9413A55CE
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 22:51:11 +0000 (UTC)
+Received: from peak-mail-gateway.peak.org ([69.59.192.41])
+          by redcondor1.peak.org ({e03e86cd-14ae-47ce-9578-3c080ce9c462})
+          via TCP (outbound) with ESMTP id 20100426225108596
+          for <debian-user@lists.debian.org>;
+          Mon, 26 Apr 2010 22:51:08 +0000
+X-RC-FROM: <carlj@peak.org>
+X-RC-RCPT: <debian-user@lists.debian.org>
+Received: from cjlinux.localnet (207.55.91.197.peak.org [207.55.91.197] (may be forged))
+	(authenticated bits=0)
+	by peak-mail-gateway.peak.org (8.12.10/8.12.8) with ESMTP id o3QMp44i015842
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=NO)
+	for <debian-user@lists.debian.org>; Mon, 26 Apr 2010 15:51:07 -0700 (PDT)
+Received: from carlj by cjlinux.localnet with local (Exim 4.69)
+	(envelope-from <carlj@peak.org>)
+	id 1O6X8p-0005PD-Gs
+	for debian-user@lists.debian.org; Mon, 26 Apr 2010 15:51:03 -0700
+To: debian-user@lists.debian.org
+Subject: Re: Cyrus 2.2 imapd in AMD64
+References: <4BD0E0D1.1080109@fcien.edu.uy> <4BD5E41E.80702@fcien.edu.uy>
+From: Carl Johnson <carlj@peak.org>
+Date: Mon, 26 Apr 2010 15:51:03 -0700
+In-Reply-To: <4BD5E41E.80702@fcien.edu.uy> (Carlos Bergero's message of "Mon\, 26 Apr 2010 16\:06\:06 -0300")
+Message-ID: <8739yhx1yg.fsf@cjlinux.localnet>
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <nuPJWuhahzO.A.28.tjh1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575193
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 26 Apr 2010 22:51:25 +0000 (UTC)
+
+Carlos Bergero <rak@fcien.edu.uy> writes:
+
+--snip--
+
+> Apparently for what i read in list and in web pages/lists/readme it
+> might be a compatibility problem in Berkeley DB use by Cyrus.
+--snip--
+> So far im focused in trying to get this DB to the proper format
+> version 9 in the standard Lenny install, and see what happens, without
+> much success.
+> If I manage to work it out ill post the process int list.
+> If anyone has a better clue ill appreciate it :)
+
+Have you looked at the db4.x-util packages, for whatever version of
+library you have?  The db4.6-util package contains a program called
+db4.6-upgrade which might do what you want.  There are other version
+of db-util, so get whichever one matches your current library and try
+it on a *copy* to see if it does what you want.
+
+-- 
+Carl Johnson		carlj@peak.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8739yhx1yg.fsf@cjlinux.localnet
+
+

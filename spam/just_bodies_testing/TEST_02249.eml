@@ -1,0 +1,28 @@
+Re: Increasing number of conflictsFrom nobody Sat Jul 20 14:17:31 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 30 April 2010 09:44:16 Daniel Burrows wrote:
+> On Mon, Apr 19, 2010 at 02:54:20PM -0500, "Boyd Stephen Smith Jr."=20
+<bss@iguanasuicide.net> was heard to say:
+> > If (c), aptitude will usually churn until it's solver exhausts all
+> > available memory and it either dies, or is killed by the OMM-killer in
+> > the kernel.  You can 'Ctrl+C' to kill aptitude earlier if you wish, and
+> > try again rejecting fewer (or different) options.
+>=20
+>   I should add that I would appreciate hearing about it when this
+> happens.
+
+In my case you probably wouldn't.  Mixed Lenny+security+volatile/lenny-
+backports/testing+volatile/Sid/experimental systems with debian-multimedia=
+=20
+added in don't fall on your support list do they? ;)
+
+What's the best way to send you a report of this, if I encounter it on a=20
+supported system?
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

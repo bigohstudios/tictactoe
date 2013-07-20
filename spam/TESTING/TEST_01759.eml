@@ -1,0 +1,128 @@
+From - Wed Feb 24 20:36:03 2010
+X-Account-Key: account2
+X-UIDL: UID11264-1201487268
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ydeoqe8570@prod-empresarial.com.mx>
+X-Original-To: m0620212@mail.csmining.org
+Delivered-To: m0620212@mail.csmining.org
+Received: from mail1.csmining.org (localhost [127.0.0.1])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 5FAB71E3B
+	for <m0620212@mail.csmining.org>; Wed, 24 Feb 2010 01:01:15 +0900 (JST)
+Received: from spamgw.csmining.org (spamgw.csmining.org [192.168.18.120])
+	by mail1.csmining.org (csminingorg Mail) with ESMTP id 5C2641E0D
+	for <m0620212@mail.csmining.org>; Wed, 24 Feb 2010 01:01:15 +0900 (JST)
+X-ASG-Debug-ID: 1266940874-761feb080001-W4TwRL
+Received: from gw1.csmining.org (gw1.csmining.org [192.168.18.250]) by spamgw.csmining.org with SMTP id fjHY17YCliCWOF5K for <m0620212@mail.csmining.org>; Wed, 24 Feb 2010 01:01:14 +0900 (JST)
+X-Barracuda-Envelope-From: ydeoqe8570@prod-empresarial.com.mx
+Received: from gw1.csmining.org (localhost [127.0.0.1])
+        by gw1.csmining.org  with ESMTP id o1NG1EPt017514
+        for <m0620212@mail.csmining.org>; Wed, 24 Feb 2010 01:01:14 +0900 (JST)
+Received: from ns1.csmining.org (ns1.csmining.org [192.168.3.1])
+        by gw1.csmining.org  with ESMTP id o1NG1EiY017511
+        for <hibody@csmining.org>; Wed, 24 Feb 2010 01:01:14 +0900 (JST)
+Received: from prod-empresarial.com.mx (dsl-200-67-149-155.prod-empresarial.com.mx [200.67.149.155] (may be forged))
+      by ns1.csmining.org  with ESMTP id o1NG1DHo013392
+      for <hibody@csmining.org>; Wed, 24 Feb 2010 01:01:14 +0900 (JST)
+Date: Wed, 24 Feb 2010 01:01:13 +0900 (JST)
+X-Barracuda-BWL-IP: 200.67.149.155
+X-Barracuda-BBL-IP: 200.67.149.155
+X-Barracuda-RBL-IP: 200.67.149.155
+X-Barracuda-BRL-Tag: Barracuda Reputation
+Message-Id: <201002231601.o1NG1DHo013392@ns1.csmining.org>
+From: "ED Meds Shop" <ydeoqe8570@prod-empresarial.com.mx>
+To: hibody@csmining.org
+X-ASG-Orig-Subj: Exclusively for hibody, -80%
+Subject:   Exclusively for hibody, -80%
+MIME-Version: 1.0
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Barracuda-Connect: gw1.csmining.org[192.168.18.250]
+X-Barracuda-Start-Time: 1266940874
+X-Barracuda-URL: http://spamgw.csmining.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at csmining.org
+X-ASG-Tag: INTENT (*realeach.ru)
+X-Barracuda-Spam-Score: 18.41
+X-Barracuda-Spam-Status: No, SCORE=18.41 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=1000.0 tests=BSF_SC0_SA148a, BSF_SC0_SA290_RN, BSF_SC0_SA424, BSF_SC0_SA424_SBL, BSF_SC5_MJ1963, BSF_SC5_MJ3864, BSF_SC5_MJ3865, BSF_SC5_MJ3866, HTML_IMAGE_ONLY_16, HTML_IMAGE_RATIO_02, HTML_MESSAGE, HTML_SHORT_LINK_IMG_2, MIME_HTML_ONLY, RDNS_NONE, SH_BIG5_05413_BODY_104, URIBL_JP_SURBL, URI_HEX
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.23268
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	2.86 URIBL_JP_SURBL         Contains an URL listed in the JP SURBL blocklist
+	                           [URIs: realeach.ru]
+	0.21 SH_BIG5_05413_BODY_104 BODY: Body: contain "UNSUBSCRIBE"
+	0.10 BSF_SC0_SA148a         URI: Custom Rule SA148a
+	0.32 URI_HEX                URI: URI hostname has long hexadecimal sequence
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.63 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of words
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	5.00 BSF_SC5_MJ3864         Custom Rule MJ3864
+	0.10 RDNS_NONE              Delivered to trusted network by a host with no rDNS
+	0.24 HTML_SHORT_LINK_IMG_2  HTML is very short with a linked image
+	0.50 BSF_SC5_MJ3865         Custom Rule MJ3865
+	0.50 BSF_SC5_MJ1963         Custom Rule MJ1963
+	3.50 BSF_SC0_SA290_RN       Custom Rule SA290_RN
+	0.80 BSF_SC0_SA424          Custom Rule SA424
+	1.00 BSF_SC5_MJ3866         Custom Rule MJ3866
+	2.10 BSF_SC0_SA424_SBL      Custom Rule SA424_SBL
+	Realtime IP - 61.235.117.75
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Newsletter</title>
+<style type="text/css">
+<!--
+a:hover
+{ color: #30640C; text-decoration: none; }
+
+vewayjy
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-family: Tahoma;
+ font-size: 9px;
+ color: #370096;
+}
+
+a:link
+{ color: #704AD7; }
+
+a:visited
+{ color: #BA7F61; text-decoration: underline; }
+
+-->
+</style>
+</head>
+<body>
+<table width="741" border="0" cellpadding="10" cellspacing="0" align="center">
+  <tr>
+    <td align="left" valign="top" colspan=3>
+      <p class="vewayjy">To view this email online,
+		<a href="http://e09d8f.realeach.ru/">click here</a>.
+      </p></td></tr>
+  </table>
+<table width="741" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" align=center>
+  <tr>
+    <td align="left" valign="top">
+	<a href="http://fa4fbfb6.realeach.ru/">
+	<img alt="Error in getting graphics? Click!" src="http://img508.imageshack.us/img508/2958/3242223.jpg" width="560" height="462" style="border:0px"></a>
+	<p class="vewayjy">&nbsp;</p>
+	<p class="vewayjy">Click <a href="http://4a248eaba808c2d.realeach.ru/" target="_blank">here</a> to
+	unsubscribe. </p>
+      <p class="vewayjy">Read our <a href="http://9af259b100bd47.realeach.ru/">privacy policy</a>.</p>
+	<p class="vewayjy">(c) 2008-2010 Eoqyleu. All rights reserved.</p>
+	</td>
+  </tr>
+</table>
+</body>
+</html>
+

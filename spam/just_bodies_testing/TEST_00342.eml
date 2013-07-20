@@ -1,0 +1,35 @@
+Re: belocs-locales-bin brokenFrom nobody Sat Jul 20 14:17:27 2013
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Sunday 25 April 2010 07:45:28 John A. Sullivan III wrote:
+> I put through a pile of updates on many Lenny systems this morning and
+> they all errored with:
+>=20
+>   az_AZ.UTF-8... up-to-date
+>   be_BY.UTF-8... up-to-date
+>   be_BY.UTF-8@latin... up-to-date
+>   ber_DZ.UTF-8... cannot open locale definition file `ber_DZ': No such
+> file or directory
+
+This locale may not be supported by belocs-locales-bin; check=20
+/usr/share/i18n/SUPPORTED.
+
+> dpkg: error processing belocs-locales-bin (--configure):
+>  subprocess post-installation script returned error exit status 4
+> Errors were encountered while processing:
+>  belocs-locales-bin
+> E: Sub-process /usr/bin/dpkg returned an error code (1)
+>=20
+> Is something broken in the belocs-locales-bin package? Thanks - John
+
+I think it is not needed anymore.  ISTR upstream for it being quite dead=20
+because the main reason it was created is now a feature of the normal local=
+es=20
+package.  I migrated away from it when I moved from Etch to Lenny.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

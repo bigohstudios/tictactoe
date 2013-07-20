@@ -1,0 +1,124 @@
+X-Account-Key: account5
+X-UIDL: GmailId128404a9fbc1a787
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs143584wfj;
+        Tue, 27 Apr 2010 10:22:40 -0700 (PDT)
+Received: by 10.114.30.6 with SMTP id d6mr6709247wad.135.1272388952034;
+        Tue, 27 Apr 2010 10:22:32 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 5si8412429pzk.16.2010.04.27.10.22.31;
+        Tue, 27 Apr 2010 10:22:31 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 9E6AE1C009F50
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 10:22:31 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 98ACA272A3264
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 10:22:31 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 6ED2C272A2F5D
+	for <augd@lists.apple.com>; Tue, 27 Apr 2010 10:22:05 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 5E6F9CFFAEEA
+	for <augd@lists.apple.com>; Tue, 27 Apr 2010 10:22:05 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-ea-4bd71d3c5273
+Received: from eastrmmtao104.cox.net (eastrmmtao104.cox.net [68.230.240.46])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	35.F6.17067.C3D17DB4; Tue, 27 Apr 2010 10:22:05 -0700 (PDT)
+Received: from eastrmimpo01.cox.net ([68.1.16.119]) by eastrmmtao104.cox.net
+	(InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP id
+	<20100427172205.QIGU18026.eastrmmtao104.cox.net@eastrmimpo01.cox.net>
+	for <augd@lists.apple.com>; Tue, 27 Apr 2010 13:22:05 -0400
+Received: from [192.168.0.10] ([68.14.130.236])
+	by eastrmimpo01.cox.net with bizsmtp
+	id AhN31e00L56A7JU02hN45e; Tue, 27 Apr 2010 13:22:04 -0400
+X-VR-Score: -100.00
+X-Authority-Analysis: v=1.1 cv=u9aaE4Pfr0xy9UvPxuh9qFR1i2SV5RyaXjJQawTgqeY=
+	c=1 sm=1 a=kj9zAlcOel0A:10 a=JEONxbbMy1ReJCDTteGcUA==:17
+	a=pGLkceISAAAA:8
+	a=t-IPkPogAAAA:8 a=8PPujZVQAAAA:8 a=aYikS_HKAAAA:8
+	a=ALwmcfPi71-xGqmPNt8A:9
+	a=IcvUFEc-wDlZUzJD9SYA:7 a=1SDHBjcWgra5pl8uLRc3Q7bRxzsA:4
+	a=CjuIK1q_8ugA:10
+	a=XoMvLCtIVAMA:10 a=OnwUQ2fbjssA:10 a=MSl-tDqOz04A:10 a=el6NKsKURnUA:10
+	a=HBZiNq8AZjsA:10 a=JEONxbbMy1ReJCDTteGcUA==:117
+X-CM-Score: 0.00
+User-Agent: Microsoft-Entourage/12.24.0.100205
+Date: Tue, 27 Apr 2010 13:22:02 -0400
+Subject: Re: AUGD: Re: PR Mailing Lists
+From: Chris Hart <augd@chrishart.net>
+To: <Augd@lists.apple.com>
+Message-ID: <C7FC957A.51922%augd@chrishart.net>
+Thread-Topic: AUGD: Re: PR Mailing Lists
+Thread-Index: AcrmLiZdVA2+Q1yfJ0eAiEpHnkh95A==
+In-Reply-To: <z2raae88f271004260758l27a3d42z876d910452a2c416@mail.csmining.org>
+Mime-version: 1.0
+Content-type: text/plain;
+	charset="US-ASCII"
+Content-transfer-encoding: 7bit
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: 
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+Yeah, I don't see any publicly-visible calendar there.
+
+Looks like a black hole.
+
+Thanks, Apple.
+
+
+___ Dave G at <dgreenbaum@csmining.org> wrote: ___
+
+> As I was revisiting the group I work  own PR list and changes on the
+> Apple website.  Each month we submit the event to
+> 
+> http://www.apple.com/usergroups/news/calendar/
+> 
+> using the submit activity link.
+> 
+> However, I noticed on a whim, I couldn't find where these events are
+> listed.  Have I been wasting our time submitting the event?  Since now
+> almost all links point to appleusergroupresources.com is there any
+> reason I should be submitting these events to Apple?
+> 
+> I was also concerned that it won't let you submit an event after 2010.
+>  Considering how soon 2011 is, that again made me think my submissions
+> are going nowhere.
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Augd mailing list      (Augd@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/augd/augd%40chrishart.net
+> 
+> This email sent to augd@chrishart.net
+> 
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

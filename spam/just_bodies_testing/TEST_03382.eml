@@ -1,0 +1,49 @@
+Re: SCSI tape library & ISCSIMirco Piccin put forth on 4/9/2010 9:39 AM:
+> Hi,
+> 
+>> it's possible to manage a SCSI tape library (IBM 3581) with ISCSI?
+>> I need to use that library attached to a server into another server...
+> 
+> well, the aim is to share the tape library across the network..
+> Is there a way (iscsi or other) to do the job?
+
+All you need is an iSCSI bridge such as one of these ATTO units:
+
+http://www.attotech.com/products/product.php?cat=5&scat=8&sku=IPBR-2600-DR0
+http://www.attotech.com/products/product.php?cat=5&scat=8&sku=IPBR-1550-DR0
+
+They'll make that SCSI tape library appear on the iSCSI network as any
+normal iSCSI device.
+
+The 8581 doesn't allow multiple concurrent host access as it was designed in
+the late 1990s strictly as a single host direct attach tape libraby.  Thus
+you'll need to make sure only one host is accessing the tape library at a
+time over iSCSI.  Attempting concurrent access will cause problems and data
+loss.
+
+CAVEAT:
+
+Is your IBM 3581 a model L1x or H1x?  H1x uses a high voltage differential
+SCSI interface.  It is NOT compatible with the ATTO bridges above which are
+both U320 LVD SCSI devices.  LVD stands for Low Voltage Differential.  If
+you have the 3581 H1x you will need an iSCSI bridge with a high voltage
+differential SCSI port such as this:
+
+http://www.testequipmentconnection.com/products/28976
+
+If you plug an HVD SCSI device into an LVD only port or vice versa, the LVD
+device will be permanently damaged and ruined as a result.  "High Voltage"
+means exactly that.  Never never plug HVD SCSI into LVD SCSI.
+
+Hope this information helps you.  Good luck.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBFAA61.10203@hardwarefreak.com
+
+

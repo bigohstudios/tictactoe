@@ -1,0 +1,261 @@
+X-Account-Key: account5
+X-UIDL: GmailId128ba2876547b4f8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs46409wfo;
+        Fri, 21 May 2010 02:18:55 -0700 (PDT)
+Received: by 10.141.213.28 with SMTP id p28mr1011742rvq.19.1274433534926;
+        Fri, 21 May 2010 02:18:54 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id i19si1466033rvn.140.2010.05.21.02.18.53;
+        Fri, 21 May 2010 02:18:53 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; domainkeys=hardfail header.From=rob@haptek.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id A084A1C2B8CE2
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 02:18:53 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 9A1B527D0642F
+	for <mlsubscriber.tech@csmining.org>; Fri, 21 May 2010 02:18:53 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 4007827D06250
+	for <quicktime-api@lists.apple.com>;
+	Fri, 21 May 2010 02:18:33 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 2A0DCD485CBB
+	for <quicktime-api@lists.apple.com>;
+	Fri, 21 May 2010 02:18:33 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b9fae0000068da-ac-4bf64fe80e3b
+Received: from outbound-w11.bluehost.com (outbound-w11.bluehost.com
+	[69.89.16.138])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	C7.11.26842.8EF46FB4; Fri, 21 May 2010 02:18:33 -0700 (PDT)
+Received: (qmail 11674 invoked by uid 0); 21 May 2010 09:18:32 -0000
+Received: from unknown (HELO box263.bluehost.com) (69.89.31.63)
+	by mrclean.bluehost.com with SMTP; 21 May 2010 09:18:32 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=haptek.com;
+	h=Message-ID:In-Reply-To:References:Date:Subject:From:To:Cc:User-Agent:MIME-Version:Content-Type:Content-Transfer-Encoding:X-Priority:Importance:X-Identified-User;
+	b=sBj4/9gFFnqDn+j6sVa96kJGTpI9UHI7kJSgXVZDYwFfRBvQ+2qeu80RgFOwCJhww5nzBMrU0zp5OIIa26PW8tRDkUH9frZ1P/PXIMQ0ywl2zRvb0laVy3rAS4t8UhoT;
+Received: from localhost ([127.0.0.1] helo=www.haptek.com)
+	by box263.bluehost.com with esmtpa (Exim 4.69)
+	(envelope-from <rob@haptek.com>)
+	id 1OFOND-0004oO-DF; Fri, 21 May 2010 03:18:31 -0600
+Received: from 67.164.144.243 ([67.164.144.243])
+	(SquirrelMail authenticated user rob@haptek.com)
+	by www.haptek.com with HTTP; Fri, 21 May 2010 03:18:31 -0600
+Message-ID: <b3c36041310c68e9e738e990ce1de8cf.squirrel@www.haptek.com>
+In-Reply-To: <AFA45945-1394-4F19-A4A0-BE3F146A9441@gmx.net>
+References: <511DAB32-5736-401B-AD3C-6CBD6A502300@gmx.net>
+	<28c845930cbb43d8ef9bae8684e43928.squirrel@www.haptek.com>
+	<AFA45945-1394-4F19-A4A0-BE3F146A9441@gmx.net>
+Date: Fri, 21 May 2010 03:18:31 -0600
+From: rob@haptek.com
+To: Alexander =?iso-8859-1?Q?Car=F4t?= <alexander_carot@gmx.net>
+User-Agent: SquirrelMail/1.4.19
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Identified-User: {1080:box263.bluehost.com:haptekco:haptek.com}
+	{sentby:program running on server}
+X-Brightmail-Tracker: AAAAAQAAAUA=
+Cc: quicktime-api list list <quicktime-api@lists.apple.com>
+Subject: Re: iSight - setFrameRate
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+Hi Alex,
+
+Welcome to the joys of quicktime video.
+I gave up on the sequence grabber years ago, due to similar problems.
+It looks like SGIdle() is polling the camera five times, finding
+a frame ready only the first time.  I believe there is no real
+callback triggered by the video hardware, just this polling hack.
+
+You can get more control by using the underlying "vdig" layer,
+but this code is arcane and undocumented.  I finally got fast video
+to work on a mac, after finding the "seeSaw" example of Daniel
+Heckenberg, which shows how to write a video frame to an opengl texture.
+I think it was his thesis (!)  This much of the vdig interface has
+been implemented for the isight, and works for a lot of cameras,
+thanks to the open source "macam" driver efforts.
+
+People would probably advise you to use the newer "qtkit" layer
+to access video frames.  This may just be an objective C blanket
+pulled over the old code, I don't know.  I'm not changing over,
+the old stuff runs well, especially on the new multiprocessor machines.
+
+The guys who originally wrote the quicktime code may be long gone,
+perhaps retired to a hot tub in the Los Altos hills.
+But their morass lives on!
+
+rob<at>haptek<.>com
+
+> Hi Rob,
+>
+>> There seems to be no way to change the exposure, frame rate, or
+>> anything else from their automatic settings on the USB isight,
+>> this has been the case since 2006.  The vdig/sequence grabber interface
+>> has never been implemented, the only solution is to use an external
+>> camera.
+>
+> thanks a lot ! That clarifies why it doesn't work. Nevertheless, in that
+> context one question remains: If I use the inbuilt iSight with the
+> mentioned frame rate and if I call SGIdle only once per second why does
+> the device additionally execute 4 more times (in subsequent 20 microsecond
+> intervals) such as:
+>
+> 1000.38 ms (callback after the execution of the previous callback)
+> 0.026 ms
+> 0.023 ms
+> 0.024 ms
+> 0.027 ms
+> 1002.55 ms
+> 0.025 ms
+> 0.026 ms
+> 0.022 ms
+> 0.021 ms etc...
+>
+> Is there a chance to get rid of these additional calls ?
+>
+> Thanks
+>
+> -- A l e x
+>
+>
+>>> Hi all,
+>>>
+>>> with respect to my problem that the video callback is triggered more
+>>> often
+>>> than I want to (see below) I had a guess that it is related to the
+>>> device
+>>> frame rate. In that context I tried to set the frame rate of my inbuilt
+>>> iSight to 1 and SGGetFrameRate did confirm this:
+>>>
+>>>  err = SGSetFrameRate(videoData->sgchanVideo,IntToFixed(1));
+>>>  Fixed *frameRate;
+>>>  SGGetFrameRate(videoData->sgchanVideo,frameRate);
+>>>  int rate = FixedToInt(*frameRate);
+>>>  cout << "FrameRate: " << rate << endl;  //// PLOTS 1 WHEN EXECUTING
+>>>
+>>> However, when I execute the app the frame size is much higher (I guess
+>>> 30
+>>> fps or more). I saw an older post from 2007, which dealt with the same
+>>> problem of not being able to set the inbuilt iChat frame rate but
+>>> nobody
+>>> replied. Does anyone have a guess how to approach this problem ?
+>>>
+>>> Thanks in advance
+>>>
+>>> -- A l e x
+>>>
+>>>
+>>> ***********************************
+>>> Hi all,
+>>>
+>>> I have a thread, which triggers the SGIdle call according to my desired
+>>> frame rate:
+>>>
+>>> void video::run(){
+>>> while (running){
+>>>   sj->dFC->videoBlocker->lock();
+>>>   sj->dFC->videoWaiter->wait(sj->dFC->videoBlocker);
+>>>
+>>>   err = SGIdle(videoData->seqGrab);
+>>>   usleep(1000000/1);   //// FRAMERATE
+>>>
+>>>   sj->dFC->videoBlocker->unlock();
+>>> }
+>>> }
+>>>
+>>> In this example the thread waits for 1 second before executing the next
+>>> time, which results in a frame rate of 1 fps. However, I discovered
+>>> some
+>>> strange system behavior, which forced me to verify if this is really
+>>> the
+>>> case: I applied a time measurement between each data proc function call
+>>> and in fact it is executed 4 more times ins between in approx. 250
+>>> microsecond intervals. In the following I have plotted the measured
+>>> interval times in ms:
+>>>
+>>> 1000.38
+>>> 0.026
+>>> 0.023
+>>> 0.024
+>>> 0.027
+>>> 1002.55
+>>> 0.025
+>>> 0.026
+>>> 0.022
+>>> 0.021
+>>> 1002.61
+>>> 0.026
+>>> 0.021
+>>> 0.02
+>>> 0.024
+>>> 1002.54
+>>> 0.026
+>>> 0.023
+>>> 0.024
+>>> 0.02
+>>> 1000.18
+>>> 0.026
+>>> 0.137
+>>> 0.025
+>>> 0.024
+>>>
+>>> etc .... and so forth. This is actually not happening when I reside
+>>> above
+>>> a framerate of 25 fps. Can anyone tell me why this is happening and how
+>>> I
+>>> can prevent this to happen ?
+>>>
+>>> Thanks a lot in advance, best
+>>>
+>>> -- A l e x
+>>> _______________________________________________
+>>> Do not post admin requests to the list. They will be ignored.
+>>> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+>>> Help/Unsubscribe/Update your Subscription:
+>>> http://lists.apple.com/mailman/options/quicktime-api/rob%40haptek.com
+>>>
+>>> This email sent to rob@haptek.com
+>>>
+>>
+>>
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/quicktime-api/alexander_carot%40gmx.net
+>>
+>> This email sent to alexander_carot@gmx.net
+>
+>
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

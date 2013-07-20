@@ -1,0 +1,15 @@
+Re: advice on 7.3.92 to 7.3.93, and Apt compilingOn Fri, 2002-08-16 at 04:28, Angles Puglisi wrote:
+> Any sage advice on the most painless way to upgrade from old limbo (.92) to new
+> limbo (.93)?
+
+Format and reinstall. There is no supported upgrade path from beta to
+beta, or from beta to release.
+
+-- 
+Chris Kloiber
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

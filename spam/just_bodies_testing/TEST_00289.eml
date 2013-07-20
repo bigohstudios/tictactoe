@@ -1,0 +1,21 @@
+Re: lilo removal in squeeze (or, "please test grub2")From nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+(Dropping -release, which isn't a discussion list.)
+
+William Pitcock <nenolod@dereferenced.org> (22/05/2010):
+> Given that there is no active upstream and that the Debian lilo
+> package carries many patches for bug fixes that are alleviated by
+> standardizing on grub2, this seems like the best option for Debian.
+
+Speaking of upstream and bug fixing, what about that?
+  http://bugs.debian.org/src:grub2
+
+> This means that users should *test grub2 extensively* before Squeeze
+> is released so that any issues can be resolved now.
+
+There should also be some folks fixing the discovered issues.
+
+Mraw,
+KiBi.

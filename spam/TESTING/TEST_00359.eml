@@ -1,0 +1,192 @@
+X-Account-Key: account5
+X-UIDL: GmailId12873b9f26d2307e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs461933wfb;
+        Fri, 7 May 2010 10:04:46 -0700 (PDT)
+Received: by 10.223.50.193 with SMTP id a1mr367759fag.34.1273251886023;
+        Fri, 07 May 2010 10:04:46 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 19si2566513far.9.2010.05.07.10.04.45;
+        Fri, 07 May 2010 10:04:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 43B7F348E46; Fri,  7 May 2010 17:04:36 +0000 (UTC)
+Old-Return-Path: <sthu.deus@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.4 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_SORBS_WEB autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 4200F13A5962
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 17:04:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.421 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, RCVD_IN_BL_SPAMCOP_NET=1.96,
+	RCVD_IN_SORBS_WEB=0.619] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id BQsW8ErzJkca for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 17:04:22 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-bw0-f210.google.com (mail-bw0-f210.google.com [209.85.218.210])
+	by liszt.debian.org (Postfix) with ESMTP id 6AAD0348E4F
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 17:04:01 +0000 (UTC)
+Received: by bwz2 with SMTP id 2so693008bwz.30
+        for <debian-user@lists.debian.org>; Fri, 07 May 2010 10:03:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from:to
+         :subject:x-mailer:mime-version:content-type
+         :content-transfer-encoding;
+        bh=0kzzRlATnFrVAfLMsbMHsaQqGTvwDsFk6QPbIsSi7Jk=;
+        b=UH62tnxOQguoI9tOfn0/cfHMfqwowQ8pXFAMe3Anvdax5kRLTbiY/UPXQSlmRsoZc3
+         3AeaY7gNq10exQm+iMVDEl12vmZYWtEj9uV1c4YuOkBh5nRe0QbiW1+kPFt6dgZajxnf
+         ie8SRhFPKvoo6B0RZbr9kLwZJ3z8uQWreoo4M=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:to:subject:x-mailer:mime-version:content-type
+         :content-transfer-encoding;
+        b=C148mo4mz/AH+A53BN7czYi57mM5/OaXR/PbK6Gf5Haqf9BGSnYjf5z6NVu5oL3QhC
+         yy2UkZwOPHBkH9A1jp6qPQv4sUhG+lofTxma/yCAB4f9+CeiAtspn+6Y7FH42nus9JBB
+         2sGxmAsvcN1xK6dOCx4UsNLjunKI16Y7kho2c=
+Received: by 10.204.30.208 with SMTP id v16mr292748bkc.187.1273251655155;
+        Fri, 07 May 2010 10:00:55 -0700 (PDT)
+Received: from localhost ([217.8.236.169])
+        by mx.google.com with ESMTPS id 16sm770992bwz.5.2010.05.07.10.00.51
+        (version=SSLv3 cipher=RC4-MD5);
+        Fri, 07 May 2010 10:00:54 -0700 (PDT)
+Message-ID: <4be44746.101abc0a.5aeb.4204@mx.google.com>
+Date: Fri, 7 May 2010 21:18:21 +0700
+From: Sthu Deus <sthu.deus@csmining.org>
+To: debian-user@lists.debian.org
+Subject: Configuring X for second monitor running free-driver.
+X-Mailer: Claws Mail 3.7.5 (GTK+ 2.20.0; x86_64-pc-linux-gnu)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <fNUbPIPuVGN.A.CNG.kgE5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576166
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 17:04:36 +0000 (UTC)
+
+Good day.
+
+
+Could You please help me with my X server config.
+
+I'm trying to use only external monitor connected to a laptop and all is fine except that I have no 3D-support and also mplayer when playing movies shows it only in full screen mode and refuses to show it in its window.
+
+It seems to me that Xserver does not operate fully somehow with the external screen - sending most of its capabilities to the internal screen (that is off always) and not to the external one. This my guess also proves the KDE 3.6 control center - in section of display it show only single screen w abilities of the laptop screen and it is no possibility to change the screen1 to another screen - that is KDE does not know on which screen it runs.
+
+Also I can not use option "DRI" in Section "Device" - Xserver does not start then.
+
+$ glxgears
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  143 (GLX)
+  Minor opcode of failed request:  19 (X_GLXQueryServerString)
+  Value in failed request:  0x1
+  Serial number of failed request:  17
+  Current serial number in output stream:  17
+
+In case it is informative. 
+
+Therefore, if my guess i true, how I can totally move Xserver capabilities to be applied to the external monitor? If i'm wrong, then what's else could be the problem and I can settle it?
+
+For instance, I use the monitor using only Xserver config file (that is w/o xrandr help).
+Here is its contents:
+
+Section "ServerLayout"
+        Identifier     "Layout1"
+        Screen         "Screen1"
+        InputDevice    "Mouse0" "CorePointer"
+        InputDevice    "Keyboard0" "CoreKeyboard"
+EndSection
+
+
+Section "ServerFlags"
+        Option      "AllowEmptyInput" "no"
+EndSection
+
+Section "InputDevice"
+        Identifier  "Keyboard0"
+        Driver      "kbd"
+        Option      "XkbModel" "pc105"
+        Option      "XkbLayout" "us,ru(winkeys)"
+        Option      "XkbOptions" "grp:ctrl_shift_toggle,grp_led:scroll"
+EndSection
+
+Section "InputDevice"
+        Identifier  "Mouse0"
+        Driver      "mouse"
+EndSection
+
+Section "Monitor"
+        Identifier   "Monitor0"
+        ModelName    "LCD Panel 1280x800"
+EndSection
+
+Section "Monitor"
+        Identifier   "Monitor1"
+        ModelName    "LCD Panel 1600x900"
+EndSection
+
+Section "Device"
+        Identifier  "videocard0"
+        Driver      "radeon"
+        BusID       "PCI:1:5:0"
+        Option      "AccelMethod"       "EXA"
+EndSection
+
+Section "Screen"
+        Identifier "Screen0"
+        Device     "Videocard0"
+        Monitor    "Monitor0"
+EndSection
+
+Section "Screen"
+        Identifier "Screen1"
+        Device     "Videocard0"
+        Monitor    "Monitor1"
+        DefaultDepth     24
+        SubSection "Display"
+                Viewport   0 0
+                Depth     24
+                Modes "1600x900" "1280x800"
+        EndSubSection
+EndSection
+
+The related software versions:
+xserver-xorg-7.3+20
+xserver-xorg-core-1.4.2-10.lenny2
+xserver-xorg-video-ati-6.9.0-1+lenny4
+linux 2.6.32-3-amd64
+
+Thanks for Your time.
+
+PS Please, reply to the list.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4be44746.101abc0a.5aeb.4204@mx.google.com
+
+

@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId128275ff735d06c2
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs35233wfj;
+        Thu, 22 Apr 2010 14:15:21 -0700 (PDT)
+Received: by 10.87.31.36 with SMTP id i36mr8645081fgj.56.1271970920375;
+        Thu, 22 Apr 2010 14:15:20 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si725495fks.20.2010.04.22.14.15.19;
+        Thu, 22 Apr 2010 14:15:20 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id EB98613A4A53; Thu, 22 Apr 2010 21:15:07 +0000 (UTC)
+Old-Return-Path: <art333mio@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1BCBC13A4E31
+	for <lists-debian-user@liszt.debian.org>; Thu, 22 Apr 2010 20:58:49 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-1.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id gnLvW4LaPAaG for <lists-debian-user@liszt.debian.org>;
+	Thu, 22 Apr 2010 20:58:42 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-bw0-f212.google.com (mail-bw0-f212.google.com [209.85.218.212])
+	by liszt.debian.org (Postfix) with ESMTP id 0115013A4551
+	for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 20:58:41 +0000 (UTC)
+Received: by bwz4 with SMTP id 4so7451030bwz.18
+        for <debian-user@lists.debian.org>; Thu, 22 Apr 2010 13:58:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:from:date:received
+         :message-id:subject:to:content-type;
+        bh=mivo/y4339oxD7X9WpfSJnTA+2Tp9ehcLjVcclmmWYQ=;
+        b=hyNbGlsBHKRhZ5VDPp2CXK9/2yo0Y//u+5tqBWqv8+ODLLqhfQ1sTiWI6rgHda4YOF
+         JaiAOxNi8GRxgnbAPRTF021lbzTruVcdn//hOO72pq2ct+zgCWZyGlpjzqaKw+ICnCO3
+         50okA77skS4M63im8gs+aP0C+0+wVt89XeswM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        b=jnoFvhddjdD0kMLwz1ST5JGOWjr6HwwJc3yIlFPZEvriF2+7Lo6omRpTmMEW4OQWMc
+         6HarmveNHBUmBm0BxIMjWwy8T7rjLp2uuLD7G2ScD/n2fcb2HBpSZslrZSP7w2rQdeza
+         NjJCWE0gEjGi8iGXAtOcUpRyvEvyytvCX0JbA=
+MIME-Version: 1.0
+Received: by 10.204.70.203 with HTTP; Thu, 22 Apr 2010 13:58:17 -0700 (PDT)
+From: Art xD <art333mio@csmining.org>
+Date: Thu, 22 Apr 2010 23:58:17 +0300
+Received: by 10.204.33.215 with SMTP id i23mr5489898bkd.86.1271969917151; Thu, 
+	22 Apr 2010 13:58:37 -0700 (PDT)
+Message-ID: <q2pd779a5f41004221358z76df5702h63721416920ce611@mail.csmining.org>
+Subject: Turning on/off webcam IR leds
+To: debian-user list <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=ISO-8859-1
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <t2KshG6B-EN.A.L2D.bxL0LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574790
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 22 Apr 2010 21:15:07 +0000 (UTC)
+
+Hello all!
+
+I'm planing to buy a webcam with infrared LEDs. I wonder if turning
+on/off IR leds can be controlled on debian? Which webcams are
+supported to do that?
+
+I'm looking forward to buy Genius iSlim 321R (details:
+http://www.genius-europe.com/en/produktdetail.php?ID2=82&ID=31&ID3=490
+), but I will be glad if somebody recommend me another similar model
+with IR leds which is known to work on linux.
+
+(if it matter, I use debian testing release)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/q2pd779a5f41004221358z76df5702h63721416920ce611@mail.csmining.org
+
+

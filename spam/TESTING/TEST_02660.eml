@@ -1,0 +1,186 @@
+X-Account-Key: account5
+X-UIDL: GmailId1289fa85e8957537
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs106584wfo;
+        Sat, 15 May 2010 22:48:52 -0700 (PDT)
+Received: by 10.223.25.74 with SMTP id y10mr4116105fab.81.1273988931572;
+        Sat, 15 May 2010 22:48:51 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id a25si9569826faa.16.2010.05.15.22.48.51;
+        Sat, 15 May 2010 22:48:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 8C07F13A5BDF; Sun, 16 May 2010 05:48:46 +0000 (UTC)
+Old-Return-Path: <aspnair@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.4 required=4.0 tests=HTML_MESSAGE,LDOSUBSCRIBER,
+	LDO_WHITELIST,MDO_CABLE_TV3 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id B3C9013A5BDB
+	for <lists-debian-user@liszt.debian.org>; Sun, 16 May 2010 05:48:40 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, HTML_MESSAGE=1, LDO_WHITELIST=-5,
+	MDO_CABLE_TV3=0.5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 988cr9wMDg1d for <lists-debian-user@liszt.debian.org>;
+	Sun, 16 May 2010 05:48:33 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-yx0-f180.google.com (mail-yx0-f180.google.com [209.85.210.180])
+	by liszt.debian.org (Postfix) with ESMTP id D9DB813A5BD9
+	for <debian-user@lists.debian.org>; Sun, 16 May 2010 05:48:26 +0000 (UTC)
+Received: by yxe10 with SMTP id 10so1682866yxe.18
+        for <debian-user@lists.debian.org>; Sat, 15 May 2010 22:48:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:content-type;
+        bh=qQPjLfjFhQb42e0jTTjjilp0zvx3F/q+t2XyoIyWOSY=;
+        b=JCIQPJ15emCulDZBYAtybvyUhqtTu3tg4s7wGu62IIZERE/lMqy8BHiTewxBhQlvUz
+         fG85En4kxHo8E7TL+fbumQKrSs5dyySPu6I67p4ZZepTkmZfgfjCogLmMPdwkNDxDBl4
+         lbP6EiR53XZpEPgAuke6AlG9FNspZHA2OGsfA=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        b=n1PU86wKPYF2Q1x8UevNfFCCy9cNQL+xvnB6YWh5gcEO5NqMd8ThrfJ4be+og6xU9y
+         E3iTA2LpH5rpHtjls0m9ze1YcdAmWHKy8aDGrQLZeeT3yddjx+rb7xpfiCL/Xne3bw+R
+         Tb3X4pT9H7g1TWq/8dFl2MC4o5KAX8WKSOlDM=
+MIME-Version: 1.0
+Received: by 10.150.235.4 with SMTP id i4mr4197568ybh.356.1273988896911; Sat, 
+	15 May 2010 22:48:16 -0700 (PDT)
+Received: by 10.150.228.21 with HTTP; Sat, 15 May 2010 22:48:16 -0700 (PDT)
+In-Reply-To: <20100516042300.GA974@faust.net>
+References: <20100515125659.9676713A58BC@liszt.debian.org>
+	 <20100516042300.GA974@faust.net>
+Date: Sun, 16 May 2010 11:18:16 +0530
+Message-ID: <AANLkTikehHD0Gret8MN2nZFCZEvFQKOgL14CAz2Hm8kp@mail.csmining.org>
+Subject: Re: How to manage multiple Internet connections?
+From: Anand Sivaram <aspnair@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: multipart/alternative; boundary=000e0cd23f36a5f16d0486afa754
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <yf7lwKp8chC.A.v5H.-c47LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576960
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Sun, 16 May 2010 05:48:46 +0000 (UTC)
+
+--000e0cd23f36a5f16d0486afa754
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sun, May 16, 2010 at 09:53, Zoran Kolic <zkolic@sbb.rs> wrote:
+
+> > Let's say that you have two internet connections at home, and
+> > consequently two devices which link your computer to the Internet. How
+> > can you manage, e.g. in Iceweasel/FF, to use one or the other? If you
+> > have multiple downloads all the time, it might be an interesting thing
+> > to split them among the diferent connections.
+>
+> Using routing tables, of course.
+> The goal you'd like to get may be tricky the way you post it.
+> Sounds like the application splits the sources and use both.
+> The level of it is different.
+> At least one device should have 2 income ethernet adapters.
+> Choose would it be your desktop or router in front. Anyway,
+> prepare to experiment a bit and try/miss/try.
+> Best regards
+>
+>                              Zoran
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/20100516042300.GA974@faust.net
+>
+>
+This is what I was mentioning before.  Support you have two cable/dsl modems
+connected to a debian machine.  Use load balancing using "netxhop" option of
+iproute2 as shown by the following link..
+http://lartc.org/howto/lartc.rpdb.multiple-links.html
+But note that suppose you have two connetion of 1mbps each, You will not be
+able to do one single 2mbps download per session.  But you could have 2
+sessions of 1mbps each.
+Otherwise you could use custom download accelerators, torrent etc. which
+could split a logical download to multiple sessions.
+
+--000e0cd23f36a5f16d0486afa754
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Sun, May 16, 2010 at 09:53, Zoran Kol=
+ic <span dir=3D"ltr">&lt;<a href=3D"mailto:zkolic@sbb.rs">zkolic@sbb.rs</a>=
+&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0=
+ 0 .8ex;border-left:1px #ccc solid;padding-left:1ex;">
+<div class=3D"im">&gt; Let&#39;s say that you have two internet connections=
+ at home, and<br>
+&gt; consequently two devices which link your computer to the Internet. How=
+<br>
+&gt; can you manage, e.g. in Iceweasel/FF, to use one or the other? If you<=
+br>
+&gt; have multiple downloads all the time, it might be an interesting thing=
+<br>
+&gt; to split them among the diferent connections.<br>
+<br>
+</div>Using routing tables, of course.<br>
+The goal you&#39;d like to get may be tricky the way you post it.<br>
+Sounds like the application splits the sources and use both.<br>
+The level of it is different.<br>
+At least one device should have 2 income ethernet adapters.<br>
+Choose would it be your desktop or router in front. Anyway,<br>
+prepare to experiment a bit and try/miss/try.<br>
+Best regards<br>
+<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Zoran<br>
+<div class=3D"im"><br>
+<br>
+--<br>
+To UNSUBSCRIBE, email to <a href=3D"mailto:debian-user-REQUEST@lists.debian=
+.org">debian-user-REQUEST@lists.debian.org</a><br>
+with a subject of &quot;unsubscribe&quot;. Trouble? Contact <a href=3D"mail=
+to:listmaster@lists.debian.org">listmaster@lists.debian.org</a><br>
+</div>Archive: <a href=3D"http://lists.debian.org/20100516042300.GA974@faus=
+t.net" target=3D"_blank">http://lists.debian.org/20100516042300.GA974@faust=
+.net</a><br>
+<br>
+</blockquote></div><br><div>This is what I was mentioning before. =A0Suppor=
+t you have two cable/dsl modems connected to a debian machine. =A0Use load =
+balancing using &quot;netxhop&quot; option of iproute2 as shown by the foll=
+owing link..</div>
+<div><a href=3D"http://lartc.org/howto/lartc.rpdb.multiple-links.html">http=
+://lartc.org/howto/lartc.rpdb.multiple-links.html</a></div><div>But note th=
+at suppose you have two connetion of 1mbps each, You will not be able to do=
+ one single 2mbps download per session. =A0But you could have 2 sessions of=
+ 1mbps each.</div>
+<div>Otherwise you could use custom download accelerators, torrent etc. whi=
+ch could split a logical download to multiple sessions.</div>
+
+--000e0cd23f36a5f16d0486afa754--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikehHD0Gret8MN2nZFCZEvFQKOgL14CAz2Hm8kp@mail.csmining.org
+
+

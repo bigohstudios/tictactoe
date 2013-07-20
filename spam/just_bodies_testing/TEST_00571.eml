@@ -1,0 +1,32 @@
+EnlightenmentI finally let go of my Irix Magic desktop and window manager
+and evaluated several other window managers. Having lost my 10 years
+of customization with my X10 and then X11 desktop at one point
+at UCI, I promised myself that I'd never get attached to
+another WM.  I limped along in the default Gnome desktop, I
+had a few unsuccessful stabs at the Solaris open view 
+desktop, but nothing really stuck.   Because of this along
+with SGI's love of pre-configured, pre-compiled freeware[1],
+I never really made the jump from Irix to Linux either.  
+
+After installing the enlightenment WM, I have to say, I am
+really enlightened.  It's definitely a far cry from the no frills
+first look from previous versions.  It's only on version 0.17,[2]
+but it's a careful balance between simplicity, performance,
+(fun) features, applications, and ease of customization.  The
+number of themes they have on freshmeat is amazing. [3] After
+less than an hour or two of "nesting" I already have almost
+all my menus and controls setup just the way I want. 
+
+I definitely recommend this to any Irix desktop holdouts.  It's
+a great way to refresh your machine SGI without having to bite the
+bullet and rebuild it as a Linux machine. 
+
+Greg
+
+
+
+[1] http://freeware.sgi.com/
+[2] http://www.enlightenment.org/
+[3] http://themes.freshmeat.net/browse/60/?topic_id=60
+http://xent.com/mailman/listinfo/fork
+

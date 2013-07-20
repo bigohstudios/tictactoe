@@ -1,0 +1,133 @@
+X-Account-Key: account5
+X-UIDL: GmailId128cbfc89367d829
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs104007wfo;
+        Mon, 24 May 2010 13:24:05 -0700 (PDT)
+Received: by 10.141.53.10 with SMTP id f10mr4470623rvk.134.1274732644608;
+        Mon, 24 May 2010 13:24:04 -0700 (PDT)
+Return-Path: <objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id r27si6967228rvq.125.2010.05.24.13.24.04;
+        Mon, 24 May 2010 13:24:04 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 722F91C68C998
+	for <mlsubscriber.tech@csmining.org>; Mon, 24 May 2010 13:24:04 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 6D62E27E383F3
+	for <mlsubscriber.tech@csmining.org>; Mon, 24 May 2010 13:24:04 -0700 (PDT)
+X-Original-To: objc-language@lists.apple.com
+Delivered-To: objc-language@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 8D1D327E3817B
+	for <objc-language@lists.apple.com>;
+	Mon, 24 May 2010 13:23:40 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in11.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 65822DAE731F
+	for <objc-language@lists.apple.com>;
+	Mon, 24 May 2010 13:23:40 -0700 (PDT)
+X-AuditID: 11fe0d07-b7b3aae000004253-09-4bfae04bdaaf
+Received: from mail.coriolis-systems.com (stokes.coriolis-systems.com
+	[85.92.88.101])
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	B7.A3.16979.B40EAFB4; Mon, 24 May 2010 13:23:40 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.coriolis-systems.com (Postfix) with ESMTP id E0959286CB2;
+	Mon, 24 May 2010 21:23:37 +0100 (BST)
+X-Virus-Scanned: amavisd-new at coriolis-systems.com
+Received: from mail.coriolis-systems.com ([127.0.0.1])
+	by localhost (stokes.coriolis-systems.com [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with ESMTP id N5cum1XV7WAL; Mon, 24 May 2010 21:23:36 +0100 (BST)
+Received: from mail.coriolis-systems.com (localhost [127.0.0.1])
+	by mail.coriolis-systems.com (Postfix) with ESMTP id A49FD286C9C;
+	Mon, 24 May 2010 21:23:16 +0100 (BST)
+Authentication-Results: stokes.coriolis-systems.com; 
+X-DKIM-Authentication-Results: none
+Received: from [192.168.0.2] (94-194-24-220.zone8.bethere.co.uk
+	[94.194.24.220]) by mail.coriolis-systems.com (Postfix) with ESMTPSA;
+	Mon, 24 May 2010 21:23:16 +0100 (BST)
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: Alastair Houghton <alastair@alastairs-place.net>
+In-Reply-To: <8D62F1ED-8FF4-4BB4-8FF0-1FAB4B02F910@earthlink.net>
+Date: Mon, 24 May 2010 21:23:15 +0100
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <7F7D7A3D-8C34-4F45-95DC-C0BB31DED136@alastairs-place.net>
+References: <20100519021456.6E05C27C124F1@lists.apple.com>
+	<4BF487F7.2040007@mac.com>
+	<8DAB639D-3AFA-4ABE-AAAF-04D1F8566FD5@apple.com>
+	<6D2572D9-FD76-4188-8235-3DF9FD537457@earthlink.net>
+	<AANLkTikKV7gGSsp7AJi8E2mFeGWOQv4EX0cXXd-G7I2y@mail.csmining.org>
+	<AANLkTikcmSJxdB7uss6zGwVQjaBtKOid5Rm2hPwBGsX2@mail.csmining.org>
+	<AANLkTimtpRirXwYA8lQ9Dg5ARVrviL5Oj4XW0tgHinjB@mail.csmining.org>
+	<7A9A490D-AE88-4BE3-9765-D8301CC4D3E7@earthlink.net>
+	<AANLkTimHOsBFwXmRbqWYbOGY5aeaPqIRxrXIWTDzX5_T@mail.csmining.org>
+	<A09B682C-E53F-487C-8403-6A68BB2488A3@apple.com>
+	<8D62F1ED-8FF4-4BB4-8FF0-1FAB4B02F910@earthlink.net>
+To: Quincey Morris <quinceymorris@earthlink.net>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAA==
+Cc: Objective-C List <objc-language@lists.apple.com>
+Subject: Re: Nil messaging statement in "Cocoa Fundimentals
+	Guide"	misleading?
+X-BeenThere: objc-language@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Objective-C/C++ language development discussion list
+	<objc-language.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:objc-language@lists.apple.com>
+List-Help: <mailto:objc-language-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/objc-language>,
+	<mailto:objc-language-request@lists.apple.com?subject=subscribe>
+Sender: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: objc-language-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 24 May 2010, at 21:11, Quincey Morris wrote:
+
+> There remain 2 minor points of unclarity:
+>=20
+> 1. In the documentation we've been talking about:
+>=20
+> 	=
+http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/Obje=
+ctiveC/Articles/ocObjectsClasses.html#//apple_ref/doc/uid/TP30001163-CH11-=
+SW7
+>=20
+> there's no mention of the iPhone. I assume that the iPhone follows the =
+main set of rules, but even there it's a bit ambiguous. There's a =
+reference to the Mac OS ABI Function Call Guide for struct returns, but =
+no reference that would give an answer for the iPhone.
+>=20
+> 2. I can't find any Apple documentation that says whether the iPhone =
+data size model is LP64, ILP32 or something else. Am I just not looking =
+in the right places?
+
+The iPhone is ILP32---the ARM CPU core on which it depends is a 32-bit =
+architecture.  As for the ABI, it would be nice to have some =
+documentation for that, though given section 3.3.1 of the developer =
+agreement I don't hold out much hope.
+
+Kind regards,
+
+Alastair.
+
+--
+http://alastairs-place.net
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

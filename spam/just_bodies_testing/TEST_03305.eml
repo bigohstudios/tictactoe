@@ -1,0 +1,60 @@
+Re: Broken Debian's testing migration (grave bug in
+ module-init-tools)On Mon, 12 Apr 2010 06:07:08 -0400 (EDT), Sven Joachim wrote:
+> On 2010-04-12 11:19 +0200, Vincent Lefevre wrote:
+>> There's something broken in the design of Debian's migration to testing.
+>>
+>> A grave bug in the testing version of module-init-tools (3.12~pre2-1)
+>> was fixed several weeks ago, and the package was uploaded with
+>> urgency=high:
+>>
+>>  module-init-tools  (3.12~pre2-2) unstable; urgency=high
+>>
+>>    * Fixed an init scripts dependency loop introduced in -1. (Closes: #574535)
+>>
+>>  -- Marco d'Itri <md@linux.it>  Mon, 22 Mar 2010 12:21:18 +0100
+>>
+>> but it hasn't migrated to testing yet!
+>>
+>> The reason is a build failure on HPPA:
+>>
+>>   https://buildd.debian.org/build.php?arch=hppa&pkg=module-init-tools&ver=3.12~pre2-2
+>>
+>> Isn't it unacceptable that a problem on some platform blocks a fix
+>> for a grave bug?
+> 
+> This may not be acceptable for testing users, but the rules are pretty
+> clear: all release architectures must be in sync in testing.  This often
+> holds up important fixes for months.
+> 
+> The conclusion I had drawn from this long ago: don't use testing, it is
+> only meant to be a staging area for preparing the next release and not
+> as a distribution actually to be used by people, except during freezes
+> maybe.
+> 
+> Use stable or unstable instead, or a mixed testing/unstable system where
+> you upgrade packages that are broken in testing from unstable.
+
+As a user of one of the non-x86-derivative architectures (s390) I am
+grateful for this rule.  This rule is often the only thing that motivates
+package maintainers to fix the problem on my architecture.  Many package
+maintainers seem to have the attitude of "Who cares that it doesn't build
+on s390?  Nobody uses s390 anyway."  But some people do, such as yours
+truly.  And I care.  And that rule forces the package maintainer to fix
+the build problem on s390.  I am also subscribed to the debian-s390 list,
+and the package maintainers sometimes post on that list saying, in effect,
+"how can I fix this build problem?"  And sometimes, I've been able to
+help them.
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/156338502.2645521271087878019.JavaMail.root@md01.wow.synacor.com
+
+

@@ -1,0 +1,60 @@
+nvidia legacy driver//kernel 2.6.32 issuesFollowing "apt-get dist-upgrade" with debian squeeze i386, upgrading
+from kernel 2.6.30 to 2.6.32, the xserver was broken at "startx"
+because kernel compiled with gcc 4.3 while now gcc 4.4. I could only
+boot from previous 2.6.30 to have the xserver at startx.
+
+Following
+
+export CC=/usr/bin/gcc-4.3
+
+I reinstalled the nvidia driver "NVIDIA-Linux-x86-96.43.16-pk1.run"
+for my "GeForce2 MX200 (rev b2)", the driver installed correctly and
+was reconfigured correctly according to the nvidia installer messages,
+though, again, it works for 2.6.30, not for 2.6.32. Please see below
+the relevant portion of /var/log/Xorg.0.log:
+#############
+II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+(II) Module nvidia: vendor="NVIDIA Corporation"
+compiled for 4.0.2, module version = 1.0.0
+Module class: X.Org Video Driver
+(II) NVIDIA dlloader X Driver 96.43.16 Thu Jan 28 16:02:25 PST 2010
+(II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+(II) Primary Device is: PCI 01@00:00:0
+(II) Loading sub module "fb"
+(II) LoadModule: "fb"
+(II) Loading /usr/lib/xorg/modules/libfb.so
+(II) Module fb: vendor="X.Org Foundation"
+compiled for 1.7.6, module version = 1.0.0
+ABI class: X.Org ANSI C Emulation, version 0.4
+(II) Loading sub module "ramdac"
+(II) LoadModule: "ramdac"
+(II) Module "ramdac" already built-in
+(**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+(==) NVIDIA(0): RGB weight 888
+(==) NVIDIA(0): Default visual is TrueColor
+(==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+(**) NVIDIA(0): Enabling RENDER acceleration
+(II) NVIDIA(0): Support for GLX with the Damage and Composite X extensions is
+(II) NVIDIA(0): enabled.
+(EE) NVIDIA(0): Failed to load the NVIDIA kernel module!
+(EE) NVIDIA(0): *** Aborting ***
+(II) UnloadModule: "nvidia"
+(II) UnloadModule: "fb"
+(EE) Screen(s) found, but none have a usable configuration.
+#####
+
+With previous 2.6.30 I used successfully either the debian way or the
+nvidia installer (actually, I remained at the nvidia installer
+installation of the driver). Now I am using the 2.6.30 kernel with the
+installation for 2.6.32, which is too bad.
+
+thanks
+francesco pietra
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2zb87c422a1004060746vd49c2155w56727986b8267a18@mail.csmining.org
+
+

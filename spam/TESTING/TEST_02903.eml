@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId12888085ad04c785
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs72699wfb;
+        Tue, 11 May 2010 08:42:49 -0700 (PDT)
+Received: by 10.223.27.84 with SMTP id h20mr6462982fac.31.1273592568572;
+        Tue, 11 May 2010 08:42:48 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w14si11609423faj.90.2010.05.11.08.42.47;
+        Tue, 11 May 2010 08:42:48 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 78F8A2D0D00; Tue, 11 May 2010 15:42:42 +0000 (UTC)
+Old-Return-Path: <mh+debian-kde@zugschlus.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 075A82D0C8E
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 15:42:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id rynH0APlnod2 for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 15:42:28 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from torres.zugschlus.de (torres.zugschlus.de [85.214.68.41])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id B25042D0C3F
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 15:42:28 +0000 (UTC)
+Received: from mh by torres.zugschlus.de with local (Exim 4.69)
+	(envelope-from <mh+debian-kde@zugschlus.de>)
+	id 1OBrbG-0004JI-9v
+	for debian-kde@lists.debian.org; Tue, 11 May 2010 17:42:26 +0200
+Date: Tue, 11 May 2010 17:42:26 +0200
+From: Marc Haber <mh+debian-kde@zugschlus.de>
+To: debian-kde@lists.debian.org
+Subject: Re: What needs to improve in KDE 4?
+Message-ID: <20100511154226.GD15366@torres.zugschlus.de>
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org> <AANLkTikT9DpKjAvZ6Jlc_5Uf3Oz5ZI6ZLGORWXfZhvoE@mail.csmining.org> <201005110811.57482@fortytwo.ch> <201005110858.24240.cobaco@linux.be>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+In-Reply-To: <201005110858.24240.cobaco@linux.be>
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kk7UkDCG2pH.A.Wu.yrX6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32376
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 15:42:42 +0000 (UTC)
+
+Hi,
+
+On Tue, May 11, 2010 at 08:58:17AM +0200, cobaco wrote:
+> On Tuesday 11 May 2010, Adrian von Bidder wrote:
+> > On Monday 10 May 2010 18.12:46 Dotan Cohen wrote:
+> > > I started 4.4 on a new ~/.kde
+> > > folder, can you try in a new user profile and report back?
+> > 
+> > I hate it when this shows up.  Yes, it's probably easier to debug, but
+> > often bugs *do* show up that don't happen anymore when I remove my
+> > ~/.kde directory, but this doesn't really help the user who has the bug.
+> > Unfortunately, the end result is very often that removing ~/.kde and
+> > starting from scratch becomes the only solution that is "officially"
+> > recommended.
+> 
+> read remove as 'move temporarily out of the way', this is just the first 
+> step in localizing the problem: if it doesn't get rid of the problem then 
+> we've established conclusively that the bug is not triggered by something in 
+> your personal settings.
+
+Is it guaranteed that KDE doesn't store anything outside of ~/.kde so
+that a user doesn't risk things getting desynched if one exchanges one
+~/.kde with a different one?
+
+Greetings
+Marc
+
+-- 
+-----------------------------------------------------------------------------
+Marc Haber         | "I don't trust Computers. They | Mailadresse im Header
+Mannheim, Germany  |  lose things."    Winona Ryder | Fon: *49 621 72739834
+Nordisch by Nature |  How to make an American Quilt | Fax: *49 3221 2323190
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100511154226.GD15366@torres.zugschlus.de
+
+

@@ -1,0 +1,61 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)briand@aracnet.com put forth on 4/14/2010 10:35 PM:
+
+> running 2.6.32-trunk on an Atom/Intel board and I'm not seeing any
+> problems.
+
+Which 2.6.32?  Apparently this bug was fixed in 2.6.32-3.  I'm not sure if
+this firmware bug affected all RTL chips or even all RTL 8168/9 chips.
+Count yourself lucky.
+
+Here's the bug report:
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=561309
+
+> RTL8111/8168B is what's listed via lspci
+> 
+> I'm getting 1GB performance
+
+That's impossible.  GigE wire speed is 1Gb/s.  Please learn the difference
+between [B]yte and [b]it quantities.
+
+And, I guarantee you are not getting 1Gb/s transfers between hosts with RTL
+chips.  There's a big difference between link speed and data transmission
+speed/throughput.  I've seen guys with serious hardware horsepower not be
+able to get even close to 500Mb/s with RTL chips.  On the same machines,
+using an Intel GigE interface, they were getting over 900Mb/s.  Intel
+ethernet chips cost about 5 times what RTL chips do.  Performance is one of
+the reasons.
+
+> I do see the firmware messages:
+> 
+>   r8169 requesting rtl8169-1.fw
+> 
+> so I'm not sure why it doesn't seem to be a problem.
+
+You're probably running a kernel that has the patch, or a chip/driver combo
+that doesn't barf when the firmware can't be loaded because neither need
+that firmware.
+
+> There is a disturbing trend on the part of HW manufacturers to have
+> these customize firmware blobs, and that's not good.
+
+That's not the problem.  Firmware blobs are very necessary.  They allow
+manufacturers to fix flaws in hardware devices or introduce enhancements
+after they've already shipped the products.  Soft firmware blobs are a good
+thing.  There's nothing disturbing about it, but for your lack of
+understanding of the subject.  No offense intended, just stating facts.
+
+The problem is that Realtek apparently didn't release this particular
+firmware code under an appropriate free software license such as the GPL.
+This bug isn't technical in nature.  The fix is, but the cause isn't.  The
+cause is the fact that Realtek didn't make the firmware source "free".
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC69D69.9000308@hardwarefreak.com
+
+

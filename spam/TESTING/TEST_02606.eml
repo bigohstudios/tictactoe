@@ -1,0 +1,153 @@
+X-Account-Key: account5
+X-UIDL: GmailId127de2ae5da1f65c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs86125wfi;
+        Thu, 8 Apr 2010 09:05:05 -0700 (PDT)
+Received: by 10.140.56.7 with SMTP id e7mr525820rva.8.1270742705353;
+        Thu, 08 Apr 2010 09:05:05 -0700 (PDT)
+Return-Path: <augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 17si528822pzk.13.2010.04.08.09.05.05;
+        Thu, 08 Apr 2010 09:05:05 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 0296F1B86C0AC
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 09:05:05 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id ECA5326A0495B
+	for <mlsubscriber.tech@csmining.org>; Thu,  8 Apr 2010 09:05:04 -0700 (PDT)
+X-Original-To: augd@lists.apple.com
+Delivered-To: augd@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id 2585726A037DA
+	for <augd@lists.apple.com>; Thu,  8 Apr 2010 09:02:23 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id 14706C8920B6
+	for <augd@lists.apple.com>; Thu,  8 Apr 2010 09:02:23 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7c81ae0000050dc-8d-4bbdfe0e0f33
+Received: from eastrmmtao103.cox.net (eastrmmtao103.cox.net [68.230.240.9])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	44.47.20700.E0EFDBB4; Thu,  8 Apr 2010 09:02:22 -0700 (PDT)
+Received: from eastrmimpo03.cox.net ([68.1.16.126]) by eastrmmtao103.cox.net
+	(InterMail vM.8.00.01.00 201-2244-105-20090324) with ESMTP id
+	<20100408160221.KJGJ27114.eastrmmtao103.cox.net@eastrmimpo03.cox.net>
+	for <augd@lists.apple.com>; Thu, 8 Apr 2010 12:02:21 -0400
+Received: from [192.168.0.10] ([68.14.130.236])
+	by eastrmimpo03.cox.net with bizsmtp
+	id 342M1e00656A7JU0242Mtd; Thu, 08 Apr 2010 12:02:22 -0400
+X-VR-Score: -100.00
+X-Authority-Analysis: v=1.1 cv=garkv6WxUlWCZxlYffz6yNGlDVHTZyAXTUdcTJEJ4sc=
+	c=1 sm=1 a=h9m-dthZYbsA:10 a=kj9zAlcOel0A:10
+	a=JEONxbbMy1ReJCDTteGcUA==:17
+	a=t-IPkPogAAAA:8 a=n-kJSqksAAAA:8 a=aYikS_HKAAAA:8
+	a=RdWDvX57qNJRkscaC_IA:9
+	a=s5aTTrJ1uKKXPKp_rQUA:7 a=dfx2oRsysRC5fIRpz-6oBL3JgAsA:4
+	a=CjuIK1q_8ugA:10
+	a=XoMvLCtIVAMA:10 a=98jSFH7WqmUA:10 a=el6NKsKURnUA:10 a=HBZiNq8AZjsA:10
+	a=JEONxbbMy1ReJCDTteGcUA==:117
+X-CM-Score: 0.00
+User-Agent: Microsoft-Entourage/12.24.0.100205
+Date: Thu, 08 Apr 2010 12:02:20 -0400
+Subject: Re: AUGD: Displaying iPad at a meeting, what doesn't work
+From: Chris Hart <augd@chrishart.net>
+To: <augd@lists.apple.com>
+Message-ID: <C7E3764C.50C02%augd@chrishart.net>
+Thread-Topic: AUGD: Displaying iPad at a meeting, what doesn't work
+Thread-Index: AcrXNN448zqdCB9YXU29Y5BwlVhDTQ==
+In-Reply-To: <21E459A6-6241-406A-92F3-B8B2A7976F7F@mac.com>
+Mime-version: 1.0
+Content-type: text/plain;
+	charset="US-ASCII"
+Content-transfer-encoding: 7bit
+X-Brightmail-Tracker: AAAAAROep/A=
+X-BeenThere: augd@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "A place for Apple user group leaders and volunteers to exchange
+	ideas." <augd.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:augd@lists.apple.com>
+List-Help: <mailto:augd-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/augd>,
+	<mailto:augd-request@lists.apple.com?subject=subscribe>
+Sender: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: augd-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+Unfortunately, the video output of the iphone and the ipad does not mirror
+the main screen.
+
+It's essentially a secondary display output, which only shows content from
+apps that are specifically coded to recognize that secondary display.
+
+The itunes/ipod player and quicktime player do this and when you play a
+video clip, it shows up through the vga output.  But other than that, you
+will see nothing via the external connector.
+
+Our group has decided to start an iphone/ipad SIG, so we will also be
+looking for a permanent solution that will allow us to put the screens of
+these devices up on a projector.
+
+So I look forward to hearing further reports regarding the ichat method.
+
+Chris
+
+------------------
+
+Every time I post a message to this list I'm going to post a request for
+REPLY TO to be changed to Augd@lists.apple.com.  That's how mailing lists
+should work for the benefit of group discussion.
+
+-----------------
+
+
+
+___ Jerome King at <jwking@mac.com> wrote: ___
+
+> Yesterday, 4/7/10, was the regular Wednesday meeting of Naples MUG.  One of
+> our members offered to demonstrate her new iPad for the assembled group. (We
+> had 63 show up)
+> 
+> I had purchased the iPad to VGA adapter to drive the meeting rooms projector.
+> The adapter plugs into the dock connector of the iPad
+> 
+> Short story, the projector did NOT detect the iPad when connected.  (more
+> below) so we scrambled
+> 
+> Turned on iChat and selected ourself so the computer was in preview mode.
+> Expanded the video to full screen size and then focused on the iPad.
+> This worked quite well Except it was a reverse image of the iPad.
+> Next time will have to use a mirror OR find an effect setting for iChat that
+> is reverse.
+> 
+> Later one of the members found the following in the iPad manual on video.  the
+> VGA output only works for a couple of the applications, not all the time
+> 
+> Jerry King, President
+> Naples MacFriends User Group
+> 
+> 
+> 
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Augd mailing list      (Augd@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/augd/augd%40chrishart.net
+> 
+> This email sent to augd@chrishart.net
+> 
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Augd mailing list      (Augd@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/augd/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

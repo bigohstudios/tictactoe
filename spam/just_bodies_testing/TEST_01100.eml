@@ -1,0 +1,21 @@
+Creating a debian local mirror from 5 debian DVDsHi all,
+I want to do mass network installation using pxe boot and using a local
+debian mirror. However I don't want to download the files from a debian
+mirror to create a local one? Is it possible to create a mirror using
+the 5 DVDs of debian that I have? I tried using the option
+'debian-installer/allow_unauthenticated=true' in pxelinux.cfg/default
+file, but I get a 'bad archive mirror' error. How to work around this
+problem?
+
+Thank you.
+
+Regards,
+Guruprasad
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD95709.1050302@csmining.org
+
+

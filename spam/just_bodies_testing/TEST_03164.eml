@@ -1,0 +1,55 @@
+Unable to find growisofs executable . . . Hi,
+~
+ I am using knoppix 5.1.1 based on kernel version 2.6.19 (resembking
+kubuntu dapper):
+~
+$ dmesg | grep "Linux version"
+Linux version 2.6.19 (root@Knoppix) (gcc version 4.1.2 20061028
+(prerelease) (Debian 4.1.1-19)) #7 SMP PREEMPT Sun Dec 17 22:01:07 CET
+2006
+~
+ and I recently installed a DVD burner, model: LiteOn iHAS424-98 Y
+~
+$ dmesg | grep DVD
+hda: HL-DT-ST DVDRAM GSA-H42N, ATAPI CD/DVD-ROM drive
+hda: ATAPI 48X DVD-ROM DVD-R-RAM CD-R/RW drive, 2048kB Cache
+~
+ the LiteOn DVD burner I installed as a SATA device. However it
+somehow shows as an hda one apparently sharing the same device as the
+IDE CD/DVD-ROM combo that I had. Why is that?
+~
+ I have also noticed errors/warnings
+~
+$ sudo k3b
+ERROR: Communication problem with k3b, it probably crashed.
+$ Error: "/var/tmp/kdecache-knoppix" is owned by uid 1000 instead of uid 0.
+Link points to "/var/tmp/kdecache-root"
+Error: "/tmp/kde-knoppix" is owned by uid 1000 instead of uid 0.
+Link points to "/tmp/kde-root"
+Error: "/tmp/ksocket-knoppix" is owned by uid 1000 instead of uid 0.
+Link points to "/tmp/ksocket-root"
+~
+ which you avoid by starting k3b as kde superuser
+~
+$ sudo k3b
+~
+ however you get errors complaining about an "growisofs executable" ...
+~
+System configuration problems:
+Unable to find growisofs executable
+K3b uses growisofs to actually write dvds. Without growisofs you won't
+be able to write dvds. Make sure to install at least version 5.10.
+Solution: Install the dvd+rw-tools package.
+~
+ How can I troubleshoot all of that/use my DVD burner?
+~
+ Thank you
+ lbrtchx
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2l9ef66fac1005060602s12d550adt63b902b2f029fd7e@mail.csmining.org
+
+

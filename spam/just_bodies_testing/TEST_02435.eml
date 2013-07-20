@@ -1,0 +1,60 @@
+Re: Icedove/Thunderbird 3.0 (was Re: The future of "nv" ...)On 04/25/2010 09:56 AM, Dotan Cohen wrote:
+>>> Lots of other issues, such as the message header being huge, are taken
+>>> care of in addons. And lots of Tb2 bugs are fixed in Tb3 (such as the
+>>> invalid server cert issue).
+>>
+>> But Tbird/ID 2.0.x (the layout and UI) was *not* broken!
+>>
+>
+> What is "broken"? What would you say if an Ubuntard posted saying that
+> his OS is broken? Would you even answer the post? What issues do you
+> have? What is not intuitive? What doesn't work as you expect?
+>
+
+Why else would "they" have made the radical UI changes unless "they" 
+thought the traditional UI was broken (i.e. substantialy flawed)?
+
+>>> What issues do you have? I can point you to the bugs, and I can help
+>>> suggest addons.
+>>
+>> It's "different" for *no ascertainable reasons*.
+>>
+>
+> You might want to try Help ->  Migration Assistant ->  Use Original Toolbar
+> That might be more familiar to you.
+>
+
+I'd already done that, but decided to take another look at MA, and 
+thus disabled "Smart folders mode".
+
+>> Fix what *is* broken, not what's not broken.
+>>
+>
+> The problem is that no two people agree on what needs changing. I
+> suggest that you look at the Muttator extensioin, then you can safely
+> ignore most of the Thunderbird UI.
+>
+
+Jeez, everyone know that *my* opinion is the only one that counts!
+
+>> The same with FireFox/Iceweasel.  Major UI and add-on redesigns in an
+>> upcoming version, but the UI is fine just like it is.
+>>
+>
+> The Firefox UI didn't really change all that much.
+>
+
+Not in v3.6, but it's coming.
+
+https://wiki.mozilla.org/Firefox/Projects/3.7_and_4.0_Theme_and_UI_Revamp/Direction_and_Feedback
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD45D27.6090409@cox.net
+
+

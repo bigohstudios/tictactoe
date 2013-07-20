@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId127d9ffd804fb4f5
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.3.20 with SMTP id f20cs45137wfi;
+        Wed, 7 Apr 2010 13:39:36 -0700 (PDT)
+Received: by 10.87.58.37 with SMTP id l37mr14456755fgk.21.1270672775452;
+        Wed, 07 Apr 2010 13:39:35 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 24si15481877fxm.13.2010.04.07.13.39.34;
+        Wed, 07 Apr 2010 13:39:35 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 09EF213A626E; Wed,  7 Apr 2010 20:39:29 +0000 (UTC)
+Old-Return-Path: <westk@acu.edu>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.0 required=4.0 tests=BLOGSPOT,LDOSUBSCRIBER,
+	LDO_WHITELIST autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 1203913A5B69
+	for <lists-debian-user@liszt.debian.org>; Wed,  7 Apr 2010 20:39:23 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-3.5 tagged_above=-10000 required=5.3
+	tests=[BAYES_05=-1.5, BLOGSPOT=3, LDO_WHITELIST=-5] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id q50-5It8Ieee for <lists-debian-user@liszt.debian.org>;
+	Wed,  7 Apr 2010 20:39:16 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -7
+X-Greylist: delayed 1862 seconds by postgrey-1.31 at liszt; Wed, 07 Apr 2010 20:39:15 UTC
+Received: from martha2.acu.edu (martha2.acu.edu [150.252.134.39])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id E145B13A5ADF
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 20:39:15 +0000 (UTC)
+Received: from [150.252.146.204] (unknown [150.252.146.204])
+	by martha2.acu.edu (Postfix) with ESMTP id 4E2DD28F29
+	for <debian-user@lists.debian.org>; Wed,  7 Apr 2010 15:07:58 -0500 (CDT)
+Message-ID: <4BBCE69D.3040308@acu.edu>
+Date: Wed, 07 Apr 2010 15:10:05 -0500
+From: Kent West <westk@acu.edu>
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090706)
+MIME-Version: 1.0
+To: debian users <debian-user@lists.debian.org>
+Subject: OT: Script to add line to file if it doesn't exist
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <6mTLuPRZP-I.A.X9E.A2OvLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/573543
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  7 Apr 2010 20:39:29 +0000 (UTC)
+
+I'm asking you folks, 'cause y'all know this stuff (I've been wrestling 
+with this simple task all day).
+
+I've got a text file; I just want a script (a one-liner sed or awk 
+command, etc, would be awesome) to check to see if the file contains a 
+certain line of text, and if not, to add that line at the bottom of the 
+file.
+
+For example, say the file has these four lines in it:
+
+john
+mary
+fred
+martin
+
+I want a script that will read the file and look for the name "fred", 
+and if it's found, leave the file alone, but if it's not found, to add 
+the name "fred" to the bottom of the file.
+
+Any help appreciated. Thanks!
+
+-- 
+Kent West        <")))><
+http://kentwest.blogspot.com
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBCE69D.3040308@acu.edu
+
+

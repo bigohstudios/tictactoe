@@ -1,0 +1,29 @@
+Re: Encryption approach to secure web applicationsHi,
+
+Thank you for the useful replies, I have found some interesting 
+tutorials in the ibm developer connection.
+
+https://www6.software.ibm.com/developerworks/education/j-sec1
+
+and
+
+https://www6.software.ibm.com/developerworks/education/j-sec2
+
+Registration is needed.
+
+I will post the same message on the Web Application Security list, as 
+suggested by someone.
+
+For now, I thing I will use md5 for password checking (I will use the 
+approach described in secure programmin fo linux and unix how-to).
+
+I will separate the authentication module, so I can change its 
+implementation at anytime.
+
+Thank you again!
+
+Mario Torre
+-- 
+Please avoid sending me Word or PowerPoint attachments.
+See http://www.fsf.org/philosophy/no-word-attachments.html 
+

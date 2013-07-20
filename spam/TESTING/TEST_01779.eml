@@ -1,0 +1,169 @@
+X-Account-Key: account5
+X-UIDL: GmailId1281afd0d37b4eda
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs65145wfj;
+        Tue, 20 Apr 2010 04:32:06 -0700 (PDT)
+Received: by 10.223.5.70 with SMTP id 6mr1060035fau.18.1271763110974;
+        Tue, 20 Apr 2010 04:31:50 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 1si2087117fks.24.2010.04.20.04.31.50;
+        Tue, 20 Apr 2010 04:31:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B79C113A473F; Tue, 20 Apr 2010 11:31:44 +0000 (UTC)
+Old-Return-Path: <storm16@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-7.9 required=4.0 tests=FOURLA,GMAIL,HTML_MESSAGE,
+	LDOSUBSCRIBER,LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 507BF13A4734
+	for <lists-debian-user@liszt.debian.org>; Tue, 20 Apr 2010 11:31:38 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, HTML_MESSAGE=1,
+	LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id Xkp4mabmfChH for <lists-debian-user@liszt.debian.org>;
+	Tue, 20 Apr 2010 11:31:31 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by liszt.debian.org (Postfix) with ESMTP id DC2EE13A4729
+	for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 11:31:30 +0000 (UTC)
+Received: by gya1 with SMTP id 1so2867936gya.6
+        for <debian-user@lists.debian.org>; Tue, 20 Apr 2010 04:31:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:cc:content-type;
+        bh=9AHR6ZWBmxMynpESwybI4MnlXNqEv93qwOhGMj84yjU=;
+        b=un4lMdwkbXlWipOIzmfCWUVF4CcPE7sjqeBxPXGM55f8Tx9ptlGVdf8g1zv+aDgPrQ
+         DFtVyTiGmolksbRgv9nsneVADmdiF+fUWApcNnAUddbcUjpW/KWITqhPt5mCsnoGKZJi
+         jL5EU/44IAJAQiOW10VEOacOBuSAcYqecBuq4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        b=Abo7gt1heU1VdIsN0X47opLLyUMwgUXKzotJ/Rgswyuo1+f/BL5im+tV8SXmBhdjxy
+         aoB6OwMrgZkTFvr+m+ZV+InXbHA9Exw6tb9ZZWTc25j3Xie1X0yy9aaUXX3ru5PQcC2k
+         SdhOHeGjVaEJS7uxxUs1SqI7TXTw7R06o0MLI=
+MIME-Version: 1.0
+Received: by 10.150.216.9 with HTTP; Tue, 20 Apr 2010 04:31:23 -0700 (PDT)
+In-Reply-To: <4BCD4E4F.3040506@csmining.org>
+References: <y2j258ced3f1004190616w857c5c27ya8616bf0a36bfea8@mail.csmining.org>
+	 <4BCD4E4F.3040506@csmining.org>
+Date: Tue, 20 Apr 2010 07:31:23 -0400
+Received: by 10.150.251.17 with SMTP id y17mr7111582ybh.283.1271763083399; 
+	Tue, 20 Apr 2010 04:31:23 -0700 (PDT)
+Message-ID: <t2o258ced3f1004200431s3f9647a3maed4a92225ca8953@mail.csmining.org>
+Subject: Re: Increasing number of conflicts
+From: "B. Alexander" <storm16@csmining.org>
+To: Jimmy Johnson <field.engineer@csmining.org>
+Cc: debian-user@lists.debian.org
+Content-Type: multipart/alternative; boundary=000e0cd6e752d313470484a96a26
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <yhkktodytDO.A.AqF.gCZzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574529
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 20 Apr 2010 11:31:44 +0000 (UTC)
+
+--000e0cd6e752d313470484a96a26
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Tue, Apr 20, 2010 at 2:48 AM, Jimmy Johnson <field.engineer@csmining.org>wrote:
+
+> B. Alexander wrote:
+>
+>> I've got an issue with a sid box that I have been maintaining for a while.
+>> This is my workstation, and I have noticed a growing number of broken
+>> packages, unmet dependencies and conflicts. I have been using safe-upgrade
+>> for months now, hoping that it would work itself out over time. However,
+>> this hasn't happened. So what can I do to fix the problems without losing
+>> functionality? Below is the result of aptitude full-upgrade (forgive the
+>> cut-and-paste):
+>> SNIP< Thanks,
+>>
+>
+>
+> I'm using KDE and it's fully up-to-date with no broken packages, your
+> problem seems to be that you are holding obsolete/orphan packages, you may
+> want to use Synaptic to look at your system and do some investigating as to
+> why dependence are not being met.
+
+
+This was sage advice, Jimmy. I had never used Synaptic much before, but the
+local or obsleted tab in conjunction with searching dpkg -l is a boon.
+
+In my case, it appears the root of the problems are caused by bitrot. I
+probably need to come up with some method of rebuilding my sid boxes every
+so often. Prior to this, my rebuilds were done in 2000 and 2007...Maybe if I
+am going to run sid, I need to plan for an annual rebuild of the system...At
+least the workstations...
+
+--b
+
+--000e0cd6e752d313470484a96a26
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">On Tue, Apr 20, 2010 at 2:48 AM, Jimmy J=
+ohnson <span dir=3D"ltr">&lt;<a href=3D"mailto:field.engineer@csmining.org">fi=
+eld.engineer@csmining.org</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_=
+quote" style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0pt =
+0pt 0.8ex; padding-left: 1ex;">
+B. Alexander wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"border-left: 1px solid rgb(204, =
+204, 204); margin: 0pt 0pt 0pt 0.8ex; padding-left: 1ex;"><div class=3D"im"=
+>
+I&#39;ve got an issue with a sid box that I have been maintaining for a whi=
+le. This is my workstation, and I have noticed a growing number of broken p=
+ackages, unmet dependencies and conflicts. I have been using safe-upgrade f=
+or months now, hoping that it would work itself out over time. However, thi=
+s hasn&#39;t happened. So what can I do to fix the problems without losing =
+functionality? Below is the result of aptitude full-upgrade (forgive the cu=
+t-and-paste):<br>
+</div>
+SNIP&lt; Thanks,<br>
+</blockquote>
+<br>
+<br>
+I&#39;m using KDE and it&#39;s fully up-to-date with no broken packages, yo=
+ur problem seems to be that you are holding obsolete/orphan packages, you m=
+ay want to use Synaptic to look at your system and do some investigating as=
+ to why dependence are not being met.=A0</blockquote>
+</div><br>This was sage advice, Jimmy. I had never used Synaptic much befor=
+e, but the local or obsleted tab in conjunction with searching dpkg -l is a=
+ boon.<br><br>In my case, it appears the root of the problems are caused by=
+ bitrot. I probably need to come up with some method of rebuilding my sid b=
+oxes every so often. Prior to this, my rebuilds were done in 2000 and 2007.=
+..Maybe if I am going to run sid, I need to plan for an annual rebuild of t=
+he system...At least the workstations...<br>
+<br>--b<br>
+
+--000e0cd6e752d313470484a96a26--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2o258ced3f1004200431s3f9647a3maed4a92225ca8953@mail.csmining.org
+
+

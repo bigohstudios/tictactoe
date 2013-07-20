@@ -1,0 +1,83 @@
+X-Account-Key: account5
+X-UIDL: GmailId12800e6965680a82
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs53020wfa;
+        Thu, 15 Apr 2010 02:57:12 -0700 (PDT)
+Received: by 10.103.133.4 with SMTP id k4mr5024427mun.10.1271325431602;
+        Thu, 15 Apr 2010 02:57:11 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id j10si6956296muh.28.2010.04.15.02.57.11;
+        Thu, 15 Apr 2010 02:57:11 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5BB5713A5139; Thu, 15 Apr 2010 09:57:01 +0000 (UTC)
+Old-Return-Path: <jsullivan@opensourcedevel.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-11.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6779E13A50A0
+	for <lists-debian-user@liszt.debian.org>; Thu, 15 Apr 2010 09:56:55 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-7 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id yGyfo331txmk for <lists-debian-user@liszt.debian.org>;
+	Thu, 15 Apr 2010 09:56:48 +0000 (UTC)
+X-policyd-weight:  DYN_NJABL=ERR(0) NOT_IN_SBL_XBL_SPAMHAUS=-1.5 NOT_IN_BL_NJABL=-1.5 DSBL_ORG=ERR(0) CL_IP_EQ_HELO_IP=-2 (check from: .opensourcedevel. - helo: .mout.perfora. - helo-domain: .perfora.)  FROM/MX_MATCHES_NOT_HELO(DOMAIN)=0; rate: -5
+Received: from mout.perfora.net (mout.perfora.net [74.208.4.194])
+	by liszt.debian.org (Postfix) with ESMTP id AFEA813A5584
+	for <debian-user@lists.debian.org>; Thu, 15 Apr 2010 09:56:35 +0000 (UTC)
+Received: from [192.168.223.100] (cpe-74-75-231-235.maine.res.rr.com [74.75.231.235])
+	by mrelay.perfora.net (node=mrus4) with ESMTP (Nemesis)
+	id 0LkfVM-1NRv3p23hU-00aSYa; Thu, 15 Apr 2010 05:56:30 -0400
+Subject: acroread not seeing printers
+From: "John A. Sullivan III" <jsullivan@opensourcedevel.com>
+To: debian-user@lists.debian.org
+Content-Type: text/plain
+Date: Thu, 15 Apr 2010 05:56:44 -0400
+Message-Id: <1271325404.4177.5.camel@Family.pacifera.com>
+Mime-Version: 1.0
+X-Mailer: Evolution 2.22.3.1 
+Content-Transfer-Encoding: 7bit
+X-Provags-ID: V01U2FsdGVkX19/bczfNXzOeXUaGCw8fpIJ6dRP3Sa6+d2jx+a
+ IAGITEUc65BVxGVG2to5JxNJCGcZ8z7gEG5MyHrNgZyjI8XK0O
+ faiR5HOjRpvmw84kSgGIsSRjiz/JzDXijZ4UR9/XDg=
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <3gHHk3RYXxB.A.lvB.tLuxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574132
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu, 15 Apr 2010 09:57:01 +0000 (UTC)
+
+Hello, all.  We've installed acroread 8.1.7-0.1 from debian-multimedia.
+It is not seeing any of the printers on our cups print server.  It just
+shows the custom lpr printer.  How do we get it to see our printers like
+all the other applications in our KDE setup do? We are running Lenny +
+backports.  Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271325404.4177.5.camel@Family.pacifera.com
+
+

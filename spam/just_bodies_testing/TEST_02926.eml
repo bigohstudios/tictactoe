@@ -1,0 +1,28 @@
+Re: [SAdev] 2.40: ready for release?Justin Mason wrote:
+
+> What do you all think?  are we ready to go?  anyone run into any trouble
+> with the new autoconf code, or found a bug from the merge of that spamc
+
+I am now preparing a small patch to configure.in for NetBSD (possibly
+also useful for Open- and FreeBSD, don't know). Should be ready and
+tested in the next half hour.
+
+If you think 2.40 is ready, I would suggest to wait just 24 hours more
+for possible reports by b2_4_0 users. Not everyone can follow the
+development during daytime (at work).
+
+
+ciao
+     Klaus
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

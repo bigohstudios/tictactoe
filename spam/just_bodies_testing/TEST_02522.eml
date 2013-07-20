@@ -1,0 +1,29 @@
+How to set high-quality flag on DV movies in QTX?DV compressed movies often play fuzzy, as every other line is thrown  
+out.
+On QT Player Pro, you could set the High Quality flag to eliminate  
+this, in Window>Show Movie Properties, Video Track, Visual Settings,  
+check High Quality.
+Then it was possible to also do it if you did not have QT Player Pro,  
+by setting Preferences> Use high-quality  video setting when available.
+It seems that in QuickTime Player 10 there does not seem to be any way  
+to do this.
+There was a free utility, HiQual
+http://www.synthetic-ap.com/products/hiq/index.html
+that could set the high quality flag, but it does not work in OSX 10.6
+Anyone have any ideas how to set the high quality flag in Snow  
+Leopard, for free, or to get DV encoded movies to play in high quality  
+in QT 10?
+(Assuming you don't have QT 7 Player Pro to set it)
+
+Thanks,
+Frank Fulchiero
+Digital Media Specialist
+Connecticut College
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

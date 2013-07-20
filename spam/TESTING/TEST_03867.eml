@@ -1,0 +1,114 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b6f59026b8054
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs24429wfo;
+        Thu, 20 May 2010 11:24:27 -0700 (PDT)
+Received: by 10.223.77.86 with SMTP id f22mr393861fak.49.1274379866158;
+        Thu, 20 May 2010 11:24:26 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id e19si261575fai.48.2010.05.20.11.24.25;
+        Thu, 20 May 2010 11:24:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B54AA13A52BB; Thu, 20 May 2010 18:24:23 +0000 (UTC)
+Old-Return-Path: <dsalva@gmx.de>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=0.0 required=4.0 tests=none autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D26B413A51D5
+	for <lists-debian-kde@liszt.debian.org>; Thu, 20 May 2010 18:07:17 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-2 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id EyY0h6hFQJff for <lists-debian-kde@liszt.debian.org>;
+	Thu, 20 May 2010 18:07:10 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.1
+Received: from lilly.ping.de (lilly.ping.de [83.97.42.2])
+	by liszt.debian.org (Postfix) with SMTP id 822AD13A523C
+	for <debian-kde@lists.debian.org>; Thu, 20 May 2010 18:07:10 +0000 (UTC)
+Received: (qmail 854 invoked by uid 10); 20 May 2010 18:07:07 -0000
+Received: from ping.de by lilly.ping.de with BSMTP (rgsmtp-qm-ot 0.6) for <debian-kde@lists.debian.org>; 20 May 2010 18:07:07 -0000
+Received: (Debian Exim 4.69)
+	id 1OF9cq-00025s-5e
+	for debian-kde@lists.debian.org; Thu, 20 May 2010 19:33:40 +0200
+Date: Thu, 20 May 2010 19:33:40 +0200
+From: Dirk Salva <dsalva@gmx.de>
+To: debian-kde@lists.debian.org
+Subject: Re: How to get kdict or aequivalent in KDE4 / Squeeze?
+Message-ID: <20100520173340.GD7888@dserver.dnetz>
+Mail-Followup-To: debian-kde@lists.debian.org
+References: <20100517172053.GA8454@dserver.dnetz> <201005200004.51323.modestas@vainius.eu> <20100519221745.GB13575@dserver.dnetz> <201005200236.08563.modestas@vainius.eu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-15
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <201005200236.08563.modestas@vainius.eu>
+X-No-Archive: Yes
+X-Heimat: dnetz
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <gpkJaPloyMP.A.LxF.X5X9LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32487
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Thu, 20 May 2010 18:24:23 +0000 (UTC)
+
+On Thu, May 20, 2010 at 02:35:59AM +0300, Modestas Vainius wrote:
+> On ketvirtadienis 20 Gegu¸e 2010 01:17:45 Dirk Salva wrote:
+> > On Thu, May 20, 2010 at 12:04:50AM +0300, Modestas Vainius wrote:
+> > > Just FYI, there is no kicker in KDE 4. The closest equivalent to it is
+> > > Plasma panel widget. But contrary to KDE 3 design, you may place plasma
+> > > widget anywhere on your desktop including panel.
+> > Yes. And that's the reason why I'm trying Gnome at the moment...
+> I don't understand why more flexibility in this particular case could be the 
+> reason,
+
+That's mostly simple: maybe that there is "more flexibility", but I do
+not need and I do not want "more flexibility". Flexibility in my view
+is to choose myself what I need and what don't. And not let the
+developers choose. And since the last update I must install an
+SQL-Server even though I do not need it as I do not need the
+funcionality that depends on the database-server.
+KDE 3.5... from Lenny worked _perfectly_ for me. I am missing my kdict,
+I am missing to "opt-out" the gkrellm's from the task-changer (with
+Alt-Tab). And why is KDE4 not able to stretch the 2560x1024-pic over my
+two xinerama-screens? I upsets the big picture always to one of the
+screens. That's absolutely awful:-(
+
+
+> but I hope gnome will serve your needs well.
+I will try... Perhaps I have to try another desktop-manager, perhaps in
+a few years, when the KDE-developers have learned that their opinion is
+not compulsively the opinion of the customer, I'll come back to KDE.
+But at the moment I am _very_ disappointed from KDE4.
+
+
+ciao, Dirk
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100520173340.GD7888@dserver.dnetz
+
+

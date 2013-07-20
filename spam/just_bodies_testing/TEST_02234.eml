@@ -1,0 +1,45 @@
+Re: [l7-filter-developers] Update on migration to ClearFoundationJames King wrote:
+> On Tue, May 4, 2010 at 1:37 PM, Peter Baldwin
+> <pbaldwin@clearfoundation.com> wrote:
+>> Hello l7-filter members.
+>>
+>> This is just an update on how things are moving along with the l7-filter
+>> project changes.
+>>
+>> SVN Import
+>> ----------
+>>
+>> The l7-filter source code has been imported into SVN.  Darryl took the
+>> time and effort to create the repository with change history intact.
+>> Feel free to take a look at the results:
+>>
+>> http://code.clearfoundation.com/svn/listing.php?repname=l7-filter
+> 
+> This looks great, thanks for all the effort here!  A couple questions:
+> 
+> -One thing that's been bugging me for a while about the kernel version
+> is the lumping of the xt_layer.* and reg* files into the monolithic
+> patch.  Any chance of separating these into standalone files (leaving
+> just the part that actually patches existing files) and updating the
+> installation instructions to just copy the files to their proper place
+> instead?  This would make submitting and merging patches much easier.
+
+That sounds reasonable to me and it's certainly the patch policy we use 
+for other upstream projects.
+
+> -Will these mailing lists be going away at some point, or will
+> ClearFoundation continue to use them?
+
+I think we'll keep using the SourceForge mailing lists for now.  The 
+other option is to move them to the ClearFoundation mailing lists server.
+
+Cheers,
+Pete
+
+
+------------------------------------------------------------------------------
+_______________________________________________
+l7-filter-developers mailing list
+l7-filter-developers@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/l7-filter-developers
+

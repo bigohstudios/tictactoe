@@ -1,0 +1,54 @@
+Re: Migrate OS to smaller drive?From nobody Sat Jul 20 14:17:31 2013
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson schreef:
+> On 2010-04-12 03:14, Sjoerd Hardeman wrote:
+>> Ron Johnson schreef:
+>>> On 2010-04-11 15:54, Sjoerd Hardeman wrote:
+>>>> Ron Johnson schreef:
+>>>>> On 2010-04-11 08:11, Clive McBarton wrote:
+>>>>>> Sjoerd Hardeman wrote:
+>>>>>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>>>>>  rsync -ax / /media/newdevice.
+>>>>>> What exactly is the advantage of this approach over "cp -a" or "mv=
+"?
+>>>>>>
+>>>>>> I would have suggested mv. It has the useful property that you can=
+
+>>>>>> easily spot aborted transfers by the fact that the original device=
+ is
+>>>>>> not empty afterwards.
+>>>>> One note is that I've had issues where symlinks remain pointing to =
+
+>>>>> the old drive.  (That was a long time ago, though, and maybe I did =
+
+>>>>> something
+>>>>> wrong.)
+>>>> I thought symlinks keep point via a file location memo, like "look a=
+t
+>>>> /usr/share/the/file/you/want", which is the old location just after
+>>>> copying, but the new location when you boot from your new device and=
+
+>>>> that becomes root.
+>>>>
+>>>
+>>> Note how at the bottom or this example bar/shoe still points to=20
+>>> ../snuffle/shoe/.  When you try to "cp -axv / /some/new/root" the=20
+>>> same thing will happen.   In /usr/bin all the symlinks to=20
+>>> /etc/alternatives will still point to the *current* /etc/alternatives=
+=20
+>>> not to /some/new/root/etc/alternatives.
+>> As expected, thus. So when change your fstab to let /some/new/root=20
+>> become / then all the symlinks are as they should be.
+>>
+>=20
+> There's only one way to find out...
+Well, I once migrated with these options from an almost broken hard=20
+drive to a working one, and I didn't run into problems with symlinks. SO =
+
+most likely, "it just works"
+
+Sjoerd
+
+

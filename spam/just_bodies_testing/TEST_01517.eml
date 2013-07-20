@@ -1,0 +1,25 @@
+Re: a submissionFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri,23.Apr.10, 10:02:12, Jordan Metzmeier wrote:
+> On Fri, Apr 23, 2010 at 9:12 AM, IAN DELANEY <johneed@hotmail.com> wrote:
+> > I think this version of reportbug doesn't get to submit the bug.=A0 Can=
+ you
+> > take this as a bug and post it please.
+>=20
+> Assuming you mean that it did not send the email, are you sure your
+> system's MTA is properly configured?
+
+An MTA is not even necessary:
+
+,----[ ~/.reportbugrc ]
+| smtphost reportbug.debian.org
+`----
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

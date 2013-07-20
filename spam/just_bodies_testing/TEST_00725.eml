@@ -1,0 +1,27 @@
+OT:Script idea/problemHi,
+Here is my idea:
+First, in my village, I 'convert' quiet a few people (about 15 boxes) to use 
+Debian. They  are rather happy about it, but I have a problem with update/ 
+upgrade: they never know when they should do one. Most of them don't read 
+English, so subscribing them to debian security mailing list would not help. 
+And most of the time they would not know if the package(s) listed is/are in 
+their box. But kmail (and certainly other mail client) can run some script 
+according to the sender address. So, if we had a script that can read the 
+subject of mail coming from debian security, -- they always have the same 
+layout : [SECURITY] [DSA 2029-1] New <packagename> packages fix....--then 
+compare the package incriminated with the packages installed in their box, and 
+keep the mail if the package is present, otherwise trash it. I think they will 
+be able to see it is a mail from security and that they have to update their 
+machine.
+So, if someone could help me to put that script together it will be a big 
+help. I have done a bit of programming so time ago in Turbo Pascal and in asme 
+(old time....). 
+Thierry
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004080159.26491.tchatelet@free.fr
+
+

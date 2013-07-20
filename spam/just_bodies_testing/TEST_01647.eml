@@ -1,0 +1,101 @@
+KDE 4.4.3 upgrade eats 141 MB of /homeFolks,
+
+I've looked around the "KDE 4.4.3 in unstable" thread and elsewhere, and I
+didn't see this specific issue come up, although I think it's generally
+well known.
+
+In any event, I upgraded my unstable machine today, which was a few weeks
+behind, and it pulled in KDE 4.4.3.  First thing I noticed was my home
+directory was less 141 MB.  Furthermore, if I create a new user account,
+and do nothing but login and logout of a KDE desktop, the home directory
+takes up 141 MB with no real data!
+
+I'll be frank for a moment.  Regardless of whatever technical issues have
+arisen in recent history, it is _simply unacceptable_ that a system upgrade
+should suddenly eat 141 of /home, especially without warning!.  It is
+similarly unacceptable that a new, empty user account also takes up this
+much space.  I know disk space is cheap and plentiful these days, and that
+Google is willing to store 7453.767074 MB of my email, but certainly I must
+not be alone in the belief that an empty user account taking up 141 MB of
+disk space is absurd.
+
+Alright, so here's the backstory:
+
+KDE 4 uses Akonadi as its PIM storage backend.  Akonadi, at least in
+unstable, only supports MySQL (and PostgreSQL) as backends.  And the
+default configuration of Akonadi is to run a per-user instance of MySQL
+with InnoDB tables with two 64 MB transaction logs.  Apparently such has
+been the case for a while, and anyone who has been using KDE PIM
+applications has probably noticed such.
+
+But I _don't_ use KDE PIM!  I don't even have kdepim installed.
+
+The only reason why I even have akonadi-server and mysql-server-core
+installed is because kde-minimal ultimately depends on them, and I'd rather
+not micromanage my KDE packages.
+
+In any event, Akonadi is a known problem, and many folks are unhappy about
+kdepim 4.4's inclusion in squeeze, etc.  It's not worth going into that
+here.
+
+Point is, up until now, folks who didn't use KDE PIM applications never had
+to worry about akonadi/mysql/141 MB.  But apparently in KDE 4.4,
+kres-migrator automatically migrates the old KResource mechanism to an
+Akonadi-backed data store.  Thus burdening every KDE user, including brand
+new user accounts, with akonadi/mysql/141 MB less disk space.  I suppose
+that's "fine" for anyone who might actually benefit from it--although I
+consider it a blatant waste of disk space.  But it's surprising at best,
+and downright aggravating at worse, to those of us who are trying to avoid
+this entire mess.
+
+In any event, this problem can be avoided by simply running "kwriteconfig
+--file kres-migratorrc --group Migration --key Enabled --type bool false"
+[1] prior to upgrading to KDE 4.4, or prior to running "startkde" as a new
+user account, although the latter results in the KDE 3 => 4 migration
+dialog popping up.
+
+There's a couple solutions to this problem.
+
+- Long term: Don't use MySQL as the default Akonadi backend, which is
+  currently infeasible.
+
+- Disable "kres-migrator".  Or at least add a debconf option to
+  kdepim-runtime presenting the option of running kres-migrator by default
+  or disabling it.
+
+- Add a warning dialog during kdepim-runtime upgrade stating that
+  kres-migrator will run by default and potentially consume a large amount
+  of per-user disk space, unless migration is manually disabled by the
+  above command.
+
+- Reduce the default size of the InnoDB transaction logs in the Akonadi
+  per-user MySQL configuration.  I'm not familiar enough with InnoDB tuning
+  to offer an appropriate value, but I would suggest 4 MB to be the upper
+  limit of a reasonable per-user log size, it terms of what I'm comfortable
+  spending towards unproductive disk usage.  Presumably if 64 MB is the
+  default, it's intended for databases with somewhat significant
+  transaction volumes.  I expect that in average usage, Akonadi sees very,
+  very few transactions relatively speaking.  If one can get away with a 1
+  MB transaction log or less, even better!
+
+I suppose the last option is the best for going forward with KDE PIM 4.4 in
+squeeze.  Hopefully someone familiar with InnoDB tuning can comment on what
+a reasonable transaction log size is for the expected, typical Akonai
+transaction volume, and Debian can configure to use the minimum reasonable
+value by default.
+
+Apologies for my rant.  I just can't comprehend how such disk usage is even
+remotely acceptable for PIM usage patterns.
+
+Thanks to anyone who addresses the issue, and to the KDE packagers for
+their patience in dealing with user complaints.  =)
+
+[1] http://techbase.kde.org/Projects/PIM/Akonadi#How_do_I_disable_automatic_migration_from_KDE.27s_traditional_framework.3F
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100512005320.GA16379@club.cc.cmu.edu
+
+

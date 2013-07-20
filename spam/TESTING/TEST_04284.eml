@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId1284feb422c8e3a4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs110500wfj;
+        Fri, 30 Apr 2010 11:12:19 -0700 (PDT)
+Received: by 10.142.56.17 with SMTP id e17mr7148626wfa.12.1272651139030;
+        Fri, 30 Apr 2010 11:12:19 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz3.apple.com (bz3.apple.com [17.254.13.38])
+        by mx.google.com with ESMTP id 41si3145763pzk.74.2010.04.30.11.12.17;
+        Fri, 30 Apr 2010 11:12:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) client-ip=17.254.13.38;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.38 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; domainkeys=hardfail header.From=brandon@pixelture.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz3.apple.com (Postfix) with ESMTP id C39BF1C41B9D0
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 11:12:17 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id BF99C2746EA6E
+	for <mlsubscriber.tech@csmining.org>; Fri, 30 Apr 2010 11:12:17 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 650762746E3FA
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 11:11:13 -0700 (PDT)
+Received: from mail-in11.apple.com (mail-in.apple.com [17.254.13.7])
+	by relay1.apple.com (Postfix) with ESMTP id 54798D775A79
+	for <java-dev@lists.apple.com>; Fri, 30 Apr 2010 11:11:13 -0700 (PDT)
+X-AuditID: 11fe0d07-b7c36ae000006674-e2-4bdb1d408535
+Received: from edge25.inmotionhosting.com (edge25.inmotionhosting.com
+	[74.124.200.24])
+	(using TLS with cipher AES256-SHA (AES256-SHA/256 bits))
+	(Client did not present a certificate)
+	by mail-in11.apple.com (Apple Secure Mail Relay) with SMTP id
+	77.1C.26228.14D1BDB4; Fri, 30 Apr 2010 11:11:13 -0700 (PDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=default; d=pixelture.com;
+	h=Received:Message-ID:Date:From:User-Agent:MIME-Version:To:CC:Subject:References:In-Reply-To:Content-Type:Content-Transfer-Encoding;
+	b=AA33vFLjvwz5vfqGjaGszHmb7wAe3efE6tA9M7g1YbZdAUsuprX3ZElkA1BLUN2eBIEgn7zcJ7gL/yaqNlF5VK1ezDyItn6W8efq/wxi+oNCYjKEWDhYVHTOiSDR7CsI;
+Received: from icielab.cs.byu.edu ([128.187.81.183] helo=[192.168.13.63])
+	by edge25.inmotionhosting.com with esmtpsa (TLSv1:AES256-SHA:256)
+	(Exim 4.69) (envelope-from <brandon@pixelture.com>)
+	id 1O7ug9-00005p-LW; Fri, 30 Apr 2010 11:11:09 -0700
+Message-ID: <4BDB1D3A.5030202@pixelture.com>
+Date: Fri, 30 Apr 2010 12:11:06 -0600
+From: Brandon Moon <brandon@pixelture.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US;
+	rv:1.9.1.9) Gecko/20100317 Thunderbird/3.0.4
+MIME-Version: 1.0
+To: Mike Swingler <swingler@apple.com>
+References: <4BD5CC1B.4050200@pixelture.com>
+	<EBCD1956-3C52-4E1E-867E-50ECB64D420C@apple.com>
+In-Reply-To: <EBCD1956-3C52-4E1E-867E-50ECB64D420C@apple.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - edge25.inmotionhosting.com
+X-AntiAbuse: Original Domain - lists.apple.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - pixelture.com
+X-Brightmail-Tracker: AAAAAA==
+Cc: java-dev@lists.apple.com
+Subject: Re: Java Web Start and minimum JVM requirement
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+On 4/30/2010 12:07 PM, Mike Swingler wrote:
+> On Apr 26, 2010, at 10:23 AM, Brandon Moon wrote:
+>
+>    
+>> I am currently running Mac OS X 10.5 with the Java 1.6.0_17 64-bit JVM installed.  My application requires Java 6, and is distributed over Java Web Start.  However, by default Mac puts Java 5 32-bit before Java 6 64-bit.  When I run my application from the JNLP, it correctly selects Java 6 and runs.  When I try to run it a second time from the shortcut generated by JWS, it tries to run the application with Java 5 and fails.  Is there a way to get the shortcut to select the correct JVM?
+>>      
+> What is the contents of the Info.plist in the shortcut? Does it specify 1.6 anywhere? How do you require 1.6 in your JNLP?
+>
+> We do have examples that specify a version of "1.6+", which does get persisted correctly into the Info.plist.
+>
+> Regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>
+>    
+I have since solved this issue.  Apparently you can't use full version 
+strings, like "1.6.0_14+", you have to use just "1.6+".  Not sure if 
+that's intentional or not.  The "1.6.0_14+" string was copied correctly 
+to the Info.plist file, but apparently wasn't parsed correctly?
+
+Brandon Moon<brandon@pixelture.com
+http://www.pixelture.com
+
+Join us for EduComm 2010
+June 7 - 9 Las Vegas
+www.EducommConference.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

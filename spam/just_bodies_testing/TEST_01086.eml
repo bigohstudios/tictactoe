@@ -1,0 +1,18 @@
+RE: Java is for kiddiesAdam Beberg:
+>Considering 90% of the fake job posting I see are for embedded systems or 
+>device drivers - C still rules the world.
+
+There is a lot of C++ in the embedded world. With
+static object allocation and a few other programming
+techniques, performance differences disappear, but
+C++ gives a boost in development and maintainability.
+The real issue is compiler availability. Almost every
+embedded platform has C cross-compilers. Many have
+C++ compilers. But there is still a range of
+platforms that have the first but not the second. Or
+at least, that was the story a few years ago.
+
+_________________________________________________________________
+Send and receive Hotmail on your mobile device: http://mobile.msn.com
+
+

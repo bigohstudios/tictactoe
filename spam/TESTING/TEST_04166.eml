@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId1285e9e81fa52160
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs226302wfj;
+        Mon, 3 May 2010 07:42:49 -0700 (PDT)
+Received: by 10.223.24.85 with SMTP id u21mr3383337fab.8.1272897765451;
+        Mon, 03 May 2010 07:42:45 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id f31si9024601fkf.48.2010.05.03.07.42.44;
+        Mon, 03 May 2010 07:42:45 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 38B8E13A44AE; Mon,  3 May 2010 14:42:10 +0000 (UTC)
+Old-Return-Path: <eric.halibut@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id D6E1113A4438
+	for <lists-debian-user@liszt.debian.org>; Mon,  3 May 2010 14:42:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 4AnvXexeWito for <lists-debian-user@liszt.debian.org>;
+	Mon,  3 May 2010 14:41:56 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-wy0-f175.google.com (mail-wy0-f175.google.com [74.125.82.175])
+	by liszt.debian.org (Postfix) with ESMTP id A62BC13A4429
+	for <debian-user@lists.debian.org>; Mon,  3 May 2010 14:41:56 +0000 (UTC)
+Received: by wyf22 with SMTP id 22so1637746wyf.6
+        for <debian-user@lists.debian.org>; Mon, 03 May 2010 07:41:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type;
+        bh=QM4uCx2t8VwKRVMU8xuxRNoRmTOPV1BY1T5AItlI5Q8=;
+        b=fqJbYpYBEH/M0RD7kSDVAtXjRmfQQ8AQfzyPvHgv8jMj8QXoxjwnsEf4mSEak9BwbQ
+         ies8/BEXAFu0pHhk/gPrTKfBZ1hGiSgtIQRl3bLHpVWsd1igTPY7Yy9o2ces3m0YkcVH
+         xd6k/Jk+HIf7eKdd+/3k7Uce8rnr90bEpB0dw=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=eVASXXhRZrj9kz1L6jMWZ7x7HWU2kNs3Vr3XAsqzupPWHZI0Ult9nQrorGZ9qwF1GX
+         h6dyAMQsWv7VuDnK53uGIRd5FcAPX27706JhVxY5zcS93lY83ZU+7A+IfsZ/e1wkoZaP
+         ZyQeE2soEv6OpWSmlFVO7BZQl1CUEsPBst1YE=
+MIME-Version: 1.0
+Received: by 10.216.89.209 with SMTP id c59mr1702358wef.87.1272897711072; Mon, 
+	03 May 2010 07:41:51 -0700 (PDT)
+Received: by 10.216.2.81 with HTTP; Mon, 3 May 2010 07:41:51 -0700 (PDT)
+Date: Mon, 3 May 2010 10:41:51 -0400
+Message-ID: <u2i585bd7151005030741i62acac09y6e60a64ffebf86ed@mail.csmining.org>
+Subject: exim listen on one ip to two ports?
+From: "Eric d'Alibut" <eric.halibut@csmining.org>
+To: debian-user <debian-user@lists.debian.org>
+Content-Type: text/plain; charset=UTF-8
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <-gIRrCM08TF.A.guH.CDu3LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575762
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon,  3 May 2010 14:42:10 +0000 (UTC)
+
+Can exim be made to listen to two ports (587 and 25) on one ip?
+
+I put this in /etc/default/exim4:
+
+SMTPLISTENEROPTIONS='-oX 587:25'
+
+Exim responded by generating a /var/log/exim4/paniclog file containing:
+
+"socket bind() to port 25 for address [my local ip] failed: Address
+already in use: daemon abandoned"
+
+Interestingly enough smtp to port 587 worked despite this paniclog
+entry. The existence of a "non-zero length" paniclog does however muck
+up starting and stoping the daemon.
+
+-- 
+No no no, my fish's name is Eric, Eric the fish. He's an halibut. I am
+not a looney! Why should I be tarred with the epithet looney merely
+because I have a pet halibut?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2i585bd7151005030741i62acac09y6e60a64ffebf86ed@mail.csmining.org
+
+

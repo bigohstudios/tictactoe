@@ -1,0 +1,97 @@
+Re: Help! I've lost my exmh-unseen window!-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+In article <E17v8Mw-0004eS-00@pmenage-dt.ensim.com> you write:
+>>
+>>	I'll have to try it with another window manager and see if I can
+>>get exmh to put it back inside of sane boundaries. I don't have this
+>>problem with any other windows, though. Just the exmhunseen window.
+>>
+>
+>How about enabling the "Show unseen message count in folder cache"
+>option? It displays the number of unseen messages next to each folder name
+>(if greater than 0), so you don't really need the unseen window unless
+>you're using more sequences than just "unseen".
+>
+>Paul
+>
+	As Hal noted, I like to have the unseen window visible in all
+virtual desktops, even if the main window is minimized. However, I looked
+through ALL the preferences menus, and didn't see anything resembling "Show
+unseen message count in folder cache". Where is that? And in what version?
+(I'm running v2.4 - 06/23/2000 - Creaky, I know.)
+
+	I went into twm with no virtual desktops, and it came up just fine.
+Going back to Enlightenment I saw the same behavior as before. Then I knew
+it MUST be something in the window manager, so I went digging. in my 
+~/.englightenment/...e_session-XXXXXX.snapshots.0 file I found all the
+settings that E. uses for remembering border styles, positions, shaded
+state, etc. 
+	I have a 1600x1200 screen, and it kept putting my window at
+1655x150 (AND had it shaded to boot, so it was tiny as well as offscreen!)
+	Searching for 'unseen' in that file found this section:
+
+NEW: exmh.Exmh
+NAME: exmh
+CLASS: Exmh
+NEW: unseen.UnseenWin
+NAME: unseen
+CLASS: UnseenWin
+DESKTOP: 0
+RES: 1600 1200
+WH: 114 173
+XY: 1655 150 0 0
+LAYER: 4
+STICKY: 1
+SKIPTASK: 0
+SKIPWINLIST: 0
+SKIPFOCUS: 0
+SHADE: 2
+BORDER: PAGER_LEFT_BLUE
+
+	I changed:
+XY: 1655 150 0 0  	to 
+XY: 1455 150 0 0	so it would reappear in my viewable space,
+restarted Enlightenment (CTRL-ALT-End) and then restarted exmh. Bingo!
+There was my window! 
+
+	I quickly told Englightenment to forget everything about that
+window except is border style, and now have a sveldt little entry like so:
+
+NEW: exmh.Exmh
+NAME: exmh
+CLASS: Exmh
+NEW: unseen.UnseenWin
+NAME: unseen
+CLASS: UnseenWin
+BORDER: PAGER_LEFT_BLUE
+
+	Completely an Enlightenment problem, not exmh. (Though I wonder how
+it got mixed up in the first place? I certainly can't move a window off
+screen like that. Unless it was part way over then snapped offscreen when
+shading.)
+
+	Hmm. Weird. 
+
+	Anyway, thanks for the suggestions, folks. Hopefully this will be
+useful to someone scouting the archives in the future... :-) 
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP 6.5.2
+Comment: Don't know what PGP is? Check http://www.pgpi.org/
+
+iQA/AwUBPZayRIJkhJBJYtPQEQIyzgCg/mMMlKnmP8Cxa/h7b5X0KrJXsLsAoO1N
+6dm1Hpj6RnUGPjuUQItBYEC3
+=OL5H
+-----END PGP SIGNATURE-----
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

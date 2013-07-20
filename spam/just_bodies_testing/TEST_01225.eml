@@ -1,0 +1,43 @@
+Re: Lite SMTP server/daemonFrom nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,24.Apr.10, 10:51:56, d.sastre.medina@csmining.org wrote:
+> On Sat, Apr 24, 2010 at 09:19:56AM +0200, export@hope.cz wrote:
+> >    I use Linux running in  Compact Flash so that the size of the Compact
+> >    flash memory is the limit
+> >    Only SMTP, no POP3 server
+> >    Can you suggest something?
+>=20
+> Hello,
+>=20
+> This simple search:
+>=20
+> $ apt-cache search mta light
+>=20
+> showed some exim4 packages and the one you are looking for:
+>=20
+> $ apt-cache show msmtp-mta
+=2E..
+>  msmtp is an SMTP client that can be used to send mails from Mutt and
+> probably
+>  other MUAs (mail user agents). It forwards mails to an SMTP server
+> (for
+>  example at a free mail provider), which takes care of the final
+> delivery.
+=2E..
+
+msmtp will *not* accept incoming mail (which is what the OP asked for). =20
+
+The solution is probably one of exim or postfix, possibly recompiled to=20
+keep only a minimum of features needed for the given application, an=20
+answer to Stan's mail will tell more.
+
+Regards,
+Andrei
+P.S. What keyserver are you using, subkeys keeps timing out when mutt=20
+requests your key
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

@@ -1,0 +1,30 @@
+Re: [SAtalk] Re: AWL bug in 2.42?
+Kenneth Nerhood said:
+
+> I too am seeing very weird things with 2.42 and AWL.  I  installed a
+> fresh system, and then ran a bunch of test spam through it (all from the
+> same user).  All messages should have scored over 15.  The AWL kept
+> adjusting them down so that after about 10 message I had a negative
+> score.  I'm using spamc/d.
+
+That's exactly what is intended; the idea is that legit senders who
+habitually score just > 5, will eventually get out of "AWL hell" after
+6-10 messages.
+
+Note that running a single spam through "spamassassin -a -t" *will*
+eventually whitelist the spammer.  but that's why the man page tells you
+not to do it ;)
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

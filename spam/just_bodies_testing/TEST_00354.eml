@@ -1,0 +1,33 @@
+Re: apt-get dist-update failure - can't bootOn Mon, May 03, 2010 at 12:59:38PM -0500, Boyd Stephen Smith Jr. wrote:
+> On Monday 03 May 2010 12:34:13 Fernando B. Scussel wrote:
+
+> > http://i4.photobucket.com/albums/y116/fscussel/Untitled.jpg
+> 
+> Ugh.  Does copy and paste not work for you?  It would be much nicer if that 
+> text was in the email you sent.  Install gpm if you need mouse support at the 
+> console.
+
+Or, if you can't install gpm, at least grab the content of the current
+console:
+
+  cat /dev/vcs
+
+Or:
+
+  cat /dev/vcs1
+
+(equivalents of /dev/tty, /dev/tty1, accordingly)
+
+-- 
+Tzafrir Cohen         | tzafrir@jabber.org | VIM is
+http://tzafrir.org.il |                    | a Mutt's
+tzafrir@cohens.org.il |                    |  best
+tzafrir@debian.org    |                    | friend
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100510161330.GP16560@pear.tzafrir.org.il
+
+

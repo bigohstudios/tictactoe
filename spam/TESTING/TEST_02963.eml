@@ -1,0 +1,109 @@
+X-Account-Key: account5
+X-UIDL: GmailId1288870354befae4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs82168wfb;
+        Tue, 11 May 2010 10:36:15 -0700 (PDT)
+Received: by 10.223.144.77 with SMTP id y13mr6574543fau.86.1273599374438;
+        Tue, 11 May 2010 10:36:14 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c1si11872894faa.77.2010.05.11.10.36.13;
+        Tue, 11 May 2010 10:36:14 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 6C07F2D0DD0; Tue, 11 May 2010 17:36:10 +0000 (UTC)
+Old-Return-Path: <luisfelipe.tabera@unican.es>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.0 required=4.0 tests=RCVD_IN_DNSWL_MED
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6F7A92E8B53
+	for <lists-debian-kde@liszt.debian.org>; Tue, 11 May 2010 17:19:03 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-4 tagged_above=-10000 required=5.3
+	tests=[RCVD_IN_DNSWL_MED=-4] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id H1H5ne9eqBne for <lists-debian-kde@liszt.debian.org>;
+	Tue, 11 May 2010 17:18:56 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+X-Greylist: delayed 1164 seconds by postgrey-1.31 at liszt; Tue, 11 May 2010 17:18:56 UTC
+Received: from ccserver2.unican.es (ccserver2.unican.es [130.206.5.101])
+	by liszt.debian.org (Postfix) with ESMTP id 411412E8B52
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 17:18:55 +0000 (UTC)
+Received: from ccserver2.unican.es (ccserver2.unican.es [127.0.0.1])
+	by ccserver2.unican.es (Postfix) with ESMTP id A5D0818175E
+	for <debian-kde@lists.debian.org>; Tue, 11 May 2010 18:59:13 +0200 (CEST)
+Received: from correo.unican.es (ccserver18.unican.es [130.206.5.18])by 
+	ccserver2.unican.es (Postfix) with ESMTP id 9A58F181801for 
+	<debian-kde@lists.debian.org>; Tue, 11 May 2010 18:59:13 +0200 (CEST)
+Received: from correo.unican.es ([130.206.5.62]) by correo.unican.es with 
+	Microsoft SMTPSVC(6.0.3790.4675); Tue, 11 May 2010 18:59:01 +0200
+Received: from frink.localnet ([193.144.183.13]) by correo.unican.es over 
+	TLS secured channel with Microsoft SMTPSVC(6.0.3790.4675); Tue, 11 May 2010
+	 18:59:01 +0200
+From: Luis Felipe Tabera Alonso <taberalf@unican.es>
+Reply-To: Luis Felipe Tabera Alonso <taberalf@unican.es>
+Organization: Universidad de Cantabria
+To: debian-kde@lists.debian.org
+Subject: Re: What needs to improve in KDE 4?
+Date: Tue, 11 May 2010 18:58:51 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.32-trunk-amd64; KDE/4.4.3; x86_64; ; )
+References: <AANLkTilqtVStnerEw1LmnlsyTO1-3zPxSyGPH-TeJGIV@mail.csmining.org> 
+	<201005110858.24240.cobaco@linux.be> 
+	<20100511154226.GD15366@torres.zugschlus.de>
+In-Reply-To: <20100511154226.GD15366@torres.zugschlus.de>
+MIME-Version: 1.0
+Content-Type: Text/Plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005111858.52166.taberalf@unican.es>
+X-OriginalArrivalTime: 11 May 2010 16:59:01.0298 (UTC) 
+	FILETIME=[412F3120:01CAF12B]
+X-imss-version: 2.054
+X-imss-result: Passed
+X-imss-scanInfo: M:P L:E SM:0
+X-imss-tmaseResult: TT:0 TS:0.0000 TC:00 TRN:0 TV:6.0.1038(17378.000)
+X-imss-scores: Clean:15.60246 C:2 M:3 S:5 R:5
+X-imss-settings: Baseline:1 C:1 M:2 S:2 R:2 (0.0000 0.0000)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <iDKFjRLwF4C.A.C7D.KWZ6LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32378
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 11 May 2010 17:36:10 +0000 (UTC)
+
+On Tuesday May 11 2010, Marc Haber <mh+debian-kde@zugschlus.de> wrote:
+> Is it guaranteed that KDE doesn't store anything outside of ~/.kde so
+> that a user doesn't risk things getting desynched if one exchanges one
+> ~/.kde with a different one?
+
+Well, akonadi stuff is not inside .kde, but .local/share
+The reasoning is that the akonadi is independent of kde. But, since kde uses 
+akonadi you have kde related data in the akonadi database. 
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005111858.52166.taberalf@unican.es
+
+

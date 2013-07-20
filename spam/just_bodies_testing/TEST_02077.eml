@@ -1,0 +1,35 @@
+Re: [SAtalk] Re: [SAdev] Scoring Yahoo AdsOn Tue, Jul 23, 2002 at 03:43:24PM -0400, rODbegbie wrote:
+> > It's quite clear that most of this list does not consider
+> > all advertisement to be spam, particularly when attached to a valid
+> > personal email by a third-party service.
+> 
+> Cool.  So we're all in agreement then.  Except for Marc.
+
+So what brilliant metric do you have in mind to measure unsolicited vs.
+solicited commercial email?
+
+I know I've registered for many commercial lists that send material that
+really reads like spam.  Moreover, spammers will be able to circumvent
+SA if they make spam look like this SCE.  This kind of convergence of the
+two.... well, it stinks.  We can kill SCE, or we can cripple
+identification of UCE.
+
+Obviously an interim solution is to whitelist, but long term is probably
+harder.  What kind of SCE, like MSDN newsletters, product updates, etc
+is in the corpus for the GA?  Maybe seeding the corpus with a bigger set
+of these type of mails will have some interesting/useful results.
+
+Ross Vandegrift
+ross@willow.seitz.com
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

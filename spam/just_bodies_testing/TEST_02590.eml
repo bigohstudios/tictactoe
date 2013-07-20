@@ -1,0 +1,86 @@
+Re: Loading a QTMovie when there is no graphical login
+On 27 Apr 2010, at 15:43, George Birbilis wrote:
+
+> Geia sou Oresti,
+>=20
+>=20
+> If there's an API to turn-off h/w acceleration for your app context =
+only, it
+> might help
+
+
+Thanks, I'll have a look - any more specific pointers? I'm pretty much a =
+QT newbie.
+
+Orestis
+
+>=20
+>=20
+> -<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+> George Birbilis (http://Zoomicon.com)
+> Microsoft MVP J# 2004-2010
+> Borland Spirit of Delphi 2001
+> http://birbilis.spaces.live.com
+> http://twitter.com/zoomicon
+> -<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+> Insert QuickTime in PowerPoint, Forms etc.:
+> http://zoomicon.com/QT4All
+>=20
+>=20
+>=20
+>=20
+> I have a web-service that produces static images from various sources =
+using
+> Quartz.
+>=20
+> Recently I wanted to add the capability of adding QTMovie screenshots =
+there,
+> but I'm having some issues.
+>=20
+> When the service is run by a user which currently has a graphical =
+login, it
+> works fine - I can load a QTMovie, and grab a frame from a specific =
+time to
+> be used in the image export.
+>=20
+>=20
+> However, in the production environment, the app is run by a user which =
+is
+> not logged in. Everything else (Quartz) works fine, but QTMovie =
+loading
+> bails out with this:
+>=20
+> =
+/SourceCache/QTOtherComponents/QuickTime-1674/MidVale/AVA_VP3_QT/Component=
+/A
+> VA_HDUtilitiesHW.c: CGGetOnlineDisplayList failed with code 1011=20
+> =
+/SourceCache/QTOtherComponents/QuickTime-1674/MidVale/AVA_VP3_QT/Component=
+/A
+> VA_HDUtilitiesHW.c: CGGetOnlineDisplayList failed with code 1011=20
+> _RegisterApplication(), FAILED TO establish the default connection to =
+the
+> WindowServer, _CGSDefaultConnection() is NULL
+> =
+/SourceCache/QTOtherComponents/QuickTime-1674/MidVale/AVA_VP3_QT/Component=
+/A
+> VA_HDUtilitiesHW.c: CGGetOnlineDisplayList failed with code 1011=20
+>=20
+> Is there a way to work around this? I only want to get the poster =
+image from
+> that movie, nothing else. I can detect in my code when I'm not =
+connected to
+> the windowserver with CGGetOnlineDisplayList, so I can switch to a =
+different
+> code path if required.
+>=20
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

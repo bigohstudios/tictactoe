@@ -1,0 +1,82 @@
+Re: 32000 directories (somewhat OT)On 20100425_161747, John Hasler wrote:
+> Ron Johnson writes:
+> > You all should (with some research and planning) be able to reorganize
+> > that sprawling flat structure into a significantly nested structure.
+> 
+> I wrote:
+> > Unless it is hard-coded into a closed-source program.
+> 
+> Ron Johnson writes:
+> > That scenario can (probably) be worked around with symlinks.
+> 
+> True.  He might also be able to use a unionfs.
+> -- 
+> John Hasler
+> 
+> 
+> -- 
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/87wrvv6xl0.fsf@thumper.dhh.gt.org
+> 
+
+I worked on a personal project last year in which I ran into the 32k limit
+and solved the problem by imposing a simple structure on my directory names.
+
+I wanted to study the frequency of occurance of files with exactly the
+same content. To do this I set out to compute the md5sum of every
+ordinary file on four hosts (all running Debian GNU Linux ext3). I
+wanted to have a directory named with the md5sum of a file. One
+directory for each ordinary file. In this directory I intended to
+store information about occurances of that particular file
+contents. All these files were to be under a root directory that I
+name filedata/. The first implementation hit a wall at 32998
+sub-directories, as most people following this thread now know, but
+was a total surprise to me at the time. I solved the problem by
+introducing two levels of sub-directories under filedata/. Instead of
+having a sub-directory named, for example
+ed7e26ec800369ca9f694b54e4ed50c4, I introduced into this string two
+slashes and created the needed directory structure with
+
+mkdir -p filedata/ed7/e26/ec800369ca9f694b54e4ed50c4
+
+This resulted, rather quickly as data was collected, in a structure in
+which there were 4096 sub-directories directly under filedata/ and
+after more data collection 9 +/-3 sub-directories under each of these
+first tier sub-directories.
+
+In following this thread, I was struck by the difficulty that was
+caused by poorly devised technical jargon. "Folder" has no history of
+use in the UNIX/POSIX environment, and with good reason. A directory
+does not -contain- files in the sense that a manilla folder contains a
+paper document. It contains information about a name, as in a
+telephone directory. Furthermore, the original design documents of
+UNIX place great importance on the fact that a directory -was-
+-itself- a file, all be it one that was marked for special handling by
+the OS.  Making a tree structure out of files, only, without some
+alternative structure to handle the tree was a point of some pride for
+them. They also took some pride in the reasonableness of the names
+they assigned to the objects they invented.
+
+For users, it is unfortunate that the word folder is used for this
+function, as very few users are unfamiliar with the idea of a
+telephone directory. At least few are so clueless that they think
+their girl-friend or boy-friend is actually pressed within the pages
+of that tome. Folder worked for a while in the early days of the Apple
+computer where the first file system on floppy disks had only
+top-level directories (called folders) and no nested directories.  I
+think because Apple didn't want to trouble their users with difficult
+concepts, like telephones and dialing a telephone number. Who remembers
+dialing? Where did that word come from? ;-)
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426034739.GB3490@big.lan.gnu
+
+

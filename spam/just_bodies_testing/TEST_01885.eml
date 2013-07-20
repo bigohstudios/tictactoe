@@ -1,0 +1,50 @@
+Microsoft Buys XDegrees - Secure Access Company
+==
+http://siliconvalley.internet.com/news/article.php/10862_1460701
+
+Microsoft Tuesday said it has purchased a Mountain View, Calif.-based
+security company to better secure its core file services including its
+Windows platform and .NET initiative.
+
+The Redmond, Wash-based software giant has acquired the assets of XDegrees
+for an undisclosed amount of cash and is in the process of relocating the
+team of 12 or 14 engineers to the Microsoft campus.
+
+XDegrees' technology assigns URLs to Word files, video clips, and other
+digital documents for access across a peer-to-peer network
+
+XDegrees founder Michael Tanne was offered a job, but decided instead to
+play his hand in the Silicon Valley.
+==========
+
+"XDegrees' technology assigns URLs to Word files, video clips, and other
+digital documents for access across a peer-to-peer network" - assigns URLs
+to Word files... and somebody /bought/ that?
+
+===
+http://www.xdegrees.com/pr_2001-11-12_1.html
+"The XDegrees System allows users to easily and consistently locate, access
+and manage information by assigning each document a unique link. Providing
+end-to-end security, the XDegrees System unifies authentication of all
+users, provides file-level access control and encrypts all stored and
+transferred files. Seamless integration with existing applications such as
+email clients and Microsoft Office products allows companies to rapidly
+deploy the XDegrees System and users to get up-and-running quickly."
+
+Whoa... high tech...
+
+===
+More bits here...
+http://www.openp2p.com/pub/a/p2p/2001/04/27/xdegrees.html
+
+"The essence of XDegrees consists of a naming system and a distributed
+database that allows peers to resolve resource names. XDegrees manages these
+services for customers on its own hosts, and sells its software to
+enterprises so they can define and run their own namespaces on in-house
+servers. You can search for a particular person (whatever device the person
+is currently using), for a particular device, for a file, or even for a web
+service. The software that resolves resource names is called XRNS (the
+eXtensible Resource Name System)."
+
+
+

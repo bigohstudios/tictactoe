@@ -1,0 +1,46 @@
+Re: [volatile] Updated clamav-related packages available for testing2010/4/17 Alexander Wirt <formorer@formorer.de>:
+> Philipp Kern schrieb am Saturday, den 17. April 2010:
+>
+>> On Sat, Apr 17, 2010 at 08:46:55AM +1000, Tomasz Ciolek wrote:
+>> > Will the packages me migrated from lenny-proposed-updates/volatile to
+>> > lenny/volatile in near future?
+>> > > Please report any problems (or successes) with testing the packages =
+to
+>> > > the debian-volatile list.
+>>
+>> As you quoted we're waiting for problem and/or success reports. =C2=A0So=
+ far
+>> there were too few.
+> I migrated several customers to dansguardian/clamav from proposed updates=
+ and
+> everything is working smoothely. (And with my dansguardian maintainer hat
+> this is expected :), so please let it migrate).
+I migrated tree mail server with postfix clamav.. It works well..
+
+>
+> Thanks for you work
+> Alex
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/20100417082746.GA26965@nelson.snow-crash=
+.org
+>
+>
+
+
+
+--=20
+Ali Deniz EREN
+ali.deniz.eren@csmining.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2q1a00f8c71004180145pd569a9f1rbebafe39d59bd97@mail.csmining.org
+
+

@@ -1,0 +1,169 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286c6447777b28a
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs376395wfb;
+        Wed, 5 May 2010 23:53:52 -0700 (PDT)
+Received: by 10.87.15.35 with SMTP id s35mr1007970fgi.12.1273128830774;
+        Wed, 05 May 2010 23:53:50 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 12si14025684fgg.19.2010.05.05.23.53.50;
+        Wed, 05 May 2010 23:53:50 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B105F13A523A; Thu,  6 May 2010 06:53:45 +0000 (UTC)
+Old-Return-Path: <dotancohen@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 2B41613A509B
+	for <lists-debian-user@liszt.debian.org>; Thu,  6 May 2010 06:53:40 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id HD-Nyg2oAl9X for <lists-debian-user@liszt.debian.org>;
+	Thu,  6 May 2010 06:53:32 +0000 (UTC)
+Received: from mail-qy0-f185.google.com (mail-qy0-f185.google.com [209.85.221.185])
+	by liszt.debian.org (Postfix) with ESMTP id 703A313A4AAF
+	for <debian-user@lists.debian.org>; Thu,  6 May 2010 06:53:32 +0000 (UTC)
+Received: by qyk15 with SMTP id 15so6153459qyk.6
+        for <debian-user@lists.debian.org>; Wed, 05 May 2010 23:53:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=kD6BR5KrkWaWDOhUPMloAzkQbgF8OOlXz1/PDdH7HkU=;
+        b=gGk5VbE5COhvp3owBMZEK+jtF00KwEUsQ/bFKLpNPyR6TWyH9WvDMnntg4cR/h5lgf
+         ADhe91Z9mmVe69uDo/cY1AO9aRb/4iN29mrT0lvngylUGpVWdm194seH+cy2ylp7XT0+
+         qyt0NOGGle+aOIeb7VEJnJaSMQZx1D6RhtONE=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=NsaPeFNLlgBr9npUy8pETw40qZkivm14uTEmXI2p7Wzd1B5wTEFPXaQ7rR98DxhKY+
+         f0oxEmMkA16qWI61mrebNvZ89/K0R+NJp3S7CU1vGdm8Xa5ummOe3bwOjvfUvMAyM3c6
+         EDQJzSs8jJYV9ni3mctEKofUmACQWw9MPXFwc=
+MIME-Version: 1.0
+Received: by 10.229.187.77 with SMTP id cv13mr4179619qcb.3.1273128804915; Wed, 
+	05 May 2010 23:53:24 -0700 (PDT)
+Received: by 10.229.221.13 with HTTP; Wed, 5 May 2010 23:53:24 -0700 (PDT)
+In-Reply-To: <4BDF4C48.6070907@allums.com>
+References: <k2n880dece01005031439ne434ddfdgc873c5c37a111151@mail.csmining.org>
+	 <4BDF4C48.6070907@allums.com>
+Date: Thu, 6 May 2010 09:53:24 +0300
+Message-ID: <v2p880dece01005052353n4f6d974bqbdc6ad8c6fbe7cca@mail.csmining.org>
+Subject: Re: What are my locale settings, for non-terminal apps?
+From: Dotan Cohen <dotancohen@csmining.org>
+To: Mark Allums <mark@allums.com>
+Cc: debian-user@lists.debian.org
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <oJOJhGrru8L.A.btB.5dm4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575967
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Thu,  6 May 2010 06:53:45 +0000 (UTC)
+
+On 4 May 2010 01:20, Mark Allums <mark@allums.com> wrote:
+> On 5/3/2010 4:39 PM, Dotan Cohen wrote:
+>>
+>> I need to have separate locale settings for my terminal apps, so I
+>> configure that in .bash_profile. I assume that my desktop environment
+>> is using my locale settings from .profile but I'd like to confirm what
+>> those settings are. How can I get the output of locale _not_ from a
+>> terminal (which will source .bash_profile and thus be incorrect)?
+>>
+>> Thanks.
+>>
+>
+> I think locale is the same for terminal and non-terminal apps, except you
+> can set locale separately for each separate environment.
+>
+>
+> echo $LC
+> echo $LC_MESSAGES
+> echo $LC_CTYPE
+> echo $LC_COLLATE
+> echo $LC_TIME
+> echo $LC_MONETARY
+> echo $LC_NUMERIC
+> echo $LC_PAPER
+> echo $LC_NAME
+> echo $LC_ADDRESS
+> echo $LC_TELEPHONE
+> echo $LC_MEASUREMENT
+> echo $LC_ALL
+>
+> (unset LC_ALL if you need different locales for different things)
+>
+> echo $LOCALE
+> echo $LANG
+> echo $GDM_LANG
+>
+>
+>
+>
+> In C:
+>
+>
+> #include <locale.h>
+> #include <stdio.h>
+> //
+> // not tested
+> //
+>
+> char *some_locale=3D"C";
+> if setlocale(LC_MESSAGES,some_locale)
+> =C2=A0 printf ("messages locale set to %s\n", some_locale);
+> else
+> =C2=A0 prinf ("setlocale failed\n");
+> // .
+> // .
+> // .
+>
+>
+> Off the top of my head...
+>
+> MAA
+>
+>
+
+Thanks, Mark. I'm going to give that a shot in Python, a language that
+I'd like to learn anyway.
+
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2p880dece01005052353n4f6d974bqbdc6ad8c6fbe7cca@mail.csmining.org
+
+

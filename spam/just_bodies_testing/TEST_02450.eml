@@ -1,0 +1,46 @@
+RE: [Razor-users] Razor with sendmailIf you didn't add it when compile would be one way.  Another would be to
+grep your sendmail.cf for the word Milter.
+
+-----Original Message-----
+From: Julian Bond [mailto:julian_bond@voidstar.com] 
+Sent: Friday, August 23, 2002 2:48 PM
+To: razor-users@example.sourceforge.net
+Subject: Re: [Razor-users] Razor with sendmail
+
+
+"Bort, Paul" <pbort@tmwsystems.com> wrote:
+>If your sendmail has been compiled with Milter support, you can add 
+>SMRazor easily. We've been using it for a while without problems. 
+>Others on the list have mentioned it as well.
+>
+>http://www.sapros.com/smrazor/
+
+Is there an easy way to tell if Milter is compiled in?
+
+-- 
+Julian Bond Email&MSM: julian.bond@voidstar.com
+Webmaster:              http://www.ecademy.com/
+Personal WebLog:       http://www.voidstar.com/
+CV/Resume:          http://www.voidstar.com/cv/
+M: +44 (0)77 5907 2173   T: +44 (0)192 0412 433
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old cell
+phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

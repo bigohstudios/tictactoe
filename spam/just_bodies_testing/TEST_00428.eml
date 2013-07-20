@@ -1,0 +1,27 @@
+Re: [ILUG] TMDA (WAS --> slashdot EW Dijkstra humor]On Thu, 8 Aug 2002, Paul Jakma wrote:
+
+> unfortunately, often spammers provide real return addresses - just not 
+> their own.
+> 
+> so if everyone used tmda, these poor unfortunates would receive
+> millions of tmda confirm messages, in addition to the hundred thousand
+> 'undeliverable' messages that they already get..
+
+	http://messagewall.org/
+
+same concept as tmda (smtp "proxy") but not as extreme as tmda.net - 
+dnsbl, distributed checksum and various other checks.
+
+regards,
+-- 
+Paul Jakma	Sys Admin	Alphyra
+	paulj@alphyra.ie
+Warning: /never/ send email to spam@dishone.st or trap@dishone.st
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

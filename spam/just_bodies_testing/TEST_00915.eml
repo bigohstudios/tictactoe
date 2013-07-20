@@ -1,0 +1,20 @@
+Re: Questions about RAID 6On Mon April 26 2010 10:51:38 Mark Allums wrote:
+> RAID 6 (and 5) perform well when less than approximately 1/3 full.
+> After that, even reads suffer.
+
+Mark,
+
+I've been using various kinds of RAID for many many years and
+was not aware of that.  Do you have a link to an explanation?
+
+Thanks,
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004261137.35915.mgb-debian@yosemite.net
+
+

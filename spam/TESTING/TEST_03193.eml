@@ -1,0 +1,121 @@
+X-Account-Key: account5
+X-UIDL: GmailId127fe5e81d5fa52f
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs34361wfa;
+        Wed, 14 Apr 2010 15:09:19 -0700 (PDT)
+Received: by 10.87.15.13 with SMTP id s13mr6412908fgi.48.1271282958695;
+        Wed, 14 Apr 2010 15:09:18 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 22si1622792fkq.47.2010.04.14.15.09.18;
+        Wed, 14 Apr 2010 15:09:18 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id C1A7213A5060; Wed, 14 Apr 2010 22:09:07 +0000 (UTC)
+Old-Return-Path: <florian.kulzer+debian@icfo.es>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-4.0 required=4.0 tests=RCVD_IN_DNSWL_MED
+	autolearn=no version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id A2F9A2D0D8D
+	for <lists-debian-user@liszt.debian.org>; Wed, 14 Apr 2010 21:51:30 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, RCVD_IN_DNSWL_MED=-4] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id QbhkK7jiKFz4 for <lists-debian-user@liszt.debian.org>;
+	Wed, 14 Apr 2010 21:51:23 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -7
+Received: from esrv1.icfo.es (esrv1.icfo.es [84.88.69.10])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "smtp.icfo.es", Issuer "TERENA SSL CA" (not verified))
+	by liszt.debian.org (Postfix) with ESMTPS id 7E29F2D0D85
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 21:51:23 +0000 (UTC)
+Received: from isar.localhost (ALyon-153-1-83-188.w86-206.abo.wanadoo.fr [86.206.98.188])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by esrv1.icfo.es (Postfix) with ESMTP id AD988D18FDA
+	for <debian-user@lists.debian.org>; Wed, 14 Apr 2010 23:51:20 +0200 (CEST)
+Date: Wed, 14 Apr 2010 23:51:18 +0200
+From: Florian Kulzer <florian.kulzer+debian@icfo.es>
+To: debian-user@lists.debian.org
+Subject: Re: xorg synaptics driver no longer working with udev?
+Message-ID: <20100414215118.GA6134@isar.localhost>
+Mail-Followup-To: debian-user@lists.debian.org
+References: <4BC62051.4080008@lorentz.leidenuniv.nl>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <4BC62051.4080008@lorentz.leidenuniv.nl>
+X-Operating-System: Debian GNU/Linux Sid
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <sYP66nB0CzB.A.wy.D0jxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574100
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 14 Apr 2010 22:09:07 +0000 (UTC)
+
+On Wed, Apr 14, 2010 at 22:06:41 +0200, Sjoerd Hardeman wrote:
+> Hi list,
+> 
+> After a large set of updates today on testing, xorg no longer picks up
+> my udev rules file. A few months ago hal stopped working, as a change to
+> udev was required (see also the list history for several threads on that
+> topic).
+
+I do not understand what you mean here. I use Sid and I am not aware of
+any recent problems with either hal or udev. (I stress this to warn you
+that I might be unaware of some fundamental aspects of your issue.)
+
+>         Now, udev stopped working? Did I miss any change to xorg
+> behaviour? I'm using the latest xorg and kdm/kde on testing.
+
+I would start by checking:
+
+1) Does hal know that there is a touchpad?
+
+   lshal -u $(hal-find-by-capability --capability input.touchpad)
+
+2) The output of 1) should tell you the associated linux.device_file; in
+   my case this is /dev/input/event7. The next step is to find the
+   devpath:
+
+   udevadm info --query=path --name=/dev/input/event7
+
+3) I get "/devices/platform/i8042/serio4/input/input7/event7" from 2).
+   Now one can test what udev does when the device is added; maybe that
+   command will give you a clue, or you can make the output available so
+   that we can compare:
+
+   udevadm test /devices/platform/i8042/serio4/input/input7/event7
+
+-- 
+Regards,            |
+          Florian   |
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414215118.GA6134@isar.localhost
+
+

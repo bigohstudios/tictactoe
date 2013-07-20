@@ -1,0 +1,50 @@
+Re: [SAtalk] Tru64 compile of SA
+
+On Thu, 29 Aug 2002, Rick Beebe wrote:
+
+> > cc: Error: spamd/spamc.c, line 50: In this declaration, "in_addr_t" has no
+> > linka
+> > ge and has a prior declaration in this scope at line number 572 in file
+> > /usr/inc
+> > lude/sys/types.h. (nolinkage)
+> > typedef unsigned long   in_addr_t;      /* base type for internet address
+> > */
+>
+> Don't worry about the warnings. To fix the error, edit spamc.c and right
+
+   Thanks for posting this tip - I had the same problem compiling with
+Tru64 and that took care of it.
+
+   When I did the "make install" I got this error:
+
+LOCK:  -f /etc/mail/spamassassin/local.cf
+ || cp rules/local.cf /etc/mail/spamassassin/local.cf
+sh: syntax error at line 1: `||' unexpected
+*** Exit 2
+Stop.
+
+   It appears that this comes from the "inst_cfs:" part of the Makefile,
+which copies local.cf into /etc/mail/spamassassin.  The Makefile has
+brackets around the -f test, but they don't show up above.  Any ideas?
+
+Jim
+*-------------------------------------------------------------------------*
+* James H. McCullars                 I Phone: (256) 824-2610              *
+* Director of Systems & Operations   I Fax:   (256) 824-6643              *
+* Computer & Network Services        I Internet: mccullj@email.uah.edu    *
+* The University of Alabama          I -----------------------------------*
+*    in Huntsville                   I                                    *
+* Huntsville, AL 35899               I This space for rent - CHEAP!       *
+*-------------------------------------------------------------------------*
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

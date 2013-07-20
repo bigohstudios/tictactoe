@@ -1,0 +1,45 @@
+Re: iptables..WTF???-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sat, 01 May 2010 10:08:13 +1000
+Alex Samad <alex@samad.com.au> wrote:
+
+> On Fri, 2010-04-30 at 12:44 +0200, Raven wrote: 
+> > On Fri, 2010-04-30 at 13:01 +1000, Alexander Samad wrote:
+> > > you haven't been affected by the bind to ipv6 setting ?
+> [snip] 
+> > I am not using IPv6. All my firewall rules are for v4 only.
+> > 
+> i know there was a recent change to sysctl (something), that forced
+> all new listens to be ipv6 only so no ipv4 connections.
+> 
+> do a google for net.ipv6.bindv6only
+
+
+  The advice was to make /etc/sysctl.d/bindv6only.conf=0
+
+  It was breaking Java apps.
+
+
+
+- -- 
+Frank
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQEcBAEBAgAGBQJL23r1AAoJEMEDyLTvrVhjqGsH/0o4JxD0lF37pEUgLImjpltt
+MjYSaqKN/GpJBQiN5I3RHGI3hWdUmQzdHcNJuofvfISqTpAwDogTPyPyYKlD89x+
+VIpFh5JcAcwxJge6uuT6OliNZMnGXZTdke/BnBe0O+OuTYGs3GYNG1UD3VgQFBa1
+uSXcVVy2DveSWGj6eljRuHPbvS5jQTGSOtNfJg53QeyjAlxVPvhy54iu+SP6nKPQ
+rohyglhnkgc3IUInEDpkRCwo5Ydz3xLIQCmwcaMU07m+U45OAgVueRddT6qj0XUB
+p+Vom0lNxXjMQ7Zc/BuEdPJ07zcnxdyV8Rcbs1khcGySUXdFWODPC6ufKva4a4M=
+=RCeU
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430205101.2628d29e.debianlist@videotron.ca
+
+

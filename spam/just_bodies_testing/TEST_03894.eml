@@ -1,0 +1,27 @@
+Re: Linking message [was: Re: Patch to complete a change...]
+2) In the main window, the "+" key puts you into a "change 
+   folder" mode (the first time you use it after starting exmh),
+   hit a second + and you go to "set a target" mode.  Type a few
+   characters of the folder name and hit space for autocomplete.
+
+I should have finished this off.
+
+3) Keep hitting space to loop thru all the folders that match 
+   the characters you typed.  Hit return to actually select the
+   folder shown in the message area.
+
+I don't use this for navigating into nested folders as the only 
+thing I have nested is my archives.  Someone else will have to 
+tell you how to do that if there are any tricks to it.
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

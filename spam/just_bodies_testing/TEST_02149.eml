@@ -1,0 +1,44 @@
+RE: Gasp!I used Async IO on System V in the '87, '88 time frame.  I did it that
+way cause I thought it was cool to see if I could keep the tape
+spinning.
+
+I can believe Linux is catching up to this, but some ability to do async
+IO already existed in the UNIX world.
+
+John Hall
+13464 95th Ave NE
+Kirkland WA 98034
+
+
+> -----Original Message-----
+> From: fork-admin@xent.com [mailto:fork-admin@xent.com] On Behalf Of
+Adam
+> L. Beberg
+> Sent: Saturday, August 31, 2002 7:35 PM
+> To: fork@example.com
+> Subject: Gasp!
+> 
+> "Red Hat Linux Advanced Server provides many high end features such
+as:
+> Support for Asynchronous I/O. Now read I/O no longer needs to stall
+your
+> application while waiting for completion."
+> 
+> Could it be? After 20 years without this feature UNIX finally catches
+up
+> to
+> Windows and has I/O that doesnt totally suck for nontrivial apps? No
+way!
+> 
+> OK, so they do it with signals or a flag, which is completely ghetto,
+but
+> at
+> least they are trying. Keep trying guys, you got the idea, but not the
+> clue.
+> 
+> - Adam L. "Duncan" Beberg
+>   http://www.mithral.com/~beberg/
+>   beberg@mithral.com
+
+
+

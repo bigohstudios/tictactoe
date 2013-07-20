@@ -1,0 +1,28 @@
+Re: VM software for personal use?From nobody Sat Jul 20 14:17:27 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri,23.Apr.10, 09:31:45, Richard Lawrence wrote:
+>=20
+> I am looking to run some virtual machines for personal use: I'd like
+=2E..=20
+> I value:
+> - free over non-free
+> - ease of use and good documentation over performance
+> - installation via apt and reasonable default configuration
+> - simple networking on commodity hardware
+> - other basic integration with host OS services (perhaps file sharing,
+> USB, printing)
+
+Except for USB the package virtualbox-ose in Debian will meet all your=20
+requirements. (OSE stands for Open Source Edition)
+
+If USB is a must you can use the repos from Sun (the USB stuff is=20
+non-free).
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

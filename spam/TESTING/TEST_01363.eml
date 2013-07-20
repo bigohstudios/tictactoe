@@ -1,0 +1,135 @@
+X-Account-Key: account5
+X-UIDL: GmailId128610893b70c478
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs255669wfj;
+        Mon, 3 May 2010 18:57:51 -0700 (PDT)
+Received: by 10.143.27.12 with SMTP id e12mr2905890wfj.87.1272938271276;
+        Mon, 03 May 2010 18:57:51 -0700 (PDT)
+Return-Path: <x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 34si8236517pzk.33.2010.05.03.18.57.51;
+        Mon, 03 May 2010 18:57:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id 0A05F1BE9AD7F
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 18:57:51 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 0545F275D27D2
+	for <mlsubscriber.tech@csmining.org>; Mon,  3 May 2010 18:57:51 -0700 (PDT)
+X-Original-To: x11-users@lists.apple.com
+Delivered-To: x11-users@lists.apple.com
+Received: from relay1.apple.com (relay1.apple.com [17.128.113.31])
+	by lists.apple.com (Postfix) with ESMTP id 49B2A275D25E4
+	for <x11-users@lists.apple.com>; Mon,  3 May 2010 18:57:32 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay1.apple.com (Postfix) with ESMTP id 39C42D7D73F5
+	for <x11-users@lists.apple.com>; Mon,  3 May 2010 18:57:32 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7b87ae000003afb-15-4bdf7f0b4675
+Received: from asmtpout015.mac.com (asmtpout015.mac.com [17.148.16.90])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	48.5B.15099.B0F7FDB4; Mon,  3 May 2010 18:57:32 -0700 (PDT)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/plain; charset=ISO-8859-1
+Received: from spool003.mac.com ([10.150.69.53])
+	by asmtp015.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTP id <0L1V00DFMHFI7Q70@asmtp015.mac.com> for
+	x11-users@lists.apple.com; Mon, 03 May 2010 18:57:31 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1005030164
+Received: from webmail080 ([10.13.128.80])
+	by spool003.mac.com (Sun Java(tm) System Messaging Server 6.3-8.01
+	(built Dec
+	16 2008; 32bit)) with ESMTP id <0L1V00CCBHFIPYC0@spool003.mac.com>; Mon,
+	03 May 2010 18:57:21 -0700 (PDT)
+X-ProofpointDetails: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0
+	reason=mlx engine=5.0.0-0908210000 definitions=main-1005030164
+Date: Mon, 03 May 2010 21:57:18 -0400
+From: Vic Ryan <vicryan@mac.com>
+To: Jeremy Huddleston <jeremyhu@apple.com>
+Message-id: <42748051573748533335210150174541859378-Webmail@me.com>
+In-reply-to: <7B46F1F0-5B57-49EC-A731-AFC808111130@apple.com>
+References: <s2m5b7a031b1004290746q9725ef6cx8f5df148178785d5@mail.csmining.org>
+	<5C6EA0D1-468F-45E4-A0FF-A3FFD7343BA2@apple.com>
+	<y2o5b7a031b1004290955vd9300ef1jfb8125a0944fb492@mail.csmining.org>
+	<701491AA-B23E-4DA4-9EDA-0190FEFBDD6F@apple.com>
+	<v2v5b7a031b1004291235yf0606388q7d94a6f4eb726556@mail.csmining.org>
+	<p2p5b7a031b1005030824i4a1a102flbee054f7c57b360a@mail.csmining.org>
+	<t2l5b7a031b1005030824j403e866q39a01dc41fb08f1c@mail.csmining.org>
+	<k2s5b7a031b1005030924s76eb4510l25543d4527401409@mail.csmining.org>
+	<7B46F1F0-5B57-49EC-A731-AFC808111130@apple.com>
+Received: from [207.30.7.9] from webmail.me.com with HTTP; Mon,
+	03 May 2010 21:57:18 -0400
+Received: from [ 8.18.43.211] from webmail.me.com with HTTP; Mon,
+	03 May 2010 21:57:18 -0400
+X-Originating-IP: 207.30.7.9, 8.18.43.211
+X-Brightmail-Tracker: AAAAAxPwcVsT8I2ZE/CR6A==
+Cc: X11 List Mailing <x11-users@lists.apple.com>
+Subject: Re: xterm color
+X-BeenThere: x11-users@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: X11 for Mac OS X discussion list <x11-users.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=unsubscribe>
+List-Archive: <http://lists.apple.com/pipermail/x11-users>
+List-Post: <mailto:x11-users@lists.apple.com>
+List-Help: <mailto:x11-users-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/x11-users>,
+	<mailto:x11-users-request@lists.apple.com?subject=subscribe>
+Sender: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: x11-users-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I had this problem after the last security update, reloading the X11 dmg, either 2.4 or 2.5 solved the problem.
+
+Vic Ryan
+
+ 
+On Monday, May 03, 2010, at 01:02PM, "Jeremy Huddleston" <jeremyhu@apple.com> wrote:
+>
+>On May 3, 2010, at 09:24, Carlos Roman wrote:
+>
+>> echo $DISPLAY on terminal
+>> I get
+>> /tmp/launch-FAqsQ6/org.macosforge.xquartz:0
+>
+>That is correct.
+>
+>> and if I try to export $DISPLAY=":0.0"
+>
+>Don't try to manually set DISPLAY.
+>
+>> then, I tried running an xterm and got the following error message
+>> 
+>> Warning: locale not supported by Xlib, locale set to C
+>> X connection to /tmp/launch-FAqsQ6/org.macosforge.xquartz:0 broken (explicit
+>> kill or server shutdown).
+>
+>Your logs from the previous message do not show what is happening with this on the server's side.  Do you have any crash logs?
+>
+>Did you do anything "special" with your configuration?
+>
+> _______________________________________________
+>Do not post admin requests to the list. They will be ignored.
+>X11-users mailing list      (X11-users@lists.apple.com)
+>Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/vicryan%40mac.com
+>
+>This email sent to vicryan@mac.com
+>
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

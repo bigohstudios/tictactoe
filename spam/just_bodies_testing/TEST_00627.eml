@@ -1,0 +1,29 @@
+[SAdev] [Bug 805] Razor2 lookups don't workhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=805
+
+
+
+
+
+------- Additional Comments From felicity@kluge.net  2002-09-02 15:05 -------
+from the sa-dev mailing list:
+
+"ln -s /dev/null ~root/.razor/razor-agent.log"
+  
+The question is, why does 2.40 do this whereas my 2.31 doesn't. Hmmm.
+
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

@@ -1,0 +1,21 @@
+What are my locale settings, for non-terminal apps?I need to have separate locale settings for my terminal apps, so I
+configure that in .bash_profile. I assume that my desktop environment
+is using my locale settings from .profile but I'd like to confirm what
+those settings are. How can I get the output of locale _not_ from a
+terminal (which will source .bash_profile and thus be incorrect)?
+
+Thanks.
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2n880dece01005031439ne434ddfdgc873c5c37a111151@mail.csmining.org
+
+

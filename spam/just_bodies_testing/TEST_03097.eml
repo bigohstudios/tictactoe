@@ -1,0 +1,25 @@
+Re: [ILUG] How to copy some filesQuoting Ronan Waide <waider@waider.ie>:
+
+> Sure, but soft links would do the same. To be honest, I'm trying to
+> think of a useful use of hard links right now, and I'm a little
+> stumped. There's gotta be some benefit that I'm missing that's
+> immediately obvious to everyone.
+
+Using Niall's example - single set of files but >1 namespace, and suppose that
+you want to delete some items from the set according to rules applied to the
+namespaces.  With soft links you need an *extra* namespace the others refer to,
+and after filtering the namespaces, you have to do a manual reference count to
+decide what goes and what stays.  With hard links, you just unlink and deletion
+is automatic.
+
+Ronan.
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

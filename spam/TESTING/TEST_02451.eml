@@ -1,0 +1,132 @@
+X-Account-Key: account5
+X-UIDL: GmailId128732397c705b5c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs453507wfb;
+        Fri, 7 May 2010 07:20:33 -0700 (PDT)
+Received: by 10.223.144.77 with SMTP id y13mr59355fau.86.1273242032068;
+        Fri, 07 May 2010 07:20:32 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id k9si2172195fad.29.2010.05.07.07.20.26;
+        Fri, 07 May 2010 07:20:32 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 00B6713A5446; Fri,  7 May 2010 14:20:13 +0000 (UTC)
+Old-Return-Path: <madduck@fishbowl.rw.madduck.net>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.3 required=4.0 tests=ALL_TRUSTED,FOURLA,GMAIL,
+	LDO_WHITELIST,PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 3F5A313A425D
+	for <lists-debian-user@liszt.debian.org>; Fri,  7 May 2010 14:20:10 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-10.901 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, GMAIL=1, LDO_WHITELIST=-5,
+	NO_RELAYS=-0.001, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id 35ki9KmzO1ui for <lists-debian-user@liszt.debian.org>;
+	Fri,  7 May 2010 14:20:03 +0000 (UTC)
+Received: from clegg.madduck.net (clegg.madduck.net [IPv6:2001:1620:f08::1])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by liszt.debian.org (Postfix) with ESMTPS id EC19913A53C3
+	for <debian-user@lists.debian.org>; Fri,  7 May 2010 14:20:02 +0000 (UTC)
+Received: from fishbowl.rw.madduck.net (fishbowl-wlan.gauting.madduck.net [IPv6:2001:a60:f069:0:224:d7ff:fe04:c82c])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "fishbowl.rw.madduck.net", Issuer "CAcert Class 3 Root" (verified OK))
+	by clegg.madduck.net (postfix) with ESMTPS id 430F91D409C;
+	Fri,  7 May 2010 16:19:54 +0200 (CEST)
+Received: by fishbowl.rw.madduck.net (Postfix, from userid 1000)
+	id 39B7020F39; Fri,  7 May 2010 16:19:53 +0200 (CEST)
+Date: Fri, 7 May 2010 16:19:53 +0200
+From: martin f krafft <madduck@debian.org>
+To: Jozsi Vadkan <jozsi.avadkan@csmining.org>
+Cc: Debian User Mailing list <debian-user@lists.debian.org>
+Subject: Re: usb raid1 pendrive boot
+Message-ID: <20100507141953.GA21571@fishbowl.rw.madduck.net>
+Mail-Followup-To: Jozsi Vadkan <jozsi.avadkan@csmining.org>,
+	Debian User Mailing list <debian-user@lists.debian.org>
+References: <1273231268.5627.27.camel@localhost>
+ <hs10l8$t06$3@dough.gmane.org>
+ <1273236024.5627.32.camel@localhost>
+ <20100507125447.GA13924@fishbowl.rw.madduck.net>
+ <1273239520.5627.34.camel@localhost>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-ripemd160;
+	protocol="application/pgp-signature"; boundary="fUYQa+Pmc3FrFX/N"
+Content-Disposition: inline
+In-Reply-To: <1273239520.5627.34.camel@localhost>
+X-Motto: Keep the good times rollin'
+X-OS: Debian GNU/Linux squeeze/sid kernel 2.6.33-2-amd64 x86_64
+Organization: The Debian project
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Virus-Scanned: clamav-milter 0.96 at clegg
+X-Virus-Status: Clean
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <7SRFw_ZN4EP.A.iIC.dGC5LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/576138
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Fri,  7 May 2010 14:20:13 +0000 (UTC)
+
+
+--fUYQa+Pmc3FrFX/N
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Jozsi Vadkan <jozsi.avadkan@csmining.org> [2010.05.07.1538 +0200]:
+> rootdelay=3D15 worked!!!!!!!!!!!!!!!
+
+http://git.debian.org/?p=3Dpkg-mdadm/mdadm.git;a=3Dblob;f=3Ddebian/FAQ;hb=
+=3DHEAD#l560
+
+--=20
+ .''`.   martin f. krafft <madduck@d.o>      Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+"everyone has a little secret he keeps,
+ i like the fires when the city sleeps."
+                                                  -- mc 900 ft jesus
+
+--fUYQa+Pmc3FrFX/N
+Content-Type: application/pgp-signature; name="digital_signature_gpg.asc"
+Content-Description: Digital signature (see http://martin-krafft.net/gpg/)
+Content-Disposition: inline
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEAREDAAYFAkvkIYYACgkQIgvIgzMMSnVLjQCfWCO/w9DjGjKis+QSLMXGsT7W
+9LkAn2OZZfXi22h14NTTOONB97n3xUzQ
+=+Wfl
+-----END PGP SIGNATURE-----
+
+--fUYQa+Pmc3FrFX/N--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507141953.GA21571@fishbowl.rw.madduck.net
+
+

@@ -1,0 +1,33 @@
+[SAtalk] Running SA as a user app?Can anybody point me to a project/FAQ similar to this:?
+
+1. Perl script fetches POP mail from a distant server
+2. mail is fed to SA, running as a standalone module in my user account
+3. SA spits out results back to perl script.
+4. Script deletes offending mail.
+
+I don't have root access.  I don't need a MTA.
+
+=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0
+Chris Fortune
+Fortune's Web Computer Services
+Nelson, BC, Canada
+V1L 2W3
+
+ph#: 250 505-5012
+email: cfortune@telus.net
+website: http://cfortune.kics.bc.ca/
+
+=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0=0
+
+
+
+-------------------------------------------------------
+Sponsored by: AMD - Your access to the experts on Hammer Technology! 
+Open Source & Linux Developers, register now for the AMD Developer 
+Symposium. Code: EX8664 http://www.developwithamd.com/developerlab
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

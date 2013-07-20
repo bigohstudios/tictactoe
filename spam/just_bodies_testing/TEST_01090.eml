@@ -1,0 +1,29 @@
+Re: Bluetooth and runloops in a dedicated thread.On Apr 28, 2010, at 12:11 AM, David Giovannini wrote:
+
+> I knocked all the code down to the single UI thread and I rediscovered =
+why I need multiple threads. My Obj-C objects give KVC semantics to the =
+bluetooth device.
+
+Is this absolutely necessary? =20
+
+> A getter is waiting on a thread signal for the arrival of requested =
+data.=20
+
+The Cocoa Bluetooth API was designed to be asynchronous after years of =
+experience and problems with using synchronous APIs for networking.  =
+Trying to translate it back into a synchronous multi-threaded API might =
+be counter productive.
+
+If you really need a synchronous API, the previous Bluetooth APIs might =
+still be available.
+
+- Peter
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Bluetooth-dev mailing list      (Bluetooth-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/bluetooth-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

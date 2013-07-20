@@ -1,0 +1,39 @@
+Re: adding 192.x with static IPOn 05 May 2010, Celejar wrote:
+> On Wed, 5 May 2010 08:32:26 +0100
+> Anthony Campbell <ac@acampbell.org.uk> wrote:
+> 
+> > On 04 May 2010, Celejar wrote:
+> > > 
+> > > Indeed.  I was just trying to help, over the phone, a Windows user set
+> > > up a new router, in the absence of a manual.  I told her "go to
+> > > 192.168.0.1", then "192.168.1.1".  Nothing doing.  Finally, I searched
+> > > online for the manual, which gave the address as "routerlogin.net" or
+> > > something like that.  I still have no idea what the IP address is.
+> > > 
+> > > Celejar
+> > > -- 
+> > 
+> > In my case, "routerlogin.net" gives me my router at 192.188.0.1.
+> 
+> Thanks, but do you really mean 188, or 168?
+> 
+> Celejar
+> -- 
+
+Sorry, typo - 168.
+
+Anthony
+
+-- 
+Anthony Campbell - ac@acampbell.org.uk 
+Microsoft-free zone - Using Debian GNU/Linux 
+http://www.acampbell.org.uk - sample my ebooks at
+http://www.smashwords.com/profile/view/acampbell
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506073841.GA2746@acampbell.org.uk
+
+

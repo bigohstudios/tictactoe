@@ -1,0 +1,149 @@
+X-Account-Key: account5
+X-UIDL: GmailId12815769efe04126
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs18068wfj;
+        Mon, 19 Apr 2010 02:47:33 -0700 (PDT)
+Received: by 10.223.6.27 with SMTP id 27mr70308fax.31.1271670414912;
+        Mon, 19 Apr 2010 02:46:54 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 2si10058132fks.12.2010.04.19.02.46.54;
+        Mon, 19 Apr 2010 02:46:54 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 806C713A4E87; Mon, 19 Apr 2010 09:46:45 +0000 (UTC)
+Old-Return-Path: <sjoerd@lorentz.leidenuniv.nl>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-16.0 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8719C13A4E72
+	for <lists-debian-user@liszt.debian.org>; Mon, 19 Apr 2010 09:46:39 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-12 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id JibwJ5Z02wpN for <lists-debian-user@liszt.debian.org>;
+	Mon, 19 Apr 2010 09:46:32 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.1
+Received: from mail.lorentz.leidenuniv.nl (hades.lorentz.leidenuniv.nl [132.229.216.135])
+	by liszt.debian.org (Postfix) with ESMTP id 17F4913A4E6B
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 09:46:26 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id B095115985FD
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 11:46:20 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at lorentz.leidenuniv.nl
+Received: from mail.lorentz.leidenuniv.nl ([127.0.0.1])
+	by localhost (hades.lorentz.leidenuniv.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 5iTb2LYdg6VB for <debian-user@lists.debian.org>;
+	Mon, 19 Apr 2010 11:46:20 +0200 (CEST)
+Received: from [132.229.212.91] (unknown [132.229.212.91])
+	(Authenticated sender: sjoerd)
+	by mail.lorentz.leidenuniv.nl (Postfix) with ESMTP id 16E0A15985FA
+	for <debian-user@lists.debian.org>; Mon, 19 Apr 2010 11:46:20 +0200 (CEST)
+Message-ID: <4BCC2644.6020300@lorentz.leidenuniv.nl>
+Date: Mon, 19 Apr 2010 11:45:40 +0200
+From: Sjoerd Hardeman <sjoerd@lorentz.leidenuniv.nl>
+User-Agent: Mozilla-Thunderbird 2.0.0.22 (X11/20090707)
+MIME-Version: 1.0
+To: debian-user@lists.debian.org
+Subject: Re: xorg synaptics driver no longer working with udev?
+References: <4BC62051.4080008@lorentz.leidenuniv.nl> <20100414215118.GA6134@isar.localhost> <q2g77f417a21004141738nc6bb17b4i9805c4c1427d59ca@mail.csmining.org> <20100415192418.GA5431@isar.localhost> <20100415194849.GA5868@isar.localhost> <4BC784CD.2050303@lorentz.leidenuniv.nl> <20100416184645.GA4281@isar.localhost>
+In-Reply-To: <20100416184645.GA4281@isar.localhost>
+X-Enigmail-Version: 0.95.0
+OpenPGP: url=http://pool.sks-keyservers.net/pks/lookup?op=get&search=0x1CA11D34F63938E5
+Content-Type: multipart/signed; micalg=pgp-sha1;
+ protocol="application/pgp-signature";
+ boundary="------------enig5CD83CAC65CC1AD5CEA099CC"
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <44HgQSACXIO.A.q_.FaCzLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574423
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Mon, 19 Apr 2010 09:46:45 +0000 (UTC)
+
+This is an OpenPGP/MIME signed message (RFC 2440 and 3156)
+--------------enig5CD83CAC65CC1AD5CEA099CC
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Florian Kulzer schreef:
+> On Thu, Apr 15, 2010 at 23:27:41 +0200, Sjoerd Hardeman wrote:
+>=20
+> [...]
+>=20
+>> Hal is certainly no longer working, see #567389. Yet, udev now also
+>> stopped working...
+>=20
+> OK, I think I understand a little bit better how this is supposed to be=
+
+> working now. Try to add your touchpad options to the InputClass section=
+
+> of the file /usr/lib/X11/xorg.conf.d/10-synaptics.conf as a first test.=
+
+I don't have a directory /usr/lib/X11/xorg.conf.d/. Maybe these changes
+are still to be migrated to testing?
+>=20
+> There seems to be a new mechanism that allows for multiple such
+> InputClass sections matching the same device, so that its configuration=
+
+> can be spread over several files, with each file being able to add
+> options and to override settings made in previous files. If this works
+> as advertised then it should be possible to add your customizations in =
+a
+> separate InputClass section in, say, 99-local.conf and thus make sure
+> that they are not overwritten when the synaptics driver is upgraded.
+> That seems to have all the modularity advantages of the earlier hal/ude=
+v
+> methods with the added bonus of the simpler xorg.conf syntax.
+Seems nice. The problem of the xorg.conf stanza is that it indeed not so
+modular.
+>=20
+> I am curious to hear if this actually works because I cannot try it
+> myself. (My up-to-date Sid desktop does not have a touchpad.)
+I will either wait until the update migrates to testing or get it by
+hand from sid. I'll keep you informed.
+
+Sjoerd
+
+
+--------------enig5CD83CAC65CC1AD5CEA099CC
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvMJkkACgkQHKEdNPY5OOVBDgCghxMe2ZL98jspjxJe26dlKBow
+TkMAnR7ZDnln9A1OoWAqxPCb8gy+Rwaw
+=tR7w
+-----END PGP SIGNATURE-----
+
+--------------enig5CD83CAC65CC1AD5CEA099CC--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCC2644.6020300@lorentz.leidenuniv.nl
+
+

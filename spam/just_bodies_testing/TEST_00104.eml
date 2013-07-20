@@ -1,0 +1,46 @@
+Re: Updating JRE in LennyOn Wed, 14 Apr 2010 11:48:56 -0400, Ken Heard wrote:
+
+> In directory /usr/lib/firefox/plugins there was already a symbolic link
+> from libjavaplugin.so to /etc/alternatives/firefox-libjavaplugin.so.
+> 
+> I renamed that one and made libjavaplugin.so link to
+> /usr/lib/jvm/jre1.6.0_19/plugin/i386/ns7/libjavaplugin_oji.so.
+> 
+> Now the command "update-alternatives --display firefox-javaplugin.so"
+> returns:
+> 
+> firefox-javaplugin.so - status is auto.
+>  link currently points to
+> /usr/lib/jvm/java-6-openjdk/jre/lib/i386/gcjwebplugin.so
+> /usr/lib/jvm/java-6-openjdk/jre/lib/i386/gcjwebplugin.so - priority 1061
+> Current `best' version is
+> /usr/lib/jvm/java-6-openjdk/jre/lib/i386/gcjwebplugin.so.
+
+"update-alternatives" output shows that the wrong java plugin version is 
+being picked (openJDK instead Sun's Java one).
+
+Mmmm, try first to setup with "update-alternatives", but in this form 
+(one line):
+
+***
+update-alternatives --config firefox-javaplugin.so
+***
+
+Look if the above command let you choose between the two options and 
+choose the Sun's one. 
+
+If that does not work, you can try with the steps provided in Oracle/Sun 
+site (manual way).
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.14.16.04.59@csmining.org
+
+

@@ -1,0 +1,31 @@
+QuickTime chatty on multicasts?I'm doing Real and Windows Media multicast streams. Mac users are using Rea=
+lPlayer for the Real, and a rollover unicast from the Windows server with a=
+ QuickTime plugin using Flip4Mac.
+
+Looking at the multicast traffic, we're seeing a lot of RTCP packets coming=
+ from Mac boxes to the unicast address of the Real streams. It seems this h=
+appens when QuickTime Player is launched and they view or have viewed the R=
+eal stream?
+
+The problem is that it means there are lots of sources advertising themselv=
+es as the "source" for that multicast address.
+
+Is this an expected outcome? Anyone recognize what I'm seeing?=20
+
+I saw the packets from my own system, and they quit when I quit QTP 7, star=
+ted back when I relaunched it. I'm running snow leopard, most users aren't =
+yet.
+
+
+Bryan Walls
+bryan.walls@nasa.gov
+256-544-3311
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

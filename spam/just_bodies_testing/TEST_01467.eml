@@ -1,0 +1,30 @@
+using umlaut works in console, not in Citrix clientHi,
+
+i'm using Debian stable on a Toshiba  Satellite Pro laptop with an azerty
+keyboard layout (Belgian period) and when i use the Citrix client (v11),
+it doesn't translate all the key combinations correctly.
+I cannot use an umlaut with a small caps letter, it automatically makes
+the small letter a capital letter with an umlaut. It however works in the
+console and in an xterm, but not when i'm in citrix.
+
+If i change the keyboard layout to Dutch in the Citrix settings, then i'm able
+to use the umlaut key correctly. When dealing with Citrix i usually specify
+that the keyboard layout is specified in the User Profile, that's a Citrix option.
+I tried specifying it as Belgian Dutch but that doesn't work.
+The locale is "nl_BE.UTF-8"
+
+It's a rather annoying problem as i want to install Debian on all the old
+laptops we have and this is holding the conversion back.
+
+Any ideas?
+
+Thanks,
+Benedict
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hr4c1p$mtj$1@dough.gmane.org
+
+

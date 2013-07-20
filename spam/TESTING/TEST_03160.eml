@@ -1,0 +1,120 @@
+X-Account-Key: account5
+X-UIDL: GmailId128aa285f93079e8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs6159wfo;
+        Mon, 17 May 2010 23:44:53 -0700 (PDT)
+Received: by 10.223.35.12 with SMTP id n12mr7577134fad.35.1274165091877;
+        Mon, 17 May 2010 23:44:51 -0700 (PDT)
+Return-Path: <bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id w12si14692751fah.35.2010.05.17.23.44.51;
+        Mon, 17 May 2010 23:44:51 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-kde=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 72DBD13A4F55; Tue, 18 May 2010 06:44:49 +0000 (UTC)
+Old-Return-Path: <cobaco@linux.be>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.9 required=4.0 tests=LDO_WHITELIST,MDO_DATING2,
+	PGPSIGNATURE autolearn=failed version=3.2.5
+X-Original-To: lists-debian-kde@liszt.debian.org
+Delivered-To: lists-debian-kde@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 8A1C113A4F47
+	for <lists-debian-kde@liszt.debian.org>; Tue, 18 May 2010 06:44:43 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-11.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, MDO_DATING2=0.1,
+	PGPSIGNATURE=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id MundmVOrizkG for <lists-debian-kde@liszt.debian.org>;
+	Tue, 18 May 2010 06:44:36 +0000 (UTC)
+Received: from mail.unilogicnetworks.net (mail-out123.unilogicnetworks.net [62.133.206.123])
+	by liszt.debian.org (Postfix) with ESMTP id 7CB1F13A4861
+	for <debian-kde@lists.debian.org>; Tue, 18 May 2010 06:44:36 +0000 (UTC)
+Received: from router (router.unilogic.nl [62.133.193.82])
+	by mail.unilogicnetworks.net (Postfix) with ESMTP id 1B0704A14C
+	for <debian-kde@lists.debian.org>; Tue, 18 May 2010 08:40:02 +0200 (CEST)
+Received: from mail.unilogic.local (mail.unilogic.nl [10.0.11.245])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by router (Postfix) with ESMTP id 1456D6E786
+	for <debian-kde@lists.debian.org>; Tue, 18 May 2010 08:44:34 +0200 (CEST)
+Received: from localhost ([127.0.0.1])
+	by mail.unilogic.local
+	(using TLSv1/SSLv3 with cipher AES256-SHA (256 bits))
+	for debian-kde@lists.debian.org;
+	Tue, 18 May 2010 08:44:33 +0200
+From: cobaco <cobaco@linux.be>
+Reply-To: cobaco@linux.be
+To: "Debian-KDE Mailingliste" <debian-kde@lists.debian.org>
+Subject: Re: How to get kdict or aequivalent in KDE4 / Squeeze?
+Date: Tue, 18 May 2010 08:44:28 +0200
+User-Agent: KMail/1.13.3 (Linux/2.6.33-2-686; KDE/4.4.3; i686; ; )
+References: <20100517172053.GA8454@dserver.dnetz>
+In-Reply-To: <20100517172053.GA8454@dserver.dnetz>
+MIME-Version: 1.0
+Content-Type: multipart/signed;
+  boundary="nextPart2566295.Wdxebq7G73";
+  protocol="application/pgp-signature";
+  micalg=pgp-sha1
+Content-Transfer-Encoding: 7bit
+Message-Id: <201005180844.32764.cobaco@linux.be>
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <ycGbKd8mD-C.A.yFF.hdj8LB@liszt>
+Resent-From: debian-kde@lists.debian.org
+X-Mailing-List: <debian-kde@lists.debian.org> archive/latest/32454
+X-Loop: debian-kde@lists.debian.org
+List-Id: <debian-kde.lists.debian.org>
+List-Post: <mailto:debian-kde@lists.debian.org>
+List-Help: <mailto:debian-kde-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-kde-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-kde-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-kde-request@lists.debian.org
+Resent-Date: Tue, 18 May 2010 06:44:49 +0000 (UTC)
+
+--nextPart2566295.Wdxebq7G73
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 17 May 2010, Dirk Salva wrote:
+> a few days ago I've upgraded my Debian from Lenny to Squeeze. My
+> problem: the beloved kdict with the small input-field in the kicker are
+> not there anymore. I am missing it:-(
+> What can I do to get access with such a small input-field to my local
+> dictd?
+
+there is a dictionary plasmoid, adding it to your panel should work AFAIK
+=2D-=20
+Cheers, Cobaco (aka Bart Cornelis)
+
+--nextPart2566295.Wdxebq7G73
+Content-Type: application/pgp-signature; name=signature.asc 
+Content-Description: This is a digitally signed message part.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEABECAAYFAkvyN0wACgkQ5ihPJ4ZiSrv6MQCfWgLIqcFVPb//4s5etCx4hS3z
+KVMAnAk8LBPBfEY2M3CaCIhv4OwWNJDP
+=vs1I
+-----END PGP SIGNATURE-----
+
+--nextPart2566295.Wdxebq7G73--
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005180844.32764.cobaco@linux.be
+
+

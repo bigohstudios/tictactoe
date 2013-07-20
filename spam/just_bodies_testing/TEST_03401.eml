@@ -1,0 +1,21 @@
+Re: [ILUG] How to copy some filesOn Sat, Jul 20, 2002 at 09:33:35PM +0100, kevin lyda mentioned:
+> >  > apparently some systems limited soft links to the same device but
+> >  > gave up after a while.  
+> > Why?
+> to make them consistent with hard links.
+
+ That's something that POSIX would do - make every platform as equally
+broken, rather than standing up and saying "how about we try & make
+everyone better".
+
+ (why ? Because in the real world, you can't. Somethings just suck)
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

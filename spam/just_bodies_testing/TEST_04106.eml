@@ -1,0 +1,16 @@
+FOAF explorerURL: http://diveintomark.org/archives/2002/09/25.html#foaf_explorer
+Date: 2002-09-25T18:18:53-05:00
+
+Morten Frederiksen has taken a first stab at a real-time social network 
+explorer based on FOAF files. You could start on my profile[1] and explore from 
+there, or enter the URL of your own FOAF file (at the bottom of the page). It's 
+heavy on tech details, but you can easily see the potential here. (It's also a 
+great way to debug your FOAF file, if you added anything manually.) Now we need 
+somebody to build a spider that follows foaf:knows links and draws pretty 
+social network diagrams, so we can see the forest for the trees.
+
+
+
+[1] http://xml.mfd-consult.dk/foaf/?foaf=http%3A%2F%2Fdiveintomark.org%2Fpublic%2Ffoaf.rdf
+
+

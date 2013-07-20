@@ -1,0 +1,74 @@
+Re: How to flush cache of certain disk?El 2010-05-06 a las 16:36 +0300, Alexander Batischev escribió:
+
+(resending to the list)
+
+> Hi, and thanks for response!
+> 
+> On 6 May 2010 16:17, Camaleón wrote:
+> >> On my netbook I'm using automatic USB sticks mount through udev rules,
+> >> and I already used to running 'sync' command before unplugging stick, so
+> >> no data will be lost. But if I have few sticks inserted and some
+> >> information copying on one of them, if I run 'sync' I have to wait while
+> >> copying ends, because:
+> >>
+> >> a) sync command drops cache on disk, but copying process fill it again;
+> >> sync will work until all the caches are dropped to disks
+> >
+> > Dunno if this would fit your needs, but there is a "sync" option for
+> > mount points you can use to ensure all removable devices (or only the
+> > ones you select) get mounted with "-o sync" flag.
+> >
+> > But I would be a bit reluctant to use that, because as per "man mount"
+> > page that flag can shorten the life of flash drive based devices with a
+> > limited number of write operations.
+> 
+> Yes, that's why all USB sticks are mounted with async option and
+> that's a reason to use 'sync' before unplugging them.
+
+O.k.
+ 
+> >> b) I can't unplug stick when it stops to flash because I can't be sure
+> >> that there are no more parts of cache needed to be flushed on that disk.
+> >>
+> >> So here is my question - how can I run sync for only one device?
+> >
+> > To avoid data loss you have to "umount" the device first (or just "eject"
+> > if that options is available in your system). Umount/eject operation
+> > should care the data is correctly stored in the media before powering off
+> > or unplugging the device.
+> 
+> Well, yes, that's right, but I don't unmount sticks by myself — udev
+> does that when I unplug USB device. Let me describe how automounting
+> implemented so it would be more clear to you.
+> 
+> When I put my flash drive into USB port, udev recognizes that, checks
+> drive for filesystem type, and mount it if it's FAT or NTFS. After
+> that I can work with mounted stick.
+
+Right.
+
+> When I unplug stick, udev unmounts it from mountpoint. Pay attention
+> to moment of unmount - it happens *after* unplugging, so no cache can
+> be flushed as far as device is already disconnected.
+> 
+> I though about running umount /mnt/sd[a-z] before unplugging, but then
+> decided to ask for a better way. If I won't find it, umount will be
+> the solution. So, any other options?
+
+I never do that way. I always first "umount" the device and then, I 
+remove the stick, but not the reverse. Removable media has to be done 
+that way, to prevent data loss or flash drive damage, or that is what 
+manufacturers say :-?
+
+Greetings,
+
+-- 
+Camaleón 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506142143.GA11722@stt008.linux.site
+
+

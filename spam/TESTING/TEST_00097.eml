@@ -1,0 +1,163 @@
+X-Account-Key: account5
+X-UIDL: GmailId12841511acbc510d
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs154557wfj;
+        Tue, 27 Apr 2010 15:09:14 -0700 (PDT)
+Received: by 10.87.47.23 with SMTP id z23mr1227635fgj.28.1272406153829;
+        Tue, 27 Apr 2010 15:09:13 -0700 (PDT)
+Return-Path: <bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id 28si6535490fkx.36.2010.04.27.15.09.13;
+        Tue, 27 Apr 2010 15:09:13 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-security=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 7B5BF13A502A; Tue, 27 Apr 2010 22:09:07 +0000 (UTC)
+Old-Return-Path: <pablo.duboue@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-3.1 required=4.0 tests=GMAIL,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=no version=3.2.5
+X-Original-To: lists-debian-security@liszt.debian.org
+Delivered-To: lists-debian-security@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 6B51E13A4F6D
+	for <lists-debian-security@liszt.debian.org>; Tue, 27 Apr 2010 21:53:06 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, GMAIL=1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id K0lvH1Xu+JRM
+	for <lists-debian-security@liszt.debian.org>;
+	Tue, 27 Apr 2010 21:52:59 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from mail-px0-f175.google.com (mail-px0-f175.google.com [209.85.212.175])
+	by liszt.debian.org (Postfix) with ESMTP id BE24A13A4CAB;
+	Tue, 27 Apr 2010 21:52:58 +0000 (UTC)
+Received: by pxi14 with SMTP id 14so2191377pxi.6
+        for <multiple recipients>; Tue, 27 Apr 2010 14:52:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:in-reply-to
+         :references:date:message-id:subject:from:to:cc:content-type
+         :content-transfer-encoding;
+        bh=VljZIp5jnzXdgvWVYgitdDAtuw4TjsAp9FP5vPM4qBw=;
+        b=ebCy6X93jqUCKW9mALUFLootPqMI0bFLoUH5Aagn8iypUMmj0ib5jkbXxS2HFSB9Zf
+         M/uaVFs0xBO372PjkjBvLiWf7q5Tn9fm6TO/h7EEVZR/ndqZjyhTMh+RkAtKNgf+u9Am
+         4ATfpnstRQzsniy9GVpkjmOH/VUsyq5ppP/Cg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:content-transfer-encoding;
+        b=SWJNUdbTEdQeD5YbtJRfQm0dedBtDMsZplvDDtb2HPrye7SyZh+n4eMvTc8BhVeM1c
+         OMneEawyUf1i+mhRJp6roa9N9iF7480+BFDssMDYNNPPKiT8L4Qv4PkThmW8qQ6rAnpd
+         3LX7pm1UKv//qMLAWZoVRdtMR9BtaxgDWEK/U=
+MIME-Version: 1.0
+Received: by 10.142.152.29 with SMTP id z29mr3599025wfd.30.1272405170411; Tue, 
+	27 Apr 2010 14:52:50 -0700 (PDT)
+Received: by 10.143.33.2 with HTTP; Tue, 27 Apr 2010 14:52:50 -0700 (PDT)
+In-Reply-To: <t2hddde51ab1004261924v93e4b9f0if10089d269698000@mail.csmining.org>
+References: <t2hddde51ab1004261924v93e4b9f0if10089d269698000@mail.csmining.org>
+Date: Tue, 27 Apr 2010 17:52:50 -0400
+Message-ID: <j2md5adecf91004271452j84050f1fx601c71ed9ae9bce@mail.csmining.org>
+Subject: Re: Debian Java track at DebConf 10
+From: Pablo Duboue <pablo.duboue@csmining.org>
+To: debian-java@lists.debian.org
+Cc: pkg-scala-maint@lists.alioth.debian.org, debian-security@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Spam: 2008-11-04_01
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <x0K0PoN2Aw.A.iUE.DC21LB@liszt>
+Resent-From: debian-security@lists.debian.org
+X-Mailing-List: <debian-security@lists.debian.org> archive/latest/23795
+X-Loop: debian-security@lists.debian.org
+List-Id: <debian-security.lists.debian.org>
+List-Post: <mailto:debian-security@lists.debian.org>
+List-Help: <mailto:debian-security-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-security-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-security-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-security-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 22:09:07 +0000 (UTC)
+
+(this is an e-mail soliciting talks for a Debian-Java track at
+DebConf10, please CC: me unless you also reply to the debian-java
+mailing list)
+
+On Mon, Apr 26, 2010 at 10:24 PM, Tom Marble <tmarble@info9.net> wrote:
+> Pablo Duboue wrote:
+>> I'd like to coordinate a Debian-Java track in DebConf10
+> Sounds like a good idea!
+
+Looking forward to your jigsaw talk :-)
+
+> We should encourage related language (e.g. Clojure) talks as well.
+
+Indeed. I learned scala because I found about it through Debian :-)
+I'm CC:ing the Scala maintainers to see if they feel like giving a
+talk. (Groovy and clojure are Debian-Java maintained so the
+maintainers should be getting this already.)
+
+Alternatively, we can have a JVM-based languages BoF session. If
+anybody is interested in the topic, please submit it before the
+deadline (in three days).
+
+>> * A talk explaining the current state of the Java Policy and where we wa=
+nt to
+>> take it in the longer term. Doesn't need to be a talk, it can a joust ;-=
+)
+>>
+>> * A talk explaining javahelper, maybe focusing on newer developments if =
+such a
+>> talk has been offered on past DebConfs
+>
+> I suspect these will be topics that interest many Java hackers.
+> One of the old discussions we had on this topic was how to think
+> of these topics in a way that can benefit other distros as well [0].
+
+(that thread looks very good, I'll read it at a later time, thanks for
+pointing to it)
+
+with respect to other distros, yes, in that area the Eclipse packaging
+is heavily based on the work of Linux Tools in Eclipse, with a number
+of people from Red Hat, so it is nice if we can identify things we do
+to return the favor ;-)
+
+Does anybody has experience using java tooling in other distros and
+will be willing to sign up for a talk on the subject?
+
+> For example, our friends from another popular Libre distro are
+> concerned (rightly so) about Java security [1]. =A0Anyone care to
+> give a Java security talk (or is this really just a special case
+> of a GNU/Linux security talk)?
+
+We recently had issues with duplicated code in bsh [2]. Maybe there're
+people in Debian-Security with particular expertise to Java that'd
+like to give a talk (or a joint talk)?
+
+Again, the deadline for talks is soon so go for it :-)
+
+P.
+
+
+
+[0] http://lists.debian.org/debian-java/2007/06/threads.html#00023
+[1] http://identi.ca/conversation/26332216
+
+[2] http://lists.debian.org/4BB8F651.2040902@csmining.org
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2md5adecf91004271452j84050f1fx601c71ed9ae9bce@mail.csmining.org
+
+

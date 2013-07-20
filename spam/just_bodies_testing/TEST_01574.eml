@@ -1,0 +1,89 @@
+Re: Cannot loginFrom nobody Sat Jul 20 14:17:30 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+2010/4/6 Iker Salm=F3n San Mill=E1n <shaola@esdebian.org>
+
+> try installing and using xdm, i know tha is not a solution, but i've been
+> dealing with a very similar problem with a friend of mine and the only wa=
+y
+> to fix it was using xdm (or gdm).  If you can login with xdm, maybe we
+> should consider a bug and report it.
+>
+>
+> 2010/4/6 Smokejohn <smokejohn@csmining.org>
+>
+>>
+>>
+>> 2010/4/6 Iker Salm=F3n San Mill=E1n <shaola@esdebian.org>
+>>
+>> have you checked home partition integrity? are you sure it's no mounted =
+as
+>>> read only?
+>>>
+>>> 2010/4/6 Smokejohn <smokejohn@csmining.org>
+>>>
+>>>
+>>>>
+>>>>
+>>>> On Tue, Apr 6, 2010 at 7:57 PM, Klaus Becker <colonius@free.fr> wrote:
+>>>>
+>>>>> Le Mardi 06 Avril 2010 18:35:51, John Kapnogiannis a =E9crit :
+>>>>> > Hello there. I got a debian testing installation and I currently
+>>>>> cannot
+>>>>> > login in kde. I give my pass and instead of a proper kde session I
+>>>>> get
+>>>>> > kdm's login screen again. I haven't done any upgrade but I did a
+>>>>> really
+>>>>> > stupid thing: I hit the power button and turn the laptop off the ha=
+rd
+>>>>> > way while it was in suspend mode. I tried googling but it gave me n=
+o
+>>>>> > usefull things.
+>>>>> >
+>>>>> > The .xsession-errors file in my home folder says Permission denied.=
+ I
+>>>>> > checked the permissions in /tmp and /var/tmp and everything seems
+>>>>> fine.
+>>>>> > I also deleted the .kde folder. Login in as root and typing startx
+>>>>> opens
+>>>>> > a kde session.
+>>>>> >
+>>>>> > Any ideas?
+>>>>> >
+>>>>> > PS: I did the instructions described in this page:
+>>>>> > https://developer.skype.com/jira/browse/SCL-510 in order to fix
+>>>>> skype on
+>>>>> > me 64-bit installation, but I don't think it has something to do wi=
+th
+>>>>> my
+>>>>> > problem. I think something got wrong when I hit the power button. :=
+(
+>>>>>
+>>>>> Hi,
+>>>>>
+>>>>> perhaps
+>>>>>
+>>>>> #chown -R john /home/john
+>>>>>
+>>>>> or any username you use ?
+>>>>>
+>>>>> If this does'nt work, you can try to create a new user and then cope
+>>>>> all your
+>>>>> files to /home/new-user.
+>>>>>
+>>>>>
+>>>>> Nope did not help. Adding a new user did not fix anything too. I trie=
+d
+>>>> login in a console and then startx and I got some errors about xkb not=
+ being
+>>>> able to get initialized. Strange....  So the thing is that no user exc=
+ept
+>>>> the root can start a kde session.
+>>>>
+>>>>
+>>> Yes the partition is checked and it is fine.  I am really stuck here :(
+>>
+>
+>
+Ok I will try that and report back.

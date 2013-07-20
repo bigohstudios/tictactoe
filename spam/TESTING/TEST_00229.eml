@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId1286b5fa3bcc9ec7
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs365048wfb;
+        Wed, 5 May 2010 19:09:09 -0700 (PDT)
+Received: by 10.142.55.18 with SMTP id d18mr5980768wfa.170.1273111749342;
+        Wed, 05 May 2010 19:09:09 -0700 (PDT)
+Return-Path: <java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 37si625886pzk.93.2010.05.05.19.09.09;
+        Wed, 05 May 2010 19:09:09 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 18C921C2363B3
+	for <mlsubscriber.tech@csmining.org>; Wed,  5 May 2010 19:09:09 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 143AC276CBF10
+	for <mlsubscriber.tech@csmining.org>; Wed,  5 May 2010 19:09:09 -0700 (PDT)
+X-Original-To: java-dev@lists.apple.com
+Delivered-To: java-dev@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id D21E1276CB8A9
+	for <java-dev@lists.apple.com>; Wed,  5 May 2010 19:08:11 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id C1852D150DBB
+	for <java-dev@lists.apple.com>; Wed,  5 May 2010 19:08:11 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7bcbae0000016ca-af-4be2248bb911
+Received: from mailout10.yourhostingaccount.com
+	(mailout10.yourhostingaccount.com [65.254.253.84])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	40.B4.05834.B8422EB4; Wed,  5 May 2010 19:08:11 -0700 (PDT)
+Received: from mailscan12.yourhostingaccount.com ([10.1.15.12]
+	helo=mailscan12.yourhostingaccount.com)
+	by mailout10.yourhostingaccount.com with esmtp (Exim)
+	id 1O9qVW-0007Ts-JJ
+	for java-dev@lists.apple.com; Wed, 05 May 2010 22:08:10 -0400
+Received: from impout02.yourhostingaccount.com ([10.1.55.2]
+	helo=impout02.yourhostingaccount.com)
+	by mailscan12.yourhostingaccount.com with esmtp (Exim)
+	id 1O9qVX-0005XF-Bq
+	for java-dev@lists.apple.com; Wed, 05 May 2010 22:08:11 -0400
+Received: from authsmtp11.yourhostingaccount.com ([10.1.18.11])
+	by impout02.yourhostingaccount.com with NO UCE
+	id E2891e0030EKrUA0000000; Wed, 05 May 2010 22:08:09 -0400
+X-EN-OrigOutIP: 10.1.18.11
+X-EN-IMPSID: E2891e0030EKrUA0000000
+Received: from cpe-69-205-180-207.stny.res.rr.com ([69.205.180.207]
+	helo=[192.168.5.4])
+	by authsmtp11.yourhostingaccount.com with esmtpa (Exim)
+	id 1O9qVV-00053u-UP
+	for java-dev@lists.apple.com; Wed, 05 May 2010 22:08:10 -0400
+From: Mike P <lgmmikeappledev@levelgroundmedia.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 5 May 2010 22:08:01 -0400
+Message-Id: <FF907852-7FE2-4BC2-A6F4-CD1D15A51D6F@levelgroundmedia.com>
+To: java-dev@lists.apple.com
+Mime-Version: 1.0 (Apple Message framework v1078)
+X-Mailer: Apple Mail (2.1078)
+X-EN-UserInfo: 81087b5675e403330fda579520990ea7:a4d0b14a0fed48bd1fb709eb9d4f84d5
+X-EN-AuthUser: lgmmikeappledev
+X-EN-OrigIP: 69.205.180.207
+X-EN-OrigHost: cpe-69-205-180-207.stny.res.rr.com
+X-Brightmail-Tracker: AAAABBQMCDEUDBvyFAwdpxQMNa8=
+Subject: JavaFrameEmbedding question
+X-BeenThere: java-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: "This list is for technical discussions related to Java on Mac OS X."
+	<java-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:java-dev@lists.apple.com>
+List-Help: <mailto:java-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/java-dev>,
+	<mailto:java-dev-request@lists.apple.com?subject=subscribe>
+Sender: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: java-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I'm rather interested in embedding a JPanel into a Cocoa GUI.  The =
+JavaFrameEmbedding class looks promising and the JavaMapping example =
+seem interesting at first, but then doesn't seem to show enough of how =
+to pull it off when an existing app is already invoking a jvm. =20
+
+Does anyone have any experience with embedding Swing into Cocoa?  Or, =
+embedding SWT into Cocoa would also work if anyone has experience with =
+that..
+
+Mike=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

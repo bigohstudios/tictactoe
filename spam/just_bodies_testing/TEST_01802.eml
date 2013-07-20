@@ -1,0 +1,30 @@
+Re: [VulnWatch] Foundstone Labs Advisory - Information Leakage in Orinoco and Compaq Access PointsOn Friday, August 9, 2002, at 11:12 AM, Foundstone Labs wrote:
+
+> An information leakage vulnerability exists in Orinoco and Compaq OEM
+> access points, disclosing the unique SNMP community string. As a result,
+> an attacker can query the community string and gain the ability to
+> change system configuration including Wired Equivalent Privacy (WEP)
+> keys and Domain Name Service (DNS) information.
+
+I think this is missing the point a bit...  Yes, you can query the SNMP 
+community string...  And yes, it's the default PW (not to mention the 
+ESSID and last 5 characters of the default WEP key...)  But they're all 
+easily changed, and indeed, it is highly recommended to do so in the 
+manual.
+
+Anyone who changes the default settings would not be vulnerable to this 
+particular SNMP probe.  Of course, you can't account for end user 
+stupidity, but that's beyond the scope of this advisory.  ;)
+
+> Vendor Response:
+>
+> Both vendors were notified of this issue on July 8th, 2002. According
+> to Orinoco, "The Residential Gateway line has been discontinued."
+
+I've also heard (second hand, but on good authority) that the RG line is 
+alive and well (hence the recent RG-1100, and the upcoming 802.11a 
+version...)
+
+--Rob
+
+

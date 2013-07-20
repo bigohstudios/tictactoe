@@ -1,0 +1,21 @@
+Re: How do I fsck and XFS file system in "Squeeze"On 05/20/2010 07:59 PM, Mark Allums wrote:
+[snip]
+>
+> If xfsprogs is installed, then I think fsck will do it, just first run
+> something like:
+>
+> tune2fs -C912 /dev/sda3
+>
+
+Except that tune2fs is only for ext[234] filesystems.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF5F4CA.50604@cox.net
+
+

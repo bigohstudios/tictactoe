@@ -1,0 +1,15 @@
+Re: Any file details on an executable binary file?Anand Sivaram writes:
+> I was wondering if anyone could suggest a package or means to look at
+> any or all of the information from a given executable binary file:
+
+Try readelf, from the binutils package.
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87iq6qbd8c.fsf@thumper.dhh.gt.org
+
+

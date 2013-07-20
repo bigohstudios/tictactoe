@@ -1,0 +1,46 @@
+Re: transcode build problem (was: RH 8 no DMA for DVD drive)On Mon, 2002-10-07 at 11:54, Matthias Saou wrote:
+> Once upon a time, Alvie wrote :
+> 
+> > This is only the last part of it.I used 'rpmbuild --rebuild --without
+> > avifile transcode.0.6.1-fr2.src.rpm'.
+> 
+> > af6_decore.cpp:305: 'WAVEFORMATEX'
+> > is used as a type, but is not defined as a
+> >    type.
+> > af6_decore.cpp:306: parse error before `if'
+> [...]
+> 
+> All of these "af6" are related to avifile6 support :-/
+> Normally, my 0.6.1-fr2 build of transcode defaults to *not* use avifile,
+> but you can use "--with avifile6" to force recompiling against it.
+> 
+> Do you have an old avifile installed maybe?
+> Can you check the "./configure ..." line run at the beginning of the
+> rebuild process to see if it does include the "--without-avifile6" option?
+> 
+Yes it was there.
+You guessed the problem correctly in an earlier e-mail There was still
+remnants remaining from an old failed avifile installation.
+The transcode src.rpm now builds perfectly.
+Thank you VERY much!
+You are GOOD.
+Alvie 
+  
+> Matthias
+> 
+> -- 
+> Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+> Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+> Load : 0.23 0.14 0.14
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

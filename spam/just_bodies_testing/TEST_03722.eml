@@ -1,0 +1,30 @@
+Re: 64 bit-flash failing sitesFrom nobody Sat Jul 20 14:17:33 2013
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 5/11/2010 10:19 AM, James Zuelow wrote:
+> Huh.  I'm jealous.  I've been running 64 bit Lenny and Squeeze for the =
+past three years or so.  When I moved to the 64 bit flash plugin, it woul=
+d crash Iceweasel on a regular basis.  No watching videos required -- jus=
+t a flash advertisement on a page.  I could restart Iceweasel and go back=
+, maybe get a different flash advertisement from the rotation which would=
+n't crash Iceweasel and read the page.  I'd say 5% of pages would crash I=
+ceweasel.
+>=20
+> But it got to the point where I just moved the plugin out of the way, a=
+nd live without flash for Iceweasel on amd64.  I move it back when my dau=
+ghter wants to hang out at Club Penguin, which plays nice with my browser=
+=2E
+
+Interesting. I've had the browser crash, but not upon loading any and
+every flash site with the 64-bit plugin. I am running Chromium dev as
+well as Sid, but other than that, I couldn't tell you. Flash does crash
+my browser (actually, I've had Chromium itself reboot my system), but it
+has been no more frequent or infrequent that when I was using the 32-bit
+plugin.
+
+--=20
+=2E O .   O . O   . . O   O . .   . O .
+=2E . O   . O O   O . O   . O O   . . O
+O O O   . O .   . O O   O O .   O O O
+

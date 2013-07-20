@@ -1,0 +1,116 @@
+X-Account-Key: account5
+X-UIDL: GmailId128818a748c09b3e
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs106wfb;
+        Mon, 10 May 2010 02:27:35 -0700 (PDT)
+Received: by 10.142.10.1 with SMTP id 1mr2287067wfj.110.1273483654301;
+        Mon, 10 May 2010 02:27:34 -0700 (PDT)
+Return-Path: <filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 10si2138563pzk.119.2010.05.10.02.27.32;
+        Mon, 10 May 2010 02:27:34 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id D22BA1C00F68B
+	for <mlsubscriber.tech@csmining.org>; Mon, 10 May 2010 02:27:32 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id AC7F8278768CA
+	for <mlsubscriber.tech@csmining.org>; Mon, 10 May 2010 02:27:32 -0700 (PDT)
+X-Original-To: filesystem-dev@lists.apple.com
+Delivered-To: filesystem-dev@lists.apple.com
+Received: from relay2.apple.com (relay2.apple.com [17.128.113.32])
+	by lists.apple.com (Postfix) with ESMTP id 22F0F278768A5
+	for <filesystem-dev@lists.apple.com>;
+	Mon, 10 May 2010 02:27:29 -0700 (PDT)
+Received: from mail-in12.apple.com (mail-in12.apple.com [17.254.13.10])
+	by relay2.apple.com (Postfix) with ESMTP id 11AB6D43396A
+	for <filesystem-dev@lists.apple.com>;
+	Mon, 10 May 2010 02:27:29 -0700 (PDT)
+X-AuditID: 11fe0d0a-b7ca0ae000001e78-45-4be7d180ffc2
+Received: from daleenterprise.com (daleenterprise.com [67.78.11.229])
+	by mail-in12.apple.com (Apple Secure Mail Relay) with SMTP id
+	99.52.07800.081D7EB4; Mon, 10 May 2010 02:27:28 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by daleenterprise.com (Postfix) with ESMTP id CD33912A664E
+	for <filesystem-dev@lists.apple.com>;
+	Mon, 10 May 2010 05:27:27 -0400 (EDT)
+Received: from daleenterprise.com ([127.0.0.1])
+	by localhost (daleenterprise.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 18130-11 for <filesystem-dev@lists.apple.com>;
+	Mon, 10 May 2010 05:27:26 -0400 (EDT)
+Received: from [10.1.100.11] (unknown [67.78.11.226])
+	by macftphttp.serverbox.org (Postfix) with ESMTP id 16AB112A6644
+	for <filesystem-dev@lists.apple.com>;
+	Mon, 10 May 2010 05:27:26 -0400 (EDT)
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Transfer-Encoding: 7bit
+Message-Id: <8FBFF1C1-4D28-4BC8-A654-8397CA78DD9F@macftphttp.serverbox.org>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+To: filesystem-dev@lists.apple.com
+From: websrvr <websrvr@macftphttp.serverbox.org>
+Date: Mon, 10 May 2010 05:27:25 -0400
+X-Mailer: Apple Mail (2.752.2)
+MTA-Interface: amavisd-new-2.3.3 (2005-08-22) + Maia Mailguard 1.0.1 at
+	daleenterprise.com
+XScanned: using SpamAssassin 3.1.7 (2006-10-05) at daleenterprise.com
+X-Virus-Scanned: using ClamAV 0.96 (2010-03-15) at daleenterprise.com
+X-Brightmail-Tracker: AAAAAgBUIXcUDAn3
+Subject: auto mounting a partition with nobrowse
+X-BeenThere: filesystem-dev@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: Developer discussions of file system technologies
+	<filesystem-dev.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:filesystem-dev@lists.apple.com>
+List-Help: <mailto:filesystem-dev-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/filesystem-dev>,
+	<mailto:filesystem-dev-request@lists.apple.com?subject=subscribe>
+Sender: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: filesystem-dev-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I've trying to solve a problem which requires 2 components, the first  
+which has been solved by the code from the SampleFilterScheme project  
+which makes my partition mountable.
+
+Currently the partition mounts and is viewable in the finder and on  
+the Desktop, manually I use diskutil to unmount the partition  
+(diskutil unmount /dev/disk0s3s1) and use hdiutil to mount it  
+(hdiutil mount /dev/disk0s3s1 -nobrowse) to hide it and this is OK  
+for me since I know how to do this but expecting users to perform  
+this task.
+
+I'm told that I need to use the DA framework to achieve this task  
+however I am unable to find any sample code that shows me how to  
+mount a partition with flags.
+
+I realize everyone will ask why I need to do this and to make it  
+short I want it hidden from view to prevent people from any  
+accidental wrong-doings.
+
+I've read the list archives and what I have concluded is that this is  
+a complicated matter that is well beyond my capabilities so finding  
+sample code I can adopt for this use would make my life significantly  
+easier and allow me to keep what little hair I have left.
+
+The partition in question wli always be /dev/diskXs3s1 so finding  
+them is easy, unmounting and remounting with the nobrowse flag is my  
+problem and I'm probably looking at it wrong, maybe the initial mount  
+request can be interrupted and the option set.
+
+Sample code that shows how to do either would be greatly appreciated.
+
+-- Dale
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

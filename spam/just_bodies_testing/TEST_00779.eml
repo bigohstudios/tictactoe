@@ -1,0 +1,177 @@
+Making onscreen fonts read-able[was:New monitor, how to change screen 
+	resolution?]From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Thu, Apr 29, 2010 at 9:20 PM, Stephen Powell <zlinuxman@wowway.com>wrote:
+
+> On Thu, 29 Apr 2010 14:30:40 -0400 (EDT), James Stuckey wrote:
+> > Stephen Powell wrote:
+> >> You didn't provide much information, James.  I'm afraid that there's no
+> >> "one size fits all" answer to that question.  It depends on a lot of
+> >> things.
+> >> Please provide the following information:
+> >>
+> >> (1) The make and model of your computer
+> >> (2) The make and model of your video card
+> >> (3) The make and model of your monitor
+> >> (4) The type of monitor (CRT, LCD, etc.)
+> >> (5) The type of video connection used (digital, analog, etc.)
+> >> (6) The contents of /etc/X11/xorg.conf, if it exists
+> >> (7) The contents of /var/log/Xorg.0.log
+> >> (8) Which release of Debian you are running (Lenny, Squeeze, Sid, etc)
+> >
+> > (1) I'm on AMD64/Asus motherboard P5Q
+> > (2) NVIDIA 9800GT
+> > (3) ASUS VH242H
+> > (4) LCD
+> > (5) Digital connection, not DVI
+>
+> Digital connection, but not DVI?  Hmm.  This may be out of my league.  I
+> don't
+> have any experience with that.
+>
+> > (6)
+> > Section "ServerLayout"
+> >     Identifier     "X.org Configured"
+> >     Screen      0  "Screen0" 0 0
+> >     InputDevice    "Mouse0" "CorePointer"
+> >     InputDevice    "Keyboard0" "CoreKeyboard"
+> > EndSection
+> >
+> > Section "Files"
+> >     ModulePath   "/usr/lib/xorg/modules"
+> >     FontPath     "/usr/share/fonts/X11/misc"
+> >     FontPath     "/usr/share/fonts/X11/cyrillic"
+> >     FontPath     "/usr/share/fonts/X11/100dpi/:unscaled"
+> >     FontPath     "/usr/share/fonts/X11/75dpi/:unscaled"
+> >     FontPath     "/usr/share/fonts/X11/Type1"
+> >     FontPath     "/usr/share/fonts/X11/100dpi"
+> >     FontPath     "/usr/share/fonts/X11/75dpi"
+> >     FontPath     "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
+> >     FontPath     "built-ins"
+> > EndSection
+> >
+> > Section "Module"
+> >     Load  "record"
+> >     Load  "extmod"
+> >     Load  "glx"
+> >     Load  "dri"
+> >     Load  "dbe"
+> >     Load  "dri2"
+> > EndSection
+> >
+> > Section "InputDevice"
+> >     Identifier  "Keyboard0"
+> >     Driver      "kbd"
+> > EndSection
+> >
+> > Section "InputDevice"
+> >     Identifier  "Mouse0"
+> >     Driver      "mouse"
+> >     Option        "Protocol" "auto"
+> >     Option        "Device" "/dev/input/mice"
+> >     Option        "ZAxisMapping" "4 5 6 7"
+> > EndSection
+> >
+> > Section "Monitor"
+> >     Identifier   "Monitor0"
+> >     VendorName   "Monitor Vendor"
+> >     ModelName    "Monitor Model"
+> > EndSection
+> >
+> > Section "Device"
+> >         ### Available Driver options are:-
+> >         ### Values: <i>: integer, <f>: float, <bool>: "True"/"False",
+> >         ### <string>: "String", <freq>: "<f> Hz/kHz/MHz"
+> >         ### [arg]: arg optional
+> >         #Option     "SWcursor"               # [<bool>]
+> >         #Option     "HWcursor"               # [<bool>]
+> >         #Option     "NoAccel"                # [<bool>]
+> >         #Option     "ShadowFB"               # [<bool>]
+> >         #Option     "UseFBDev"               # [<bool>]
+> >         #Option     "Rotate"                 # [<str>]
+> >         #Option     "VideoKey"               # <i>
+> >         #Option     "FlatPanel"              # [<bool>]
+> >         #Option     "FPDither"               # [<bool>]
+> >         #Option     "CrtcNumber"             # <i>
+> >         #Option     "FPScale"                # [<bool>]
+> >         #Option     "FPTweak"                # <i>
+> >         #Option     "DualHead"               # [<bool>]
+> >     Identifier  "Card0"
+> >     Driver      "nvidia"
+> >     VendorName  "nVidia Corporation"
+> >     BoardName   "G92 [GeForce 9800 GT]"
+> >     BusID       "PCI:1:0:0"
+> > EndSection
+> >
+> > Section "Screen"
+> >     Identifier "Screen0"
+> >     Device     "Card0"
+> >     Monitor    "Monitor0"
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     1
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     4
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     8
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     15
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     16
+> >     EndSubSection
+> >     SubSection "Display"
+> >         Viewport   0 0
+> >         Depth     24
+> >     EndSubSection
+> > EndSection
+>
+> It's the proprietary nvidia driver!  Oh no!  ;-)
+>
+> My first question is, how did you come up with this config file?
+> Did you create it yourself by hand?  Did you run a script to create it?
+> Did the proprietary nvidia driver installation program create it for you?
+> It seems way over-specified to me.
+> >
+> > (7)
+> > ...
+> > (++) using VT number 8
+>
+> This is off topic, but did you notice that the X server initialized itself
+> on VT number 8 instead of VT number 7?  That means, for example, that if
+> you are on virtual console number 1 (text mode) and wish to switch to
+> the X server, you will need to use Ctrl+Alt+F8 instead of the usual
+> Ctrl+Alt+F7.  I've noticed this bug too lately.  In fact, it's
+> possible that you have have two copies of the X server running.
+> One on VT 7 and one on VT 8.  Wouldn't that be a hoot?
+> >
+> > ...
+> > (II) Apr 29 19:58:59 NVIDIA(0): Virtual screen size determined to be 1920
+> x
+> > 1080
+>
+> Is that the resolution you are trying to obtain: 1920x1080?  It's not a
+> standard 4:3 aspect ratio, so it's most likely probed from the monitor.
+> >
+> > ...
+> > (8) Squeeze with Sid nvidia drivers
+>
+> --
+>  .''`.     Stephen Powell
+>  : :'  :
+>  `. `'`
+>   `-
+>
+>
+I don't recall how the config file was made. The resolution I want is
+1920x1080. Restarting X gave me this resolution. Now my fonts on screen
+(like on the menu bar in iceweasel/icedove, for example) aren't too easy to
+read. They just don't look right. How do I fix that?

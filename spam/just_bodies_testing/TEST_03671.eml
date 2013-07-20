@@ -1,0 +1,40 @@
+Re: [ILUG] jpeg patented...On July 19, kevin+dated+1027480289.5c6047@ie.suberic.net said:
+> http://biz.yahoo.com/bw/020711/110249_1.html
+> 
+> oh, and look, sony already caved:
+> 
+>     http://biz.yahoo.com/bw/020610/100215_2.html
+> 
+> it generated over 1000 comments on /..  might be an idea to look into
+> png's.  in the meantime it will be amusing to see who they'll go after
+> next?  how many jpeg rendering/creating apps/os's has ms distributed to
+> their customers since 1986?
+> 
+> kevin
+
+Having skimmed over the patent, it appears to be describing a sort of
+image compression algorithm which gels more or less with the JPEG
+mechanism. Since I don't quite understand how jpeg works (it's hard
+math, and I'm just a dumb comp. eng.) I don't know how exactly it
+matches up to JPEG. I'm more curious as to whether it covers MPEG,
+because it /is/ described in the context of video streams rather than
+stills, and I had a vague impression that the MPEG and JPEG
+compression techniques were similar. One of the patents it references
+also seems to hint at MPEG.
+
+Let's all use PNG, eh? *cough* *wheeze*
+
+Cheers,
+Waider.
+-- 
+waider@waider.ie / Yes, it /is/ very personal of me.
+
+"It would be hard to design a worse outdoor chair without making it
+ irresistably delicious to squirrels." - L. Fitzgerald Sjoberg
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

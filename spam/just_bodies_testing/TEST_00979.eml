@@ -1,0 +1,76 @@
+Re: OT: Script to add line to file if it doesn't existOn 08.04.2010 14:58, Ron Johnson wrote:
+> On 2010-04-08 03:01, Mart Frauenlob wrote:
+>> On 07.04.2010 23:12, Ron Johnson wrote:
+>>> On 2010-04-07 15:45, Mart Frauenlob wrote:
+>>>> On 07.04.2010 22:10, Kent West wrote:
+>>
+>> [...]
+>>
+>>>>> I want a script that will read the file and look for the name "fred",
+>>>>> and if it's found, leave the file alone, but if it's not found, to add
+>>>>> the name "fred" to the bottom of the file.
+>>>>>
+>>
+>>>> #!/bin/sh
+>>>> grep -w "fred" file || printf "%s\n" "fred" >>file
+>>>>
+>>> Mart's method is the shell way.  The 3GL Way is:
+>>>
+>>> grep -w "$NAME" "$FILE"
+>>> TMP=$?
+>>> if [ "$TMP" = "1" ];
+>>> then
+>>>     echo -e "$NAME\n" >> "$FILE"
+>>> fi
+>>>
+>>>
+>>
+>> May I ask what the 3GL way is?
+>> All that is 'shell' scripting, right?
+>>
+> 
+> Shell operators like &&, ||, |, > *implicitly* do "if" comparisons, open
+> files for read/write, etc.
+> 
+> By "the 3GL Way", I mean a more explicit enunciation of each step.
+> 
+
+personally I choose the shortest way to write things in almost all cases.
+
+if I only execute one command on true/false conditions, I prefer:
+command && react_true || react_false
+
+if reaction consists of multiple commands, I prefer:
+if command; then
+	...
+else
+	...
+fi
+
+using a temporary variable (and an extra assignment step) is only
+reasonable for me, if I need to remember that one exit status later on
+for whatever reason.
+
+tmp=0
+command || tmp=1
+some_commands
+...
+if [ $tmp -eq 1 ]; then
+	...
+else
+	...
+fi
+
+But yeah, many ways are possible, achieving the same result...
+
+Best regards
+
+Mart
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBDD9F8.5080003@chello.at
+
+

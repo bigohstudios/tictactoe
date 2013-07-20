@@ -1,0 +1,201 @@
+X-Account-Key: account5
+X-UIDL: GmailId127f93eaa456d0c3
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.69.10 with SMTP id r10cs41443wfa;
+        Tue, 13 Apr 2010 15:16:27 -0700 (PDT)
+Received: by 10.102.254.24 with SMTP id b24mr3548736mui.5.1271196986225;
+        Tue, 13 Apr 2010 15:16:26 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id j6si25375392mue.14.2010.04.13.15.16.25;
+        Tue, 13 Apr 2010 15:16:26 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id 5936C13A53DC; Tue, 13 Apr 2010 22:16:20 +0000 (UTC)
+Old-Return-Path: <zlinuxman@wowway.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.6 required=4.0 tests=FOURLA,IMPRONONCABLE_1,
+	LDOSUBSCRIBER,LDO_WHITELIST,MURPHY_WRONG_WORD1,MURPHY_WRONG_WORD2
+	autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 5829313A53C4
+	for <lists-debian-user@liszt.debian.org>; Tue, 13 Apr 2010 22:16:14 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5.6 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, IMPRONONCABLE_1=1, LDO_WHITELIST=-5,
+	MURPHY_WRONG_WORD1=0.1, MURPHY_WRONG_WORD2=0.2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id nlhzqPHel5Nd for <lists-debian-user@liszt.debian.org>;
+	Tue, 13 Apr 2010 22:16:06 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from smtp.mail.wowway.com (smtp.wow.synacor.com [64.8.70.55])
+	by liszt.debian.org (Postfix) with ESMTP id 795EB13A5384
+	for <debian-user@lists.debian.org>; Tue, 13 Apr 2010 22:16:06 +0000 (UTC)
+X_CMAE_Category: 0,0 Undefined,Undefined
+X-CNFS-Analysis: v=1.1 cv=s1ms1d6fqRolwzskPKnCjqPeBuqxmyy+lFQf57e7Er8= c=1 sm=0 a=qhkFTjdWoSEA:10 a=FKkrIqjQGGEA:10 a=IkcTkHD0fZMA:10 a=QP5IY3kgAAAA:8 a=EWY_rir4iEhh3UEQVCYA:9 a=ZS5bU2zfgUOXIVS37PwA:7 a=tBgm6439uyKOzdU5OnHaxx8Fz70A:4 a=QEXdDO2ut3YA:10 a=zEoJXyrrGmEA:10 a=QqrTujr-7CF_qJed:21 a=zorqwRIyLs6cNtae:21 a=QLvOlBIuGJjmAZ5IHHaCwQ==:117
+X-CM-Score: 0
+X-Scanned-by: Cloudmark Authority Engine
+Received: from [10.10.0.56] ([10.10.0.56:60471] helo=md01.wow.synacor.com)
+	by smtp.mail.wowway.com (envelope-from <zlinuxman@wowway.com>)
+	(ecelerity 2.2.2.40 r(29895/29896)) with ESMTP
+	id 66/2C-21309-32DE4CB4; Tue, 13 Apr 2010 18:16:03 -0400
+Date: Tue, 13 Apr 2010 18:16:03 -0400 (EDT)
+From: Stephen Powell <zlinuxman@wowway.com>
+To: debian-user@lists.debian.org
+Message-ID: <1202149079.3016881271196963321.JavaMail.root@md01.wow.synacor.com>
+Subject: C programming question
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Originating-IP: [66.145.136.6]
+X-Mailer: Zimbra 5.0.11_GA_2696.RHEL4 (zclient/5.0.11_GA_2696.RHEL4)
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <vtu2qYeWAEE.A.wZ.00OxLB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/574007
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 13 Apr 2010 22:16:20 +0000 (UTC)
+
+I realize that this is not a C forum, per se, but this is a Debian-specific
+C question.  I am trying to add support to the parted utility for CMS-formatted
+disks on the s390 architecture.  The source code is written in C, of course.
+But I am not a C programmer.  I can spell C, but that's about it.  It seems
+that the people who know s390 don't know C and the people who know C don't
+know s390, as a general rule.  There are very few people who know both, and
+they are busier than a one-armed wallpaper hanger in the Spring.  Perhaps this
+question belongs on a developer forum, but I'm embarrassed to ask such a
+stupid question on a developer forum.  They'd laugh me clear into next week.
+Anyway...
+
+What I need to do is to have two structures overlay each other; so that they
+occupy the same storage.  To be specific, here is a structure which describes
+the volume label for an OS-formatted disk:
+
+-----
+
+struct __attribute__ ((packed)) volume_label {
+        char volkey[4];         /* volume key = volume label                 */
+        char vollbl[4];         /* volume label                              */
+        char volid[6];          /* volume identifier                         */
+        u_int8_t security;      /* security byte                             */
+        cchhb_t vtoc;           /* VTOC address                              */
+        char res1[5];           /* reserved                                  */
+        char cisize[4];         /* CI-size for FBA,...                       */
+                                /* ...blanks for CKD                         */
+        char blkperci[4];       /* no of blocks per CI (FBA), blanks for CKD */
+        char labperci[4];       /* no of labels per CI (FBA), blanks for CKD */
+        char res2[4];           /* reserved                                  */
+        char lvtoc[14];         /* owner code for LVTOC                      */
+        char res3[29];          /* reserved                                  */
+};
+
+-----
+
+And here is a structure which describes the volume label for a CMS-formatted
+disk:
+
+-----
+
+struct __attribute__ ((packed)) cms_label {
+        char label_id[4];       /* Label identifier                          */
+        char vol_id[6];         /* Volume identifier                         */
+        char version_id[2];     /* Version identifier                        */
+        u_int32_t block_size;   /* Disk block size                           */
+        u_int32_t origin_ptr;   /* Disk origin pointer                       */
+        u_int32_t usable_count; /* Number of usable cylinders/blocks         */
+        u_int32_t formatted_count; /* Max # of formatted cylinders/blocks    */
+        u_int32_t block_count;  /* Disk size in CMS blocks                   */
+        u_int32_t used_count;   /* Number of CMS blocks in use               */
+        u_int32_t block_count;  /* Disk size in CMS blocks                   */
+        u_int32_t used_count;   /* Number of CMS blocks in use               */
+        u_int32_t fst_size;     /* File Status Table (FST) size              */
+        u_int32_t fst_count;    /* Number of FSTs per CMS block              */
+        char format_date[6];    /* Disk FORMAT date (YYMMDDhhmmss)           */
+        char reserved1[2];      /* Reserved fields.  Note: the high-order    */
+                                /* bit of the first byte is now a century    */
+                                /* flag.  0 = 1900s, 1 = 2000s.  It is used  */
+                                /* in conjunction with "format_date".        */
+        u_int32_t disk_offset;  /* Offset in blocks to the start of the      */
+                                /* reserved file when the disk is reserved   */
+        u_int32_t map_block;    /* Allocation map block with next hole       */
+        u_int32_t hblk_disp;    /* Displacement into HBLK data of next hole  */
+        u_int32_t user_disp;    /* Disp into user part of allocation map     */
+        u_int32_t open_files;   /* Count of SFS open files for this ADT.     */
+                                /* Note: open_files is not really part of    */
+                                /* the volume label.  It is not used for     */
+                                /* minidisks.                                */
+        char segment_name[8];   /* Name of the shared segment.               */
+                                /* Note: segment_name is not really part of  */
+                                /* the volume label.  It is not stored on    */
+                                /* disk.                                     */
+};
+
+-----
+
+Note that both structures have as their first member a character variable
+of length 4.  In the case of the "volume_label" structure it is "volkey"
+and in the case of the "cms_label" structure it is "label_id".  If the
+value of this variable is "VOL1" (in EBCDIC) then it is the first structure
+which maps the storage.  If the value of this variable is "CMS1" (in EBCDIC)
+then it is the second structure which maps the storage.  The volume_label
+structure is apparently a based structure, as references to the volkey
+variable look something like this:
+
+   disk_specific->anchor->vlabel->volkey
+
+How do I get these structures to overlap each other?  I eventually want to
+make a reference to the disk_offset variable in the cms_label structure,
+something like
+
+   disk_specific->anchor->vlabel->disk_offset
+
+but I get compile errors such as
+
+   dasd.c:327: error: 'volume_label_t' has no member named 'disk_offset'
+
+"volume_label_t" is defined like this:
+
+   typedef struct volume_label volume_label_t;
+
+I freely admit that I don't know what I'm doing, and I ought to have my
+head examined for trying to enhance a program written in a language that
+I don't know, but I'm the one who will benefit if I can get it to work.
+The people who know how don't care, and the people who care (in this case
+me) don't know how!
+
+I know how to do this in PL/I, but despite having spent the last two hours
+paging through a C language reference manual, I couldn't find any examples
+of overlaying two structures.  I did find reference to something called
+a union, but I don't have enough knowledge to know what to do.  Does
+anyone know how to do this?
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1202149079.3016881271196963321.JavaMail.root@md01.wow.synacor.com
+
+

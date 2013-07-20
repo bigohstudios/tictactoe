@@ -1,0 +1,10 @@
+[Spambayes] Deployment> I wonder if the focus of spambayes ought not to be a classifier that
+> leaves the fetching and feeding of messages to auxillary code? That
+> way, it could be dropped into whatever harness that suited the
+> user's situation.
+
+I see no reason to restrict the project to developing the classifier
+and leave the deployment to others.  Attempts at deployment in the
+real world will surely provide additional feedback for the classifier.
+
+--Guido van Rossum (home page: http://www.python.org/~guido/)

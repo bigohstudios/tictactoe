@@ -1,0 +1,21 @@
+Re: class variablesOn Sun, Apr 11, 2010 at 10:26 PM, Ariel Feinerman <arielfapple@csmining.org> wrote:
+
+> I mean static variables that are declared in interface, can we use them, is
+> there meaning in them, and whether can they exist?
+> @interface MyObject : NSObject {
+> static int i;
+> }
+> @end;
+
+No. The keyword "static" in Objective-C means the same as it does in
+C, rather than the somewhat perverse C++ definition.
+
+H
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

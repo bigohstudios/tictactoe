@@ -1,0 +1,94 @@
+Re: About USB hard drives and errorsOn 20100409_102442, Ron Johnson wrote:
+> On 2010-04-08 20:27, Ron Johnson wrote:
+> >On 2010-04-08 19:44, Paul E Condon wrote:
+> >>I want to use the low cost high capacity hard drives that are
+> >>for sale in places like Best Buy and Costco. I have put ext3 on
+> >>several of them and started experimenting. The results so far
+> >>are puzzling.
+> >>I do get errors. So I decided to do scans for bad blocks.  The drives
+> >>I'm using are all Western Digital because they have been the lowest
+> >>cost at the times I buy at Costco. Also all are 500GB.
+> >>e2fsck -c <device> is supposed to scan for bad blocks and allocate them
+> >>to a special inode so that they cannot be used. It runs for 3 to 4
+> >>hours and then says its finished with no indication of how many bad
+> >>blocks it found.
+> >>
+> >[snip]
+> >>
+> >>Has anyone ever used these programs? Have you ever seen useful output?
+> >>What SHOULD they do (with a little more specificity and believability)?
+> >>
+> >
+> >Not a direct answer to your question, but: I never leave home
+> >without -vfFC0.  (The Unix Way is to "say something" only upon
+> >failure, but I like continuous feedback.)
+> >
+> 
+> (The "dumpe2fs -b" command should show you all your bad blocks.)
+> 
+> Here's the result of me checking for bad blocks:
+> 
+> # e2fsck -c -vfFC0 /dev/mapper/main_huge_vg-main_huge_lv
+> e2fsck 1.41.10 (10-Feb-2009)
+> Checking for bad blocks (read-only test): done
+> 
+> BIG_LV: Updating bad block inode.               <<<<<<<<<<  Note!!
+> Pass 1: Checking inodes, blocks, and sizes
+> Pass 2: Checking directory structure
+> 
+> Pass 3: Checking directory connectivity
+> 
+> Pass 4: Checking reference counts
+> 
+> Pass 5: Checking group summary information
+> 
+> 
+> 
+> BIG_LV: ***** FILE SYSTEM WAS MODIFIED *****
+> 
+>   301084 inodes used (0.12%)
+>    14172 non-contiguous files (4.7%)
+>      121 non-contiguous directories (0.0%)
+>          # of inodes with ind/dind/tind blocks: 0/0/0
+>          Extent depth histogram: 294700/6219
+> 560591687 blocks used (58.03%)
+>        0 bad blocks
+>      128 large files
+> 
+>   292926 regular files
+>     7972 directories
+>        0 character device files
+>        0 block device files
+>        0 fifos
+>        0 links
+>      177 symbolic links (155 fast symbolic links)
+>        0 sockets
+> --------
+>   301075 files
+> 
+
+Thanks Ron.
+
+Your option strings will do wonders for future e2fsck runs.  
+
+But ... Why does the output say that the disk was modified
+during the run? There were no badblocks found. What needed
+modification?
+
+Do you have similar magic for dumpe2fs?
+
+Of course your output presented here indicates that
+you HD is not one on which you can verify badblock
+printing, since your disk has no badblocks.
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409160423.GB5664@big.lan.gnu
+
+

@@ -1,0 +1,71 @@
+Re: VLC will lag when reading local videos, whatever the codecOn Sat, 15 May 2010 20:18:03 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>> Does this happen if you play the videos with another media player
+>> (Totem, Xine, MPlayer, etc...)?
+
+> Yes. Both take some time to go further in the video. I sometimes have to
+> wait ~5 secs. to get the video start at the asked time, whatever the
+> player: Totem, MPlayer.
+
+Strange. If you haved tested with several video file containers (video 
+formats), different audio/video codecs and also using different video 
+players and all of them behaves in the same manner... I would suspect 
+about the performance of video card.
+
+>> No, but I guess it would depend on many factors, i.e., good hardware
+>> (graphic card chipset) is required to avoid video jumps, lags or
+>> pauses.
+
+> It should not be the hardware, as my graphic card works perfectly under
+> other circumstances. The CPU is also ~0% when testing, so not this too.
+> Same for HDDs.
+
+Yes, but not all video cards perform good when playing HD (or HD ready) 
+videos. For instance, Intel cards (the ones you can find embedded into 
+the majority of netbooks) are not the most suitable for high quality 
+video streaming/playing :-)
+
+>> Also, the transmission method is important. Playing HD video files over
+>> the network (remotely by Internet or locally by means of samba or NFS)
+>> it could also affect. Moreover, playing the video files "wirelessly",
+>> can harden the situation.
+
+> Unfortunately, these are ~50 M videos, sometimes even without any sound,
+> and their quality is not HD, sure. They are read _locally_ so from my
+> local hdd to my screen: no network.
+
+O.k.
+ 
+>>> What would it be due to?
+>>
+>> Many causes. But if the file plays fine with another player, you can
+>> blame VLC :-)
+
+> I suspect the codecs are problematic. But why would they be so? 
+
+Which codecs do you find to be problematic? :-? 
+
+Try with several video files using different video codecs and make some 
+performance tests.
+
+Note that every video player uses its own set of codecs (VLC and MPlayer 
+at least, Totem maybe uses system-wide a/v installed codecs) so 
+performance may vary between them. 
+
+One more question, though... how about a DVD video? It renders the 
+same? :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.15.19.25.00@csmining.org
+
+

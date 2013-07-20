@@ -1,0 +1,35 @@
+Re: Why are there no latest books written for Debian systems?From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Stephen Powell <zlinuxman@wowway.com> [2010.04.21.1534 +0200]:
+> This is hardly a new book.  In fact, it was written in the days of Woody.
+> (Woody -> Sarge -> Etch -> Lenny -> Squeeze)
+
+It was written in the days of the sarge freeze and is entirely
+focused on sarge.
+
+> And parts of it are obsolete.  But the author focuses on the core
+> stuff of Unix/Linux, and so most of it is still current. It's an
+> excellent guide for how to accomplish common computing tasks in
+> Linux,
+
+Interesting analysis. ;)
+
+I /wanted/ to focus on Debian and leave out the "core stuff of
+Unix/Linux" and "common computing tasks", because that's documented
+elsewhere.
+
+It is true that in the last 5 years, some parts have been obsoleted,
+but I'd say most of it still applies.
+
+Regardless, there's a need for a new edition. I am working on it.
+
+--=20
+ .''`.   martin f. krafft <madduck@d.o>      Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+echo Prpv a\'rfg cnf har cvcr | tr Pacfghnrvp Cnpstuaeic

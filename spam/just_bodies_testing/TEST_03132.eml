@@ -1,0 +1,25 @@
+[SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?From nobody Sat Jul 20 14:17:32 2013
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Thu, Apr 15, 2010 at 11:06 AM, Mark <mamarcac@csmining.org> wrote:
+
+> Has anyone else experienced mplayer generating Fatal Error "Error
+> opening/initializing the selected video_out (-vo) device" after adding
+> debian-multimedia.org to sources.list and performing the subsequent Smart
+> Upgrades?  I'm trying to figure out if that's the cause; since other
+> machines I have without debian-multimedia.org in the sources.list tab play
+> the same .mov files fine I'm suspecting this.  I've tried various tweaks I
+> found on-line to the /etc/mplayer/mplayer.conf file for the vo section but
+> nothing worked.  I'll be re-doing the installation for a friend and wanted
+> to avoid breaking mplayer if possible.
+>
+
+
+I have confirmed one of the Smart Upgrades contained in debian-multimedia on
+Lenny does in fact cause this Fatal Error.  I reinstalled Lenny on the same
+machine tonight, without adding debian-multimedia to /etc/apt/sources.list,
+and mplayer plays the .mov files just fine.
+
+Wanted to share in case anyone else has this problem.
+
+Mark

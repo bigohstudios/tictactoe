@@ -1,0 +1,24 @@
+Re: [ILUG] Sparc Solaris (was: Dell GX260 V Redhat 7.3)On Tue, Aug 06, 2002 at 01:22:07PM +0100, Anders Holm mentioned:
+> > Heh, how hard would it be to get a PC with an OpenBoot prom ?
+> 
+> You could burn a PROM yourself, if you'd wish. I believe that the netboot 
+> project would have a PROM you could download and burn, having the needed 
+> h/w of course.. ;)
+
+ But the PROMs are for specific network cards, and all their are really is
+a bootp/tftp client. Not the whole set of nice bits & pieces you get with
+an OpenBoot PROM.
+
+ AMD were talking of supporting it ages back, when the Athlon was looking
+like it would just be on workstations from day one. They seemed to drop
+it, and go for the crappy MSDOS compatible BIOS though.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

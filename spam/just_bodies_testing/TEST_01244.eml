@@ -1,0 +1,36 @@
+Re: How to keep debian current??From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed,19.May.10, 00:34:02, Osamu Aoki wrote:
+>=20
+> New:
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =E2=80=A6" line for security updates in the
+> "/etc/apt/sources.list" is not required. This is because "sid"
+> (unstable) is always updated whenever security issues are fixed.  There
+> is no need to have a separate security update archive for "sid".
+
+May I suggest:
+---
+If "sid" is used in the above example instead of "lenny", the "deb:
+http://security.debian.org/ =E2=80=A6" line for security updates in the
+"/etc/apt/sources.list" is not required as there is no need to have a=20
+separate security update archive for "sid". This is because "sid"
+(unstable) is *usually* updated whenever security issues are fixed for=20
+stable.
+
+However, it can happen that the fixes are not applied immediately (e.g. =20
+the maintainer is waiting for a new version from upstream which fixes=20
+the issue) or issues exist which do not affect the version in stable or=20
+testing, in which case Debian will not even issue a DSA.
+---
+(DSA might need expanding/explaining if not already done in some other=20
+paragraph)
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

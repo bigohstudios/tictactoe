@@ -1,0 +1,112 @@
+X-Account-Key: account5
+X-UIDL: GmailId128677b3d5f7b773
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.142.81.20 with SMTP id e20cs314898wfb;
+        Wed, 5 May 2010 01:00:50 -0700 (PDT)
+Received: by 10.223.21.23 with SMTP id h23mr5077189fab.21.1273046449250;
+        Wed, 05 May 2010 01:00:49 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id g28si13037783fkg.28.2010.05.05.01.00.48;
+        Wed, 05 May 2010 01:00:49 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id BF4942D0CBF; Wed,  5 May 2010 08:00:42 +0000 (UTC)
+Old-Return-Path: <brianolaoi@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.1 required=4.0 tests=LDOSUBSCRIBER,LDO_WHITELIST,
+	SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 521AF13A44B4
+	for <lists-debian-user@liszt.debian.org>; Wed,  5 May 2010 08:00:36 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.107 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, SARE_MSGID_LONG45=0.893]
+	autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id m2ATXYZ6LkKi for <lists-debian-user@liszt.debian.org>;
+	Wed,  5 May 2010 08:00:28 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.9
+Received: from mail-iw0-f198.google.com (mail-iw0-f198.google.com [209.85.223.198])
+	by liszt.debian.org (Postfix) with ESMTP id 9ACA613A53A1
+	for <debian-user@lists.debian.org>; Wed,  5 May 2010 08:00:22 +0000 (UTC)
+Received: by iwn36 with SMTP id 36so6244872iwn.29
+        for <debian-user@lists.debian.org>; Wed, 05 May 2010 01:00:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:content-type:content-transfer-encoding;
+        bh=1UklTuWMDXC7+vazk1DW/C+X99BSU3bfU6kCmcAbtX8=;
+        b=j80k87/YtbYS+7Yt05UXc5knMGBeITYKgFshB0S48ipZWU/z3k8k4ZZJzMpp55B21F
+         mFzf9xgZjyFaOsOAKdYJ+3VvH9KkLT/Tc907kJAi5pE1SCNI4j5qYZGI4YO+JXwB+I0X
+         azCTz8+ZZha+Dp0kWPB/w4C52PW7FtYIwaL/I=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        b=JKzgcR/UERTXDY4uwFiBNTO9nzUhU9dtW7LI6ChcEyh6OKdcz7qZVbEYh9JmAeB+MA
+         xdGWR5vBU25FcIxv76o8nGtMWpfvH1Jt8jW9U92cHHuU3ZujwldCiLKrRcr/GBwdcGF4
+         ID+b8V16QWHw2pYTFxBNmgPtQ+QZn5KXlKFts=
+MIME-Version: 1.0
+Received: by 10.231.160.135 with SMTP id n7mr1400241ibx.26.1273046417221; Wed, 
+	05 May 2010 01:00:17 -0700 (PDT)
+Received: by 10.231.32.203 with HTTP; Wed, 5 May 2010 01:00:17 -0700 (PDT)
+Date: Wed, 5 May 2010 09:00:17 +0100
+Message-ID: <u2r1f1816a91005050100v14e02aa3tc4ec8d64a4ec45c1@mail.csmining.org>
+Subject: curious gnome desktop behaviour after upgrade
+From: John O Laoi <brianolaoi@csmining.org>
+To: debian-user@lists.debian.org
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <sFJ5S_Zi24P.A.en.qWS4LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575888
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed,  5 May 2010 08:00:42 +0000 (UTC)
+
+Hello,
+
+I am using squeeze on a dell laptop, and am using Gnome, as came with
+the standard installation.
+
+Yesterday, after a big =93safe-upgrade=94 my desktop started to behave curi=
+ously.
+
+When I open a console on the GUI and minimize it, it appears to go to
+the bottom right corner, and then disappears completely.
+Then the Panel on the top panel no longer functions.
+Icons on the desktop continue to function.
+
+If I open another app, all of the buttons on the top panel disappear,
+except for the volume button.
+Then the bottom panel becomes completely bank.
+
+Any ideas what has happened?
+
+John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/u2r1f1816a91005050100v14e02aa3tc4ec8d64a4ec45c1@mail.csmining.org
+
+

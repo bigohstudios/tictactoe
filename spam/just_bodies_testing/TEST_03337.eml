@@ -1,0 +1,24 @@
+Re: partitioning a new hard diskOn Fri, 21 May 2010 20:38:53 +0200, roberto wrote:
+
+> hello,
+> a friend gave me a laptop (sony vaio) where i want to install debian
+> squeeze (in dual boot);
+> actually the disk is partitioned as follows (output from mount command,
+> #'s are my comments):
+
+(...)
+
+Better than "mount" issue "fdisk -l" and put the output.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.21.18.47.21@csmining.org
+
+

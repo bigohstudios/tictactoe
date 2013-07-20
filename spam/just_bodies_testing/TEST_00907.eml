@@ -1,0 +1,21 @@
+USB device attached via RS232 adaptorA neighbor with an old Debian (probably etch but could be sarge)
+machine needs to know where a USB smart card reader attached via RS232
+adaptor would be found in the filesystem. He went through /dev, with
+special attention on the tty* entries, but did not find it. What is
+the right way to find the device so that he could mount it?
+
+Thanks.
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/q2w880dece01004180920m4f3f9906u46872de28d1d722f@mail.csmining.org
+
+

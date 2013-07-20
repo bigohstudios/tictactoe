@@ -1,0 +1,102 @@
+X-Account-Key: account5
+X-UIDL: GmailId127ee6285b205d9b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.158.12 with SMTP id k12cs121024wfo;
+        Sun, 11 Apr 2010 12:39:46 -0700 (PDT)
+Received: by 10.115.135.32 with SMTP id m32mr2401193wan.47.1271014786273;
+        Sun, 11 Apr 2010 12:39:46 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz2.apple.com (bz2.apple.com [17.254.13.37])
+        by mx.google.com with ESMTP id 39si9887486pzk.15.2010.04.11.12.39.46;
+        Sun, 11 Apr 2010 12:39:46 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) client-ip=17.254.13.37;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.37 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz2.apple.com (Postfix) with ESMTP id 19D061BC3E86E
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 12:39:46 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id 14C9E26B52125
+	for <mlsubscriber.tech@csmining.org>; Sun, 11 Apr 2010 12:39:46 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id F10C826B51F41
+	for <quicktime-api@lists.apple.com>;
+	Sun, 11 Apr 2010 12:39:29 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in13.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id C4374C94CAA6
+	for <quicktime-api@lists.apple.com>;
+	Sun, 11 Apr 2010 12:39:29 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7cc2ae000000813-60-4bc22571ebc2
+Received: from relay01.pair.com (relay01.pair.com [209.68.5.15])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	66.F5.02067.17522CB4; Sun, 11 Apr 2010 12:39:29 -0700 (PDT)
+Received: (qmail 78004 invoked by uid 0); 11 Apr 2010 19:39:28 -0000
+Received: from 76.227.231.88 (HELO ?192.168.1.67?) (76.227.231.88)
+	by relay01.pair.com with SMTP; 11 Apr 2010 19:39:28 -0000
+X-pair-Authenticated: 76.227.231.88
+Mime-Version: 1.0 (Apple Message framework v1078)
+Content-Type: text/plain; charset=us-ascii
+From: "James W. Walker" <osx@jwwalker.com>
+In-Reply-To: <6E51C7BC-36A3-45C2-AD75-33B49394124A@csmining.org>
+Date: Sun, 11 Apr 2010 12:39:26 -0700
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <4B46BAA9-3006-41CD-9725-51FE389001AF@jwwalker.com>
+References: <4BBE23D7.40901@frameforge3d.com>
+	<008801cad7e1$00327280$00975780$@com>
+	<4BBF743B.6040005@frameforge3d.com>
+	<96C80517-9A31-43A8-BE1B-1DE74217C166@csmining.org>
+	<048500BD-EE80-4DC0-AB93-EC052B136260@jwwalker.com>
+	<6E51C7BC-36A3-45C2-AD75-33B49394124A@csmining.org>
+To: Dinge Raphael <raphael.dinge@csmining.org>
+X-Mailer: Apple Mail (2.1078)
+X-Brightmail-Tracker: AAAAAROdpHE=
+Cc: quicktime-api@lists.apple.com
+Subject: Re: Compositing two movies
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+
+On Apr 11, 2010, at 12:14 PM, Dinge Raphael wrote:
+
+>> That sample won't compile for me.  There is an error on line 645 of =
+LiveVideoMixerController.m, the symbol =
+QTCaptureDeviceAvailableStreamFormatsAttribute is not defined.
+>=20
+> just replace the line with
+> NSNumber*			availableFormat =3D 0;
+
+
+
+OK... there are also some warnings:
+
+'QTCaptureSession' may not respond to '-setDelegate:'
+'QTCaptureSession' may not respond to '-setEnabled:'
+
+'QTCaptureVideoPreviewOutput' may not respond to '-connectedChannels'
+'QTCaptureVideoPreviewOutput' may not respond to =
+'-setVisualContext:forChannel:'
+
+It does mix two movies now, it just doesn't see my computer's camera.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,26 @@
+Re: [Razor-users] can't find Razor/Client.pmOn Tue, Jul 23, 2002 at 05:28:33PM -0400,
+Scott Henderson <boyhowdy@cyberspace.org> is thought to have said:
+
+> What am I missing?  Thanks!
+
+Razor/Client.pm is part of Razor v1. You've installed Razor v2.
+Spamassassin's current release only works with v1. Although IIRC
+the current CVS code works with v2.
+
+Tabor
+-- 
+--------------------------------------------------------------------
+Tabor J. Wells                                razor-users@fsckit.net
+Fsck It!                 Just another victim of the ambient morality
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

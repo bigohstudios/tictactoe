@@ -1,0 +1,115 @@
+X-Account-Key: account5
+X-UIDL: GmailId12812af1298dc460
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs72wfj;
+        Sun, 18 Apr 2010 13:58:04 -0700 (PDT)
+Received: by 10.223.24.148 with SMTP id v20mr2187250fab.43.1271623783251;
+        Sun, 18 Apr 2010 13:49:43 -0700 (PDT)
+Return-Path: <bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id b17si9078883fka.13.2010.04.18.13.49.13;
+        Sun, 18 Apr 2010 13:49:43 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-volatile=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id ACC5B13A4A48; Sun, 18 Apr 2010 20:49:12 +0000 (UTC)
+Old-Return-Path: <jimpop@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-10.0 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,SARE_MSGID_LONG45 autolearn=failed version=3.2.5
+X-Original-To: lists-debian-volatile@liszt.debian.org
+Delivered-To: lists-debian-volatile@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 0273A13A49F7
+	for <lists-debian-volatile@liszt.debian.org>; Sun, 18 Apr 2010 20:49:07 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-lt
+X-AmavisStatus: No, score=-6.007 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5,
+	SARE_MSGID_LONG45=0.893] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id YOSy7uRNzfKM
+	for <lists-debian-volatile@liszt.debian.org>;
+	Sun, 18 Apr 2010 20:48:59 +0000 (UTC)
+Received: from mail-gw0-f47.google.com (mail-gw0-f47.google.com [74.125.83.47])
+	by liszt.debian.org (Postfix) with ESMTP id 82FB713A49D9
+	for <debian-volatile@lists.debian.org>; Sun, 18 Apr 2010 20:48:59 +0000 (UTC)
+Received: by gwb17 with SMTP id 17so1649599gwb.6
+        for <debian-volatile@lists.debian.org>; Sun, 18 Apr 2010 13:48:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:mime-version:received:in-reply-to:references
+         :date:received:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=4sX1ttupOpxCGsE978L/PoKV+GxAwpj15xNdRec29kQ=;
+        b=Rq1JKtKtSEBBAJif15ZsxJJBMeSwKdlcSbvUYvpUEg4bjylddVaBMAjb8Yj1afEyCL
+         4EPDdNs4va4JH9eBlJtanpzTIVcO96hrCCk1NZS6g2z7CTl5bEk/D9SaD4Dto8KUB1QC
+         OYqR2CqdSbBIhWKxwMsAb9CY8s9/jfpYoszCI=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        b=HnwYR49l4BN3Tdb6Jq0APPPlH4wVviG/6ycNGpfzUGHVlEEB637HJcCloLLj6z8C1G
+         mqs4jkk1WUIQuInujhp/amr/qbCEABvXgBqnMqb5kHzXpHtJTggHzRSSBe24vOgLQYtt
+         LPetGsJp3lOcvmD1gg4OuE/RKY/lo20YDZ2Ug=
+MIME-Version: 1.0
+Received: by 10.150.92.15 with HTTP; Sun, 18 Apr 2010 13:48:51 -0700 (PDT)
+In-Reply-To: <20100418183336.GA3905@varinia.lobefin.net>
+References: <FD9631AD38F945E68B4141ECC60EDF88@cc.bas.bg>
+	 <1259234049.3535.2.camel@jan> <4B0ED1BC.2050609@debian.org>
+	 <4B757786.7040807@middleswarth.net>
+	 <20100212201229.GA5019@apu.snow-crash.org>
+	 <n2yf971bab41004181035ldc8b81e6rc2250f3f8b611596@mail.csmining.org>
+	 <20100418183336.GA3905@varinia.lobefin.net>
+Date: Sun, 18 Apr 2010 16:48:51 -0400
+Received: by 10.150.187.4 with SMTP id k4mr5029780ybf.311.1271623731688; Sun, 
+	18 Apr 2010 13:48:51 -0700 (PDT)
+Message-ID: <i2mf971bab41004181348p501626c9qb240b9352c4f4dfc@mail.csmining.org>
+Subject: Re: Spamassassin version 3.3.0
+From: Jim Popovitch <jimpop@csmining.org>
+To: debian-volatile@lists.debian.org
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <kOSi9O_CjrD.A.edH.IB3yLB@liszt>
+Resent-From: debian-volatile@lists.debian.org
+X-Mailing-List: <debian-volatile@lists.debian.org> archive/latest/1293
+X-Loop: debian-volatile@lists.debian.org
+List-Id: <debian-volatile.lists.debian.org>
+List-URL: <http://lists.debian.org/debian-volatile/>
+List-Post: <mailto:debian-volatile@lists.debian.org>
+List-Help: <mailto:debian-volatile-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-volatile-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-volatile-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-volatile-request@lists.debian.org
+Resent-Date: Sun, 18 Apr 2010 20:49:12 +0000 (UTC)
+
+On Sun, Apr 18, 2010 at 14:33, Stephen Gran <sgran@debian.org> wrote:
+> backports.org is an unofficial service, and is more free to break working
+> configurations on upgrade or othewise introduce incompatibilities. =A0It'=
+s
+> down to the maintainers judgement which repo suits a given upload better.
+
+Well, there seems to be no consistency in the thoughts behind the
+maintainers decisions.   Perhaps Debian should provide some guidance?
+  Another example, look at mod-security, it's got current stable
+(etch) pkgs in backports, and unstable packages in main.   Maybe I'm
+not following the logic behind these decisions, if someone can point
+me to an FAQ I would appreciate it much.
+
+-Jim P.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2mf971bab41004181348p501626c9qb240b9352c4f4dfc@mail.csmining.org
+
+

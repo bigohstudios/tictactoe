@@ -1,0 +1,59 @@
+Defcon key-signing partyAnyone interested in a pgp/gpg key-signing get-together @ DC,
+please email me your key info (name, key ID, type, size,
+fingerprint), and I will add you to the list.
+
+If you don't have a PGP key, now is a great time to make one.
+
+Want to find out more about PGP?
+<http://www.uk.pgp.net/pgpnet/pgp-faq/>
+
+You can get the software from:
+
+PGPfreeware <http://www.pgpi.org/products/pgp/versions/freeware/>
+GnuPG (GPG) <http://www.pgpi.org/download/gnupg/>
+
+
+Bring the following:
+
+   *  Photo ID (your name must be in your key identity)
+   *  A printed copy of your key ID, key type, fingerprint, and key size
+
+I will pass out a master list (from what people send me now). Then
+individually we will cross-validate eachothers identities and keys.
+
+It works like this: person A tells B the details of their key (from
+their personal copy of the key info). Person B confirms that the key
+information on the master list matches. Next person A produces photo ID
+for person B. If it proves that person A is the owner of the key, then
+person B can check off that person on their list.
+
+The reverse is then done for person B.
+
+After a while you will end up with a list full of (hopefully) checked
+names. Later on, you can retrieve a copy of the key either from a
+keyserver or directly from the owner, verify it's valid (it matches the
+checked off name on your copy of the master list), and sign it using
+your private key.
+
+Then you can upload your signature of the key to a key server and send a
+copy back to the key's owner to add to thier keyring.
+
+ID:    Mark Renouf <mark@tweakt.net>
+Size:  2048
+Type:  DH/DSS
+KeyID: 0xF888F464
+Fingerprint: 9CE7 98DD E14E 8B9C 7109  2798 C18D 83A9 F888 F464
+
+--DeathToSpamDeathToSpamDeathToSpam--
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-Sightings mailing list
+Spamassassin-Sightings@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-sightings
+
+

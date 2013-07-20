@@ -1,0 +1,57 @@
+NoneRipped from
+
+http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.usage.html
+
+" 11 Access Points, Home Gateways and Ethernet bridging
+Most Access Points act as a MAC level bridge, allowing the Wireless LAN to 
+be a natural extension of a wired network. They are deployed in a cellular 
+fashion, and provide extended security, management and roaming.
+On the other hand, the Home Gateways allow a single cell to be connected to 
+a WAN, like a modem, a cable modem or a DSL access. The set of features is 
+quite different, and they offer NAT/masquerading and PPP configuration.
+
+The conventional Ethernet bridging method (promiscuous sniffing) doesn't 
+work with most wireless LAN standard, because of the header encapsulation 
+and the interactions with link layer retransmissions. In other word, most 
+often, when you use a software bridge on a wireless LAN (such as the Linux 
+bridge on a 802.11 card), it doesn't work (moreover, quite often promiscuous 
+is broken as well). "
+
+[[ What the?? What is he talking about?? Aren't we all using Linux to bridge 
+our networks? ]]
+
+" The driver could work around this restriction by creating its own MAC 
+headers (802.11 headers instead of 802.3, and putting the right bits in the 
+right place), but in fact most vendors don't provide the specification on 
+how to this with their hardware (when they don't explicitely prevent it in 
+hardware, to force you to buy their Access Points).
+
+In other words, don't expect to use your Linux PC as a wireless bridge or 
+wireless Access Points with most products out there, and forget about 
+turning it into an Access Point. Of course, there is some exceptions. "
+
+[[ Is this true? ]]
+
+
+" The workaround is to set the wireless LAN in ad-hoc mode and to use other 
+methods, such as routing, masquerading, IP bridging, ARP proxying... "
+
+
+[[ Yes, I am in a process of building a wireless-lan <-> wired-lan bridge. 
+But I don't understand what this guy is talking about. Anyone?
+
+
+Vince. ]]
+
+
+
+
+_________________________________________________________________
+MSN Photos is the easiest way to share and print your photos: 
+http://photos.msn.com/support/worldwide.aspx
+
+
+To unsubscribe: send mail to majordomo@wireless.org.au
+with "unsubscribe melbwireless" in the body of the message
+
+

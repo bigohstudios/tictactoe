@@ -1,0 +1,60 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected! Why?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Johannes Wiedersich wrote:
+> Merciadri Luca wrote:
+> > Johannes Wiedersich wrote:
+> >> Why would an
+> >> honest soul ever allow information to be read, but not printed?
+> >>  =20
+> > To maintain honesty? An honest soul (i.e. me, here) has to send some
+> > data to some dishonest person.
+>
+> The problem is: either you give data to some dishonest person or you
+> don't give that data to some dishonest person. Tertium non datur.
+Yes, but there are some nuances. Let's take my example: how would you
+have done this? You need to transmit the document, but the receivers are
+sufficiently dishonest to print it and to claim they are the authors.
+>
+> >> Even with acroread it is possible to print screenshots of the
+> documents.
+> >> Might be a pain to reconstruct a multipage document, but not
+> impossible.
+> >>  =20
+> > I know, and we all know this. But this needs some determination, beca=
+use
+> > it needs some time. And when such problems arise, one often thinks (o=
+r
+> > should, at least, think) `Do I really need to copy this using that
+> > painful way, to bypass some limitation which is actually imposed to m=
+e
+> > by an honest person?' This is another aspect of security. There are t=
+he
+> > technical means, and all the infringements which can be done. But,
+> > sometimes, `le jeu n'en vaut pas la chandelle.'
+>
+> FWIW, if you'd like to rely on such a scheme for security by obstacles,=
+
+> you'd have to use something else than pdf. pdf's scheme is broken.
+> That's all.
+And what do you advice?
+>
+> The reason that it is broken for pdfs is that the specifications for pd=
+f
+> are freely available, and thus alternative pdf readers have been
+> developed. Your scheme would require closed specifications and closed
+> software to work. This list, however, is all about free software.
+Yes, but if I had to use closed specs. with closed softwares, I would
+have to pay, and what about paying for your own rights??
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

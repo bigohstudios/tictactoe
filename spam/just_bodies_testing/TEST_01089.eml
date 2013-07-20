@@ -1,0 +1,38 @@
+Re: KDE 4.4.3 in unstableEl Mi=E9rcoles 05 Mayo 2010 17:24:49 Ana Guerrero <ana@debian.org> escribi=
+=F3:
+> Hi,
+>=20
+> Given no everybody reads planet Debian, here goes a copy of
+> http://ekaia.org/blog/2010/05/05/kde-443-in-unstable/
+>=20
+>=20
+> Following Qt 4.6.2, uploaded a couple of weeks ago, KDE 4.4.3, has finally
+> found its way to unstable in the last 48 hours.
+> Given KDE 4.5.0 is not expected until August, it is likely the next point
+> release, 4.4.4, will be the KDE version included in next Debian stable,
+> Squeeze. What this means: go and update to 4.4.3, test, and when you find=
+ a
+> bug, please, follow this instructions [0]. If you are lazy to read it:
+> report upstream bugs at the KDE Bugzilla and report the
+> packaging/integration bugs in the Debian BTS. When in doubt, you have the
+> Debian KDE mailing list [1], that is being successful so far in
+> maintaining a good signal-noise ratio.
+>=20
+> ...
+
+Just for add a good comment, I'm testing 4.4.3 and it working very good!!=20
+Thanks!!
+
+
+The only problem I'm having is that kmail is not searching in the full addr=
+ess=20
+list when writing a new message. But i can drag from kaddressbook for now...
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061250.53353.budinero@csmining.org
+
+

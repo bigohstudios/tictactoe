@@ -1,0 +1,45 @@
+[SAdev] [Bug 1006] Spamassassin's build process makes packaging
+    unnecessarily difficulthttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=1006
+
+jm@jmason.org changed:
+
+           What    |Removed                     |Added
+----------------------------------------------------------------------------
+             Status|NEW                         |ASSIGNED
+
+
+
+------- Additional Comments From jm@jmason.org  2002-10-03 13:29 -------
+1. Use of $Config is gradually being removed, thankfully.  I don't want
+to see any of that stuff in there if it acn be avoided, as different
+perl versions jsut vary so much in that stuff.
+
+2. perl has no concept of where the rules could be -- unless they're in
+the perl libdir (/usr/lib/perl5/site_perl/5.x.x/foo).  Perl does not
+know about the existence of /usr/share or /etc.  Used to use /usr/lib/perl5
+for storing rules, and it was actually *much worse* than it is now. So
+we need an out-of-band way to tell SA where to find this stuff. that's
+the problem!
+
+3. try "perl Makefile.PL < /dev/null" to allow bots to build it.
+
+I think I might be missing some details of what you're peeved about,
+though... could you elaborate specifically?
+
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

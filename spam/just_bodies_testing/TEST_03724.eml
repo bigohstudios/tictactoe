@@ -1,0 +1,22 @@
+Re: 'looking up xxxx' foreverOn Tue, 6 Apr 2010 16:52:25 -0400 (EDT), Ron Johnson wrote:
+> 
+> My concern is that, since the upstream dhcpd sends the lease info at 
+> the moment of negotiation, you'd need to start tshark *before* pon 
+> and I don't know if tshark will see the new interface and start 
+> capturing on it.
+
+Good point.  I don't know either.
+
+-- 
+  .''`.     Stephen Powell    <zlinuxman@wowway.com>
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1535300889.1494981270589243629.JavaMail.root@md01.wow.synacor.com
+
+

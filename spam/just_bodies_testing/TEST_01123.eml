@@ -1,0 +1,52 @@
+GetMediaSample2 performance problemHi,
+
+I'm using GetMediaSample2 to retrieve sample of a video (H264)
+to feed them to ICMDecompressionSessionDecodeFrame.
+
+Usually, after the first frame has been read, GetMediaSample2 is
+quite fast with timing as low as 1ms, which seems to indicate
+some kind of caching.
+
+However, and randomly, GetMediaSample2 will sometimes takes timings
+like 1000 ms to read a single frame. This happens with a pattern
+I cannot really understand, for example :
+
+(the integer numbers are frame numbers, "last frame" is the last frame
+I have been processed, and "cur frame" is the requested frame when
+there is a "hole" between the last frame I processed and the one
+I'm asked for)
+
+frame read: 1159.920201ms at 34	
+last frame: 34	
+cur frame: 40	
+frame read: 1048.547101ms at 37	
+frame read: 1061.771239ms at 38	
+last frame: 63	
+cur frame: 102	
+
+or
+
+frame read: 922.650834ms at 26	
+frame read: 981.708654ms at 34	
+last frame: 49	
+cur frame: 60	
+frame read: 240.574639ms at 166	
+(here my scheduler can keep up with the
+long frame read because I put a big read ahead
+time for my tests)
+
+Do someone knows where it might come from ?
+Or should I write a sample cache code (I already have some), use
+CopyMediaMutableSampleTable and the like and expect better timings ?
+
+Thanks in advance for any informations on that matter,
+
+Raphael
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

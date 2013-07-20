@@ -1,0 +1,117 @@
+X-Account-Key: account5
+X-UIDL: GmailId128b0df94575d056
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.160.8 with SMTP id m8cs53568wfo;
+        Wed, 19 May 2010 07:02:44 -0700 (PDT)
+Received: by 10.223.56.27 with SMTP id w27mr9915037fag.37.1274277762934;
+        Wed, 19 May 2010 07:02:42 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c9si18145551fac.64.2010.05.19.07.02.41;
+        Wed, 19 May 2010 07:02:42 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id B766113A5246; Wed, 19 May 2010 14:02:31 +0000 (UTC)
+Old-Return-Path: <debian.dev.list@csmining.org>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-9.5 required=4.0 tests=FOURLA,LDOSUBSCRIBER,
+	LDO_WHITELIST,RATWARE_GECKO_BUILD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id BA9BD13A5216
+	for <lists-debian-user@liszt.debian.org>; Wed, 19 May 2010 14:02:25 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-6.9 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, FOURLA=0.1, LDO_WHITELIST=-5] autolearn=ham
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id fXGtVMtpTaHj for <lists-debian-user@liszt.debian.org>;
+	Wed, 19 May 2010 14:02:18 +0000 (UTC)
+X-policyd-weight: using cached result; rate:hard: -6.9
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.156])
+	by liszt.debian.org (Postfix) with ESMTP id 5E89E13A5206
+	for <debian-user@lists.debian.org>; Wed, 19 May 2010 14:02:18 +0000 (UTC)
+Received: by fg-out-1718.google.com with SMTP id 22so2073279fge.12
+        for <debian-user@lists.debian.org>; Wed, 19 May 2010 07:02:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=csmining.org; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from
+         :user-agent:mime-version:to:cc:subject:references:in-reply-to
+         :content-type:content-transfer-encoding;
+        bh=yqAZVZ2CnSDmCTQfWG5qlawn45pdi4qjRYNh4s5RnBY=;
+        b=ZuDf7pnsCBepPP+oVq0A7V5DUFRmwHdqW7F7kSKMVIH7R1nq7IfvFUfRdpzcF8sqBY
+         CkF8g3yTwBWPMyZdCZj9bpxn9XlCd0269zm41GzVo6psF49BlZy2iCTaosTBF1ez35qN
+         4lYDgPWCBBCIqYE3QIk84FpGDXhtcKYBA1qps=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=csmining.org; s=gamma;
+        h=message-id:date:from:user-agent:mime-version:to:cc:subject
+         :references:in-reply-to:content-type:content-transfer-encoding;
+        b=w8+EcAXZ75N89/nmeOZD8hM5ZLWSXw+3U3N+0LAdfhxt3cI4n9t6SxB5CsuA/SuNzq
+         rzG1lUbVGeFkSVy8npp6s4F6ua2ZovfPgJjkZT06lErX0LQlpTEYW5dSqXmJxEHavt7w
+         sg4GcMmqnzHPH4E1jgfcqKYcP6AUmtbNbb4yk=
+Received: by 10.87.2.15 with SMTP id e15mr13122819fgi.23.1274277738356;
+        Wed, 19 May 2010 07:02:18 -0700 (PDT)
+Received: from [192.168.0.100] ([89.47.83.116])
+        by mx.google.com with ESMTPS id e11sm11085029fga.18.2010.05.19.07.02.16
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Wed, 19 May 2010 07:02:17 -0700 (PDT)
+Message-ID: <4BF3EF8B.2040302@csmining.org>
+Date: Wed, 19 May 2010 17:02:51 +0300
+From: Aioanei Rares <debian.dev.list@csmining.org>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.9) Gecko/20100515 Icedove/3.0.4
+MIME-Version: 1.0
+To: ryanjonathanb@csmining.org
+CC: "Debian.org" <debian-user@lists.debian.org>
+Subject: Re: Gnome not working anymore?
+References: <646645427-1274277409-cardhu_decombobulator_blackberry.rim.net-1942999294-@bda030.bisx.prodap.on.blackberry>
+In-Reply-To: <646645427-1274277409-cardhu_decombobulator_blackberry.rim.net-1942999294-@bda030.bisx.prodap.on.blackberry>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <2zuE5PO6a3I.A.2FF.39-8LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/577176
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Wed, 19 May 2010 14:02:31 +0000 (UTC)
+
+On 05/19/2010 04:56 PM, RyanJB wrote:
+> Not really well versed in this, but:
+>
+> What kernel do you use before the upgrade, is it the 2.6.33-2-amd64?? Obviously the upgrade broke the system somehow. Maybe broken dependencies? Try 'apt-get -f install'.
+>
+> And also, a testing + sid system is never free of bugs.
+>
+> Regards,
+> RJB
+>
+>
+>    
+Thanks for the reply, but first of all, I do not think it's the kernel 
+at fault, it's some library upgrade (imho); second, no broken deps;
+third, it was 2.6.34 vanilla; finally, fourth, I know what to expect 
+from a sid/testing system; I just wanted to inform so I can help
+getting rid of this bug. And, btw, XFCE works ok, although being also 
+GTK-based.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF3EF8B.2040302@csmining.org
+
+

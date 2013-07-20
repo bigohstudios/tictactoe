@@ -1,0 +1,36 @@
+Re: Battery monitor tools?From nobody Sat Jul 20 14:17:29 2013
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Apr 20, 2010 at 12:20, Dirk Linnerkamp
+<dirk_linnerkamp@vodafone.de>wrote:
+
+> Hi Simon,
+>
+> Am Dienstag, den 20.04.2010, 00:40 +0200 schrieb Simon Chen:
+>
+> > So, is this just because i choosed a unsuitable tool? Or it has any
+> > other reason. In the comparison mentioned above, I was doing some file
+> > work and/or running emacs
+>
+> ...i'm using laptop-mode-tools as an additionally tool to control my
+> battery power and i would say that it gave me just a bit more time on
+> battery. You have a  lot of configuration files for controlling
+> autostart programs and your hardware i.e. cpu, disks,wireless etc.
+>
+> But you never wil get the same time span as you reache with your windows
+> OS
+>
+>
+In my humble opinion, this statement holds true if you keep the "original"
+Windows that came with your laptop.  Usually this Windows is slighly
+modified or has a special power manager or management options made by the
+laptop manufacturer, specially tailored for the laptop model.  I wish they
+would also make available similar configurations for non-Windows OS (for
+example, as configuration files/scripts for laptop-mode-tools or others)
+
+Best Regards,
+
+
+--=20
+Jon=C3=A1s Andradas

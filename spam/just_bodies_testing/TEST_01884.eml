@@ -1,0 +1,25 @@
+replacing hardware raid with software raidHi,
+i created a raid-5 array with a LSI MegaRaid 150-6 controller (i used 4 sata drives). Is it possible to use the array without the hardware raid controller with linux software raid/ mdadm?
+
+I think a read something about that, but i can't find it anymore. Mdadm does not autodetect the array.
+Do i have to provide a raid-configuration manually?
+
+Another problem could be, that the raid configuration on the discs is destroyed (i think the data is still ok, but the raid configuration data stored on the discs could be damaged). Is there a possibility to restore it?
+
+
+(I have a backup of the data from the raid array. I'm just interested if it's possible to replace the controller and to restore the data on a test system)
+
+
+
+Thanks Andi
+-- 
+GRATIS für alle GMX-Mitglieder: Die maxdome Movie-FLAT!
+Jetzt freischalten unter http://portal.gmx.net/de/go/maxdome01
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507065047.180600@gmx.net
+
+

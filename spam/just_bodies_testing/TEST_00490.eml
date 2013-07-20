@@ -1,0 +1,19 @@
+Re: How to check if device is busy without unmounting?From nobody Sat Jul 20 14:17:28 2013
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Sunday 16 May 2010 18:05:01 Dotan Cohen wrote:
+> How can one check if a device can be safely unmounted at the moment.
+> Sometimes umount fails as the device is busy. Is there a way to check
+> if the device is busy, without unmounting? The umount manpage does not
+> discuss this situation.
+
+(fuser -mv /$mnt_point) is relatively standard.
+
+lsof is quite a bit more powerful and complete, and available for Debian.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

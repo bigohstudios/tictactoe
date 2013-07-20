@@ -1,0 +1,101 @@
+X-Account-Key: account5
+X-UIDL: GmailId1283e89e78162593
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs124889wfj;
+        Tue, 27 Apr 2010 02:12:26 -0700 (PDT)
+Received: by 10.87.1.7 with SMTP id d7mr4614958fgi.75.1272359544856;
+        Tue, 27 Apr 2010 02:12:24 -0700 (PDT)
+Return-Path: <bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org>
+Received: from liszt.debian.org (liszt.debian.org [82.195.75.100])
+        by mx.google.com with ESMTP id c28si3125136fka.14.2010.04.27.02.12.24;
+        Tue, 27 Apr 2010 02:12:24 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) client-ip=82.195.75.100;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org designates 82.195.75.100 as permitted sender) smtp.mail=bounce-debian-user=mlsubscriber.tech=csmining.org@lists.debian.org; dkim=neutral (body hash did not verify) header.i=@yahoo.com
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with QMQP
+	id DD86213A59C4; Tue, 27 Apr 2010 09:12:11 +0000 (UTC)
+Old-Return-Path: <tompomber@yahoo.com>
+XChecker-Version: SpamAssassin 3.2.5 (2008-06-10) on liszt.debian.org
+XLevel: 
+XStatus: No, score=-8.1 required=4.0 tests=DNS_FROM_RFC_WHOIS,
+	LDOSUBSCRIBER,LDO_WHITELIST,ONEWORD autolearn=failed version=3.2.5
+X-Original-To: lists-debian-user@liszt.debian.org
+Delivered-To: lists-debian-user@liszt.debian.org
+Received: from localhost (localhost [127.0.0.1])
+	by liszt.debian.org (Postfix) with ESMTP id 26FF213A491E
+	for <lists-debian-user@liszt.debian.org>; Tue, 27 Apr 2010 09:12:05 +0000 (UTC)
+X-Virus-Scanned: at lists.debian.org with policy bank en-ht
+X-AmavisStatus: No, score=-5 tagged_above=-10000 required=5.3
+	tests=[BAYES_00=-2, LDO_WHITELIST=-5, ONEWORD=2] autolearn=no
+Received: from liszt.debian.org ([127.0.0.1])
+	by localhost (lists.debian.org [127.0.0.1]) (amavisd-new, port 2525)
+	with ESMTP id PAzms34DnImS for <lists-debian-user@liszt.debian.org>;
+	Tue, 27 Apr 2010 09:11:53 +0000 (UTC)
+X-policyd-weight: using cached result; rate: -6.8
+Received: from web36502.mail.mud.yahoo.com (web36502.mail.mud.yahoo.com [209.191.85.2])
+	by liszt.debian.org (Postfix) with SMTP id 3FFFC13A5831
+	for <debian-user@lists.debian.org>; Tue, 27 Apr 2010 09:11:53 +0000 (UTC)
+Received: (qmail 69715 invoked by uid 60001); 27 Apr 2010 09:11:50 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1272359510; bh=TDz/Oe3qV6djPnoUJateVwzEZ+9rYkI1oTBqcr3iZng=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type:Content-Transfer-Encoding; b=VoNo1TvH3fC5t/C+BIjZZ7VmLl6kPlz0s6q+7txb/usjszPfM7b5ZBC+UwPV+zcPNMn2Gv9M0qU8e80CeLK7InAPzc0weUxCAy8dhlj0B4ae9Ga8EVsvWT7Wry2v6nLF1BVePQAV1KOgLpVm8uM5vAP1rtYPmO7s8SHTZHbDZAo=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:Cc:In-Reply-To:MIME-Version:Content-Type:Content-Transfer-Encoding;
+  b=JfXpIVPCOiTkdX17eVStft2g7Fc1G4/kmVskLaNxJdyKmqsOs6hTNI04WIXs7j3h1V/iMmDqw9FjDGiLxTqHEsVCeG1l922TnjlF3m141oI8afFbrkRTftMPrgTXe2rROMdQ+dGUAfAcbvYsi6tJvPkT5wlC+ZUuNnPhMcrO2fY=;
+Message-ID: <296698.69078.qm@web36502.mail.mud.yahoo.com>
+X-YMail-OSG: JcCSJckVM1kK8pPP6HyE5Px3wGE8W48.XzoCycLB068mJSS
+ 29p5ycugSTgNcwCuBclbXAiuJ2Oud6kfav6HNmutxpnJkwvkTPIl5PaGvCz7
+ Th0QMUlclvCdoJq5JUk2BsFseqUZto6c9eBPtBeO2KD7p.7wx3iiK.MJwcO8
+ JmDjNsSjL8FnCp1y4ZleG.1r7gVYGlcsfq9nFal6YE8b4p.67nJNoSBgpCSS
+ TvehEo_duHTsGN10cLF0vZ7EszFdV8hGpHdo.DPsBTdNWQKRyUa2jMNi2ETd
+ 6nwMfZSHGi.d4whVMNfTq6RJrqrXGaHfwV5hW2wnZuJLiq_eS0phuf5r2NrG
+ fNMpp66QEnS7oxnY-
+Received: from [96.51.30.151] by web36502.mail.mud.yahoo.com via HTTP; Tue, 27 Apr 2010 02:11:50 PDT
+X-Mailer: YahooMailClassic/10.1.9 YahooMailWebService/0.8.102.267879
+Date: Tue, 27 Apr 2010 02:11:50 -0700 (PDT)
+From: Thomas Pomber <tompomber@yahoo.com>
+Subject: Re: Esperanto
+To: Brad Rogers <brad@fineby.me.uk>
+Cc: debian-user@lists.debian.org
+In-Reply-To: <20100427100413.7520be06@abydos.stargate.org.uk>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Rc-Virus: 2007-09-13_01
+X-Rc-Spam: 2008-11-04_01
+Resent-Message-ID: <PQEbGkz5JyF.A.JPB.rpq1LB@liszt>
+Resent-From: debian-user@lists.debian.org
+X-Mailing-List: <debian-user@lists.debian.org> archive/latest/575233
+X-Loop: debian-user@lists.debian.org
+List-Id: <debian-user.lists.debian.org>
+List-Post: <mailto:debian-user@lists.debian.org>
+List-Help: <mailto:debian-user-request@lists.debian.org?subject=help>
+List-Subscribe: <mailto:debian-user-request@lists.debian.org?subject=subscribe>
+List-Unsubscribe: <mailto:debian-user-request@lists.debian.org?subject=unsubscribe>
+Precedence: list
+Resent-Sender: debian-user-request@lists.debian.org
+Resent-Date: Tue, 27 Apr 2010 09:12:11 +0000 (UTC)
+
+Now, that's not fair, Mr. Rogers. I also asked about setting up a TV card. =
+=0A=0AYou have to admit, it's a good question about Esperanto.=0A=0A--- On =
+Tue, 4/27/10, Brad Rogers <brad@fineby.me.uk> wrote:=0A=0A> From: Brad Roge=
+rs <brad@fineby.me.uk>=0A> Subject: Re: Esperanto=0A> To: debian-user@lists=
+.debian.org=0A> Received: Tuesday, April 27, 2010, 3:04 AM=0A> On Tue, 27 A=
+pr 2010 01:49:28 -0700=0A> (PDT)=0A> Thomas Pomber <tompomber@yahoo.com>=0A=
+> wrote:=0A> =0A> Hello Thomas,=0A> =0A> > It was an honest question!=0A> =
+=0A> But everything else you've sent to this list would indicate=0A> otherw=
+ise.=0A> =0A> -- =0A>  Regards=A0 _=0A> =A0 =A0 =A0 =A0=A0=A0/ )=A0 =A0=0A>=
+ =A0 =A0 =A0=A0=A0"The blindingly obvious is=0A> =A0 =A0 =A0 =A0 / _)rad=A0=
+ =A0 =A0=0A> =A0 never immediately apparent"=0A> =0A> I don't believe you h=
+ave to be an idiot to get somewhere=0A> these days=0A> Bombsite Boy - The A=
+dverts=0A> =0A=0A
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/296698.69078.qm@web36502.mail.mud.yahoo.com
+
+

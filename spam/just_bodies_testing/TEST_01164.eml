@@ -1,0 +1,89 @@
+Re: VM software for personal use?B. Alexander wrote:
+> Amen to that! IMHO, vmware merely pays lip service to Linux. 12 years 
+> ago, when we were using Linux on the job, we (and many, many others) 
+> were asking for a Linux client. We are now at VSphere 4, and still only 
+> windows clients.
+> 
+> VMware server is even worse. It runs on Linux, and it worked okay, but 
+> you are frozen in time -- no updates -- lest you break your install. I 
+> did that on my vmware server installation, and then I upgraded. I could 
+> not get the vmware modules to compile on a reasonably modern kernel. So 
+> I went back to an earlier kernel (2.6.30, iirc), and once I got the 
+> modules compiled, the web interface only worked about one time in 3. So 
+> I am pretty much done with vmware.
+> 
+> Now, since I only have 32 bit machines, I guess I'll be doing Xen, since 
+> as good as it is, VBox is good for desktop-type virtualization, rather 
+> than machine consolidation. Even with it's vboxheadless functionality, 
+> its still a bit too dodgy for a group of machines that need to stay up.
+> 
+> --b
+> 
+> On Sat, Apr 24, 2010 at 3:20 PM, Hugo Vanwoerkom <hvw59601@care2.com 
+> <mailto:hvw59601@care2.com>> wrote:
+> 
+>     Mark Allums wrote:
+> 
+>         On 4/23/2010 11:31 AM, Richard Lawrence wrote:
+> 
+>             Hi all,
+> 
+> 
+>             P.S.  Apologies if this question seems too far off-topic for
+>             debian-user.  If there's a better place to ask this
+>             question, I'd like
+>             to know that, too.
+> 
+> 
+>         Virtualbox meets more of your individual criteria than anything
+>         else I can think of, but the open source edition lacks USB.  I
+>         would consider the non-OSE version for now, but only if I were
+>         prepared to migrate to something else, later, depending on what
+>         Oracle may choose to to with it, now that they own Sun.
+> 
+>         Some version of QEMU with KVM will always work, but you
+>         definitely need the KVM bits, because by itself QEMU is not a
+>         speed demon.
+> 
+>         I enjoy Xen-like hypervisors from an aesthetics point-of-view,
+>         but the best ones are not free in any sense.  Microsoft's
+>         Hyper-V flat-out costs money, and VMware's ESXi comes with too
+>         much baggage.  Xen itself is still in a state of flux, and
+>         though the 2.6.32 kernel version is much more stable than
+>         previous versions, I wouldn't call it ready for prime time.
+> 
+> 
+>     And I am getting tired of always having to look around for fixes to
+>     VMware's server whenever you upgrade your kernel, it appears their
+>     Linux attention leaves something to be desired.
+> 
+
+Except... what works very nice in VMware is the NAT and Host Only 
+network setups: works out of the box. You share your home dir thru 
+samba. On XP all I had to setup was a netuse * to mount a net fs. Do the 
+others do it that easy?
+
+Hugo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hr48l8$8fu$1@dough.gmane.org
+
+

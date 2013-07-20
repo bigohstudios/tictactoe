@@ -1,0 +1,26 @@
+Re: weird bug where mouse pointer sticks to x11 windows
+On Apr 6, 2010, at 00:51, Martin Costabel wrote:
+
+> Vernon Williams wrote:
+> []
+>> The problem seems to occur when you move any X11 window against
+>> the Mac menu bar, so that the mouse pointer continues on into the
+>> Mac menu bar but has not been released, as a standard Mac window
+>> comes up.
+>=20
+> This is still happening with 10.6.3 X11 2.3.5. I think the first bug =
+there is that the mouse pointer is moving into the Mac menu bar at all.
+
+Yeah, I have this bug in my list of issues to deal with "eventually" ... =
+there should be an open bug on it already.
+
+It has something to do with the mouse button events going to the menu =
+bar and not getting to the DDX thread to pass on to quartz-wm.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

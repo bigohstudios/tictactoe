@@ -1,0 +1,103 @@
+X-Account-Key: account5
+X-UIDL: GmailId12843340ea370d62
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: mlsubscriber.tech@csmining.org
+Received: by 10.143.34.8 with SMTP id m8cs170073wfj;
+        Tue, 27 Apr 2010 23:56:45 -0700 (PDT)
+Received: by 10.115.38.22 with SMTP id q22mr8614247waj.41.1272437804954;
+        Tue, 27 Apr 2010 23:56:44 -0700 (PDT)
+Return-Path: <quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com>
+Received: from bz1.apple.com (bz1.apple.com [17.254.13.36])
+        by mx.google.com with ESMTP id 39si8785056pzk.49.2010.04.27.23.56.44;
+        Tue, 27 Apr 2010 23:56:44 -0700 (PDT)
+Received-SPF: pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) client-ip=17.254.13.36;
+Authentication-Results: mx.google.com; spf=pass (google.com: manual fallback record for domain of quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com designates 17.254.13.36 as permitted sender) smtp.mail=quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com; dkim=neutral (body hash did not verify) header.i=@csmining.org
+Received: from lists.apple.com (unknown [17.128.113.151])
+	by bz1.apple.com (Postfix) with ESMTP id A465D1BD2DF39
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 23:56:44 -0700 (PDT)
+Received: from master.lists.apple.com (localhost [127.0.0.1])
+	by lists.apple.com (Postfix) with ESMTP id A02AC2731AFB8
+	for <mlsubscriber.tech@csmining.org>; Tue, 27 Apr 2010 23:56:44 -0700 (PDT)
+X-Original-To: quicktime-api@lists.apple.com
+Delivered-To: quicktime-api@lists.apple.com
+Received: from relay3.apple.com (relay3.apple.com [17.128.113.33])
+	by lists.apple.com (Postfix) with ESMTP id C1FF42731ADDA
+	for <quicktime-api@lists.apple.com>;
+	Tue, 27 Apr 2010 23:56:26 -0700 (PDT)
+Received: from mail-in13.apple.com (mail-in.apple.com [17.254.13.11])
+	by relay3.apple.com (Postfix) with ESMTP id B0886D030671
+	for <quicktime-api@lists.apple.com>;
+	Tue, 27 Apr 2010 23:56:26 -0700 (PDT)
+X-AuditID: 11fe0d0b-b7b68ae0000042ab-d3-4bd7dc19021a
+Received: from mail-bw0-f225.google.com (mail-bw0-f225.google.com
+	[209.85.218.225])
+	by mail-in13.apple.com (Apple Secure Mail Relay) with SMTP id
+	1E.D7.17067.A1CD7DB4; Tue, 27 Apr 2010 23:56:26 -0700 (PDT)
+Received: by bwz25 with SMTP id 25so13699880bwz.8
+	for <quicktime-api@lists.apple.com>;
+	Tue, 27 Apr 2010 23:56:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=csmining.org; s=gamma;
+	h=domainkey-signature:mime-version:received:received:in-reply-to
+	:references:date:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	bh=BMfrq+op4KFSvpKIyIACLP79l2WksP1Up2/1/YsgZ5g=;
+	b=ptCwy090miG8euZn9DwEY+IyAOxOOpnCR0In4rrv1Chbcln16W+/CObL8cVNaaI6bo
+	OKDgjuYScQaInTks3PvdKcCtl1sq9hMt+OFgqtahLj5DgKez21KHW8jbYQLDH3CatGzu
+	dgaoZKLMR3a8/6q+dUPOamcT4LcxsWn9V0FiM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=csmining.org; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:cc:content-type:content-transfer-encoding;
+	b=u3QnKNHXL8KgSTL4DhookyxiwyhEvbs/+Zj7Y/ruhHt8v5l3ZSl7OIuK6ahjH72bIk
+	0QKT68kHeawoKi1gns+P3tE1vW7PDt+kBzehlejD8iUw4AKP2uE365WhadYNwmz5b3MB
+	GunxjiHdDOxONVqZOd+rm3KDdM/JJpbv4Z0L8=
+MIME-Version: 1.0
+Received: by 10.204.21.17 with SMTP id h17mr4281467bkb.197.1272437784231; Tue, 
+	27 Apr 2010 23:56:24 -0700 (PDT)
+Received: by 10.204.69.133 with HTTP; Tue, 27 Apr 2010 23:56:24 -0700 (PDT)
+In-Reply-To: <C3A1A778-3113-429C-96A7-EB6D9D6B59E2@jwwalker.com>
+References: <g2jea53534f1004272136pd28b5ed6iaeb45edadfcea4cc@mail.csmining.org>
+	<C3A1A778-3113-429C-96A7-EB6D9D6B59E2@jwwalker.com>
+Date: Wed, 28 Apr 2010 12:26:24 +0530
+Message-ID: <l2mea53534f1004272356jb2547a14n36ba76704b912bcf@mail.csmining.org>
+From: Sam <sam.reshu@csmining.org>
+To: "James W. Walker" <osx@jwwalker.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Brightmail-Tracker: AAAABBPvoMIT77IhE/BCvRPwcVk=
+Cc: quicktime-api@lists.apple.com
+Subject: Re: NewMovieFromDataRef crashes when QT movie URL is not found
+X-BeenThere: quicktime-api@lists.apple.com
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: QuickTime Development <quicktime-api.lists.apple.com>
+List-Unsubscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=unsubscribe>
+List-Post: <mailto:quicktime-api@lists.apple.com>
+List-Help: <mailto:quicktime-api-request@lists.apple.com?subject=help>
+List-Subscribe: <http://lists.apple.com/mailman/listinfo/quicktime-api>,
+	<mailto:quicktime-api-request@lists.apple.com?subject=subscribe>
+Sender: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+Errors-To: quicktime-api-bounces+mlsubscriber.tech=csmining.org@lists.apple.com
+
+I don't think it is the problem with valid graphics port (I have tried
+by creating a NewGWorld and setting that as the current port too).
+If the movie is present at the specified URL the call succeeds and I
+could play the movie. It is crashing only if the movie is not found at
+the URL.
+
++Sam
+
+On Wed, Apr 28, 2010 at 11:27 AM, James W. Walker <osx@jwwalker.com> wrote:
+> Did you read the docs on NewMovieFromDataRef? =A0There's supposed to be a=
+ valid graphics world when you call it. =A0Your sample code doesn't do that=
+.
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

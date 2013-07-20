@@ -1,0 +1,68 @@
+Re: backing up LVM volumesBernard <bdebreil@teaser.fr> wrote:
+> When I stated that 'SystemRescueCD' did not backup LVM volumes,
+> I meant that 'partimage' lacked this capability. As far as I know,
+> recent versions cannot do any better.
+
+I'm not familiar with partimage. Are you saying that it refuses to allow
+you to backup partitions with names such as "/dev/vg/home" or
+"/dev/mapper/vg-home"?
+
+
+> I tried 'dd' again. It seems more promising, since it does backup 
+> everything. files are huge (about same size as the original partition, 
+> including empty space)
+
+That's because it's a byte-for-byte copy.
+
+
+> /mnt/sdc4/# dd if=/dev/sda1 of=sda1_04_10.img
+
+Go back and read what I wrote about dd. You *really* ought to specify
+a blocksize (for example, bs=100k).
+
+
+> I must say that my original /dev/sda1 was my 'boot' partition. As such, 
+> the RAID/mdadm programs did not create a LVM system ; it kept using the 
+> original ext3.
+
+You probably needed to have updated the disk partition table, too.
+
+
+
+
+> /mnt/sdc4/# dd if=/dev/sda2 of=sda2_04_10.img
+> /mnt/sdc4/# dd if=sda2_04_10.img of=/dev/sdc1
+
+> I can't read, or even mount sdc1 :
+
+> root@new-host:/home/bd# mount /dev/sdc1 /mnt/exthd
+> mount: unknown filesystem type 'lvm2pv'
+> root@new-host:/home/bd#
+
+That suggests that sdc1 is a raw LVM partition, which you would not be
+expected to mount as a filesystem. Are you SURE you're trying to dd from
+a filesystem image and not from an underlying LVM segment?
+
+
+It seems to me that you may be very confused (maybe you don't even know
+it?!). If you want specific advice, please can I ask that you run these
+commands (as root) and post the output.
+
+    for D in /dev/[hs]d[a-z]; do fdisk -l "$D"; done
+    mdadm -v --examine --scan
+    pvdisplay | grep Name
+    lvdisplay | grep Name
+    mount | grep ^/dev/
+
+This will give us a view on what Disk/RAID/LVM/Filesystem combinations
+you actually have.
+
+Chris
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/sbijb7xef7.ln2@news.roaima.co.uk
+
+

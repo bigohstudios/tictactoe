@@ -1,0 +1,46 @@
+Re: Unable to connect to my home wireless
+Andrei Popescu wrote:
+> I agree with you, but in this particular case it is not a 'Depends' it
+> is a 'Recommends', and testing/unstable users should know how to
+> override those.
+
+Andrei,
+
+I do not mind installing some extra packages if they are recommended, and
+I will leave the setting as it is; sometimes I discover useful software
+with it and from time to time I go through the list of installed packages
+in aptitude and purge unused ones. This has served me well for 9+ years
+using Debian.
+
+What I got really angry about is that network-manager (or some other
+packet; I will investigate tonight and file a bug) reconfigured my network
+on-the-fly
+
+a) without asking me,
+b) without telling me and
+c) without being told to do so.
+
+I do not use wicd or any other configuration helper (I'm not sure if I
+made it clear enough in my first mail that I'm not a friend of XXX-helper
+and YYY-manager packets...) I have configured my wireless network in
+/etc/network/interfaces, as described in
+/usr/share/doc/wireless-tools/README.Debian.
+
+When I tried out to set up the wireless connection manually with
+ifconfig+iwconfig+wpasupplicant, I found that wpasupplicant associated
+continuously with the AP, only to be kicked off by again by someone else
+(supposedly network-manager).
+
+While my first mail may have been written in a very angry state of mind, I
+still think that it is annoying at best to fiddle with people's network
+settings on a desktop machine, but on any other machine it may be fatal.
+
+Thomas
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/34fc541415163b94a68a0e2fc782eda9.squirrel@www.tty1.net
+
+
