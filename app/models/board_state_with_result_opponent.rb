@@ -7,8 +7,8 @@ class BoardStateWithResultOpponent
     inputs = []
     outputs = []
     CSV.foreach(File.join(Rails.root,PATH_TO_RAW_DATA)) do |row|
-      inputs  << (0...16).collect{|i| row[i].to_f}
-      outputs << [row[17].to_f]
+      inputs  << (0...18).collect{|i| row[i].to_f}
+      outputs << [row[18].to_f]
     end
 
     {:inputs => inputs, :outputs => outputs}
