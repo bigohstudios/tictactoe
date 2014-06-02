@@ -40,4 +40,9 @@ gem 'ruby-fann'
 # gem 'capistrano', group: :development
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
+
+gem 'capybara', '>=2.2.0.beta'
+gem 'rspec-rails', '~> 3.0.0.rc1'
+gem 'factory_girl'
+

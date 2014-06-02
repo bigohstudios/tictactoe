@@ -19,10 +19,10 @@ class BoardStateWithResultOpponent
     if !@trained
       data = parse_raw_data_file 
 
-      puts data[:inputs].inspect
+#      puts data[:inputs].inspect
       train = RubyFann::TrainData.new(:inputs => data[:inputs], :desired_outputs => data[:outputs]) 
       @fann = RubyFann::Standard.new(:num_inputs=>18, :hidden_neurons=>[5,5], :num_outputs=>1)
-      @fann.train_on_data(train,1000,10,0.1)
+      @fann.train_on_data(train,100,10,0.1)
       @trained = true
     end
 

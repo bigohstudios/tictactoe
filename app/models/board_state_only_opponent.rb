@@ -21,7 +21,7 @@ class BoardStateOnlyOpponent
 
       train = RubyFann::TrainData.new(:inputs => data[:inputs], :desired_outputs => data[:outputs]) 
       @fann = RubyFann::Standard.new(:num_inputs=>9, :hidden_neurons=>[5,5], :num_outputs=>9)
-      @fann.train_on_data(train,1000,10,0.1)
+      @fann.train_on_data(train,100,10,0.1)
       @trained = true
     end
 
