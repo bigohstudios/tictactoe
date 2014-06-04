@@ -1,4 +1,7 @@
 class Game < ActiveRecord::Base
+  # 3/6/14 DH: Creating a results table to analyse the NN
+  belongs_to :result
+  
   has_many :board_states, :inverse_of => :game
 
   after_create :make_first_state
@@ -13,6 +16,13 @@ class Game < ActiveRecord::Base
   PLAYER_MAP = {
     1  => 'X',
     -1 => 'O'
+  }
+  
+  # 4/6/14 DH: Ruby constants begin with a capital letter and have global scope within the class
+  PLAYER_RESULTS_MAP = {
+    'RandomOpponent'               => 'random',
+    'BoardStateOnlyOpponent'       => 'state',
+    'BoardStateWithResultOpponent' => 'statewithresult'
   }
 
   def state_for_square(square)
@@ -29,7 +39,9 @@ class Game < ActiveRecord::Base
 
   # Processes all turns until a human's input is required
   def process_ai_turns!
+
     current_player_type = send("player_#{PLAYER_MAP[current_player].downcase}")
+
     until current_player_type == 'Human' || over?
       ai_opponent = current_player_type.classify.constantize
       self.board_states.reload
@@ -85,12 +97,55 @@ class Game < ActiveRecord::Base
     end
   end
 
+  # 4/6/14 DH: Keep results to analyse NN stats
+  def update_scoreboard!
+    #line_item.create_bsc_req!(width: 20, drop: 20, lining: "You", heading: "Beauty")
+    
+    players = PLAYER_MAP.clone
+    resultsHash = Hash.new
+    resultsHash['first'] = PLAYER_RESULTS_MAP[send("player_x")]
+
+    if(game_outcome == 0)
+      puts "Draw for:"
+      players.keys.each do |key|
+        player = send("player_#{players[key].downcase}")
+        puts player
+        resultsHash[PLAYER_RESULTS_MAP[player]] = 0
+      end
+      
+    else
+      winner = send("player_#{players[game_outcome].downcase}")
+      puts "Winner is #{winner}"
+      
+      resultsHash[PLAYER_RESULTS_MAP[winner]] = 1
+      
+      players.delete(game_outcome)
+      
+      looser = send("player_#{players[players.keys.first].downcase}")
+      puts "Looser is #{looser}"
+      
+      resultsHash[PLAYER_RESULTS_MAP[looser]] = 0
+    end
+
+    #create_result(random: , state: , statewithresult: )
+    puts "Calling 'create_result' with #{resultsHash}"
+    create_result(resultsHash)
+    # 4/6/14 DH: Need to save the FK table (after creating a row in the PK table) to store the FK
+    save
+  end
+
   def declare_draw!
     self.update_attributes(:game_outcome => 0)
+
+    # 4/6/14 DH: Keep results to analyse NN stats
+    update_scoreboard!
   end
 
   def declare_victory!(player_number,pattern)
     self.update_attributes(:game_outcome => player_number, :victory_pattern => pattern.join(','))
+    
+    # 4/6/14 DH: Keep results to analyse NN stats
+    update_scoreboard!
   end
 
   def over?
@@ -102,7 +157,9 @@ class Game < ActiveRecord::Base
   end
 
   # 1  = x
-  # -1 = y
+  # -1 = y (or 0)
+  
+  # 4/6/14 DH: X always starts since (0 % 2 == 0)
   def current_player
     current_turn_index % 2 == 0 ? 1 : -1
   end
