@@ -103,6 +103,10 @@ class Game < ActiveRecord::Base
     
     players = PLAYER_MAP.clone
     resultsHash = Hash.new
+    
+    # 5/6/14 DH: Send is a really nice feature of Ruby.  It allows the method to be determined at run-time (a bit like assigning a function pointer in C)
+    #            "player_x" is the name of one of the inputs in the HTML form created by 'views/games/_form.html.haml'
+    #            It is then whitelisted as a 'strong_parameter' by 'GamesController#game_params' and hence given an accessor method
     resultsHash['first'] = PLAYER_RESULTS_MAP[send("player_x")]
 
     if(game_outcome == 0)
@@ -127,11 +131,13 @@ class Game < ActiveRecord::Base
       resultsHash[PLAYER_RESULTS_MAP[looser]] = 0
     end
 
+#debugger
     #create_result(random: , state: , statewithresult: )
     puts "Calling 'create_result' with #{resultsHash}"
     create_result(resultsHash)
     # 4/6/14 DH: Need to save the FK table (after creating a row in the PK table) to store the FK
     save
+
   end
 
   def declare_draw!
@@ -156,8 +162,8 @@ class Game < ActiveRecord::Base
     over? && game_outcome == 0
   end
 
-  # 1  = x
-  # -1 = y (or 0)
+  # 1  = x (or X)
+  # -1 = y (or O)
   
   # 4/6/14 DH: X always starts since (0 % 2 == 0)
   def current_player
