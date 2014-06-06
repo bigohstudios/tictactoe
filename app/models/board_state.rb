@@ -21,7 +21,7 @@ class BoardState < ActiveRecord::Base
 
     moves = []
     available_spaces.each_with_index do |val,i|
-      puts val
+      #puts val
       if val == 1
         move = []
 

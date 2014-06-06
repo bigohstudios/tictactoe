@@ -133,7 +133,7 @@ class Game < ActiveRecord::Base
 
 #debugger
     #create_result(random: , state: , statewithresult: )
-    puts "Calling 'create_result' with #{resultsHash}"
+    #puts "Calling 'create_result' with #{resultsHash}"
     create_result(resultsHash)
     # 4/6/14 DH: Need to save the FK table (after creating a row in the PK table) to store the FK
     save

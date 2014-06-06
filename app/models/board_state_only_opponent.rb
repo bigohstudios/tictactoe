@@ -34,7 +34,7 @@ class BoardStateOnlyOpponent
 #      puts "INPUT: #{input.inspect}"
 
       output = @fann.run(input)
-      puts output.inspect
+#      puts output.inspect
 
       sorted_moves = output.each_with_index.sort_by{|a| a[0]}.reverse!
 

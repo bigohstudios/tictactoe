@@ -35,16 +35,16 @@ class BoardStateWithResultOpponent
     ensure_trained do
       potential_moves = board_state.available_moves.inject([]) do |t,v|
         net_input = [board_state_input,v].flatten
-        puts "considering: #{net_input.inspect}"
+#        puts "considering: #{net_input.inspect}"
 
         t << {:move => v, :fitness => @fann.run(net_input)[0]}
       end
 
       potential_moves.sort_by!{|move| move[:fitness]}.reverse!
 
-      puts potential_moves.inspect
+#      puts potential_moves.inspect
       move = potential_moves[0][:move]
-      puts move.inspect
+      #puts move.inspect
 
       # +1 because squares are numbered 1-9, but array index is 0-8
       square = move.index(1) + 1
