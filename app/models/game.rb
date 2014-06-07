@@ -111,10 +111,17 @@ class Game < ActiveRecord::Base
 
     if(game_outcome == 0)
       puts "Draw for:"
+      playerIdx = 0
       players.keys.each do |key|
-        player = send("player_#{players[key].downcase}")
-        puts player
-        resultsHash[PLAYER_RESULTS_MAP[player]] = 0
+        players[playerIdx] = send("player_#{players[key].downcase}")
+        puts players[playerIdx]
+        resultsHash[PLAYER_RESULTS_MAP[players[playerIdx]]] = 0
+        
+        playerIdx += 1
+      end
+      if ( players[0].eql?(players[1]) )
+        puts "Self draw for #{players[0]}"
+        resultsHash[:self] = 0        
       end
       
     else
@@ -128,11 +135,28 @@ class Game < ActiveRecord::Base
       looser = send("player_#{players[players.keys.first].downcase}")
       puts "Looser is #{looser}"
       
-      resultsHash[PLAYER_RESULTS_MAP[looser]] = 0
-    end
-
+      # 7/6/14 DH: For a self game then this will overwrite the win previously assigned above!
+      if ( winner.eql?(looser) )
 #debugger
-    #create_result(random: , state: , statewithresult: )
+        # 7/6/14 DH: Now need to decide whether the first (ID:player column=1) or second won (ID:self column=1).
+        
+        # Already deleted the winner so we only have the looser left
+        if(players[players.keys.first].downcase == "o") # ie Looser went second
+          # Already assigned 'player column=1'
+          resultsHash["self"] = 0
+          puts "Self game for #{winner} who started"
+        else
+          resultsHash[PLAYER_RESULTS_MAP[winner]] = 0
+          resultsHash["self"] = 1
+          puts "Self game for #{winner} who went second"
+        end
+
+      else
+        resultsHash[PLAYER_RESULTS_MAP[looser]] = 0
+      end
+    end
+    
+    #create_result(random: ?, state: ?, statewithresult: ?)
     #puts "Calling 'create_result' with #{resultsHash}"
     create_result(resultsHash)
     # 4/6/14 DH: Need to save the FK table (after creating a row in the PK table) to store the FK

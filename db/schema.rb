@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140604153414) do
+ActiveRecord::Schema.define(version: 20140607172918) do
 
   create_table "board_states", force: true do |t|
     t.integer  "game_id"
@@ -139,6 +139,7 @@ ActiveRecord::Schema.define(version: 20140604153414) do
     t.string   "first"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "self"
   end
 
 end
