@@ -20,9 +20,13 @@ Adding **statsample-optimization** (https://github.com/sciruby/statsample) for a
 "The amount of time between slipping on the peel and landing on the pavement is precisely 1 bananosecond."
 
 Therefore it needed to be installed from tar-ball:
+
 $ curl -O http://ftp.unicamp.br/pub/gnu/gsl/gsl-1.14.tar.gz
+
 $ tar xvzf gsl-1.14.tar.gz
+
 $ cd gsl-1.14 ; ./configure ; make ; sudo make install
+
 $ bundle
 
 Use-the-force-and-read-the-source...simples!
