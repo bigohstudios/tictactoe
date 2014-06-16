@@ -23,6 +23,6 @@ Therefore it needed to be installed from tar-ball:
 $ curl -O http://ftp.unicamp.br/pub/gnu/gsl/gsl-1.14.tar.gz  
 $ tar xvzf gsl-1.14.tar.gz  
 $ cd gsl-1.14 ; ./configure ; make ; sudo make install  
-$ bundle  
+$ cd ~/src/tictactoe ; bundle  
 
 Use-the-force-and-read-the-source...simples!
