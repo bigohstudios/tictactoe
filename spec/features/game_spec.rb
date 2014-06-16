@@ -36,6 +36,9 @@ describe 'games' do
       
       {first: "random",          second: "statewithresult"},
       {first: "statewithresult", second: "random"},
+      
+      {first: "random",          second: "state"},
+      {first: "state",           second: "random"},      
 
       {first: "random",          second: "random"}
     ]
@@ -72,9 +75,12 @@ describe 'games' do
   # *BoardStateWithResult v BoardStateOnly       (Should do better going first)
   # *Random v BoardStateWithResult
   # *BoardStateWithResult v Random               (Should do better going first)
+  # *BoardStateOnly v Random
+  # *Random v BoardStateOnly
   # *Random v Random                             (First should do better)
   # BoardStateWithResult v BoardStateWithResult (First should do better)
-
+  
+=begin
   it "BoardStateOnly vs BoardStateWithResult" do
 
     game_number.times.each do |number| 
@@ -147,11 +153,45 @@ describe 'games' do
     end
 
   end
+=end
+
+  it "Random vs BoardStateOnly" do
+
+    game_number.times.each do |number| 
+      puts "\n*** GAME 5-#{number+1} ***\n\n"
+      visit "/"
+      click_link "New Game"
+      select "RandomOpponent", :from => "game_player_x"
+      select "BoardStateOnlyOpponent", :from => "game_player_o"
+      click_button "Create Game"
+      
+      expect(page).to have_text("Game ended")
+
+    end
+
+  end
+
+  it "BoardStateOnly vs Random" do
+
+    game_number.times.each do |number| 
+      puts "\n*** GAME 6-#{number+1} ***\n\n"
+      visit "/"
+      click_link "New Game"
+      select "BoardStateOnlyOpponent", :from => "game_player_x"
+      select "RandomOpponent", :from => "game_player_o"
+      click_button "Create Game"
+      
+      expect(page).to have_text("Game ended")
+
+    end
+
+  end
+
 
   it "Random vs Random" do
 
     game_number.times.each do |number| 
-      puts "\n*** GAME 5-#{number+1} ***\n\n"
+      puts "\n*** GAME 7-#{number+1} ***\n\n"
       visit "/"
       click_link "New Game"
       select "RandomOpponent", :from => "game_player_x"

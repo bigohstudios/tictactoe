@@ -56,8 +56,6 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     extendmatrix (0.3.1)
-    factory_girl (4.4.0)
-      activesupport (>= 3.0.0)
     fastercsv (1.5.5)
     gsl (1.15.3)
       narray (>= 0.5.9)
@@ -218,7 +216,6 @@ DEPENDENCIES
   capybara (>= 2.2.0.beta)
   coffee-rails (~> 4.0.0.beta1)
   debugger
-  factory_girl
   haml
   html2haml
   jbuilder (~> 1.0.1)
