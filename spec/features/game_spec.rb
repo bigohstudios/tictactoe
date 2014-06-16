@@ -80,7 +80,6 @@ describe 'games' do
   # *Random v Random                             (First should do better)
   # BoardStateWithResult v BoardStateWithResult (First should do better)
   
-=begin
   it "BoardStateOnly vs BoardStateWithResult" do
 
     game_number.times.each do |number| 
@@ -153,7 +152,6 @@ describe 'games' do
     end
 
   end
-=end
 
   it "Random vs BoardStateOnly" do
 
