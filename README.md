@@ -1,4 +1,4 @@
-# Analysis of TicTacToe NN #
+# Analysis of TicTacToe Neural Network #
 
 ### TicTacToe probability ###
 
@@ -11,7 +11,93 @@ All attempts to log in and order Joshua to cancel the countdown fail, and all we
 
 ### Adding Results table ###
 
+$ rails g model result random:integer state:integer statewithresult:integer first:string self:integer  
+$ rails g migration AddResultsIDToGames result:references  
+$ rake db:migrate RAILS_ENV=test  
+
+```
+class Game < ActiveRecord::Base
+  belongs_to :result
+  ...
+  def update_scoreboard!
+    [Create a hash of the winner and looser for each game and who went first]
+    # Call ActiveRecord association auto generated method
+    create_result(resultsHash)
+    # Save the FK table (after creating a row in the PK table) to store the FK
+    save
+  end
+end
+
+class Result < ActiveRecord::Base
+  has_one :game
+end
+```
+
+
 ### RSpec test runs ###
+
+This uses the Capybara feature specs of RSpec to leverage the original webpage (now we're surfing big wave rails) 
+
+### Neural Network analysis
+
+```
+Total games 1377
+
+Sub-Total games                                                            362
+BoardStateOnlyOpponent         won                                         144 (39.8 %) [FIRST]
+BoardStateWithResultOpponent   won                                         185 (51.1 %) [SECOND]
+BoardStateOnlyOpponent         drew against BoardStateWithResultOpponent    33 (9.1 %)
+Total percentage = 100.0%
+[Well that figures]
+
+Sub-Total games                                                            137
+BoardStateWithResultOpponent   won                                         136 (99.3 %) [FIRST]
+BoardStateOnlyOpponent         won                                           1 (0.7 %) [SECOND]
+BoardStateWithResultOpponent   drew against BoardStateOnlyOpponent           0 (0.0 %)
+Total percentage = 100.0%
+[Well that figures]
+
+Sub-Total games                                                            238
+RandomOpponent                 won                                          71 (29.8 %) [FIRST]
+BoardStateWithResultOpponent   won                                         109 (45.8 %) [SECOND]
+RandomOpponent                 drew against BoardStateWithResultOpponent    58 (24.4 %)
+Total percentage = 100.0%
+[Well that figures]
+
+Sub-Total games                                                            212
+BoardStateWithResultOpponent   won                                         149 (70.3 %) [FIRST]
+RandomOpponent                 won                                          37 (17.5 %) [SECOND]
+BoardStateWithResultOpponent   drew against RandomOpponent                  26 (12.3 %)
+Total percentage = 100.1%
+[Well that figures]
+
+Sub-Total games                                                            103
+RandomOpponent                 won                                          30 (29.1 %) [FIRST]
+BoardStateOnlyOpponent         won                                          27 (26.2 %) [SECOND]
+RandomOpponent                 drew against BoardStateOnlyOpponent          46 (44.7 %)
+Total percentage = 100.0%
+[Well that figures]
+
+Sub-Total games                                                            103
+BoardStateOnlyOpponent         won                                          27 (26.2 %) [FIRST]
+RandomOpponent                 won                                          22 (21.4 %) [SECOND]
+BoardStateOnlyOpponent         drew against RandomOpponent                  54 (52.4 %)
+Total percentage = 100.0%
+[Well that figures]
+
+Sub-Total games                                                            222
+RandomOpponent                 won                                          96 (43.2 %) [FIRST]
+RandomOpponent                 won                                          53 (23.9 %) [SECOND]
+RandomOpponent                 drew against RandomOpponent                  73 (32.9 %)
+Total percentage = 100.0%
+[Well that figures]
+```
+
+From this you can clearly see the advantage in going first by Random self playing.  
+The NN learning advantage with BoardStateWithResultOpponent.  
+However the minimal, if any, advantage of BoardStateOnlyOpponent over Random  
+
+It's now time to combine sports science with computer science (and the reason for creating this enhancement)...
 
 ### Further stats ###
 
