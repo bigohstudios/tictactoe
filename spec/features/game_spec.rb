@@ -52,21 +52,6 @@ describe 'games' do
       puts "\nSubtotal of #{subtotal} does not equal total of #{totalGames}!"
     end
     
-=begin
-    # 6/6/14 DH: Need to create hash array to loop through game permutations...
-    subtotal1 = getResults(first: "random", second: "statewithresult")
-    subtotal2 = getResults(first: "statewithresult", second: "random")
-    subtotal3 = getResults(first: "state", second: "statewithresult")
-    
-    # 6/6/14 DH: results table does not have a self column to store result of playing yourself!
-    subtotal4 = getResults(first: "random", second: "random")
-    
-    subtotal = subtotal1 + subtotal2 + subtotal3 + subtotal4
-    if (subtotal != totalGames)
-      puts "\nSubtotal of #{subtotal} does not equal total of #{totalGames}!"
-    end
-=end
-
   end
 
   # Results = first win, second win, draw

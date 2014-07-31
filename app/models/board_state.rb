@@ -16,6 +16,7 @@ class BoardState < ActiveRecord::Base
     b
   end
 
+  # 4/7/14 DH: This is the difference to 'board_state_only'
   def available_moves
     available_spaces = (1..9).collect{|i| send("s#{i}") == 0 ? 1 : 0}
 

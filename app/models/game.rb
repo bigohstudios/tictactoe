@@ -45,7 +45,7 @@ class Game < ActiveRecord::Base
     until current_player_type == 'Human' || over?
       ai_opponent = current_player_type.classify.constantize
       self.board_states.reload
-      take_turn(ai_opponent.get_move(self.current_state,self.current_player))
+      take_turn( ai_opponent.get_move(self.current_state,self.current_player) )
       current_player_type = send("player_#{PLAYER_MAP[current_player].downcase}")
     end
   end
