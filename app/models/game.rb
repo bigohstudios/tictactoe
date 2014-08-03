@@ -10,7 +10,9 @@ class Game < ActiveRecord::Base
     'Human',
     'RandomOpponent',
     'BoardStateOnlyOpponent',
-    'BoardStateWithResultOpponent'
+    'BoardStateWithResultOpponent',
+    # 2/8/14 DH: Added to assess trg sample size effect
+    'BoardStateResultOpponent'
   ]
 
   PLAYER_MAP = {
@@ -22,7 +24,8 @@ class Game < ActiveRecord::Base
   PLAYER_RESULTS_MAP = {
     'RandomOpponent'               => 'random',
     'BoardStateOnlyOpponent'       => 'state',
-    'BoardStateWithResultOpponent' => 'statewithresult'
+    'BoardStateWithResultOpponent' => 'statewithresult',
+    'BoardStateResultOpponent'     => 'stateresult'
   }
 
   def state_for_square(square)

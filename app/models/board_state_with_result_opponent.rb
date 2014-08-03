@@ -1,13 +1,17 @@
 require 'csv'
 
 class BoardStateWithResultOpponent
+
   PATH_TO_RAW_DATA = "/training_data/board_state_with_result.csv"
 
   def self.parse_raw_data_file
     inputs = []
     outputs = []
     rows = 0
-    CSV.foreach(File.join(Rails.root,PATH_TO_RAW_DATA)) do |row|
+    
+    # 3/8/14 DH: Since inheriting this class now, the trg data filename needs to be fully qualified
+    #            (otherwise the parent constant is used)
+    CSV.foreach(File.join(Rails.root,self::PATH_TO_RAW_DATA)) do |row|
       inputs  << (0...18).collect{|i| row[i].to_f}
       outputs << [row[18].to_f]
       rows += 1
@@ -52,11 +56,16 @@ class BoardStateWithResultOpponent
     # 4/7/14 DH: Inverts the board for player O (ie -1)
     board_state_input = board_state.as_input_array.collect{|s| s * current_player}
 
-    ensure_trained do
+    ensure_trained do # with 7655 samples
       ###
       # 4/7/14 DH: This is the difference to 'board_state_only'
       # Make the "memo", ie 't', an array (by passing an empty array as argument) and take each "value", 
       # create a hash containing the NN output and add it to the array
+      
+      ####################################################################################
+      # MOVE = n * (CURRENT BOARD + NN SCORE OF EACH POTENTIAL MOVE) + TAKE HIGHEST SCORE
+      ####################################################################################
+      
       potential_moves = board_state.available_moves.inject([]) do |t,v|
 
         # Combine the arrays of the inverted (if necessary for 'O') current board and each available move 
@@ -74,7 +83,7 @@ class BoardStateWithResultOpponent
 #      puts potential_moves.inspect
       move = potential_moves[0][:move]
       #puts move.inspect
-debugger
+#debugger
       # +1 because squares are numbered 1-9, but array index is 0-8
       square = move.index(1) + 1
 

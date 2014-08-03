@@ -40,7 +40,11 @@ describe 'games' do
       {first: "random",          second: "state"},
       {first: "state",           second: "random"},      
 
-      {first: "random",          second: "random"}
+      {first: "random",          second: "random"},
+      
+      {first: "statewithresult", second: "statewithresult"},
+      {first: "statewithresult", second: "stateresult"},
+      {first: "stateresult", second: "statewithresult"}
     ]
     
     subtotal = 0
@@ -63,8 +67,11 @@ describe 'games' do
   # *BoardStateOnly v Random
   # *Random v BoardStateOnly
   # *Random v Random                             (First should do better)
-  # BoardStateWithResult v BoardStateWithResult (First should do better)
+  # *BoardStateWithResult v BoardStateWithResult  (First should do better)
+  # *BoardStateWithResult v BoardStateResult      (Find effect of longer trg)
+  # BoardStateResult v BoardStateWithResult       (Find more about shorter trg)
   
+=begin
   it "BoardStateOnly vs BoardStateWithResult" do
 
     game_number.times.each do |number| 
@@ -186,7 +193,58 @@ describe 'games' do
     end
 
   end
+=end
 
+  it "BoardStateWithResult vs BoardStateWithResult" do
+
+    game_number.times.each do |number| 
+      puts "\n*** GAME 8-#{number+1} ***\n\n"
+      visit "/"
+      click_link "New Game"
+      select "BoardStateWithResultOpponent", :from => "game_player_x"
+      select "BoardStateWithResultOpponent", :from => "game_player_o"
+      click_button "Create Game"
+      
+      expect(page).to have_text("Game ended")
+
+    end
+
+  end
+
+  it "BoardStateWithResult vs BoardStateResult" do
+
+    game_number.times.each do |number| 
+      puts "\n*** GAME 9-#{number+1} ***\n\n"
+      visit "/"
+      click_link "New Game"
+      select "BoardStateWithResultOpponent", :from => "game_player_x"
+      select "BoardStateResultOpponent", :from => "game_player_o"
+      click_button "Create Game"
+      
+      expect(page).to have_text("Game ended")
+
+    end
+
+  end
+
+  it "BoardStateResult vs BoardStateWithResult" do
+
+    game_number.times.each do |number| 
+      puts "\n*** GAME 10-#{number+1} ***\n\n"
+      visit "/"
+      click_link "New Game"
+      select "BoardStateResultOpponent", :from => "game_player_x"
+      select "BoardStateWithResultOpponent", :from => "game_player_o"
+      click_button "Create Game"
+      
+      expect(page).to have_text("Game ended")
+
+    end
+
+  end
+
+
+  # -----------------------------------------------------------------------------------------------------
   
   def getResults(args = {})
     #puts args[:first]

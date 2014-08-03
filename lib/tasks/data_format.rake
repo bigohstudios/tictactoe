@@ -13,8 +13,10 @@ class BoardStateWithResultTrg
     rows = 0
     CSV.foreach(File.join(Rails.root,PATH_TO_RAW_DATA)) do |row|
       inputs  << (0...18).collect{|i| row[i].to_i}
+      
       boards  << (0...9).collect{|i| row[i].to_i}
       moves  << (9...18).collect{|i| row[i].to_i}
+      
       outputs << [row[18].to_i]
       rows += 1
     end

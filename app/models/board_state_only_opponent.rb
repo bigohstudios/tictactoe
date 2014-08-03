@@ -52,20 +52,26 @@ class BoardStateOnlyOpponent
   end
 
   def self.get_move(board_state,current_player)
-    ensure_trained do
+    ensure_trained do # with 30 samples
+    
+      ##########################################################################################
+      # MOVE = 1 * (NN SCORE FOR EACH SQUARE OF CURRENT BOARD) + TAKE HIGHEST NOT ALREADY TAKEN 
+      ##########################################################################################
 
       input = (1...9).collect{|i| board_state.send("s#{i}")}
 #      puts "INPUT: #{input.inspect}"
 
       # 30/7/14 DH: Run once with an input array of values for each square (like the training data input)
+      #             This gives an output of 9 squares (due to NN cfg)
       output = @fann.run(input)
 #      puts output.inspect
 
       sorted_moves = output.each_with_index.sort_by{|a| a[0]}.reverse!
 
+      # 31/7/14 DH: Find empty square with best sorted_move
       # +1 because squares are numbered 1-9, but array index is 0-8
       square = sorted_moves.detect{|move_and_index| board_state.send("s#{move_and_index[1]+1}") == 0}
-debugger
+#debugger
 #      puts "#{self} choosing #{square[1]}: #{sorted_moves.inspect}"
 
       "s#{square[1]+1}" # "s[1-9]=" passed to 'Game.take_turn' which is a setter method
