@@ -1,8 +1,9 @@
 require 'spec_helper'
 
 describe 'games' do
-  let(:game_number) { 1 }
+  let(:game_number) { 10 }
 
+=begin
   before(:all) do
 
     puts "\n*** NN TRG ***\n\n"
@@ -14,6 +15,7 @@ describe 'games' do
     expect(page).to have_text("Game ended")
 
   end
+=end
   
   after(:all) do
     # Analyse results table
@@ -49,6 +51,10 @@ describe 'games' do
     
     subtotal = 0
     gameSet.each do |game|
+      # 14/8/14 DH: SQLite requires numerical date format (PostgreSQL supports normal written dates)
+      # 3/10/14 DH: Left in after getting results in 'getResults' after a specified date
+      game[:date] = '2014-08-10'
+      
       subtotal += getResults(game)
     end
     
@@ -69,7 +75,7 @@ describe 'games' do
   # *Random v Random                             (First should do better)
   # *BoardStateWithResult v BoardStateWithResult  (First should do better)
   # *BoardStateWithResult v BoardStateResult      (Find effect of longer trg)
-  # BoardStateResult v BoardStateWithResult       (Find more about shorter trg)
+  # *BoardStateResult v BoardStateWithResult      (Find more about shorter trg)
   
 =begin
   it "BoardStateOnly vs BoardStateWithResult" do
@@ -177,7 +183,6 @@ describe 'games' do
 
   end
 
-
   it "Random vs Random" do
 
     game_number.times.each do |number| 
@@ -193,7 +198,6 @@ describe 'games' do
     end
 
   end
-=end
 
   it "BoardStateWithResult vs BoardStateWithResult" do
 
@@ -210,6 +214,8 @@ describe 'games' do
     end
 
   end
+
+=end
 
   it "BoardStateWithResult vs BoardStateResult" do
 
