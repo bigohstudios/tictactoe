@@ -28,8 +28,6 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
 
-gem 'ruby-fann'
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -40,4 +38,12 @@ gem 'ruby-fann'
 # gem 'capistrano', group: :development
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
+
+gem 'ruby-fann'
+
+gem 'capybara', '>=2.2.0.beta'
+gem 'rspec-rails', '~> 3.0.0.rc1'
+
+gem 'statsample-optimization'
+

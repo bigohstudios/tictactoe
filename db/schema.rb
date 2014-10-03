@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130719194704) do
+ActiveRecord::Schema.define(version: 20140803093015) do
 
   create_table "board_states", force: true do |t|
     t.integer  "game_id"
@@ -127,6 +127,20 @@ ActiveRecord::Schema.define(version: 20130719194704) do
     t.string   "player_x"
     t.string   "player_o"
     t.string   "victory_pattern"
+    t.integer  "result_id"
+  end
+
+  add_index "games", ["result_id"], name: "index_games_on_result_id"
+
+  create_table "results", force: true do |t|
+    t.integer  "random"
+    t.integer  "state"
+    t.integer  "statewithresult"
+    t.string   "first"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "self"
+    t.integer  "stateresult"
   end
 
 end
