@@ -29,7 +29,8 @@ class GamesController < ApplicationController
     respond_to do |format|
       if @game.save
         @game.process_ai_turns!
-        format.html { redirect_to @game, notice: 'Wouldn\'t you prefer a nice game of chess?' }
+        format.html { 
+          redirect_to game_path(@game), notice: 'Wouldn\'t you prefer a nice game of chess?'  }
         format.json { render action: 'show', status: :created, location: @game }
       else
         format.html { render action: 'new' }
@@ -43,7 +44,7 @@ class GamesController < ApplicationController
   def update
     respond_to do |format|
       if @game.update(game_params)
-        format.html { redirect_to @game, notice: 'Game was successfully updated.' }
+        format.html { redirect_to game_path(@game), notice: 'Game was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

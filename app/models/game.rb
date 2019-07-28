@@ -27,6 +27,10 @@ class Game < ActiveRecord::Base
     board_states.ordered.first || nil
   end
 
+  def to_param
+    self.id.to_s
+  end
+
   # Processes all turns until a human's input is required
   def process_ai_turns!
     current_player_type = send("player_#{PLAYER_MAP[current_player].downcase}")

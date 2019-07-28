@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20130719194704) do
 
-  create_table "board_states", force: true do |t|
+  create_table "board_states", force: :cascade do |t|
     t.integer  "game_id"
     t.integer  "turn_index", default: 0
     t.integer  "s1",         default: 0
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20130719194704) do
     t.datetime "updated_at"
   end
 
-  create_table "emails", force: true do |t|
+  create_table "emails", force: :cascade do |t|
     t.string   "filename"
     t.float    "character_count",                   default: 0.0
     t.float    "alpha_numeric_count",               default: 0.0
@@ -119,7 +119,7 @@ ActiveRecord::Schema.define(version: 20130719194704) do
     t.datetime "updated_at"
   end
 
-  create_table "games", force: true do |t|
+  create_table "games", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "current_turn_index", default: 0
